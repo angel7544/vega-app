@@ -7,12 +7,15 @@ import {TouchableOpacity} from 'react-native';
 import useThemeStore from '../lib/zustand/themeStore';
 import useWatchListStore from '../lib/zustand/watchListStore';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
+import Feather from '@expo/vector-icons/Feather';
 import {StatusBar} from 'expo-status-bar';
+import {useShowNavBarOnScroll} from '../lib/hooks/useShowNavBarOnScroll';
 
 const WatchList = () => {
-  const {primary} = useThemeStore(state => state);
+  const {primary, mode} = useThemeStore(state => state);
   const navigation =
     useNavigation<NativeStackNavigationProp<WatchListStackParamList>>();
+  const {handleScroll} = useShowNavBarOnScroll();
   const {watchList} = useWatchListStore(state => state);
 
   // Calculate how many items can fit per row
@@ -59,7 +62,9 @@ const WatchList = () => {
           source={{uri: item.poster}}
         />
         <Text
-          className="text-white text-xs truncate text-center mt-1"
+          className={`${
+            mode === 'dark' ? 'text-white' : 'text-black'
+          } text-xs truncate text-center mt-1`}
           style={{maxWidth: itemWidth}}
           numberOfLines={1}>
           {item.title}
@@ -69,11 +74,14 @@ const WatchList = () => {
   );
 
   return (
-    <View className="flex-1 bg-black justify-center items-center">
+    <View
+      className={`flex-1 ${
+        mode === 'dark' ? 'bg-black' : 'bg-white'
+      } justify-center items-center`}>
       <StatusBar translucent backgroundColor="transparent" />
 
       <View
-        className="w-full bg-black"
+        className={`w-full ${mode === 'dark' ? 'bg-black' : 'bg-white'}`}
         style={{
           paddingTop: Platform.OS === 'android' ? 15 : 0, // Adjust for Android status bar height
         }}
@@ -81,8 +89,8 @@ const WatchList = () => {
 
       <View className="flex-1 w-full px-3">
         <Text
-          className="text-2xl text-center font-bold mb-6 mt-4"
-          style={{color: primary}}>
+          className={`text-2xl text-center font-bold mb-6 mt-4 ${mode === 'dark' ? '' : 'text-black'}`}
+          style={mode === 'dark' ? {color: primary} : {}}>
           Watchlist
         </Text>
 
@@ -99,18 +107,30 @@ const WatchList = () => {
             contentContainerStyle={{
               paddingBottom: 50,
             }}
+            onScroll={handleScroll}
+            scrollEventThrottle={16}
             showsVerticalScrollIndicator={false}
           />
         ) : (
           <View className="flex-1">
             <View className="items-center justify-center mt-20 mb-12">
-              <MaterialCommunityIcons
-                name="playlist-remove"
-                size={80}
-                color={primary}
-              />
-              <Text className="text-white/70 text-base mt-4 text-center">
+              <View
+                className={`${
+                  mode === 'dark' ? 'bg-white/5' : 'bg-gray-100'
+                } rounded-full p-8 mb-6`}>
+                <Feather name="film" size={60} color={primary} />
+              </View>
+              <Text
+                className={`${
+                  mode === 'dark' ? 'text-white' : 'text-black'
+                } font-bold text-lg text-center`}>
                 Your WatchList is empty
+              </Text>
+              <Text
+                className={`${
+                  mode === 'dark' ? 'text-gray-400' : 'text-gray-500'
+                } text-sm text-center mt-2`}>
+                Items you save for later will appear here
               </Text>
             </View>
           </View>

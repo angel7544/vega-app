@@ -8,8 +8,10 @@ const storage = new MMKVLoader().initialize();
 export interface Theme {
   primary: string;
   isCustom: boolean;
+  mode: 'light' | 'dark';
   setPrimary: (type: Theme['primary']) => void;
   setCustom: (isCustom: boolean) => void;
+  setMode: (mode: Theme['mode']) => void;
 }
 
 const useThemeStore = create<Theme>()(
@@ -17,6 +19,7 @@ const useThemeStore = create<Theme>()(
     set => ({
       primary: settingsStorage.getPrimaryColor(),
       isCustom: settingsStorage.isCustomTheme(),
+      mode: settingsStorage.getThemeMode(),
 
       setPrimary: (primary: Theme['primary']) => {
         set({primary});
@@ -25,6 +28,10 @@ const useThemeStore = create<Theme>()(
       setCustom: (isCustom: Theme['isCustom']) => {
         set({isCustom});
         settingsStorage.setCustomTheme(isCustom);
+      },
+      setMode: (mode: Theme['mode']) => {
+        set({mode});
+        settingsStorage.setThemeMode(mode);
       },
     }),
     {

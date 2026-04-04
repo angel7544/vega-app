@@ -12,6 +12,7 @@ export enum WatchHistoryKeys {
  * Interface for watch history item
  */
 export interface WatchHistoryItem {
+  image: string | undefined;
   id: string;
   title: string;
   poster?: string;

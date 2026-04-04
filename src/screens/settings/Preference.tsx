@@ -38,7 +38,7 @@ const getCrashlytics = (): any | null => {
 
 const Preferences = () => {
   const hasFirebase = Boolean(Constants?.expoConfig?.extra?.hasFirebase);
-  const {primary, setPrimary, isCustom, setCustom} = useThemeStore(
+  const {primary, setPrimary, isCustom, setCustom, mode} = useThemeStore(
     state => state,
   );
   const [showRecentlyWatched, setShowRecentlyWatched] = useState(
@@ -98,27 +98,27 @@ const Preferences = () => {
 
   return (
     <ScrollView
-      className="w-full h-full bg-black"
+      className={`w-full h-full ${mode === 'dark' ? 'bg-black' : 'bg-white'}`}
       contentContainerStyle={{
         paddingTop: StatusBar.currentHeight || 0,
       }}>
       <View className="p-5">
-        <Text className="text-2xl font-bold text-white mb-6">Preferences</Text>
+        <Text className={`text-2xl font-bold ${mode === 'dark' ? 'text-white' : 'text-black'} mb-6`}>Preferences</Text>
 
         {/* Theme Section */}
         <View className="mb-6">
-          <Text className="text-gray-400 text-sm mb-3">Appearance</Text>
-          <View className="bg-[#1A1A1A] rounded-xl overflow-hidden">
+          <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-sm mb-3`}>Appearance</Text>
+          <View className={`${mode === 'dark' ? 'bg-[#1A1A1A]' : 'bg-gray-100'} rounded-xl overflow-hidden`}>
             {/* Theme Selector */}
-            <View className="flex-row items-center px-4 justify-between p-4 border-b border-[#262626]">
-              <Text className="text-white text-base">Theme</Text>
+            <View className={`flex-row items-center px-4 justify-between p-4 border-b ${mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'}`}>
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>Theme</Text>
               <View className="w-36">
                 {isCustom ? (
                   <View className="flex-row items-center gap-2">
                     <TextInput
                       style={{
-                        color: 'white',
-                        backgroundColor: '#262626',
+                        color: mode === 'dark' ? 'white' : 'black',
+                        backgroundColor: mode === 'dark' ? '#262626' : '#E5E7EB',
                         borderRadius: 8,
                         paddingHorizontal: 8,
                         paddingVertical: 4,
@@ -155,28 +155,28 @@ const Preferences = () => {
                 ) : (
                   <Dropdown
                     selectedTextStyle={{
-                      color: 'white',
+                      color: mode === 'dark' ? 'white' : 'black',
                       fontSize: 14,
                       fontWeight: '500',
                     }}
                     containerStyle={{
-                      backgroundColor: '#262626',
+                      backgroundColor: mode === 'dark' ? '#262626' : '#E5E7EB',
                       borderRadius: 8,
                       borderWidth: 0,
                       marginTop: 4,
                     }}
-                    itemTextStyle={{color: 'white'}}
-                    activeColor="#3A3A3A"
+                    itemTextStyle={{color: mode === 'dark' ? 'white' : 'black'}}
+                    activeColor={mode === 'dark' ? '#3A3A3A' : '#D1D5DB'}
                     itemContainerStyle={{
-                      backgroundColor: '#262626',
+                      backgroundColor: mode === 'dark' ? '#262626' : '#E5E7EB',
                       borderWidth: 0,
                     }}
                     style={{
-                      backgroundColor: '#262626',
+                      backgroundColor: mode === 'dark' ? '#262626' : '#E5E7EB',
                       borderWidth: 0,
                     }}
-                    iconStyle={{tintColor: 'white'}}
-                    placeholderStyle={{color: 'white'}}
+                    iconStyle={{tintColor: mode === 'dark' ? 'white' : 'black'}}
+                    placeholderStyle={{color: mode === 'dark' ? 'white' : 'gray'}}
                     labelField="name"
                     valueField="color"
                     data={themes}
@@ -195,8 +195,8 @@ const Preferences = () => {
             </View>
 
             {/* Haptic Feedback */}
-            <View className="flex-row items-center justify-between p-4 border-b border-[#262626]">
-              <Text className="text-white text-base">Haptic Feedback</Text>
+            <View className={`flex-row items-center justify-between p-4 border-b ${mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'}`}>
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>Haptic Feedback</Text>
               <Switch
                 thumbColor={hapticFeedback ? primary : 'gray'}
                 value={hapticFeedback}
@@ -208,8 +208,8 @@ const Preferences = () => {
             </View>
 
             {/* Analytics & Crashlytics Opt-In */}
-            <View className="flex-row items-center justify-between p-4 border-b border-[#262626]">
-              <Text className="text-white text-base">
+            <View className={`flex-row items-center justify-between p-4 border-b ${mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'}`}>
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>
                 Usage & Crash Reports
               </Text>
               <Switch
@@ -246,8 +246,8 @@ const Preferences = () => {
             </View>
 
             {/* Show Tab Bar Labels */}
-            <View className="flex-row items-center justify-between p-4 border-b border-[#262626]">
-              <Text className="text-white text-base">Show Tab Bar Labels</Text>
+            <View className={`flex-row items-center justify-between p-4 border-b ${mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'}`}>
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>Show Tab Bar Labels</Text>
               <Switch
                 thumbColor={showTabBarLables ? primary : 'gray'}
                 value={showTabBarLables}
@@ -263,8 +263,8 @@ const Preferences = () => {
             </View>
 
             {/* Show Hamburger Menu */}
-            <View className="flex-row items-center justify-between p-4 border-b border-[#262626]">
-              <Text className="text-white text-base">Show Hamburger Menu</Text>
+            <View className={`flex-row items-center justify-between p-4 border-b ${mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'}`}>
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>Show Hamburger Menu</Text>
               <Switch
                 thumbColor={showHamburgerMenu ? primary : 'gray'}
                 value={showHamburgerMenu}
@@ -276,8 +276,8 @@ const Preferences = () => {
             </View>
 
             {/* Show Recently Watched */}
-            <View className="flex-row items-center justify-between p-4 border-b border-[#262626]">
-              <Text className="text-white text-base">
+            <View className={`flex-row items-center justify-between p-4 border-b ${mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'}`}>
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>
                 Show Recently Watched
               </Text>
               <Switch
@@ -294,8 +294,8 @@ const Preferences = () => {
             </View>
 
             {/* Disable Drawer */}
-            <View className="flex-row items-center justify-between p-4 border-b border-[#262626]">
-              <Text className="text-white text-base">Disable Drawer</Text>
+            <View className={`flex-row items-center justify-between p-4 border-b ${mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'}`}>
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>Disable Drawer</Text>
               <Switch
                 thumbColor={disableDrawer ? primary : 'gray'}
                 value={disableDrawer}
@@ -308,7 +308,7 @@ const Preferences = () => {
 
             {/* Always Use External Downloader */}
             <View className="flex-row items-center justify-between p-4">
-              <Text className="text-white text-base flex-1">
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base flex-1`}>
                 Always Use External Downloader
               </Text>
               <Switch
@@ -328,11 +328,11 @@ const Preferences = () => {
 
         {/* Player Settings */}
         <View className="mb-6">
-          <Text className="text-gray-400 text-sm mb-3">Player</Text>
-          <View className="bg-[#1A1A1A] rounded-xl overflow-hidden">
+          <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-sm mb-3`}>Player</Text>
+          <View className={`${mode === 'dark' ? 'bg-[#1A1A1A]' : 'bg-gray-100'} rounded-xl overflow-hidden`}>
             {/* External Player */}
-            <View className="flex-row items-center justify-between p-4 border-b border-[#262626]">
-              <Text className="text-white text-base flex-1">
+            <View className={`flex-row items-center justify-between p-4 border-b ${mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'}`}>
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base flex-1`}>
                 Always Use External Player
               </Text>
               <Switch
@@ -346,8 +346,8 @@ const Preferences = () => {
             </View>
 
             {/* Media Controls */}
-            <View className="flex-row items-center justify-between p-4 border-b border-[#262626]">
-              <Text className="text-white text-base">Media Controls</Text>
+            <View className={`flex-row items-center justify-between p-4 border-b ${mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'}`}>
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>Media Controls</Text>
               <Switch
                 thumbColor={showMediaControls ? primary : 'gray'}
                 value={showMediaControls}
@@ -359,8 +359,8 @@ const Preferences = () => {
             </View>
 
             {/* Hide Seek Buttons */}
-            <View className="flex-row items-center justify-between p-4 border-b border-[#262626]">
-              <Text className="text-white text-base">Hide Seek Buttons</Text>
+            <View className={`flex-row items-center justify-between p-4 border-b ${mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'}`}>
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>Hide Seek Buttons</Text>
               <Switch
                 thumbColor={hideSeekButtons ? primary : 'gray'}
                 value={hideSeekButtons}
@@ -373,7 +373,7 @@ const Preferences = () => {
 
             {/* Swipe Gestures */}
             <View className="flex-row items-center justify-between p-4">
-              <Text className="text-white text-base">
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>
                 Enable Swipe Gestures
               </Text>
               <Switch
@@ -390,9 +390,9 @@ const Preferences = () => {
 
         {/* Quality Settings */}
         <View className="mb-6">
-          <Text className="text-gray-400 text-sm mb-3">Quality</Text>
-          <View className="bg-[#1A1A1A] rounded-xl p-4">
-            <Text className="text-white text-base mb-3">
+          <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-sm mb-3`}>Quality</Text>
+          <View className={`${mode === 'dark' ? 'bg-[#1A1A1A]' : 'bg-gray-100'} rounded-xl p-4`}>
+            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base mb-3`}>
               Excluded Qualities
             </Text>
             <View className="flex-row flex-wrap gap-2">
@@ -412,10 +412,10 @@ const Preferences = () => {
                   style={{
                     backgroundColor: ExcludedQualities.includes(quality)
                       ? primary
-                      : '#262626',
+                      : (mode === 'dark' ? '#262626' : '#E5E7EB'),
                   }}
                   className="px-4 py-2 rounded-lg">
-                  <Text className="text-white text-sm">{quality}</Text>
+                  <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-sm`}>{quality}</Text>
                 </TouchableOpacity>
               ))}
             </View>

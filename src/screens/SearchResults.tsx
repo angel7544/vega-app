@@ -12,6 +12,7 @@ import {SearchStackParamList} from '../App';
 import useThemeStore from '../lib/zustand/themeStore';
 import {providerManager} from '../lib/services/ProviderManager';
 import useContentStore from '../lib/zustand/contentStore';
+import {useShowNavBarOnScroll} from '../lib/hooks/useShowNavBarOnScroll';
 
 type Props = NativeStackScreenProps<SearchStackParamList, 'SearchResults'>;
 
@@ -25,7 +26,8 @@ interface SearchPageData {
 }
 
 const SearchResults = ({route}: Props): React.ReactElement => {
-  const {primary} = useThemeStore(state => state);
+  const {primary, mode} = useThemeStore(state => state);
+  const {handleScroll} = useShowNavBarOnScroll();
   const {installedProviders} = useContentStore(state => state);
   const [searchData, setSearchData] = useState<SearchPageData[]>([]);
   const [emptyResults, setEmptyResults] = useState<SearchPageData[]>([]);
@@ -192,12 +194,15 @@ const SearchResults = ({route}: Props): React.ReactElement => {
   );
 
   return (
-    <SafeAreaView className="bg-black h-full w-full">
-      <ScrollView showsVerticalScrollIndicator={false}>
+    <SafeAreaView className={`${mode === 'dark' ? 'bg-black' : 'bg-white'} h-full w-full`}>
+      <ScrollView
+        showsVerticalScrollIndicator={false}
+        onScroll={handleScroll}
+        scrollEventThrottle={16}>
         <View className="mt-14 px-4 flex flex-row justify-between items-center gap-x-3">
-          <Text className="text-white text-2xl font-semibold ">
+          <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-2xl font-semibold `}>
             {isAllLoaded ? 'Searched for' : 'Searching for'}{' '}
-            <Text style={{color: primary}}>"{route?.params?.filter}"</Text>
+            <Text className={mode === 'dark' ? '' : 'text-black'} style={mode === 'dark' ? {color: primary} : {}}>"{route?.params?.filter}"</Text>
           </Text>
           {!isAllLoaded && (
             <View className="flex justify-center items-center h-20">

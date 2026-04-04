@@ -7,16 +7,19 @@ import {MaterialIcons} from '@expo/vector-icons';
 
 type Props = NativeStackScreenProps<HomeStackParamList, 'Webview'>;
 
+import useThemeStore from '../lib/zustand/themeStore';
+
 const Webview = ({route, navigation}: Props) => {
+  const {mode} = useThemeStore(state => state);
   return (
-    <SafeAreaView className="bg-black w-full h-full">
-      <View className="bg-black w-full mt-6 h-16 flex flex-row justify-between p-3 items-center">
-        <Text className="text-white text-lg font-bold">Webview</Text>
+    <SafeAreaView className={`${mode === 'dark' ? 'bg-black' : 'bg-white'} w-full h-full`}>
+      <View className={`${mode === 'dark' ? 'bg-black' : 'bg-white'} w-full mt-6 h-16 flex flex-row justify-between p-3 items-center`}>
+        <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-lg font-bold`}>Webview</Text>
         <View className="flex flex-row items-center gap-5">
           <MaterialIcons
             name="open-in-browser"
             size={24}
-            color="white"
+            color={mode === 'dark' ? 'white' : 'black'}
             onPress={() => {
               Linking.openURL(route.params.link);
             }}
@@ -24,7 +27,7 @@ const Webview = ({route, navigation}: Props) => {
           <MaterialIcons
             name="close"
             size={24}
-            color="white"
+            color={mode === 'dark' ? 'white' : 'black'}
             onPress={() => {
               navigation.goBack();
             }}

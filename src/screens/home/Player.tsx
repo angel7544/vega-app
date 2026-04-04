@@ -79,7 +79,7 @@ const Player = ({route}: Props): React.JSX.Element => {
     useWatchHistoryStore();
 
   // Player ref
-  const playerRef: React.RefObject<VideoRef> = useRef(null);
+  const playerRef = useRef<VideoRef>(null);
   const hasSetInitialTracksRef = useRef(false);
 
   // Shared values for animations
@@ -166,7 +166,7 @@ const Player = ({route}: Props): React.JSX.Element => {
     processVideoTracks,
   } = useVideoSettings();
 
-  // Custom hooks for player settings
+  // Custom hooks for player settings and UI state
   const {
     showControls,
     setShowControls,
@@ -190,6 +190,8 @@ const Player = ({route}: Props): React.JSX.Element => {
     unlockButtonTimerRef,
   } = usePlayerSettings();
 
+  const [isInPipMode, setIsInPipMode] = useState(false);
+
   // Custom hook for progress handling
   const {videoPositionRef, handleProgress} = usePlayerProgress({
     activeEpisode,
@@ -198,26 +200,11 @@ const Player = ({route}: Props): React.JSX.Element => {
     updatePlaybackInfo,
   });
 
-  // Memoized values
-  const playbacks = useMemo(
-    () => [0.25, 0.5, 1.0, 1.25, 1.35, 1.5, 1.75, 2],
-    [],
-  );
-  const hideSeekButtons = useMemo(
-    () => settingsStorage.hideSeekButtons() || false,
-    [],
-  );
-
-  const enableSwipeGesture = useMemo(
-    () => settingsStorage.isSwipeGestureEnabled(),
-    [],
-  );
-  const showMediaControls = useMemo(
-    () => settingsStorage.showMediaControls(),
-    [],
-  );
-
-  // Memoized watched duration
+  // Settings values
+  const playbacks = [0.25, 0.5, 1.0, 1.25, 1.35, 1.5, 1.75, 2];
+  const hideSeekButtons = settingsStorage.hideSeekButtons() || false;
+  const enableSwipeGesture = settingsStorage.isSwipeGestureEnabled();
+  const showMediaControls = settingsStorage.showMediaControls();
   const watchedDuration = useMemo(() => {
     const cached = cacheStorage.getString(activeEpisode?.link);
     return cached ? JSON.parse(cached).position : 0;
@@ -370,15 +357,17 @@ const Player = ({route}: Props): React.JSX.Element => {
   // Add to watch history
   useEffect(() => {
     if (route.params?.primaryTitle && !route.params?.doNotTrack) {
+      const currentEpisode =
+        route.params.episodeList[route.params.linkIndex];
       addItem({
-        id: route.params.infoUrl || activeEpisode.link,
-        title: route.params.primaryTitle,
-        poster:
-          route.params.poster?.poster || route.params.poster?.background || '',
-        link: route.params.infoUrl || '',
-        provider: route.params?.providerValue || provider.value,
+        id: route.params.infoUrl || currentEpisode.link,
+        link: route.params.infoUrl || currentEpisode.link,
+        title: route.params.primaryTitle || 'Unknown',
+        image: route.params.poster?.poster || '',
+        poster: route.params.poster?.poster,
+        provider: provider.value,
         lastPlayed: Date.now(),
-        duration: 0,
+        duration: 1,
         currentTime: 0,
         playbackRate: 1,
         episodeTitle: route.params?.secondaryTitle,
@@ -563,7 +552,7 @@ const Player = ({route}: Props): React.JSX.Element => {
         playerRef?.current?.resume();
         setPlaybackRate(1.0);
       },
-      videoRef: playerRef,
+      videoRef: playerRef as any,
       rate: playbackRate,
       poster: route.params?.poster?.logo || '',
       subtitleStyle: {
@@ -605,7 +594,10 @@ const Player = ({route}: Props): React.JSX.Element => {
       style: {flex: 1, zIndex: 100},
       controlAnimationTiming: 357,
       controlTimeoutDelay: 10000,
-      hideAllControlls: isPlayerLocked,
+      hideAllControlls: isPlayerLocked || isInPipMode,
+      pictureInPicture: true,
+      onPictureInPictureStatusChanged: (e: any) =>
+        setIsInPipMode(e.isActive),
     }),
     [
       isPlayerLocked,
@@ -705,7 +697,7 @@ const Player = ({route}: Props): React.JSX.Element => {
       )}
 
       {/* Lock/Unlock button */}
-      {!streamLoading && !Platform.isTV && (
+      {!streamLoading && !Platform.isTV && !isInPipMode && (
         <Animated.View
           style={[lockButtonStyle]}
           className="absolute top-5 right-5 flex-row items-center gap-2 z-50">
@@ -736,7 +728,7 @@ const Player = ({route}: Props): React.JSX.Element => {
       )}
 
       {/* Bottom controls */}
-      {!isPlayerLocked && (
+      {!isPlayerLocked && !isInPipMode && (
         <Animated.View
           style={[controlsStyle]}
           className="absolute bottom-3 right-6 flex flex-row justify-center w-full gap-x-16">

@@ -14,6 +14,7 @@ export interface DownloadPayload {
   id?: number;
   url?: string;
   fileName: string;
+  title: string;
   provider: string;
   progress?: number;
   folderName: string;

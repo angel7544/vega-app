@@ -13,11 +13,13 @@ import {FlashList} from '@shopify/flash-list';
 import SkeletonLoader from '../components/Skeleton';
 import useThemeStore from '../lib/zustand/themeStore';
 import {providerManager} from '../lib/services/ProviderManager';
+import {useShowNavBarOnScroll} from '../lib/hooks/useShowNavBarOnScroll';
 
 type Props = NativeStackScreenProps<HomeStackParamList, 'ScrollList'>;
 
 const ScrollList = ({route}: Props): React.ReactElement => {
-  const {primary} = useThemeStore(state => state);
+  const {primary, mode} = useThemeStore(state => state);
+  const {handleScroll} = useShowNavBarOnScroll();
   const navigation =
     useNavigation<NativeStackNavigationProp<SearchStackParamList>>();
   const [posts, setPosts] = useState<Post[]>([]);
@@ -138,9 +140,11 @@ const ScrollList = ({route}: Props): React.ReactElement => {
   };
 
   return (
-    <View className="h-full w-full bg-black items-center p-4">
+    <View className={`h-full w-full ${mode === 'dark' ? 'bg-black' : 'bg-white'} items-center p-4`}>
       <View className="w-full px-4 font-semibold my-6 flex-row justify-between items-center">
-        <Text className="text-2xl font-bold" style={{color: primary}}>
+        <Text
+          className={`text-2xl font-bold ${mode === 'dark' ? '' : 'text-black'}`}
+          style={mode === 'dark' ? {color: primary} : {}}>
           {route.params.title}
         </Text>
         <TouchableOpacity
@@ -152,7 +156,7 @@ const ScrollList = ({route}: Props): React.ReactElement => {
           <MaterialIcons
             name={viewType === 1 ? 'view-module' : 'view-list'}
             size={27}
-            color="white"
+            color={mode === 'dark' ? 'white' : 'black'}
           />
         </TouchableOpacity>
       </View>
@@ -196,7 +200,7 @@ const ScrollList = ({route}: Props): React.ReactElement => {
                 source={{
                   uri:
                     item.image ||
-                    'https://placehold.jp/24/363636/ffffff/100x150.png?text=Vega',
+                    'https://br31tech.live/logo.png',
                 }}
                 style={
                   viewType === 1
@@ -207,8 +211,8 @@ const ScrollList = ({route}: Props): React.ReactElement => {
               <Text
                 className={
                   viewType === 1
-                    ? 'text-white text-center truncate w-24 text-xs'
-                    : 'text-white ml-3 truncate w-72 font-semibold text-base'
+                    ? `${mode === 'dark' ? 'text-white' : 'text-black'} text-center truncate w-24 text-xs`
+                    : `${mode === 'dark' ? 'text-white' : 'text-black'} ml-3 truncate w-72 font-semibold text-base`
                 }>
                 {item?.title?.length > 24 && viewType === 1
                   ? item.title.slice(0, 24) + '...'
@@ -218,10 +222,12 @@ const ScrollList = ({route}: Props): React.ReactElement => {
           )}
           onEndReached={onEndReached}
           onEndReachedThreshold={0.5}
+          onScroll={handleScroll}
+          scrollEventThrottle={16}
         />
         {!isLoading && posts.length === 0 ? (
           <View className="w-full h-full flex items-center justify-center">
-            <Text className="text-white text-center font-semibold text-lg">
+            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-center font-semibold text-lg`}>
               No Content Found
             </Text>
           </View>

@@ -1,4 +1,4 @@
-import {Image, Pressable, Text, TouchableOpacity, View} from 'react-native';
+import {Image, Pressable, Text, TouchableOpacity, View, useWindowDimensions} from 'react-native';
 import React, {memo, useCallback} from 'react';
 import type {Post} from '../lib/providers/types';
 import {NativeStackNavigationProp} from '@react-navigation/native-stack';
@@ -29,11 +29,14 @@ const Slider = ({
   error?: string;
 }): React.ReactElement => {
   const {provider} = useContentStore(state => state);
-  const {primary} = useThemeStore(state => state);
+  const {primary, mode} = useThemeStore(state => state);
   const navigation =
     useNavigation<NativeStackNavigationProp<HomeStackParamList>>();
   const [isSelected, setSelected] = React.useState('');
-  // const {removeItem} = useWatchHistoryStore(state => state);
+  const {width: windowWidth} = useWindowDimensions();
+  const isTablet = windowWidth > 768;
+  const itemWidth = isTablet ? 150 : 100;
+  const itemHeight = isTablet ? 225 : 150;
 
   const handleMorePress = useCallback(() => {
     navigation.navigate('ScrollList', {
@@ -72,19 +75,19 @@ const Slider = ({
             source={{
               uri:
                 item?.image ||
-                'https://placehold.jp/24/363636/ffffff/100x150.png?text=vega',
+                'https://www.br31tech.live/logo.pngtext=OrbixPlay',
             }}
-            style={{width: 100, height: 150}}
+            style={{width: itemWidth, height: itemHeight}}
           />
         </TouchableOpacity>
-        <Text className="text-white text-center truncate w-24 text-xs">
-          {item.title.length > 24
-            ? `${item.title.slice(0, 24)}...`
+        <Text className="text-center truncate text-xs" style={{width: itemWidth, color: primary}}>
+          {item.title.length > (isTablet ? 35 : 24)
+            ? `${item.title.slice(0, (isTablet ? 35 : 24))}...`
             : item.title}
         </Text>
       </View>
     ),
-    [handleItemPress],
+    [handleItemPress, mode, itemWidth, isTablet, itemHeight],
   );
 
   const keyExtractor = useCallback((item: Post) => item.link, []);
@@ -93,14 +96,14 @@ const Slider = ({
     <Pressable onPress={() => setSelected('')} className="gap-3 mt-3 px-2">
       <View className="flex flex-row items-center justify-between">
         <Text
-          className="text-2xl font-semibold flex-1"
+          className={`text-2xl font-semibold flex-1 ${mode === 'dark' ? '' : 'text-black'}`}
           numberOfLines={1}
-          style={{color: primary}}>
+          style={mode === 'dark' ? {color: primary} : {}}>
           {title}
         </Text>
         {filter !== 'recent' && (
           <TouchableOpacity onPress={handleMorePress}>
-            <Text className="text-white text-sm">more</Text>
+            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-sm`}>More</Text>
           </TouchableOpacity>
         )}
       </View>
@@ -110,8 +113,8 @@ const Slider = ({
             <View
               className="mx-3 gap-0 flex mb-3 justify-center items-center"
               key={index}>
-              <SkeletonLoader height={150} width={100} />
-              <SkeletonLoader height={12} width={97} />
+              <SkeletonLoader height={itemHeight} width={itemWidth} />
+              <SkeletonLoader height={12} width={itemWidth * 0.9} />
             </View>
           ))}
         </View>
@@ -134,7 +137,7 @@ const Slider = ({
               </View>
             ) : !isLoading && posts.length === 0 ? (
               <View className="flex flex-row w-96 justify-center h-10 items-center">
-                <Text className="text-whiter text-center text-white">
+                <Text className={`text-center ${mode === 'dark' ? 'text-white' : 'text-black'}`}>
                   No content found
                 </Text>
               </View>

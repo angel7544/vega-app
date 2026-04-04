@@ -1,6 +1,9 @@
 import * as RNFS from '@dr.pogodin/react-native-fs';
 import axios from 'axios';
 import {notificationService} from './services/Notification';
+import {btoa} from './utils/base64';
+import {Platform} from 'react-native';
+import useDownloadStore from './zustand/downloadsStore';
 
 interface SegmentInfo {
   duration: number;
@@ -167,11 +170,13 @@ const downloadSegment = async (
   });
 
   // Convert ArrayBuffer to base64 string directly
-  const arrayBuffer = response.data as ArrayBuffer;
-  const uint8Array = new Uint8Array(arrayBuffer);
-  const binary = Array.from(uint8Array, byte => String.fromCharCode(byte)).join(
-    '',
-  );
+  // Convert ArrayBuffer to string and then to base64
+  const uint8Array = new Uint8Array(response.data as ArrayBuffer);
+  let binary = '';
+  const len = uint8Array.byteLength;
+  for (let i = 0; i < len; i++) {
+    binary += String.fromCharCode(uint8Array[i]);
+  }
   const base64 = btoa(binary);
 
   await RNFS.appendFile(outputPath, base64, 'base64');
@@ -210,6 +215,7 @@ export const hlsDownloader2 = async ({
   setAlreadyDownloaded,
   setDownloadId,
   headers = {},
+  provider,
 }: {
   videoUrl: string;
   path: string;
@@ -219,9 +225,22 @@ export const hlsDownloader2 = async ({
   setAlreadyDownloaded: (value: boolean) => void;
   setDownloadId: (value: number) => void;
   headers?: any;
+  provider?: string;
 }) => {
+  const providerValue = provider || 'OrbixPlay';
   downloadCancelled = false;
   currentDownloadId = fileName;
+
+  useDownloadStore.getState().addDownload({
+    title,
+    url: videoUrl,
+    fileName,
+    fileType: 'm3u8',
+    status: 'downloading',
+    progress: 0,
+    folderName: 'hls_segments',
+    provider: providerValue,
+  });
 
   // Generate a unique numeric ID for this HLS download
   const hlsJobId = nextHlsId++;
@@ -282,6 +301,7 @@ export const hlsDownloader2 = async ({
             `Downloaded ${progress.toFixed(1)}%`,
             hlsJobId,
           );
+          useDownloadStore.getState().updateProgress(fileName, progress / 100);
         } catch (error) {
           console.error(`Failed to download segment ${segment.index}:`, error);
           throw error;
@@ -312,6 +332,15 @@ export const hlsDownloader2 = async ({
 
     await mergeSegments(segmentPaths, path);
 
+    // Notify the system about the new file so it's indexed
+    try {
+      if (Platform.OS === 'android' && typeof (RNFS as any).scanFile === 'function') {
+        await (RNFS as any).scanFile(path);
+      }
+    } catch (e) {
+      console.warn('Failed to scan file:', e);
+    }
+
     // Clean up temp directory
     if (await RNFS.exists(tempDir)) {
       await RNFS.unlink(tempDir);
@@ -329,6 +358,7 @@ export const hlsDownloader2 = async ({
     console.log('Download completed successfully');
     setAlreadyDownloaded(true);
     setDownloadActive(false);
+    useDownloadStore.getState().markAsCompleted(fileName);
 
     await notificationService.showDownloadComplete(title, fileName);
   } catch (error) {
@@ -337,6 +367,7 @@ export const hlsDownloader2 = async ({
     // Clean up on error
     setAlreadyDownloaded(false);
     setDownloadActive(false);
+    useDownloadStore.getState().removeDownload(fileName);
 
     if (await RNFS.exists(tempDir)) {
       await RNFS.unlink(tempDir);

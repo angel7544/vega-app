@@ -10,16 +10,15 @@ import {
   Image,
 } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
-import FontAwesome6 from '@expo/vector-icons/FontAwesome';
+import {Feather, MaterialCommunityIcons} from '@expo/vector-icons';
 import {useNavigation} from '@react-navigation/native';
 import {NativeStackNavigationProp} from '@react-navigation/native-stack';
 import {HomeStackParamList, SearchStackParamList} from '../App';
 import useContentStore from '../lib/zustand/contentStore';
 import useHeroStore from '../lib/zustand/herostore';
 import {settingsStorage} from '../lib/storage';
-import {Feather} from '@expo/vector-icons';
-import Ionicons from '@expo/vector-icons/Ionicons';
 import {useHeroMetadata} from '../lib/hooks/useHomePageData';
+import useThemeStore from '../lib/zustand/themeStore';
 
 interface HeroProps {
   isDrawerOpen: boolean;
@@ -30,6 +29,7 @@ const Hero = memo(({isDrawerOpen, onOpenDrawer}: HeroProps) => {
   const [searchActive, setSearchActive] = useState(false);
   const {provider} = useContentStore(state => state);
   const {hero} = useHeroStore(state => state);
+  const {mode} = useThemeStore(state => state);
 
   // Memoize settings to prevent re-renders
   const [showHamburgerMenu] = useState(() =>
@@ -100,7 +100,7 @@ const Hero = memo(({isDrawerOpen, onOpenDrawer}: HeroProps) => {
   // Memoized image source
   const imageSource = React.useMemo(() => {
     const fallbackImage =
-      'https://placehold.jp/24/363636/ffffff/500x500.png?text=Vega';
+      'https://www.br31tech.live/logo.pngtext=OrbixPlay';
     if (!heroData) {
       return {uri: fallbackImage};
     }
@@ -140,7 +140,7 @@ const Hero = memo(({isDrawerOpen, onOpenDrawer}: HeroProps) => {
             <Pressable
               className={`${isDrawerOpen ? 'opacity-0' : 'opacity-100'}`}
               onPress={onOpenDrawer}>
-              <Ionicons name="menu-sharp" size={27} color="white" />
+              <Feather name="menu" size={27} color={mode === 'dark' ? 'white' : 'black'} />
             </Pressable>
           </View>
         )}
@@ -154,15 +154,15 @@ const Hero = memo(({isDrawerOpen, onOpenDrawer}: HeroProps) => {
               autoFocus={true}
               onSubmitEditing={e => handleSearchSubmit(e.nativeEvent.text)}
               placeholder={`Search in ${provider.display_name}`}
-              className="w-[95%] px-4 h-10 rounded-full border-white border"
-              placeholderTextColor="#999"
+              className={`w-[95%] px-4 h-10 rounded-full border ${mode === 'dark' ? 'border-white text-white' : 'border-black text-black'}`}
+              placeholderTextColor={mode === 'dark' ? '#999' : '#666'}
             />
           </Animated.View>
         )}
 
         {!searchActive && (
           <Pressable onPress={() => setSearchActive(true)}>
-            <Feather name="search" size={24} color="white" />
+            <Feather name="search" size={24} color={mode === 'dark' ? 'white' : 'black'} />
           </Pressable>
         )}
       </View>
@@ -175,7 +175,7 @@ const Hero = memo(({isDrawerOpen, onOpenDrawer}: HeroProps) => {
           source={imageSource}
           onError={handleImageError}
           className="h-full w-full"
-          style={{resizeMode: 'cover'}}
+          style={{resizeMode: 'stretch'}}
         />
       )}
 
@@ -217,11 +217,11 @@ const Hero = memo(({isDrawerOpen, onOpenDrawer}: HeroProps) => {
             <View className="flex-1 items-center justify-center">
               {hero?.link && (
                 <TouchableOpacity
-                  className="bg-white px-10 py-2 rounded-lg flex-row items-center space-x-2"
+                  className={`${mode === 'dark' ? 'bg-white' : 'bg-black'} px-10 py-2 rounded-lg flex-row items-center space-x-2`}
                   onPress={handlePlayPress}
                   activeOpacity={0.8}>
-                  <FontAwesome6 name="play" size={20} color="black" />
-                  <Text className="text-black font-bold text-lg">Play</Text>
+                  <MaterialCommunityIcons name="play" size={24} color={mode === 'dark' ? 'black' : 'white'} />
+                  <Text className={`${mode === 'dark' ? 'text-black' : 'text-white'} font-bold text-lg`}>Play</Text>
                 </TouchableOpacity>
               )}
             </View>
@@ -241,7 +241,7 @@ const Hero = memo(({isDrawerOpen, onOpenDrawer}: HeroProps) => {
             <Text className="text-white text-center text-xl font-bold">
               {hero?.title || 'Content Unavailable'}
             </Text>
-            <Text className="text-gray-400 text-sm mt-2">
+            <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-600'} text-sm mt-2`}>
               Unable to load details
             </Text>
           </View>

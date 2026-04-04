@@ -19,6 +19,7 @@ import {
 } from '../../../lib/storage/extensionStorage';
 import {createProviderSource} from '../../../lib/utils/helpers';
 import {socialLinks} from '../../../lib/constants';
+import useThemeStore from '../../../lib/zustand/themeStore';
 
 type Props = {
   primary: string;
@@ -34,6 +35,7 @@ type SourceDropdownItem = {
 };
 
 const ProviderSourceManager = ({primary, visible, onSourceChanged}: Props) => {
+  const {mode} = useThemeStore(state => state);
   const [sources, setSources] = useState<ProviderSource[]>([]);
   const [showAddDialog, setShowAddDialog] = useState(false);
   const [isDropdownFocused, setIsDropdownFocused] = useState(false);
@@ -132,9 +134,9 @@ const ProviderSourceManager = ({primary, visible, onSourceChanged}: Props) => {
   return (
     <View className="mx-4 mt-4">
       <View className="flex-row items-center gap-2">
-        <View className="flex-1 bg-tertiary rounded-xl px-3 py-2 border border-quaternary">
+        <View className={`flex-1 ${mode === 'dark' ? 'bg-tertiary border-quaternary' : 'bg-gray-100 border-gray-200'} rounded-xl px-3 py-2 border`}>
           <View className="flex-row items-center mb-1">
-            <Text className="text-gray-400 text-xs">Provider Source</Text>
+            <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-xs`}>Provider Source</Text>
             {defaultSource && (
               <MaterialCommunityIcons
                 name="check-circle"
@@ -154,19 +156,19 @@ const ProviderSourceManager = ({primary, visible, onSourceChanged}: Props) => {
             placeholder="Select a provider source"
             placeholderStyle={{color: '#9CA3AF'}}
             selectedTextStyle={{
-              color: 'white',
+              color: mode === 'dark' ? 'white' : 'black',
               fontSize: 15,
               fontWeight: '600',
             }}
             containerStyle={{
-              backgroundColor: '#171717',
-              borderColor: '#2B2B2B',
+              backgroundColor: mode === 'dark' ? '#171717' : 'white',
+              borderColor: mode === 'dark' ? '#2B2B2B' : '#E5E7EB',
               borderWidth: 1,
               borderRadius: 12,
               overflow: 'hidden',
             }}
-            activeColor="#262626"
-            itemContainerStyle={{backgroundColor: '#171717'}}
+            activeColor={mode === 'dark' ? '#262626' : '#F3F4F6'}
+            itemContainerStyle={{backgroundColor: mode === 'dark' ? '#171717' : 'white'}}
             iconStyle={{width: 20, height: 20}}
             onFocus={() => setIsDropdownFocused(true)}
             onBlur={() => setIsDropdownFocused(false)}
@@ -188,13 +190,13 @@ const ProviderSourceManager = ({primary, visible, onSourceChanged}: Props) => {
             renderItem={item => {
               const isSelected = item.value === defaultSource?.author;
               return (
-                <View className="px-4 py-3 border-b border-quaternary">
+                <View className={`px-4 py-3 border-b ${mode === 'dark' ? 'border-quaternary' : 'border-gray-200'}`}>
                   <View className="flex-row items-center justify-between">
                     <View className="flex-1 pr-2">
-                      <Text className="text-white font-medium">
+                      <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-medium`}>
                         {item.label}
                       </Text>
-                      <Text className="text-gray-400 text-xs" numberOfLines={1}>
+                      <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-xs`} numberOfLines={1}>
                         {item.url}
                       </Text>
                     </View>
@@ -242,17 +244,17 @@ const ProviderSourceManager = ({primary, visible, onSourceChanged}: Props) => {
           className="flex-1"
           behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
           <ScrollView
-            className="flex-1 bg-black/70"
+            className={`flex-1 ${mode === 'dark' ? 'bg-black/70' : 'bg-white/70'}`}
             contentContainerStyle={{
               flexGrow: 1,
               justifyContent: 'center',
               paddingHorizontal: 24,
             }}
             keyboardShouldPersistTaps="handled">
-            <View className="w-full bg-tertiary rounded-2xl p-4 border border-quaternary">
+            <View className={`w-full ${mode === 'dark' ? 'bg-tertiary border-quaternary' : 'bg-white border-gray-200'} rounded-2xl p-4 border`}>
               <View className="flex-row items-center justify-between mb-3">
                 <Text
-                  className="text-white text-base font-semibold w-fit"
+                  className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base font-semibold w-fit`}
                   numberOfLines={1}>
                   Add Source
                 </Text>
@@ -268,10 +270,10 @@ const ProviderSourceManager = ({primary, visible, onSourceChanged}: Props) => {
                   />
                 </TouchableOpacity>
               </View>
-              <Text className="text-white text-sm font-medium">
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-sm font-medium`}>
                 Enter source name or url to add provider
               </Text>
-              <Text className="text-gray-400 text-sm mt-[4px]">
+              <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-sm mt-[4px]`}>
                 How to get source url check instructions{' '}
                 <TouchableOpacity
                   onPress={() =>
@@ -280,7 +282,7 @@ const ProviderSourceManager = ({primary, visible, onSourceChanged}: Props) => {
                   <Text className="text-blue-400 text-sm mt-[4.5px]">here</Text>
                 </TouchableOpacity>
               </Text>
-              <Text className="text-gray-400 text-sm mt-[4px]">
+              <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-sm mt-[4px]`}>
                 or join Discord for support{' '}
                 <TouchableOpacity
                   onPress={() => Linking.openURL(socialLinks.discord)}>
@@ -290,7 +292,7 @@ const ProviderSourceManager = ({primary, visible, onSourceChanged}: Props) => {
                 </TouchableOpacity>
               </Text>
               <TextInput
-                className="bg-quaternary rounded-lg px-4 py-3 text-white border border-gray-700 mt-3"
+                className={`${mode === 'dark' ? 'bg-quaternary text-white border-gray-700' : 'bg-gray-100 text-black border-gray-300'} rounded-lg px-4 py-3 border mt-3`}
                 placeholder=" "
                 placeholderTextColor="#6B7280"
                 value={inputValue}
@@ -300,12 +302,12 @@ const ProviderSourceManager = ({primary, visible, onSourceChanged}: Props) => {
               />
               <View className="flex-row gap-2 mt-3">
                 <TouchableOpacity
-                  className="flex-1 rounded-lg px-4 py-3 items-center bg-gray-700"
+                  className={`flex-1 rounded-lg px-4 py-3 items-center ${mode === 'dark' ? 'bg-gray-700' : 'bg-gray-200'}`}
                   onPress={() => {
                     setShowAddDialog(false);
                     setInputValue('');
                   }}>
-                  <Text className="text-white font-medium">Cancel</Text>
+                  <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-medium`}>Cancel</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity

@@ -1,6 +1,6 @@
 import {useQuery} from '@tanstack/react-query';
 import {useState, useEffect} from 'react';
-import {ToastAndroid} from 'react-native';
+import {ToastAndroid, Platform} from 'react-native';
 import {providerManager} from '../services/ProviderManager';
 import {settingsStorage} from '../storage';
 import {ifExists} from '../file/ifExists';
@@ -42,9 +42,12 @@ export const useStream = ({
 
       // Handle direct URL (downloaded content)
       if (routeParams?.directUrl) {
-        return [
-          {server: 'Downloaded', link: routeParams.directUrl, type: 'mp4'},
-        ];
+        const url =
+          Platform.OS === 'android' && !routeParams.directUrl.startsWith('file://')
+            ? `file://${routeParams.directUrl}`
+            : routeParams.directUrl;
+        const type = url.split('.').pop() || 'mp4';
+        return [{server: 'Downloaded', link: url, type: type}];
       }
 
       // Check for local downloaded file
@@ -57,7 +60,12 @@ export const useStream = ({
 
         const exists = await ifExists(file);
         if (exists) {
-          return [{server: 'downloaded', link: exists, type: 'mp4'}];
+          const url =
+            Platform.OS === 'android' && !exists.startsWith('file://')
+              ? `file://${exists}`
+              : exists;
+          const type = url.split('.').pop() || 'mp4';
+          return [{server: 'Downloaded', link: url, type: type}];
         }
       }
 

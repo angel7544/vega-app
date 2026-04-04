@@ -18,9 +18,24 @@ import {cancelHlsDownload} from '../lib/hlsDownloader2';
 import * as RNFS from '@dr.pogodin/react-native-fs';
 import {downloadFolder} from '../lib/constants';
 import useThemeStore from '../lib/zustand/themeStore';
-import DownloadBottomSheet from './DownloadBottomSheet';
 import {settingsStorage} from '../lib/storage';
 import {providerManager} from '../lib/services/ProviderManager';
+
+type Props = {
+  link: string;
+  fileName: string;
+  type: string;
+  providerValue: string;
+  title: string;
+  downloadActive: boolean;
+  setDownloadActive: (value: boolean) => void;
+  onOpenDownloadModal: (data: {
+    title: string;
+    link: string;
+    type: string;
+    fileName: string;
+  }) => void;
+};
 
 const DownloadComponent = ({
   link,
@@ -28,27 +43,17 @@ const DownloadComponent = ({
   type,
   providerValue,
   title,
-}: {
-  link: string;
-  fileName: string;
-  type: string;
-  providerValue: string;
-  title: string;
-}) => {
+  downloadActive,
+  setDownloadActive,
+  onOpenDownloadModal,
+}: Props) => {
   const {primary} = useThemeStore(state => state);
-  const {provider} = useContentStore(state => state);
   const [alreadyDownloaded, setAlreadyDownloaded] = useState<string | boolean>(
     false,
   );
   const [deleteModal, setDeleteModal] = useState(false);
-  const [downloadModal, setDownloadModal] = useState(false);
-  const [longPressModal, setLongPressModal] = useState(false);
   const [cancelModal, setCancelModal] = useState(false);
   const [downloadId, setDownloadId] = useState<number | null>(null);
-  const [servers, setServers] = useState<Stream[]>([]);
-  const [serverLoading, setServerLoading] = useState(false);
-  const [serverError, setServerError] = useState<string | null>(null);
-  const [downloadActive, setDownloadActive] = useState(false);
 
   // check if file already exists
   useLayoutEffect(() => {
@@ -78,58 +83,6 @@ const DownloadComponent = ({
       }
     } catch (error) {
       console.error(error);
-    }
-  };
-
-  // choose server
-  useEffect(() => {
-    const controller = new AbortController();
-    if (!downloadModal && !longPressModal) {
-      return;
-    }
-    const getServer = async () => {
-      setServerLoading(true);
-      setServerError(null);
-      try {
-        const servers = await providerManager.getStream({
-          link,
-          type,
-          signal: controller.signal,
-          providerValue: providerValue || provider.value,
-        });
-        const filteredServers = servers;
-        // .filter(
-        //   server =>
-        //     !manifest[
-        //       providerValue || provider.value
-        //     ].nonDownloadableServer?.includes(server.server),
-        // );
-        setServers(filteredServers);
-      } catch (error: any) {
-        console.error('Error fetching servers:', error);
-        const errorMessage = error?.message || 'Failed to fetch servers';
-        setServerError(errorMessage);
-        setServers([]);
-      } finally {
-        setServerLoading(false);
-      }
-    };
-    getServer();
-
-    return () => {
-      controller.abort();
-    };
-  }, [downloadModal, longPressModal]);
-
-  // on holdPress external downloader
-  const longPressDownload = async (link: string, type?: string) => {
-    try {
-      await IntentLauncher.startActivityAsync('android.intent.action.VIEW', {
-        data: link,
-        type: type || 'video/*',
-      });
-    } catch (error) {
-      console.log(error);
     }
   };
 
@@ -165,13 +118,7 @@ const DownloadComponent = ({
         ) : (
           <TouchableOpacity
             onPress={() => {
-              if (
-                settingsStorage.getBool('alwaysExternalDownloader') === true
-              ) {
-                setLongPressModal(true);
-              } else {
-                setDownloadModal(true);
-              }
+              onOpenDownloadModal({title, link, type, fileName});
             }}
             onLongPress={() => {
               if (settingsStorage.getBool('hapticFeedback') !== false) {
@@ -180,7 +127,7 @@ const DownloadComponent = ({
                   ignoreAndroidSystemSettings: false,
                 });
               }
-              setLongPressModal(true);
+              onOpenDownloadModal({title, link, type, fileName});
             }}
             className="mx-2">
             <Octicons name="download" size={25} color="#c1c4c9" />
@@ -216,55 +163,6 @@ const DownloadComponent = ({
             </View>
           </Modal>
         }
-        {/* download modal */}
-        <DownloadBottomSheet
-          setModal={setDownloadModal}
-          showModal={downloadModal}
-          data={servers}
-          loading={serverLoading}
-          error={serverError}
-          title="Select Server To Download"
-          onPressVideo={(server: Stream) => {
-            downloadManager({
-              title: title,
-              url: server.link,
-              fileName: fileName,
-              fileType: server.type,
-              setDownloadActive: setDownloadActive,
-              setAlreadyDownloaded: setAlreadyDownloaded,
-              setDownloadId: setDownloadId,
-              headers: server?.headers,
-              deleteDownload: deleteDownload,
-            });
-          }}
-          onPressSubs={(sub: {link: string; type: string; title: string}) => {
-            downloadManager({
-              title: title + ' ' + sub.title + ' Subtitle ',
-              url: sub.link,
-              fileName: fileName + '-' + sub.title,
-              fileType: sub.type,
-              setDownloadActive: setDownloadActive,
-              setAlreadyDownloaded: () => {},
-              setDownloadId: setDownloadId,
-              deleteDownload: () => {},
-            });
-          }}
-        />
-        {/* long press modal */}
-        <DownloadBottomSheet
-          setModal={setLongPressModal}
-          showModal={longPressModal}
-          data={servers}
-          loading={serverLoading}
-          error={serverError}
-          title="Select Server To Open"
-          onPressVideo={(server: Stream) => {
-            longPressDownload(server.link);
-          }}
-          onPressSubs={(sub: {link: string; type: string; title: string}) => {
-            longPressDownload(sub.link, 'text/vtt');
-          }}
-        />
       </View>
       {cancelModal && downloadId && (
         <Pressable

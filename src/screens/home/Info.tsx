@@ -9,6 +9,7 @@ import {
   TouchableOpacity,
   Modal,
   Pressable,
+  useWindowDimensions,
 } from 'react-native';
 import React, {useCallback, useMemo, useRef, useState} from 'react';
 import {
@@ -18,11 +19,10 @@ import {
 import {HomeStackParamList, TabStackParamList} from '../../App';
 import LinearGradient from 'react-native-linear-gradient';
 import SeasonList from '../../components/SeasonList';
-import Ionicons from '@expo/vector-icons/Ionicons';
+import {Feather, MaterialCommunityIcons} from '@expo/vector-icons';
 import {settingsStorage, watchListStorage} from '../../lib/storage';
 import ReactNativeHapticFeedback from 'react-native-haptic-feedback';
 import useContentStore from '../../lib/zustand/contentStore';
-import {MaterialCommunityIcons} from '@expo/vector-icons';
 import useThemeStore from '../../lib/zustand/themeStore';
 import {useNavigation} from '@react-navigation/native';
 import useWatchListStore from '../../lib/zustand/watchListStore';
@@ -35,7 +35,10 @@ type Props = NativeStackScreenProps<HomeStackParamList, 'Info'>;
 export default function Info({route, navigation}: Props): React.JSX.Element {
   const searchNavigation =
     useNavigation<NativeStackNavigationProp<TabStackParamList>>();
-  const {primary} = useThemeStore(state => state);
+  const {primary, mode} = useThemeStore(state => state);
+  const {width: windowWidth} = useWindowDimensions();
+  const isTablet = windowWidth > 768;
+  const headerHeight = isTablet ? 384 : 450;
   const {addItem, removeItem} = useWatchListStore(state => state);
   const {provider} = useContentStore(state => state);
 
@@ -129,7 +132,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
       meta?.poster ||
       route.params.poster ||
       info?.image ||
-      'https://placehold.jp/24/363636/ffffff/500x500.png?text=Vega'
+      'https://www.br31tech.live/logo.pngtext=OrbixPlay'
     );
   }, [meta?.poster, route.params.poster, info?.image]);
 
@@ -137,7 +140,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
     return (
       meta?.background ||
       info?.image ||
-      'https://placehold.jp/24/363636/ffffff/500x500.png?text=Vega'
+      'https://www.br31tech.live/logo.pngtext=OrbixPlay'
     );
   }, [meta?.background, info?.image]);
   const filteredLinkList = useMemo(() => {
@@ -167,7 +170,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
   // Error handling - show error UI instead of throwing
   if (error) {
     return (
-      <View className="h-full w-full bg-black justify-center items-center p-4">
+      <View className={`h-full w-full ${mode === 'dark' ? 'bg-black' : 'bg-white'} justify-center items-center p-4`}>
         <StatusBar
           showHideTransition={'slide'}
           animated={true}
@@ -177,7 +180,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
         <Text className="text-red-400 text-lg font-bold mb-4 text-center">
           Failed to load content
         </Text>
-        <Text className="text-gray-400 text-sm mb-6 text-center">
+        <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-sm mb-6 text-center`}>
           {error.message ||
             'An unexpected error occurred while loading the content'}
         </Text>
@@ -205,13 +208,15 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
           backgroundColor={backgroundColor}
         />
         <View>
-          <View className="absolute w-full h-[256px]">
-            <SkeletonLoader show={infoLoading} height={256} width={'100%'}>
+          <View className="absolute w-full" style={{height: headerHeight}}>
+            <SkeletonLoader show={infoLoading} height={headerHeight} width={'100%'}>
               <Image
-                source={{uri: backgroundImage}}
-                className=" h-[256] w-full"
+                source={{uri: posterImage}}
+                className="w-full"
+                style={{height: headerHeight}}
+                resizeMode="stretch"
                 onError={e => {
-                  console.warn('Background image failed to load:', e);
+                  console.warn('Poster image failed to load:', e);
                 }}
               />
             </SkeletonLoader>
@@ -242,7 +247,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
             renderItem={() => <View />}
             ListHeaderComponent={
               <>
-                <View className="relative w-full h-[256px]">
+                <View className="relative w-full" style={{height: headerHeight}}>
                   <LinearGradient
                     colors={['transparent', 'black']}
                     className="absolute h-full w-full"
@@ -252,7 +257,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                       <Image
                         onError={() => setLogoError(true)}
                         source={{uri: meta?.logo}}
-                        style={{width: 200, height: 100, resizeMode: 'contain'}}
+                        style={{width: 200, height: 100, resizeMode: 'stretch'}}
                       />
                     ) : (
                       <Text className="text-white text-2xl mt-3 capitalize font-semibold w-3/4 truncate">
@@ -268,30 +273,30 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                     )}
                   </View>
                 </View>
-                <View className="p-4 bg-black">
+                <View className={`p-4 ${mode === 'dark' ? 'bg-black' : 'bg-white'}`}>
                   <View className="flex-row gap-x-3 gap-y-1 flex-wrap items-center mb-4">
                     {/* badges */}
                     {meta?.year && (
-                      <Text className="text-white text-lg bg-tertiary px-2 rounded-md">
+                      <Text className={`${mode === 'dark' ? 'text-white bg-tertiary' : 'text-black bg-gray-200'} text-lg px-2 rounded-md`}>
                         {meta?.year}
                       </Text>
                     )}
                     {meta?.runtime && (
-                      <Text className="text-white text-lg bg-tertiary px-2 rounded-md">
+                      <Text className={`${mode === 'dark' ? 'text-white bg-tertiary' : 'text-black bg-gray-200'} text-lg px-2 rounded-md`}>
                         {meta?.runtime}
                       </Text>
                     )}
                     {meta?.genres?.slice(0, 2).map((genre: string) => (
                       <Text
                         key={genre}
-                        className="text-white text-lg bg-tertiary px-2 rounded-md">
+                        className={`${mode === 'dark' ? 'text-white bg-tertiary' : 'text-black bg-gray-200'} text-lg px-2 rounded-md`}>
                         {genre}
                       </Text>
                     ))}
                     {info?.tags?.slice(0, 3)?.map((tag: string) => (
                       <Text
                         key={tag}
-                        className="text-white text-lg bg-tertiary px-2 rounded-md">
+                        className={`${mode === 'dark' ? 'text-white bg-tertiary' : 'text-black bg-gray-200'} text-lg px-2 rounded-md`}>
                         {tag}
                       </Text>
                     ))}
@@ -299,10 +304,10 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                   {/* Awards */}
                   {meta?.awards && (
                     <View className="mb-2 w-full flex-row items-baseline gap-2">
-                      <Text className="text-white text- font-semibold">
+                      <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text- font-semibold`}>
                         Awards:
                       </Text>
-                      <Text className="text-white text-xs px-1 bg-tertiary rounded-sm">
+                      <Text className={`${mode === 'dark' ? 'text-white bg-tertiary' : 'text-black bg-gray-200'} text-xs px-1 rounded-sm`}>
                         {meta?.awards?.length > 50
                           ? meta?.awards.slice(0, 50) + '...'
                           : meta?.awards}
@@ -312,7 +317,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                   {/* cast  */}
                   {(meta?.cast?.length! > 0 || info?.cast?.length! > 0) && (
                     <View className="mb-2 w-full flex-row items-start gap-2">
-                      <Text className="text-white text-lg font-semibold pt-[0.9px]">
+                      <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-lg font-semibold pt-[0.9px]`}>
                         Cast
                       </Text>
                       <View className="flex-row gap-1 flex-wrap">
@@ -322,7 +327,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                             <Text
                               key={actor}
                               numberOfLines={1}
-                              className={`text-xs bg-tertiary p-1 px-2 rounded-md ${
+                              className={`text-xs ${mode === 'dark' ? 'bg-tertiary' : 'bg-gray-200'} p-1 px-2 rounded-md ${
                                 index % 3 === 0
                                   ? 'text-red-500'
                                   : index % 3 === 1
@@ -337,7 +342,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                           .map((actor: string, index: number) => (
                             <Text
                               key={actor}
-                              className={`text-xs bg-tertiary p-1 px-2 rounded-md ${
+                              className={`text-xs ${mode === 'dark' ? 'bg-tertiary' : 'bg-gray-200'} p-1 px-2 rounded-md ${
                                 index % 3 === 0
                                   ? 'text-red-500'
                                   : index % 3 === 1
@@ -354,49 +359,54 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                   <View className="mb-2 w-full flex-row items-center justify-between">
                     <SkeletonLoader show={infoLoading} height={25} width={180}>
                       <View className="flex-row items-center gap-2">
-                        <Text className="text-white text-lg font-semibold">
+                        <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-lg font-semibold`}>
                           Synopsis
                         </Text>
-                        <Text className="text-white text-xs bg-tertiary p-1 px-2 rounded-md">
+                        <Text className={`${mode === 'dark' ? 'text-white bg-tertiary' : 'text-black bg-gray-200'} text-xs p-1 px-2 rounded-md`}>
                           {route.params.provider || provider.value}
                         </Text>
                       </View>
                     </SkeletonLoader>
                     <View className="flex-row items-center gap-4 mb-1">
                       {meta?.trailers && meta?.trailers.length > 0 && (
-                        <MaterialCommunityIcons
-                          name="movie-open"
-                          size={25}
-                          color="rgb(156 163 175)"
+                        <TouchableOpacity
                           onPress={() =>
                             Linking.openURL(
                               'https://www.youtube.com/watch?v=' +
                                 meta?.trailers?.[0]?.source,
                             )
-                          }
-                        />
+                          }>
+                          <Feather
+                            name="play-circle"
+                            size={24}
+                            color="rgb(156 163 175)"
+                          />
+                        </TouchableOpacity>
                       )}
                       {inLibrary ? (
-                        <Ionicons
-                          name="bookmark"
-                          size={30}
-                          color={primary}
-                          onPress={() => removeLibrary()}
-                        />
+                        <TouchableOpacity onPress={() => removeLibrary()}>
+                          <Feather
+                            name="bookmark"
+                            size={24}
+                            color={primary}
+                            fill={primary}
+                          />
+                        </TouchableOpacity>
                       ) : (
-                        <Ionicons
-                          name="bookmark-outline"
-                          size={30}
-                          color={primary}
-                          onPress={() => addLibrary()}
-                        />
+                        <TouchableOpacity onPress={() => addLibrary()}>
+                          <Feather
+                            name="bookmark"
+                            size={24}
+                            color={primary}
+                          />
+                        </TouchableOpacity>
                       )}
                       <TouchableOpacity
                         onPress={() => openThreeDotsMenu()}
                         ref={threeDotsRef}>
-                        <MaterialCommunityIcons
-                          name="dots-vertical"
-                          size={25}
+                        <Feather
+                          name="more-vertical"
+                          size={24}
                           color="rgb(156 163 175)"
                         />
                       </TouchableOpacity>
@@ -412,7 +422,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                             onPress={() => setThreeDotsMenuOpen(false)}
                             className="flex-1 bg-opacity-50">
                             <View
-                              className="rounded-md p-2 w-48 bg-quaternary absolute right-10 top-[330px]"
+                              className={`rounded-md p-2 w-48 ${mode === 'dark' ? 'bg-quaternary' : 'bg-white border border-gray-200'} absolute right-10 top-[330px]`}
                               style={{
                                 top: menuPosition.top,
                                 right: menuPosition.right,
@@ -426,12 +436,12 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                                     link: route.params.link,
                                   });
                                 }}>
-                                <MaterialCommunityIcons
-                                  name="web"
-                                  size={21}
+                                <Feather
+                                  name="globe"
+                                  size={18}
                                   color="rgb(156 163 175)"
                                 />
-                                <Text className="text-white text-base">
+                                <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>
                                   Open in Web
                                 </Text>
                               </TouchableOpacity>
@@ -448,12 +458,12 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                                     },
                                   });
                                 }}>
-                                <Ionicons
+                                <Feather
                                   name="search"
-                                  size={21}
+                                  size={18}
                                   color="rgb(156 163 175)"
                                 />
-                                <Text className="text-white text-base">
+                                <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>
                                   Search Title
                                 </Text>
                               </TouchableOpacity>
@@ -464,14 +474,14 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                     </View>
                   </View>
                   <SkeletonLoader show={infoLoading} height={85} width={'100%'}>
-                    <Text className="text-gray-200 text-sm px-2 py-1 bg-tertiary rounded-md">
+                    <Text className={`${mode === 'dark' ? 'text-gray-200 bg-tertiary' : 'text-gray-700 bg-gray-200'} text-sm px-2 py-1 rounded-md`}>
                       {synopsis.length > 180 && !readMore
                         ? synopsis.slice(0, 180) + '... '
                         : synopsis}
                       {synopsis.length > 180 && !readMore && (
                         <Text
                           onPress={() => setReadMore(!readMore)}
-                          className="text-white font-extrabold text-xs px-2 bg-tertiary rounded-md">
+                          className={`${mode === 'dark' ? 'text-white bg-tertiary' : 'text-black bg-gray-200'} font-extrabold text-xs px-2 rounded-md`}>
                           read more
                         </Text>
                       )}
@@ -479,13 +489,13 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                   </SkeletonLoader>
                   {/* cast */}
                 </View>
-                <View className="p-4 bg-black">
+                <View className={`p-4 ${mode === 'dark' ? 'bg-black' : 'bg-white'}`}>
                   {infoLoading ? (
                     <View className="gap-y-3 items-start mb-4 p-3">
                       <SkeletonLoader show={true} height={30} width={80} />
                       {[...Array(1)].map((_, i) => (
                         <View
-                          className="bg-tertiary p-1 rounded-md gap-3 mt-3"
+                          className={`${mode === 'dark' ? 'bg-tertiary' : 'bg-gray-200'} p-1 rounded-md gap-3 mt-3`}
                           key={i}>
                           <SkeletonLoader
                             show={true}

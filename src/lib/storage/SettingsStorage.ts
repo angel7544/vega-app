@@ -7,6 +7,7 @@ export enum SettingsKeys {
   // UI preferences
   PRIMARY_COLOR = 'primaryColor',
   IS_CUSTOM_THEME = 'isCustomTheme',
+  THEME_MODE = 'themeMode',
   SHOW_TAB_BAR_LABELS = 'showTabBarLabels',
   CUSTOM_COLOR = 'customColor',
   // Feedback settings
@@ -57,6 +58,16 @@ export class SettingsStorage {
 
   setCustomTheme(isCustom: boolean): void {
     mainStorage.setBool(SettingsKeys.IS_CUSTOM_THEME, isCustom);
+  }
+  getThemeMode(): 'light' | 'dark' {
+    return (
+      (mainStorage.getString(SettingsKeys.THEME_MODE) as 'light' | 'dark') ||
+      'dark'
+    );
+  }
+
+  setThemeMode(mode: 'light' | 'dark'): void {
+    mainStorage.setString(SettingsKeys.THEME_MODE, mode);
   }
 
   getCustomColor(): string {

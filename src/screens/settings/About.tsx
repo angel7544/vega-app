@@ -187,12 +187,60 @@ const About = () => {
           background={TouchableNativeFeedback.Ripple('#ffffff20', false)}>
           <View className="bg-white/10 p-4 rounded-lg flex-row justify-between items-center mt-4">
             <View className="flex-row items-center space-x-3">
-              <MaterialCommunityIcons name="update" size={22} color="white" />
+              <MaterialCommunityIcons name="cloud-refresh" size={22} color="white" />
               <Text className="text-white text-base">Check for Updates</Text>
             </View>
             <Feather name="chevron-right" size={20} color="white" />
           </View>
         </TouchableNativeFeedback>
+
+        {/* Developer Section */}
+        <View className="mt-8 border-t border-white/10 pt-6">
+          <Text className="text-gray-400 uppercase text-xs font-bold mb-4 tracking-widest">
+            Developed By
+          </Text>
+          
+          <View className="bg-white/10 p-4 rounded-2xl mb-4">
+            <View className="flex-row items-center mb-4">
+              <View className="w-12 h-12 bg-primary/20 rounded-full items-center justify-center mr-4">
+                <MaterialCommunityIcons name="code-braces" size={24} color={primary} />
+              </View>
+              <View>
+                <Text className="text-white font-bold text-lg">br31tech.live</Text>
+                <Text className="text-gray-400 text-sm">Digital Solutions & Innovation</Text>
+              </View>
+            </View>
+            
+            <Text className="text-gray-300 text-sm leading-5 mb-4">
+              Crafted with ❤️ by the team at BR31 Technologies. We specialize in building high-performance digital experiences.
+            </Text>
+
+            <View className="flex-row space-x-3">
+              <TouchableNativeFeedback
+                onPress={() => Linking.openURL('https://www.br31tech.live')}
+                background={TouchableNativeFeedback.Ripple('#ffffff20', false)}>
+                <View className="flex-1 bg-white/5 py-3 rounded-xl items-center justify-center flex-row">
+                  <Feather name="globe" size={16} color="white" className="mr-2" />
+                  <Text className="text-white text-sm font-medium">Website</Text>
+                </View>
+              </TouchableNativeFeedback>
+              
+              <TouchableNativeFeedback
+                onPress={() => Linking.openURL('mailto:info@br31tech.live')}
+                background={TouchableNativeFeedback.Ripple('#ffffff20', false)}>
+                <View className="flex-1 bg-white/5 py-3 rounded-xl items-center justify-center flex-row">
+                  <Feather name="mail" size={16} color="white" className="mr-2" />
+                  <Text className="text-white text-sm font-medium">Contact</Text>
+                </View>
+              </TouchableNativeFeedback>
+            </View>
+          </View>
+
+          {/* Core Team (Optional but adds 'premium' feel) */}
+          <Text className="text-gray-500 text-[10px] text-center mt-4">
+            © 2026 BR31 Technologies • All Rights Reserved
+          </Text>
+        </View>
       </View>
     </View>
   );

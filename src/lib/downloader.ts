@@ -1,11 +1,12 @@
 import {ifExists} from './file/ifExists';
 // import {hlsDownloader} from './hlsDownloader';
 import * as RNFS from '@dr.pogodin/react-native-fs';
-import {Alert} from 'react-native';
+import {Alert, Platform} from 'react-native';
 import {downloadFolder} from './constants';
 import requestStoragePermission from './file/getStoragePermission';
 import {hlsDownloader2} from './hlsDownloader2';
 import {notificationService} from './services/Notification';
+import useDownloadStore from './zustand/downloadsStore';
 
 export const downloadManager = async ({
   title,
@@ -17,6 +18,7 @@ export const downloadManager = async ({
   setDownloadId,
   headers,
   deleteDownload,
+  provider = 'vega',
 }: {
   title: string;
   url: string;
@@ -27,6 +29,7 @@ export const downloadManager = async ({
   setAlreadyDownloaded: (value: boolean) => void;
   setDownloadId: (value: number) => void;
   deleteDownload: () => void;
+  provider?: string;
 }) => {
   await requestStoragePermission();
 
@@ -37,6 +40,18 @@ export const downloadManager = async ({
     setDownloadActive(false);
     return;
   }
+  
+  useDownloadStore.getState().addDownload({
+    title,
+    url,
+    fileName,
+    fileType,
+    status: 'downloading',
+    progress: 0,
+    folderName: 'OrbixPlay',
+    provider,
+  });
+
   setDownloadActive(true);
   // if (activeDownloads.length > 0) {
   //   notifee.displayNotification({
@@ -107,14 +122,13 @@ export const downloadManager = async ({
       begin: (res: any) => {
         console.log('Download has started', res);
         setDownloadId(ret.jobId);
+        useDownloadStore.getState().updateProgress(fileName, 0, ret.jobId);
       },
       progress: (res: any) => {
         const progress = res.bytesWritten / res.contentLength;
         const body =
           res.contentLength < 1024 * 1024 * 1024
-            ? // less than 1GB?
-
-              Math.round(res.bytesWritten / 1024 / 1024) +
+            ? Math.round(res.bytesWritten / 1024 / 1024) +
               ' / ' +
               Math.round(res.contentLength / 1024 / 1024) +
               ' MB'
@@ -122,45 +136,49 @@ export const downloadManager = async ({
               ' / ' +
               parseFloat((res.contentLength / 1024 / 1024 / 1024).toFixed(2)) +
               ' GB';
-        // console.log('Download progress:', progress * 100);
+        
         notificationService.showDownloadProgress(
           title,
           fileName,
           progress,
           body,
-          ret.jobId,
         );
+        useDownloadStore.getState().updateProgress(fileName, progress, ret.jobId);
       },
     });
-    ret.promise.then(res => {
+
+    ret.promise.then(async res => {
       console.log('Download complete', res);
+      
+      // Notify the system about the new file so it's indexed
+      try {
+        if (Platform.OS === 'android' && typeof (RNFS as any).scanFile === 'function') {
+          await (RNFS as any).scanFile(downloadDest);
+        }
+      } catch (e) {
+        console.warn('Failed to scan file:', e);
+      }
+
       setAlreadyDownloaded(true);
       notificationService.showDownloadComplete(title, fileName);
+      useDownloadStore.getState().markAsCompleted(fileName);
       setDownloadActive(false);
-      // downloadManager({
-      //   ...activeDownloads[0],
-      //   downloadStore,
-      //   setAlreadyDownloaded,
-      // });
-    });
-    ret.promise.catch(err => {
+    }).catch(err => {
       deleteDownload();
       console.log('Download error:', err);
       Alert.alert('Download failed', err.message || 'Failed to download');
       notificationService.showDownloadFailed(title, fileName);
+      useDownloadStore.getState().removeDownload(fileName);
       setDownloadActive(false);
       setAlreadyDownloaded(false);
-      // downloadManager({
-      //   ...activeDownloads[0],
-      //   downloadStore,
-      //   setAlreadyDownloaded,
-      // });
     });
+
     return ret.jobId;
   } catch (error: any) {
     console.error('Download error:', error);
     deleteDownload();
     Alert.alert('Download failed', 'Failed to download');
+    useDownloadStore.getState().removeDownload(fileName);
     setDownloadActive(false);
     setAlreadyDownloaded(false);
   }

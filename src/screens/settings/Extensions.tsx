@@ -42,13 +42,21 @@ type TabType = 'installed' | 'available';
 const Extensions = ({navigation}: Props) => {
   const {primary} = useThemeStore(state => state);
   const {
-    provider: activeExtensionProvider,
-    setProvider: setActiveExtensionProvider,
+    activeExtensionProvider,
+    setActiveExtensionProvider,
     installedProviders,
     availableProviders,
     setInstalledProviders,
     setAvailableProviders,
-  } = useContentStore(state => state);
+  } = useContentStore(state => ({
+    activeExtensionProvider: state.provider,
+    setActiveExtensionProvider: state.setProvider,
+    installedProviders: state.installedProviders,
+    availableProviders: state.availableProviders,
+    setInstalledProviders: state.setInstalledProviders,
+    setAvailableProviders: state.setAvailableProviders,
+  }));
+
   const [activeTab, setActiveTab] = useState<TabType>(
     installedProviders?.length > 0 ? 'installed' : 'available',
   );
@@ -61,6 +69,7 @@ const Extensions = ({navigation}: Props) => {
   const [activeSourceAuthor, setActiveSourceAuthor] = useState<string>(
     extensionStorage.getProviderSource()?.author || '',
   );
+
   // Load providers on component mount
   useEffect(() => {
     const initializeExtensions = async () => {
@@ -80,6 +89,7 @@ const Extensions = ({navigation}: Props) => {
           await refreshProviders(author);
         }
       } catch (error) {
+        console.error('Extension initialization error:', error);
         // Still try to load from cache if initialization fails
         loadProviders();
       }
@@ -95,6 +105,7 @@ const Extensions = ({navigation}: Props) => {
     const available = selectedAuthor
       ? extensionStorage.getAvailableProviders(selectedAuthor)
       : [];
+    
     setInstalledProviders(installed);
     setAvailableProviders(available.filter(item => item && !item.disabled));
     setActiveSourceAuthor(selectedAuthor);
@@ -133,6 +144,7 @@ const Extensions = ({navigation}: Props) => {
     try {
       const success = await updateProvidersService.updateProvider(provider);
       if (success) {
+        // Reload all data after update
         loadProviders();
         await checkForUpdates();
 
@@ -168,6 +180,7 @@ const Extensions = ({navigation}: Props) => {
     }
     setActiveTab(tab);
   };
+
   const handleInstallProvider = async (provider: ProviderExtension) => {
     if (!provider || !provider.value) {
       Alert.alert('Error', 'Invalid provider data');
@@ -184,24 +197,27 @@ const Extensions = ({navigation}: Props) => {
     const providerKey = `${provider.source?.author || ''}:${provider.value}`;
     setInstallingProvider(providerKey);
     try {
+      console.log(`Starting installation for: ${provider.display_name}`);
       await extensionManager.installProvider(provider);
-      loadProviders();
+      
+      // Update store and local data
+      loadProviders(activeSourceAuthor);
 
       Alert.alert(
         'Success',
         `${provider.display_name} has been installed successfully!`,
       );
-      setInstalledProviders(extensionStorage.getInstalledProviders() || []);
-      if (
-        !activeExtensionProvider ||
-        activeExtensionProvider.value !== provider.value ||
-        activeExtensionProvider.source?.author !== provider.source?.author
-      ) {
+      
+      // Set as active if none selected
+      if (!activeExtensionProvider) {
         setActiveExtensionProvider(provider);
       }
-    } catch (error) {
+    } catch (error: any) {
       console.error('Installation error:', error);
-      Alert.alert('Error', 'Failed to install provider. Please try again.');
+      Alert.alert(
+        'Installation Failed',
+        `Failed to install ${provider.display_name}.\n\nError: ${error.message || 'Unknown network error'}`
+      );
     } finally {
       setInstallingProvider(null);
     }

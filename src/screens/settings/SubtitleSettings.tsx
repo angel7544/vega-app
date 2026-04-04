@@ -22,7 +22,7 @@ const SubtitlePreference = () => {
   const [bottomElevation, setBottomElevation] = React.useState(
     settingsStorage.getSubtitleBottomPadding(),
   );
-  const {primary} = useThemeStore();
+  const {primary, mode} = useThemeStore();
 
   const handleSubtitleSize = (action: 'increase' | 'decrease') => {
     if (fontSize < 5 || fontSize > 30) return;
@@ -67,23 +67,23 @@ const SubtitlePreference = () => {
 
   return (
     <ScrollView
-      className="w-full h-full bg-black"
+      className={`w-full h-full ${mode === 'dark' ? 'bg-black' : 'bg-white'}`}
       contentContainerStyle={{
         paddingTop: StatusBar.currentHeight || 0,
       }}>
       <View className="p-5">
-        <Text className="text-2xl font-bold text-white mb-6">
+        <Text className={`text-2xl font-bold ${mode === 'dark' ? 'text-white' : 'text-black'} mb-6`}>
           Subtitle Preferences
         </Text>
 
-        <View className="bg-[#1A1A1A] rounded-xl overflow-hidden">
-          <View className="flex-row items-center justify-between p-4 border-b border-[#262626]">
-            <Text className="text-white text-base">Font Size</Text>
+        <View className={`${mode === 'dark' ? 'bg-[#1A1A1A]' : 'bg-gray-100'} rounded-xl overflow-hidden`}>
+          <View className={`flex-row items-center justify-between p-4 border-b ${mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'}`}>
+            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>Font Size</Text>
             <View className="flex-row items-center gap-4">
               <TouchableOpacity onPress={() => handleSubtitleSize('decrease')}>
                 <Entypo name="minus" size={23} color={primary} />
               </TouchableOpacity>
-              <Text className="text-white text-base bg-[#262626] px-3 rounded-md w-12 text-center">
+              <Text className={`${mode === 'dark' ? 'text-white bg-[#262626]' : 'text-black bg-gray-200'} text-base px-3 rounded-md w-12 text-center`}>
                 {fontSize}
               </Text>
               <TouchableOpacity onPress={() => handleSubtitleSize('increase')}>
@@ -93,14 +93,14 @@ const SubtitlePreference = () => {
           </View>
 
           {/* opacity */}
-          <View className="flex-row items-center justify-between p-4 border-b border-[#262626]">
-            <Text className="text-white text-base">Opacity</Text>
+          <View className={`flex-row items-center justify-between p-4 border-b ${mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'}`}>
+            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>Opacity</Text>
             <View className="flex-row items-center gap-4">
               <TouchableOpacity
                 onPress={() => handleSubtitleOpacity('decrease')}>
                 <Entypo name="minus" size={23} color={primary} />
               </TouchableOpacity>
-              <Text className="text-white text-base bg-[#262626] px-3 rounded-md w-12 text-center">
+              <Text className={`${mode === 'dark' ? 'text-white bg-[#262626]' : 'text-black bg-gray-200'} text-base px-3 rounded-md w-12 text-center`}>
                 {opacity}
               </Text>
               <TouchableOpacity
@@ -111,14 +111,14 @@ const SubtitlePreference = () => {
           </View>
 
           {/* bottom padding */}
-          <View className="flex-row items-center justify-between p-4 border-b border-[#262626]">
-            <Text className="text-white text-base">Bottom Elevation</Text>
+          <View className={`flex-row items-center justify-between p-4 border-b ${mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'}`}>
+            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>Bottom Elevation</Text>
             <View className="flex-row items-center gap-4">
               <TouchableOpacity
                 onPress={() => handleSubtitleBottomPadding('decrease')}>
                 <Entypo name="minus" size={23} color={primary} />
               </TouchableOpacity>
-              <Text className="text-white text-base bg-[#262626] px-3 rounded-md w-12 text-center">
+              <Text className={`${mode === 'dark' ? 'text-white bg-[#262626]' : 'text-black bg-gray-200'} text-base px-3 rounded-md w-12 text-center`}>
                 {bottomElevation}
               </Text>
               <TouchableOpacity
@@ -133,10 +133,10 @@ const SubtitlePreference = () => {
             onPress={async () => {
               await startActivityAsync(ActivityAction.CAPTIONING_SETTINGS);
             }}
-            background={TouchableNativeFeedback.Ripple('#333333', false)}>
-            <View className="flex-row items-center justify-between p-4 border-b border-[#262626]">
+            background={TouchableNativeFeedback.Ripple(mode === 'dark' ? '#333333' : '#d1d5db', false)}>
+            <View className={`flex-row items-center justify-between p-4 border-b ${mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'}`}>
               <View className="flex-row items-center">
-                <Text className="text-white text-base">
+                <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>
                   More Subtitle Settings
                 </Text>
               </View>
@@ -145,8 +145,8 @@ const SubtitlePreference = () => {
           </TouchableNativeFeedback>
 
           {/* reset */}
-          <View className="flex-row items-center justify-between p-4 border-b border-[#262626]">
-            <Text className="text-white text-base">Reset to Default</Text>
+          <View className={`flex-row items-center justify-between p-4 border-b ${mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'}`}>
+            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>Reset to Default</Text>
             <TouchableOpacity
               onPress={() => {
                 settingsStorage.setSubtitleFontSize(16);
@@ -157,7 +157,7 @@ const SubtitlePreference = () => {
                 setBottomElevation(10);
               }}>
               <View className="w-32 flex-row items-center justify-center">
-                <Text className="text-white text-base bg-[#262626] px-3 py-1 rounded-md text-center">
+                <Text className={`${mode === 'dark' ? 'text-white bg-[#262626]' : 'text-black bg-gray-200'} text-base px-3 py-1 rounded-md text-center`}>
                   Reset
                 </Text>
               </View>

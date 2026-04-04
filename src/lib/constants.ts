@@ -7,12 +7,12 @@ export const FLAGS = {
   ITALY: 'https://utfs.io/f/ImOWJajUmXfynpGlTaXrTMAELcs2W76PyY4IRJVBXCHOofa5',
 };
 
-export const downloadFolder = RNFS.DownloadDirectoryPath + '/vega';
+export const downloadFolder = RNFS.DownloadDirectoryPath + '/OrbixPlay';
 
 export const themes: {name: string; color: string}[] = [
   {
-    name: 'Vega',
-    color: '#FF6347',
+    name: 'OrbixPlay',
+    color: '#9447ff96',
   },
   {
     name: 'Hayasaka',
@@ -49,7 +49,7 @@ export const themes: {name: string; color: string}[] = [
 ];
 
 export const socialLinks = {
-  github: 'https://github.com/Zenda-Cross/vega-app',
-  discord: 'https://discord.gg/cr42m6maWy',
-  sponsor: 'https://github.com/sponsors/Zenda-Cross',
+  github: 'https://github.com/angel7544',
+  discord: 'https://linkedin.com/in/angel3002',
+  sponsor: 'https://github.com/sponsors/angel7544',
 };

@@ -77,24 +77,24 @@ module.exports = () => {
       },
     ],
 
-    [
-      'expo-dev-client',
-      {
-        launchMode: 'most-recent',
-      },
-    ],
+    // [
+    //   'expo-dev-client',
+    //   {
+    //     launchMode: 'most-recent',
+    //   },
+    // ],
   ];
 
   return {
     expo: {
-      name: 'Vega',
-      scheme: 'com.vega',
-      displayName: 'Vega',
+      name: 'OrbixPlay',
+      scheme: 'com.orbixplay.br31tech',
+      displayName: 'OrbixPlay',
       jsEngine: 'hermes',
       newArchEnabled: true,
       autolinking: {exclude: ['expo-splash-screen']},
       plugins,
-      slug: 'vega',
+      slug: 'orbixplay',
       version: '3.3.4',
       userInterfaceStyle: 'dark',
       experiments: {
@@ -106,8 +106,8 @@ module.exports = () => {
           : {}),
         minSdkVersion: 24,
         edgeToEdgeEnabled: true,
-        package: 'com.vega',
-        versionCode: 162,
+        package: 'com.orbixplay.br31tech',
+        versionCode: 2,
         permissions: [
           'FOREGROUND_SERVICE',
           'FOREGROUND_SERVICE_MEDIA_PLAYBACK',

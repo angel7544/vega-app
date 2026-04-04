@@ -32,16 +32,18 @@ import useWatchHistoryStore from '../../lib/zustand/watchHistrory';
 import Animated, {FadeInDown, FadeInUp, Layout} from 'react-native-reanimated';
 import {useNavigation} from '@react-navigation/native';
 import RenderProviderFlagIcon from '../../components/RenderProviderFLagIcon';
+import {useShowNavBarOnScroll} from '../../lib/hooks/useShowNavBarOnScroll';
 
 type Props = NativeStackScreenProps<SettingsStackParamList, 'Settings'>;
 
 const Settings = ({navigation}: Props) => {
   const tabNavigation =
     useNavigation<NativeStackNavigationProp<TabStackParamList>>();
-  const {primary} = useThemeStore(state => state);
+  const {primary, mode, setMode} = useThemeStore(state => state);
   const {provider, setProvider, installedProviders} = useContentStore(
     state => state,
   );
+  const {handleScroll} = useShowNavBarOnScroll();
   const {clearHistory} = useWatchHistoryStore(state => state);
 
   const handleProviderSelect = useCallback(
@@ -136,12 +138,14 @@ const Settings = ({navigation}: Props) => {
 
   return (
     <Animated.ScrollView
-      className="w-full h-full bg-black"
+      className={`w-full h-full ${mode === 'dark' ? 'bg-black' : 'bg-white'}`}
       showsVerticalScrollIndicator={false}
       bounces={true}
       overScrollMode="always"
       entering={FadeInUp.springify()}
       layout={Layout.springify()}
+      onScroll={handleScroll}
+      scrollEventThrottle={16}
       contentContainerStyle={{
         paddingTop: 15,
         paddingBottom: 24,
@@ -149,14 +153,74 @@ const Settings = ({navigation}: Props) => {
       }}>
       <View className="p-5">
         <Animated.View entering={FadeInUp.springify()}>
-          <Text className="text-2xl font-bold text-white mb-6">Settings</Text>
+          <Text
+            className={`text-2xl font-bold mb-6 ${
+              mode === 'dark' ? 'text-white' : 'text-black'
+            }`}>
+            Settings
+          </Text>
         </Animated.View>
 
         {/* Content provider section */}
         <AnimatedSection delay={100}>
           <View className="mb-6 flex-col gap-3">
-            <Text className="text-gray-400 text-sm mb-1">Content Provider</Text>
-            <View className="bg-[#1A1A1A] rounded-xl py-4">
+            <Text
+              className={`${
+                mode === 'dark' ? 'text-gray-400' : 'text-gray-500'
+              } text-sm mb-1`}>
+              App Theme
+            </Text>
+            <View
+              className={`${
+                mode === 'dark' ? 'bg-[#1A1A1A]' : 'bg-gray-100'
+              } rounded-xl p-1 flex-row gap-1`}>
+              <TouchableOpacity
+                onPress={() => setMode('dark')}
+                className={`flex-1 py-3 items-center justify-center rounded-lg flex-row gap-2 ${
+                  mode === 'dark' ? 'bg-[#333333]' : 'bg-transparent'
+                }`}>
+                <Feather
+                  name="moon"
+                  size={18}
+                  color={mode === 'dark' ? primary : '#666'}
+                />
+                <Text
+                  className={`font-semibold ${
+                    mode === 'dark' ? 'text-white' : 'text-gray-500'
+                  }`}>
+                  Dark
+                </Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                onPress={() => setMode('light')}
+                className={`flex-1 py-3 items-center justify-center rounded-lg flex-row gap-2 ${
+                  mode === 'light' ? 'bg-white shadow-sm' : 'bg-transparent'
+                }`}>
+                <Feather
+                  name="sun"
+                  size={18}
+                  color={mode === 'light' ? primary : '#666'}
+                />
+                <Text
+                  className={`font-semibold ${
+                    mode === 'light' ? 'text-black' : 'text-gray-500'
+                  }`}>
+                  Light
+                </Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+          <View className="mb-6 flex-col gap-3">
+            <Text
+              className={`${
+                mode === 'dark' ? 'text-gray-400' : 'text-gray-500'
+              } text-sm mb-1`}>
+              Content Provider
+            </Text>
+            <View
+              className={`${
+                mode === 'dark' ? 'bg-[#1A1A1A]' : 'bg-gray-100'
+              } rounded-xl py-4`}>
               <ScrollView
                 horizontal
                 showsHorizontalScrollIndicator={false}
@@ -165,26 +229,36 @@ const Settings = ({navigation}: Props) => {
                 }}>
                 {providersList}
                 {installedProviders.length === 0 && (
-                  <Text className="text-gray-500 text-sm">
+                  <Text
+                    className={`${
+                      mode === 'dark' ? 'text-gray-500' : 'text-gray-400'
+                    } text-sm`}>
                     No providers installed
                   </Text>
                 )}
               </ScrollView>
             </View>
-            {/* Extensions */}
-            <View className="bg-[#1A1A1A] rounded-xl overflow-hidden mb-3">
+            <View
+              className={`${
+                mode === 'dark' ? 'bg-[#1A1A1A]' : 'bg-gray-100'
+              } rounded-xl overflow-hidden mb-3`}>
               <TouchableNativeFeedback
                 onPress={() => navigation.navigate('Extensions')}
-                background={TouchableNativeFeedback.Ripple('#333333', false)}>
+                background={TouchableNativeFeedback.Ripple(
+                  mode === 'dark' ? '#333333' : '#e5e7eb',
+                  false,
+                )}>
                 <View className="flex-row items-center justify-between p-4 mr-5">
                   <View className="flex-row items-center">
-                    <MaterialCommunityIcons
-                      name="puzzle"
-                      size={22}
+                    <Feather
+                      name="layers"
+                      size={20}
                       color={primary}
                     />
                     <Text
-                      className="text-white ml-3 text-base flex-1"
+                      className={`${
+                        mode === 'dark' ? 'text-white' : 'text-black'
+                      } ml-3 text-base flex-1`}
                       numberOfLines={1}>
                       Provider Manager
                     </Text>
@@ -199,20 +273,39 @@ const Settings = ({navigation}: Props) => {
         {/* Main options section */}
         <AnimatedSection delay={200}>
           <View className="mb-6">
-            <Text className="text-gray-400 text-sm mb-3">Options</Text>
-            <View className="bg-[#1A1A1A] rounded-xl overflow-hidden">
+            <Text
+              className={`${
+                mode === 'dark' ? 'text-gray-400' : 'text-gray-500'
+              } text-sm mb-3`}>
+              Options
+            </Text>
+            <View
+              className={`${
+                mode === 'dark' ? 'bg-[#1A1A1A]' : 'bg-gray-100'
+              } rounded-xl overflow-hidden`}>
               {/* Downloads */}
               <TouchableNativeFeedback
                 onPress={() => navigation.navigate('Downloads')}
-                background={TouchableNativeFeedback.Ripple('#333333', false)}>
-                <View className="flex-row items-center justify-between p-4 border-b border-[#262626]">
+                background={TouchableNativeFeedback.Ripple(
+                  mode === 'dark' ? '#333333' : '#e5e7eb',
+                  false,
+                )}>
+                <View
+                  className={`flex-row items-center justify-between p-4 border-b ${
+                    mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'
+                  }`}>
                   <View className="flex-row items-center">
-                    <MaterialCommunityIcons
-                      name="folder-download"
-                      size={22}
+                    <Feather
+                      name="download"
+                      size={20}
                       color={primary}
                     />
-                    <Text className="text-white ml-3 text-base">Downloads</Text>
+                    <Text
+                      className={`${
+                        mode === 'dark' ? 'text-white' : 'text-black'
+                      } ml-3 text-base`}>
+                      Downloads
+                    </Text>
                   </View>
                   <Feather name="chevron-right" size={20} color="gray" />
                 </View>
@@ -223,15 +316,24 @@ const Settings = ({navigation}: Props) => {
                 onPress={async () => {
                   navigation.navigate('SubTitlesPreferences');
                 }}
-                background={TouchableNativeFeedback.Ripple('#333333', false)}>
-                <View className="flex-row items-center justify-between p-4 border-b border-[#262626]">
+                background={TouchableNativeFeedback.Ripple(
+                  mode === 'dark' ? '#333333' : '#e5e7eb',
+                  false,
+                )}>
+                <View
+                  className={`flex-row items-center justify-between p-4 border-b ${
+                    mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'
+                  }`}>
                   <View className="flex-row items-center">
-                    <MaterialCommunityIcons
-                      name="subtitles"
-                      size={22}
+                    <Feather
+                      name="type"
+                      size={20}
                       color={primary}
                     />
-                    <Text className="text-white ml-3 text-base">
+                    <Text
+                      className={`${
+                        mode === 'dark' ? 'text-white' : 'text-black'
+                      } ml-3 text-base`}>
                       Subtitle Style
                     </Text>
                   </View>
@@ -239,34 +341,27 @@ const Settings = ({navigation}: Props) => {
                 </View>
               </TouchableNativeFeedback>
 
-              {/* Disable Providers */}
-              {/* <TouchableNativeFeedback
-                onPress={() => navigation.navigate('DisableProviders')}
-                background={TouchableNativeFeedback.Ripple('#333333', false)}>
-                <View className="flex-row items-center justify-between p-4 border-b border-[#262626]">
-                  <View className="flex-row items-center">
-                    <MaterialIcons name="block" size={22} color={primary} />
-                    <Text className="text-white ml-3 text-base">
-                      Disable Providers in Search
-                    </Text>
-                  </View>
-                  <Feather name="chevron-right" size={20} color="gray" />
-                </View>
-              </TouchableNativeFeedback> */}
-
               {/* Watch History */}
               <TouchableNativeFeedback
                 onPress={() => navigation.navigate('WatchHistoryStack')}
-                background={TouchableNativeFeedback.Ripple('#333333', false)}>
-                <View className="flex-row items-center justify-between p-4 border-b border-[#262626]">
+                background={TouchableNativeFeedback.Ripple(
+                  mode === 'dark' ? '#333333' : '#e5e7eb',
+                  false,
+                )}>
+                <View
+                  className={`flex-row items-center justify-between p-4 border-b ${
+                    mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'
+                  }`}>
                   <View className="flex-row items-center">
-                    <MaterialCommunityIcons
-                      name="history"
-                      size={22}
+                    <Feather
+                      name="clock"
+                      size={20}
                       color={primary}
                     />
                     <Text
-                      className="text-white ml-3 text-base"
+                      className={`${
+                        mode === 'dark' ? 'text-white' : 'text-black'
+                      } ml-3 text-base`}
                       numberOfLines={1}>
                       Watch History
                     </Text>
@@ -278,15 +373,21 @@ const Settings = ({navigation}: Props) => {
               {/* Preferences */}
               <TouchableNativeFeedback
                 onPress={() => navigation.navigate('Preferences')}
-                background={TouchableNativeFeedback.Ripple('#333333', false)}>
+                background={TouchableNativeFeedback.Ripple(
+                  mode === 'dark' ? '#333333' : '#e5e7eb',
+                  false,
+                )}>
                 <View className="flex-row items-center justify-between p-4">
                   <View className="flex-row items-center">
-                    <MaterialIcons
-                      name="room-preferences"
-                      size={22}
+                    <Feather
+                      name="sliders"
+                      size={20}
                       color={primary}
                     />
-                    <Text className="text-white ml-3 text-base">
+                    <Text
+                      className={`${
+                        mode === 'dark' ? 'text-white' : 'text-black'
+                      } ml-3 text-base`}>
                       Preferences
                     </Text>
                   </View>
@@ -300,17 +401,33 @@ const Settings = ({navigation}: Props) => {
         {/* Data Management section */}
         <AnimatedSection delay={300}>
           <View className="mb-6">
-            <Text className="text-gray-400 text-sm mb-3">Data Management</Text>
-            <View className="bg-[#1A1A1A] rounded-xl overflow-hidden">
+            <Text
+              className={`${
+                mode === 'dark' ? 'text-gray-400' : 'text-gray-500'
+              } text-sm mb-3`}>
+              Data Management
+            </Text>
+            <View
+              className={`${
+                mode === 'dark' ? 'bg-[#1A1A1A]' : 'bg-gray-100'
+              } rounded-xl overflow-hidden`}>
               {/* Clear Cache */}
-              <View className="flex-row items-center justify-between p-4 border-b border-[#262626]">
-                <Text className="text-white text-base">Clear Cache</Text>
+              <View
+                className={`flex-row items-center justify-between p-4 border-b ${
+                  mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'
+                }`}>
+                <Text
+                  className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>
+                  Clear Cache
+                </Text>
                 <TouchableOpacity
-                  className="bg-[#262626] px-4 py-2 rounded-lg"
+                  className={`${
+                    mode === 'dark' ? 'bg-[#262626]' : 'bg-gray-200'
+                  } px-4 py-2 rounded-lg`}
                   onPress={clearCacheHandler}>
-                  <MaterialCommunityIcons
-                    name="delete-outline"
-                    size={20}
+                  <Feather
+                    name="trash-2"
+                    size={18}
                     color={primary}
                   />
                 </TouchableOpacity>
@@ -318,15 +435,21 @@ const Settings = ({navigation}: Props) => {
 
               {/* Clear Watch History */}
               <View className="flex-row items-center justify-between p-4">
-                <Text className="text-white text-base flex-1" numberOfLines={1}>
+                <Text
+                  className={`${
+                    mode === 'dark' ? 'text-white' : 'text-black'
+                  } text-base flex-1`}
+                  numberOfLines={1}>
                   Clear Watch History
                 </Text>
                 <TouchableOpacity
-                  className="bg-[#262626] px-4 py-2 rounded-lg"
+                  className={`${
+                    mode === 'dark' ? 'bg-[#262626]' : 'bg-gray-200'
+                  } px-4 py-2 rounded-lg`}
                   onPress={clearHistoryHandler}>
-                  <MaterialCommunityIcons
-                    name="delete-outline"
-                    size={20}
+                  <Feather
+                    name="trash-2"
+                    size={18}
                     color={primary}
                   />
                 </TouchableOpacity>
@@ -338,38 +461,40 @@ const Settings = ({navigation}: Props) => {
         {/* About & GitHub section */}
         <AnimatedSection delay={400}>
           <View className="mb-6">
-            <Text className="text-gray-400 text-sm mb-3">About</Text>
-            <View className="bg-[#1A1A1A] rounded-xl overflow-hidden">
+            <Text
+              className={`${
+                mode === 'dark' ? 'text-gray-400' : 'text-gray-500'
+              } text-sm mb-3`}>
+              About
+            </Text>
+            <View
+              className={`${
+                mode === 'dark' ? 'bg-[#1A1A1A]' : 'bg-gray-100'
+              } rounded-xl overflow-hidden`}>
               {/* About */}
               <TouchableNativeFeedback
                 onPress={() => navigation.navigate('About')}
-                background={TouchableNativeFeedback.Ripple('#333333', false)}>
-                <View className="flex-row items-center justify-between p-4 border-b border-[#262626]">
+                background={TouchableNativeFeedback.Ripple(
+                  mode === 'dark' ? '#333333' : '#e5e7eb',
+                  false,
+                )}>
+                <View className="flex-row items-center justify-between p-4">
                   <View className="flex-row items-center">
                     <Feather name="info" size={22} color={primary} />
-                    <Text className="text-white ml-3 text-base">About</Text>
+                    <Text
+                      className={`${
+                        mode === 'dark' ? 'text-white' : 'text-black'
+                      } ml-3 text-base`}>
+                      About
+                    </Text>
                   </View>
                   <Feather name="chevron-right" size={20} color="gray" />
                 </View>
               </TouchableNativeFeedback>
-
-              {/* GitHub */}
-              {/* <TouchableNativeFeedback
-                onPress={() => Linking.openURL(socialLinks.github)}
-                background={TouchableNativeFeedback.Ripple('#333333', false)}>
-                <View className="flex-row items-center justify-between p-4 border-b border-[#262626]">
-                  <View className="flex-row items-center">
-                    <AntDesign name="github" size={22} color={primary} />
-                    <Text className="text-white ml-3 text-base">
-                      Give a star ⭐
-                    </Text>
-                  </View>
-                  <Feather name="external-link" size={20} color="gray" />
-                </View>
-              </TouchableNativeFeedback> */}
             </View>
           </View>
         </AnimatedSection>
+
       </View>
     </Animated.ScrollView>
   );

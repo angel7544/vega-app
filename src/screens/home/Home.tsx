@@ -16,6 +16,7 @@ import {
   getRandomHeroPost,
   clearHeroCache,
 } from '../../lib/hooks/useHomePageData';
+import {useShowNavBarOnScroll} from '../../lib/hooks/useShowNavBarOnScroll';
 import useThemeStore from '../../lib/zustand/themeStore';
 import ProviderDrawer from '../../components/ProviderDrawer';
 import {NativeStackScreenProps} from '@react-navigation/native-stack';
@@ -31,7 +32,8 @@ import {StatusBar} from 'expo-status-bar';
 type Props = NativeStackScreenProps<HomeStackParamList, 'Home'>;
 
 const Home = ({}: Props) => {
-  const {primary} = useThemeStore(state => state);
+  const {primary, mode} = useThemeStore(state => state);
+  const {handleScroll: handleNavBarScroll} = useShowNavBarOnScroll();
   const [backgroundColor, setBackgroundColor] = useState('transparent');
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
@@ -59,10 +61,18 @@ const Home = ({}: Props) => {
 
   // Memoized scroll handler
   const handleScroll = useCallback((event: any) => {
+    // Navbar color logic
     const newBackgroundColor =
-      event.nativeEvent.contentOffset.y > 0 ? 'black' : 'transparent';
+      event.nativeEvent.contentOffset.y > 0
+        ? mode === 'dark'
+          ? 'black'
+          : 'white'
+        : 'transparent';
     setBackgroundColor(newBackgroundColor);
-  }, []);
+
+    // Auto-hide navbar logic
+    handleNavBarScroll(event);
+  }, [mode, handleNavBarScroll]);
 
   // Stable hero post calculation - uses provider value for caching
   const heroPost = useMemo(() => {
@@ -154,7 +164,8 @@ const Home = ({}: Props) => {
   return (
     <QueryErrorBoundary>
       <GestureHandlerRootView style={{flex: 1}}>
-        <SafeAreaView className="bg-black flex-1">
+        <SafeAreaView
+          className={`${mode === 'dark' ? 'bg-black' : 'bg-white'} flex-1`}>
           <Drawer
             open={isDrawerOpen}
             onOpen={() => setIsDrawerOpen(true)}
@@ -180,12 +191,14 @@ const Home = ({}: Props) => {
               onScroll={handleScroll}
               scrollEventThrottle={16} // Optimize scroll performance
               showsVerticalScrollIndicator={false}
-              className="bg-black"
+              className={`${mode === 'dark' ? 'bg-black' : 'bg-white'}`}
               refreshControl={
                 <RefreshControl
                   colors={[primary]}
                   tintColor={primary}
-                  progressBackgroundColor="black"
+                  progressBackgroundColor={
+                    mode === 'dark' ? 'black' : 'white'
+                  }
                   refreshing={isRefetching}
                   onRefresh={handleRefresh}
                 />
@@ -197,7 +210,7 @@ const Home = ({}: Props) => {
 
               <ContinueWatching />
 
-              <View className="-mt-6 relative z-20">
+              <View className="relative z-20 px-2 mt-4">
                 {isLoading ? loadingSliders : contentSliders}
                 {errorComponent}
               </View>

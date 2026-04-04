@@ -17,7 +17,7 @@ import {mainStorage} from '../lib/storage';
 
 type Props = NativeStackScreenProps<WatchHistoryStackParamList, 'WatchHistory'>;
 const WatchHistory = ({navigation}: Props) => {
-  const {primary} = useThemeStore(state => state);
+  const {primary, mode} = useThemeStore(state => state);
   const {history, clearHistory} = useWatchHistoryStore(state => state);
   const [progressData, setProgressData] = useState<Record<string, number>>({});
 
@@ -140,27 +140,36 @@ const WatchHistory = ({navigation}: Props) => {
   };
 
   return (
-    <View className="flex-1 bg-black">
+    <View className={`flex-1 ${mode === 'dark' ? 'bg-black' : 'bg-white'}`}>
       <StatusBar
         translucent
         backgroundColor="transparent"
-        barStyle="light-content"
+        barStyle={mode === 'dark' ? 'light-content' : 'dark-content'}
       />
 
       <View
-        className="w-full bg-black"
+        className={`w-full ${mode === 'dark' ? 'bg-black' : 'bg-white'}`}
         style={{
           paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0,
         }}
       />
 
       <View className="flex-row justify-between items-center p-4">
-        <Text className="text-white text-2xl font-bold">Watch History</Text>
+        <Text
+          className={`${
+            mode === 'dark' ? 'text-white' : 'text-black'
+          } text-2xl font-bold`}>
+          Watch History
+        </Text>
         {uniqueHistory.length > 0 && (
           <TouchableOpacity
             onPress={() => clearHistory()}
-            className="bg-white/10 px-3 py-1 rounded-full">
-            <Text className="text-white">Clear</Text>
+            className={`${
+              mode === 'dark' ? 'bg-white/10' : 'bg-gray-200'
+            } px-3 py-1 rounded-full`}>
+            <Text className={mode === 'dark' ? 'text-white' : 'text-black'}>
+              Clear
+            </Text>
           </TouchableOpacity>
         )}
       </View>
@@ -172,7 +181,10 @@ const WatchHistory = ({navigation}: Props) => {
         ListEmptyComponent={() => (
           <View className="flex-1 justify-center items-center mt-10">
             <MaterialCommunityIcons name="history" size={80} color={primary} />
-            <Text className="text-white/70 text-base mt-4">
+            <Text
+              className={`${
+                mode === 'dark' ? 'text-white/70' : 'text-black/70'
+              } text-base mt-4`}>
               No watch history
             </Text>
           </View>
@@ -294,11 +306,19 @@ const WatchHistory = ({navigation}: Props) => {
                   )}
                 </View>
 
-                <Text numberOfLines={2} className="text-white text-sm mt-1">
+                <Text
+                  numberOfLines={2}
+                  className={`${
+                    mode === 'dark' ? 'text-white' : 'text-black'
+                  } text-sm mt-1`}>
                   {item.title}
                 </Text>
                 {item.episodeTitle && (
-                  <Text numberOfLines={1} className="text-white/60 text-xs">
+                  <Text
+                    numberOfLines={1}
+                    className={`${
+                      mode === 'dark' ? 'text-white/60' : 'text-black/60'
+                    } text-xs`}>
                     {item.episodeTitle}
                   </Text>
                 )}

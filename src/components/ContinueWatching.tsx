@@ -6,6 +6,7 @@ import {
   TouchableOpacity,
   FlatList,
   Pressable,
+  useWindowDimensions,
 } from 'react-native';
 import useWatchHistoryStore from '../lib/zustand/watchHistrory';
 import {mainStorage as MMKV} from '../lib/storage/StorageService';
@@ -18,10 +19,14 @@ import ReactNativeHapticFeedback from 'react-native-haptic-feedback';
 import {MaterialCommunityIcons} from '@expo/vector-icons';
 
 const ContinueWatching = () => {
-  const {primary} = useThemeStore(state => state);
+  const {primary, mode} = useThemeStore(state => state);
   const navigation =
     useNavigation<NativeStackNavigationProp<TabStackParamList>>();
   const {history, removeItem} = useWatchHistoryStore(state => state);
+  const {width: windowWidth} = useWindowDimensions();
+  const isTablet = windowWidth > 768;
+  const itemWidth = isTablet ? 150 : 100;
+  const itemHeight = isTablet ? 225 : 150;
   const [progressData, setProgressData] = useState<Record<string, number>>({});
   const [selectedItems, setSelectedItems] = useState<Set<string>>(new Set());
   const [selectionMode, setSelectionMode] = useState<boolean>(false);
@@ -171,13 +176,15 @@ const ContinueWatching = () => {
       onPress={() => selectionMode && exitSelectionMode()}
       className="mt-3 mb-8">
       <View className="flex flex-row justify-between items-center px-2 mb-3">
-        <Text className="text-2xl font-semibold" style={{color: primary}}>
+        <Text
+          className={`text-2xl font-semibold ${mode === 'dark' ? '' : 'text-black'}`}
+          style={mode === 'dark' ? {color: primary} : {}}>
           Continue Watching
         </Text>
 
         {selectionMode && selectedItems.size > 0 && (
           <View className="flex flex-row items-center">
-            <Text className="text-white mr-1">
+            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} mr-1`}>
               {selectedItems.size} selected
             </Text>
             <TouchableOpacity
@@ -206,7 +213,8 @@ const ContinueWatching = () => {
           return (
             <TouchableOpacity
               activeOpacity={0.8}
-              className="max-w-[100px] mx-2"
+              className="mx-2"
+              style={{width: itemWidth}}
               onLongPress={e => {
                 e.stopPropagation();
                 handleLongPress(item.link);
@@ -220,7 +228,7 @@ const ContinueWatching = () => {
                 <Image
                   source={{uri: item?.poster}}
                   className="rounded-md"
-                  style={{width: 100, height: 150}}
+                  style={{width: itemWidth, height: itemHeight}}
                 />
 
                 {/* Selection Indicator */}
@@ -228,11 +236,11 @@ const ContinueWatching = () => {
                   <View className="absolute top-2 right-2 z-50">
                     <View
                       className={`w-5 h-5 rounded-full flex items-center justify-center ${
-                        isSelected ? '' : 'bg-white/30'
+                        isSelected ? '' : (mode === 'dark' ? 'bg-white/30' : 'bg-black/30')
                       }`}
                       style={{
                         borderWidth: 1,
-                        borderColor: 'white',
+                        borderColor: mode === 'dark' ? 'white' : 'black',
                         backgroundColor: isSelected ? primary : undefined,
                       }}>
                       {isSelected && (
@@ -264,7 +272,8 @@ const ContinueWatching = () => {
                 </View>
               </View>
               <Text
-                className="text-white text-center truncate w-24 text-xs"
+                className="text-center truncate text-xs"
+                style={{width: itemWidth, color: primary}}
                 numberOfLines={2}>
                 {item.title}
               </Text>

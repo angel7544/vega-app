@@ -1,11 +1,13 @@
-import {View, Text, Image, Platform, TouchableOpacity} from 'react-native';
+import {View, Text, Image, Platform, TouchableOpacity, ToastAndroid} from 'react-native';
 import requestStoragePermission from '../../lib/file/getStoragePermission';
 import * as FileSystem from 'expo-file-system/legacy';
 import {downloadFolder} from '../../lib/constants';
 import * as VideoThumbnails from 'expo-video-thumbnails';
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useCallback} from 'react';
+import {useFocusEffect} from '@react-navigation/native';
 import {settingsStorage, downloadsStorage} from '../../lib/storage';
 import useThemeStore from '../../lib/zustand/themeStore';
+import useDownloadStore from '../../lib/zustand/downloadsStore';
 import * as RNFS from '@dr.pogodin/react-native-fs';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import {useNavigation} from '@react-navigation/native';
@@ -113,87 +115,84 @@ const Downloads = () => {
   const [groupSelected, setGroupSelected] = useState<string[]>([]);
   const [isSelecting, setIsSelecting] = useState(false);
 
+  const {activeDownloads} = useDownloadStore(state => state);
   const navigation =
     useNavigation<NativeStackNavigationProp<RootStackParamList>>();
+  
+  const loadData = async () => {
+    // Load from cache first for instant display
+    const cachedFiles = downloadsStorage.getFilesInfo();
+    const cachedThumbnails = downloadsStorage.getThumbnails();
+
+    if (cachedFiles && cachedFiles.length > 0) {
+      // Filter and validate cached files
+      const validCachedFiles: DownloadedFile[] = cachedFiles
+        .filter(f => f.uri)
+        .map(f => ({
+          uri: f.uri!,
+          exists: f.exists,
+          isDirectory:
+            'isDirectory' in f ? (f.isDirectory as boolean) : undefined,
+          size: 'size' in f ? (f as any).size : undefined,
+          modificationTime:
+            'modificationTime' in f ? (f as any).modificationTime : undefined,
+        }));
+      setFiles(validCachedFiles);
+      setLoading(false);
+    }
+    if (cachedThumbnails) {
+      setThumbnails(cachedThumbnails);
+    }
+
+    // Then refresh from filesystem
+    const granted = await requestStoragePermission();
+    if (granted) {
+      try {
+        if (!(await RNFS.exists(downloadFolder))) {
+          await RNFS.mkdir(downloadFolder);
+        }
+
+        const allFiles = await RNFS.readDir(downloadFolder);
+
+        // Filter and map video files
+        const validFiles: DownloadedFile[] = allFiles
+          .filter(item => item.isFile() && isVideoFile(item.name))
+          .map(item => ({
+            uri: Platform.OS === 'android' ? `file://${item.path}` : item.path,
+            exists: true,
+            isDirectory: false,
+            size: item.size,
+            modificationTime: item.mtime ? new Date(item.mtime).getTime() : undefined,
+          }));
+
+        // Save files info to storage
+        downloadsStorage.saveFilesInfo(validFiles as any);
+        setFiles(validFiles);
+      } catch (error) {
+        console.error('Error reading files:', error);
+      }
+    }
+    setLoading(false);
+  };
 
   // Load cached data first, then refresh from filesystem
   useEffect(() => {
-    const loadData = async () => {
-      // Load from cache first for instant display
-      const cachedFiles = downloadsStorage.getFilesInfo();
-      const cachedThumbnails = downloadsStorage.getThumbnails();
-
-      if (cachedFiles && cachedFiles.length > 0) {
-        // Filter and validate cached files
-        const validCachedFiles: DownloadedFile[] = cachedFiles
-          .filter(f => f.uri)
-          .map(f => ({
-            uri: f.uri!,
-            exists: f.exists,
-            isDirectory:
-              'isDirectory' in f ? (f.isDirectory as boolean) : undefined,
-            size: 'size' in f ? (f as any).size : undefined,
-            modificationTime:
-              'modificationTime' in f ? (f as any).modificationTime : undefined,
-          }));
-        setFiles(validCachedFiles);
-        setLoading(false);
-      }
-      if (cachedThumbnails) {
-        setThumbnails(cachedThumbnails);
-      }
-
-      // Then refresh from filesystem
-      const granted = await requestStoragePermission();
-      if (granted) {
-        try {
-          const properPath =
-            Platform.OS === 'android'
-              ? `file://${downloadFolder}`
-              : downloadFolder;
-
-          const allFiles = await FileSystem.readDirectoryAsync(properPath);
-
-          // Filter video files
-          const videoFiles = allFiles.filter(file => isVideoFile(file));
-
-          const filesInfo = await Promise.all(
-            videoFiles.map(async file => {
-              const filePath =
-                Platform.OS === 'android'
-                  ? `file://${downloadFolder}/${file}`
-                  : `${downloadFolder}/${file}`;
-
-              const fileInfo = await FileSystem.getInfoAsync(filePath);
-              return fileInfo;
-            }),
-          );
-
-          // Filter out files without uri and cast to DownloadedFile
-          const validFiles: DownloadedFile[] = filesInfo
-            .filter(f => f.uri && f.exists)
-            .map(f => ({
-              uri: f.uri!,
-              exists: f.exists,
-              isDirectory: 'isDirectory' in f ? f.isDirectory : undefined,
-              size: 'size' in f ? (f as any).size : undefined,
-              modificationTime:
-                'modificationTime' in f
-                  ? (f as any).modificationTime
-                  : undefined,
-            }));
-
-          // Save files info to storage
-          downloadsStorage.saveFilesInfo(validFiles as any);
-          setFiles(validFiles);
-        } catch (error) {
-          console.error('Error reading files:', error);
-        }
-      }
-      setLoading(false);
-    };
     loadData();
   }, []);
+
+  // Auto-refresh when activeDownloads change (e.g. download finished)
+  useEffect(() => {
+    const activeCount = Object.keys(activeDownloads).length;
+    // When a download finishes, the store counts decrease.
+    // We can't easily know if it's a finish or cancel, so we refresh.
+    loadData();
+  }, [Object.keys(activeDownloads).length]);
+
+  useFocusEffect(
+    useCallback(() => {
+      loadData();
+    }, []),
+  );
 
   async function getThumbnail(file: DownloadedFile) {
     try {
@@ -254,6 +253,23 @@ const Downloads = () => {
       getThumbnails();
     }
   }, [files]);
+
+  const cancelDownload = async (fileName: string, jobId?: number) => {
+    try {
+      if (jobId) {
+        await RNFS.stopDownload(jobId);
+      }
+      useDownloadStore.getState().removeDownload(fileName);
+      // Delete partially downloaded file
+      const path = `${downloadFolder}/${fileName}`;
+      if (await RNFS.exists(path)) {
+        await RNFS.unlink(path);
+      }
+      ToastAndroid.show('Download cancelled', ToastAndroid.SHORT);
+    } catch (error) {
+      console.error('Error cancelling download:', error);
+    }
+  };
 
   const deleteFiles = async () => {
     try {
@@ -384,6 +400,46 @@ const Downloads = () => {
         </View>
       </View>
 
+      {Object.values(activeDownloads).length > 0 && (
+        <View className="mb-4">
+          <Text className="text-lg font-bold text-gray-400 mb-2 px-1">Downloading</Text>
+          {Object.values(activeDownloads).map((item) => (
+            <View key={`active-${item.fileName}`} className="flex-row w-full p-2 mb-2 rounded-lg bg-white/5 items-center">
+              <View className="w-40 aspect-video rounded-md overflow-hidden bg-quaternary mr-3 justify-center items-center">
+                <MaterialCommunityIcons
+                  name="download"
+                  size={32}
+                  color={primary}
+                />
+              </View>
+              <View className="flex-1">
+                <Text className="text-white font-semibold text-lg mb-1" numberOfLines={1}>
+                  {item.title}
+                </Text>
+                <View className="w-full h-1.5 bg-white/10 rounded-full overflow-hidden mt-1">
+                  <View 
+                    className="h-full" 
+                    style={{ 
+                      width: `${Math.round((item.progress || 0) * 100)}%`, 
+                      backgroundColor: primary 
+                    }} 
+                  />
+                </View>
+                <Text className="text-gray-400 text-xs mt-1">
+                  {Math.round((item.progress || 0) * 100)}% • {item.fileType.toUpperCase()}
+                </Text>
+              </View>
+              <TouchableOpacity 
+                onPress={() => cancelDownload(item.fileName, item.jobId)}
+                className="p-2"
+              >
+                <MaterialCommunityIcons name="close-circle-outline" size={24} color="gray" />
+              </TouchableOpacity>
+            </View>
+          ))}
+        </View>
+      )}
+
       <FlashList
         data={groupMediaFiles}
         estimatedItemSize={100}
@@ -449,7 +505,7 @@ const Downloads = () => {
                     directUrl: file.uri,
                     primaryTitle: item.title,
                     poster: {},
-                    providerValue: 'vega',
+                    providerValue: 'OrbixPlay',
                     doNotTrack: true,
                   });
                 } else {

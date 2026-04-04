@@ -3,12 +3,13 @@ import React, {useState, useEffect, useCallback, useMemo, memo} from 'react';
 import {useNavigation} from '@react-navigation/native';
 import {NativeStackNavigationProp} from '@react-navigation/native-stack';
 import {SearchStackParamList} from '../App';
-import {MaterialIcons, Ionicons, Feather} from '@expo/vector-icons';
+import {Feather} from '@expo/vector-icons';
 import {TextInput} from 'react-native';
 import {TouchableOpacity} from 'react-native';
 import useThemeStore from '../lib/zustand/themeStore';
 import {MMKV} from '../lib/Mmkv';
 import {SafeAreaView} from 'react-native-safe-area-context';
+import {useShowNavBarOnScroll} from '../lib/hooks/useShowNavBarOnScroll';
 import Animated, {
   FadeInDown,
   SlideInRight,
@@ -23,7 +24,15 @@ const MAX_HISTORY_ITEMS = 30; // Maximum number of history items to store
 
 // Memoized search result item to prevent unnecessary re-renders
 const SearchResultItem = memo(
-  ({item, onPress}: {item: OMDBResult; onPress: (title: string) => void}) => {
+  ({
+    item,
+    onPress,
+    mode,
+  }: {
+    item: OMDBResult;
+    onPress: (title: string) => void;
+    mode: 'light' | 'dark';
+  }) => {
     const handlePress = useCallback(() => {
       onPress(item.Title);
     }, [item.Title, onPress]);
@@ -31,18 +40,28 @@ const SearchResultItem = memo(
     return (
       <View className="px-4">
         <TouchableOpacity
-          className="py-3 border-b border-white/10"
+          className={`py-3 border-b ${
+            mode === 'dark' ? 'border-white/10' : 'border-gray-200'
+          }`}
           onPress={handlePress}>
           <View className="flex-row items-center">
-            <MaterialIcons
+            <Feather
               name="search"
               size={20}
               color="#666"
               style={{marginRight: 12}}
             />
             <View>
-              <Text className="text-white text-base">{item.Title}</Text>
-              <Text className="text-white/50 text-xs">
+              <Text
+                className={`${
+                  mode === 'dark' ? 'text-white' : 'text-black'
+                } text-base`}>
+                {item.Title}
+              </Text>
+              <Text
+                className={`${
+                  mode === 'dark' ? 'text-white/50' : 'text-black/50'
+                } text-xs`}>
                 {item.Type === 'series' ? 'TV Show' : 'Movie'} • {item.Year}
               </Text>
             </View>
@@ -60,11 +79,13 @@ const HistoryItem = memo(
     onPress,
     onRemove,
     primary,
+    mode,
   }: {
     search: string;
     onPress: (text: string) => void;
     onRemove: (text: string) => void;
     primary: string;
+    mode: 'light' | 'dark';
   }) => {
     const handlePress = useCallback(() => {
       onPress(search);
@@ -75,18 +96,33 @@ const HistoryItem = memo(
     }, [search, onRemove]);
 
     return (
-      <View className="bg-[#141414] rounded-lg p-3 mb-2 flex-row justify-between items-center border border-white/5">
+      <View
+        className={`${
+          mode === 'dark' ? 'bg-[#141414]' : 'bg-gray-100'
+        } rounded-lg p-3 mb-2 flex-row justify-between items-center border ${
+          mode === 'dark' ? 'border-white/5' : 'border-gray-200'
+        }`}>
         <TouchableOpacity
           onPress={handlePress}
           className="flex-row flex-1 items-center space-x-2">
-          <View className="bg-white/10 rounded-full p-1.5">
-            <Ionicons name="time-outline" size={16} color={primary} />
+          <View
+            className={`${
+              mode === 'dark' ? 'bg-white/10' : 'bg-gray-200'
+            } rounded-full p-1.5`}>
+            <Feather name="clock" size={16} color={primary} />
           </View>
-          <Text className="text-white text-sm ml-2">{search}</Text>
+          <Text
+            className={`${
+              mode === 'dark' ? 'text-white' : 'text-black'
+            } text-sm ml-2`}>
+            {search}
+          </Text>
         </TouchableOpacity>
         <TouchableOpacity
           onPress={handleRemove}
-          className="bg-white/5 rounded-full p-1.5">
+          className={`${
+            mode === 'dark' ? 'bg-white/5' : 'bg-gray-200'
+          } rounded-full p-1.5`}>
           <Feather name="x" size={14} color="#999" />
         </TouchableOpacity>
       </View>
@@ -95,7 +131,8 @@ const HistoryItem = memo(
 );
 
 const Search = () => {
-  const {primary} = useThemeStore(state => state);
+  const {primary, mode} = useThemeStore(state => state);
+  const {handleScroll} = useShowNavBarOnScroll();
   const navigation =
     useNavigation<NativeStackNavigationProp<SearchStackParamList>>();
   const [searchText, setSearchText] = useState('');
@@ -198,9 +235,9 @@ const Search = () => {
   // Memoized render function for search results
   const renderSearchResult = useCallback(
     ({item}: {item: OMDBResult}) => (
-      <SearchResultItem item={item} onPress={handleResultPress} />
+      <SearchResultItem item={item} onPress={handleResultPress} mode={mode} />
     ),
-    [handleResultPress],
+    [handleResultPress, mode],
   );
 
   // Memoized render function for history items
@@ -211,9 +248,10 @@ const Search = () => {
         onPress={handleSearch}
         onRemove={removeHistoryItem}
         primary={primary}
+        mode={mode}
       />
     ),
-    [handleSearch, removeHistoryItem, primary],
+    [handleSearch, removeHistoryItem, primary, mode],
   );
 
   // Memoized key extractors
@@ -230,25 +268,36 @@ const Search = () => {
   const AnimatedContainer = Animated.View;
 
   return (
-    <SafeAreaView className="flex-1 bg-black">
+    <SafeAreaView
+      className={`flex-1 ${mode === 'dark' ? 'bg-black' : 'bg-white'}`}>
       {/* Title Section */}
       <AnimatedContainer
         entering={FadeInDown.springify()}
         layout={Layout.springify()}
         className="px-4 pt-4">
-        <Text className="text-white text-xl font-bold mb-3">Search</Text>
+        <Text
+          className={`${
+            mode === 'dark' ? 'text-white' : 'text-black'
+          } text-xl font-bold mb-3`}>
+          Search
+        </Text>
         <View className="flex-row items-center space-x-3 mb-2">
           <View className="flex-1">
-            <View className="overflow-hidden rounded-xl bg-[#141414] shadow-lg shadow-black/50">
+            <View
+              className={`overflow-hidden rounded-xl ${
+                mode === 'dark' ? 'bg-[#141414]' : 'bg-gray-100'
+              } shadow-lg shadow-black/50`}>
               <View className="px-3 py-3">
                 <View className="flex-row items-center">
-                  <MaterialIcons
+                  <Feather
                     name="search"
-                    size={24}
+                    size={22}
                     color={isFocused ? primary : '#666'}
                   />
                   <TextInput
-                    className="flex-1 text-white text-base ml-3"
+                    className={`flex-1 ${
+                      mode === 'dark' ? 'text-white' : 'text-black'
+                    } text-base ml-3`}
                     placeholder="Search anime..."
                     placeholderTextColor="#666"
                     value={searchText}
@@ -290,6 +339,8 @@ const Search = () => {
             renderItem={renderSearchResult}
             contentContainerStyle={{paddingTop: 4}}
             showsVerticalScrollIndicator={false}
+            onScroll={handleScroll}
+            scrollEventThrottle={16}
             removeClippedSubviews={true}
             maxToRenderPerBatch={10}
             updateCellsBatchingPeriod={50}
@@ -302,7 +353,10 @@ const Search = () => {
             layout={Layout.springify()}
             className="px-4 flex-1">
             <View className="flex-row items-center justify-between mb-2">
-              <Text className="text-white/90 text-base font-semibold">
+              <Text
+                className={`${
+                  mode === 'dark' ? 'text-white/90' : 'text-black/90'
+                } text-base font-semibold`}>
                 Recent Searches
               </Text>
               <TouchableOpacity
@@ -318,6 +372,8 @@ const Search = () => {
               showsVerticalScrollIndicator={false}
               contentContainerStyle={{paddingBottom: 20}}
               renderItem={renderHistoryItem}
+              onScroll={handleScroll}
+              scrollEventThrottle={16}
               removeClippedSubviews={true}
               maxToRenderPerBatch={10}
               updateCellsBatchingPeriod={50}
@@ -330,13 +386,22 @@ const Search = () => {
           <AnimatedContainer
             layout={Layout.springify()}
             className="items-center justify-center flex-1">
-            <View className="bg-white/5 rounded-full p-6 mb-4">
-              <Ionicons name="search" size={32} color={primary} />
+            <View
+              className={`${
+                mode === 'dark' ? 'bg-white/5' : 'bg-gray-100'
+              } rounded-full p-8 mb-4`}>
+              <Feather name="search" size={40} color={primary} />
             </View>
-            <Text className="text-white/70 text-base text-center">
+            <Text
+              className={`${
+                mode === 'dark' ? 'text-white' : 'text-black'
+              } font-bold text-lg text-center`}>
               Search for your favorite anime
             </Text>
-            <Text className="text-white/40 text-sm text-center mt-1">
+            <Text
+              className={`${
+                mode === 'dark' ? 'text-white/40' : 'text-black/40'
+              } text-sm text-center mt-1`}>
               Your recent searches will appear here
             </Text>
           </AnimatedContainer>
