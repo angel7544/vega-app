@@ -182,11 +182,25 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
     return extractMetadata(info?.title || meta?.name || route.params.link || '');
   }, [info?.title, meta?.name, route.params.link]);
 
-  const Badge = ({text, type}: {text: string, type: 'quality' | 'technical'}) => (
-    <View className={`px-2 py-0.5 rounded-md mr-1.5 mb-1.5 ${type === 'quality' ? 'bg-primary' : 'bg-white/10 border border-white/10'}`}>
-      <Text className="text-white text-[9px] font-black uppercase tracking-widest">{text}</Text>
-    </View>
-  );
+  const Badge = ({text, type}: {text: string, type: 'quality' | 'technical'}) => {
+    let bgColor = type === 'quality' ? 'bg-primary' : 'bg-white/10 border border-white/10';
+    let textColor = 'text-white';
+
+    if (text === 'DOLBY VISION') {
+      bgColor = 'bg-yellow-500';
+      textColor = 'text-black';
+    } else if (text === 'HDR') {
+      bgColor = 'bg-orange-600';
+    } else if (text === 'HEVC' || text === 'H265' || text === 'X265') {
+      bgColor = 'bg-green-700';
+    }
+
+    return (
+      <View className={`px-2 py-0.5 rounded-md mr-1.5 mb-1.5 ${bgColor}`}>
+        <Text className={`${textColor} text-[9px] font-black uppercase tracking-widest`}>{text}</Text>
+      </View>
+    );
+  };
 
   const MetadataRow = ({items, type, className}: {items: string[], type: 'quality' | 'technical', className?: string}) => (
     <View className={`flex-row flex-wrap ${className}`}>
@@ -618,11 +632,17 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                               {sanitizeName(item?.title)}
                             </Text>
                             <View className="flex-row items-center ml-2">
-                              {[...itemMetadata.quality, ...itemMetadata.technical].slice(0, 2).map((ext, idx) => (
-                                <View key={idx} className="bg-primary/20 px-1.5 py-0.5 rounded ml-1 border border-primary/30">
-                                    <Text className="text-primary text-[8px] font-black uppercase">{ext}</Text>
-                                </View>
-                              ))}
+                              {[...itemMetadata.quality, ...itemMetadata.technical].slice(0, 4).map((ext, idx) => {
+                                let badgeBg = 'bg-primary/20 border-primary/30';
+                                if (ext === 'DOLBY VISION') badgeBg = 'bg-yellow-500/20 border-yellow-500/50';
+                                if (ext === 'HDR') badgeBg = 'bg-orange-500/20 border-orange-500/50';
+                                
+                                return (
+                                  <View key={idx} className={`${badgeBg} px-1.5 py-0.5 rounded ml-1 border`}>
+                                      <Text className={`${ext === 'DOLBY VISION' ? 'text-yellow-500' : ext === 'HDR' ? 'text-orange-500' : 'text-primary'} text-[8px] font-black uppercase`}>{ext}</Text>
+                                  </View>
+                                );
+                              })}
                             </View>
                           </View>
                         );

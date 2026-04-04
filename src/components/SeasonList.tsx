@@ -499,11 +499,18 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
             <View className="flex-row flex-wrap mt-1">
               {(() => {
                 const meta = extractMetadata(item.title);
-                return [...meta.quality, ...meta.technical].map((ext, i) => (
-                  <View key={i} className="bg-white/10 px-1.5 py-0.5 rounded mr-1 mb-1 border border-white/5">
-                    <Text className="text-white/60 text-[7px] font-black uppercase">{ext}</Text>
-                  </View>
-                ));
+                return [...meta.quality, ...meta.technical].slice(0, 4).map((ext, i) => {
+                  let badgeBg = 'bg-white/10 border-white/5';
+                  let textColor = 'text-white/60';
+                  if (ext === 'DOLBY VISION') { badgeBg = 'bg-yellow-500/20 border-yellow-500/30'; textColor = 'text-yellow-500'; }
+                  if (ext === 'HDR') { badgeBg = 'bg-orange-500/20 border-orange-500/30'; textColor = 'text-orange-500'; }
+
+                  return (
+                    <View key={i} className={`${badgeBg} px-1.5 py-0.5 rounded mr-1 mb-1 border`}>
+                      <Text className={`${textColor} text-[7px] font-black uppercase`}>{ext}</Text>
+                    </View>
+                  );
+                });
               })()}
             </View>
 
@@ -597,11 +604,18 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
           <View className="flex-row flex-wrap mb-2">
             {(() => {
               const meta = extractMetadata(item.title);
-              return [...meta.quality, ...meta.technical].map((ext, i) => (
-                <View key={i} className="bg-white/10 px-1.5 py-0.5 rounded mr-1 mb-1 border border-white/5">
-                  <Text className="text-white/60 text-[7px] font-black uppercase">{ext}</Text>
-                </View>
-              ));
+              return [...meta.quality, ...meta.technical].slice(0, 4).map((ext, i) => {
+                let badgeBg = 'bg-white/10 border-white/5';
+                let textColor = 'text-white/60';
+                if (ext === 'DOLBY VISION') { badgeBg = 'bg-yellow-500/20 border-yellow-500/30'; textColor = 'text-yellow-500'; }
+                if (ext === 'HDR') { badgeBg = 'bg-orange-500/20 border-orange-500/30'; textColor = 'text-orange-500'; }
+
+                return (
+                  <View key={i} className={`${badgeBg} px-1.5 py-0.5 rounded mr-1 mb-1 border`}>
+                    <Text className={`${textColor} text-[7px] font-black uppercase`}>{ext}</Text>
+                  </View>
+                );
+              });
             })()}
           </View>
 
@@ -692,11 +706,18 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
                 <View className="flex-row items-center ml-2">
                   {(() => {
                     const meta = extractMetadata(item.title);
-                    return [...meta.quality, ...meta.technical].slice(0, 3).map((ext, i) => (
-                      <View key={i} className="bg-white/10 px-1.5 py-0.5 rounded mr-1 border border-white/5">
-                        <Text className="text-white/60 text-[7px] font-black uppercase">{ext}</Text>
-                      </View>
-                    ));
+                    return [...meta.quality, ...meta.technical].slice(0, 4).map((ext, i) => {
+                      let badgeBg = 'bg-white/10 border-white/5';
+                      let textColor = 'text-white/60';
+                      if (ext === 'DOLBY VISION') { badgeBg = 'bg-yellow-500/20 border-yellow-500/30'; textColor = 'text-yellow-500'; }
+                      if (ext === 'HDR') { badgeBg = 'bg-orange-500/20 border-orange-500/30'; textColor = 'text-orange-500'; }
+
+                      return (
+                        <View key={i} className={`${badgeBg} px-1.5 py-0.5 rounded mr-1 border`}>
+                          <Text className={`${textColor} text-[7px] font-black uppercase`}>{ext}</Text>
+                        </View>
+                      );
+                    });
                   })()}
                 </View>
                 {metaEp?.size && (
@@ -792,11 +813,18 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
             <View className="flex-row items-center">
               {(() => {
                 const meta = extractMetadata(item.title);
-                return [...meta.quality, ...meta.technical].slice(0, 3).map((ext, i) => (
-                  <View key={i} className="bg-white/10 px-1.5 py-0.5 rounded ml-1 border border-white/5">
-                    <Text className="text-white/60 text-[7px] font-black uppercase">{ext}</Text>
-                  </View>
-                ));
+                return [...meta.quality, ...meta.technical].slice(0, 4).map((ext, i) => {
+                  let badgeBg = 'bg-white/10 border-white/5';
+                  let textColor = 'text-white/60';
+                  if (ext === 'DOLBY VISION') { badgeBg = 'bg-yellow-500/20 border-yellow-500/30'; textColor = 'text-yellow-500'; }
+                  if (ext === 'HDR') { badgeBg = 'bg-orange-500/20 border-orange-500/30'; textColor = 'text-orange-500'; }
+
+                  return (
+                    <View key={i} className={`${badgeBg} px-1.5 py-0.5 rounded ml-1 border`}>
+                      <Text className={`${textColor} text-[7px] font-black uppercase`}>{ext}</Text>
+                    </View>
+                  );
+                });
               })()}
             </View>
             {isNext && (
@@ -935,11 +963,16 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
                     {sanitizeName(item?.title || 'Unknown')}
                   </Text>
                    <View className="flex-row items-center ml-2">
-                    {[...itemMetadata.quality, ...itemMetadata.technical].slice(0, 2).map((ext, idx) => (
-                      <View key={idx} className="bg-primary/20 px-1.5 py-0.5 rounded ml-1 border border-primary/30">
-                          <Text className="text-primary text-[8px] font-black uppercase">{ext}</Text>
-                      </View>
-                    ))}
+                    {[...itemMetadata.quality, ...itemMetadata.technical].slice(0, 4).map((ext, idx) => {
+                      let textColor = 'text-primary';
+                      if (ext === 'DOLBY VISION') textColor = 'text-yellow-500';
+                      if (ext === 'HDR') textColor = 'text-orange-500';
+                      return (
+                        <View key={idx} className="bg-primary/20 px-1.5 py-0.5 rounded ml-1 border border-primary/30">
+                            <Text className={`${textColor} text-[8px] font-black uppercase`}>{ext}</Text>
+                        </View>
+                      );
+                    })}
                   </View>
                 </View>
               );

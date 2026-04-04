@@ -84,11 +84,18 @@ const Slider = ({
         <View className="flex-row flex-wrap mt-1" style={{ width: itemWidth }}>
           {(() => {
             const meta = extractMetadata(item.title);
-            return [...meta.quality, ...meta.technical].slice(0, 2).map((ext, i) => (
-              <View key={i} className="bg-primary/80 px-1 rounded mr-1 mb-1">
-                <Text className="text-white text-[7px] font-black uppercase">{ext}</Text>
-              </View>
-            ));
+            return [...meta.quality, ...meta.technical].slice(0, 3).map((ext, i) => {
+              let badgeBg = 'bg-primary/80';
+              let textColor = 'text-white';
+              if (ext === 'DOLBY VISION') { badgeBg = 'bg-yellow-500'; textColor = 'text-black'; }
+              if (ext === 'HDR') { badgeBg = 'bg-orange-600'; }
+
+              return (
+                <View key={i} className={`${badgeBg} px-1 rounded mr-1 mb-1 shadow-sm`}>
+                  <Text className={`${textColor} text-[7px] font-black uppercase`}>{ext}</Text>
+                </View>
+              );
+            });
           })()}
         </View>
         <Text className="truncate text-[10px] font-bold" style={{width: itemWidth, color: mode === 'dark' ? 'white' : 'black'}}>

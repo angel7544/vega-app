@@ -53,9 +53,10 @@ export const extractMetadata = (name: string) => {
     const matches = name.match(regex);
     if (matches) {
       matches.forEach(match => {
-        let clean = match.trim();
-        if (clean && !quality.includes(clean.toUpperCase())) {
-          quality.push(clean.toUpperCase());
+        let clean = match.trim().toUpperCase();
+        if (clean === 'DV') clean = 'DOLBY VISION';
+        if (clean && !quality.includes(clean)) {
+          quality.push(clean);
         }
       });
     }
