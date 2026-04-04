@@ -293,8 +293,8 @@ const ProviderSourceManager = ({primary, visible, onSourceChanged}: Props) => {
               </Text>
               <TextInput
                 className={`${mode === 'dark' ? 'bg-quaternary text-white border-gray-700' : 'bg-gray-100 text-black border-gray-300'} rounded-lg px-4 py-3 border mt-3`}
-                placeholder=" "
-                placeholderTextColor="#6B7280"
+                placeholder="https://github.com/username/repo or username"
+                placeholderTextColor={mode === 'dark' ? '#6B7280' : '#9CA3AF'}
                 value={inputValue}
                 onChangeText={setInputValue}
                 autoCapitalize="none"

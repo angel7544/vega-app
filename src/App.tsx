@@ -47,6 +47,7 @@ import GlobalErrorBoundary from './components/GlobalErrorBoundary';
 import notifee from '@notifee/react-native';
 import notificationService from './lib/services/Notification';
 import useNavBarStore from './lib/zustand/navBarStore';
+import Toast from './components/Toast';
 import Animated, {useAnimatedStyle, useSharedValue, withTiming} from 'react-native-reanimated';
 // Lazy-load Firebase modules so app runs without google-services files
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -492,7 +493,7 @@ const App = () => {
 
   useEffect(() => {
     if (settingsStorage.isAutoCheckUpdateEnabled()) {
-      checkForUpdate(() => {}, settingsStorage.isAutoDownloadEnabled(), false);
+      checkForUpdate(() => {}, undefined, false);
     }
   }, []);
 
@@ -524,7 +525,7 @@ const App = () => {
                         (await analytics().logScreenView({
                           screen_name: route.name,
                           screen_class: 'Navigation',
-                        }));
+                          }));
                     }
                   } catch {}
                 }
@@ -539,7 +540,7 @@ const App = () => {
                         (await analytics().logScreenView({
                           screen_name: route.name,
                           screen_class: 'Navigation',
-                        }));
+                          }));
                     }
                   } catch {}
                 }
@@ -588,6 +589,7 @@ const App = () => {
                   options={{orientation: 'landscape'}}
                 />
               </Stack.Navigator>
+              <Toast />
             </NavigationContainer>
           </SafeAreaView>
         </QueryClientProvider>

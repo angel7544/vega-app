@@ -4,7 +4,6 @@ import {
   Pressable,
   TouchableOpacity,
   Dimensions,
-  ToastAndroid,
   View,
   Clipboard,
 } from 'react-native';
@@ -18,6 +17,7 @@ import useThemeStore from '../lib/zustand/themeStore';
 import {TextTrackType} from 'react-native-video';
 import {settingsStorage} from '../lib/storage';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
+import useToastStore from '../lib/zustand/toastStore';
 
 type Props = {
   data: Stream[];
@@ -41,7 +41,8 @@ const DownloadBottomSheet = ({
   error,
 }: Props) => {
   const bottomSheetRef = useRef<BottomSheet>(null);
-  const {primary} = useThemeStore(state => state);
+  const {primary, mode} = useThemeStore(state => state);
+  const {show} = useToastStore();
   const [activeTab, setActiveTab] = useState<1 | 2>(1);
 
   const allSubtitles = useMemo(() => {
@@ -67,11 +68,11 @@ const DownloadBottomSheet = ({
             index={showModal ? 0 : -1}
             containerStyle={{marginHorizontal: 0}}
             ref={bottomSheetRef}
-            backgroundStyle={{backgroundColor: '#1a1a1a'}}
-            handleIndicatorStyle={{backgroundColor: '#333'}}
+            backgroundStyle={{backgroundColor: mode === 'dark' ? '#1a1a1a' : '#ffffff'}}
+            handleIndicatorStyle={{backgroundColor: mode === 'dark' ? '#333' : '#ccc'}}
             onClose={() => setModal(false)}>
             <View style={{flex: 1}} onStartShouldSetResponder={() => true}>
-              <Text className="text-white text-xl p-2 font-bold text-center">
+              <Text className="text-black dark:text-white text-xl p-2 font-bold text-center">
                 {title}
               </Text>
               <BottomSheetScrollView
@@ -88,7 +89,7 @@ const DownloadBottomSheet = ({
                       }}>
                       <Text
                         className="text-lg font-bold"
-                        style={{color: activeTab === 1 ? primary : '#999'}}>
+                        style={{color: activeTab === 1 ? primary : (mode === 'dark' ? '#999' : '#666')}}>
                         Video
                       </Text>
                     </TouchableOpacity>
@@ -101,7 +102,7 @@ const DownloadBottomSheet = ({
                       }}>
                       <Text
                         className="text-lg font-bold"
-                        style={{color: activeTab === 2 ? primary : '#999'}}>
+                        style={{color: activeTab === 2 ? primary : (mode === 'dark' ? '#999' : '#666')}}>
                         Subtitles
                       </Text>
                     </TouchableOpacity>
@@ -120,7 +121,7 @@ const DownloadBottomSheet = ({
                   data.map(item => (
                     <View
                       key={item.link}
-                      className="p-3 bg-white/10 rounded-lg my-1 flex-row justify-between items-center"
+                      className="p-3 bg-black/5 dark:bg-white/10 rounded-lg my-1 flex-row justify-between items-center"
                       style={{borderColor: primary + '40', borderWidth: 1}}>
                       <TouchableOpacity
                         className="flex-1"
@@ -129,10 +130,10 @@ const DownloadBottomSheet = ({
                           setModal(false);
                         }}>
                         <View>
-                          <Text className="text-white text-lg font-bold capitalize">
+                          <Text className="text-black dark:text-white text-lg font-bold capitalize">
                             {item.server}
                           </Text>
-                          <Text className="text-white text-xs opacity-60">
+                          <Text className="text-black/60 dark:text-white/60 text-xs">
                             Source: {item.type?.toUpperCase() || 'Direct'}
                           </Text>
                         </View>
@@ -141,10 +142,7 @@ const DownloadBottomSheet = ({
                         <TouchableOpacity
                           onPress={() => {
                             Clipboard.setString(item.link);
-                            ToastAndroid.show(
-                              'Link copied',
-                              ToastAndroid.SHORT,
-                            );
+                            show('Link copied', 'success');
                             if (settingsStorage.isHapticFeedbackEnabled()) {
                               RNReactNativeHapticFeedback.trigger(
                                 'effectTick',
@@ -166,11 +164,11 @@ const DownloadBottomSheet = ({
                             onPressVideo(item);
                             setModal(false);
                           }}
-                          className="bg-white/10 p-2 rounded-full">
+                          className="bg-black/5 dark:bg-white/10 p-2 rounded-full">
                           <MaterialIcons
                             name="file-download"
                             size={22}
-                            color="white"
+                            color={mode === 'dark' ? 'white' : 'black'}
                           />
                         </TouchableOpacity>
                       </View>
@@ -179,7 +177,7 @@ const DownloadBottomSheet = ({
                 ) : allSubtitles.length > 0 ? (
                   allSubtitles.map((item, index) => (
                     <TouchableOpacity
-                      className="p-2 bg-white/30 rounded-md my-1"
+                      className="p-2 bg-black/5 dark:bg-white/10 rounded-md my-1"
                       key={item.uri + index}
                       onLongPress={() => {
                         if (settingsStorage.isHapticFeedbackEnabled()) {
@@ -189,7 +187,7 @@ const DownloadBottomSheet = ({
                           });
                         }
                         Clipboard.setString(item.uri);
-                        ToastAndroid.show('Link copied', ToastAndroid.SHORT);
+                        show('Link copied', 'success');
                       }}
                       onPress={() => {
                         onPressSubs({
@@ -201,7 +199,7 @@ const DownloadBottomSheet = ({
                         });
                         setModal(false);
                       }}>
-                      <Text style={{color: 'white'}}>
+                      <Text className="text-black dark:text-white">
                         {item.language}
                         {' - '} {item.title}
                       </Text>
@@ -223,3 +221,4 @@ const DownloadBottomSheet = ({
 };
 
 export default DownloadBottomSheet;
+

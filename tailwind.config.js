@@ -7,8 +7,8 @@ module.exports = {
       colors: {
         primary: '#FF6347',
         secondary: '#000000',
-        tertiary: '#171717',
-        quaternary: '#1a1a1a',
+        tertiary: 'var(--color-tertiary)',
+        quaternary: 'var(--color-quaternary)',
       },
     },
   },

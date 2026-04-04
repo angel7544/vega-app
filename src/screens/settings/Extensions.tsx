@@ -20,6 +20,7 @@ import {
 } from '@expo/vector-icons';
 import useThemeStore from '../../lib/zustand/themeStore';
 import useContentStore from '../../lib/zustand/contentStore';
+import useToastStore from '../../lib/zustand/toastStore';
 import {
   extensionStorage,
   ProviderExtension,
@@ -34,13 +35,53 @@ import ReactNativeHapticFeedback from 'react-native-haptic-feedback';
 import {settingsStorage} from '../../lib/storage';
 import RenderProviderFlagIcon from '../../components/RenderProviderFLagIcon';
 import ProviderSourceManager from './components/ProviderSourceManager';
+import ConfirmationModal from '../../components/ConfirmationModal';
 
 type Props = NativeStackScreenProps<SettingsStackParamList, 'Extensions'>;
 
 type TabType = 'installed' | 'available';
 
 const Extensions = ({navigation}: Props) => {
-  const {primary} = useThemeStore(state => state);
+  const {primary, mode} = useThemeStore(state => state);
+  const {show} = useToastStore();
+  const [confirmUninstallVisible, setConfirmUninstallVisible] = useState(false);
+  const [providerToUninstall, setProviderToUninstall] = useState<any>(null);
+
+  const confirmUninstall = async () => {
+    if (!providerToUninstall) return;
+    setConfirmUninstallVisible(false);
+
+    try {
+      extensionStorage.uninstallProvider(
+        providerToUninstall.value,
+        providerToUninstall.source?.author,
+      );
+      loadProviders();
+      setInstalledProviders(extensionStorage.getInstalledProviders() || []);
+
+      // If this was the active provider, clear it
+      if (
+        activeExtensionProvider?.value === providerToUninstall?.value &&
+        activeExtensionProvider?.source?.author ===
+          providerToUninstall?.source?.author
+      ) {
+        setActiveExtensionProvider(
+          extensionStorage.getInstalledProviders()[0] || {
+            value: '',
+            display_name: '',
+            source: {author: '', url: ''},
+            type: '',
+            version: '',
+          },
+        );
+      }
+      show('Provider uninstalled successfully', 'success');
+    } catch (e) {
+      show('Failed to uninstall provider', 'error');
+    } finally {
+      setProviderToUninstall(null);
+    }
+  };
   const {
     activeExtensionProvider,
     setActiveExtensionProvider,
@@ -227,47 +268,8 @@ const Extensions = ({navigation}: Props) => {
       Alert.alert('Error', 'Invalid provider data');
       return;
     }
-
-    Alert.alert(
-      'Uninstall Provider',
-      `Are you sure you want to uninstall ${
-        provider.display_name || 'this provider'
-      }?`,
-      [
-        {text: 'Cancel', style: 'cancel'},
-        {
-          text: 'Uninstall',
-          style: 'destructive',
-          onPress: () => {
-            extensionStorage.uninstallProvider(
-              provider.value,
-              provider.source?.author,
-            );
-            loadProviders();
-            setInstalledProviders(
-              extensionStorage.getInstalledProviders() || [],
-            );
-
-            // If this was the active provider, clear it
-            if (
-              activeExtensionProvider?.value === provider?.value &&
-              activeExtensionProvider?.source?.author ===
-                provider?.source?.author
-            ) {
-              setActiveExtensionProvider(
-                extensionStorage.getInstalledProviders()[0] || {
-                  value: '',
-                  display_name: '',
-                  source: {author: '', url: ''},
-                  type: '',
-                  version: '',
-                },
-              );
-            }
-          },
-        },
-      ],
-    );
+    setProviderToUninstall(provider);
+    setConfirmUninstallVisible(true);
   };
   const handleSetActiveProvider = (provider: ProviderExtension) => {
     if (!provider || !provider.value) {
@@ -342,7 +344,7 @@ const Extensions = ({navigation}: Props) => {
 
     return (
       <View
-        className="bg-tertiary rounded-2xl p-5 py-3 mb-4 mx-4 shadow-lg border border-quaternary"
+        className={`${mode === 'dark' ? 'bg-tertiary border-quaternary' : 'bg-white border-gray-200'} rounded-2xl p-5 py-3 mb-4 mx-4 shadow-lg border`}
         style={{elevation: 4}}>
         <View className="flex-row items-center mb-4 gap-4 justify-between">
           {/* Left: Icon */}
@@ -353,16 +355,16 @@ const Extensions = ({navigation}: Props) => {
               style={{resizeMode: 'cover'}}
             />
           ) : (
-            <View className="px-3 py-2 bg-quaternary rounded-xl border border-gray-700">
+            <View className={`${mode === 'dark' ? 'bg-quaternary border-gray-700' : 'bg-gray-100 border-gray-300'} px-3 py-2 rounded-xl border`}>
               <RenderProviderFlagIcon type={item.type} />
             </View>
           )}
           {/* Middle: Info */}
           <View className="flex-1 mx-3">
             <View className="flex-row items-center flex-wrap">
-              <Text className="text-white text-lg font-bold tracking-wide flex-1">
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-lg font-bold tracking-wide flex-1`}>
                 {item.display_name || 'Unknown Provider'}{' '}
-                <Text className="font-medium text-sm text-gray-400">
+                <Text className={`font-medium text-sm ${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'}`}>
                   v{item.version || 'Unknown'}
                 </Text>
               </Text>
@@ -370,17 +372,17 @@ const Extensions = ({navigation}: Props) => {
                 <View
                   style={{backgroundColor: primary}}
                   className="px-2 py-0.5 rounded-full ml-1">
-                  <Text className="text-xs text-white font-semibold bg-gray-800">
+                  <Text className="text-xs text-white font-semibold">
                     Update
                   </Text>
                 </View>
               )}
             </View>
-            <Text className="text-gray-400 text-xs capitalize">
+            <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-xs capitalize`}>
               • {item.type || 'Unknown'}
             </Text>
             {item?.source?.author && (
-              <Text className="text-gray-400 text-xs" numberOfLines={1}>
+              <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-xs`} numberOfLines={1}>
                 • {item.source.author}
               </Text>
             )}
@@ -422,7 +424,10 @@ const Extensions = ({navigation}: Props) => {
                   </TouchableOpacity>
                 )}
                 <TouchableOpacity
-                  onPress={() => handleUninstallProvider(item)}
+                  onPress={() => ((provider: any) => {
+                    setProviderToUninstall(provider);
+                    setConfirmUninstallVisible(true);
+                  })(item)}
                   className="w-9 h-9 rounded-full items-center justify-center bg-red-600">
                   <MaterialCommunityIcons
                     name="delete"
@@ -462,20 +467,23 @@ const Extensions = ({navigation}: Props) => {
       : (availableProviders || []).filter(item => item && item.value);
 
   return (
-    <View className="flex-1 bg-black pt-10 pb-16">
-      <StatusBar backgroundColor="black" barStyle="light-content" />
+    <View className={`flex-1 ${mode === 'dark' ? 'bg-black' : 'bg-white'} pt-10 pb-16`}>
+      <StatusBar 
+        backgroundColor={mode === 'dark' ? 'black' : 'white'} 
+        barStyle={mode === 'dark' ? 'light-content' : 'dark-content'} 
+      />
       {/* Header */}
-      <View className="flex-row items-center justify-between p-4 border-b border-gray-800">
+      <View className={`flex-row items-center justify-between p-4 border-b ${mode === 'dark' ? 'border-gray-800' : 'border-gray-200'}`}>
         <TouchableOpacity onPress={() => navigation.navigate('Settings')}>
-          <FontAwesome6 name="arrow-left" size={24} color="white" />
+          <FontAwesome6 name="arrow-left" size={24} color={mode === 'dark' ? 'white' : 'black'} />
         </TouchableOpacity>
-        <Text className="text-white text-xl font-semibold">Providers</Text>
+        <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-xl font-semibold`}>Providers</Text>
         <TouchableOpacity onPress={handleRefresh}>
           <Feather name="refresh-cw" size={24} color={primary} />
         </TouchableOpacity>
       </View>
       {/* Tabs */}
-      <View className="flex-row bg-quaternary mx-4 mt-4 rounded-xl">
+      <View className={`${mode === 'dark' ? 'bg-quaternary' : 'bg-gray-100'} mx-4 mt-4 rounded-xl flex-row`}>
         <TouchableOpacity
           onPress={() => handleTabChange('installed')}
           className="flex-1 py-3 rounded-xl"
@@ -485,7 +493,7 @@ const Extensions = ({navigation}: Props) => {
           }}>
           <Text
             className={`text-center font-medium ${
-              activeTab === 'installed' ? 'text-white' : 'text-gray-400'
+              activeTab === 'installed' ? 'text-white' : (mode === 'dark' ? 'text-gray-400' : 'text-gray-600')
             }`}>
             Installed ({(installedProviders || []).length})
           </Text>
@@ -500,7 +508,7 @@ const Extensions = ({navigation}: Props) => {
           }}>
           <Text
             className={`text-center font-medium ${
-              activeTab === 'available' ? 'text-white' : 'text-gray-400'
+              activeTab === 'available' ? 'text-white' : (mode === 'dark' ? 'text-gray-400' : 'text-gray-600')
             }`}>
             Available ({(availableProviders || []).length})
           </Text>
@@ -540,20 +548,34 @@ const Extensions = ({navigation}: Props) => {
             <MaterialCommunityIcons
               name="package-variant"
               size={64}
-              color="gray"
+              color={mode === 'dark' ? '#404040' : '#A3A3A3'}
             />
-            <Text className="text-gray-400 text-lg mt-4">
+            <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-lg mt-4`}>
               {activeTab === 'installed'
                 ? 'No providers installed'
                 : 'No providers available'}
             </Text>
-            <Text className="text-gray-500 text-sm mt-2 text-center px-8">
+            <Text className={`${mode === 'dark' ? 'text-gray-500' : 'text-gray-400'} text-sm mt-2 text-center px-8`}>
               {activeTab === 'installed'
                 ? 'Install providers from the Available tab to get started'
                 : 'Pull to refresh to check for available providers'}
             </Text>
           </View>
         }
+      />
+
+      <ConfirmationModal
+        visible={confirmUninstallVisible}
+        title="Uninstall Provider"
+        message={`Are you sure you want to uninstall ${providerToUninstall?.display_name || 'this provider'}?`}
+        confirmLabel="Uninstall"
+        isDestructive={true}
+        primary={primary}
+        onCancel={() => {
+          setConfirmUninstallVisible(false);
+          setProviderToUninstall(null);
+        }}
+        onConfirm={confirmUninstall}
       />
     </View>
   );

@@ -2,12 +2,14 @@ import React, {useEffect, useState, useRef, useCallback, useMemo} from 'react';
 import {
   ScrollView,
   Text,
-  ToastAndroid,
   TouchableOpacity,
   View,
   Platform,
   TouchableNativeFeedback,
 } from 'react-native';
+import useToastStore from '../../lib/zustand/toastStore';
+
+
 import Animated, {
   useSharedValue,
   useAnimatedStyle,
@@ -73,6 +75,7 @@ const exitFullScreen = () => {
 
 const Player = ({route}: Props): React.JSX.Element => {
   const {primary} = useThemeStore(state => state);
+  const {show: showToastNotify} = useToastStore();
   const {provider} = useContentStore();
   const navigation = useNavigation();
   const {addItem, updatePlaybackInfo, updateItemWithInfo} =
@@ -265,7 +268,7 @@ const Player = ({route}: Props): React.JSX.Element => {
       setActiveEpisode(route.params?.episodeList[currentIndex + 1]);
       hasSetInitialTracksRef.current = false;
     } else {
-      ToastAndroid.show('No more episodes', ToastAndroid.SHORT);
+      showToastNotify('No more episodes', 'info');
     }
   }, [activeEpisode, route.params?.episodeList]);
 
@@ -274,10 +277,10 @@ const Player = ({route}: Props): React.JSX.Element => {
     (e: any) => {
       console.log('PlayerError', e);
       if (!switchToNextStream()) {
-        ToastAndroid.show(
-          'Video could not be played, try again later',
-          ToastAndroid.SHORT,
-        );
+          showToastNotify(
+            'Video could not be played, try again later',
+            'error',
+          );
         navigation.goBack();
       }
       setShowControls(true);

@@ -100,15 +100,9 @@ export const downloadManager = async ({
         setDownloadId: setDownloadId,
         headers,
       });
-      // ToastAndroid.show(
-      //   'Hls video download is not supported, Use external Downloader',
-      //   ToastAndroid.LONG,
-      // );
-      // notifee.cancelNotification(fileName);
-      // downloadStore.removeActiveDownload(fileName);
-      // setAlreadyDownloaded(false);
       console.log('Downloading HLS');
       return;
+
     }
     const downloadDest = `${downloadFolder}/${fileName}.${fileType}`;
     const ret = RNFS.downloadFile({

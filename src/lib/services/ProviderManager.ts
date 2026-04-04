@@ -1,7 +1,8 @@
-import {ToastAndroid} from 'react-native';
 import {providerContext} from '../providers/providerContext';
 import {Catalog, EpisodeLink, Info, Post} from '../providers/types';
 import {extensionManager} from './ExtensionManager';
+import useToastStore from '../zustand/toastStore';
+
 
 export class ProviderManager {
   private createExecutionContext() {
@@ -299,7 +300,7 @@ export class ProviderManager {
       const errorMessage =
         error?.message ||
         `Failed to get episodes from provider: ${providerValue}`;
-      ToastAndroid.show(errorMessage, ToastAndroid.LONG);
+      useToastStore.getState().show(errorMessage, 'error');
       throw new Error(errorMessage);
     }
   };

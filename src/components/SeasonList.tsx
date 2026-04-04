@@ -3,7 +3,6 @@ import {
   View,
   Text,
   TouchableOpacity,
-  ToastAndroid,
   Modal,
   FlatList,
   ActivityIndicator,
@@ -14,6 +13,7 @@ import {
   useWindowDimensions,
   Image,
 } from 'react-native';
+
 import {NativeStackNavigationProp} from '@react-navigation/native-stack';
 import {useNavigation} from '@react-navigation/native';
 import Ionicons from '@expo/vector-icons/Ionicons';
@@ -43,6 +43,7 @@ import {Linking} from 'react-native';
 import useWatchHistoryStore from '../lib/zustand/watchHistrory';
 import useThemeStore from '../lib/zustand/themeStore';
 import SkeletonLoader from './Skeleton';
+import useToastStore from '../lib/zustand/toastStore';
 
 interface SeasonListProps {
   LinkList: Link[];
@@ -95,6 +96,7 @@ const SeasonList: React.FC<SeasonListProps> = ({
     useNavigation<NativeStackNavigationProp<RootStackParamList>>();
   const {addItem} = useWatchHistoryStore(state => state);
   const {fetchStreams} = useStreamData();
+  const {show} = useToastStore();
 
   // Early return if no LinkList provided
   if (!LinkList || LinkList.length === 0) {
@@ -337,9 +339,9 @@ const SeasonList: React.FC<SeasonListProps> = ({
         const streams = await fetchStreams(link, type, providerValue);
 
         if (!streams || streams.length === 0) {
-          ToastAndroid.show(
+          show(
             'No streams available from provider',
-            ToastAndroid.SHORT,
+            'error',
           );
           return;
         }
@@ -349,14 +351,14 @@ const SeasonList: React.FC<SeasonListProps> = ({
         setVlcLoading(false);
         setShowServerModal(true);
 
-        ToastAndroid.show(
+        show(
           `Found ${streams.length} servers`,
-          ToastAndroid.SHORT,
+          'success',
         );
       } catch (error: any) {
         console.error('Error fetching streams:', error);
         const errorMessage = error?.message || 'Failed to load streams';
-        ToastAndroid.show(errorMessage, ToastAndroid.SHORT);
+        show(errorMessage, 'error');
       } finally {
         setVlcLoading(false);
         setIsLoadingStreams(false);
@@ -377,7 +379,7 @@ const SeasonList: React.FC<SeasonListProps> = ({
       });
     } catch (error) {
       console.error('Error opening external player:', error);
-      ToastAndroid.show('Failed to open external player', ToastAndroid.SHORT);
+      show('Failed to open external player', 'error');
     } finally {
       setVlcLoading(false);
     }
@@ -680,16 +682,16 @@ const SeasonList: React.FC<SeasonListProps> = ({
     (item: any, index: number) => (
       <View
         key={`server-${index}-${item.server}`}
-        className="bg-black/30 p-3 rounded-lg mb-2 flex-row justify-between items-center"
+        className={`${mode === 'dark' ? 'bg-black/30' : 'bg-gray-100'} p-3 rounded-lg mb-2 flex-row justify-between items-center`}
         style={{borderColor: primary, borderWidth: 1}}>
         <TouchableOpacity
           onPress={() => openExternalPlayer(item.link)}
           className="flex-1">
           <View>
-            <Text className="text-white text-lg capitalize font-bold">
+            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-lg capitalize font-bold`}>
               {item.server || `Server ${index + 1}`}
             </Text>
-            <Text className="text-white text-xs opacity-80">
+            <Text className={`${mode === 'dark' ? 'text-white/80' : 'text-black/60'} text-xs`}>
               {item.type ? `Format: ${item.type.toUpperCase()}` : ''}
             </Text>
           </View>
@@ -698,16 +700,15 @@ const SeasonList: React.FC<SeasonListProps> = ({
           <TouchableOpacity
             onPress={() => {
               Clipboard.setString(item.link);
-              ToastAndroid.show('Link copied to clipboard', ToastAndroid.SHORT);
+              show('Link copied to clipboard', 'success');
             }}>
             <MaterialIcons name="content-copy" size={24} color={primary} />
           </TouchableOpacity>
           <TouchableOpacity
             onPress={() => openExternalPlayer(item.link)}
-            className="bg-white/10 p-2 rounded-full">
-            <MaterialIcons name="file-download" size={24} color="white" />
+            className={`${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} p-2 rounded-full`}>
+            <MaterialIcons name="file-download" size={24} color={mode === 'dark' ? 'white' : 'black'} />
           </TouchableOpacity>
-          
         </View>
       </View>
     ),
@@ -931,16 +932,16 @@ const SeasonList: React.FC<SeasonListProps> = ({
         onRequestClose={() => setShowServerModal(false)}>
         <Pressable
           onPress={() => setShowServerModal(false)}
-          className="flex-1 justify-center items-center bg-black/80">
-          <View className="bg-tertiary rounded-xl p-4 w-[90%] max-w-[350px]">
-            <Text className="text-white text-xl font-bold mb-2 text-center">
+          className="flex-1 justify-center items-center bg-black/60">
+          <View className={`${mode === 'dark' ? 'bg-tertiary border-quaternary' : 'bg-white border-gray-200'} rounded-2xl p-6 w-[92%] max-w-[400px] border shadow-2xl`}>
+            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-xl font-bold mb-2 text-center`}>
               Select External Player Server
             </Text>
-            <Text className="text-white text-sm mb-2 text-center opacity-70">
+            <Text className={`${mode === 'dark' ? 'text-white/60' : 'text-black/50'} text-sm mb-4 text-center`}>
               {externalPlayerStreams.length} servers available
             </Text>
-            <View className="bg-white/10 p-2 rounded-md mb-4">
-              <Text className="text-white text-xs text-center italic">
+            <View className={`${mode === 'dark' ? 'bg-white/5' : 'bg-gray-50'} p-3 rounded-xl mb-6 border ${mode === 'dark' ? 'border-white/10' : 'border-black/5'}`}>
+              <Text className={`${mode === 'dark' ? 'text-white/70' : 'text-black/70'} text-xs text-center italic`}>
                 Note: Copy link and use it in any external downloader or player.
               </Text>
             </View>
@@ -949,21 +950,21 @@ const SeasonList: React.FC<SeasonListProps> = ({
               <ActivityIndicator size="large" color={primary} />
             ) : (
               <>
-                <ScrollView style={{maxHeight: 300}}>
+                <ScrollView style={{maxHeight: 350}} showsVerticalScrollIndicator={true}>
                   {externalPlayerStreams.map((item, index) =>
                     renderServerItem(item, index),
                   )}
                   {externalPlayerStreams.length === 0 && (
-                    <Text className="text-white text-center p-4">
+                    <Text className={`${mode === 'dark' ? 'text-white/50' : 'text-black/40'} text-center p-8`}>
                       No servers available
                     </Text>
                   )}
                 </ScrollView>
 
                 <TouchableOpacity
-                  className="mt-4 bg-black/30 py-2 rounded-md"
+                  className={`mt-6 ${mode === 'dark' ? 'bg-white/5' : 'bg-gray-100'} py-3 rounded-xl`}
                   onPress={() => setShowServerModal(false)}>
-                  <Text className="text-white text-center font-bold">
+                  <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-center font-bold`}>
                     Cancel
                   </Text>
                 </TouchableOpacity>

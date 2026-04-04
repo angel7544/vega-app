@@ -1,11 +1,16 @@
-import {View, Text, Image, Platform, TouchableOpacity, ToastAndroid} from 'react-native';
+import {
+  View,
+  Text,
+  Image,
+  Platform,
+  TouchableOpacity,
+} from 'react-native';
 import requestStoragePermission from '../../lib/file/getStoragePermission';
-import * as FileSystem from 'expo-file-system/legacy';
 import {downloadFolder} from '../../lib/constants';
 import * as VideoThumbnails from 'expo-video-thumbnails';
 import React, {useState, useEffect, useCallback} from 'react';
 import {useFocusEffect} from '@react-navigation/native';
-import {settingsStorage, downloadsStorage} from '../../lib/storage';
+import {downloadsStorage, settingsStorage} from '../../lib/storage';
 import useThemeStore from '../../lib/zustand/themeStore';
 import useDownloadStore from '../../lib/zustand/downloadsStore';
 import * as RNFS from '@dr.pogodin/react-native-fs';
@@ -15,6 +20,8 @@ import {NativeStackNavigationProp} from '@react-navigation/native-stack';
 import {RootStackParamList} from '../../App';
 import RNReactNativeHapticFeedback from 'react-native-haptic-feedback';
 import {FlashList} from '@shopify/flash-list';
+import useToastStore from '../../lib/zustand/toastStore';
+import * as FileSystem from 'expo-file-system/legacy';
 
 // Define supported video extensions
 const VIDEO_EXTENSIONS = [
@@ -33,7 +40,6 @@ const isVideoFile = (filename: string): boolean => {
   return VIDEO_EXTENSIONS.includes(extension);
 };
 
-// Add this interface after the existing imports
 interface DownloadedFile {
   uri: string;
   exists: boolean;
@@ -52,47 +58,42 @@ interface MediaGroup {
 const normalizeString = (str: string): string => {
   return str
     .toLowerCase()
-    .replace(/[\s.-]+/g, ' ') // normalize spaces, dots, and hyphens
-    .replace(/[^\w\s]/g, '') // remove special characters
+    .replace(/[\s.-]+/g, ' ')
+    .replace(/[^\w\s]/g, '')
     .trim();
 };
 
 const getBaseName = (fileName: string): string => {
   let baseName = fileName
-    .replace(/\.(mp4|mkv|avi|mov)$/i, '') // remove extension
-    .replace(/(?:480p|720p|1080p|2160p|HEVC|x264|BluRay|WEB-DL|HDRip).*$/i, '') // remove quality tags
-    .replace(/\[.*?\]/g, '') // remove bracketed text
-    .replace(/\(.*?\)/g, '') // remove parenthesized text
-    .replace(/(?:episode|ep)[\s-]*\d+/gi, '') // remove episode indicators
-    .replace(/s\d{1,2}e\d{1,2}/gi, '') // remove SxxExx format
-    .replace(/season[\s-]*\d+/gi, '') // remove season indicators
-    .replace(/\s*-\s*\d+/, '') // remove trailing numbers
-    .replace(/\s*\d+\s*$/, '') // remove ending numbers
-    .replace(/[_.]/g, ' ') // replace underscores and dots with spaces
+    .replace(/\.(mp4|mkv|avi|mov)$/i, '')
+    .replace(/(?:480p|720p|1080p|2160p|HEVC|x264|BluRay|WEB-DL|HDRip).*$/i, '')
+    .replace(/\[.*?\]/g, '')
+    .replace(/\(.*?\)/g, '')
+    .replace(/(?:episode|ep)[\s-]*\d+/gi, '')
+    .replace(/s\d{1,2}e\d{1,2}/gi, '')
+    .replace(/season[\s-]*\d+/gi, '')
+    .replace(/\s*-\s*\d+/, '')
+    .replace(/\s*\d+\s*$/, '')
+    .replace(/[_.]/g, ' ')
     .trim();
 
-  // Remove any remaining numbers at the end that might be episode numbers
   baseName = baseName.replace(/[\s.-]*\d+$/, '');
-
   return baseName;
 };
 
 const getEpisodeInfo = (
   fileName: string,
 ): {season: number; episode: number} => {
-  // Try to match SxxExx format first
   let match = fileName.match(/s(\d{1,2})e(\d{1,2})/i);
   if (match) {
     return {season: parseInt(match[1], 10), episode: parseInt(match[2], 10)};
   }
 
-  // Try to match "Season X Episode Y" format
   match = fileName.match(/season[\s.-]*(\d{1,2}).*?episode[\s.-]*(\d{1,2})/i);
   if (match) {
     return {season: parseInt(match[1], 10), episode: parseInt(match[2], 10)};
   }
 
-  // Try to match episode number only
   match =
     fileName.match(/(?:episode|ep)[\s.-]*(\d{1,2})/i) ||
     fileName.match(/[\s.-](\d{1,2})(?:\s*$|\s*\.)/);
@@ -101,7 +102,6 @@ const getEpisodeInfo = (
     return {season: 1, episode: parseInt(match[1], 10)};
   }
 
-  // Default case
   return {season: 1, episode: 0};
 };
 
@@ -110,8 +110,8 @@ const Downloads = () => {
   const [thumbnails, setThumbnails] = useState<Record<string, string>>({});
   const [loading, setLoading] = useState(true);
 
-  const {primary} = useThemeStore(state => state);
-
+  const {primary, mode} = useThemeStore(state => state);
+  const {show} = useToastStore();
   const [groupSelected, setGroupSelected] = useState<string[]>([]);
   const [isSelecting, setIsSelecting] = useState(false);
 
@@ -120,12 +120,10 @@ const Downloads = () => {
     useNavigation<NativeStackNavigationProp<RootStackParamList>>();
   
   const loadData = async () => {
-    // Load from cache first for instant display
     const cachedFiles = downloadsStorage.getFilesInfo();
     const cachedThumbnails = downloadsStorage.getThumbnails();
 
     if (cachedFiles && cachedFiles.length > 0) {
-      // Filter and validate cached files
       const validCachedFiles: DownloadedFile[] = cachedFiles
         .filter(f => f.uri)
         .map(f => ({
@@ -144,7 +142,6 @@ const Downloads = () => {
       setThumbnails(cachedThumbnails);
     }
 
-    // Then refresh from filesystem
     const granted = await requestStoragePermission();
     if (granted) {
       try {
@@ -154,7 +151,6 @@ const Downloads = () => {
 
         const allFiles = await RNFS.readDir(downloadFolder);
 
-        // Filter and map video files
         const validFiles: DownloadedFile[] = allFiles
           .filter(item => item.isFile() && isVideoFile(item.name))
           .map(item => ({
@@ -165,7 +161,6 @@ const Downloads = () => {
             modificationTime: item.mtime ? new Date(item.mtime).getTime() : undefined,
           }));
 
-        // Save files info to storage
         downloadsStorage.saveFilesInfo(validFiles as any);
         setFiles(validFiles);
       } catch (error) {
@@ -175,16 +170,11 @@ const Downloads = () => {
     setLoading(false);
   };
 
-  // Load cached data first, then refresh from filesystem
   useEffect(() => {
     loadData();
   }, []);
 
-  // Auto-refresh when activeDownloads change (e.g. download finished)
   useEffect(() => {
-    const activeCount = Object.keys(activeDownloads).length;
-    // When a download finishes, the store counts decrease.
-    // We can't easily know if it's a finish or cancel, so we refresh.
     loadData();
   }, [Object.keys(activeDownloads).length]);
 
@@ -196,7 +186,6 @@ const Downloads = () => {
 
   async function getThumbnail(file: DownloadedFile) {
     try {
-      // Verify it's a video file before attempting to generate thumbnail
       const fileName = file.uri.split('/').pop();
       if (!fileName || !isVideoFile(fileName)) {
         return null;
@@ -212,16 +201,11 @@ const Downloads = () => {
     }
   }
 
-  // Generate thumbnails for files that don't have them cached
   useEffect(() => {
     const getThumbnails = async () => {
       try {
-        // Only generate thumbnails for files that don't have one
         const filesToProcess = files.filter(file => !thumbnails[file.uri]);
-
-        if (filesToProcess.length === 0) {
-          return;
-        }
+        if (filesToProcess.length === 0) return;
 
         const thumbnailPromises = filesToProcess.map(async file => {
           const thumbnail = await getThumbnail(file);
@@ -233,9 +217,7 @@ const Downloads = () => {
 
         const thumbnailResults = await Promise.all(thumbnailPromises);
         const newThumbnails = thumbnailResults.reduce<Record<string, string>>(
-          (acc, curr) => {
-            return curr ? {...acc, ...curr} : acc;
-          },
+          (acc, curr) => (curr ? {...acc, ...curr} : acc),
           {},
         );
 
@@ -260,12 +242,11 @@ const Downloads = () => {
         await RNFS.stopDownload(jobId);
       }
       useDownloadStore.getState().removeDownload(fileName);
-      // Delete partially downloaded file
       const path = `${downloadFolder}/${fileName}`;
       if (await RNFS.exists(path)) {
         await RNFS.unlink(path);
       }
-      ToastAndroid.show('Download cancelled', ToastAndroid.SHORT);
+      show('Download cancelled', 'info');
     } catch (error) {
       console.error('Error cancelling download:', error);
     }
@@ -273,11 +254,9 @@ const Downloads = () => {
 
   const deleteFiles = async () => {
     try {
-      // Process each file
       await Promise.all(
         groupSelected.map(async fileUri => {
           try {
-            // Remove the 'file://' prefix for Android
             const path =
               Platform.OS === 'android'
                 ? fileUri.replace('file://', '')
@@ -289,28 +268,25 @@ const Downloads = () => {
             }
           } catch (error) {
             console.error(`Error deleting file ${fileUri}:`, error);
-            throw error; // Re-throw to be caught by the outer try-catch
+            throw error;
           }
         }),
       );
 
-      // Update state after successful deletion
       const newFiles = files.filter(file => !groupSelected.includes(file.uri));
       setFiles(newFiles);
       setGroupSelected([]);
       setIsSelecting(false);
-
-      // Optional: Show success message
+      show(`Deleted ${groupSelected.length} file(s)`, 'success');
     } catch (error) {
       console.error('Error deleting files:', error);
+      show('Error deleting files', 'error');
     }
   };
 
-  // Add this function to group files by series name
   const groupMediaFiles = React.useMemo((): MediaGroup[] => {
     const groups: Record<string, MediaGroup> = {};
 
-    // First pass: Group by normalized base name
     files.forEach(file => {
       const fileName = file.uri.split('/').pop() || '';
       const baseName = getBaseName(fileName);
@@ -327,7 +303,6 @@ const Downloads = () => {
       groups[normalizedBaseName].episodes.push(file);
     });
 
-    // Second pass: Determine if each group is a movie or series and assign thumbnails
     Object.values(groups).forEach(group => {
       const hasEpisodeIndicators = group.episodes.some(file => {
         const fileName = file.uri.split('/').pop() || '';
@@ -336,7 +311,6 @@ const Downloads = () => {
 
       group.isMovie = !(group.episodes.length > 1 || hasEpisodeIndicators);
 
-      // Sort episodes by season and episode number if it's a series
       if (!group.isMovie) {
         group.episodes.sort((a, b) => {
           const aName = a.uri.split('/').pop() || '';
@@ -351,7 +325,6 @@ const Downloads = () => {
         });
       }
 
-      // Find the first available thumbnail for the group
       for (const episode of group.episodes) {
         if (thumbnails[episode.uri]) {
           group.thumbnail = thumbnails[episode.uri];
@@ -363,20 +336,20 @@ const Downloads = () => {
     return Object.values(groups);
   }, [files, thumbnails]);
 
-  // Helper to check if a group is selected (any episode in groupSelected)
   const isGroupSelected = (group: MediaGroup): boolean => {
     return group.episodes.some(ep => groupSelected.includes(ep.uri));
   };
 
-  // Helper to get all episode URIs from a group
   const getGroupUris = (group: MediaGroup): string[] => {
     return group.episodes.map(ep => ep.uri);
   };
 
+  const isDarkMode = mode === 'dark';
+
   return (
-    <View className="mt-14 px-2 w-full h-full">
-      <View className="flex-row justify-between items-center mb-4">
-        <Text className="text-2xl">Downloads</Text>
+    <View className={`mt-14 px-2 w-full h-full ${isDarkMode ? 'bg-black' : 'bg-white'}`}>
+      <View className="flex-row justify-between items-center mb-4 px-2">
+        <Text className={`text-2xl font-bold ${isDarkMode ? 'text-white' : 'text-black'}`}>Downloads</Text>
         <View className="flex-row gap-x-7 items-center">
           {isSelecting && (
             <MaterialCommunityIcons
@@ -402,10 +375,10 @@ const Downloads = () => {
 
       {Object.values(activeDownloads).length > 0 && (
         <View className="mb-4">
-          <Text className="text-lg font-bold text-gray-400 mb-2 px-1">Downloading</Text>
+          <Text className={`text-lg font-bold ${isDarkMode ? 'text-gray-400' : 'text-gray-500'} mb-2 px-1`}>Downloading</Text>
           {Object.values(activeDownloads).map((item) => (
-            <View key={`active-${item.fileName}`} className="flex-row w-full p-2 mb-2 rounded-lg bg-white/5 items-center">
-              <View className="w-40 aspect-video rounded-md overflow-hidden bg-quaternary mr-3 justify-center items-center">
+            <View key={`active-${item.fileName}`} className={`flex-row w-full p-2 mb-2 rounded-lg ${isDarkMode ? 'bg-white/5' : 'bg-black/5'} items-center`}>
+              <View className={`w-40 aspect-video rounded-md overflow-hidden ${isDarkMode ? 'bg-quaternary' : 'bg-black/10'} mr-3 justify-center items-center`}>
                 <MaterialCommunityIcons
                   name="download"
                   size={32}
@@ -413,10 +386,10 @@ const Downloads = () => {
                 />
               </View>
               <View className="flex-1">
-                <Text className="text-white font-semibold text-lg mb-1" numberOfLines={1}>
+                <Text className={`${isDarkMode ? 'text-white' : 'text-black'} font-semibold text-lg mb-1`} numberOfLines={1}>
                   {item.title}
                 </Text>
-                <View className="w-full h-1.5 bg-white/10 rounded-full overflow-hidden mt-1">
+                <View className={`w-full h-1.5 ${isDarkMode ? 'bg-white/10' : 'bg-black/10'} rounded-full overflow-hidden mt-1`}>
                   <View 
                     className="h-full" 
                     style={{ 
@@ -425,7 +398,7 @@ const Downloads = () => {
                     }} 
                   />
                 </View>
-                <Text className="text-gray-400 text-xs mt-1">
+                <Text className={`${isDarkMode ? 'text-gray-400' : 'text-gray-500'} text-xs mt-1`}>
                   {Math.round((item.progress || 0) * 100)}% • {item.fileType.toUpperCase()}
                 </Text>
               </View>
@@ -433,7 +406,7 @@ const Downloads = () => {
                 onPress={() => cancelDownload(item.fileName, item.jobId)}
                 className="p-2"
               >
-                <MaterialCommunityIcons name="close-circle-outline" size={24} color="gray" />
+                <MaterialCommunityIcons name="close-circle-outline" size={24} color={isDarkMode ? 'gray' : '#666'} />
               </TouchableOpacity>
             </View>
           ))}
@@ -446,7 +419,7 @@ const Downloads = () => {
         ListEmptyComponent={() =>
           !loading && (
             <View className="flex-1 justify-center items-center mt-10">
-              <Text className="text-center text-lg">Looks Empty Here!</Text>
+              <Text className={`text-center text-lg ${isDarkMode ? 'text-white/60' : 'text-black/60'}`}>Looks Empty Here!</Text>
             </View>
           )
         }
@@ -454,7 +427,7 @@ const Downloads = () => {
           <TouchableOpacity
             className={`flex-row w-full p-2 mb-2 rounded-lg overflow-hidden items-center ${
               isSelecting && isGroupSelected(item)
-                ? 'bg-quaternary'
+                ? (isDarkMode ? 'bg-quaternary' : 'bg-black/10')
                 : 'bg-transparent'
             }`}
             onLongPress={() => {
@@ -477,15 +450,12 @@ const Downloads = () => {
                 }
                 const groupUris = getGroupUris(item);
                 if (isGroupSelected(item)) {
-                  // Deselect all episodes in this group
                   setGroupSelected(
                     groupSelected.filter(uri => !groupUris.includes(uri)),
                   );
                 } else {
-                  // Select all episodes in this group
                   setGroupSelected([...groupSelected, ...groupUris]);
                 }
-                // Exit selection mode if nothing is selected
                 const remainingSelected = groupSelected.filter(
                   uri => !groupUris.includes(uri),
                 );
@@ -494,7 +464,6 @@ const Downloads = () => {
                   setGroupSelected([]);
                 }
               } else {
-                // Direct play for movies, navigate to episodes for series
                 if (item.isMovie) {
                   const file = item.episodes[0];
                   const fileName = file.uri.split('/').pop() || '';
@@ -526,7 +495,7 @@ const Downloads = () => {
                 }
               }
             }}>
-            <View className="w-40 aspect-video rounded-md overflow-hidden bg-quaternary mr-3">
+            <View className={`w-40 aspect-video rounded-md overflow-hidden ${isDarkMode ? 'bg-quaternary' : 'bg-black/10'} mr-3`}>
               {item.thumbnail ? (
                 <Image
                   source={{uri: item.thumbnail}}
@@ -546,12 +515,12 @@ const Downloads = () => {
 
             <View className="flex-1 justify-center">
               <Text
-                className="text-white font-semibold text-lg mb-1"
+                className={`${isDarkMode ? 'text-white' : 'text-black'} font-semibold text-lg mb-1`}
                 numberOfLines={2}>
                 {item.title}
               </Text>
               {!item.isMovie && (
-                <Text className="text-gray-400 text-sm">
+                <Text className={isDarkMode ? 'text-gray-400' : 'text-gray-500'}>
                   {item.episodes.length} episode
                   {item.episodes.length > 1 ? 's' : ''}
                 </Text>
@@ -565,3 +534,4 @@ const Downloads = () => {
 };
 
 export default Downloads;
+

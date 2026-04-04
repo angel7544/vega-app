@@ -136,9 +136,9 @@ const DownloadComponent = ({
         {/* delete modal */}
         {
           <Modal animationType="fade" visible={deleteModal} transparent={true}>
-            <View className="flex-1 bg-black/10 justify-center items-center p-4">
-              <View className="bg-tertiary p-3 w-80 rounded-md justify-center items-center">
-                <Text className="text-2xl font-semibold my-3 text-white">
+            <View className="flex-1 bg-black/40 justify-center items-center p-4">
+              <View className="bg-tertiary p-3 w-80 rounded-md justify-center items-center border border-white/10">
+                <Text className="text-2xl font-semibold my-3 text-black dark:text-white">
                   Confirm to delete
                 </Text>
                 <View className="flex-row items-center justify-evenly w-full my-5">

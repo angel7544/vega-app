@@ -4,8 +4,8 @@ import {
   Switch,
   ScrollView,
   TouchableOpacity,
-  ToastAndroid,
   StatusBar,
+  TextInput,
 } from 'react-native';
 import React, {useState} from 'react';
 import {settingsStorage} from '../../lib/storage';
@@ -14,8 +14,10 @@ import RNReactNativeHapticFeedback from 'react-native-haptic-feedback';
 import useThemeStore from '../../lib/zustand/themeStore';
 import {Dropdown} from 'react-native-element-dropdown';
 import {themes} from '../../lib/constants';
-import {TextInput} from 'react-native';
 import Constants from 'expo-constants';
+import useToastStore from '../../lib/zustand/toastStore';
+
+
 // Lazy-load Firebase to allow running without google-services.json
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const getAnalytics = (): any | null => {
@@ -41,6 +43,7 @@ const Preferences = () => {
   const {primary, setPrimary, isCustom, setCustom, mode} = useThemeStore(
     state => state,
   );
+  const {show} = useToastStore();
   const [showRecentlyWatched, setShowRecentlyWatched] = useState(
     settingsStorage.getBool('showRecentlyWatched') || false,
   );
@@ -130,9 +133,9 @@ const Preferences = () => {
                       onChangeText={setCustomColor}
                       onSubmitEditing={e => {
                         if (e.nativeEvent.text.length < 7) {
-                          ToastAndroid.show(
+                          show(
                             'Invalid Color',
-                            ToastAndroid.SHORT,
+                            'error',
                           );
                           return;
                         }
@@ -254,9 +257,9 @@ const Preferences = () => {
                 onValueChange={() => {
                   settingsStorage.setShowTabBarLabels(!showTabBarLables);
                   setShowTabBarLables(!showTabBarLables);
-                  ToastAndroid.show(
+                  show(
                     'Restart App to Apply Changes',
-                    ToastAndroid.SHORT,
+                    'info',
                   );
                 }}
               />
