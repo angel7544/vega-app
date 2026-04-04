@@ -33,7 +33,7 @@ import {QueryErrorBoundary} from '../../components/ErrorBoundary';
 import SkeletonLoader from '../../components/Skeleton';
 import useToastStore from '../../lib/zustand/toastStore';
 import useNavBarStore from '../../lib/zustand/navBarStore';
-import {sanitizeName} from '../../lib/utils';
+import {sanitizeName, extractMetadata} from '../../lib/utils';
 // import {BlurView} from 'expo-blur';
 
 type Props = NativeStackScreenProps<HomeStackParamList, 'Info'>;
@@ -177,6 +177,24 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
     removeItem(route.params.link);
     setInLibrary(false);
   }, [route.params.link, removeItem]);
+
+  const metadata = useMemo(() => {
+    return extractMetadata(info?.title || meta?.name || route.params.link || '');
+  }, [info?.title, meta?.name, route.params.link]);
+
+  const Badge = ({text, type}: {text: string, type: 'quality' | 'technical'}) => (
+    <View className={`px-2 py-0.5 rounded-md mr-1.5 mb-1.5 ${type === 'quality' ? 'bg-primary' : 'bg-white/10 border border-white/10'}`}>
+      <Text className="text-white text-[9px] font-black uppercase tracking-widest">{text}</Text>
+    </View>
+  );
+
+  const MetadataRow = ({items, type, className}: {items: string[], type: 'quality' | 'technical', className?: string}) => (
+    <View className={`flex-row flex-wrap ${className}`}>
+      {items.map((item, idx) => (
+        <Badge key={idx} text={item} type={type} />
+      ))}
+    </View>
+  );
 
   // Handlers
   const openThreeDotsMenu = useCallback(() => {
@@ -324,8 +342,16 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
           
           {/* Left Column - Large Poster and Actions */}
           <View className={`${isMobileLandscape ? 'w-[28%]' : 'w-[30%]'} h-full rounded-[40px] overflow-hidden`}>
-            <View className="h-[80%] rounded-[40px] overflow-hidden border-2 border-white/10 shadow-2xl">
+            <View className="h-[80%] rounded-[40px] overflow-hidden border-2 border-white/10 shadow-2xl relative">
               <Image source={{uri: posterImage}} className="w-full h-full" resizeMode="stretch" />
+              {/* Poster Badge Overlay */}
+              <View className="absolute top-4 right-4 flex-col items-end">
+                {metadata.quality.map((q, i) => (
+                  <View key={i} className="bg-primary px-2 py-1 rounded-lg mb-1 shadow-lg">
+                    <Text className="text-white text-[10px] font-black uppercase">{q}</Text>
+                  </View>
+                ))}
+              </View>
             </View>
 
             {/* Main Action Buttons under Poster */}
@@ -379,6 +405,11 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                     <Text className={`${textSub} font-black text-sm`}>{meta?.year || info?.year}</Text>
                   )}
                   <Text className={`${textSub} font-black text-[10px] uppercase tracking-widest`}>{route.params.provider || provider.value}</Text>
+                </View>
+                
+                {/* Metadata Badges below title info */}
+                <View className="mt-4">
+                  <MetadataRow items={[...metadata.quality, ...metadata.technical]} type="technical" />
                 </View>
               </View>
 
@@ -441,7 +472,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                         seasonListRef.current?.toggleSort();
                         setIsDescending(seasonListRef.current?.getSortOrder() === 'desc');
                     }}
-                    className={`w-[48px] h-[48px] ${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} rounded-2xl ml-3 items-center justify-center border border-white/10`}
+                    className={`w-[28px] h-[28px] ${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} rounded-2xl ml-3 items-center justify-center border border-white/10`}
                   >
                     <MaterialCommunityIcons 
                       name={isDescending ? "sort-descending" : "sort-ascending"} 
@@ -476,10 +507,23 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                     <Text className="text-white/40 text-[9px] font-black uppercase tracking-widest mt-1 mb-3">
                         {route.params.provider || provider.value}
                     </Text>
+
+                    {/* Metadata Badges in Portrait Overlay */}
+                    <MetadataRow items={[...metadata.quality, ...metadata.technical]} type="technical" className="mb-3" />
+
                     <Text className="text-white/70 text-[11px] font-medium leading-4" numberOfLines={2}>
                         {synopsis}
                     </Text>
                   </LinearGradient>
+                </View>
+                
+                {/* Discrete Quality Overlay (Top Right) */}
+                <View className="absolute top-6 right-6">
+                   {metadata.quality.map((q, i) => (
+                    <View key={i} className="bg-primary px-2 py-1 rounded-lg mb-1 shadow-md">
+                      <Text className="text-white text-[9px] font-black uppercase">{q}</Text>
+                    </View>
+                  ))}
                 </View>
               </View>
 

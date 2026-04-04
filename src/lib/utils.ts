@@ -1,18 +1,18 @@
+export const technicalTerms = [
+  /\bWEB-DL\b/gi, /\bH264\b/gi, /\bx264\b/gi, /\bH265\b/gi, /\bx265\b/gi,
+  /\b10bit\b/gi, /\bHEVC\b/gi, /\bBluray\b/gi, /\bAMZN\b/gi, /\bDSNP\b/gi, 
+  /\bNF\b/gi, /\bATVP\b/gi, /\bSTUTTER\b/gi, /\bPROPER\b/gi, /\bREPACK\b/gi, 
+  /\bREMUX\b/gi, /\bAVC\b/gi, /\[.*?\]/g, /\(.*?\)/g, /[-._]/g,
+];
+
+export const qualityLabels = [
+  /\b1080p\b/gi, /\b720p\b/gi, /\b2160p\b/gi, /\b4k\b/gi, /\bUHD\b/gi, 
+  /\bHDR\b/gi, /\bSDR\b/gi, /\bDV\b/gi,
+];
+
 export const sanitizeName = (name: string, keepQuality: boolean = false) => {
   if (!name) return '';
   
-  const technicalTerms = [
-    /\bWEB-DL\b/gi, /\bH264\b/gi, /\bx264\b/gi, /\bH265\b/gi, /\bx265\b/gi,
-    /\b10bit\b/gi, /\bHEVC\b/gi, /\bBluray\b/gi, /\bAMZN\b/gi, /\bDSNP\b/gi, 
-    /\bNF\b/gi, /\bATVP\b/gi, /\bSTUTTER\b/gi, /\bPROPER\b/gi, /\bREPACK\b/gi, 
-    /\bREMUX\b/gi, /\bAVC\b/gi, /\[.*?\]/g, /\(.*?\)/g, /[-._]/g,
-  ];
-
-  const qualityLabels = [
-    /\b1080p\b/gi, /\b720p\b/gi, /\b2160p\b/gi, /\b4k\b/gi, /\bUHD\b/gi, 
-    /\bHDR\b/gi, /\bSDR\b/gi, /\bDV\b/gi,
-  ];
-
   let sanitized = name;
   
   // Always remove technical junk
@@ -28,4 +28,38 @@ export const sanitizeName = (name: string, keepQuality: boolean = false) => {
   }
 
   return sanitized.replace(/\s+/g, ' ').trim() || name;
+};
+
+export const extractMetadata = (name: string) => {
+  const technical: string[] = [];
+  const quality: string[] = [];
+
+  if (!name) return { technical, quality };
+
+  technicalTerms.forEach(regex => {
+    const matches = name.match(regex);
+    if (matches) {
+      matches.forEach(match => {
+        // Clean match: remove brackets, dots, etc.
+        let clean = match.replace(/[\[\]\(\)\-\._]/g, '').trim();
+        if (clean && !technical.includes(clean.toUpperCase())) {
+          technical.push(clean.toUpperCase());
+        }
+      });
+    }
+  });
+
+  qualityLabels.forEach(regex => {
+    const matches = name.match(regex);
+    if (matches) {
+      matches.forEach(match => {
+        let clean = match.trim();
+        if (clean && !quality.includes(clean.toUpperCase())) {
+          quality.push(clean.toUpperCase());
+        }
+      });
+    }
+  });
+
+  return { technical, quality };
 };

@@ -43,7 +43,7 @@ import useWatchHistoryStore from '../lib/zustand/watchHistrory';
 import useThemeStore from '../lib/zustand/themeStore';
 import SkeletonLoader from './Skeleton';
 import useToastStore from '../lib/zustand/toastStore';
-import {sanitizeName} from '../lib/utils';
+import {sanitizeName, extractMetadata} from '../lib/utils';
 
 interface SeasonListProps {
   LinkList: Link[];
@@ -494,6 +494,18 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
             <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-[10px] font-black uppercase tracking-[1px] ml-2`}>
                 {sanitizeName(item.title)}
             </Text>
+            
+            {/* Metadata Badges */}
+            <View className="flex-row flex-wrap mt-1">
+              {(() => {
+                const meta = extractMetadata(item.title);
+                return [...meta.quality, ...meta.technical].map((ext, i) => (
+                  <View key={i} className="bg-white/10 px-1.5 py-0.5 rounded mr-1 mb-1 border border-white/5">
+                    <Text className="text-white/60 text-[7px] font-black uppercase">{ext}</Text>
+                  </View>
+                ));
+              })()}
+            </View>
 
           {/* Action Row - Pills above thumbnail as per image */}
           <View className="flex-row items-center space-x-2 mb-4">
@@ -581,6 +593,18 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
             {sanitizeName(item.title)}
           </Text>
 
+          {/* Metadata Badges */}
+          <View className="flex-row flex-wrap mb-2">
+            {(() => {
+              const meta = extractMetadata(item.title);
+              return [...meta.quality, ...meta.technical].map((ext, i) => (
+                <View key={i} className="bg-white/10 px-1.5 py-0.5 rounded mr-1 mb-1 border border-white/5">
+                  <Text className="text-white/60 text-[7px] font-black uppercase">{ext}</Text>
+                </View>
+              ));
+            })()}
+          </View>
+
           {/* Action Row - Mobile Inspired Pills */}
           <View className="flex-row items-center space-x-3 mb-1">
             <TouchableOpacity 
@@ -664,6 +688,17 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
                 <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[11px] font-black uppercase tracking-[1px]`}>
                     Episode-{String(item.originalIndex + 1).padStart(2, '0')} • {sanitizeName(item.title)}
                 </Text>
+                {/* Metadata Badges */}
+                <View className="flex-row items-center ml-2">
+                  {(() => {
+                    const meta = extractMetadata(item.title);
+                    return [...meta.quality, ...meta.technical].slice(0, 3).map((ext, i) => (
+                      <View key={i} className="bg-white/10 px-1.5 py-0.5 rounded mr-1 border border-white/5">
+                        <Text className="text-white/60 text-[7px] font-black uppercase">{ext}</Text>
+                      </View>
+                    ));
+                  })()}
+                </View>
                 {metaEp?.size && (
                     <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-[10px] font-black uppercase tracking-[1px] ml-2`}>
                         {metaEp.size}
@@ -753,6 +788,17 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
             <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[11px] font-black uppercase tracking-[1px]`}>
                 {sanitizeName(item.title)}
             </Text>
+            {/* Metadata Badges */}
+            <View className="flex-row items-center">
+              {(() => {
+                const meta = extractMetadata(item.title);
+                return [...meta.quality, ...meta.technical].slice(0, 3).map((ext, i) => (
+                  <View key={i} className="bg-white/10 px-1.5 py-0.5 rounded ml-1 border border-white/5">
+                    <Text className="text-white/60 text-[7px] font-black uppercase">{ext}</Text>
+                  </View>
+                ));
+              })()}
+            </View>
             {isNext && (
                 <View className="bg-primary/20 px-2 py-0.5 rounded-md">
                     <Text className="text-primary text-[8px] font-black uppercase">Next</Text>

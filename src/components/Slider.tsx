@@ -10,6 +10,7 @@ import SkeletonLoader from './Skeleton';
 
 // import useWatchHistoryStore from '../lib/zustand/watchHistrory';
 import useThemeStore from '../lib/zustand/themeStore';
+import {extractMetadata} from '../lib/utils';
 
 const Slider = ({
   isLoading,
@@ -80,7 +81,17 @@ const Slider = ({
             style={{width: itemWidth, height: itemHeight}}
           />
         </TouchableOpacity>
-        <Text className="text-center truncate text-xs" style={{width: itemWidth, color: primary}}>
+        <View className="flex-row flex-wrap mt-1" style={{ width: itemWidth }}>
+          {(() => {
+            const meta = extractMetadata(item.title);
+            return [...meta.quality, ...meta.technical].slice(0, 2).map((ext, i) => (
+              <View key={i} className="bg-primary/80 px-1 rounded mr-1 mb-1">
+                <Text className="text-white text-[7px] font-black uppercase">{ext}</Text>
+              </View>
+            ));
+          })()}
+        </View>
+        <Text className="truncate text-[10px] font-bold" style={{width: itemWidth, color: mode === 'dark' ? 'white' : 'black'}}>
           {item.title.length > (isTablet ? 35 : 24)
             ? `${item.title.slice(0, (isTablet ? 35 : 24))}...`
             : item.title}
