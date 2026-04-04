@@ -22,7 +22,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import SeasonList, { SeasonListHandle } from '../../components/SeasonList';
 import {Feather, MaterialCommunityIcons, Ionicons} from '@expo/vector-icons';
 import {Dropdown} from 'react-native-element-dropdown';
-import {cacheStorage, settingsStorage, watchListStorage} from '../../lib/storage';
+import {cacheStorage, mainStorage,  settingsStorage, watchListStorage} from '../../lib/storage';
 import ReactNativeHapticFeedback from 'react-native-haptic-feedback';
 import useContentStore from '../../lib/zustand/contentStore';
 import useThemeStore from '../../lib/zustand/themeStore';
@@ -33,6 +33,7 @@ import {QueryErrorBoundary} from '../../components/ErrorBoundary';
 import SkeletonLoader from '../../components/Skeleton';
 import useToastStore from '../../lib/zustand/toastStore';
 import useNavBarStore from '../../lib/zustand/navBarStore';
+import {sanitizeName} from '../../lib/utils';
 // import {BlurView} from 'expo-blur';
 
 type Props = NativeStackScreenProps<HomeStackParamList, 'Info'>;
@@ -122,6 +123,8 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
       setActiveSeason(filteredLinkList[0]);
     }
   }, [filteredLinkList, displayTitle, route.params.provider, provider.value]);
+
+  const [isDescending, setIsDescending] = useState(() => mainStorage.getString('episodeSortOrder') === 'desc');
 
   const handleSeasonChange = useCallback((item: any) => {
     setActiveSeason(item);
@@ -282,10 +285,9 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                     backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'white', 
                     height: isMobileLandscape ? 38 : 44,
                   }}
-                  containerStyle={{ backgroundColor: mode === 'dark' ? '#0a0a0a' : 'white', borderRadius: 12, overflow: 'hidden', marginTop: 10, borderWidth: 1, borderColor: borderCol }}
                   renderItem={item => (
                     <View className={`px-4 py-3 border-b border-white/5 ${activeSeason === item ? (mode === 'dark' ? 'bg-secondary' : 'bg-gray-200') : ''}`}>
-                      <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-medium`}>{item?.title}</Text>
+                      <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-medium`}>{sanitizeName(item?.title)}</Text>
                     </View>
                   )}
                 />
@@ -300,6 +302,20 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                 onChangeText={(text: string) => seasonListRef.current?.setSearch(text)}
               />
             </View>
+
+            <TouchableOpacity 
+              onPress={() => {
+                seasonListRef.current?.toggleSort();
+                setIsDescending(seasonListRef.current?.getSortOrder() === 'desc');
+              }}
+              className={`w-11 h-11 ${cardBg} rounded-xl items-center justify-center border ${borderCol}`}
+            >
+              <MaterialCommunityIcons 
+                name={isDescending ? "sort-calendar-descending" : "sort-calendar-ascending"} 
+                size={22} 
+                color={mode === 'dark' ? 'white' : 'black'} 
+              />
+            </TouchableOpacity>
           </View>
         </View>
 
@@ -324,11 +340,9 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                     <Text className="text-white font-black text-[11px] uppercase tracking-[1px]">
                         {nextUpEpisode ? (nextUpEpisode.progress > 0 ? 'Continue' : 'Watch Now') : (info ? 'Watch Again' : 'Watch Now')}
                     </Text>
-                    {nextUpEpisode && (
-                        <Text className="text-white/60 text-[8px] font-bold uppercase tracking-[0.5px] mt-0.5" numberOfLines={1}>
-                            {nextUpEpisode.title} {nextUpEpisode.size ? `• ${nextUpEpisode.size}` : ''}
-                        </Text>
-                    )}
+                    <Text className="text-white/60 text-[8px] font-bold uppercase tracking-[0.5px] mt-0.5" numberOfLines={1}>
+                        {sanitizeName(nextUpEpisode.title)} {nextUpEpisode.size ? `• ${nextUpEpisode.size}` : ''}
+                    </Text>
                 </View>
               </TouchableOpacity>
               
@@ -467,7 +481,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                     </Text>
                     {nextUpEpisode && (
                         <Text className="text-white/60 text-[8px] font-bold uppercase tracking-[0.5px]">
-                            {nextUpEpisode.title}
+                            {sanitizeName(nextUpEpisode.title)}
                         </Text>
                     )}
                   </View>
@@ -505,7 +519,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                     containerStyle={{ backgroundColor: mode === 'dark' ? '#0a0a0a' : 'white', borderRadius: 16, overflow: 'hidden', marginTop: 10, borderWidth: 1, borderColor: mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)' }}
                     renderItem={item => (
                       <View className={`px-4 py-4 border-b border-white/5 ${activeSeason === item ? (mode === 'dark' ? 'bg-primary/20' : 'bg-gray-200') : ''}`}>
-                        <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-medium`}>{item?.title}</Text>
+                        <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-medium`}>{sanitizeName(item?.title)}</Text>
                       </View>
                     )}
                   />

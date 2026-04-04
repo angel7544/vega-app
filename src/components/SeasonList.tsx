@@ -14,6 +14,7 @@ import {
   Image,
   Linking,
 } from 'react-native';
+import {BlurView} from 'expo-blur';
 
 import {NativeStackNavigationProp} from '@react-navigation/native-stack';
 import {useNavigation} from '@react-navigation/native';
@@ -28,6 +29,7 @@ import Animated, {
   withRepeat,
   withTiming,
   cancelAnimation,
+  withSpring,
 } from 'react-native-reanimated';
 import * as IntentLauncher from 'expo-intent-launcher';
 import {EpisodeLink, Link, Stream} from '../lib/providers/types';
@@ -41,6 +43,7 @@ import useWatchHistoryStore from '../lib/zustand/watchHistrory';
 import useThemeStore from '../lib/zustand/themeStore';
 import SkeletonLoader from './Skeleton';
 import useToastStore from '../lib/zustand/toastStore';
+import {sanitizeName} from '../lib/utils';
 
 interface SeasonListProps {
   LinkList: Link[];
@@ -78,6 +81,8 @@ interface PlayHandlerProps {
 export interface SeasonListHandle {
   playNextUp: () => void;
   setSearch: (text: string) => void;
+  toggleSort: () => void;
+  getSortOrder: () => 'asc' | 'desc';
 }
 
 const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
@@ -142,11 +147,11 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
 
   const [vlcLoading, setVlcLoading] = useState<boolean>(false);
   const [isLoadingStreams, setIsLoadingStreams] = useState<boolean>(false);
+  const [showServerCard, setShowServerCard] = useState<boolean>(false);
   const [searchText, setSearchText] = useState<string>('');
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>(() =>
     mainStorage.getString('episodeSortOrder') === 'desc' ? 'desc' : 'asc',
   );
-  const [showServerModal, setShowServerModal] = useState<boolean>(false);
   const [externalPlayerStreams, setExternalPlayerStreams] = useState<any[]>([]);
   const [stickyMenuMetadata, setStickyMenuMetadata] = useState<{
     title: string;
@@ -203,17 +208,46 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
     mainStorage.setString('episodeSortOrder', newOrder);
   }, [sortOrder]);
 
-  // VLC animation logic
-  const vlcRotation = useSharedValue(0);
+  // Premium VLC pulse & rotate animation
+  const vlcScale = useSharedValue(1);
+  const vlcOpacity = useSharedValue(0.6);
+  
   useEffect(() => {
-    if (vlcLoading) {
-      vlcRotation.value = withRepeat(withTiming(360, {duration: 800}), -1, false);
+    if (vlcLoading || isLoadingStreams) {
+      vlcScale.value = withRepeat(withTiming(1.2, {duration: 800}), -1, true);
+      vlcOpacity.value = withRepeat(withTiming(1, {duration: 800}), -1, true);
     } else {
-      cancelAnimation(vlcRotation);
-      vlcRotation.value = 0;
+      cancelAnimation(vlcScale);
+      cancelAnimation(vlcOpacity);
+      vlcScale.value = 1;
+      vlcOpacity.value = 0.6;
     }
-  }, [vlcLoading, vlcRotation]);
-  const vlcLoadingAnimatedStyle = useAnimatedStyle(() => ({ transform: [{rotate: `${vlcRotation.value}deg`}] }));
+  }, [vlcLoading, isLoadingStreams]);
+
+  const vlcLoadingAnimatedStyle = useAnimatedStyle(() => ({
+    transform: [{scale: vlcScale.value}],
+    opacity: vlcOpacity.value,
+  }));
+
+  // Card Animation logic
+  const cardScale = useSharedValue(0.9);
+  const cardOpacity = useSharedValue(0);
+  
+  useEffect(() => {
+    if (showServerCard) {
+      cardOpacity.value = withTiming(1, { duration: 400 });
+      cardScale.value = withSpring(1, { damping: 15 });
+    } else {
+      cardOpacity.value = withTiming(0, { duration: 300 });
+      cardScale.value = withTiming(0.9, { duration: 300 });
+    }
+  }, [showServerCard]);
+
+  const cardAnimatedStyle = useAnimatedStyle(() => ({
+    opacity: cardOpacity.value,
+    transform: [{ scale: cardScale.value }],
+    display: cardOpacity.value === 0 && !showServerCard ? 'none' : 'flex' as any,
+  }));
 
   // Enhanced Episode Mapping
   const getEpisodeMetadata = useCallback((episodeTitle: string, seasonNum?: number) => {
@@ -238,6 +272,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
       episodeTitle.toLowerCase().includes(v.name?.toLowerCase())
     );
   }, [meta?.videos, activeSeason?.title]);
+
 
   // Memoized lists (Smart Sorting: [Next Up, Unwatched, Watched])
   const filteredAndSortedEpisodes = useMemo(() => {
@@ -336,7 +371,11 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
     },
     setSearch: (text: string) => {
       setSearchText(text);
-    }
+    },
+    toggleSort: () => {
+        toggleSortOrder();
+    },
+    getSortOrder: () => sortOrder,
   }));
 
   // Handlers
@@ -365,21 +404,21 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
   }, [stickyMenuMetadata, providerValue, show]);
 
   const handleShowServers = useCallback(async (link: string, streamType: string, metadata: {title: string; fileName: string}) => {
-    setVlcLoading(true);
+    setShowServerCard(true);
     setIsLoadingStreams(true);
     setStickyMenuMetadata(metadata);
     try {
       const streams = await fetchStreams(link, streamType, providerValue);
       if (!streams || streams.length === 0) {
         show('No streams available from provider', 'error');
+        setShowServerCard(false);
         return;
       }
       setExternalPlayerStreams([...streams]);
-      setShowServerModal(true);
     } catch (error: any) {
       show(error?.message || 'Failed to load streams', 'error');
+      setShowServerCard(false);
     } finally {
-      setVlcLoading(false);
       setIsLoadingStreams(false);
     }
   }, [fetchStreams, providerValue, show]);
@@ -390,7 +429,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
   }, [handleShowServers]);
 
   const openExternalPlayer = useCallback(async (streamUrl: string) => {
-    setShowServerModal(false);
+    setShowServerCard(false);
     setVlcLoading(true);
     try {
       await IntentLauncher.startActivityAsync('android.intent.action.VIEW', { data: streamUrl, type: 'video/*' });
@@ -460,16 +499,12 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
       <View key={item.link + index} className="mr-8 mb-4" style={{ width: 320 }}>
         {/* Metadata and Title - Top Row as per image */}
         <View className="mb-2 px-1">
-          <View className="flex-row items-center space-x-2 mb-1">
             <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[10px] font-black uppercase tracking-[1px]`}>
               Episode-{String(item.originalIndex + 1).padStart(2, '0')}
             </Text>
-            {metaEp?.size && (
-              <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-[10px] font-black uppercase tracking-[1px]`}>
-                {metaEp.size}
-              </Text>
-            )}
-          </View>
+            <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-[10px] font-black uppercase tracking-[1px] ml-2`}>
+                {sanitizeName(item.title)}
+            </Text>
 
           {/* Action Row - Pills above thumbnail as per image */}
           <View className="flex-row items-center space-x-2 mb-4">
@@ -554,7 +589,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
         {/* Metadata and Title */}
         <View className="mb-3 px-1">
           <Text className={`${mode === 'dark' ? 'text-white/80' : 'text-black/80'} text-[11px] uppercase font-bold mb-3`} numberOfLines={1}>
-            {item.title}
+            {sanitizeName(item.title)}
           </Text>
 
           {/* Action Row - Mobile Inspired Pills */}
@@ -638,10 +673,10 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
         <View className="px-4 pt-4 pb-2 flex-row justify-between items-center">
             <View className="flex-row items-center space-x-2">
                 <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[11px] font-black uppercase tracking-[1px]`}>
-                    Episode-{String(item.originalIndex + 1).padStart(2, '0')}
+                    Episode-{String(item.originalIndex + 1).padStart(2, '0')} • {sanitizeName(item.title)}
                 </Text>
                 {metaEp?.size && (
-                    <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-[10px] font-black uppercase tracking-[1px]`}>
+                    <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-[10px] font-black uppercase tracking-[1px] ml-2`}>
                         {metaEp.size}
                     </Text>
                 )}
@@ -727,7 +762,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
         {/* Card Header - Metadata */}
         <View className="px-4 pt-4 pb-2 flex-row justify-between items-center">
             <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[11px] font-black uppercase tracking-[1px]`}>
-                {item.title}
+                {sanitizeName(item.title)}
             </Text>
             {isNext && (
                 <View className="bg-primary/20 px-2 py-0.5 rounded-md">
@@ -799,24 +834,34 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
     );
   }, [mode, primary, playHandler, type, metaTitle, activeSeason?.title, combinedData, getWatchProgress, nextUpIndex, poster?.poster, toggleWatched, handleDownload]);
 
-  const renderServerItem = useCallback((item: Stream, index: number) => (
-    <View key={`server-${index}-${item.server}`} className={`${mode === 'dark' ? 'bg-black/30' : 'bg-gray-100'} p-3 rounded-lg mb-2 flex-row justify-between items-center`} style={{borderColor: primary, borderWidth: 1}}>
-      <TouchableOpacity onPress={() => openExternalPlayer(item.link)} className="flex-1">
-        <View>
-          <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-lg capitalize font-bold`}>{item.server || `Server ${index + 1}`}</Text>
-          <Text className={`${mode === 'dark' ? 'text-white/80' : 'text-black/60'} text-xs`}>{item.type ? `Format: ${item.type.toUpperCase()}` : ''}</Text>
+  const renderServerItem = useCallback((item: Stream, index: number) => {
+    const serverName = sanitizeName(item.server || `Server ${index + 1}`, true);
+    const formatType = sanitizeName(item.type || '', true);
+    
+    return (
+      <View key={`server-${index}-${item.server}`} className={`${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'} p-4 rounded-2xl mb-3 flex-row justify-between items-center border border-white/5`}>
+        <TouchableOpacity onPress={() => openExternalPlayer(item.link)} className="flex-1">
+          <View>
+            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base capitalize font-black tracking-tight`}>{serverName}</Text>
+            {formatType && (
+              <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-[10px] font-bold uppercase mt-0.5`}>{formatType}</Text>
+            )}
+          </View>
+        </TouchableOpacity>
+        <View className="flex-row gap-x-3 items-center">
+          <TouchableOpacity 
+            onPress={() => { Clipboard.setString(item.link); show('Link copied to clipboard', 'success'); }}
+            className={`w-8 h-8 rounded-full items-center justify-center ${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'}`}
+          >
+            <MaterialIcons name="content-copy" size={18} color={primary} />
+          </TouchableOpacity>
+          <TouchableOpacity onPress={() => onDownloadServer(item)} className={`${mode === 'dark' ? 'bg-primary/20' : 'bg-primary/10'} w-8 h-8 rounded-full items-center justify-center`}>
+            <MaterialIcons name="file-download" size={20} color={primary} />
+          </TouchableOpacity>
         </View>
-      </TouchableOpacity>
-      <View className="flex-row gap-x-3 items-center">
-        <TouchableOpacity onPress={() => { Clipboard.setString(item.link); show('Link copied to clipboard', 'success'); }}>
-          <MaterialIcons name="content-copy" size={24} color={primary} />
-        </TouchableOpacity>
-        <TouchableOpacity onPress={() => onDownloadServer(item)} className={`${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} p-2 rounded-full`}>
-          <MaterialIcons name="file-download" size={24} color={mode === 'dark' ? 'white' : 'black'} />
-        </TouchableOpacity>
       </View>
-    </View>
-  ), [primary, mode, openExternalPlayer, show, onDownloadServer]);
+    );
+  }, [primary, mode, openExternalPlayer, show, onDownloadServer, sanitizeName]);
 
   // Loading Skeleton
   if (episodeLoading) {
@@ -834,7 +879,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
             containerStyle={{ overflow: 'hidden', borderWidth: 1, borderColor: 'gray', borderRadius: 8, backgroundColor: mode === 'dark' ? 'black' : 'white' }}
             renderItem={item => (
               <View className={`px-3 py-2 flex-row justify-start items-center border-b border-gray-500 ${activeSeason === item ? (mode === 'dark' ? 'bg-secondary' : 'bg-gray-200') : (mode === 'dark' ? 'bg-black' : 'bg-white')}`}>
-                <Text className={mode === 'dark' ? 'text-white' : 'text-black'}>{item?.title || 'Unknown'}</Text>
+                <Text className={mode === 'dark' ? 'text-white' : 'text-black'}>{sanitizeName(item?.title || 'Unknown')}</Text>
               </View>
             )}
           />
@@ -943,53 +988,95 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
         </View>
       </View>
 
-      {/* Servers Modal */}
+      {/* Premium Server Selection Card UI */}
       <Modal
+        visible={showServerCard}
         animationType="fade"
         transparent
-        visible={showServerModal}
-        onRequestClose={() => setShowServerModal(false)}>
-        <Pressable
-          onPress={() => setShowServerModal(false)}
-          className="flex-1 bg-black/70 justify-end">
-          <View
-            className={`${
-              mode === 'dark' ? 'bg-secondary' : 'bg-white'
-            } rounded-t-3xl p-6 min-h-[50%]`}>
-            <View className="w-12 h-1.5 bg-gray-500/20 rounded-full self-center mb-6" />
-            <Text
-              className={`${
-                mode === 'dark' ? 'text-white' : 'text-black'
-              } text-xl font-bold mb-1`}>
-              Available Servers
-            </Text>
-            <Text
-              className={`${
-                mode === 'dark' ? 'text-white/50' : 'text-black/50'
-              } text-sm mb-6`}>
-              {externalPlayerStreams.length} high-quality streams found
-            </Text>
+        onRequestClose={() => setShowServerCard(false)}
+      >
+        <Animated.View 
+          className="flex-1 items-center justify-center px-6"
+          style={{ backgroundColor: 'rgba(0,0,0,0.6)' }}
+        >
+          <Pressable 
+            className="absolute inset-0" 
+            onPress={() => setShowServerCard(false)} 
+          />
+          
+          <Animated.View 
+            style={[
+              cardAnimatedStyle,
+              { width: isTablet ? 500 : '100%', maxWidth: 600 }
+            ]}
+            className={`rounded-[40px] overflow-hidden border border-white/5 shadow-2xl ${mode === 'dark' ? 'bg-secondary' : 'bg-white'}`}
+          >
+            <BlurView intensity={20} tint={mode === 'dark' ? 'dark' : 'light'} className="p-8">
+              <View className="flex-row justify-between items-start mb-6">
+                <View className="flex-1 mr-4">
+                  <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-2xl font-black uppercase tracking-tight`}>
+                    {isLoadingStreams ? 'Searching' : 'Servers'}
+                  </Text>
+                  {stickyMenuMetadata && (
+                    <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-[10px] font-black uppercase tracking-widest mt-1`} numberOfLines={1}>
+                      {sanitizeName(stickyMenuMetadata.title)}
+                    </Text>
+                  )}
+                </View>
+                <TouchableOpacity 
+                  onPress={() => setShowServerCard(false)}
+                  className={`w-10 h-10 rounded-full items-center justify-center ${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'}`}
+                >
+                  <Ionicons name="close" size={20} color={mode === 'dark' ? 'white' : 'black'} />
+                </TouchableOpacity>
+              </View>
 
-            {isLoadingStreams ? (
-              <ActivityIndicator size="large" color={primary} />
-            ) : (
-              <ScrollView showsVerticalScrollIndicator={false}>
-                {externalPlayerStreams.map((s, i) => renderServerItem(s, i))}
-              </ScrollView>
-            )}
-          </View>
-        </Pressable>
+              <View className="min-h-[200px] justify-center">
+                {isLoadingStreams ? (
+                  <View className="items-center py-10">
+                    <Animated.View style={vlcLoadingAnimatedStyle}>
+                      <MaterialCommunityIcons name="vlc" size={100} color={primary} />
+                    </Animated.View>
+                    <Text className={`${mode === 'dark' ? 'text-white/60' : 'text-black/60'} text-[10px] font-black uppercase tracking-[2px] mt-8`}>
+                      Locating Servers...
+                    </Text>
+                  </View>
+                ) : (
+                  <ScrollView 
+                    showsVerticalScrollIndicator={false}
+                    contentContainerStyle={{ paddingBottom: 10 }}
+                    style={{ maxHeight: 400 }}
+                  >
+                    {externalPlayerStreams.length > 0 ? (
+                      externalPlayerStreams.map((s, i) => renderServerItem(s, i))
+                    ) : (
+                      <View className="items-center py-10">
+                        <Ionicons name="alert-circle-outline" size={40} color={mode === 'dark' ? 'white' : 'black'} style={{ opacity: 0.3 }} />
+                        <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-xs mt-4`}>No servers found</Text>
+                      </View>
+                    )}
+                  </ScrollView>
+                )}
+              </View>
+            </BlurView>
+          </Animated.View>
+        </Animated.View>
       </Modal>
 
-      {/* VLC Overlay */}
+      {/* Preparing Stream Overlay - Redesigned to match the new style */}
       {vlcLoading && (
-        <View className="absolute inset-0 bg-black/80 items-center justify-center z-50 rounded-2xl">
+        <View className="absolute inset-0 bg-black/90 items-center justify-center z-[200]">
           <Animated.View style={vlcLoadingAnimatedStyle}>
-            <MaterialCommunityIcons name="vlc" size={80} color={primary} />
+            <MaterialCommunityIcons name="vlc" size={120} color={primary} />
           </Animated.View>
-          <Text className="text-white text-lg font-bold mt-4">
-            Preparing Stream...
-          </Text>
+          <View className="mt-12 items-center">
+            <Text className="text-white text-xl font-black uppercase tracking-[2px]">
+              Preparing Stream
+            </Text>
+            <Text className="text-white/40 text-[10px] font-black uppercase tracking-[3px] mt-2">
+              Initializing external player
+            </Text>
+          </View>
         </View>
       )}
 
