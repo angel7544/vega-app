@@ -2,6 +2,7 @@ import {useQuery} from '@tanstack/react-query';
 import {providerManager} from '../services/ProviderManager';
 import {cacheStorage} from '../storage';
 import axios from 'axios';
+import { searchTMDB, getTMDBDetails } from '../services/tmdb';
 
 // Hook for fetching content info/metadata
 export const useContentInfo = (link: string, providerValue: string) => {
@@ -96,6 +97,35 @@ export const useEnhancedMetadata = (imdbId: string, type: string) => {
   });
 };
 
+// Hook for fetching TMDb metadata
+export const useTMDBMetadata = (title: string, type: string) => {
+  return useQuery({
+    queryKey: ['tmdbMeta', title, type],
+    queryFn: async () => {
+      if (!title) return null;
+      console.log('Fetching TMDB metadata for:', title);
+      try {
+        const tmdbType = type === 'series' || type === 'tv' ? 'tv' : type === 'movie' ? 'movie' : 'multi';
+        const searchResults = await searchTMDB(title.split('(')[0].trim(), tmdbType);
+        if (searchResults && searchResults.length > 0) {
+          const result = searchResults[0] as any;
+          const finalType = tmdbType === 'multi' ? result.media_type : tmdbType;
+          if (finalType === 'movie' || finalType === 'tv') {
+            const details = await getTMDBDetails(result.id, finalType);
+            return details;
+          }
+        }
+      } catch (error) {
+        console.error('Error fetching TMDB metadata:', error);
+      }
+      return null;
+    },
+    enabled: !!title,
+    staleTime: 60 * 60 * 1000, // 1 hour
+    gcTime: 24 * 60 * 60 * 1000, // 24 hours
+  });
+};
+
 // Combined hook for both info and metadata
 export const useContentDetails = (link: string, providerValue: string) => {
   // First, get the basic content info
@@ -114,13 +144,21 @@ export const useContentDetails = (link: string, providerValue: string) => {
     refetch: refetchMeta,
   } = useEnhancedMetadata(info?.imdbId || '', info?.type || '');
 
+  // Third, get TMDb metadata
+  const {
+    data: tmdb,
+    isLoading: tmdbLoading,
+    refetch: refetchTmdb,
+  } = useTMDBMetadata(info?.title || meta?.name || '', info?.type || meta?.type || '');
+
   return {
     info,
     meta,
-    isLoading: infoLoading || metaLoading,
+    tmdb,
+    isLoading: infoLoading || metaLoading || tmdbLoading,
     error: infoError || metaError,
     refetch: async () => {
-      await Promise.all([refetchInfo(), refetchMeta()]);
+      await Promise.all([refetchInfo(), refetchMeta(), refetchTmdb()]);
     },
   };
 };

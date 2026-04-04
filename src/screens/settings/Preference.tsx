@@ -98,6 +98,9 @@ const Preferences = () => {
   const [telemetryOptIn, setTelemetryOptIn] = useState<boolean>(
     settingsStorage.isTelemetryOptIn(),
   );
+  
+  const [tmdbApiKey, setTmdbApiKey] = useState(settingsStorage.getTmdbApiKey());
+  const [tmdbReadToken, setTmdbReadToken] = useState(settingsStorage.getTmdbReadToken());
 
   return (
     <ScrollView
@@ -326,6 +329,66 @@ const Preferences = () => {
                 }}
               />
             </View>
+          </View>
+        </View>
+
+        {/* TMDb Settings */}
+        <View className="mb-6">
+          <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-sm mb-3`}>TMDb API (Enhanced Metadata)</Text>
+          <View className={`${mode === 'dark' ? 'bg-[#1A1A1A]' : 'bg-gray-100'} rounded-xl overflow-hidden p-4`}>
+            <View className="mb-4">
+              <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-xs mb-1 uppercase font-bold`}>API Key (v3)</Text>
+              <TextInput
+                  style={{
+                    color: mode === 'dark' ? 'white' : 'black',
+                    backgroundColor: mode === 'dark' ? '#262626' : '#E5E7EB',
+                    borderRadius: 10,
+                    paddingHorizontal: 12,
+                    paddingVertical: 10,
+                    fontSize: 13,
+                    borderWidth: 1,
+                    borderColor: mode === 'dark' ? '#333' : '#ddd',
+                  }}
+                  placeholder="Enter TMDb API Key"
+                  placeholderTextColor="gray"
+                  value={tmdbApiKey}
+                  onChangeText={setTmdbApiKey}
+                  onBlur={() => {
+                    settingsStorage.setTmdbApiKey(tmdbApiKey);
+                    show('TMDb API Key Updated', 'success');
+                  }}
+              />
+            </View>
+            <View>
+              <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-xs mb-1 uppercase font-bold`}>Read Access Token (v4)</Text>
+              <TextInput
+                  style={{
+                    color: mode === 'dark' ? 'white' : 'black',
+                    backgroundColor: mode === 'dark' ? '#262626' : '#E5E7EB',
+                    borderRadius: 10,
+                    paddingHorizontal: 12,
+                    paddingVertical: 10,
+                    fontSize: 12,
+                    height: 80,
+                    textAlignVertical: 'top',
+                    borderWidth: 1,
+                    borderColor: mode === 'dark' ? '#333' : '#ddd',
+                  }}
+                  multiline
+                  placeholder="Enter TMDb Read Access Token"
+                  placeholderTextColor="gray"
+                  value={tmdbReadToken}
+                  onChangeText={setTmdbReadToken}
+                  onBlur={() => {
+                    settingsStorage.setTmdbReadToken(tmdbReadToken);
+                    show('TMDb Token Updated', 'success');
+                  }}
+              />
+            </View>
+            <Text className={`${mode === 'dark' ? 'text-gray-500' : 'text-gray-400'} text-[10px] mt-3 leading-4`}>
+              TMDb API provides enhanced ratings, movie details, and high-quality posters. 
+              Get your personal keys at common.themoviedb.org
+            </Text>
           </View>
         </View>
 

@@ -15,6 +15,10 @@ export interface WatchListItem {
   poster: string;
   link: string;
   provider: string;
+  genres?: string[];
+  year?: string;
+  runtime?: number;
+  type?: 'movie' | 'tv' | 'series';
 }
 
 /**

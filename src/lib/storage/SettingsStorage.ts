@@ -37,6 +37,10 @@ export enum SettingsKeys {
 
   // Telemetry (privacy)
   TELEMETRY_OPT_IN = 'telemetryOptIn',
+
+  // TMDb settings
+  TMDB_API_KEY = 'tmdbApiKey',
+  TMDB_READ_TOKEN = 'tmdbReadToken',
 }
 
 /**
@@ -227,6 +231,23 @@ export class SettingsStorage {
 
   setTelemetryOptIn(enabled: boolean): void {
     mainStorage.setBool(SettingsKeys.TELEMETRY_OPT_IN, enabled);
+  }
+
+  // TMDb settings
+  getTmdbApiKey(): string {
+    return mainStorage.getString(SettingsKeys.TMDB_API_KEY) || 'b6b5360b74835b376549978abf243916';
+  }
+
+  setTmdbApiKey(key: string): void {
+    mainStorage.setString(SettingsKeys.TMDB_API_KEY, key);
+  }
+
+  getTmdbReadToken(): string {
+    return mainStorage.getString(SettingsKeys.TMDB_READ_TOKEN) || '';
+  }
+
+  setTmdbReadToken(token: string): void {
+    mainStorage.setString(SettingsKeys.TMDB_READ_TOKEN, token);
   }
 
   // Generic get/set methods for settings not covered by specific methods

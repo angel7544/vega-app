@@ -1,138 +1,214 @@
-import {View, Text, Platform, Image, Dimensions, FlatList} from 'react-native';
-import React from 'react';
+import {View, Text, Platform, FlatList, TextInput, ScrollView} from 'react-native';
+import React, {useState, useMemo} from 'react';
 import {useNavigation} from '@react-navigation/native';
 import {WatchListStackParamList} from '../App';
 import {NativeStackNavigationProp} from '@react-navigation/native-stack';
 import {TouchableOpacity} from 'react-native';
 import useThemeStore from '../lib/zustand/themeStore';
 import useWatchListStore from '../lib/zustand/watchListStore';
-import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import Feather from '@expo/vector-icons/Feather';
 import {StatusBar} from 'expo-status-bar';
 import {useShowNavBarOnScroll} from '../lib/hooks/useShowNavBarOnScroll';
+import useContentStore, {Content} from '../lib/zustand/contentStore';
+import WatchListCard from '../components/WatchListCard';
 
 const WatchList = () => {
   const {primary, mode} = useThemeStore(state => state);
+  const isDark = mode === 'dark';
   const navigation =
     useNavigation<NativeStackNavigationProp<WatchListStackParamList>>();
   const {handleScroll} = useShowNavBarOnScroll();
-  const {watchList} = useWatchListStore(state => state);
+  const {watchList, removeItem} = useWatchListStore(state => state);
+  const {installedProviders, setProvider} = useContentStore((state: Content) => state);
 
-  // Calculate how many items can fit per row
-  const screenWidth = Dimensions.get('window').width;
-  const containerPadding = 12; // from the px-3 class (3*4=12)
-  const itemSpacing = 10;
+  const [searchText, setSearchText] = useState('');
+  const [activeGenre, setActiveGenre] = useState<string | null>(null);
+  const [activeYear, setActiveYear] = useState<string | null>(null);
 
-  // Available width for the grid
-  const availableWidth = screenWidth - containerPadding * 2;
+  // Extract all available genres and years for filters
+  const availableGenres = useMemo(() => {
+    const genres = new Set<string>();
+    watchList.forEach(item => {
+      item.genres?.forEach(g => genres.add(g));
+    });
+    return Array.from(genres).sort();
+  }, [watchList]);
 
-  // Determine number of columns and adjusted item width
-  const numColumns = Math.floor(
-    (availableWidth + itemSpacing) / (100 + itemSpacing),
-  );
+  const availableYears = useMemo(() => {
+    const years = new Set<string>();
+    watchList.forEach(item => {
+      if (item.year) years.add(item.year);
+    });
+    return Array.from(years).sort().reverse();
+  }, [watchList]);
 
-  // Calculate the actual item width to fill the space exactly
-  const itemWidth =
-    (availableWidth - itemSpacing * (numColumns - 1)) / numColumns;
+  // Filter the watchlist based on search text
+  const filteredList = useMemo(() => {
+    return watchList.filter(item => {
+      const matchesSearch = item.title.toLowerCase().includes(searchText.toLowerCase());
+      const matchesGenre = !activeGenre || item.genres?.includes(activeGenre);
+      const matchesYear = !activeYear || item.year === activeYear;
+      return matchesSearch && matchesGenre && matchesYear;
+    }).reverse();
+  }, [watchList, searchText, activeGenre, activeYear]);
 
-  // Render each grid item
-  const renderItem = ({item, index}: {item: any; index: number}) => (
-    <TouchableOpacity
-      key={item.link + index}
-      onPress={() =>
+  const renderItem = ({item}: {item: any}) => (
+    <WatchListCard
+      item={item}
+      onPress={() => {
+        // Remember and sync the provider
+        if (item.provider) {
+          const matchingProvider = installedProviders.find((p: any) => p.value === item.provider);
+          if (matchingProvider) {
+            setProvider(matchingProvider);
+          }
+        }
+
         navigation.navigate('Info', {
           link: item.link,
           provider: item.provider,
           poster: item.poster,
-        })
-      }
-      style={{
-        width: itemWidth,
-        marginBottom: 16,
-      }}>
-      <View className="relative overflow-hidden">
-        <Image
-          className="rounded-xl"
-          resizeMode="cover"
-          style={{
-            width: itemWidth,
-            height: 155,
-            borderRadius: 10,
-          }}
-          source={{uri: item.poster}}
-        />
-        <Text
-          className={`${
-            mode === 'dark' ? 'text-white' : 'text-black'
-          } text-xs truncate text-center mt-1`}
-          style={{maxWidth: itemWidth}}
-          numberOfLines={1}>
-          {item.title}
+        });
+      }}
+      onRemove={() => removeItem(item.link)}
+    />
+  );
+
+  const FilterPill = ({label, isActive, onPress, onClear}: {label: string, isActive: boolean, onPress: () => void, onClear?: () => void}) => (
+    <View className="flex-row items-center mr-2">
+      <TouchableOpacity
+        onPress={onPress}
+        className={`flex-row items-center px-4 py-2 rounded-full border ${
+          isActive 
+            ? `bg-primary/20 border-primary` 
+            : isDark ? 'bg-[#1a1a1a] border-white/10' : 'bg-gray-100 border-gray-200'
+        }`}>
+        <Text className={`text-sm ${isActive ? 'text-primary font-bold' : isDark ? 'text-gray-300' : 'text-gray-700'}`}>
+          {label}
         </Text>
-      </View>
-    </TouchableOpacity>
+        {!isActive && <Feather name="chevron-down" size={14} color={isDark ? '#666' : '#999'} style={{marginLeft: 4}} />}
+      </TouchableOpacity>
+      {isActive && (
+        <TouchableOpacity 
+          onPress={onClear}
+          className="ml-1 w-6 h-6 items-center justify-center bg-primary/10 rounded-full"
+        >
+          <Feather name="x" size={12} color={primary} />
+        </TouchableOpacity>
+      )}
+    </View>
   );
 
   return (
     <View
       className={`flex-1 ${
-        mode === 'dark' ? 'bg-black' : 'bg-white'
-      } justify-center items-center`}>
+        isDark ? 'bg-black' : 'bg-white'
+      }`}>
       <StatusBar translucent backgroundColor="transparent" />
 
+      {/* Header Space for Status Bar */}
       <View
-        className={`w-full ${mode === 'dark' ? 'bg-black' : 'bg-white'}`}
         style={{
-          paddingTop: Platform.OS === 'android' ? 15 : 0, // Adjust for Android status bar height
+          paddingTop: Platform.OS === 'android' ? 40 : 60,
         }}
       />
 
-      <View className="flex-1 w-full px-3">
-        <Text
-          className={`text-2xl text-center font-bold mb-6 mt-4 ${mode === 'dark' ? '' : 'text-black'}`}
-          style={mode === 'dark' ? {color: primary} : {}}>
-          Watchlist
-        </Text>
+      <View className="flex-1 px-4">
+        {/* Title and Count */}
+        <View className="flex-row items-baseline mb-6">
+          <Text
+            className={`text-4xl font-bold ${isDark ? 'text-white' : 'text-black'}`}>
+            Watchlist
+          </Text>
+          <Text className={`text-lg ml-3 ${isDark ? 'text-gray-500' : 'text-gray-400'}`}>
+            {watchList.length} items
+          </Text>
+        </View>
 
-        {watchList.length > 0 ? (
+        {/* Search Bar */}
+        <View
+          className={`flex-row items-center px-4 py-3 rounded-2xl mb-6 ${
+            isDark ? 'bg-[#121212]' : 'bg-gray-100'
+          }`}>
+          <Feather name="search" size={20} color="#666" />
+          <TextInput
+            className={`flex-1 ml-3 text-base ${isDark ? 'text-white' : 'text-black'}`}
+            placeholder="Search for movies"
+            placeholderTextColor="#666"
+            value={searchText}
+            onChangeText={setSearchText}
+          />
+        </View>
+
+        {/* Filters */}
+        <View className="mb-8">
+          <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+            <FilterPill 
+              label={activeGenre || "Genre"} 
+              isActive={!!activeGenre}
+              onPress={() => {
+                // Simple cycle through genres for now (could be a modal in future)
+                const nextIdx = (availableGenres.indexOf(activeGenre || '') + 1) % availableGenres.length;
+                setActiveGenre(availableGenres[nextIdx]);
+              }}
+              onClear={() => setActiveGenre(null)}
+            />
+            <FilterPill 
+              label={activeYear || "Year"} 
+              isActive={!!activeYear}
+              onPress={() => {
+                const nextIdx = (availableYears.indexOf(activeYear || '') + 1) % availableYears.length;
+                setActiveYear(availableYears[nextIdx]);
+              }}
+              onClear={() => setActiveYear(null)}
+            />
+            {(activeGenre || activeYear || searchText) && (
+              <TouchableOpacity 
+                onPress={() => {
+                   setActiveGenre(null);
+                   setActiveYear(null);
+                   setSearchText('');
+                }}
+                className="px-4 py-2"
+              >
+                <Text className="text-primary text-sm font-bold">Clear All</Text>
+              </TouchableOpacity>
+            )}
+          </ScrollView>
+        </View>
+
+        {filteredList.length > 0 ? (
           <FlatList
-            data={watchList}
+            data={filteredList}
             renderItem={renderItem}
             keyExtractor={(item, index) => item.link + index}
-            numColumns={numColumns}
-            columnWrapperStyle={{
-              gap: itemSpacing,
-              justifyContent: 'flex-start',
-            }}
             contentContainerStyle={{
-              paddingBottom: 50,
+              paddingBottom: 100,
             }}
             onScroll={handleScroll}
             scrollEventThrottle={16}
             showsVerticalScrollIndicator={false}
           />
         ) : (
-          <View className="flex-1">
-            <View className="items-center justify-center mt-20 mb-12">
-              <View
-                className={`${
-                  mode === 'dark' ? 'bg-white/5' : 'bg-gray-100'
-                } rounded-full p-8 mb-6`}>
-                <Feather name="film" size={60} color={primary} />
-              </View>
-              <Text
-                className={`${
-                  mode === 'dark' ? 'text-white' : 'text-black'
-                } font-bold text-lg text-center`}>
-                Your WatchList is empty
-              </Text>
-              <Text
-                className={`${
-                  mode === 'dark' ? 'text-gray-400' : 'text-gray-500'
-                } text-sm text-center mt-2`}>
-                Items you save for later will appear here
-              </Text>
+          <View className="flex-1 items-center justify-center -mt-20">
+            <View
+              className={`${
+                isDark ? 'bg-white/5' : 'bg-gray-100'
+              } rounded-full p-8 mb-6`}>
+              <Feather name="film" size={60} color={primary} />
             </View>
+            <Text
+              className={`${
+                isDark ? 'text-white' : 'text-black'
+              } font-bold text-lg text-center`}>
+              {searchText ? 'No results found' : 'Your WatchList is empty'}
+            </Text>
+            <Text
+              className={`${
+                isDark ? 'text-gray-400' : 'text-gray-500'
+              } text-sm text-center mt-2`}>
+              {searchText ? 'Try reaching for something else' : 'Items you save for later will appear here'}
+            </Text>
           </View>
         )}
       </View>
@@ -141,3 +217,4 @@ const WatchList = () => {
 };
 
 export default WatchList;
+

@@ -12,6 +12,7 @@ import useWatchHistoryStore from '../lib/zustand/watchHistrory';
 import {mainStorage as MMKV} from '../lib/storage/StorageService';
 import {useNavigation} from '@react-navigation/native';
 import useThemeStore from '../lib/zustand/themeStore';
+import useContentStore, {Content} from '../lib/zustand/contentStore';
 import {NativeStackNavigationProp} from '@react-navigation/native-stack';
 import {TabStackParamList} from '../App';
 import AntDesign from '@expo/vector-icons/AntDesign';
@@ -20,10 +21,13 @@ import {MaterialCommunityIcons} from '@expo/vector-icons';
 import LinearGradient from 'react-native-linear-gradient';
 
 const ContinueWatching = () => {
-  const {primary, mode} = useThemeStore(state => state);
+  const themeState = useThemeStore();
+  const primary = themeState?.primary || '#E50914';
+  const mode = themeState?.mode || 'dark';
   const navigation =
     useNavigation<NativeStackNavigationProp<TabStackParamList>>();
   const {history, removeItem} = useWatchHistoryStore(state => state);
+  const {installedProviders, setProvider} = useContentStore((state: Content) => state);
   const {width: windowWidth} = useWindowDimensions();
   const isTablet = windowWidth > 768;
   const itemWidth = isTablet ? 150 : 100;
@@ -88,6 +92,14 @@ const ContinueWatching = () => {
 
   const handleNavigateToInfo = (item: any) => {
     try {
+      // Remember and sync the provider
+      if (item.provider) {
+        const matchingProvider = installedProviders.find((p: any) => p.value === item.provider);
+        if (matchingProvider) {
+          setProvider(matchingProvider);
+        }
+      }
+
       // Parse the link if it's a JSON string
       let linkData = item.link;
       if (typeof item.link === 'string' && item.link.startsWith('{')) {
@@ -97,7 +109,7 @@ const ContinueWatching = () => {
           console.error('Failed to parse link:', e);
         }
       }
-      console.log('linkData', item.poster);
+      
       // Navigate to Info screen
       navigation.navigate('HomeStack', {
         screen: 'Info',
@@ -214,7 +226,7 @@ const ContinueWatching = () => {
           return (
             <TouchableOpacity
               activeOpacity={0.8}
-              className="mr-6"
+              className="mr-5"
               style={{width: itemWidth}}
               onLongPress={e => {
                 e.stopPropagation();
@@ -224,36 +236,48 @@ const ContinueWatching = () => {
                 e.stopPropagation();
                 handlePress(item);
               }}>
-              <View className="relative shadow-2xl overflow-hidden rounded-2xl" style={{ backgroundColor: '#1a1a1a' }}>
+              <View className="relative shadow-2xl overflow-hidden rounded-2xl" 
+                style={{ 
+                  width: itemWidth, 
+                  height: itemHeight,
+                  backgroundColor: mode === 'dark' ? '#111' : '#f0f0f0' 
+                }}>
                 <Image
                   source={{uri: item?.poster}}
                   className="w-full h-full"
-                  style={{width: itemWidth, height: itemHeight, resizeMode: 'cover'}}
+                  style={{resizeMode: 'cover'}}
                 />
 
                 {/* Progress Overlay Gradient */}
                 <LinearGradient
-                  colors={['transparent', 'rgba(0,0,0,0.5)', 'rgba(0,0,0,0.8)']}
-                  className="absolute bottom-0 left-0 right-0 h-1/3 justify-end"
+                  colors={['transparent', 'rgba(0,0,0,0.4)', 'rgba(0,0,0,0.85)']}
+                  className="absolute bottom-0 left-0 right-0 h-1/2 justify-end"
                 >
-                  {/* Progress Bar Container */}
-                  <View className="h-1.5 bg-white/20 w-full overflow-hidden">
-                    <View
-                      style={{
-                        height: '100%',
-                        width: `${progress}%`,
-                        backgroundColor: primary,
-                        shadowColor: primary,
-                        shadowOffset: { width: 0, height: 0 },
-                        shadowOpacity: 0.8,
-                        shadowRadius: 4,
-                        elevation: 5,
-                      }}
-                    />
+                  <View className="p-2">
+                    <Text
+                      className="text-white font-bold text-[9px] mb-2 px-0.5"
+                      numberOfLines={1}
+                    >
+                      {item.title}
+                    </Text>
+                    
+                    {/* Minimalist Progress Bar */}
+                    <View className="h-1 bg-white/20 w-full rounded-full overflow-hidden">
+                      <View
+                        style={{
+                          height: '100%',
+                          width: `${progress}%`,
+                          backgroundColor: primary,
+                          shadowColor: primary,
+                          shadowRadius: 3,
+                          elevation: 3,
+                        }}
+                      />
+                    </View>
                   </View>
                 </LinearGradient>
 
-                {/* Selection Indicators (remain the same) */}
+                {/* Selection Indicators */}
                 {selectionMode && (
                   <View className="absolute top-2 right-2 z-50">
                     <View
@@ -267,13 +291,6 @@ const ContinueWatching = () => {
                 )}
                 {isSelected && <View className="absolute inset-0 bg-black/40" />}
               </View>
-              
-              <Text
-                className="mt-2 text-white font-medium text-[10px] text-center px-1"
-                numberOfLines={2}
-              >
-                {item.title}
-              </Text>
             </TouchableOpacity>
           );
         }}

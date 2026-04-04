@@ -53,6 +53,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
   const {
     info,
     meta,
+    tmdb,
     isLoading: infoLoading,
     error,
     refetch,
@@ -163,6 +164,10 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
       poster: posterImage,
       link: route.params.link,
       provider: route.params.provider || provider.value,
+      genres: tmdb?.genres?.map((g: any) => g.name),
+      year: (tmdb as any)?.release_date?.split('-')[0] || (tmdb as any)?.first_air_date?.split('-')[0] || meta?.year || info?.year,
+      runtime: (tmdb as any)?.runtime || (tmdb as any)?.episode_run_time?.[0],
+      type: info?.type || meta?.type as any,
     });
     setInLibrary(true);
   }, [displayTitle, posterImage, route.params.link, route.params.provider, provider.value, addItem]);
@@ -433,14 +438,17 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                 )}
                 
                 <View className="flex-row items-center mt-4 space-x-3">
-                  {(meta?.imdbRating || info?.rating) && (
-                    <View className="flex-row items-center bg-yellow-400/10 px-2 py-1 rounded-md border border-yellow-400/20">
+                  {(meta?.imdbRating || info?.rating || tmdb?.vote_average) && (
+                    <View className="flex-row items-center bg-yellow-400/10 px-2.5 py-1 rounded-lg border border-yellow-400/20">
                       <Ionicons name="star" size={14} color="#FFD700" />
-                      <Text className="text-yellow-400 ml-1.5 font-black text-sm">{meta?.imdbRating || info?.rating}</Text>
+                      <Text className="text-yellow-400 ml-1.5 font-black text-sm">{tmdb?.vote_average ? tmdb.vote_average.toFixed(1) : (meta?.imdbRating || info?.rating)}</Text>
+                      {tmdb?.vote_count && (
+                        <Text className="text-yellow-400/50 ml-1 text-[10px] font-bold">({tmdb.vote_count})</Text>
+                      )}
                     </View>
                   )}
-                  {(meta?.year || info?.year) && (
-                    <Text className={`${textSub} font-black text-sm`}>{meta?.year || info?.year}</Text>
+                  {(meta?.year || info?.year || (tmdb as any)?.release_date?.split('-')[0] || (tmdb as any)?.first_air_date?.split('-')[0]) && (
+                    <Text className={`${textSub} font-black text-sm`}>{(meta?.year || info?.year || (tmdb as any)?.release_date?.split('-')[0] || (tmdb as any)?.first_air_date?.split('-')[0])}</Text>
                   )}
                   <Text className={`${textSub} font-black text-[10px] uppercase tracking-widest`}>{route.params.provider || provider.value}</Text>
                 </View>
@@ -545,6 +553,21 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                     <Text className="text-white/40 text-[9px] font-black uppercase tracking-widest mt-1 mb-3">
                         {route.params.provider || provider.value}
                     </Text>
+
+                    <View className="flex-row items-center mb-4 space-x-3">
+                      {(meta?.imdbRating || info?.rating || tmdb?.vote_average) && (
+                        <View className="flex-row items-center bg-yellow-400/20 px-2 py-0.5 rounded-md border border-yellow-400/30">
+                          <Ionicons name="star" size={10} color="#FFD700" />
+                          <Text className="text-yellow-400 ml-1 font-black text-[11px]">{tmdb?.vote_average ? tmdb.vote_average.toFixed(1) : (meta?.imdbRating || info?.rating)}</Text>
+                          {tmdb?.vote_count && (
+                             <Text className="text-yellow-400/50 ml-1 text-[8px] font-bold">({tmdb.vote_count})</Text>
+                          )}
+                        </View>
+                      )}
+                       {(meta?.year || info?.year || (tmdb as any)?.release_date?.split('-')[0] || (tmdb as any)?.first_air_date?.split('-')[0]) && (
+                        <Text className="text-white/60 font-black text-[11px] uppercase tracking-widest">{(meta?.year || info?.year || (tmdb as any)?.release_date?.split('-')[0] || (tmdb as any)?.first_air_date?.split('-')[0])}</Text>
+                      )}
+                    </View>
 
                     {/* Metadata Badges in Portrait Overlay */}
                     <MetadataRow items={[...metadata.quality, ...metadata.technical]} type="technical" className="mb-3" />
@@ -675,6 +698,12 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                     routeParams={route.params}
                     onNextUpFound={setNextUpEpisode}
                 />
+              </View>
+              {/* TMDb Attribution */}
+              <View className="mt-12 mb-6 items-center opacity-40">
+                <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[10px] text-center font-medium`}>
+                  This product uses the TMDb API but is not endorsed or certified by TMDb.
+                </Text>
               </View>
             </View>
           }
