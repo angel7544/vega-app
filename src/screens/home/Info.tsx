@@ -441,11 +441,11 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                         seasonListRef.current?.toggleSort();
                         setIsDescending(seasonListRef.current?.getSortOrder() === 'desc');
                     }}
-                    className={`w-[54px] h-[54px] ${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} rounded-2xl ml-3 items-center justify-center border border-white/10`}
+                    className={`w-[48px] h-[48px] ${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} rounded-2xl ml-3 items-center justify-center border border-white/10`}
                   >
                     <MaterialCommunityIcons 
                       name={isDescending ? "sort-descending" : "sort-ascending"} 
-                      size={24} 
+                      size={18} 
                       color={mode === 'dark' ? 'white' : 'black'} 
                     />
                   </TouchableOpacity>
