@@ -12,6 +12,7 @@ import {FlashList} from '@shopify/flash-list';
 import {NativeStackScreenProps} from '@react-navigation/native-stack';
 import {WatchHistoryStackParamList} from '../App';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
+import Feather from '@expo/vector-icons/Feather';
 import useThemeStore from '../lib/zustand/themeStore';
 import {mainStorage} from '../lib/storage';
 
@@ -116,6 +117,28 @@ const WatchHistory = ({navigation}: Props) => {
     loadProgressData();
   }, [uniqueHistory]);
 
+  const handlePlayDirectly = (item: any) => {
+    // If we have cached player params, go straight to Player
+    if (item.cachedInfoData && item.cachedInfoData.episodeList) {
+      try {
+        navigation.navigate('Player' as any, {
+          ...item.cachedInfoData,
+          // Update the specific fields from the history item to ensure they are current
+          linkIndex: item.cachedInfoData.linkIndex,
+          primaryTitle: item.title,
+          secondaryTitle: item.episodeTitle,
+          providerValue: item.provider,
+        });
+        return;
+      } catch (e) {
+        console.error('Failed to navigate directly to Player:', e);
+      }
+    }
+
+    // Fallback to Info screen
+    handleNavigateToInfo(item);
+  };
+
   const handleNavigateToInfo = (item: any) => {
     try {
       // Parse the link if it's a JSON string
@@ -129,7 +152,7 @@ const WatchHistory = ({navigation}: Props) => {
       }
 
       // Simple direct navigation to Info screen
-      navigation.navigate('Info', {
+      navigation.navigate('Info' as any, {
         link: linkData,
         provider: item.provider || 'multiStream',
         poster: item.image || '',
@@ -137,6 +160,32 @@ const WatchHistory = ({navigation}: Props) => {
     } catch (error) {
       console.error('Navigation error:', error);
     }
+  };
+
+  const formatTimeRemaining = (current?: number, total?: number) => {
+    if (!current || !total || total <= 0) return null;
+    const remainingSeconds = total - current;
+    if (remainingSeconds <= 0) return 'Finished';
+    
+    const minutes = Math.floor(remainingSeconds / 60);
+    if (minutes < 1) return 'Less than a min left';
+    if (minutes < 60) return `${minutes} min remaining`;
+    
+    const hours = Math.floor(minutes / 60);
+    const remainingMins = minutes % 60;
+    return `${hours}h ${remainingMins}m remaining`;
+  };
+
+  const extractEpisodeInfo = (title?: string) => {
+    if (!title) return null;
+    // Look for S01 E05, Season 1 Episode 5, or just Episode 5
+    const match = title.match(/(?:S|Season\s*)(\d+)?.*(?:E|Episode\s*|EP\s*)(\d+)/i);
+    if (match) {
+      const s = match[1] ? `S${match[1].padStart(2, '0')}` : '';
+      const e = match[2] ? `E${match[2].padStart(2, '0')}` : '';
+      return s ? `${s} ${e}` : e;
+    }
+    return null;
   };
 
   return (
@@ -147,186 +196,144 @@ const WatchHistory = ({navigation}: Props) => {
         barStyle={mode === 'dark' ? 'light-content' : 'dark-content'}
       />
 
+      {/* Header Space for Status Bar */}
       <View
-        className={`w-full ${mode === 'dark' ? 'bg-black' : 'bg-white'}`}
         style={{
-          paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0,
+          paddingTop: Platform.OS === 'android' ? 40 : 60,
         }}
       />
 
-      <View className="flex-row justify-between items-center p-4">
-        <Text
-          className={`${
-            mode === 'dark' ? 'text-white' : 'text-black'
-          } text-2xl font-bold`}>
-          Watch History
-        </Text>
-        {uniqueHistory.length > 0 && (
-          <TouchableOpacity
-            onPress={() => clearHistory()}
-            className={`${
-              mode === 'dark' ? 'bg-white/10' : 'bg-gray-200'
-            } px-3 py-1 rounded-full`}>
-            <Text className={mode === 'dark' ? 'text-white' : 'text-black'}>
-              Clear
+      <View className="flex-1 px-4">
+        {/* Title and Action */}
+        <View className="flex-row justify-between items-end mb-8">
+          <View className="flex-row items-baseline">
+            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-4xl font-bold`}>
+              History
             </Text>
-          </TouchableOpacity>
-        )}
-      </View>
-
-      <FlashList
-        data={uniqueHistory}
-        estimatedItemSize={150}
-        numColumns={3}
-        ListEmptyComponent={() => (
-          <View className="flex-1 justify-center items-center mt-10">
-            <MaterialCommunityIcons name="history" size={80} color={primary} />
-            <Text
-              className={`${
-                mode === 'dark' ? 'text-white/70' : 'text-black/70'
-              } text-base mt-4`}>
-              No watch history
-            </Text>
+            {uniqueHistory.length > 0 && (
+              <Text className={`text-lg ml-3 ${mode === 'dark' ? 'text-gray-500' : 'text-gray-400'}`}>
+                {uniqueHistory.length} items
+              </Text>
+            )}
           </View>
-        )}
-        renderItem={({item}) => {
-          // Get the progress for this item
-          const progress = progressData[item.link] || 0;
+          
+          {uniqueHistory.length > 0 && (
+            <TouchableOpacity
+              onPress={() => clearHistory()}
+              className={`${mode === 'dark' ? 'bg-white/5' : 'bg-gray-100'} px-4 py-2 rounded-full border ${mode === 'dark' ? 'border-white/10' : 'border-gray-200'}`}>
+              <Text className={`${mode === 'dark' ? 'text-gray-300' : 'text-gray-700'} text-xs font-bold uppercase tracking-widest`}>
+                Clear All
+              </Text>
+            </TouchableOpacity>
+          )}
+        </View>
 
-          return (
-            <View className="flex-1 m-1">
+        <FlashList
+          data={uniqueHistory}
+          estimatedItemSize={120}
+          numColumns={1}
+          contentContainerStyle={{ paddingBottom: 100 }}
+          ListEmptyComponent={() => (
+            <View className="flex-1 justify-center items-center mt-20">
+              <View className={`${mode === 'dark' ? 'bg-white/5' : 'bg-gray-100'} rounded-full p-8 mb-6`}>
+                <MaterialCommunityIcons name="history" size={60} color={primary} />
+              </View>
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-bold text-lg text-center`}>
+                History is empty
+              </Text>
+              <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-sm text-center mt-2 px-10`}>
+                Movies and shows you watch will appear here with your progress
+              </Text>
+            </View>
+          )}
+          renderItem={({item}) => {
+            const progress = progressData[item.link] || 0;
+            const isCompleted = progress >= 95; 
+            const remainingTime = formatTimeRemaining(item.currentTime, item.duration);
+            const epCode = extractEpisodeInfo(item.episodeTitle);
+
+            return (
               <TouchableOpacity
-                onPress={() => handleNavigateToInfo(item)}
-                activeOpacity={0.8}>
-                <View className="relative overflow-hidden">
+                onPress={() => handlePlayDirectly(item)}
+                activeOpacity={0.8}
+                className={`flex-row p-3 mb-4 rounded-3xl ${
+                  mode === 'dark' ? 'bg-[#121212]' : 'bg-gray-50'
+                } border ${mode === 'dark' ? 'border-white/5' : 'border-gray-200'}`}>
+                
+                {/* Thumbnail */}
+                <View 
+                  className="rounded-2xl overflow-hidden shadow-lg relative"
+                  style={{ width: 90, height: 135, backgroundColor: mode === 'dark' ? '#1a1a1a' : '#f0f0f0' }}>
                   <Image
                     source={{uri: item.image}}
-                    className="w-full aspect-[2/3] rounded-lg"
+                    className="w-full h-full"
+                    style={{ resizeMode: 'cover' }}
                   />
-
-                  {/* Enhanced Progress Bar */}
-                  <View
-                    className="absolute bottom-0 left-0 right-0 h-2"
-                    style={{
-                      backgroundColor: 'rgba(0,0,0,0.6)',
-                      zIndex: 10,
-                    }}>
-                    {/* Progress bar fill with gradient effect */}
-                    <View
-                      style={{
-                        position: 'absolute',
-                        left: 0,
-                        top: 0,
-                        height: '100%',
-                        width: `${progress}%`,
-                        backgroundColor: primary,
-                        zIndex: 20,
-                        shadowColor: primary,
-                        shadowOffset: {width: 0, height: 0},
-                        shadowOpacity: 0.5,
-                        shadowRadius: 3,
-                        elevation: 5,
-                      }}
-                    />
-                  </View>
-
-                  {/* Overlay gradient for better text readability */}
-                  {progress > 0 && (
-                    <View
-                      className="absolute bottom-0 left-0 right-0 h-16"
-                      style={{
-                        backgroundColor: 'rgba(0,0,0,0.8)',
-                        zIndex: 10,
-                      }}
-                    />
-                  )}
-                  {/* IMPROVED percentage indicator with more visible fill */}
-                  {progress > 0 && progress < 100 && (
-                    <View
-                      className="absolute bottom-3 right-2"
-                      style={{
-                        zIndex: 15,
-                      }}>
-                      {/* Container with fixed width for consistent size */}
-                      <View
-                        style={{
-                          width: 45, // Fixed width for consistent sizing
-                          height: 18, // Fixed height
-                          backgroundColor: 'rgba(0,0,0,0.7)',
-                          borderRadius: 9,
-                          overflow: 'hidden',
-                          borderLeftWidth: 2,
-                          borderLeftColor: primary,
-                          flexDirection: 'row', // For horizontal layout
-                          alignItems: 'center', // Center text vertically
-                        }}>
-                        {/* More visible fill with primary color */}
-                        <View
-                          style={{
-                            position: 'absolute',
-                            left: 0,
-                            top: 0,
-                            bottom: 0,
-                            width: `${progress}%`,
-                            backgroundColor: `${primary}CC`, // More opaque primary color (80%)
-                          }}
-                        />
-
-                        {/* Percentage text always centered */}
-                        <Text
-                          className="text-white text-[10px] font-medium w-full text-center"
-                          style={{
-                            textShadowColor: 'rgba(0,0,0,0.9)',
-                            textShadowRadius: 3,
-                            textShadowOffset: {width: 0, height: 0},
-                            zIndex: 20, // Ensure text is on top
-                          }}>
-                          {Math.round(progress)}%
-                        </Text>
-                      </View>
-                    </View>
-                  )}
-
-                  {/* Checkmark overlay when progress is 100% */}
-                  {progress >= 100 && (
-                    <View
-                      className="absolute top-2 right-2 p-1 rounded-full"
-                      style={{
-                        backgroundColor: 'rgba(0,0,0,0.6)',
-                        borderWidth: 1.5,
-                        borderColor: primary,
-                        zIndex: 15,
-                      }}>
-                      <MaterialCommunityIcons
-                        name="check-circle"
-                        size={18}
-                        color={primary}
-                      />
+                  
+                  {/* Completion Badge */}
+                  {isCompleted && (
+                    <View className="absolute top-2 right-2 bg-primary p-1 rounded-full shadow-md">
+                      <MaterialCommunityIcons name="check" size={10} color="white" />
                     </View>
                   )}
                 </View>
 
-                <Text
-                  numberOfLines={2}
-                  className={`${
-                    mode === 'dark' ? 'text-white' : 'text-black'
-                  } text-sm mt-1`}>
-                  {item.title}
-                </Text>
-                {item.episodeTitle && (
-                  <Text
-                    numberOfLines={1}
-                    className={`${
-                      mode === 'dark' ? 'text-white/60' : 'text-black/60'
-                    } text-xs`}>
-                    {item.episodeTitle}
-                  </Text>
-                )}
+                {/* Details */}
+                <View className="flex-1 ml-4 justify-between py-1">
+                  <View>
+                    <Text className={`text-[10px] ${mode === 'dark' ? 'text-gray-500' : 'text-gray-400'} font-black uppercase tracking-widest`}>
+                      {item.provider || 'Provider'}
+                    </Text>
+                    <Text
+                      className={`text-lg font-bold ${mode === 'dark' ? 'text-white' : 'text-black'} mt-1`}
+                      numberOfLines={1}>
+                      {item.title}
+                    </Text>
+                    {(epCode || item.episodeTitle) && (
+                      <View className="flex-row items-center mt-0.5">
+                        {epCode && (
+                          <View className="bg-primary/20 px-1.5 py-0.5 rounded mr-2">
+                            <Text className="text-primary text-[10px] font-black">{epCode}</Text>
+                          </View>
+                        )}
+                        <Text 
+                          className={`flex-1 text-sm ${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'}`}
+                          numberOfLines={1}>
+                          {item.episodeTitle}
+                        </Text>
+                      </View>
+                    )}
+                  </View>
+
+                  {/* Progress Section */}
+                  <View className="mt-auto">
+                    <View className="flex-row justify-between items-end mb-2">
+                       <View className="flex-row items-center">
+                         <Feather name="play-circle" size={12} color={isCompleted ? primary : (mode === 'dark' ? '#666' : '#999')} />
+                         <Text className={`text-[10px] font-black ml-1.5 uppercase tracking-tighter ${isCompleted ? 'text-primary' : (mode === 'dark' ? 'text-gray-500' : 'text-gray-400')}`}>
+                            {isCompleted ? 'Finished' : `${Math.round(progress)}% • ${remainingTime || 'Watched'}`}
+                         </Text>
+                       </View>
+                    </View>
+                    
+                    {/* Progress Bar Container */}
+                    <View className={`h-1.5 w-full rounded-full overflow-hidden ${mode === 'dark' ? 'bg-white/5' : 'bg-gray-200'}`}>
+                      <View 
+                        style={{ 
+                          width: `${progress}%`, 
+                          height: '100%', 
+                          backgroundColor: primary,
+                          borderRadius: 10
+                        }} 
+                      />
+                    </View>
+                  </View>
+                </View>
               </TouchableOpacity>
-            </View>
-          );
-        }}
-      />
+            );
+          }}
+        />
+      </View>
     </View>
   );
 };

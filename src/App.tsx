@@ -160,6 +160,7 @@ export type SettingsStackParamList = {
 export type TabStackParamList = {
   HomeStack: undefined;
   SearchStack: undefined;
+  WatchHistoryStack: undefined;
   WatchListStack: undefined;
   SettingsStack: undefined;
 };
@@ -259,10 +260,6 @@ function SettingsStackScreen() {
       <SettingsStack.Screen name="Preferences" component={Preferences} />
       <SettingsStack.Screen name="Downloads" component={Downloads} />
       <SettingsStack.Screen name="Extensions" component={Extensions} />
-      <SettingsStack.Screen
-        name="WatchHistoryStack"
-        component={WatchHistoryStackScreen}
-      />
       <SettingsStack.Screen
         name="SubTitlesPreferences"
         component={SubtitlePreference}
@@ -371,6 +368,21 @@ function TabStack() {
                 transform: [{scale: focused ? 1.1 : 1}],
               }}>
               <Feather name="search" color={color} size={size} />
+            </Animated.View>
+          ),
+        }}
+      />
+      <Tab.Screen
+        name="WatchHistoryStack"
+        component={WatchHistoryStackScreen}
+        options={{
+          title: 'History',
+          tabBarIcon: ({focused, color, size}) => (
+            <Animated.View
+              style={{
+                transform: [{scale: focused ? 1.1 : 1}],
+              }}>
+              <Feather name="clock" color={color} size={size} />
             </Animated.View>
           ),
         }}

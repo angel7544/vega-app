@@ -377,7 +377,7 @@ const Player = ({route}: Props): React.JSX.Element => {
       });
 
       updateItemWithInfo(
-        route.params.episodeList[route.params.linkIndex].link,
+        currentEpisode.link,
         {
           ...route.params,
           cachedAt: Date.now(),

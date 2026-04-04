@@ -235,7 +235,7 @@ export class SettingsStorage {
 
   // TMDb settings
   getTmdbApiKey(): string {
-    return mainStorage.getString(SettingsKeys.TMDB_API_KEY) || 'b6b5360b74835b376549978abf243916';
+    return mainStorage.getString(SettingsKeys.TMDB_API_KEY) || process.env.EXPO_PUBLIC_TMDB_API_KEY || '';
   }
 
   setTmdbApiKey(key: string): void {
@@ -243,7 +243,7 @@ export class SettingsStorage {
   }
 
   getTmdbReadToken(): string {
-    return mainStorage.getString(SettingsKeys.TMDB_READ_TOKEN) || '';
+    return mainStorage.getString(SettingsKeys.TMDB_READ_TOKEN) || process.env.EXPO_PUBLIC_TMDB_READ_TOKEN || '';
   }
 
   setTmdbReadToken(token: string): void {
