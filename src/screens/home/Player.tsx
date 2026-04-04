@@ -386,7 +386,7 @@ const Player = ({route}: Props): React.JSX.Element => {
     }
   }, [
     route.params?.primaryTitle,
-    activeEpisode.link,
+    activeEpisode?.link,
     addItem,
     updateItemWithInfo,
     route.params,

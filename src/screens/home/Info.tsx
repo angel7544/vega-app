@@ -340,9 +340,11 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                     <Text className="text-white font-black text-[11px] uppercase tracking-[1px]">
                         {nextUpEpisode ? (nextUpEpisode.progress > 0 ? 'Continue' : 'Watch Now') : (info ? 'Watch Again' : 'Watch Now')}
                     </Text>
-                    <Text className="text-white/60 text-[8px] font-bold uppercase tracking-[0.5px] mt-0.5" numberOfLines={1}>
-                        {sanitizeName(nextUpEpisode.title)}
-                    </Text>
+                    {nextUpEpisode && (
+                        <Text className="text-white/60 text-[8px] font-bold uppercase tracking-[0.5px] mt-0.5" numberOfLines={1}>
+                            {sanitizeName(nextUpEpisode.title)}
+                        </Text>
+                    )}
                 </View>
               </TouchableOpacity>
               
@@ -434,6 +436,20 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                 onChangeText={(text: string) => seasonListRef.current?.setSearch(text)}
             />
           </View>
+         <TouchableOpacity 
+                    onPress={() => {
+                        seasonListRef.current?.toggleSort();
+                        setIsDescending(seasonListRef.current?.getSortOrder() === 'desc');
+                    }}
+                    className={`w-[54px] h-[54px] ${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} rounded-2xl ml-3 items-center justify-center border border-white/10`}
+                  >
+                    <MaterialCommunityIcons 
+                      name={isDescending ? "sort-descending" : "sort-ascending"} 
+                      size={24} 
+                      color={mode === 'dark' ? 'white' : 'black'} 
+                    />
+                  </TouchableOpacity>
+
       </View>
 
         <FlatList
@@ -526,19 +542,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                     />
                   </View>
 
-                  <TouchableOpacity 
-                    onPress={() => {
-                        seasonListRef.current?.toggleSort();
-                        setIsDescending(seasonListRef.current?.getSortOrder() === 'desc');
-                    }}
-                    className={`w-[54px] h-[54px] ${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} rounded-2xl ml-3 items-center justify-center border border-white/10`}
-                  >
-                    <MaterialCommunityIcons 
-                      name={isDescending ? "sort-descending" : "sort-ascending"} 
-                      size={24} 
-                      color={mode === 'dark' ? 'white' : 'black'} 
-                    />
-                  </TouchableOpacity>
+               
                 </View>
               )}
 
