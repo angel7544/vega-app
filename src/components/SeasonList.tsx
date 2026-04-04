@@ -360,6 +360,26 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
     }
   }, [fetchStreams, providerValue, show]);
 
+  const handleDownload = useCallback(async (link: string, title: string, downloadType: string, fileName: string) => {
+    setDownloadError(null);
+    setDownloadServers([]);
+    setDownloadData({ title, link, type: downloadType, fileName });
+    setDownloadModal(true);
+    setDownloadLoading(true);
+    try {
+      const streams = await fetchStreams(link, downloadType, providerValue);
+      if (!streams || streams.length === 0) {
+        setDownloadError('No download links available');
+        return;
+      }
+      setDownloadServers(streams);
+    } catch (err: any) {
+      setDownloadError(err?.message || 'Failed to fetch download links');
+    } finally {
+      setDownloadLoading(false);
+    }
+  }, [fetchStreams, providerValue]);
+
   const openExternalPlayer = useCallback(async (streamUrl: string) => {
     setShowServerModal(false);
     setVlcLoading(true);
@@ -467,16 +487,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
             </TouchableOpacity>
 
             <TouchableOpacity 
-              onPress={() => {
-                setDownloadData({ title: metaTitle + ' ' + item.title, link: item.link, type: 'series', fileName });
-                setDownloadServers([]);
-                setDownloadModal(true);
-                setDownloadLoading(true);
-                fetchStreams(item.link, 'series', providerValue)
-                  .then(setDownloadServers)
-                  .catch(err => setDownloadError(err.message))
-                  .finally(() => setDownloadLoading(false));
-              }}
+              onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, 'series', fileName)}
               className={`flex-row items-center px-3 py-1.5 rounded-full border ${mode==='dark'?'bg-white/5 border-white/10':'bg-black/5 border-black/10'}`}
             >
               <Feather name="download" size={14} color={mode === 'dark' ? "rgba(255,255,255,0.5)" : "rgba(0,0,0,0.5)"} />
@@ -539,11 +550,6 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
       <View key={item.link + index} className="mr-8 mb-4" style={{ width: 320 }}>
         {/* Metadata and Title */}
         <View className="mb-3 px-1">
-          <View className="flex-row justify-between items-center mb-1">
-            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[10px] font-black uppercase tracking-[2px]`}>
-              Movie / Clip
-            </Text>
-          </View>
           <Text className={`${mode === 'dark' ? 'text-white/80' : 'text-black/80'} text-[11px] uppercase font-bold mb-3`} numberOfLines={1}>
             {item.title}
           </Text>
@@ -565,16 +571,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
             </TouchableOpacity>
 
             <TouchableOpacity 
-              onPress={() => {
-                setDownloadData({ title: metaTitle + ' ' + item.title, link: item.link, type: 'movie', fileName: (metaTitle + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_') });
-                setDownloadServers([]);
-                setDownloadModal(true);
-                setDownloadLoading(true);
-                fetchStreams(item.link, 'movie', providerValue)
-                  .then(setDownloadServers)
-                  .catch(err => setDownloadError(err.message))
-                  .finally(() => setDownloadLoading(false));
-              }}
+              onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, 'movie', (metaTitle + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_'))}
               className={`flex-row items-center px-3 py-1.5 rounded-full border ${mode==='dark'?'bg-white/5 border-white/10':'bg-black/5 border-black/10'}`}
             >
               <Feather name="download" size={14} color={mode === 'dark' ? "rgba(255,255,255,0.5)" : "rgba(0,0,0,0.5)"} />
