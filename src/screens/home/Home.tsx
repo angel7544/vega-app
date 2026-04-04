@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 import Slider from '../../components/Slider';
 import React, {useCallback, useMemo, useState} from 'react';
-import HeroOptimized from '../../components/Hero';
+import Hero from '../../components/Hero';
 import {mainStorage} from '../../lib/storage';
 import useContentStore from '../../lib/zustand/contentStore';
 import useHeroStore from '../../lib/zustand/herostore';
@@ -32,8 +32,13 @@ import {StatusBar} from 'expo-status-bar';
 type Props = NativeStackScreenProps<HomeStackParamList, 'Home'>;
 
 const Home = ({}: Props) => {
-  const {primary, mode} = useThemeStore(state => state);
-  const {handleScroll: handleNavBarScroll} = useShowNavBarOnScroll();
+  const themeState = useThemeStore();
+  const primary = themeState?.primary || '#E50914';
+  const mode = themeState?.mode || 'dark';
+  
+  const navBarHook = useShowNavBarOnScroll();
+  const handleNavBarScroll = navBarHook?.handleScroll;
+  
   const [backgroundColor, setBackgroundColor] = useState('transparent');
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
@@ -43,8 +48,12 @@ const Home = ({}: Props) => {
     [],
   );
 
-  const {provider, installedProviders} = useContentStore(state => state);
-  const {setHero} = useHeroStore(state => state);
+  const contentState = useContentStore();
+  const provider = contentState?.provider;
+  const installedProviders = contentState?.installedProviders;
+  
+  const heroState = useHeroStore();
+  const setHero = heroState?.setHero;
 
   // React Query for home page data with better error handling
   const {
@@ -71,23 +80,23 @@ const Home = ({}: Props) => {
     setBackgroundColor(newBackgroundColor);
 
     // Auto-hide navbar logic
-    handleNavBarScroll(event);
+    handleNavBarScroll?.(event);
   }, [mode, handleNavBarScroll]);
 
-  // Stable hero post calculation - uses provider value for caching
+  // Stable hero selection
   const heroPost = useMemo(() => {
-    if (!homeData || homeData.length === 0) {
-      return null;
-    }
     return getRandomHeroPost(homeData, provider?.value);
   }, [homeData, provider?.value]);
 
-  // Update hero only when hero post actually changes
+  // Use a ref to track the last hero set to prevent update loops when using whole store state
+  const lastHeroSetRef = React.useRef<string | null>(null);
+
+  // Update hero
   React.useEffect(() => {
     if (heroPost) {
-      setHero(heroPost);
+      setHero?.(heroPost);
     } else {
-      setHero({link: '', image: '', title: ''});
+      setHero?.({link: '', image: '', title: ''});
     }
   }, [heroPost, setHero]);
 
@@ -203,16 +212,18 @@ const Home = ({}: Props) => {
                   onRefresh={handleRefresh}
                 />
               }>
-              <HeroOptimized
+              <Hero
                 isDrawerOpen={isDrawerOpen}
                 onOpenDrawer={() => setIsDrawerOpen(true)}
               />
 
-              <ContinueWatching />
+              <View className="mt-[-40px]">
+                <ContinueWatching />
 
-              <View className="relative z-20 px-2 mt-4">
-                {isLoading ? loadingSliders : contentSliders}
-                {errorComponent}
+                <View className="relative z-20 px-2 mt-2">
+                  {isLoading ? loadingSliders : contentSliders}
+                  {errorComponent}
+                </View>
               </View>
 
               <View className="h-16" />
@@ -224,4 +235,4 @@ const Home = ({}: Props) => {
   );
 };
 
-export default React.memo(Home);
+export default Home;

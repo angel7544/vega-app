@@ -17,41 +17,19 @@ export const useHomePageData = ({
     queryFn: async ({signal}) => {
       // Fetch fresh data - cache is handled by React Query
       const data = await getHomePageData(provider, signal);
+      
+      // Manually cache successful responses
+      if (data && data.length > 0) {
+        cacheStorage.setString(
+          'homeData' + provider.value,
+          JSON.stringify(data),
+        );
+      }
       return data;
     },
     enabled: enabled && !!provider?.value,
     staleTime: 5 * 60 * 1000, // 5 minutes
     gcTime: 30 * 60 * 1000, // 30 minutes
-    retry: (failureCount, error) => {
-      if (error.name === 'AbortError') {
-        return false;
-      }
-      return failureCount < 3;
-    },
-    retryDelay: attemptIndex => Math.min(1000 * 2 ** attemptIndex, 30000),
-    // Add initial data from cache for instant loading
-    initialData: () => {
-      const cache = cacheStorage.getString('homeData' + provider.value);
-      if (cache) {
-        try {
-          return JSON.parse(cache);
-        } catch {
-          return undefined;
-        }
-      }
-      return undefined;
-    },
-    // Cache successful responses
-    meta: {
-      onSuccess: (data: HomePageData[]) => {
-        if (data && data.length > 0) {
-          cacheStorage.setString(
-            'homeData' + provider.value,
-            JSON.stringify(data),
-          );
-        }
-      },
-    },
   });
 };
 
@@ -122,24 +100,22 @@ export const useHeroMetadata = (heroLink: string, providerValue: string) => {
             `https://v3-cinemeta.strem.io/meta/${info.type}/${info.imdbId}.json`,
             {timeout: 5000},
           );
-          return response.data?.meta || info;
+          const metaData = response.data?.meta || info;
+          cacheStorage.setString(heroLink, JSON.stringify(metaData));
+          return metaData;
         } catch {
+          cacheStorage.setString(heroLink, JSON.stringify(info));
           return info; // Fallback to original info if Stremio fails
         }
       }
 
+      cacheStorage.setString(heroLink, JSON.stringify(info));
       return info;
     },
     enabled: !!heroLink && !!providerValue,
     staleTime: 10 * 60 * 1000, // 10 minutes - hero metadata changes less frequently
     gcTime: 60 * 60 * 1000, // 1 hour
     retry: 2,
-    // Cache hero metadata separately
-    meta: {
-      onSuccess: (data: any) => {
-        cacheStorage.setString(heroLink, JSON.stringify(data));
-      },
-    },
     // Use cached data as initial data
     initialData: () => {
       const cached = cacheStorage.getString(heroLink);

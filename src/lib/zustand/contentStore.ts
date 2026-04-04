@@ -31,6 +31,10 @@ const useContentStore = create<Content>()(
         icon: '',
         installedAt: 0,
         lastUpdated: 0,
+        source: {
+          author: '',
+          url: ''
+        }
       },
       installedProviders: extensionStorage
         .getInstalledProviders()

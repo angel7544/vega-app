@@ -17,6 +17,7 @@ import {TabStackParamList} from '../App';
 import AntDesign from '@expo/vector-icons/AntDesign';
 import ReactNativeHapticFeedback from 'react-native-haptic-feedback';
 import {MaterialCommunityIcons} from '@expo/vector-icons';
+import LinearGradient from 'react-native-linear-gradient';
 
 const ContinueWatching = () => {
   const {primary, mode} = useThemeStore(state => state);
@@ -213,7 +214,7 @@ const ContinueWatching = () => {
           return (
             <TouchableOpacity
               activeOpacity={0.8}
-              className="mx-2"
+              className="mr-6"
               style={{width: itemWidth}}
               onLongPress={e => {
                 e.stopPropagation();
@@ -223,58 +224,54 @@ const ContinueWatching = () => {
                 e.stopPropagation();
                 handlePress(item);
               }}>
-              <View className="relative">
-                {/* Poster Image */}
+              <View className="relative shadow-2xl overflow-hidden rounded-2xl" style={{ backgroundColor: '#1a1a1a' }}>
                 <Image
                   source={{uri: item?.poster}}
-                  className="rounded-md"
-                  style={{width: itemWidth, height: itemHeight}}
+                  className="w-full h-full"
+                  style={{width: itemWidth, height: itemHeight, resizeMode: 'cover'}}
                 />
 
-                {/* Selection Indicator */}
+                {/* Progress Overlay Gradient */}
+                <LinearGradient
+                  colors={['transparent', 'rgba(0,0,0,0.5)', 'rgba(0,0,0,0.8)']}
+                  className="absolute bottom-0 left-0 right-0 h-1/3 justify-end"
+                >
+                  {/* Progress Bar Container */}
+                  <View className="h-1.5 bg-white/20 w-full overflow-hidden">
+                    <View
+                      style={{
+                        height: '100%',
+                        width: `${progress}%`,
+                        backgroundColor: primary,
+                        shadowColor: primary,
+                        shadowOffset: { width: 0, height: 0 },
+                        shadowOpacity: 0.8,
+                        shadowRadius: 4,
+                        elevation: 5,
+                      }}
+                    />
+                  </View>
+                </LinearGradient>
+
+                {/* Selection Indicators (remain the same) */}
                 {selectionMode && (
                   <View className="absolute top-2 right-2 z-50">
                     <View
-                      className={`w-5 h-5 rounded-full flex items-center justify-center ${
-                        isSelected ? '' : (mode === 'dark' ? 'bg-white/30' : 'bg-black/30')
+                      className={`w-6 h-6 rounded-full items-center justify-center border-2 ${
+                        isSelected ? 'border-white' : 'border-white/50 bg-black/30'
                       }`}
-                      style={{
-                        borderWidth: 1,
-                        borderColor: mode === 'dark' ? 'white' : 'black',
-                        backgroundColor: isSelected ? primary : undefined,
-                      }}>
-                      {isSelected && (
-                        <AntDesign name="check" size={12} color="white" />
-                      )}
+                      style={{ backgroundColor: isSelected ? primary : undefined }}>
+                      {isSelected && <AntDesign name="check" size={14} color="white" />}
                     </View>
                   </View>
                 )}
-
-                {/* Selection Overlay */}
-                {isSelected && (
-                  <View className="absolute top-0 left-0 right-0 bottom-0 bg-black/30 rounded-lg" />
-                )}
-
-                {/* Progress Bar */}
-                <View
-                  className="absolute bottom-0 left-0 right-0 h-1"
-                  style={{backgroundColor: 'rgba(0,0,0,0.5)'}}>
-                  <View
-                    style={{
-                      position: 'absolute',
-                      left: 0,
-                      top: 0,
-                      height: '100%',
-                      width: `${progress}%`,
-                      backgroundColor: primary,
-                    }}
-                  />
-                </View>
+                {isSelected && <View className="absolute inset-0 bg-black/40" />}
               </View>
+              
               <Text
-                className="text-center truncate text-xs"
-                style={{width: itemWidth, color: primary}}
-                numberOfLines={2}>
+                className="mt-2 text-white font-medium text-[10px] text-center px-1"
+                numberOfLines={2}
+              >
                 {item.title}
               </Text>
             </TouchableOpacity>

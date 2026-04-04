@@ -110,9 +110,7 @@ export class SettingsStorage {
 
   // Update settings
   isAutoCheckUpdateEnabled(): boolean {
-    return mainStorage.getBool(SettingsKeys.AUTO_CHECK_UPDATE) === null
-      ? true
-      : mainStorage.getBool(SettingsKeys.AUTO_CHECK_UPDATE);
+    return mainStorage.getBool(SettingsKeys.AUTO_CHECK_UPDATE, false);
   }
 
   setAutoCheckUpdateEnabled(enabled: boolean): void {

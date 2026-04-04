@@ -7,9 +7,11 @@ import {HomeStackParamList} from '../App';
 import useContentStore from '../lib/zustand/contentStore';
 import {FlashList} from '@shopify/flash-list';
 import SkeletonLoader from './Skeleton';
+import LinearGradient from 'react-native-linear-gradient';
 
 // import useWatchHistoryStore from '../lib/zustand/watchHistrory';
 import useThemeStore from '../lib/zustand/themeStore';
+import {Feather} from '@expo/vector-icons';
 import {extractMetadata} from '../lib/utils';
 
 const Slider = ({
@@ -62,50 +64,49 @@ const Slider = ({
 
   const renderItem = useCallback(
     ({item}: {item: Post}) => (
-      <View className="flex flex-col mx-2">
+      <View className="flex flex-col mr-4">
         <TouchableOpacity
-          onLongPress={e => {
-            e.stopPropagation();
-          }}
-          onPress={e => {
-            e.stopPropagation();
-            handleItemPress(item);
-          }}>
+          activeOpacity={0.8}
+          onPress={() => handleItemPress(item)}
+          className="relative overflow-hidden rounded-2xl shadow-xl"
+          style={{ width: itemWidth, height: itemHeight, backgroundColor: '#1a1a1a' }}
+        >
           <Image
-            className="rounded-md"
             source={{
-              uri:
-                item?.image ||
-                'https://www.br31tech.live/logo.pngtext=OrbixPlay',
+              uri: item?.image || 'https://www.br31tech.live/logo.pngtext=OrbixPlay',
             }}
-            style={{width: itemWidth, height: itemHeight}}
+            className="w-full h-full"
+            style={{ resizeMode: 'cover' }}
           />
-        </TouchableOpacity>
-        <View className="flex-row flex-wrap mt-1" style={{ width: itemWidth }}>
-          {(() => {
-            const meta = extractMetadata(item.title);
-            return [...meta.quality, ...meta.technical].slice(0, 3).map((ext, i) => {
-              let badgeBg = 'bg-primary/80';
-              let textColor = 'text-white';
-              if (ext === 'DOLBY VISION') { badgeBg = 'bg-yellow-500'; textColor = 'text-black'; }
-              if (ext === 'HDR') { badgeBg = 'bg-orange-600'; }
-
-              return (
-                <View key={i} className={`${badgeBg} px-1 rounded mr-1 mb-1 shadow-sm`}>
-                  <Text className={`${textColor} text-[7px] font-black uppercase`}>{ext}</Text>
+          
+          {/* Metadata Overlay */}
+          <View className="absolute top-2 left-2 flex-row flex-wrap">
+            {(() => {
+              const meta = extractMetadata(item.title);
+              return [...meta.quality, ...meta.technical].slice(0, 2).map((ext, i) => (
+                <View key={i} className="bg-black/60 backdrop-blur-md px-1.5 py-0.5 rounded-md mr-1 mb-1 border border-white/10">
+                  <Text className="text-white text-[8px] font-bold uppercase tracking-wider">{ext}</Text>
                 </View>
-              );
-            });
-          })()}
-        </View>
-        <Text className="truncate text-[10px] font-bold" style={{width: itemWidth, color: mode === 'dark' ? 'white' : 'black'}}>
-          {item.title.length > (isTablet ? 35 : 24)
-            ? `${item.title.slice(0, (isTablet ? 35 : 24))}...`
-            : item.title}
-        </Text>
+              ));
+            })()}
+          </View>
+
+          {/* Bottom Gradient for Text */}
+          <LinearGradient
+            colors={['transparent', 'rgba(0,0,0,0.6)', 'rgba(0,0,0,0.9)']}
+            className="absolute bottom-0 left-0 right-0 h-1/2 justify-end p-2"
+          >
+            <Text 
+              className="text-white text-[10px] font-semibold leading-tight" 
+              numberOfLines={2}
+            >
+              {item.title}
+            </Text>
+          </LinearGradient>
+        </TouchableOpacity>
       </View>
     ),
-    [handleItemPress, mode, itemWidth, isTablet, itemHeight],
+    [handleItemPress, itemWidth, itemHeight],
   );
 
   const keyExtractor = useCallback((item: Post) => item.link, []);
@@ -114,14 +115,19 @@ const Slider = ({
     <Pressable onPress={() => setSelected('')} className="gap-3 mt-3 px-2">
       <View className="flex flex-row items-center justify-between">
         <Text
-          className={`text-2xl font-semibold flex-1 ${mode === 'dark' ? '' : 'text-black'}`}
-          numberOfLines={1}
-          style={mode === 'dark' ? {color: primary} : {}}>
+          className={`text-xl font-bold flex-1 ${mode === 'dark' ? 'text-white' : 'text-black'}`}
+          numberOfLines={1}>
           {title}
         </Text>
         {filter !== 'recent' && (
-          <TouchableOpacity onPress={handleMorePress}>
-            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-sm`}>More</Text>
+          <TouchableOpacity 
+            onPress={handleMorePress}
+            className="flex-row items-center space-x-1 py-1 px-3 bg-white/10 rounded-full"
+          >
+            <Text className={`${mode === 'dark' ? 'text-gray-300' : 'text-gray-600'} text-xs font-bold`}>
+              See All
+            </Text>
+            <Feather name="chevron-right" size={14} color={mode === 'dark' ? '#999' : '#666'} />
           </TouchableOpacity>
         )}
       </View>

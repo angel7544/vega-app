@@ -483,7 +483,9 @@ const App = () => {
   // Initialize update service
   useEffect(() => {
     // Start automatic update checking at app startup
-    updateProvidersService.startAutomaticUpdateCheck();
+    if (settingsStorage.isAutoCheckUpdateEnabled()) {
+      updateProvidersService.startAutomaticUpdateCheck();
+    }
 
     // Cleanup on unmount
     return () => {
