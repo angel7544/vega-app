@@ -49,6 +49,7 @@ export interface Info {
   type: string;
   tags?: string[];
   cast?: string[];
+  screenshots?: string[];
   rating?: string;
   linkList: Link[];
 }
@@ -56,6 +57,10 @@ export interface Info {
 export interface EpisodeLink {
   title: string;
   link: string;
+  image?: string;
+  episodeNum?: number;
+  seasonNum?: number;
+  overview?: string;
 }
 
 export interface Link {

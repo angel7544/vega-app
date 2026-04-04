@@ -12,6 +12,7 @@ import {
   Clipboard,
   useWindowDimensions,
   Image,
+  Linking,
 } from 'react-native';
 
 import {NativeStackNavigationProp} from '@react-navigation/native-stack';
@@ -29,17 +30,13 @@ import Animated, {
   cancelAnimation,
 } from 'react-native-reanimated';
 import * as IntentLauncher from 'expo-intent-launcher';
-import RNReactNativeHapticFeedback from 'react-native-haptic-feedback';
-import {EpisodeLink, Link} from '../lib/providers/types';
+import {EpisodeLink, Link, Stream} from '../lib/providers/types';
 import {RootStackParamList} from '../App';
-import Downloader from './Downloader';
 import DownloadBottomSheet from './DownloadBottomSheet';
 import {cacheStorage, mainStorage, settingsStorage} from '../lib/storage';
 import {ifExists} from '../lib/file/ifExists';
 import {useEpisodes, useStreamData} from '../lib/hooks/useEpisodes';
 import {downloadManager} from '../lib/downloader';
-import {Stream} from '../lib/providers/types';
-import {Linking} from 'react-native';
 import useWatchHistoryStore from '../lib/zustand/watchHistrory';
 import useThemeStore from '../lib/zustand/themeStore';
 import SkeletonLoader from './Skeleton';
@@ -52,10 +49,16 @@ interface SeasonListProps {
     poster?: string;
     background?: string;
   };
+  meta?: any;
+  screenshots?: string[];
+  horizontal?: boolean;
+  onNextUpFound?: (item: any) => void;
   type: string;
   metaTitle: string;
   providerValue: string;
   refreshing?: boolean;
+  activeSeasonProp?: any;
+  onSeasonChangeProp?: (item: any) => void;
   routeParams: Readonly<{
     link: string;
     provider?: string;
@@ -72,21 +75,26 @@ interface PlayHandlerProps {
   episodeData: EpisodeLink[] | Link['directLinks'];
 }
 
-interface StickyMenuState {
-  active: boolean;
-  link?: string;
-  type?: string;
+export interface SeasonListHandle {
+  playNextUp: () => void;
+  setSearch: (text: string) => void;
 }
 
-const SeasonList: React.FC<SeasonListProps> = ({
+const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
   LinkList,
   poster,
+  meta,
+  screenshots,
+  horizontal = false,
+  onNextUpFound,
   type,
   metaTitle,
   providerValue,
   refreshing: _refreshing,
   routeParams,
-}) => {
+  activeSeasonProp,
+  onSeasonChangeProp,
+}, ref) => {
   const {width: windowWidth} = useWindowDimensions();
   const isTablet = windowWidth > 768;
   const thumbnailWidth = isTablet ? 120 : 80;
@@ -98,44 +106,29 @@ const SeasonList: React.FC<SeasonListProps> = ({
   const {fetchStreams} = useStreamData();
   const {show} = useToastStore();
 
-  // Early return if no LinkList provided
-  if (!LinkList || LinkList.length === 0) {
-    return (
-      <View className="p-4">
-        <Text className="text-white text-center">No Streams Available</Text>
-      </View>
-    );
-  }
-
-  // Memoized initial active season
+  // State
   const [activeSeason, setActiveSeason] = useState<Link>(() => {
-    if (!LinkList || LinkList.length === 0) {
-      return {} as Link;
-    }
-
-    const cached = cacheStorage.getString(
-      `ActiveSeason${metaTitle + providerValue}`,
-    );
-
+    if (activeSeasonProp) return activeSeasonProp;
+    if (!LinkList || LinkList.length === 0) return {} as Link;
+    const cached = cacheStorage.getString(`ActiveSeason${metaTitle + providerValue}`);
     if (cached) {
       try {
         const parsedSeason = JSON.parse(cached);
-        // Verify the cached season still exists in LinkList
-        const seasonExists = LinkList.find(
-          link => link.title === parsedSeason.title,
-        );
-        if (seasonExists) {
-          return parsedSeason;
-        }
+        const seasonExists = LinkList.find(link => link.title === parsedSeason.title);
+        if (seasonExists) return parsedSeason;
       } catch (error) {
         console.warn('Failed to parse cached season:', error);
       }
     }
-
     return LinkList[0];
   });
 
-  // React Query for episodes
+  useEffect(() => {
+    if (activeSeasonProp) {
+        setActiveSeason(activeSeasonProp);
+    }
+  }, [activeSeasonProp]);
+
   const {
     data: episodeList = [],
     isLoading: episodeLoading,
@@ -147,26 +140,20 @@ const SeasonList: React.FC<SeasonListProps> = ({
     activeSeason?.episodesLink ? true : false,
   );
 
-  // UI state
   const [vlcLoading, setVlcLoading] = useState<boolean>(false);
   const [isLoadingStreams, setIsLoadingStreams] = useState<boolean>(false);
-
-  // Search and sorting state - memoized initial values
   const [searchText, setSearchText] = useState<string>('');
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>(() =>
     mainStorage.getString('episodeSortOrder') === 'desc' ? 'desc' : 'asc',
   );
-
-  // External player state
   const [showServerModal, setShowServerModal] = useState<boolean>(false);
   const [externalPlayerStreams, setExternalPlayerStreams] = useState<any[]>([]);
   const [stickyMenuMetadata, setStickyMenuMetadata] = useState<{
     title: string;
     fileName: string;
   } | null>(null);
+  const [watchRefresh, setWatchRefresh] = useState(0);
 
-  // Shared Download Modal state
-  const [downloadActive, setDownloadActive] = useState<boolean>(false);
   const [downloadModal, setDownloadModal] = useState(false);
   const [downloadData, setDownloadData] = useState<{
     title: string;
@@ -178,295 +165,17 @@ const SeasonList: React.FC<SeasonListProps> = ({
   const [downloadLoading, setDownloadLoading] = useState(false);
   const [downloadError, setDownloadError] = useState<string | null>(null);
 
-  const openDownloadModal = useCallback(
-    async (data: {
-      title: string;
-      link: string;
-      type: string;
-      fileName: string;
-    }) => {
-      setDownloadData(data);
-      setDownloadLoading(true);
-      setDownloadError(null);
-      setDownloadServers([]);
-      setDownloadModal(true);
-
-      try {
-        const streams = await fetchStreams(data.link, data.type, providerValue);
-        const filtered = streams.filter(
-          (s: Stream) =>
-            s.type === 'mp4' ||
-            s.type === 'mkv' ||
-            s.type === 'm3u8' ||
-            s.type === 'hls',
-        );
-        setDownloadServers(filtered);
-      } catch (error: any) {
-        setDownloadError(error.message || 'Failed to fetch servers');
-      } finally {
-        setDownloadLoading(false);
-      }
-    },
-    [fetchStreams, providerValue],
-  );
-
-  // VLC loading animation - using shared value so it reacts to vlcLoading state
-  const vlcRotation = useSharedValue(0);
-
-  useEffect(() => {
-    if (vlcLoading) {
-      vlcRotation.value = 0;
-      vlcRotation.value = withRepeat(
-        withTiming(360, {duration: 800}),
-        -1,
-        false,
-      );
-    } else {
-      cancelAnimation(vlcRotation);
-      vlcRotation.value = 0;
-    }
-  }, [vlcLoading]);
-
-  const vlcLoadingAnimatedStyle = useAnimatedStyle(() => ({
-    transform: [{rotate: `${vlcRotation.value}deg`}],
-  }));
-
-  // Memoized filtering and sorting logic for episodes
-  const filteredAndSortedEpisodes = useMemo(() => {
-    if (!episodeList || !Array.isArray(episodeList)) {
-      return [];
-    }
-
-    let episodes = episodeList.filter(
-      episode => episode && episode.title && episode.link,
-    );
-
-    // Apply search filter
-    if (searchText.trim()) {
-      episodes = episodes.filter(episode =>
-        episode?.title?.toLowerCase().includes(searchText.toLowerCase()),
-      );
-    }
-
-    // Apply sorting
-    if (sortOrder === 'desc') {
-      episodes = [...episodes].reverse();
-    }
-
-    return episodes;
-  }, [episodeList, searchText, sortOrder]);
-
-  // Memoized direct links processing
-  const filteredAndSortedDirectLinks = useMemo(() => {
-    if (
-      !activeSeason?.directLinks ||
-      !Array.isArray(activeSeason.directLinks)
-    ) {
-      return [];
-    }
-
-    let links = activeSeason.directLinks.filter(
-      link => link && link.title && link.link,
-    );
-
-    // Apply search filter
-    if (searchText.trim()) {
-      links = links.filter(link =>
-        link?.title?.toLowerCase().includes(searchText.toLowerCase()),
-      );
-    }
-
-    // Apply sorting
-    if (sortOrder === 'desc') {
-      links = [...links].reverse();
-    }
-
-    return links;
-  }, [activeSeason?.directLinks, searchText, sortOrder]);
-
-  // Memoized title alignment
-  const titleAlignment = useMemo(() => {
-    const hasLongTitles =
-      filteredAndSortedEpisodes.some(ep => ep?.title && ep.title.length > 27) ||
-      filteredAndSortedDirectLinks.some(
-        link => link?.title && link.title.length > 27,
-      );
-
-    return hasLongTitles ? 'justify-start' : 'justify-center';
-  }, [filteredAndSortedEpisodes, filteredAndSortedDirectLinks]);
-
-  // Memoized completion checker
-  const isCompleted = useCallback((link: string) => {
+  // Helper Callbacks
+  const getWatchProgress = useCallback((link: string) => {
     const watchProgress = JSON.parse(cacheStorage.getString(link) || '{}');
-    const percentage =
-      (watchProgress?.position / watchProgress?.duration) * 100;
-    return percentage > 85;
-  }, []);
+    if (!watchProgress.position || !watchProgress.duration) return 0;
+    return (watchProgress.position / watchProgress.duration) * 100;
+  }, [watchRefresh]);
 
-  // Memoized toggle sort order
-  const toggleSortOrder = useCallback(() => {
-    const newOrder = sortOrder === 'asc' ? 'desc' : 'asc';
-    setSortOrder(newOrder);
-    mainStorage.setString('episodeSortOrder', newOrder);
-  }, [sortOrder]);
+  const isCompleted = useCallback((link: string) => {
+    return getWatchProgress(link) > 85;
+  }, [getWatchProgress]);
 
-  // Memoized season change handler
-  const handleSeasonChange = useCallback(
-    (item: Link) => {
-      setActiveSeason(item);
-      cacheStorage.setString(
-        `ActiveSeason${metaTitle + providerValue}`,
-        JSON.stringify(item),
-      );
-    },
-    [metaTitle, providerValue],
-  );
-
-  // Memoized external player handler
-  const handleExternalPlayer = useCallback(
-    async (
-      link: string,
-      type: string,
-      metadata?: {title: string; fileName: string},
-    ) => {
-      setVlcLoading(true);
-      setIsLoadingStreams(true);
-      if (metadata) {
-        setStickyMenuMetadata(metadata);
-      }
-
-      try {
-        const streams = await fetchStreams(link, type, providerValue);
-
-        if (!streams || streams.length === 0) {
-          show(
-            'No streams available from provider',
-            'error',
-          );
-          return;
-        }
-
-        setExternalPlayerStreams([...streams]);
-        setIsLoadingStreams(false);
-        setVlcLoading(false);
-        setShowServerModal(true);
-
-        show(
-          `Found ${streams.length} servers`,
-          'success',
-        );
-      } catch (error: any) {
-        console.error('Error fetching streams:', error);
-        const errorMessage = error?.message || 'Failed to load streams';
-        show(errorMessage, 'error');
-      } finally {
-        setVlcLoading(false);
-        setIsLoadingStreams(false);
-      }
-    },
-    [fetchStreams, providerValue],
-  );
-
-  // Memoized external player opener
-  const openExternalPlayer = useCallback(async (streamUrl: string) => {
-    setShowServerModal(false);
-    setVlcLoading(true);
-
-    try {
-      await IntentLauncher.startActivityAsync('android.intent.action.VIEW', {
-        data: streamUrl,
-        type: 'video/*',
-      });
-    } catch (error) {
-      console.error('Error opening external player:', error);
-      show('Failed to open external player', 'error');
-    } finally {
-      setVlcLoading(false);
-    }
-  }, []);
-
-  // Memoized play handler
-  const playHandler = useCallback(
-    async ({
-      linkIndex,
-      type,
-      primaryTitle,
-      secondaryTitle,
-      seasonTitle,
-      episodeData,
-    }: PlayHandlerProps) => {
-      addItem({
-        id: routeParams.link,
-        link: routeParams.link,
-        title: primaryTitle,
-        image: poster?.poster,
-        poster: poster?.poster,
-        provider: providerValue,
-        lastPlayed: Date.now(),
-        episodeTitle: secondaryTitle,
-        playbackRate: 1,
-        currentTime: 0,
-        duration: 1,
-      });
-
-      if (!episodeData || episodeData.length === 0) {
-        return;
-      }
-
-      const link = episodeData[linkIndex].link;
-      const file = (
-        metaTitle +
-        seasonTitle +
-        episodeData[linkIndex]?.title
-      ).replaceAll(/[^a-zA-Z0-9]/g, '_');
-
-      const externalPlayer = settingsStorage.getBool('useExternalPlayer');
-      const dwFile = await ifExists(file);
-
-      if (externalPlayer) {
-        if (dwFile) {
-          await IntentLauncher.startActivityAsync(
-            'android.intent.action.VIEW',
-            {
-              data: dwFile,
-              type: 'video/*',
-            },
-          );
-          return;
-        }
-        handleExternalPlayer(link, type, {
-          title:
-            metaTitle.length > 30
-              ? metaTitle.slice(0, 30) + '... ' + episodeData[linkIndex]?.title
-              : metaTitle + ' ' + episodeData[linkIndex]?.title,
-          fileName: file,
-        });
-        return;
-      }
-
-      navigation.navigate('Player', {
-        linkIndex,
-        episodeList: episodeData as EpisodeLink[],
-        type: type,
-        primaryTitle: primaryTitle,
-        secondaryTitle: seasonTitle,
-        poster: poster,
-        providerValue: providerValue,
-        infoUrl: routeParams.link,
-      });
-    },
-    [
-      addItem,
-      routeParams.link,
-      poster,
-      providerValue,
-      metaTitle,
-      handleExternalPlayer,
-      navigation,
-    ],
-  );
-
-  // Toggle watched handler
   const toggleWatched = useCallback((link: string, watched: boolean) => {
     cacheStorage.setString(
       link,
@@ -475,508 +184,827 @@ const SeasonList: React.FC<SeasonListProps> = ({
         duration: 1,
       }),
     );
-  }, []);
+    setWatchRefresh(prev => prev + 1);
+    show(watched ? 'Marked as watched' : 'Marked as unwatched', 'success');
+  }, [show]);
 
-  // Memoized episode render item
-  const renderEpisodeItem = useCallback(
-    ({item, index}: {item: EpisodeLink; index: number}) => {
-      if (!item || !item.link || !item.title) {
-        console.warn('Invalid episode item at index', index, item);
-        return null;
+  const handleSeasonChange = useCallback((item: Link) => {
+    if (onSeasonChangeProp) {
+        onSeasonChangeProp(item);
+    } else {
+        setActiveSeason(item);
+        cacheStorage.setString(`ActiveSeason${metaTitle + providerValue}`, JSON.stringify(item));
+    }
+  }, [onSeasonChangeProp, metaTitle, providerValue]);
+
+  const toggleSortOrder = useCallback(() => {
+    const newOrder = sortOrder === 'asc' ? 'desc' : 'asc';
+    setSortOrder(newOrder);
+    mainStorage.setString('episodeSortOrder', newOrder);
+  }, [sortOrder]);
+
+  // VLC animation logic
+  const vlcRotation = useSharedValue(0);
+  useEffect(() => {
+    if (vlcLoading) {
+      vlcRotation.value = withRepeat(withTiming(360, {duration: 800}), -1, false);
+    } else {
+      cancelAnimation(vlcRotation);
+      vlcRotation.value = 0;
+    }
+  }, [vlcLoading, vlcRotation]);
+  const vlcLoadingAnimatedStyle = useAnimatedStyle(() => ({ transform: [{rotate: `${vlcRotation.value}deg`}] }));
+
+  // Enhanced Episode Mapping
+  const getEpisodeMetadata = useCallback((episodeTitle: string, seasonNum?: number) => {
+    if (!meta?.videos || !Array.isArray(meta.videos)) return null;
+    
+    // Try matching by season and episode number if we can extract them from the title
+    const epMatch = episodeTitle.match(/(?:Episode|EP|E)\s*(\d+)/i);
+    const epNum = epMatch ? parseInt(epMatch[1]) : null;
+    
+    // If we have a season number from the active season title
+    const currentSeasonMatch = (activeSeason?.title || "").match(/(?:Season|S)\s*(\d+)/i);
+    const currentSeasonNum = currentSeasonMatch ? parseInt(currentSeasonMatch[1]) : (seasonNum || 1);
+
+    if (epNum !== null) {
+      const match = meta.videos.find((v: any) => v.season === currentSeasonNum && v.episode === epNum);
+      if (match) return match;
+    }
+
+    // Fallback: match by title similarity
+    return meta.videos.find((v: any) => 
+      v.name?.toLowerCase().includes(episodeTitle.toLowerCase()) || 
+      episodeTitle.toLowerCase().includes(v.name?.toLowerCase())
+    );
+  }, [meta?.videos, activeSeason?.title]);
+
+  // Memoized lists (Smart Sorting: [Next Up, Unwatched, Watched])
+  const filteredAndSortedEpisodes = useMemo(() => {
+    if (!episodeList || !Array.isArray(episodeList)) return [];
+
+    let episodesWithMeta = episodeList
+      .filter(ep => ep && ep.title && ep.link)
+      .map((ep, idx) => ({
+        ...ep,
+        originalIndex: idx,
+        isCompleted: isCompleted(ep.link),
+      }));
+
+    // Identify first incomplete as "Next Up"
+    const nextToWatchLink = episodesWithMeta.find(ep => !ep.isCompleted)?.link;
+
+    if (searchText.trim()) {
+      episodesWithMeta = episodesWithMeta.filter(ep =>
+        ep?.title?.toLowerCase().includes(searchText.toLowerCase()),
+      );
+    }
+
+    const nextToWatch = nextToWatchLink ? episodesWithMeta.filter(ep => ep.link === nextToWatchLink) : [];
+    const watched = episodesWithMeta.filter(ep => ep.isCompleted && ep.link !== nextToWatchLink);
+    const unwatched = episodesWithMeta.filter(ep => !ep.isCompleted && ep.link !== nextToWatchLink);
+
+    let final = [...nextToWatch, ...unwatched, ...watched];
+    if (sortOrder === 'desc') final.reverse();
+    return final;
+  }, [episodeList, searchText, sortOrder, isCompleted, watchRefresh]);
+
+  const filteredAndSortedDirectLinks = useMemo(() => {
+    if (!activeSeason?.directLinks || !Array.isArray(activeSeason.directLinks)) return [];
+
+    let linksWithMeta = activeSeason.directLinks
+      .filter(l => l && l.title && l.link)
+      .map((l, idx) => ({
+        ...l,
+        originalIndex: idx,
+        isCompleted: isCompleted(l.link),
+      }));
+
+    const nextToWatchLink = linksWithMeta.find(l => !l.isCompleted)?.link;
+
+    if (searchText.trim()) {
+      linksWithMeta = linksWithMeta.filter(l =>
+        l?.title?.toLowerCase().includes(searchText.toLowerCase()),
+      );
+    }
+
+    const nextToWatch = nextToWatchLink ? linksWithMeta.filter(l => l.link === nextToWatchLink) : [];
+    const watched = linksWithMeta.filter(l => l.isCompleted && l.link !== nextToWatchLink);
+    const unwatched = linksWithMeta.filter(l => !l.isCompleted && l.link !== nextToWatchLink);
+
+    let final = [...nextToWatch, ...unwatched, ...watched];
+    if (sortOrder === 'desc') final.reverse();
+    return final;
+  }, [activeSeason?.directLinks, searchText, sortOrder, isCompleted, watchRefresh]);
+
+  const combinedData = useMemo(() => {
+    return [...filteredAndSortedEpisodes, ...filteredAndSortedDirectLinks];
+  }, [filteredAndSortedEpisodes, filteredAndSortedDirectLinks]);
+
+  const nextUpIndex = useMemo(() => {
+    if (!combinedData.length) return 0;
+    const idx = combinedData.findIndex(item => !isCompleted(item.link));
+    return idx === -1 ? 0 : idx;
+  }, [combinedData, isCompleted]);
+
+  useEffect(() => {
+    const list = filteredAndSortedEpisodes.length > 0 ? filteredAndSortedEpisodes : filteredAndSortedDirectLinks;
+    if (onNextUpFound && list[nextUpIndex]) {
+      const epMeta = getEpisodeMetadata(list[nextUpIndex].title);
+      onNextUpFound({
+        ...list[nextUpIndex],
+        size: epMeta?.size
+      });
+    }
+  }, [nextUpIndex, filteredAndSortedEpisodes, filteredAndSortedDirectLinks, onNextUpFound, getEpisodeMetadata]);
+
+  // Imperative handle for remote playback and search
+  React.useImperativeHandle(ref, () => ({
+    playNextUp: () => {
+      if (combinedData.length > 0) {
+        const item = combinedData[nextUpIndex];
+        playHandler({
+          linkIndex: nextUpIndex,
+          type,
+          primaryTitle: metaTitle,
+          secondaryTitle: item.title,
+          seasonTitle: activeSeason?.title || '',
+          episodeData: combinedData as any,
+        });
       }
+    },
+    setSearch: (text: string) => {
+      setSearchText(text);
+    }
+  }));
 
-      const completed = isCompleted(item.link);
+  // Handlers
+  const handleExternalPlayer = useCallback(async (link: string, type: string, metadata?: {title: string; fileName: string}) => {
+    setVlcLoading(true);
+    setIsLoadingStreams(true);
+    if (metadata) setStickyMenuMetadata(metadata);
+    try {
+      const streams = await fetchStreams(link, type, providerValue);
+      if (!streams || streams.length === 0) {
+        show('No streams available from provider', 'error');
+        return;
+      }
+      setExternalPlayerStreams([...streams]);
+      setShowServerModal(true);
+      show(`Found ${streams.length} servers`, 'success');
+    } catch (error: any) {
+      show(error?.message || 'Failed to load streams', 'error');
+    } finally {
+      setVlcLoading(false);
+      setIsLoadingStreams(false);
+    }
+  }, [fetchStreams, providerValue, show]);
 
-      return (
-        <View
-          key={item.link + index}
-          className={`w-full my-2 justify-center items-center gap-y-2
-          ${completed ? 'opacity-80' : ''}`}>
-          <View className="flex-row w-full justify-between gap-x-2 items-center">
-            {/* Episode Thumbnail/Badge */}
-            <View
-              style={{width: thumbnailWidth, height: thumbnailHeight}}
-              className={`${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'} rounded-md justify-center items-center overflow-hidden`}>
-              {(item as any).image ? (
-                <Image
-                  source={{uri: (item as any).image}}
-                  style={{width: '100%', height: '100%'}}
-                  resizeMode="stretch"
-                />
-              ) : (
-                <View className="items-center justify-center">
-                  <Text
-                    className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} font-bold`}
-                    style={{fontSize: isTablet ? 14 : 12}}>
-                    EP
-                  </Text>
-                  <Text
-                    className={`${mode === 'dark' ? 'text-white/60' : 'text-black/60'} font-bold`}
-                    style={{fontSize: isTablet ? 18 : 16}}>
-                    {index + 1}
-                  </Text>
-                </View>
+  const openExternalPlayer = useCallback(async (streamUrl: string) => {
+    setShowServerModal(false);
+    setVlcLoading(true);
+    try {
+      await IntentLauncher.startActivityAsync('android.intent.action.VIEW', { data: streamUrl, type: 'video/*' });
+    } catch (error) {
+      show('Failed to open external player', 'error');
+    } finally {
+      setVlcLoading(false);
+    }
+  }, [show]);
+
+  const playHandler = useCallback(async ({ linkIndex, type, primaryTitle, secondaryTitle, seasonTitle, episodeData }: PlayHandlerProps) => {
+    addItem({
+      id: routeParams.link,
+      link: routeParams.link,
+      title: primaryTitle,
+      image: poster?.poster,
+      poster: poster?.poster,
+      provider: providerValue,
+      lastPlayed: Date.now(),
+      episodeTitle: secondaryTitle,
+      playbackRate: 1,
+      currentTime: 0,
+      duration: 1,
+    });
+
+    if (!episodeData || episodeData.length === 0) return;
+    const item = episodeData[linkIndex];
+    const file = (metaTitle + seasonTitle + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_');
+    const externalPlayer = settingsStorage.getBool('useExternalPlayer');
+    const dwFile = await ifExists(file);
+
+    if (externalPlayer) {
+      if (dwFile) {
+        await IntentLauncher.startActivityAsync('android.intent.action.VIEW', { data: dwFile, type: 'video/*' });
+        return;
+      }
+      handleExternalPlayer(item.link, type, {
+        title: metaTitle.length > 30 ? metaTitle.slice(0, 30) + '... ' + item.title : metaTitle + ' ' + item.title,
+        fileName: file
+      });
+      return;
+    }
+
+    navigation.navigate('Player', {
+      linkIndex,
+      episodeList: episodeData as EpisodeLink[],
+      type,
+      primaryTitle,
+      secondaryTitle: seasonTitle,
+      poster,
+      providerValue,
+      infoUrl: routeParams.link,
+    });
+  }, [addItem, routeParams.link, poster, providerValue, metaTitle, handleExternalPlayer, navigation]);
+
+  const renderHorizontalEpisodeItem = useCallback(({item, index}: {item: any, index: number}) => {
+    const progress = getWatchProgress(item.link);
+    const completed = progress > 85;
+    const isNext = index === nextUpIndex && !completed;
+    const metaEp = getEpisodeMetadata(item.title);
+    const thumbnail = item.image || metaEp?.thumbnail;
+    const duration = metaEp?.runtime || '45m';
+
+    const fileName = (metaTitle + (activeSeason?.title || '') + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_');
+
+    return (
+      <View key={item.link + index} className="mr-8 mb-4" style={{ width: 320 }}>
+        {/* Metadata and Title */}
+        <View className="mb-3 px-1">
+          <View className="flex-row justify-between items-center mb-1">
+            <View className="flex-row items-center space-x-2">
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[10px] font-black uppercase tracking-[2px]`}>
+                Episode {item.originalIndex + 1}
+              </Text>
+              {metaEp?.size && (
+                <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-[10px] font-black uppercase tracking-[1px]`}>
+                  {metaEp.size}
+                </Text>
               )}
             </View>
+            {duration && (
+              <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-[9px] font-black`}>{duration}</Text>
+            )}
+          </View>
+          <Text className={`${mode === 'dark' ? 'text-white/80' : 'text-black/80'} text-[11px] uppercase font-bold mb-3`} numberOfLines={1}>
+            {item.title}
+          </Text>
 
-            {/* Watched Button */}
-            <TouchableOpacity
-              className="flex-1 flex-row justify-center items-center gap-2 p-3 bg-tertiary rounded-md h-12"
-              onPress={() => toggleWatched(item.link, !completed)}>
-              <Ionicons
-                name={completed ? 'checkmark-done' : 'checkmark'}
-                size={22}
-                color={primary}
+          {/* Action Row - Mobile Inspired Pills */}
+          <View className="flex-row items-center space-x-3 mb-1">
+            <TouchableOpacity 
+              onPress={() => toggleWatched(item.link, !completed)}
+              className={`flex-row items-center px-3 py-1.5 rounded-full border ${completed ? (mode==='dark'?'bg-primary/20 border-primary/50':'bg-primary/10 border-primary/30') : (mode==='dark'?'bg-white/5 border-white/10':'bg-black/5 border-black/10')}`}
+            >
+              <Ionicons 
+                name={completed ? "checkmark-circle" : "checkmark-circle-outline"} 
+                size={16} 
+                color={completed ? primary : (mode === 'dark' ? "rgba(255,255,255,0.5)" : "rgba(0,0,0,0.5)")} 
               />
-            </TouchableOpacity>
-
-            {/* Play Button */}
-            <TouchableOpacity
-              className={`flex-[3] flex-row justify-center items-center gap-2 p-3 ${mode === 'dark' ? 'bg-white/10' : 'bg-black/10'} rounded-md h-12`}
-              onPress={() =>
-                playHandler({
-                  linkIndex: index,
-                  type: type,
-                  primaryTitle: metaTitle,
-                  secondaryTitle: item.title,
-                  seasonTitle: activeSeason?.title || '',
-                  episodeData: filteredAndSortedEpisodes,
-                })
-              }>
-              <Ionicons name="play" size={24} color={primary} />
-              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-sm font-semibold flex-1 text-center`}>
-                {item.title.length > 30
-                  ? item.title.slice(0, 30) + '...'
-                  : item.title}
+              <Text className={`ml-1.5 text-[9px] font-black uppercase tracking-[1px] ${completed ? (mode==='dark'?'text-white':'text-black') : (mode === 'dark' ? "text-white/40" : "text-black/40")}`}>
+                {completed ? 'Watched' : 'Mark Watched'}
               </Text>
             </TouchableOpacity>
 
-            {/* Servers Button */}
-            <TouchableOpacity
-              className="flex-1 flex-row justify-center bg-tertiary rounded-md items-center p-3 h-12"
-              onPress={() =>
-                handleExternalPlayer(item.link, 'series', {
-                  title:
-                    metaTitle.length > 30
-                      ? metaTitle.slice(0, 30) + '... ' + item.title
-                      : metaTitle + ' ' + item.title,
-                  fileName: (
-                    metaTitle +
-                    (activeSeason?.title || '') +
-                    item.title
-                  ).replaceAll(/[^a-zA-Z0-9]/g, '_'),
-                })
-              }>
-              <Feather name="external-link" size={20} color={primary} />
-            </TouchableOpacity>
-          </View>
-        </View>
-      );
-    },
-    [
-      isCompleted,
-      toggleWatched,
-      playHandler,
-      metaTitle,
-      activeSeason?.title,
-      filteredAndSortedEpisodes,
-      primary,
-      type,
-      handleExternalPlayer,
-    ],
-  );
-
-  // Memoized direct link render item
-  const renderDirectLinkItem = useCallback(
-    ({item, index}: {item: any; index: number}) => {
-      if (!item || !item.link || !item.title) {
-        console.warn('Invalid direct link item at index', index, item);
-        return null;
-      }
-
-      const completed = isCompleted(item.link);
-      const displayTitle =
-        activeSeason?.directLinks?.length &&
-        activeSeason?.directLinks?.length > 1
-          ? item.title?.length > 27
-            ? item.title.slice(0, 27) + '...'
-            : item.title
-          : 'Play';
-
-      return (
-        <View
-          key={item.link + index}
-          className={`w-full my-2 justify-center items-center gap-y-2
-          ${completed ? 'opacity-80' : ''}`}>
-          <View className="flex-row w-full justify-between gap-x-2 items-center">
-            {/* Link Thumbnail/Badge */}
-            
-
-            {/* Watched Button */}
-            <TouchableOpacity
-              className="flex-1 flex-row justify-center items-center gap-2 p-3 bg-tertiary rounded-md h-12"
-              onPress={() => toggleWatched(item.link, !completed)}>
-              <Ionicons
-                name={completed ? 'checkmark-done' : 'checkmark'}
-                size={22}
-                color={primary}
-              />
-            </TouchableOpacity>
-
-            {/* Play Button */}
-            <TouchableOpacity
-              className={`flex-[3] flex-row justify-center items-center gap-2 p-3 ${mode === 'dark' ? 'bg-white/10' : 'bg-black/10'} rounded-md h-12`}
-              onPress={() =>
-                playHandler({
-                  linkIndex: index,
-                  type: type,
-                  primaryTitle: metaTitle,
-                  secondaryTitle: item.title,
-                  seasonTitle: activeSeason?.title || '',
-                  episodeData: filteredAndSortedDirectLinks,
-                })
-              }>
-              <Ionicons name="play" size={24} color={primary} />
-              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-sm font-semibold flex-1 text-center`}>
-                {displayTitle}
+            <TouchableOpacity 
+              onPress={() => {
+                setDownloadData({ title: metaTitle + ' ' + item.title, link: item.link, type: 'series', fileName });
+                setDownloadServers([]);
+                setDownloadModal(true);
+                setDownloadLoading(true);
+                fetchStreams(item.link, 'series', providerValue)
+                  .then(setDownloadServers)
+                  .catch(err => setDownloadError(err.message))
+                  .finally(() => setDownloadLoading(false));
+              }}
+              className={`flex-row items-center px-3 py-1.5 rounded-full border ${mode==='dark'?'bg-white/5 border-white/10':'bg-black/5 border-black/10'}`}
+            >
+              <Feather name="download" size={14} color={mode === 'dark' ? "rgba(255,255,255,0.5)" : "rgba(0,0,0,0.5)"} />
+              <Text className={`ml-1.5 text-[9px] font-black uppercase tracking-[1px] ${mode === 'dark' ? "text-white/40" : "text-black/40"}`}>
+                Download
               </Text>
             </TouchableOpacity>
-
-            {/* Servers Button */}
-            <TouchableOpacity
-              className="flex-1 flex-row justify-center bg-tertiary rounded-md items-center p-3 h-12"
-              onPress={() =>
-                handleExternalPlayer(item.link, item?.type || 'series', {
-                  title:
-                    metaTitle.length > 30
-                      ? metaTitle.slice(0, 30) + '... ' + item.title
-                      : metaTitle + ' ' + item.title,
-                  fileName: (metaTitle + item.title).replaceAll(
-                    /[^a-zA-Z0-9]/g,
-                    '_',
-                  ),
-                })
-              }>
-              <Feather name="external-link" size={20} color={primary} />
-            </TouchableOpacity>
           </View>
         </View>
-      );
-    },
-    [
-      isCompleted,
-      toggleWatched,
-      playHandler,
-      metaTitle,
-      activeSeason?.title,
-      activeSeason?.directLinks,
-      filteredAndSortedDirectLinks,
-      primary,
-      type,
-      handleExternalPlayer,
-    ],
-  );
 
-  // Memoized server render item
-  const renderServerItem = useCallback(
-    (item: any, index: number) => (
-      <View
-        key={`server-${index}-${item.server}`}
-        className={`${mode === 'dark' ? 'bg-black/30' : 'bg-gray-100'} p-3 rounded-lg mb-2 flex-row justify-between items-center`}
-        style={{borderColor: primary, borderWidth: 1}}>
-        <TouchableOpacity
-          onPress={() => openExternalPlayer(item.link)}
-          className="flex-1">
-          <View>
-            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-lg capitalize font-bold`}>
-              {item.server || `Server ${index + 1}`}
-            </Text>
-            <Text className={`${mode === 'dark' ? 'text-white/80' : 'text-black/60'} text-xs`}>
-              {item.type ? `Format: ${item.type.toUpperCase()}` : ''}
-            </Text>
-          </View>
+        {/* Thumbnail Card */}
+        <TouchableOpacity 
+          activeOpacity={0.9}
+          onPress={() => playHandler({ linkIndex: index, type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: combinedData })}
+          className={`aspect-video rounded-[24px] overflow-hidden ${mode === 'dark' ? 'bg-secondary' : 'bg-black/5'} border-2 ${mode === 'dark' ? 'border-white/5' : 'border-black/5'} relative shadow-2xl`}
+        >
+          {thumbnail ? (
+            <Image source={{uri: thumbnail}} style={{width: '100%', height: '100%'}} resizeMode="cover" />
+          ) : (
+            <View className="items-center justify-center h-full opacity-30">
+              <Ionicons name="play" size={40} color={primary} />
+            </View>
+          )}
+
+          {/* Red Progress Bar (Bottom) - Matching image style */}
+          {progress > 0 && (
+            <View className="absolute bottom-0 left-0 right-0 h-[4px] bg-black/40">
+              <View className="h-full bg-red-600 shadow-sm shadow-red-600/50" style={{ width: `${progress}%` }} />
+            </View>
+          )}
+
+          {/* Next Up Overlay - Thinner banner as per image */}
+          {isNext && (
+            <View className="absolute top-0 left-0 right-0 bg-red-600 py-1 items-center">
+              <Text className="text-[7px] text-white font-black uppercase tracking-[2px]">Next Up</Text>
+            </View>
+          )}
+          
+          {/* Completed Checkmark - Branded circle from reference */}
+          {completed && (
+            <View className="absolute inset-0 items-center justify-center bg-black/20">
+              <View className="bg-red-600 w-12 h-12 rounded-full items-center justify-center shadow-lg shadow-black/40">
+                <Ionicons name="checkmark" size={32} color="white" />
+              </View>
+            </View>
+          )}
         </TouchableOpacity>
-        <View className="flex-row gap-x-3 items-center">
-          <TouchableOpacity
-            onPress={() => {
-              Clipboard.setString(item.link);
-              show('Link copied to clipboard', 'success');
-            }}>
-            <MaterialIcons name="content-copy" size={24} color={primary} />
-          </TouchableOpacity>
-          <TouchableOpacity
-            onPress={() => openExternalPlayer(item.link)}
-            className={`${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} p-2 rounded-full`}>
-            <MaterialIcons name="file-download" size={24} color={mode === 'dark' ? 'white' : 'black'} />
+
+        <View className="h-4" />
+      </View>
+    );
+  }, [mode, primary, playHandler, type, metaTitle, activeSeason?.title, combinedData, getEpisodeMetadata, getWatchProgress, handleExternalPlayer, fetchStreams, providerValue, toggleWatched, nextUpIndex]);
+
+  const renderHorizontalDirectLinkItem = useCallback(({item, index}: {item: any, index: number}) => {
+    const progress = getWatchProgress(item.link);
+    const completed = progress > 85;
+    const isNext = index === nextUpIndex && !completed;
+    
+    return (
+      <View key={item.link + index} className="mr-8 mb-4" style={{ width: 320 }}>
+        {/* Metadata and Title */}
+        <View className="mb-3 px-1">
+          <View className="flex-row justify-between items-center mb-1">
+            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[10px] font-black uppercase tracking-[2px]`}>
+              Movie / Clip
+            </Text>
+          </View>
+          <Text className={`${mode === 'dark' ? 'text-white/80' : 'text-black/80'} text-[11px] uppercase font-bold mb-3`} numberOfLines={1}>
+            {item.title}
+          </Text>
+
+          {/* Action Row - Mobile Inspired Pills */}
+          <View className="flex-row items-center space-x-3 mb-1">
+            <TouchableOpacity 
+              onPress={() => toggleWatched(item.link, !completed)}
+              className={`flex-row items-center px-3 py-1.5 rounded-full border ${completed ? (mode==='dark'?'bg-primary/20 border-primary/50':'bg-primary/10 border-primary/30') : (mode==='dark'?'bg-white/5 border-white/10':'bg-black/5 border-black/10')}`}
+            >
+              <Ionicons 
+                name={completed ? "checkmark-circle" : "checkmark-circle-outline"} 
+                size={16} 
+                color={completed ? primary : (mode === 'dark' ? "rgba(255,255,255,0.5)" : "rgba(0,0,0,0.5)")} 
+              />
+              <Text className={`ml-1.5 text-[9px] font-black uppercase tracking-[1px] ${completed ? (mode==='dark'?'text-white':'text-black') : (mode === 'dark' ? "text-white/40" : "text-black/40")}`}>
+                {completed ? 'Watched' : 'Mark Watched'}
+              </Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity 
+              onPress={() => {
+                setDownloadData({ title: metaTitle + ' ' + item.title, link: item.link, type: 'movie', fileName: (metaTitle + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_') });
+                setDownloadServers([]);
+                setDownloadModal(true);
+                setDownloadLoading(true);
+                fetchStreams(item.link, 'movie', providerValue)
+                  .then(setDownloadServers)
+                  .catch(err => setDownloadError(err.message))
+                  .finally(() => setDownloadLoading(false));
+              }}
+              className={`flex-row items-center px-3 py-1.5 rounded-full border ${mode==='dark'?'bg-white/5 border-white/10':'bg-black/5 border-black/10'}`}
+            >
+              <Feather name="download" size={14} color={mode === 'dark' ? "rgba(255,255,255,0.5)" : "rgba(0,0,0,0.5)"} />
+              <Text className={`ml-1.5 text-[9px] font-black uppercase tracking-[1px] ${mode === 'dark' ? "text-white/40" : "text-black/40"}`}>
+                Download
+              </Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+
+        <TouchableOpacity 
+          activeOpacity={0.9}
+          onPress={() => playHandler({ linkIndex: index, type: item?.type || type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: combinedData })}
+          className={`aspect-video rounded-[24px] overflow-hidden ${mode === 'dark' ? 'bg-secondary' : 'bg-black/5'} border-2 ${mode === 'dark' ? 'border-white/5' : 'border-black/5'} relative shadow-2xl`}
+        >
+          {poster?.poster ? (
+            <Image source={{uri: poster.poster}} style={{width: '100%', height: '100%'}} resizeMode="cover" />
+          ) : (
+            <View className="items-center justify-center h-full opacity-30">
+              <MaterialCommunityIcons name="movie-play-outline" size={40} color={primary} />
+            </View>
+          )}
+
+          {progress > 0 && (
+            <View className="absolute bottom-0 left-0 right-0 h-[4px] bg-black/40">
+              <View className="h-full bg-red-600 shadow-sm shadow-red-600/50" style={{ width: `${progress}%` }} />
+            </View>
+          )}
+
+          {isNext && (
+            <View className="absolute top-0 left-0 right-0 bg-red-600 py-1 items-center">
+              <Text className="text-[7px] text-white font-black uppercase tracking-[2px]">Next Up</Text>
+            </View>
+          )}
+          
+          {completed && (
+            <View className="absolute inset-0 items-center justify-center bg-black/20">
+              <View className="bg-red-600 w-12 h-12 rounded-full items-center justify-center shadow-lg shadow-black/40">
+                <Ionicons name="checkmark" size={32} color="white" />
+              </View>
+            </View>
+          )}
+        </TouchableOpacity>
+        <View className="h-4" />
+      </View>
+    );
+  }, [mode, primary, playHandler, type, metaTitle, activeSeason?.title, combinedData, getWatchProgress, nextUpIndex, poster?.poster, toggleWatched]);
+
+  // Renderers
+  const renderEpisodeItem = useCallback(({item, index}: {item: any, index: number}) => {
+    const completed = item.isCompleted;
+    const isNext = index === 0 && !completed;
+    const metaEp = getEpisodeMetadata(item.title);
+    const thumbnail = item.image || metaEp?.thumbnail;
+    const overview = metaEp?.overview;
+
+    return (
+      <View key={item.link + index} className={`w-full my-2 overflow-hidden rounded-xl ${mode === 'dark' ? 'bg-secondary/30' : 'bg-black/5'} ${completed ? 'opacity-60' : ''} ${isNext ? 'border border-primary/50' : ''}`}>
+        <View className="flex-row w-full p-2 gap-x-3 items-center">
+          <View style={{width: thumbnailWidth, height: thumbnailHeight}} className={`${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'} rounded-lg justify-center items-center overflow-hidden relative`}>
+            {thumbnail ? <Image source={{uri: thumbnail}} style={{width: '100%', height: '100%'}} resizeMode="cover" /> : 
+              <View className="items-center justify-center">
+                <Text className={`${mode === 'dark' ? 'text-white/20' : 'text-black/20'} font-bold`} style={{fontSize: isTablet ? 14 : 12}}>EP</Text>
+                <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} font-bold`} style={{fontSize: isTablet ? 18 : 16}}>{item.originalIndex + 1}</Text>
+              </View>
+            }
+            {isNext && <View className="absolute top-0 left-0 right-0 py-1 items-center" style={{backgroundColor: primary}}><Text className="text-[10px] text-white font-bold uppercase tracking-tighter">Next Up</Text></View>}
+          </View>
+          <View className="flex-1 justify-center gap-y-1">
+            <View className="flex-row items-center gap-x-2">
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base font-bold flex-1`} numberOfLines={1}>{item.title}</Text>
+              {completed && <MaterialCommunityIcons name="check-circle" size={16} color={primary} />}
+            </View>
+            {overview && <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-[10px] leading-3`} numberOfLines={2}>{overview}</Text>}
+            <View className="flex-row items-center gap-x-3">
+              <TouchableOpacity onPress={() => toggleWatched(item.link, !completed)} className="flex-row items-center gap-x-1 py-1 pr-2">
+                <Ionicons name={completed ? 'checkbox' : 'square-outline'} size={18} color={completed ? primary : (mode === 'dark' ? 'white' : 'black')} style={{opacity: 0.7}} />
+                <Text className={`${mode === 'dark' ? 'text-white/50' : 'text-black/50'} text-xs font-medium`}>{completed ? 'Watched' : 'Mark Watched'}</Text>
+              </TouchableOpacity>
+              <TouchableOpacity className="flex-row items-center gap-x-1 py-1" onPress={() => handleExternalPlayer(item.link, 'series', { title: metaTitle + ' ' + item.title, fileName: (metaTitle + (activeSeason?.title || '') + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_') })}>
+                <Feather name="layers" size={16} color={primary} /><Text className={`${mode === 'dark' ? 'text-white/50' : 'text-black/50'} text-xs font-medium`}>Servers</Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+          <TouchableOpacity className="w-12 h-12 rounded-full items-center justify-center" style={{backgroundColor: primary + '20'}} onPress={() => playHandler({ linkIndex: index, type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: filteredAndSortedEpisodes })}>
+            <Ionicons name="play" size={28} color={primary} />
           </TouchableOpacity>
         </View>
       </View>
-    ),
-    [primary, openExternalPlayer, stickyMenuMetadata],
-  );
+    );
+  }, [mode, thumbnailWidth, thumbnailHeight, isTablet, primary, toggleWatched, handleExternalPlayer, metaTitle, activeSeason?.title, playHandler, type, filteredAndSortedEpisodes, getEpisodeMetadata]);
 
+  const renderDirectLinkItem = useCallback(({item, index}: {item: any, index: number}) => {
+    const completed = item.isCompleted;
+    const isNext = index === 0 && !completed;
+    return (
+      <View key={item.link + index} className={`w-full my-2 overflow-hidden rounded-xl ${mode === 'dark' ? 'bg-secondary/30' : 'bg-black/5'} ${completed ? 'opacity-60' : ''} ${isNext ? 'border border-primary/50' : ''}`}>
+        <View className="flex-row w-full p-2 gap-x-3 items-center">
+          <View className={`w-12 h-12 rounded-lg justify-center items-center ${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'} relative`}>
+            <MaterialCommunityIcons name="movie-play-outline" size={24} color={primary} />
+            {isNext && <View className="absolute -top-1 -left-1 px-1 rounded" style={{backgroundColor: primary}}><Text className="text-[8px] text-white font-bold uppercase">Next</Text></View>}
+          </View>
+          <View className="flex-1 justify-center gap-y-1">
+            <View className="flex-row items-center gap-x-2">
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base font-bold`} numberOfLines={1}>{item.title}</Text>
+              {completed && <MaterialCommunityIcons name="check-circle" size={16} color={primary} />}
+            </View>
+            <View className="flex-row items-center gap-x-3">
+              <TouchableOpacity onPress={() => toggleWatched(item.link, !completed)} className="flex-row items-center gap-x-1 py-1 pr-2">
+                <Ionicons name={completed ? 'checkbox' : 'square-outline'} size={18} color={completed ? primary : (mode === 'dark' ? 'white' : 'black')} style={{opacity: 0.7}} />
+                <Text className={`${mode === 'dark' ? 'text-white/50' : 'text-black/50'} text-xs font-medium`}>{completed ? 'Watched' : 'Mark Watched'}</Text>
+              </TouchableOpacity>
+              <TouchableOpacity className="flex-row items-center gap-x-1 py-1" onPress={() => handleExternalPlayer(item.link, item?.type || 'series', { title: metaTitle + ' ' + item.title, fileName: (metaTitle + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_') })}>
+                <Feather name="layers" size={16} color={primary} /><Text className={`${mode === 'dark' ? 'text-white/50' : 'text-black/50'} text-xs font-medium`}>Servers</Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+          <TouchableOpacity className="w-12 h-12 rounded-full items-center justify-center" style={{backgroundColor: primary + '20'}} onPress={() => playHandler({ linkIndex: index, type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: filteredAndSortedDirectLinks })}>
+            <Ionicons name="play" size={28} color={primary} />
+          </TouchableOpacity>
+        </View>
+      </View>
+    );
+  }, [mode, primary, toggleWatched, handleExternalPlayer, metaTitle, activeSeason?.title, playHandler, type, filteredAndSortedDirectLinks]);
 
-  // Show loading skeleton while episodes are loading
+  const renderServerItem = useCallback((item: Stream, index: number) => (
+    <View key={`server-${index}-${item.server}`} className={`${mode === 'dark' ? 'bg-black/30' : 'bg-gray-100'} p-3 rounded-lg mb-2 flex-row justify-between items-center`} style={{borderColor: primary, borderWidth: 1}}>
+      <TouchableOpacity onPress={() => openExternalPlayer(item.link)} className="flex-1">
+        <View>
+          <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-lg capitalize font-bold`}>{item.server || `Server ${index + 1}`}</Text>
+          <Text className={`${mode === 'dark' ? 'text-white/80' : 'text-black/60'} text-xs`}>{item.type ? `Format: ${item.type.toUpperCase()}` : ''}</Text>
+        </View>
+      </TouchableOpacity>
+      <View className="flex-row gap-x-3 items-center">
+        <TouchableOpacity onPress={() => { Clipboard.setString(item.link); show('Link copied to clipboard', 'success'); }}>
+          <MaterialIcons name="content-copy" size={24} color={primary} />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => openExternalPlayer(item.link)} className={`${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} p-2 rounded-full`}>
+          <MaterialIcons name="file-download" size={24} color={mode === 'dark' ? 'white' : 'black'} />
+        </TouchableOpacity>
+      </View>
+    </View>
+  ), [primary, mode, openExternalPlayer, show]);
+
+  // Loading Skeleton
   if (episodeLoading) {
     return (
       <View>
         {LinkList.length > 1 && (
           <Dropdown
-            selectedTextStyle={{
-              color: primary,
-              overflow: 'hidden',
-              height: 20,
-              fontWeight: 'bold',
-            }}
+            selectedTextStyle={{ color: primary, overflow: 'hidden', height: 20, fontWeight: 'bold' }}
             labelField={'title'}
-            valueField={
-              LinkList[0]?.episodesLink ? 'episodesLink' : 'directLinks'
-            }
+            valueField={LinkList[0]?.episodesLink ? 'episodesLink' : 'directLinks'}
             onChange={handleSeasonChange}
             value={activeSeason}
             data={LinkList}
-            style={{
-              overflow: 'hidden',
-              borderWidth: 1,
-              borderColor: mode === 'dark' ? '#2f302f' : '#e5e7eb',
-              paddingHorizontal: 12,
-              borderRadius: 8,
-              backgroundColor: mode === 'dark' ? 'black' : 'white',
-            }}
-            containerStyle={{
-              overflow: 'hidden',
-              borderWidth: 1,
-              borderColor: 'gray',
-              borderRadius: 8,
-              backgroundColor: mode === 'dark' ? 'black' : 'white',
-            }}
+            style={{ overflow: 'hidden', borderWidth: 1, borderColor: mode === 'dark' ? '#2f302f' : '#e5e7eb', paddingHorizontal: 12, borderRadius: 8, backgroundColor: mode === 'dark' ? 'black' : 'white' }}
+            containerStyle={{ overflow: 'hidden', borderWidth: 1, borderColor: 'gray', borderRadius: 8, backgroundColor: mode === 'dark' ? 'black' : 'white' }}
             renderItem={item => (
-              <View
-                className={`px-3 py-2 text-white flex-row justify-start items-center border-b border-gray-500 text-center ${
-                  activeSeason === item ? (mode === 'dark' ? 'bg-quaternary' : 'bg-gray-200') : (mode === 'dark' ? 'bg-black' : 'bg-white')
-                }`}>
+              <View className={`px-3 py-2 flex-row justify-start items-center border-b border-gray-500 ${activeSeason === item ? (mode === 'dark' ? 'bg-secondary' : 'bg-gray-200') : (mode === 'dark' ? 'bg-black' : 'bg-white')}`}>
                 <Text className={mode === 'dark' ? 'text-white' : 'text-black'}>{item?.title || 'Unknown'}</Text>
               </View>
             )}
           />
         )}
-
-        <View
-          style={{
-            width: '100%',
-            padding: 10,
-            alignItems: 'flex-start',
-            gap: 20,
-          }}>
-          {[...Array(6)].map((_, index) => (
-            <SkeletonLoader key={index} show={true} height={48} width={'85%'} />
+        <View className={`w-full p-4 ${horizontal ? 'flex-row' : 'flex-col'}`} style={{ gap: horizontal ? 24 : 10 }}>
+          {[...Array(horizontal ? 4 : 6)].map((_, i) => (
+            <View key={i} className="rounded-[24px] overflow-hidden">
+              <SkeletonLoader 
+                show={true} 
+                height={horizontal ? 180 : 80} 
+                width={horizontal ? 320 : '100%'} 
+              />
+            </View>
           ))}
         </View>
       </View>
     );
   }
 
-  // Show error state
+  // Error State
   if (episodeError) {
     return (
-      <View className="p-4">
-        <Text className="text-red-500 text-center">
-          {episodeError.message || 'Failed to load episodes. Please try again.'}
-        </Text>
-        <TouchableOpacity
-          className="mt-2 bg-red-600 p-2 rounded-md"
-          onPress={() => refetchEpisodes()}>
-          <Text className="text-white text-center">Retry</Text>
+      <View className="p-4 items-center">
+        <Text className="text-red-500 text-center mb-4">{episodeError.message || 'Failed to load episodes'}</Text>
+        <TouchableOpacity className="bg-primary px-6 py-2 rounded-lg" onPress={() => refetchEpisodes()}>
+          <Text className="text-white font-bold">Retry</Text>
         </TouchableOpacity>
       </View>
     );
   }
 
   return (
-    <View>
-      {/* Season Selector */}
-      {LinkList.length > 1 ? (
-        <Dropdown
-          selectedTextStyle={{
-            color: primary,
-            overflow: 'hidden',
-            height: 20,
-            fontWeight: 'bold',
-          }}
-          labelField={'title'}
-          valueField={
-            LinkList[0]?.episodesLink ? 'episodesLink' : 'directLinks'
-          }
-          onChange={handleSeasonChange}
-          value={activeSeason}
-          data={LinkList}
-          style={{
-            overflow: 'hidden',
-            borderWidth: 1,
-            borderColor: mode === 'dark' ? '#2f302f' : '#e5e7eb',
-            paddingHorizontal: 12,
-            borderRadius: 8,
-            backgroundColor: mode === 'dark' ? 'black' : 'white',
-            paddingVertical: 8,
-          }}
-          containerStyle={{
-            overflow: 'hidden',
-            borderWidth: 1,
-            borderColor: 'gray',
-            borderRadius: 8,
-            backgroundColor: mode === 'dark' ? 'black' : 'white',
-          }}
-          renderItem={item => (
-            <View
-              className={`px-3 py-2 text-white flex-row justify-start items-center border-b border-gray-500 text-center ${
-                activeSeason === item ? (mode === 'dark' ? 'bg-quaternary' : 'bg-gray-200') : (mode === 'dark' ? 'bg-black' : 'bg-white')
-              }`}>
-              <Text className={mode === 'dark' ? 'text-white' : 'text-black'}>{item?.title || 'Unknown'}</Text>
+    <View className="flex-1">
+      <View>
+        <View>
+          {/* Header Controls - Standard for portrait (Tablet Landscape has header selector) */}
+          {!horizontal && (
+            <View className="mb-4">
+              {LinkList.length > 1 ? (
+                <Dropdown
+                  selectedTextStyle={{
+                    color: primary,
+                    fontWeight: 'bold',
+                    fontSize: 14,
+                  }}
+                  labelField={'title'}
+                  valueField={
+                    LinkList[0]?.episodesLink ? 'episodesLink' : 'directLinks'
+                  }
+                  onChange={handleSeasonChange}
+                  value={activeSeason}
+                  data={LinkList}
+                  style={{
+                    borderWidth: 1,
+                    borderColor:
+                      mode === 'dark'
+                        ? 'rgba(255,255,255,0.1)'
+                        : 'rgba(0,0,0,0.1)',
+                    paddingHorizontal: 16,
+                    borderRadius: 12,
+                    backgroundColor:
+                      mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'white',
+                    height: 50,
+                  }}
+                  containerStyle={{
+                    backgroundColor: mode === 'dark' ? '#1a1a1a' : 'white',
+                    borderRadius: 12,
+                    overflow: 'hidden',
+                    marginTop: 4,
+                    borderWidth: 0,
+                  }}
+                  renderItem={item => (
+                    <View
+                      className={`px-4 py-4 border-b border-white/5 ${
+                        activeSeason === item
+                          ? mode === 'dark'
+                            ? 'bg-secondary'
+                            : 'bg-gray-200'
+                          : ''
+                      }`}>
+                      <Text
+                        className={`${
+                          mode === 'dark' ? 'text-white' : 'text-black'
+                        } font-medium`}>
+                        {item?.title}
+                      </Text>
+                    </View>
+                  )}
+                />
+              ) : (
+                <Text
+                  className={`${
+                    mode === 'dark' ? 'text-white' : 'text-black'
+                  } text-xl font-black px-2`}>
+                  {LinkList[0]?.title}
+                </Text>
+              )}
+
+              {/* Search and Sort (Portrait only) */}
+              {(filteredAndSortedEpisodes.length > 5 ||
+                filteredAndSortedDirectLinks.length > 5) && (
+                <View className="flex-row justify-between items-center mt-4 gap-x-2">
+                  <View
+                    className={`flex-1 flex-row items-center ${
+                      mode === 'dark' ? 'bg-secondary/30' : 'bg-white'
+                    } rounded-2xl px-4 h-14 border ${
+                      mode === 'dark' ? 'border-white/5' : 'border-black/5'
+                    } shadow-sm`}>
+                    <Ionicons
+                      name="search"
+                      size={20}
+                      color={mode === 'dark' ? '#ffffff50' : '#00000040'}
+                    />
+                    <TextInput
+                      placeholder="Search episodes..."
+                      placeholderTextColor={
+                        mode === 'dark' ? '#ffffff50' : '#00000040'
+                      }
+                      className={`flex-1 ml-3 ${
+                        mode === 'dark' ? 'text-white' : 'text-black'
+                      } text-sm font-bold`}
+                      value={searchText}
+                      onChangeText={setSearchText}
+                    />
+                  </View>
+                  <TouchableOpacity
+                    className={`${
+                      mode === 'dark' ? 'bg-secondary/30' : 'bg-white'
+                    } w-14 h-14 rounded-2xl items-center justify-center border ${
+                      mode === 'dark' ? 'border-white/5' : 'border-black/5'
+                    } shadow-sm`}
+                    onPress={toggleSortOrder}>
+                    <MaterialCommunityIcons
+                      name={
+                        sortOrder === 'asc'
+                          ? 'sort-ascending'
+                          : 'sort-descending'
+                      }
+                      size={24}
+                      color={primary}
+                    />
+                  </TouchableOpacity>
+                </View>
+              )}
             </View>
           )}
-        />
-      ) : (
-        <Text className={`${mode === 'dark' ? 'text-red-600' : 'text-red-700'} text-lg font-semibold px-2`}>
-          {LinkList[0]?.title || 'Unknown Season'}
-        </Text>
-      )}
 
-      {/* Search and Sort Controls */}
-      {(filteredAndSortedEpisodes.length > 8 ||
-        filteredAndSortedDirectLinks.length > 8) && (
-        <View className="flex-row justify-between items-center mt-2">
-          <TextInput
-            placeholder="Search..."
-            placeholderTextColor={mode === 'dark' ? '#9ca3af' : '#6b7280'}
-            className={`${mode === 'dark' ? 'bg-black/30 text-white border-white/10' : 'bg-white text-black border-black/10'} rounded-md p-2 h-10 w-[80%] border-collapse border`}
-            value={searchText}
-            onChangeText={setSearchText}
-          />
-          <TouchableOpacity
-            className={`${mode === 'dark' ? 'bg-black/30' : 'bg-gray-200'} rounded-md p-2 h-10 w-[15%] flex-row justify-center items-center`}
-            onPress={toggleSortOrder}>
-            <MaterialCommunityIcons
-              name={sortOrder === 'asc' ? 'sort-ascending' : 'sort-descending'}
-              size={24}
-              color={primary}
-            />
-          </TouchableOpacity>
-        </View>
-      )}
-
-      {/* Episode/Direct Links List */}
-      <View className="flex-row flex-wrap justify-center gap-x-2 gap-y-2 mt-5">
-        {/* Episodes List */}
-        {filteredAndSortedEpisodes.length > 0 && (
-          <FlatList
-            data={filteredAndSortedEpisodes}
-            keyExtractor={(item, index) => `episode-${item.link}-${index}`}
-            renderItem={renderEpisodeItem}
-            maxToRenderPerBatch={10}
-            windowSize={10}
-            removeClippedSubviews={true}
-            getItemLayout={(data, index) => ({
-              length: 60,
-              offset: 60 * index,
-              index,
-            })}
-          />
-        )}
-
-        {/* Direct Links List */}
-        {filteredAndSortedDirectLinks.length > 0 && (
-          <View className="w-full justify-center items-center gap-y-2 mt-5 p-2">
-            <FlatList
-              data={filteredAndSortedDirectLinks}
-              keyExtractor={(item, index) => `direct-${item.link}-${index}`}
-              renderItem={renderDirectLinkItem}
-              maxToRenderPerBatch={10}
-              windowSize={10}
-              removeClippedSubviews={true}
-              getItemLayout={(data, index) => ({
-                length: 68,
-                offset: 68 * index,
-                index,
-              })}
-            />
+          {/* List Content */}
+          <View>
+            {horizontal ? (
+              <FlatList
+                horizontal
+                data={combinedData}
+                keyExtractor={(item, index) => `ep-h-${item.link}-${index}`}
+                renderItem={props => {
+                  const isEpisode = filteredAndSortedEpisodes.some(
+                    e => e.link === props.item.link,
+                  );
+                  return isEpisode
+                    ? renderHorizontalEpisodeItem(props)
+                    : renderHorizontalDirectLinkItem(props);
+                }}
+                showsHorizontalScrollIndicator={false}
+                contentContainerStyle={{
+                  paddingHorizontal: 30,
+                  paddingBottom: 40,
+                }}
+                snapToAlignment="start"
+                snapToInterval={320 + 32}
+                decelerationRate="fast"
+                initialScrollIndex={nextUpIndex}
+                getItemLayout={(_data, index) => ({
+                  length: 320 + 32,
+                  offset: (320 + 32) * index,
+                  index,
+                })}
+              />
+            ) : (
+              <>
+                {filteredAndSortedEpisodes.length > 0 && (
+                  <FlatList
+                    data={filteredAndSortedEpisodes}
+                    keyExtractor={(item, index) => `ep-${item.link}-${index}`}
+                    renderItem={renderEpisodeItem}
+                    scrollEnabled={false}
+                    initialNumToRender={10}
+                  />
+                )}
+                {filteredAndSortedDirectLinks.length > 0 && (
+                  <FlatList
+                    data={filteredAndSortedDirectLinks}
+                    keyExtractor={(item, index) => `dl-${item.link}-${index}`}
+                    renderItem={renderDirectLinkItem}
+                    scrollEnabled={false}
+                  />
+                )}
+              </>
+            )}
+            {filteredAndSortedEpisodes.length === 0 &&
+              filteredAndSortedDirectLinks.length === 0 && (
+                <View className="py-20 items-center">
+                  <Ionicons
+                    name="film-outline"
+                    size={60}
+                    color={mode === 'dark' ? '#ffffff20' : '#00000020'}
+                  />
+                  <Text
+                    className={`${
+                      mode === 'dark' ? 'text-white/40' : 'text-black/40'
+                    } text-lg mt-4 font-medium`}>
+                    No content available
+                  </Text>
+                </View>
+              )}
           </View>
-        )}
-
-        {/* No Content Available */}
-        {filteredAndSortedEpisodes.length === 0 &&
-          filteredAndSortedDirectLinks.length === 0 &&
-          LinkList?.length === 0 && (
-            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-lg font-semibold min-h-20`}>
-              No stream found
-            </Text>
-          )}
+        </View>
       </View>
 
-      {/* VLC Loading Indicator */}
-      {vlcLoading && (
-        <View className={`absolute top-0 left-0 w-full h-full ${mode === 'dark' ? 'bg-black/60' : 'bg-white/60'} justify-center items-center`}>
-          <Animated.View style={[vlcLoadingAnimatedStyle]}>
-            <MaterialCommunityIcons name="vlc" size={70} color={primary} />
-          </Animated.View>
-          <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-lg font-semibold mt-2`}>
-            Loading available servers...
-          </Text>
-        </View>
-      )}
-
-      {/* Server Selection Modal */}
+      {/* Servers Modal */}
       <Modal
-        animationType="slide"
-        transparent={true}
+        animationType="fade"
+        transparent
         visible={showServerModal}
         onRequestClose={() => setShowServerModal(false)}>
         <Pressable
           onPress={() => setShowServerModal(false)}
-          className="flex-1 justify-center items-center bg-black/60">
-          <View className={`${mode === 'dark' ? 'bg-tertiary border-quaternary' : 'bg-white border-gray-200'} rounded-2xl p-6 w-[92%] max-w-[400px] border shadow-2xl`}>
-            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-xl font-bold mb-2 text-center`}>
-              Select External Player Server
+          className="flex-1 bg-black/70 justify-end">
+          <View
+            className={`${
+              mode === 'dark' ? 'bg-secondary' : 'bg-white'
+            } rounded-t-3xl p-6 min-h-[50%]`}>
+            <View className="w-12 h-1.5 bg-gray-500/20 rounded-full self-center mb-6" />
+            <Text
+              className={`${
+                mode === 'dark' ? 'text-white' : 'text-black'
+              } text-xl font-bold mb-1`}>
+              Available Servers
             </Text>
-            <Text className={`${mode === 'dark' ? 'text-white/60' : 'text-black/50'} text-sm mb-4 text-center`}>
-              {externalPlayerStreams.length} servers available
+            <Text
+              className={`${
+                mode === 'dark' ? 'text-white/50' : 'text-black/50'
+              } text-sm mb-6`}>
+              {externalPlayerStreams.length} high-quality streams found
             </Text>
-            <View className={`${mode === 'dark' ? 'bg-white/5' : 'bg-gray-50'} p-3 rounded-xl mb-6 border ${mode === 'dark' ? 'border-white/10' : 'border-black/5'}`}>
-              <Text className={`${mode === 'dark' ? 'text-white/70' : 'text-black/70'} text-xs text-center italic`}>
-                Note: Copy link and use it in any external downloader or player.
-              </Text>
-            </View>
 
             {isLoadingStreams ? (
               <ActivityIndicator size="large" color={primary} />
             ) : (
-              <>
-                <ScrollView style={{maxHeight: 350}} showsVerticalScrollIndicator={true}>
-                  {externalPlayerStreams.map((item, index) =>
-                    renderServerItem(item, index),
-                  )}
-                  {externalPlayerStreams.length === 0 && (
-                    <Text className={`${mode === 'dark' ? 'text-white/50' : 'text-black/40'} text-center p-8`}>
-                      No servers available
-                    </Text>
-                  )}
-                </ScrollView>
-
-                <TouchableOpacity
-                  className={`mt-6 ${mode === 'dark' ? 'bg-white/5' : 'bg-gray-100'} py-3 rounded-xl`}
-                  onPress={() => setShowServerModal(false)}>
-                  <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-center font-bold`}>
-                    Cancel
-                  </Text>
-                </TouchableOpacity>
-              </>
+              <ScrollView showsVerticalScrollIndicator={false}>
+                {externalPlayerStreams.map((s, i) => renderServerItem(s, i))}
+              </ScrollView>
             )}
           </View>
         </Pressable>
       </Modal>
 
-      {/* Sticky Menu Modal (Removed in favor of inline buttons) */}
+      {/* VLC Overlay */}
+      {vlcLoading && (
+        <View className="absolute inset-0 bg-black/80 items-center justify-center z-50 rounded-2xl">
+          <Animated.View style={vlcLoadingAnimatedStyle}>
+            <MaterialCommunityIcons name="vlc" size={80} color={primary} />
+          </Animated.View>
+          <Text className="text-white text-lg font-bold mt-4">
+            Preparing Stream...
+          </Text>
+        </View>
+      )}
 
-      {/* Shared Download Bottom Sheet */}
+      {/* Download Sheet */}
       <DownloadBottomSheet
         data={downloadServers}
         loading={downloadLoading}
@@ -985,7 +1013,9 @@ const SeasonList: React.FC<SeasonListProps> = ({
         title={downloadData?.title || 'Download Options'}
         error={downloadError}
         onPressVideo={(server: Stream) => {
-          if (!downloadData) return;
+          if (!downloadData) {
+            return;
+          }
           if (settingsStorage.getBool('alwaysExternalDownloader')) {
             Linking.openURL(server.link);
             return;
@@ -995,18 +1025,16 @@ const SeasonList: React.FC<SeasonListProps> = ({
             url: server.link,
             fileName: downloadData.fileName,
             fileType: server.type,
-            setDownloadActive: setDownloadActive,
+            setDownloadActive: _v => {},
             headers: server.headers,
-            setAlreadyDownloaded: () => {}, // Handled by Downloader's internal effect
-            setDownloadId: () => {}, // Handled by Downloader's internal state if needed
-            deleteDownload: () => {}, // Handled by Downloader
+            setAlreadyDownloaded: () => {},
+            setDownloadId: () => {},
+            deleteDownload: () => {},
             provider: providerValue,
           });
         }}
         onPressSubs={(item: any) => {
-          if (!downloadData) return;
-          if (settingsStorage.getBool('alwaysExternalDownloader')) {
-            Linking.openURL(item.link);
+          if (!downloadData) {
             return;
           }
           downloadManager({
@@ -1014,7 +1042,7 @@ const SeasonList: React.FC<SeasonListProps> = ({
             url: item.link,
             fileName: item.title.replaceAll(/[^a-zA-Z0-9]/g, '_'),
             fileType: item.type,
-            setDownloadActive: setDownloadActive,
+            setDownloadActive: _v => {},
             setAlreadyDownloaded: () => {},
             setDownloadId: () => {},
             deleteDownload: () => {},
@@ -1024,6 +1052,6 @@ const SeasonList: React.FC<SeasonListProps> = ({
       />
     </View>
   );
-};
+});
 
 export default SeasonList;
