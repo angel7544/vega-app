@@ -57,10 +57,10 @@ const Toast = () => {
       }}>
       <View
         className={`${
-          mode === 'dark' ? 'bg-[#1e1e1e]' : 'bg-white'
-        } flex-row items-center p-4 rounded-xl shadow-lg border border-white/10`}
+          mode === 'dark' ? 'bg-[#1e1e1e] border-white/5' : 'bg-white border-gray-100'
+        } flex-row items-center p-4 rounded-2xl shadow-2xl`}
         style={{
-          elevation: 5,
+          elevation: 10,
           width: width - 40,
         }}>
         <MaterialIcons name={getTypeIcon()} size={24} color={getIconColor()} />

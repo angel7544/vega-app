@@ -47,8 +47,12 @@ const ConfirmationModal = ({
           style={[
             styles.container,
             {
-              backgroundColor: isDark ? '#171717' : '#FFFFFF',
-              borderColor: isDark ? '#2B2B2B' : '#E5E7EB',
+              backgroundColor: isDark ? '#121212' : '#FFFFFF',
+              borderColor: isDark ? '#2B2B2B' : '#F3F4F6',
+              shadowColor: isDark ? '#000' : '#000',
+              shadowOpacity: isDark ? 0.5 : 0.1,
+              shadowRadius: 20,
+              elevation: 10,
             },
           ]}>
           {/* Icon Header */}
@@ -56,7 +60,7 @@ const ConfirmationModal = ({
             <View
               style={[
                 styles.iconContainer,
-                {backgroundColor: isDestructive ? '#F8717120' : `${primary}15`},
+                {backgroundColor: isDestructive ? '#F8717115' : `${primary}10`},
               ]}>
               <MaterialCommunityIcons
                 name={isDestructive ? 'alert-circle-outline' : 'help-circle-outline'}

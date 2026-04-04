@@ -20,6 +20,7 @@ import {
 import {createProviderSource} from '../../../lib/utils/helpers';
 import {socialLinks} from '../../../lib/constants';
 import useThemeStore from '../../../lib/zustand/themeStore';
+import useToastStore from '../../../lib/zustand/toastStore';
 
 type Props = {
   primary: string;
@@ -36,6 +37,7 @@ type SourceDropdownItem = {
 
 const ProviderSourceManager = ({primary, visible, onSourceChanged}: Props) => {
   const {mode} = useThemeStore(state => state);
+  const {show} = useToastStore();
   const [sources, setSources] = useState<ProviderSource[]>([]);
   const [showAddDialog, setShowAddDialog] = useState(false);
   const [isDropdownFocused, setIsDropdownFocused] = useState(false);
@@ -92,16 +94,13 @@ const ProviderSourceManager = ({primary, visible, onSourceChanged}: Props) => {
       reloadSources();
       await onSourceChanged(extensionStorage.getProviderSource());
     } catch (error) {
-      Alert.alert(
-        'Invalid source',
-        'Enter a valid source URL or GitHub author.',
-      );
+      show('Enter a valid source URL or GitHub author.', 'error');
     }
   };
 
   const handleRemoveSource = (author: string) => {
     if (sources.length <= 1) {
-      Alert.alert('Cannot remove', 'At least one source must remain.');
+      show('At least one source must remain.', 'error');
       return;
     }
 
@@ -292,9 +291,9 @@ const ProviderSourceManager = ({primary, visible, onSourceChanged}: Props) => {
                 </TouchableOpacity>
               </Text>
               <TextInput
-                className={`${mode === 'dark' ? 'bg-quaternary text-white border-gray-700' : 'bg-gray-100 text-black border-gray-300'} rounded-lg px-4 py-3 border mt-3`}
+                className={`${mode === 'dark' ? 'bg-white/5 text-white border-white/10' : 'bg-gray-50 text-black border-gray-200'} rounded-xl px-4 py-3 border mt-4`}
                 placeholder="https://github.com/username/repo or username"
-                placeholderTextColor={mode === 'dark' ? '#6B7280' : '#9CA3AF'}
+                placeholderTextColor={mode === 'dark' ? '#555' : '#999'}
                 value={inputValue}
                 onChangeText={setInputValue}
                 autoCapitalize="none"

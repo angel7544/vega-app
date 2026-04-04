@@ -13,6 +13,7 @@ import {NativeStackScreenProps} from '@react-navigation/native-stack';
 import {WatchHistoryStackParamList} from '../App';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import Feather from '@expo/vector-icons/Feather';
+import Ionicons from '@expo/vector-icons/Ionicons';
 import useThemeStore from '../lib/zustand/themeStore';
 import {mainStorage} from '../lib/storage';
 
@@ -118,24 +119,38 @@ const WatchHistory = ({navigation}: Props) => {
   }, [uniqueHistory]);
 
   const handlePlayDirectly = (item: any) => {
+    console.log('🎬 Direct Play Triggered for:', item.title);
+    
     // If we have cached player params, go straight to Player
     if (item.cachedInfoData && item.cachedInfoData.episodeList) {
       try {
-        navigation.navigate('Player' as any, {
+        console.log('✅ Found cached player data, navigating to Player');
+        // Use the full cached data but override with current history item details
+        const playerParams = {
           ...item.cachedInfoData,
-          // Update the specific fields from the history item to ensure they are current
-          linkIndex: item.cachedInfoData.linkIndex,
+          linkIndex: item.cachedInfoData.linkIndex ?? 0,
           primaryTitle: item.title,
           secondaryTitle: item.episodeTitle,
           providerValue: item.provider,
-        });
+          infoUrl: item.link,
+          poster: {
+             poster: item.poster || item.image,
+             background: item.poster || item.image
+          }
+        };
+
+        // Navigate to the root Player screen
+        // Using 'Player' directly works if the navigation object allows it
+        (navigation as any).navigate('Player', playerParams);
         return;
       } catch (e) {
-        console.error('Failed to navigate directly to Player:', e);
+        console.error('❌ Failed to navigate directly to Player:', e);
       }
+    } else {
+      console.log('⚠️ No cached player data found for this item');
     }
 
-    // Fallback to Info screen
+    // Fallback to Info screen if direct play is not possible
     handleNavigateToInfo(item);
   };
 
@@ -182,9 +197,16 @@ const WatchHistory = ({navigation}: Props) => {
     const match = title.match(/(?:S|Season\s*)(\d+)?.*(?:E|Episode\s*|EP\s*)(\d+)/i);
     if (match) {
       const s = match[1] ? `S${match[1].padStart(2, '0')}` : '';
-      const e = match[2] ? `E${match[2].padStart(2, '0')}` : '';
+      const e = match[2] ? `EP ${match[2].padStart(2, '0')}` : `EP ${match[0].match(/\d+/)?.[0].padStart(2, '0') || ''}`;
       return s ? `${s} ${e}` : e;
     }
+    
+    // Fallback search for any standalone number if 'Episode' etc isn't found but desired
+    const standaloneMatch = title.match(/(?:^|\s)(\d+)(?:\s|$)/);
+    if (standaloneMatch) {
+      return `EP ${standaloneMatch[1].padStart(2, '0')}`;
+    }
+    
     return null;
   };
 
@@ -254,8 +276,8 @@ const WatchHistory = ({navigation}: Props) => {
 
             return (
               <TouchableOpacity
-                onPress={() => handlePlayDirectly(item)}
-                activeOpacity={0.8}
+                onPress={() => handleNavigateToInfo(item)}
+                activeOpacity={0.9}
                 className={`flex-row p-3 mb-4 rounded-3xl ${
                   mode === 'dark' ? 'bg-[#121212]' : 'bg-gray-50'
                 } border ${mode === 'dark' ? 'border-white/5' : 'border-gray-200'}`}>
@@ -265,7 +287,7 @@ const WatchHistory = ({navigation}: Props) => {
                   className="rounded-2xl overflow-hidden shadow-lg relative"
                   style={{ width: 90, height: 135, backgroundColor: mode === 'dark' ? '#1a1a1a' : '#f0f0f0' }}>
                   <Image
-                    source={{uri: item.image}}
+                    source={{uri: item.poster || item.image || ''}}
                     className="w-full h-full"
                     style={{ resizeMode: 'cover' }}
                   />
@@ -307,13 +329,25 @@ const WatchHistory = ({navigation}: Props) => {
 
                   {/* Progress Section */}
                   <View className="mt-auto">
-                    <View className="flex-row justify-between items-end mb-2">
+                    <View className="flex-row justify-between items-center">
                        <View className="flex-row items-center">
                          <Feather name="play-circle" size={12} color={isCompleted ? primary : (mode === 'dark' ? '#666' : '#999')} />
                          <Text className={`text-[10px] font-black ml-1.5 uppercase tracking-tighter ${isCompleted ? 'text-primary' : (mode === 'dark' ? 'text-gray-500' : 'text-gray-400')}`}>
                             {isCompleted ? 'Finished' : `${Math.round(progress)}% • ${remainingTime || 'Watched'}`}
                          </Text>
                        </View>
+
+                       {!isCompleted && (
+                         <TouchableOpacity
+                           onPress={() => handlePlayDirectly(item)}
+                           style={{ backgroundColor: primary }}
+                           className="flex-row items-center px-4 py-1.5 rounded-full shadow-lg shadow-primary/30">
+                           <Ionicons name="play" size={12} color="white" />
+                           <Text className="text-white text-[10px] font-black uppercase ml-1.5">
+                             Continue
+                           </Text>
+                         </TouchableOpacity>
+                       )}
                     </View>
                     
                     {/* Progress Bar Container */}

@@ -244,10 +244,7 @@ const Extensions = ({navigation}: Props) => {
       // Update store and local data
       loadProviders(activeSourceAuthor);
 
-      Alert.alert(
-        'Success',
-        `${provider.display_name} has been installed successfully!`,
-      );
+      show(`${provider.display_name} installed successfully!`, 'success');
       
       // Set as active if none selected
       if (!activeExtensionProvider) {
@@ -255,10 +252,7 @@ const Extensions = ({navigation}: Props) => {
       }
     } catch (error: any) {
       console.error('Installation error:', error);
-      Alert.alert(
-        'Installation Failed',
-        `Failed to install ${provider.display_name}.\n\nError: ${error.message || 'Unknown network error'}`
-      );
+      show(`Failed to install ${provider.display_name}`, 'error');
     } finally {
       setInstallingProvider(null);
     }
@@ -344,116 +338,80 @@ const Extensions = ({navigation}: Props) => {
 
     return (
       <View
-        className={`${mode === 'dark' ? 'bg-tertiary border-quaternary' : 'bg-white border-gray-200'} rounded-2xl p-5 py-3 mb-4 mx-4 shadow-lg border`}
-        style={{elevation: 4}}>
-        <View className="flex-row items-center mb-4 gap-4 justify-between">
+        className={`${mode === 'dark' ? 'bg-[#121212] border-white/5' : 'bg-gray-50 border-gray-200'} rounded-2xl p-4 mb-4 mx-4 shadow-sm border`}>
+        <View className="flex-row items-center gap-4 justify-between">
           {/* Left: Icon */}
-          {item.icon ? (
-            <Image
-              source={{uri: item.icon}}
-              className="w-12 h-12 rounded-xl border-2 border-primary bg-quaternary"
-              style={{resizeMode: 'cover'}}
-            />
-          ) : (
-            <View className={`${mode === 'dark' ? 'bg-quaternary border-gray-700' : 'bg-gray-100 border-gray-300'} px-3 py-2 rounded-xl border`}>
-              <RenderProviderFlagIcon type={item.type} />
-            </View>
-          )}
-          {/* Middle: Info */}
-          <View className="flex-1 mx-3">
-            <View className="flex-row items-center flex-wrap">
-              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-lg font-bold tracking-wide flex-1`}>
-                {item.display_name || 'Unknown Provider'}{' '}
-                <Text className={`font-medium text-sm ${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'}`}>
-                  v{item.version || 'Unknown'}
-                </Text>
-              </Text>
-              {hasUpdate && updateInfo && (
-                <View
-                  style={{backgroundColor: primary}}
-                  className="px-2 py-0.5 rounded-full ml-1">
-                  <Text className="text-xs text-white font-semibold">
-                    Update
-                  </Text>
-                </View>
-              )}
-            </View>
-            <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-xs capitalize`}>
-              • {item.type || 'Unknown'}
-            </Text>
-            {item?.source?.author && (
-              <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-xs`} numberOfLines={1}>
-                • {item.source.author}
-              </Text>
+          <View className="relative">
+            {item.icon ? (
+              <Image
+                source={{uri: item.icon}}
+                className="w-12 h-12 rounded-xl border-2 border-primary/20 bg-quaternary"
+                style={{resizeMode: 'cover'}}
+              />
+            ) : (
+              <View className={`${mode === 'dark' ? 'bg-white/5 border-white/10' : 'bg-white border-gray-200'} w-12 h-12 items-center justify-center rounded-xl border`}>
+                <RenderProviderFlagIcon type={item.type} />
+              </View>
+            )}
+            {isActive && (
+              <View className="absolute -top-1 -right-1 bg-green-500 w-4 h-4 rounded-full border-2 border-black items-center justify-center">
+                <MaterialIcons name="check" size={10} color="white" />
+              </View>
             )}
           </View>
-          {/* Right: Buttons */}
-          <View className="flex-row gap-3 items-center">
+
+          {/* Middle: Info */}
+          <View className="flex-1 mx-1">
+            <View className="flex-row items-center flex-wrap">
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base font-black tracking-tight flex-1`} numberOfLines={1}>
+                {item.display_name || 'Unknown Provider'}
+              </Text>
+            </View>
+            <View className="flex-row items-center space-x-2 mt-0.5">
+               <Text className={`${mode === 'dark' ? 'text-gray-500' : 'text-gray-400'} text-[10px] font-black uppercase tracking-widest`}>
+                 {item.type || 'Generic'} • v{item.version || '1.0'}
+               </Text>
+               {hasUpdate && (
+                 <View className="bg-primary/20 px-1.5 py-0.5 rounded">
+                   <Text className="text-primary text-[8px] font-black uppercase">Update</Text>
+                 </View>
+               )}
+            </View>
+          </View>
+
+          {/* Right: Actions */}
+          <View className="flex-row items-center space-x-2">
             {activeTab === 'installed' ? (
               <>
-                <TouchableOpacity
-                  onPress={() => handleSetActiveProvider(item)}
-                  className={`w-9 h-9 rounded-full items-center justify-center ${
-                    isActive ? 'bg-green-600' : 'bg-gray-700'
-                  }`}
-                  style={{opacity: isActive ? 1 : 0.9}}>
-                  <MaterialIcons
-                    name={isActive ? 'check-circle' : 'radio-button-unchecked'}
-                    size={20}
-                    color="white"
-                  />
-                </TouchableOpacity>
+                {!isActive && (
+                  <TouchableOpacity
+                    onPress={() => handleSetActiveProvider(item)}
+                    className={`w-9 h-9 rounded-xl items-center justify-center ${mode === 'dark' ? 'bg-white/5' : 'bg-gray-100'}`}>
+                    <MaterialIcons name="radio-button-unchecked" size={18} color={mode === 'dark' ? '#666' : '#999'} />
+                  </TouchableOpacity>
+                )}
                 {hasUpdate && (
                   <TouchableOpacity
                     onPress={() => handleUpdateProvider(updateInfo!.provider)}
                     disabled={isUpdating}
-                    className="w-9 h-9 rounded-full items-center justify-center"
-                    style={{
-                      backgroundColor: primary,
-                      opacity: isUpdating ? 0.7 : 1,
-                    }}>
-                    {isUpdating ? (
-                      <ActivityIndicator size="small" color="white" />
-                    ) : (
-                      <MaterialCommunityIcons
-                        name="update"
-                        size={20}
-                        color="white"
-                      />
-                    )}
+                    className="w-9 h-9 rounded-xl items-center justify-center"
+                    style={{ backgroundColor: primary }}>
+                    {isUpdating ? <ActivityIndicator size="small" color="white" /> : <Feather name="refresh-cw" size={16} color="white" />}
                   </TouchableOpacity>
                 )}
                 <TouchableOpacity
-                  onPress={() => ((provider: any) => {
-                    setProviderToUninstall(provider);
-                    setConfirmUninstallVisible(true);
-                  })(item)}
-                  className="w-9 h-9 rounded-full items-center justify-center bg-red-600">
-                  <MaterialCommunityIcons
-                    name="delete"
-                    size={20}
-                    color="white"
-                  />
+                  onPress={() => handleUninstallProvider(item)}
+                  className="w-9 h-9 rounded-xl items-center justify-center bg-red-600/10">
+                  <MaterialCommunityIcons name="delete-outline" size={18} color="#EF4444" />
                 </TouchableOpacity>
               </>
             ) : (
               <TouchableOpacity
                 onPress={() => handleInstallProvider(item)}
                 disabled={isInstalled || isInstalling}
-                className={'w-9 h-9 rounded-full items-center justify-center'}
-                style={{
-                  opacity: isInstalling ? 0.7 : 1,
-                  backgroundColor: isInstalled ? 'gray' : primary,
-                }}>
-                {isInstalling ? (
-                  <ActivityIndicator size="small" color="white" />
-                ) : (
-                  <MaterialCommunityIcons
-                    name={isInstalled ? 'check' : 'download'}
-                    size={20}
-                    color="white"
-                  />
-                )}
+                className="w-9 h-9 rounded-xl items-center justify-center"
+                style={{ backgroundColor: isInstalled ? (mode === 'dark' ? '#333' : '#eee') : primary }}>
+                {isInstalling ? <ActivityIndicator size="small" color="white" /> : <Feather name={isInstalled ? "check" : "download"} size={16} color={isInstalled ? (mode === 'dark' ? '#666' : '#999') : "white"} />}
               </TouchableOpacity>
             )}
           </View>
