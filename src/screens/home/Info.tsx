@@ -303,11 +303,35 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                     backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'white', 
                     height: isMobileLandscape ? 38 : 44,
                   }}
-                  renderItem={item => (
-                    <View className={`px-4 py-3 border-b border-white/5 ${activeSeason === item ? (mode === 'dark' ? 'bg-secondary' : 'bg-gray-200') : ''}`}>
-                      <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-medium`}>{sanitizeName(item?.title)}</Text>
-                    </View>
-                  )}
+                  containerStyle={{ 
+                    backgroundColor: mode === 'dark' ? '#121212' : 'white', 
+                    borderRadius: 12, 
+                    borderWidth: 1, 
+                    borderColor: borderCol,
+                    overflow: 'hidden',
+                  }}
+                  itemContainerStyle={{
+                    borderBottomWidth: 1,
+                    borderBottomColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)',
+                  }}
+                  activeColor={mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.05)'}
+                  renderItem={item => {
+                    const itemMetadata = extractMetadata(item?.title || '');
+                    return (
+                      <View className="px-4 py-3 flex-row items-center justify-between">
+                        <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-medium flex-1`} numberOfLines={1}>
+                          {sanitizeName(item?.title)}
+                        </Text>
+                        <View className="flex-row items-center ml-2">
+                          {[...itemMetadata.quality, ...itemMetadata.technical].slice(0, 2).map((ext, idx) => (
+                             <View key={idx} className="bg-primary/20 px-1.5 py-0.5 rounded ml-1 border border-primary/30">
+                                <Text className="text-primary text-[8px] font-black uppercase">{ext}</Text>
+                             </View>
+                          ))}
+                        </View>
+                      </View>
+                    );
+                  }}
                 />
               </View>
             )}
@@ -577,12 +601,32 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                         backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.03)', 
                         height: 54,
                       }}
-                      containerStyle={{ backgroundColor: mode === 'dark' ? '#0a0a0a' : 'white', borderRadius: 16, overflow: 'hidden', marginTop: 10, borderWidth: 1, borderColor: mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)' }}
-                      renderItem={item => (
-                        <View className={`px-4 py-4 border-b border-white/5 ${activeSeason === item ? (mode === 'dark' ? 'bg-primary/20' : 'bg-gray-200') : ''}`}>
-                          <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-medium`}>{sanitizeName(item?.title)}</Text>
-                        </View>
-                      )}
+                      containerStyle={{ 
+                        backgroundColor: mode === 'dark' ? '#0a0a0a' : 'white', 
+                        borderRadius: 16, 
+                        borderWidth: 1, 
+                        borderColor: mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)',
+                        overflow: 'hidden',
+                        marginTop: 10,
+                      }}
+                      activeColor={mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.05)'}
+                      renderItem={item => {
+                        const itemMetadata = extractMetadata(item?.title || '');
+                        return (
+                          <View className={`px-4 py-4 border-b border-white/5 flex-row items-center justify-between ${activeSeason === item ? (mode === 'dark' ? 'bg-primary/20' : 'bg-gray-100') : ''}`}>
+                            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-medium flex-1`} numberOfLines={1}>
+                              {sanitizeName(item?.title)}
+                            </Text>
+                            <View className="flex-row items-center ml-2">
+                              {[...itemMetadata.quality, ...itemMetadata.technical].slice(0, 2).map((ext, idx) => (
+                                <View key={idx} className="bg-primary/20 px-1.5 py-0.5 rounded ml-1 border border-primary/30">
+                                    <Text className="text-primary text-[8px] font-black uppercase">{ext}</Text>
+                                </View>
+                              ))}
+                            </View>
+                          </View>
+                        );
+                      }}
                     />
                   </View>
 

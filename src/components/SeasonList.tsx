@@ -910,13 +910,40 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
             onChange={handleSeasonChange}
             value={activeSeason}
             data={LinkList}
-            style={{ overflow: 'hidden', borderWidth: 1, borderColor: mode === 'dark' ? '#2f302f' : '#e5e7eb', paddingHorizontal: 12, borderRadius: 8, backgroundColor: mode === 'dark' ? 'black' : 'white' }}
-            containerStyle={{ overflow: 'hidden', borderWidth: 1, borderColor: 'gray', borderRadius: 8, backgroundColor: mode === 'dark' ? 'black' : 'white' }}
-            renderItem={item => (
-              <View className={`px-3 py-2 flex-row justify-start items-center border-b border-gray-500 ${activeSeason === item ? (mode === 'dark' ? 'bg-secondary' : 'bg-gray-200') : (mode === 'dark' ? 'bg-black' : 'bg-white')}`}>
-                <Text className={mode === 'dark' ? 'text-white' : 'text-black'}>{sanitizeName(item?.title || 'Unknown')}</Text>
-              </View>
-            )}
+            style={{ 
+              overflow: 'hidden', 
+              borderWidth: 1, 
+              borderColor: mode === 'dark' ? '#2f302f' : '#e5e7eb', 
+              paddingHorizontal: 12, 
+              borderRadius: 8, 
+              backgroundColor: mode === 'dark' ? 'black' : 'white',
+              height: 44
+            }}
+            containerStyle={{ 
+              backgroundColor: mode === 'dark' ? '#121212' : 'white', 
+              borderRadius: 8, 
+              borderWidth: 1, 
+              borderColor: mode === 'dark' ? '#2f302f' : '#e5e7eb',
+              overflow: 'hidden',
+            }}
+            activeColor={mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.05)'}
+            renderItem={item => {
+              const itemMetadata = extractMetadata(item?.title || '');
+              return (
+                <View className={`px-3 py-2 flex-row justify-between items-center border-b border-white/5 ${activeSeason === item ? (mode === 'dark' ? 'bg-secondary' : 'bg-gray-100') : ''}`}>
+                  <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} flex-1`} numberOfLines={1}>
+                    {sanitizeName(item?.title || 'Unknown')}
+                  </Text>
+                   <View className="flex-row items-center ml-2">
+                    {[...itemMetadata.quality, ...itemMetadata.technical].slice(0, 2).map((ext, idx) => (
+                      <View key={idx} className="bg-primary/20 px-1.5 py-0.5 rounded ml-1 border border-primary/30">
+                          <Text className="text-primary text-[8px] font-black uppercase">{ext}</Text>
+                      </View>
+                    ))}
+                  </View>
+                </View>
+              );
+            }}
           />
         )}
         <View className={`w-full p-4 ${horizontal ? 'flex-row' : 'flex-col'}`} style={{ gap: horizontal ? 24 : 10 }}>
