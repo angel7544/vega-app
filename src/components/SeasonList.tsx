@@ -156,6 +156,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
   const [stickyMenuMetadata, setStickyMenuMetadata] = useState<{
     title: string;
     fileName: string;
+    size?: string;
   } | null>(null);
   const [watchRefresh, setWatchRefresh] = useState(0);
 
@@ -388,7 +389,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
     Linking.openURL(stream.link);
   }, [stickyMenuMetadata, show]);
 
-  const handleShowServers = useCallback(async (link: string, streamType: string, metadata: {title: string; fileName: string}) => {
+  const handleShowServers = useCallback(async (link: string, streamType: string, metadata: {title: string; fileName: string; size?: string}) => {
     setShowServerCard(true);
     setIsLoadingStreams(true);
     setStickyMenuMetadata(metadata);
@@ -410,8 +411,9 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
 
   const handleDownload = useCallback((link: string, title: string, streamType: string, fileName: string) => {
     // According to user request, Download button now also triggers the servers modal
-    handleShowServers(link, streamType, { title, fileName });
-  }, [handleShowServers]);
+    const epMeta = getEpisodeMetadata(title);
+    handleShowServers(link, streamType, { title, fileName, size: epMeta?.size });
+  }, [handleShowServers, getEpisodeMetadata]);
 
   const openExternalPlayer = useCallback(async (streamUrl: string) => {
     setShowServerCard(false);
@@ -451,9 +453,11 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
         await IntentLauncher.startActivityAsync('android.intent.action.VIEW', { data: dwFile, type: 'video/*' });
         return;
       }
+      const epMeta = getEpisodeMetadata(item.title);
       handleShowServers(item.link, type, {
         title: metaTitle.length > 30 ? metaTitle.slice(0, 30) + '... ' + item.title : metaTitle + ' ' + item.title,
-        fileName: file
+        fileName: file,
+        size: epMeta?.size
       });
       return;
     }
@@ -1000,11 +1004,11 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
               <View className="flex-row justify-between items-start mb-6">
                 <View className="flex-1 mr-4">
                   <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-2xl font-black uppercase tracking-tight`}>
-                    {isLoadingStreams ? 'Searching' : 'Servers'}
+                    {isLoadingStreams ? 'Searching Links' : 'Download Links'}
                   </Text>
                   {stickyMenuMetadata && (
                     <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-[10px] font-black uppercase tracking-widest mt-1`} numberOfLines={1}>
-                      {sanitizeName(stickyMenuMetadata.title)}
+                      {sanitizeName(stickyMenuMetadata.title)} {stickyMenuMetadata.size ? `• ${stickyMenuMetadata.size}` : ''}
                     </Text>
                   )}
                 </View>

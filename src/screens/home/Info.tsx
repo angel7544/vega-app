@@ -311,7 +311,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
               className={`w-11 h-11 ${cardBg} rounded-xl items-center justify-center border ${borderCol}`}
             >
               <MaterialCommunityIcons 
-                name={isDescending ? "sort-calendar-descending" : "sort-calendar-ascending"} 
+                name={isDescending ? "sort-descending" : "sort-ascending"} 
                 size={22} 
                 color={mode === 'dark' ? 'white' : 'black'} 
               />
@@ -341,7 +341,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                         {nextUpEpisode ? (nextUpEpisode.progress > 0 ? 'Continue' : 'Watch Now') : (info ? 'Watch Again' : 'Watch Now')}
                     </Text>
                     <Text className="text-white/60 text-[8px] font-bold uppercase tracking-[0.5px] mt-0.5" numberOfLines={1}>
-                        {sanitizeName(nextUpEpisode.title)} {nextUpEpisode.size ? `• ${nextUpEpisode.size}` : ''}
+                        {sanitizeName(nextUpEpisode.title)}
                     </Text>
                 </View>
               </TouchableOpacity>
@@ -425,7 +425,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
             <Ionicons name="chevron-back" size={24} color={mode === 'dark' ? 'white' : 'black'} />
           </TouchableOpacity>
 
-          <View className={`flex-row items-center ${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} rounded-full px-4 h-10 border border-white/10 w-44`}>
+          <View className={`flex-row items-center ${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} rounded-full px-4 h-10 border border-white/10 flex-1 ml-4`}>
             <Ionicons name="search" size={16} color={mode === 'dark' ? '#ffffff50' : '#00000040'} />
             <TextInput
                 placeholder="Search..."
@@ -434,7 +434,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                 onChangeText={(text: string) => seasonListRef.current?.setSearch(text)}
             />
           </View>
-        </View>
+      </View>
 
         <FlatList
           data={[]}
@@ -498,37 +498,54 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                 </TouchableOpacity>
               </View>
 
-              {/* Season Selection Dropdown */}
+              {/* Season Selection Row */}
               {filteredLinkList.length > 1 && (
-                <View className="mt-8 mb-4">
-                  <Dropdown
-                    selectedTextStyle={{ color: mode === 'dark' ? 'white' : 'black', fontWeight: 'bold', fontSize: 13 }}
-                    labelField={'title'}
-                    valueField={filteredLinkList[0]?.episodesLink ? 'episodesLink' : 'directLinks'}
-                    onChange={handleSeasonChange}
-                    value={activeSeason}
-                    data={filteredLinkList}
-                    style={{ 
-                      borderWidth: 1, 
-                      borderColor: mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.05)', 
-                      paddingHorizontal: 16, 
-                      borderRadius: 16, 
-                      backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.03)', 
-                      height: 54,
+                <View className="mt-8 mb-4 flex-row items-center">
+                  <View className="flex-1">
+                    <Dropdown
+                      selectedTextStyle={{ color: mode === 'dark' ? 'white' : 'black', fontWeight: 'bold', fontSize: 13 }}
+                      labelField={'title'}
+                      valueField={filteredLinkList[0]?.episodesLink ? 'episodesLink' : 'directLinks'}
+                      onChange={handleSeasonChange}
+                      value={activeSeason}
+                      data={filteredLinkList}
+                      style={{ 
+                        borderWidth: 1, 
+                        borderColor: mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.05)', 
+                        paddingHorizontal: 16, 
+                        borderRadius: 16, 
+                        backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.03)', 
+                        height: 54,
+                      }}
+                      containerStyle={{ backgroundColor: mode === 'dark' ? '#0a0a0a' : 'white', borderRadius: 16, overflow: 'hidden', marginTop: 10, borderWidth: 1, borderColor: mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)' }}
+                      renderItem={item => (
+                        <View className={`px-4 py-4 border-b border-white/5 ${activeSeason === item ? (mode === 'dark' ? 'bg-primary/20' : 'bg-gray-200') : ''}`}>
+                          <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-medium`}>{sanitizeName(item?.title)}</Text>
+                        </View>
+                      )}
+                    />
+                  </View>
+
+                  <TouchableOpacity 
+                    onPress={() => {
+                        seasonListRef.current?.toggleSort();
+                        setIsDescending(seasonListRef.current?.getSortOrder() === 'desc');
                     }}
-                    containerStyle={{ backgroundColor: mode === 'dark' ? '#0a0a0a' : 'white', borderRadius: 16, overflow: 'hidden', marginTop: 10, borderWidth: 1, borderColor: mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)' }}
-                    renderItem={item => (
-                      <View className={`px-4 py-4 border-b border-white/5 ${activeSeason === item ? (mode === 'dark' ? 'bg-primary/20' : 'bg-gray-200') : ''}`}>
-                        <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-medium`}>{sanitizeName(item?.title)}</Text>
-                      </View>
-                    )}
-                  />
+                    className={`w-[54px] h-[54px] ${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} rounded-2xl ml-3 items-center justify-center border border-white/10`}
+                  >
+                    <MaterialCommunityIcons 
+                      name={isDescending ? "sort-descending" : "sort-ascending"} 
+                      size={24} 
+                      color={mode === 'dark' ? 'white' : 'black'} 
+                    />
+                  </TouchableOpacity>
                 </View>
               )}
 
               {/* Episode List (Premium Vertical Mode) */}
               <View className="mt-4">
                 <SeasonList
+                    ref={seasonListRef}
                     refreshing={false}
                     providerValue={route.params.provider || provider.value}
                     LinkList={filteredLinkList}
