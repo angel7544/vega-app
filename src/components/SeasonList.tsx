@@ -339,19 +339,42 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
   }));
 
   // Handlers
-  const handleExternalPlayer = useCallback(async (link: string, type: string, metadata?: {title: string; fileName: string}) => {
+  const onDownloadServer = useCallback((stream: Stream) => {
+    if (!stickyMenuMetadata) return;
+    
+    show(`Starting download: ${stickyMenuMetadata.title}`, 'success');
+    
+    if (settingsStorage.getBool('alwaysExternalDownloader')) {
+      Linking.openURL(stream.link);
+      return;
+    }
+
+    downloadManager({
+      title: stickyMenuMetadata.title,
+      url: stream.link,
+      fileName: stickyMenuMetadata.fileName,
+      fileType: stream.type || 'video/mp4',
+      setDownloadActive: () => {},
+      headers: stream.headers,
+      setAlreadyDownloaded: () => {},
+      setDownloadId: () => {},
+      deleteDownload: () => {},
+      provider: providerValue,
+    });
+  }, [stickyMenuMetadata, providerValue, show]);
+
+  const handleShowServers = useCallback(async (link: string, streamType: string, metadata: {title: string; fileName: string}) => {
     setVlcLoading(true);
     setIsLoadingStreams(true);
-    if (metadata) setStickyMenuMetadata(metadata);
+    setStickyMenuMetadata(metadata);
     try {
-      const streams = await fetchStreams(link, type, providerValue);
+      const streams = await fetchStreams(link, streamType, providerValue);
       if (!streams || streams.length === 0) {
         show('No streams available from provider', 'error');
         return;
       }
       setExternalPlayerStreams([...streams]);
       setShowServerModal(true);
-      show(`Found ${streams.length} servers`, 'success');
     } catch (error: any) {
       show(error?.message || 'Failed to load streams', 'error');
     } finally {
@@ -360,25 +383,10 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
     }
   }, [fetchStreams, providerValue, show]);
 
-  const handleDownload = useCallback(async (link: string, title: string, downloadType: string, fileName: string) => {
-    setDownloadError(null);
-    setDownloadServers([]);
-    setDownloadData({ title, link, type: downloadType, fileName });
-    setDownloadModal(true);
-    setDownloadLoading(true);
-    try {
-      const streams = await fetchStreams(link, downloadType, providerValue);
-      if (!streams || streams.length === 0) {
-        setDownloadError('No download links available');
-        return;
-      }
-      setDownloadServers(streams);
-    } catch (err: any) {
-      setDownloadError(err?.message || 'Failed to fetch download links');
-    } finally {
-      setDownloadLoading(false);
-    }
-  }, [fetchStreams, providerValue]);
+  const handleDownload = useCallback((link: string, title: string, streamType: string, fileName: string) => {
+    // According to user request, Download button now also triggers the servers modal
+    handleShowServers(link, streamType, { title, fileName });
+  }, [handleShowServers]);
 
   const openExternalPlayer = useCallback(async (streamUrl: string) => {
     setShowServerModal(false);
@@ -418,7 +426,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
         await IntentLauncher.startActivityAsync('android.intent.action.VIEW', { data: dwFile, type: 'video/*' });
         return;
       }
-      handleExternalPlayer(item.link, type, {
+      handleShowServers(item.link, type, {
         title: metaTitle.length > 30 ? metaTitle.slice(0, 30) + '... ' + item.title : metaTitle + ' ' + item.title,
         fileName: file
       });
@@ -435,7 +443,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
       providerValue,
       infoUrl: routeParams.link,
     });
-  }, [addItem, routeParams.link, poster, providerValue, metaTitle, handleExternalPlayer, navigation]);
+  }, [addItem, routeParams.link, poster, providerValue, metaTitle, handleShowServers, navigation]);
 
   const renderHorizontalEpisodeItem = useCallback(({item, index}: {item: any, index: number}) => {
     const progress = getWatchProgress(item.link);
@@ -539,7 +547,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
         <View className="h-4" />
       </View>
     );
-  }, [mode, primary, playHandler, type, metaTitle, activeSeason?.title, combinedData, getEpisodeMetadata, getWatchProgress, handleExternalPlayer, fetchStreams, providerValue, toggleWatched, nextUpIndex]);
+  }, [mode, primary, playHandler, type, metaTitle, activeSeason?.title, combinedData, getEpisodeMetadata, getWatchProgress, handleShowServers, fetchStreams, providerValue, toggleWatched, nextUpIndex, handleDownload]);
 
   const renderHorizontalDirectLinkItem = useCallback(({item, index}: {item: any, index: number}) => {
     const progress = getWatchProgress(item.link);
@@ -651,7 +659,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
                 <Ionicons name={completed ? 'checkbox' : 'square-outline'} size={18} color={completed ? primary : (mode === 'dark' ? 'white' : 'black')} style={{opacity: 0.7}} />
                 <Text className={`${mode === 'dark' ? 'text-white/50' : 'text-black/50'} text-xs font-medium`}>{completed ? 'Watched' : 'Mark Watched'}</Text>
               </TouchableOpacity>
-              <TouchableOpacity className="flex-row items-center gap-x-1 py-1" onPress={() => handleExternalPlayer(item.link, 'series', { title: metaTitle + ' ' + item.title, fileName: (metaTitle + (activeSeason?.title || '') + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_') })}>
+              <TouchableOpacity className="flex-row items-center gap-x-1 py-1" onPress={() => handleShowServers(item.link, 'series', { title: metaTitle + ' ' + item.title, fileName: (metaTitle + (activeSeason?.title || '') + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_') })}>
                 <Feather name="layers" size={16} color={primary} /><Text className={`${mode === 'dark' ? 'text-white/50' : 'text-black/50'} text-xs font-medium`}>Servers</Text>
               </TouchableOpacity>
             </View>
@@ -662,7 +670,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
         </View>
       </View>
     );
-  }, [mode, thumbnailWidth, thumbnailHeight, isTablet, primary, toggleWatched, handleExternalPlayer, metaTitle, activeSeason?.title, playHandler, type, filteredAndSortedEpisodes, getEpisodeMetadata]);
+  }, [mode, thumbnailWidth, thumbnailHeight, isTablet, primary, toggleWatched, handleShowServers, metaTitle, activeSeason?.title, playHandler, type, filteredAndSortedEpisodes, getEpisodeMetadata]);
 
   const renderDirectLinkItem = useCallback(({item, index}: {item: any, index: number}) => {
     const completed = item.isCompleted;
@@ -684,7 +692,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
                 <Ionicons name={completed ? 'checkbox' : 'square-outline'} size={18} color={completed ? primary : (mode === 'dark' ? 'white' : 'black')} style={{opacity: 0.7}} />
                 <Text className={`${mode === 'dark' ? 'text-white/50' : 'text-black/50'} text-xs font-medium`}>{completed ? 'Watched' : 'Mark Watched'}</Text>
               </TouchableOpacity>
-              <TouchableOpacity className="flex-row items-center gap-x-1 py-1" onPress={() => handleExternalPlayer(item.link, item?.type || 'series', { title: metaTitle + ' ' + item.title, fileName: (metaTitle + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_') })}>
+              <TouchableOpacity className="flex-row items-center gap-x-1 py-1" onPress={() => handleShowServers(item.link, item?.type || 'series', { title: metaTitle + ' ' + item.title, fileName: (metaTitle + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_') })}>
                 <Feather name="layers" size={16} color={primary} /><Text className={`${mode === 'dark' ? 'text-white/50' : 'text-black/50'} text-xs font-medium`}>Servers</Text>
               </TouchableOpacity>
             </View>
@@ -695,7 +703,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
         </View>
       </View>
     );
-  }, [mode, primary, toggleWatched, handleExternalPlayer, metaTitle, activeSeason?.title, playHandler, type, filteredAndSortedDirectLinks]);
+  }, [mode, primary, toggleWatched, handleShowServers, metaTitle, activeSeason?.title, playHandler, type, filteredAndSortedDirectLinks]);
 
   const renderServerItem = useCallback((item: Stream, index: number) => (
     <View key={`server-${index}-${item.server}`} className={`${mode === 'dark' ? 'bg-black/30' : 'bg-gray-100'} p-3 rounded-lg mb-2 flex-row justify-between items-center`} style={{borderColor: primary, borderWidth: 1}}>
@@ -709,12 +717,12 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
         <TouchableOpacity onPress={() => { Clipboard.setString(item.link); show('Link copied to clipboard', 'success'); }}>
           <MaterialIcons name="content-copy" size={24} color={primary} />
         </TouchableOpacity>
-        <TouchableOpacity onPress={() => openExternalPlayer(item.link)} className={`${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} p-2 rounded-full`}>
+        <TouchableOpacity onPress={() => onDownloadServer(item)} className={`${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} p-2 rounded-full`}>
           <MaterialIcons name="file-download" size={24} color={mode === 'dark' ? 'white' : 'black'} />
         </TouchableOpacity>
       </View>
     </View>
-  ), [primary, mode, openExternalPlayer, show]);
+  ), [primary, mode, openExternalPlayer, show, onDownloadServer]);
 
   // Loading Skeleton
   if (episodeLoading) {

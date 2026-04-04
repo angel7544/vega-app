@@ -130,16 +130,16 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
 
   // Orientation and Layout
   const isLandscape = windowWidth > windowHeight;
-  const isTabletLandscape = isTablet && isLandscape;
+  const isMobileLandscape = isLandscape && !isTablet;
 
   React.useEffect(() => {
-    if (isTabletLandscape) {
+    if (isLandscape) {
       setNavBarVisible(false);
     } else {
       setNavBarVisible(true);
     }
     return () => setNavBarVisible(true);
-  }, [isTabletLandscape, setNavBarVisible]);
+  }, [isLandscape, setNavBarVisible]);
 
   // Library Management
   const [inLibrary, setInLibrary] = useState(() =>
@@ -238,7 +238,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
     );
   }
 
-  if (isTabletLandscape) {
+  if (isLandscape) {
     const bgPrimary = mode === 'dark' ? 'bg-black' : 'bg-gray-50';
     const textMain = mode === 'dark' ? 'text-white' : 'text-black';
     const textSub = mode === 'dark' ? 'text-white/60' : 'text-black/60';
@@ -249,27 +249,26 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
       <View className={`flex-1 ${bgPrimary}`}>
         <StatusBar hidden />
         
-        {/* Background Backdrop */}
+        {/* Background Backdrop - Global */}
         <View className="absolute inset-0">
           <Image source={{uri: backgroundImage}} className="w-full h-full" resizeMode="cover" />
           <LinearGradient 
-            colors={mode === 'dark' ? ['rgba(0,0,0,0.3)', 'rgba(0,0,0,0.95)'] : ['rgba(255,255,255,0.1)', 'rgba(255,255,255,0.95)']} 
+            colors={mode === 'dark' ? ['rgba(0,0,0,0.4)', 'rgba(0,0,0,0.96)'] : ['rgba(255,255,255,0.2)', 'rgba(255,255,255,0.98)']} 
             className="absolute inset-0" 
           />
         </View>
 
         {/* Top Utility Header */}
-        <View className="absolute top-0 left-0 right-0 h-24 flex-row items-center justify-between px-10 z-50">
-          <TouchableOpacity onPress={() => navigation.goBack()} className={`w-11 h-11 ${cardBg} rounded-full items-center justify-center border ${borderCol} shadow-sm`}>
+        <View className="absolute top-0 left-0 right-0 h-20 flex-row items-center justify-between px-8 z-50">
+          <TouchableOpacity onPress={() => navigation.goBack()} className={`w-10 h-10 ${cardBg} rounded-full items-center justify-center border ${borderCol}`}>
             <Ionicons name="chevron-back" size={24} color={mode === 'dark' ? 'white' : 'black'} />
           </TouchableOpacity>
 
           <View className="flex-row items-center space-x-4">
-            {/* Season Selector - Tablet Landscape */}
-            {isTabletLandscape && filteredLinkList.length > 1 && (
-              <View className="w-56">
+            {filteredLinkList.length > 1 && (
+              <View className={isMobileLandscape ? 'w-40' : 'w-56'}>
                 <Dropdown
-                  selectedTextStyle={{ color: mode === 'dark' ? 'white' : 'black', fontWeight: 'bold', fontSize: 13 }}
+                  selectedTextStyle={{ color: mode === 'dark' ? 'white' : 'black', fontWeight: 'bold', fontSize: isMobileLandscape ? 11 : 13 }}
                   labelField={'title'}
                   valueField={filteredLinkList[0]?.episodesLink ? 'episodesLink' : 'directLinks'}
                   onChange={handleSeasonChange}
@@ -278,123 +277,115 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                   style={{ 
                     borderWidth: 1, 
                     borderColor: borderCol, 
-                    paddingHorizontal: 16, 
-                    borderRadius: 16, 
+                    paddingHorizontal: 12, 
+                    borderRadius: 12, 
                     backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'white', 
-                    height: 48,
-                    shadowColor: '#000',
-                    shadowOffset: { width: 0, height: 2 },
-                    shadowOpacity: 0.1,
-                    shadowRadius: 4,
+                    height: isMobileLandscape ? 38 : 44,
                   }}
-                  containerStyle={{ backgroundColor: mode === 'dark' ? '#0a0a0a' : 'white', borderRadius: 16, overflow: 'hidden', marginTop: 10, borderWidth: 1, borderColor: borderCol }}
+                  containerStyle={{ backgroundColor: mode === 'dark' ? '#0a0a0a' : 'white', borderRadius: 12, overflow: 'hidden', marginTop: 10, borderWidth: 1, borderColor: borderCol }}
                   renderItem={item => (
-                    <View className={`px-4 py-4 border-b border-white/5 ${activeSeason === item ? (mode === 'dark' ? 'bg-secondary' : 'bg-gray-200') : ''}`}>
+                    <View className={`px-4 py-3 border-b border-white/5 ${activeSeason === item ? (mode === 'dark' ? 'bg-secondary' : 'bg-gray-200') : ''}`}>
                       <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-medium`}>{item?.title}</Text>
                     </View>
                   )}
                 />
               </View>
             )}
-
-            {/* Search Bar */}
-            <View className={`flex-row items-center ${mode === 'dark' ? 'bg-secondary/40' : 'bg-white'} rounded-2xl px-4 h-12 border ${borderCol} w-72 shadow-sm`}>
-              <Ionicons name="search" size={18} color={mode === 'dark' ? '#ffffff40' : '#00000040'} />
+            <View className={`flex-row items-center ${mode === 'dark' ? 'bg-secondary/40' : 'bg-white'} rounded-xl px-4 ${isMobileLandscape ? 'h-9 w-40' : 'h-11 w-64'} border ${borderCol}`}>
+              <Ionicons name="search" size={isMobileLandscape ? 14 : 18} color={mode === 'dark' ? '#ffffff40' : '#00000040'} />
               <TextInput
-                placeholder="Search series..."
+                placeholder="Search..."
                 placeholderTextColor={mode === 'dark' ? '#ffffff40' : '#00000040'}
-                className={`flex-1 ml-3 ${textMain} text-xs font-bold`}
+                className={`flex-1 ml-3 ${textMain} ${isMobileLandscape ? 'text-[10px]' : 'text-xs'} font-bold`}
                 onChangeText={(text: string) => seasonListRef.current?.setSearch(text)}
               />
             </View>
           </View>
         </View>
 
-        <View className="flex-1 justify-between p-12 py-16">
-          {/* Main Info Content (Left Side) */}
-          <View className="w-3/5 space-y-6 pt-10">
+        {/* Main Side-by-Side Content */}
+        <View className="flex-1 flex-row pt-20 px-8">
+          
+          {/* Left Column - Large Poster */}
+          <View className={`${isMobileLandscape ? 'w-[28%]' : 'w-[30%]'} h-[85%] rounded-[30px] overflow-hidden border-2 ${borderCol} shadow-2xl`}>
+            <Image source={{uri: posterImage}} className="w-full h-full" resizeMode="stretch" />
+          </View>
+
+          {/* Right Column - Info Cluster */}
+          <View className="flex-1 ml-10 space-y-4">
             <View>
               {meta?.logo ? (
-                <Image source={{uri: meta.logo}} style={{width: 360, height: 140, resizeMode: 'contain'}} />
+                <Image source={{uri: meta.logo}} style={{width: isMobileLandscape ? 260 : 360, height: isMobileLandscape ? 70 : 100, resizeMode: 'contain'}} />
               ) : (
-                <Text className={`${textMain} text-6xl font-black tracking-tighter leading-tight`}>{displayTitle}</Text>
+                <Text className={`${textMain} ${isMobileLandscape ? 'text-3xl' : 'text-5xl'} font-black uppercase tracking-tighter`}>{displayTitle}</Text>
               )}
-              <View className="flex-row items-center mt-6 space-x-3">
-                <View className="bg-primary/20 px-3 py-1 rounded-md border border-primary/30 shadow-sm shadow-primary/10">
-                  <Text className="text-primary text-[10px] font-black uppercase tracking-[1px]">Original Series</Text>
-                </View>
-                <Text className={`${textSub} text-[11px] font-black uppercase tracking-widest`}>{route.params.provider || provider.value}</Text>
+              
+              <View className="flex-row items-center mt-4 space-x-3">
+                {(meta?.imdbRating || info?.rating) && (
+                  <View className="flex-row items-center bg-yellow-400/10 px-2 py-1 rounded-md border border-yellow-400/20">
+                    <Ionicons name="star" size={14} color="#FFD700" />
+                    <Text className="text-yellow-400 ml-1.5 font-black text-sm">{meta?.imdbRating || info?.rating}</Text>
+                  </View>
+                )}
+                {(meta?.year || info?.year) && (
+                  <Text className={`${textSub} font-black text-sm`}>{meta?.year || info?.year}</Text>
+                )}
+                <Text className={`${textSub} font-black text-[10px] uppercase tracking-widest`}>{route.params.provider || provider.value}</Text>
               </View>
             </View>
 
-            <View className="flex-row items-center space-x-6">
-              {(meta?.imdbRating || info?.rating) && (
-                <View className="flex-row items-center">
-                  <Ionicons name="star" size={16} color="#FFD700" />
-                  <Text className={`${textMain} ml-1.5 font-black text-lg`}>{meta?.imdbRating || info?.rating}</Text>
-                </View>
-              )}
-              {(meta?.year || info?.year) && (
-                <Text className={`${textSub} text-xl font-bold`}>{meta?.year || info?.year}</Text>
-              )}
-            </View>
-
-            <View className="flex-row space-x-6 mt-4">
+            {/* Action Buttons */}
+            <View className="flex-row space-x-4 mt-2">
               <TouchableOpacity 
                 onPress={handleWatchNow} 
                 style={{ backgroundColor: primary }}
-                className="px-10 py-5 rounded-[28px] flex-row items-center shadow-2xl"
+                className={`${isMobileLandscape ? 'px-6 py-3' : 'px-10 py-5'} rounded-full flex-row items-center shadow-xl shadow-primary/20`}
               >
-                <Ionicons name="play" size={30} color="white" />
-                <View className="ml-5 pr-4">
-                  <Text className="text-white font-black text-xl leading-tight uppercase tracking-[2px]">Watch Now</Text>
-                  {nextUpEpisode && (
-                    <Text className="text-white/70 text-[9px] font-black uppercase tracking-[1.5px] mt-1" numberOfLines={1}>
-                      Resume: {nextUpEpisode.title} {nextUpEpisode.size ? `• ${nextUpEpisode.size}` : ''}
-                    </Text>
-                  )}
+                <Ionicons name="play" size={24} color="white" />
+                <View className="ml-3">
+                  <Text className="text-white font-black text-base uppercase tracking-wider">Watch Now</Text>
                 </View>
               </TouchableOpacity>
               
               <TouchableOpacity 
                 onPress={inLibrary ? removeLibrary : addLibrary} 
-                className={`bg-white flex-row items-center px-12 py-5 rounded-[28px] shadow-2xl shadow-black/20`}
+                className={`${cardBg} flex-row items-center ${isMobileLandscape ? 'px-6' : 'px-10'} py-3 rounded-full border ${borderCol}`}
               >
-                <Ionicons name={inLibrary ? "heart" : "heart-outline"} size={30} color={inLibrary ? "#EF4444" : "black"} />
-                <Text className="ml-4 font-black text-xl text-black uppercase tracking-[2px]">My List</Text>
+                <Ionicons name={inLibrary ? "heart" : "heart-outline"} size={22} color={inLibrary ? "#EF4444" : mode === 'dark' ? "white" : "black"} />
+                <Text className={`ml-3 font-black text-base ${textMain} uppercase tracking-wider`}>{inLibrary ? 'In List' : 'My List'}</Text>
               </TouchableOpacity>
             </View>
 
-            <Text 
-              className={`${mode === 'dark' ? 'text-white/60' : 'text-black/60'} text-[15px] leading-[26px] font-bold max-w-2xl mt-4`} 
-              numberOfLines={isTablet ? 0 : 4}
-            >
-              {synopsis}
-            </Text>
-          </View>
+            {/* Synopsis - Optimized Scroll */}
+            <View className="flex-1 pr-6 py-2">
+              <Text className={`${textSub} ${isMobileLandscape ? 'text-[12px] leading-[18px]' : 'text-[14px] leading-[22px]'} font-bold`}>
+                {synopsis}
+              </Text>
+            </View>
 
-          {/* Episode Carousel Group (Bottom Section) */}
-          <View className="h-[420px] -mx-12 px-12 pt-4">
-            <SeasonList
-              ref={seasonListRef}
-              onNextUpFound={setNextUpEpisode}
-              horizontal
-              refreshing={false}
-              providerValue={route.params.provider || provider.value}
-              LinkList={filteredLinkList}
-              activeSeasonProp={activeSeason}
-              onSeasonChangeProp={handleSeasonChange}
-              poster={{
-                logo: meta?.logo,
-                poster: posterImage,
-                background: backgroundImage,
-              }}
-              meta={meta}
-              screenshots={info?.screenshots}
-              type={info?.type || 'series'}
-              metaTitle={displayTitle}
-              routeParams={route.params}
-            />
+            {/* Episode Carousel - Anchored Bottom Right */}
+            <View className={`${isMobileLandscape ? 'h-[240px]' : 'h-[320px]'} -ml-10 -mr-8`}>
+              <SeasonList
+                ref={seasonListRef}
+                onNextUpFound={setNextUpEpisode}
+                horizontal
+                refreshing={false}
+                providerValue={route.params.provider || provider.value}
+                LinkList={filteredLinkList}
+                activeSeasonProp={activeSeason}
+                onSeasonChangeProp={handleSeasonChange}
+                poster={{
+                  logo: meta?.logo,
+                  poster: posterImage,
+                  background: backgroundImage,
+                }}
+                meta={meta}
+                screenshots={info?.screenshots}
+                type={info?.type || 'series'}
+                metaTitle={displayTitle}
+                routeParams={route.params}
+              />
+            </View>
           </View>
         </View>
       </View>
@@ -667,21 +658,57 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                       ))}
                     </View>
                   ) : (
-                    <SeasonList
-                      refreshing={false}
-                      providerValue={route.params.provider || provider.value}
-                      LinkList={filteredLinkList}
-                      poster={{
-                        logo: meta?.logo,
-                        poster: posterImage,
-                        background: backgroundImage,
-                      }}
-                      meta={meta}
-                      screenshots={info?.screenshots}
-                      type={info?.type || 'series'}
-                      metaTitle={displayTitle}
-                      routeParams={route.params}
-                    />
+                    <View>
+                      {/* Portrait Season Selector */}
+                      {filteredLinkList.length > 1 && (
+                        <View className="mb-6 px-1">
+                          <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-[10px] font-black uppercase tracking-[2px] mb-3`}>
+                            Select Season
+                          </Text>
+                          <Dropdown
+                            selectedTextStyle={{ color: primary, fontWeight: 'bold', fontSize: 15 }}
+                            labelField={'title'}
+                            valueField={filteredLinkList[0]?.episodesLink ? 'episodesLink' : 'directLinks'}
+                            onChange={handleSeasonChange}
+                            value={activeSeason}
+                            data={filteredLinkList}
+                            style={{ 
+                              borderWidth: 1, 
+                              borderColor: mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.05)', 
+                              paddingHorizontal: 16, 
+                              borderRadius: 16, 
+                              backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : '#f9fafb', 
+                              height: 54,
+                            }}
+                            containerStyle={{ backgroundColor: mode === 'dark' ? '#0a0a0a' : 'white', borderRadius: 16, overflow: 'hidden', marginTop: 10, borderWidth: 1, borderColor: mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)' }}
+                            renderItem={item => (
+                              <View className={`px-4 py-4 border-b border-white/5 ${activeSeason === item ? (mode === 'dark' ? 'bg-secondary' : 'bg-gray-200') : ''}`}>
+                                <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-medium`}>{item?.title}</Text>
+                              </View>
+                            )}
+                          />
+                        </View>
+                      )}
+
+                      <SeasonList
+                        refreshing={false}
+                        horizontal
+                        providerValue={route.params.provider || provider.value}
+                        LinkList={filteredLinkList}
+                        activeSeasonProp={activeSeason}
+                        onSeasonChangeProp={handleSeasonChange}
+                        poster={{
+                          logo: meta?.logo,
+                          poster: posterImage,
+                          background: backgroundImage,
+                        }}
+                        meta={meta}
+                        screenshots={info?.screenshots}
+                        type={info?.type || 'series'}
+                        metaTitle={displayTitle}
+                        routeParams={route.params}
+                      />
+                    </View>
                   )}
                 </View>
               </>
