@@ -319,9 +319,11 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                 style={{ backgroundColor: '#FF4D3D' }}
                 className="flex-1 py-3 px-4 rounded-full flex-row items-center shadow-lg"
               >
-                <Ionicons name="play" size={20} color="white" />
+                <Ionicons name={nextUpEpisode?.progress > 0 ? "play-forward" : "play"} size={20} color="white" />
                 <View className="ml-2 items-start">
-                    <Text className="text-white font-black text-[11px] uppercase tracking-[1px]">Watch Now</Text>
+                    <Text className="text-white font-black text-[11px] uppercase tracking-[1px]">
+                        {nextUpEpisode ? (nextUpEpisode.progress > 0 ? 'Continue' : 'Watch Now') : (info ? 'Watch Again' : 'Watch Now')}
+                    </Text>
                     {nextUpEpisode && (
                         <Text className="text-white/60 text-[8px] font-bold uppercase tracking-[0.5px] mt-0.5" numberOfLines={1}>
                             {nextUpEpisode.title} {nextUpEpisode.size ? `• ${nextUpEpisode.size}` : ''}
@@ -334,7 +336,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                 onPress={inLibrary ? removeLibrary : addLibrary} 
                 className={`flex-1 flex-row items-center justify-center py-4 rounded-full border border-white/10 ${mode === 'dark' ? 'bg-secondary/80' : 'bg-black/10'}`}
               >
-                <Ionicons name={inLibrary ? "heart" : "heart-outline"} size={22} color={inLibrary ? "#EF4444" : mode === 'dark' ? "white" : "black"} />
+                <Ionicons name={inLibrary ? "heart" : "heart-outline"} size={22} color={inLibrary ? "#FF4D3D" : mode === 'dark' ? "white" : "black"} />
                 <Text className={`ml-2 font-black text-[11px] uppercase tracking-[1px] ${textMain}`}>{inLibrary ? 'In List' : 'List'}</Text>
               </TouchableOpacity>
             </View>
@@ -415,6 +417,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                 placeholder="Search..."
                 placeholderTextColor={mode === 'dark' ? '#ffffff40' : '#00000040'}
                 className={`flex-1 ml-2 ${mode === 'dark' ? 'text-white' : 'text-black'} text-[11px] font-bold`}
+                onChangeText={(text: string) => seasonListRef.current?.setSearch(text)}
             />
           </View>
         </View>
@@ -457,9 +460,11 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                    style={{ backgroundColor: '#FF4D3D' }}
                    className="flex-1 py-4 rounded-full flex-row items-center justify-center shadow-lg"
                 >
-                  <Ionicons name="play" size={20} color="white" />
+                  <Ionicons name={nextUpEpisode?.progress > 0 ? "play-forward" : "play"} size={20} color="white" />
                   <View className="ml-3 items-start">
-                    <Text className="text-white font-black text-[12px] uppercase tracking-[1px]">Watch Now</Text>
+                    <Text className="text-white font-black text-[12px] uppercase tracking-[1px]">
+                        {nextUpEpisode ? (nextUpEpisode.progress > 0 ? 'Continue' : 'Watch Now') : (info ? 'Watch Again' : 'Watch Now')}
+                    </Text>
                     {nextUpEpisode && (
                         <Text className="text-white/60 text-[8px] font-bold uppercase tracking-[0.5px]">
                             {nextUpEpisode.title}
@@ -472,9 +477,9 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                    onPress={inLibrary ? removeLibrary : addLibrary} 
                    className={`flex-1 py-4 rounded-full flex-row items-center justify-center border border-white/10 ${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'}`}
                 >
-                  <Ionicons name={inLibrary ? "heart" : "heart-outline"} size={20} color={inLibrary ? "#EF4444" : (mode === 'dark' ? "white" : "black")} />
+                  <Ionicons name={inLibrary ? "heart" : "heart-outline"} size={20} color={inLibrary ? "#FF4D3D" : (mode === 'dark' ? "white" : "black")} />
                   <Text className={`ml-3 font-black text-[12px] uppercase tracking-[1px] ${mode === 'dark' ? 'text-white' : 'text-black'}`}>
-                    {inLibrary ? 'In List' : 'In List'}
+                    {inLibrary ? 'In List' : 'List'}
                   </Text>
                 </TouchableOpacity>
               </View>

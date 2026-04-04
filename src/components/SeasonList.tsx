@@ -313,7 +313,8 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
       const epMeta = getEpisodeMetadata(list[nextUpIndex].title);
       onNextUpFound({
         ...list[nextUpIndex],
-        size: epMeta?.size
+        size: epMeta?.size,
+        progress: getWatchProgress(list[nextUpIndex].link)
       });
     }
   }, [nextUpIndex, filteredAndSortedEpisodes, filteredAndSortedDirectLinks, onNextUpFound, getEpisodeMetadata]);
@@ -869,117 +870,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
     <View className="flex-1">
       <View>
         <View>
-          {/* Header Controls - Standard for portrait (Tablet Landscape has header selector) */}
-          {!horizontal && (
-            <View className="mb-4">
-              {LinkList.length > 1 ? (
-                <Dropdown
-                  selectedTextStyle={{
-                    color: primary,
-                    fontWeight: 'bold',
-                    fontSize: 14,
-                  }}
-                  labelField={'title'}
-                  valueField={
-                    LinkList[0]?.episodesLink ? 'episodesLink' : 'directLinks'
-                  }
-                  onChange={handleSeasonChange}
-                  value={activeSeason}
-                  data={LinkList}
-                  style={{
-                    borderWidth: 1,
-                    borderColor:
-                      mode === 'dark'
-                        ? 'rgba(255,255,255,0.1)'
-                        : 'rgba(0,0,0,0.1)',
-                    paddingHorizontal: 16,
-                    borderRadius: 12,
-                    backgroundColor:
-                      mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'white',
-                    height: 50,
-                  }}
-                  containerStyle={{
-                    backgroundColor: mode === 'dark' ? '#1a1a1a' : 'white',
-                    borderRadius: 12,
-                    overflow: 'hidden',
-                    marginTop: 4,
-                    borderWidth: 0,
-                  }}
-                  renderItem={item => (
-                    <View
-                      className={`px-4 py-4 border-b border-white/5 ${
-                        activeSeason === item
-                          ? mode === 'dark'
-                            ? 'bg-secondary'
-                            : 'bg-gray-200'
-                          : ''
-                      }`}>
-                      <Text
-                        className={`${
-                          mode === 'dark' ? 'text-white' : 'text-black'
-                        } font-medium`}>
-                        {item?.title}
-                      </Text>
-                    </View>
-                  )}
-                />
-              ) : (
-                <Text
-                  className={`${
-                    mode === 'dark' ? 'text-white' : 'text-black'
-                  } text-xl font-black px-2`}>
-                  {LinkList[0]?.title}
-                </Text>
-              )}
-
-              {/* Search and Sort (Portrait only) */}
-              {(filteredAndSortedEpisodes.length > 5 ||
-                filteredAndSortedDirectLinks.length > 5) && (
-                <View className="flex-row justify-between items-center mt-4 gap-x-2">
-                  <View
-                    className={`flex-1 flex-row items-center ${
-                      mode === 'dark' ? 'bg-secondary/30' : 'bg-white'
-                    } rounded-2xl px-4 h-14 border ${
-                      mode === 'dark' ? 'border-white/5' : 'border-black/5'
-                    } shadow-sm`}>
-                    <Ionicons
-                      name="search"
-                      size={20}
-                      color={mode === 'dark' ? '#ffffff50' : '#00000040'}
-                    />
-                    <TextInput
-                      placeholder="Search episodes..."
-                      placeholderTextColor={
-                        mode === 'dark' ? '#ffffff50' : '#00000040'
-                      }
-                      className={`flex-1 ml-3 ${
-                        mode === 'dark' ? 'text-white' : 'text-black'
-                      } text-sm font-bold`}
-                      value={searchText}
-                      onChangeText={setSearchText}
-                    />
-                  </View>
-                  <TouchableOpacity
-                    className={`${
-                      mode === 'dark' ? 'bg-secondary/30' : 'bg-white'
-                    } w-14 h-14 rounded-2xl items-center justify-center border ${
-                      mode === 'dark' ? 'border-white/5' : 'border-black/5'
-                    } shadow-sm`}
-                    onPress={toggleSortOrder}>
-                    <MaterialCommunityIcons
-                      name={
-                        sortOrder === 'asc'
-                          ? 'sort-ascending'
-                          : 'sort-descending'
-                      }
-                      size={24}
-                      color={primary}
-                    />
-                  </TouchableOpacity>
-                </View>
-              )}
-            </View>
-          )}
+          {/* Header Controls are now managed by Info.tsx */}
 
           {/* List Content */}
           <View>
