@@ -94,7 +94,7 @@ module.exports = () => {
       newArchEnabled: true,
       autolinking: {exclude: ['expo-splash-screen']},
       plugins,
-      slug: 'orbixplay',
+      slug: 'vega',
       version: '3.3.4',
       userInterfaceStyle: 'dark',
       experiments: {
@@ -106,8 +106,8 @@ module.exports = () => {
           : {}),
         minSdkVersion: 24,
         edgeToEdgeEnabled: true,
-        package: 'com.orbixplay.br31tech',
-        versionCode: 2,
+        package: 'com.vega',
+        versionCode: 162,
         permissions: [
           'FOREGROUND_SERVICE',
           'FOREGROUND_SERVICE_MEDIA_PLAYBACK',
