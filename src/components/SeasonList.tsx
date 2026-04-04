@@ -457,60 +457,54 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
 
     return (
       <View key={item.link + index} className="mr-8 mb-4" style={{ width: 320 }}>
-        {/* Metadata and Title */}
-        <View className="mb-3 px-1">
-          <View className="flex-row justify-between items-center mb-1">
-            <View className="flex-row items-center space-x-2">
-              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[10px] font-black uppercase tracking-[2px]`}>
-                Episode {item.originalIndex + 1}
+        {/* Metadata and Title - Top Row as per image */}
+        <View className="mb-2 px-1">
+          <View className="flex-row items-center space-x-2 mb-1">
+            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[10px] font-black uppercase tracking-[1px]`}>
+              Episode-{String(item.originalIndex + 1).padStart(2, '0')}
+            </Text>
+            {metaEp?.size && (
+              <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-[10px] font-black uppercase tracking-[1px]`}>
+                {metaEp.size}
               </Text>
-              {metaEp?.size && (
-                <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-[10px] font-black uppercase tracking-[1px]`}>
-                  {metaEp.size}
-                </Text>
-              )}
-            </View>
-            {duration && (
-              <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-[9px] font-black`}>{duration}</Text>
             )}
           </View>
-          <Text className={`${mode === 'dark' ? 'text-white/80' : 'text-black/80'} text-[11px] uppercase font-bold mb-3`} numberOfLines={1}>
-            {item.title}
-          </Text>
 
-          {/* Action Row - Mobile Inspired Pills */}
-          <View className="flex-row items-center space-x-3 mb-1">
+          {/* Action Row - Pills above thumbnail as per image */}
+          <View className="flex-row items-center space-x-2 mb-4">
             <TouchableOpacity 
               onPress={() => toggleWatched(item.link, !completed)}
-              className={`flex-row items-center px-3 py-1.5 rounded-full border ${completed ? (mode==='dark'?'bg-primary/20 border-primary/50':'bg-primary/10 border-primary/30') : (mode==='dark'?'bg-white/5 border-white/10':'bg-black/5 border-black/10')}`}
+              className="flex-row items-center px-4 py-1.5 rounded-full"
+              style={{ backgroundColor: completed ? '#FF4D3D' : (mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)') }}
             >
               <Ionicons 
-                name={completed ? "checkmark-circle" : "checkmark-circle-outline"} 
-                size={16} 
-                color={completed ? primary : (mode === 'dark' ? "rgba(255,255,255,0.5)" : "rgba(0,0,0,0.5)")} 
+                name="checkmark-circle" 
+                size={14} 
+                color={completed ? 'white' : (mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)")} 
               />
-              <Text className={`ml-1.5 text-[9px] font-black uppercase tracking-[1px] ${completed ? (mode==='dark'?'text-white':'text-black') : (mode === 'dark' ? "text-white/40" : "text-black/40")}`}>
-                {completed ? 'Watched' : 'Mark Watched'}
+              <Text className={`ml-2 text-[9px] font-black uppercase tracking-[1px] ${completed ? 'text-white' : (mode === 'dark' ? "text-white/40" : "text-black/40")}`}>
+                Watched
               </Text>
             </TouchableOpacity>
 
             <TouchableOpacity 
               onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, 'series', fileName)}
-              className={`flex-row items-center px-3 py-1.5 rounded-full border ${mode==='dark'?'bg-white/5 border-white/10':'bg-black/5 border-black/10'}`}
+              className="flex-row items-center px-4 py-1.5 rounded-full"
+              style={{ backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)' }}
             >
-              <Feather name="download" size={14} color={mode === 'dark' ? "rgba(255,255,255,0.5)" : "rgba(0,0,0,0.5)"} />
-              <Text className={`ml-1.5 text-[9px] font-black uppercase tracking-[1px] ${mode === 'dark' ? "text-white/40" : "text-black/40"}`}>
+              <Feather name="download" size={14} color={mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)"} />
+              <Text className={`ml-2 text-[9px] font-black uppercase tracking-[1px] ${mode === 'dark' ? "text-white/40" : "text-black/40"}`}>
                 Download
               </Text>
             </TouchableOpacity>
           </View>
         </View>
 
-        {/* Thumbnail Card */}
+        {/* Thumbnail Card - Bottom Section as per image */}
         <TouchableOpacity 
           activeOpacity={0.9}
           onPress={() => playHandler({ linkIndex: index, type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: combinedData })}
-          className={`aspect-video rounded-[24px] overflow-hidden ${mode === 'dark' ? 'bg-secondary' : 'bg-black/5'} border-2 ${mode === 'dark' ? 'border-white/5' : 'border-black/5'} relative shadow-2xl`}
+          className={`aspect-video rounded-[32px] overflow-hidden ${mode === 'dark' ? 'bg-secondary' : 'bg-black/5'} border-2 ${mode === 'dark' ? 'border-white/5' : 'border-black/5'} relative shadow-2xl`}
         >
           {thumbnail ? (
             <Image source={{uri: thumbnail}} style={{width: '100%', height: '100%'}} resizeMode="cover" />
@@ -534,11 +528,11 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
             </View>
           )}
           
-          {/* Completed Checkmark - Branded circle from reference */}
+          {/* Completed Checkmark - Circle with checkmark as per image */}
           {completed && (
             <View className="absolute inset-0 items-center justify-center bg-black/20">
-              <View className="bg-red-600 w-12 h-12 rounded-full items-center justify-center shadow-lg shadow-black/40">
-                <Ionicons name="checkmark" size={32} color="white" />
+              <View className="bg-red-600 w-14 h-14 rounded-full items-center justify-center shadow-lg border-2 border-white/20">
+                <Ionicons name="checkmark" size={36} color="white" />
               </View>
             </View>
           )}
@@ -630,80 +624,179 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
 
   // Renderers
   const renderEpisodeItem = useCallback(({item, index}: {item: any, index: number}) => {
-    const completed = item.isCompleted;
-    const isNext = index === 0 && !completed;
+    const progress = getWatchProgress(item.link);
+    const completed = progress > 85;
+    const isNext = index === nextUpIndex && !completed;
     const metaEp = getEpisodeMetadata(item.title);
     const thumbnail = item.image || metaEp?.thumbnail;
-    const overview = metaEp?.overview;
+    const fileName = (metaTitle + (activeSeason?.title || '') + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_');
 
     return (
-      <View key={item.link + index} className={`w-full my-2 overflow-hidden rounded-xl ${mode === 'dark' ? 'bg-secondary/30' : 'bg-black/5'} ${completed ? 'opacity-60' : ''} ${isNext ? 'border border-primary/50' : ''}`}>
-        <View className="flex-row w-full p-2 gap-x-3 items-center">
-          <View style={{width: thumbnailWidth, height: thumbnailHeight}} className={`${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'} rounded-lg justify-center items-center overflow-hidden relative`}>
-            {thumbnail ? <Image source={{uri: thumbnail}} style={{width: '100%', height: '100%'}} resizeMode="cover" /> : 
-              <View className="items-center justify-center">
-                <Text className={`${mode === 'dark' ? 'text-white/20' : 'text-black/20'} font-bold`} style={{fontSize: isTablet ? 14 : 12}}>EP</Text>
-                <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} font-bold`} style={{fontSize: isTablet ? 18 : 16}}>{item.originalIndex + 1}</Text>
-              </View>
-            }
-            {isNext && <View className="absolute top-0 left-0 right-0 py-1 items-center" style={{backgroundColor: primary}}><Text className="text-[10px] text-white font-bold uppercase tracking-tighter">Next Up</Text></View>}
-          </View>
-          <View className="flex-1 justify-center gap-y-1">
-            <View className="flex-row items-center gap-x-2">
-              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base font-bold flex-1`} numberOfLines={1}>{item.title}</Text>
-              {completed && <MaterialCommunityIcons name="check-circle" size={16} color={primary} />}
+      <View key={item.link + index} className={`w-full mb-6 rounded-[28px] overflow-hidden ${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'} border border-white/5 shadow-lg`}>
+        {/* Card Header - Metadata */}
+        <View className="px-4 pt-4 pb-2 flex-row justify-between items-center">
+            <View className="flex-row items-center space-x-2">
+                <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[11px] font-black uppercase tracking-[1px]`}>
+                    Episode-{String(item.originalIndex + 1).padStart(2, '0')}
+                </Text>
+                {metaEp?.size && (
+                    <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-[10px] font-black uppercase tracking-[1px]`}>
+                        {metaEp.size}
+                    </Text>
+                )}
             </View>
-            {overview && <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-[10px] leading-3`} numberOfLines={2}>{overview}</Text>}
-            <View className="flex-row items-center gap-x-3">
-              <TouchableOpacity onPress={() => toggleWatched(item.link, !completed)} className="flex-row items-center gap-x-1 py-1 pr-2">
-                <Ionicons name={completed ? 'checkbox' : 'square-outline'} size={18} color={completed ? primary : (mode === 'dark' ? 'white' : 'black')} style={{opacity: 0.7}} />
-                <Text className={`${mode === 'dark' ? 'text-white/50' : 'text-black/50'} text-xs font-medium`}>{completed ? 'Watched' : 'Mark Watched'}</Text>
-              </TouchableOpacity>
-              <TouchableOpacity className="flex-row items-center gap-x-1 py-1" onPress={() => handleShowServers(item.link, 'series', { title: metaTitle + ' ' + item.title, fileName: (metaTitle + (activeSeason?.title || '') + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_') })}>
-                <Feather name="layers" size={16} color={primary} /><Text className={`${mode === 'dark' ? 'text-white/50' : 'text-black/50'} text-xs font-medium`}>Servers</Text>
-              </TouchableOpacity>
+            {isNext && (
+                <View className="bg-primary/20 px-2 py-0.5 rounded-md">
+                    <Text className="text-primary text-[8px] font-black uppercase">Next Up</Text>
+                </View>
+            )}
+        </View>
+
+        {/* Thumbnail Section */}
+        <TouchableOpacity 
+            activeOpacity={0.9}
+            onPress={() => playHandler({ linkIndex: index, type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: combinedData })}
+            className="aspect-video w-full relative"
+        >
+            {thumbnail ? (
+                <Image source={{uri: thumbnail}} style={{width: '100%', height: '100%'}} resizeMode="cover" />
+            ) : (
+                <View className="w-full h-full items-center justify-center bg-black/20">
+                    <MaterialCommunityIcons name="play-circle-outline" size={48} color="white" style={{opacity: 0.3}} />
+                </View>
+            )}
+            
+            {/* Play Button Overlay */}
+            <View className="absolute inset-0 items-center justify-center">
+                <View className="bg-white/10 w-12 h-12 rounded-full items-center justify-center border border-white/20">
+                    <Ionicons name="play" size={24} color="white" />
+                </View>
             </View>
-          </View>
-          <TouchableOpacity className="w-12 h-12 rounded-full items-center justify-center" style={{backgroundColor: primary + '20'}} onPress={() => playHandler({ linkIndex: index, type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: filteredAndSortedEpisodes })}>
-            <Ionicons name="play" size={28} color={primary} />
-          </TouchableOpacity>
+
+            {/* Completed Badge */}
+            {completed && (
+                <View className="absolute inset-0 bg-black/30 items-center justify-center">
+                   <View className="bg-red-600 w-12 h-12 rounded-full items-center justify-center shadow-lg border-2 border-white/20">
+                        <Ionicons name="checkmark" size={32} color="white" />
+                    </View>
+                </View>
+            )}
+        </TouchableOpacity>
+
+        {/* Action Buttons Row */}
+        <View className="flex-row items-center p-4 space-x-3">
+            <TouchableOpacity 
+              onPress={() => toggleWatched(item.link, !completed)}
+              className="flex-1 flex-row items-center justify-center py-2.5 rounded-full"
+              style={{ backgroundColor: completed ? '#FF4D3D' : (mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)') }}
+            >
+              <Ionicons 
+                name="checkmark-circle" 
+                size={16} 
+                color={completed ? 'white' : (mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)")} 
+              />
+              <Text className={`ml-2 text-[10px] font-black uppercase tracking-[1px] ${completed ? 'text-white' : (mode === 'dark' ? "text-white/40" : "text-black/40")}`}>
+                Watched
+              </Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity 
+              onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, 'series', fileName)}
+              className="flex-1 flex-row items-center justify-center py-2.5 rounded-full"
+              style={{ backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)' }}
+            >
+              <Feather name="download" size={16} color={mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)"} />
+              <Text className={`ml-2 text-[10px] font-black uppercase tracking-[1px] ${mode === 'dark' ? "text-white/40" : "text-black/40"}`}>
+                Download
+              </Text>
+            </TouchableOpacity>
         </View>
       </View>
     );
-  }, [mode, thumbnailWidth, thumbnailHeight, isTablet, primary, toggleWatched, handleShowServers, metaTitle, activeSeason?.title, playHandler, type, filteredAndSortedEpisodes, getEpisodeMetadata]);
+  }, [mode, primary, playHandler, type, metaTitle, activeSeason?.title, combinedData, getEpisodeMetadata, getWatchProgress, nextUpIndex, toggleWatched, handleDownload]);
 
   const renderDirectLinkItem = useCallback(({item, index}: {item: any, index: number}) => {
-    const completed = item.isCompleted;
-    const isNext = index === 0 && !completed;
+    const progress = getWatchProgress(item.link);
+    const completed = progress > 85;
+    const isNext = index === nextUpIndex && !completed;
+    const fileName = (metaTitle + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_');
+
     return (
-      <View key={item.link + index} className={`w-full my-2 overflow-hidden rounded-xl ${mode === 'dark' ? 'bg-secondary/30' : 'bg-black/5'} ${completed ? 'opacity-60' : ''} ${isNext ? 'border border-primary/50' : ''}`}>
-        <View className="flex-row w-full p-2 gap-x-3 items-center">
-          <View className={`w-12 h-12 rounded-lg justify-center items-center ${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'} relative`}>
-            <MaterialCommunityIcons name="movie-play-outline" size={24} color={primary} />
-            {isNext && <View className="absolute -top-1 -left-1 px-1 rounded" style={{backgroundColor: primary}}><Text className="text-[8px] text-white font-bold uppercase">Next</Text></View>}
-          </View>
-          <View className="flex-1 justify-center gap-y-1">
-            <View className="flex-row items-center gap-x-2">
-              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base font-bold`} numberOfLines={1}>{item.title}</Text>
-              {completed && <MaterialCommunityIcons name="check-circle" size={16} color={primary} />}
+      <View key={item.link + index} className={`w-full mb-6 rounded-[28px] overflow-hidden ${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'} border border-white/5 shadow-lg`}>
+        {/* Card Header - Metadata */}
+        <View className="px-4 pt-4 pb-2 flex-row justify-between items-center">
+            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[11px] font-black uppercase tracking-[1px]`}>
+                {item.title}
+            </Text>
+            {isNext && (
+                <View className="bg-primary/20 px-2 py-0.5 rounded-md">
+                    <Text className="text-primary text-[8px] font-black uppercase">Next</Text>
+                </View>
+            )}
+        </View>
+
+        {/* Thumbnail Section */}
+        <TouchableOpacity 
+            activeOpacity={0.9}
+            onPress={() => playHandler({ linkIndex: index, type: item?.type || type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: combinedData })}
+            className="aspect-video w-full relative"
+        >
+            {poster?.poster ? (
+                <Image source={{uri: poster.poster}} style={{width: '100%', height: '100%'}} resizeMode="cover" />
+            ) : (
+                <View className="w-full h-full items-center justify-center bg-black/20">
+                    <MaterialCommunityIcons name="movie-play-outline" size={48} color="white" style={{opacity: 0.3}} />
+                </View>
+            )}
+            
+            {/* Play Button Overlay */}
+            <View className="absolute inset-0 items-center justify-center">
+                <View className="bg-white/10 w-12 h-12 rounded-full items-center justify-center border border-white/20">
+                    <Ionicons name="play" size={24} color="white" />
+                </View>
             </View>
-            <View className="flex-row items-center gap-x-3">
-              <TouchableOpacity onPress={() => toggleWatched(item.link, !completed)} className="flex-row items-center gap-x-1 py-1 pr-2">
-                <Ionicons name={completed ? 'checkbox' : 'square-outline'} size={18} color={completed ? primary : (mode === 'dark' ? 'white' : 'black')} style={{opacity: 0.7}} />
-                <Text className={`${mode === 'dark' ? 'text-white/50' : 'text-black/50'} text-xs font-medium`}>{completed ? 'Watched' : 'Mark Watched'}</Text>
-              </TouchableOpacity>
-              <TouchableOpacity className="flex-row items-center gap-x-1 py-1" onPress={() => handleShowServers(item.link, item?.type || 'series', { title: metaTitle + ' ' + item.title, fileName: (metaTitle + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_') })}>
-                <Feather name="layers" size={16} color={primary} /><Text className={`${mode === 'dark' ? 'text-white/50' : 'text-black/50'} text-xs font-medium`}>Servers</Text>
-              </TouchableOpacity>
-            </View>
-          </View>
-          <TouchableOpacity className="w-12 h-12 rounded-full items-center justify-center" style={{backgroundColor: primary + '20'}} onPress={() => playHandler({ linkIndex: index, type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: filteredAndSortedDirectLinks })}>
-            <Ionicons name="play" size={28} color={primary} />
-          </TouchableOpacity>
+
+            {/* Completed Badge */}
+            {completed && (
+                <View className="absolute inset-0 bg-black/30 items-center justify-center">
+                   <View className="bg-red-600 w-12 h-12 rounded-full items-center justify-center shadow-lg border-2 border-white/20">
+                        <Ionicons name="checkmark" size={32} color="white" />
+                    </View>
+                </View>
+            )}
+        </TouchableOpacity>
+
+        {/* Action Buttons Row */}
+        <View className="flex-row items-center p-4 space-x-3">
+            <TouchableOpacity 
+              onPress={() => toggleWatched(item.link, !completed)}
+              className="flex-1 flex-row items-center justify-center py-2.5 rounded-full"
+              style={{ backgroundColor: completed ? '#FF4D3D' : (mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)') }}
+            >
+              <Ionicons 
+                name="checkmark-circle" 
+                size={16} 
+                color={completed ? 'white' : (mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)")} 
+              />
+              <Text className={`ml-2 text-[10px] font-black uppercase tracking-[1px] ${completed ? 'text-white' : (mode === 'dark' ? "text-white/40" : "text-black/40")}`}>
+                Watched
+              </Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity 
+              onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, item?.type || type, fileName)}
+              className="flex-1 flex-row items-center justify-center py-2.5 rounded-full"
+              style={{ backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)' }}
+            >
+              <Feather name="download" size={16} color={mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)"} />
+              <Text className={`ml-2 text-[10px] font-black uppercase tracking-[1px] ${mode === 'dark' ? "text-white/40" : "text-black/40"}`}>
+                Download
+              </Text>
+            </TouchableOpacity>
         </View>
       </View>
     );
-  }, [mode, primary, toggleWatched, handleShowServers, metaTitle, activeSeason?.title, playHandler, type, filteredAndSortedDirectLinks]);
+  }, [mode, primary, playHandler, type, metaTitle, activeSeason?.title, combinedData, getWatchProgress, nextUpIndex, poster?.poster, toggleWatched, handleDownload]);
 
   const renderServerItem = useCallback((item: Stream, index: number) => (
     <View key={`server-${index}-${item.server}`} className={`${mode === 'dark' ? 'bg-black/30' : 'bg-gray-100'} p-3 rounded-lg mb-2 flex-row justify-between items-center`} style={{borderColor: primary, borderWidth: 1}}>
