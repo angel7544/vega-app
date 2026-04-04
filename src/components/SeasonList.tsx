@@ -382,26 +382,11 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
   const onDownloadServer = useCallback((stream: Stream) => {
     if (!stickyMenuMetadata) return;
     
-    show(`Starting download: ${stickyMenuMetadata.title}`, 'success');
+    show(`Opening external downloader: ${stickyMenuMetadata.title}`, 'success');
     
-    if (settingsStorage.getBool('alwaysExternalDownloader')) {
-      Linking.openURL(stream.link);
-      return;
-    }
-
-    downloadManager({
-      title: stickyMenuMetadata.title,
-      url: stream.link,
-      fileName: stickyMenuMetadata.fileName,
-      fileType: stream.type || 'video/mp4',
-      setDownloadActive: () => {},
-      headers: stream.headers,
-      setAlreadyDownloaded: () => {},
-      setDownloadId: () => {},
-      deleteDownload: () => {},
-      provider: providerValue,
-    });
-  }, [stickyMenuMetadata, providerValue, show]);
+    // Always use external downloader for the server selection card items
+    Linking.openURL(stream.link);
+  }, [stickyMenuMetadata, show]);
 
   const handleShowServers = useCallback(async (link: string, streamType: string, metadata: {title: string; fileName: string}) => {
     setShowServerCard(true);
