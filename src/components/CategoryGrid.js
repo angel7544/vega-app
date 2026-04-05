@@ -70,7 +70,7 @@ const CategoryGrid = ({ categories, onSelect, selectedCategory, qualityFilter, o
   };
 
   return (
-    <View className="my-2">
+    <View className={`py-2 ${isDark ? 'bg-black' : 'bg-white'}`}>
       <ScrollView 
         horizontal 
         showsHorizontalScrollIndicator={false}

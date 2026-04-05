@@ -110,6 +110,9 @@ const Preferences = () => {
   const [useExternalPlayerLive, setUseExternalPlayerLive] = useState(
     settingsStorage.useExternalPlayerLive(),
   );
+  const [liveTvAutoPlay, setLiveTvAutoPlay] = useState(
+    settingsStorage.isLiveTvAutoPlayEnabled(),
+  );
 
   const countries = [
     { label: 'India', value: 'in' },
@@ -533,6 +536,21 @@ const Preferences = () => {
                 onValueChange={val => {
                   settingsStorage.setUseExternalPlayerLive(val);
                   setUseExternalPlayerLive(val);
+                }}
+              />
+            </View>
+
+            {/* Live TV Auto-play toggle */}
+            <View className="flex-row items-center justify-between p-4">
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base flex-1`}>
+                Live TV Card Auto-play
+              </Text>
+              <Switch
+                thumbColor={liveTvAutoPlay ? primary : 'gray'}
+                value={liveTvAutoPlay}
+                onValueChange={val => {
+                  settingsStorage.setLiveTvAutoPlayEnabled(val);
+                  setLiveTvAutoPlay(val);
                 }}
               />
             </View>

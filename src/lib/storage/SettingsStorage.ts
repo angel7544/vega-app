@@ -46,6 +46,7 @@ export enum SettingsKeys {
   IPTV_COUNTRY = 'iptvCountry',
   IPTV_LANGUAGE = 'iptvLanguage',
   USE_EXTERNAL_PLAYER_LIVE = 'useExternalPlayerLive',
+  LIVE_TV_AUTO_PLAY = 'liveTvAutoPlay',
 }
 
 /**
@@ -294,6 +295,14 @@ export class SettingsStorage {
 
   setUseExternalPlayerLive(value: boolean): void {
     mainStorage.setBool(SettingsKeys.USE_EXTERNAL_PLAYER_LIVE, value);
+  }
+
+  isLiveTvAutoPlayEnabled(): boolean {
+    return mainStorage.getBool(SettingsKeys.LIVE_TV_AUTO_PLAY, false);
+  }
+
+  setLiveTvAutoPlayEnabled(enabled: boolean): void {
+    mainStorage.setBool(SettingsKeys.LIVE_TV_AUTO_PLAY, enabled);
   }
 }
 
