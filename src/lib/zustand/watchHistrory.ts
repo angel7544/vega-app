@@ -11,6 +11,7 @@ export interface History {
   clearHistory: () => void;
   updateItemWithInfo: (link: string, infoData: any) => void;
   removeItem: (item: WatchHistoryItem) => void;
+  removeItems: (links: string[]) => void;
 }
 
 // Helper function to convert between our storage format and zustand format
@@ -33,6 +34,7 @@ const useWatchHistoryStore = create<History>(set => ({
         id: item.link || item.title,
         title: item.title,
         poster: item.poster,
+        image: item.image || item.poster || '',
         provider: item.provider,
         link: item.link,
         timestamp: Date.now(),
@@ -80,6 +82,15 @@ const useWatchHistoryStore = create<History>(set => ({
 
   removeItem: item => {
     watchHistoryStorage.removeFromWatchHistory(item.link);
+    set({
+      history: convertStorageToZustand(watchHistoryStorage.getWatchHistory()),
+    });
+  },
+
+  removeItems: links => {
+    links.forEach(link => {
+      watchHistoryStorage.removeFromWatchHistory(link);
+    });
     set({
       history: convertStorageToZustand(watchHistoryStorage.getWatchHistory()),
     });

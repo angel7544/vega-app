@@ -5,13 +5,15 @@ const BASE_URL = 'https://api.themoviedb.org/3';
 
 const getHeaders = (): Record<string, string> => {
   const token = settingsStorage.getTmdbReadToken();
-  if (token) {
+  if (token && token.length > 0) {
     return {
       Authorization: `Bearer ${token}`,
       'Content-Type': 'application/json;charset=utf-8',
     };
   }
-  return {};
+  return {
+    'Content-Type': 'application/json;charset=utf-8',
+  };
 };
 
 const getApiKey = () => settingsStorage.getTmdbApiKey();

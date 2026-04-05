@@ -2,6 +2,8 @@ import {View, Text, Clipboard} from 'react-native';
 import React from 'react';
 import {Modal, TouchableOpacity} from 'react-native';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
+import * as IntentLauncher from 'expo-intent-launcher';
+
 import ReactNativeHapticFeedback from 'react-native-haptic-feedback';
 import useThemeStore from '../lib/zustand/themeStore';
 import {settingsStorage} from '../lib/storage';
@@ -23,6 +25,17 @@ const StreamModal = ({
 }) => {
   const {primary, mode} = useThemeStore(state => state);
   const {show} = useToastStore();
+
+  const openExternalPlayer = async (link: string) => {
+    try {
+      await IntentLauncher.startActivityAsync('android.intent.action.VIEW', {
+        data: link,
+        type: 'video/*',
+      });
+    } catch (e) {
+      show('Failed to open external player', 'error');
+    }
+  };
   
   return (
     <Modal animationType="fade" visible={downloadModal} transparent={true}>
@@ -31,39 +44,70 @@ const StreamModal = ({
           <Text className="text-lg font-semibold my-3 text-black dark:text-white">
             Select a server to download
           </Text>
-          <View className="flex-row items-center flex-wrap gap-1 justify-evenly w-full my-5">
+          <View className="flex-col items-center w-full my-5">
             {!serverLoading
               ? servers?.map((server, index) => (
-                  <TouchableOpacity
+                  <View 
                     key={server.server + index}
-                    onPress={() => {
-                      setDownloadModal(false);
-                      downloadFile(server.link);
-                    }}
-                    onLongPress={() => {
-                      if (settingsStorage.getBool('hapticFeedback') !== false) {
-                        ReactNativeHapticFeedback.trigger('effectHeavyClick', {
-                          enableVibrateFallback: true,
-                          ignoreAndroidSystemSettings: false,
-                        });
-                      }
-                      Clipboard.setString(server.link);
-                      show('Link copied to clipboard', 'success');
-                    }}
-                    className="p-2 rounded-md m-1"
-                    style={{backgroundColor: primary}}>
-                    <Text className="text-white text-xs rounded-md capitalize px-1 font-semibold">
-                      {server.server}
-                    </Text>
-                  </TouchableOpacity>
+                    className="flex-row items-center justify-between w-full p-3 mb-2 rounded-md border border-white/5"
+                    style={{ backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.03)' : 'rgba(0,0,0,0.03)' }}
+                  >
+                    <TouchableOpacity 
+                      className="flex-1"
+                      onPress={() => {
+                        setDownloadModal(false);
+                        downloadFile(server.link);
+                      }}
+                    >
+                      <Text className="text-black dark:text-white text-sm font-semibold capitalize">
+                        {server.server}
+                      </Text>
+                    </TouchableOpacity>
+
+                    <View className="flex-row items-center gap-4">
+                      <TouchableOpacity 
+                        onPress={() => {
+                          if (settingsStorage.getBool('hapticFeedback') !== false) {
+                            ReactNativeHapticFeedback.trigger('effectHeavyClick', {
+                              enableVibrateFallback: true,
+                              ignoreAndroidSystemSettings: false,
+                            });
+                          }
+                          Clipboard.setString(server.link);
+                          show('Link copied to clipboard', 'success');
+                        }}
+                      >
+                        <MaterialIcons name="content-copy" size={18} color={primary} />
+                      </TouchableOpacity>
+
+                      <TouchableOpacity 
+                        onPress={() => {
+                           setDownloadModal(false);
+                           openExternalPlayer(server.link);
+                        }}
+                      >
+                        <MaterialIcons name="play-arrow" size={22} color={primary} />
+                      </TouchableOpacity>
+
+                      <TouchableOpacity 
+                        onPress={() => {
+                          setDownloadModal(false);
+                          downloadFile(server.link);
+                        }}
+                      >
+                        <MaterialIcons name="file-download" size={20} color={primary} />
+                      </TouchableOpacity>
+                    </View>
+                  </View>
                 ))
               : Array.from({length: 3}).map((_, index) => (
-                  <SkeletonLoader
-                    key={index}
-                    show={true}
-                    height={30}
-                    width={90}
-                  />
+                  <View key={index} className="w-full mb-2">
+                    <SkeletonLoader
+                      show={true}
+                      height={50}
+                      width="100%"
+                    />
+                  </View>
                 ))}
           </View>
           <View className="flex-row items-center gap-2 w-full">
@@ -74,7 +118,7 @@ const StreamModal = ({
               onPress={() => setDownloadModal(false)}
             />
             <Text className="text-[10px] text-center text-black/60 dark:text-white/60">
-              Long press to copy download link
+              Select an action for the server link
             </Text>
           </View>
           {/* close modal */}

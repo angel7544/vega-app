@@ -150,7 +150,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
   const [showServerCard, setShowServerCard] = useState<boolean>(false);
   const [searchText, setSearchText] = useState<string>('');
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>(() =>
-    mainStorage.getString('episodeSortOrder') === 'desc' ? 'desc' : 'asc',
+    mainStorage.getString('episodeSortOrder') === 'asc' ? 'asc' : 'desc',
   );
   const [externalPlayerStreams, setExternalPlayerStreams] = useState<any[]>([]);
   const [stickyMenuMetadata, setStickyMenuMetadata] = useState<{
@@ -170,6 +170,8 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
   const [downloadServers, setDownloadServers] = useState<Stream[]>([]);
   const [downloadLoading, setDownloadLoading] = useState(false);
   const [downloadError, setDownloadError] = useState<string | null>(null);
+
+  const showDownloadButtonOnCards = settingsStorage.getBool('showDownloadButtonOnCards', false);
 
   // Helper Callbacks
   const getWatchProgress = useCallback((link: string) => {
@@ -531,16 +533,18 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
               </Text>
             </TouchableOpacity>
 
-            <TouchableOpacity 
-              onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, 'series', fileName)}
-              className="flex-row items-center px-4 py-1.5 rounded-full"
-              style={{ backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)' }}
-            >
-              <Feather name="download" size={14} color={mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)"} />
-              <Text className={`ml-2 text-[9px] font-black uppercase tracking-[1px] ${mode === 'dark' ? "text-white/40" : "text-black/40"}`}>
-                Download
-              </Text>
-            </TouchableOpacity>
+            {showDownloadButtonOnCards && (
+              <TouchableOpacity 
+                onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, 'series', fileName)}
+                className="flex-row items-center px-4 py-1.5 rounded-full"
+                style={{ backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)' }}
+              >
+                <Feather name="download" size={14} color={mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)"} />
+                <Text className={`ml-2 text-[9px] font-black uppercase tracking-[1px] ${mode === 'dark' ? "text-white/40" : "text-black/40"}`}>
+                  Download
+                </Text>
+              </TouchableOpacity>
+            )}
           </View>
         </View>
 
@@ -635,15 +639,17 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
               </Text>
             </TouchableOpacity>
 
-            <TouchableOpacity 
-              onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, 'movie', (metaTitle + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_'))}
-              className={`flex-row items-center px-3 py-1.5 rounded-full border ${mode==='dark'?'bg-white/5 border-white/10':'bg-black/5 border-black/10'}`}
-            >
-              <Feather name="download" size={14} color={mode === 'dark' ? "rgba(255,255,255,0.5)" : "rgba(0,0,0,0.5)"} />
-              <Text className={`ml-1.5 text-[9px] font-black uppercase tracking-[1px] ${mode === 'dark' ? "text-white/40" : "text-black/40"}`}>
-                Download
-              </Text>
-            </TouchableOpacity>
+            {showDownloadButtonOnCards && (
+              <TouchableOpacity 
+                onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, 'movie', (metaTitle + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_'))}
+                className={`flex-row items-center px-3 py-1.5 rounded-full border ${mode==='dark'?'bg-white/5 border-white/10':'bg-black/5 border-black/10'}`}
+              >
+                <Feather name="download" size={14} color={mode === 'dark' ? "rgba(255,255,255,0.5)" : "rgba(0,0,0,0.5)"} />
+                <Text className={`ml-1.5 text-[9px] font-black uppercase tracking-[1px] ${mode === 'dark' ? "text-white/40" : "text-black/40"}`}>
+                  Download
+                </Text>
+              </TouchableOpacity>
+            )}
           </View>
         </View>
 
@@ -781,16 +787,18 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
               </Text>
             </TouchableOpacity>
 
-            <TouchableOpacity 
-              onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, 'series', fileName)}
-              className="flex-1 flex-row items-center justify-center py-2.5 rounded-full"
-              style={{ backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)' }}
-            >
-              <Feather name="download" size={16} color={mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)"} />
-              <Text className={`ml-2 text-[10px] font-black uppercase tracking-[1px] ${mode === 'dark' ? "text-white/40" : "text-black/40"}`}>
-                Download
-              </Text>
-            </TouchableOpacity>
+            {showDownloadButtonOnCards && (
+              <TouchableOpacity 
+                onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, 'series', fileName)}
+                className="flex-1 flex-row items-center justify-center py-2.5 rounded-full"
+                style={{ backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)' }}
+              >
+                <Feather name="download" size={16} color={mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)"} />
+                <Text className={`ml-2 text-[10px] font-black uppercase tracking-[1px] ${mode === 'dark' ? "text-white/40" : "text-black/40"}`}>
+                  Download
+                </Text>
+              </TouchableOpacity>
+            )}
         </View>
       </View>
     );
@@ -882,16 +890,18 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
               </Text>
             </TouchableOpacity>
 
-            <TouchableOpacity 
-              onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, item?.type || type, fileName)}
-              className="flex-1 flex-row items-center justify-center py-2.5 rounded-full"
-              style={{ backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)' }}
-            >
-              <Feather name="download" size={16} color={mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)"} />
-              <Text className={`ml-2 text-[10px] font-black uppercase tracking-[1px] ${mode === 'dark' ? "text-white/40" : "text-black/40"}`}>
-                Download
-              </Text>
-            </TouchableOpacity>
+            {showDownloadButtonOnCards && (
+              <TouchableOpacity 
+                onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, item?.type || type, fileName)}
+                className="flex-1 flex-row items-center justify-center py-2.5 rounded-full"
+                style={{ backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)' }}
+              >
+                <Feather name="download" size={16} color={mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)"} />
+                <Text className={`ml-2 text-[10px] font-black uppercase tracking-[1px] ${mode === 'dark' ? "text-white/40" : "text-black/40"}`}>
+                  Download
+                </Text>
+              </TouchableOpacity>
+            )}
         </View>
       </View>
     );
@@ -918,6 +928,14 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
           >
             <MaterialIcons name="content-copy" size={18} color={primary} />
           </TouchableOpacity>
+
+          <TouchableOpacity 
+            onPress={() => openExternalPlayer(item.link)}
+            className={`w-8 h-8 rounded-full items-center justify-center ${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'}`}
+          >
+            <MaterialIcons name="play-arrow" size={22} color={primary} />
+          </TouchableOpacity>
+
           <TouchableOpacity onPress={() => onDownloadServer(item)} className={`${mode === 'dark' ? 'bg-primary/20' : 'bg-primary/10'} w-8 h-8 rounded-full items-center justify-center`}>
             <MaterialIcons name="file-download" size={20} color={primary} />
           </TouchableOpacity>

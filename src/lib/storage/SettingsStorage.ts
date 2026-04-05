@@ -233,21 +233,28 @@ export class SettingsStorage {
     mainStorage.setBool(SettingsKeys.TELEMETRY_OPT_IN, enabled);
   }
 
+  private sanitize(value: string | undefined): string {
+    if (!value) return '';
+    return value.trim().replace(/^["']|["']$/g, '');
+  }
+
   // TMDb settings
   getTmdbApiKey(): string {
-    return mainStorage.getString(SettingsKeys.TMDB_API_KEY) || process.env.EXPO_PUBLIC_TMDB_API_KEY || '';
+    const key = mainStorage.getString(SettingsKeys.TMDB_API_KEY) || process.env.EXPO_PUBLIC_TMDB_API_KEY || '';
+    return this.sanitize(key);
   }
 
   setTmdbApiKey(key: string): void {
-    mainStorage.setString(SettingsKeys.TMDB_API_KEY, key);
+    mainStorage.setString(SettingsKeys.TMDB_API_KEY, this.sanitize(key));
   }
 
   getTmdbReadToken(): string {
-    return mainStorage.getString(SettingsKeys.TMDB_READ_TOKEN) || process.env.EXPO_PUBLIC_TMDB_READ_TOKEN || '';
+    const token = mainStorage.getString(SettingsKeys.TMDB_READ_TOKEN) || process.env.EXPO_PUBLIC_TMDB_READ_TOKEN || '';
+    return this.sanitize(token);
   }
 
   setTmdbReadToken(token: string): void {
-    mainStorage.setString(SettingsKeys.TMDB_READ_TOKEN, token);
+    mainStorage.setString(SettingsKeys.TMDB_READ_TOKEN, this.sanitize(token));
   }
 
   // Generic get/set methods for settings not covered by specific methods

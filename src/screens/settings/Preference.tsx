@@ -95,6 +95,10 @@ const Preferences = () => {
     settingsStorage.getBool('alwaysExternalDownloader') || false,
   );
 
+  const [showDownloadButtonOnCards, setShowDownloadButtonOnCards] = useState(
+    settingsStorage.getBool('showDownloadButtonOnCards', false),
+  );
+
   const [telemetryOptIn, setTelemetryOptIn] = useState<boolean>(
     settingsStorage.isTelemetryOptIn(),
   );
@@ -308,6 +312,24 @@ const Preferences = () => {
                 onValueChange={() => {
                   settingsStorage.setBool('disableDrawer', !disableDrawer);
                   setDisableDrawer(!disableDrawer);
+                }}
+              />
+            </View>
+
+            {/* Show Download Button on Cards */}
+            <View className={`flex-row items-center justify-between p-4 border-b ${mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'}`}>
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>
+                Show Download Button on Cards
+              </Text>
+              <Switch
+                thumbColor={showDownloadButtonOnCards ? primary : 'gray'}
+                value={showDownloadButtonOnCards}
+                onValueChange={() => {
+                  settingsStorage.setBool(
+                    'showDownloadButtonOnCards',
+                    !showDownloadButtonOnCards,
+                  );
+                  setShowDownloadButtonOnCards(!showDownloadButtonOnCards);
                 }}
               />
             </View>
