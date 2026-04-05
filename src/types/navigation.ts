@@ -10,15 +10,19 @@ export interface Channel {
   iptvOrgId?: string | null;
   /** Official website from iptv-org API */
   website?: string | null;
+  /** New metadata from M3U parser */
+  country?: string;
+  language?: string;
+  quality?: 'SD' | 'HD' | 'FHD' | '4K';
 }
 
 export interface Program {
   start: string;
   stop?: string;
   /** Unix ms timestamp for start (for live-now detection) */
-  startTs?: number;
+  startTs: number;
   /** Unix ms timestamp for stop (for live-now detection) */
-  stopTs?: number;
+  stopTs: number;
   title: string;
   desc?: string;
   icon?: string | null;
@@ -69,17 +73,13 @@ export type RootStackParamList = {
     infoUrl?: string;
     doNotTrack?: boolean;
   };
-  LivePlayer: {
-    channel: Channel;
-    channels?: Channel[];
-    initialIndex?: number;
-  };
   FavoriteTV: undefined;
   ChannelInfo: {
     channel: Channel;
     channels?: Channel[];
     initialIndex?: number;
   };
+  SearchStack: undefined;
 };
 
 export type SearchStackParamList = {

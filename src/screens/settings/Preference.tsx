@@ -13,9 +13,10 @@ import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import RNReactNativeHapticFeedback from 'react-native-haptic-feedback';
 import useThemeStore from '../../lib/zustand/themeStore';
 import {Dropdown} from 'react-native-element-dropdown';
-import {themes} from '../../lib/constants';
+import {themes, EPG_SOURCES} from '../../lib/constants';
 import Constants from 'expo-constants';
 import useToastStore from '../../lib/zustand/toastStore';
+import usePlayerStore from '../../lib/zustand/playerStore';
 
 
 // Lazy-load Firebase to allow running without google-services.json
@@ -113,6 +114,17 @@ const Preferences = () => {
   const [initialHomeScreen, setInitialHomeScreen] = useState(
     settingsStorage.getInitialHomeScreen(),
   );
+
+  const { 
+    disableEpg, 
+    toggleDisableEpg, 
+    autoPlayChannel, 
+    toggleAutoPlayChannel,
+    customEpgUrl,
+    setCustomEpgUrl
+  } = usePlayerStore();
+
+  const [tempEpgUrl, setTempEpgUrl] = useState(customEpgUrl || '');
 
   const countries = [
     { label: 'India', value: 'in' },
@@ -580,8 +592,126 @@ const Preferences = () => {
                 }}
               />
             </View>
+
+            {/* Auto Play Channel Toggle */}
+            <View className={`flex-row items-center px-4 justify-between p-4 border-b ${mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'}`}>
+              <View className="flex-1 mr-4">
+                <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>
+                  Auto Play Live TV
+                </Text>
+                <Text className="text-[10px] text-gray-400 font-bold uppercase tracking-widest mt-1">
+                  Start playback immediately upon tuning in
+                </Text>
+              </View>
+              <Switch
+                thumbColor={autoPlayChannel ? primary : 'gray'}
+                value={autoPlayChannel || false}
+                onValueChange={toggleAutoPlayChannel}
+              />
+            </View>
+
+            {/* Global Disable EPG Toggle */}
+            <View className="flex-row items-center justify-between p-4 bg-orange-500/5">
+              <View className="flex-1 mr-4">
+                <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>
+                  Disable EPG Schedule
+                </Text>
+                <Text className="text-[10px] text-gray-500 font-bold uppercase tracking-widest mt-1">
+                  Reduces lag by disabling program data sync
+                </Text>
+              </View>
+              <Switch
+                thumbColor={disableEpg ? primary : 'gray'}
+                value={disableEpg || false}
+                onValueChange={toggleDisableEpg}
+              />
+            </View>
           </View>
         </View>
+
+        {/* EPG Configuration Section */}
+        <View className="mb-6">
+          <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-sm mb-3 uppercase font-bold tracking-widest ml-1`}>EPG Configuration</Text>
+          <View className={`${mode === 'dark' ? 'bg-[#1A1A1A]' : 'bg-gray-100'} rounded-xl overflow-hidden p-4`}>
+            
+            {/* Custom EPG URL Input */}
+            <View className="mb-4">
+              <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-[10px] mb-2 uppercase font-black tracking-widest ml-1`}>Custom EPG Source URL</Text>
+              <View className="flex-row items-center bg-white/5 border border-white/10 rounded-xl pr-2 focus:border-white/30">
+                 <TextInput 
+                    className={`flex-1 ${mode === 'dark' ? 'text-white' : 'text-black'} px-4 py-3 min-h-[48px] text-sm`}
+                    placeholder="https://example.com/epg.xml"
+                    placeholderTextColor="gray"
+                    value={tempEpgUrl}
+                    onChangeText={setTempEpgUrl}
+                    autoCapitalize="none"
+                    autoCorrect={false}
+                 />
+                 <TouchableOpacity
+                    onPress={() => {
+                      if (tempEpgUrl && tempEpgUrl.endsWith('.gz')) {
+                         show('Please use .xml URLs, not .gz', 'error');
+                         return;
+                      }
+                      setCustomEpgUrl(tempEpgUrl || null);
+                      show('EPG URL Saved', 'success');
+                    }}
+                    style={{ backgroundColor: primary }}
+                    className="px-4 py-2 rounded-lg"
+                 >
+                   <Text className="text-white font-bold text-xs uppercase">{tempEpgUrl === customEpgUrl && tempEpgUrl ? 'Active' : 'Save'}</Text>
+                 </TouchableOpacity>
+              </View>
+              {customEpgUrl && (
+                <TouchableOpacity 
+                   className="mt-3 flex-row items-center"
+                   onPress={() => { setCustomEpgUrl(null); setTempEpgUrl(''); show('EPG Reset to Default', 'info'); }}
+                >
+                   <MaterialCommunityIcons name="refresh" size={14} color="#ef4444" />
+                   <Text className="text-red-500 text-[10px] font-black uppercase tracking-widest ml-1">Reset to Default</Text>
+                </TouchableOpacity>
+              )}
+            </View>
+
+            <View className="h-[1px] bg-white/5 my-4" />
+
+            {/* Quick Select Preset Sources */}
+            <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-[10px] mb-4 uppercase font-black tracking-widest ml-1`}>Quick Select Presets</Text>
+            <View className="space-y-2">
+              <ScrollView 
+                horizontal 
+                showsHorizontalScrollIndicator={false}
+                className="flex-row"
+              >
+                {EPG_SOURCES.slice(0, 15).map((preset, index) => (
+                  <TouchableOpacity
+                    key={index}
+                    onPress={() => {
+                      setTempEpgUrl(preset.link);
+                      setCustomEpgUrl(preset.link);
+                      show(`Selected ${preset.country} EPG`, 'success');
+                    }}
+                    style={{ 
+                      borderColor: customEpgUrl === preset.link ? primary : 'transparent',
+                      backgroundColor: customEpgUrl === preset.link ? `${primary}20` : (mode === 'dark' ? '#262626' : '#E5E7EB')
+                    }}
+                    className="mr-2 px-4 py-3 rounded-xl border items-center justify-center min-w-[100px]"
+                  >
+                    <Text className="text-2xl mb-1">{preset.flag}</Text>
+                    <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[10px] font-bold text-center`}>{preset.country}</Text>
+                  </TouchableOpacity>
+                ))}
+              </ScrollView>
+              
+              <View className="mt-4 p-4 bg-blue-500/10 border border-blue-500/20 rounded-xl">
+                 <Text className="text-blue-400 text-[10px] font-bold leading-5">
+                   Tip: Choose a preset above for high-speed EPG data suitable for your region. Custom URLs must be direct links to .xml files.
+                 </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+
         <View className="mb-6">
           <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-sm mb-3`}>Player</Text>
           <View className={`${mode === 'dark' ? 'bg-[#1A1A1A]' : 'bg-gray-100'} rounded-xl overflow-hidden`}>

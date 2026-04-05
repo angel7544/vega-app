@@ -14,7 +14,7 @@ import {useNavigation} from '@react-navigation/native';
 import useThemeStore from '../lib/zustand/themeStore';
 import useContentStore, {Content} from '../lib/zustand/contentStore';
 import {NativeStackNavigationProp} from '@react-navigation/native-stack';
-import {TabStackParamList} from '../App';
+import {TabStackParamList} from '../types/navigation';
 import AntDesign from '@expo/vector-icons/AntDesign';
 import ReactNativeHapticFeedback from 'react-native-haptic-feedback';
 import {MaterialCommunityIcons} from '@expo/vector-icons';
@@ -94,7 +94,7 @@ const ContinueWatching = () => {
     try {
       // Detect if it's Live TV immediately
       if (item.isLiveTV) {
-        (navigation as any).navigate('LivePlayer', {
+        (navigation as any).navigate('ChannelInfo', {
           channel: {
             name: item.title,
             url: item.link,

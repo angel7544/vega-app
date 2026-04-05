@@ -11,8 +11,11 @@ import {SafeAreaView} from 'react-native-safe-area-context';
 import {useShowNavBarOnScroll} from '../lib/hooks/useShowNavBarOnScroll';
 import Animated, {
   FadeInDown,
+  FadeIn,
+  FadeOut,
   SlideInRight,
   Layout,
+  withTiming,
 } from 'react-native-reanimated';
 import {searchOMDB} from '../lib/services/omdb';
 import debounce from 'lodash/debounce';
@@ -289,6 +292,8 @@ const Search = () => {
   // Conditionally render animations based on state
   const AnimatedContainer = Animated.View;
 
+  const showToggle = !isFocused && searchText.length === 0;
+
   return (
     <SafeAreaView
       className={`flex-1 ${mode === 'dark' ? 'bg-black' : 'bg-white'}`}>
@@ -304,7 +309,11 @@ const Search = () => {
           Search
         </Text>
         <View className="flex-row items-center space-x-3 mb-2">
-          <View className="flex-1">
+          {/* Animated Search Bar Container */}
+          <AnimatedContainer 
+            layout={Layout.springify()}
+            className="flex-1"
+          >
             <View
               className={`overflow-hidden rounded-xl ${
                 mode === 'dark' ? 'bg-[#141414]' : 'bg-gray-100'
@@ -339,26 +348,40 @@ const Search = () => {
                 </View>
               </View>
             </View>
-          </View>
+          </AnimatedContainer>
+
+          {/* Vertical Expandable Toggle Column */}
+          {showToggle && (
+            <AnimatedContainer 
+              entering={SlideInRight.springify()} 
+              exiting={FadeOut.duration(200)}
+              className="flex-col space-y-1"
+            >
+              <TouchableOpacity 
+                onPress={() => setSearchMode('vod')}
+                className={`p-2.5 rounded-xl items-center justify-center ${searchMode === 'vod' ? 'bg-primary' : 'bg-white/5'}`}
+              >
+                <Feather name="film" size={16} color={searchMode === 'vod' ? 'white' : '#666'} />
+              </TouchableOpacity>
+              <TouchableOpacity 
+                onPress={() => setSearchMode('live')}
+                className={`p-2.5 rounded-xl items-center justify-center ${searchMode === 'live' ? 'bg-primary' : 'bg-white/5'}`}
+              >
+                <Feather name="tv" size={16} color={searchMode === 'live' ? 'white' : '#666'} />
+              </TouchableOpacity>
+            </AnimatedContainer>
+          )}
         </View>
 
-        {/* Search Mode Toggle */}
-        <View className="flex-row items-center mt-3 bg-white/5 p-1 rounded-2xl self-start">
-           <TouchableOpacity 
-             onPress={() => setSearchMode('vod')}
-             className={`px-6 py-2.5 rounded-xl flex-row items-center ${searchMode === 'vod' ? 'bg-primary' : ''}`}
-           >
-             <Feather name="film" size={14} color={searchMode === 'vod' ? 'white' : '#666'} />
-             <Text className={`ml-2 text-xs font-black uppercase tracking-widest ${searchMode === 'vod' ? 'text-white' : 'text-white/40'}`}>Providers</Text>
-           </TouchableOpacity>
-           <TouchableOpacity 
-             onPress={() => setSearchMode('live')}
-             className={`px-6 py-2.5 rounded-xl flex-row items-center ${searchMode === 'live' ? 'bg-primary' : ''}`}
-           >
-             <Feather name="tv" size={14} color={searchMode === 'live' ? 'white' : '#666'} />
-             <Text className={`ml-2 text-xs font-black uppercase tracking-widest ${searchMode === 'live' ? 'text-white' : 'text-white/40'}`}>TV Channels</Text>
-           </TouchableOpacity>
-        </View>
+        {/* Small Mode Indicator when searching */}
+        {!showToggle && (
+           <AnimatedContainer entering={FadeInDown.duration(300)} className="absolute -bottom-8 right-6 bg-primary/10 px-3 py-1 rounded-full border border-primary/20">
+              <View className="flex-row items-center">
+                 <Feather name={searchMode === 'vod' ? "film" : "tv"} size={10} color={primary} />
+                 <Text className="text-primary text-[8px] font-black uppercase ml-2 tracking-widest">{searchMode === 'vod' ? 'Movies & Series' : 'TV Channels'}</Text>
+              </View>
+           </AnimatedContainer>
+        )}
       </AnimatedContainer>
 
       {/* Search Results */}

@@ -17,6 +17,12 @@ interface PlayerState {
   isFavorite: (url: string) => boolean;
   toggleFavoriteGenre: (genre: string) => void;
   isFavoriteGenre: (genre: string) => boolean;
+  autoPlayChannel: boolean;
+  toggleAutoPlayChannel: () => void;
+  customEpgUrl: string | null;
+  setCustomEpgUrl: (url: string | null) => void;
+  disableEpg: boolean;
+  toggleDisableEpg: () => void;
 }
 
 const usePlayerStore = create<PlayerState>()(
@@ -25,6 +31,13 @@ const usePlayerStore = create<PlayerState>()(
       activeChannel: null,
       favorites: [],
       favoriteGenres: [],
+      autoPlayChannel: true,
+      customEpgUrl: null,
+      disableEpg: true,
+
+      toggleDisableEpg: () => set({ disableEpg: !get().disableEpg }),
+
+      setCustomEpgUrl: (url) => set({ customEpgUrl: url }),
 
       setActiveChannel: (channel) => set({ activeChannel: channel }),
 
@@ -53,6 +66,10 @@ const usePlayerStore = create<PlayerState>()(
 
       isFavoriteGenre: (genre) => {
         return get().favoriteGenres.includes(genre);
+      },
+      
+      toggleAutoPlayChannel: () => {
+        set({ autoPlayChannel: !get().autoPlayChannel });
       },
     }),
     {

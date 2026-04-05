@@ -124,6 +124,7 @@ const LiveTV = () => {
   const [qualityFilter, setQualityFilter] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [debouncedSearch, setDebouncedSearch] = useState('');
+  const [isFocused, setIsFocused] = useState(false);
   const [loading, setLoading] = useState(true);
   const [showVpnInfo, setShowVpnInfo] = useState(false);
   const [activeTab, setActiveTab] = useState('Explore');
@@ -277,18 +278,41 @@ const LiveTV = () => {
       )}
 
       {/* Search Header */}
-      <View className="flex-row items-center justify-between mb-8">
-        <View className={`flex-1 flex-row items-center h-14 px-5 rounded-3xl border ${isDark ? 'bg-white/5 border-white/5' : 'bg-black/5 border-black/10'}`}>
-          <Feather name="search" size={20} color={isDark ? '#555' : '#AAA'} />
-          <TextInput
-            placeholder="Search TV Channels..."
-            placeholderTextColor={isDark ? '#555' : '#AAA'}
-            className={`flex-1 ml-3 text-base font-bold ${isDark ? 'text-white' : 'text-black'}`}
-            value={searchQuery}
-            onChangeText={setSearchQuery}
-          />
+      <View className="flex-row items-center space-x-3 mb-8">
+        <View
+          className={`flex-1 overflow-hidden rounded-xl ${
+            isDark ? 'bg-[#141414]' : 'bg-gray-100'
+          } shadow-lg shadow-black/50`}>
+          <View className="px-3 py-3">
+            <View className="flex-row items-center">
+              <Feather
+                name="search"
+                size={22}
+                color={isFocused ? primary : '#666'}
+              />
+              <TextInput
+                className={`flex-1 ${
+                  isDark ? 'text-white' : 'text-black'
+                } text-base ml-3`}
+                placeholder="Search TV Channels..."
+                placeholderTextColor="#666"
+                value={searchQuery}
+                onChangeText={setSearchQuery}
+                onFocus={() => setIsFocused(true)}
+                onBlur={() => setIsFocused(false)}
+                returnKeyType="search"
+              />
+              {searchQuery.length > 0 && (
+                <TouchableOpacity
+                  onPress={() => setSearchQuery('')}
+                  className="bg-gray-800/50 rounded-full p-2 ml-2">
+                  <Feather name="x" size={18} color="#999" />
+                </TouchableOpacity>
+              )}
+            </View>
+          </View>
         </View>
-        <TouchableOpacity onPress={() => setShowVpnInfo(true)} className="ml-3 p-4 bg-primary/10 rounded-2xl">
+        <TouchableOpacity onPress={() => setShowVpnInfo(true)} className="ml-3 p-3.5 bg-primary/10 rounded-xl">
           <Feather name="info" size={24} color={primary} />
         </TouchableOpacity>
       </View>

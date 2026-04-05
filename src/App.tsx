@@ -9,7 +9,6 @@ import WatchList from './screens/WatchList';
 import Search from './screens/Search';
 import ScrollList from './screens/ScrollList';
 import LiveTV from './screens/LiveTV';
-import LivePlayer from './screens/home/LivePlayer';
 import FavoriteTV from './screens/FavoriteTV';
 import ChannelInfo from './screens/ChannelInfo';
 import {
@@ -550,12 +549,7 @@ const App = () => {
                     component={Player}
                     options={{orientation: 'landscape'}}
                   />
-                   <Stack.Screen
-                    name="LivePlayer"
-                    component={LivePlayer as any}
-                    options={{orientation: 'default'}}
-                  />
-                   <Stack.Screen
+                  <Stack.Screen
                     name="FavoriteTV"
                     component={FavoriteTV as any}
                     options={{orientation: 'default'}}

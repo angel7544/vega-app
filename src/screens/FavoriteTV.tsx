@@ -29,7 +29,7 @@ const FavoriteTV = () => {
   const isDark = mode === 'dark';
 
   const handleChannelPress = (channel: any, _index: number) => {
-    navigation.navigate('LivePlayer', { 
+    navigation.navigate('ChannelInfo', { 
       channel
     });
   };
