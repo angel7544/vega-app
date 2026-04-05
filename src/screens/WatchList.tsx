@@ -1,7 +1,7 @@
-import {View, Text, Platform, FlatList, TextInput, ScrollView} from 'react-native';
+import {View, Text, Platform, FlatList, TextInput, ScrollView, Image} from 'react-native';
 import React, {useState, useMemo} from 'react';
 import {useNavigation} from '@react-navigation/native';
-import {WatchListStackParamList} from '../App';
+import {WatchListStackParamList} from '../types/navigation';
 import {NativeStackNavigationProp} from '@react-navigation/native-stack';
 import {TouchableOpacity} from 'react-native';
 import useThemeStore from '../lib/zustand/themeStore';
@@ -11,6 +11,7 @@ import {StatusBar} from 'expo-status-bar';
 import {useShowNavBarOnScroll} from '../lib/hooks/useShowNavBarOnScroll';
 import useContentStore, {Content} from '../lib/zustand/contentStore';
 import WatchListCard from '../components/WatchListCard';
+import usePlayerStore from '../lib/zustand/playerStore';
 
 const WatchList = () => {
   const {primary, mode} = useThemeStore(state => state);
@@ -19,6 +20,7 @@ const WatchList = () => {
     useNavigation<NativeStackNavigationProp<WatchListStackParamList>>();
   const {handleScroll} = useShowNavBarOnScroll();
   const {watchList, removeItem} = useWatchListStore(state => state);
+  const {favorites = []} = usePlayerStore(state => state);
   const {installedProviders, setProvider} = useContentStore((state: Content) => state);
 
   const [searchText, setSearchText] = useState('');
@@ -139,6 +141,49 @@ const WatchList = () => {
             onChangeText={setSearchText}
           />
         </View>
+
+        {/* Wishlisted Channels (Live TV) */}
+        {favorites.length > 0 && !searchText && !activeGenre && !activeYear && (
+          <View className="mb-8">
+            <View className="flex-row items-center justify-between mb-4">
+              <Text className={`text-xl font-bold ${isDark ? 'text-white' : 'text-black'}`}>
+                Wishlisted Channels
+              </Text>
+              <TouchableOpacity onPress={() => navigation.navigate('FavoriteTV' as any)}>
+                <Text className="text-primary text-sm font-bold">See All</Text>
+              </TouchableOpacity>
+            </View>
+            <ScrollView horizontal showsHorizontalScrollIndicator={false} className="-mx-4 px-4">
+              {favorites.map((channel, index) => (
+                <TouchableOpacity
+                  key={channel.url + index}
+                  onPress={() => (navigation.navigate as any)('ChannelInfo', { channel, channels: favorites, initialIndex: index })}
+                  className={`mr-4 p-3 rounded-2xl border ${
+                    isDark ? 'bg-[#121212] border-white/5' : 'bg-gray-100 border-gray-200'
+                  }`}
+                  style={{ width: 140 }}
+                >
+                  <View className="aspect-video bg-black/40 rounded-xl overflow-hidden items-center justify-center mb-2">
+                    {channel.logo ? (
+                      <Image source={{ uri: channel.logo }} className="w-full h-full" resizeMode="contain" />
+                    ) : (
+                      <Feather name="tv" size={24} color={primary} />
+                    )}
+                  </View>
+                  <Text 
+                    className={`text-xs font-bold ${isDark ? 'text-white' : 'text-black'}`} 
+                    numberOfLines={1}
+                  >
+                    {channel.name}
+                  </Text>
+                  <Text className="text-[10px] text-gray-500 uppercase tracking-widest mt-0.5">
+                    {channel.category || 'Live TV'}
+                  </Text>
+                </TouchableOpacity>
+              ))}
+            </ScrollView>
+          </View>
+        )}
 
         {/* Filters */}
         <View className="mb-8">

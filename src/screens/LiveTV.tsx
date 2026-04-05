@@ -30,7 +30,6 @@ import Animated, {
   withSequence,
   withTiming,
 } from 'react-native-reanimated';
-import Video, { ResizeMode } from 'react-native-video';
 
 import { iptvParser } from '../lib/iptvParser';
 import useThemeStore from '../lib/zustand/themeStore';
@@ -38,6 +37,7 @@ import CategoryGrid from '../components/CategoryGrid';
 import useWatchHistoryStore from '../lib/zustand/watchHistrory';
 import usePlayerStore from '../lib/zustand/playerStore';
 import { settingsStorage } from '../lib/storage';
+import useIPTVStore from '../lib/zustand/iptvStore';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../types/navigation';
 
@@ -47,26 +47,6 @@ const QUALITY_KEYWORDS = {
   '720p': ['720p', 'hd', '1280x720', '720'],
 };
 
-const PulsingLiveIndicator = () => {
-  const animatedStyle = useAnimatedStyle(() => ({
-    opacity: withRepeat(
-      withSequence(
-        withTiming(0.4, { duration: 1000 }),
-        withTiming(1, { duration: 1000 })
-      ),
-      -1,
-      true
-    ),
-    transform: [{ scale: withRepeat(withTiming(1.2, { duration: 1000 }), -1, true) }]
-  }));
-
-  return (
-    <View className="flex-row items-center bg-red-600/90 px-3 py-1.5 rounded-full self-start mb-1 shadow-lg shadow-red-600/40">
-      <Animated.View style={animatedStyle} className="w-2 h-2 rounded-full bg-white mr-2" />
-      <Text className="text-white font-black text-[10px] uppercase tracking-widest leading-none">Live</Text>
-    </View>
-  );
-};
 
 const QualityBadge = ({ name, isDark }: { name: string, isDark: boolean }) => {
   const getQuality = () => {
@@ -147,15 +127,12 @@ const LiveTV = () => {
   const [loading, setLoading] = useState(true);
   const [showVpnInfo, setShowVpnInfo] = useState(false);
   const [activeTab, setActiveTab] = useState('Explore');
-  const [viewableItems, setViewableItems] = useState<any[]>([]);
-  const [autoPlayEnabled, setAutoPlayEnabled] = useState(settingsStorage.isLiveTvAutoPlayEnabled());
-  const [pausedCards, setPausedCards] = useState<Record<string, boolean>>({});
 
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
-  const isFocused = useIsFocused();
   const { mode, primary } = useThemeStore();
   const { history } = useWatchHistoryStore();
   const { toggleFavorite, isFavorite, favorites } = usePlayerStore();
+  const { setChannels: setGlobalChannels } = useIPTVStore();
   const isDark = mode === 'dark';
 
   // Debounce search input
@@ -166,12 +143,7 @@ const LiveTV = () => {
 
   useEffect(() => {
     fetchChannels();
-    // Sync settings periodically or on focus
-    const unsubscribe = navigation.addListener('focus', () => {
-      setAutoPlayEnabled(settingsStorage.isLiveTvAutoPlayEnabled());
-    });
-    return unsubscribe;
-  }, [navigation]);
+  }, []);
 
   const fetchChannels = async () => {
     setLoading(true);
@@ -179,6 +151,7 @@ const LiveTV = () => {
       const data = await iptvParser.fetchByCountry('in'); 
       if (data && Array.isArray(data)) {
         setChannels(data);
+        setGlobalChannels(data);
         const uniqueCategories = [...new Set(data.map((c: any) => c.category).filter(Boolean))] as string[];
         setCategories(['All', ...uniqueCategories]);
       }
@@ -201,11 +174,6 @@ const LiveTV = () => {
       .slice(0, 10);
   }, [history]);
 
-  const featuredChannel = useMemo(() => {
-    if (channels.length === 0) return null;
-    // Pick something interesting or just the first for now
-    return channels.find(c => (c.category || '').toLowerCase().includes('news') || (c.category || '').toLowerCase().includes('sports')) || channels[0];
-  }, [channels]);
 
   const filteredChannels = useMemo(() => {
     let result = channels;
@@ -217,7 +185,7 @@ const LiveTV = () => {
       const keywords = QUALITY_KEYWORDS[qualityFilter as keyof typeof QUALITY_KEYWORDS] || [qualityFilter];
       result = result.filter(c => keywords.some(k => c.name.toLowerCase().includes(k.toLowerCase())));
     }
-    if (debouncedSearch) {
+    if (debouncedSearch && debouncedSearch.length >= 3) {
       const query = debouncedSearch.toLowerCase();
       result = result.filter(c => c.name.toLowerCase().includes(query) || (c.category && c.category.toLowerCase().includes(query)));
     }
@@ -229,71 +197,37 @@ const LiveTV = () => {
     navigation.navigate('ChannelInfo', { channel, channels: filteredChannels, initialIndex: index >= 0 ? index : 0 });
   };
 
-  const togglePause = useCallback((url: string) => {
-    setPausedCards(prev => ({ ...prev, [url]: !prev[url] }));
-  }, []);
-
-  const onViewableItemsChanged = useRef(({ viewableItems: items }: any) => {
-    setViewableItems(items.map((i: any) => i.item.url));
-  }).current;
-
-  const viewabilityConfig = useRef({ itemVisiblePercentThreshold: 50 }).current;
 
   const renderChannelItem = useCallback(({ item, index }: { item: any, index: number }) => {
     const favorited = isFavorite(item.url);
-    const isViewable = viewableItems.includes(item.url);
-    const isPaused = pausedCards[item.url];
-    const shouldPlay = isFocused && isViewable && autoPlayEnabled && !isPaused;
 
     return (
       <Animated.View entering={FadeInDown.delay(index % 10 * 50).duration(600).springify()}>
         <TouchableOpacity
           activeOpacity={0.9}
           onPress={() => handleChannelPress(item)}
-          className={`mb-6 rounded-[32px] overflow-hidden shadow-2xl border ${
-            isDark ? 'bg-[#0D0D0D] border-white/5' : 'bg-white border-black/10'
-          }`}
-          style={{ width: cardWidth, marginHorizontal: 8 }}
+          className={`mb-6 rounded-[32px] overflow-hidden shadow-2xl border ${isDark ? 'bg-[#0D0D0D] border-white/5' : 'bg-white border-black/10'}`}
+          style={{ 
+            width: cardWidth, 
+            marginHorizontal: 8,
+          }}
         >
           <View className="aspect-video bg-black/40 items-center justify-center relative overflow-hidden">
-            {shouldPlay ? (
-              <Video
-                source={{ uri: item.url }}
-                style={StyleSheet.absoluteFill}
-                resizeMode="cover"
-                muted={true}
-                repeat={true}
-                paused={!shouldPlay}
-              />
+            {item.logo ? (
+              <Image source={{ uri: item.logo }} className="w-[75%] h-[70%]" resizeMode="contain" />
             ) : (
-              item.logo ? (
-                <Image source={{ uri: item.logo }} className="w-[75%] h-[70%]" resizeMode="contain" />
-              ) : (
-                <View className="items-center">
-                  <Feather name="tv" size={44} color={primary} style={{ opacity: 0.5 }} />
-                  <Text className="text-white/20 text-[10px] mt-2 font-black uppercase">Signal Lost</Text>
-                </View>
-              )
-            )}
-            
-            {/* Play/Pause Overlay */}
-            {isViewable && autoPlayEnabled && (
-              <TouchableOpacity 
-                onPress={(e) => { e.stopPropagation(); togglePause(item.url); }}
-                className="absolute inset-0 items-center justify-center bg-black/20"
-              >
-                <Ionicons name={shouldPlay ? "pause" : "play"} size={32} color="white" style={{ opacity: 0.8 }} />
-              </TouchableOpacity>
+              <View className="items-center">
+                <Feather name="tv" size={44} color={primary} style={{ opacity: 0.5 }} />
+                <Text className="text-white/20 text-[10px] mt-2 font-black uppercase">Signal Lost</Text>
+              </View>
             )}
 
             <View className="absolute top-4 left-4 right-4 flex-row justify-between items-start">
-               <PulsingLiveIndicator />
+               <View />
                <QualityBadge name={item.name} isDark={isDark} />
             </View>
 
-            {!shouldPlay && (
-              <LinearGradient colors={['transparent', 'rgba(0,0,0,0.85)']} className="absolute inset-0 justify-end" />
-            )}
+            <LinearGradient colors={['transparent', 'rgba(0,0,0,0.85)']} className="absolute inset-0 justify-end" />
           </View>
           
           <BlurView intensity={isDark ? 40 : 60} tint={isDark ? 'dark' : 'light'} className="p-5 flex-row items-center justify-between">
@@ -311,50 +245,10 @@ const LiveTV = () => {
         </TouchableOpacity>
       </Animated.View>
     );
-  }, [cardWidth, isDark, primary, favorites, isFavorite, viewableItems, pausedCards, autoPlayEnabled, isFocused, togglePause]);
+  }, [cardWidth, isDark, primary, favorites, isFavorite, handleChannelPress]);
 
   const HeaderTop = () => (
     <View className="pt-14 px-5">
-      {/* Featured Channel Section */}
-      {featuredChannel && activeTab === 'Explore' && (
-        <Animated.View entering={FadeInDown} className="mb-8 rounded-[40px] overflow-hidden shadow-2xl relative bg-black/20 border border-white/10">
-          <View className="aspect-video relative">
-            <Video
-              source={{ uri: featuredChannel.url }}
-              style={StyleSheet.absoluteFill}
-              resizeMode="cover"
-              muted={true}
-              repeat={true}
-            />
-            <LinearGradient colors={['rgba(0,0,0,0.6)', 'transparent', 'rgba(0,0,0,0.8)']} style={StyleSheet.absoluteFill} />
-            
-            <View className="absolute inset-x-6 bottom-6 flex-row items-end justify-between">
-              <View className="flex-1 mr-4">
-                <View className="bg-red-600 px-2 py-0.5 rounded-md self-start mb-2">
-                  <Text className="text-white text-[8px] font-black uppercase">Featured</Text>
-                </View>
-                <Text className="text-white text-3xl font-black mb-1">{featuredChannel.name}</Text>
-                <Text className="text-white/60 text-xs font-bold uppercase tracking-widest">{featuredChannel.category || 'Trending'}</Text>
-              </View>
-              <TouchableOpacity 
-                onPress={() => handleChannelPress(featuredChannel)}
-                className="bg-white px-6 py-3 rounded-2xl flex-row items-center"
-              >
-                <Ionicons name="play" size={20} color="black" />
-                <Text className="ml-2 font-black text-sm text-black">Watch Now</Text>
-              </TouchableOpacity>
-            </View>
-          </View>
-          <BlurView intensity={30} tint="dark" className="px-6 py-4 flex-row items-center justify-between border-t border-white/5">
-             <View className="flex-row items-center">
-               <TouchableOpacity className="p-2 bg-white/10 rounded-xl mr-3" onPress={() => handleChannelPress(featuredChannel)}>
-                 <Feather name="info" size={18} color="white" />
-               </TouchableOpacity>
-               <Text className="text-white/80 text-xs font-bold">Channel Breakdown & Schedule</Text>
-             </View>
-          </BlurView>
-        </Animated.View>
-      )}
 
       {/* Recent Signals Section */}
       {recentChannels.length > 0 && activeTab === 'Explore' && (
@@ -459,9 +353,6 @@ const LiveTV = () => {
           contentContainerStyle={{ paddingBottom: 100, paddingHorizontal: 8 }}
           removeClippedSubviews={Platform.OS === 'android'} 
           drawDistance={500}
-          onViewableItemsChanged={onViewableItemsChanged}
-          viewabilityConfig={viewabilityConfig}
-          stickyHeaderIndices={debouncedSearch ? undefined : [0]}
         />
       )}
 

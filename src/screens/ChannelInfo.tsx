@@ -56,7 +56,7 @@ const ChannelInfo = () => {
   const [loading, setLoading] = useState(true);
   const [showInfo, setShowInfo] = useState(true);
   const [muted, setMuted] = useState(true);
-  const [isPaused, setIsPaused] = useState(false);
+  const [isPaused, setIsPaused] = useState(true);
   const [reloadKey, setReloadKey] = useState(0);
   const [resizeMode, setResizeMode] = useState<ResizeMode>(ResizeMode.COVER);
   const videoRef = useRef<VideoRef>(null);
@@ -154,6 +154,7 @@ const ChannelInfo = () => {
       }
       return;
     }
+    setIsPaused(true);
     navigation.navigate('LivePlayer', { 
       channel, 
       channels: routeChannels, 
@@ -295,19 +296,12 @@ const ChannelInfo = () => {
           exiting={FadeOutDown.duration(800)}
           className="absolute bottom-10 left-0 right-0 px-8 z-10"
         >
-          <View className="flex-row items-center bg-red-600 px-3 py-1 rounded-lg self-start mb-4 shadow-lg">
-            <View className="w-2 h-2 rounded-full bg-white mr-2 shadow-2xl" />
-            <Text className="text-white font-black text-[10px] uppercase tracking-widest">Live Now</Text>
-          </View>
-          <Text className="text-5xl font-black text-white shadow-2xl">
-            {channel.name}
-          </Text>
+          
+          
           <View className="flex-row items-center mt-3">
             <Text className="text-gray-200 font-bold uppercase text-[10px] tracking-[4px]">
               {channel.category || 'Streaming'}
             </Text>
-            <View className="w-1.5 h-1.5 rounded-full bg-gray-400 mx-3" />
-            <Text className="text-gray-200 font-bold text-[10px] tracking-widest uppercase">HD Signal</Text>
           </View>
         </Animated.View>
       )}

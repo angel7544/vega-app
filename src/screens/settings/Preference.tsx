@@ -110,8 +110,8 @@ const Preferences = () => {
   const [useExternalPlayerLive, setUseExternalPlayerLive] = useState(
     settingsStorage.useExternalPlayerLive(),
   );
-  const [liveTvAutoPlay, setLiveTvAutoPlay] = useState(
-    settingsStorage.isLiveTvAutoPlayEnabled(),
+  const [initialHomeScreen, setInitialHomeScreen] = useState(
+    settingsStorage.getInitialHomeScreen(),
   );
 
   const countries = [
@@ -365,6 +365,47 @@ const Preferences = () => {
               />
             </View>
 
+            {/* Initial Home Screen Selector */}
+            <View className={`flex-row items-center px-4 justify-between p-4 border-b ${mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'}`}>
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>Startup Screen</Text>
+              <View className="w-36">
+                <Dropdown
+                  selectedTextStyle={{
+                    color: mode === 'dark' ? 'white' : 'black',
+                    fontSize: 14,
+                    fontWeight: '500',
+                  }}
+                  containerStyle={{
+                    backgroundColor: mode === 'dark' ? '#262626' : '#E5E7EB',
+                    borderRadius: 8,
+                    borderWidth: 0,
+                  }}
+                  itemTextStyle={{color: mode === 'dark' ? 'white' : 'black'}}
+                  activeColor={mode === 'dark' ? '#3A3A3A' : '#D1D5DB'}
+                  itemContainerStyle={{
+                    backgroundColor: mode === 'dark' ? '#262626' : '#E5E7EB',
+                  }}
+                  style={{
+                    backgroundColor: mode === 'dark' ? '#262626' : '#E5E7EB',
+                    borderWidth: 0,
+                  }}
+                  iconStyle={{tintColor: mode === 'dark' ? 'white' : 'black'}}
+                  labelField="label"
+                  valueField="value"
+                  data={[
+                    { label: 'Default Home', value: 'HomeStack' },
+                    { label: 'Live TV', value: 'LiveTVStack' }
+                  ]}
+                  value={initialHomeScreen}
+                  onChange={item => {
+                    settingsStorage.setInitialHomeScreen(item.value);
+                    setInitialHomeScreen(item.value);
+                    show('Restart app for best experience', 'info');
+                  }}
+                />
+              </View>
+            </View>
+
             {/* Always Use External Downloader */}
             <View className="flex-row items-center justify-between p-4">
               <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base flex-1`}>
@@ -536,21 +577,6 @@ const Preferences = () => {
                 onValueChange={val => {
                   settingsStorage.setUseExternalPlayerLive(val);
                   setUseExternalPlayerLive(val);
-                }}
-              />
-            </View>
-
-            {/* Live TV Auto-play toggle */}
-            <View className="flex-row items-center justify-between p-4">
-              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base flex-1`}>
-                Live TV Card Auto-play
-              </Text>
-              <Switch
-                thumbColor={liveTvAutoPlay ? primary : 'gray'}
-                value={liveTvAutoPlay}
-                onValueChange={val => {
-                  settingsStorage.setLiveTvAutoPlayEnabled(val);
-                  setLiveTvAutoPlay(val);
                 }}
               />
             </View>

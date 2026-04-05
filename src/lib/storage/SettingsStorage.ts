@@ -46,7 +46,7 @@ export enum SettingsKeys {
   IPTV_COUNTRY = 'iptvCountry',
   IPTV_LANGUAGE = 'iptvLanguage',
   USE_EXTERNAL_PLAYER_LIVE = 'useExternalPlayerLive',
-  LIVE_TV_AUTO_PLAY = 'liveTvAutoPlay',
+  INITIAL_HOME_SCREEN = 'initialHomeScreen',
 }
 
 /**
@@ -297,12 +297,12 @@ export class SettingsStorage {
     mainStorage.setBool(SettingsKeys.USE_EXTERNAL_PLAYER_LIVE, value);
   }
 
-  isLiveTvAutoPlayEnabled(): boolean {
-    return mainStorage.getBool(SettingsKeys.LIVE_TV_AUTO_PLAY, false);
+  getInitialHomeScreen(): string {
+    return mainStorage.getString(SettingsKeys.INITIAL_HOME_SCREEN) || 'HomeStack';
   }
 
-  setLiveTvAutoPlayEnabled(enabled: boolean): void {
-    mainStorage.setBool(SettingsKeys.LIVE_TV_AUTO_PLAY, enabled);
+  setInitialHomeScreen(screen: string): void {
+    mainStorage.setString(SettingsKeys.INITIAL_HOME_SCREEN, screen);
   }
 }
 

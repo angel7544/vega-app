@@ -53,7 +53,7 @@ import notifee from '@notifee/react-native';
 import notificationService from './lib/services/Notification';
 import useNavBarStore from './lib/zustand/navBarStore';
 import Toast from './components/Toast';
-import Animated, {useAnimatedStyle, useSharedValue, withTiming} from 'react-native-reanimated';
+import Animated, {useAnimatedStyle, withTiming} from 'react-native-reanimated';
 import {
   HomeStackParamList,
   RootStackParamList,
@@ -63,6 +63,7 @@ import {
   SettingsStackParamList,
   TabStackParamList
 } from './types/navigation';
+import FloatingSearchButton from './components/FloatingSearchButton';
 
 // Lazy-load Firebase modules so app runs without google-services files
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -212,6 +213,7 @@ function TabStack() {
   const {primary, mode} = useThemeStore(state => state);
   const {isNavBarVisible} = useNavBarStore();
   const showTabBarLables = settingsStorage.showTabBarLabels();
+  const initialHomeScreen = settingsStorage.getInitialHomeScreen();
 
   const animatedStyle = useAnimatedStyle(() => {
     return {
@@ -220,7 +222,9 @@ function TabStack() {
   });
 
   return (
+    <>
     <Tab.Navigator
+      initialRouteName={initialHomeScreen as any}
       detachInactiveScreens={true}
       screenOptions={{
         animation: 'shift',
@@ -297,37 +301,7 @@ function TabStack() {
           ),
         }}
       />
-      <Tab.Screen
-        name="SearchStack"
-        component={SearchStackScreen}
-        options={{
-          title: 'Search',
-          tabBarIcon: ({focused, color, size}) => (
-            <Animated.View
-              style={{
-                transform: [{scale: focused ? 1.1 : 1}],
-              }}>
-              <Feather name="search" color={color} size={size} />
-            </Animated.View>
-          ),
-        }}
-      />
-      <Tab.Screen
-        name="WatchHistoryStack"
-        component={WatchHistoryStackScreen}
-        options={{
-          title: 'History',
-          tabBarIcon: ({focused, color, size}) => (
-            <Animated.View
-              style={{
-                transform: [{scale: focused ? 1.1 : 1}],
-              }}>
-              <Feather name="clock" color={color} size={size} />
-            </Animated.View>
-          ),
-        }}
-      />
-      <Tab.Screen
+     <Tab.Screen
         name="WatchListStack"
         component={WatchListStackScreen}
         options={{
@@ -358,6 +332,22 @@ function TabStack() {
         }}
       />
       <Tab.Screen
+        name="WatchHistoryStack"
+        component={WatchHistoryStackScreen}
+        options={{
+          title: 'History',
+          tabBarIcon: ({focused, color, size}) => (
+            <Animated.View
+              style={{
+                transform: [{scale: focused ? 1.1 : 1}],
+              }}>
+              <Feather name="clock" color={color} size={size} />
+            </Animated.View>
+          ),
+        }}
+      />
+      
+      <Tab.Screen
         name="SettingsStack"
         component={SettingsStackScreen}
         options={{
@@ -373,6 +363,8 @@ function TabStack() {
         }}
       />
     </Tab.Navigator>
+    <FloatingSearchButton />
+    </>
   );
 }
 
@@ -572,6 +564,11 @@ const App = () => {
                     name="ChannelInfo"
                     component={ChannelInfo as any}
                     options={{orientation: 'default'}}
+                  />
+                  <Stack.Screen
+                    name="SearchStack"
+                    component={SearchStackScreen}
+                    options={{animation: 'fade_from_bottom'}}
                   />
                 </Stack.Navigator>
                 <Toast />

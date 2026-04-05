@@ -2,10 +2,9 @@ import {View, Text, FlatList} from 'react-native';
 import React, {useState, useEffect, useCallback, useMemo, memo} from 'react';
 import {useNavigation} from '@react-navigation/native';
 import {NativeStackNavigationProp} from '@react-navigation/native-stack';
-import {SearchStackParamList} from '../App';
+import {SearchStackParamList} from '../types/navigation';
 import {Feather} from '@expo/vector-icons';
-import {TextInput} from 'react-native';
-import {TouchableOpacity} from 'react-native';
+import {TextInput, TouchableOpacity, ScrollView, Image} from 'react-native';
 import useThemeStore from '../lib/zustand/themeStore';
 import {MMKV} from '../lib/Mmkv';
 import {SafeAreaView} from 'react-native-safe-area-context';
@@ -18,6 +17,7 @@ import Animated, {
 import {searchOMDB} from '../lib/services/omdb';
 import debounce from 'lodash/debounce';
 import {OMDBResult} from '../types/omdb';
+import useIPTVStore, {IPTVChannel} from '../lib/zustand/iptvStore';
 
 const MAX_VISIBLE_RESULTS = 15; // Limit number of animated items to prevent excessive callbacks
 const MAX_HISTORY_ITEMS = 30; // Maximum number of history items to store
@@ -140,42 +140,64 @@ const Search = () => {
   const [searchHistory, setSearchHistory] = useState<string[]>(
     MMKV.getArray<string>('searchHistory') || [],
   );
+  const {channels: allChannels = []} = useIPTVStore();
   const [searchResults, setSearchResults] = useState<OMDBResult[]>([]);
+  const [channelResults, setChannelResults] = useState<IPTVChannel[]>([]);
+  const [searchMode, setSearchMode] = useState<'vod' | 'live'>('vod');
 
   const debouncedSearch = useCallback(
-    debounce(async (text: string) => {
+    debounce(async (text: string, mode: 'vod' | 'live') => {
       if (text.length >= 2) {
-        setSearchResults([]); // Clear previous results
-        const results = await searchOMDB(text);
-        if (results.length > 0) {
-          // Remove duplicates based on imdbID
-          const uniqueResults = results.reduce((acc, current) => {
-            const x = acc.find(
-              (item: OMDBResult) => item.imdbID === current.imdbID,
-            );
-            if (!x) {
-              return acc.concat([current]);
-            } else {
+        if (mode === 'vod') {
+          setSearchResults([]); // Clear previous results
+          const results = await searchOMDB(text);
+          if (results.length > 0) {
+            const uniqueResults = results.reduce((acc, current) => {
+              const x = acc.find(
+                (item: OMDBResult) => item.imdbID === current.imdbID,
+              );
+              if (!x) return acc.concat([current]);
               return acc;
-            }
-          }, [] as OMDBResult[]);
+            }, [] as OMDBResult[]);
+            setSearchResults(uniqueResults.slice(0, MAX_VISIBLE_RESULTS));
+          }
 
-          // Limit the number of results to prevent excessive animations
-          setSearchResults(uniqueResults.slice(0, MAX_VISIBLE_RESULTS));
+          // In VOD mode, also show a small preview of matching channels
+          const filteredChannels = allChannels
+            .filter(
+              c =>
+                c.name.toLowerCase().includes(text.toLowerCase()) ||
+                (c.category &&
+                  c.category.toLowerCase().includes(text.toLowerCase())),
+            )
+            .slice(0, 5);
+          setChannelResults(filteredChannels);
+        } else {
+          // Live mode: search only channels, no limit
+          setSearchResults([]);
+          const filteredChannels = allChannels
+            .filter(
+              c =>
+                c.name.toLowerCase().includes(text.toLowerCase()) ||
+                (c.category &&
+                  c.category.toLowerCase().includes(text.toLowerCase())),
+            );
+          setChannelResults(filteredChannels);
         }
       } else {
         setSearchResults([]);
+        setChannelResults([]);
       }
-    }, 300), // Reduced debounce time for better responsiveness
-    [],
+    }, 300),
+    [allChannels],
   );
 
   useEffect(() => {
-    debouncedSearch(searchText);
+    debouncedSearch(searchText, searchMode);
     return () => {
       debouncedSearch.cancel();
     };
-  }, [searchText, debouncedSearch]);
+  }, [searchText, searchMode, debouncedSearch]);
 
   const handleSearch = useCallback(
     (text: string) => {
@@ -298,7 +320,7 @@ const Search = () => {
                     className={`flex-1 ${
                       mode === 'dark' ? 'text-white' : 'text-black'
                     } text-base ml-3`}
-                    placeholder="Search anime..."
+                    placeholder={`Search ${searchMode === 'vod' ? 'movies & series' : 'TV channels'}...`}
                     placeholderTextColor="#666"
                     value={searchText}
                     onChangeText={setSearchText}
@@ -319,6 +341,24 @@ const Search = () => {
             </View>
           </View>
         </View>
+
+        {/* Search Mode Toggle */}
+        <View className="flex-row items-center mt-3 bg-white/5 p-1 rounded-2xl self-start">
+           <TouchableOpacity 
+             onPress={() => setSearchMode('vod')}
+             className={`px-6 py-2.5 rounded-xl flex-row items-center ${searchMode === 'vod' ? 'bg-primary' : ''}`}
+           >
+             <Feather name="film" size={14} color={searchMode === 'vod' ? 'white' : '#666'} />
+             <Text className={`ml-2 text-xs font-black uppercase tracking-widest ${searchMode === 'vod' ? 'text-white' : 'text-white/40'}`}>Providers</Text>
+           </TouchableOpacity>
+           <TouchableOpacity 
+             onPress={() => setSearchMode('live')}
+             className={`px-6 py-2.5 rounded-xl flex-row items-center ${searchMode === 'live' ? 'bg-primary' : ''}`}
+           >
+             <Feather name="tv" size={14} color={searchMode === 'live' ? 'white' : '#666'} />
+             <Text className={`ml-2 text-xs font-black uppercase tracking-widest ${searchMode === 'live' ? 'text-white' : 'text-white/40'}`}>TV Channels</Text>
+           </TouchableOpacity>
+        </View>
       </AnimatedContainer>
 
       {/* Search Results */}
@@ -332,20 +372,90 @@ const Search = () => {
               ? 'history'
               : 'empty'
         }>
-        {searchResults.length > 0 ? (
+        {searchResults.length > 0 || (searchMode === 'live' && channelResults.length > 0) ? (
           <FlatList
-            data={searchResults}
-            keyExtractor={searchResultKeyExtractor}
-            renderItem={renderSearchResult}
-            contentContainerStyle={{paddingTop: 4}}
+            data={searchMode === 'vod' ? searchResults : channelResults}
+            keyExtractor={(item: any) => item.imdbID ? item.imdbID.toString() : item.url}
+            renderItem={searchMode === 'vod' ? renderSearchResult : ({item}) => (
+              <TouchableOpacity
+                onPress={() => (navigation.navigate as any)('ChannelInfo', { channel: item, channels: allChannels, initialIndex: 0 })}
+                className={`mx-4 mb-3 p-4 rounded-[28px] border flex-row items-center ${
+                  mode === 'dark' ? 'bg-[#141414] border-white/5' : 'bg-gray-100 border-gray-200'
+                }`}
+              >
+                <View className="w-16 h-16 bg-black/40 rounded-2xl items-center justify-center overflow-hidden mr-4">
+                   {item.logo ? (
+                     <Image source={{ uri: item.logo }} className="w-[75%] h-[75%]" resizeMode="contain" />
+                   ) : (
+                     <Feather name="tv" size={24} color={primary} />
+                   )}
+                </View>
+                <View className="flex-1">
+                   <Text className={`text-lg font-black ${mode === 'dark' ? 'text-white' : 'text-black'}`} numberOfLines={1}>
+                     {item.name}
+                   </Text>
+                   <View className="flex-row items-center mt-1">
+                     <View className="bg-primary/20 px-2 py-0.5 rounded-md mr-2">
+                        <Text className="text-primary text-[8px] font-black uppercase">Live</Text>
+                     </View>
+                     <Text className={`text-[10px] font-black uppercase tracking-widest ${mode === 'dark' ? 'text-white/40' : 'text-black/40'}`} numberOfLines={1}>
+                        {item.category || 'General'}
+                     </Text>
+                   </View>
+                </View>
+                <Feather name="chevron-right" size={20} color={mode === 'dark' ? '#333' : '#CCC'} />
+              </TouchableOpacity>
+            )}
+            contentContainerStyle={{paddingTop: 12, paddingBottom: 100}}
             showsVerticalScrollIndicator={false}
             onScroll={handleScroll}
             scrollEventThrottle={16}
             removeClippedSubviews={true}
-            maxToRenderPerBatch={10}
-            updateCellsBatchingPeriod={50}
-            windowSize={10}
-            initialNumToRender={10}
+            ListHeaderComponent={() => (
+              <>
+                {searchMode === 'vod' && channelResults.length > 0 && (
+                  <View className="mb-6">
+                    <View className="px-4 mb-4 flex-row items-center justify-between">
+                      <Text className={`text-base font-bold ${mode === 'dark' ? 'text-white' : 'text-black'}`}>
+                        Live Channels
+                      </Text>
+                      <TouchableOpacity onPress={() => setSearchMode('live')} className="bg-primary/10 px-3 py-1 rounded-full">
+                         <Text className="text-primary text-[10px] font-black uppercase italic">View All</Text>
+                      </TouchableOpacity>
+                    </View>
+                    <ScrollView horizontal showsHorizontalScrollIndicator={false} className="pl-4">
+                      {channelResults.slice(0, 5).map((channel, index) => (
+                        <TouchableOpacity
+                          key={channel.url + index}
+                          onPress={() => (navigation.navigate as any)('ChannelInfo', { channel, channels: allChannels, initialIndex: 0 })}
+                          className={`mr-4 p-3 rounded-2xl border ${
+                            mode === 'dark' ? 'bg-[#141414] border-white/5' : 'bg-gray-100 border-gray-200'
+                          }`}
+                          style={{ width: 120 }}
+                        >
+                          <View className="aspect-video bg-black rounded-xl overflow-hidden items-center justify-center mb-2">
+                             {channel.logo ? (
+                               <Image source={{ uri: channel.logo }} className="w-[70%] h-[70%]" resizeMode="contain" />
+                             ) : (
+                               <Feather name="tv" size={24} color={primary} />
+                             )}
+                          </View>
+                          <Text className={`text-[10px] font-bold ${mode === 'dark' ? 'text-white' : 'text-black'}`} numberOfLines={1}>
+                            {channel.name}
+                          </Text>
+                        </TouchableOpacity>
+                      ))}
+                    </ScrollView>
+                    <View className={`mt-6 mx-4 h-px ${mode === 'dark' ? 'bg-white/5' : 'bg-gray-100'}`} />
+                  </View>
+                )}
+                {searchMode === 'vod' && searchResults.length > 0 && (
+                  <Text className={`px-4 mb-2 text-base font-bold ${mode === 'dark' ? 'text-white' : 'text-black'}`}>
+                    Movies & Series
+                  </Text>
+                )}
+              </>
+            )}
           />
         ) : searchHistory.length > 0 ? (
           <AnimatedContainer
@@ -396,7 +506,7 @@ const Search = () => {
               className={`${
                 mode === 'dark' ? 'text-white' : 'text-black'
               } font-bold text-lg text-center`}>
-              Search for your favorite anime
+              Search for your favorites
             </Text>
             <Text
               className={`${
