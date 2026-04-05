@@ -759,12 +759,12 @@ const ChannelInfo = () => {
             <Text className="text-gray-500 dark:text-gray-400 text-base font-bold mt-6 text-center px-10">
               EPG Schedule is currently disabled in settings
             </Text>
-            <TouchableOpacity 
+            {/* <TouchableOpacity 
               onPress={() => { setActiveTab('epg' as any); setShowSettings(true); }}
               className="mt-6 px-8 py-3 bg-primary rounded-full"
             >
               <Text className="text-white font-black text-[10px] uppercase tracking-widest">Enable EPG</Text>
-            </TouchableOpacity>
+            </TouchableOpacity> */}
           </View>
         ) : loading ? (
           <View className="py-20 items-center justify-center">
