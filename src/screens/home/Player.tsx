@@ -201,6 +201,7 @@ const Player = ({route}: Props): React.JSX.Element => {
     routeParams: route.params,
     playbackRate,
     updatePlaybackInfo,
+    enabled: route.params?.type !== 'live',
   });
 
   // Settings values
@@ -551,7 +552,9 @@ const Player = ({route}: Props): React.JSX.Element => {
       },
       onProgress: handleProgress,
       onLoad: () => {
-        playerRef?.current?.seek(watchedDuration);
+        if (route.params?.type !== 'live') {
+          playerRef?.current?.seek(watchedDuration);
+        }
         playerRef?.current?.resume();
         setPlaybackRate(1.0);
       },

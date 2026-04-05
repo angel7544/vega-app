@@ -46,6 +46,10 @@ const Settings = ({navigation}: Props) => {
   const {handleScroll} = useShowNavBarOnScroll();
   const {clearHistory} = useWatchHistoryStore(state => state);
 
+  // Home section toggles state
+  const [showFavChannels, setShowFavChannels] = React.useState(settingsStorage.getBool('showFavChannelsHome', true));
+  const [showSportsChannels, setShowSportsChannels] = React.useState(settingsStorage.getBool('showSportsChannelsHome', true));
+
   const handleProviderSelect = useCallback(
     (item: ProviderExtension) => {
       setProvider(item);
@@ -394,6 +398,47 @@ const Settings = ({navigation}: Props) => {
                   <Feather name="chevron-right" size={20} color="gray" />
                 </View>
               </TouchableNativeFeedback>
+
+              {/* Live TV Home Sections */}
+              <View className={`px-4 py-8 border-t ${mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'}`}>
+                <Text className={`text-[10px] font-black uppercase tracking-[4px] mb-6 ${mode === 'dark' ? 'text-white/20' : 'text-black/20'}`}>
+                  Live TV Home Sections
+                </Text>
+                
+                <View className="flex-row items-center justify-between mb-8">
+                   <View className="flex-1 mr-4">
+                      <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base font-bold`}>Show Favorites on Home</Text>
+                      <Text className="text-gray-500 text-[10px] mt-1 font-bold">Quick access to your curated signals</Text>
+                   </View>
+                  <TouchableOpacity 
+                    onPress={() => {
+                      const newValue = !showFavChannels;
+                      setShowFavChannels(newValue);
+                      settingsStorage.setBool('showFavChannelsHome', newValue);
+                    }}
+                    className={`w-12 h-6 rounded-full p-1 ${showFavChannels ? 'bg-primary' : 'bg-gray-600'}`}
+                  >
+                    <View className={`w-4 h-4 rounded-full bg-white ${showFavChannels ? 'ml-6' : 'ml-0'}`} />
+                  </TouchableOpacity>
+                </View>
+
+                <View className="flex-row items-center justify-between">
+                   <View className="flex-1 mr-4">
+                      <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base font-bold`}>Show Sports on Home</Text>
+                      <Text className="text-gray-500 text-[10px] mt-1 font-bold">Never miss a live match</Text>
+                   </View>
+                  <TouchableOpacity 
+                    onPress={() => {
+                      const newValue = !showSportsChannels;
+                      setShowSportsChannels(newValue);
+                      settingsStorage.setBool('showSportsChannelsHome', newValue);
+                    }}
+                    className={`w-12 h-6 rounded-full p-1 ${showSportsChannels ? 'bg-primary' : 'bg-gray-600'}`}
+                  >
+                    <View className={`w-4 h-4 rounded-full bg-white ${showSportsChannels ? 'ml-6' : 'ml-0'}`} />
+                  </TouchableOpacity>
+                </View>
+              </View>
             </View>
           </View>
         </AnimatedSection>

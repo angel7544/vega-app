@@ -8,6 +8,10 @@ import Settings from './screens/settings/Settings';
 import WatchList from './screens/WatchList';
 import Search from './screens/Search';
 import ScrollList from './screens/ScrollList';
+import LiveTV from './screens/LiveTV';
+import LivePlayer from './screens/home/LivePlayer';
+import FavoriteTV from './screens/FavoriteTV';
+import ChannelInfo from './screens/ChannelInfo';
 import {
   NavigationContainer,
   createNavigationContainerRef,
@@ -17,6 +21,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {Feather} from '@expo/vector-icons';
 import 'react-native-reanimated';
 import 'react-native-gesture-handler';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import WebView from './screens/WebView';
 import SearchResults from './screens/SearchResults';
 import * as SystemUI from 'expo-system-ui';
@@ -49,6 +54,16 @@ import notificationService from './lib/services/Notification';
 import useNavBarStore from './lib/zustand/navBarStore';
 import Toast from './components/Toast';
 import Animated, {useAnimatedStyle, useSharedValue, withTiming} from 'react-native-reanimated';
+import {
+  HomeStackParamList,
+  RootStackParamList,
+  SearchStackParamList,
+  WatchListStackParamList,
+  WatchHistoryStackParamList,
+  SettingsStackParamList,
+  TabStackParamList
+} from './types/navigation';
+
 // Lazy-load Firebase modules so app runs without google-services files
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const getAnalytics = (): any | null => {
@@ -74,96 +89,6 @@ enableFreeze(true);
 
 const isLargeScreen = Dimensions.get('window').width > 768;
 
-export type HomeStackParamList = {
-  Home: undefined;
-  Info: {link: string; provider?: string; poster?: string};
-  ScrollList: {
-    filter: string;
-    title?: string;
-    providerValue?: string;
-    isSearch: boolean;
-  };
-  Webview: {link: string};
-};
-
-export type RootStackParamList = {
-  TabStack:
-    | {
-        screen?: keyof TabStackParamList;
-        params?: {
-          screen?: string;
-          params?: {
-            screen?: string;
-            params?: any;
-          };
-        };
-      }
-    | undefined;
-  Player: {
-    linkIndex: number;
-    episodeList: EpisodeLink[];
-    directUrl?: string;
-    type: string;
-    primaryTitle?: string;
-    secondaryTitle?: string;
-    poster: {
-      logo?: string;
-      poster?: string;
-      background?: string;
-    };
-    file?: string;
-    providerValue?: string;
-    infoUrl?: string;
-    doNotTrack?: boolean;
-  };
-};
-
-export type SearchStackParamList = {
-  Search: undefined;
-  ScrollList: {
-    filter: string;
-    title?: string;
-    providerValue?: string;
-    isSearch: boolean;
-  };
-  Info: {link: string; provider?: string; poster?: string};
-  SearchResults: {filter: string; availableProviders?: string[]};
-  Webview: {link: string};
-};
-
-export type WatchListStackParamList = {
-  WatchList: undefined;
-  Info: {link: string; provider?: string; poster?: string};
-};
-
-export type WatchHistoryStackParamList = {
-  WatchHistory: undefined;
-  Info: {link: string; provider?: string; poster?: string};
-  SeriesEpisodes: {
-    series: string;
-    episodes: Array<{uri: string; size: number}>;
-    thumbnails: Record<string, string>;
-  };
-};
-
-export type SettingsStackParamList = {
-  Settings: undefined;
-  DisableProviders: undefined;
-  About: undefined;
-  Preferences: undefined;
-  Downloads: undefined;
-  WatchHistoryStack: undefined;
-  SubTitlesPreferences: undefined;
-  Extensions: undefined;
-};
-
-export type TabStackParamList = {
-  HomeStack: undefined;
-  SearchStack: undefined;
-  WatchHistoryStack: undefined;
-  WatchListStack: undefined;
-  SettingsStack: undefined;
-};
 const Tab = createBottomTabNavigator<TabStackParamList>();
 export const navigationRef = createNavigationContainerRef<RootStackParamList>();
 
@@ -173,6 +98,21 @@ const SearchStack = createNativeStackNavigator<SearchStackParamList>();
 const WatchListStack = createNativeStackNavigator<WatchListStackParamList>();
 const SettingsStack = createNativeStackNavigator<SettingsStackParamList>();
 const WatchHistoryStack = createNativeStackNavigator<WatchHistoryStackParamList>();
+const LiveTVStack = createNativeStackNavigator();
+
+function LiveTVStackScreen() {
+  return (
+    <LiveTVStack.Navigator
+      screenOptions={{
+        headerShown: false,
+        animation: 'ios_from_right',
+        animationDuration: 200,
+        freezeOnBlur: true,
+      }}>
+      <LiveTVStack.Screen name="LiveTV" component={LiveTV as any} />
+    </LiveTVStack.Navigator>
+  );
+}
 
 function HomeStackScreen() {
   return (
@@ -403,6 +343,21 @@ function TabStack() {
         }}
       />
       <Tab.Screen
+        name="LiveTVStack"
+        component={LiveTVStackScreen}
+        options={{
+          title: 'Live TV',
+          tabBarIcon: ({focused, color, size}) => (
+            <Animated.View
+              style={{
+                transform: [{scale: focused ? 1.1 : 1}],
+              }}>
+              <Feather name="tv" color={color} size={size} />
+            </Animated.View>
+          ),
+        }}
+      />
+      <Tab.Screen
         name="SettingsStack"
         component={SettingsStackScreen}
         options={{
@@ -512,103 +467,120 @@ const App = () => {
   }, []);
 
   return (
-    <GlobalErrorBoundary>
-      <SafeAreaProvider>
-        <QueryClientProvider client={queryClient}>
-          <SafeAreaView
-            edges={{
-              right: 'off',
-              top: 'off',
-              left: 'off',
-              bottom: 'additive',
-            }}
-            className="flex-1"
-            style={{backgroundColor: mode === 'dark' ? 'black' : 'white'}}>
-            <NavigationContainer
-              ref={navigationRef}
-              onReady={async () => {
-                // Hide bootsplash
-                await BootSplash.hide({fade: true});
-                // Track initial screen
-                if (hasFirebase) {
-                  try {
-                    const route = navigationRef.getCurrentRoute();
-                    if (route?.name) {
-                      const analytics = getAnalytics();
-                      analytics &&
-                        (await analytics().logScreenView({
-                          screen_name: route.name,
-                          screen_class: 'Navigation',
-                          }));
-                    }
-                  } catch {}
-                }
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <GlobalErrorBoundary>
+        <SafeAreaProvider>
+          <QueryClientProvider client={queryClient}>
+            <SafeAreaView
+              edges={{
+                right: 'off',
+                top: 'off',
+                left: 'off',
+                bottom: 'additive',
               }}
-              onStateChange={async () => {
-                if (hasFirebase) {
-                  try {
-                    const route = navigationRef.getCurrentRoute();
-                    if (route?.name) {
-                      const analytics = getAnalytics();
-                      analytics &&
-                        (await analytics().logScreenView({
-                          screen_name: route.name,
-                          screen_class: 'Navigation',
-                          }));
-                    }
-                  } catch {}
-                }
-              }}
-              theme={{
-                fonts: {
-                  regular: {
-                    fontFamily: 'Inter_400Regular',
-                    fontWeight: '400',
+              className="flex-1"
+              style={{backgroundColor: mode === 'dark' ? 'black' : 'white'}}>
+              <NavigationContainer
+                ref={navigationRef}
+                onReady={async () => {
+                  // Hide bootsplash
+                  await BootSplash.hide({fade: true});
+                  // Track initial screen
+                  if (hasFirebase) {
+                    try {
+                      const route = navigationRef.getCurrentRoute();
+                      if (route?.name) {
+                        const analytics = getAnalytics();
+                        analytics &&
+                          (await analytics().logScreenView({
+                            screen_name: route.name,
+                            screen_class: 'Navigation',
+                            }));
+                      }
+                    } catch {}
+                  }
+                }}
+                onStateChange={async () => {
+                  if (hasFirebase) {
+                    try {
+                      const route = navigationRef.getCurrentRoute();
+                      if (route?.name) {
+                        const analytics = getAnalytics();
+                        analytics &&
+                          (await analytics().logScreenView({
+                            screen_name: route.name,
+                            screen_class: 'Navigation',
+                            }));
+                      }
+                    } catch {}
+                  }
+                }}
+                theme={{
+                  fonts: {
+                    regular: {
+                      fontFamily: 'Inter_400Regular',
+                      fontWeight: '400',
+                    },
+                    medium: {
+                      fontFamily: 'Inter_500Medium',
+                      fontWeight: '500',
+                    },
+                    bold: {
+                      fontFamily: 'Inter_700Bold',
+                      fontWeight: '700',
+                    },
+                    heavy: {
+                      fontFamily: 'Inter_800ExtraBold',
+                      fontWeight: '800',
+                    },
                   },
-                  medium: {
-                    fontFamily: 'Inter_500Medium',
-                    fontWeight: '500',
+                  dark: mode === 'dark',
+                  colors: {
+                    background: mode === 'dark' ? 'black' : 'white',
+                    card: mode === 'dark' ? 'black' : '#f8f9fa',
+                    primary: primary,
+                    text: mode === 'dark' ? 'white' : 'black',
+                    border: mode === 'dark' ? '#262626' : '#dee2e6',
+                    notification: primary,
                   },
-                  bold: {
-                    fontFamily: 'Inter_700Bold',
-                    fontWeight: '700',
-                  },
-                  heavy: {
-                    fontFamily: 'Inter_800ExtraBold',
-                    fontWeight: '800',
-                  },
-                },
-                dark: mode === 'dark',
-                colors: {
-                  background: mode === 'dark' ? 'black' : 'white',
-                  card: mode === 'dark' ? 'black' : '#f8f9fa',
-                  primary: primary,
-                  text: mode === 'dark' ? 'white' : 'black',
-                  border: mode === 'dark' ? '#262626' : '#dee2e6',
-                  notification: primary,
-                },
-              }}>
-              <Stack.Navigator
-                screenOptions={{
-                  headerShown: false,
-                  animation: 'ios_from_right',
-                  animationDuration: 200,
-                  freezeOnBlur: true,
-                  contentStyle: {backgroundColor: 'transparent'},
                 }}>
-                <Stack.Screen name="TabStack" component={TabStack} />
-                <Stack.Screen
-                  name="Player"
-                  component={Player}
-                  options={{orientation: 'landscape'}}
-                />
-              </Stack.Navigator>
-              <Toast />
-            </NavigationContainer>
-          </SafeAreaView>
-        </QueryClientProvider>
-      </SafeAreaProvider>
-    </GlobalErrorBoundary>
+                <Stack.Navigator
+                  screenOptions={{
+                    headerShown: false,
+                    animation: 'ios_from_right',
+                    animationDuration: 200,
+                    freezeOnBlur: true,
+                    contentStyle: {backgroundColor: 'transparent'},
+                  }}>
+                  <Stack.Screen name="TabStack" component={TabStack} />
+                  <Stack.Screen
+                    name="Player"
+                    component={Player}
+                    options={{orientation: 'landscape'}}
+                  />
+                   <Stack.Screen
+                    name="LivePlayer"
+                    component={LivePlayer as any}
+                    options={{orientation: 'default'}}
+                  />
+                   <Stack.Screen
+                    name="FavoriteTV"
+                    component={FavoriteTV as any}
+                    options={{orientation: 'default'}}
+                  />
+                  <Stack.Screen
+                    name="ChannelInfo"
+                    component={ChannelInfo as any}
+                    options={{orientation: 'default'}}
+                  />
+                </Stack.Navigator>
+                <Toast />
+              </NavigationContainer>
+            </SafeAreaView>
+          </QueryClientProvider>
+        </SafeAreaProvider>
+      </GlobalErrorBoundary>
+    </GestureHandlerRootView>
   );
 };
 

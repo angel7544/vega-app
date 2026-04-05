@@ -92,7 +92,21 @@ const ContinueWatching = () => {
 
   const handleNavigateToInfo = (item: any) => {
     try {
-      // Remember and sync the provider
+      // Detect if it's Live TV immediately
+      if (item.isLiveTV) {
+        (navigation as any).navigate('LivePlayer', {
+          channel: {
+            name: item.title,
+            url: item.link,
+            logo: item.image,
+            category: 'Recent',
+            tvgId: item.tvgId,
+          }
+        } as any);
+        return;
+      }
+
+      // Remember and sync the provider for standard content
       if (item.provider) {
         const matchingProvider = installedProviders.find((p: any) => p.value === item.provider);
         if (matchingProvider) {

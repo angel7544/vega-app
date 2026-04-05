@@ -105,6 +105,34 @@ const Preferences = () => {
   
   const [tmdbApiKey, setTmdbApiKey] = useState(settingsStorage.getTmdbApiKey());
   const [tmdbReadToken, setTmdbReadToken] = useState(settingsStorage.getTmdbReadToken());
+  const [iptvCountry, setIptvCountry] = useState(settingsStorage.getIptvCountry());
+  const [iptvLanguage, setIptvLanguage] = useState(settingsStorage.getIptvLanguage());
+  const [useExternalPlayerLive, setUseExternalPlayerLive] = useState(
+    settingsStorage.useExternalPlayerLive(),
+  );
+
+  const countries = [
+    { label: 'India', value: 'in' },
+    { label: 'USA', value: 'us' },
+    { label: 'UK', value: 'uk' },
+    { label: 'Canada', value: 'ca' },
+    { label: 'Germany', value: 'de' },
+    { label: 'France', value: 'fr' },
+    { label: 'Italy', value: 'it' },
+    { label: 'Spain', value: 'es' },
+  ];
+
+  const languages = [
+    { label: 'All', value: 'all' },
+    { label: 'English', value: 'eng' },
+    { label: 'Hindi', value: 'hin' },
+    { label: 'Tamil', value: 'tam' },
+    { label: 'Telugu', value: 'tel' },
+    { label: 'Malayalam', value: 'mal' },
+    { label: 'Kannada', value: 'kan' },
+    { label: 'Spanish', value: 'spa' },
+    { label: 'French', value: 'fra' },
+  ];
 
   return (
     <ScrollView
@@ -414,7 +442,102 @@ const Preferences = () => {
           </View>
         </View>
 
-        {/* Player Settings */}
+        {/* Live TV Settings */}
+        <View className="mb-6">
+          <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-sm mb-3`}>Live TV</Text>
+          <View className={`${mode === 'dark' ? 'bg-[#1A1A1A]' : 'bg-gray-100'} rounded-xl overflow-hidden`}>
+            {/* Country Selector */}
+            <View className={`flex-row items-center px-4 justify-between p-4 border-b ${mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'}`}>
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>Country</Text>
+              <View className="w-36">
+                <Dropdown
+                  selectedTextStyle={{
+                    color: mode === 'dark' ? 'white' : 'black',
+                    fontSize: 14,
+                    fontWeight: '500',
+                  }}
+                  containerStyle={{
+                    backgroundColor: mode === 'dark' ? '#262626' : '#E5E7EB',
+                    borderRadius: 8,
+                    borderWidth: 0,
+                  }}
+                  itemTextStyle={{color: mode === 'dark' ? 'white' : 'black'}}
+                  activeColor={mode === 'dark' ? '#3A3A3A' : '#D1D5DB'}
+                  itemContainerStyle={{
+                    backgroundColor: mode === 'dark' ? '#262626' : '#E5E7EB',
+                  }}
+                  style={{
+                    backgroundColor: mode === 'dark' ? '#262626' : '#E5E7EB',
+                    borderWidth: 0,
+                  }}
+                  iconStyle={{tintColor: mode === 'dark' ? 'white' : 'black'}}
+                  labelField="label"
+                  valueField="value"
+                  data={countries}
+                  value={iptvCountry}
+                  onChange={item => {
+                    settingsStorage.setIptvCountry(item.value);
+                    setIptvCountry(item.value);
+                    show('Restart Live TV to apply', 'info');
+                  }}
+                />
+              </View>
+            </View>
+
+            {/* Language Selector */}
+            <View className={`flex-row items-center px-4 justify-between p-4 border-b ${mode === 'dark' ? 'border-[#262626]' : 'border-gray-200'}`}>
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>Language</Text>
+              <View className="w-36">
+                <Dropdown
+                  selectedTextStyle={{
+                    color: mode === 'dark' ? 'white' : 'black',
+                    fontSize: 14,
+                    fontWeight: '500',
+                  }}
+                  containerStyle={{
+                    backgroundColor: mode === 'dark' ? '#262626' : '#E5E7EB',
+                    borderRadius: 8,
+                    borderWidth: 0,
+                  }}
+                  itemTextStyle={{color: mode === 'dark' ? 'white' : 'black'}}
+                  activeColor={mode === 'dark' ? '#3A3A3A' : '#D1D5DB'}
+                  itemContainerStyle={{
+                    backgroundColor: mode === 'dark' ? '#262626' : '#E5E7EB',
+                  }}
+                  style={{
+                    backgroundColor: mode === 'dark' ? '#262626' : '#E5E7EB',
+                    borderWidth: 0,
+                  }}
+                  iconStyle={{tintColor: mode === 'dark' ? 'white' : 'black'}}
+                  labelField="label"
+                  valueField="value"
+                  data={languages}
+                  value={iptvLanguage}
+                  onChange={item => {
+                    settingsStorage.setIptvLanguage(item.value);
+                    setIptvLanguage(item.value);
+                    show('Restart Live TV to apply', 'info');
+                  }}
+                />
+              </View>
+            </View>
+
+            {/* External Player Live toggle */}
+            <View className="flex-row items-center justify-between p-4">
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base flex-1`}>
+                Always Use External Player (Live)
+              </Text>
+              <Switch
+                thumbColor={useExternalPlayerLive ? primary : 'gray'}
+                value={useExternalPlayerLive}
+                onValueChange={val => {
+                  settingsStorage.setUseExternalPlayerLive(val);
+                  setUseExternalPlayerLive(val);
+                }}
+              />
+            </View>
+          </View>
+        </View>
         <View className="mb-6">
           <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-sm mb-3`}>Player</Text>
           <View className={`${mode === 'dark' ? 'bg-[#1A1A1A]' : 'bg-gray-100'} rounded-xl overflow-hidden`}>

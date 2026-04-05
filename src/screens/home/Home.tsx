@@ -8,7 +8,7 @@ import {
 import Slider from '../../components/Slider';
 import React, {useCallback, useMemo, useState} from 'react';
 import Hero from '../../components/Hero';
-import {mainStorage} from '../../lib/storage';
+import {mainStorage, settingsStorage} from '../../lib/storage';
 import useContentStore from '../../lib/zustand/contentStore';
 import useHeroStore from '../../lib/zustand/herostore';
 import {
@@ -28,6 +28,9 @@ import {providerManager} from '../../lib/services/ProviderManager';
 import Tutorial from '../../components/Touturial';
 import {QueryErrorBoundary} from '../../components/ErrorBoundary';
 import {StatusBar} from 'expo-status-bar';
+import LiveTVHomeSlider from '../../components/LiveTVHomeSlider';
+import {iptvParser} from '../../lib/iptvParser';
+import usePlayerStore from '../../lib/zustand/playerStore';
 
 type Props = NativeStackScreenProps<HomeStackParamList, 'Home'>;
 
@@ -54,6 +57,14 @@ const Home = ({}: Props) => {
   
   const heroState = useHeroStore();
   const setHero = heroState?.setHero;
+  
+  const {favorites} = usePlayerStore();
+  const [sportsChannels, setSportsChannels] = useState<any[]>([]);
+  const [liveLoading, setLiveLoading] = useState(false);
+
+  // Settings for home sections
+  const showFavChannels = useMemo(() => settingsStorage.getBool('showFavChannelsHome', true), []);
+  const showSportsChannels = useMemo(() => settingsStorage.getBool('showSportsChannelsHome', true), []);
 
   // React Query for home page data with better error handling
   const {
@@ -99,6 +110,19 @@ const Home = ({}: Props) => {
       setHero?.({link: '', image: '', title: ''});
     }
   }, [heroPost, setHero]);
+
+  // Fetch Live TV data for home sliders
+  React.useEffect(() => {
+    if (showSportsChannels) {
+      setLiveLoading(true);
+      iptvParser.fetchByCountry('in')
+        .then(data => {
+          const sports = data.filter(c => (c.category || '').toLowerCase().includes('sports') || c.name.toLowerCase().includes('sports'));
+          setSportsChannels(sports.slice(0, 15));
+        })
+        .finally(() => setLiveLoading(false));
+    }
+  }, [showSportsChannels]);
 
   // Optimized refresh handler
   const handleRefresh = useCallback(async () => {
@@ -219,6 +243,21 @@ const Home = ({}: Props) => {
 
               <View className="mt-[-40px]">
                 <ContinueWatching />
+
+                {showFavChannels && favorites.length > 0 && (
+                  <LiveTVHomeSlider 
+                    title="Your Top Signals" 
+                    channels={favorites} 
+                  />
+                )}
+
+                {showSportsChannels && (
+                  <LiveTVHomeSlider 
+                    title="Live Sports Now" 
+                    channels={sportsChannels} 
+                    isLoading={liveLoading} 
+                  />
+                )}
 
                 <View className="relative z-20 px-2 mt-2">
                   {isLoading ? loadingSliders : contentSliders}

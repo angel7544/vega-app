@@ -6,6 +6,7 @@ interface UsePlayerProgressOptions {
   routeParams: any;
   playbackRate: number;
   updatePlaybackInfo: (link: string, data: any) => void;
+  enabled?: boolean;
 }
 
 export const usePlayerProgress = ({
@@ -13,6 +14,7 @@ export const usePlayerProgress = ({
   routeParams,
   playbackRate,
   updatePlaybackInfo,
+  enabled = true,
 }: UsePlayerProgressOptions) => {
   const videoPositionRef = useRef({position: 0, duration: 0});
   const lastSavedPositionRef = useRef(0);
@@ -20,6 +22,7 @@ export const usePlayerProgress = ({
   // Memoized progress handler
   const handleProgress = useCallback(
     (e: {currentTime: number; seekableDuration: number}) => {
+      if (!enabled) return;
       const {currentTime, seekableDuration} = e;
 
       videoPositionRef.current = {
@@ -130,7 +133,7 @@ export const usePlayerSettings = () => {
   const [showControls, setShowControls] = useState(true);
   const [showSettings, setShowSettings] = useState(false);
   const [activeTab, setActiveTab] = useState<
-    'audio' | 'subtitle' | 'server' | 'quality' | 'speed'
+    'audio' | 'subtitle' | 'server' | 'quality' | 'speed' | 'epg'
   >('audio');
   const [resizeMode, setResizeMode] = useState<any>('none');
   const [playbackRate, setPlaybackRate] = useState(1.0);

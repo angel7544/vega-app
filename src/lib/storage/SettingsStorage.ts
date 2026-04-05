@@ -41,6 +41,11 @@ export enum SettingsKeys {
   // TMDb settings
   TMDB_API_KEY = 'tmdbApiKey',
   TMDB_READ_TOKEN = 'tmdbReadToken',
+
+  // IPTV settings
+  IPTV_COUNTRY = 'iptvCountry',
+  IPTV_LANGUAGE = 'iptvLanguage',
+  USE_EXTERNAL_PLAYER_LIVE = 'useExternalPlayerLive',
 }
 
 /**
@@ -264,6 +269,31 @@ export class SettingsStorage {
 
   setBool(key: string, value: boolean): void {
     mainStorage.setBool(key, value);
+  }
+
+  // IPTV settings
+  getIptvCountry(): string {
+    return mainStorage.getString(SettingsKeys.IPTV_COUNTRY) || 'in';
+  }
+
+  setIptvCountry(country: string): void {
+    mainStorage.setString(SettingsKeys.IPTV_COUNTRY, country);
+  }
+
+  getIptvLanguage(): string {
+    return mainStorage.getString(SettingsKeys.IPTV_LANGUAGE) || 'all';
+  }
+
+  setIptvLanguage(language: string): void {
+    mainStorage.setString(SettingsKeys.IPTV_LANGUAGE, language);
+  }
+
+  useExternalPlayerLive(): boolean {
+    return mainStorage.getBool(SettingsKeys.USE_EXTERNAL_PLAYER_LIVE, false);
+  }
+
+  setUseExternalPlayerLive(value: boolean): void {
+    mainStorage.setBool(SettingsKeys.USE_EXTERNAL_PLAYER_LIVE, value);
   }
 }
 

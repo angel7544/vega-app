@@ -10,7 +10,7 @@ import React, {useEffect, useState} from 'react';
 import useWatchHistoryStore from '../lib/zustand/watchHistrory';
 import {FlashList} from '@shopify/flash-list';
 import {NativeStackScreenProps} from '@react-navigation/native-stack';
-import {WatchHistoryStackParamList} from '../App';
+import {WatchHistoryStackParamList} from '../types/navigation';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import Feather from '@expo/vector-icons/Feather';
 import Ionicons from '@expo/vector-icons/Ionicons';
@@ -126,28 +126,7 @@ const WatchHistory = ({navigation}: Props) => {
   };
 
   const handlePlayDirectly = (item: any) => {
-    if (item.cachedInfoData && item.cachedInfoData.episodeList) {
-      try {
-        const playerParams = {
-          ...item.cachedInfoData,
-          linkIndex: item.cachedInfoData.linkIndex ?? 0,
-          primaryTitle: item.title,
-          secondaryTitle: item.episodeTitle,
-          providerValue: item.provider,
-          infoUrl: item.link,
-          poster: {
-             poster: item.poster || item.image,
-             background: item.poster || item.image
-          }
-        };
-
-        (navigation as any).navigate('Player', playerParams);
-        return;
-      } catch (e) {
-        console.error('❌ Failed to navigate directly to Player:', e);
-      }
-    }
-
+    // Navigate to Info screen instead of direct Player for consistency
     handleNavigateToInfo(item);
   };
 
