@@ -500,11 +500,14 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
         
         {/* Floating Top Header */}
         <View className="absolute top-0 left-0 right-0 h-24 flex-row items-center justify-between px-6 z-50 pt-8">
-          <TouchableOpacity onPress={() => navigation.goBack()} className={`w-10 h-10 ${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} rounded-full items-center justify-center border border-white/10`}>
+          <TouchableOpacity 
+            onPress={() => navigation.goBack()} 
+            className={`w-10 h-10 ${mode === 'dark' ? 'bg-white/10' : 'bg-white'} rounded-full items-center justify-center border ${mode === 'dark' ? 'border-white/10' : 'border-black/10 shadow-sm shadow-black/20'}`}
+          >
             <Ionicons name="chevron-back" size={24} color={mode === 'dark' ? 'white' : 'black'} />
           </TouchableOpacity>
 
-          <View className={`flex-row items-center ${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} rounded-full px-4 h-10 border border-white/10 flex-1 ml-4`}>
+          <View className={`flex-row items-center ${mode === 'dark' ? 'bg-white/10' : 'bg-white'} rounded-full px-4 h-10 border ${mode === 'dark' ? 'border-white/10' : 'border-black/10 shadow-sm shadow-black/20'} flex-1 ml-4`}>
             <Ionicons name="search" size={16} color={mode === 'dark' ? '#ffffff50' : '#00000040'} />
             <TextInput
                 placeholder="Search..."
@@ -513,19 +516,19 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                 onChangeText={(text: string) => seasonListRef.current?.setSearch(text)}
             />
           </View>
-         <TouchableOpacity 
-                    onPress={() => {
-                        seasonListRef.current?.toggleSort();
-                        setIsDescending(seasonListRef.current?.getSortOrder() === 'desc');
-                    }}
-                    className={`w-[28px] h-[28px] ${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} rounded-2xl ml-3 items-center justify-center border border-white/10`}
-                  >
-                    <MaterialCommunityIcons 
-                      name={isDescending ? "sort-descending" : "sort-ascending"} 
-                      size={18} 
-                      color={mode === 'dark' ? 'white' : 'black'} 
-                    />
-                  </TouchableOpacity>
+          <TouchableOpacity 
+            onPress={() => {
+                seasonListRef.current?.toggleSort();
+                setIsDescending(seasonListRef.current?.getSortOrder() === 'desc');
+            }}
+            className={`w-[32px] h-[32px] ${mode === 'dark' ? 'bg-white/10' : 'bg-white'} rounded-full ml-3 items-center justify-center border ${mode === 'dark' ? 'border-white/10' : 'border-black/10 shadow-sm shadow-black/20'}`}
+          >
+            <MaterialCommunityIcons 
+              name={isDescending ? "sort-descending" : "sort-ascending"} 
+              size={18} 
+              color={mode === 'dark' ? 'white' : 'black'} 
+            />
+          </TouchableOpacity>
 
       </View>
 
@@ -632,19 +635,25 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                       data={filteredLinkList}
                       style={{ 
                         borderWidth: 1, 
-                        borderColor: mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.05)', 
+                        borderColor: mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)', 
                         paddingHorizontal: 16, 
-                        borderRadius: 16, 
-                        backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.03)', 
+                        borderRadius: 20, 
+                        backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.08)' : 'white', 
                         height: 54,
+                        elevation: mode === 'dark' ? 0 : 3,
+                        shadowColor: 'black',
+                        shadowOffset: {width: 0, height: 2},
+                        shadowOpacity: 0.1,
+                        shadowRadius: 10,
                       }}
                       containerStyle={{ 
                         backgroundColor: mode === 'dark' ? '#0a0a0a' : 'white', 
-                        borderRadius: 16, 
+                        borderRadius: 20, 
                         borderWidth: 1, 
                         borderColor: mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)',
                         overflow: 'hidden',
                         marginTop: 10,
+                        elevation: 5,
                       }}
                       activeColor={mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.05)'}
                       renderItem={item => {

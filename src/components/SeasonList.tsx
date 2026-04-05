@@ -490,10 +490,10 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
       <View key={item.link + index} className="mr-8 mb-4" style={{ width: 320 }}>
         {/* Metadata and Title - Top Row as per image */}
         <View className="mb-2 px-1">
-            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[10px] font-black uppercase tracking-[1px]`}>
+            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[11px] font-black uppercase tracking-[1px]`}>
               Episode-{String(item.originalIndex + 1).padStart(2, '0')}
             </Text>
-            <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-[10px] font-black uppercase tracking-[1px] ml-2`}>
+            <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/60'} text-[10px] font-black uppercase tracking-[1px] ml-2`}>
                 {sanitizeName(item.title)}
             </Text>
             
@@ -552,7 +552,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
         <TouchableOpacity 
           activeOpacity={0.9}
           onPress={() => playHandler({ linkIndex: index, type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: combinedData })}
-          className={`aspect-video rounded-[32px] overflow-hidden ${mode === 'dark' ? 'bg-secondary' : 'bg-black/5'} border-2 ${mode === 'dark' ? 'border-white/5' : 'border-black/5'} relative shadow-2xl`}
+          className={`aspect-video rounded-[38px] overflow-hidden ${mode === 'dark' ? 'bg-secondary' : 'bg-white'} border ${mode === 'dark' ? 'border-white/5' : 'border-black/5'} relative shadow-2xl shadow-black/20`}
         >
           {thumbnail ? (
             <Image source={{uri: thumbnail}} style={{width: '100%', height: '100%'}} resizeMode="cover" />
@@ -656,7 +656,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
         <TouchableOpacity 
           activeOpacity={0.9}
           onPress={() => playHandler({ linkIndex: index, type: item?.type || type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: combinedData })}
-          className={`aspect-video rounded-[24px] overflow-hidden ${mode === 'dark' ? 'bg-secondary' : 'bg-black/5'} border-2 ${mode === 'dark' ? 'border-white/5' : 'border-black/5'} relative shadow-2xl`}
+          className={`aspect-video rounded-[38px] overflow-hidden ${mode === 'dark' ? 'bg-secondary' : 'bg-white'} border ${mode === 'dark' ? 'border-white/5' : 'border-black/5'} relative shadow-2xl shadow-black/20`}
         >
           {poster?.poster ? (
             <Image source={{uri: poster.poster}} style={{width: '100%', height: '100%'}} resizeMode="cover" />
@@ -701,7 +701,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
     const fileName = (metaTitle + (activeSeason?.title || '') + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_');
 
     return (
-      <View key={item.link + index} className={`w-full mb-6 rounded-[28px] overflow-hidden ${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'} border border-white/5 shadow-lg`}>
+      <View key={item.link + index} className={`w-full mb-8 rounded-[38px] overflow-hidden ${mode === 'dark' ? 'bg-white/5 border-white/5' : 'bg-white border-black/5'} border shadow-xl shadow-black/10`}>
         {/* Card Header - Metadata */}
         <View className="px-4 pt-4 pb-2 flex-row justify-between items-center">
             <View className="flex-row items-center space-x-2">
@@ -733,8 +733,8 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
                 )}
             </View>
             {isNext && (
-                <View className="bg-primary/20 px-2 py-0.5 rounded-md">
-                    <Text className="text-primary text-[8px] font-black uppercase">Next Up</Text>
+                <View className="bg-primary px-3 py-1 rounded-full shadow-sm shadow-primary/40">
+                    <Text className="text-white text-[8px] font-black uppercase tracking-[1px]">Next Up</Text>
                 </View>
             )}
         </View>
@@ -770,19 +770,22 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
             )}
         </TouchableOpacity>
 
-        {/* Action Buttons Row */}
         <View className="flex-row items-center p-4 space-x-3">
             <TouchableOpacity 
               onPress={() => toggleWatched(item.link, !completed)}
-              className="flex-1 flex-row items-center justify-center py-2.5 rounded-full"
-              style={{ backgroundColor: completed ? '#FF4D3D' : (mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)') }}
+              className="flex-1 flex-row items-center justify-center py-3 rounded-full"
+              style={{ 
+                backgroundColor: completed ? '#FF4D3D' : (mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)'),
+                borderWidth: completed ? 0 : 1.5,
+                borderColor: mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'
+              }}
             >
               <Ionicons 
                 name="checkmark-circle" 
                 size={16} 
-                color={completed ? 'white' : (mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)")} 
+                color={completed ? 'white' : (mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.6)")} 
               />
-              <Text className={`ml-2 text-[10px] font-black uppercase tracking-[1px] ${completed ? 'text-white' : (mode === 'dark' ? "text-white/40" : "text-black/40")}`}>
+              <Text className={`ml-2 text-[10px] font-black uppercase tracking-[1px] ${completed ? 'text-white' : (mode === 'dark' ? "text-white/40" : "text-black/60")}`}>
                 Watched
               </Text>
             </TouchableOpacity>
@@ -790,11 +793,15 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
             {showDownloadButtonOnCards && (
               <TouchableOpacity 
                 onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, 'series', fileName)}
-                className="flex-1 flex-row items-center justify-center py-2.5 rounded-full"
-                style={{ backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)' }}
+                className="flex-1 flex-row items-center justify-center py-3 rounded-full"
+                style={{ 
+                    backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)',
+                    borderWidth: 1.5,
+                    borderColor: mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'
+                }}
               >
-                <Feather name="download" size={16} color={mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)"} />
-                <Text className={`ml-2 text-[10px] font-black uppercase tracking-[1px] ${mode === 'dark' ? "text-white/40" : "text-black/40"}`}>
+                <Feather name="download" size={16} color={mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.6)"} />
+                <Text className={`ml-2 text-[10px] font-black uppercase tracking-[1px] ${mode === 'dark' ? "text-white/40" : "text-black/60"}`}>
                   Download
                 </Text>
               </TouchableOpacity>
@@ -811,7 +818,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
     const fileName = (metaTitle + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_');
 
     return (
-      <View key={item.link + index} className={`w-full mb-6 rounded-[28px] overflow-hidden ${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'} border border-white/5 shadow-lg`}>
+      <View key={item.link + index} className={`w-full mb-8 rounded-[38px] overflow-hidden ${mode === 'dark' ? 'bg-white/5 border-white/5' : 'bg-white border-black/5'} border shadow-xl shadow-black/10`}>
         {/* Card Header - Metadata */}
         <View className="px-4 pt-4 pb-2 flex-row justify-between items-center">
             <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[11px] font-black uppercase tracking-[1px]`}>
@@ -873,19 +880,22 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
             )}
         </TouchableOpacity>
 
-        {/* Action Buttons Row */}
         <View className="flex-row items-center p-4 space-x-3">
             <TouchableOpacity 
               onPress={() => toggleWatched(item.link, !completed)}
-              className="flex-1 flex-row items-center justify-center py-2.5 rounded-full"
-              style={{ backgroundColor: completed ? '#FF4D3D' : (mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)') }}
+              className="flex-1 flex-row items-center justify-center py-3 rounded-full"
+              style={{ 
+                backgroundColor: completed ? '#FF4D3D' : (mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)'),
+                borderWidth: completed ? 0 : 1.5,
+                borderColor: mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'
+              }}
             >
               <Ionicons 
                 name="checkmark-circle" 
                 size={16} 
-                color={completed ? 'white' : (mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)")} 
+                color={completed ? 'white' : (mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.6)")} 
               />
-              <Text className={`ml-2 text-[10px] font-black uppercase tracking-[1px] ${completed ? 'text-white' : (mode === 'dark' ? "text-white/40" : "text-black/40")}`}>
+              <Text className={`ml-2 text-[10px] font-black uppercase tracking-[1px] ${completed ? 'text-white' : (mode === 'dark' ? "text-white/40" : "text-black/60")}`}>
                 Watched
               </Text>
             </TouchableOpacity>
@@ -893,11 +903,15 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
             {showDownloadButtonOnCards && (
               <TouchableOpacity 
                 onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, item?.type || type, fileName)}
-                className="flex-1 flex-row items-center justify-center py-2.5 rounded-full"
-                style={{ backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)' }}
+                className="flex-1 flex-row items-center justify-center py-3 rounded-full"
+                style={{ 
+                    backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)',
+                    borderWidth: 1.5,
+                    borderColor: mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'
+                }}
               >
-                <Feather name="download" size={16} color={mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)"} />
-                <Text className={`ml-2 text-[10px] font-black uppercase tracking-[1px] ${mode === 'dark' ? "text-white/40" : "text-black/40"}`}>
+                <Feather name="download" size={16} color={mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.6)"} />
+                <Text className={`ml-2 text-[10px] font-black uppercase tracking-[1px] ${mode === 'dark' ? "text-white/40" : "text-black/60"}`}>
                   Download
                 </Text>
               </TouchableOpacity>
@@ -999,10 +1013,10 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
         )}
         <View className={`w-full p-4 ${horizontal ? 'flex-row' : 'flex-col'}`} style={{ gap: horizontal ? 24 : 10 }}>
           {[...Array(horizontal ? 4 : 6)].map((_, i) => (
-            <View key={i} className="rounded-[24px] overflow-hidden">
+            <View key={i} className="rounded-[38px] overflow-hidden">
               <SkeletonLoader 
                 show={true} 
-                height={horizontal ? 180 : 80} 
+                height={horizontal ? 180 : 100} 
                 width={horizontal ? 320 : '100%'} 
               />
             </View>
