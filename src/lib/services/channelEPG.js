@@ -1,7 +1,5 @@
 import axios from 'axios';
 
-import { iptvOrgApi } from './iptvOrgApi';
-
 const inflightRequests = {};
 const epgCache = new Map();
 const CACHE_EXPIRY = 5 * 60 * 1000; // 5 minutes cache for direct channel lookups
@@ -33,26 +31,13 @@ export async function fetchChannelSchedule(channel, countryCode = 'in') {
 
     const countrySuffix = countryCode.toLowerCase();
     const clean = cleanName(channel.name);
+    console.log(`[EPG] Clean Name: "${clean}" (Orig: "${channel.name}")`);
     
-    // ─── API Matching ─────────────────────────────────────────────────────────
-    // Before generating candidates, try to find a match in the iptv-org database
-    let apiMatch = null;
-    try {
-        apiMatch = await iptvOrgApi.findChannel(channel.tvgId, channel.name, countryCode);
-        if (apiMatch) {
-            console.log(`[EPG] 🎯 API Match: "${apiMatch.id}" for "${channel.name}"`);
-        }
-    } catch (apiErr) {
-        console.warn('[EPG] API lookup failed, falling back to heuristic matching:', apiErr.message);
-    }
-
     const targetRId = (channel.iptvOrgId || '').toLowerCase().replace(/[^a-z0-9_-]/gi, '_');
     const targetTId = (channel.tvgId || '').toLowerCase().replace(/[^a-z0-9_-]/gi, '_');
     const targetNId = clean.replace(/[^a-z0-9_-]/gi, '_');
 
     const baseCandidates = [
-        apiMatch?.id?.toLowerCase().replace(/\./g, '_'), // Canonical ID from API: zeetv_in
-        ...(apiMatch?.alt_names || []).map(a => cleanName(a).replace(/[^a-z0-9_-]/gi, '_')), // Alt names from API
         targetRId, 
         targetTId, 
         targetNId,
