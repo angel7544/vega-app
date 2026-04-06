@@ -42,7 +42,14 @@ const FloatingSearchButton = () => {
 
     try {
       const name = getActiveRouteName(routeState);
-      const active = name.includes('Search') || name.includes('Player');
+      const active = 
+        name.includes('Search') || 
+        name.includes('Player') || 
+        name.includes('Settings') || 
+        name.includes('Preference') || 
+        name.includes('About') || 
+        name.includes('Help') || 
+        name.includes('LiveTV');
       setIsSearchOrPlayer(active);
     } catch (e) {
       console.warn('FAB Route Detection Error:', e);

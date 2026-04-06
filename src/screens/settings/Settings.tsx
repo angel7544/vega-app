@@ -13,6 +13,9 @@ import {
   cacheStorageService,
   ProviderExtension,
 } from '../../lib/storage';
+import {StyleSheet} from 'react-native';
+import {BlurView} from 'expo-blur';
+import {StatusBar} from 'expo-status-bar';
 import ReactNativeHapticFeedback from 'react-native-haptic-feedback';
 import useContentStore from '../../lib/zustand/contentStore';
 import {socialLinks} from '../../lib/constants';
@@ -141,29 +144,48 @@ const Settings = ({navigation}: Props) => {
   );
 
   return (
-    <Animated.ScrollView
-      className={`w-full h-full ${mode === 'dark' ? 'bg-black' : 'bg-white'}`}
-      showsVerticalScrollIndicator={false}
-      bounces={true}
-      overScrollMode="always"
-      entering={FadeInUp.springify()}
-      layout={Layout.springify()}
-      onScroll={handleScroll}
-      scrollEventThrottle={16}
-      contentContainerStyle={{
-        paddingTop: 15,
-        paddingBottom: 24,
-        flexGrow: 1,
-      }}>
-      <View className="p-5">
-        <Animated.View entering={FadeInUp.springify()}>
-          <Text
-            className={`text-2xl font-bold mb-6 ${
-              mode === 'dark' ? 'text-white' : 'text-black'
-            }`}>
-            Settings
-          </Text>
-        </Animated.View>
+    <>
+      <StatusBar
+        style={mode === 'dark' ? 'light' : 'dark'}
+        backgroundColor="transparent"
+        translucent={true}
+      />
+
+      {/* Premium Sticky Header */}
+      <View 
+        className="absolute top-0 left-0 right-0 z-50 pt-12 pb-4 px-6 flex-row items-center justify-between"
+        style={{ backgroundColor: mode === 'dark' ? 'rgba(0,0,0,0.8)' : 'rgba(255,255,255,0.8)' }}
+      >
+        <BlurView intensity={30} tint={mode === 'dark' ? 'dark' : 'light'} style={StyleSheet.absoluteFill} />
+        <TouchableOpacity
+          onPress={() => navigation.goBack()}
+          className={`w-10 h-10 items-center justify-center rounded-full ${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'}`}
+        >
+          <Feather name="chevron-left" size={24} color={mode === 'dark' ? 'white' : 'black'} />
+        </TouchableOpacity>
+        <Text className={`text-lg font-black uppercase tracking-[2px] ${mode === 'dark' ? 'text-white' : 'text-black'}`}>
+          Settings
+        </Text>
+        <TouchableOpacity
+          onPress={() => navigation.navigate('Help')}
+          className={`w-10 h-10 items-center justify-center rounded-full ${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'}`}
+        >
+          <Feather name="help-circle" size={20} color={primary} />
+        </TouchableOpacity>
+      </View>
+
+      <Animated.ScrollView
+        className={`w-full h-full ${mode === 'dark' ? 'bg-black' : 'bg-white'}`}
+        showsVerticalScrollIndicator={false}
+        bounces={true}
+        overScrollMode="always"
+        onScroll={handleScroll}
+        scrollEventThrottle={16}
+        contentContainerStyle={{
+          paddingTop: 120, // Space for sticky header
+          paddingBottom: 40,
+        }}>
+        <View className="px-5">
 
         {/* Content provider section */}
         <AnimatedSection delay={100}>
@@ -563,6 +585,7 @@ const Settings = ({navigation}: Props) => {
 
       </View>
     </Animated.ScrollView>
+    </>
   );
 };
 

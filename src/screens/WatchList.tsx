@@ -1,4 +1,14 @@
-import {View, Text, Platform, FlatList, TextInput, ScrollView, Image} from 'react-native';
+import {
+  View,
+  Text,
+  Platform,
+  FlatList,
+  TextInput,
+  ScrollView,
+  Image,
+  useWindowDimensions,
+  StyleSheet,
+} from 'react-native';
 import React, {useState, useMemo} from 'react';
 import {useNavigation} from '@react-navigation/native';
 import {WatchListStackParamList} from '../types/navigation';
@@ -8,23 +18,30 @@ import useThemeStore from '../lib/zustand/themeStore';
 import useWatchListStore from '../lib/zustand/watchListStore';
 import Feather from '@expo/vector-icons/Feather';
 import {StatusBar} from 'expo-status-bar';
-import {useShowNavBarOnScroll} from '../lib/hooks/useShowNavBarOnScroll';
 import useContentStore, {Content} from '../lib/zustand/contentStore';
 import WatchListCard from '../components/WatchListCard';
 import usePlayerStore from '../lib/zustand/playerStore';
 import LinearGradient from 'react-native-linear-gradient';
+import {BlurView} from 'expo-blur';
+import Animated, {FadeInDown} from 'react-native-reanimated';
+import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 
 const WatchList = () => {
   const {primary, mode} = useThemeStore(state => state);
   const isDark = mode === 'dark';
   const navigation =
     useNavigation<NativeStackNavigationProp<WatchListStackParamList>>();
-  const {handleScroll} = useShowNavBarOnScroll();
   const {watchList, removeItem} = useWatchListStore(state => state);
   const {favorites = []} = usePlayerStore(state => state);
   const {installedProviders, setProvider} = useContentStore((state: Content) => state);
+  const {width: windowWidth} = useWindowDimensions();
 
   const [searchText, setSearchText] = useState('');
+
+  // Grid calculations
+  const isTablet = windowWidth > 768;
+  const numColumns = isTablet ? 5 : 3;
+  const spacing = 12;
 
   // Filter the watchlist based on search text
   const filteredList = useMemo(() => {
@@ -34,18 +51,17 @@ const WatchList = () => {
     }).reverse();
   }, [watchList, searchText]);
 
-  const renderItem = ({item}: {item: any}) => (
+  const renderItem = ({item, index}: {item: any, index: number}) => (
     <WatchListCard
       item={item}
+      index={index}
       onPress={() => {
-        // Remember and sync the provider
         if (item.provider) {
           const matchingProvider = installedProviders.find((p: any) => p.value === item.provider);
           if (matchingProvider) {
             setProvider(matchingProvider);
           }
         }
-
         navigation.navigate('Info', {
           link: item.link,
           provider: item.provider,
@@ -58,141 +74,152 @@ const WatchList = () => {
 
   const listHeader = (
     <View className="px-4">
-      {/* Title and Count */}
-      <View className="flex-row items-baseline mb-6 mt-4">
-        <Text
-          className={`text-4xl font-black italic tracking-tighter ${isDark ? 'text-white' : 'text-black'}`}>
-          Watchlist
-        </Text>
-        <View className={`ml-4 px-3 py-1 rounded-full ${isDark ? 'bg-white/5 border border-white/5' : 'bg-black/5 border border-black/5'}`}>
-           <Text className={`text-[10px] font-black uppercase tracking-widest ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>
-              {watchList.length} Tracks
-           </Text>
-        </View>
-      </View>
-
-      {/* Search Bar */}
-      <View
-        className={`flex-row items-center px-6 py-4 rounded-3xl mb-8 ${
-          isDark ? 'bg-[#121212] border border-white/5' : 'bg-gray-50 border border-black/5'
-        } shadow-2xl`}>
-        <Feather name="search" size={18} color={isDark ? "rgba(255,255,255,0.3)" : "rgba(0,0,0,0.3)"} />
-        <TextInput
-          className={`flex-1 ml-4 text-base font-bold ${isDark ? 'text-white' : 'text-black'}`}
-          placeholder="Search your collection..."
-          placeholderTextColor={isDark ? "rgba(255,255,255,0.3)" : "rgba(0,0,0,0.3)"}
-          value={searchText}
-          onChangeText={setSearchText}
-        />
-      </View>
-
-      {/* Featured Channels (Live TV) */}
+      {/* Featured Channels Section (Premium Style) */}
       {favorites.length > 0 && !searchText && (
         <View className="mb-10">
           <View className="flex-row items-center justify-between mb-5 px-1">
              <View className="flex-row items-center">
-                <View className="w-1.5 h-6 bg-primary rounded-full mr-3 shadow-lg" />
-                <Text className={`text-xl font-black ${isDark ? 'text-white' : 'text-black'}`}>
-                  Featured Channels
+                <View style={{ backgroundColor: primary }} className="w-1.5 h-6 rounded-full mr-3 shadow-lg shadow-primary/20" />
+                <Text className={`text-xl font-black italic tracking-tighter ${isDark ? 'text-white' : 'text-black'}`}>
+                   Featured Channels
                 </Text>
              </View>
              <TouchableOpacity 
                activeOpacity={0.7}
                onPress={() => navigation.navigate('FavoriteTV' as any)}
-               className={`px-4 py-2 rounded-full ${isDark ? 'bg-white/5' : 'bg-black/5'}`}
+               className={`px-4 py-2 rounded-full border ${isDark ? 'bg-white/5 border-white/5' : 'bg-black/5 border-black/5'}`}
              >
                <Text className="text-primary text-[10px] font-black uppercase tracking-widest">View All</Text>
              </TouchableOpacity>
           </View>
+          
           <ScrollView horizontal showsHorizontalScrollIndicator={false} className="-mx-4 px-4">
-            {favorites.map((channel, index) => (
+            {favorites.slice(0, 10).map((channel, index) => (
               <TouchableOpacity
                 key={channel.url + index}
-                activeOpacity={0.85}
+                activeOpacity={0.9}
                 onPress={() => (navigation.navigate as any)('ChannelInfo', { channel, channels: favorites, initialIndex: index })}
-                className={`mr-4 p-4 rounded-3xl border ${
-                  isDark ? 'bg-[#121212] border-white/5' : 'bg-gray-100 border-gray-200'
-                } shadow-sm`}
-                style={{ width: 160 }}
+                className={`mr-4 items-center rounded-[32px] border overflow-hidden ${
+                  isDark ? 'bg-[#0A0A0A] border-white/10' : 'bg-gray-50 border-black/5'
+                }`}
+                style={{ width: isTablet ? 220 : 180, height: isTablet ? 120 : 100 }}
               >
-                <View className="aspect-square bg-black/40 rounded-2xl overflow-hidden items-center justify-center mb-4 shadow-inner">
-                  {channel.logo ? (
-                    <Image source={{ uri: channel.logo }} className="w-full h-full" resizeMode="contain" />
-                  ) : (
-                    <Feather name="tv" size={28} color={primary} />
-                  )}
-                  <LinearGradient 
-                    colors={['transparent', 'rgba(0,0,0,0.6)']} 
-                    style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}
-                  />
-                  <View className="absolute bottom-2 left-2 flex-row items-center bg-red-600 px-1.5 py-0.5 rounded-md">
-                     <View className="w-1 h-1 rounded-full bg-white mr-1" />
-                     <Text className="text-[7px] font-black text-white uppercase tracking-widest">Live</Text>
-                  </View>
+                <View className="flex-1 w-full flex-row">
+                   <View className="w-1/3 h-full p-3 items-center justify-center">
+                     {channel.logo ? (
+                       <Image source={{ uri: channel.logo }} className="w-full h-full" resizeMode="contain" />
+                     ) : (
+                       <Feather name="tv" size={24} color={primary} />
+                     )}
+                   </View>
+                   
+                   <View className="flex-1 h-full justify-center pr-3">
+                      <Text className={`text-[11px] font-black uppercase tracking-wider mb-1 ${isDark ? 'text-white' : 'text-black'}`} numberOfLines={1}>
+                        {channel.name}
+                      </Text>
+                      <View className="flex-row items-center">
+                        <View className="w-1 h-1 rounded-full bg-red-500 mr-2" />
+                        <Text className="text-[8px] text-gray-500 font-bold uppercase tracking-widest">Live Now</Text>
+                      </View>
+                   </View>
                 </View>
-                <Text 
-                  className={`text-sm font-black ${isDark ? 'text-white' : 'text-black'}`} 
-                  numberOfLines={1}
-                >
-                  {channel.name}
-                </Text>
-                <Text className="text-[10px] text-gray-500 font-bold uppercase tracking-widest mt-1 opacity-60">
-                  {channel.category?.split(/[;/]/)[0] || 'Premium channel'}
-                </Text>
+                
+                {/* Aura Glow */}
+                <View 
+                  className="absolute bottom-0 left-0 right-0 h-[3px]" 
+                  style={{ backgroundColor: primary, opacity: 0.3 }} 
+                />
               </TouchableOpacity>
             ))}
           </ScrollView>
         </View>
       )}
+
+      {/* Main List Section Title */}
+      <View className="flex-row items-center justify-between mb-6">
+        <View className="flex-row items-baseline">
+           <Text className={`text-2xl font-black italic tracking-tighter ${isDark ? 'text-white' : 'text-black'}`}>
+             Your Vault
+           </Text>
+           <Text className={`ml-3 text-[10px] font-black uppercase tracking-[2px] opacity-40 ${isDark ? 'text-white' : 'text-black'}`}>
+             {filteredList.length} Items
+           </Text>
+        </View>
+      </View>
     </View>
   );
 
   return (
-    <View
-      className={`flex-1 ${
-        isDark ? 'bg-black' : 'bg-white'
-      }`}>
-      <StatusBar translucent backgroundColor="transparent" />
+    <View className={`flex-1 ${isDark ? 'bg-black' : 'bg-white'}`}>
+      <StatusBar translucent backgroundColor="transparent" style={isDark ? 'light' : 'dark'}/>
 
-      {/* Header Space for Status Bar */}
-      <View
-        style={{
-          paddingTop: Platform.OS === 'android' ? 40 : 60,
-        }}
-      />
+      {/* Premium Sticky Header */}
+      <View 
+        className="absolute top-0 left-0 right-0 z-50 pt-12 pb-4 px-6 flex-row items-center justify-between"
+        style={{ backgroundColor: isDark ? 'rgba(0,0,0,0.8)' : 'rgba(255,255,255,0.8)' }}
+      >
+        <BlurView intensity={30} tint={isDark ? 'dark' : 'light'} style={StyleSheet.absoluteFill} />
+        <View className="flex-row items-baseline">
+          <Text className={`text-2xl font-black italic tracking-tighter ${isDark ? 'text-white' : 'text-black'}`}>
+            Watchlist
+          </Text>
+          <View 
+             className="w-1.5 h-1.5 rounded-full ml-2" 
+             style={{ backgroundColor: primary }} 
+          />
+        </View>
+        <TouchableOpacity
+          onPress={() => setSearchText(searchText ? '' : ' ')} // Placeholder toggle search logic
+          className={`w-10 h-10 items-center justify-center rounded-full ${isDark ? 'bg-white/10' : 'bg-black/5'}`}
+        >
+          <Feather name="search" size={20} color={isDark ? 'white' : 'black'} />
+        </TouchableOpacity>
+      </View>
 
       <FlatList
         data={filteredList}
         renderItem={renderItem}
-        ListHeaderComponent={listHeader}
+        ListHeaderComponent={
+          <>
+            <View style={{ height: 120 }} />
+            {/* Search Section */}
+            <View className="px-6 mb-8">
+               <View className={`flex-row items-center px-6 h-14 rounded-[28px] border ${isDark ? 'bg-[#1A1A1A] border-white/5 shadow-2xl' : 'bg-gray-50 border-black/5 shadow-xl'}`}>
+                  <Feather name="search" size={18} color={isDark ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)"} />
+                  <TextInput
+                    className={`flex-1 ml-4 text-sm font-bold ${isDark ? 'text-white' : 'text-black'}`}
+                    placeholder="Search your collection..."
+                    placeholderTextColor={isDark ? "rgba(255,255,255,0.3)" : "rgba(0,0,0,0.3)"}
+                    value={searchText}
+                    onChangeText={setSearchText}
+                  />
+                  {searchText.length > 0 && (
+                    <TouchableOpacity onPress={() => setSearchText('')}>
+                      <MaterialCommunityIcons name="close-circle" size={18} color={isDark ? "rgba(255,255,255,0.2)" : "rgba(0,0,0,0.2)"} />
+                    </TouchableOpacity>
+                  )}
+               </View>
+            </View>
+            {listHeader}
+          </>
+        }
         keyExtractor={(item, index) => item.link + index}
-        contentContainerStyle={{
-          paddingBottom: 150,
-        }}
-        onScroll={handleScroll}
-        scrollEventThrottle={16}
+        numColumns={numColumns}
+        columnWrapperStyle={{ paddingHorizontal: 12, gap: 12 }}
+        contentContainerStyle={{ paddingBottom: 150 }}
         showsVerticalScrollIndicator={false}
         ListEmptyComponent={
-          <View className="items-center justify-center py-20 px-4">
-            <View
-              className={`${
-                isDark ? 'bg-white/5' : 'bg-gray-100'
-              } rounded-full p-10 mb-8 border border-white/5 shadow-2xl`}>
-              <Feather name="layers" size={50} color={primary} />
+          <Animated.View entering={FadeInDown.delay(200).springify()} className="items-center justify-center py-20 px-8">
+            <View className={`w-28 h-28 rounded-[40px] items-center justify-center mb-8 border ${isDark ? 'bg-white/5 border-white/10' : 'bg-gray-50 border-black/5 shadow-lg'}`}>
+              <Feather name="layers" size={44} color={primary} />
             </View>
-            <Text
-              className={`${
-                isDark ? 'text-white' : 'text-black'
-              } font-black text-2xl text-center italic tracking-tight`}>
-              {searchText ? 'Nothing found' : 'Empty Vault'}
+            <Text className={`${isDark ? 'text-white' : 'text-black'} font-black text-2xl text-center italic tracking-tighter`}>
+              {searchText ? 'Found No Tracks' : 'Your Vault is Silent'}
             </Text>
-            <Text
-              className={`${
-                isDark ? 'text-gray-500' : 'text-gray-400'
-              } text-xs font-bold text-center mt-3 uppercase tracking-widest px-10`}>
-              {searchText ? 'Try a different search query' : 'Your saved movies and shows will appear here'}
+            <Text className={`text-[10px] font-black text-center mt-3 uppercase tracking-[3px] opacity-40 px-10 leading-4 ${isDark ? 'text-white' : 'text-black'}`}>
+              {searchText ? 'The index returned nothing. Refine your query.' : 'Commence your digital hoard. Save movies or series to see them here.'}
             </Text>
-          </View>
+          </Animated.View>
         }
       />
     </View>

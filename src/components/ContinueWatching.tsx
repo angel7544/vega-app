@@ -212,7 +212,7 @@ const ContinueWatching = () => {
             <View style={{ backgroundColor: primary }} className="w-1.5 h-6 rounded-full mr-3" />
             <Text
                className={`text-xl font-black uppercase tracking-widest ${mode === 'dark' ? 'text-white' : 'text-black'}`}>
-               Jump Back In
+               Continue Watching
             </Text>
         </View>
 

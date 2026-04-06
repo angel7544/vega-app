@@ -4,10 +4,10 @@ import {
   Linking,
   Alert,
   Switch,
-  ScrollView,
   TouchableOpacity,
   Image,
   useWindowDimensions,
+  StyleSheet,
 } from 'react-native';
 import React, {useState} from 'react';
 import {Feather, MaterialCommunityIcons} from '@expo/vector-icons';
@@ -21,6 +21,8 @@ import UpdateModal from '../../components/UpdateModal';
 import Animated, {FadeInDown} from 'react-native-reanimated';
 import {useNavigation} from '@react-navigation/native';
 import LinearGradient from 'react-native-linear-gradient';
+import {BlurView} from 'expo-blur';
+import {StatusBar as ExpoStatusBar} from 'expo-status-bar';
 
 // download update
 const downloadUpdate = async (url: string, name: string) => {
@@ -112,8 +114,7 @@ export const checkForUpdate = async (
 
 const About = () => {
   const {primary, mode} = useThemeStore(state => state);
-  const {width: windowWidth} = useWindowDimensions();
-  const navigation = useNavigation();
+  const navigation = useNavigation<any>();
   const [updateLoading, setUpdateLoading] = useState(false);
   const [autoDownload, setAutoDownload] = useState(
     settingsStorage.isAutoDownloadEnabled(),
@@ -141,7 +142,7 @@ const About = () => {
       <TouchableOpacity 
         activeOpacity={onPress ? 0.7 : 1}
         onPress={onPress}
-        className={`${mode === 'dark' ? 'bg-[#121212]' : 'bg-gray-100'} rounded-2xl p-4 mb-4 border ${mode === 'dark' ? 'border-white/5' : 'border-black/5'} flex-row items-center justify-between shadow-sm`}
+        className={`${mode === 'dark' ? 'bg-[#1A1A1A]' : 'bg-gray-100'} rounded-2xl p-4 mb-4 border ${mode === 'dark' ? 'border-white/5' : 'border-black/5'} flex-row items-center justify-between shadow-sm`}
       >
         <View className="flex-row items-center flex-1">
           <View style={{ backgroundColor: `${primary}15` }} className="w-10 h-10 rounded-xl items-center justify-center mr-4">
@@ -157,7 +158,6 @@ const About = () => {
             value={value}
             onValueChange={onToggle}
             thumbColor={value ? primary : '#666'}
-            trackColor={{ false: '#333', true: `${primary}50` }}
           />
         ) : onPress ? (
           <Feather name="chevron-right" size={20} color={mode === 'dark' ? '#555' : '#AAA'} />
@@ -170,31 +170,33 @@ const About = () => {
 
   return (
     <View className={`flex-1 ${mode === 'dark' ? 'bg-black' : 'bg-white'}`}>
-      {/* Premium Header */}
-      <View className={`px-6 pt-12 pb-6 flex-row items-center justify-between border-b ${mode === 'dark' ? 'border-white/5' : 'border-black/5'}`}>
-         <View className="flex-row items-center">
-            <TouchableOpacity
-               onPress={() => navigation.goBack()}
-               className={`w-10 h-10 rounded-full items-center justify-center ${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} mr-4`}>
-               <Feather
-                  name="chevron-left"
-                  size={24}
-                  color={mode === 'dark' ? 'white' : 'black'}
-               />
-            </TouchableOpacity>
-            <Text
-               className={`text-2xl font-black ${
-                  mode === 'dark' ? 'text-white' : 'text-black'
-               }`}>
-               About
-            </Text>
-         </View>
-         <MaterialCommunityIcons name="information-outline" size={24} color={primary} />
+      <ExpoStatusBar
+        style={mode === 'dark' ? 'light' : 'dark'}
+        backgroundColor="transparent"
+        translucent={true}
+      />
+
+      {/* Premium Sticky Header */}
+      <View 
+        className="absolute top-0 left-0 right-0 z-50 pt-12 pb-4 px-6 flex-row items-center justify-between"
+        style={{ backgroundColor: mode === 'dark' ? 'rgba(0,0,0,0.8)' : 'rgba(255,255,255,0.8)' }}
+      >
+        <BlurView intensity={30} tint={mode === 'dark' ? 'dark' : 'light'} style={StyleSheet.absoluteFill} />
+        <TouchableOpacity
+          onPress={() => navigation.goBack()}
+          className={`w-10 h-10 items-center justify-center rounded-full ${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'}`}
+        >
+          <MaterialCommunityIcons name="chevron-left" size={28} color={mode === 'dark' ? 'white' : 'black'} />
+        </TouchableOpacity>
+        <Text className={`text-lg font-black uppercase tracking-[2px] ${mode === 'dark' ? 'text-white' : 'text-black'}`}>
+          About
+        </Text>
+        <View className="w-10" />
       </View>
 
-      <ScrollView 
+      <Animated.ScrollView 
         showsVerticalScrollIndicator={false}
-        contentContainerStyle={{paddingBottom: 60, paddingTop: 24, paddingHorizontal: 20}}
+        contentContainerStyle={{paddingBottom: 60, paddingTop: 140, paddingHorizontal: 20}}
       >
         {/* App Logo & Info Area */}
         <Animated.View entering={FadeInDown.delay(100).springify()} className="items-center mb-10">
@@ -256,7 +258,7 @@ const About = () => {
         <Animated.View entering={FadeInDown.delay(600).springify()} className="mt-10">
            <Text className="text-gray-500 font-black uppercase tracking-[4px] text-[10px] mb-6 text-center">Development Powerhouse</Text>
            
-           <View className={`${mode === 'dark' ? 'bg-[#0A0A0A]' : 'bg-gray-100'} p-6 rounded-[32px] border ${mode === 'dark' ? 'border-white/5' : 'border-black/5'} overflow-hidden`}>
+           <View className={`${mode === 'dark' ? 'bg-[#0A0A0A]' : 'bg-gray-500/5'} p-6 rounded-[32px] border ${mode === 'dark' ? 'border-white/5' : 'border-black/5'} overflow-hidden`}>
               <LinearGradient
                 colors={['transparent', mode === 'dark' ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)']}
                 className="absolute inset-0"
@@ -278,15 +280,15 @@ const About = () => {
 
               <View className="flex-row space-x-3">
                 <TouchableOpacity 
-                  onPress={() => Linking.openURL('https://www.br31tech.live')}
-                  className="flex-1 bg-white/[0.03] border border-white/5 py-4 rounded-2xl items-center flex-row justify-center"
+                   onPress={() => Linking.openURL('https://www.br31tech.live')}
+                   className={`flex-1 ${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'} border ${mode === 'dark' ? 'border-white/5' : 'border-black/5'} py-4 rounded-2xl items-center flex-row justify-center`}
                 >
                    <Feather name="globe" size={14} color={primary} />
                    <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} ml-2 font-bold text-xs uppercase tracking-widest`}>Portal</Text>
                 </TouchableOpacity>
                 <TouchableOpacity 
                    onPress={() => Linking.openURL('mailto:info@br31tech.live')}
-                   className="flex-1 bg-white/[0.03] border border-white/5 py-4 rounded-2xl items-center flex-row justify-center"
+                   className={`flex-1 ${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'} border ${mode === 'dark' ? 'border-white/5' : 'border-black/5'} py-4 rounded-2xl items-center flex-row justify-center`}
                 >
                    <Feather name="mail" size={14} color={primary} />
                    <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} ml-2 font-bold text-xs uppercase tracking-widest`}>Support</Text>
@@ -298,7 +300,7 @@ const About = () => {
               Orbix Pipeline • v{Application.nativeApplicationVersion} • Built with Passion
            </Text>
         </Animated.View>
-      </ScrollView>
+      </Animated.ScrollView>
 
       {updateData && (
         <UpdateModal
@@ -326,30 +328,16 @@ export default About;
 
 function compareVersions(localVersion: string, remoteVersion: string): boolean {
   try {
-    // Split versions into arrays and convert to numbers
     const local = localVersion.split('.').map(Number);
     const remote = remoteVersion.split('.').map(Number);
 
-    // Compare major version
-    if (remote[0] > local[0]) {
-      return true;
-    }
-    if (remote[0] < local[0]) {
-      return false;
-    }
+    if (remote[0] > local[0]) return true;
+    if (remote[0] < local[0]) return false;
 
-    // Compare minor version
-    if (remote[1] > local[1]) {
-      return true;
-    }
-    if (remote[1] < local[1]) {
-      return false;
-    }
+    if (remote[1] > local[1]) return true;
+    if (remote[1] < local[1]) return false;
 
-    // Compare patch version
-    if (remote[2] > local[2]) {
-      return true;
-    }
+    if (remote[2] > local[2]) return true;
 
     return false;
   } catch (error) {
@@ -357,4 +345,3 @@ function compareVersions(localVersion: string, remoteVersion: string): boolean {
     return false;
   }
 }
-

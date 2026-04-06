@@ -269,7 +269,12 @@ const Hero = memo(({isDrawerOpen, onOpenDrawer}: HeroProps) => {
 
       {/* Gradients */}
       <LinearGradient
-        colors={['rgba(0,0,0,0.5)', 'transparent', 'rgba(0,0,0,0.8)', 'black']}
+        colors={[
+          'rgba(0,0,0,0.5)', 
+          'transparent', 
+          mode === 'dark' ? 'rgba(0,0,0,0.8)' : 'rgba(255,255,255,0.4)', 
+          mode === 'dark' ? 'black' : 'white'
+        ]}
         locations={[0, 0.4, 0.7, 1]}
         className="absolute inset-0"
       />

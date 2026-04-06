@@ -6,8 +6,13 @@ import {
   TouchableOpacity,
   StatusBar,
   TextInput,
+  StyleSheet,
 } from 'react-native';
 import React, {useState} from 'react';
+import {BlurView} from 'expo-blur';
+import {StatusBar as ExpoStatusBar} from 'expo-status-bar';
+import Animated, {FadeInDown} from 'react-native-reanimated';
+import {useNavigation} from '@react-navigation/native';
 import {settingsStorage} from '../../lib/storage';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import RNReactNativeHapticFeedback from 'react-native-haptic-feedback';
@@ -18,7 +23,6 @@ import Constants from 'expo-constants';
 import useToastStore from '../../lib/zustand/toastStore';
 import usePlayerStore, { DEFAULT_EPG_REPO } from '../../lib/zustand/playerStore';
 import {iptvParser} from '../../lib/iptvParser';
-
 
 // Lazy-load Firebase to allow running without google-services.json
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -41,6 +45,7 @@ const getCrashlytics = (): any | null => {
 };
 
 const Preferences = () => {
+  const navigation = useNavigation<any>();
   const hasFirebase = Boolean(Constants?.expoConfig?.extra?.hasFirebase);
   const {primary, setPrimary, isCustom, setCustom, mode} = useThemeStore(
     state => state,
@@ -132,8 +137,6 @@ const Preferences = () => {
   const [tempEpgUrl, setTempEpgUrl] = useState(customEpgUrl || '');
   const [tempRepoUrl, setTempRepoUrl] = useState(epgRepoUrl || '');
 
-  // ... rest of the component
-
   const countries = [
     { label: 'India', value: 'in' },
     { label: 'USA', value: 'us' },
@@ -158,16 +161,42 @@ const Preferences = () => {
   ];
 
   return (
-    <ScrollView
-      className={`w-full h-full ${mode === 'dark' ? 'bg-black' : 'bg-white'}`}
-      contentContainerStyle={{
-        paddingTop: StatusBar.currentHeight || 0,
-      }}>
-      <View className="p-5">
-        <Text className={`text-2xl font-bold ${mode === 'dark' ? 'text-white' : 'text-black'} mb-6`}>Preferences</Text>
+    <>
+      <ExpoStatusBar
+        style={mode === 'dark' ? 'light' : 'dark'}
+        backgroundColor="transparent"
+        translucent={true}
+      />
+
+      {/* Premium Sticky Header */}
+      <View 
+        className="absolute top-0 left-0 right-0 z-50 pt-12 pb-4 px-6 flex-row items-center justify-between"
+        style={{ backgroundColor: mode === 'dark' ? 'rgba(0,0,0,0.8)' : 'rgba(255,255,255,0.8)' }}
+      >
+        <BlurView intensity={30} tint={mode === 'dark' ? 'dark' : 'light'} style={StyleSheet.absoluteFill} />
+        <TouchableOpacity
+          onPress={() => navigation.goBack()}
+          className={`w-10 h-10 items-center justify-center rounded-full ${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'}`}
+        >
+          <MaterialCommunityIcons name="chevron-left" size={28} color={mode === 'dark' ? 'white' : 'black'} />
+        </TouchableOpacity>
+        <Text className={`text-lg font-black uppercase tracking-[2px] ${mode === 'dark' ? 'text-white' : 'text-black'}`}>
+          Preferences
+        </Text>
+        <View className="w-10" />
+      </View>
+
+      <Animated.ScrollView
+        className={`w-full h-full ${mode === 'dark' ? 'bg-black' : 'bg-white'}`}
+        showsVerticalScrollIndicator={false}
+        contentContainerStyle={{
+          paddingTop: 120,
+          paddingBottom: 40,
+        }}>
+        <View className="px-5">
 
         {/* Theme Section */}
-        <View className="mb-6">
+        <Animated.View entering={FadeInDown.delay(100).springify()} className="mb-6">
           <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-sm mb-3`}>Appearance</Text>
           <View className={`${mode === 'dark' ? 'bg-[#1A1A1A]' : 'bg-gray-100'} rounded-xl overflow-hidden`}>
             {/* Theme Selector */}
@@ -444,10 +473,10 @@ const Preferences = () => {
               />
             </View>
           </View>
-        </View>
+        </Animated.View>
 
         {/* TMDb Settings */}
-        <View className="mb-6">
+        <Animated.View entering={FadeInDown.delay(200).springify()} className="mb-6">
           <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-sm mb-3`}>TMDb API (Enhanced Metadata)</Text>
           <View className={`${mode === 'dark' ? 'bg-[#1A1A1A]' : 'bg-gray-100'} rounded-xl overflow-hidden p-4`}>
             <View className="mb-4">
@@ -504,10 +533,10 @@ const Preferences = () => {
               Get your personal keys at common.themoviedb.org
             </Text>
           </View>
-        </View>
+        </Animated.View>
 
         {/* Live TV Settings */}
-        <View className="mb-6">
+        <Animated.View entering={FadeInDown.delay(300).springify()} className="mb-6">
           <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-sm mb-3`}>Live TV</Text>
           <View className={`${mode === 'dark' ? 'bg-[#1A1A1A]' : 'bg-gray-100'} rounded-xl overflow-hidden`}>
             {/* Country Selector */}
@@ -635,10 +664,10 @@ const Preferences = () => {
               />
             </View>
           </View>
-        </View>
+        </Animated.View>
 
         {/* EPG Configuration Section */}
-        <View className="mb-6">
+        <Animated.View entering={FadeInDown.delay(400).springify()} className="mb-6">
           <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-sm mb-3 uppercase font-bold tracking-widest ml-1`}>EPG Configuration</Text>
           <View className={`${mode === 'dark' ? 'bg-[#1A1A1A]' : 'bg-gray-100'} rounded-xl overflow-hidden p-4`}>
             
@@ -815,9 +844,10 @@ const Preferences = () => {
               </View>
             </View>
           </View>
-        </View>
+        </Animated.View>
 
-        <View className="mb-6">
+        {/* Player Section */}
+        <Animated.View entering={FadeInDown.delay(500).springify()} className="mb-6">
           <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-sm mb-3`}>Player</Text>
           <View className={`${mode === 'dark' ? 'bg-[#1A1A1A]' : 'bg-gray-100'} rounded-xl overflow-hidden`}>
             {/* External Player */}
@@ -876,10 +906,10 @@ const Preferences = () => {
               />
             </View>
           </View>
-        </View>
+        </Animated.View>
 
         {/* Quality Settings */}
-        <View className="mb-6">
+        <Animated.View entering={FadeInDown.delay(600).springify()} className="mb-6">
           <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-sm mb-3`}>Quality</Text>
           <View className={`${mode === 'dark' ? 'bg-[#1A1A1A]' : 'bg-gray-100'} rounded-xl p-4`}>
             <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base mb-3`}>
@@ -910,11 +940,12 @@ const Preferences = () => {
               ))}
             </View>
           </View>
-        </View>
+        </Animated.View>
 
         <View className="h-16" />
-      </View>
-    </ScrollView>
+        </View>
+      </Animated.ScrollView>
+    </>
   );
 };
 
