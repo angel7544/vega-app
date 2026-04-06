@@ -33,6 +33,10 @@ const epgCache = {
   
   setRaw(url, rawData) {
     this.raw.set(url, { rawData, timestamp: Date.now() });
+  },
+  
+  getCacheKey(channel) {
+    return channel.url;
   }
 };
 
@@ -152,7 +156,46 @@ export const iptvParser = {
     const suffixedNId = targetNId.endsWith(`_${countrySuffix}`) ? targetNId : `${targetNId}_${countrySuffix}`;
     const suffixedRId = targetRId && !targetRId.endsWith(`_${countrySuffix}`) ? `${targetRId}_${countrySuffix}` : targetRId;
 
-    // Step 2: Fetch country XML (Original guide data)
+    // Step 1: Try JSON individual fetches from GitHub Repo (High Performance)
+    const { epgRepoUrl } = usePlayerStore.getState();
+    const jsonBase = epgRepoUrl || 'https://raw.githubusercontent.com/angel7544/vega-app/orbix-personal/src/epg-data';
+    
+    // Possible file names: tvg-id, iptv-org id, or cleaned name
+    const candidates = Array.from(new Set([
+      targetRId, targetTId, targetNId,
+      suffixedRId, suffixedNId
+    ])).filter(id => id && id.length > 1).map(id => `${jsonBase}/${id}.json`);
+
+    if (candidates.length > 0) {
+      try {
+        const results = await Promise.all(candidates.map(async (url) => {
+          try {
+            const cached = epgCache.getParsed(url);
+            if (cached) return cached;
+            
+            const response = await fetch(url);
+            if (response.ok) {
+              const data = await response.json();
+              if (Array.isArray(data) && data.length > 0) {
+                 const parsed = data.map(p => ({
+                    ...p,
+                    startTs: p.startTs || new Date(p.start).getTime(),
+                    stopTs: p.stopTs || new Date(p.stop).getTime(),
+                 }));
+                 epgCache.setParsed(url, parsed);
+                 return parsed;
+              }
+            }
+          } catch (e) {}
+          return null;
+        }));
+        
+        const validResult = results.find(r => r !== null);
+        if (validResult) return validResult;
+      } catch (e) {}
+    }
+
+    // Step 2: Fetch country XML (Original guide data fallback)
     const sources = [
       `https://iptv-org.github.io/epg/guides/${countryCode.toLowerCase()}.xml`,
       `https://epghub.pages.dev/${countryCode.toLowerCase()}.xml`,
@@ -164,9 +207,10 @@ export const iptvParser = {
         if (!programsDict) {
            if (!inflightRequests[source]) {
                inflightRequests[source] = (async () => {
-                    const response = await axios.get(source, { timeout: 20000, responseType: 'arraybuffer' });
-                    const buffer = new Uint8Array(response.data);
-                    const finalData = new TextDecoder('utf-8').decode(buffer);
+                    const response = await fetch(source);
+                    if (!response.ok) return {};
+                    const arrayBuffer = await response.arrayBuffer();
+                    const finalData = new TextDecoder('utf-8').decode(new Uint8Array(arrayBuffer));
                     if (finalData) {
                         const dict = await this.parseEPG(finalData);
                         epgCache.setParsed(source, dict);
@@ -330,26 +374,33 @@ export const iptvParser = {
   async fetchBulkEPG(channels, countryCode = 'in') {
     if (!channels || channels.length === 0) return {};
     const epgMap = {};
-    const batchSize = 5;
+    const batchSize = 3; // Reduced batch size for stability
     
-    // Only fetch for channels not already in cache to save battery/bandwidth
-    const freshChannels = channels.filter(c => !epgCache.parsed.has(c.url));
+    // Prioritize channels that are NOT currently in cache
+    const needed = channels.filter(c => !epgCache.parsed.has(epgCache.getCacheKey(c)));
     
-    for (let i = 0; i < freshChannels.length; i += batchSize) {
-      const batch = freshChannels.slice(i, i + batchSize);
+    for (let i = 0; i < needed.length; i += batchSize) {
+      const batch = needed.slice(i, i + batchSize);
       await Promise.all(batch.map(async (c) => {
         try {
           const p = await this.fetchEPGForChannel(c, countryCode, true);
-          if (Array.isArray(p) && p.length > 0) epgMap[c.url] = p;
-        } catch (e) {
-          console.warn(`[EPG] Failed for ${c.name}`);
-        }
+          if (Array.isArray(p) && p.length > 0) {
+             epgMap[c.url] = p;
+             epgCache.setParsed(c.url, p);
+          }
+        } catch (e) {}
       }));
-      await new Promise(r => setTimeout(r, 80));
-      await this.yieldToUI();
+      if (i + batchSize < needed.length) {
+         await new Promise(r => setTimeout(r, 150)); // Slightly longer pause between batches to avoid UI jank
+         await this.yieldToUI();
+      }
     }
     
-    // Merge new data with existing cache to maintain full visible list
     return { ...epgMap };
+  },
+
+  // Helper for consistent cache keys
+  getCacheKey(channel) {
+    return channel.url;
   }
 };

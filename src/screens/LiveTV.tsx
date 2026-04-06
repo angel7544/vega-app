@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, useMemo, useRef } from 'react';
+import React, { useState, useEffect, useCallback, useMemo, useRef, memo } from 'react';
 import {
   View,
   Text,
@@ -47,6 +47,39 @@ import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../types/navigation';
 
 const { width: WINDOW_WIDTH } = Dimensions.get('window');
+
+const SearchBar = memo(({ value, onChange, onToggle, isSearchActive, isDark }: any) => {
+  const [localValue, setLocalValue] = useState(value);
+  
+  // Only sync value if it's cleared from parent (e.g. search deactivated)
+  useEffect(() => {
+    if (value === '') setLocalValue('');
+  }, [value]);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if (localValue !== value) onChange(localValue);
+    }, 400);
+    return () => clearTimeout(timer);
+  }, [localValue]);
+
+  if (!isSearchActive) return null;
+
+  return (
+    <Animated.View entering={FadeInUp} className="px-5 mt-4">
+       <TextInput
+          autoFocus
+          className={`h-14 rounded-2xl px-6 font-black ${isDark ? 'bg-white/10 text-white' : 'bg-black/5 text-black'}`}
+          placeholder="Search Signal Hub..."
+          placeholderTextColor={isDark ? "rgba(255,255,255,0.3)" : "rgba(0,0,0,0.3)"}
+          value={localValue}
+          onChangeText={setLocalValue}
+          clearButtonMode="while-editing"
+          returnKeyType="search"
+       />
+    </Animated.View>
+  );
+});
 
 const QUALITY_KEYWORDS = {
   '1080p': ['1080p', 'fhd', 'full hd', '1920x1080', '1080'],
@@ -353,7 +386,6 @@ const LiveTV = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [qualityFilter, setQualityFilter] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
-  const [debouncedSearch, setDebouncedSearch] = useState('');
   const [isSearchActive, setIsSearchActive] = useState(false);
   const [loading, setLoading] = useState(true);
   const [loadingEpg, setLoadingEpg] = useState(false);
@@ -363,12 +395,10 @@ const LiveTV = () => {
   const { mode, primary } = useThemeStore();
   const { toggleFavorite, isFavorite, favorites, epgData, setEpgData } = usePlayerStore();
   const { setChannels: setGlobalChannels } = useIPTVStore();
+  const [refreshKey, setRefreshKey] = useState(0);
   const isDark = mode === 'dark';
 
-  useEffect(() => {
-    const timer = setTimeout(() => setDebouncedSearch(searchQuery), 300);
-    return () => clearTimeout(timer);
-  }, [searchQuery]);
+
 
   useEffect(() => {
     fetchChannels();
@@ -474,29 +504,53 @@ const LiveTV = () => {
       result = channels.filter(c => (c.category || '').toLowerCase().includes('sports') || c.name.toLowerCase().includes('sports'));
     } else if (activeTab === 'SHOWS') {
       result = channels.filter(c => ['entertainment', 'tv', 'general', 'shows'].some(k => (c.category || '').toLowerCase().includes(k)));
-    } else if (activeTab === 'FOR YOU') {
-      // In grid mode under FOR YOU (if search is active)
     }
 
-    if (isSearchActive && debouncedSearch.length >= 2) {
-      const query = debouncedSearch.toLowerCase();
-      result = channels.filter(c => c.name.toLowerCase().includes(query) || (c.category && c.category.toLowerCase().includes(query)));
+    if (isSearchActive && searchQuery.length >= 2) {
+      const query = searchQuery.toLowerCase().trim();
+      result = result.filter(c => {
+        const nameMatch = c.name.toLowerCase().includes(query);
+        const catMatch = c.category && c.category.toLowerCase().includes(query);
+        return nameMatch || catMatch;
+      });
     }
 
     if (selectedCategory !== 'All') {
-      const targetCat = selectedCategory.toLowerCase();
-      result = result.filter(c => {
-        if (!c.category) return false;
-        return c.category.toLowerCase().split(/[;/]/).some((cat: string) => cat.trim() === targetCat);
-      });
+      if (selectedCategory === 'Favorites') {
+        result = result.filter(c => isFavorite(c.url));
+      } else if (selectedCategory === 'Trending') {
+        // Mock trending by picking news and sports
+        result = result.filter(c => (c.category || '').toLowerCase().match(/news|sports|action|movie/));
+      } else if (selectedCategory === 'Recent') {
+        const { history } = useWatchHistoryStore.getState();
+        const recentUrls = (history || []).slice(0, 50).map((h: any) => h.url);
+        result = result.filter(c => recentUrls.includes(c.url));
+      } else {
+        const targetCat = selectedCategory.toLowerCase();
+        result = result.filter(c => {
+          if (!c.category) return false;
+          return c.category.toLowerCase().split(/[;/]/).some((cat: string) => cat.trim() === targetCat);
+        });
+      }
     }
     
     if (qualityFilter) {
-      result = result.filter(c => c.quality === qualityFilter);
+      result = result.filter(c => (c.quality || '').toUpperCase() === qualityFilter.toUpperCase());
     }
 
     return result;
-  }, [channels, debouncedSearch, activeTab, isSearchActive, selectedCategory, qualityFilter]);
+  }, [channels, searchQuery, activeTab, isSearchActive, selectedCategory, qualityFilter, favorites]);
+
+  const handleRefreshEpg = useCallback(async () => {
+    setLoadingEpg(true);
+    try {
+      iptvParser.clearCache();
+      setEpgData({}); // Clear store data to force fresh fetch
+      setRefreshKey(prev => prev + 1); // Force re-mount
+    } finally {
+      setTimeout(() => setLoadingEpg(false), 800);
+    }
+  }, [setEpgData]);
 
   const handleChannelPress = useCallback((channel: any) => {
     const list = isSearchActive ? filteredChannels : channels;
@@ -508,54 +562,68 @@ const LiveTV = () => {
     const favorited = isFavorite(item.url);
 
     return (
-      <Animated.View entering={FadeInDown.delay(index % 10 * 50).duration(800).springify()}>
+      <Animated.View 
+        entering={FadeInDown.delay(index % 10 * 30).duration(600).springify()}
+        style={{ width: cardWidth, marginHorizontal: 8 }}
+        className="mb-8"
+      >
         <TouchableOpacity
           activeOpacity={0.9}
           onPress={() => handleChannelPress(item)}
-          className={`mb-6 rounded-[32px] overflow-hidden border ${isDark ? 'bg-[#0A0A0A] border-white/5' : 'bg-white border-black/5'} shadow-2xl`}
-          style={{ width: cardWidth, marginHorizontal: 8 }}
+          className={`rounded-[24px] overflow-hidden border ${isDark ? 'bg-[#111] border-white/5' : 'bg-white border-black/5'} shadow-2xl`}
         >
-          <View className="aspect-video bg-black/60 items-center justify-center relative overflow-hidden">
+          {/* Logo Container with quality badge */}
+          <View className={`aspect-video items-center justify-center relative overflow-hidden ${isDark ? 'bg-black/40' : 'bg-gray-100'}`}>
+            {/* Subtle background for white logos in light mode */}
+            {!isDark && (
+              <View className="absolute inset-0 bg-black/5" />
+            )}
+            
             {item.logo ? (
-              <Image source={{ uri: item.logo }} className="w-[85%] h-[85%]" resizeMode="contain" />
+              <Image source={{ uri: item.logo }} className="w-[75%] h-[75%] z-10" resizeMode="contain" />
             ) : (
-              <View className="items-center">
-                <Feather name="tv" size={40} color={primary} style={{ opacity: 0.3 }} />
-                <Text className="text-white/20 text-[10px] mt-2 font-black uppercase tracking-widest">No Signal</Text>
+              <View className="items-center z-10">
+                <Feather name="tv" size={32} color={primary} style={{ opacity: 0.3 }} />
               </View>
             )}
             
             {/* Glossy Overlay */}
             <LinearGradient 
-              colors={['rgba(255,255,255,0.05)', 'transparent', 'rgba(0,0,0,0.4)']} 
+              colors={['rgba(255,255,255,0.08)', 'transparent', 'rgba(0,0,0,0.2)']} 
               className="absolute inset-0" 
             />
 
-            {/* Quality Badge Overlay */}
-            <View className="absolute top-3 right-3">
+            {/* Quality Badge */}
+            <View className="absolute top-2 right-2 z-20">
                <QualityBadge name={item.quality || 'SD'} isDark={true} />
+            </View>
+            
+            {/* Live Indicator Overlay */}
+            <View className="absolute bottom-2 left-2 z-20 flex-row items-center bg-black/40 px-1.5 py-0.5 rounded-md">
+               <View className="w-1 h-1 rounded-full bg-red-600 mr-1" />
+               <Text className="text-[7px] font-black text-white uppercase tracking-widest">Live</Text>
             </View>
           </View>
           
-          <View className={`p-5 ${isDark ? 'bg-white/[0.02]' : 'bg-black/[0.02]'}`}>
-            <View className="flex-row items-center justify-between mb-3">
-              <View className="flex-1 mr-3">
-                 <Text className={`font-black text-xs leading-tight ${isDark ? 'text-white' : 'text-black'}`} numberOfLines={1}>
-                   {item.name}
+          <View className={`p-4 ${isDark ? 'bg-white/[0.01]' : 'bg-black/[0.01]'}`}>
+            <View className="flex-row items-start justify-between mb-2">
+              <View className="flex-1 mr-2">
+                 <Text className={`font-black text-[11px] leading-tight ${isDark ? 'text-white' : 'text-black'}`} numberOfLines={1}>
+                    {item.name}
                  </Text>
-                 <Text className={`text-[8px] font-bold uppercase tracking-[2px] mt-1 opacity-40 ${isDark ? 'text-white' : 'text-black'}`}>
-                   {item.category?.split(/[;/]/)[0] || 'Live Signal'}
+                 <Text className={`text-[7px] font-bold uppercase tracking-[1px] mt-0.5 opacity-40 ${isDark ? 'text-white' : 'text-black'}`}>
+                    {item.category?.split(/[;/]/)[0] || 'Premium'}
                  </Text>
               </View>
               <TouchableOpacity 
                 activeOpacity={0.7}
                 onPress={(e) => { e.stopPropagation(); toggleFavorite(item); }}
-                className={`p-2 rounded-full ${isDark ? 'bg-white/5' : 'bg-black/5'}`}
+                className={`w-7 h-7 items-center justify-center rounded-full ${isDark ? 'bg-white/5' : 'bg-black/5'}`}
               >
                 <Ionicons 
                   name={favorited ? "heart" : "heart-outline"} 
-                  size={14} 
-                  color={favorited ? primary : (isDark ? 'rgba(255,255,255,0.3)' : 'rgba(0,0,0,0.3)')} 
+                  size={12} 
+                  color={favorited ? primary : (isDark ? 'rgba(255,255,255,0.4)' : 'rgba(0,0,0,0.4)')} 
                 />
               </TouchableOpacity>
             </View>
@@ -571,19 +639,31 @@ const LiveTV = () => {
     <View className="absolute top-0 left-0 right-0 z-50 pt-12">
       <BlurView intensity={40} tint={isDark ? "dark" : "light"} className="px-6 py-5 flex-row items-center justify-between mx-4 mt-2 rounded-[32px] border border-white/10 overflow-hidden shadow-2xl">
         <View className="flex-row items-center">
-            <View className="w-10 h-10 rounded-2xl bg-primary items-center justify-center mr-3 shadow-lg shadow-primary/30">
-               <MaterialCommunityIcons name="television-play" size={24} color="white" />
+            <View className={`w-10 h-10 rounded-xl ${isDark ? 'bg-white/5' : 'bg-black/5'} items-center justify-center mr-3 border ${isDark ? 'border-white/10' : 'border-black/5'} overflow-hidden shadow-2xl`}>
+               <Image source={require('../../assets/icon.png')} className="w-full h-full" resizeMode="contain" />
             </View>
             <View>
-               <Text className={`text-xl font-black italic tracking-tighter ${isDark ? 'text-white' : 'text-black'}`}>OrbixTv</Text>
-               <Text className="text-gray-500 text-[8px] font-black uppercase tracking-[2px]">Premium Live</Text>
+               <Text className={`text-xl font-black italic tracking-tighter ${isDark ? 'text-white' : 'text-black'}`}>OrbixTV</Text>
+               <Text className="text-gray-500 text-[8px] font-black uppercase tracking-[2px]">Ultra Live</Text>
             </View>
         </View>
         
-        <View className="flex-row items-center space-x-3">
+        <View className="flex-row items-center">
+          {activeTab === 'TV GUIDE' && !isSearchActive && (
+            <TouchableOpacity 
+              onPress={handleRefreshEpg}
+              disabled={loadingEpg}
+              className={`w-10 h-10 items-center justify-center rounded-full ${isDark ? 'bg-white/5' : 'bg-black/5'} border border-white/5 mr-3`}
+            >
+               <Animated.View style={{ transform: [{ rotate: loadingEpg ? '360deg' : '0deg' }] }}>
+                  <Feather name="refresh-cw" size={16} color={isDark ? "white" : "black"} />
+               </Animated.View>
+            </TouchableOpacity>
+          )}
+
           <TouchableOpacity 
             onPress={() => setIsSearchActive(!isSearchActive)} 
-            className={`w-10 h-10 items-center justify-center rounded-full ${isDark ? 'bg-white/5' : 'bg-black/5'} border border-white/5`}
+            className={`w-10 h-10 items-center justify-center rounded-full ${isDark ? 'bg-white/5' : 'bg-black/5'} border border-white/5 mr-3`}
           >
              <Feather name={isSearchActive ? "x" : "search"} size={18} color={isDark ? "white" : "black"} />
           </TouchableOpacity>
@@ -615,18 +695,12 @@ const LiveTV = () => {
         </ScrollView>
       )}
 
-      {isSearchActive && (
-        <Animated.View entering={FadeInUp} className="px-5 mt-4">
-           <TextInput
-              autoFocus
-              className="bg-white/10 h-12 rounded-2xl px-6 text-white font-bold"
-              placeholder="Search Live Channels..."
-              placeholderTextColor="rgba(255,255,255,0.4)"
-              value={searchQuery}
-              onChangeText={setSearchQuery}
-           />
-        </Animated.View>
-      )}
+      <SearchBar 
+        value={searchQuery}
+        onChange={setSearchQuery}
+        isSearchActive={isSearchActive}
+        isDark={isDark}
+      />
     </View>
   );
 
@@ -710,6 +784,7 @@ const LiveTV = () => {
                  </View>
               ) : (
                  <TVGuideGrid 
+                   key={`guide-${refreshKey}`}
                    channels={filteredChannels} 
                    epgData={epgData} 
                    isDark={isDark} 
@@ -719,14 +794,16 @@ const LiveTV = () => {
                      if (!visibleChannels || visibleChannels.length === 0) return;
                      
                      // Filter out channels already being fetched or already in cache
+                     const currentEpg = usePlayerStore.getState().epgData;
                      const countryCode = settingsStorage.getIptvCountry() || 'in';
-                     const needed = visibleChannels.filter(c => !epgData[c.url]);
+                     const needed = visibleChannels.filter(c => !currentEpg[c.url]);
                      
                      if (needed.length > 0) {
                        iptvParser.fetchBulkEPG(needed, countryCode).then(map => {
                          if (Object.keys(map).length > 0) {
-                           // Merge into global store
-                           setEpgData({ ...epgData, ...map });
+                           // Merge into global store using absolute current state
+                           const latestEpg = usePlayerStore.getState().epgData;
+                           setEpgData({ ...latestEpg, ...map });
                          }
                        });
                      }

@@ -37,30 +37,33 @@ const CategoryGrid = ({ categories, onSelect, selectedCategory, qualityFilter, o
     toggleFavoriteGenre(category);
   };
 
-  const renderChip = (label, isQuality = false, value = null) => {
+  const renderChip = (label, isQuality = false, value = null, icon = null) => {
     const filterValue = isQuality ? value : label;
     const isActive = isQuality ? (qualityFilter === filterValue) : (selectedCategory === label);
-    const isFavorited = favoriteGenres.includes(label);
+    const isFavorited = !isQuality && !icon && favoriteGenres.includes(label);
 
     return (
       <TouchableOpacity
         key={label}
         activeOpacity={0.7}
         onPress={() => isQuality ? onQualitySelect(filterValue) : onSelect(label)}
-        onLongPress={() => !isQuality && handleLongPress(label)}
+        onLongPress={() => !isQuality && !icon && handleLongPress(label)}
         className={`px-6 py-3 rounded-2xl mr-3 border flex-row items-center ${
           isActive 
-            ? 'border-transparent shadow-2xl shadow-primary/40' 
+            ? 'border-transparent shadow-2xl' 
             : (isDark ? 'border-white/5 bg-white/5' : 'border-black/5 bg-black/5')
         }`}
-        style={isActive ? { backgroundColor: primary } : {}}
+        style={isActive ? { backgroundColor: primary, shadowColor: primary, shadowOffset: { width: 0, height: 10 }, shadowOpacity: 0.3, shadowRadius: 20, elevation: 10 } : {}}
       >
+        {icon && (
+          <Feather name={icon} size={14} color={isActive ? 'white' : (isDark ? 'white' : 'black')} style={{ marginRight: 8, opacity: isActive ? 1 : 0.5 }} />
+        )}
         {isFavorited && !isActive && (
-          <Ionicons name="heart" size={10} color={primary} style={{ marginRight: 6 }} />
+          <MaterialIcons name="favorite" size={10} color={primary} style={{ marginRight: 6 }} />
         )}
         <Text 
           className={`text-[11px] font-black uppercase tracking-[2px] ${
-            isActive ? 'text-white' : (isDark ? 'text-white/40' : 'text-black/40')
+            isActive ? 'text-white' : (isDark ? 'text-white/60' : 'text-black/60')
           }`}
         >
           {label}
@@ -70,24 +73,33 @@ const CategoryGrid = ({ categories, onSelect, selectedCategory, qualityFilter, o
   };
 
   return (
-    <View className="py-2">
+    <View className="py-4">
       <ScrollView 
         horizontal 
         showsHorizontalScrollIndicator={false}
         contentContainerStyle={{ paddingHorizontal: 16, alignItems: 'center' }}
       >
+        {/* Quick Filters */}
+        <View className="flex-row items-center border-r border-white/10 pr-3 mr-3 gap-1">
+           {renderChip('Favorites', false, 'Favorites', 'heart')}
+           {renderChip('Trending', false, 'Trending', 'zap')}
+           {renderChip('Recent', false, 'Recent', 'clock')}
+        </View>
+
         {/* Quality Filters */}
-        <View className="flex-row items-center border-r border-white/10 pr-3 mr-3 gap-2">
+        <View className="flex-row items-center border-r border-white/10 pr-3 mr-3 gap-1">
           {[ 
-            {label: '1080p', value: '1080p'}, 
-            {label: '720p', value: '720p'}, 
-            {label: '576p', value: '576p'} 
+            {label: '4K', value: '4K'}, 
+            {label: 'FHD', value: 'FHD'}, 
+            {label: 'HD', value: 'HD'} 
           ].map(q => renderChip(q.label, true, q.value))}
         </View>
 
 
         {/* Categories */}
-        {sortedCategories.map(c => renderChip(c))}
+        <View className="flex-row items-center">
+           {sortedCategories.map(c => renderChip(c))}
+        </View>
       </ScrollView>
     </View>
   );
