@@ -2,14 +2,13 @@
   {
     "start": "18:30",
     "stop": "21:00",
-    "channel": "ts192",
-    "catchup-id": "93098701",
-    "channelId": "ts192",
-    "channelName": "Fakt Marathi",
+    "channel": "FaktMarathi.in",
+    "channelId": "FaktMarathi.in",
+    "channelName": "IN - Fakt Marathi",
     "startTs": 1775413800000,
     "stopTs": 1775422800000,
     "title": "Zol Zaal",
-    "desc": "Chaos and hilarity ensue as different people try to claim a palace owned by a billionaire."
+    "desc": "Balwant Patil, a billionaire, is the owner of a famous palace in Pune. Chaos and hilarity ensue as a variety of people try to claim his property."
   },
   {
     "start": "21:00",

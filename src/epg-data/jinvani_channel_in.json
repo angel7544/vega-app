@@ -2,14 +2,13 @@
   {
     "start": "19:10",
     "stop": "19:50",
-    "channel": "ts373",
-    "catchup-id": "93101354",
-    "channelId": "ts373",
-    "channelName": "Jinvani Channel",
+    "channel": "JinvaniChannel.in",
+    "channelId": "JinvaniChannel.in",
+    "channelName": "IN - Jinvani Channel",
     "startTs": 1775416200000,
     "stopTs": 1775418600000,
     "title": "Ach.Samay Sagar ji Maharaj Pravachan",
-    "desc": "A revered religious leader offers discourses on ethical living and Jain principles."
+    "desc": "A revered religious leader offers thoughtful discourses on ethical living, non-violence and the core tenets of Jainism, motivating devotees to cultivate awareness and spiritual understanding."
   },
   {
     "start": "19:50",

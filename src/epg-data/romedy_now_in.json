@@ -2,10 +2,9 @@
   {
     "start": "19:07",
     "stop": "20:31",
-    "channel": "ts174",
-    "catchup-id": "93106944",
-    "channelId": "ts174",
-    "channelName": "Romedy Now",
+    "channel": "RomedyNow.in",
+    "channelId": "RomedyNow.in",
+    "channelName": "IN - Romedy Now",
     "startTs": 1775416020000,
     "stopTs": 1775421060000,
     "title": "Movie",

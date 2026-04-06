@@ -2,38 +2,35 @@
   {
     "start": "18:30",
     "stop": "19:00",
-    "channel": "ts326",
-    "catchup-id": "93096655",
-    "channelId": "ts326",
-    "channelName": "DD Kisan",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "IN - DD Kisan",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Nayi Soch",
-    "desc": "Nayi Soch"
+    "desc": "This is Documentary - Others Category."
   },
   {
     "start": "19:00",
     "stop": "19:30",
-    "channel": "ts326",
-    "catchup-id": "93096628",
-    "channelId": "ts326",
-    "channelName": "DD Kisan",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "IN - DD Kisan",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Gaon Se",
-    "desc": "The host travels across the villages in rural India to discover many unknown stories."
+    "desc": "The host travels across the villages in rural India to discover many unknown stories and learn about various cultures and traditions."
   },
   {
     "start": "19:30",
     "stop": "20:00",
-    "channel": "ts326",
-    "catchup-id": "93096624",
-    "channelId": "ts326",
-    "channelName": "DD Kisan",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "IN - DD Kisan",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Hamari Pakshala",
-    "desc": "."
+    "desc": "This is TV Show - Cooking Category."
   },
   {
     "start": "20:00",

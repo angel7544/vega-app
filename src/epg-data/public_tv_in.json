@@ -2,26 +2,24 @@
   {
     "start": "18:30",
     "stop": "19:00",
-    "channel": "ts33",
-    "catchup-id": "93106192",
-    "channelId": "ts33",
-    "channelName": "Public TV",
+    "channel": "PublicTV.in",
+    "channelId": "PublicTV.in",
+    "channelName": "IN - Public TV",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Big Bulletin",
-    "desc": "The anchor delivers the latest news stories and important updates affecting the nation."
+    "desc": "The anchor delivers the latest news stories, key developments and important updates affecting the nation, keeping viewers informed on critical issues that shape the country."
   },
   {
     "start": "19:00",
     "stop": "00:30",
-    "channel": "ts33",
-    "catchup-id": "93106169",
-    "channelId": "ts33",
-    "channelName": "Public TV",
+    "channel": "PublicTV.in",
+    "channelId": "PublicTV.in",
+    "channelName": "IN - Public TV",
     "startTs": 1775415600000,
     "stopTs": 1775435400000,
     "title": "Special Time",
-    "desc": "The host presents a special report of the latest news stories from around the region."
+    "desc": "The host presents a special report of the latest political, social, economic and cultural news stories from around the region."
   },
   {
     "start": "00:30",

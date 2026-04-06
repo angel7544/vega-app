@@ -2,38 +2,35 @@
   {
     "start": "18:30",
     "stop": "19:00",
-    "channel": "ts484",
-    "catchup-id": "93112453",
-    "channelId": "ts484",
-    "channelName": "Travelxp HD",
+    "channel": "Travelxp.in",
+    "channelId": "Travelxp.in",
+    "channelName": "IN - Travelxp",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Backpack",
-    "desc": "The host explores various castles and palaces in Sintra and heads to the town of Óbidos. S01 E43."
+    "desc": "S1 E43 The host travels to Sintra which is known for its castles and palaces. He also explores various locations and heads to the historic town of Óbidos."
   },
   {
     "start": "19:00",
     "stop": "19:30",
-    "channel": "ts484",
-    "catchup-id": "93112478",
-    "channelId": "ts484",
-    "channelName": "Travelxp HD",
+    "channel": "Travelxp.in",
+    "channelId": "Travelxp.in",
+    "channelName": "IN - Travelxp",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "City Breaks",
-    "desc": "The host explores the history and culture of various cities around the world."
+    "desc": "The host visits various cities around the world and explores the local culture, traditional cuisine, customs and history of the regions."
   },
   {
     "start": "19:30",
     "stop": "20:00",
-    "channel": "ts484",
-    "catchup-id": "93112451",
-    "channelId": "ts484",
-    "channelName": "Travelxp HD",
+    "channel": "Travelxp.in",
+    "channelId": "Travelxp.in",
+    "channelName": "IN - Travelxp",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Xplore Oman",
-    "desc": "The host sheds light on the Wadi Bin Khalid, a renowned wadi in Oman."
+    "desc": "The host sheds light on the Wadi Bin Khalid, one of the most renowned wadis that the Sultanate of Oman covets."
   },
   {
     "start": "20:00",

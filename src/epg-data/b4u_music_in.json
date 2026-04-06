@@ -2,14 +2,13 @@
   {
     "start": "18:30",
     "stop": "20:30",
-    "channel": "ts9",
-    "catchup-id": "93094146",
-    "channelId": "ts9",
-    "channelName": "B4U Music",
+    "channel": "B4UMusic.in",
+    "channelId": "B4UMusic.in",
+    "channelName": "IN - B4U Music",
     "startTs": 1775413800000,
     "stopTs": 1775421000000,
     "title": "Bajao",
-    "desc": "The hottest Hindi chartbusters of the season!."
+    "desc": "Tune in to Bajao to watch what's new and what's cool. Bringing you some of the latest, hottest and exclusive tracks every day."
   },
   {
     "start": "20:30",

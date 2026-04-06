@@ -2,26 +2,24 @@
   {
     "start": "18:38",
     "stop": "21:00",
-    "channel": "ts248",
-    "catchup-id": "93274769",
-    "channelId": "ts248",
-    "channelName": "Zee YUVA",
+    "channel": "ZeeYUVA.in",
+    "channelId": "ZeeYUVA.in",
+    "channelName": "IN - Zee YUVA",
     "startTs": 1775414280000,
     "stopTs": 1775422800000,
     "title": "Khol De Meri Zuban",
-    "desc": "Mute Lalloo miraculously regains his voice, changing both his and Lali's destiny."
+    "desc": "Mute Lalloo miraculously regains his voice, and his mother offers him in marriage to Lali, a twice-widowed woman shunned by society for her supposed bad luck."
   },
   {
     "start": "21:00",
     "stop": "22:46",
-    "channel": "ts248",
-    "catchup-id": "93115154",
-    "channelId": "ts248",
-    "channelName": "Zee YUVA",
+    "channel": "ZeeYUVA.in",
+    "channelId": "ZeeYUVA.in",
+    "channelName": "IN - Zee YUVA",
     "startTs": 1775422800000,
     "stopTs": 1775429160000,
     "title": "Soyrik",
-    "desc": "A runaway married couple finds themselves seeking police protection from their families."
+    "desc": "A runaway couple gets married against their parent's wishes. However, they soon find themselves seeking police protection from their families."
   },
   {
     "start": "22:46",
@@ -37,14 +35,13 @@
   {
     "start": "23:30",
     "stop": "00:27",
-    "channel": "ts248",
-    "catchup-id": "93115156",
-    "channelId": "ts248",
-    "channelName": "Zee YUVA",
+    "channel": "ZeeYUVA.in",
+    "channelId": "ZeeYUVA.in",
+    "channelName": "IN - Zee YUVA",
     "startTs": 1775431800000,
     "stopTs": 1775435220000,
     "title": "Patanjali Yog by Yog Rishi Swami Ramdev",
-    "desc": "Renowned Indian spiritual guru Swami Ramdev teaches various yoga poses and exercises. S01 E656."
+    "desc": "S1 E656 Renowned Indian spiritual leader Swami Ramdev delivers demonstrations of various yoga poses and exercises for a healthy life."
   },
   {
     "start": "00:27",
@@ -60,158 +57,145 @@
   {
     "start": "03:00",
     "stop": "05:30",
-    "channel": "ts248",
-    "catchup-id": "93243146",
-    "channelId": "ts248",
-    "channelName": "Zee YUVA",
+    "channel": "ZeeYUVA.in",
+    "channelId": "ZeeYUVA.in",
+    "channelName": "IN - Zee YUVA",
     "startTs": 1775444400000,
     "stopTs": 1775453400000,
     "title": "Bakula Namdev Ghotale",
-    "desc": "Hilarious chaos ensues when the sarpanch, Ghotale, tries to woo Ramdev's new wife, Bakula."
+    "desc": "Ramdev marries the beautiful Bakula and returns to his village to enjoy his domestic life. But hilarious chaos ensues when the village sarpanch, Ghotale, tries to woo Bakula for himself."
   },
   {
     "start": "05:30",
     "stop": "06:00",
-    "channel": "ts248",
-    "catchup-id": "93243138",
-    "channelId": "ts248",
-    "channelName": "Zee YUVA",
+    "channel": "ZeeYUVA.in",
+    "channelId": "ZeeYUVA.in",
+    "channelName": "IN - Zee YUVA",
     "startTs": 1775453400000,
     "stopTs": 1775455200000,
     "title": "Swarajya Rakshak Sambhaji",
-    "desc": "Sambhaji Maharaj leads the Maratha Empire through tumultuous wars against Mughal forces. S01 E545."
+    "desc": "S1 E545 Sambhaji Maharaj confronts numerous obstacles as heir to the Maratha throne. Soon, he fights valiantly against Mughal invasions while managing internal conflicts and resource constraints."
   },
   {
     "start": "06:00",
     "stop": "06:30",
-    "channel": "ts248",
-    "catchup-id": "93243141",
-    "channelId": "ts248",
-    "channelName": "Zee YUVA",
+    "channel": "ZeeYUVA.in",
+    "channelId": "ZeeYUVA.in",
+    "channelName": "IN - Zee YUVA",
     "startTs": 1775455200000,
     "stopTs": 1775457000000,
     "title": "Aamhi Saare Khavayye-Jodit Godi",
-    "desc": "The host invites various celebrities and ordinary people to prepare delectable recipes. S01 E51."
+    "desc": "S1 E51 The host invites various celebrities and ordinary people into his kitchen to prepare delectable recipes and provide tips and tricks on kitchen chores and cooking."
   },
   {
     "start": "06:30",
     "stop": "07:00",
-    "channel": "ts248",
-    "catchup-id": "93115157",
-    "channelId": "ts248",
-    "channelName": "Zee YUVA",
+    "channel": "ZeeYUVA.in",
+    "channelId": "ZeeYUVA.in",
+    "channelName": "IN - Zee YUVA",
     "startTs": 1775457000000,
     "stopTs": 1775458800000,
     "title": "Aamhi Saare Khavayye-Jodit Godi",
-    "desc": "The host invites various celebrities and ordinary people to prepare delectable recipes. S01 E52."
+    "desc": "S1 E52 The host invites various celebrities and ordinary people into his kitchen to prepare delectable recipes and provide tips and tricks on kitchen chores and cooking."
   },
   {
     "start": "07:00",
     "stop": "09:30",
-    "channel": "ts248",
-    "catchup-id": "93243139",
-    "channelId": "ts248",
-    "channelName": "Zee YUVA",
+    "channel": "ZeeYUVA.in",
+    "channelId": "ZeeYUVA.in",
+    "channelName": "IN - Zee YUVA",
     "startTs": 1775458800000,
     "stopTs": 1775467800000,
     "title": "Sher Shivraj",
-    "desc": "Chhatrapati Shivaji Maharaj must face Afzal Khan to win in the Battle of Pratapgad."
+    "desc": "Chhatrapati Shivaji Maharaj uses his wits, vigour and courage to face one of his biggest rivals, Afzal Khan, and emerge victorious in the Battle of Pratapgad."
   },
   {
     "start": "09:30",
     "stop": "10:30",
-    "channel": "ts248",
-    "catchup-id": "93115158",
-    "channelId": "ts248",
-    "channelName": "Zee YUVA",
+    "channel": "ZeeYUVA.in",
+    "channelId": "ZeeYUVA.in",
+    "channelName": "IN - Zee YUVA",
     "startTs": 1775467800000,
     "stopTs": 1775471400000,
     "title": "Khulta Kali Khulena",
-    "desc": "Vikrant gets married to a pregnant Monica, but later falls in love with her sister. S01 E274."
+    "desc": "S1 E274 Vikrant gets married to Monica, who is pregnant with the child of another man. Amid the differences between the two, Vikrant falls in love with Monica's sister."
   },
   {
     "start": "10:30",
     "stop": "13:00",
-    "channel": "ts248",
-    "catchup-id": "93243144",
-    "channelId": "ts248",
-    "channelName": "Zee YUVA",
+    "channel": "ZeeYUVA.in",
+    "channelId": "ZeeYUVA.in",
+    "channelName": "IN - Zee YUVA",
     "startTs": 1775471400000,
     "stopTs": 1775480400000,
     "title": "Hawahawai",
-    "desc": "Jyoti, a housewife, faces many obstacles in her journey to become an entrepreneur."
+    "desc": "Jyoti, a housewife, aspires to be an entrepreneur just like Kalyani Deshmukh, a famous businesswoman. Later, when she gets the chance to fulfil her dreams, she faces many obstacles in her path."
   },
   {
     "start": "13:00",
     "stop": "15:30",
-    "channel": "ts248",
-    "catchup-id": "93243140",
-    "channelId": "ts248",
-    "channelName": "Zee YUVA",
+    "channel": "ZeeYUVA.in",
+    "channelId": "ZeeYUVA.in",
+    "channelName": "IN - Zee YUVA",
     "startTs": 1775480400000,
     "stopTs": 1775489400000,
     "title": "Mulshi Pattern",
-    "desc": "A farmer sells his land for immediate funds, forcing his son to lead a life of a criminal."
+    "desc": "Sakharam, a farmer, sells his land due to financial constraints. His son, who holds this against him, subsequently gets enticed into a criminal's life for money."
   },
   {
     "start": "15:30",
     "stop": "16:00",
-    "channel": "ts248",
-    "catchup-id": "93115155",
-    "channelId": "ts248",
-    "channelName": "Zee YUVA",
+    "channel": "ZeeYUVA.in",
+    "channelId": "ZeeYUVA.in",
+    "channelName": "IN - Zee YUVA",
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Swarajya Rakshak Sambhaji",
-    "desc": "Sambhaji Maharaj leads the Maratha Empire through tumultuous wars against Mughal forces. S01 E619."
+    "desc": "S1 E619 Sambhaji Maharaj confronts numerous obstacles as heir to the Maratha throne. Soon, he fights valiantly against Mughal invasions while managing internal conflicts and resource constraints."
   },
   {
     "start": "16:00",
     "stop": "16:30",
-    "channel": "ts248",
-    "catchup-id": "93243137",
-    "channelId": "ts248",
-    "channelName": "Zee YUVA",
+    "channel": "ZeeYUVA.in",
+    "channelId": "ZeeYUVA.in",
+    "channelName": "IN - Zee YUVA",
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Swarajya Rakshak Sambhaji",
-    "desc": "Sambhaji Maharaj, inspired by his father Shivaji, bravely fights for Swaraj's freedom against the Mughals. His success in this freedom war remains uncertain. S01 E583."
+    "desc": "S1 E583 Sambhaji Maharaj, inspired by his father Shivaji, bravely fights for Swaraj's freedom against the Mughals. His success in this freedom war remains uncertain."
   },
   {
     "start": "16:30",
     "stop": "17:00",
-    "channel": "ts248",
-    "catchup-id": "93243143",
-    "channelId": "ts248",
-    "channelName": "Zee YUVA",
+    "channel": "ZeeYUVA.in",
+    "channelId": "ZeeYUVA.in",
+    "channelName": "IN - Zee YUVA",
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Tula Shikvin Changlach Dhada",
-    "desc": "The Amonkars prepare for Akshara's first day as a school teacher. When the priest talks about education, Adhipati and. S01 E01."
+    "desc": "S1 E1 The Amonkars prepare for Akshara's first day as a school teacher. When the priest talks about education, Adhipati and."
   },
   {
     "start": "17:00",
     "stop": "17:30",
-    "channel": "ts248",
-    "catchup-id": "93243145",
-    "channelId": "ts248",
-    "channelName": "Zee YUVA",
+    "channel": "ZeeYUVA.in",
+    "channelId": "ZeeYUVA.in",
+    "channelName": "IN - Zee YUVA",
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Tula Shikvin Changlach Dhada",
-    "desc": "Unexpected circumstances arise when Akshara and Bhuvaneshwari cross paths with each other. S01 E02."
+    "desc": "S1 E2 When Akshara, a knowledge-loving teacher, crosses paths with Bhuvaneshwari, a wealthy woman who treasures money, sparks fly due to their contrasting beliefs."
   },
   {
     "start": "17:30",
     "stop": "19:30",
-    "channel": "ts248",
-    "catchup-id": "93243142",
-    "channelId": "ts248",
-    "channelName": "Zee YUVA",
+    "channel": "ZeeYUVA.in",
+    "channelId": "ZeeYUVA.in",
+    "channelName": "IN - Zee YUVA",
     "startTs": 1775496600000,
     "stopTs": 1775503800000,
     "title": "Comedycha Mamla",
-    "desc": "Bringing the best in television. S01 E21."
+    "desc": "S1 E21 Bringing the best in television."
   },
   {
     "start": "19:30",

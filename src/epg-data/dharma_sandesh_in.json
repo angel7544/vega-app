@@ -2,38 +2,35 @@
   {
     "start": "18:30",
     "stop": "18:50",
-    "channel": "ts288",
-    "catchup-id": "93097681",
-    "channelId": "ts288",
-    "channelName": "Dharma Sandesh",
+    "channel": "DharmaSandesh.in",
+    "channelId": "DharmaSandesh.in",
+    "channelName": "IN - Dharma Sandesh",
     "startTs": 1775413800000,
     "stopTs": 1775415000000,
     "title": "Stavan",
-    "desc": "A comprehensive compilation featuring various devotional songs in praise of the Almighty."
+    "desc": "A comprehensive compilation featuring various devotional songs and hymns in praise of the Almighty is played back-to-back."
   },
   {
     "start": "18:50",
     "stop": "19:30",
-    "channel": "ts288",
-    "catchup-id": "93097675",
-    "channelId": "ts288",
-    "channelName": "Dharma Sandesh",
+    "channel": "DharmaSandesh.in",
+    "channelId": "DharmaSandesh.in",
+    "channelName": "IN - Dharma Sandesh",
     "startTs": 1775415000000,
     "stopTs": 1775417400000,
     "title": "Pujya Gurudev Shri Kanji Swami",
-    "desc": "Kanji Swami, a religious leader, reads passages from a holy text."
+    "desc": "Kanji Swami, a religious leader, reads passages from a holy text and delivers discourses to devotees for a spiritual and peaceful life."
   },
   {
     "start": "19:30",
     "stop": "20:00",
-    "channel": "ts288",
-    "catchup-id": "93097649",
-    "channelId": "ts288",
-    "channelName": "Dharma Sandesh",
+    "channel": "DharmaSandesh.in",
+    "channelId": "DharmaSandesh.in",
+    "channelName": "IN - Dharma Sandesh",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Pujya Lalitprabh Ji & Chandrabh Ji M.S.",
-    "desc": "Lalitprabhji and Chandrabhji offer motivational content on healthy and holistic living."
+    "desc": "Pujya Lalitprabhji and Chandrabhji Maharaj Saheb are associated with Sambodhi Dham and offer motivational content on happy, healthy and holistic living."
   },
   {
     "start": "20:00",

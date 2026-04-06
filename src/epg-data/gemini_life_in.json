@@ -2,26 +2,24 @@
   {
     "start": "18:30",
     "stop": "19:00",
-    "channel": "ts361",
-    "catchup-id": "93099015",
-    "channelId": "ts361",
-    "channelName": "Gemini Life",
+    "channel": "GeminiLife.in",
+    "channelId": "GeminiLife.in",
+    "channelName": "IN - Gemini Life",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Musical Melodies",
-    "desc": "A comprehensive compilation of the best evergreen melodius songs are played back-to-back."
+    "desc": "A comprehensive compilation of the best evergreen melodius songs, composed and performed by talented musicians, are played back-to-back."
   },
   {
     "start": "19:00",
     "stop": "20:30",
-    "channel": "ts361",
-    "catchup-id": "93099032",
-    "channelId": "ts361",
-    "channelName": "Gemini Life",
+    "channel": "GeminiLife.in",
+    "channelId": "GeminiLife.in",
+    "channelName": "IN - Gemini Life",
     "startTs": 1775415600000,
     "stopTs": 1775421000000,
     "title": "Musical Melodies",
-    "desc": "A comprehensive compilation of the best evergreen melodius songs are played back-to-back."
+    "desc": "A comprehensive compilation of the best evergreen melodius songs, composed and performed by talented musicians, are played back-to-back."
   },
   {
     "start": "20:30",
@@ -37,38 +35,35 @@
   {
     "start": "00:00",
     "stop": "00:30",
-    "channel": "ts361",
-    "catchup-id": "93099034",
-    "channelId": "ts361",
-    "channelName": "Gemini Life",
+    "channel": "GeminiLife.in",
+    "channelId": "GeminiLife.in",
+    "channelName": "IN - Gemini Life",
     "startTs": 1775433600000,
     "stopTs": 1775435400000,
     "title": "Spot Booking",
-    "desc": "A collection of melodious songs from popular Telugu movies, played back to back."
+    "desc": "A comprehensive collection of melodious songs from popular Telugu movies performed by talented artists, played back to back."
   },
   {
     "start": "00:30",
     "stop": "01:00",
-    "channel": "ts361",
-    "catchup-id": "93099033",
-    "channelId": "ts361",
-    "channelName": "Gemini Life",
+    "channel": "GeminiLife.in",
+    "channelId": "GeminiLife.in",
+    "channelName": "IN - Gemini Life",
     "startTs": 1775435400000,
     "stopTs": 1775437200000,
     "title": "Spot Booking",
-    "desc": "A collection of melodious songs from popular Telugu movies, played back to back."
+    "desc": "A comprehensive collection of melodious songs from popular Telugu movies performed by talented artists, played back to back."
   },
   {
     "start": "01:00",
     "stop": "01:30",
-    "channel": "ts361",
-    "catchup-id": "93099023",
-    "channelId": "ts361",
-    "channelName": "Gemini Life",
+    "channel": "GeminiLife.in",
+    "channelId": "GeminiLife.in",
+    "channelName": "IN - Gemini Life",
     "startTs": 1775437200000,
     "stopTs": 1775439000000,
     "title": "Book Your Song",
-    "desc": "Viewers get a chance to call the host and request to play their favorite songs."
+    "desc": "Viewers get a chance to chat with the host and request their favorite songs, composed by talented musicians, to be played."
   },
   {
     "start": "01:30",
@@ -84,14 +79,13 @@
   {
     "start": "02:00",
     "stop": "02:30",
-    "channel": "ts361",
-    "catchup-id": "93099031",
-    "channelId": "ts361",
-    "channelName": "Gemini Life",
+    "channel": "GeminiLife.in",
+    "channelId": "GeminiLife.in",
+    "channelName": "IN - Gemini Life",
     "startTs": 1775440800000,
     "stopTs": 1775442600000,
     "title": "Book Your Song",
-    "desc": "Viewers get a chance to call the host and request to play their favorite songs."
+    "desc": "Viewers get a chance to chat with the host and request their favorite songs, composed by talented musicians, to be played."
   },
   {
     "start": "02:30",
@@ -107,50 +101,46 @@
   {
     "start": "03:30",
     "stop": "04:30",
-    "channel": "ts361",
-    "catchup-id": "93099037",
-    "channelId": "ts361",
-    "channelName": "Gemini Life",
+    "channel": "GeminiLife.in",
+    "channelId": "GeminiLife.in",
+    "channelName": "IN - Gemini Life",
     "startTs": 1775446200000,
     "stopTs": 1775449800000,
     "title": "Special Mee Choice",
-    "desc": "A curated collection of famous songs from various films, is played in rapid succession."
+    "desc": "A curated collection of famous songs from various films, performed by renowned artists and musicians, is played in rapid succession."
   },
   {
     "start": "04:30",
     "stop": "05:30",
-    "channel": "ts361",
-    "catchup-id": "93099024",
-    "channelId": "ts361",
-    "channelName": "Gemini Life",
+    "channel": "GeminiLife.in",
+    "channelId": "GeminiLife.in",
+    "channelName": "IN - Gemini Life",
     "startTs": 1775449800000,
     "stopTs": 1775453400000,
     "title": "Spot Booking",
-    "desc": "A collection of melodious songs from popular Telugu movies, played back to back."
+    "desc": "A comprehensive collection of melodious songs from popular Telugu movies performed by talented artists, played back to back."
   },
   {
     "start": "05:30",
     "stop": "08:30",
-    "channel": "ts361",
-    "catchup-id": "93099030",
-    "channelId": "ts361",
-    "channelName": "Gemini Life",
+    "channel": "GeminiLife.in",
+    "channelId": "GeminiLife.in",
+    "channelName": "IN - Gemini Life",
     "startTs": 1775453400000,
     "stopTs": 1775464200000,
     "title": "Mr. Pellam",
-    "desc": "A chauvinistic man loses his job and has to rely on his wife for his livelihood."
+    "desc": "Balaji thinks men can do everything as they are supposed to be the head of the family and earn for them. But he realises his mistake when he loses his job and his wife has to work."
   },
   {
     "start": "08:30",
     "stop": "09:30",
-    "channel": "ts361",
-    "catchup-id": "93099028",
-    "channelId": "ts361",
-    "channelName": "Gemini Life",
+    "channel": "GeminiLife.in",
+    "channelId": "GeminiLife.in",
+    "channelName": "IN - Gemini Life",
     "startTs": 1775464200000,
     "stopTs": 1775467800000,
     "title": "Marapurani Sannivesalu",
-    "desc": "A comprehensive compilation of memorable scenes and clippings from movies."
+    "desc": "A comprehensive compilation of memorable scenes and clippings from popular movies featuring some of the biggest names from the regional film industry."
   },
   {
     "start": "09:30",
@@ -221,34 +211,31 @@
   {
     "start": "13:30",
     "stop": "14:00",
-    "channel": "ts361",
-    "catchup-id": "93099039",
-    "channelId": "ts361",
-    "channelName": "Gemini Life",
+    "channel": "GeminiLife.in",
+    "channelId": "GeminiLife.in",
+    "channelName": "IN - Gemini Life",
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Spot Booking",
-    "desc": "A collection of melodious songs from popular Telugu movies, played back to back."
+    "desc": "A comprehensive collection of melodious songs from popular Telugu movies performed by talented artists, played back to back."
   },
   {
     "start": "14:00",
     "stop": "15:00",
-    "channel": "ts361",
-    "catchup-id": "93099035",
-    "channelId": "ts361",
-    "channelName": "Gemini Life",
+    "channel": "GeminiLife.in",
+    "channelId": "GeminiLife.in",
+    "channelName": "IN - Gemini Life",
     "startTs": 1775484000000,
     "stopTs": 1775487600000,
     "title": "Marapurani Sannivesalu",
-    "desc": "A comprehensive compilation of memorable scenes and clippings from movies."
+    "desc": "A comprehensive compilation of memorable scenes and clippings from popular movies featuring some of the biggest names from the regional film industry."
   },
   {
     "start": "15:00",
     "stop": "16:00",
-    "channel": "ts361",
-    "catchup-id": "93099029",
-    "channelId": "ts361",
-    "channelName": "Gemini Life",
+    "channel": "GeminiLife.in",
+    "channelId": "GeminiLife.in",
+    "channelName": "IN - Gemini Life",
     "startTs": 1775487600000,
     "stopTs": 1775491200000,
     "title": "Superoo Super",
@@ -257,10 +244,9 @@
   {
     "start": "16:00",
     "stop": "17:00",
-    "channel": "ts361",
-    "catchup-id": "93099026",
-    "channelId": "ts361",
-    "channelName": "Gemini Life",
+    "channel": "GeminiLife.in",
+    "channelId": "GeminiLife.in",
+    "channelName": "IN - Gemini Life",
     "startTs": 1775491200000,
     "stopTs": 1775494800000,
     "title": "Naa Pata",
@@ -269,26 +255,24 @@
   {
     "start": "17:00",
     "stop": "18:00",
-    "channel": "ts361",
-    "catchup-id": "93099020",
-    "channelId": "ts361",
-    "channelName": "Gemini Life",
+    "channel": "GeminiLife.in",
+    "channelId": "GeminiLife.in",
+    "channelName": "IN - Gemini Life",
     "startTs": 1775494800000,
     "stopTs": 1775498400000,
     "title": "Spot Booking",
-    "desc": "A collection of melodious songs from popular Telugu movies, played back to back."
+    "desc": "A comprehensive collection of melodious songs from popular Telugu movies performed by talented artists, played back to back."
   },
   {
     "start": "18:00",
     "stop": "18:30",
-    "channel": "ts361",
-    "catchup-id": "93099016",
-    "channelId": "ts361",
-    "channelName": "Gemini Life",
+    "channel": "GeminiLife.in",
+    "channelId": "GeminiLife.in",
+    "channelName": "IN - Gemini Life",
     "startTs": 1775498400000,
     "stopTs": 1775500200000,
     "title": "Musical Melodies",
-    "desc": "A comprehensive compilation of the best evergreen melodius songs are played back-to-back."
+    "desc": "A comprehensive compilation of the best evergreen melodius songs, composed and performed by talented musicians, are played back-to-back."
   },
   {
     "start": "18:30",

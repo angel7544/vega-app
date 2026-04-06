@@ -2,10 +2,9 @@
   {
     "start": "18:30",
     "stop": "20:00",
-    "channel": "ts38",
-    "catchup-id": "93092612",
-    "channelId": "ts38",
-    "channelName": "Aastha",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "IN - Aastha",
     "startTs": 1775413800000,
     "stopTs": 1775419200000,
     "title": "Pujya Bhaishri Rameshbhai Oza",
@@ -14,10 +13,9 @@
   {
     "start": "20:00",
     "stop": "20:30",
-    "channel": "ts38",
-    "catchup-id": "93092603",
-    "channelId": "ts38",
-    "channelName": "Aastha",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "IN - Aastha",
     "startTs": 1775419200000,
     "stopTs": 1775421000000,
     "title": "Aastha Special",
@@ -48,10 +46,9 @@
   {
     "start": "21:30",
     "stop": "22:00",
-    "channel": "ts38",
-    "catchup-id": "93092619",
-    "channelId": "ts38",
-    "channelName": "Aastha",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "IN - Aastha",
     "startTs": 1775424600000,
     "stopTs": 1775426400000,
     "title": "Aastha Special",
@@ -82,38 +79,35 @@
   {
     "start": "23:30",
     "stop": "02:00",
-    "channel": "ts38",
-    "catchup-id": "93092620",
-    "channelId": "ts38",
-    "channelName": "Aastha",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "IN - Aastha",
     "startTs": 1775431800000,
     "stopTs": 1775440800000,
     "title": "Yogrishi Swami Ramdev ji",
-    "desc": "Ancient techniques of meditation and adoption of specific bodily postures for health and relaxation."
+    "desc": "Ancient techniques of meditation and adoption of specific bodily postures widely practised for health and relaxation."
   },
   {
     "start": "02:00",
     "stop": "02:30",
-    "channel": "ts38",
-    "catchup-id": "93092597",
-    "channelId": "ts38",
-    "channelName": "Aastha",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "IN - Aastha",
     "startTs": 1775440800000,
     "stopTs": 1775442600000,
     "title": "Roganusar Ayurved Evam Jivan Darshan",
-    "desc": "A yoga and ayurveda scholar talks about the importance and uses of medicinal plants."
+    "desc": "Acharya Balkrishna Ji, a prominent yoga and ayurveda scholar, talks about the importance of medicinal plants and their uses."
   },
   {
     "start": "02:30",
     "stop": "02:50",
-    "channel": "ts38",
-    "catchup-id": "93092604",
-    "channelId": "ts38",
-    "channelName": "Aastha",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "IN - Aastha",
     "startTs": 1775442600000,
     "stopTs": 1775443800000,
     "title": "Pujya Didi Maa Ritambharaji",
-    "desc": "."
+    "desc": "This is TV Show - Religious Category."
   },
   {
     "start": "02:50",
@@ -151,14 +145,13 @@
   {
     "start": "04:00",
     "stop": "04:10",
-    "channel": "ts38",
-    "catchup-id": "93092595",
-    "channelId": "ts38",
-    "channelName": "Aastha",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "IN - Aastha",
     "startTs": 1775448000000,
     "stopTs": 1775448600000,
     "title": "Dekho Apna Desh",
-    "desc": "A rich sociocultural fabric and radiant with nature's bounty in all four directions."
+    "desc": "The great land called Bharat, with a millennia old heritage, adorned with a rich sociocultural fabric and radiant with nature's bounty in all four directions."
   },
   {
     "start": "04:10",
@@ -196,14 +189,13 @@
   {
     "start": "08:30",
     "stop": "10:30",
-    "channel": "ts38",
-    "catchup-id": "93092611",
-    "channelId": "ts38",
-    "channelName": "Aastha",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "IN - Aastha",
     "startTs": 1775464200000,
     "stopTs": 1775471400000,
     "title": "Pujya Mahesh Guru ji",
-    "desc": "Pujya Mahesh Guru ji recites the Ram Katha / Bhagwat Katha."
+    "desc": "Pujya Mahesh Guru ji recites extracts from scripture and interprets its teachings."
   },
   {
     "start": "10:30",
@@ -263,14 +255,13 @@
   {
     "start": "15:00",
     "stop": "15:30",
-    "channel": "ts38",
-    "catchup-id": "93092621",
-    "channelId": "ts38",
-    "channelName": "Aastha",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "IN - Aastha",
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Yogrishi Swami Ramdev ji",
-    "desc": "Ancient techniques of meditation and adoption of specific bodily postures for health and relaxation."
+    "desc": "Ancient techniques of meditation and adoption of specific bodily postures widely practised for health and relaxation."
   },
   {
     "start": "15:30",

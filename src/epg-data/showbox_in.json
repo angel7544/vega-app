@@ -2,14 +2,13 @@
   {
     "start": "18:30",
     "stop": "00:30",
-    "channel": "ts733",
-    "catchup-id": "93108317",
-    "channelId": "ts733",
-    "channelName": "Showbox",
+    "channel": "Showbox.in",
+    "channelId": "Showbox.in",
+    "channelName": "IN - Showbox",
     "startTs": 1775413800000,
     "stopTs": 1775435400000,
     "title": "Night Mode",
-    "desc": "A compilation of well-known songs are played back to back throughout the night."
+    "desc": "A comprehensive compilation of trending and well-known songs composed by musicians and artists are played back to back throughout the night."
   },
   {
     "start": "00:30",

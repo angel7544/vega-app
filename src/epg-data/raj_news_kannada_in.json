@@ -2,14 +2,13 @@
   {
     "start": "18:30",
     "stop": "00:27",
-    "channel": "ts510",
-    "catchup-id": "93106570",
-    "channelId": "ts510",
-    "channelName": "Raj News Kannada",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "IN - Raj News Kannada",
     "startTs": 1775413800000,
     "stopTs": 1775435220000,
     "title": "Raj Mega Bulletin",
-    "desc": "The host presents an analysis of the recent political, business and socio-economic news."
+    "desc": "The host sheds light on the latest updates and developments regarding various topics ranging from social issues and politics to health and business."
   },
   {
     "start": "00:27",

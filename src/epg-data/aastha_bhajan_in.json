@@ -2,26 +2,24 @@
   {
     "start": "18:30",
     "stop": "19:00",
-    "channel": "ts283",
-    "catchup-id": "93092733",
-    "channelId": "ts283",
-    "channelName": "Aastha Bhajan",
+    "channel": "AasthaBhajan.in",
+    "channelId": "AasthaBhajan.in",
+    "channelName": "IN - Aastha Bhajan",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Kishanbhaiya Sirsawale",
-    "desc": "A renowned religious expert presents readings from religious texts."
+    "desc": "A renowned religious expert presents readings from religious texts, providing insightful interpretations by leading hymns with devotees."
   },
   {
     "start": "19:00",
     "stop": "20:00",
-    "channel": "ts283",
-    "catchup-id": "93092758",
-    "channelId": "ts283",
-    "channelName": "Aastha Bhajan",
+    "channel": "AasthaBhajan.in",
+    "channelId": "AasthaBhajan.in",
+    "channelName": "IN - Aastha Bhajan",
     "startTs": 1775415600000,
     "stopTs": 1775419200000,
     "title": "Aastha Bhajan Special",
-    "desc": "Religious leaders deliver enlightening discourses and sing devotional hymns."
+    "desc": "Religious leaders deliver enlightening discourses and sing devotional hymns to honour the Almighty and seek divine blessings."
   },
   {
     "start": "20:00",

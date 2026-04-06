@@ -16,7 +16,7 @@ import {Dropdown} from 'react-native-element-dropdown';
 import {themes, EPG_SOURCES} from '../../lib/constants';
 import Constants from 'expo-constants';
 import useToastStore from '../../lib/zustand/toastStore';
-import usePlayerStore from '../../lib/zustand/playerStore';
+import usePlayerStore, { DEFAULT_EPG_REPO } from '../../lib/zustand/playerStore';
 import {iptvParser} from '../../lib/iptvParser';
 
 
@@ -122,10 +122,15 @@ const Preferences = () => {
     autoPlayChannel, 
     toggleAutoPlayChannel,
     customEpgUrl,
-    setCustomEpgUrl
+    setCustomEpgUrl,
+    epgRepoUrl,
+    setEpgRepoUrl
   } = usePlayerStore();
 
   const [tempEpgUrl, setTempEpgUrl] = useState(customEpgUrl || '');
+  const [tempRepoUrl, setTempRepoUrl] = useState(epgRepoUrl || '');
+
+  // ... rest of the component
 
   const countries = [
     { label: 'India', value: 'in' },
@@ -655,7 +660,7 @@ const Preferences = () => {
 
             {/* Custom EPG URL Input */}
             <View className="mb-4">
-              <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-[10px] mb-2 uppercase font-black tracking-widest ml-1`}>Custom EPG Source URL</Text>
+              <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-[10px] mb-2 uppercase font-black tracking-widest ml-1`}>Custom EPG Source URL (XML)</Text>
               <View className="flex-row items-center bg-white/5 border border-white/10 rounded-xl pr-2 focus:border-white/30">
                  <TextInput 
                     className={`flex-1 ${mode === 'dark' ? 'text-white' : 'text-black'} px-4 py-3 min-h-[48px] text-sm`}
@@ -674,21 +679,57 @@ const Preferences = () => {
                       return;
                     }
                       setCustomEpgUrl(tempEpgUrl || null);
-                      show('EPG URL Saved', 'success');
+                      show('EPG Source Updated', 'success');
                     }}
                     style={{ backgroundColor: primary }}
                     className="px-4 py-2 rounded-lg"
                  >
-                   <Text className="text-white font-bold text-xs uppercase">{tempEpgUrl === customEpgUrl && tempEpgUrl ? 'Active' : 'Save'}</Text>
+                    <Text className="text-white font-bold text-xs uppercase">{tempEpgUrl === customEpgUrl && tempEpgUrl ? 'Active' : 'Save'}</Text>
                  </TouchableOpacity>
               </View>
-              {customEpgUrl && (
+            </View>
+
+            {/* JSON EPG Data Repository Selector */}
+            <View className="mb-4">
+              <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-[10px] mb-2 uppercase font-black tracking-widest ml-1`}>JSON EPG Data Repository</Text>
+              <View className="flex-row items-center bg-white/5 border border-white/10 rounded-xl pr-2 focus:border-white/30">
+                 <TextInput 
+                    className={`flex-1 ${mode === 'dark' ? 'text-white' : 'text-black'} px-4 py-3 min-h-[48px] text-sm`}
+                    placeholder="https://raw.githubusercontent.com/..."
+                    placeholderTextColor="gray"
+                    value={tempRepoUrl}
+                    onChangeText={setTempRepoUrl}
+                    autoCapitalize="none"
+                    autoCorrect={false}
+                 />
+                 <TouchableOpacity
+                    onPress={() => {
+                      if (!tempRepoUrl) {
+                        setEpgRepoUrl(DEFAULT_EPG_REPO);
+                        setTempRepoUrl(DEFAULT_EPG_REPO);
+                        show('EPG Repo Reset to Default', 'success');
+                        return;
+                      }
+                      setEpgRepoUrl(tempRepoUrl);
+                      show('EPG Repository Saved', 'success');
+                    }}
+                    style={{ backgroundColor: primary }}
+                    className="px-4 py-2 rounded-lg"
+                 >
+                    <Text className="text-white font-bold text-xs uppercase">{tempRepoUrl === epgRepoUrl ? 'Active' : 'Save'}</Text>
+                 </TouchableOpacity>
+              </View>
+              {epgRepoUrl !== DEFAULT_EPG_REPO && (
                 <TouchableOpacity 
                    className="mt-3 flex-row items-center"
-                   onPress={() => { setCustomEpgUrl(null); setTempEpgUrl(''); show('EPG Reset to Default', 'info'); }}
+                   onPress={() => { 
+                      setEpgRepoUrl(DEFAULT_EPG_REPO); 
+                      setTempRepoUrl(DEFAULT_EPG_REPO); 
+                      show('EPG Repo Reset to Default', 'info'); 
+                    }}
                 >
                    <MaterialCommunityIcons name="refresh" size={14} color="#ef4444" />
-                   <Text className="text-red-500 text-[10px] font-black uppercase tracking-widest ml-1">Reset to Default</Text>
+                   <Text className="text-red-500 text-[10px] font-black uppercase tracking-widest ml-1">Reset to Default JSON Repo</Text>
                 </TouchableOpacity>
               )}
             </View>

@@ -2,26 +2,24 @@
   {
     "start": "18:30",
     "stop": "19:00",
-    "channel": "ts596",
-    "catchup-id": "93107373",
-    "channelId": "ts596",
-    "channelName": "Sakshi TV",
+    "channel": "SakshiTV.in",
+    "channelId": "SakshiTV.in",
+    "channelName": "IN - Sakshi TV",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "NRI News",
-    "desc": "The host presents a detailed report on the latest news and developments."
+    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
   },
   {
     "start": "19:00",
     "stop": "23:30",
-    "channel": "ts596",
-    "catchup-id": "93107377",
-    "channelId": "ts596",
-    "channelName": "Sakshi TV",
+    "channel": "SakshiTV.in",
+    "channelId": "SakshiTV.in",
+    "channelName": "IN - Sakshi TV",
     "startTs": 1775415600000,
     "stopTs": 1775431800000,
     "title": "Garam Garam Vartalu",
-    "desc": "The host presents a detailed report on the latest news and developments."
+    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
   },
   {
     "start": "23:30",

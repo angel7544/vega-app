@@ -2,26 +2,24 @@
   {
     "start": "18:48",
     "stop": "19:25",
-    "channel": "ts228",
-    "catchup-id": "93097704",
-    "channelId": "ts228",
-    "channelName": "Discovery Turbo",
+    "channel": "DiscoveryTurbo.in",
+    "channelId": "DiscoveryTurbo.in",
+    "channelName": "IN - Discovery Turbo",
     "startTs": 1775414880000,
     "stopTs": 1775417100000,
     "title": "Car Fix",
-    "desc": "Bumpus and Fuller show how to work with glass on a '35 Hudson. S10 E07."
+    "desc": "S10 E7 Bumpus and Fuller show how to work with glass on a '35 Hudson."
   },
   {
     "start": "19:25",
     "stop": "20:20",
-    "channel": "ts228",
-    "catchup-id": "93097730",
-    "channelId": "ts228",
-    "channelName": "Discovery Turbo",
+    "channel": "DiscoveryTurbo.in",
+    "channelId": "DiscoveryTurbo.in",
+    "channelName": "IN - Discovery Turbo",
     "startTs": 1775417100000,
     "stopTs": 1775420400000,
     "title": "Faster With Finnegan",
-    "desc": "Newbern challenges Finnegan and Cotten to see if they can keep up with his Honda Talon UTV. S02 E02."
+    "desc": "S2 E2 The guys transform a Miata into the ultimate nitrous toy, the Man-iata; Newbern challenges Finnegan and Cotten to see if they can keep up with his Honda Talon UTV."
   },
   {
     "start": "20:20",

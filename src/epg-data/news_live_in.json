@@ -2,26 +2,24 @@
   {
     "start": "18:30",
     "stop": "19:30",
-    "channel": "ts226",
-    "catchup-id": "93104642",
-    "channelId": "ts226",
-    "channelName": "NEWS LIVE",
+    "channel": "NEWSLIVE.in",
+    "channelId": "NEWSLIVE.in",
+    "channelName": "IN - NEWS LIVE",
     "startTs": 1775413800000,
     "stopTs": 1775417400000,
     "title": "Musical Show",
-    "desc": "Renowned musical artists perform various famous and popular songs to enthrall the audience."
+    "desc": "Renowned musical artists deliver an enchanting performance of various famous and popular songs, captivating the audience."
   },
   {
     "start": "19:30",
     "stop": "21:30",
-    "channel": "ts226",
-    "catchup-id": "93104640",
-    "channelId": "ts226",
-    "channelName": "NEWS LIVE",
+    "channel": "NEWSLIVE.in",
+    "channelId": "NEWSLIVE.in",
+    "channelName": "IN - NEWS LIVE",
     "startTs": 1775417400000,
     "stopTs": 1775424600000,
     "title": "Prime Time News",
-    "desc": "The host sheds light on in-depth news coverage locally and internationally."
+    "desc": "The host sheds light on the biggest developments that have taken place internationally and locally and also features interviews of experts and famous personalities."
   },
   {
     "start": "21:30",

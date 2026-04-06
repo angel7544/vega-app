@@ -2,38 +2,35 @@
   {
     "start": "18:30",
     "stop": "19:00",
-    "channel": "ts660",
-    "catchup-id": "93093730",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Shivani India Events",
-    "desc": "."
+    "desc": "This is TV Show - Entertainment Category."
   },
   {
     "start": "19:00",
     "stop": "19:30",
-    "channel": "ts660",
-    "catchup-id": "93205750",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Health Secrets",
-    "desc": "A healthcare professional provides detailed insights into various wellness routines."
+    "desc": "A healthcare professional provides detailed insights into various wellness routines and guides people on a healthy path."
   },
   {
     "start": "19:30",
     "stop": "20:00",
-    "channel": "ts660",
-    "catchup-id": "93205751",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Slim Secrets",
-    "desc": "A wellness expert helps overweight individuals to control their weight for better health."
+    "desc": "An expert on healthcare and nutrition offers valuable guidance for overweight individuals looking to control their body mass index and lead healthier lives."
   },
   {
     "start": "20:00",
@@ -93,38 +90,35 @@
   {
     "start": "23:00",
     "stop": "23:30",
-    "channel": "ts660",
-    "catchup-id": "93093743",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775430000000,
     "stopTs": 1775431800000,
     "title": "Surya Namaskar",
-    "desc": "Yogic experts enlighten viewers on the benefits and importance of Surya Namaskar."
+    "desc": "Various yogic experts enlighten viewers on the correct posture, benefits and importance of practicing Surya Namaskar every day."
   },
   {
     "start": "23:30",
     "stop": "00:00",
-    "channel": "ts660",
-    "catchup-id": "93093727",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775431800000,
     "stopTs": 1775433600000,
     "title": "Sri Guru Sarvabhouma",
-    "desc": "The host illuminates the life journey and contributions of Saint Raghavendra Tirth."
+    "desc": "The host sheds light on the life journey and contributions of Raghavendra Tirtha, a Vaishnava scholar and saint born in Tamil Nadu."
   },
   {
     "start": "00:00",
     "stop": "00:30",
-    "channel": "ts660",
-    "catchup-id": "93093756",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775433600000,
     "stopTs": 1775435400000,
     "title": "Namami Ayush",
-    "desc": "A medical professional explains various common ailments and their remedies."
+    "desc": "A medical professional explains various common ailments and their remedies, offering tips for maintaining a healthy lifestyle."
   },
   {
     "start": "00:30",
@@ -140,70 +134,64 @@
   {
     "start": "01:00",
     "stop": "01:30",
-    "channel": "ts660",
-    "catchup-id": "93093744",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775437200000,
     "stopTs": 1775439000000,
     "title": "Dhanvantri Mantra",
-    "desc": "A rendition of the sacred chant, 'Dhanvantari Mahamantram' dedicated to the Lord of medicine."
+    "desc": "A rendition of the sacred chant, 'dhanvantari mahamantram' dedicated to the lord of medicine, to bestow good health on the devotees."
   },
   {
     "start": "01:30",
     "stop": "02:00",
-    "channel": "ts660",
-    "catchup-id": "93093754",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775439000000,
     "stopTs": 1775440800000,
     "title": "Sri Lalitha Sahasranamam",
-    "desc": "Religious leaders and devotees recite the Hindu religious text 'Lalita Sahasranama'."
+    "desc": "Religious leaders and devotees gather to recite 'Lalita Sahasranama', a Hindu religious text which contains the 1,000 names of the goddess."
   },
   {
     "start": "02:00",
     "stop": "02:30",
-    "channel": "ts660",
-    "catchup-id": "93093751",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775440800000,
     "stopTs": 1775442600000,
     "title": "Kailash Yatra",
-    "desc": "The host presents details about the pilgrimage site of Mount Kailash."
+    "desc": "The host presents details about the pilgrimage site of Mount Kailash while highlighting its religious significance and mythological references."
   },
   {
     "start": "02:30",
     "stop": "03:00",
-    "channel": "ts660",
-    "catchup-id": "93093749",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775442600000,
     "stopTs": 1775444400000,
     "title": "Margashreeshotsava",
-    "desc": "Religious leaders and devotees partake in Margasheersha Utsava festival."
+    "desc": "Religious leaders and devotees gather around to participate in various celebratory activities as part of the Margasheersha Utsava festival."
   },
   {
     "start": "03:00",
     "stop": "03:30",
-    "channel": "ts660",
-    "catchup-id": "93093745",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775444400000,
     "stopTs": 1775446200000,
     "title": "Lakshmi Bhoo Varaha Maha Yaga",
-    "desc": "."
+    "desc": "This is TV Show - Entertainment Category."
   },
   {
     "start": "03:30",
     "stop": "04:00",
-    "channel": "ts660",
-    "catchup-id": "93093732",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775446200000,
     "stopTs": 1775448000000,
     "title": "Healthy Hub",
@@ -223,50 +211,46 @@
   {
     "start": "04:30",
     "stop": "05:00",
-    "channel": "ts660",
-    "catchup-id": "93093735",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775449800000,
     "stopTs": 1775451600000,
     "title": "Nitya Dhoopa",
-    "desc": "An expert sheds light on the features and specifications of Ayurvedic incense."
+    "desc": "The host talks to an expert who sheds light on the features and specifications of Ayurvedic incense, which helps to calm one's mind."
   },
   {
     "start": "05:00",
     "stop": "05:30",
-    "channel": "ts660",
-    "catchup-id": "93093740",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775451600000,
     "stopTs": 1775453400000,
     "title": "Universal Success Project",
-    "desc": "The project features healthcare experts discussing the principles of AYUSH."
+    "desc": "As part of the Global Wellbeing Confluence 2025, the project features healthcare experts who discuss the principles of AYUSH and promote holistic wellness."
   },
   {
     "start": "05:30",
     "stop": "06:00",
-    "channel": "ts660",
-    "catchup-id": "93093750",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775453400000,
     "stopTs": 1775455200000,
     "title": "Mudra Therapy",
-    "desc": "The host talks about common ailments and further demonstrates yoga mudras that help to cure them."
+    "desc": "The host talks about some of the common ailments and further demonstrates yoga mudras that help to cure and prevent them."
   },
   {
     "start": "06:00",
     "stop": "06:30",
-    "channel": "ts660",
-    "catchup-id": "93093755",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775455200000,
     "stopTs": 1775457000000,
     "title": "Lakshmi Bhoo Varaha Maha Yaga",
-    "desc": "."
+    "desc": "This is TV Show - Entertainment Category."
   },
   {
     "start": "06:30",
@@ -282,86 +266,79 @@
   {
     "start": "07:00",
     "stop": "07:30",
-    "channel": "ts660",
-    "catchup-id": "93093758",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775458800000,
     "stopTs": 1775460600000,
     "title": "Lakshya",
-    "desc": "The host interacts with sports personalities about their personal and professional life."
+    "desc": "The host interacts with renowned sports personalities, who shed light on their personal life and professional achievements."
   },
   {
     "start": "07:30",
     "stop": "08:00",
-    "channel": "ts660",
-    "catchup-id": "93093747",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775460600000,
     "stopTs": 1775462400000,
     "title": "Wild Forest Honey",
-    "desc": "The host highlights the benefits of Wild Forest Honey and explains how to purchase it."
+    "desc": "The host highlights the benefits and features of Wild Forest Honey, a popular brand, while also explaining how to purchase it."
   },
   {
     "start": "08:00",
     "stop": "08:30",
-    "channel": "ts660",
-    "catchup-id": "93093737",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775462400000,
     "stopTs": 1775464200000,
     "title": "Diabetes 360",
-    "desc": "A medical expert sheds light on the various treatments available to treat diabetes."
+    "desc": "A medical expert sheds light on the various treatments available to treat diabetes and explains how to prevent it effectively."
   },
   {
     "start": "08:30",
     "stop": "09:00",
-    "channel": "ts660",
-    "catchup-id": "93093748",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775464200000,
     "stopTs": 1775466000000,
     "title": "RJR",
-    "desc": "Experts share details of the medical services available at a famous healthcare centre."
+    "desc": "Medical experts share details of the variety of medical services that are available at a famous healthcare centre."
   },
   {
     "start": "09:00",
     "stop": "09:30",
-    "channel": "ts660",
-    "catchup-id": "93093733",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775466000000,
     "stopTs": 1775467800000,
     "title": "Ayurveda Secrets",
-    "desc": "A wellness expert presents information on the benefits of Ayurveda."
+    "desc": "A wellness expert presents information on the benefits of Ayurveda and shares simple tips to help viewers embrace a healthy lifestyle."
   },
   {
     "start": "09:30",
     "stop": "10:00",
-    "channel": "ts660",
-    "catchup-id": "93093753",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775467800000,
     "stopTs": 1775469600000,
     "title": "Lakshmi Bhoo Varaha Maha Yaga",
-    "desc": "."
+    "desc": "This is TV Show - Entertainment Category."
   },
   {
     "start": "10:00",
     "stop": "10:30",
-    "channel": "ts660",
-    "catchup-id": "93093728",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775469600000,
     "stopTs": 1775471400000,
     "title": "Shivani India Events",
-    "desc": "."
+    "desc": "This is TV Show - Entertainment Category."
   },
   {
     "start": "10:30",
@@ -377,26 +354,24 @@
   {
     "start": "11:00",
     "stop": "11:30",
-    "channel": "ts660",
-    "catchup-id": "93093731",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Triocure Hospital",
-    "desc": "."
+    "desc": "This is TV Show - Entertainment Category."
   },
   {
     "start": "11:30",
     "stop": "12:00",
-    "channel": "ts660",
-    "catchup-id": "93093729",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Mane Vaidya",
-    "desc": "The host shares health remedies using common ingredients found in every household."
+    "desc": "The host shares a wide range of tips and remedies using common ingredients found in every household that can be used to prevent and treat different kinds of ailments."
   },
   {
     "start": "12:00",
@@ -412,14 +387,13 @@
   {
     "start": "12:30",
     "stop": "13:00",
-    "channel": "ts660",
-    "catchup-id": "93093736",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Nature's Cure",
-    "desc": "A medical practitioner explains how to treat ailments using nature-based treatments."
+    "desc": "The host interacts with a medical practitioner who sheds light on how to treat various ailments using nature-based treatments."
   },
   {
     "start": "13:00",
@@ -435,14 +409,13 @@
   {
     "start": "13:30",
     "stop": "14:00",
-    "channel": "ts660",
-    "catchup-id": "93093757",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Positive Life",
-    "desc": "A health expert talks about the significance of mental health and an optimistic mindset."
+    "desc": "A health expert talks about the significance of mental health and an optimistic mindset in order to lead a quality life and maintain holistic wellness."
   },
   {
     "start": "14:00",
@@ -458,94 +431,86 @@
   {
     "start": "14:30",
     "stop": "15:00",
-    "channel": "ts660",
-    "catchup-id": "93093739",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Lakshmi Bhoo Varaha Maha Yaga",
-    "desc": "."
+    "desc": "This is TV Show - Entertainment Category."
   },
   {
     "start": "15:00",
     "stop": "15:30",
-    "channel": "ts660",
-    "catchup-id": "93093741",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Baratanatya Rangapravesha",
-    "desc": "."
+    "desc": "This is TV Show - Entertainment Category."
   },
   {
     "start": "15:30",
     "stop": "16:00",
-    "channel": "ts660",
-    "catchup-id": "93093746",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Vikasa Darpana",
-    "desc": "A team embarks on an exploration of the fields of health, trade and other 224 fields."
+    "desc": "A team embarks on an exploration of the fields of health, trade, business, factories, start-ups and other 224 fields to provide a complete picture."
   },
   {
     "start": "16:00",
     "stop": "17:00",
-    "channel": "ts660",
-    "catchup-id": "93093752",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775491200000,
     "stopTs": 1775494800000,
     "title": "World Ayurveda Summit",
-    "desc": "Global leaders discuss the growth of Ayurvedic sector at the World Ayurveda Summit."
+    "desc": "Global leaders from health and wellness come together to discuss the growth of Ayurvedic sector at the World Ayurveda Summit."
   },
   {
     "start": "17:00",
     "stop": "18:00",
-    "channel": "ts660",
-    "catchup-id": "93093734",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775494800000,
     "stopTs": 1775498400000,
     "title": "Fit Boss",
-    "desc": "Overweight participants face various tasks in a quest to turn fit and compete to win."
+    "desc": "Overweight participants face various tasks that require physical strength, in a quest to turn fit and compete to win the coveted title."
   },
   {
     "start": "18:00",
     "stop": "18:30",
-    "channel": "ts660",
-    "catchup-id": "93093742",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775498400000,
     "stopTs": 1775500200000,
     "title": "Ayush Music",
-    "desc": "A curated collection of famous Kannada songs is played in rapid succession."
+    "desc": "A curated collection of famous Kannada songs, performed by renowned artists and musicians, is played in rapid succession."
   },
   {
     "start": "18:30",
     "stop": "19:00",
-    "channel": "ts660",
-    "catchup-id": "93131932",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775500200000,
     "stopTs": 1775502000000,
     "title": "Shivani India Events",
-    "desc": "."
+    "desc": "This is TV Show - Entertainment Category."
   },
   {
     "start": "19:00",
     "stop": "19:30",
-    "channel": "ts660",
-    "catchup-id": "93131950",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775502000000,
     "stopTs": 1775503800000,
     "title": "Healthy Hub",
@@ -565,14 +530,13 @@
   {
     "start": "20:00",
     "stop": "20:30",
-    "channel": "ts660",
-    "catchup-id": "93131946",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775505600000,
     "stopTs": 1775507400000,
     "title": "Health Secrets",
-    "desc": "A healthcare professional provides detailed insights into various wellness routines."
+    "desc": "A healthcare professional provides detailed insights into various wellness routines and guides people on a healthy path."
   },
   {
     "start": "20:30",
@@ -621,38 +585,35 @@
   {
     "start": "23:00",
     "stop": "23:30",
-    "channel": "ts660",
-    "catchup-id": "93131956",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775516400000,
     "stopTs": 1775518200000,
     "title": "Surya Namaskar",
-    "desc": "Yogic experts enlighten viewers on the benefits and importance of Surya Namaskar."
+    "desc": "Various yogic experts enlighten viewers on the correct posture, benefits and importance of practicing Surya Namaskar every day."
   },
   {
     "start": "23:30",
     "stop": "00:00",
-    "channel": "ts660",
-    "catchup-id": "93131934",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775518200000,
     "stopTs": 1775520000000,
     "title": "Sri Guru Sarvabhouma",
-    "desc": "The host illuminates the life journey and contributions of Saint Raghavendra Tirth."
+    "desc": "The host sheds light on the life journey and contributions of Raghavendra Tirtha, a Vaishnava scholar and saint born in Tamil Nadu."
   },
   {
     "start": "00:00",
     "stop": "00:30",
-    "channel": "ts660",
-    "catchup-id": "93131933",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775520000000,
     "stopTs": 1775521800000,
     "title": "Namami Ayush",
-    "desc": "A medical professional explains various common ailments and their remedies."
+    "desc": "A medical professional explains various common ailments and their remedies, offering tips for maintaining a healthy lifestyle."
   },
   {
     "start": "00:30",
@@ -668,50 +629,46 @@
   {
     "start": "01:00",
     "stop": "01:30",
-    "channel": "ts660",
-    "catchup-id": "93131947",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775523600000,
     "stopTs": 1775525400000,
     "title": "Dhanvantri Mantra",
-    "desc": "A rendition of the sacred chant, 'Dhanvantari Mahamantram' dedicated to the Lord of medicine."
+    "desc": "A rendition of the sacred chant, 'dhanvantari mahamantram' dedicated to the lord of medicine, to bestow good health on the devotees."
   },
   {
     "start": "01:30",
     "stop": "02:00",
-    "channel": "ts660",
-    "catchup-id": "93131949",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775525400000,
     "stopTs": 1775527200000,
     "title": "Sri Lalitha Sahasranamam",
-    "desc": "Religious leaders and devotees recite the Hindu religious text 'Lalita Sahasranama'."
+    "desc": "Religious leaders and devotees gather to recite 'Lalita Sahasranama', a Hindu religious text which contains the 1,000 names of the goddess."
   },
   {
     "start": "02:00",
     "stop": "02:30",
-    "channel": "ts660",
-    "catchup-id": "93131953",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775527200000,
     "stopTs": 1775529000000,
     "title": "Kailash Yatra",
-    "desc": "The host presents details about the pilgrimage site of Mount Kailash."
+    "desc": "The host presents details about the pilgrimage site of Mount Kailash while highlighting its religious significance and mythological references."
   },
   {
     "start": "02:30",
     "stop": "03:00",
-    "channel": "ts660",
-    "catchup-id": "93131944",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775529000000,
     "stopTs": 1775530800000,
     "title": "Margashreeshotsava",
-    "desc": "Religious leaders and devotees partake in Margasheersha Utsava festival."
+    "desc": "Religious leaders and devotees gather around to participate in various celebratory activities as part of the Margasheersha Utsava festival."
   },
   {
     "start": "03:00",
@@ -727,10 +684,9 @@
   {
     "start": "03:30",
     "stop": "04:00",
-    "channel": "ts660",
-    "catchup-id": "93131941",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775532600000,
     "stopTs": 1775534400000,
     "title": "Healthy Hub",
@@ -750,14 +706,13 @@
   {
     "start": "04:30",
     "stop": "05:00",
-    "channel": "ts660",
-    "catchup-id": "93131935",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775536200000,
     "stopTs": 1775538000000,
     "title": "Nitya Dhoopa",
-    "desc": "An expert sheds light on the features and specifications of Ayurvedic incense."
+    "desc": "The host talks to an expert who sheds light on the features and specifications of Ayurvedic incense, which helps to calm one's mind."
   },
   {
     "start": "05:00",
@@ -773,26 +728,24 @@
   {
     "start": "05:30",
     "stop": "06:00",
-    "channel": "ts660",
-    "catchup-id": "93131938",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775539800000,
     "stopTs": 1775541600000,
     "title": "Mudra Therapy",
-    "desc": "The host talks about common ailments and further demonstrates yoga mudras that help to cure them."
+    "desc": "The host talks about some of the common ailments and further demonstrates yoga mudras that help to cure and prevent them."
   },
   {
     "start": "06:00",
     "stop": "06:30",
-    "channel": "ts660",
-    "catchup-id": "93131954",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775541600000,
     "stopTs": 1775543400000,
     "title": "Lakshmi Bhoo Varaha Maha Yaga",
-    "desc": "."
+    "desc": "This is TV Show - Entertainment Category."
   },
   {
     "start": "06:30",
@@ -841,50 +794,46 @@
   {
     "start": "08:30",
     "stop": "09:00",
-    "channel": "ts660",
-    "catchup-id": "93131931",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775550600000,
     "stopTs": 1775552400000,
     "title": "RJR",
-    "desc": "Experts share details of the medical services available at a famous healthcare centre."
+    "desc": "Medical experts share details of the variety of medical services that are available at a famous healthcare centre."
   },
   {
     "start": "09:00",
     "stop": "09:30",
-    "channel": "ts660",
-    "catchup-id": "93131937",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775552400000,
     "stopTs": 1775554200000,
     "title": "Ayurveda Secrets",
-    "desc": "A wellness expert presents information on the benefits of Ayurveda."
+    "desc": "A wellness expert presents information on the benefits of Ayurveda and shares simple tips to help viewers embrace a healthy lifestyle."
   },
   {
     "start": "09:30",
     "stop": "10:00",
-    "channel": "ts660",
-    "catchup-id": "93131939",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775554200000,
     "stopTs": 1775556000000,
     "title": "Lakshmi Bhoo Varaha Maha Yaga",
-    "desc": "."
+    "desc": "This is TV Show - Entertainment Category."
   },
   {
     "start": "10:00",
     "stop": "10:30",
-    "channel": "ts660",
-    "catchup-id": "93131948",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775556000000,
     "stopTs": 1775557800000,
     "title": "Shivani India Events",
-    "desc": "."
+    "desc": "This is TV Show - Entertainment Category."
   },
   {
     "start": "10:30",
@@ -900,26 +849,24 @@
   {
     "start": "11:00",
     "stop": "11:30",
-    "channel": "ts660",
-    "catchup-id": "93131951",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775559600000,
     "stopTs": 1775561400000,
     "title": "Triocure Hospital",
-    "desc": "."
+    "desc": "This is TV Show - Entertainment Category."
   },
   {
     "start": "11:30",
     "stop": "12:00",
-    "channel": "ts660",
-    "catchup-id": "93131945",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775561400000,
     "stopTs": 1775563200000,
     "title": "Naati Vaidya",
-    "desc": "The host discusses unconventional ways of practising medicine and treating patients."
+    "desc": "The host discusses unconventional ways of practising medicine and sheds light on various medical experts from rural areas and their methods."
   },
   {
     "start": "12:00",
@@ -935,14 +882,13 @@
   {
     "start": "12:30",
     "stop": "13:00",
-    "channel": "ts660",
-    "catchup-id": "93131936",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775565000000,
     "stopTs": 1775566800000,
     "title": "Nature's Cure",
-    "desc": "A medical practitioner explains how to treat ailments using nature-based treatments."
+    "desc": "The host interacts with a medical practitioner who sheds light on how to treat various ailments using nature-based treatments."
   },
   {
     "start": "13:00",
@@ -958,14 +904,13 @@
   {
     "start": "13:30",
     "stop": "14:00",
-    "channel": "ts660",
-    "catchup-id": "93131952",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775568600000,
     "stopTs": 1775570400000,
     "title": "Positive Life",
-    "desc": "A health expert talks about the significance of mental health and an optimistic mindset."
+    "desc": "A health expert talks about the significance of mental health and an optimistic mindset in order to lead a quality life and maintain holistic wellness."
   },
   {
     "start": "14:00",
@@ -981,14 +926,13 @@
   {
     "start": "14:30",
     "stop": "15:00",
-    "channel": "ts660",
-    "catchup-id": "93131943",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775572200000,
     "stopTs": 1775574000000,
     "title": "Lakshmi Bhoo Varaha Maha Yaga",
-    "desc": "."
+    "desc": "This is TV Show - Entertainment Category."
   },
   {
     "start": "15:00",
@@ -1015,38 +959,35 @@
   {
     "start": "16:00",
     "stop": "17:00",
-    "channel": "ts660",
-    "catchup-id": "93131942",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775577600000,
     "stopTs": 1775581200000,
     "title": "World Ayurveda Summit",
-    "desc": "Global leaders discuss the growth of Ayurvedic sector at the World Ayurveda Summit."
+    "desc": "Global leaders from health and wellness come together to discuss the growth of Ayurvedic sector at the World Ayurveda Summit."
   },
   {
     "start": "17:00",
     "stop": "18:00",
-    "channel": "ts660",
-    "catchup-id": "93131957",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775581200000,
     "stopTs": 1775584800000,
     "title": "Fit Boss",
-    "desc": "Overweight participants face various tasks in a quest to turn fit and compete to win."
+    "desc": "Overweight participants face various tasks that require physical strength, in a quest to turn fit and compete to win the coveted title."
   },
   {
     "start": "18:00",
     "stop": "18:30",
-    "channel": "ts660",
-    "catchup-id": "93131955",
-    "channelId": "ts660",
-    "channelName": "Ayush TV",
+    "channel": "AyushTV.in",
+    "channelId": "AyushTV.in",
+    "channelName": "IN - Ayush TV",
     "startTs": 1775584800000,
     "stopTs": 1775586600000,
     "title": "Ayush Music",
-    "desc": "A curated collection of famous Kannada songs is played in rapid succession."
+    "desc": "A curated collection of famous Kannada songs, performed by renowned artists and musicians, is played in rapid succession."
   },
   {
     "start": "18:30",

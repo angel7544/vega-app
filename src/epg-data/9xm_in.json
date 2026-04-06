@@ -2,38 +2,35 @@
   {
     "start": "18:30",
     "stop": "19:00",
-    "channel": "ts139",
-    "catchup-id": "93092214",
-    "channelId": "ts139",
-    "channelName": "9XM",
+    "channel": "9XM.in",
+    "channelId": "9XM.in",
+    "channelName": "IN - 9XM",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "9xm Raat Bhar",
-    "desc": "A compilation of some of the most popular Hindi songs played in succession."
+    "desc": "A compilation of some of the most popular Hindi songs by famous recording artists, played in succession for everyone to enjoy."
   },
   {
     "start": "19:00",
     "stop": "19:30",
-    "channel": "ts139",
-    "catchup-id": "93092185",
-    "channelId": "ts139",
-    "channelName": "9XM",
+    "channel": "9XM.in",
+    "channelId": "9XM.in",
+    "channelName": "IN - 9XM",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "9xm Raat Bhar",
-    "desc": "A compilation of some of the most popular Hindi songs played in succession."
+    "desc": "A compilation of some of the most popular Hindi songs by famous recording artists, played in succession for everyone to enjoy."
   },
   {
     "start": "19:30",
     "stop": "20:00",
-    "channel": "ts139",
-    "catchup-id": "93092207",
-    "channelId": "ts139",
-    "channelName": "9XM",
+    "channel": "9XM.in",
+    "channelId": "9XM.in",
+    "channelName": "IN - 9XM",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "9xm Raat Bhar",
-    "desc": "A compilation of some of the most popular Hindi songs played in succession."
+    "desc": "A compilation of some of the most popular Hindi songs by famous recording artists, played in succession for everyone to enjoy."
   },
   {
     "start": "20:00",

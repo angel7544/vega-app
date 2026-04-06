@@ -1,4 +1,5 @@
 import axios from 'axios';
+import usePlayerStore, { DEFAULT_EPG_REPO } from '../zustand/playerStore';
 
 const inflightRequests = {};
 const epgCache = new Map();
@@ -87,8 +88,10 @@ export async function fetchChannelSchedule(channel, countryCode = 'in', forceRef
 
     const uniqueNames = [...new Set(candidatesWithSuffix)];
 
+    const repoUrl = (usePlayerStore.getState().epgRepoUrl || DEFAULT_EPG_REPO).replace(/\/$/, '');
+
     for (const pName of uniqueNames) {
-        const jsonUrl = `https://raw.githubusercontent.com/angel7544/vega-app/orbix-personal/src/epg-data/${pName}.json`;
+        const jsonUrl = `${repoUrl}/${pName}.json`;
         
         try {
             // Check cache

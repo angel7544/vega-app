@@ -2,26 +2,24 @@
   {
     "start": "18:30",
     "stop": "19:30",
-    "channel": "ts500",
-    "catchup-id": "93113419",
-    "channelId": "ts500",
-    "channelName": "Vedic",
+    "channel": "Vedic.in",
+    "channelId": "Vedic.in",
+    "channelName": "IN - Vedic",
     "startTs": 1775413800000,
     "stopTs": 1775417400000,
     "title": "Pujya Acharya Pradyumn Ji Maharaj",
-    "desc": "A religious leader sheds light on various spiritual and religious aspects."
+    "desc": "A religious leader illuminates various aspects of spirituality and religion for the devotees, urging them to embrace the path of righteousness."
   },
   {
     "start": "19:30",
     "stop": "20:30",
-    "channel": "ts500",
-    "catchup-id": "93113404",
-    "channelId": "ts500",
-    "channelName": "Vedic",
+    "channel": "Vedic.in",
+    "channelId": "Vedic.in",
+    "channelName": "IN - Vedic",
     "startTs": 1775417400000,
     "stopTs": 1775421000000,
     "title": "Pujya Acharya Pradyumn Ji Maharaj",
-    "desc": "A religious leader sheds light on various spiritual and religious aspects."
+    "desc": "A religious leader illuminates various aspects of spirituality and religion for the devotees, urging them to embrace the path of righteousness."
   },
   {
     "start": "20:30",

@@ -2,14 +2,13 @@
   {
     "start": "18:30",
     "stop": "20:30",
-    "channel": "ts96",
-    "catchup-id": "93115236",
-    "channelId": "ts96",
-    "channelName": "Zoom",
+    "channel": "Zoom.in",
+    "channelId": "Zoom.in",
+    "channelName": "IN - Zoom",
     "startTs": 1775413800000,
     "stopTs": 1775421000000,
     "title": "Love Cocktail",
-    "desc": "A comprehensive compilation of popular songs performed by prominent artists."
+    "desc": "E1 A comprehensive compilation of popular songs performed by prominent artists is played back to back to captivate the audience."
   },
   {
     "start": "20:30",

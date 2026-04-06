@@ -2,278 +2,255 @@
   {
     "start": "18:30",
     "stop": "19:00",
-    "channel": "ts358",
-    "catchup-id": "93098241",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Wow Emi Ruchi",
-    "desc": "A culinary expert shares various cooking tips and recipes in a simple manner."
+    "desc": "A culinary expert shares various cooking tips and recipes in a manner that is simple and easy to understand."
   },
   {
     "start": "19:00",
     "stop": "19:30",
-    "channel": "ts358",
-    "catchup-id": "93098229",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Indian Kitchen",
-    "desc": "A chef shares a wide variety of recipes from different cuisines."
+    "desc": "A culinary expert shares a variety of recipes from different cuisines, demonstrating the process of cooking the dish step by step."
   },
   {
     "start": "19:30",
     "stop": "20:00",
-    "channel": "ts358",
-    "catchup-id": "93098213",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Aayurveda Aaharam",
-    "desc": "Experts share various recipes and explain the health benefits of different types of food."
+    "desc": "Experts and professionals share various recipes and demonstrate the medicinal benefits of various types of food."
   },
   {
     "start": "20:00",
     "stop": "20:15",
-    "channel": "ts358",
-    "catchup-id": "93098242",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775419200000,
     "stopTs": 1775420100000,
     "title": "Gorumuddalu",
-    "desc": "The host prepares various healthy and tasty recipes for infants."
+    "desc": "The host prepares various healthy and tasty recipes for infants, providing insights into their nutritional value and benefits."
   },
   {
     "start": "20:15",
     "stop": "20:30",
-    "channel": "ts358",
-    "catchup-id": "93098235",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775420100000,
     "stopTs": 1775421000000,
     "title": "Young Chef",
-    "desc": "The chef prepares easy, mouth-watering dishes using simple recipes."
+    "desc": "The chef prepares easy, mouth-watering dishes using simple recipes that can be recreated at home with the help of basic ingredients."
   },
   {
     "start": "20:30",
     "stop": "21:00",
-    "channel": "ts358",
-    "catchup-id": "93098247",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775421000000,
     "stopTs": 1775422800000,
     "title": "Good Morning Abhiruchi",
-    "desc": "A culinary expert shares his recipes for quick and nutritious breakfast dishes."
+    "desc": "A culinary expert prepares quick and nutritious breakfast dishes that can be made with easily available ingredients and shares the recipes with the viewers."
   },
   {
     "start": "21:00",
     "stop": "21:30",
-    "channel": "ts358",
-    "catchup-id": "93098217",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775422800000,
     "stopTs": 1775424600000,
     "title": "Wow Emi Ruchi",
-    "desc": "A culinary expert shares various cooking tips and recipes in a simple manner."
+    "desc": "A culinary expert shares various cooking tips and recipes in a manner that is simple and easy to understand."
   },
   {
     "start": "21:30",
     "stop": "21:45",
-    "channel": "ts358",
-    "catchup-id": "93098238",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775424600000,
     "stopTs": 1775425500000,
     "title": "Amma Chethi Vanta",
-    "desc": "The host presents a delicious variety of Andhra-style cuisines and other cooking recipes."
+    "desc": "The host, Bhargavi, demonstrates a delicious variety of Andhra-style cuisine and shares tips and tricks for other cooking recipes."
   },
   {
     "start": "21:45",
     "stop": "22:15",
-    "channel": "ts358",
-    "catchup-id": "93098244",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775425500000,
     "stopTs": 1775427300000,
     "title": "Indian Kitchen",
-    "desc": "A chef shares a wide variety of recipes from different cuisines."
+    "desc": "A culinary expert shares a variety of recipes from different cuisines, demonstrating the process of cooking the dish step by step."
   },
   {
     "start": "22:15",
     "stop": "22:45",
-    "channel": "ts358",
-    "catchup-id": "93098257",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775427300000,
     "stopTs": 1775429100000,
     "title": "Aaharaveedhilo",
-    "desc": "The host visits some of the most popular fast food restaurants and joints in the city."
+    "desc": "The host visits some of the most popular fast food restaurants and joints in the city that serve delicious street delicacies."
   },
   {
     "start": "22:45",
     "stop": "23:15",
-    "channel": "ts358",
-    "catchup-id": "93098208",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775429100000,
     "stopTs": 1775430900000,
     "title": "Wow Emi Ruchi",
-    "desc": "A culinary expert shares various cooking tips and recipes in a simple manner."
+    "desc": "A culinary expert shares various cooking tips and recipes in a manner that is simple and easy to understand."
   },
   {
     "start": "23:15",
     "stop": "23:30",
-    "channel": "ts358",
-    "catchup-id": "93098239",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775430900000,
     "stopTs": 1775431800000,
     "title": "Gorumuddalu",
-    "desc": "The host prepares various healthy and tasty recipes for infants."
+    "desc": "The host prepares various healthy and tasty recipes for infants, providing insights into their nutritional value and benefits."
   },
   {
     "start": "23:30",
     "stop": "23:45",
-    "channel": "ts358",
-    "catchup-id": "93098224",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775431800000,
     "stopTs": 1775432700000,
     "title": "Amma Chethi Vanta",
-    "desc": "The host presents a delicious variety of Andhra-style cuisines and other cooking recipes."
+    "desc": "The host, Bhargavi, demonstrates a delicious variety of Andhra-style cuisine and shares tips and tricks for other cooking recipes."
   },
   {
     "start": "23:45",
     "stop": "00:00",
-    "channel": "ts358",
-    "catchup-id": "93098231",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775432700000,
     "stopTs": 1775433600000,
     "title": "Diet Menu",
-    "desc": "Various health experts share recipes of dishes that are both delicious and nutritious."
+    "desc": "Various health experts share recipes of dishes that are both delicious and nutritious, thus helping one to maintain a proper diet."
   },
   {
     "start": "00:00",
     "stop": "00:30",
-    "channel": "ts358",
-    "catchup-id": "93098246",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775433600000,
     "stopTs": 1775435400000,
     "title": "Athidi",
-    "desc": "The host visits various homemakers and plays entertaining games with the family members."
+    "desc": "The host visits various homemakers and plays entertaining games with the family members and discusses the many facets of their lives."
   },
   {
     "start": "00:30",
     "stop": "01:00",
-    "channel": "ts358",
-    "catchup-id": "93098207",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775435400000,
     "stopTs": 1775437200000,
     "title": "Good Morning Abhiruchi",
-    "desc": "A culinary expert shares his recipes for quick and nutritious breakfast dishes."
+    "desc": "A culinary expert prepares quick and nutritious breakfast dishes that can be made with easily available ingredients and shares the recipes with the viewers."
   },
   {
     "start": "01:00",
     "stop": "01:30",
-    "channel": "ts358",
-    "catchup-id": "93098253",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775437200000,
     "stopTs": 1775439000000,
     "title": "Good Morning Abhiruchi",
-    "desc": "A culinary expert shares his recipes for quick and nutritious breakfast dishes."
+    "desc": "A culinary expert prepares quick and nutritious breakfast dishes that can be made with easily available ingredients and shares the recipes with the viewers."
   },
   {
     "start": "01:30",
     "stop": "02:00",
-    "channel": "ts358",
-    "catchup-id": "93098221",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775439000000,
     "stopTs": 1775440800000,
     "title": "Ruchula Vindhu",
-    "desc": "A culinary expert demonstrates methods to prepare healthy and mouth-watering dishes."
+    "desc": "A culinary expert demonstrates ways to prepare healthy and mouth-watering dishes that can be cooked easily at home whilst providing some creative kitchen tips."
   },
   {
     "start": "02:00",
     "stop": "02:30",
-    "channel": "ts358",
-    "catchup-id": "93098256",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775440800000,
     "stopTs": 1775442600000,
     "title": "Good Morning Abhiruchi",
-    "desc": "A culinary expert shares his recipes for quick and nutritious breakfast dishes."
+    "desc": "A culinary expert prepares quick and nutritious breakfast dishes that can be made with easily available ingredients and shares the recipes with the viewers."
   },
   {
     "start": "02:30",
     "stop": "03:00",
-    "channel": "ts358",
-    "catchup-id": "93098211",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775442600000,
     "stopTs": 1775444400000,
     "title": "Good Morning Abhiruchi",
-    "desc": "A culinary expert shares his recipes for quick and nutritious breakfast dishes."
+    "desc": "A culinary expert prepares quick and nutritious breakfast dishes that can be made with easily available ingredients and shares the recipes with the viewers."
   },
   {
     "start": "03:00",
     "stop": "03:30",
-    "channel": "ts358",
-    "catchup-id": "93098219",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775444400000,
     "stopTs": 1775446200000,
     "title": "Meekosam",
-    "desc": "A culinary expert cooks up delicious dishes based on the mail requests sent by viewers."
+    "desc": "A culinary expert cooks up a variety of delicious dishes from different cuisines based on the mail requests sent by the viewers."
   },
   {
     "start": "03:30",
     "stop": "04:00",
-    "channel": "ts358",
-    "catchup-id": "93098245",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775446200000,
     "stopTs": 1775448000000,
     "title": "Vorugulu - Vadiyalu",
-    "desc": "The host shows how to preserve a variety of seasonal vegetables and ingredients."
+    "desc": "The host shows how to preserve a variety of seasonal vegetables and ingredients for later use and make easy recipes with them."
   },
   {
     "start": "04:00",
     "stop": "04:30",
-    "channel": "ts358",
-    "catchup-id": "93098237",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775448000000,
     "stopTs": 1775449800000,
     "title": "Teera Prantha Ruchulu",
-    "desc": "A culinary expert demonstrates methods to prepare mouth-watering coastal dishes."
+    "desc": "A culinary expert demonstrates ways to prepare mouth-watering coastal dishes, whilst providing some creative kitchen tips."
   },
   {
     "start": "04:30",
@@ -289,38 +266,35 @@
   {
     "start": "05:00",
     "stop": "05:30",
-    "channel": "ts358",
-    "catchup-id": "93098216",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775451600000,
     "stopTs": 1775453400000,
     "title": "Healthy & Tasty",
-    "desc": "The hosts prepare an assortment of delicious dishes that are nutritious by nature. S01 E382."
+    "desc": "S1 E382 The hosts share recipes of an assortment of delicious dishes that are nutritious by nature and demonstrates their preparation."
   },
   {
     "start": "05:30",
     "stop": "06:00",
-    "channel": "ts358",
-    "catchup-id": "93098260",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775453400000,
     "stopTs": 1775455200000,
     "title": "Mee Kosam",
-    "desc": "The host explores different restaurants and food trucks while interacting with the locals. S01 E1278."
+    "desc": "S1 E1278 The host explores different restaurants and food trucks, discovering delicious food while interacting with the owners and locals."
   },
   {
     "start": "06:00",
     "stop": "06:15",
-    "channel": "ts358",
-    "catchup-id": "93098243",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775455200000,
     "stopTs": 1775456100000,
     "title": "Super Chef",
-    "desc": "A renowned chef shares exotic and tasty recipes along with tips for cooking. S01 E1989."
+    "desc": "S1 E1989 A renowned chef uses a number of ingredients and shares recipes of exotic and tasty preparations, while encouraging viewers to try them at home."
   },
   {
     "start": "06:15",
@@ -347,38 +321,35 @@
   {
     "start": "07:00",
     "stop": "07:30",
-    "channel": "ts358",
-    "catchup-id": "93098254",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775458800000,
     "stopTs": 1775460600000,
     "title": "Indian Kitchen",
-    "desc": "A chef shares a wide variety of recipes from different cuisines."
+    "desc": "S1 E1299 A culinary expert shares a variety of recipes from different cuisines, demonstrating the process of cooking the dish step by step."
   },
   {
     "start": "07:30",
     "stop": "08:00",
-    "channel": "ts358",
-    "catchup-id": "93098220",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775460600000,
     "stopTs": 1775462400000,
     "title": "Ra Randoi Vantalu Cheddam",
-    "desc": "The host invites culinary enthusiasts to demonstrate recipes for many delicious dishes."
+    "desc": "The host invites culinary enthusiasts to demonstrate recipes for numerous delicious dishes and to share efficient tips and tricks to use in the kitchen."
   },
   {
     "start": "08:00",
     "stop": "08:15",
-    "channel": "ts358",
-    "catchup-id": "93098206",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775462400000,
     "stopTs": 1775463300000,
     "title": "Amma Chethi Vanta",
-    "desc": "The host presents a delicious variety of Andhra-style cuisines and other cooking recipes."
+    "desc": "The host, Bhargavi, demonstrates a delicious variety of Andhra-style cuisine and shares tips and tricks for other cooking recipes."
   },
   {
     "start": "08:15",
@@ -394,26 +365,24 @@
   {
     "start": "08:30",
     "stop": "09:00",
-    "channel": "ts358",
-    "catchup-id": "93098205",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775464200000,
     "stopTs": 1775466000000,
     "title": "Kitchen Mantra",
-    "desc": "A culinary expert shares various cooking tips and recipes for healthy meals."
+    "desc": "A culinary expert shares various cooking tips and recipes to motivate viewers into cooking healthy and sumptuous meals."
   },
   {
     "start": "09:00",
     "stop": "09:15",
-    "channel": "ts358",
-    "catchup-id": "93098209",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775466000000,
     "stopTs": 1775466900000,
     "title": "Young Chef",
-    "desc": "The chef prepares easy, mouth-watering dishes using simple recipes."
+    "desc": "The chef prepares easy, mouth-watering dishes using simple recipes that can be recreated at home with the help of basic ingredients."
   },
   {
     "start": "09:15",
@@ -429,50 +398,46 @@
   {
     "start": "09:30",
     "stop": "09:45",
-    "channel": "ts358",
-    "catchup-id": "93098236",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775467800000,
     "stopTs": 1775468700000,
     "title": "Eevaram",
-    "desc": "A renowned chef prepares several delectable dishes and shares various tips and tricks."
+    "desc": "A renowned chef prepares several delectable dishes and talks about the recipes while demonstrating various tips and tricks."
   },
   {
     "start": "09:45",
     "stop": "10:00",
-    "channel": "ts358",
-    "catchup-id": "93098259",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775468700000,
     "stopTs": 1775469600000,
     "title": "Juice Bar",
-    "desc": "."
+    "desc": "This is TV Show - Cooking Category."
   },
   {
     "start": "10:00",
     "stop": "10:30",
-    "channel": "ts358",
-    "catchup-id": "93098258",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775469600000,
     "stopTs": 1775471400000,
     "title": "Meekosam",
-    "desc": "A culinary expert cooks up delicious dishes based on the mail requests sent by viewers."
+    "desc": "A culinary expert cooks up a variety of delicious dishes from different cuisines based on the mail requests sent by the viewers."
   },
   {
     "start": "10:30",
     "stop": "10:45",
-    "channel": "ts358",
-    "catchup-id": "93098218",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775471400000,
     "stopTs": 1775472300000,
     "title": "Super Chef",
-    "desc": "A renowned chef shares exotic and tasty recipes along with tips for cooking."
+    "desc": "A renowned chef uses a number of ingredients and shares recipes of exotic and tasty preparations, while encouraging viewers to try them at home."
   },
   {
     "start": "10:45",
@@ -488,14 +453,13 @@
   {
     "start": "11:00",
     "stop": "11:30",
-    "channel": "ts358",
-    "catchup-id": "93098251",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Cool Zone",
-    "desc": "The host discusses interesting recipes for various smoothies, juices and ice-creams."
+    "desc": "The host discusses interesting recipes for various smoothies, juices and ice-creams and shares excellent tips for easy preparation."
   },
   {
     "start": "11:30",
@@ -511,14 +475,13 @@
   {
     "start": "12:00",
     "stop": "12:30",
-    "channel": "ts358",
-    "catchup-id": "93098214",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Healthy & Tasty",
-    "desc": "The hosts prepare an assortment of delicious dishes that are nutritious by nature."
+    "desc": "The hosts share recipes of an assortment of delicious dishes that are nutritious by nature and demonstrates their preparation."
   },
   {
     "start": "12:30",
@@ -534,50 +497,46 @@
   {
     "start": "13:00",
     "stop": "13:30",
-    "channel": "ts358",
-    "catchup-id": "93098226",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Wow Emi Ruchi",
-    "desc": "A culinary expert shares various cooking tips and recipes in a simple manner."
+    "desc": "A culinary expert shares various cooking tips and recipes in a manner that is simple and easy to understand."
   },
   {
     "start": "13:30",
     "stop": "14:00",
-    "channel": "ts358",
-    "catchup-id": "93098225",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Viral Vantalakka",
-    "desc": "A prominent chef demonstrates the cooking techniques of delicious recipes."
+    "desc": "A prominent chef demonstrates the cooking techniques of delicious recipes and provides insightful information and tips concerning culinary."
   },
   {
     "start": "14:00",
     "stop": "14:30",
-    "channel": "ts358",
-    "catchup-id": "93098204",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Ra Randoi Vantalu Cheddam",
-    "desc": "The host invites culinary enthusiasts to demonstrate recipes for many delicious dishes. S01 E1230."
+    "desc": "S1 E1230 The host invites culinary enthusiasts to demonstrate recipes for numerous delicious dishes and to share efficient tips and tricks to use in the kitchen."
   },
   {
     "start": "14:30",
     "stop": "14:45",
-    "channel": "ts358",
-    "catchup-id": "93098248",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775485800000,
     "stopTs": 1775486700000,
     "title": "Diet Menu",
-    "desc": "Various health experts share recipes of dishes that are both delicious and nutritious. S01 E1810."
+    "desc": "S1 E1810 Various health experts share recipes of dishes that are both delicious and nutritious, thus helping one to maintain a proper diet."
   },
   {
     "start": "14:45",
@@ -604,110 +563,101 @@
   {
     "start": "15:30",
     "stop": "16:00",
-    "channel": "ts358",
-    "catchup-id": "93098249",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Indian Kitchen",
-    "desc": "A chef shares a wide variety of recipes from different cuisines."
+    "desc": "A culinary expert shares a variety of recipes from different cuisines, demonstrating the process of cooking the dish step by step."
   },
   {
     "start": "16:00",
     "stop": "16:30",
-    "channel": "ts358",
-    "catchup-id": "93098233",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Healthy & Tasty",
-    "desc": "The hosts prepare an assortment of delicious dishes that are nutritious by nature."
+    "desc": "The hosts share recipes of an assortment of delicious dishes that are nutritious by nature and demonstrates their preparation."
   },
   {
     "start": "16:30",
     "stop": "17:00",
-    "channel": "ts358",
-    "catchup-id": "93098228",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Only Non-veg",
-    "desc": "The host prepares various non-vegetarian delicacies from around the world."
+    "desc": "The host prepares a variety of non-vegetarian delicacies from different parts of the world and shares cooking tips and techniques."
   },
   {
     "start": "17:00",
     "stop": "17:30",
-    "channel": "ts358",
-    "catchup-id": "93098210",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Athidi",
-    "desc": "The host visits various homemakers and plays entertaining games with the family members."
+    "desc": "The host visits various homemakers and plays entertaining games with the family members and discusses the many facets of their lives."
   },
   {
     "start": "17:30",
     "stop": "18:00",
-    "channel": "ts358",
-    "catchup-id": "93098203",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Ruchula Vindhu",
-    "desc": "A culinary expert demonstrates methods to prepare healthy and mouth-watering dishes."
+    "desc": "A culinary expert demonstrates ways to prepare healthy and mouth-watering dishes that can be cooked easily at home whilst providing some creative kitchen tips."
   },
   {
     "start": "18:00",
     "stop": "18:30",
-    "channel": "ts358",
-    "catchup-id": "93098230",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775498400000,
     "stopTs": 1775500200000,
     "title": "Ooragaya Pachalu",
-    "desc": "The host visits guests in their homes, where each guest prepares some special dishes."
+    "desc": "The host visits guests in their homes, where each guest prepares some special dishes, sharing personal stories and unique flavours in a warm and welcoming setting."
   },
   {
     "start": "18:30",
     "stop": "19:00",
-    "channel": "ts358",
-    "catchup-id": "93135740",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775500200000,
     "stopTs": 1775502000000,
     "title": "Wow Emi Ruchi",
-    "desc": "A culinary expert shares various cooking tips and recipes in a simple manner."
+    "desc": "A culinary expert shares various cooking tips and recipes in a manner that is simple and easy to understand."
   },
   {
     "start": "19:00",
     "stop": "19:30",
-    "channel": "ts358",
-    "catchup-id": "93135748",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775502000000,
     "stopTs": 1775503800000,
     "title": "Indian Kitchen",
-    "desc": "A chef shares a wide variety of recipes from different cuisines."
+    "desc": "A culinary expert shares a variety of recipes from different cuisines, demonstrating the process of cooking the dish step by step."
   },
   {
     "start": "19:30",
     "stop": "20:00",
-    "channel": "ts358",
-    "catchup-id": "93135757",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775503800000,
     "stopTs": 1775505600000,
     "title": "Aayurveda Aaharam",
-    "desc": "Experts share various recipes and explain the health benefits of different types of food."
+    "desc": "Experts and professionals share various recipes and demonstrate the medicinal benefits of various types of food."
   },
   {
     "start": "20:00",
@@ -723,62 +673,57 @@
   {
     "start": "20:15",
     "stop": "20:30",
-    "channel": "ts358",
-    "catchup-id": "93135754",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775506500000,
     "stopTs": 1775507400000,
     "title": "Young Chef",
-    "desc": "The chef prepares easy, mouth-watering dishes using simple recipes."
+    "desc": "The chef prepares easy, mouth-watering dishes using simple recipes that can be recreated at home with the help of basic ingredients."
   },
   {
     "start": "20:30",
     "stop": "21:00",
-    "channel": "ts358",
-    "catchup-id": "93135739",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775507400000,
     "stopTs": 1775509200000,
     "title": "Aaharaveedhilo",
-    "desc": "The host visits some of the most popular fast food restaurants and joints in the city."
+    "desc": "The host visits some of the most popular fast food restaurants and joints in the city that serve delicious street delicacies."
   },
   {
     "start": "21:00",
     "stop": "21:30",
-    "channel": "ts358",
-    "catchup-id": "93135729",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775509200000,
     "stopTs": 1775511000000,
     "title": "Wow Emi Ruchi",
-    "desc": "A culinary expert shares various cooking tips and recipes in a simple manner."
+    "desc": "A culinary expert shares various cooking tips and recipes in a manner that is simple and easy to understand."
   },
   {
     "start": "21:30",
     "stop": "21:45",
-    "channel": "ts358",
-    "catchup-id": "93135733",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775511000000,
     "stopTs": 1775511900000,
     "title": "Amma Chethi Vanta",
-    "desc": "The host presents a delicious variety of Andhra-style cuisines and other cooking recipes."
+    "desc": "The host, Bhargavi, demonstrates a delicious variety of Andhra-style cuisine and shares tips and tricks for other cooking recipes."
   },
   {
     "start": "21:45",
     "stop": "22:15",
-    "channel": "ts358",
-    "catchup-id": "93135755",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775511900000,
     "stopTs": 1775513700000,
     "title": "Indian Kitchen",
-    "desc": "A chef shares a wide variety of recipes from different cuisines."
+    "desc": "A culinary expert shares a variety of recipes from different cuisines, demonstrating the process of cooking the dish step by step."
   },
   {
     "start": "22:15",
@@ -794,26 +739,24 @@
   {
     "start": "22:30",
     "stop": "22:45",
-    "channel": "ts358",
-    "catchup-id": "93135714",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775514600000,
     "stopTs": 1775515500000,
     "title": "Young Chef",
-    "desc": "The chef prepares easy, mouth-watering dishes using simple recipes."
+    "desc": "The chef prepares easy, mouth-watering dishes using simple recipes that can be recreated at home with the help of basic ingredients."
   },
   {
     "start": "22:45",
     "stop": "23:15",
-    "channel": "ts358",
-    "catchup-id": "93135742",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775515500000,
     "stopTs": 1775517300000,
     "title": "Wow Emi Ruchi",
-    "desc": "A culinary expert shares various cooking tips and recipes in a simple manner."
+    "desc": "A culinary expert shares various cooking tips and recipes in a manner that is simple and easy to understand."
   },
   {
     "start": "23:15",
@@ -829,14 +772,13 @@
   {
     "start": "23:30",
     "stop": "23:45",
-    "channel": "ts358",
-    "catchup-id": "93135706",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775518200000,
     "stopTs": 1775519100000,
     "title": "Amma Chethi Vanta",
-    "desc": "The host presents a delicious variety of Andhra-style cuisines and other cooking recipes."
+    "desc": "The host, Bhargavi, demonstrates a delicious variety of Andhra-style cuisine and shares tips and tricks for other cooking recipes."
   },
   {
     "start": "23:45",
@@ -852,122 +794,112 @@
   {
     "start": "00:00",
     "stop": "00:15",
-    "channel": "ts358",
-    "catchup-id": "93135745",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775520000000,
     "stopTs": 1775520900000,
     "title": "Young Chef",
-    "desc": "The chef prepares easy, mouth-watering dishes using simple recipes."
+    "desc": "The chef prepares easy, mouth-watering dishes using simple recipes that can be recreated at home with the help of basic ingredients."
   },
   {
     "start": "00:15",
     "stop": "00:30",
-    "channel": "ts358",
-    "catchup-id": "93135720",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775520900000,
     "stopTs": 1775521800000,
     "title": "Gorumuddalu",
-    "desc": "The host prepares various healthy and tasty recipes for infants."
+    "desc": "The host prepares various healthy and tasty recipes for infants, providing insights into their nutritional value and benefits."
   },
   {
     "start": "00:30",
     "stop": "01:00",
-    "channel": "ts358",
-    "catchup-id": "93135719",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775521800000,
     "stopTs": 1775523600000,
     "title": "Good Morning Abhiruchi",
-    "desc": "A culinary expert shares his recipes for quick and nutritious breakfast dishes."
+    "desc": "A culinary expert prepares quick and nutritious breakfast dishes that can be made with easily available ingredients and shares the recipes with the viewers."
   },
   {
     "start": "01:00",
     "stop": "01:30",
-    "channel": "ts358",
-    "catchup-id": "93135711",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775523600000,
     "stopTs": 1775525400000,
     "title": "Good Morning Abhiruchi",
-    "desc": "A culinary expert shares his recipes for quick and nutritious breakfast dishes."
+    "desc": "A culinary expert prepares quick and nutritious breakfast dishes that can be made with easily available ingredients and shares the recipes with the viewers."
   },
   {
     "start": "01:30",
     "stop": "02:00",
-    "channel": "ts358",
-    "catchup-id": "93135751",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775525400000,
     "stopTs": 1775527200000,
     "title": "Ruchula Vindhu",
-    "desc": "A culinary expert demonstrates methods to prepare healthy and mouth-watering dishes."
+    "desc": "A culinary expert demonstrates ways to prepare healthy and mouth-watering dishes that can be cooked easily at home whilst providing some creative kitchen tips."
   },
   {
     "start": "02:00",
     "stop": "02:30",
-    "channel": "ts358",
-    "catchup-id": "93135746",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775527200000,
     "stopTs": 1775529000000,
     "title": "Good Morning Abhiruchi",
-    "desc": "A culinary expert shares his recipes for quick and nutritious breakfast dishes."
+    "desc": "A culinary expert prepares quick and nutritious breakfast dishes that can be made with easily available ingredients and shares the recipes with the viewers."
   },
   {
     "start": "02:30",
     "stop": "03:00",
-    "channel": "ts358",
-    "catchup-id": "93135735",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775529000000,
     "stopTs": 1775530800000,
     "title": "Good Morning Abhiruchi",
-    "desc": "A culinary expert shares his recipes for quick and nutritious breakfast dishes."
+    "desc": "A culinary expert prepares quick and nutritious breakfast dishes that can be made with easily available ingredients and shares the recipes with the viewers."
   },
   {
     "start": "03:00",
     "stop": "03:30",
-    "channel": "ts358",
-    "catchup-id": "93135747",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775530800000,
     "stopTs": 1775532600000,
     "title": "Meekosam",
-    "desc": "A culinary expert cooks up delicious dishes based on the mail requests sent by viewers."
+    "desc": "A culinary expert cooks up a variety of delicious dishes from different cuisines based on the mail requests sent by the viewers."
   },
   {
     "start": "03:30",
     "stop": "04:00",
-    "channel": "ts358",
-    "catchup-id": "93135721",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775532600000,
     "stopTs": 1775534400000,
     "title": "Vorugulu - Vadiyalu",
-    "desc": "The host shows how to preserve a variety of seasonal vegetables and ingredients."
+    "desc": "The host shows how to preserve a variety of seasonal vegetables and ingredients for later use and make easy recipes with them."
   },
   {
     "start": "04:00",
     "stop": "04:30",
-    "channel": "ts358",
-    "catchup-id": "93135722",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775534400000,
     "stopTs": 1775536200000,
     "title": "Teera Prantha Ruchulu",
-    "desc": "A culinary expert demonstrates methods to prepare mouth-watering coastal dishes."
+    "desc": "A culinary expert demonstrates ways to prepare mouth-watering coastal dishes, whilst providing some creative kitchen tips."
   },
   {
     "start": "04:30",
@@ -983,38 +915,35 @@
   {
     "start": "05:00",
     "stop": "05:30",
-    "channel": "ts358",
-    "catchup-id": "93135760",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775538000000,
     "stopTs": 1775539800000,
     "title": "Healthy & Tasty",
-    "desc": "The hosts prepare an assortment of delicious dishes that are nutritious by nature. S01 E383."
+    "desc": "S1 E383 The hosts share recipes of an assortment of delicious dishes that are nutritious by nature and demonstrates their preparation."
   },
   {
     "start": "05:30",
     "stop": "06:00",
-    "channel": "ts358",
-    "catchup-id": "93135728",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775539800000,
     "stopTs": 1775541600000,
     "title": "Mee Kosam",
-    "desc": "The host explores different restaurants and food trucks while interacting with the locals. S01 E1279."
+    "desc": "S1 E1279 The host explores different restaurants and food trucks, discovering delicious food while interacting with the owners and locals."
   },
   {
     "start": "06:00",
     "stop": "06:15",
-    "channel": "ts358",
-    "catchup-id": "93135743",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775541600000,
     "stopTs": 1775542500000,
     "title": "Super Chef",
-    "desc": "A renowned chef shares exotic and tasty recipes along with tips for cooking. S01 E1990."
+    "desc": "S1 E1990 A renowned chef uses a number of ingredients and shares recipes of exotic and tasty preparations, while encouraging viewers to try them at home."
   },
   {
     "start": "06:15",
@@ -1041,38 +970,35 @@
   {
     "start": "07:00",
     "stop": "07:30",
-    "channel": "ts358",
-    "catchup-id": "93135709",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775545200000,
     "stopTs": 1775547000000,
     "title": "Indian Kitchen",
-    "desc": "A chef shares a wide variety of recipes from different cuisines."
+    "desc": "S1 E1300 A culinary expert shares a variety of recipes from different cuisines, demonstrating the process of cooking the dish step by step."
   },
   {
     "start": "07:30",
     "stop": "08:00",
-    "channel": "ts358",
-    "catchup-id": "93135708",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775547000000,
     "stopTs": 1775548800000,
     "title": "Ra Randoi Vantalu Cheddam",
-    "desc": "The host invites culinary enthusiasts to demonstrate recipes for many delicious dishes."
+    "desc": "The host invites culinary enthusiasts to demonstrate recipes for numerous delicious dishes and to share efficient tips and tricks to use in the kitchen."
   },
   {
     "start": "08:00",
     "stop": "08:15",
-    "channel": "ts358",
-    "catchup-id": "93135723",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775548800000,
     "stopTs": 1775549700000,
     "title": "Amma Chethi Vanta",
-    "desc": "The host presents a delicious variety of Andhra-style cuisines and other cooking recipes."
+    "desc": "The host, Bhargavi, demonstrates a delicious variety of Andhra-style cuisine and shares tips and tricks for other cooking recipes."
   },
   {
     "start": "08:15",
@@ -1088,26 +1014,24 @@
   {
     "start": "08:30",
     "stop": "09:00",
-    "channel": "ts358",
-    "catchup-id": "93135710",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775550600000,
     "stopTs": 1775552400000,
     "title": "Kitchen Mantra",
-    "desc": "A culinary expert shares various cooking tips and recipes for healthy meals."
+    "desc": "A culinary expert shares various cooking tips and recipes to motivate viewers into cooking healthy and sumptuous meals."
   },
   {
     "start": "09:00",
     "stop": "09:15",
-    "channel": "ts358",
-    "catchup-id": "93135737",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775552400000,
     "stopTs": 1775553300000,
     "title": "Young Chef",
-    "desc": "The chef prepares easy, mouth-watering dishes using simple recipes."
+    "desc": "The chef prepares easy, mouth-watering dishes using simple recipes that can be recreated at home with the help of basic ingredients."
   },
   {
     "start": "09:15",
@@ -1123,50 +1047,46 @@
   {
     "start": "09:30",
     "stop": "09:45",
-    "channel": "ts358",
-    "catchup-id": "93135736",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775554200000,
     "stopTs": 1775555100000,
     "title": "Eevaram",
-    "desc": "A renowned chef prepares several delectable dishes and shares various tips and tricks."
+    "desc": "A renowned chef prepares several delectable dishes and talks about the recipes while demonstrating various tips and tricks."
   },
   {
     "start": "09:45",
     "stop": "10:00",
-    "channel": "ts358",
-    "catchup-id": "93135724",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775555100000,
     "stopTs": 1775556000000,
     "title": "Juice Bar",
-    "desc": "."
+    "desc": "This is TV Show - Cooking Category."
   },
   {
     "start": "10:00",
     "stop": "10:30",
-    "channel": "ts358",
-    "catchup-id": "93135712",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775556000000,
     "stopTs": 1775557800000,
     "title": "Meekosam",
-    "desc": "A culinary expert cooks up delicious dishes based on the mail requests sent by viewers."
+    "desc": "A culinary expert cooks up a variety of delicious dishes from different cuisines based on the mail requests sent by the viewers."
   },
   {
     "start": "10:30",
     "stop": "10:45",
-    "channel": "ts358",
-    "catchup-id": "93135752",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775557800000,
     "stopTs": 1775558700000,
     "title": "Super Chef",
-    "desc": "A renowned chef shares exotic and tasty recipes along with tips for cooking."
+    "desc": "A renowned chef uses a number of ingredients and shares recipes of exotic and tasty preparations, while encouraging viewers to try them at home."
   },
   {
     "start": "10:45",
@@ -1182,14 +1102,13 @@
   {
     "start": "11:00",
     "stop": "11:30",
-    "channel": "ts358",
-    "catchup-id": "93135725",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775559600000,
     "stopTs": 1775561400000,
     "title": "Cool Zone",
-    "desc": "The host discusses interesting recipes for various smoothies, juices and ice-creams."
+    "desc": "The host discusses interesting recipes for various smoothies, juices and ice-creams and shares excellent tips for easy preparation."
   },
   {
     "start": "11:30",
@@ -1205,14 +1124,13 @@
   {
     "start": "12:00",
     "stop": "12:30",
-    "channel": "ts358",
-    "catchup-id": "93135717",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775563200000,
     "stopTs": 1775565000000,
     "title": "Healthy & Tasty",
-    "desc": "The hosts prepare an assortment of delicious dishes that are nutritious by nature."
+    "desc": "The hosts share recipes of an assortment of delicious dishes that are nutritious by nature and demonstrates their preparation."
   },
   {
     "start": "12:30",
@@ -1228,50 +1146,46 @@
   {
     "start": "13:00",
     "stop": "13:30",
-    "channel": "ts358",
-    "catchup-id": "93135732",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775566800000,
     "stopTs": 1775568600000,
     "title": "Wow Emi Ruchi",
-    "desc": "A culinary expert shares various cooking tips and recipes in a simple manner."
+    "desc": "A culinary expert shares various cooking tips and recipes in a manner that is simple and easy to understand."
   },
   {
     "start": "13:30",
     "stop": "14:00",
-    "channel": "ts358",
-    "catchup-id": "93135727",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775568600000,
     "stopTs": 1775570400000,
     "title": "Viral Vantalakka",
-    "desc": "A prominent chef demonstrates the cooking techniques of delicious recipes."
+    "desc": "A prominent chef demonstrates the cooking techniques of delicious recipes and provides insightful information and tips concerning culinary."
   },
   {
     "start": "14:00",
     "stop": "14:30",
-    "channel": "ts358",
-    "catchup-id": "93135734",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775570400000,
     "stopTs": 1775572200000,
     "title": "Ra Randoi Vantalu Cheddam",
-    "desc": "The host invites culinary enthusiasts to demonstrate recipes for many delicious dishes. S01 E1231."
+    "desc": "S1 E1231 The host invites culinary enthusiasts to demonstrate recipes for numerous delicious dishes and to share efficient tips and tricks to use in the kitchen."
   },
   {
     "start": "14:30",
     "stop": "14:45",
-    "channel": "ts358",
-    "catchup-id": "93135759",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775572200000,
     "stopTs": 1775573100000,
     "title": "Diet Menu",
-    "desc": "Various health experts share recipes of dishes that are both delicious and nutritious. S01 E1811."
+    "desc": "S1 E1811 Various health experts share recipes of dishes that are both delicious and nutritious, thus helping one to maintain a proper diet."
   },
   {
     "start": "14:45",
@@ -1298,74 +1212,68 @@
   {
     "start": "15:30",
     "stop": "16:00",
-    "channel": "ts358",
-    "catchup-id": "93135753",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775575800000,
     "stopTs": 1775577600000,
     "title": "Indian Kitchen",
-    "desc": "A chef shares a wide variety of recipes from different cuisines."
+    "desc": "A culinary expert shares a variety of recipes from different cuisines, demonstrating the process of cooking the dish step by step."
   },
   {
     "start": "16:00",
     "stop": "16:30",
-    "channel": "ts358",
-    "catchup-id": "93135713",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775577600000,
     "stopTs": 1775579400000,
     "title": "Healthy & Tasty",
-    "desc": "The hosts prepare an assortment of delicious dishes that are nutritious by nature."
+    "desc": "The hosts share recipes of an assortment of delicious dishes that are nutritious by nature and demonstrates their preparation."
   },
   {
     "start": "16:30",
     "stop": "17:00",
-    "channel": "ts358",
-    "catchup-id": "93135705",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775579400000,
     "stopTs": 1775581200000,
     "title": "Aayurveda Aaharam",
-    "desc": "Experts share various recipes and explain the health benefits of different types of food."
+    "desc": "Experts and professionals share various recipes and demonstrate the medicinal benefits of various types of food."
   },
   {
     "start": "17:00",
     "stop": "17:30",
-    "channel": "ts358",
-    "catchup-id": "93135730",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775581200000,
     "stopTs": 1775583000000,
     "title": "Athidi",
-    "desc": "The host visits various homemakers and plays entertaining games with the family members."
+    "desc": "The host visits various homemakers and plays entertaining games with the family members and discusses the many facets of their lives."
   },
   {
     "start": "17:30",
     "stop": "18:00",
-    "channel": "ts358",
-    "catchup-id": "93135726",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775583000000,
     "stopTs": 1775584800000,
     "title": "Ruchula Vindhu",
-    "desc": "A culinary expert demonstrates methods to prepare healthy and mouth-watering dishes."
+    "desc": "A culinary expert demonstrates ways to prepare healthy and mouth-watering dishes that can be cooked easily at home whilst providing some creative kitchen tips."
   },
   {
     "start": "18:00",
     "stop": "18:30",
-    "channel": "ts358",
-    "catchup-id": "93135707",
-    "channelId": "ts358",
-    "channelName": "ETV Abhiruchi",
+    "channel": "ETVAbhiruchi.in",
+    "channelId": "ETVAbhiruchi.in",
+    "channelName": "IN - ETV Abhiruchi",
     "startTs": 1775584800000,
     "stopTs": 1775586600000,
     "title": "Ooragaya Pachalu",
-    "desc": "The host visits guests in their homes, where each guest prepares some special dishes."
+    "desc": "The host visits guests in their homes, where each guest prepares some special dishes, sharing personal stories and unique flavours in a warm and welcoming setting."
   },
   {
     "start": "18:30",
