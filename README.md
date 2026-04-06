@@ -79,6 +79,43 @@ https://reactnative.dev/docs/signed-apk-android
 > Vega App does not store any media files on our servers and is not directly linked to the media. Third-party services host all media, and Vega App merely provides a search and web scraping tool that indexes publicly available data. We are not responsible for the content or availability of the media, as we do not host or control any of it.
 
 
+
+## 🚀 Recent Contributors & Technical Evolution
+
+### 💎 Elite Contributor: Angel Mehul Singh ([@angel7544](https://github.com/angel7544))
+
+#### 🛠️ Core Engineering & Innovations
+*   **EPG Pipeline 2.0**: Engineered a high-performance extraction system that slices monolithic XML feeds into lean, on-demand JSON chunks.
+*   **Tata Play Synergy**: Successfully integrated Tata Play metadata, ensuring seamless alignment with global `iptv-org` standards.
+*   **Infinite Performance**: Optimized UI responsiveness via TV Guide virtualization and memory-safe parsing.
+*   **Zero-Latency Lookups**: Implemented dictionary-based caching for instant (O(1)) schedule synchronization.
+
+#### 📊 EPG Data Flow Architecture
+```mermaid
+graph TD
+    RemoteSource["🌐 Remote IPTV Sources"] -->|XMLTV / M3U| Engine["⚙️ Extraction Engine"]
+    Engine -->|Large XML Pruning| Parser["🔬 Data Parser"]
+    Parser -->|Tata Play Integration| Metadata["🏗️ Metadata Alignment"]
+    Parser -->|JSON Chunking| Storage["📦 Optimized JSON Storage"]
+    Storage -->|On-Demand Fetching| App["📱 Vega App Frontend"]
+    App -->|Virtual Grid| Guide["📅 Live TV Guide"]
+    App -->|O(1) Lookup| RealTime["⏱️ Real-time Schedules"]
+
+    style Storage fill:#f9f,stroke:#333,stroke-width:2px
+    style App fill:#bbf,stroke:#333,stroke-width:2px
+    style Guide fill:#bfb,stroke:#333,stroke-width:2px
+```
+
+---
+
+> [!CAUTION]
+> **LEGAL NOTICE & PRIVACY**:
+> Vega App is a technology tool designed to provide a consolidated interface for searching and indexing content already available on the public internet. 
+> - **No Hosting**: We do **not** host, store, or upload any media, files, or copyrighted material on our servers. 
+> - **Source Linkage**: All content is provided via third-party services. 
+> - **Internet Availability**: We merely index publicly available web data for research and convenience purposes.
+> - **User Responsibility**: Usage of this software is at the user's own discretion and risk.
+
 ## Stars
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Zenda-Cross/vega-app&type=Date&theme=dark" />
