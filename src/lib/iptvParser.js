@@ -1,6 +1,40 @@
 import axios from 'axios';
 import { iptvOrgApi } from './services/iptvOrgApi';
 import usePlayerStore from './zustand/playerStore';
+import { strFromU8, gunzipSync, gunzip } from 'fflate';
+
+const inflightRequests = {};
+
+// In-memory cache for EPG sources and parsed programs to eliminate lag
+const epgCache = {
+  // Map of URL -> { programs: Program[], timestamp: number }
+  parsed: new Map(),
+  // Map of URL -> { rawData: string, timestamp: number }
+  raw: new Map(),
+  
+  // Cache expiry (30 minutes)
+  EXPIRY: 30 * 60 * 1000,
+  
+  getParsed(url) {
+    const item = this.parsed.get(url);
+    if (item && (Date.now() - item.timestamp < this.EXPIRY)) return item.programs;
+    return null;
+  },
+  
+  getRaw(url) {
+    const item = this.raw.get(url);
+    if (item && (Date.now() - item.timestamp < this.EXPIRY)) return item.rawData;
+    return null;
+  },
+  
+  setParsed(url, programs) {
+    this.parsed.set(url, { programs, timestamp: Date.now() });
+  },
+  
+  setRaw(url, rawData) {
+    this.raw.set(url, { rawData, timestamp: Date.now() });
+  }
+};
 
 /**
  * IPTV M3U & EPG Parser
@@ -104,7 +138,7 @@ export const iptvParser = {
    * @param {string} countryCode - ISO 3166-1 alpha-2 (e.g. 'in', 'us')
    * @returns {Promise<Program[]>}
    */
-  async fetchEPGForChannel(channel, countryCode = 'in') {
+  async fetchEPGForChannel(channel, countryCode = 'in', skipEnrichment = false) {
     if (!channel) return [];
 
     const { disableEpg } = usePlayerStore.getState();
@@ -117,7 +151,7 @@ export const iptvParser = {
     let resolvedId = channel.iptvOrgId || null;
     let resolvedTvgId = channel.tvgId || null;
 
-    if (!resolvedId) {
+    if (!resolvedId && !skipEnrichment) {
       try {
         const enriched = await iptvOrgApi.enrichChannel(
           channel.tvgId,
@@ -176,68 +210,83 @@ export const iptvParser = {
 
     const { customEpgUrl } = usePlayerStore.getState();
     if (customEpgUrl) {
-      // Strip .gz to prevent binary parsing freezes
-      const safeCustomUrl = customEpgUrl.endsWith('.gz') ? customEpgUrl.slice(0, -3) : customEpgUrl;
-      sources.unshift(safeCustomUrl);
+      sources.unshift(customEpgUrl);
     }
 
     for (const source of sources) {
       try {
-        if (source.endsWith('.gz')) {
-           console.warn(`[EPG] Skipping ${source} to prevent binary parsing thread freeze. Requesting .xml version directly.`);
-           continue;
-        }
+        console.log(`📡 Checking EPG Source: ${source}`);
 
-        console.log(`📡 Fetching EPG XML: ${source}`);
-        const response = await axios.get(source, { timeout: 15000 });
+        let programsDict = epgCache.getParsed(source);
         
-        // Critical safety check against fetching raw GZIP without proper encoding headers
-        if (typeof response.data === 'string' && response.data.length > 2) {
-          if (response.data.charCodeAt(0) === 0x1f || response.data.charCodeAt(0) === 31 || response.headers['content-type'] === 'application/gzip') {
-            console.warn(`[EPG] Binary GZIP payload detected from ${source}. Skipping to prevent crash.`);
-            continue;
-          }
+        if (!programsDict) {
+           if (!inflightRequests[source]) {
+               inflightRequests[source] = (async () => {
+                    let finalData = null;
+                    
+                    // Always request as arraybuffer to prevent string corruption of binary data
+                    let response = await axios.get(source, { 
+                        timeout: 30000, 
+                        responseType: 'arraybuffer' 
+                    });
+                    
+                    const buffer = new Uint8Array(response.data);
+                    
+                    // Detect GZIP magic bytes: 0x1f 0x8b
+                    const isGzip = buffer.length > 2 && buffer[0] === 0x1f && buffer[1] === 0x8b;
+                    
+                    if (isGzip) {
+                       console.log(`[EPG] Extracting GZIP payload from ${source}`);
+                       const decompressed = await new Promise((resolve, reject) => {
+                           gunzip(buffer, (err, data) => {
+                               if (err) reject(err);
+                               else resolve(data);
+                           });
+                       });
+                       
+                       if (typeof TextDecoder !== 'undefined') {
+                           finalData = new TextDecoder('utf-8').decode(decompressed);
+                       } else {
+                           finalData = strFromU8(decompressed);
+                       }
+                    } else {
+                       // Direct text decoding if not gzipped
+                       if (typeof TextDecoder !== 'undefined') {
+                           finalData = new TextDecoder('utf-8').decode(buffer);
+                       } else {
+                           finalData = strFromU8(buffer);
+                       }
+                    }
+                    
+                    if (finalData) {
+                        const dict = await this.parseEPG(finalData);
+                        epgCache.setParsed(source, dict);
+                        return dict;
+                    }
+                    return {};
+               })();
+           }
+           
+           try {
+              programsDict = await inflightRequests[source];
+           } catch (e) {
+              delete inflightRequests[source];
+              throw e;
+           }
+           
+           // Clear lock after a few seconds so memory cache manages it naturally
+           setTimeout(() => delete inflightRequests[source], 5000);
         }
 
-        if (response.data) {
-          
-          // Optimization: create a checker function to skip parsing programs for unrelated channels
-          const targetTvgIdLower = (channel.tvgId || '').toLowerCase();
-          const targetNameClean = this.cleanName(channel.name);
-          const targetResolvedIdLower = (resolvedId || '').toLowerCase();
-
-          const matchChecker = (pIdRaw, pNameRaw) => {
-             const pId = (pIdRaw || '').toLowerCase();
-             const pNameClean = this.cleanName(pNameRaw);
-             
-             if (targetResolvedIdLower && pId === targetResolvedIdLower) return true;
-             if (targetTvgIdLower && pId === targetTvgIdLower) return true;
-             
-             if (targetNameClean) {
-                // Tier 1: Exact normalized name match
-                if (pNameClean === targetNameClean) return true;
-                
-                // Tier 2: Suffix/Prefix match, but only for strings longer than 3 chars
-                if (targetNameClean.length > 3) {
-                  if (pNameClean.includes(targetNameClean) || targetNameClean.includes(pNameClean)) return true;
-                }
-             }
-             return false;
-          };
-
-          const allPrograms = this.parseEPG(response.data, matchChecker);
-          const filtered = this.getProgramsForChannel(
-            allPrograms,
-            channel,
-            resolvedId,
-            resolvedTvgId,
-          );
-          if (filtered.length > 0) {
-            console.log(
-              `[EPG] Found ${filtered.length} programs for "${channel.name}" from ${source}`,
-            );
-            return filtered;
-          }
+        const filtered = this.getProgramsForChannel(
+          programsDict,
+          channel,
+          resolvedId,
+          resolvedTvgId,
+        );
+        if (filtered && filtered.length > 0) {
+          console.log(`[EPG] Found ${filtered.length} programs for "${channel.name}" from ${source}`);
+          return filtered;
         }
       } catch (error) {
         console.warn(`⚠️ EPG source failed: ${source}`);
@@ -249,16 +298,16 @@ export const iptvParser = {
 
   /**
    * Parse EPG XML using a lightweight regex-based approach (no cheerio dependency).
-   * Returns a flat array of program objects.
+   * Returns a Dictionary mapping `channelId` to an array of program objects.
    * 
    * @param {string} xmlText
-   * @param {function} matchChecker - Optional function to filter channel IDs before running expensive regex
    */
-  parseEPG(xmlText, matchChecker = null) {
-    if (!xmlText || typeof xmlText !== 'string') return [];
+  async parseEPG(xmlText) {
+    if (!xmlText || typeof xmlText !== 'string') return {};
     try {
       const channelMap = {};
-      const programs = [];
+      const programsDict = {};
+      let yieldCounter = 0;
 
       // High-performance substring parsing for channels
       let cIdx = xmlText.indexOf('<channel ');
@@ -278,11 +327,19 @@ export const iptvParser = {
             channelMap[idMatch[1]] = dnMatch[1].trim().toLowerCase();
           }
         }
+        
+        // Yield every 100 channels
+         if (++yieldCounter % 100 === 0) {
+            await this.yieldToUI();
+         }
+
         cIdx = xmlText.indexOf('<channel ', endC + 10);
       }
 
       // High-performance substring parsing for programmes
       let pIdx = xmlText.indexOf('<programme ');
+      yieldCounter = 0;
+      
       while (pIdx !== -1) {
         const endAttr = xmlText.indexOf('>', pIdx);
         if (endAttr === -1) break;
@@ -292,14 +349,8 @@ export const iptvParser = {
         const attrs = xmlText.substring(pIdx + 11, endAttr);
         
         const channelAttr = attrs.match(/channel="([^"]+)"/);
-        const channelId = channelAttr?.[1] || '';
+        const channelId = (channelAttr?.[1] || '').toLowerCase();
         const channelName = channelMap[channelId] || '';
-
-        // Optimization: skip expensive regex parsing if condition fails
-        if (matchChecker && !matchChecker(channelId, channelName)) {
-           pIdx = xmlText.indexOf('<programme ', endP + 12);
-           continue;
-        }
 
         const body = xmlText.substring(endAttr + 1, endP);
 
@@ -314,7 +365,7 @@ export const iptvParser = {
         const rawStart = startAttr?.[1] || '';
         const rawStop = stopAttr?.[1] || '';
 
-        programs.push({
+        const progObj = {
           channelId,
           channelName,
           start: this.formatEPGTime(rawStart),
@@ -327,53 +378,98 @@ export const iptvParser = {
           category: categoryMatch?.[1]?.trim() || null,
           rawStart,
           rawStop,
-        });
+        };
+
+        if (!programsDict[channelId]) {
+           programsDict[channelId] = [];
+        }
+        programsDict[channelId].push(progObj);
+
+        // Optimization: YIELD every 200 programs to keep UI (spinner) alive
+         if (++yieldCounter % 200 === 0) {
+            await this.yieldToUI();
+         }
 
         pIdx = xmlText.indexOf('<programme ', endP + 12);
       }
 
-      return programs;
+      // Sort programs within their dictionaries by start time for fast querying later
+      for (const chId in programsDict) {
+        programsDict[chId].sort((a, b) => a.startTs - b.startTs);
+      }
+
+      return programsDict;
     } catch (e) {
       console.error('[EPG] Parse error:', e);
-      return [];
+      return {};
     }
   },
 
+  /** Yield to the UI thread to keep the app responsive during heavy parsing */
+  async yieldToUI() {
+    return new Promise((resolve) => {
+      // setTimeout(0) is a reliable way to yield in React Native
+      setTimeout(resolve, 0);
+    });
+  },
+
   /**
-   * Filter programs for a specific channel using canonical ID (most reliable),
-   * tvgId, or fuzzy name matching as fallbacks.
+   * Fast O(1) filter for programs using the pre-computed dictionary structure.
+   * Prioritizes exact ID matches, then exact name matches, then fuzzy matching.
+   * Includes Smart ID resolution for popular Indian providers.
    */
-  getProgramsForChannel(allPrograms, channel, resolvedId = null, tvgId = null) {
-    if (!channel || !allPrograms?.length) return [];
+  getProgramsForChannel(programsDict, channel, resolvedId = null, tvgId = null) {
+    if (!channel || !programsDict || Object.keys(programsDict).length === 0) return [];
 
-    const targetTvgId = (tvgId || channel.tvgId || '').toLowerCase();
-    const targetNameClean = this.cleanName(channel.name);
     const targetResolvedId = (resolvedId || channel.iptvOrgId || '').toLowerCase();
+    const targetTvgId = (tvgId || channel.tvgId || '').toLowerCase();
 
-    return allPrograms.filter(p => {
-      const pId = (p.channelId || '').toLowerCase();
-      
-      // 1. Canonical iptv-org ID match (most reliable)
-      if (targetResolvedId && pId === targetResolvedId) return true;
+    // 1. O(1) Canonical iptv-org ID match
+    if (targetResolvedId && programsDict[targetResolvedId]) {
+       return programsDict[targetResolvedId];
+    }
 
-      // 2. Exact tvgId match
-      if (targetTvgId && pId === targetTvgId) return true;
+    // 2. O(1) Exact tvgId match
+    if (targetTvgId && programsDict[targetTvgId]) {
+       return programsDict[targetTvgId];
+    }
 
-      // 3. Normalized name tiered match
-      const pNameClean = this.cleanName(p.channelName);
-
-      if (targetNameClean) {
-        // High confidence: Exact match
-        if (pNameClean === targetNameClean) return true;
-        
-        // Medium confidence: Word-level match for names > 3 chars
-        if (targetNameClean.length > 3) {
-           if (pNameClean.includes(targetNameClean) || targetNameClean.includes(pNameClean)) return true;
+    // 2.1 Smart Prefix Matching (Supporting Jio, TataPlay, SonyLiv, Zee5, SunNxt)
+    if (targetTvgId) {
+      // Try common prefixes if the M3U ID is just a numeric string or generic
+      const prefixes = ['ts', 'sony', 'sun', '0-9-'];
+      for (const pre of prefixes) {
+        const prefixedId = `${pre}${targetTvgId}`;
+        if (programsDict[prefixedId]) {
+           return programsDict[prefixedId];
         }
       }
+    }
 
-      return false;
-    });
+    // 3. Fallback: Search for exact or fuzzy Name Match
+    const targetNameClean = this.cleanName(channel.name);
+    if (!targetNameClean) return [];
+
+    let fuzzyMatch = null;
+
+    // Scan unique channels in dict
+    for (const [keyChannelId, pArr] of Object.entries(programsDict)) {
+       if (pArr.length > 0) {
+         const pNameClean = this.cleanName(pArr[0].channelName);
+         
+         // Priority 1: Exact Name Match
+         if (pNameClean === targetNameClean) return pArr;
+         
+         // Priority 2: Fuzzy Match (Keep the first one found if no exact match is found)
+         if (!fuzzyMatch && targetNameClean.length > 3) {
+            if (pNameClean.includes(targetNameClean) || targetNameClean.includes(pNameClean)) {
+               fuzzyMatch = pArr;
+            }
+         }
+       }
+    }
+
+    return fuzzyMatch || [];
   },
 
   /** Format EPG timestamp "20240405120000 +0000" → user's localized "12:00" */
@@ -432,4 +528,76 @@ export const iptvParser = {
       return 0;
     }
   },
+
+  /**
+   * High-level helper to get currently running and next upcoming show.
+   * Optimized to use cache and avoid redundant processing.
+   */
+  async getNowAndNext(channel, countryCode = 'in') {
+    if (!channel) return null;
+    try {
+      const programs = await this.fetchEPGForChannel(channel, countryCode);
+      if (!programs || programs.length === 0) return null;
+
+      const now = Date.now();
+      const currentIndex = programs.findIndex(p => p.startTs <= now && p.stopTs > now);
+      
+      const current = currentIndex >= 0 ? programs[currentIndex] : null;
+      const next = (currentIndex >= 0 && currentIndex < programs.length - 1) ? programs[currentIndex + 1] : null;
+
+      // If no "current" found (e.g. gap in EPG), find the first one in the future
+      if (!current) {
+        const firstFuture = programs.find(p => p.startTs > now);
+        return { now: null, next: firstFuture };
+      }
+
+      return { now: current, next };
+    } catch (e) {
+      return null;
+    }
+  },
+
+  /**
+   * Expose capability to manually clear the EPG cache from settings
+   */
+  clearCache() {
+    epgCache.parsed.clear();
+    epgCache.raw.clear();
+    console.log('[EPG] Memory cache cleared successfully.');
+  },
+
+  /**
+   * Bulk fetch EPG for multiple channels efficiently without spamming single-channel enrichments.
+   * Leverages the existing cache mechanism.
+   */
+  async fetchBulkEPG(channels, countryCode = 'in') {
+    if (!channels || channels.length === 0) return {};
+    const { disableEpg } = usePlayerStore.getState();
+    if (disableEpg) return {};
+
+    const epgMap = {};
+    
+    // Process in smaller batches so we don't block the UI thread completely
+    const batchSize = 20;
+    for (let i = 0; i < channels.length; i += batchSize) {
+      const batch = channels.slice(i, i + batchSize);
+      
+      await Promise.all(batch.map(async (channel) => {
+        try {
+          // Skip expensive enrichment for bulk grid fetching
+          const programs = await this.fetchEPGForChannel(channel, countryCode, true);
+          if (programs && programs.length > 0) {
+            epgMap[channel.url] = programs;
+          }
+        } catch (e) {
+          // Ignore individual channel failures
+        }
+      }));
+      
+      // Yield to UI thread
+      await this.yieldToUI();
+    }
+
+    return epgMap;
+  }
 };

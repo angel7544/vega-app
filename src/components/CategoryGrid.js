@@ -39,7 +39,7 @@ const CategoryGrid = ({ categories, onSelect, selectedCategory, qualityFilter, o
 
   const renderChip = (label, isQuality = false, value = null) => {
     const filterValue = isQuality ? value : label;
-    const isActive = isQuality ? (qualityFilter === filterValue) : (selectedCategory === label && !qualityFilter);
+    const isActive = isQuality ? (qualityFilter === filterValue) : (selectedCategory === label);
     const isFavorited = favoriteGenres.includes(label);
 
     return (
@@ -70,7 +70,7 @@ const CategoryGrid = ({ categories, onSelect, selectedCategory, qualityFilter, o
   };
 
   return (
-    <View className={`py-2 ${isDark ? 'bg-black' : 'bg-white'}`}>
+    <View className="py-2">
       <ScrollView 
         horizontal 
         showsHorizontalScrollIndicator={false}

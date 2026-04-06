@@ -6,6 +6,8 @@ import { Program } from '../types/navigation';
 
 interface TimetableProps {
   programs?: Program[];
+  now: number;
+  onSetLivePosition?: (y: number) => void;
 }
 
 /** Format minutes into "1h 20m" or "45m" */
@@ -28,12 +30,17 @@ function getProgress(startTs: number, stopTs: number, now: number): number {
   return Math.min(Math.max(elapsed / total, 0), 1);
 }
 
-const Timetable: React.FC<TimetableProps> = ({ programs = [] }) => {
+const Timetable: React.FC<TimetableProps> = ({ programs = [], now, onSetLivePosition }) => {
   const { mode, primary } = useThemeStore();
   const isDark = mode === 'dark';
-  const now = useMemo(() => Date.now(), []);
+  const hasReportedLivePos = React.useRef(false);
 
-  const renderItem = ({ item }: { item: Program }) => {
+  const filteredPrograms = useMemo(() => {
+    // Show current playing and future programs
+    return programs.filter(p => !p.stopTs || p.stopTs > now);
+  }, [programs, now]);
+
+  const renderItem = (item: Program, index: number) => {
     const startTs = item.startTs ?? 0;
     const stopTs = item.stopTs ?? 0;
 
@@ -49,6 +56,11 @@ const Timetable: React.FC<TimetableProps> = ({ programs = [] }) => {
 
     return (
       <View
+        key={index}
+        onLayout={isLive && !hasReportedLivePos.current ? (e) => {
+          hasReportedLivePos.current = true;
+          if (onSetLivePosition) onSetLivePosition(e.nativeEvent.layout.y);
+        } : undefined}
         style={[
           styles.item,
           isLive && { backgroundColor: isDark ? 'rgba(255,255,255,0.06)' : 'rgba(0,0,0,0.04)' },
@@ -151,7 +163,7 @@ const Timetable: React.FC<TimetableProps> = ({ programs = [] }) => {
     );
   };
 
-  if (programs.length === 0) {
+  if (filteredPrograms.length === 0) {
     return (
       <View style={styles.emptyContainer}>
         <MaterialIcons name="tv-off" size={40} color="#555" />
@@ -170,20 +182,7 @@ const Timetable: React.FC<TimetableProps> = ({ programs = [] }) => {
         { backgroundColor: isDark ? '#0d0d0d' : '#f4f4f4' },
       ]}
     >
-      <FlatList
-        data={programs}
-        renderItem={renderItem}
-        keyExtractor={(_item, i) => String(i)}
-        showsVerticalScrollIndicator={false}
-        ItemSeparatorComponent={() => (
-          <View
-            style={[
-              styles.separator,
-              { backgroundColor: isDark ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.06)' },
-            ]}
-          />
-        )}
-      />
+      {filteredPrograms.map((item, index) => renderItem(item, index))}
     </View>
   );
 };

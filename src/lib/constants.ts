@@ -54,6 +54,9 @@ export const socialLinks = {
 };
 
 export const EPG_SOURCES = [
+  { flag: '🇮🇳', country: 'JioTV EPG', code: 'jio', link: 'https://avkb.short.gy/jioepg.xml.gz' },
+  { flag: '🇮🇳', country: 'TataPlay EPG', code: 'tata', link: 'https://avkb.short.gy/tsepg.xml.gz' },
+  { flag: '🇮🇳', country: 'TS AIO EPG', code: 'tsaio', link: 'https://avkb.short.gy/epg.xml.gz' },
   { flag: '🇦🇱', country: 'Albania', code: 'al' },
   { flag: '🇦🇷', country: 'Argentina', code: 'ar' },
   { flag: '🇦🇲', country: 'Armenia', code: 'am' },
@@ -135,4 +138,4 @@ export const EPG_SOURCES = [
   { flag: '🇻🇪', country: 'Venezuela', code: 've' },
   { flag: '🇻🇳', country: 'Vietnam', code: 'vn' },
   { flag: '🇿🇼', country: 'Zimbabwe', code: 'zw' }
-].map(item => ({ ...item, link: `https://iptv-epg.org/files/epg-${item.code}.xml` }));
+].map(item => ({ ...item, link: item.link || `https://iptv-epg.org/files/epg-${item.code}.xml` }));

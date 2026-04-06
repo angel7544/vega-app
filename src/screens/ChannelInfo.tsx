@@ -101,6 +101,7 @@ const ChannelInfo = () => {
   const [progress, setProgress] = useState(0);
   const [seekableDuration, setSeekableDuration] = useState(0);
   const progressWidthRef = useRef(0);
+  const scrollRef = useRef<ScrollView>(null);
 
   const goFullScreen = useCallback(() => {
     setIsFullScreen(true);
@@ -205,7 +206,7 @@ const ChannelInfo = () => {
 
   useEffect(() => {
     fetchChannelDetails();
-  }, [channel.tvgId]);
+  }, [channel.url]);
 
   // Real-time EPG heartbeat
   useEffect(() => {
@@ -224,16 +225,23 @@ const ChannelInfo = () => {
   }, []);
 
   const fetchChannelDetails = async () => {
+    const currentUrl = channel.url;
     setLoading(true);
     setEpgData([]); // Reset schedule on EPG provider change
     try {
       const country = settingsStorage.getIptvCountry() || 'in';
       const programs = await iptvParser.fetchEPGForChannel(channel, country);
-      setEpgData(programs);
+      
+      // Fix Race Condition: Only update state if we are still on the same channel
+      if (channel.url === currentUrl) {
+         setEpgData(programs);
+      }
     } catch (e) {
       console.error('Failed to load channel details:', e);
     } finally {
-      setLoading(false);
+      if (channel.url === currentUrl) {
+        setLoading(false);
+      }
     }
   };
 
@@ -249,6 +257,14 @@ const ChannelInfo = () => {
       goFullScreen();
     }
   };
+  
+  const handleSetLivePosition = useCallback((y: number) => {
+    // Offset for the 'Broadcast' header and screen top spacing
+    const yOffset = y + 40; 
+    setTimeout(() => {
+        scrollRef.current?.scrollTo({ y: yOffset, animated: true });
+    }, 500); // Give it some time to layout
+  }, []);
 
   const cycleResizeMode = () => {
     const modes = [ResizeMode.CONTAIN, ResizeMode.COVER, ResizeMode.STRETCH];
@@ -777,7 +793,7 @@ const ChannelInfo = () => {
             <Text className="text-gray-500 dark:text-gray-400 text-sm font-bold mt-6">Syncing schedule...</Text>
           </View>
         ) : epgData.length > 0 ? (
-          <Timetable programs={epgData as Program[]} />
+          <Timetable programs={epgData as Program[]} now={now} onSetLivePosition={handleSetLivePosition} />
         ) : (
           <View className="py-20 items-center justify-center bg-gray-50 dark:bg-white/5 rounded-[32px] border border-dashed border-gray-200 dark:border-white/10">
             <Feather name="clock" size={48} color={isDark ? "rgba(255,255,255,0.1)" : "rgba(0,0,0,0.1)"} />
@@ -890,6 +906,7 @@ const ChannelInfo = () => {
                </View>
 
                <ScrollView 
+                ref={scrollRef}
                 className="flex-1"
                 bounces={true}
                 showsVerticalScrollIndicator={false}
@@ -941,6 +958,7 @@ const ChannelInfo = () => {
         ) : (
           /* Scrolling Content Info (Only active in Portrait) */
           <ScrollView 
+            ref={scrollRef}
             className="flex-1"
             bounces={true}
             showsVerticalScrollIndicator={false}

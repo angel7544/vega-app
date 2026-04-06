@@ -106,15 +106,27 @@ async function fetchWithCache<T>(key: string, url: string): Promise<T> {
   if (entry && now - entry.fetchedAt < CACHE_TTL_MS) {
     return entry.data as T;
   }
-  const response = await fetch(url, {
-    headers: { Accept: 'application/json' },
-  });
-  if (!response.ok) {
-    throw new Error(`iptv-org API error ${response.status} for ${url}`);
+
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), 15000); // 15s timeout
+
+  try {
+    const response = await fetch(url, {
+      headers: { Accept: 'application/json' },
+      signal: controller.signal,
+    });
+    clearTimeout(timeoutId);
+
+    if (!response.ok) {
+      throw new Error(`iptv-org API error ${response.status} for ${url}`);
+    }
+    const data: T = await response.json();
+    cache[key] = { data, fetchedAt: now };
+    return data;
+  } catch (error) {
+    clearTimeout(timeoutId);
+    throw error;
   }
-  const data: T = await response.json();
-  cache[key] = { data, fetchedAt: now };
-  return data;
 }
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────

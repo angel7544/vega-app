@@ -17,6 +17,7 @@ import {themes, EPG_SOURCES} from '../../lib/constants';
 import Constants from 'expo-constants';
 import useToastStore from '../../lib/zustand/toastStore';
 import usePlayerStore from '../../lib/zustand/playerStore';
+import {iptvParser} from '../../lib/iptvParser';
 
 
 // Lazy-load Firebase to allow running without google-services.json
@@ -634,6 +635,24 @@ const Preferences = () => {
           <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-sm mb-3 uppercase font-bold tracking-widest ml-1`}>EPG Configuration</Text>
           <View className={`${mode === 'dark' ? 'bg-[#1A1A1A]' : 'bg-gray-100'} rounded-xl overflow-hidden p-4`}>
             
+            <View className="mb-4">
+              <TouchableOpacity
+                 onPress={() => {
+                    iptvParser.clearCache();
+                    show('EPG Cache Cleared & Synced', 'success');
+                 }}
+                 className="w-full bg-primary/20 border border-primary/40 py-3 rounded-xl items-center flex-row justify-center shadow-sm"
+              >
+                 <MaterialCommunityIcons name="sync" size={18} color={primary} />
+                 <Text style={{ color: primary }} className="font-black text-xs uppercase tracking-widest ml-2">Force EPG Data Sync</Text>
+              </TouchableOpacity>
+              <Text className={`${mode === 'dark' ? 'text-gray-500' : 'text-gray-400'} text-[10px] mt-2 leading-4 text-center px-4`}>
+                 Clears memory and forces a fresh download of TV guide schedules. Use if channels say "No schedule".
+              </Text>
+            </View>
+
+            <View className="h-[1px] bg-white/5 my-2 mb-4" />
+
             {/* Custom EPG URL Input */}
             <View className="mb-4">
               <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-[10px] mb-2 uppercase font-black tracking-widest ml-1`}>Custom EPG Source URL</Text>
@@ -649,10 +668,11 @@ const Preferences = () => {
                  />
                  <TouchableOpacity
                     onPress={() => {
-                      if (tempEpgUrl && tempEpgUrl.endsWith('.gz')) {
-                         show('Please use .xml URLs, not .gz', 'error');
-                         return;
-                      }
+                    if (!tempEpgUrl) {
+                      setCustomEpgUrl(null);
+                      show('EPG Reset to Default', 'success');
+                      return;
+                    }
                       setCustomEpgUrl(tempEpgUrl || null);
                       show('EPG URL Saved', 'success');
                     }}

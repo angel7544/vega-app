@@ -17,19 +17,23 @@ import {
   Pressable,
 } from 'react-native';
 import { FlashList } from '@shopify/flash-list';
-import { Feather, MaterialIcons, Ionicons } from '@expo/vector-icons';
+import { Feather, MaterialIcons, Ionicons, MaterialCommunityIcons } from '@expo/vector-icons';
 import { useNavigation, useIsFocused } from '@react-navigation/native';
 import { BlurView } from 'expo-blur';
 import LinearGradient from 'react-native-linear-gradient';
 import Animated, { 
   FadeIn, 
   FadeInDown, 
+  FadeInUp,
   SlideInRight,
   useAnimatedStyle,
-  withRepeat,
-  withSequence,
+  useSharedValue,
+  useAnimatedScrollHandler,
+  interpolate,
+  Extrapolation,
   withTiming,
 } from 'react-native-reanimated';
+import { TVGuideGrid } from '../components/TVGuideGrid';
 
 import { iptvParser } from '../lib/iptvParser';
 import useThemeStore from '../lib/zustand/themeStore';
@@ -41,12 +45,13 @@ import useIPTVStore from '../lib/zustand/iptvStore';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../types/navigation';
 
+const { width: WINDOW_WIDTH } = Dimensions.get('window');
+
 const QUALITY_KEYWORDS = {
   '1080p': ['1080p', 'fhd', 'full hd', '1920x1080', '1080'],
   '576p': ['576p', 'sd', 'dvd', '720x576', '480p', '360p'],
   '720p': ['720p', 'hd', '1280x720', '720'],
 };
-
 
 const QualityBadge = ({ name, isDark }: { name: string, isDark: boolean }) => {
   const getQuality = () => {
@@ -72,50 +77,260 @@ const QualityBadge = ({ name, isDark }: { name: string, isDark: boolean }) => {
   );
 };
 
-// Sub-components moved outside for performance and fixing focus issues
-const TabItem = React.memo(({ name, icon, isActive, onPress, isDark, primary }: any) => (
+const EPGInfo = React.memo(({ channel, isDark, primary, showNext = true }: any) => {
+  const [info, setInfo] = useState<any>(null);
+
+  useEffect(() => {
+    let isMounted = true;
+    const fetchInfo = async () => {
+      const data = await iptvParser.getNowAndNext(channel);
+      if (isMounted) setInfo(data);
+    };
+    fetchInfo();
+    return () => { isMounted = false; };
+  }, [channel.url]);
+
+  if (!info || (!info.now && !info.next)) return null;
+
+  return (
+    <View className="mt-1.5">
+      {info.now && (
+        <View className="mb-1">
+          <View className="flex-row items-center mb-1">
+            <View className="w-1 h-1 rounded-full bg-red-500 mr-1.5" />
+            <Text className={`text-[9px] font-black uppercase tracking-tight ${isDark ? 'text-white/80' : 'text-black/80'}`} numberOfLines={1}>
+              {info.now.title}
+            </Text>
+          </View>
+          <View className={`h-[1px] w-full rounded-full overflow-hidden ${isDark ? 'bg-white/5' : 'bg-black/5'}`}>
+             <View 
+               className="h-full bg-red-500/60" 
+               style={{ 
+                 width: `${Math.max(5, Math.min(95, ((Date.now() - info.now.startTs) / (info.now.stopTs - info.now.startTs)) * 100))}%` 
+               }} 
+             />
+          </View>
+        </View>
+      )}
+      {showNext && info.next && (
+        <View className="flex-row items-center opacity-40">
+           <Text className={`text-[7px] font-black uppercase tracking-widest ${isDark ? 'text-white' : 'text-black'}`} numberOfLines={1}>
+             Up Next: {info.next.title}
+           </Text>
+        </View>
+      )}
+    </View>
+  );
+});
+
+// Sub-components
+const TabItem = React.memo(({ name, isActive, onPress, isDark, primary }: any) => (
   <TouchableOpacity 
     onPress={() => onPress(name)}
-    className={`flex-row items-center px-6 py-2.5 rounded-2xl mr-3 ${isActive ? 'bg-primary' : (isDark ? 'bg-white/5' : 'bg-black/5')}`}
-    style={isActive ? { backgroundColor: primary, shadowColor: primary, shadowRadius: 10, elevation: 10 } : {}}
+    className="mr-6 items-center"
   >
-    <Feather name={icon} size={16} color={isActive ? 'white' : (isDark ? 'rgba(255,255,255,0.4)' : 'rgba(0,0,0,0.4)')} />
-    <Text className={`ml-2 font-black text-xs uppercase tracking-widest ${isActive ? 'text-white' : (isDark ? 'text-white/40' : 'text-black/40')}`}>
+    <Text className={`font-black text-sm uppercase tracking-[2px] ${isActive ? (isDark ? 'text-white' : 'text-black') : (isDark ? 'text-white/40' : 'text-black/40')}`}>
       {name}
+    </Text>
+    {isActive && (
+      <Animated.View 
+        entering={FadeIn.duration(300)}
+        className="h-1 rounded-full absolute -bottom-2 w-full"
+        style={{ backgroundColor: primary }} 
+      />
+    )}
+  </TouchableOpacity>
+));
+
+const HeroItem = React.memo(({ item, index, scrollX, isDark, primary, onPlay }: any) => {
+  const animatedOverlay = useAnimatedStyle(() => {
+    const opacity = interpolate(
+      scrollX.value,
+      [(index - 1) * WINDOW_WIDTH, index * WINDOW_WIDTH, (index + 1) * WINDOW_WIDTH],
+      [0.6, 0, 0.6],
+      Extrapolation.CLAMP
+    );
+    return { opacity };
+  });
+
+  return (
+    <View style={{ width: WINDOW_WIDTH, height: 450 }} className="relative overflow-hidden">
+      <Image
+        source={{ uri: item.logo || 'https://www.br31tech.live/placeholder.png' }}
+        className="w-full h-full"
+        resizeMode="cover"
+        style={{ opacity: 0.8 }}
+      />
+      <LinearGradient
+        colors={['rgba(0,0,0,0.8)', 'transparent', 'rgba(0,0,0,0.9)', isDark ? '#000' : '#fff']}
+        locations={[0, 0.2, 0.7, 1]}
+        style={StyleSheet.absoluteFill}
+      />
+      <Animated.View style={[StyleSheet.absoluteFill, { backgroundColor: 'black' }, animatedOverlay]} />
+      
+      <View className="absolute bottom-12 w-full px-8 items-center">
+        <Image
+          source={{ uri: item.logo }}
+          style={{ width: 150, height: 80, resizeMode: 'contain' }}
+          className="mb-4"
+        />
+        <Text className="text-white text-center text-xs font-black uppercase tracking-[4px] mb-6 opacity-60">
+          Now Streaming Live
+        </Text>
+        <TouchableOpacity
+          activeOpacity={0.8}
+          onPress={() => onPlay(item)}
+          className="bg-white flex-row items-center px-10 py-4 rounded-full shadow-2xl"
+          style={{ backgroundColor: isDark ? 'white' : 'black' }}
+        >
+          <MaterialCommunityIcons 
+            name="play" 
+            size={24} 
+            color={isDark ? 'black' : 'white'} 
+          />
+          <Text className={`ml-2 font-black text-xs uppercase tracking-[3px] ${isDark ? 'text-black' : 'text-white'}`}>
+            Watch Now
+          </Text>
+        </TouchableOpacity>
+      </View>
+    </View>
+  );
+});
+
+const AnimatedFlatList = Animated.createAnimatedComponent(FlatList);
+
+const LiveHeroCarousel = ({ channels, isDark, primary, onPlay }: any) => {
+  const scrollX = useSharedValue(0);
+  const flatListRef = useRef<any>(null);
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const onScroll = useAnimatedScrollHandler({
+    onScroll: (event) => {
+      scrollX.value = event.contentOffset.x;
+    },
+  });
+
+  useEffect(() => {
+    if (channels.length <= 1) return;
+    const timer = setInterval(() => {
+      try {
+        const nextIndex = (currentIndex + 1) % Math.min(channels.length, 5); // Hero is limited to 5
+        flatListRef.current?.scrollToIndex({ index: nextIndex, animated: true });
+        setCurrentIndex(nextIndex);
+      } catch (err) {
+        console.warn('ScrollToIndex error caught in HeroCarousel:', err);
+      }
+    }, 5000);
+    return () => clearInterval(timer);
+  }, [currentIndex, channels.length]);
+
+  return (
+    <View className="relative">
+      <AnimatedFlatList
+        ref={flatListRef}
+        data={channels.slice(0, 5)}
+        renderItem={({ item, index }: any) => (
+          <HeroItem 
+            item={item} 
+            index={index} 
+            scrollX={scrollX} 
+            isDark={isDark} 
+            primary={primary} 
+            onPlay={onPlay}
+          />
+        )}
+        horizontal
+        pagingEnabled
+        showsHorizontalScrollIndicator={false}
+        onScroll={onScroll}
+        scrollEventThrottle={16}
+        onMomentumScrollEnd={(e: any) => setCurrentIndex(Math.round(e.nativeEvent.contentOffset.x / WINDOW_WIDTH))}
+        getItemLayout={(_, index) => ({
+          length: WINDOW_WIDTH,
+          offset: WINDOW_WIDTH * index,
+          index,
+        })}
+        keyExtractor={(item: any, index: number) => `${item.url}-${index}`}
+      />
+      <View className="absolute bottom-6 left-0 right-0 flex-row justify-center space-x-2">
+        {channels.slice(0, 5).map((_: any, i: number) => (
+          <View
+            key={i}
+            className={`h-1 rounded-full ${i === currentIndex ? 'w-6' : 'w-2'}`}
+            style={{ backgroundColor: i === currentIndex ? primary : 'rgba(255,255,255,0.3)' }}
+          />
+        ))}
+      </View>
+    </View>
+  );
+};
+
+const SectionHeader = ({ title, isDark, primary, onPress }: any) => (
+  <View className="px-5 mt-10 mb-5 flex-row items-center justify-between">
+    <Text className={`text-sm font-black uppercase tracking-[3px] ${isDark ? 'text-white' : 'text-black'}`}>
+      {title}
+    </Text>
+    {onPress && (
+      <TouchableOpacity onPress={onPress}>
+        <Text className="text-[10px] font-black uppercase tracking-widest" style={{ color: primary }}>View All</Text>
+      </TouchableOpacity>
+    )}
+  </View>
+);
+
+const CircularItem = React.memo(({ item, onPress, isDark, primary }: any) => (
+  <TouchableOpacity
+    activeOpacity={0.8}
+    onPress={() => onPress(item)}
+    className="mr-6 items-center"
+  >
+    <View className={`w-20 h-20 rounded-full items-center justify-center border-2 ${
+      isDark ? 'bg-[#141414] border-white/10' : 'bg-white border-black/5'
+    } shadow-lg`} style={{ padding: 10 }}>
+      {item.logo ? (
+        <Image source={{ uri: item.logo }} className="w-full h-full" resizeMode="contain" />
+      ) : (
+        <Feather name="tv" size={24} color={primary} />
+      )}
+      <View className="absolute -top-1 -right-1 w-4 h-4 bg-red-600 rounded-full border-2 border-black items-center justify-center">
+        <View className="w-1.5 h-1.5 bg-white rounded-full" />
+      </View>
+    </View>
+    <Text className={`text-[8px] font-black mt-3 text-center w-20 uppercase tracking-widest ${isDark ? 'text-white/40' : 'text-black/40'}`} numberOfLines={1}>
+      {item.name}
     </Text>
   </TouchableOpacity>
 ));
 
-const RecentChannelItem = React.memo(({ item, index, onPress, isDark, primary }: any) => (
-  <Animated.View entering={SlideInRight.delay(index * 100).duration(800)}>
-    <TouchableOpacity 
-      activeOpacity={0.8}
-      onPress={() => onPress(item)}
-      className="mr-5 items-center"
-    >
-      <View className={`w-20 h-20 rounded-[28px] overflow-hidden items-center justify-center shadow-2xl ${
-        isDark ? 'bg-[#0D0D0D] border border-white/10' : 'bg-white border border-black/5'
-      }`}>
-         {item.image ? (
-          <Image source={{ uri: item.image }} className="w-full h-full" resizeMode="contain" />
+const WideCardItem = React.memo(({ item, onPress, isDark, primary }: any) => (
+  <TouchableOpacity
+    activeOpacity={0.8}
+    onPress={() => onPress(item)}
+    className="mr-5"
+  >
+    <View className={`w-40 aspect-[16/9] rounded-2xl overflow-hidden shadow-xl border ${
+      isDark ? 'bg-[#141414] border-white/5' : 'bg-white border-black/5'
+    }`}>
+      <View className="flex-1 items-center justify-center p-6 bg-black/20">
+         {item.logo ? (
+          <Image source={{ uri: item.logo }} className="w-full h-full" resizeMode="contain" />
         ) : (
           <Feather name="tv" size={24} color={primary} />
         )}
-        <LinearGradient
-          colors={['transparent', 'rgba(0,0,0,0.4)']}
-          style={StyleSheet.absoluteFill}
-        />
       </View>
-      <Text className={`text-[10px] font-black mt-3 text-center w-20 uppercase tracking-widest ${isDark ? 'text-white/30' : 'text-black/30'}`} numberOfLines={1}>
-        {item.title}
-      </Text>
-    </TouchableOpacity>
-  </Animated.View>
+      <LinearGradient colors={['transparent', 'rgba(0,0,0,0.9)']} className="absolute inset-0 justify-end p-3">
+         <Text className="text-white text-[9px] font-black uppercase tracking-widest mb-0.5" numberOfLines={1}>
+           {item.name}
+         </Text>
+         <EPGInfo channel={item} isDark={true} primary={primary} showNext={false} />
+      </LinearGradient>
+    </View>
+  </TouchableOpacity>
 ));
 
 const LiveTV = () => {
   const { width } = useWindowDimensions();
-  const numColumns = width > 1200 ? 4 : width > 768 ? 3 : width > 480 ? 2 : 1;
+  const numColumns = width > 1200 ? 5 : width > 768 ? 4 : width > 480 ? 3 : 2;
   const cardWidth = (width - (numColumns + 1) * 16) / numColumns;
 
   const [channels, setChannels] = useState<any[]>([]);
@@ -124,19 +339,18 @@ const LiveTV = () => {
   const [qualityFilter, setQualityFilter] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [debouncedSearch, setDebouncedSearch] = useState('');
-  const [isFocused, setIsFocused] = useState(false);
+  const [isSearchActive, setIsSearchActive] = useState(false);
   const [loading, setLoading] = useState(true);
-  const [showVpnInfo, setShowVpnInfo] = useState(false);
-  const [activeTab, setActiveTab] = useState('Explore');
+  const [loadingEpg, setLoadingEpg] = useState(false);
+  const [activeTab, setActiveTab] = useState('FOR YOU');
+  const [epgData, setEpgData] = useState<Record<string, any>>({});
 
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
   const { mode, primary } = useThemeStore();
-  const { history } = useWatchHistoryStore();
   const { toggleFavorite, isFavorite, favorites } = usePlayerStore();
   const { setChannels: setGlobalChannels } = useIPTVStore();
   const isDark = mode === 'dark';
 
-  // Debounce search input
   useEffect(() => {
     const timer = setTimeout(() => setDebouncedSearch(searchQuery), 300);
     return () => clearTimeout(timer);
@@ -149,11 +363,26 @@ const LiveTV = () => {
   const fetchChannels = async () => {
     setLoading(true);
     try {
-      const data = await iptvParser.fetchByCountry('in'); 
+      const countryCode = settingsStorage.getIptvCountry() || 'in';
+      const languageCode = settingsStorage.getIptvLanguage() || 'all';
+      
+      let data;
+      if (languageCode !== 'all') {
+         data = await iptvParser.fetchByLanguage(languageCode);
+      } else {
+         data = await iptvParser.fetchByCountry(countryCode);
+      }
+      
       if (data && Array.isArray(data)) {
         setChannels(data);
         setGlobalChannels(data);
-        const uniqueCategories = [...new Set(data.map((c: any) => c.category).filter(Boolean))] as string[];
+        const mapCats = data.map((c: any) => {
+           if (!c.category) return null;
+           const cat = c.category.trim();
+           return cat.charAt(0).toUpperCase() + cat.slice(1).toLowerCase();
+        }).filter(Boolean);
+        const uniqueCategories = [...new Set(mapCats)] as string[];
+        uniqueCategories.sort();
         setCategories(['All', ...uniqueCategories]);
       }
     } catch (error) {
@@ -163,41 +392,81 @@ const LiveTV = () => {
     }
   };
 
-  const recentChannels = useMemo(() => {
-    const seen = new Set();
-    return history
-      .filter((item: any) => item.isLiveTV)
-      .filter((item: any) => {
-        if (seen.has(item.link)) return false;
-        seen.add(item.link);
-        return true;
-      })
-      .slice(0, 10);
-  }, [history]);
+  useEffect(() => {
+    if (activeTab === 'TV GUIDE' && channels.length > 0 && Object.keys(epgData).length === 0) {
+      const fetchBulk = async () => {
+        setLoadingEpg(true);
+        const countryCode = settingsStorage.getIptvCountry() || 'in';
+        try {
+          const map = await iptvParser.fetchBulkEPG(channels.slice(0, 100), countryCode); // limit to top 100 for perf initially
+          setEpgData(map);
+        } catch (e) {
+          console.error(e);
+        } finally {
+          setLoadingEpg(false);
+        }
+      };
+      fetchBulk();
+    }
+  }, [activeTab, channels]);
 
+  const sections = useMemo(() => {
+    if (channels.length === 0) return null;
+    
+    // News Channels
+    const newsChannels = channels.filter(c => (c.category || '').toLowerCase().includes('news') || c.name.toLowerCase().includes('news'));
+    
+    // Entertainment/Movies
+    const watchFree = channels.filter(c => 
+      ['entertainment', 'movies', 'series', 'general'].some(k => (c.category || '').toLowerCase().includes(k))
+    );
+
+    // Sports (for Hero or sections)
+    const sports = channels.filter(c => (c.category || '').toLowerCase().includes('sports') || c.name.toLowerCase().includes('sports'));
+
+    return {
+      trending: newsChannels.slice(0, 15),
+      acrossIndia: newsChannels.slice(15, 30),
+      watchFree: watchFree.slice(0, 15),
+      sports: sports.slice(0, 10),
+      hero: [...newsChannels.slice(0, 3), ...sports.slice(0, 3)].sort(() => Math.random() - 0.5)
+    };
+  }, [channels]);
 
   const filteredChannels = useMemo(() => {
     let result = channels;
-    if (activeTab === 'Favorites') result = favorites;
-    else if (activeTab === 'Sports') result = result.filter(c => (c.category || '').toLowerCase().includes('sports') || c.name.toLowerCase().includes('sports'));
-
-    if (selectedCategory !== 'All' && activeTab === 'Explore') result = result.filter(c => c.category === selectedCategory);
-    if (qualityFilter) {
-      const keywords = QUALITY_KEYWORDS[qualityFilter as keyof typeof QUALITY_KEYWORDS] || [qualityFilter];
-      result = result.filter(c => keywords.some(k => c.name.toLowerCase().includes(k.toLowerCase())));
+    
+    if (activeTab === 'NEWS') {
+      result = channels.filter(c => (c.category || '').toLowerCase().includes('news') || c.name.toLowerCase().includes('news'));
+    } else if (activeTab === 'SPORTS') {
+      result = channels.filter(c => (c.category || '').toLowerCase().includes('sports') || c.name.toLowerCase().includes('sports'));
+    } else if (activeTab === 'SHOWS') {
+      result = channels.filter(c => ['entertainment', 'tv', 'general', 'shows'].some(k => (c.category || '').toLowerCase().includes(k)));
+    } else if (activeTab === 'FOR YOU') {
+      // In grid mode under FOR YOU (if search is active)
     }
-    if (debouncedSearch && debouncedSearch.length >= 3) {
+
+    if (isSearchActive && debouncedSearch.length >= 2) {
       const query = debouncedSearch.toLowerCase();
-      result = result.filter(c => c.name.toLowerCase().includes(query) || (c.category && c.category.toLowerCase().includes(query)));
+      result = channels.filter(c => c.name.toLowerCase().includes(query) || (c.category && c.category.toLowerCase().includes(query)));
     }
+
+    if (selectedCategory !== 'All') {
+      result = result.filter(c => c.category === selectedCategory);
+    }
+    
+    if (qualityFilter) {
+      result = result.filter(c => c.quality === qualityFilter);
+    }
+
     return result;
-  }, [channels, selectedCategory, qualityFilter, debouncedSearch, activeTab, favorites]);
+  }, [channels, debouncedSearch, activeTab, isSearchActive, selectedCategory, qualityFilter]);
 
-  const handleChannelPress = (channel: any) => {
-    const index = channels.findIndex(c => c.url === channel.url);
-    navigation.navigate('ChannelInfo', { channel, channels: filteredChannels, initialIndex: index >= 0 ? index : 0 });
-  };
-
+  const handleChannelPress = useCallback((channel: any) => {
+    const list = isSearchActive ? filteredChannels : channels;
+    const index = list.findIndex(c => c.url === channel.url);
+    navigation.navigate('ChannelInfo', { channel, channels: list, initialIndex: index >= 0 ? index : 0 });
+  }, [navigation, channels, filteredChannels, isSearchActive]);
 
   const renderChannelItem = useCallback(({ item, index }: { item: any, index: number }) => {
     const favorited = isFavorite(item.url);
@@ -207,197 +476,179 @@ const LiveTV = () => {
         <TouchableOpacity
           activeOpacity={0.9}
           onPress={() => handleChannelPress(item)}
-          className={`mb-6 rounded-[32px] overflow-hidden shadow-2xl border ${isDark ? 'bg-[#0D0D0D] border-white/5' : 'bg-white border-black/10'}`}
-          style={{ 
-            width: cardWidth, 
-            marginHorizontal: 8,
-          }}
+          className={`mb-6 rounded-3xl overflow-hidden border ${isDark ? 'bg-[#0D0D0D] border-white/5' : 'bg-white border-black/10'}`}
+          style={{ width: cardWidth, marginHorizontal: 8 }}
         >
           <View className="aspect-video bg-black/40 items-center justify-center relative overflow-hidden">
             {item.logo ? (
-              <Image source={{ uri: item.logo }} className="w-[75%] h-[70%]" resizeMode="contain" />
+              <Image source={{ uri: item.logo }} className="w-[70%] h-[70%]" resizeMode="contain" />
             ) : (
-              <View className="items-center">
-                <Feather name="tv" size={44} color={primary} style={{ opacity: 0.5 }} />
-                <Text className="text-white/20 text-[10px] mt-2 font-black uppercase">Signal Lost</Text>
-              </View>
+              <Feather name="tv" size={32} color={primary} style={{ opacity: 0.5 }} />
             )}
-
-            <View className="absolute top-4 left-4 right-4 flex-row justify-between items-start">
-               <View />
-               <QualityBadge name={item.name} isDark={isDark} />
-            </View>
-
-            <LinearGradient colors={['transparent', 'rgba(0,0,0,0.85)']} className="absolute inset-0 justify-end" />
+            <LinearGradient colors={['transparent', 'rgba(0,0,0,0.8)']} className="absolute inset-0 justify-end" />
           </View>
-          
-          <BlurView intensity={isDark ? 40 : 60} tint={isDark ? 'dark' : 'light'} className="p-5 flex-row items-center justify-between">
-            <View className="flex-1 mr-3">
-               <Text className={`font-black text-lg mb-0.5 ${isDark ? 'text-white' : 'text-black'}`} numberOfLines={1}>{item.name}</Text>
-               <View className="flex-row items-center">
-                 <View className={`w-1 h-1 rounded-full mr-2 ${isDark ? 'bg-white/30' : 'bg-black/30'}`} />
-                 <Text className={`text-[10px] font-black uppercase tracking-[2px] ${isDark ? 'text-white/40' : 'text-black/40'}`}>{item.category || 'Global Select'}</Text>
-               </View>
+          <View className="p-4 flex-row items-center justify-between">
+            <View className="flex-1 mr-2">
+               <Text className={`font-black text-xs ${isDark ? 'text-white' : 'text-black'}`} numberOfLines={1}>{item.name}</Text>
+               <EPGInfo channel={item} isDark={isDark} primary={primary} />
+               <Text className={`text-[7px] font-black uppercase tracking-widest mt-1.5 opacity-30 ${isDark ? 'text-white' : 'text-black'}`}>{item.category || 'Live Signal'}</Text>
             </View>
-            <TouchableOpacity onPress={(e) => { e.stopPropagation(); toggleFavorite(item); }} className={`p-3.5 rounded-2xl ${favorited ? 'bg-primary shadow-lg shadow-primary/40' : (isDark ? 'bg-white/5 border border-white/5' : 'bg-black/5 border border-black/5')}`}>
-              <Ionicons name={favorited ? "heart" : "heart-outline"} size={18} color={favorited ? 'white' : (isDark ? 'rgba(255,255,255,0.6)' : 'rgba(0,0,0,0.6)')} />
+            <TouchableOpacity onPress={(e) => { e.stopPropagation(); toggleFavorite(item); }}>
+              <Ionicons name={favorited ? "heart" : "heart-outline"} size={16} color={favorited ? primary : (isDark ? 'rgba(255,255,255,0.4)' : 'rgba(0,0,0,0.4)')} />
             </TouchableOpacity>
-          </BlurView>
+          </View>
         </TouchableOpacity>
       </Animated.View>
     );
-  }, [cardWidth, isDark, primary, favorites, isFavorite, handleChannelPress]);
+  }, [cardWidth, isDark, primary, toggleFavorite, isFavorite, handleChannelPress]);
 
-  const HeaderTop = () => (
-    <View className="pt-14 px-5">
-
-      {/* Recent Signals Section */}
-      {recentChannels.length > 0 && activeTab === 'Explore' && (
-        <View className="mb-8">
-          <View className="mb-5 flex-row items-center justify-between">
-            <Text className={`text-[11px] font-black uppercase tracking-[3px] ${isDark ? 'text-white/40' : 'text-black/40'}`}>Recently Played</Text>
-            <View className="h-px flex-1 bg-primary/20 ml-4" />
-          </View>
-          <FlatList
-            horizontal
-            showsHorizontalScrollIndicator={false}
-            data={recentChannels}
-            contentContainerStyle={{ paddingRight: 20 }}
-            keyExtractor={item => item.link}
-            renderItem={({ item, index }) => (
-              <RecentChannelItem
-                item={item}
-                index={index}
-                onPress={(c: any) => handleChannelPress({ name: c.title, url: c.link, logo: c.image })}
-                isDark={isDark}
-                primary={primary}
-              />
-            )}
-          />
+  const Header = () => (
+    <View className="absolute top-0 left-0 right-0 z-50 pt-12">
+      <BlurView intensity={20} tint="dark" className="px-5 py-4 flex-row items-center justify-between">
+        <View className="flex-row items-baseline">
+           <Text className={`text-2xl font-black italic tracking-tighter ${isDark ? 'text-white' : 'text-black'}`}>OrbixTv</Text>
+           <Text className="text-primary text-[8px] font-black ml-2 tracking-widest bg-white/10 px-1.5 py-0.5 rounded">LIVE ({channels.length})</Text>
         </View>
-      )}
-
-      {/* Search Header */}
-      <View className="flex-row items-center space-x-3 mb-8">
-        <View
-          className={`flex-1 overflow-hidden rounded-xl ${
-            isDark ? 'bg-[#141414]' : 'bg-gray-100'
-          } shadow-lg shadow-black/50`}>
-          <View className="px-3 py-3">
-            <View className="flex-row items-center">
-              <Feather
-                name="search"
-                size={22}
-                color={isFocused ? primary : '#666'}
-              />
-              <TextInput
-                className={`flex-1 ${
-                  isDark ? 'text-white' : 'text-black'
-                } text-base ml-3`}
-                placeholder="Search TV Channels..."
-                placeholderTextColor="#666"
-                value={searchQuery}
-                onChangeText={setSearchQuery}
-                onFocus={() => setIsFocused(true)}
-                onBlur={() => setIsFocused(false)}
-                returnKeyType="search"
-              />
-              {searchQuery.length > 0 && (
-                <TouchableOpacity
-                  onPress={() => setSearchQuery('')}
-                  className="bg-gray-800/50 rounded-full p-2 ml-2">
-                  <Feather name="x" size={18} color="#999" />
-                </TouchableOpacity>
-              )}
-            </View>
-          </View>
-        </View>
-        <TouchableOpacity onPress={() => setShowVpnInfo(true)} className="ml-3 p-3.5 bg-primary/10 rounded-xl">
-          <Feather name="info" size={24} color={primary} />
+        <TouchableOpacity onPress={() => setIsSearchActive(!isSearchActive)} className="p-2 bg-white/10 rounded-full">
+           <Feather name={isSearchActive ? "x" : "search"} size={20} color="white" />
         </TouchableOpacity>
-      </View>
-
-      {/* Main Tabs */}
-      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ marginBottom: 32 }}>
-        <TabItem name="Explore" icon="grid" isActive={activeTab === 'Explore'} onPress={setActiveTab} isDark={isDark} primary={primary} />
-        <TabItem name="Favorites" icon="heart" isActive={activeTab === 'Favorites'} onPress={setActiveTab} isDark={isDark} primary={primary} />
-        <TabItem name="Sports" icon="activity" isActive={activeTab === 'Sports'} onPress={setActiveTab} isDark={isDark} primary={primary} />
-      </ScrollView>
-    </View>
-  );
-
-  const ListHeader = () => (
-    <View>
-      <HeaderTop />
-      {activeTab === 'Explore' && (
-        <View className={`${isDark ? 'bg-black' : 'bg-white'} pb-2 pt-2 border-b border-black/5`}>
-          <CategoryGrid 
-            categories={categories} 
-            onSelect={setSelectedCategory} 
-            selectedCategory={selectedCategory}
-            qualityFilter={qualityFilter}
-            onQualitySelect={(q: any) => setQualityFilter(qualityFilter === q ? null : q)}
-          />
-        </View>
-      )}
+      </BlurView>
       
-      {/* List Title */}
-      <View className="px-6 mt-8 mb-4 flex-row items-center justify-between">
-        <View>
-          <Text className={`text-3xl font-black ${isDark ? 'text-white' : 'text-black'}`}>
-            {activeTab === 'Favorites' ? 'Collected' : (activeTab === 'Sports' ? 'Live Sports' : 'Explore')}
-          </Text>
-          <Text className={`font-black uppercase text-[9px] tracking-[4px] mt-1 ${isDark ? 'text-white/20' : 'text-black/20'}`}>Active Signals</Text>
-        </View>
-        <LinearGradient colors={[primary, primary]} start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} style={{ opacity: 0.9 }} className="px-4 py-1.5 rounded-full shadow-lg">
-          <Text className="text-white text-[10px] font-black uppercase tracking-widest">{filteredChannels.length} Channels</Text>
-        </LinearGradient>
-      </View>
+      {!isSearchActive && (
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} className="mt-4 px-5">
+           {['FOR YOU', 'TV GUIDE', 'NEWS', 'SPORTS', 'SHOWS'].map(tab => (
+             <TabItem 
+                key={tab} 
+                name={tab} 
+                isActive={activeTab === tab} 
+                onPress={setActiveTab} 
+                isDark={isDark} 
+                primary={primary} 
+             />
+           ))}
+        </ScrollView>
+      )}
+
+      {isSearchActive && (
+        <Animated.View entering={FadeInUp} className="px-5 mt-4">
+           <TextInput
+              autoFocus
+              className="bg-white/10 h-12 rounded-2xl px-6 text-white font-bold"
+              placeholder="Search Live Channels..."
+              placeholderTextColor="rgba(255,255,255,0.4)"
+              value={searchQuery}
+              onChangeText={setSearchQuery}
+           />
+        </Animated.View>
+      )}
     </View>
   );
+
+  const SectionedView = () => {
+    if (!sections) return null;
+    return (
+      <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 100 }}>
+        <LiveHeroCarousel channels={sections.hero} isDark={isDark} primary={primary} onPlay={handleChannelPress} />
+        
+        <SectionHeader title="Live News" isDark={isDark} primary={primary} onPress={() => setActiveTab('NEWS')} />
+        <FlatList
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          data={sections.trending}
+          contentContainerStyle={{ paddingHorizontal: 20 }}
+          renderItem={({ item }) => <CircularItem item={item} onPress={handleChannelPress} isDark={isDark} primary={primary} />}
+          keyExtractor={(item, index) => `circ-${index}`}
+        />
+
+        <SectionHeader title="Trending Across India" isDark={isDark} primary={primary} onPress={() => setActiveTab('NEWS')} />
+        <FlatList
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          data={sections.acrossIndia}
+          contentContainerStyle={{ paddingHorizontal: 20 }}
+          renderItem={({ item }) => <WideCardItem item={item} onPress={handleChannelPress} isDark={isDark} primary={primary} />}
+          keyExtractor={(item, index) => `wide-${index}`}
+        />
+
+        <SectionHeader title="Watch Free Now" isDark={isDark} primary={primary} onPress={() => setActiveTab('SHOWS')} />
+        <FlatList
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          data={sections.watchFree}
+          contentContainerStyle={{ paddingHorizontal: 20 }}
+          renderItem={({ item }) => <CircularItem item={item} onPress={handleChannelPress} isDark={isDark} primary={primary} />}
+          keyExtractor={(item, index) => `circ-free-${index}`}
+        />
+        
+        <SectionHeader title="Sports Central" isDark={isDark} primary={primary} onPress={() => setActiveTab('SPORTS')} />
+        <FlatList
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          data={sections.sports}
+          contentContainerStyle={{ paddingHorizontal: 20 }}
+          renderItem={({ item }) => <WideCardItem item={item} onPress={handleChannelPress} isDark={isDark} primary={primary} />}
+          keyExtractor={(item, index) => `wide-sports-${index}`}
+        />
+      </ScrollView>
+    );
+  };
 
   return (
     <View className={`flex-1 ${isDark ? 'bg-black' : 'bg-white'}`}>
-      <StatusBar barStyle={isDark ? 'light-content' : 'dark-content'} />
+      <StatusBar barStyle="light-content" translucent backgroundColor="transparent" />
+      <Header />
+      
       {loading ? (
         <View className="flex-1 justify-center items-center">
           <ActivityIndicator color={primary} size="large" />
-          <Text className="text-gray-500 mt-4 font-black uppercase tracking-widest text-xs">Synchronizing Signals...</Text>
+          <Text className="text-gray-500 mt-4 font-black uppercase tracking-widest text-[10px]">Syncing Signal Hub...</Text>
         </View>
       ) : (
-        <FlashList
-          data={filteredChannels}
-          renderItem={renderChannelItem}
-          estimatedItemSize={280}
-          keyExtractor={(item, index) => `${item.url}-${index}`}
-          ListHeaderComponent={ListHeader}
-          numColumns={numColumns}
-          key={numColumns}
-          showsVerticalScrollIndicator={false}
-          contentContainerStyle={{ paddingBottom: 100, paddingHorizontal: 8 }}
-          removeClippedSubviews={Platform.OS === 'android'} 
-          drawDistance={500}
-        />
-      )}
-
-      {/* VPN Info Modal */}
-      <Modal visible={showVpnInfo} transparent animationType="fade" onRequestClose={() => setShowVpnInfo(false)}>
-        <TouchableOpacity activeOpacity={1} onPress={() => setShowVpnInfo(false)} className="flex-1 bg-black/80 justify-center items-center p-8">
-          <Animated.View entering={FadeIn.duration(300)} className={`p-10 rounded-[48px] w-full max-w-sm border ${isDark ? 'bg-[#0A0A0A] border-white/10' : 'bg-white border-black/10'}`}>
-            <View className="p-6 bg-primary/10 rounded-full self-center mb-8">
-              <Feather name="shield" size={48} color={primary} />
+        <View className="flex-1 mt-44">
+          {((activeTab === 'FOR YOU' && !isSearchActive) || isSearchActive) ? (
+             <CategoryGrid
+                categories={categories}
+                onSelect={setSelectedCategory}
+                selectedCategory={selectedCategory}
+                qualityFilter={qualityFilter}
+                onQualitySelect={(q: string | null) => setQualityFilter(qualityFilter === q ? null : q)}
+             />
+          ) : null}
+          
+          {activeTab === 'TV GUIDE' && !isSearchActive ? (
+            <View className="flex-1">
+              {loadingEpg ? (
+                 <View className="flex-1 justify-center items-center">
+                    <ActivityIndicator color={primary} size="large" />
+                    <Text className="text-gray-500 mt-4 font-black uppercase tracking-widest text-[10px]">Loading Timetables...</Text>
+                 </View>
+              ) : (
+                 <TVGuideGrid 
+                   channels={filteredChannels.slice(0, 100)} 
+                   epgData={epgData} 
+                   isDark={isDark} 
+                   primary={primary} 
+                   onPlay={handleChannelPress} 
+                 />
+              )}
             </View>
-            <Text className={`text-2xl font-black text-center ${isDark ? 'text-white' : 'text-black'}`}>Signal Access</Text>
-            <Text className="text-gray-500 text-center mt-4 font-bold leading-6">
-              Some regional signals may require a <Text className="text-primary">VPN Connection</Text> for stable viewing. 
-              If a channel fails to synchronize, try connecting to its local region.
-            </Text>
-            <TouchableOpacity onPress={() => setShowVpnInfo(false)} className="mt-10 py-5 rounded-3xl items-center shadow-xl shadow-primary/30" style={{ backgroundColor: primary }}>
-              <Text className="text-white font-black uppercase tracking-[4px] text-xs">Synchronize</Text>
-            </TouchableOpacity>
-          </Animated.View>
-        </TouchableOpacity>
-      </Modal>
+          ) : activeTab === 'FOR YOU' && !isSearchActive && selectedCategory === 'All' && !qualityFilter ? (
+            <View className="flex-1">
+               <SectionedView />
+            </View>
+          ) : (
+            <FlashList
+              data={filteredChannels}
+              renderItem={renderChannelItem}
+              estimatedItemSize={200}
+              numColumns={numColumns}
+              key={numColumns}
+              showsVerticalScrollIndicator={false}
+              contentContainerStyle={{ paddingHorizontal: 8, paddingBottom: 100, paddingTop: 20 }}
+            />
+          )}
+        </View>
+      )}
     </View>
   );
 };

@@ -169,12 +169,16 @@ const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer}: HeroCarouselProps) =>
     if (posts.length <= 1 || searchActive) return;
 
     const timer = setInterval(() => {
-      const nextIndex = (currentIndex + 1) % posts.length;
-      flatListRef.current?.scrollToIndex({
-        index: nextIndex,
-        animated: true,
-      });
-      setCurrentIndex(nextIndex);
+      try {
+        const nextIndex = (currentIndex + 1) % posts.length;
+        flatListRef.current?.scrollToIndex({
+          index: nextIndex,
+          animated: true,
+        });
+        setCurrentIndex(nextIndex);
+      } catch (err) {
+        console.warn('ScrollToIndex error caught in HeroCarousel:', err);
+      }
     }, 6000);
 
     return () => clearInterval(timer);
@@ -197,6 +201,11 @@ const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer}: HeroCarouselProps) =>
         onScroll={onScroll}
         scrollEventThrottle={16}
         onMomentumScrollEnd={onMomentumScrollEnd}
+        getItemLayout={(_, index) => ({
+          length: WINDOW_WIDTH,
+          offset: WINDOW_WIDTH * index,
+          index,
+        })}
         keyExtractor={(item) => item.link}
       />
 
