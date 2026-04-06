@@ -1,6 +1,8 @@
-![vega-high-resolution-logo-transparent](https://github.com/Zenda-Cross/vega-app/assets/143804558/b2eb446f-8e7f-4800-81e1-3320c82f33de)
+<p align="center">
+  <img src="assets/icon.png" width="200" alt="Orbix Play Logo">
+</p>
 
-# Vega-App
+# Orbix Play
 Android app for streaming media.
 ### Features
 - Steam and Download Ad-Free.
@@ -14,10 +16,10 @@ Android app for streaming media.
 
 ___
 
-## Download APK ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Zenda-Cross/vega-app/total?link=https%3A%2F%2Fgithub.com%2FZenda-Cross%2Fvega-app%2Freleases&label=Github%20Downloads)
+## Download APK ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/angel7544/vega-app/total?link=https%3A%2F%2Fgithub.com%2Fangel7544%2Fvega-app%2Freleases&label=Github%20Downloads)
 > <sub>Download Universal version if you are confused about armeabi-v7a or arm64-v8a or follow this guide https://vega.8man.in/guide/.</sub>
 
-[![Download Apk](https://custom-icon-badges.demolab.com/badge/-Download_From_Github-black?style=for-the-badge&logo=download&logoColor=white)](https://github.com/Zenda-Cross/vega-app/releases/latest)
+[![Download Apk](https://custom-icon-badges.demolab.com/badge/-Download_From_Github-black?style=for-the-badge&logo=download&logoColor=white)](https://github.com/angel7544/vega-app/releases/latest)
 
 [![Download Apk](https://custom-icon-badges.demolab.com/badge/-Download_From_Website-tomato?style=for-the-badge&logo=download&logoColor=white)](https://vega.8man.in/#download)
 
@@ -53,7 +55,7 @@ ___
 
 1. clone
      ```bash
-     git clone https://github.com/Zenda-Cross/vega-app.git
+     git clone https://github.com/angel7544/vega-app.git
      ```
      ```
      cd vega-app
@@ -76,7 +78,7 @@ https://reactnative.dev/docs/signed-apk-android
 
 ---
 > [!IMPORTANT]
-> Vega App does not store any media files on our servers and is not directly linked to the media. Third-party services host all media, and Vega App merely provides a search and web scraping tool that indexes publicly available data. We are not responsible for the content or availability of the media, as we do not host or control any of it.
+> Orbix Play does not store any media files on our servers and is not directly linked to the media. Third-party services host all media, and Orbix Play merely provides a search and web scraping tool that indexes publicly available data. We are not responsible for the content or availability of the media, as we do not host or control any of it.
 
 
 
@@ -97,7 +99,7 @@ graph TD
     Engine -->|"Large XML Pruning"| Parser["🔬 Data Parser"]
     Parser -->|"Tata Play Integration"| Metadata["🏗️ Metadata Alignment"]
     Parser -->|"JSON Chunking"| Storage["📦 Optimized JSON Storage"]
-    Storage -->|"On-Demand Fetching"| App["📱 Vega App Frontend"]
+    Storage -->|"On-Demand Fetching"| App["📱 Orbix Play Frontend"]
     App -->|"Virtual Grid"| Guide["📅 Live TV Guide"]
     App -->|"O(1) Lookup"| RealTime["⏱️ Real-time Schedules"]
 
@@ -110,7 +112,7 @@ graph TD
 
 > [!CAUTION]
 > **LEGAL NOTICE & PRIVACY**:
-> Vega App is a technology tool designed to provide a consolidated interface for searching and indexing content already available on the public internet. 
+> Orbix Play is a technology tool designed to provide a consolidated interface for searching and indexing content already available on the public internet. 
 > - **No Hosting**: We do **not** host, store, or upload any media, files, or copyrighted material on our servers. 
 > - **Source Linkage**: All content is provided via third-party services. 
 > - **Internet Availability**: We merely index publicly available web data for research and convenience purposes.
@@ -118,8 +120,8 @@ graph TD
 
 ## Stars
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Zenda-Cross/vega-app&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Zenda-Cross/vega-app&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Zenda-Cross/vega-app&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=angel7544/vega-app&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=angel7544/vega-app&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=angel7544/vega-app&type=Date" />
  </picture>
 </a>
