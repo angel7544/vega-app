@@ -28,6 +28,8 @@ interface PlayerState {
   epgData: Record<string, any[]>;
   setEpgData: (data: Record<string, any[]>) => void;
   updateChannelEpg: (url: string, programs: any[]) => void;
+  epgTimeOffset: number;
+  setEpgTimeOffset: (offset: number) => void;
 }
 
 export const DEFAULT_EPG_REPO = 'https://raw.githubusercontent.com/angel7544/vega-app/orbix-personal/src/epg-data';
@@ -43,6 +45,7 @@ const usePlayerStore = create<PlayerState>()(
       disableEpg: false,
       epgRepoUrl: DEFAULT_EPG_REPO,
       epgData: {},
+      epgTimeOffset: 0,
 
       toggleDisableEpg: () => set({ disableEpg: !get().disableEpg }),
       setEpgData: (data) => set({ epgData: data }),
@@ -52,6 +55,7 @@ const usePlayerStore = create<PlayerState>()(
 
       setCustomEpgUrl: (url: string | null) => set({ customEpgUrl: url }),
       setEpgRepoUrl: (url: string) => set({ epgRepoUrl: url }),
+      setEpgTimeOffset: (offset: number) => set({ epgTimeOffset: offset }),
 
       setActiveChannel: (channel) => set({ activeChannel: channel }),
 

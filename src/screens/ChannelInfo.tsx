@@ -58,7 +58,7 @@ const ChannelInfo = () => {
   const { 
     toggleFavorite, isFavorite, autoPlayChannel, toggleAutoPlayChannel, 
     customEpgUrl, setCustomEpgUrl, disableEpg, toggleDisableEpg,
-    epgData, updateChannelEpg 
+    epgData, updateChannelEpg, epgTimeOffset 
   } = usePlayerStore();
   const { show: showToast } = useToastStore();
   const insets = useSafeAreaInsets();
@@ -252,8 +252,17 @@ const ChannelInfo = () => {
   const currentProgram = useMemo(() => {
     const programs = epgData[channel.url];
     if (!programs || programs.length === 0) return null;
-    return programs.find(p => p.startTs <= now && p.stopTs > now) || programs[0];
-  }, [epgData, channel.url, now, reloadKey]);
+    
+    const offsetMs = (epgTimeOffset || 0) * 3600000;
+    return programs.find(p => (p.startTs + offsetMs) <= now && (p.stopTs + offsetMs) > now) || programs[0];
+  }, [epgData, channel.url, now, reloadKey, epgTimeOffset]);
+
+  const formatLocalTime = useCallback((ts: number) => {
+    if (!ts) return '';
+    const offsetMs = (epgTimeOffset || 0) * 3600000;
+    const date = new Date(ts + offsetMs);
+    return date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: true });
+  }, [epgTimeOffset]);
 
   const handleWatchNow = async () => {
     if (isFullScreen) {

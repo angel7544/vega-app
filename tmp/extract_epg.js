@@ -34,18 +34,23 @@ function cleanFileName(name) {
 
 function parseXmlTime(timeStr) {
     // Format: 20260404184500 +0000
-    const y = timeStr.slice(0, 4);
-    const m = timeStr.slice(4, 6);
-    const d = timeStr.slice(6, 8);
-    const h = timeStr.slice(8, 10);
-    const min = timeStr.slice(10, 12);
-    const sec = timeStr.slice(12, 14);
+    const regex = /^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})\s+([+-]\d{4})$/;
+    const m = timeStr.match(regex);
+    if (!m) {
+        // Fallback for malformed strings
+        return { ts: 0, display: '??:??' };
+    }
+
+    const [_, y, mo, d, h, mi, s, offset] = m;
     
-    // Use UTC for consistent timestamp generation
-    const date = new Date(Date.UTC(y, parseInt(m) - 1, d, h, min, sec));
+    // Create a date that JS can parse natively with offset
+    // Format: YYYY-MM-DDTHH:mm:ss+HHMM
+    const isoStr = `${y}-${mo}-${d}T${h}:${mi}:${s}${offset}`;
+    const date = new Date(isoStr);
+    
     return {
         ts: date.getTime(),
-        display: `${h}:${min}`
+        display: `${h}:${mi}`
     };
 }
 
