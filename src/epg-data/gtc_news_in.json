@@ -2,452 +2,481 @@
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260404183000 +0000",
+    "stop": "20260404190000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775329200000,
     "title": "Khabarsar",
     "desc": "The host presents the latest economic and political news stories from the country.",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065619"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260404190000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775329200000,
     "stopTs": 1775331000000,
     "title": "Khabaran Di Khabar",
     "desc": ".",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065603"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "19:30",
-    "stop": "20:30",
+    "start": "20260404193000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775334600000,
     "title": "Big Debate",
     "desc": "The host moderates a debate among experts on the ongoing issues of the nation.",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065627"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "20:30",
-    "stop": "21:30",
+    "start": "20260404203000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775338200000,
     "title": "Super Prime",
     "desc": "The host presents important issues and provides updates on current events.",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065624"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260404213000 +0000",
+    "stop": "20260404220000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775340000000,
     "title": "Khabarsar",
     "desc": "The host presents the latest economic and political news stories from the country.",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065628"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260404220000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775340000000,
     "stopTs": 1775341800000,
     "title": "Khabaran Di Khabar",
     "desc": ".",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065613"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "22:30",
-    "stop": "23:30",
+    "start": "20260404223000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775345400000,
     "title": "Big Debate",
     "desc": "The host moderates a debate among experts on the ongoing issues of the nation.",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065609"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260404233000 +0000",
+    "stop": "20260405000000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775347200000,
     "title": "Khabarsar",
     "desc": "The host presents the latest economic and political news stories from the country.",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065621"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260405000000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775347200000,
     "stopTs": 1775349000000,
     "title": "Khabaran Di Khabar",
     "desc": ".",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065610"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "00:30",
-    "stop": "01:30",
+    "start": "20260405003000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775352600000,
     "title": "Big Debate",
     "desc": "The host moderates a debate among experts on the ongoing issues of the nation.",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065599"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "01:30",
-    "stop": "02:30",
+    "start": "20260405013000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775356200000,
     "title": "Super Prime",
     "desc": "The host presents important issues and provides updates on current events.",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065608"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "02:30",
-    "stop": "03:30",
+    "start": "20260405023000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775359800000,
     "title": "GTC Kadak Khabran",
     "desc": ".",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065606"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "1 Minute Puri Khabar",
     "desc": "The host presents the latest news and developments surrounding various issues.",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065611"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "Khabaran Di Khabar",
     "desc": ".",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065594"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260405043000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775365200000,
     "title": "10 On Ten +3 Minute 30 News",
     "desc": ".",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065630"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775367000000,
     "title": "Satya With Satyendra",
     "desc": ".",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065620"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260405053000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775368800000,
     "title": "Khabar Update",
     "desc": ".",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065601"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260405060000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370600000,
     "title": "1 Minute Puri Khabar",
     "desc": "The host presents the latest news and developments surrounding various issues.",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065597"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260405063000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775372400000,
     "title": "Tez Tarar Khabran",
     "desc": ".",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065602"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "1 Minute Puri Khabar",
     "desc": "The host presents the latest news and developments surrounding various issues.",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065614"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260405073000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775377800000,
     "title": "Dopeher Express",
     "desc": ".",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065596"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260405083000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775381400000,
     "title": "GTC Afternoon Prime Debate",
     "desc": ".",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065617"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260405093000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775383200000,
     "title": "Tez Tarar Khabran",
     "desc": ".",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065622"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260405100000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775385000000,
     "title": "News Bulletin",
     "desc": "The hosts present some of the latest updates, current affairs and developments.",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065615"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260405103000 +0000",
+    "stop": "20260405110000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775386800000,
     "title": "Punjab Update",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065604"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260405110000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775386800000,
     "stopTs": 1775388600000,
     "title": "Punjab Update",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065626"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260405113000 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775390400000,
     "title": "5 Da Punch",
     "desc": "The host presents the latest headlines and updates on various issues.",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065616"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "Punjab Update",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065618"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260405123000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775394000000,
     "title": "Tuhada Shehar Tuhadi Khabar",
     "desc": ".",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065605"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "13:00",
-    "stop": "13:20",
+    "start": "20260405130000 +0000",
+    "stop": "20260405132000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395200000,
     "title": "Shehar Di Khabar",
     "desc": ".",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065625"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "13:20",
-    "stop": "14:20",
+    "start": "20260405132000 +0000",
+    "stop": "20260405142000 +0000",
     "startTs": 1775395200000,
     "stopTs": 1775398800000,
     "title": "Super Prime",
     "desc": "The host presents important issues and provides updates on current events.",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065598"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "14:20",
-    "stop": "15:30",
+    "start": "20260405142000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775398800000,
     "stopTs": 1775403000000,
     "title": "Big Debate",
     "desc": "The host moderates a debate among experts on the ongoing issues of the nation.",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065607"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260405153000 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775404800000,
     "title": "Khabaran Di Khabar",
     "desc": ".",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065595"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "15:30",
-    "stop": "16:00",
-    "startTs": 1775403000000,
-    "stopTs": 1775404800000,
-    "title": "Khabaran Di Khabar",
-    "desc": ".",
-    "category": null
-  },
-  {
-    "channelId": "ts1850",
-    "channelName": "GTC News",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260405160000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775406600000,
     "title": "Satya With Satyendra",
     "desc": ".",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065623"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "Khabarsar",
     "desc": "The host presents the latest economic and political news stories from the country.",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065629"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "17:00",
-    "stop": "18:00",
+    "start": "20260405170000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775412000000,
     "title": "Super Prime",
     "desc": "The host presents important issues and provides updates on current events.",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065600"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260405180000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775413800000,
     "title": "Khabaran Di Khabar",
     "desc": ".",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93065612"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260405183000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Khabarsar",
     "desc": "The host presents the latest economic and political news stories from the country.",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93099594"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260405190000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Khabaran Di Khabar",
     "desc": ".",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93099579"
   },
   {
     "channelId": "ts1850",
     "channelName": "GTC News",
-    "start": "19:30",
-    "stop": "20:30",
+    "start": "20260405193000 +0000",
+    "stop": "20260405203000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775421000000,
     "title": "Big Debate",
     "desc": "The host moderates a debate among experts on the ongoing issues of the nation.",
-    "category": null
+    "channel": "ts1850",
+    "catchup-id": "93099598"
   }
 ]

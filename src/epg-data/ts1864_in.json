@@ -2,221 +2,241 @@
   {
     "channelId": "ts1864",
     "channelName": "ts1864",
-    "start": "18:30",
-    "stop": "21:30",
+    "start": "20260404183000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775338200000,
     "title": "Samachar Today",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1864",
+    "catchup-id": "93060445"
   },
   {
     "channelId": "ts1864",
     "channelName": "ts1864",
-    "start": "21:30",
-    "stop": "22:30",
+    "start": "20260404213000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775341800000,
     "title": "Samachar Today",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1864",
+    "catchup-id": "93060452"
   },
   {
     "channelId": "ts1864",
     "channelName": "ts1864",
-    "start": "22:30",
-    "stop": "00:30",
+    "start": "20260404223000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775349000000,
     "title": "Samachar Today",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1864",
+    "catchup-id": "93060444"
   },
   {
     "channelId": "ts1864",
     "channelName": "ts1864",
-    "start": "00:30",
-    "stop": "02:30",
+    "start": "20260405003000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775356200000,
     "title": "Samachar Today",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1864",
+    "catchup-id": "93060456"
   },
   {
     "channelId": "ts1864",
     "channelName": "ts1864",
-    "start": "02:30",
-    "stop": "03:30",
+    "start": "20260405023000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775359800000,
     "title": "Samachar Today",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1864",
+    "catchup-id": "93060453"
   },
   {
     "channelId": "ts1864",
     "channelName": "ts1864",
-    "start": "03:30",
-    "stop": "04:30",
+    "start": "20260405033000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775363400000,
     "title": "Samachar Today",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1864",
+    "catchup-id": "93060447"
   },
   {
     "channelId": "ts1864",
     "channelName": "ts1864",
-    "start": "04:30",
-    "stop": "05:30",
+    "start": "20260405043000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775367000000,
     "title": "Samachar Today",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1864",
+    "catchup-id": "93060457"
   },
   {
     "channelId": "ts1864",
     "channelName": "ts1864",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260405053000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775368800000,
     "title": "Samachar Today",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1864",
+    "catchup-id": "93060461"
   },
   {
     "channelId": "ts1864",
     "channelName": "ts1864",
-    "start": "06:00",
-    "stop": "07:00",
+    "start": "20260405060000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775372400000,
     "title": "Samachar Today",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1864",
+    "catchup-id": "93060454"
   },
   {
     "channelId": "ts1864",
     "channelName": "ts1864",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "Samachar Today",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1864",
+    "catchup-id": "93060448"
   },
   {
     "channelId": "ts1864",
     "channelName": "ts1864",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260405073000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775377800000,
     "title": "Nation World News",
     "desc": ".",
-    "category": null
+    "channel": "ts1864",
+    "catchup-id": "93060459"
   },
   {
     "channelId": "ts1864",
     "channelName": "ts1864",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260405083000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775381400000,
     "title": "Samachar Today",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1864",
+    "catchup-id": "93060446"
   },
   {
     "channelId": "ts1864",
     "channelName": "ts1864",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260405093000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775383200000,
     "title": "Samachar Today",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1864",
+    "catchup-id": "93060449"
   },
   {
     "channelId": "ts1864",
     "channelName": "ts1864",
-    "start": "10:00",
-    "stop": "13:00",
+    "start": "20260405100000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775394000000,
     "title": "Samachar Today",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1864",
+    "catchup-id": "93060443"
   },
   {
     "channelId": "ts1864",
     "channelName": "ts1864",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260405130000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395800000,
     "title": "Samachar Today",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1864",
+    "catchup-id": "93060455"
   },
   {
     "channelId": "ts1864",
     "channelName": "ts1864",
-    "start": "13:30",
-    "stop": "14:30",
+    "start": "20260405133000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775399400000,
     "title": "Samachar Today",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1864",
+    "catchup-id": "93060450"
   },
   {
     "channelId": "ts1864",
     "channelName": "ts1864",
-    "start": "14:30",
-    "stop": "15:30",
+    "start": "20260405143000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775403000000,
     "title": "Samachar Today",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1864",
+    "catchup-id": "93060451"
   },
   {
     "channelId": "ts1864",
     "channelName": "ts1864",
-    "start": "15:30",
-    "stop": "16:30",
+    "start": "20260405153000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775406600000,
     "title": "Samachar Today",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1864",
+    "catchup-id": "93060460"
   },
   {
     "channelId": "ts1864",
     "channelName": "ts1864",
-    "start": "16:30",
-    "stop": "18:30",
+    "start": "20260405163000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775413800000,
     "title": "Samachar Today",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1864",
+    "catchup-id": "93060458"
   },
   {
     "channelId": "ts1864",
     "channelName": "ts1864",
-    "start": "18:30",
-    "stop": "21:30",
+    "start": "20260405183000 +0000",
+    "stop": "20260405213000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775424600000,
     "title": "Samachar Today",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1864",
+    "catchup-id": "93090956"
   }
 ]

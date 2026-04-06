@@ -2,12 +2,13 @@
   {
     "channelId": "ts560",
     "channelName": "ts560",
-    "start": "18:59",
-    "stop": "20:44",
+    "start": "20260405185900 +0000",
+    "stop": "20260405204400 +0000",
     "startTs": 1775415540000,
     "stopTs": 1775421840000,
     "title": "Journey to the West: Conquering the Demons",
     "desc": "A Buddhist teams up with a demon hunter to protect a small fishing village from demons.",
-    "category": null
+    "channel": "ts560",
+    "catchup-id": "93274652"
   }
 ]

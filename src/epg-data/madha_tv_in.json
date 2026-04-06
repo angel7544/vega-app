@@ -2,1002 +2,1081 @@
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260404183000 +0000",
+    "stop": "20260404190000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775329200000,
     "title": "Aram Sei",
     "desc": "The host interacts with a panel of experts who share and discuss important topics.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067047"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "19:00",
-    "stop": "19:15",
+    "start": "20260404190000 +0000",
+    "stop": "20260404191500 +0000",
     "startTs": 1775329200000,
     "stopTs": 1775330100000,
     "title": "Andrada Unavu",
     "desc": "A Christian leader shares teachings on applying biblical principles to daily life.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067026"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "19:15",
-    "stop": "20:00",
+    "start": "20260404191500 +0000",
+    "stop": "20260404200000 +0000",
     "startTs": 1775330100000,
     "stopTs": 1775332800000,
     "title": "Songs",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067050"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260404200000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775332800000,
     "stopTs": 1775334600000,
     "title": "Easter Songs",
     "desc": "A comprehensive compilation of hymns commemorating the occasion of Easter is played.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93238969"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260404203000 +0000",
+    "stop": "20260404210000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775336400000,
     "title": "Praise and Worship",
     "desc": "A comprehensive compilation of devotional songs played back to back.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067015"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260404210000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775336400000,
     "stopTs": 1775338200000,
     "title": "Easter-Vazhvu Tharum Iraivarthai",
     "desc": "Renowned religious leaders discuss different the aspects of Christianity.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067021"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260404213000 +0000",
+    "stop": "20260404220000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775340000000,
     "title": "Divine Mercy Rosary",
     "desc": "Devotees recite the Chaplet of the Divine Mercy while using a rosary.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067037"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260404220000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775340000000,
     "stopTs": 1775341800000,
     "title": "Pascha B.C -A.D",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067027"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260404223000 +0000",
+    "stop": "20260404230000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775343600000,
     "title": "Vazhvu Tharum Iraivarthai",
     "desc": "Renowned religious leaders discuss different the aspects of Christianity.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067040"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260404230000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775343600000,
     "stopTs": 1775345400000,
     "title": "Glorious Rosary",
     "desc": "Devotees pray the rosary and reflect on the glorious aspects of Jesus Christ's life.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067023"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "23:30",
-    "stop": "23:45",
+    "start": "20260404233000 +0000",
+    "stop": "20260404234500 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775346300000,
     "title": "Potri Iraiva",
     "desc": "A religious speaker conducts a service commemorating the sacrifices of Jesus Christ.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067041"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "23:45",
-    "stop": "00:10",
+    "start": "20260404234500 +0000",
+    "stop": "20260405001000 +0000",
     "startTs": 1775346300000,
     "stopTs": 1775347800000,
     "title": "Thirupugal Maalai",
     "desc": "A collection of devotional songs and hymns, praising the glory of Mother Mary.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067029"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "00:10",
-    "stop": "00:15",
+    "start": "20260405001000 +0000",
+    "stop": "20260405001500 +0000",
     "startTs": 1775347800000,
     "stopTs": 1775348100000,
     "title": "Andrada Unavu",
     "desc": "A Christian leader shares teachings on applying biblical principles to daily life.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067044"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "00:15",
-    "stop": "00:30",
+    "start": "20260405001500 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775348100000,
     "stopTs": 1775349000000,
     "title": "Easter Songs",
     "desc": "A comprehensive compilation of hymns commemorating the occasion of Easter is played.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067045"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "00:30",
-    "stop": "00:32",
+    "start": "20260405003000 +0000",
+    "stop": "20260405003200 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775349120000,
     "title": "Angelus",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067022"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "00:32",
-    "stop": "01:30",
+    "start": "20260405003200 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775349120000,
     "stopTs": 1775352600000,
     "title": "Holy Mass",
     "desc": "A religious leader conducts a service to offer their prayers to the Almighty.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067054"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "01:30",
-    "stop": "02:30",
+    "start": "20260405013000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775356200000,
     "title": "Kadavul Vanakkam",
     "desc": "A spiritual leader shares profound insights on the significance of worship.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067017"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "02:30",
-    "stop": "03:30",
+    "start": "20260405023000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775359800000,
     "title": "Holy Mass",
     "desc": "A religious leader conducts a service to offer their prayers to the Almighty.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067051"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "Andrada Unavu",
     "desc": "A Christian leader shares teachings on applying biblical principles to daily life.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067024"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "03:30",
-    "stop": "04:00",
-    "startTs": 1775359800000,
-    "stopTs": 1775361600000,
-    "title": "Andrada Unavu",
-    "desc": "A Christian leader shares teachings on applying biblical principles to daily life.",
-    "category": null
-  },
-  {
-    "channelId": "ts390",
-    "channelName": "Madha TV",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "Christmas Geethangal",
     "desc": "Various choirs perform religious songs and sacred hymns, praising the Almighty.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067025"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260405043000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775365200000,
     "title": "Glorious Rosary",
     "desc": "Devotees pray the rosary and reflect on the glorious aspects of Jesus Christ's life.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067048"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775367000000,
     "title": "Songs",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067039"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "05:30",
-    "stop": "06:30",
+    "start": "20260405053000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775370600000,
     "title": "Arathanai SCC",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067055"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "06:30",
-    "stop": "06:32",
+    "start": "20260405063000 +0000",
+    "stop": "20260405063200 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775370720000,
     "title": "Angelus",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067046"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "06:32",
-    "stop": "07:00",
+    "start": "20260405063200 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370720000,
     "stopTs": 1775372400000,
     "title": "Praise and Worship",
     "desc": "A comprehensive compilation of devotional songs played back to back.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067034"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "Alayam Arivom",
     "desc": "The host provides a detailed report on aspects surrounding prominent places of worship.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067018"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260405073000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775377800000,
     "title": "Holy Mass",
     "desc": "A religious leader conducts a service to offer their prayers to the Almighty.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067031"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260405083000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775381400000,
     "title": "Madha Talkies",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067049"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260405093000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775383200000,
     "title": "Divine Mercy Rosary",
     "desc": "Devotees recite the Chaplet of the Divine Mercy while using a rosary.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067035"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260405100000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775385000000,
     "title": "Kadavul Vanakkam",
     "desc": "A spiritual leader shares profound insights on the significance of worship.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067036"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "10:30",
-    "stop": "11:30",
+    "start": "20260405103000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775388600000,
     "title": "Praise and Worship",
     "desc": "A comprehensive compilation of devotional songs played back to back.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067038"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260405113000 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775390400000,
     "title": "Paadi Pugazhvom",
     "desc": "Various religious singers sing glorious songs and hymns in praise of the Almighty.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067043"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "Aram Sei",
     "desc": "The host interacts with a panel of experts who share and discuss important topics.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067019"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "12:30",
-    "stop": "13:30",
+    "start": "20260405123000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775395800000,
     "title": "Angelus",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067028"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "13:30",
-    "stop": "14:30",
+    "start": "20260405133000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775399400000,
     "title": "Madha Kudumbam",
     "desc": "Bringing the best in televison.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067030"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775401200000,
     "title": "Glorious Rosary",
     "desc": "Devotees pray the rosary and reflect on the glorious aspects of Jesus Christ's life.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067020"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "Vatican Top 10",
     "desc": "The host sheds light on the top ten stories from Vatican City.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067033"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260405153000 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775404800000,
     "title": "Nalama Neenga Nalama",
     "desc": "A spiritual leader offers guidance and answers to the queries and questions of devotees.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067042"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260405160000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775406600000,
     "title": "Vanthathum Thanthathum",
     "desc": "A religious leader delivers a detailed discourse on the various facets of God, prayer and worship.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067052"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "Goodnight Talk",
     "desc": "A religious leader delivers a discourse on the teachings of the Almighty.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067032"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "17:00",
-    "stop": "18:00",
+    "start": "20260405170000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775412000000,
     "title": "Arathanai SCC",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067016"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260405180000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775413800000,
     "title": "Songs",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93067014"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260405183000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Praise and Worship",
     "desc": "A comprehensive compilation of devotional songs played back to back.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93102423"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260405190000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Vazhvu Tharum Iraivarthai",
     "desc": "Renowned religious leaders discuss different the aspects of Christianity.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93102417"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "19:30",
-    "stop": "20:30",
+    "start": "20260405193000 +0000",
+    "stop": "20260405203000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775421000000,
     "title": "Holy Mass",
     "desc": "A religious leader conducts a service to offer their prayers to the Almighty.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93102418"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260406183000 +0000",
+    "stop": "20260406190000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775502000000,
     "title": "Vanthathum Thanthathum",
     "desc": "A religious leader delivers a detailed discourse on the various facets of God, prayer and worship.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139176"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "19:00",
-    "stop": "19:15",
+    "start": "20260406190000 +0000",
+    "stop": "20260406191500 +0000",
     "startTs": 1775502000000,
     "stopTs": 1775502900000,
     "title": "Andrada Unavu",
     "desc": "A Christian leader shares teachings on applying biblical principles to daily life.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139174"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "19:15",
-    "stop": "19:30",
+    "start": "20260406191500 +0000",
+    "stop": "20260406193000 +0000",
     "startTs": 1775502900000,
     "stopTs": 1775503800000,
     "title": "Songs",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139207"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "19:30",
-    "stop": "20:30",
+    "start": "20260406193000 +0000",
+    "stop": "20260406203000 +0000",
     "startTs": 1775503800000,
     "stopTs": 1775507400000,
     "title": "Holy Mass",
     "desc": "A religious leader conducts a service to offer their prayers to the Almighty.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139195"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260406203000 +0000",
+    "stop": "20260406210000 +0000",
     "startTs": 1775507400000,
     "stopTs": 1775509200000,
     "title": "Puthagam Pesugurathu",
     "desc": "The host interacts with writers and poets, who shed light on their works.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139173"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260406210000 +0000",
+    "stop": "20260406213000 +0000",
     "startTs": 1775509200000,
     "stopTs": 1775511000000,
     "title": "Easter Special",
     "desc": ".",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139204"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260406213000 +0000",
+    "stop": "20260406220000 +0000",
     "startTs": 1775511000000,
     "stopTs": 1775512800000,
     "title": "Divine Mercy Rosary",
     "desc": "Devotees recite the Chaplet of the Divine Mercy while using a rosary.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139203"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260406220000 +0000",
+    "stop": "20260406223000 +0000",
     "startTs": 1775512800000,
     "stopTs": 1775514600000,
     "title": "Eduthu Vaasi",
     "desc": "A Christian priest provides theological insights from the book of Exodus.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139185"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260406223000 +0000",
+    "stop": "20260406230000 +0000",
     "startTs": 1775514600000,
     "stopTs": 1775516400000,
     "title": "Yazh Marai Varam",
     "desc": ".",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139198"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260406230000 +0000",
+    "stop": "20260406233000 +0000",
     "startTs": 1775516400000,
     "stopTs": 1775518200000,
     "title": "Rosary",
     "desc": ".",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139200"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "23:30",
-    "stop": "23:45",
+    "start": "20260406233000 +0000",
+    "stop": "20260406234500 +0000",
     "startTs": 1775518200000,
     "stopTs": 1775519100000,
     "title": "Potri Iraiva",
     "desc": "A religious speaker conducts a service commemorating the sacrifices of Jesus Christ.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139187"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "23:45",
-    "stop": "00:10",
+    "start": "20260406234500 +0000",
+    "stop": "20260407001000 +0000",
     "startTs": 1775519100000,
     "stopTs": 1775520600000,
     "title": "Thirupugal Maalai",
     "desc": "A collection of devotional songs and hymns, praising the glory of Mother Mary.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139177"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "00:10",
-    "stop": "00:15",
+    "start": "20260407001000 +0000",
+    "stop": "20260407001500 +0000",
     "startTs": 1775520600000,
     "stopTs": 1775520900000,
     "title": "Andrada Unavu",
     "desc": "A Christian leader shares teachings on applying biblical principles to daily life.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139210"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "00:15",
-    "stop": "00:30",
+    "start": "20260407001500 +0000",
+    "stop": "20260407003000 +0000",
     "startTs": 1775520900000,
     "stopTs": 1775521800000,
     "title": "Songs",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139178"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "00:30",
-    "stop": "00:32",
+    "start": "20260407003000 +0000",
+    "stop": "20260407003200 +0000",
     "startTs": 1775521800000,
     "stopTs": 1775521920000,
     "title": "Easter Angelus",
     "desc": "The host provides a detailed insight into the significance of Easter.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139201"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "00:32",
-    "stop": "01:30",
+    "start": "20260407003200 +0000",
+    "stop": "20260407013000 +0000",
     "startTs": 1775521920000,
     "stopTs": 1775525400000,
     "title": "Holy Mass",
     "desc": "A religious leader conducts a service to offer their prayers to the Almighty.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139186"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "01:30",
-    "stop": "02:30",
+    "start": "20260407013000 +0000",
+    "stop": "20260407023000 +0000",
     "startTs": 1775525400000,
     "stopTs": 1775529000000,
     "title": "Kadavul Vanakkam",
     "desc": "A spiritual leader shares profound insights on the significance of worship.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139211"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260407023000 +0000",
+    "stop": "20260407030000 +0000",
     "startTs": 1775529000000,
     "stopTs": 1775530800000,
     "title": "Songs",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139180"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "03:00",
-    "stop": "03:15",
+    "start": "20260407030000 +0000",
+    "stop": "20260407031500 +0000",
     "startTs": 1775530800000,
     "stopTs": 1775531700000,
     "title": "Andrada Unavu",
     "desc": "A Christian leader shares teachings on applying biblical principles to daily life.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139188"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "03:15",
-    "stop": "03:30",
+    "start": "20260407031500 +0000",
+    "stop": "20260407033000 +0000",
     "startTs": 1775531700000,
     "stopTs": 1775532600000,
     "title": "Songs",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139189"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260407033000 +0000",
+    "stop": "20260407040000 +0000",
     "startTs": 1775532600000,
     "stopTs": 1775534400000,
     "title": "Songs & Prayers",
     "desc": "Christian devotees sing a compilation of hymns praising God and spend time in prayer.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139209"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260407040000 +0000",
+    "stop": "20260407043000 +0000",
     "startTs": 1775534400000,
     "stopTs": 1775536200000,
     "title": "Eduthu Vaasi",
     "desc": "A Christian priest provides theological insights from the book of Exodus.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139193"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260407043000 +0000",
+    "stop": "20260407050000 +0000",
     "startTs": 1775536200000,
     "stopTs": 1775538000000,
     "title": "Rosary",
     "desc": ".",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139190"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260407050000 +0000",
+    "stop": "20260407053000 +0000",
     "startTs": 1775538000000,
     "stopTs": 1775539800000,
     "title": "Yazh Marai Varam",
     "desc": ".",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139183"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "05:30",
-    "stop": "06:30",
+    "start": "20260407053000 +0000",
+    "stop": "20260407063000 +0000",
     "startTs": 1775539800000,
     "stopTs": 1775543400000,
     "title": "Arathanai",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139202"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "06:30",
-    "stop": "06:32",
+    "start": "20260407063000 +0000",
+    "stop": "20260407063200 +0000",
     "startTs": 1775543400000,
     "stopTs": 1775543520000,
     "title": "Easter Angelus",
     "desc": "The host provides a detailed insight into the significance of Easter.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139212"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "06:32",
-    "stop": "07:00",
+    "start": "20260407063200 +0000",
+    "stop": "20260407070000 +0000",
     "startTs": 1775543520000,
     "stopTs": 1775545200000,
     "title": "Prayers And Songs",
     "desc": "The rendering of sacred hymns and songs in praise of the Almighty is played.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139181"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260407073000 +0000",
+    "stop": "20260407083000 +0000",
     "startTs": 1775547000000,
     "stopTs": 1775550600000,
     "title": "Holy Mass",
     "desc": "A religious leader conducts a service to offer their prayers to the Almighty.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139184"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260407083000 +0000",
+    "stop": "20260407093000 +0000",
     "startTs": 1775550600000,
     "stopTs": 1775554200000,
     "title": "Madha Talkies",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139208"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260407093000 +0000",
+    "stop": "20260407100000 +0000",
     "startTs": 1775554200000,
     "stopTs": 1775556000000,
     "title": "Divine Mercy Rosary",
     "desc": "Devotees recite the Chaplet of the Divine Mercy while using a rosary.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139175"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260407100000 +0000",
+    "stop": "20260407103000 +0000",
     "startTs": 1775556000000,
     "stopTs": 1775557800000,
     "title": "Kadavul Vanakkam",
     "desc": "A spiritual leader shares profound insights on the significance of worship.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139194"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260407103000 +0000",
+    "stop": "20260407110000 +0000",
     "startTs": 1775557800000,
     "stopTs": 1775559600000,
     "title": "Uyirthezhu Nanba",
     "desc": "A religious leader delivers a discourse on the spiritual significance of Easter.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139196"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260407110000 +0000",
+    "stop": "20260407113000 +0000",
     "startTs": 1775559600000,
     "stopTs": 1775561400000,
     "title": "Puthagam Pesugurathu",
     "desc": "The host interacts with writers and poets, who shed light on their works.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139214"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260407113000 +0000",
+    "stop": "20260407120000 +0000",
     "startTs": 1775561400000,
     "stopTs": 1775563200000,
     "title": "Vatican Top 10",
     "desc": "The host sheds light on the top ten stories from Vatican City.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139205"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "12:00",
-    "stop": "12:15",
+    "start": "20260407120000 +0000",
+    "stop": "20260407121500 +0000",
     "startTs": 1775563200000,
     "stopTs": 1775564100000,
     "title": "Andrada Unavu",
     "desc": "A Christian leader shares teachings on applying biblical principles to daily life.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139171"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "12:30",
-    "stop": "12:32",
+    "start": "20260407123000 +0000",
+    "stop": "20260407123200 +0000",
     "startTs": 1775565000000,
     "stopTs": 1775565120000,
     "title": "Easter Angelus",
     "desc": "The host provides a detailed insight into the significance of Easter.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139191"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "12:32",
-    "stop": "13:00",
+    "start": "20260407123200 +0000",
+    "stop": "20260407130000 +0000",
     "startTs": 1775565120000,
     "stopTs": 1775566800000,
     "title": "Holy Mass",
     "desc": "A religious leader conducts a service to offer their prayers to the Almighty.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139182"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260407130000 +0000",
+    "stop": "20260407133000 +0000",
     "startTs": 1775566800000,
     "stopTs": 1775568600000,
     "title": "Eduthu Vaasi",
     "desc": "A Christian priest provides theological insights from the book of Exodus.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139206"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260407133000 +0000",
+    "stop": "20260407140000 +0000",
     "startTs": 1775568600000,
     "stopTs": 1775570400000,
     "title": "Bro. Selvam",
     "desc": "Religious leader Brother Selvam delivers a discourse on the teachings of the Bible.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139172"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260407140000 +0000",
+    "stop": "20260407143000 +0000",
     "startTs": 1775570400000,
     "stopTs": 1775572200000,
     "title": "Avar Peyar Mariya",
     "desc": "A religious leader discusses various verses from holy scriptures.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139192"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260407143000 +0000",
+    "stop": "20260407150000 +0000",
     "startTs": 1775572200000,
     "stopTs": 1775574000000,
     "title": "Rosary",
     "desc": ".",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139199"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260407150000 +0000",
+    "stop": "20260407153000 +0000",
     "startTs": 1775574000000,
     "stopTs": 1775575800000,
     "title": "Easter Special",
     "desc": ".",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139213"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260407160000 +0000",
+    "stop": "20260407163000 +0000",
     "startTs": 1775577600000,
     "stopTs": 1775579400000,
     "title": "Goodnight Talk",
     "desc": "A religious leader delivers a discourse on the teachings of the Almighty.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139179"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "16:30",
-    "stop": "17:30",
+    "start": "20260407163000 +0000",
+    "stop": "20260407173000 +0000",
     "startTs": 1775579400000,
     "stopTs": 1775583000000,
     "title": "Arathanai",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139197"
   },
   {
     "channelId": "ts390",
     "channelName": "Madha TV",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260407173000 +0000",
+    "stop": "20260407180000 +0000",
     "startTs": 1775583000000,
     "stopTs": 1775584800000,
     "title": "Prayers And Songs",
     "desc": "The rendering of sacred hymns and songs in praise of the Almighty is played.",
-    "category": null
+    "channel": "ts390",
+    "catchup-id": "93139215"
   }
 ]

@@ -2,67 +2,73 @@
   {
     "channelId": "ts1035",
     "channelName": "ts1035",
-    "start": "18:30",
-    "stop": "22:30",
+    "start": "20260404183000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775341800000,
     "title": "Bhakti Darshan Live",
     "desc": ".",
-    "category": null
+    "channel": "ts1035",
+    "catchup-id": "93156299"
   },
   {
     "channelId": "ts1035",
     "channelName": "ts1035",
-    "start": "22:30",
-    "stop": "02:30",
+    "start": "20260404223000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775356200000,
     "title": "Bhakti Darshan Live",
     "desc": ".",
-    "category": null
+    "channel": "ts1035",
+    "catchup-id": "93156295"
   },
   {
     "channelId": "ts1035",
     "channelName": "ts1035",
-    "start": "02:30",
-    "stop": "06:30",
+    "start": "20260405023000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775370600000,
     "title": "Bhakti Darshan Live",
     "desc": ". S01 E01.",
-    "category": null
+    "channel": "ts1035",
+    "catchup-id": "93156296"
   },
   {
     "channelId": "ts1035",
     "channelName": "ts1035",
-    "start": "06:30",
-    "stop": "10:30",
+    "start": "20260405063000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775385000000,
     "title": "Bhakti Darshan Live",
     "desc": ". S01 E01.",
-    "category": null
+    "channel": "ts1035",
+    "catchup-id": "93156297"
   },
   {
     "channelId": "ts1035",
     "channelName": "ts1035",
-    "start": "10:30",
-    "stop": "14:30",
+    "start": "20260405103000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775399400000,
     "title": "Bhakti Darshan Live",
     "desc": ". S01 E01.",
-    "category": null
+    "channel": "ts1035",
+    "catchup-id": "93156298"
   },
   {
     "channelId": "ts1035",
     "channelName": "ts1035",
-    "start": "14:30",
-    "stop": "18:30",
+    "start": "20260405143000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775413800000,
     "title": "Bhakti Darshan Live",
     "desc": ". S01 E01.",
-    "category": null
+    "channel": "ts1035",
+    "catchup-id": "93156300"
   }
 ]

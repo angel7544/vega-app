@@ -2,1013 +2,1105 @@
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260404183000 +0000",
+    "stop": "20260404190000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775329200000,
     "title": "Love is Fate",
     "desc": "An heiress discovers a complicated web of secrets that threatens to destroy her life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061239"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260404190000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775329200000,
     "stopTs": 1775331000000,
     "title": "Love is Fate",
     "desc": "An heiress discovers a complicated web of secrets that threatens to destroy her life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061256"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260404193000 +0000",
+    "stop": "20260404200000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775332800000,
     "title": "Love is Fate",
     "desc": "An heiress discovers a complicated web of secrets that threatens to destroy her life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061222"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260404200000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775332800000,
     "stopTs": 1775334600000,
     "title": "Love is Fate",
     "desc": "An heiress discovers a complicated web of secrets that threatens to destroy her life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061250"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260404203000 +0000",
+    "stop": "20260404210000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775336400000,
     "title": "Love is Fate",
     "desc": "An heiress discovers a complicated web of secrets that threatens to destroy her life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061252"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260404210000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775336400000,
     "stopTs": 1775338200000,
     "title": "Love in Loop",
     "desc": "An employee gets stuck in a time loop after her boss keeps losing his life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061251"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260404213000 +0000",
+    "stop": "20260404220000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775340000000,
     "title": "Love in Loop",
     "desc": "An employee gets stuck in a time loop after her boss keeps losing his life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061240"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260404220000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775340000000,
     "stopTs": 1775341800000,
     "title": "Love in Loop",
     "desc": "An employee gets stuck in a time loop after her boss keeps losing his life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061215"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260404223000 +0000",
+    "stop": "20260404230000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775343600000,
     "title": "Love in Loop",
     "desc": "An employee gets stuck in a time loop after her boss keeps losing his life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061233"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260404230000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775343600000,
     "stopTs": 1775345400000,
     "title": "Love in Loop",
     "desc": "An employee gets stuck in a time loop after her boss keeps losing his life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061223"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260404233000 +0000",
+    "stop": "20260405000000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775347200000,
     "title": "Love In Shanghai",
     "desc": "Two university classmates move to Shanghai and brave many challenges.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061229"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260405000000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775347200000,
     "stopTs": 1775349000000,
     "title": "Love In Shanghai",
     "desc": "Two university classmates move to Shanghai and brave many challenges.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061218"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260405003000 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775350800000,
     "title": "Love In Shanghai",
     "desc": "Two university classmates move to Shanghai and brave many challenges.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061258"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260405010000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775352600000,
     "title": "Love In Shanghai",
     "desc": "Two university classmates move to Shanghai and brave many challenges.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061230"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260405013000 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775354400000,
     "title": "Love In Shanghai",
     "desc": "Two university classmates move to Shanghai and brave many challenges.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061245"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260405020000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775356200000,
     "title": "Limited 72 Hrs of Love",
     "desc": "Su Nuan Nuan acquires a mysterious package that initiates an extraordinary romance.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061237"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260405023000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775358000000,
     "title": "Limited 72 Hrs of Love",
     "desc": "Su Nuan Nuan acquires a mysterious package that initiates an extraordinary romance.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061231"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "Limited 72 Hrs of Love",
     "desc": "Su Nuan Nuan acquires a mysterious package that initiates an extraordinary romance.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061234"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "Limited 72 Hrs of Love",
     "desc": "Su Nuan Nuan acquires a mysterious package that initiates an extraordinary romance.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061254"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "Limited 72 Hrs of Love",
     "desc": "Su Nuan Nuan acquires a mysterious package that initiates an extraordinary romance.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061255"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260405043000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775365200000,
     "title": "Love is Fate",
     "desc": "An heiress discovers a complicated web of secrets that threatens to destroy her life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061238"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775367000000,
     "title": "Love is Fate",
     "desc": "An heiress discovers a complicated web of secrets that threatens to destroy her life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061242"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260405053000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775368800000,
     "title": "Love is Fate",
     "desc": "An heiress discovers a complicated web of secrets that threatens to destroy her life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061213"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260405060000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370600000,
     "title": "Love is Fate",
     "desc": "An heiress discovers a complicated web of secrets that threatens to destroy her life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061243"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260405063000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775372400000,
     "title": "Love is Fate",
     "desc": "An heiress discovers a complicated web of secrets that threatens to destroy her life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061232"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "Love in Loop",
     "desc": "An employee gets stuck in a time loop after her boss keeps losing his life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061244"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260405073000 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775376000000,
     "title": "Love in Loop",
     "desc": "An employee gets stuck in a time loop after her boss keeps losing his life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061235"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260405080000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775377800000,
     "title": "Love in Loop",
     "desc": "An employee gets stuck in a time loop after her boss keeps losing his life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061253"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260405083000 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775379600000,
     "title": "Love in Loop",
     "desc": "An employee gets stuck in a time loop after her boss keeps losing his life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061248"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260405090000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775381400000,
     "title": "Love in Loop",
     "desc": "An employee gets stuck in a time loop after her boss keeps losing his life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061216"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260405093000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775383200000,
     "title": "Love In Shanghai",
     "desc": "Two university classmates move to Shanghai and brave many challenges.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061221"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260405100000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775385000000,
     "title": "Love In Shanghai",
     "desc": "Two university classmates move to Shanghai and brave many challenges.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061219"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260405103000 +0000",
+    "stop": "20260405110000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775386800000,
     "title": "Love In Shanghai",
     "desc": "Two university classmates move to Shanghai and brave many challenges.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061257"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260405110000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775386800000,
     "stopTs": 1775388600000,
     "title": "Love In Shanghai",
     "desc": "Two university classmates move to Shanghai and brave many challenges.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061228"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260405113000 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775390400000,
     "title": "Love In Shanghai",
     "desc": "Two university classmates move to Shanghai and brave many challenges.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061227"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "Limited 72 Hrs of Love",
     "desc": "Su Nuan Nuan acquires a mysterious package that initiates an extraordinary romance.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061220"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260405123000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775394000000,
     "title": "Limited 72 Hrs of Love",
     "desc": "Su Nuan Nuan acquires a mysterious package that initiates an extraordinary romance.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061236"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260405130000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395800000,
     "title": "Limited 72 Hrs of Love",
     "desc": "Su Nuan Nuan acquires a mysterious package that initiates an extraordinary romance.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061246"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260405133000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775397600000,
     "title": "Limited 72 Hrs of Love",
     "desc": "Su Nuan Nuan acquires a mysterious package that initiates an extraordinary romance.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061224"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "Limited 72 Hrs of Love",
     "desc": "Su Nuan Nuan acquires a mysterious package that initiates an extraordinary romance.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061247"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775401200000,
     "title": "Love is Fate",
     "desc": "An heiress discovers a complicated web of secrets that threatens to destroy her life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061217"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "Love is Fate",
     "desc": "An heiress discovers a complicated web of secrets that threatens to destroy her life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061214"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260405153000 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775404800000,
     "title": "Love is Fate",
     "desc": "An heiress discovers a complicated web of secrets that threatens to destroy her life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061249"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260405160000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775406600000,
     "title": "Love is Fate",
     "desc": "An heiress discovers a complicated web of secrets that threatens to destroy her life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061259"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "Love is Fate",
     "desc": "An heiress discovers a complicated web of secrets that threatens to destroy her life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061260"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "Love in Loop",
     "desc": "An employee gets stuck in a time loop after her boss keeps losing his life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061241"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260405173000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775412000000,
     "title": "Love in Loop",
     "desc": "An employee gets stuck in a time loop after her boss keeps losing his life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93061226"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260405180000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775413800000,
     "title": "Love in Loop",
     "desc": "An employee gets stuck in a time loop after her boss keeps losing his life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93166565"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "18:30",
-    "stop": "19:30",
+    "start": "20260406183000 +0000",
+    "stop": "20260406193000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775503800000,
     "title": "K-Pop Music",
     "desc": "A rejuvenating musical journey through the resplendent and glamorous world of Korean pop.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205333"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260406193000 +0000",
+    "stop": "20260406200000 +0000",
     "startTs": 1775503800000,
     "stopTs": 1775505600000,
     "title": "Real Time Love",
     "desc": "Hong Yun and Ye Chan are friends since their school days, yet both yearn for romance.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205325"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260406200000 +0000",
+    "stop": "20260406203000 +0000",
     "startTs": 1775505600000,
     "stopTs": 1775507400000,
     "title": "My Secret Terrius",
     "desc": "Go Ae-rin and Kim Bon discover her dead husband's involvement in a conspiracy.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205321"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260406203000 +0000",
+    "stop": "20260406210000 +0000",
     "startTs": 1775507400000,
     "stopTs": 1775509200000,
     "title": "365 Repeat the Year",
     "desc": "A detective and a webtoon artist gets a chance to reset their lives by a year.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205314"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260406210000 +0000",
+    "stop": "20260406213000 +0000",
     "startTs": 1775509200000,
     "stopTs": 1775511000000,
     "title": "Queen and I",
     "desc": "A scholar from the Joseon Dynasty time-travels to modern-day Seoul when faced with death.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205336"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260406213000 +0000",
+    "stop": "20260406220000 +0000",
     "startTs": 1775511000000,
     "stopTs": 1775512800000,
     "title": "Love is Fate",
     "desc": "An heiress discovers a complicated web of secrets that threatens to destroy her life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205339"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260406220000 +0000",
+    "stop": "20260406223000 +0000",
     "startTs": 1775512800000,
     "stopTs": 1775514600000,
     "title": "Out With A Bang",
     "desc": "An injured e-sports star's life takes a turn when he crosses paths with a fiery recruiter.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205312"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260406223000 +0000",
+    "stop": "20260406230000 +0000",
     "startTs": 1775514600000,
     "stopTs": 1775516400000,
     "title": "Love In Shanghai",
     "desc": "Two university classmates move to Shanghai and brave many challenges.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205352"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260406230000 +0000",
+    "stop": "20260406233000 +0000",
     "startTs": 1775516400000,
     "stopTs": 1775518200000,
     "title": "Limited 72 Hrs of Love",
     "desc": "Su Nuan Nuan acquires a mysterious package that initiates an extraordinary romance.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205335"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260406233000 +0000",
+    "stop": "20260407000000 +0000",
     "startTs": 1775518200000,
     "stopTs": 1775520000000,
     "title": "Real Time Love",
     "desc": "Hong Yun and Ye Chan are friends since their school days, yet both yearn for romance.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205355"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260407000000 +0000",
+    "stop": "20260407003000 +0000",
     "startTs": 1775520000000,
     "stopTs": 1775521800000,
     "title": "My Secret Terrius",
     "desc": "Go Ae-rin and Kim Bon discover her dead husband's involvement in a conspiracy.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205348"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "00:30",
-    "stop": "01:30",
+    "start": "20260407003000 +0000",
+    "stop": "20260407013000 +0000",
     "startTs": 1775521800000,
     "stopTs": 1775525400000,
     "title": "K-Pop Music",
     "desc": "A rejuvenating musical journey through the resplendent and glamorous world of Korean pop.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205349"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260407013000 +0000",
+    "stop": "20260407020000 +0000",
     "startTs": 1775525400000,
     "stopTs": 1775527200000,
     "title": "Real Time Love",
     "desc": "Hong Yun and Ye Chan are friends since their school days, yet both yearn for romance.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205338"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260407020000 +0000",
+    "stop": "20260407023000 +0000",
     "startTs": 1775527200000,
     "stopTs": 1775529000000,
     "title": "My Secret Terrius",
     "desc": "Go Ae-rin and Kim Bon discover her dead husband's involvement in a conspiracy.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205320"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260407023000 +0000",
+    "stop": "20260407030000 +0000",
     "startTs": 1775529000000,
     "stopTs": 1775530800000,
     "title": "365 Repeat the Year",
     "desc": "A detective and a webtoon artist gets a chance to reset their lives by a year.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205318"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260407030000 +0000",
+    "stop": "20260407033000 +0000",
     "startTs": 1775530800000,
     "stopTs": 1775532600000,
     "title": "Queen and I",
     "desc": "A scholar from the Joseon Dynasty time-travels to modern-day Seoul when faced with death.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205345"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260407033000 +0000",
+    "stop": "20260407040000 +0000",
     "startTs": 1775532600000,
     "stopTs": 1775534400000,
     "title": "Love is Fate",
     "desc": "An heiress discovers a complicated web of secrets that threatens to destroy her life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205343"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260407040000 +0000",
+    "stop": "20260407043000 +0000",
     "startTs": 1775534400000,
     "stopTs": 1775536200000,
     "title": "Out With A Bang",
     "desc": "An injured e-sports star's life takes a turn when he crosses paths with a fiery recruiter.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205347"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260407043000 +0000",
+    "stop": "20260407050000 +0000",
     "startTs": 1775536200000,
     "stopTs": 1775538000000,
     "title": "Love In Shanghai",
     "desc": "Two university classmates move to Shanghai and brave many challenges.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205341"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260407050000 +0000",
+    "stop": "20260407053000 +0000",
     "startTs": 1775538000000,
     "stopTs": 1775539800000,
     "title": "Limited 72 Hrs of Love",
     "desc": "Su Nuan Nuan acquires a mysterious package that initiates an extraordinary romance.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205324"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260407053000 +0000",
+    "stop": "20260407060000 +0000",
     "startTs": 1775539800000,
     "stopTs": 1775541600000,
     "title": "Real Time Love",
     "desc": "Hong Yun and Ye Chan are friends since their school days, yet both yearn for romance.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205319"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260407060000 +0000",
+    "stop": "20260407063000 +0000",
     "startTs": 1775541600000,
     "stopTs": 1775543400000,
     "title": "My Secret Terrius",
     "desc": "Go Ae-rin and Kim Bon discover her dead husband's involvement in a conspiracy.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205342"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "06:30",
-    "stop": "07:30",
+    "start": "20260407063000 +0000",
+    "stop": "20260407073000 +0000",
     "startTs": 1775543400000,
     "stopTs": 1775547000000,
     "title": "K-Pop Music",
     "desc": "A rejuvenating musical journey through the resplendent and glamorous world of Korean pop.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205334"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260407073000 +0000",
+    "stop": "20260407080000 +0000",
     "startTs": 1775547000000,
     "stopTs": 1775548800000,
     "title": "Real Time Love",
     "desc": "Hong Yun and Ye Chan are friends since their school days, yet both yearn for romance.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205337"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260407080000 +0000",
+    "stop": "20260407083000 +0000",
     "startTs": 1775548800000,
     "stopTs": 1775550600000,
     "title": "My Secret Terrius",
     "desc": "Go Ae-rin and Kim Bon discover her dead husband's involvement in a conspiracy.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205350"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260407083000 +0000",
+    "stop": "20260407090000 +0000",
     "startTs": 1775550600000,
     "stopTs": 1775552400000,
     "title": "365 Repeat the Year",
     "desc": "A detective and a webtoon artist gets a chance to reset their lives by a year.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205326"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260407090000 +0000",
+    "stop": "20260407093000 +0000",
     "startTs": 1775552400000,
     "stopTs": 1775554200000,
     "title": "Queen and I",
     "desc": "A scholar from the Joseon Dynasty time-travels to modern-day Seoul when faced with death.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205327"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260407093000 +0000",
+    "stop": "20260407100000 +0000",
     "startTs": 1775554200000,
     "stopTs": 1775556000000,
     "title": "Love is Fate",
     "desc": "An heiress discovers a complicated web of secrets that threatens to destroy her life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205313"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260407100000 +0000",
+    "stop": "20260407103000 +0000",
     "startTs": 1775556000000,
     "stopTs": 1775557800000,
     "title": "Out With A Bang",
     "desc": "An injured e-sports star's life takes a turn when he crosses paths with a fiery recruiter.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205332"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260407103000 +0000",
+    "stop": "20260407110000 +0000",
     "startTs": 1775557800000,
     "stopTs": 1775559600000,
     "title": "Love In Shanghai",
     "desc": "Two university classmates move to Shanghai and brave many challenges.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205323"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260407110000 +0000",
+    "stop": "20260407113000 +0000",
     "startTs": 1775559600000,
     "stopTs": 1775561400000,
     "title": "Limited 72 Hrs of Love",
     "desc": "Su Nuan Nuan acquires a mysterious package that initiates an extraordinary romance.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205317"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260407113000 +0000",
+    "stop": "20260407120000 +0000",
     "startTs": 1775561400000,
     "stopTs": 1775563200000,
     "title": "Real Time Love",
     "desc": "Hong Yun and Ye Chan are friends since their school days, yet both yearn for romance.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205346"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260407120000 +0000",
+    "stop": "20260407123000 +0000",
     "startTs": 1775563200000,
     "stopTs": 1775565000000,
     "title": "My Secret Terrius",
     "desc": "Go Ae-rin and Kim Bon discover her dead husband's involvement in a conspiracy.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205351"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "12:30",
-    "stop": "13:30",
+    "start": "20260407123000 +0000",
+    "stop": "20260407133000 +0000",
     "startTs": 1775565000000,
     "stopTs": 1775568600000,
     "title": "K-Pop Music",
     "desc": "A rejuvenating musical journey through the resplendent and glamorous world of Korean pop.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205331"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260407133000 +0000",
+    "stop": "20260407140000 +0000",
     "startTs": 1775568600000,
     "stopTs": 1775570400000,
     "title": "Real Time Love",
     "desc": "Hong Yun and Ye Chan are friends since their school days, yet both yearn for romance.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205353"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260407140000 +0000",
+    "stop": "20260407143000 +0000",
     "startTs": 1775570400000,
     "stopTs": 1775572200000,
     "title": "My Secret Terrius",
     "desc": "Go Ae-rin and Kim Bon discover her dead husband's involvement in a conspiracy.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205354"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260407143000 +0000",
+    "stop": "20260407150000 +0000",
     "startTs": 1775572200000,
     "stopTs": 1775574000000,
     "title": "365 Repeat the Year",
     "desc": "A detective and a webtoon artist gets a chance to reset their lives by a year.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205315"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260407150000 +0000",
+    "stop": "20260407153000 +0000",
     "startTs": 1775574000000,
     "stopTs": 1775575800000,
     "title": "Queen and I",
     "desc": "A scholar from the Joseon Dynasty time-travels to modern-day Seoul when faced with death.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205322"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260407153000 +0000",
+    "stop": "20260407160000 +0000",
     "startTs": 1775575800000,
     "stopTs": 1775577600000,
     "title": "Love is Fate",
     "desc": "An heiress discovers a complicated web of secrets that threatens to destroy her life.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205344"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260407160000 +0000",
+    "stop": "20260407163000 +0000",
     "startTs": 1775577600000,
     "stopTs": 1775579400000,
     "title": "Out With A Bang",
     "desc": "An injured e-sports star's life takes a turn when he crosses paths with a fiery recruiter.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205328"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260407163000 +0000",
+    "stop": "20260407170000 +0000",
     "startTs": 1775579400000,
     "stopTs": 1775581200000,
     "title": "Love In Shanghai",
     "desc": "Two university classmates move to Shanghai and brave many challenges.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205329"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260407170000 +0000",
+    "stop": "20260407173000 +0000",
     "startTs": 1775581200000,
     "stopTs": 1775583000000,
     "title": "Limited 72 Hrs of Love",
     "desc": "Su Nuan Nuan acquires a mysterious package that initiates an extraordinary romance.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205316"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260407173000 +0000",
+    "stop": "20260407180000 +0000",
     "startTs": 1775583000000,
     "stopTs": 1775584800000,
     "title": "Real Time Love",
     "desc": "Hong Yun and Ye Chan are friends since their school days, yet both yearn for romance.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205330"
   },
   {
     "channelId": "ts943",
     "channelName": "Tata Play K-Dramas",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260407180000 +0000",
+    "stop": "20260407183000 +0000",
     "startTs": 1775584800000,
     "stopTs": 1775586600000,
     "title": "My Secret Terrius",
     "desc": "Go Ae-rin and Kim Bon discover her dead husband's involvement in a conspiracy.",
-    "category": null
+    "channel": "ts943",
+    "catchup-id": "93205340"
   }
 ]

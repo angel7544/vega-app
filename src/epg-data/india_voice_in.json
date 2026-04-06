@@ -2,562 +2,613 @@
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260404183000 +0000",
+    "stop": "20260404190000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775329200000,
     "title": "Final Bulletin",
     "desc": "The host presents the latest social, political and economic news updates and developments.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157819"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260404190000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775329200000,
     "stopTs": 1775331000000,
     "title": "Gunaah",
     "desc": "The host presents daily crime-based news stories updates and investigations.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157831"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260404193000 +0000",
+    "stop": "20260404200000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775332800000,
     "title": "Debate Jharkhand",
     "desc": "The host moderates debates with political leaders and experts on crucial issues of Jharkhand.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157824"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260404200000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775332800000,
     "stopTs": 1775334600000,
     "title": "Debate Jharkhand",
     "desc": "The host moderates debates with political leaders and experts on crucial issues of Jharkhand.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157802"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260404203000 +0000",
+    "stop": "20260404210000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775336400000,
     "title": "Mudde Ki Baat",
     "desc": "The host conducts discussions with experts on matters of national importance.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157796"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260404210000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775336400000,
     "stopTs": 1775338200000,
     "title": "Mudde Ki Baat",
     "desc": "The host conducts discussions with experts on matters of national importance.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157793"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260404213000 +0000",
+    "stop": "20260404220000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775340000000,
     "title": "Final Bulletin",
     "desc": "The host presents the latest social, political and economic news updates and developments.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157798"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260404220000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775340000000,
     "stopTs": 1775341800000,
     "title": "Tv Ka Tadka",
     "desc": "The host discusses and analyses the latest updates from the entertainment industry.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157791"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260404223000 +0000",
+    "stop": "20260404230000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775343600000,
     "title": "Final Bulletin",
     "desc": "The host presents the latest social, political and economic news updates and developments.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157832"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260404230000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775343600000,
     "stopTs": 1775345400000,
     "title": "Gunaah",
     "desc": "The host presents daily crime-based news stories updates and investigations.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157810"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260404233000 +0000",
+    "stop": "20260405000000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775347200000,
     "title": "Debate Jharkhand",
     "desc": "The host moderates debates with political leaders and experts on crucial issues of Jharkhand.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157799"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260405000000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775347200000,
     "stopTs": 1775349000000,
     "title": "Debate Jharkhand",
     "desc": "The host moderates debates with political leaders and experts on crucial issues of Jharkhand.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157817"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260405003000 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775350800000,
     "title": "Special / Tba",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157818"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260405010000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775352600000,
     "title": "Debate Jharkhand",
     "desc": "The host moderates debates with political leaders and experts on crucial issues of Jharkhand.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157807"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260405013000 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775354400000,
     "title": "Bulletin Live",
     "desc": "The host presents the latest social, economic and political top stories, live.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157816"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260405020000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775356200000,
     "title": "Debate Jharkhand",
     "desc": "The host moderates debates with political leaders and experts on crucial issues of Jharkhand.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157837"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260405023000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775358000000,
     "title": "News Bulletin Live",
     "desc": "The host sheds light on the latest news updates from across the nation and the world, live.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157795"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "Debate Jharkhand",
     "desc": "The host moderates debates with political leaders and experts on crucial issues of Jharkhand.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157792"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "News Bulletin Live",
     "desc": "The host sheds light on the latest news updates from across the nation and the world, live.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157826"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "Jharkhand / Bihar Bulletin Live",
     "desc": "The host presents the latest news updates from Bihar and Jharkhand, live.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157820"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260405043000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775365200000,
     "title": "Bulletin Live",
     "desc": "The host presents the latest social, economic and political top stories, live.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157805"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775367000000,
     "title": "Super Fast Live",
     "desc": "The host presents the latest news on social, economic, political and other events, live.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157821"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260405053000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775368800000,
     "title": "Bulletin Live",
     "desc": "The host presents the latest social, economic and political top stories, live.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157814"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260405060000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370600000,
     "title": "Uttarakhand Live",
     "desc": "The host sheds light on the latest news from around Uttarakhand, live.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157804"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260405063000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775372400000,
     "title": "Bulletin Live",
     "desc": "The host presents the latest social, economic and political top stories, live.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157815"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "Special / Tba",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157834"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260405073000 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775376000000,
     "title": "Newsroom Live",
     "desc": "The host talks about the latest and most important news from the city and world, live.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157835"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260405080000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775377800000,
     "title": "Super Fast Live",
     "desc": "The host presents the latest news on social, economic, political and other events, live.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157829"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260405083000 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775379600000,
     "title": "News Bulletin Live",
     "desc": "The host sheds light on the latest news updates from across the nation and the world, live.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157830"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260405090000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775381400000,
     "title": "Ent live / Tba",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157825"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260405093000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775383200000,
     "title": "News Bulletin Live",
     "desc": "The host sheds light on the latest news updates from across the nation and the world, live.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157806"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260405100000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775385000000,
     "title": "Tv Ka Tadka",
     "desc": "The host discusses and analyses the latest updates from the entertainment industry.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157794"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260405103000 +0000",
+    "stop": "20260405110000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775386800000,
     "title": "News Bulletin Live",
     "desc": "The host sheds light on the latest news updates from across the nation and the world, live.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157827"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260405110000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775386800000,
     "stopTs": 1775388600000,
     "title": "Jharkhand / Bihar Bulletin Live",
     "desc": "The host presents the latest news updates from Bihar and Jharkhand, live.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157801"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260405113000 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775390400000,
     "title": "News Bulletin Live",
     "desc": "The host sheds light on the latest news updates from across the nation and the world, live.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157822"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "Special / Tba",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157813"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260405123000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775394000000,
     "title": "News Bulletin Live",
     "desc": "The host sheds light on the latest news updates from across the nation and the world, live.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157808"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260405130000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395800000,
     "title": "Special Programme",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157828"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260405133000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775397600000,
     "title": "Uttarakhand Live",
     "desc": "The host sheds light on the latest news from around Uttarakhand, live.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157809"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "Super Fast Live",
     "desc": "The host presents the latest news on social, economic, political and other events, live.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157811"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775401200000,
     "title": "News Bulletin Live",
     "desc": "The host sheds light on the latest news updates from across the nation and the world, live.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157833"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "Special / Tba",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157838"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260405153000 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775404800000,
     "title": "Bulletin Live",
     "desc": "The host presents the latest social, economic and political top stories, live.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157797"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260405160000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775406600000,
     "title": "Gunaah Live",
     "desc": "The host sheds light on a number of criminal cases from all over the country, live.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157812"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "Final Bulletin Live",
     "desc": "The host sheds light on the latest news updates and developments making headlines, live.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157800"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "Special Programme",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157803"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260405173000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775412000000,
     "title": "Final Bulletin",
     "desc": "The host presents the latest social, political and economic news updates and developments.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157836"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260405180000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775413800000,
     "title": "ENT / TBA",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93157823"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260405183000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Final Bulletin",
     "desc": "The host presents the latest social, political and economic news updates and developments.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93100721"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260405190000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Gunaah",
     "desc": "The host presents daily crime-based news stories updates and investigations.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93100693"
   },
   {
     "channelId": "ts685",
     "channelName": "India Voice",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260405193000 +0000",
+    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Final Bulletin",
     "desc": "The host presents the latest social, political and economic news updates and developments.",
-    "category": null
+    "channel": "ts685",
+    "catchup-id": "93100722"
   }
 ]

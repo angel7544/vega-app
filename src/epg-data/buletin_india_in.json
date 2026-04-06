@@ -2,518 +2,553 @@
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260404190000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775329200000,
     "stopTs": 1775331000000,
     "title": "Desh- Videsh",
     "desc": "The host presents the latest news updates from India and around the world.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153760"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260404193000 +0000",
+    "stop": "20260404200000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775332800000,
     "title": "Aap No Jillo Aap Ni Vaat",
     "desc": "The host provides insights into the latest news stories and significant updates.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153745"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260404200000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775332800000,
     "stopTs": 1775334600000,
     "title": "Bullet Khabar",
     "desc": "The host sheds light on the latest socio-economic, political as well as sports news.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153727"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260404203000 +0000",
+    "stop": "20260404210000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775336400000,
     "title": "Top 20",
     "desc": "The host sheds light on the top 20 stories and news in quick succession.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153762"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260404210000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775336400000,
     "stopTs": 1775338200000,
     "title": "Reporters Point",
     "desc": "The host presents the latest news updates about events taking place in the state.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153769"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260404213000 +0000",
+    "stop": "20260404220000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775340000000,
     "title": "Vijaynad",
     "desc": "The host invites politicians to share their views on the elections and electoral parties.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153757"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260404220000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775340000000,
     "stopTs": 1775341800000,
     "title": "Sangeetmay Safar",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153749"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260404223000 +0000",
+    "stop": "20260404230000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775343600000,
     "title": "Top Trending",
     "desc": "The host sheds light on the trending national and international news stories.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153747"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260404230000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775343600000,
     "stopTs": 1775345400000,
     "title": "Bulletin Vishesh",
     "desc": "The host shares the latest news updates and developments from across the nation.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153730"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260404233000 +0000",
+    "stop": "20260405000000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775347200000,
     "title": "Gujrat Ni Vaat",
     "desc": "The host presents updates on the latest issues from across the state of Gujarat.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153733"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260405000000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775347200000,
     "stopTs": 1775349000000,
     "title": "Metro Update",
     "desc": "The host presents the top updates from the metropolitan cities across India.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153758"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260405003000 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775350800000,
     "title": "Mangal Prabhat",
     "desc": "The host sheds light on the latest news updates and developments happening around India.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153750"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260405010000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775352600000,
     "title": "Prabhat Aarti",
     "desc": "A religious leader performs the morning aarti and chants verses from Hindu scriptures.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153751"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260405013000 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775354400000,
     "title": "Morning Time",
     "desc": "The host provides the latest news updates and stories from around the world and country.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153761"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "01:30",
-    "stop": "02:00",
-    "startTs": 1775352600000,
-    "stopTs": 1775354400000,
-    "title": "Morning Time",
-    "desc": "The host provides the latest news updates and stories from around the world and country.",
-    "category": null
-  },
-  {
-    "channelId": "ts930",
-    "channelName": "Buletin India",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260405020000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775356200000,
     "title": "Yoga",
     "desc": "The host demonstrates yoga asanas and breathing exercises for a healthy life.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153731"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260405023000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775358000000,
     "title": "Morning Update",
     "desc": "The host presents updates on the latest social, political and economic issues.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153764"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "Bullet Khabar",
     "desc": "The host sheds light on the latest socio-economic, political as well as sports news.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153767"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "Moti Khabar",
     "desc": "The host presents the latest news updates pertaining to various important topics.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153770"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "Vijaynad",
     "desc": "The host invites politicians to share their views on the elections and electoral parties.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153765"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260405043000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775365200000,
     "title": "Gujrat Ni Vaat",
     "desc": "The host presents updates on the latest issues from across the state of Gujarat.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153743"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775367000000,
     "title": "Bulletin Vishesh",
     "desc": "The host shares the latest news updates and developments from across the nation.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153768"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260405053000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775368800000,
     "title": "Top 20",
     "desc": "The host sheds light on the top 20 stories and news in quick succession.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153735"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260405060000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370600000,
     "title": "Gujrat Ni Vaat",
     "desc": "The host presents updates on the latest issues from across the state of Gujarat.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153738"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260405063000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775372400000,
     "title": "Bullet Khabar",
     "desc": "The host sheds light on the latest socio-economic, political as well as sports news.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153729"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "Top 20",
     "desc": "The host sheds light on the top 20 stories and news in quick succession.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153753"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260405073000 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775376000000,
     "title": "Metro Update",
     "desc": "The host presents the top updates from the metropolitan cities across India.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153741"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260405080000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775377800000,
     "title": "Top Trending",
     "desc": "The host sheds light on the trending national and international news stories.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153744"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260405083000 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775379600000,
     "title": "Gujrat Ni Vaat",
     "desc": "The host presents updates on the latest issues from across the state of Gujarat.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153752"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260405090000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775381400000,
     "title": "Metro Update",
     "desc": "The host presents the top updates from the metropolitan cities across India.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153739"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260405093000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775383200000,
     "title": "Top 20",
     "desc": "The host sheds light on the top 20 stories and news in quick succession.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153763"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260405100000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775385000000,
     "title": "Sangeetmay Safar",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153737"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260405103000 +0000",
+    "stop": "20260405110000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775386800000,
     "title": "Bullet Khabar",
     "desc": "The host sheds light on the latest socio-economic, political as well as sports news.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153755"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260405110000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775386800000,
     "stopTs": 1775388600000,
     "title": "Top 20",
     "desc": "The host sheds light on the top 20 stories and news in quick succession.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153740"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260405113000 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775390400000,
     "title": "Metro Update",
     "desc": "The host presents the top updates from the metropolitan cities across India.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153759"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "Vijaynad",
     "desc": "The host invites politicians to share their views on the elections and electoral parties.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153728"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260405123000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775394000000,
     "title": "Aap No Jillo Aap Ni Vaat",
     "desc": "The host provides insights into the latest news stories and significant updates.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153754"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260405130000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395800000,
     "title": "Metro Update",
     "desc": "The host presents the top updates from the metropolitan cities across India.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153734"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260405133000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775397600000,
     "title": "Moti Khabar",
     "desc": "The host presents the latest news updates pertaining to various important topics.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153732"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "Top 20",
     "desc": "The host sheds light on the top 20 stories and news in quick succession.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153771"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "14:30",
-    "stop": "15:30",
+    "start": "20260405143000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775403000000,
     "title": "To The Topic",
     "desc": "The host invites prominent personalities to discuss topics and gain their views.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153756"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260405153000 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775404800000,
     "title": "Reporters Point",
     "desc": "The host presents the latest news updates about events taking place in the state.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153766"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260405160000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775406600000,
     "title": "Bullet Khabar",
     "desc": "The host sheds light on the latest socio-economic, political as well as sports news.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153772"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "Desh- Videsh",
     "desc": "The host presents the latest news updates from India and around the world.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153746"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "Bulletin Vishesh",
     "desc": "The host shares the latest news updates and developments from across the nation.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153742"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260405173000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775412000000,
     "title": "Update Gujrat",
     "desc": "The host shares the latest news stories, updates and developments from Gujarat, India.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153736"
   },
   {
     "channelId": "ts930",
     "channelName": "Buletin India",
-    "start": "18:00",
-    "stop": "19:00",
+    "start": "20260405180000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775415600000,
     "title": "To The Topic",
     "desc": "The host invites prominent personalities to discuss topics and gain their views.",
-    "category": null
+    "channel": "ts930",
+    "catchup-id": "93153748"
   }
 ]

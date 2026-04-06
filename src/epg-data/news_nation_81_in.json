@@ -2,562 +2,613 @@
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260404183000 +0000",
+    "stop": "20260404190000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775329200000,
     "title": "Special PKJ",
     "desc": "The host provides a detailed report on matters concerning the nation and the world.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156799"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260404190000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775329200000,
     "stopTs": 1775331000000,
     "title": "Desh Ki Awaaz",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156785"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260404193000 +0000",
+    "stop": "20260404200000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775332800000,
     "title": "Superfast News",
     "desc": "The host presents the latest updates on various social, political and economic issues.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156770"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260404200000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775332800000,
     "stopTs": 1775334600000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156774"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260404203000 +0000",
+    "stop": "20260404210000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775336400000,
     "title": "Viral Adda",
     "desc": "The host presents the latest viral news stories taking place all over the country.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156795"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260404210000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775336400000,
     "stopTs": 1775338200000,
     "title": "NN81 Special",
     "desc": "The host presents the latest news and developments surrounding various issues in the country.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156782"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260404213000 +0000",
+    "stop": "20260404220000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775340000000,
     "title": "Bollywood Hungama",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156786"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260404220000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775340000000,
     "stopTs": 1775341800000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156775"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260404223000 +0000",
+    "stop": "20260404230000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775343600000,
     "title": "Desh Ki Awaaz",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156779"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260404230000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775343600000,
     "stopTs": 1775345400000,
     "title": "Superfast News",
     "desc": "The host presents the latest updates on various social, political and economic issues.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156773"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260404233000 +0000",
+    "stop": "20260405000000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775347200000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156762"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260405000000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775347200000,
     "stopTs": 1775349000000,
     "title": "NN81 Special",
     "desc": "The host presents the latest news and developments surrounding various issues in the country.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156766"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260405003000 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775350800000,
     "title": "Bhakti Bhajan",
     "desc": "A comprehensive compilation of devotional songs by various artists.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156764"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260405010000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775352600000,
     "title": "Naaptol",
     "desc": "The host showcases products that customers can purchase from the comfort of their homes.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156796"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260405013000 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775354400000,
     "title": "Rashi Fal",
     "desc": "An astrologer explores horoscopes, planetary shifts and their impact on life.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156768"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260405020000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775356200000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156778"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260405023000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775358000000,
     "title": "Good Morning Nation",
     "desc": "The host presents the latest news stories and major updates on crucial matters of the nation.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156801"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "Special PKJ",
     "desc": "The host provides a detailed report on matters concerning the nation and the world.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156787"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "Desh Ki Awaaz",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156783"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "Superfast News",
     "desc": "The host presents the latest updates on various social, political and economic issues.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156800"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260405043000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775365200000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156788"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775367000000,
     "title": "Viral Adda",
     "desc": "The host presents the latest viral news stories taking place all over the country.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156767"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260405053000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775368800000,
     "title": "NN81 Special",
     "desc": "The host presents the latest news and developments surrounding various issues in the country.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156769"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260405060000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370600000,
     "title": "Bollywood Hungama",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156761"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260405063000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775372400000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156765"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "Special PKJ",
     "desc": "The host provides a detailed report on matters concerning the nation and the world.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156790"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260405073000 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775376000000,
     "title": "Desh Ki Awaaz",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156776"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260405080000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775377800000,
     "title": "Superfast News",
     "desc": "The host presents the latest updates on various social, political and economic issues.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156791"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260405083000 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775379600000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156763"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260405090000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775381400000,
     "title": "Viral Adda",
     "desc": "The host presents the latest viral news stories taking place all over the country.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156792"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260405093000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775383200000,
     "title": "NN81 Special",
     "desc": "The host presents the latest news and developments surrounding various issues in the country.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156797"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260405100000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775385000000,
     "title": "Operation Panja",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156780"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260405103000 +0000",
+    "stop": "20260405110000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775386800000,
     "title": "Rahisyo Ki Duniya",
     "desc": "The host sheds light on the top secrets of the world and discusses the myths behind it.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156802"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260405110000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775386800000,
     "stopTs": 1775388600000,
     "title": "Comedy Program",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156771"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260405113000 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775390400000,
     "title": "Special PKJ",
     "desc": "The host provides a detailed report on matters concerning the nation and the world.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156757"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "Superfast News",
     "desc": "The host presents the latest updates on various social, political and economic issues.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156798"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260405123000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775394000000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156789"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260405130000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395800000,
     "title": "Prime News",
     "desc": "Top news stories from business, politics, and social issues of local and international significance.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156777"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260405133000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775397600000,
     "title": "Health Khazana",
     "desc": "Health experts discuss various measures to maintain general health and overall wellbeing.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156803"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "Special PKJ",
     "desc": "The host provides a detailed report on matters concerning the nation and the world.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156758"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775401200000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156760"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "Viral Adda",
     "desc": "The host presents the latest viral news stories taking place all over the country.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156794"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260405153000 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775404800000,
     "title": "NN81 Special",
     "desc": "The host presents the latest news and developments surrounding various issues in the country.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156793"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260405160000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775406600000,
     "title": "Operation Panja",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156781"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "Rahisyo Ki Duniya",
     "desc": "The host sheds light on the top secrets of the world and discusses the myths behind it.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156759"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "Desh Ki Awaaz",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156772"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260405173000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775412000000,
     "title": "Superfast News",
     "desc": "The host presents the latest updates on various social, political and economic issues.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156784"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260405180000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775413800000,
     "title": "Prime News",
     "desc": "Top news stories from business, politics, and social issues of local and international significance.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93156804"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260405183000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Special PKJ",
     "desc": "The host provides a detailed report on matters concerning the nation and the world.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93087290"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260405190000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Desh Ki Awaaz",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93087292"
   },
   {
     "channelId": "ts1470",
     "channelName": "News Nation 81",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260405193000 +0000",
+    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Superfast News",
     "desc": "The host presents the latest updates on various social, political and economic issues.",
-    "category": null
+    "channel": "ts1470",
+    "catchup-id": "93087314"
   }
 ]

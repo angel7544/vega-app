@@ -2,23 +2,25 @@
   {
     "channelId": "ts342",
     "channelName": "R Kannada",
-    "start": "18:55",
-    "stop": "19:25",
+    "start": "20260405185500 +0000",
+    "stop": "20260405192500 +0000",
     "startTs": 1775415300000,
     "stopTs": 1775417100000,
     "title": "Karnataka Primetime",
     "desc": "The host presents the latest updates on various pressing issues across Karnataka.",
-    "category": null
+    "channel": "ts342",
+    "catchup-id": "93206729"
   },
   {
     "channelId": "ts342",
     "channelName": "R Kannada",
-    "start": "19:25",
-    "stop": "19:55",
+    "start": "20260405192500 +0000",
+    "stop": "20260405195500 +0000",
     "startTs": 1775417100000,
     "stopTs": 1775418900000,
     "title": "Mahabharata",
     "desc": "The host and panellists engage in a heated debate over various pressing matters.",
-    "category": null
+    "channel": "ts342",
+    "catchup-id": "93206710"
   }
 ]

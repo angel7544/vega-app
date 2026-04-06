@@ -2,23 +2,25 @@
   {
     "channelId": "ts550",
     "channelName": "ts550",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260405190000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Udne Ki Aasha",
     "desc": "An aspirational Saili tries to turn her unmotivated husband into a competent person. S01 E753.",
-    "category": null
+    "channel": "ts550",
+    "catchup-id": "93109736"
   },
   {
     "channelId": "ts550",
     "channelName": "ts550",
-    "start": "19:30",
-    "stop": "22:30",
+    "start": "20260405193000 +0000",
+    "stop": "20260405223000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775428200000,
     "title": "Yeh Rishta Kya Kehlata Hai",
     "desc": "While Dr Abhimanyu gets attracted to Akshara, Arohi begins to fall in love with him. S01 E119.",
-    "category": null
+    "channel": "ts550",
+    "catchup-id": "93109737"
   }
 ]

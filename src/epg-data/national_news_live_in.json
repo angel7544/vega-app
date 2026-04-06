@@ -2,265 +2,289 @@
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "18:30",
-    "stop": "19:30",
+    "start": "20260404183000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775331000000,
     "title": "National News Live Super 100",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156647"
   },
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "19:30",
-    "stop": "20:30",
+    "start": "20260404193000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775334600000,
     "title": "Oye Music Showcase",
     "desc": "The host presents a compilation of glimpses and trailers from several upcoming movies.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156645"
   },
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "20:30",
-    "stop": "21:30",
+    "start": "20260404203000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775338200000,
     "title": "Desh Duniya",
     "desc": "The host presents important issues and provides updates on current events.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156640"
   },
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "21:30",
-    "stop": "22:30",
+    "start": "20260404213000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775341800000,
     "title": "National News Live Breaking",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156644"
   },
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "22:30",
-    "stop": "23:30",
+    "start": "20260404223000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775345400000,
     "title": "Jeewan Bhagti",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156639"
   },
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "23:30",
-    "stop": "00:30",
+    "start": "20260404233000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775349000000,
     "title": "Madhur Bhajan",
     "desc": "A compilation of devotional songs played back-to-back to spread the message of devotion.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156654"
   },
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "00:30",
-    "stop": "01:30",
+    "start": "20260405003000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775352600000,
     "title": "Good Morning India",
     "desc": "The host presents the latest national and global news on a wide range of topics.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156658"
   },
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "01:30",
-    "stop": "02:30",
+    "start": "20260405013000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775356200000,
     "title": "Haryana Buzz Surkhiyan Akhbaro Se",
     "desc": "The host presents a detailed analysis of some of the biggest news stories.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156646"
   },
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "02:30",
-    "stop": "03:30",
+    "start": "20260405023000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775359800000,
     "title": "National News Live Breaking",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156648"
   },
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "03:30",
-    "stop": "04:30",
+    "start": "20260405033000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775363400000,
     "title": "Newsroom",
     "desc": "The host presents the latest social, economic and political news from around the world.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156649"
   },
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "04:30",
-    "stop": "05:30",
+    "start": "20260405043000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775367000000,
     "title": "Khabar 10 Baje",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156655"
   },
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "05:30",
-    "stop": "06:30",
+    "start": "20260405053000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775370600000,
     "title": "National News Live Super 100",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156635"
   },
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "06:30",
-    "stop": "07:30",
+    "start": "20260405063000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775374200000,
     "title": "Khas Khabar",
     "desc": "The host presents the most recent political, social and economic news from the country.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156653"
   },
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260405073000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775377800000,
     "title": "National News Live Breaking",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156641"
   },
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260405083000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775381400000,
     "title": "Mere Wala Serial",
     "desc": "The host talks about the latest television shows and the latest celebrity gossip.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156652"
   },
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "09:30",
-    "stop": "10:30",
+    "start": "20260405093000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775385000000,
     "title": "Oye Music Junction",
     "desc": "A compilation of some of the most popular songs is played back to back.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156656"
   },
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "10:30",
-    "stop": "11:30",
+    "start": "20260405103000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775388600000,
     "title": "Jeewan Bhagti",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156651"
   },
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "11:30",
-    "stop": "12:30",
+    "start": "20260405113000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775392200000,
     "title": "National News Live Super 100",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156636"
   },
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "12:30",
-    "stop": "13:30",
+    "start": "20260405123000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775395800000,
     "title": "National News Live Breaking",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156638"
   },
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "13:30",
-    "stop": "14:30",
+    "start": "20260405133000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775399400000,
     "title": "The Jitender Dangi Show",
     "desc": "The host invites experts from various fields and conducts an insightful discussion.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156657"
   },
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "14:30",
-    "stop": "15:30",
+    "start": "20260405143000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775403000000,
     "title": "Prime Time With Tarnum Parveen",
     "desc": "Host Tarnum Parveen provides an in-depth analysis of the latest news stories.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156650"
   },
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "15:30",
-    "stop": "16:30",
+    "start": "20260405153000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775406600000,
     "title": "National News Live @ 9",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156642"
   },
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "16:30",
-    "stop": "17:30",
+    "start": "20260405163000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775410200000,
     "title": "Khabar 10 Baje",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156637"
   },
   {
     "channelId": "ts1254",
     "channelName": "National News Live",
-    "start": "17:30",
-    "stop": "18:30",
+    "start": "20260405173000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775413800000,
     "title": "National News Live Breaking",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1254",
+    "catchup-id": "93156643"
   }
 ]

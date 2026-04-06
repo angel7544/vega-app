@@ -2,1046 +2,1141 @@
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260405190000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Cinema Tent",
     "desc": "The host presents news updates pertaining to the entertainment industry.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103909"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260405193000 +0000",
+    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Gili Gili Politics",
     "desc": "The hosts present the latest political news and updates with a comical twist.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103940"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260405200000 +0000",
+    "stop": "20260405203000 +0000",
     "startTs": 1775419200000,
     "stopTs": 1775421000000,
     "title": "Real Show",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103928"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260405203000 +0000",
+    "stop": "20260405210000 +0000",
     "startTs": 1775421000000,
     "stopTs": 1775422800000,
     "title": "Cinema Tent",
     "desc": "The host presents news updates pertaining to the entertainment industry.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103903"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260405210000 +0000",
+    "stop": "20260405213000 +0000",
     "startTs": 1775422800000,
     "stopTs": 1775424600000,
     "title": "6 pm Sakhat Suddi",
     "desc": "The host discusses several viral news items trending on social media platforms.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103898"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260405213000 +0000",
+    "stop": "20260405220000 +0000",
     "startTs": 1775424600000,
     "stopTs": 1775426400000,
     "title": "Crime Diary",
     "desc": "The host sheds light on the latest crime-related news from different parts of the country.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103938"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260405220000 +0000",
+    "stop": "20260405223000 +0000",
     "startTs": 1775426400000,
     "stopTs": 1775428200000,
     "title": "News 18 Vishesha Varadi",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103931"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260405223000 +0000",
+    "stop": "20260405230000 +0000",
     "startTs": 1775428200000,
     "stopTs": 1775430000000,
     "title": "Real Show",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103905"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260405230000 +0000",
+    "stop": "20260405233000 +0000",
     "startTs": 1775430000000,
     "stopTs": 1775431800000,
     "title": "6 pm Sakhat Suddi",
     "desc": "The host discusses several viral news items trending on social media platforms.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103943"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260405233000 +0000",
+    "stop": "20260406000000 +0000",
     "startTs": 1775431800000,
     "stopTs": 1775433600000,
     "title": "Waw",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103916"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260406000000 +0000",
+    "stop": "20260406003000 +0000",
     "startTs": 1775433600000,
     "stopTs": 1775435400000,
     "title": "Cinema Tent",
     "desc": "The host presents news updates pertaining to the entertainment industry.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103932"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260406003000 +0000",
+    "stop": "20260406010000 +0000",
     "startTs": 1775435400000,
     "stopTs": 1775437200000,
     "title": "Namaste Karnataka",
     "desc": "The host presents the latest news updates and developments from the state of Karnataka.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103930"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260406010000 +0000",
+    "stop": "20260406013000 +0000",
     "startTs": 1775437200000,
     "stopTs": 1775439000000,
     "title": "En Kathe",
     "desc": "The host presents the latest updates on various social, economic and political issues.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103919"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260406013000 +0000",
+    "stop": "20260406020000 +0000",
     "startTs": 1775439000000,
     "stopTs": 1775440800000,
     "title": "31 Jille 31 Suddi",
     "desc": "The host elucidates on the top 31 latest news and developments from nearby villages.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103917"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260406020000 +0000",
+    "stop": "20260406023000 +0000",
     "startTs": 1775440800000,
     "stopTs": 1775442600000,
     "title": "Kannada Naadi",
     "desc": "The host presents the latest socio-economic and political news updates of the day.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103941"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260406023000 +0000",
+    "stop": "20260406030000 +0000",
     "startTs": 1775442600000,
     "stopTs": 1775444400000,
     "title": "Karnataka Suddi",
     "desc": "The host presents the latest political and socio-economic updates from Karnataka, India.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103918"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260406030000 +0000",
+    "stop": "20260406033000 +0000",
     "startTs": 1775444400000,
     "stopTs": 1775446200000,
     "title": "3 Maha Suddi",
     "desc": "The host presents a detailed report on the latest political matters of the state.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103939"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260406033000 +0000",
+    "stop": "20260406040000 +0000",
     "startTs": 1775446200000,
     "stopTs": 1775448000000,
     "title": "Ee Kshana",
     "desc": "The host delivers latest political news updates as politicians face media questions.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103942"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260406040000 +0000",
+    "stop": "20260406043000 +0000",
     "startTs": 1775448000000,
     "stopTs": 1775449800000,
     "title": "Parapancha",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103921"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260406043000 +0000",
+    "stop": "20260406050000 +0000",
     "startTs": 1775449800000,
     "stopTs": 1775451600000,
     "title": "Nammuralli News 18",
     "desc": "The host presents a detailed coverage of the latest news and developments.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103927"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260406050000 +0000",
+    "stop": "20260406053000 +0000",
     "startTs": 1775451600000,
     "stopTs": 1775453400000,
     "title": "Waw",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103920"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260406053000 +0000",
+    "stop": "20260406060000 +0000",
     "startTs": 1775453400000,
     "stopTs": 1775455200000,
     "title": "Express 50",
     "desc": "The host presents the top 50 news headlines on various pressing issues of the nation.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103936"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260406060000 +0000",
+    "stop": "20260406063000 +0000",
     "startTs": 1775455200000,
     "stopTs": 1775457000000,
     "title": "Maatu Kathe",
     "desc": "The host presents a detailed report of some of the latest news stories.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103933"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260406063000 +0000",
+    "stop": "20260406070000 +0000",
     "startTs": 1775457000000,
     "stopTs": 1775458800000,
     "title": "12 Gante Suddi - Live",
     "desc": "The host presents the latest and important social, political and economic news, live.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103913"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260406070000 +0000",
+    "stop": "20260406073000 +0000",
     "startTs": 1775458800000,
     "stopTs": 1775460600000,
     "title": "Viral Suddi",
     "desc": "The host shares updates on current affairs of widespread interest across the region.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103922"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260406073000 +0000",
+    "stop": "20260406080000 +0000",
     "startTs": 1775460600000,
     "stopTs": 1775462400000,
     "title": "Suddi Madhyahna",
     "desc": "The host presents a round-up of news on politics, current affairs and business in India.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103926"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260406080000 +0000",
+    "stop": "20260406083000 +0000",
     "startTs": 1775462400000,
     "stopTs": 1775464200000,
     "title": "Matinee Show",
     "desc": "The host invites aspiring artists to showcase their talents and entertain people.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103907"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260406083000 +0000",
+    "stop": "20260406090000 +0000",
     "startTs": 1775464200000,
     "stopTs": 1775466000000,
     "title": "30 Minutes 30 News Live",
     "desc": "The host highlights the latest top 30 news stories within the span of 30 minutes, live.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103914"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260406090000 +0000",
+    "stop": "20260406093000 +0000",
     "startTs": 1775466000000,
     "stopTs": 1775467800000,
     "title": "Real Show",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103944"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260406093000 +0000",
+    "stop": "20260406100000 +0000",
     "startTs": 1775467800000,
     "stopTs": 1775469600000,
     "title": "3 Gante Suddi",
     "desc": "The host presents the latest news stories and developments from around the globe.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103915"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260406100000 +0000",
+    "stop": "20260406103000 +0000",
     "startTs": 1775469600000,
     "stopTs": 1775471400000,
     "title": "Crime Diary",
     "desc": "The host sheds light on the latest crime-related news from different parts of the country.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103910"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260406103000 +0000",
+    "stop": "20260406110000 +0000",
     "startTs": 1775471400000,
     "stopTs": 1775473200000,
     "title": "4 Gante Suddi",
     "desc": "The host presents the latest news stories and developments from around the globe.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103901"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260406110000 +0000",
+    "stop": "20260406113000 +0000",
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Chaduranga",
     "desc": "The host presents information on the political affairs of the state.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103899"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260406113000 +0000",
+    "stop": "20260406120000 +0000",
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Sanje Samachara",
     "desc": "The host provides the latest updates on various political, economic and social issues.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103934"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260406120000 +0000",
+    "stop": "20260406123000 +0000",
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Cinema Tent",
     "desc": "The host presents news updates pertaining to the entertainment industry.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103911"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260406123000 +0000",
+    "stop": "20260406130000 +0000",
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Sakhat Suddi",
     "desc": "The host presents viral news stories and provides a detailed report on them.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103902"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260406130000 +0000",
+    "stop": "20260406133000 +0000",
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Kandiddu Kaanaddu",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103924"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260406133000 +0000",
+    "stop": "20260406140000 +0000",
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Sanje Superfast",
     "desc": "The presenter shares a sequence of updates on current affairs in quick succession.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103935"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260406140000 +0000",
+    "stop": "20260406143000 +0000",
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "News 18 Panchayti",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103912"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260406143000 +0000",
+    "stop": "20260406150000 +0000",
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Kannada Naadi",
     "desc": "The host presents the latest socio-economic and political news updates of the day.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103900"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260406150000 +0000",
+    "stop": "20260406153000 +0000",
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "News 18 Vishesha Varadi",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103923"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260406153000 +0000",
+    "stop": "20260406160000 +0000",
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Super Prime at 9 PM",
     "desc": "The host presents the latest news and developments from around the country.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103904"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260406160000 +0000",
+    "stop": "20260406163000 +0000",
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Crime Diary",
     "desc": "The host sheds light on the latest crime-related news from different parts of the country.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103925"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260406163000 +0000",
+    "stop": "20260406170000 +0000",
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Namma Bengaluru",
     "desc": "The host provides updates on current events happening across Bangalore.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103937"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260406170000 +0000",
+    "stop": "20260406173000 +0000",
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Ola Nota",
     "desc": "The presenter offers insights into ongoing regional affairs with relevant updates.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103908"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260406173000 +0000",
+    "stop": "20260406180000 +0000",
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Complete News @ 11pm Live",
     "desc": "The host shares a detailed report on the latest news stories on a variety of topics, live.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103906"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260406180000 +0000",
+    "stop": "20260406183000 +0000",
     "startTs": 1775498400000,
     "stopTs": 1775500200000,
     "title": "Mane Mane Masala",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93103929"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260406183000 +0000",
+    "stop": "20260406190000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775502000000,
     "title": "Waw",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141026"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260406190000 +0000",
+    "stop": "20260406193000 +0000",
     "startTs": 1775502000000,
     "stopTs": 1775503800000,
     "title": "Cinema Tent",
     "desc": "The host presents news updates pertaining to the entertainment industry.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141027"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260406193000 +0000",
+    "stop": "20260406200000 +0000",
     "startTs": 1775503800000,
     "stopTs": 1775505600000,
     "title": "Kandiddu Kaanaddu",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141020"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260406200000 +0000",
+    "stop": "20260406203000 +0000",
     "startTs": 1775505600000,
     "stopTs": 1775507400000,
     "title": "Real Show",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141010"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260406203000 +0000",
+    "stop": "20260406210000 +0000",
     "startTs": 1775507400000,
     "stopTs": 1775509200000,
     "title": "Cinema Tent",
     "desc": "The host presents news updates pertaining to the entertainment industry.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141018"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260406210000 +0000",
+    "stop": "20260406213000 +0000",
     "startTs": 1775509200000,
     "stopTs": 1775511000000,
     "title": "6 pm Sakhat Suddi",
     "desc": "The host discusses several viral news items trending on social media platforms.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141015"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260406213000 +0000",
+    "stop": "20260406220000 +0000",
     "startTs": 1775511000000,
     "stopTs": 1775512800000,
     "title": "Crime Diary",
     "desc": "The host sheds light on the latest crime-related news from different parts of the country.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141012"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260406220000 +0000",
+    "stop": "20260406223000 +0000",
     "startTs": 1775512800000,
     "stopTs": 1775514600000,
     "title": "News 18 Vishesha Varadi",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141043"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260406223000 +0000",
+    "stop": "20260406230000 +0000",
     "startTs": 1775514600000,
     "stopTs": 1775516400000,
     "title": "Real Show",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141002"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260406230000 +0000",
+    "stop": "20260406233000 +0000",
     "startTs": 1775516400000,
     "stopTs": 1775518200000,
     "title": "6 pm Sakhat Suddi",
     "desc": "The host discusses several viral news items trending on social media platforms.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141003"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260406233000 +0000",
+    "stop": "20260407000000 +0000",
     "startTs": 1775518200000,
     "stopTs": 1775520000000,
     "title": "Waw",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141035"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260407000000 +0000",
+    "stop": "20260407003000 +0000",
     "startTs": 1775520000000,
     "stopTs": 1775521800000,
     "title": "Cinema Tent",
     "desc": "The host presents news updates pertaining to the entertainment industry.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141031"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260407003000 +0000",
+    "stop": "20260407010000 +0000",
     "startTs": 1775521800000,
     "stopTs": 1775523600000,
     "title": "Namaste Karnataka",
     "desc": "The host presents the latest news updates and developments from the state of Karnataka.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141013"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260407010000 +0000",
+    "stop": "20260407013000 +0000",
     "startTs": 1775523600000,
     "stopTs": 1775525400000,
     "title": "En Kathe",
     "desc": "The host presents the latest updates on various social, economic and political issues.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141009"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260407013000 +0000",
+    "stop": "20260407020000 +0000",
     "startTs": 1775525400000,
     "stopTs": 1775527200000,
     "title": "31 Jille 31 Suddi",
     "desc": "The host elucidates on the top 31 latest news and developments from nearby villages.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141008"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260407020000 +0000",
+    "stop": "20260407023000 +0000",
     "startTs": 1775527200000,
     "stopTs": 1775529000000,
     "title": "Kannada Naadi",
     "desc": "The host presents the latest socio-economic and political news updates of the day.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141000"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260407023000 +0000",
+    "stop": "20260407030000 +0000",
     "startTs": 1775529000000,
     "stopTs": 1775530800000,
     "title": "Karnataka Suddi",
     "desc": "The host presents the latest political and socio-economic updates from Karnataka, India.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141023"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260407030000 +0000",
+    "stop": "20260407033000 +0000",
     "startTs": 1775530800000,
     "stopTs": 1775532600000,
     "title": "3 Maha Suddi",
     "desc": "The host presents a detailed report on the latest political matters of the state.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141036"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260407033000 +0000",
+    "stop": "20260407040000 +0000",
     "startTs": 1775532600000,
     "stopTs": 1775534400000,
     "title": "Ee Kshana",
     "desc": "The host delivers latest political news updates as politicians face media questions.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141019"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260407040000 +0000",
+    "stop": "20260407043000 +0000",
     "startTs": 1775534400000,
     "stopTs": 1775536200000,
     "title": "Parapancha",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141038"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260407043000 +0000",
+    "stop": "20260407050000 +0000",
     "startTs": 1775536200000,
     "stopTs": 1775538000000,
     "title": "Nammuralli News 18",
     "desc": "The host presents a detailed coverage of the latest news and developments.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141024"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260407050000 +0000",
+    "stop": "20260407053000 +0000",
     "startTs": 1775538000000,
     "stopTs": 1775539800000,
     "title": "Waw",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141042"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260407053000 +0000",
+    "stop": "20260407060000 +0000",
     "startTs": 1775539800000,
     "stopTs": 1775541600000,
     "title": "Express 50",
     "desc": "The host presents the top 50 news headlines on various pressing issues of the nation.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141037"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260407060000 +0000",
+    "stop": "20260407063000 +0000",
     "startTs": 1775541600000,
     "stopTs": 1775543400000,
     "title": "Maatu Kathe",
     "desc": "The host presents a detailed report of some of the latest news stories.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141014"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260407063000 +0000",
+    "stop": "20260407070000 +0000",
     "startTs": 1775543400000,
     "stopTs": 1775545200000,
     "title": "12 Gante Suddi - Live",
     "desc": "The host presents the latest and important social, political and economic news, live.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141025"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260407070000 +0000",
+    "stop": "20260407073000 +0000",
     "startTs": 1775545200000,
     "stopTs": 1775547000000,
     "title": "Viral Suddi",
     "desc": "The host shares updates on current affairs of widespread interest across the region.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93140996"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260407073000 +0000",
+    "stop": "20260407080000 +0000",
     "startTs": 1775547000000,
     "stopTs": 1775548800000,
     "title": "Suddi Madhyahna",
     "desc": "The host presents a round-up of news on politics, current affairs and business in India.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141032"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260407080000 +0000",
+    "stop": "20260407083000 +0000",
     "startTs": 1775548800000,
     "stopTs": 1775550600000,
     "title": "Matinee Show",
     "desc": "The host invites aspiring artists to showcase their talents and entertain people.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93140997"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260407083000 +0000",
+    "stop": "20260407090000 +0000",
     "startTs": 1775550600000,
     "stopTs": 1775552400000,
     "title": "30 Minutes 30 News Live",
     "desc": "The host highlights the latest top 30 news stories within the span of 30 minutes, live.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141011"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260407090000 +0000",
+    "stop": "20260407093000 +0000",
     "startTs": 1775552400000,
     "stopTs": 1775554200000,
     "title": "Real Show",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141001"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260407093000 +0000",
+    "stop": "20260407100000 +0000",
     "startTs": 1775554200000,
     "stopTs": 1775556000000,
     "title": "3 Gante Suddi",
     "desc": "The host presents the latest news stories and developments from around the globe.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141033"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260407100000 +0000",
+    "stop": "20260407103000 +0000",
     "startTs": 1775556000000,
     "stopTs": 1775557800000,
     "title": "Crime Diary",
     "desc": "The host sheds light on the latest crime-related news from different parts of the country.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141028"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260407103000 +0000",
+    "stop": "20260407110000 +0000",
     "startTs": 1775557800000,
     "stopTs": 1775559600000,
     "title": "4 Gante Suddi",
     "desc": "The host presents the latest news stories and developments from around the globe.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141040"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260407110000 +0000",
+    "stop": "20260407113000 +0000",
     "startTs": 1775559600000,
     "stopTs": 1775561400000,
     "title": "Chaduranga",
     "desc": "The host presents information on the political affairs of the state.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141021"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260407113000 +0000",
+    "stop": "20260407120000 +0000",
     "startTs": 1775561400000,
     "stopTs": 1775563200000,
     "title": "Sanje Samachara",
     "desc": "The host provides the latest updates on various political, economic and social issues.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141041"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260407120000 +0000",
+    "stop": "20260407123000 +0000",
     "startTs": 1775563200000,
     "stopTs": 1775565000000,
     "title": "Cinema Tent",
     "desc": "The host presents news updates pertaining to the entertainment industry.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141006"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260407123000 +0000",
+    "stop": "20260407130000 +0000",
     "startTs": 1775565000000,
     "stopTs": 1775566800000,
     "title": "Sakhat Suddi",
     "desc": "The host presents viral news stories and provides a detailed report on them.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141007"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260407130000 +0000",
+    "stop": "20260407133000 +0000",
     "startTs": 1775566800000,
     "stopTs": 1775568600000,
     "title": "Kandiddu Kaanaddu",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141016"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260407133000 +0000",
+    "stop": "20260407140000 +0000",
     "startTs": 1775568600000,
     "stopTs": 1775570400000,
     "title": "Sanje Superfast",
     "desc": "The presenter shares a sequence of updates on current affairs in quick succession.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141030"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260407140000 +0000",
+    "stop": "20260407143000 +0000",
     "startTs": 1775570400000,
     "stopTs": 1775572200000,
     "title": "News 18 Panchayti",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93140999"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260407143000 +0000",
+    "stop": "20260407150000 +0000",
     "startTs": 1775572200000,
     "stopTs": 1775574000000,
     "title": "Kannada Naadi",
     "desc": "The host presents the latest socio-economic and political news updates of the day.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141022"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260407150000 +0000",
+    "stop": "20260407153000 +0000",
     "startTs": 1775574000000,
     "stopTs": 1775575800000,
     "title": "News 18 Vishesha Varadi",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141017"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260407153000 +0000",
+    "stop": "20260407160000 +0000",
     "startTs": 1775575800000,
     "stopTs": 1775577600000,
     "title": "Super Prime at 9 PM",
     "desc": "The host presents the latest news and developments from around the country.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141029"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260407160000 +0000",
+    "stop": "20260407163000 +0000",
     "startTs": 1775577600000,
     "stopTs": 1775579400000,
     "title": "Crime Diary",
     "desc": "The host sheds light on the latest crime-related news from different parts of the country.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93140998"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260407163000 +0000",
+    "stop": "20260407170000 +0000",
     "startTs": 1775579400000,
     "stopTs": 1775581200000,
     "title": "Namma Bengaluru",
     "desc": "The host provides updates on current events happening across Bangalore.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141004"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260407170000 +0000",
+    "stop": "20260407173000 +0000",
     "startTs": 1775581200000,
     "stopTs": 1775583000000,
     "title": "Ola Nota",
     "desc": "The presenter offers insights into ongoing regional affairs with relevant updates.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141005"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260407173000 +0000",
+    "stop": "20260407180000 +0000",
     "startTs": 1775583000000,
     "stopTs": 1775584800000,
     "title": "Complete News @ 11pm Live",
     "desc": "The host shares a detailed report on the latest news stories on a variety of topics, live.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141034"
   },
   {
     "channelId": "ts85",
     "channelName": "News18 Kannada",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260407180000 +0000",
+    "stop": "20260407183000 +0000",
     "startTs": 1775584800000,
     "stopTs": 1775586600000,
     "title": "Mane Mane Masala",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts85",
+    "catchup-id": "93141039"
   }
 ]

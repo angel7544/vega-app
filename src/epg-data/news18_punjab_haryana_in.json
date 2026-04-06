@@ -2,287 +2,313 @@
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260407043000 +0000",
+    "stop": "20260407050000 +0000",
     "startTs": 1775536200000,
     "stopTs": 1775538000000,
     "title": "Khabran Punjab Toh",
     "desc": "The host presents a round-up of the latest news from the state of Punjab.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140854"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260407050000 +0000",
+    "stop": "20260407053000 +0000",
     "startTs": 1775538000000,
     "stopTs": 1775539800000,
     "title": "Superfast 100",
     "desc": "The host presents the top 100 stories, updates and huge developments from the world.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140868"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260407053000 +0000",
+    "stop": "20260407060000 +0000",
     "startTs": 1775539800000,
     "stopTs": 1775541600000,
     "title": "Direct District Ton",
     "desc": "The host covers daily social, economic, political issues and current event updates.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140856"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260407060000 +0000",
+    "stop": "20260407063000 +0000",
     "startTs": 1775541600000,
     "stopTs": 1775543400000,
     "title": "Haryana Prime Hindi Bulletin",
     "desc": "The host delivers the latest news as well as updates from Haryana.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140871"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260407063000 +0000",
+    "stop": "20260407070000 +0000",
     "startTs": 1775543400000,
     "stopTs": 1775545200000,
     "title": "Khabran Punjab Toh",
     "desc": "The host presents a round-up of the latest news from the state of Punjab.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140873"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260407070000 +0000",
+    "stop": "20260407073000 +0000",
     "startTs": 1775545200000,
     "stopTs": 1775547000000,
     "title": "Khabran Punjab Toh",
     "desc": "The host presents a round-up of the latest news from the state of Punjab.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140855"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260407073000 +0000",
+    "stop": "20260407080000 +0000",
     "startTs": 1775547000000,
     "stopTs": 1775548800000,
     "title": "Khabran Punjab Toh",
     "desc": "The host presents a round-up of the latest news from the state of Punjab.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140866"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260407080000 +0000",
+    "stop": "20260407083000 +0000",
     "startTs": 1775548800000,
     "stopTs": 1775550600000,
     "title": "Direct District Ton",
     "desc": "The host covers daily social, economic, political issues and current event updates.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140874"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260407083000 +0000",
+    "stop": "20260407090000 +0000",
     "startTs": 1775550600000,
     "stopTs": 1775552400000,
     "title": "Khabran Punjab Toh",
     "desc": "The host presents a round-up of the latest news from the state of Punjab.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140878"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260407090000 +0000",
+    "stop": "20260407093000 +0000",
     "startTs": 1775552400000,
     "stopTs": 1775554200000,
     "title": "Khabran Punjab Toh",
     "desc": "The host presents a round-up of the latest news from the state of Punjab.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140862"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260407093000 +0000",
+    "stop": "20260407100000 +0000",
     "startTs": 1775554200000,
     "stopTs": 1775556000000,
     "title": "Khabran Punjab Toh",
     "desc": "The host presents a round-up of the latest news from the state of Punjab.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140861"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260407100000 +0000",
+    "stop": "20260407103000 +0000",
     "startTs": 1775556000000,
     "stopTs": 1775557800000,
     "title": "Haryana Prime Hindi Bulletin",
     "desc": "The host delivers the latest news as well as updates from Haryana.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140867"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260407103000 +0000",
+    "stop": "20260407110000 +0000",
     "startTs": 1775557800000,
     "stopTs": 1775559600000,
     "title": "Khabran Punjab Toh",
     "desc": "The host presents a round-up of the latest news from the state of Punjab.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140864"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260407110000 +0000",
+    "stop": "20260407113000 +0000",
     "startTs": 1775559600000,
     "stopTs": 1775561400000,
     "title": "Khabran Punjab Toh / Commercial Slot",
     "desc": "The host presents the latest news; The host presents products that consumers can buy.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140860"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260407113000 +0000",
+    "stop": "20260407120000 +0000",
     "startTs": 1775561400000,
     "stopTs": 1775563200000,
     "title": "Khabran Punjab Toh",
     "desc": "The host presents a round-up of the latest news from the state of Punjab.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140876"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260407120000 +0000",
+    "stop": "20260407123000 +0000",
     "startTs": 1775563200000,
     "stopTs": 1775565000000,
     "title": "Farak Tan Painda Hai / Special Programme",
     "desc": "The host presents an encounter between criminals and the police force in Khijrabad.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140858"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260407123000 +0000",
+    "stop": "20260407130000 +0000",
     "startTs": 1775565000000,
     "stopTs": 1775566800000,
     "title": "6 Baje Diyan 6 Big Breaking",
     "desc": "The host presents the top six latest updates pertaining to the current affairs of the day.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140870"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260407130000 +0000",
+    "stop": "20260407133000 +0000",
     "startTs": 1775566800000,
     "stopTs": 1775568600000,
     "title": "Direct District Ton",
     "desc": "The host covers daily social, economic, political issues and current event updates.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140863"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260407133000 +0000",
+    "stop": "20260407140000 +0000",
     "startTs": 1775568600000,
     "stopTs": 1775570400000,
     "title": "7 Aaliyan Khabran",
     "desc": "The host presents the latest news updates from around the state and the nation.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140865"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260407140000 +0000",
+    "stop": "20260407143000 +0000",
     "startTs": 1775570400000,
     "stopTs": 1775572200000,
     "title": "7 Aaliyan Khabra / Top News",
     "desc": "The host presents the latest news headlines; the host provides the top news stories.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140869"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "14:30",
-    "stop": "15:30",
+    "start": "20260407143000 +0000",
+    "stop": "20260407153000 +0000",
     "startTs": 1775572200000,
     "stopTs": 1775575800000,
     "title": "Khabra Da Prime Time",
     "desc": "The host presents the latest updates on various pressing issues across the nation.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140879"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260407153000 +0000",
+    "stop": "20260407160000 +0000",
     "startTs": 1775575800000,
     "stopTs": 1775577600000,
     "title": "Khabran Punjab Toh",
     "desc": "The host presents a round-up of the latest news from the state of Punjab.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140872"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260407160000 +0000",
+    "stop": "20260407163000 +0000",
     "startTs": 1775577600000,
     "stopTs": 1775579400000,
     "title": "Khabran Punjab Toh",
     "desc": "The host presents a round-up of the latest news from the state of Punjab.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140857"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260407163000 +0000",
+    "stop": "20260407170000 +0000",
     "startTs": 1775579400000,
     "stopTs": 1775581200000,
     "title": "Khabran Punjab Toh / Top News",
     "desc": "The host presents headlines from Punjab; the host provides information on current events.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140877"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260407170000 +0000",
+    "stop": "20260407173000 +0000",
     "startTs": 1775581200000,
     "stopTs": 1775583000000,
     "title": "Direct District Ton",
     "desc": "The host covers daily social, economic, political issues and current event updates.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140875"
   },
   {
     "channelId": "ts232",
     "channelName": "News18 Punjab Haryana",
-    "start": "17:30",
-    "stop": "18:30",
+    "start": "20260407173000 +0000",
+    "stop": "20260407183000 +0000",
     "startTs": 1775583000000,
     "stopTs": 1775586600000,
     "title": "Khabra Da Prime Time",
     "desc": "The host presents the latest updates on various pressing issues across the nation.",
-    "category": null
+    "channel": "ts232",
+    "catchup-id": "93140859"
   }
 ]

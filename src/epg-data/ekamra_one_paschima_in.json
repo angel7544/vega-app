@@ -2,12 +2,13 @@
   {
     "channelId": "ts1202",
     "channelName": "Ekamra One paschima",
-    "start": "18:30",
-    "stop": "20:30",
+    "start": "20260405183000 +0000",
+    "stop": "20260405203000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775421000000,
     "title": "Jhumka Pairi",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1202",
+    "catchup-id": "93086969"
   }
 ]

@@ -2,529 +2,577 @@
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "18:30",
-    "stop": "18:55",
+    "start": "20260404183000 +0000",
+    "stop": "20260404185500 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775328900000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153856"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "18:55",
-    "stop": "19:25",
+    "start": "20260404185500 +0000",
+    "stop": "20260404192500 +0000",
     "startTs": 1775328900000,
     "stopTs": 1775330700000,
     "title": "Khabre Ab Tak",
     "desc": "The host gives the latest information on various daily topics and events.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153854"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "19:25",
-    "stop": "19:55",
+    "start": "20260404192500 +0000",
+    "stop": "20260404195500 +0000",
     "startTs": 1775330700000,
     "stopTs": 1775332500000,
     "title": "News 100",
     "desc": "The host presents the top 100 news updates from around the country and the world.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153899"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "19:55",
-    "stop": "20:25",
+    "start": "20260404195500 +0000",
+    "stop": "20260404202500 +0000",
     "startTs": 1775332500000,
     "stopTs": 1775334300000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153868"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "20:25",
-    "stop": "20:55",
+    "start": "20260404202500 +0000",
+    "stop": "20260404205500 +0000",
     "startTs": 1775334300000,
     "stopTs": 1775336100000,
     "title": "News Hour",
     "desc": "The host presents the top news stories and developments surrounding various issues around the globe.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153895"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "20:55",
-    "stop": "21:25",
+    "start": "20260404205500 +0000",
+    "stop": "20260404212500 +0000",
     "startTs": 1775336100000,
     "stopTs": 1775337900000,
     "title": "UP Bulletin",
     "desc": "The host presents the latest news stories and developments around the state of Uttar Pradesh.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153869"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "21:25",
-    "stop": "21:55",
+    "start": "20260404212500 +0000",
+    "stop": "20260404215500 +0000",
     "startTs": 1775337900000,
     "stopTs": 1775339700000,
     "title": "News Hour",
     "desc": "The host presents the top news stories and developments surrounding various issues around the globe.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153866"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "21:55",
-    "stop": "22:25",
+    "start": "20260404215500 +0000",
+    "stop": "20260404222500 +0000",
     "startTs": 1775339700000,
     "stopTs": 1775341500000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153891"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "22:25",
-    "stop": "23:25",
+    "start": "20260404222500 +0000",
+    "stop": "20260404232500 +0000",
     "startTs": 1775341500000,
     "stopTs": 1775345100000,
     "title": "News 50-50",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153900"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "23:25",
-    "stop": "23:55",
+    "start": "20260404232500 +0000",
+    "stop": "20260404235500 +0000",
     "startTs": 1775345100000,
     "stopTs": 1775346900000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153886"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "23:55",
-    "stop": "00:25",
+    "start": "20260404235500 +0000",
+    "stop": "20260405002500 +0000",
     "startTs": 1775346900000,
     "stopTs": 1775348700000,
     "title": "Social Media Trends",
     "desc": "The host gives a thorough account of various entertaining social media content.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153897"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "00:25",
-    "stop": "00:55",
+    "start": "20260405002500 +0000",
+    "stop": "20260405005500 +0000",
     "startTs": 1775348700000,
     "stopTs": 1775350500000,
     "title": "UP Bulletin",
     "desc": "The host presents the latest news stories and developments around the state of Uttar Pradesh.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153875"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "00:55",
-    "stop": "01:25",
+    "start": "20260405005500 +0000",
+    "stop": "20260405012500 +0000",
     "startTs": 1775350500000,
     "stopTs": 1775352300000,
     "title": "Khabre Ab Tak",
     "desc": "The host gives the latest information on various daily topics and events.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153871"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "01:25",
-    "stop": "01:45",
+    "start": "20260405012500 +0000",
+    "stop": "20260405014500 +0000",
     "startTs": 1775352300000,
     "stopTs": 1775353500000,
     "title": "Devotional News",
     "desc": "The host provides the latest information on various religious happenings and occasions.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153898"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "01:45",
-    "stop": "02:00",
+    "start": "20260405014500 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775353500000,
     "stopTs": 1775354400000,
     "title": "Rashifal",
     "desc": "An astrologer gives predictions of the future in accordance with the zodiac signs.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153855"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260405020000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775356200000,
     "title": "Morning News",
     "desc": "The host presents the latest updates on various social, political and economic issues.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153863"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "02:30",
-    "stop": "02:55",
+    "start": "20260405023000 +0000",
+    "stop": "20260405025500 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775357700000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153878"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "02:55",
-    "stop": "03:25",
+    "start": "20260405025500 +0000",
+    "stop": "20260405032500 +0000",
     "startTs": 1775357700000,
     "stopTs": 1775359500000,
     "title": "News 50-50",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153877"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "03:25",
-    "stop": "03:55",
+    "start": "20260405032500 +0000",
+    "stop": "20260405035500 +0000",
     "startTs": 1775359500000,
     "stopTs": 1775361300000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153881"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "03:55",
-    "stop": "04:30",
+    "start": "20260405035500 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361300000,
     "stopTs": 1775363400000,
     "title": "Morning News",
     "desc": "The host presents the latest updates on various social, political and economic issues.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153857"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "04:30",
-    "stop": "04:55",
+    "start": "20260405043000 +0000",
+    "stop": "20260405045500 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775364900000,
     "title": "News Hour",
     "desc": "The host presents the top news stories and developments surrounding various issues around the globe.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153901"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "04:55",
-    "stop": "05:25",
+    "start": "20260405045500 +0000",
+    "stop": "20260405052500 +0000",
     "startTs": 1775364900000,
     "stopTs": 1775366700000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153870"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "05:25",
-    "stop": "05:55",
+    "start": "20260405052500 +0000",
+    "stop": "20260405055500 +0000",
     "startTs": 1775366700000,
     "stopTs": 1775368500000,
     "title": "Headline News",
     "desc": "The host provides the latest information on important issues affecting many lives.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153884"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "05:55",
-    "stop": "06:25",
+    "start": "20260405055500 +0000",
+    "stop": "20260405062500 +0000",
     "startTs": 1775368500000,
     "stopTs": 1775370300000,
     "title": "Morning News Bulletin",
     "desc": "The host provides the latest information on key matters affecting many lives.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153887"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "06:25",
-    "stop": "07:00",
+    "start": "20260405062500 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370300000,
     "stopTs": 1775372400000,
     "title": "Health Tip",
     "desc": "The host presents a report on various tips related to health issues.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153858"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "07:00",
-    "stop": "07:25",
+    "start": "20260405070000 +0000",
+    "stop": "20260405072500 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775373900000,
     "title": "Top 10",
     "desc": "The host presents the top ten latest updates pertaining to current affairs of the day.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153894"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "07:25",
-    "stop": "08:00",
+    "start": "20260405072500 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775373900000,
     "stopTs": 1775376000000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153859"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "08:00",
-    "stop": "08:25",
+    "start": "20260405080000 +0000",
+    "stop": "20260405082500 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775377500000,
     "title": "UP Bulletin",
     "desc": "The host presents the latest news stories and developments around the state of Uttar Pradesh.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153885"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "08:25",
-    "stop": "08:55",
+    "start": "20260405082500 +0000",
+    "stop": "20260405085500 +0000",
     "startTs": 1775377500000,
     "stopTs": 1775379300000,
     "title": "Social Media Trends",
     "desc": "The host gives a thorough account of various entertaining social media content.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153873"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "08:55",
-    "stop": "09:25",
+    "start": "20260405085500 +0000",
+    "stop": "20260405092500 +0000",
     "startTs": 1775379300000,
     "stopTs": 1775381100000,
     "title": "Top 20 Bollywood",
     "desc": "The host presents the latest updates from the Bollywood film industry.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153861"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "09:25",
-    "stop": "10:01",
+    "start": "20260405092500 +0000",
+    "stop": "20260405100100 +0000",
     "startTs": 1775381100000,
     "stopTs": 1775383260000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153864"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "10:01",
-    "stop": "10:30",
+    "start": "20260405100100 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775383260000,
     "stopTs": 1775385000000,
     "title": "Special Story",
     "desc": "The host presents fresh updates relating to the current affairs of the country and Punjab.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153872"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "10:30",
-    "stop": "10:55",
+    "start": "20260405103000 +0000",
+    "stop": "20260405105500 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775386500000,
     "title": "News 50-50",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153882"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "10:55",
-    "stop": "11:25",
+    "start": "20260405105500 +0000",
+    "stop": "20260405112500 +0000",
     "startTs": 1775386500000,
     "stopTs": 1775388300000,
     "title": "Up Special News",
     "desc": "The host presents the latest information on various issues in the state of Uttar Pradesh.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153874"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "11:25",
-    "stop": "12:00",
+    "start": "20260405112500 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388300000,
     "stopTs": 1775390400000,
     "title": "Badi Khabrein",
     "desc": "The host provides the latest information on key issues affecting many lives.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153888"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "12:00",
-    "stop": "12:25",
+    "start": "20260405120000 +0000",
+    "stop": "20260405122500 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775391900000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153865"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "12:25",
-    "stop": "13:00",
+    "start": "20260405122500 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775391900000,
     "stopTs": 1775394000000,
     "title": "News 100",
     "desc": "The host presents the top 100 news updates from around the country and the world.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153879"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "13:00",
-    "stop": "13:25",
+    "start": "20260405130000 +0000",
+    "stop": "20260405132500 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395500000,
     "title": "National News",
     "desc": "The host presents the latest news updates and developments from across the country.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153893"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "13:25",
-    "stop": "13:55",
+    "start": "20260405132500 +0000",
+    "stop": "20260405135500 +0000",
     "startTs": 1775395500000,
     "stopTs": 1775397300000,
     "title": "Fact Dose/Political",
     "desc": "The host shares facts on various topics; the host updates the nation's political scenario.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153876"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "13:55",
-    "stop": "14:13",
+    "start": "20260405135500 +0000",
+    "stop": "20260405141300 +0000",
     "startTs": 1775397300000,
     "stopTs": 1775398380000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153892"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "14:13",
-    "stop": "14:25",
+    "start": "20260405141300 +0000",
+    "stop": "20260405142500 +0000",
     "startTs": 1775398380000,
     "stopTs": 1775399100000,
     "title": "Story Teller Didi",
     "desc": "The host presents an entertaining narration of various stories with important morals.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153889"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "14:25",
-    "stop": "15:30",
+    "start": "20260405142500 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775399100000,
     "stopTs": 1775403000000,
     "title": "Bhabhi Ji Kahin",
     "desc": "The host imitates a famous fictional character while drawing attention to various issues.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153883"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "15:30",
-    "stop": "15:55",
+    "start": "20260405153000 +0000",
+    "stop": "20260405155500 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775404500000,
     "title": "Khabre Ab Tak",
     "desc": "The host gives the latest information on various daily topics and events.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153890"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "15:55",
-    "stop": "16:31",
+    "start": "20260405155500 +0000",
+    "stop": "20260405163100 +0000",
     "startTs": 1775404500000,
     "stopTs": 1775406660000,
     "title": "Special Story",
     "desc": "The host presents fresh updates relating to the current affairs of the country and Punjab.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153860"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "16:31",
-    "stop": "17:00",
+    "start": "20260405163100 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406660000,
     "stopTs": 1775408400000,
     "title": "Sports Programme",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153880"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "17:00",
-    "stop": "17:25",
+    "start": "20260405170000 +0000",
+    "stop": "20260405172500 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775409900000,
     "title": "News 50-50",
     "desc": "The host presents a detailed report on the latest news and developments.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153862"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "17:25",
-    "stop": "17:55",
+    "start": "20260405172500 +0000",
+    "stop": "20260405175500 +0000",
     "startTs": 1775409900000,
     "stopTs": 1775411700000,
     "title": "Khabre Ab Tak",
     "desc": "The host gives the latest information on various daily topics and events.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153867"
   },
   {
     "channelId": "ts910",
     "channelName": "C News Bharat",
-    "start": "17:55",
-    "stop": "18:30",
+    "start": "20260405175500 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775411700000,
     "stopTs": 1775413800000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts910",
+    "catchup-id": "93153896"
   }
 ]

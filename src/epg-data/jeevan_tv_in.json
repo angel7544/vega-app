@@ -2,551 +2,601 @@
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "18:30",
-    "stop": "20:30",
+    "start": "20260404183000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775334600000,
     "title": "News",
     "desc": "The host presents the latest updates pertaining to politics, economic and social news.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066437"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260404203000 +0000",
+    "stop": "20260404210000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775336400000,
     "title": "Kaazhchappathippu",
     "desc": "The host interacts with people who have experienced harsh realities of life.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066415"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260404210000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775336400000,
     "stopTs": 1775338200000,
     "title": "Nalathe Vartha",
     "desc": "The host discusses the state's political developments with prominent personalities.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066416"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260404213000 +0000",
+    "stop": "20260404220000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775340000000,
     "title": "News Malayalam",
     "desc": "The host presents the latest news updates and developments from around the world.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066406"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260404220000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775340000000,
     "stopTs": 1775341800000,
     "title": "Chiri Cheppu",
     "desc": "Artists perform comedic acts to entertain the audience with laughter.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066430"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260404223000 +0000",
+    "stop": "20260404230000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775343600000,
     "title": "Ente Ishta Ganangal",
     "desc": "The host speaks to movie celebrities as they share notable experiences from their careers.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066419"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260404230000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775343600000,
     "stopTs": 1775345400000,
     "title": "Gulf News Week",
     "desc": "The host presents the latest news from the Middle East along with in-depth analyses.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066410"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260404233000 +0000",
+    "stop": "20260405000000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775347200000,
     "title": "Prabhatha Geethangal",
     "desc": "A compilation of some of the most popular songs sung by various renowned singers.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066433"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260405000000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775347200000,
     "stopTs": 1775349000000,
     "title": "Prabhatha Geethangal",
     "desc": "A compilation of some of the most popular songs sung by various renowned singers.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066432"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260405003000 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775350800000,
     "title": "Vachana Deepthi",
     "desc": "A priest delivers discourses on Christianity from the Holy Bible.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066400"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260405010000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775352600000,
     "title": "Holy Mass",
     "desc": "A religious leader conducts a service to offer their prayers to the Almighty.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066411"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260405013000 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775354400000,
     "title": "Pranavam",
     "desc": "An astrologer talks about the study of celestial objects and how it affects zodiac signs.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066421"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260405020000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775356200000,
     "title": "Old Is Gold",
     "desc": "A compilation of soothing melodies from vintage movies is played in succession.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066422"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "02:30",
-    "stop": "02:57",
+    "start": "20260405023000 +0000",
+    "stop": "20260405025700 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775357820000,
     "title": "Ragalayam",
     "desc": "The host presents a compilation of yesteryear Malayalam movie songs.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066425"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "02:57",
-    "stop": "03:00",
+    "start": "20260405025700 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775357820000,
     "stopTs": 1775358000000,
     "title": "Tintu Mon",
     "desc": "Tintu Mon plays pranks on everyone and dumbfounds them with his silly questions.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066436"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "Capital Times",
     "desc": "The host provides a detailed report on matters concerning the state and the nation.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066402"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "Comedy Couples",
     "desc": "Talented comedians pair up to play the roles of a couple and enact various skits.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066434"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "Hit Songs",
     "desc": "A compilation of popular songs performed by various eminent musicians.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066403"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260405043000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775365200000,
     "title": "News Malayalam",
     "desc": "The host presents the latest news updates and developments from around the world.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066395"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "05:00",
-    "stop": "07:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775374200000,
     "title": "News",
     "desc": "The host presents the latest updates pertaining to politics, economic and social news.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066397"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260405073000 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775376000000,
     "title": "Jeevan News",
     "desc": "The most recent news updates from Kerala and around the world are telecast.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066420"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260405080000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775377800000,
     "title": "Aazhchavattom",
     "desc": "The host presents a round-up of all the important news stories from the past week.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066424"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "08:30",
-    "stop": "08:32",
+    "start": "20260405083000 +0000",
+    "stop": "20260405083200 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775377920000,
     "title": "Jeevan Headlines",
     "desc": "The host presents the latest national and international news headlines.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066431"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "08:32",
-    "stop": "09:00",
+    "start": "20260405083200 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775377920000,
     "stopTs": 1775379600000,
     "title": "Puthan Pattu",
     "desc": "A comprehensive compilation of new and popular songs from the latest movies.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066412"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260405090000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775381400000,
     "title": "Memories",
     "desc": "Eminent personalities from different fields share their unforgettable memories.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066413"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "09:30",
-    "stop": "10:30",
+    "start": "20260405093000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775385000000,
     "title": "Lottery Live",
     "desc": "The host offers fabulous prizes in an exciting game of chance, live.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066401"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260405103000 +0000",
+    "stop": "20260405110000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775386800000,
     "title": "Jeevan News",
     "desc": "The most recent news updates from Kerala and around the world are telecast.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066409"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260405110000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775386800000,
     "stopTs": 1775388600000,
     "title": "Loud Speaker",
     "desc": "The hosts provide the latest updates and gossip from the lives of celebrities.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066408"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "11:30",
-    "stop": "11:32",
+    "start": "20260405113000 +0000",
+    "stop": "20260405113200 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775388720000,
     "title": "Jeevan Headlines",
     "desc": "The host presents the latest national and international news headlines.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066391"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "11:32",
-    "stop": "12:00",
+    "start": "20260405113200 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388720000,
     "stopTs": 1775390400000,
     "title": "Amara Sangeetham",
     "desc": "Popular singers and musicians perform a compilation of melodious evergreen songs.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066414"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "Malayala Cinema At 90",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066427"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "12:30",
-    "stop": "12:32",
+    "start": "20260405123000 +0000",
+    "stop": "20260405123200 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775392320000,
     "title": "Jeevan Headlines",
     "desc": "The host presents the latest national and international news headlines.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066405"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "12:32",
-    "stop": "13:00",
+    "start": "20260405123200 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775392320000,
     "stopTs": 1775394000000,
     "title": "Remedy",
     "desc": "Doctors highlight different health issues and discuss possible remedies.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066396"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260405130000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395800000,
     "title": "News",
     "desc": "The host presents the latest updates pertaining to politics, economic and social news.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066438"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260405133000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775397600000,
     "title": "Nam Munnottu",
     "desc": "The host converses with popular personalities regarding several issues the country faces.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066394"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "Capital Times",
     "desc": "The host provides a detailed report on matters concerning the state and the nation.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066398"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775401200000,
     "title": "Pranavam",
     "desc": "An astrologer talks about the study of celestial objects and how it affects zodiac signs.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066417"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "Sundarikutty",
     "desc": "Children showcase their fashion skills to impress the judges and win the pageant contest.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066428"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "15:30",
-    "stop": "15:32",
+    "start": "20260405153000 +0000",
+    "stop": "20260405153200 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775403120000,
     "title": "Jeevan Headlines",
     "desc": "The host presents the latest national and international news headlines.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066392"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "15:32",
-    "stop": "15:55",
+    "start": "20260405153200 +0000",
+    "stop": "20260405155500 +0000",
     "startTs": 1775403120000,
     "stopTs": 1775404500000,
     "title": "Film Online",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066407"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "15:55",
-    "stop": "16:00",
+    "start": "20260405155500 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775404500000,
     "stopTs": 1775404800000,
     "title": "Tintu Mon",
     "desc": "Tintu Mon plays pranks on everyone and dumbfounds them with his silly questions.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066423"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260405160000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775406600000,
     "title": "Shubharathri",
     "desc": "The host interacts with prominent personalities from various fields.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066393"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "News",
     "desc": "The host presents the latest updates pertaining to politics, economic and social news.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066435"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "17:00",
-    "stop": "17:25",
+    "start": "20260405170000 +0000",
+    "stop": "20260405172500 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775409900000,
     "title": "Nalathe Vartha",
     "desc": "The host discusses the state's political developments with prominent personalities.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066399"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "17:25",
-    "stop": "17:30",
+    "start": "20260405172500 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775409900000,
     "stopTs": 1775410200000,
     "title": "Gafoor Ka Dosth",
     "desc": "Film star Mamukkoya, portrayed as an animated character, deals with various social issues.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066426"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260405173000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775412000000,
     "title": "News",
     "desc": "The host presents the latest updates pertaining to politics, economic and social news.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066418"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "18:00",
-    "stop": "18:28",
+    "start": "20260405180000 +0000",
+    "stop": "20260405182800 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775413680000,
     "title": "News",
     "desc": "The host presents the latest updates pertaining to politics, economic and social news.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066429"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "18:28",
-    "stop": "18:30",
+    "start": "20260405182800 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775413680000,
     "stopTs": 1775413800000,
     "title": "Jeevan Headlines",
     "desc": "The host presents the latest national and international news headlines.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93066404"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "18:30",
-    "stop": "19:30",
+    "start": "20260405183000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775417400000,
     "title": "News",
     "desc": "The host presents the latest updates pertaining to politics, economic and social news.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93101435"
   },
   {
     "channelId": "ts372",
     "channelName": "Jeevan TV",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260405193000 +0000",
+    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Misty Rain",
     "desc": "Singers and bands perform a collection of popular songs and their own compositions.",
-    "category": null
+    "channel": "ts372",
+    "catchup-id": "93101396"
   }
 ]

@@ -2,12 +2,13 @@
   {
     "channelId": "ts442",
     "channelName": "ts442",
-    "start": "18:30",
-    "stop": "01:30",
+    "start": "20260405183000 +0000",
+    "stop": "20260406013000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775439000000,
     "title": "Breakless Beats",
     "desc": "A comprehensive compilation of popular songs is played back-to-back.",
-    "category": null
+    "channel": "ts442",
+    "catchup-id": "93113144"
   }
 ]

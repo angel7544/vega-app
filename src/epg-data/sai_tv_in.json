@@ -2,551 +2,601 @@
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260404183000 +0000",
+    "stop": "20260404190000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775329200000,
     "title": "Sai Baba Songs",
     "desc": "A compilation of devotional songs sung in praise of Sai Baba of Shirdi is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156971"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260404190000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775329200000,
     "stopTs": 1775331000000,
     "title": "Sai Baba Songs",
     "desc": "A compilation of devotional songs sung in praise of Sai Baba of Shirdi is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156992"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260404193000 +0000",
+    "stop": "20260404200000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775332800000,
     "title": "Sai Baba Songs",
     "desc": "A compilation of devotional songs sung in praise of Sai Baba of Shirdi is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156964"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260404200000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775332800000,
     "stopTs": 1775334600000,
     "title": "Sai Baba Songs",
     "desc": "A compilation of devotional songs sung in praise of Sai Baba of Shirdi is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156984"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260404203000 +0000",
+    "stop": "20260404210000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775336400000,
     "title": "Sai Baba Songs",
     "desc": "A compilation of devotional songs sung in praise of Sai Baba of Shirdi is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93157001"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260404210000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775336400000,
     "stopTs": 1775338200000,
     "title": "Sai Baba Songs",
     "desc": "A compilation of devotional songs sung in praise of Sai Baba of Shirdi is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93157008"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260404213000 +0000",
+    "stop": "20260404220000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775340000000,
     "title": "Sai Baba Songs",
     "desc": "A compilation of devotional songs sung in praise of Sai Baba of Shirdi is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156985"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260404220000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775340000000,
     "stopTs": 1775341800000,
     "title": "Sai Baba Songs",
     "desc": "A compilation of devotional songs sung in praise of Sai Baba of Shirdi is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156988"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260404223000 +0000",
+    "stop": "20260404230000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775343600000,
     "title": "Sai Baba Songs",
     "desc": "A compilation of devotional songs sung in praise of Sai Baba of Shirdi is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93157002"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260404230000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775343600000,
     "stopTs": 1775345400000,
     "title": "Morning Aarti",
     "desc": "Religious leaders and devotees gather to perform a sacred ritual to worship the deities.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156975"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260404233000 +0000",
+    "stop": "20260405000000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775347200000,
     "title": "Suprabatham",
     "desc": "Religious leaders recite morning prayers and sing devotional songs in praise of God.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156989"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260405000000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775347200000,
     "stopTs": 1775349000000,
     "title": "Kantha Sasti Kavasam",
     "desc": "A melodious rendering of a hymn dedicated to Lord Murugan is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156981"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260405003000 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775350800000,
     "title": "Morning Aarti",
     "desc": "Religious leaders and devotees gather to perform a sacred ritual to worship the deities.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156991"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260405010000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775352600000,
     "title": "Babavin Arputhangal",
     "desc": "Followers and devotees of Sai Baba give testimony about miracles witnessed.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156999"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260405013000 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775354400000,
     "title": "Vishnu Sahasranamam",
     "desc": "Hindu religious leaders and devotees chant a hymn listing the 1,000 names of Lord Vishnu.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156967"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260405020000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775356200000,
     "title": "Brahma",
     "desc": "Lord Brahma, a divine figure in Hindu mythology, is hugely worshipped by his followers.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93157006"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260405023000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775358000000,
     "title": "Mahalakshmi Sahasranamam",
     "desc": "A compilation of melodious devotional hymns dedicated to Goddess Mahalakshmi.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156978"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "Lalitha Sahasranamam",
     "desc": "Religious leaders chant a sacred hymn containing the thousand names of Goddess Lalita.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156972"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "Slot",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156968"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "Siivan Thiruvasagam",
     "desc": "Devotees gather to recite the sacred hymns of Thiruvasagam in praise of Lord Shiva.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156993"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260405043000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775365200000,
     "title": "Muguran Sahasranamam",
     "desc": "Talented singers and devotees chant the thousand holy names of Lord Murugan.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93157003"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775367000000,
     "title": "Guru Raghavendra",
     "desc": "A religious leader explains the teachings of Raghavendra Tirtha, an Indian scholar.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156966"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260405053000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775368800000,
     "title": "Sai Baba Songs",
     "desc": "A compilation of devotional songs sung in praise of Sai Baba of Shirdi is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156976"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260405060000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370600000,
     "title": "Hanuman Sahasranamam",
     "desc": "A melodious rendering of Hanuman Sahasranamam is played to invoke the spirit of devotion.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156994"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260405063000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775372400000,
     "title": "Madhyan Aarti",
     "desc": "Devotees come together to offer prayers and chant sacred hymns.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156969"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "Sai Baba Songs",
     "desc": "A compilation of devotional songs sung in praise of Sai Baba of Shirdi is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156982"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260405073000 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775376000000,
     "title": "Siva Mani Songs",
     "desc": "A compilation of melodious songs and sacred hymns in praise of Lord Shiva is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156996"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260405080000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775377800000,
     "title": "Sai Baba Songs",
     "desc": "A compilation of devotional songs sung in praise of Sai Baba of Shirdi is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93157005"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260405083000 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775379600000,
     "title": "Hanuman Chalisa",
     "desc": "Devotees gather and recite the Hanuman Chalisa in praise of Lord Hanuman.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156963"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260405090000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775381400000,
     "title": "Sai Baba Songs",
     "desc": "A compilation of devotional songs sung in praise of Sai Baba of Shirdi is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156979"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260405093000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775383200000,
     "title": "Muguran Abhisekam",
     "desc": "Hindu religious leaders conduct sacred rituals to seek blessings from Lord Murugan.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156990"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260405100000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775385000000,
     "title": "Sai Baba Songs",
     "desc": "A compilation of devotional songs sung in praise of Sai Baba of Shirdi is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93157004"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260405103000 +0000",
+    "stop": "20260405110000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775386800000,
     "title": "Lakshmi Arul",
     "desc": "A religious leader explains the divine grace and blessings bestowed by Goddess Lakshmi.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156974"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260405110000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775386800000,
     "stopTs": 1775388600000,
     "title": "Narasimear Sothiram",
     "desc": "Devotees recite sacred hymns in praise of Lord Narasimha to seek divine blessings.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156980"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260405113000 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775390400000,
     "title": "Vishnu Sahasranamam",
     "desc": "Hindu religious leaders and devotees chant a hymn listing the 1,000 names of Lord Vishnu.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156997"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "Lalitha Sahasranamam",
     "desc": "Religious leaders chant a sacred hymn containing the thousand names of Goddess Lalita.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93157000"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260405123000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775394000000,
     "title": "Dhup Aarti",
     "desc": "Hindu priests worship the Sai Baba's idol along with the devotees who pray to the god.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93157007"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260405130000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395800000,
     "title": "Kantha Sasti Kavasam",
     "desc": "A melodious rendering of a hymn dedicated to Lord Murugan is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156998"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260405133000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775397600000,
     "title": "Brahma",
     "desc": "Lord Brahma, a divine figure in Hindu mythology, is hugely worshipped by his followers.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156973"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "Indrakshi kavasam",
     "desc": "A melodious rendition of 'Indrakshi Kavacham' in praise of Goddess Durga is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156986"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775401200000,
     "title": "Hanuman Sahasranamam",
     "desc": "A melodious rendering of Hanuman Sahasranamam is played to invoke the spirit of devotion.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156970"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "Sai Baba Songs",
     "desc": "A compilation of devotional songs sung in praise of Sai Baba of Shirdi is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93157009"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260405153000 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775404800000,
     "title": "Night Aarti",
     "desc": "Devotees of Lord Ganesha participate in a prayer ceremony to worship him.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156983"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260405160000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775406600000,
     "title": "Stavan Manjari",
     "desc": "A collection of devotional songs in praise of the Almighty is played back to back.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156995"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "Sai Baba Songs",
     "desc": "A compilation of devotional songs sung in praise of Sai Baba of Shirdi is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156987"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "Shej Aarti",
     "desc": "A religious leader elaborates on the teachings of the Almighty.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156977"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "17:30",
-    "stop": "18:30",
+    "start": "20260405173000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775413800000,
     "title": "Sai Baba Songs",
     "desc": "A compilation of devotional songs sung in praise of Sai Baba of Shirdi is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93156965"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260405183000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Sai Baba Songs",
     "desc": "A compilation of devotional songs sung in praise of Sai Baba of Shirdi is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93090738"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260405190000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Sai Baba Songs",
     "desc": "A compilation of devotional songs sung in praise of Sai Baba of Shirdi is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93090733"
   },
   {
     "channelId": "ts435",
     "channelName": "SAI TV",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260405193000 +0000",
+    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Sai Baba Songs",
     "desc": "A compilation of devotional songs sung in praise of Sai Baba of Shirdi is played.",
-    "category": null
+    "channel": "ts435",
+    "catchup-id": "93090727"
   }
 ]

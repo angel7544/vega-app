@@ -2,716 +2,781 @@
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "20:30",
-    "stop": "22:30",
+    "start": "20260404203000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775341800000,
     "title": "PP Sant Pathik Ji Maharaj",
     "desc": "A religious preacher delivers a discourse on the blessings of divine powers to humanity.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93204980"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "22:30",
-    "stop": "23:30",
+    "start": "20260404223000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775345400000,
     "title": "PP Sant Pathik Ji Maharaj",
     "desc": "A religious preacher delivers a discourse on the blessings of divine powers to humanity.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93204981"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "23:30",
-    "stop": "00:30",
+    "start": "20260404233000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775349000000,
     "title": "PP Sant Pathik Ji Maharaj",
     "desc": "A religious preacher delivers a discourse on the blessings of divine powers to humanity.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93204979"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "00:30",
-    "stop": "01:30",
+    "start": "20260405003000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775352600000,
     "title": "Huzur Kanwar Sahib Ji Maharaj",
     "desc": "Kanwar Sahibji Maharaj chants verses and delivers a discourse on the teachings of God.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93204978"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "01:30",
-    "stop": "02:30",
+    "start": "20260405013000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775356200000,
     "title": "PP Swami Narayanand Ji Maharaj",
     "desc": "A religious leader delivers a discourse on the divine teachings of the Almighty.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93204985"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260405023000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775358000000,
     "title": "Pujya Shakti Putra Ji Maharaj",
     "desc": "A spiritual leader delivers a discourse on various teachings from the sacred scriptures.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93070433"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "Sanatan Ke Yoddha",
     "desc": ".",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93070429"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "Dayavan",
     "desc": ".",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93070431"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "Swayam Ko Khojo",
     "desc": "A motivational speaker delves into the Ramayana and imparts lessons on self-discovery.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93070438"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260405043000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775365200000,
     "title": "Vedic Guru",
     "desc": "The host invites experts to discuss numerology, tarot card reading, astrology, and vastu.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93070425"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775367000000,
     "title": "Bhagwan Prakat Ho",
     "desc": "Devotees from all over the world gather and sing devotional songs to praise God.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93070426"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "05:30",
-    "stop": "06:30",
+    "start": "20260405053000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775370600000,
     "title": "Pujya Maa Kankeshwari JI",
     "desc": ".",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93070430"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260405063000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775372400000,
     "title": "Pujya Maa Kankeshwari JI",
     "desc": ".",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93070432"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "Pujya Maa Kankeshwari JI",
     "desc": ".",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93070427"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260405073000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775377800000,
     "title": "Huzur Kanwar Sahib Ji Maharaj",
     "desc": "Kanwar Sahibji Maharaj chants verses and delivers a discourse on the teachings of God.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93070439"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260405083000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775381400000,
     "title": "Balyogi Brahmanand Ji Maharaj",
     "desc": "A religious leader sheds light on sacred texts, inspiring devotees to seek spirituality.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93070441"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "09:30",
-    "stop": "10:30",
+    "start": "20260405093000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775385000000,
     "title": "Pujya Devanand Ji Maharaj",
     "desc": ".",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93204983"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "10:30",
-    "stop": "13:30",
+    "start": "20260405103000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775395800000,
     "title": "Pujya Manushri ji Maharaj",
     "desc": "Manushri Ji Maharaj sings hymns and tells stories from various Indian scriptures.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93070442"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "13:30",
-    "stop": "14:30",
+    "start": "20260405133000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775399400000,
     "title": "Balyogi Brahmanand Ji Maharaj",
     "desc": "A religious leader sheds light on sacred texts, inspiring devotees to seek spirituality.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93070428"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775401200000,
     "title": "Swami Karundas Ji",
     "desc": "Swami Karun Das Ji conducts a religious discourse on the teachings of Hinduism.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93070436"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "15:00",
-    "stop": "18:00",
+    "start": "20260405150000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775412000000,
     "title": "Huzur Kanwar Sahib Ji Maharaj",
     "desc": "Kanwar Sahibji Maharaj chants verses and delivers a discourse on the teachings of God.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93204984"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "18:00",
-    "stop": "20:30",
+    "start": "20260405180000 +0000",
+    "stop": "20260405203000 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775421000000,
     "title": "Huzur Kanwar Sahib Ji Maharaj",
     "desc": "Kanwar Sahibji Maharaj chants verses and delivers a discourse on the teachings of God.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93204982"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "22:30",
-    "stop": "23:30",
+    "start": "20260405223000 +0000",
+    "stop": "20260405233000 +0000",
     "startTs": 1775428200000,
     "stopTs": 1775431800000,
     "title": "PP Sant Pathik Ji Maharaj",
     "desc": "A religious preacher delivers a discourse on the blessings of divine powers to humanity.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93107786"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "00:30",
-    "stop": "01:30",
+    "start": "20260406003000 +0000",
+    "stop": "20260406013000 +0000",
     "startTs": 1775435400000,
     "stopTs": 1775439000000,
     "title": "Huzur Kanwar Sahib Ji Maharaj",
     "desc": "Kanwar Sahibji Maharaj chants verses and delivers a discourse on the teachings of God.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93107767"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "01:30",
-    "stop": "02:30",
+    "start": "20260406013000 +0000",
+    "stop": "20260406023000 +0000",
     "startTs": 1775439000000,
     "stopTs": 1775442600000,
     "title": "PP Swami Narayanand Ji Maharaj",
     "desc": "A religious leader delivers a discourse on the divine teachings of the Almighty.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93107782"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260406023000 +0000",
+    "stop": "20260406030000 +0000",
     "startTs": 1775442600000,
     "stopTs": 1775444400000,
     "title": "Pujya Shakti Putra Ji Maharaj",
     "desc": "A spiritual leader delivers a discourse on various teachings from the sacred scriptures.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93107774"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260406030000 +0000",
+    "stop": "20260406033000 +0000",
     "startTs": 1775444400000,
     "stopTs": 1775446200000,
     "title": "Huzur Kanwar Sahib Ji Maharaj",
     "desc": "Kanwar Sahibji Maharaj chants verses and delivers a discourse on the teachings of God.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93107785"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260406033000 +0000",
+    "stop": "20260406040000 +0000",
     "startTs": 1775446200000,
     "stopTs": 1775448000000,
     "title": "Bhagwan Prakat Ho",
     "desc": "Devotees from all over the world gather and sing devotional songs to praise God.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93107778"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260406040000 +0000",
+    "stop": "20260406043000 +0000",
     "startTs": 1775448000000,
     "stopTs": 1775449800000,
     "title": "PP Sant Pathik Ji Maharaj",
     "desc": "A religious preacher delivers a discourse on the blessings of divine powers to humanity.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93107773"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260406043000 +0000",
+    "stop": "20260406050000 +0000",
     "startTs": 1775449800000,
     "stopTs": 1775451600000,
     "title": "Pujya Maa Kankeshwari JI",
     "desc": ".",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93107771"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260406050000 +0000",
+    "stop": "20260406053000 +0000",
     "startTs": 1775451600000,
     "stopTs": 1775453400000,
     "title": "Pujya Maa Kankeshwari JI",
     "desc": ".",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93107779"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "05:30",
-    "stop": "06:30",
+    "start": "20260406053000 +0000",
+    "stop": "20260406063000 +0000",
     "startTs": 1775453400000,
     "stopTs": 1775457000000,
     "title": "Pujya Maa Kankeshwari JI",
     "desc": ".",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93107765"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260406063000 +0000",
+    "stop": "20260406070000 +0000",
     "startTs": 1775457000000,
     "stopTs": 1775458800000,
     "title": "Pujya Maa Kankeshwari JI",
     "desc": ".",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93107768"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260406070000 +0000",
+    "stop": "20260406073000 +0000",
     "startTs": 1775458800000,
     "stopTs": 1775460600000,
     "title": "Pujya Maa Kankeshwari JI",
     "desc": ".",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93107770"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260406073000 +0000",
+    "stop": "20260406083000 +0000",
     "startTs": 1775460600000,
     "stopTs": 1775464200000,
     "title": "Huzur Kanwar Sahib Ji Maharaj",
     "desc": "Kanwar Sahibji Maharaj chants verses and delivers a discourse on the teachings of God.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93107762"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260406083000 +0000",
+    "stop": "20260406093000 +0000",
     "startTs": 1775464200000,
     "stopTs": 1775467800000,
     "title": "Balyogi Brahmanand Ji Maharaj",
     "desc": "A religious leader sheds light on sacred texts, inspiring devotees to seek spirituality.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93107776"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "10:30",
-    "stop": "13:30",
+    "start": "20260406103000 +0000",
+    "stop": "20260406133000 +0000",
     "startTs": 1775471400000,
     "stopTs": 1775482200000,
     "title": "Pujya Manushri ji Maharaj",
     "desc": "Manushri Ji Maharaj sings hymns and tells stories from various Indian scriptures.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93107764"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "13:30",
-    "stop": "14:30",
+    "start": "20260406133000 +0000",
+    "stop": "20260406143000 +0000",
     "startTs": 1775482200000,
     "stopTs": 1775485800000,
     "title": "Balyogi Brahmanand Ji Maharaj",
     "desc": "A religious leader sheds light on sacred texts, inspiring devotees to seek spirituality.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93107775"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260406143000 +0000",
+    "stop": "20260406150000 +0000",
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Swami Karundas Ji",
     "desc": "Swami Karun Das Ji conducts a religious discourse on the teachings of Hinduism.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93107769"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260406173000 +0000",
+    "stop": "20260406180000 +0000",
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Acharya Pawan Pandey Ji",
     "desc": ".",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93107766"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "18:00",
-    "stop": "19:30",
+    "start": "20260406180000 +0000",
+    "stop": "20260406193000 +0000",
     "startTs": 1775498400000,
     "stopTs": 1775503800000,
     "title": "Huzur Kanwar Sahib Ji Maharaj",
     "desc": "Kanwar Sahibji Maharaj chants verses and delivers a discourse on the teachings of God.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93107763"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "19:30",
-    "stop": "21:30",
+    "start": "20260406193000 +0000",
+    "stop": "20260406213000 +0000",
     "startTs": 1775503800000,
     "stopTs": 1775511000000,
     "title": "Huzur Kanwar Sahib Ji Maharaj",
     "desc": "Kanwar Sahibji Maharaj chants verses and delivers a discourse on the teachings of God.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144812"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "21:30",
-    "stop": "22:30",
+    "start": "20260406213000 +0000",
+    "stop": "20260406223000 +0000",
     "startTs": 1775511000000,
     "stopTs": 1775514600000,
     "title": "PP Sant Pathik Ji Maharaj",
     "desc": "A religious preacher delivers a discourse on the blessings of divine powers to humanity.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144832"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "22:30",
-    "stop": "00:30",
+    "start": "20260406223000 +0000",
+    "stop": "20260407003000 +0000",
     "startTs": 1775514600000,
     "stopTs": 1775521800000,
     "title": "PP Sant Pathik Ji Maharaj",
     "desc": "A religious preacher delivers a discourse on the blessings of divine powers to humanity.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144826"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "00:30",
-    "stop": "01:25",
+    "start": "20260407003000 +0000",
+    "stop": "20260407012500 +0000",
     "startTs": 1775521800000,
     "stopTs": 1775525100000,
     "title": "Huzur Kanwar Sahib Ji Maharaj",
     "desc": "Kanwar Sahibji Maharaj chants verses and delivers a discourse on the teachings of God.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144815"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "01:25",
-    "stop": "01:30",
+    "start": "20260407012500 +0000",
+    "stop": "20260407013000 +0000",
     "startTs": 1775525100000,
     "stopTs": 1775525400000,
     "title": "Shri Babosa Aarti",
     "desc": "Priests and devotees perform rituals in praise of the Hindu deity Babosa Maharaj.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144835"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "01:30",
-    "stop": "02:30",
+    "start": "20260407013000 +0000",
+    "stop": "20260407023000 +0000",
     "startTs": 1775525400000,
     "stopTs": 1775529000000,
     "title": "PP Swami Narayanand Ji Maharaj",
     "desc": "A religious leader delivers a discourse on the divine teachings of the Almighty.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144827"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260407023000 +0000",
+    "stop": "20260407030000 +0000",
     "startTs": 1775529000000,
     "stopTs": 1775530800000,
     "title": "Bhagwan Prakat Ho",
     "desc": "Devotees from all over the world gather and sing devotional songs to praise God.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144816"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260407030000 +0000",
+    "stop": "20260407033000 +0000",
     "startTs": 1775530800000,
     "stopTs": 1775532600000,
     "title": "Shri Radhey Shyam Devacharya Ji",
     "desc": "A religious expert delves into Hindu teachings, exploring their timeless wisdom.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144829"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260407033000 +0000",
+    "stop": "20260407040000 +0000",
     "startTs": 1775532600000,
     "stopTs": 1775534400000,
     "title": "Swayam Ko Khojo",
     "desc": "A motivational speaker delves into the Ramayana and imparts lessons on self-discovery.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144828"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260407040000 +0000",
+    "stop": "20260407043000 +0000",
     "startTs": 1775534400000,
     "stopTs": 1775536200000,
     "title": "Jeena Sikho Acharaya Manish Ji",
     "desc": "Manish, a healthcare professional, provides insights into various ailments.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144813"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260407043000 +0000",
+    "stop": "20260407050000 +0000",
     "startTs": 1775536200000,
     "stopTs": 1775538000000,
     "title": "Hazur Maharaj Kanwar Sahib Ji",
     "desc": "Hazur Maharaj Kanwar Sahibji delivers a spiritual discourse about religion.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144817"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260407050000 +0000",
+    "stop": "20260407053000 +0000",
     "startTs": 1775538000000,
     "stopTs": 1775539800000,
     "title": "Hazur Maharaj Kanwar Sahib Ji",
     "desc": "Hazur Maharaj Kanwar Sahibji delivers a spiritual discourse about religion.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144819"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260407053000 +0000",
+    "stop": "20260407060000 +0000",
     "startTs": 1775539800000,
     "stopTs": 1775541600000,
     "title": "Vrinda Ayurveda",
     "desc": "A medical professional discusses treatments offered at an Ayurvedic healthcare centre.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144823"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260407060000 +0000",
+    "stop": "20260407063000 +0000",
     "startTs": 1775541600000,
     "stopTs": 1775543400000,
     "title": "Jeena Sikho Acharaya Manish Ji",
     "desc": "Manish, a healthcare professional, provides insights into various ailments.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144821"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260407063000 +0000",
+    "stop": "20260407070000 +0000",
     "startTs": 1775543400000,
     "stopTs": 1775545200000,
     "title": "Vrinda Ayurveda",
     "desc": "A medical professional discusses treatments offered at an Ayurvedic healthcare centre.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144830"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260407070000 +0000",
+    "stop": "20260407073000 +0000",
     "startTs": 1775545200000,
     "stopTs": 1775547000000,
     "title": "Swayam Ko Khojo",
     "desc": "A motivational speaker delves into the Ramayana and imparts lessons on self-discovery.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144824"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260407073000 +0000",
+    "stop": "20260407080000 +0000",
     "startTs": 1775547000000,
     "stopTs": 1775548800000,
     "title": "Hazur Maharaj Kanwar Sahib Ji",
     "desc": "Hazur Maharaj Kanwar Sahibji delivers a spiritual discourse about religion.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144831"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260407080000 +0000",
+    "stop": "20260407083000 +0000",
     "startTs": 1775548800000,
     "stopTs": 1775550600000,
     "title": "PP Ram Avtar Ji",
     "desc": "Ram Avtar Ji, a religious scholar, delivers a religious discourse on Hinduism.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144818"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "08:30",
-    "stop": "10:30",
+    "start": "20260407083000 +0000",
+    "stop": "20260407103000 +0000",
     "startTs": 1775550600000,
     "stopTs": 1775557800000,
     "title": "PP Swami Karun Das Ji Maharaj Live",
     "desc": "A spiritual leader apprises devotees of divine teachings with a religious discourse, live.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144833"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "10:30",
-    "stop": "13:30",
+    "start": "20260407103000 +0000",
+    "stop": "20260407133000 +0000",
     "startTs": 1775557800000,
     "stopTs": 1775568600000,
     "title": "Live Katha PP Manushri Ji Maharaj",
     "desc": "Manushri Ji Maharaj, a religious leader, delivers a discourse on Hinduism, live.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144822"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260407133000 +0000",
+    "stop": "20260407140000 +0000",
     "startTs": 1775568600000,
     "stopTs": 1775570400000,
     "title": "Huzur Kanwar Sahib Ji Maharaj",
     "desc": "Kanwar Sahibji Maharaj chants verses and delivers a discourse on the teachings of God.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144814"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260407140000 +0000",
+    "stop": "20260407143000 +0000",
     "startTs": 1775570400000,
     "stopTs": 1775572200000,
     "title": "PP Swami Narayanand Ji Maharaj",
     "desc": "A religious leader delivers a discourse on the divine teachings of the Almighty.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144820"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "14:30",
-    "stop": "17:30",
+    "start": "20260407143000 +0000",
+    "stop": "20260407173000 +0000",
     "startTs": 1775572200000,
     "stopTs": 1775583000000,
     "title": "Yamuna Sahyog Samiti",
     "desc": "A leader elaborates on the teachings of the Hindu scriptures, live.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144825"
   },
   {
     "channelId": "ts911",
     "channelName": "Santwani",
-    "start": "17:30",
-    "stop": "19:30",
+    "start": "20260407173000 +0000",
+    "stop": "20260407193000 +0000",
     "startTs": 1775583000000,
     "stopTs": 1775590200000,
     "title": "PP Anjani Sharan Ji Fatehpur",
     "desc": "A religious leader sheds light on various teachings from the Hindu scriptures.",
-    "category": null
+    "channel": "ts911",
+    "catchup-id": "93144834"
   }
 ]

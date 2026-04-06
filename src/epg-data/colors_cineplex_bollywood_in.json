@@ -2,23 +2,25 @@
   {
     "channelId": "ts1000",
     "channelName": "Colors Cineplex Bollywood",
-    "start": "19:40",
-    "stop": "21:13",
+    "start": "20260405194000 +0000",
+    "stop": "20260405211300 +0000",
     "startTs": 1775418000000,
     "stopTs": 1775423580000,
     "title": "Naagin Bani Suhaagan",
     "desc": "Vaishali is blessed with a boon to transform herself into a shapeshifting snake.",
-    "category": null
+    "channel": "ts1000",
+    "catchup-id": "93205877"
   },
   {
     "channelId": "ts1000",
     "channelName": "Colors Cineplex Bollywood",
-    "start": "21:13",
-    "stop": "22:53",
+    "start": "20260405211300 +0000",
+    "stop": "20260405225300 +0000",
     "startTs": 1775423580000,
     "stopTs": 1775429580000,
     "title": "Vaada Raha...I Promise",
     "desc": "Duke Chawla's perfect life turns into a nightmare when he meets with an accident.",
-    "category": null
+    "channel": "ts1000",
+    "catchup-id": "93205878"
   }
 ]

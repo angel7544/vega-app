@@ -2,1585 +2,1729 @@
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260404183000 +0000",
+    "stop": "20260404190000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775329200000,
     "title": "Khabar 1 Minutes",
     "desc": "The host provides the latest updates on various political, economic and social issues.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076226"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260404190000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775329200000,
     "stopTs": 1775331000000,
     "title": "Khabar To Samajhiye",
     "desc": "The presenter provides a detailed analysis of updates and developments in the country.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076218"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260404193000 +0000",
+    "stop": "20260404200000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775332800000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076211"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260404200000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775332800000,
     "stopTs": 1775334600000,
     "title": "Khabar 1 Minutes",
     "desc": "The host provides the latest updates on various political, economic and social issues.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076222"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260404203000 +0000",
+    "stop": "20260404210000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775336400000,
     "title": "Khabar To Samajhiye",
     "desc": "The presenter provides a detailed analysis of updates and developments in the country.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076194"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260404210000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775336400000,
     "stopTs": 1775338200000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076230"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260404213000 +0000",
+    "stop": "20260404220000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775340000000,
     "title": "Khabar 1 Minutes",
     "desc": "The host provides the latest updates on various political, economic and social issues.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076232"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260404220000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775340000000,
     "stopTs": 1775341800000,
     "title": "Khabar To Samajhiye",
     "desc": "The presenter provides a detailed analysis of updates and developments in the country.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076198"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260404223000 +0000",
+    "stop": "20260404230000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775343600000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076223"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260404230000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775343600000,
     "stopTs": 1775345400000,
     "title": "Khabar 1 Minutes",
     "desc": "The host provides the latest updates on various political, economic and social issues.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076189"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260404233000 +0000",
+    "stop": "20260405000000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775347200000,
     "title": "Khabar To Samajhiye",
     "desc": "The presenter provides a detailed analysis of updates and developments in the country.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076214"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260405000000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775347200000,
     "stopTs": 1775349000000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076228"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260405003000 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775350800000,
     "title": "Khabar To Samajhiye",
     "desc": "The presenter provides a detailed analysis of updates and developments in the country.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076206"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260405010000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775352600000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076195"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260405013000 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775354400000,
     "title": "Namaste Bihar",
     "desc": "The host presents the latest updates about the current affairs from the state of Bihar.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076190"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260405020000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775356200000,
     "title": "Namaste Bihar",
     "desc": "The host presents the latest updates about the current affairs from the state of Bihar.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076208"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260405023000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775358000000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076191"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "Bhabhi Ji Maidan Me Hai",
     "desc": "The host interviews common people to know their views on leaders and their initiatives.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076217"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "9 Ki 9 Khabar",
     "desc": "The host provides the latest updates on various political, economic and social issues.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076233"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "Zila Top 100",
     "desc": "The host presents the top 100 information on political and socio-economic updates.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076202"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260405043000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775365200000,
     "title": "Apna Bihar",
     "desc": "The host presents some of the most recent socio-political and economic updates from Bihar.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076196"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775367000000,
     "title": "Johar Jharkhand",
     "desc": "The host presents the recent political, social and economic news from Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076197"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260405053000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775368800000,
     "title": "Gaon Shahar 100 Khabar",
     "desc": "The host presents the latest news of national significance in quick succession.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076220"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260405060000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370600000,
     "title": "News Room Live",
     "desc": "The host discusses current social, economic and political issues with an expert, live.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076204"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260405063000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775372400000,
     "title": "Khabar 1 Minutes",
     "desc": "The host provides the latest updates on various political, economic and social issues.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076221"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "News 18 Special",
     "desc": "The host presents a detailed analysis of some of the major stories of the day.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076224"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260405073000 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775376000000,
     "title": "Apna Bihar",
     "desc": "The host presents some of the most recent socio-political and economic updates from Bihar.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076216"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260405080000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775377800000,
     "title": "Johar Jharkhand",
     "desc": "The host presents the recent political, social and economic news from Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076200"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260405083000 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775379600000,
     "title": "2 Danadan",
     "desc": "The host presents news about various events and current affairs.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076229"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260405090000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775381400000,
     "title": "Special Report",
     "desc": "The host presents some of the latest news stories, current affairs and developments.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076209"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260405093000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775383200000,
     "title": "Gaon Shahar 100 Khabar",
     "desc": "The host presents the latest news of national significance in quick succession.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076234"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260405100000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775385000000,
     "title": "Special Report",
     "desc": "The host presents some of the latest news stories, current affairs and developments.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076235"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260405103000 +0000",
+    "stop": "20260405110000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775386800000,
     "title": "Apna Bihar",
     "desc": "The host presents some of the most recent socio-political and economic updates from Bihar.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076236"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260405110000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775386800000,
     "stopTs": 1775388600000,
     "title": "Johar Jharkhand",
     "desc": "The host presents the recent political, social and economic news from Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076227"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260405113000 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775390400000,
     "title": "Khabar 1 Minutes",
     "desc": "The host provides the latest updates on various political, economic and social issues.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076192"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "Bhabhi Ji Maidan Me Hai",
     "desc": "The host interviews common people to know their views on leaders and their initiatives.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076215"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260405123000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775394000000,
     "title": "6 Ka Sixer",
     "desc": "A panel of six eminent hosts presents the top six news stories.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076203"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260405130000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395800000,
     "title": "Vishesh",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076219"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260405133000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775397600000,
     "title": "Apna Bihar",
     "desc": "The host presents some of the most recent socio-political and economic updates from Bihar.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076207"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "Johar Jharkhand",
     "desc": "The host presents the recent political, social and economic news from Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076193"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775401200000,
     "title": "News 18 Special",
     "desc": "The host presents a detailed analysis of some of the major stories of the day.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076212"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076205"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260405153000 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775404800000,
     "title": "Special Bulletin",
     "desc": "The host presents some of the latest news stories, current affairs and developments.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076213"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260405160000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775406600000,
     "title": "Vishesh",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076231"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "Apna Bihar",
     "desc": "The host presents some of the most recent socio-political and economic updates from Bihar.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076210"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "Johar Jharkhand",
     "desc": "The host presents the recent political, social and economic news from Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076199"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260405173000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775412000000,
     "title": "Special Bulletin",
     "desc": "The host presents some of the latest news stories, current affairs and developments.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076225"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260405180000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775413800000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93076201"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260405183000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Khabar 1 Minutes",
     "desc": "The host provides the latest updates on various political, economic and social issues.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103816"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260405190000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Khabar To Samajhiye",
     "desc": "The presenter provides a detailed analysis of updates and developments in the country.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103789"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260405193000 +0000",
+    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103794"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260405200000 +0000",
+    "stop": "20260405203000 +0000",
     "startTs": 1775419200000,
     "stopTs": 1775421000000,
     "title": "Khabar 1 Minutes",
     "desc": "The host provides the latest updates on various political, economic and social issues.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103785"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260405203000 +0000",
+    "stop": "20260405210000 +0000",
     "startTs": 1775421000000,
     "stopTs": 1775422800000,
     "title": "Khabar To Samajhiye",
     "desc": "The presenter provides a detailed analysis of updates and developments in the country.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103808"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260405210000 +0000",
+    "stop": "20260405213000 +0000",
     "startTs": 1775422800000,
     "stopTs": 1775424600000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103772"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260405213000 +0000",
+    "stop": "20260405220000 +0000",
     "startTs": 1775424600000,
     "stopTs": 1775426400000,
     "title": "Khabar 1 Minutes",
     "desc": "The host provides the latest updates on various political, economic and social issues.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103800"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260405220000 +0000",
+    "stop": "20260405223000 +0000",
     "startTs": 1775426400000,
     "stopTs": 1775428200000,
     "title": "Khabar To Samajhiye",
     "desc": "The presenter provides a detailed analysis of updates and developments in the country.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103818"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260405223000 +0000",
+    "stop": "20260405230000 +0000",
     "startTs": 1775428200000,
     "stopTs": 1775430000000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103790"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260405230000 +0000",
+    "stop": "20260405233000 +0000",
     "startTs": 1775430000000,
     "stopTs": 1775431800000,
     "title": "Khabar 1 Minutes",
     "desc": "The host provides the latest updates on various political, economic and social issues.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103777"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260405233000 +0000",
+    "stop": "20260406000000 +0000",
     "startTs": 1775431800000,
     "stopTs": 1775433600000,
     "title": "Khabar To Samajhiye",
     "desc": "The presenter provides a detailed analysis of updates and developments in the country.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103802"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260406000000 +0000",
+    "stop": "20260406003000 +0000",
     "startTs": 1775433600000,
     "stopTs": 1775435400000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103805"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260406003000 +0000",
+    "stop": "20260406010000 +0000",
     "startTs": 1775435400000,
     "stopTs": 1775437200000,
     "title": "Special Bulletin",
     "desc": "The host presents some of the latest news stories, current affairs and developments.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103783"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260406010000 +0000",
+    "stop": "20260406013000 +0000",
     "startTs": 1775437200000,
     "stopTs": 1775439000000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103781"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260406013000 +0000",
+    "stop": "20260406020000 +0000",
     "startTs": 1775439000000,
     "stopTs": 1775440800000,
     "title": "Namaste Bihar",
     "desc": "The host presents the latest updates about the current affairs from the state of Bihar.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103793"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260406020000 +0000",
+    "stop": "20260406023000 +0000",
     "startTs": 1775440800000,
     "stopTs": 1775442600000,
     "title": "Namaste Bihar",
     "desc": "The host presents the latest updates about the current affairs from the state of Bihar.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103817"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260406023000 +0000",
+    "stop": "20260406030000 +0000",
     "startTs": 1775442600000,
     "stopTs": 1775444400000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103780"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260406030000 +0000",
+    "stop": "20260406033000 +0000",
     "startTs": 1775444400000,
     "stopTs": 1775446200000,
     "title": "Bhabhi Ji Maidan Me Hai",
     "desc": "The host interviews common people to know their views on leaders and their initiatives.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103819"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260406033000 +0000",
+    "stop": "20260406040000 +0000",
     "startTs": 1775446200000,
     "stopTs": 1775448000000,
     "title": "9 Ki 9 Khabar",
     "desc": "The host provides the latest updates on various political, economic and social issues.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103778"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260406040000 +0000",
+    "stop": "20260406043000 +0000",
     "startTs": 1775448000000,
     "stopTs": 1775449800000,
     "title": "Zila Top 100",
     "desc": "The host presents the top 100 information on political and socio-economic updates.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103811"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260406043000 +0000",
+    "stop": "20260406050000 +0000",
     "startTs": 1775449800000,
     "stopTs": 1775451600000,
     "title": "Apna Bihar",
     "desc": "The host presents some of the most recent socio-political and economic updates from Bihar.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103813"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260406050000 +0000",
+    "stop": "20260406053000 +0000",
     "startTs": 1775451600000,
     "stopTs": 1775453400000,
     "title": "Johar Jharkhand",
     "desc": "The host presents the recent political, social and economic news from Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103774"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260406053000 +0000",
+    "stop": "20260406060000 +0000",
     "startTs": 1775453400000,
     "stopTs": 1775455200000,
     "title": "Gaon Shahar 100 Khabar",
     "desc": "The host presents the latest news of national significance in quick succession.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103795"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260406060000 +0000",
+    "stop": "20260406063000 +0000",
     "startTs": 1775455200000,
     "stopTs": 1775457000000,
     "title": "News Room Live",
     "desc": "The host discusses current social, economic and political issues with an expert, live.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103784"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260406063000 +0000",
+    "stop": "20260406070000 +0000",
     "startTs": 1775457000000,
     "stopTs": 1775458800000,
     "title": "Khabar 1 Minutes",
     "desc": "The host provides the latest updates on various political, economic and social issues.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103786"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260406070000 +0000",
+    "stop": "20260406073000 +0000",
     "startTs": 1775458800000,
     "stopTs": 1775460600000,
     "title": "News 18 Special",
     "desc": "The host presents a detailed analysis of some of the major stories of the day.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103779"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260406073000 +0000",
+    "stop": "20260406080000 +0000",
     "startTs": 1775460600000,
     "stopTs": 1775462400000,
     "title": "Apna Bihar",
     "desc": "The host presents some of the most recent socio-political and economic updates from Bihar.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103810"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260406080000 +0000",
+    "stop": "20260406083000 +0000",
     "startTs": 1775462400000,
     "stopTs": 1775464200000,
     "title": "Johar Jharkhand",
     "desc": "The host presents the recent political, social and economic news from Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103787"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260406083000 +0000",
+    "stop": "20260406090000 +0000",
     "startTs": 1775464200000,
     "stopTs": 1775466000000,
     "title": "2 Danadan",
     "desc": "The host presents news about various events and current affairs.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103796"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260406090000 +0000",
+    "stop": "20260406093000 +0000",
     "startTs": 1775466000000,
     "stopTs": 1775467800000,
     "title": "Special Report",
     "desc": "The host presents some of the latest news stories, current affairs and developments.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103791"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260406093000 +0000",
+    "stop": "20260406100000 +0000",
     "startTs": 1775467800000,
     "stopTs": 1775469600000,
     "title": "Gaon Shahar 100 Khabar",
     "desc": "The host presents the latest news of national significance in quick succession.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103797"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260406100000 +0000",
+    "stop": "20260406103000 +0000",
     "startTs": 1775469600000,
     "stopTs": 1775471400000,
     "title": "Special Report",
     "desc": "The host presents some of the latest news stories, current affairs and developments.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103815"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260406103000 +0000",
+    "stop": "20260406110000 +0000",
     "startTs": 1775471400000,
     "stopTs": 1775473200000,
     "title": "Apna Bihar",
     "desc": "The host presents some of the most recent socio-political and economic updates from Bihar.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103814"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260406110000 +0000",
+    "stop": "20260406113000 +0000",
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Johar Jharkhand",
     "desc": "The host presents the recent political, social and economic news from Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103803"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260406113000 +0000",
+    "stop": "20260406120000 +0000",
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Khabar 1 Minutes",
     "desc": "The host provides the latest updates on various political, economic and social issues.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103799"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260406120000 +0000",
+    "stop": "20260406123000 +0000",
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Bhabhi Ji Maidan Me Hai",
     "desc": "The host interviews common people to know their views on leaders and their initiatives.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103792"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260406123000 +0000",
+    "stop": "20260406130000 +0000",
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "6 Ka Sixer",
     "desc": "A panel of six eminent hosts presents the top six news stories.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103788"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260406130000 +0000",
+    "stop": "20260406133000 +0000",
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Vishesh",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103782"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260406133000 +0000",
+    "stop": "20260406140000 +0000",
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Apna Bihar",
     "desc": "The host presents some of the most recent socio-political and economic updates from Bihar.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103773"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260406140000 +0000",
+    "stop": "20260406143000 +0000",
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Johar Jharkhand",
     "desc": "The host presents the recent political, social and economic news from Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103806"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260406143000 +0000",
+    "stop": "20260406150000 +0000",
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Bahas Bihar Ki",
     "desc": "The host and a panel of experts engage in an insightful debate over pressing matters.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103809"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260406150000 +0000",
+    "stop": "20260406153000 +0000",
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103804"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260406153000 +0000",
+    "stop": "20260406160000 +0000",
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Khabar To Samajhiye",
     "desc": "The presenter provides a detailed analysis of updates and developments in the country.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103798"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260406160000 +0000",
+    "stop": "20260406163000 +0000",
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Vishesh",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103807"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260406163000 +0000",
+    "stop": "20260406170000 +0000",
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Apna Bihar",
     "desc": "The host presents some of the most recent socio-political and economic updates from Bihar.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103801"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260406170000 +0000",
+    "stop": "20260406173000 +0000",
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Johar Jharkhand",
     "desc": "The host presents the recent political, social and economic news from Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103776"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260406173000 +0000",
+    "stop": "20260406180000 +0000",
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103775"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260406180000 +0000",
+    "stop": "20260406183000 +0000",
     "startTs": 1775498400000,
     "stopTs": 1775500200000,
     "title": "Khabar To Samajhiye",
     "desc": "The presenter provides a detailed analysis of updates and developments in the country.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93103812"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260406183000 +0000",
+    "stop": "20260406190000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775502000000,
     "title": "Khabar 1 Minutes",
     "desc": "The host provides the latest updates on various political, economic and social issues.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140805"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260406190000 +0000",
+    "stop": "20260406193000 +0000",
     "startTs": 1775502000000,
     "stopTs": 1775503800000,
     "title": "Special Bulletin",
     "desc": "The host presents some of the latest news stories, current affairs and developments.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140799"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260406193000 +0000",
+    "stop": "20260406200000 +0000",
     "startTs": 1775503800000,
     "stopTs": 1775505600000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140791"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260406200000 +0000",
+    "stop": "20260406203000 +0000",
     "startTs": 1775505600000,
     "stopTs": 1775507400000,
     "title": "Khabar 1 Minutes",
     "desc": "The host provides the latest updates on various political, economic and social issues.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140767"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260406203000 +0000",
+    "stop": "20260406210000 +0000",
     "startTs": 1775507400000,
     "stopTs": 1775509200000,
     "title": "Special Bulletin",
     "desc": "The host presents some of the latest news stories, current affairs and developments.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140763"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260406210000 +0000",
+    "stop": "20260406213000 +0000",
     "startTs": 1775509200000,
     "stopTs": 1775511000000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140801"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260406213000 +0000",
+    "stop": "20260406220000 +0000",
     "startTs": 1775511000000,
     "stopTs": 1775512800000,
     "title": "Khabar 1 Minutes",
     "desc": "The host provides the latest updates on various political, economic and social issues.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140781"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260406220000 +0000",
+    "stop": "20260406223000 +0000",
     "startTs": 1775512800000,
     "stopTs": 1775514600000,
     "title": "Special Bulletin",
     "desc": "The host presents some of the latest news stories, current affairs and developments.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140792"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260406223000 +0000",
+    "stop": "20260406230000 +0000",
     "startTs": 1775514600000,
     "stopTs": 1775516400000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140803"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260406230000 +0000",
+    "stop": "20260406233000 +0000",
     "startTs": 1775516400000,
     "stopTs": 1775518200000,
     "title": "Khabar 1 Minutes",
     "desc": "The host provides the latest updates on various political, economic and social issues.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140788"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260406233000 +0000",
+    "stop": "20260407000000 +0000",
     "startTs": 1775518200000,
     "stopTs": 1775520000000,
     "title": "Special Bulletin",
     "desc": "The host presents some of the latest news stories, current affairs and developments.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140768"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260407000000 +0000",
+    "stop": "20260407003000 +0000",
     "startTs": 1775520000000,
     "stopTs": 1775521800000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140785"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260407003000 +0000",
+    "stop": "20260407010000 +0000",
     "startTs": 1775521800000,
     "stopTs": 1775523600000,
     "title": "Khabar To Samajhiye",
     "desc": "The presenter provides a detailed analysis of updates and developments in the country.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140761"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260407010000 +0000",
+    "stop": "20260407013000 +0000",
     "startTs": 1775523600000,
     "stopTs": 1775525400000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140796"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260407013000 +0000",
+    "stop": "20260407020000 +0000",
     "startTs": 1775525400000,
     "stopTs": 1775527200000,
     "title": "Namaste Bihar",
     "desc": "The host presents the latest updates about the current affairs from the state of Bihar.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140804"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260407020000 +0000",
+    "stop": "20260407023000 +0000",
     "startTs": 1775527200000,
     "stopTs": 1775529000000,
     "title": "Namaste Bihar",
     "desc": "The host presents the latest updates about the current affairs from the state of Bihar.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140769"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260407023000 +0000",
+    "stop": "20260407030000 +0000",
     "startTs": 1775529000000,
     "stopTs": 1775530800000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140774"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260407030000 +0000",
+    "stop": "20260407033000 +0000",
     "startTs": 1775530800000,
     "stopTs": 1775532600000,
     "title": "Bhabhi Ji Maidan Me Hai",
     "desc": "The host interviews common people to know their views on leaders and their initiatives.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140807"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260407033000 +0000",
+    "stop": "20260407040000 +0000",
     "startTs": 1775532600000,
     "stopTs": 1775534400000,
     "title": "9 Ki 9 Khabar",
     "desc": "The host provides the latest updates on various political, economic and social issues.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140764"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260407040000 +0000",
+    "stop": "20260407043000 +0000",
     "startTs": 1775534400000,
     "stopTs": 1775536200000,
     "title": "Zila Top 100",
     "desc": "The host presents the top 100 information on political and socio-economic updates.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140772"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260407043000 +0000",
+    "stop": "20260407050000 +0000",
     "startTs": 1775536200000,
     "stopTs": 1775538000000,
     "title": "Apna Bihar",
     "desc": "The host presents some of the most recent socio-political and economic updates from Bihar.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140806"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260407050000 +0000",
+    "stop": "20260407053000 +0000",
     "startTs": 1775538000000,
     "stopTs": 1775539800000,
     "title": "Johar Jharkhand",
     "desc": "The host presents the recent political, social and economic news from Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140765"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260407053000 +0000",
+    "stop": "20260407060000 +0000",
     "startTs": 1775539800000,
     "stopTs": 1775541600000,
     "title": "Gaon Shahar 100 Khabar",
     "desc": "The host presents the latest news of national significance in quick succession.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140779"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260407060000 +0000",
+    "stop": "20260407063000 +0000",
     "startTs": 1775541600000,
     "stopTs": 1775543400000,
     "title": "News Room Live",
     "desc": "The host discusses current social, economic and political issues with an expert, live.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140766"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260407063000 +0000",
+    "stop": "20260407070000 +0000",
     "startTs": 1775543400000,
     "stopTs": 1775545200000,
     "title": "Khabar 1 Minutes",
     "desc": "The host provides the latest updates on various political, economic and social issues.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140794"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260407070000 +0000",
+    "stop": "20260407073000 +0000",
     "startTs": 1775545200000,
     "stopTs": 1775547000000,
     "title": "News 18 Special",
     "desc": "The host presents a detailed analysis of some of the major stories of the day.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140793"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260407073000 +0000",
+    "stop": "20260407080000 +0000",
     "startTs": 1775547000000,
     "stopTs": 1775548800000,
     "title": "Apna Bihar",
     "desc": "The host presents some of the most recent socio-political and economic updates from Bihar.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140808"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260407080000 +0000",
+    "stop": "20260407083000 +0000",
     "startTs": 1775548800000,
     "stopTs": 1775550600000,
     "title": "Johar Jharkhand",
     "desc": "The host presents the recent political, social and economic news from Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140773"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260407083000 +0000",
+    "stop": "20260407090000 +0000",
     "startTs": 1775550600000,
     "stopTs": 1775552400000,
     "title": "2 Danadan",
     "desc": "The host presents news about various events and current affairs.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140782"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260407090000 +0000",
+    "stop": "20260407093000 +0000",
     "startTs": 1775552400000,
     "stopTs": 1775554200000,
     "title": "Special Report",
     "desc": "The host presents some of the latest news stories, current affairs and developments.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140771"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260407093000 +0000",
+    "stop": "20260407100000 +0000",
     "startTs": 1775554200000,
     "stopTs": 1775556000000,
     "title": "Gaon Shahar 100 Khabar",
     "desc": "The host presents the latest news of national significance in quick succession.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140776"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260407100000 +0000",
+    "stop": "20260407103000 +0000",
     "startTs": 1775556000000,
     "stopTs": 1775557800000,
     "title": "Special Report",
     "desc": "The host presents some of the latest news stories, current affairs and developments.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140775"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260407103000 +0000",
+    "stop": "20260407110000 +0000",
     "startTs": 1775557800000,
     "stopTs": 1775559600000,
     "title": "Apna Bihar",
     "desc": "The host presents some of the most recent socio-political and economic updates from Bihar.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140762"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260407110000 +0000",
+    "stop": "20260407113000 +0000",
     "startTs": 1775559600000,
     "stopTs": 1775561400000,
     "title": "Johar Jharkhand",
     "desc": "The host presents the recent political, social and economic news from Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140795"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260407113000 +0000",
+    "stop": "20260407120000 +0000",
     "startTs": 1775561400000,
     "stopTs": 1775563200000,
     "title": "Khabar 1 Minutes",
     "desc": "The host provides the latest updates on various political, economic and social issues.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140797"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260407120000 +0000",
+    "stop": "20260407123000 +0000",
     "startTs": 1775563200000,
     "stopTs": 1775565000000,
     "title": "Bhabhi Ji Maidan Me Hai",
     "desc": "The host interviews common people to know their views on leaders and their initiatives.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140789"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260407123000 +0000",
+    "stop": "20260407130000 +0000",
     "startTs": 1775565000000,
     "stopTs": 1775566800000,
     "title": "6 Ka Sixer",
     "desc": "A panel of six eminent hosts presents the top six news stories.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140790"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260407130000 +0000",
+    "stop": "20260407133000 +0000",
     "startTs": 1775566800000,
     "stopTs": 1775568600000,
     "title": "Vishesh",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140770"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260407133000 +0000",
+    "stop": "20260407140000 +0000",
     "startTs": 1775568600000,
     "stopTs": 1775570400000,
     "title": "Apna Bihar",
     "desc": "The host presents some of the most recent socio-political and economic updates from Bihar.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140800"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260407140000 +0000",
+    "stop": "20260407143000 +0000",
     "startTs": 1775570400000,
     "stopTs": 1775572200000,
     "title": "Johar Jharkhand",
     "desc": "The host presents the recent political, social and economic news from Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140783"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260407143000 +0000",
+    "stop": "20260407150000 +0000",
     "startTs": 1775572200000,
     "stopTs": 1775574000000,
     "title": "Bahas Bihar Ki",
     "desc": "The host and a panel of experts engage in an insightful debate over pressing matters.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140780"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260407150000 +0000",
+    "stop": "20260407153000 +0000",
     "startTs": 1775574000000,
     "stopTs": 1775575800000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140798"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260407153000 +0000",
+    "stop": "20260407160000 +0000",
     "startTs": 1775575800000,
     "stopTs": 1775577600000,
     "title": "Khabar To Samajhiye",
     "desc": "The presenter provides a detailed analysis of updates and developments in the country.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140802"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260407160000 +0000",
+    "stop": "20260407163000 +0000",
     "startTs": 1775577600000,
     "stopTs": 1775579400000,
     "title": "Vishesh",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140784"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260407163000 +0000",
+    "stop": "20260407170000 +0000",
     "startTs": 1775579400000,
     "stopTs": 1775581200000,
     "title": "Apna Bihar",
     "desc": "The host presents some of the most recent socio-political and economic updates from Bihar.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140786"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260407170000 +0000",
+    "stop": "20260407173000 +0000",
     "startTs": 1775581200000,
     "stopTs": 1775583000000,
     "title": "Johar Jharkhand",
     "desc": "The host presents the recent political, social and economic news from Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140787"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260407173000 +0000",
+    "stop": "20260407180000 +0000",
     "startTs": 1775583000000,
     "stopTs": 1775584800000,
     "title": "City 62",
     "desc": "The host presents information on the latest news updates from Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140777"
   },
   {
     "channelId": "ts166",
     "channelName": "News18 Bihar Jharkhand",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260407180000 +0000",
+    "stop": "20260407183000 +0000",
     "startTs": 1775584800000,
     "stopTs": 1775586600000,
     "title": "Khabar To Samajhiye",
     "desc": "The presenter provides a detailed analysis of updates and developments in the country.",
-    "category": null
+    "channel": "ts166",
+    "catchup-id": "93140778"
   }
 ]

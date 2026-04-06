@@ -2,639 +2,697 @@
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260406183000 +0000",
+    "stop": "20260406190000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775502000000,
     "title": "New India",
     "desc": "The host invites experts to discuss the government's initiatives to boost India's growth.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133756"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260406190000 +0000",
+    "stop": "20260406193000 +0000",
     "startTs": 1775502000000,
     "stopTs": 1775503800000,
     "title": "Bharat ke durg",
     "desc": "The film-maker sheds light on forts across India and what makes them significant.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133810"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260406193000 +0000",
+    "stop": "20260406200000 +0000",
     "startTs": 1775503800000,
     "stopTs": 1775505600000,
     "title": "Pahun",
     "desc": "Follows the lives of the characters as they go about their daily routine.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133782"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260406200000 +0000",
+    "stop": "20260406203000 +0000",
     "startTs": 1775505600000,
     "stopTs": 1775507400000,
     "title": "Naina Man Ki Aakhein",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133758"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260406203000 +0000",
+    "stop": "20260406210000 +0000",
     "startTs": 1775507400000,
     "stopTs": 1775509200000,
     "title": "Pummy Beauty Parlor",
     "desc": "Pummy, a housewife, finds innovative solutions to various problems.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133790"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260406210000 +0000",
+    "stop": "20260406213000 +0000",
     "startTs": 1775509200000,
     "stopTs": 1775511000000,
     "title": "Muzafarpur Doordarshan",
     "desc": "The host sheds light on the latest developments pertaining to agriculture in Muzaffarpur, India.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133804"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260406213000 +0000",
+    "stop": "20260406220000 +0000",
     "startTs": 1775511000000,
     "stopTs": 1775512800000,
     "title": "Gaon Ghar",
     "desc": "The host sheds light on the various developmental measures taken for rural India.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133759"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260406220000 +0000",
+    "stop": "20260406223000 +0000",
     "startTs": 1775512800000,
     "stopTs": 1775514600000,
     "title": "Shayityaki",
     "desc": "The host invites literary experts to shed light on different pieces of literature.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133757"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260406223000 +0000",
+    "stop": "20260406230000 +0000",
     "startTs": 1775514600000,
     "stopTs": 1775516400000,
     "title": "Bharat ke durg",
     "desc": "The film-maker sheds light on forts across India and what makes them significant.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133807"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260406230000 +0000",
+    "stop": "20260406233000 +0000",
     "startTs": 1775516400000,
     "stopTs": 1775518200000,
     "title": "Pahun",
     "desc": "Follows the lives of the characters as they go about their daily routine.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133762"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260406233000 +0000",
+    "stop": "20260407000000 +0000",
     "startTs": 1775518200000,
     "stopTs": 1775520000000,
     "title": "Naina Man Ki Aakhein",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133801"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260407000000 +0000",
+    "stop": "20260407003000 +0000",
     "startTs": 1775520000000,
     "stopTs": 1775521800000,
     "title": "Pummy Beauty Parlor",
     "desc": "Pummy, a housewife, finds innovative solutions to various problems.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133777"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260407003000 +0000",
+    "stop": "20260407010000 +0000",
     "startTs": 1775521800000,
     "stopTs": 1775523600000,
     "title": "Krishi Darshan",
     "desc": "The host provides a detailed report pertaining to the field of agriculture from across the nation.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133776"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260407010000 +0000",
+    "stop": "20260407013000 +0000",
     "startTs": 1775523600000,
     "stopTs": 1775525400000,
     "title": "Aaradhana",
     "desc": "A pleasant-sounding ensemble of religious melodies dedicated to Hindu divine figures.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133764"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "01:30",
-    "stop": "01:45",
+    "start": "20260407013000 +0000",
+    "stop": "20260407014500 +0000",
     "startTs": 1775525400000,
     "stopTs": 1775526300000,
     "title": "Karein Yog Rahein Nirog",
     "desc": "A fitness expert showcases various yoga practices that help in maintaining overall health.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133793"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "01:45",
-    "stop": "02:00",
+    "start": "20260407014500 +0000",
+    "stop": "20260407020000 +0000",
     "startTs": 1775526300000,
     "stopTs": 1775527200000,
     "title": "Sanskrit News",
     "desc": "The host presents the latest updates on various current affairs in Sanskrit.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133781"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "02:00",
-    "stop": "02:15",
+    "start": "20260407020000 +0000",
+    "stop": "20260407021500 +0000",
     "startTs": 1775527200000,
     "stopTs": 1775528100000,
     "title": "Morning News",
     "desc": "The host presents the news on economics, social issues, politics and current events.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133806"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "02:15",
-    "stop": "02:30",
+    "start": "20260407021500 +0000",
+    "stop": "20260407023000 +0000",
     "startTs": 1775528100000,
     "stopTs": 1775529000000,
     "title": "Old is Gold",
     "desc": "A comprehensive compilation of evergreen classic songs is played to entertain listeners.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133789"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "02:30",
-    "stop": "03:30",
+    "start": "20260407023000 +0000",
+    "stop": "20260407033000 +0000",
     "startTs": 1775529000000,
     "stopTs": 1775532600000,
     "title": "Bihar Bihan",
     "desc": "The host chats with renowned personalities, while discussing their life's work.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133765"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "03:30",
-    "stop": "03:32",
+    "start": "20260407033000 +0000",
+    "stop": "20260407033200 +0000",
     "startTs": 1775532600000,
     "stopTs": 1775532720000,
     "title": "Graphic News Headlines",
     "desc": "The host presents the latest news updates from the world of politics and sports.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133785"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "03:32",
-    "stop": "04:00",
+    "start": "20260407033200 +0000",
+    "stop": "20260407040000 +0000",
     "startTs": 1775532720000,
     "stopTs": 1775534400000,
     "title": "New India",
     "desc": "The host invites experts to discuss the government's initiatives to boost India's growth.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133797"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260407040000 +0000",
+    "stop": "20260407043000 +0000",
     "startTs": 1775534400000,
     "stopTs": 1775536200000,
     "title": "Mati Ke Goonj",
     "desc": "The host sheds light on the history and the rich culture of Bihar, located in India.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133798"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "04:30",
-    "stop": "04:35",
+    "start": "20260407043000 +0000",
+    "stop": "20260407043500 +0000",
     "startTs": 1775536200000,
     "stopTs": 1775536500000,
     "title": "5 Minutes 5 Khabren",
     "desc": "The host presents the top five news stories on various issues.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133766"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "04:35",
-    "stop": "05:00",
+    "start": "20260407043500 +0000",
+    "stop": "20260407050000 +0000",
     "startTs": 1775536500000,
     "stopTs": 1775538000000,
     "title": "Bharat ke durg",
     "desc": "The film-maker sheds light on forts across India and what makes them significant.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133794"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260407050000 +0000",
+    "stop": "20260407053000 +0000",
     "startTs": 1775538000000,
     "stopTs": 1775539800000,
     "title": "Pahun",
     "desc": "Follows the lives of the characters as they go about their daily routine.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133802"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "05:30",
-    "stop": "05:35",
+    "start": "20260407053000 +0000",
+    "stop": "20260407053500 +0000",
     "startTs": 1775539800000,
     "stopTs": 1775540100000,
     "title": "5 Minutes 5 Khabren",
     "desc": "The host presents the top five news stories on various issues.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133772"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "05:35",
-    "stop": "06:00",
+    "start": "20260407053500 +0000",
+    "stop": "20260407060000 +0000",
     "startTs": 1775540100000,
     "stopTs": 1775541600000,
     "title": "Naina Man Ki Aakhein",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133770"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260407060000 +0000",
+    "stop": "20260407063000 +0000",
     "startTs": 1775541600000,
     "stopTs": 1775543400000,
     "title": "Pummy Beauty Parlor",
     "desc": "Pummy, a housewife, finds innovative solutions to various problems.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133795"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "06:30",
-    "stop": "06:32",
+    "start": "20260407063000 +0000",
+    "stop": "20260407063200 +0000",
     "startTs": 1775543400000,
     "stopTs": 1775543520000,
     "title": "Graphic News Headlines",
     "desc": "The host presents the latest news updates from the world of politics and sports.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133773"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "06:32",
-    "stop": "07:00",
+    "start": "20260407063200 +0000",
+    "stop": "20260407070000 +0000",
     "startTs": 1775543520000,
     "stopTs": 1775545200000,
     "title": "Khula Aakash",
     "desc": "The host engages in an insightful conversation with an accomplished guest.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133774"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260407070000 +0000",
+    "stop": "20260407073000 +0000",
     "startTs": 1775545200000,
     "stopTs": 1775547000000,
     "title": "New India",
     "desc": "The host invites experts to discuss the government's initiatives to boost India's growth.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133769"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "07:30",
-    "stop": "07:45",
+    "start": "20260407073000 +0000",
+    "stop": "20260407074500 +0000",
     "startTs": 1775547000000,
     "stopTs": 1775547900000,
     "title": "Patna News",
     "desc": "The host presents the latest updates on several significant issues in the city of Patna.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133780"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "07:45",
-    "stop": "08:00",
+    "start": "20260407074500 +0000",
+    "stop": "20260407080000 +0000",
     "startTs": 1775547900000,
     "stopTs": 1775548800000,
     "title": "Patna News",
     "desc": "The host presents the latest updates on several significant issues in the city of Patna.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133799"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260407080000 +0000",
+    "stop": "20260407083000 +0000",
     "startTs": 1775548800000,
     "stopTs": 1775550600000,
     "title": "Cuisine Show",
     "desc": "The host visits various eateries to meet chefs who demonstrate popular recipes.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133779"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260407083000 +0000",
+    "stop": "20260407090000 +0000",
     "startTs": 1775550600000,
     "stopTs": 1775552400000,
     "title": "Muzafarpur Doordarshan",
     "desc": "The host sheds light on the latest developments pertaining to agriculture in Muzaffarpur, India.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133783"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260407090000 +0000",
+    "stop": "20260407093000 +0000",
     "startTs": 1775552400000,
     "stopTs": 1775554200000,
     "title": "Gaon Ghar",
     "desc": "The host sheds light on the various developmental measures taken for rural India.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133808"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "09:30",
-    "stop": "09:35",
+    "start": "20260407093000 +0000",
+    "stop": "20260407093500 +0000",
     "startTs": 1775554200000,
     "stopTs": 1775554500000,
     "title": "5 Minutes 5 Khabren",
     "desc": "The host presents the top five news stories on various issues.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133761"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "09:35",
-    "stop": "10:00",
+    "start": "20260407093500 +0000",
+    "stop": "20260407100000 +0000",
     "startTs": 1775554500000,
     "stopTs": 1775556000000,
     "title": "Bharat ke durg",
     "desc": "The film-maker sheds light on forts across India and what makes them significant.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133784"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260407100000 +0000",
+    "stop": "20260407103000 +0000",
     "startTs": 1775556000000,
     "stopTs": 1775557800000,
     "title": "Pahun",
     "desc": "Follows the lives of the characters as they go about their daily routine.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133791"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "10:30",
-    "stop": "10:35",
+    "start": "20260407103000 +0000",
+    "stop": "20260407103500 +0000",
     "startTs": 1775557800000,
     "stopTs": 1775558100000,
     "title": "5 Minutes 5 Khabren",
     "desc": "The host presents the top five news stories on various issues.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133767"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "10:35",
-    "stop": "11:00",
+    "start": "20260407103500 +0000",
+    "stop": "20260407110000 +0000",
     "startTs": 1775558100000,
     "stopTs": 1775559600000,
     "title": "Naina Man Ki Aakhein",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133786"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260407110000 +0000",
+    "stop": "20260407113000 +0000",
     "startTs": 1775559600000,
     "stopTs": 1775561400000,
     "title": "Pummy Beauty Parlor",
     "desc": "Pummy, a housewife, finds innovative solutions to various problems.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133775"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "11:30",
-    "stop": "11:45",
+    "start": "20260407113000 +0000",
+    "stop": "20260407114500 +0000",
     "startTs": 1775561400000,
     "stopTs": 1775562300000,
     "title": "News In Hindi",
     "desc": "The host presents the latest news and updates from India and around the world.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133771"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "11:45",
-    "stop": "12:00",
+    "start": "20260407114500 +0000",
+    "stop": "20260407120000 +0000",
     "startTs": 1775562300000,
     "stopTs": 1775563200000,
     "title": "Sabrang",
     "desc": "The host shares health tips and spiritual ideologies for a happier and healthier life.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133754"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260407120000 +0000",
+    "stop": "20260407123000 +0000",
     "startTs": 1775563200000,
     "stopTs": 1775565000000,
     "title": "Krishi Darshan",
     "desc": "The host provides a detailed report pertaining to the field of agriculture from across the nation.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133760"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260407123000 +0000",
+    "stop": "20260407130000 +0000",
     "startTs": 1775565000000,
     "stopTs": 1775566800000,
     "title": "Documentary",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133800"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260407130000 +0000",
+    "stop": "20260407133000 +0000",
     "startTs": 1775566800000,
     "stopTs": 1775568600000,
     "title": "Mati Ke Goonj",
     "desc": "The host sheds light on the history and the rich culture of Bihar, located in India.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133809"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "13:30",
-    "stop": "13:45",
+    "start": "20260407133000 +0000",
+    "stop": "20260407134500 +0000",
     "startTs": 1775568600000,
     "stopTs": 1775569500000,
     "title": "News In Hindi",
     "desc": "The host presents the latest news and updates from India and around the world.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133792"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "13:45",
-    "stop": "14:00",
+    "start": "20260407134500 +0000",
+    "stop": "20260407140000 +0000",
     "startTs": 1775569500000,
     "stopTs": 1775570400000,
     "title": "Khabrain",
     "desc": "A presenter reports the most recent news, updates and reviews from across the globe.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133811"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260407140000 +0000",
+    "stop": "20260407143000 +0000",
     "startTs": 1775570400000,
     "stopTs": 1775572200000,
     "title": "Haseena Manzil",
     "desc": "A group of women navigate challenges in a deeply patriarchal society.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133778"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "14:30",
-    "stop": "14:32",
+    "start": "20260407143000 +0000",
+    "stop": "20260407143200 +0000",
     "startTs": 1775572200000,
     "stopTs": 1775572320000,
     "title": "Graphic News Headlines",
     "desc": "The host presents the latest news updates from the world of politics and sports.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133787"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "14:32",
-    "stop": "15:00",
+    "start": "20260407143200 +0000",
+    "stop": "20260407150000 +0000",
     "startTs": 1775572320000,
     "stopTs": 1775574000000,
     "title": "Bharat ke durg",
     "desc": "The film-maker sheds light on forts across India and what makes them significant.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133796"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260407150000 +0000",
+    "stop": "20260407153000 +0000",
     "startTs": 1775574000000,
     "stopTs": 1775575800000,
     "title": "Pahun",
     "desc": "Follows the lives of the characters as they go about their daily routine.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133768"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260407153000 +0000",
+    "stop": "20260407160000 +0000",
     "startTs": 1775575800000,
     "stopTs": 1775577600000,
     "title": "Naina Man Ki Aakhein",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133805"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260407160000 +0000",
+    "stop": "20260407163000 +0000",
     "startTs": 1775577600000,
     "stopTs": 1775579400000,
     "title": "Pummy Beauty Parlor",
     "desc": "Pummy, a housewife, finds innovative solutions to various problems.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133755"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "16:30",
-    "stop": "17:30",
+    "start": "20260407163000 +0000",
+    "stop": "20260407173000 +0000",
     "startTs": 1775579400000,
     "stopTs": 1775583000000,
     "title": "The Command Force",
     "desc": "A team of police officers investigates difficult crimes that are committed in the society.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133803"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260407173000 +0000",
+    "stop": "20260407180000 +0000",
     "startTs": 1775583000000,
     "stopTs": 1775584800000,
     "title": "Muzafarpur Doordarshan",
     "desc": "The host sheds light on the latest developments pertaining to agriculture in Muzaffarpur, India.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133788"
   },
   {
     "channelId": "ts317",
     "channelName": "DD Bihar",
-    "start": "18:00",
-    "stop": "00:30",
+    "start": "20260407180000 +0000",
+    "stop": "20260408003000 +0000",
     "startTs": 1775584800000,
     "stopTs": 1775608200000,
     "title": "Gaon Ghar",
     "desc": "The host sheds light on the various developmental measures taken for rural India.",
-    "category": null
+    "channel": "ts317",
+    "catchup-id": "93133763"
   }
 ]

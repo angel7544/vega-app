@@ -2,1222 +2,1333 @@
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "19:30",
-    "stop": "00:00",
+    "start": "20260404193000 +0000",
+    "stop": "20260405000000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775347200000,
     "title": "Entertainment Programme",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063274"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260405000000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775347200000,
     "stopTs": 1775349000000,
     "title": "Classical Music",
     "desc": "A compilation of melodious songs is performed by renowned exponents of classical music.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063280"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "00:30",
-    "stop": "00:31",
+    "start": "20260405003000 +0000",
+    "stop": "20260405003100 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775349060000,
     "title": "Signature Image & Tune",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063265"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "00:31",
-    "stop": "00:45",
+    "start": "20260405003100 +0000",
+    "stop": "20260405004500 +0000",
     "startTs": 1775349060000,
     "stopTs": 1775349900000,
     "title": "Devotional Song",
     "desc": "A religious leader and devotees gather to sing devotional hymns.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063297"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "00:45",
-    "stop": "00:50",
+    "start": "20260405004500 +0000",
+    "stop": "20260405005000 +0000",
     "startTs": 1775349900000,
     "stopTs": 1775350200000,
     "title": "Subho Janmadin",
     "desc": "A compilation of names of people and their photographs is presented on their birthday.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063301"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "00:50",
-    "stop": "01:00",
+    "start": "20260405005000 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775350200000,
     "stopTs": 1775350800000,
     "title": "Amrita Katha",
     "desc": "A religious scholar delivers a spiritual discourse to praise the Almighty.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063299"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "01:00",
-    "stop": "01:15",
+    "start": "20260405010000 +0000",
+    "stop": "20260405011500 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775351700000,
     "title": "Light Classical Music",
     "desc": "Listen to a melodious compilation of classical music performed by famous Bengali artists.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063268"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "01:15",
-    "stop": "01:30",
+    "start": "20260405011500 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775351700000,
     "stopTs": 1775352600000,
     "title": "Bhalo Thakun",
     "desc": "An expert demonstrates practical yoga and relaxation techniques to boost fitness.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063292"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "01:30",
-    "stop": "03:00",
+    "start": "20260405013000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775358000000,
     "title": "Sakal Sakal",
     "desc": "The host invites and interacts with popular personalities from the field of music.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063293"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "Sambad",
     "desc": "The host provides the latest news and updates from various parts of the world.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063264"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "Uttorer Janala",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063295"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "Shantiniketan Theke",
     "desc": "A group of talented musicians perform a compilation of folk songs.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063277"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260405043000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775365200000,
     "title": "KTB:Bharat Hain Hum",
     "desc": "The journey of some of the unrecognised freedom fighters of India.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063278"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775367000000,
     "title": "DD Archives",
     "desc": "Explore valuable archive of vintage recordings and rare historical media assets.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063298"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "05:30",
-    "stop": "05:35",
+    "start": "20260405053000 +0000",
+    "stop": "20260405053500 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775367300000,
     "title": "Sambad: 5 Minute-E-15 Ti Khabor",
     "desc": "The host presents fifteen important news stories from across the country in five minutes.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063267"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "05:35",
-    "stop": "06:30",
+    "start": "20260405053500 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775367300000,
     "stopTs": 1775370600000,
     "title": "Sangraha Theke",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063294"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "06:30",
-    "stop": "06:32",
+    "start": "20260405063000 +0000",
+    "stop": "20260405063200 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775370720000,
     "title": "Sambad Ek Najare",
     "desc": "The host presents the latest news updates from various fronts across the state.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063287"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "06:32",
-    "stop": "07:30",
+    "start": "20260405063200 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775370720000,
     "stopTs": 1775374200000,
     "title": "Ghare Baire",
     "desc": "The host discusses the most important topics related to the female population in India.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063283"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "07:30",
-    "stop": "07:32",
+    "start": "20260405073000 +0000",
+    "stop": "20260405073200 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775374320000,
     "title": "Sambad Ek Najare",
     "desc": "The host presents the latest news updates from various fronts across the state.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063269"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "07:32",
-    "stop": "08:00",
+    "start": "20260405073200 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775374320000,
     "stopTs": 1775376000000,
     "title": "Classical Dance",
     "desc": "Artists adept in the various forms of Indian classical dance perform an inspiring recital.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063270"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260405080000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775377800000,
     "title": "Sahitya Sanskriti",
     "desc": "The host invites prominent guests who discuss the significance of literature and culture.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063271"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260405083000 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775379600000,
     "title": "Sambad",
     "desc": "The host provides the latest news and updates from various parts of the world.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063279"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "09:00",
-    "stop": "11:30",
+    "start": "20260405090000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775388600000,
     "title": "Rater Rajani Gandha",
     "desc": "After her father's death, Anuradha is accused of insanity and escapes to Kolkata.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063272"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "11:30",
-    "stop": "11:45",
+    "start": "20260405113000 +0000",
+    "stop": "20260405114500 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775389500000,
     "title": "Sambad",
     "desc": "The host provides the latest news and updates from various parts of the world.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063273"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "11:45",
-    "stop": "12:00",
+    "start": "20260405114500 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775389500000,
     "stopTs": 1775390400000,
     "title": "Bhalo Thakun",
     "desc": "An expert demonstrates practical yoga and relaxation techniques to boost fitness.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063275"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "Khela Aar Khela",
     "desc": "Professional state-level sports personalities shed light on their achievements.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063281"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "12:30",
-    "stop": "12:32",
+    "start": "20260405123000 +0000",
+    "stop": "20260405123200 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775392320000,
     "title": "Sambad Ek Najare",
     "desc": "The host presents the latest news updates from various fronts across the state.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063266"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "12:32",
-    "stop": "13:30",
+    "start": "20260405123200 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775392320000,
     "stopTs": 1775395800000,
     "title": "Sera Paribaar",
     "desc": "The participants compete in various challenges and quizzes with their family members.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063276"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "13:30",
-    "stop": "13:45",
+    "start": "20260405133000 +0000",
+    "stop": "20260405134500 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775396700000,
     "title": "Sambad",
     "desc": "The host provides the latest news and updates from various parts of the world.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063288"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "13:45",
-    "stop": "14:00",
+    "start": "20260405134500 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775396700000,
     "stopTs": 1775397600000,
     "title": "Khabrein",
     "desc": "The host presents some of the latest updates, current affairs and developments.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063291"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "14:00",
-    "stop": "15:00",
+    "start": "20260405140000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775401200000,
     "title": "Janadesh 2026",
     "desc": "The host presents a round-up of the latest social, political and economic news updates.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063282"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "Nishi Bhor",
     "desc": "A misunderstanding creates a rift between Ajay and his hardworking stepmother.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063296"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "15:30",
-    "stop": "15:35",
+    "start": "20260405153000 +0000",
+    "stop": "20260405153500 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775403300000,
     "title": "Sambad",
     "desc": "The host provides the latest news and updates from various parts of the world.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063284"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "15:35",
-    "stop": "16:30",
+    "start": "20260405153500 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775403300000,
     "stopTs": 1775406600000,
     "title": "Nishi Bhor",
     "desc": "A misunderstanding creates a rift between Ajay and his hardworking stepmother.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063290"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "Sambad Prabaha",
     "desc": "The host presents the day's top news stories on a range of topics of public interest.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063285"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "Nishi Bhor",
     "desc": "A misunderstanding creates a rift between Ajay and his hardworking stepmother.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063300"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260405173000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775412000000,
     "title": "Saptarangi",
     "desc": "Several musicians deliver a captivating performmance of most popular to enthral the audience.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063286"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "18:00",
-    "stop": "19:30",
+    "start": "20260405180000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775417400000,
     "title": "Sakal Sakal",
     "desc": "The host invites and interacts with popular personalities from the field of music.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93063289"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "19:30",
-    "stop": "00:00",
+    "start": "20260405193000 +0000",
+    "stop": "20260406000000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775433600000,
     "title": "Entertainment Programme",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096047"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260406000000 +0000",
+    "stop": "20260406003000 +0000",
     "startTs": 1775433600000,
     "stopTs": 1775435400000,
     "title": "Classical Music",
     "desc": "A compilation of melodious songs is performed by renowned exponents of classical music.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096048"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "00:30",
-    "stop": "00:31",
+    "start": "20260406003000 +0000",
+    "stop": "20260406003100 +0000",
     "startTs": 1775435400000,
     "stopTs": 1775435460000,
     "title": "Signature Image & Tune",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096020"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "00:31",
-    "stop": "00:45",
+    "start": "20260406003100 +0000",
+    "stop": "20260406004500 +0000",
     "startTs": 1775435460000,
     "stopTs": 1775436300000,
     "title": "Devotional Song",
     "desc": "A religious leader and devotees gather to sing devotional hymns.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096012"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "00:45",
-    "stop": "00:50",
+    "start": "20260406004500 +0000",
+    "stop": "20260406005000 +0000",
     "startTs": 1775436300000,
     "stopTs": 1775436600000,
     "title": "Subho Janmadin",
     "desc": "A compilation of names of people and their photographs is presented on their birthday.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096036"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "00:50",
-    "stop": "01:00",
+    "start": "20260406005000 +0000",
+    "stop": "20260406010000 +0000",
     "startTs": 1775436600000,
     "stopTs": 1775437200000,
     "title": "Amrita Katha",
     "desc": "A religious scholar delivers a spiritual discourse to praise the Almighty.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096023"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "01:00",
-    "stop": "01:15",
+    "start": "20260406010000 +0000",
+    "stop": "20260406011500 +0000",
     "startTs": 1775437200000,
     "stopTs": 1775438100000,
     "title": "Sanskrit News",
     "desc": "The host presents the latest updates on various current affairs in Sanskrit.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096029"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "01:15",
-    "stop": "01:30",
+    "start": "20260406011500 +0000",
+    "stop": "20260406013000 +0000",
     "startTs": 1775438100000,
     "stopTs": 1775439000000,
     "title": "Bhalo Thakun",
     "desc": "An expert demonstrates practical yoga and relaxation techniques to boost fitness.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096018"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "01:30",
-    "stop": "03:00",
+    "start": "20260406013000 +0000",
+    "stop": "20260406030000 +0000",
     "startTs": 1775439000000,
     "stopTs": 1775444400000,
     "title": "Sakal Sakal",
     "desc": "The host invites and interacts with popular personalities from the field of music.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096021"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260406030000 +0000",
+    "stop": "20260406033000 +0000",
     "startTs": 1775444400000,
     "stopTs": 1775446200000,
     "title": "Sambad",
     "desc": "The host provides the latest news and updates from various parts of the world.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096016"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "03:30",
-    "stop": "04:30",
+    "start": "20260406033000 +0000",
+    "stop": "20260406043000 +0000",
     "startTs": 1775446200000,
     "stopTs": 1775449800000,
     "title": "Ghare Baire",
     "desc": "The host discusses the most important topics related to the female population in India.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096050"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260406043000 +0000",
+    "stop": "20260406050000 +0000",
     "startTs": 1775449800000,
     "stopTs": 1775451600000,
     "title": "Urdu Programme",
     "desc": "A religious leader sheds light on the teachings of the Quran.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096039"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260406050000 +0000",
+    "stop": "20260406053000 +0000",
     "startTs": 1775451600000,
     "stopTs": 1775453400000,
     "title": "Classical Dance",
     "desc": "Artists adept in the various forms of Indian classical dance perform an inspiring recital.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096034"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "05:30",
-    "stop": "05:35",
+    "start": "20260406053000 +0000",
+    "stop": "20260406053500 +0000",
     "startTs": 1775453400000,
     "stopTs": 1775453700000,
     "title": "5 Minute-E 15Ti Khabar",
     "desc": "The host presents the top 15 news updates in five minutes from around the world.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096025"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "05:35",
-    "stop": "06:30",
+    "start": "20260406053500 +0000",
+    "stop": "20260406063000 +0000",
     "startTs": 1775453700000,
     "stopTs": 1775457000000,
     "title": "Sangraha Theke",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096032"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "06:30",
-    "stop": "06:32",
+    "start": "20260406063000 +0000",
+    "stop": "20260406063200 +0000",
     "startTs": 1775457000000,
     "stopTs": 1775457120000,
     "title": "Sambad Ek Najare",
     "desc": "The host presents the latest news updates from various fronts across the state.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096022"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "06:32",
-    "stop": "07:00",
+    "start": "20260406063200 +0000",
+    "stop": "20260406070000 +0000",
     "startTs": 1775457120000,
     "stopTs": 1775458800000,
     "title": "Uttorer Janala",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096042"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260406070000 +0000",
+    "stop": "20260406073000 +0000",
     "startTs": 1775458800000,
     "stopTs": 1775460600000,
     "title": "Anneshwan",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096044"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "07:30",
-    "stop": "07:32",
+    "start": "20260406073000 +0000",
+    "stop": "20260406073200 +0000",
     "startTs": 1775460600000,
     "stopTs": 1775460720000,
     "title": "Sambad Ek Najare",
     "desc": "The host presents the latest news updates from various fronts across the state.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096024"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "07:32",
-    "stop": "08:00",
+    "start": "20260406073200 +0000",
+    "stop": "20260406080000 +0000",
     "startTs": 1775460720000,
     "stopTs": 1775462400000,
     "title": "Close-Up",
     "desc": "The host candidly converses with eminent celebrities about their lives and careers.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096027"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "08:00",
-    "stop": "08:05",
+    "start": "20260406080000 +0000",
+    "stop": "20260406080500 +0000",
     "startTs": 1775462400000,
     "stopTs": 1775462700000,
     "title": "Niruddesh Sambad",
     "desc": "The host presents information on missing people to help them unite with their families.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096035"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "08:05",
-    "stop": "08:30",
+    "start": "20260406080500 +0000",
+    "stop": "20260406083000 +0000",
     "startTs": 1775462700000,
     "stopTs": 1775464200000,
     "title": "Aajker Ranna",
     "desc": "Prominent chefs share different recipes of various delectable dishes and cuisines.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096040"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260406083000 +0000",
+    "stop": "20260406090000 +0000",
     "startTs": 1775464200000,
     "stopTs": 1775466000000,
     "title": "Sambad",
     "desc": "The host provides the latest news and updates from various parts of the world.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096049"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "09:00",
-    "stop": "11:30",
+    "start": "20260406090000 +0000",
+    "stop": "20260406113000 +0000",
     "startTs": 1775466000000,
     "stopTs": 1775475000000,
     "title": "Kagajer Nouka",
     "desc": "A man who has unrequited feelings for a woman, discovers her dead lover's belongings.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096030"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "11:30",
-    "stop": "11:45",
+    "start": "20260406113000 +0000",
+    "stop": "20260406114500 +0000",
     "startTs": 1775475000000,
     "stopTs": 1775475900000,
     "title": "Sambad",
     "desc": "The host provides the latest news and updates from various parts of the world.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096051"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "11:45",
-    "stop": "12:00",
+    "start": "20260406114500 +0000",
+    "stop": "20260406120000 +0000",
     "startTs": 1775475900000,
     "stopTs": 1775476800000,
     "title": "Camera Cholchhe",
     "desc": "The host presents the latest updates from events taking place in the city of Kolkata.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096033"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260406120000 +0000",
+    "stop": "20260406123000 +0000",
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Krishi Darshan",
     "desc": "The host provides a detailed report pertaining to the field of agriculture from across the nation.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096014"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "12:30",
-    "stop": "12:32",
+    "start": "20260406123000 +0000",
+    "stop": "20260406123200 +0000",
     "startTs": 1775478600000,
     "stopTs": 1775478720000,
     "title": "Sambad Ek Najare",
     "desc": "The host presents the latest news updates from various fronts across the state.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096013"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "12:32",
-    "stop": "13:30",
+    "start": "20260406123200 +0000",
+    "stop": "20260406133000 +0000",
     "startTs": 1775478720000,
     "stopTs": 1775482200000,
     "title": "Suswasthya",
     "desc": "Experts interact with viewers over phone and shed light on health issues.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096046"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "13:30",
-    "stop": "13:45",
+    "start": "20260406133000 +0000",
+    "stop": "20260406134500 +0000",
     "startTs": 1775482200000,
     "stopTs": 1775483100000,
     "title": "Sambad",
     "desc": "The host provides the latest news and updates from various parts of the world.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096031"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "13:45",
-    "stop": "14:00",
+    "start": "20260406134500 +0000",
+    "stop": "20260406140000 +0000",
     "startTs": 1775483100000,
     "stopTs": 1775484000000,
     "title": "Khabrein",
     "desc": "The host presents some of the latest updates, current affairs and developments.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096019"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "14:00",
-    "stop": "15:00",
+    "start": "20260406140000 +0000",
+    "stop": "20260406150000 +0000",
     "startTs": 1775484000000,
     "stopTs": 1775487600000,
     "title": "Janadesh 2026",
     "desc": "The host presents a round-up of the latest social, political and economic news updates.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096028"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260406150000 +0000",
+    "stop": "20260406153000 +0000",
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "DD Archives",
     "desc": "Explore valuable archive of vintage recordings and rare historical media assets.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096045"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "15:30",
-    "stop": "16:30",
+    "start": "20260406153000 +0000",
+    "stop": "20260406163000 +0000",
     "startTs": 1775489400000,
     "stopTs": 1775493000000,
     "title": "Drishtipaat",
     "desc": "A reporter sheds light on a topic or issue that is in the national news.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096017"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260406163000 +0000",
+    "stop": "20260406170000 +0000",
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Sambad Prabaha",
     "desc": "The host presents the day's top news stories on a range of topics of public interest.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096026"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "17:00",
-    "stop": "17:15",
+    "start": "20260406170000 +0000",
+    "stop": "20260406171500 +0000",
     "startTs": 1775494800000,
     "stopTs": 1775495700000,
     "title": "Camera Cholchhe",
     "desc": "The host presents the latest updates from events taking place in the city of Kolkata.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096043"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "17:15",
-    "stop": "18:45",
+    "start": "20260406171500 +0000",
+    "stop": "20260406184500 +0000",
     "startTs": 1775495700000,
     "stopTs": 1775501100000,
     "title": "Sakal Sakal",
     "desc": "The host invites and interacts with popular personalities from the field of music.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93096038"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "18:45",
-    "stop": "00:00",
+    "start": "20260406184500 +0000",
+    "stop": "20260407000000 +0000",
     "startTs": 1775501100000,
     "stopTs": 1775520000000,
     "title": "Entertainment Programme",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133508"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260407000000 +0000",
+    "stop": "20260407003000 +0000",
     "startTs": 1775520000000,
     "stopTs": 1775521800000,
     "title": "Classical Music",
     "desc": "A compilation of melodious songs is performed by renowned exponents of classical music.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133517"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "00:30",
-    "stop": "00:31",
+    "start": "20260407003000 +0000",
+    "stop": "20260407003100 +0000",
     "startTs": 1775521800000,
     "stopTs": 1775521860000,
     "title": "Signature Image & Tune",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133542"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "00:31",
-    "stop": "00:45",
+    "start": "20260407003100 +0000",
+    "stop": "20260407004500 +0000",
     "startTs": 1775521860000,
     "stopTs": 1775522700000,
     "title": "Devotional Song",
     "desc": "A religious leader and devotees gather to sing devotional hymns.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133525"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "00:45",
-    "stop": "00:50",
+    "start": "20260407004500 +0000",
+    "stop": "20260407005000 +0000",
     "startTs": 1775522700000,
     "stopTs": 1775523000000,
     "title": "Subho Janmadin",
     "desc": "A compilation of names of people and their photographs is presented on their birthday.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133509"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "00:50",
-    "stop": "01:00",
+    "start": "20260407005000 +0000",
+    "stop": "20260407010000 +0000",
     "startTs": 1775523000000,
     "stopTs": 1775523600000,
     "title": "Amrita Katha",
     "desc": "A religious scholar delivers a spiritual discourse to praise the Almighty.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133538"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "01:00",
-    "stop": "01:15",
+    "start": "20260407010000 +0000",
+    "stop": "20260407011500 +0000",
     "startTs": 1775523600000,
     "stopTs": 1775524500000,
     "title": "Sanskrit News",
     "desc": "The host presents the latest updates on various current affairs in Sanskrit.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133530"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "01:15",
-    "stop": "01:30",
+    "start": "20260407011500 +0000",
+    "stop": "20260407013000 +0000",
     "startTs": 1775524500000,
     "stopTs": 1775525400000,
     "title": "Bhalo Thakun",
     "desc": "An expert demonstrates practical yoga and relaxation techniques to boost fitness.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133543"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "01:30",
-    "stop": "03:00",
+    "start": "20260407013000 +0000",
+    "stop": "20260407030000 +0000",
     "startTs": 1775525400000,
     "stopTs": 1775530800000,
     "title": "Sakal Sakal",
     "desc": "The host invites and interacts with popular personalities from the field of music.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133539"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260407030000 +0000",
+    "stop": "20260407033000 +0000",
     "startTs": 1775530800000,
     "stopTs": 1775532600000,
     "title": "Sambad",
     "desc": "The host provides the latest news and updates from various parts of the world.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133518"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "03:30",
-    "stop": "04:30",
+    "start": "20260407033000 +0000",
+    "stop": "20260407043000 +0000",
     "startTs": 1775532600000,
     "stopTs": 1775536200000,
     "title": "Suswasthya",
     "desc": "Experts interact with viewers over phone and shed light on health issues.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133510"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260407043000 +0000",
+    "stop": "20260407050000 +0000",
     "startTs": 1775536200000,
     "stopTs": 1775538000000,
     "title": "Saptarangi",
     "desc": "Several musicians deliver a captivating performmance of most popular to enthral the audience.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133544"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260407050000 +0000",
+    "stop": "20260407053000 +0000",
     "startTs": 1775538000000,
     "stopTs": 1775539800000,
     "title": "Shantiniketan Theke",
     "desc": "A group of talented musicians perform a compilation of folk songs.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133540"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "05:30",
-    "stop": "05:35",
+    "start": "20260407053000 +0000",
+    "stop": "20260407053500 +0000",
     "startTs": 1775539800000,
     "stopTs": 1775540100000,
     "title": "5 Minute-E 15Ti Khabar",
     "desc": "The host presents the top 15 news updates in five minutes from around the world.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133523"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "05:35",
-    "stop": "06:30",
+    "start": "20260407053500 +0000",
+    "stop": "20260407063000 +0000",
     "startTs": 1775540100000,
     "stopTs": 1775543400000,
     "title": "Sangraha Theke",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133536"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "06:30",
-    "stop": "06:32",
+    "start": "20260407063000 +0000",
+    "stop": "20260407063200 +0000",
     "startTs": 1775543400000,
     "stopTs": 1775543520000,
     "title": "Sambad Ek Najare",
     "desc": "The host presents the latest news updates from various fronts across the state.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133512"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "06:32",
-    "stop": "07:00",
+    "start": "20260407063200 +0000",
+    "stop": "20260407070000 +0000",
     "startTs": 1775543520000,
     "stopTs": 1775545200000,
     "title": "Joto Kando Social Media-y",
     "desc": "The host delves deep into various aspects of social media and content creators. S01 E09.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133514"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "07:30",
-    "stop": "07:32",
+    "start": "20260407073000 +0000",
+    "stop": "20260407073200 +0000",
     "startTs": 1775547000000,
     "stopTs": 1775547120000,
     "title": "Sambad Ek Najare",
     "desc": "The host presents the latest news updates from various fronts across the state.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133524"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "07:32",
-    "stop": "08:00",
+    "start": "20260407073200 +0000",
+    "stop": "20260407080000 +0000",
     "startTs": 1775547120000,
     "stopTs": 1775548800000,
     "title": "DD Archives",
     "desc": "Explore valuable archive of vintage recordings and rare historical media assets.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133526"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "08:00",
-    "stop": "08:05",
+    "start": "20260407080000 +0000",
+    "stop": "20260407080500 +0000",
     "startTs": 1775548800000,
     "stopTs": 1775549100000,
     "title": "Niruddesh Sambad",
     "desc": "The host presents information on missing people to help them unite with their families.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133527"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "08:05",
-    "stop": "08:30",
+    "start": "20260407080500 +0000",
+    "stop": "20260407083000 +0000",
     "startTs": 1775549100000,
     "stopTs": 1775550600000,
     "title": "Aajker Ranna",
     "desc": "Prominent chefs share different recipes of various delectable dishes and cuisines.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133507"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260407083000 +0000",
+    "stop": "20260407090000 +0000",
     "startTs": 1775550600000,
     "stopTs": 1775552400000,
     "title": "Sambad",
     "desc": "The host provides the latest news and updates from various parts of the world.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133546"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "09:00",
-    "stop": "11:30",
+    "start": "20260407090000 +0000",
+    "stop": "20260407113000 +0000",
     "startTs": 1775552400000,
     "stopTs": 1775561400000,
     "title": "Miss Priyambada",
     "desc": "Dolly fakes an illness to avoid getting married to a man she does not love.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133531"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "11:30",
-    "stop": "11:45",
+    "start": "20260407113000 +0000",
+    "stop": "20260407114500 +0000",
     "startTs": 1775561400000,
     "stopTs": 1775562300000,
     "title": "Sambad",
     "desc": "The host provides the latest news and updates from various parts of the world.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133521"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "11:45",
-    "stop": "12:00",
+    "start": "20260407114500 +0000",
+    "stop": "20260407120000 +0000",
     "startTs": 1775562300000,
     "stopTs": 1775563200000,
     "title": "Camera Cholchhe",
     "desc": "The host presents the latest updates from events taking place in the city of Kolkata.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133541"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260407120000 +0000",
+    "stop": "20260407123000 +0000",
     "startTs": 1775563200000,
     "stopTs": 1775565000000,
     "title": "DD Archives",
     "desc": "Explore valuable archive of vintage recordings and rare historical media assets.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133519"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "12:30",
-    "stop": "12:32",
+    "start": "20260407123000 +0000",
+    "stop": "20260407123200 +0000",
     "startTs": 1775565000000,
     "stopTs": 1775565120000,
     "title": "Sambad Ek Najare",
     "desc": "The host presents the latest news updates from various fronts across the state.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133513"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "12:32",
-    "stop": "13:30",
+    "start": "20260407123200 +0000",
+    "stop": "20260407133000 +0000",
     "startTs": 1775565120000,
     "stopTs": 1775568600000,
     "title": "Doctor On Call",
     "desc": ".",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133533"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "13:30",
-    "stop": "13:45",
+    "start": "20260407133000 +0000",
+    "stop": "20260407134500 +0000",
     "startTs": 1775568600000,
     "stopTs": 1775569500000,
     "title": "Sambad",
     "desc": "The host provides the latest news and updates from various parts of the world.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133511"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "13:45",
-    "stop": "14:00",
+    "start": "20260407134500 +0000",
+    "stop": "20260407140000 +0000",
     "startTs": 1775569500000,
     "stopTs": 1775570400000,
     "title": "Khabrein",
     "desc": "The host presents some of the latest updates, current affairs and developments.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133522"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "14:00",
-    "stop": "15:00",
+    "start": "20260407140000 +0000",
+    "stop": "20260407150000 +0000",
     "startTs": 1775570400000,
     "stopTs": 1775574000000,
     "title": "Janadesh 2026",
     "desc": "The host presents a round-up of the latest social, political and economic news updates.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133515"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260407150000 +0000",
+    "stop": "20260407153000 +0000",
     "startTs": 1775574000000,
     "stopTs": 1775575800000,
     "title": "DD Archives",
     "desc": "Explore valuable archive of vintage recordings and rare historical media assets.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133520"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "15:30",
-    "stop": "16:30",
+    "start": "20260407153000 +0000",
+    "stop": "20260407163000 +0000",
     "startTs": 1775575800000,
     "stopTs": 1775579400000,
     "title": "Drishtipaat",
     "desc": "A reporter sheds light on a topic or issue that is in the national news.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133516"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260407163000 +0000",
+    "stop": "20260407170000 +0000",
     "startTs": 1775579400000,
     "stopTs": 1775581200000,
     "title": "Sambad Prabaha",
     "desc": "The host presents the day's top news stories on a range of topics of public interest.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133545"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "17:00",
-    "stop": "17:15",
+    "start": "20260407170000 +0000",
+    "stop": "20260407171500 +0000",
     "startTs": 1775581200000,
     "stopTs": 1775582100000,
     "title": "Camera Cholchhe",
     "desc": "The host presents the latest updates from events taking place in the city of Kolkata.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133532"
   },
   {
     "channelId": "ts314",
     "channelName": "DD Bangla",
-    "start": "17:15",
-    "stop": "18:45",
+    "start": "20260407171500 +0000",
+    "stop": "20260407184500 +0000",
     "startTs": 1775582100000,
     "stopTs": 1775587500000,
     "title": "Sakal Sakal",
     "desc": "The host invites and interacts with popular personalities from the field of music.",
-    "category": null
+    "channel": "ts314",
+    "catchup-id": "93133534"
   }
 ]

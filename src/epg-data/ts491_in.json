@@ -2,386 +2,421 @@
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "00:30",
-    "stop": "01:30",
+    "start": "20260405003000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775352600000,
     "title": "Nagodaya",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073469"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "01:30",
-    "stop": "01:35",
+    "start": "20260405013000 +0000",
+    "stop": "20260405013500 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775352900000,
     "title": "Nave Comedy Stars",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073452"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "01:35",
-    "stop": "02:00",
+    "start": "20260405013500 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775352900000,
     "stopTs": 1775354400000,
     "title": "Coffee With Comedy",
     "desc": "A compilation of comedy clippings featuring talented stars from popular movies.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073466"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260405020000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775356200000,
     "title": "Bosu Morning Dosu",
     "desc": "A compilation of entertaining scenes from various Kannada movies.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073467"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "02:30",
-    "stop": "02:35",
+    "start": "20260405023000 +0000",
+    "stop": "20260405023500 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775356500000,
     "title": "Nave Comedy Stars",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073449"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "02:35",
-    "stop": "03:30",
+    "start": "20260405023500 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775356500000,
     "stopTs": 1775359800000,
     "title": "Comedy Circuit",
     "desc": "A compilation of funny clips from popular Kannada movies is played back to back.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073465"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "03:30",
-    "stop": "03:35",
+    "start": "20260405033000 +0000",
+    "stop": "20260405033500 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775360100000,
     "title": "Nave Comedy Stars",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073453"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "03:35",
-    "stop": "04:00",
+    "start": "20260405033500 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775360100000,
     "stopTs": 1775361600000,
     "title": "Comedy @ 9",
     "desc": "A comprehensive compilation of the 10 funniest scenes is played to entertain the audience.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073475"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "Morning Masti",
     "desc": "Hindi songs play one after another, featuring popular singers and catchy Bollywood tunes.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073473"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "04:30",
-    "stop": "04:35",
+    "start": "20260405043000 +0000",
+    "stop": "20260405043500 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775363700000,
     "title": "Nave Comedy Stars",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073462"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "04:35",
-    "stop": "05:30",
+    "start": "20260405043500 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775363700000,
     "stopTs": 1775367000000,
     "title": "Sunday Talkies",
     "desc": "A comprehensive compilation of some of the most popular Kannada films is played.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073446"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "05:30",
-    "stop": "05:35",
+    "start": "20260405053000 +0000",
+    "stop": "20260405053500 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775367300000,
     "title": "Nave Comedy Stars",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073454"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "05:35",
-    "stop": "06:30",
+    "start": "20260405053500 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775367300000,
     "stopTs": 1775370600000,
     "title": "Nakbidi Marayree",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073463"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "06:30",
-    "stop": "06:35",
+    "start": "20260405063000 +0000",
+    "stop": "20260405063500 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775370900000,
     "title": "Nave Comedy Stars",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073468"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "06:35",
-    "stop": "07:30",
+    "start": "20260405063500 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775370900000,
     "stopTs": 1775374200000,
     "title": "Abhimani Devarugale Nagtaa Iri",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073470"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "07:30",
-    "stop": "07:35",
+    "start": "20260405073000 +0000",
+    "stop": "20260405073500 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775374500000,
     "title": "Nave Comedy Stars",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073474"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "07:35",
-    "stop": "08:30",
+    "start": "20260405073500 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775374500000,
     "stopTs": 1775377800000,
     "title": "Blockbuster Mid Day Talkies",
     "desc": "A curated collection of popular hilarious scenes from movies, played consecutively.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073455"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260405083000 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775379600000,
     "title": "Retro Matnee",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073460"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260405090000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775381400000,
     "title": "Sikkapatte Nakkubidi",
     "desc": "A compilation of some of the most hilarious comedy scenes from popular Kannada movies.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073456"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "09:30",
-    "stop": "09:35",
+    "start": "20260405093000 +0000",
+    "stop": "20260405093500 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775381700000,
     "title": "Nave Comedy Stars",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073476"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "09:35",
-    "stop": "10:30",
+    "start": "20260405093500 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775381700000,
     "stopTs": 1775385000000,
     "title": "60 Mins Full Smiles",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073477"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "10:30",
-    "stop": "10:35",
+    "start": "20260405103000 +0000",
+    "stop": "20260405103500 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775385300000,
     "title": "Nave Comedy Stars",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073478"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "10:35",
-    "stop": "11:30",
+    "start": "20260405103500 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775385300000,
     "stopTs": 1775388600000,
     "title": "Super Star Super Comedy",
     "desc": "A comprehensive compilation featuring entertaining scenes from popular Kannada movies.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073458"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "11:30",
-    "stop": "11:35",
+    "start": "20260405113000 +0000",
+    "stop": "20260405113500 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775388900000,
     "title": "Nave Comedy Stars",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073444"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "11:35",
-    "stop": "12:30",
+    "start": "20260405113500 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775388900000,
     "stopTs": 1775392200000,
     "title": "NaguFull Nirase Nill",
     "desc": "A compilation of hilarious and entertaining snippets from various Kannada movies.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073459"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "12:30",
-    "stop": "13:30",
+    "start": "20260405123000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775395800000,
     "title": "Just Wow",
     "desc": "A compilation of some of the funniest and wittiest scenes from popular Kannada movies.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073457"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "13:30",
-    "stop": "13:35",
+    "start": "20260405133000 +0000",
+    "stop": "20260405133500 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775396100000,
     "title": "Comedy Mixu",
     "desc": "A comprehensive compilation featuring entertaining scenes from popular Kannada movies.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073472"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "13:35",
-    "stop": "14:30",
+    "start": "20260405133500 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775396100000,
     "stopTs": 1775399400000,
     "title": "Nagale Beku",
     "desc": "A compilation of entertaining scenes from various Kannada movies.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073451"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "14:30",
-    "stop": "14:35",
+    "start": "20260405143000 +0000",
+    "stop": "20260405143500 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775399700000,
     "title": "Comedy Mixu",
     "desc": "A comprehensive compilation featuring entertaining scenes from popular Kannada movies.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073471"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "14:35",
-    "stop": "15:00",
+    "start": "20260405143500 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399700000,
     "stopTs": 1775401200000,
     "title": "Non Stop Nagu",
     "desc": "A compilation of hilarious sequences from popular Kannada movies played in succession.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073445"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "Non Stop Nagu",
     "desc": "A compilation of hilarious sequences from popular Kannada movies played in succession.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073464"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "15:30",
-    "stop": "15:35",
+    "start": "20260405153000 +0000",
+    "stop": "20260405153500 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775403300000,
     "title": "Comedy Mixu",
     "desc": "A comprehensive compilation featuring entertaining scenes from popular Kannada movies.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073447"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "15:35",
-    "stop": "16:30",
+    "start": "20260405153500 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775403300000,
     "stopTs": 1775406600000,
     "title": "Comedy @ 9",
     "desc": "A comprehensive compilation of the 10 funniest scenes is played to entertain the audience.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073461"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "16:30",
-    "stop": "17:30",
+    "start": "20260405163000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775410200000,
     "title": "Jolley Jolley",
     "desc": "A comprehensive compilation of comedy scenes from popular movies is played back-to-back.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073450"
   },
   {
     "channelId": "ts491",
     "channelName": "ts491",
-    "start": "17:30",
-    "stop": "00:30",
+    "start": "20260405173000 +0000",
+    "stop": "20260406003000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775435400000,
     "title": "Nakkare Ade Swarga",
     "desc": "A collection of comic scenes from popular Kannada films featuring popular actors.",
-    "category": null
+    "channel": "ts491",
+    "catchup-id": "93073448"
   }
 ]

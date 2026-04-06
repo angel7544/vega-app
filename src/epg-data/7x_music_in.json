@@ -2,188 +2,205 @@
   {
     "channelId": "ts1019",
     "channelName": "7x Music",
-    "start": "18:30",
-    "stop": "00:30",
+    "start": "20260404183000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775349000000,
     "title": "Only Music",
     "desc": "A compilation of popular songs featuring renowned artists is played back to back.",
-    "category": null
+    "channel": "ts1019",
+    "catchup-id": "93058390"
   },
   {
     "channelId": "ts1019",
     "channelName": "7x Music",
-    "start": "00:30",
-    "stop": "02:30",
+    "start": "20260405003000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775356200000,
     "title": "Bhadati Aradhna",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1019",
+    "catchup-id": "93058389"
   },
   {
     "channelId": "ts1019",
     "channelName": "7x Music",
-    "start": "02:30",
-    "stop": "03:30",
+    "start": "20260405023000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775359800000,
     "title": "Bollywood Beats",
     "desc": "A compilation of popular songs from famous Bollywood movies is played back to back.",
-    "category": null
+    "channel": "ts1019",
+    "catchup-id": "93058385"
   },
   {
     "channelId": "ts1019",
     "channelName": "7x Music",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "Only Music",
     "desc": "A compilation of popular songs featuring renowned artists is played back to back.",
-    "category": null
+    "channel": "ts1019",
+    "catchup-id": "93058382"
   },
   {
     "channelId": "ts1019",
     "channelName": "7x Music",
-    "start": "04:00",
-    "stop": "05:00",
+    "start": "20260405040000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775365200000,
     "title": "Exclusive",
     "desc": "The host provides a detailed report on matters concerning the nation and the world.",
-    "category": null
+    "channel": "ts1019",
+    "catchup-id": "93058386"
   },
   {
     "channelId": "ts1019",
     "channelName": "7x Music",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775367000000,
     "title": "Only Music",
     "desc": "A compilation of popular songs featuring renowned artists is played back to back.",
-    "category": null
+    "channel": "ts1019",
+    "catchup-id": "93058376"
   },
   {
     "channelId": "ts1019",
     "channelName": "7x Music",
-    "start": "05:30",
-    "stop": "06:30",
+    "start": "20260405053000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775370600000,
     "title": "Old Punjabi Songs",
     "desc": "A comprehensive compilation of some of the most entertaining songs is played.",
-    "category": null
+    "channel": "ts1019",
+    "catchup-id": "93058378"
   },
   {
     "channelId": "ts1019",
     "channelName": "7x Music",
-    "start": "06:30",
-    "stop": "07:30",
+    "start": "20260405063000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775374200000,
     "title": "Music Masti",
     "desc": "A compilation of songs from well-known artists is played back-to-back for entertainment.",
-    "category": null
+    "channel": "ts1019",
+    "catchup-id": "93058387"
   },
   {
     "channelId": "ts1019",
     "channelName": "7x Music",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260405073000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775377800000,
     "title": "Swag Mera Desi",
     "desc": "A comprehensive compilation of popular songs by famous music artists is played.",
-    "category": null
+    "channel": "ts1019",
+    "catchup-id": "93058380"
   },
   {
     "channelId": "ts1019",
     "channelName": "7x Music",
-    "start": "08:30",
-    "stop": "10:00",
+    "start": "20260405083000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775383200000,
     "title": "Only Music",
     "desc": "A compilation of popular songs featuring renowned artists is played back to back.",
-    "category": null
+    "channel": "ts1019",
+    "catchup-id": "93058383"
   },
   {
     "channelId": "ts1019",
     "channelName": "7x Music",
-    "start": "10:00",
-    "stop": "11:00",
+    "start": "20260405100000 +0000",
+    "stop": "20260405110000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775386800000,
     "title": "Old Punjabi Songs",
     "desc": "A comprehensive compilation of some of the most entertaining songs is played.",
-    "category": null
+    "channel": "ts1019",
+    "catchup-id": "93058379"
   },
   {
     "channelId": "ts1019",
     "channelName": "7x Music",
-    "start": "11:00",
-    "stop": "12:00",
+    "start": "20260405110000 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775386800000,
     "stopTs": 1775390400000,
     "title": "Exclusive",
     "desc": "The host provides a detailed report on matters concerning the nation and the world.",
-    "category": null
+    "channel": "ts1019",
+    "catchup-id": "93058391"
   },
   {
     "channelId": "ts1019",
     "channelName": "7x Music",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "Only Music",
     "desc": "A compilation of popular songs featuring renowned artists is played back to back.",
-    "category": null
+    "channel": "ts1019",
+    "catchup-id": "93058381"
   },
   {
     "channelId": "ts1019",
     "channelName": "7x Music",
-    "start": "12:30",
-    "stop": "13:30",
+    "start": "20260405123000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775395800000,
     "title": "Gurbani Shabad",
     "desc": "A religious scholar sings devotional songs to devotees.",
-    "category": null
+    "channel": "ts1019",
+    "catchup-id": "93058392"
   },
   {
     "channelId": "ts1019",
     "channelName": "7x Music",
-    "start": "13:30",
-    "stop": "14:30",
+    "start": "20260405133000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775399400000,
     "title": "Only Music",
     "desc": "A compilation of popular songs featuring renowned artists is played back to back.",
-    "category": null
+    "channel": "ts1019",
+    "catchup-id": "93058377"
   },
   {
     "channelId": "ts1019",
     "channelName": "7x Music",
-    "start": "14:30",
-    "stop": "17:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775408400000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1019",
+    "catchup-id": "93058388"
   },
   {
     "channelId": "ts1019",
     "channelName": "7x Music",
-    "start": "17:00",
-    "stop": "18:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775413800000,
     "title": "Only Music",
     "desc": "A compilation of popular songs featuring renowned artists is played back to back.",
-    "category": null
+    "channel": "ts1019",
+    "catchup-id": "93058384"
   }
 ]

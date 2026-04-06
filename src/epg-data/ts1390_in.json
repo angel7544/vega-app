@@ -2,23 +2,25 @@
   {
     "channelId": "ts1390",
     "channelName": "ts1390",
-    "start": "18:30",
-    "stop": "19:30",
+    "start": "20260405183000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775417400000,
     "title": "Baa Bahoo Aur Baby",
     "desc": "Baby feels insecure when she sees Dimple and Anish together. S01 E11.",
-    "category": null
+    "channel": "ts1390",
+    "catchup-id": "93111940"
   },
   {
     "channelId": "ts1390",
     "channelName": "ts1390",
-    "start": "19:30",
-    "stop": "00:30",
+    "start": "20260405193000 +0000",
+    "stop": "20260406003000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775435400000,
     "title": "Maha Episode - Kumkum",
     "desc": "Rajeshwari feels hurt as Harshawardhan won't share details about Aarti. S01 E03.",
-    "category": null
+    "channel": "ts1390",
+    "catchup-id": "93111949"
   }
 ]

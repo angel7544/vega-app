@@ -2,12 +2,13 @@
   {
     "channelId": "ts234",
     "channelName": "ts234",
-    "start": "18:30",
-    "stop": "21:30",
+    "start": "20260405183000 +0000",
+    "stop": "20260405213000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775424600000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts234",
+    "catchup-id": "93102705"
   }
 ]

@@ -2,782 +2,853 @@
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260405183000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Wellness Watch",
     "desc": "The host explores the latest trends in health and wellness, offering practical tips.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096219"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260405190000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "The Tale Of Trails - The Shangrila",
     "desc": "The filmmaker explores the beauty of mountain trails in Arunachal Pradesh.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096233"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260405193000 +0000",
+    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "DD India News Hour",
     "desc": "The host presents latest updates and top stories across the globe.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096224"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260405203000 +0000",
+    "stop": "20260405210000 +0000",
     "startTs": 1775421000000,
     "stopTs": 1775422800000,
     "title": "Voice of the Global South",
     "desc": "Akshay Dongare presents a range of stories from different parts of the world.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096221"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260405210000 +0000",
+    "stop": "20260405213000 +0000",
     "startTs": 1775422800000,
     "stopTs": 1775424600000,
     "title": "Defence Dynamics",
     "desc": "The host presents the latest news stories pertaining to India's defence systems.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096220"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260405213000 +0000",
+    "stop": "20260405220000 +0000",
     "startTs": 1775424600000,
     "stopTs": 1775426400000,
     "title": "DD India News Hour",
     "desc": "The host presents latest updates and top stories across the globe.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096251"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260405223000 +0000",
+    "stop": "20260405230000 +0000",
     "startTs": 1775428200000,
     "stopTs": 1775430000000,
     "title": "Connecting the Dots",
     "desc": "The host presents a detailed report on the pressing global issues and current affairs.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096226"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260405230000 +0000",
+    "stop": "20260405233000 +0000",
     "startTs": 1775430000000,
     "stopTs": 1775431800000,
     "title": "The Economic Brief",
     "desc": "The host discusses the key developments of the Indian economy and its impacts.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096234"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260405233000 +0000",
+    "stop": "20260406000000 +0000",
     "startTs": 1775431800000,
     "stopTs": 1775433600000,
     "title": "DD India News Hour",
     "desc": "The host presents latest updates and top stories across the globe.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096249"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260406003000 +0000",
+    "stop": "20260406010000 +0000",
     "startTs": 1775435400000,
     "stopTs": 1775437200000,
     "title": "The Tale Of Trails - The Shangrila",
     "desc": "The filmmaker explores the beauty of mountain trails in Arunachal Pradesh.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096222"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260406010000 +0000",
+    "stop": "20260406013000 +0000",
     "startTs": 1775437200000,
     "stopTs": 1775439000000,
     "title": "Meditation Session By Gurudev Sri Sri Ravi Shankar",
     "desc": "Spiritual leader Sri Sri Ravi Shankar illuminates the practice of meditation.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096227"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260406013000 +0000",
+    "stop": "20260406020000 +0000",
     "startTs": 1775439000000,
     "stopTs": 1775440800000,
     "title": "DD India Live",
     "desc": "The host presents some of the latest updates and top stories of the country, live.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096235"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260406020000 +0000",
+    "stop": "20260406023000 +0000",
     "startTs": 1775440800000,
     "stopTs": 1775442600000,
     "title": "DD India Live",
     "desc": "The host presents some of the latest updates and top stories of the country, live.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096236"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260406023000 +0000",
+    "stop": "20260406030000 +0000",
     "startTs": 1775442600000,
     "stopTs": 1775444400000,
     "title": "DD India News Hour",
     "desc": "The host presents latest updates and top stories across the globe.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096217"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260406033000 +0000",
+    "stop": "20260406040000 +0000",
     "startTs": 1775446200000,
     "stopTs": 1775448000000,
     "title": "DD India News Hour",
     "desc": "The host presents latest updates and top stories across the globe.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096241"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260406043000 +0000",
+    "stop": "20260406050000 +0000",
     "startTs": 1775449800000,
     "stopTs": 1775451600000,
     "title": "DD India News Hour",
     "desc": "The host presents latest updates and top stories across the globe.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096229"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260406053000 +0000",
+    "stop": "20260406060000 +0000",
     "startTs": 1775453400000,
     "stopTs": 1775455200000,
     "title": "DD India News Hour",
     "desc": "The host presents latest updates and top stories across the globe.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096225"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260406063000 +0000",
+    "stop": "20260406070000 +0000",
     "startTs": 1775457000000,
     "stopTs": 1775458800000,
     "title": "DD India Live",
     "desc": "The host presents some of the latest updates and top stories of the country, live.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096238"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260406070000 +0000",
+    "stop": "20260406073000 +0000",
     "startTs": 1775458800000,
     "stopTs": 1775460600000,
     "title": "DD India Live",
     "desc": "The host presents some of the latest updates and top stories of the country, live.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096237"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260406073000 +0000",
+    "stop": "20260406080000 +0000",
     "startTs": 1775460600000,
     "stopTs": 1775462400000,
     "title": "Connecting the Dots",
     "desc": "The host presents a detailed report on the pressing global issues and current affairs.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096242"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "08:00",
-    "stop": "09:00",
+    "start": "20260406080000 +0000",
+    "stop": "20260406090000 +0000",
     "startTs": 1775462400000,
     "stopTs": 1775466000000,
     "title": "Eco India",
     "desc": "The host explores the initiatives of people who tackle various environmental issues.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096231"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260406093000 +0000",
+    "stop": "20260406100000 +0000",
     "startTs": 1775467800000,
     "stopTs": 1775469600000,
     "title": "DD Golden Flashbacks",
     "desc": ".",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096230"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "10:30",
-    "stop": "10:40",
+    "start": "20260406103000 +0000",
+    "stop": "20260406104000 +0000",
     "startTs": 1775471400000,
     "stopTs": 1775472000000,
     "title": "Khobro - Konkani News Bulletin",
     "desc": "The host presents the latest updates pertaining to the current affairs of the day.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096218"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "10:40",
-    "stop": "10:42",
+    "start": "20260406104000 +0000",
+    "stop": "20260406104200 +0000",
     "startTs": 1775472000000,
     "stopTs": 1775472120000,
     "title": "Places & Passions",
     "desc": ".",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096243"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "11:30",
-    "stop": "11:35",
+    "start": "20260406113000 +0000",
+    "stop": "20260406113500 +0000",
     "startTs": 1775475000000,
     "stopTs": 1775475300000,
     "title": "News Headlines",
     "desc": "The host presents the latest news surrounding various socio-economic and political issues.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096250"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "11:35",
-    "stop": "12:00",
+    "start": "20260406113500 +0000",
+    "stop": "20260406120000 +0000",
     "startTs": 1775475300000,
     "stopTs": 1775476800000,
     "title": "Filmache Kalakar Ani Khobro",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096246"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260406123000 +0000",
+    "stop": "20260406130000 +0000",
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Movies Music Ani Masti",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096244"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260406130000 +0000",
+    "stop": "20260406133000 +0000",
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Khobro - Konkani News Bulletin",
     "desc": "The host presents the latest updates pertaining to the current affairs of the day.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096247"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260406133000 +0000",
+    "stop": "20260406140000 +0000",
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Newsmakers Of The Month",
     "desc": ".",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096228"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "14:25",
-    "stop": "14:30",
+    "start": "20260406142500 +0000",
+    "stop": "20260406143000 +0000",
     "startTs": 1775485500000,
     "stopTs": 1775485800000,
     "title": "News Headlines",
     "desc": "The host presents the latest news surrounding various socio-economic and political issues.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096223"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "15:30",
-    "stop": "16:30",
+    "start": "20260406153000 +0000",
+    "stop": "20260406163000 +0000",
     "startTs": 1775489400000,
     "stopTs": 1775493000000,
     "title": "DD India News Hour",
     "desc": "The host presents latest updates and top stories across the globe.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096254"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260406163000 +0000",
+    "stop": "20260406170000 +0000",
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "The Economic Brief",
     "desc": "The host discusses the key developments of the Indian economy and its impacts.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096232"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260406170000 +0000",
+    "stop": "20260406173000 +0000",
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Indian Diplomacy",
     "desc": "The host discusses the matters of India's foreign affairs and diplomatic relations.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096240"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260406173000 +0000",
+    "stop": "20260406180000 +0000",
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "DD India News Hour",
     "desc": "The host presents latest updates and top stories across the globe.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93096245"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260406183000 +0000",
+    "stop": "20260406190000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775502000000,
     "title": "Women and Indian Cinema",
     "desc": "The host highlights the significant evolution of female characters in films.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133640"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260406190000 +0000",
+    "stop": "20260406193000 +0000",
     "startTs": 1775502000000,
     "stopTs": 1775503800000,
     "title": "Wellness Watch",
     "desc": "The host explores the latest trends in health and wellness, offering practical tips.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133657"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "19:30",
-    "stop": "20:30",
+    "start": "20260406193000 +0000",
+    "stop": "20260406203000 +0000",
     "startTs": 1775503800000,
     "stopTs": 1775507400000,
     "title": "DD India News Hour",
     "desc": "The host presents latest updates and top stories across the globe.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133646"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260406203000 +0000",
+    "stop": "20260406210000 +0000",
     "startTs": 1775507400000,
     "stopTs": 1775509200000,
     "title": "Paradise Unexplored",
     "desc": "The filmmaker examines the cultures of the many lesser-known locales of India.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133666"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260406210000 +0000",
+    "stop": "20260406213000 +0000",
     "startTs": 1775509200000,
     "stopTs": 1775511000000,
     "title": "Connecting the Dots",
     "desc": "The host presents a detailed report on the pressing global issues and current affairs.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133670"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "21:30",
-    "stop": "22:30",
+    "start": "20260406213000 +0000",
+    "stop": "20260406223000 +0000",
     "startTs": 1775511000000,
     "stopTs": 1775514600000,
     "title": "DD India News Hour",
     "desc": "The host presents latest updates and top stories across the globe.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133654"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260406223000 +0000",
+    "stop": "20260406230000 +0000",
     "startTs": 1775514600000,
     "stopTs": 1775516400000,
     "title": "Defence Dynamics",
     "desc": "The host presents the latest news stories pertaining to India's defence systems.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133650"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260406230000 +0000",
+    "stop": "20260406233000 +0000",
     "startTs": 1775516400000,
     "stopTs": 1775518200000,
     "title": "Voice of the Global South",
     "desc": "Akshay Dongare presents a range of stories from different parts of the world.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133644"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "23:30",
-    "stop": "00:30",
+    "start": "20260406233000 +0000",
+    "stop": "20260407003000 +0000",
     "startTs": 1775518200000,
     "stopTs": 1775521800000,
     "title": "DD India News Hour",
     "desc": "The host presents latest updates and top stories across the globe.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133638"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260407003000 +0000",
+    "stop": "20260407010000 +0000",
     "startTs": 1775521800000,
     "stopTs": 1775523600000,
     "title": "Paradise Unexplored",
     "desc": "The filmmaker examines the cultures of the many lesser-known locales of India.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133659"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260407010000 +0000",
+    "stop": "20260407013000 +0000",
     "startTs": 1775523600000,
     "stopTs": 1775525400000,
     "title": "Meditation Session By Gurudev Sri Sri Ravi Shankar",
     "desc": "Spiritual leader Sri Sri Ravi Shankar illuminates the practice of meditation.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133643"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260407013000 +0000",
+    "stop": "20260407020000 +0000",
     "startTs": 1775525400000,
     "stopTs": 1775527200000,
     "title": "DD India Live",
     "desc": "The host presents some of the latest updates and top stories of the country, live.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133655"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260407020000 +0000",
+    "stop": "20260407023000 +0000",
     "startTs": 1775527200000,
     "stopTs": 1775529000000,
     "title": "DD India Live",
     "desc": "The host presents some of the latest updates and top stories of the country, live.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133660"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "02:30",
-    "stop": "03:30",
+    "start": "20260407023000 +0000",
+    "stop": "20260407033000 +0000",
     "startTs": 1775529000000,
     "stopTs": 1775532600000,
     "title": "DD India News Hour",
     "desc": "The host presents latest updates and top stories across the globe.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133636"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "03:30",
-    "stop": "04:30",
+    "start": "20260407033000 +0000",
+    "stop": "20260407043000 +0000",
     "startTs": 1775532600000,
     "stopTs": 1775536200000,
     "title": "DD India News Hour",
     "desc": "The host presents latest updates and top stories across the globe.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133668"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "04:30",
-    "stop": "05:30",
+    "start": "20260407043000 +0000",
+    "stop": "20260407053000 +0000",
     "startTs": 1775536200000,
     "stopTs": 1775539800000,
     "title": "DD India News Hour",
     "desc": "The host presents latest updates and top stories across the globe.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133641"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "05:30",
-    "stop": "06:30",
+    "start": "20260407053000 +0000",
+    "stop": "20260407063000 +0000",
     "startTs": 1775539800000,
     "stopTs": 1775543400000,
     "title": "DD India News Hour",
     "desc": "The host presents latest updates and top stories across the globe.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133648"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260407063000 +0000",
+    "stop": "20260407070000 +0000",
     "startTs": 1775543400000,
     "stopTs": 1775545200000,
     "title": "DD India Live",
     "desc": "The host presents some of the latest updates and top stories of the country, live.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133639"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260407070000 +0000",
+    "stop": "20260407073000 +0000",
     "startTs": 1775545200000,
     "stopTs": 1775547000000,
     "title": "DD India Live",
     "desc": "The host presents some of the latest updates and top stories of the country, live.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133652"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260407073000 +0000",
+    "stop": "20260407083000 +0000",
     "startTs": 1775547000000,
     "stopTs": 1775550600000,
     "title": "Indian Diplomacy",
     "desc": "The host discusses the matters of India's foreign affairs and diplomatic relations.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133649"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260407083000 +0000",
+    "stop": "20260407093000 +0000",
     "startTs": 1775550600000,
     "stopTs": 1775554200000,
     "title": "DD India News Hour",
     "desc": "The host presents latest updates and top stories across the globe.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133637"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260407093000 +0000",
+    "stop": "20260407100000 +0000",
     "startTs": 1775554200000,
     "stopTs": 1775556000000,
     "title": "Bhakti Sangeet",
     "desc": "A curated collection of devotional songs and hymns, connecting the soul to spirituality.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133663"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260407100000 +0000",
+    "stop": "20260407103000 +0000",
     "startTs": 1775556000000,
     "stopTs": 1775557800000,
     "title": "Ajache Pahune",
     "desc": "The host talks with renowned personalities about their personal and professional lives.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133671"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "10:30",
-    "stop": "10:40",
+    "start": "20260407103000 +0000",
+    "stop": "20260407104000 +0000",
     "startTs": 1775557800000,
     "stopTs": 1775558400000,
     "title": "Khobro - News Bulletin In Konkani",
     "desc": "The host presents the latest updates pertaining to the current affairs of the day.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133661"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "10:40",
-    "stop": "11:10",
+    "start": "20260407104000 +0000",
+    "stop": "20260407111000 +0000",
     "startTs": 1775558400000,
     "stopTs": 1775560200000,
     "title": "Lokved",
     "desc": "Watch interviews, discussions, and folk performances by sports and cultural associations.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133662"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "11:10",
-    "stop": "11:30",
+    "start": "20260407111000 +0000",
+    "stop": "20260407113000 +0000",
     "startTs": 1775560200000,
     "stopTs": 1775561400000,
     "title": "Mi Savtri Bolte",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133658"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "11:30",
-    "stop": "11:35",
+    "start": "20260407113000 +0000",
+    "stop": "20260407113500 +0000",
     "startTs": 1775561400000,
     "stopTs": 1775561700000,
     "title": "News Headlines",
     "desc": "The host presents the latest headlines about social, economic and political issues.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133669"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "11:35",
-    "stop": "12:30",
+    "start": "20260407113500 +0000",
+    "stop": "20260407123000 +0000",
     "startTs": 1775561700000,
     "stopTs": 1775565000000,
     "title": "DHA CHA MA",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133667"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260407123000 +0000",
+    "stop": "20260407130000 +0000",
     "startTs": 1775565000000,
     "stopTs": 1775566800000,
     "title": "Aarogya Sampada",
     "desc": "A medical professional discusses common ailments and suggests relevant remedies.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133653"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260407130000 +0000",
+    "stop": "20260407133000 +0000",
     "startTs": 1775566800000,
     "stopTs": 1775568600000,
     "title": "Khobro - Konkani News Bulletin",
     "desc": "The host presents the latest updates pertaining to the current affairs of the day.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133647"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "13:30",
-    "stop": "14:20",
+    "start": "20260407133000 +0000",
+    "stop": "20260407142000 +0000",
     "startTs": 1775568600000,
     "stopTs": 1775571600000,
     "title": "Fashi",
     "desc": "A writer talks to a convict to understand whether he repents his criminal actions or not.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133665"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "14:20",
-    "stop": "14:25",
+    "start": "20260407142000 +0000",
+    "stop": "20260407142500 +0000",
     "startTs": 1775571600000,
     "stopTs": 1775571900000,
     "title": "Kantara",
     "desc": "The host delves into the plot and technical details surrounding Kantara.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133645"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "14:25",
-    "stop": "15:30",
+    "start": "20260407142500 +0000",
+    "stop": "20260407153000 +0000",
     "startTs": 1775571900000,
     "stopTs": 1775575800000,
     "title": "News Headlines",
     "desc": "The host presents the latest news surrounding various socio-economic and political issues.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133651"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "15:30",
-    "stop": "16:30",
+    "start": "20260407153000 +0000",
+    "stop": "20260407163000 +0000",
     "startTs": 1775575800000,
     "stopTs": 1775579400000,
     "title": "DD India News Hour",
     "desc": "The host presents latest updates and top stories across the globe.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133664"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260407163000 +0000",
+    "stop": "20260407170000 +0000",
     "startTs": 1775579400000,
     "stopTs": 1775581200000,
     "title": "Wellness Watch-The Cosmetic Revolution",
     "desc": "The host provides information on the cosmetic revolution of wellness watch.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133635"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260407170000 +0000",
+    "stop": "20260407173000 +0000",
     "startTs": 1775581200000,
     "stopTs": 1775583000000,
     "title": "Voice of the Global South",
     "desc": "Akshay Dongare presents a range of stories from different parts of the world.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133642"
   },
   {
     "channelId": "ts1215",
     "channelName": "DD Goa",
-    "start": "17:30",
-    "stop": "18:30",
+    "start": "20260407173000 +0000",
+    "stop": "20260407183000 +0000",
     "startTs": 1775583000000,
     "stopTs": 1775586600000,
     "title": "DD India News Hour",
     "desc": "The host presents latest updates and top stories across the globe.",
-    "category": null
+    "channel": "ts1215",
+    "catchup-id": "93133656"
   }
 ]

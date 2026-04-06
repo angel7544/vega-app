@@ -2,529 +2,577 @@
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260404183000 +0000",
+    "stop": "20260404190000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775329200000,
     "title": "Deiva Darisanam",
     "desc": "The Host Shares Information About Some Of The Most Significant Temples From Around The Region And The Religious Rituals Performed In Praise Of Various Hindu Deities. S01 E17.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161561"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260404190000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775329200000,
     "stopTs": 1775331000000,
     "title": "Sakthi Peedangal",
     "desc": "51 Sacred Places Associated With The Worship Of The Divine Feminine, Shakti. S01 E08.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161551"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "19:30",
-    "stop": "20:30",
+    "start": "20260404193000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775334600000,
     "title": "Dhanvantari Mantra",
     "desc": "Sanskrit mantras are sacred syllables, words, or phrases that are believed to have spiritual, magical, or religious powers. S01 E26.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161552"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "20:30",
-    "stop": "21:30",
+    "start": "20260404203000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775338200000,
     "title": "Ramayan",
     "desc": "Rama, the prince of Ayodhya, goes into exile due to his father's promise. Later, Ravana kidnaps Sita and Rama wages a war against him to rescue her and returns to Ayodhya to be crowned king. S01 E02.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161544"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260404213000 +0000",
+    "stop": "20260404220000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775340000000,
     "title": "Kandha Sashti",
     "desc": "Kandha Sashti Kavasam is a Tamil devotional song composed in Tamil on the Lord Murugan, the son of Shiva. S01 E11.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161556"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260404220000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775340000000,
     "stopTs": 1775341800000,
     "title": "Adiparashakthi",
     "desc": "Goddess Adhiparasakthi comes to the rescue of her devotees when they are in trouble and makes them realize the importance of worshiping and believing in Her. S01 E18.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161549"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "22:30",
-    "stop": "23:30",
+    "start": "20260404223000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775345400000,
     "title": "Shri Krishna",
     "desc": "When evil takes over the world, Lord Vishnu incarnates into the world as Shri Krishna for the protection of the righteous and the destruction of the wicked. S01 E01.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161534"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "23:30",
-    "stop": "00:30",
+    "start": "20260404233000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775349000000,
     "title": "Sanskrit Songs",
     "desc": "Sanskrit mantras are sacred syllables, words, or phrases that are believed to have spiritual, magical, or religious powers. S01 E04.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161563"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260405003000 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775350800000,
     "title": "Kandha Sashti",
     "desc": "Kandha Sashti Kavasam is a Tamil devotional song composed in Tamil on the Lord Murugan, the son of Shiva. S01 E11.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161536"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "01:00",
-    "stop": "02:00",
+    "start": "20260405010000 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775354400000,
     "title": "Pathinettam Padi Arase",
     "desc": "Ayyappan special episodes and Songs. S01 E43.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161532"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "02:00",
-    "stop": "03:00",
+    "start": "20260405020000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775358000000,
     "title": "Bakthi Malai",
     "desc": "A Program That Offers Spiritual Songs That Soothe our Soul. S01 E19.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161546"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "Abhishegam",
     "desc": "Abishegam In Detail Is Done To The Deity After Which The Deity Is Dressed And Adorned With Jewels And Garland. S01 E15.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161560"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "Sakthi Peedangal",
     "desc": "51 Sacred Places Associated With The Worship Of The Divine Feminine, Shakti. S01 E08.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161564"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "Spiritual Discourses",
     "desc": "A Program Hosted By Popular Speakers On Spiritual Topics. S01 E05.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161533"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "04:30",
-    "stop": "05:30",
+    "start": "20260405043000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775367000000,
     "title": "Sadhguruvin Sorpozhivugal",
     "desc": "Sadhgurus Spirirual Discourses. S01 E06.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161550"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260405053000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775368800000,
     "title": "Marmadesam",
     "desc": "Marmadesam is a classic Tamil mystery series focusing on the mysterious healing powers of Navabhashanam Lingams, centered around a village and an ashram that claims to cure all diseases. S01 E39.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161547"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260405060000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370600000,
     "title": "Marmadesam",
     "desc": "Marmadesam is a classic Tamil mystery series focusing on the mysterious healing powers of Navabhashanam Lingams, centered around a village and an ashram that claims to cure all diseases. S01 E39.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161530"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260405063000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775372400000,
     "title": "Marmadesam",
     "desc": "Marmadesam is a classic Tamil mystery series focusing on the mysterious healing powers of Navabhashanam Lingams, centered around a village and an ashram that claims to cure all diseases. S01 E39.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161554"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "Marmadesam",
     "desc": "Marmadesam is a classic Tamil mystery series focusing on the mysterious healing powers of Navabhashanam Lingams, centered around a village and an ashram that claims to cure all diseases. S01 E39.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161548"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260405073000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775377800000,
     "title": "Shri Krishna",
     "desc": "When evil takes over the world, Lord Vishnu incarnates into the world as Shri Krishna for the protection of the righteous and the destruction of the wicked. S01 E01.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161535"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260405083000 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775379600000,
     "title": "Adiparashakthi",
     "desc": "Goddess Adhiparasakthi comes to the rescue of her devotees when they are in trouble and makes them realize the importance of worshiping and believing in Her. S01 E18.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161539"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260405090000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775381400000,
     "title": "Bakthi Malai",
     "desc": "A Program That Offers Spiritual Songs That Soothe our Soul. S01 E19.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161562"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260405093000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775383200000,
     "title": "Spiritual Discourses",
     "desc": "A Program Hosted By Popular Speakers On Spiritual Topics. S01 E05.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161540"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260405100000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775385000000,
     "title": "Ramayan",
     "desc": "Rama, the prince of Ayodhya, goes into exile due to his father's promise. Later, Ravana kidnaps Sita and Rama wages a war against him to rescue her and returns to Ayodhya to be crowned king. S01 E02.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161558"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "10:30",
-    "stop": "11:30",
+    "start": "20260405103000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775388600000,
     "title": "Sadhguruvin Sorpozhivugal",
     "desc": "Sadhgurus Spirirual Discourses. S01 E06.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161531"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260405113000 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775390400000,
     "title": "Vishnu Sahasranamam",
     "desc": "The Vishnu Sahasranamam is a Sanskrit hymn containing a list of the 1,000 names of Vishnu, one of the main deities in Hinduism and the Supreme God in Vaishnavism. It is one of the most sacred. S01 E27.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161559"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "Lalitha Sahasranamam",
     "desc": "The Lalita Sahasranama is a Hindu religious text that enumerates the thousand names of Mother Goddess Lalita, which are held sacred in Hinduism particularly in Shaktism, the tradition focused. S01 E28.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161537"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260405123000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775394000000,
     "title": "Kandha Sashti",
     "desc": "Kandha Sashti Kavasam is a Tamil devotional song composed in Tamil on the Lord Murugan, the son of Shiva. S01 E11.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161542"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "13:00",
-    "stop": "14:00",
+    "start": "20260405130000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775397600000,
     "title": "Pathinettam Padi Arase",
     "desc": "Ayyappan special episodes and Songs. S01 E43.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161541"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "Adiparashakthi",
     "desc": "Goddess Adhiparasakthi comes to the rescue of her devotees when they are in trouble and makes them realize the importance of worshiping and believing in Her. S01 E18.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161543"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775401200000,
     "title": "Bakthi Malai",
     "desc": "A Program That Offers Spiritual Songs That Soothe our Soul. S01 E19.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161555"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "Ramayan",
     "desc": "Rama, the prince of Ayodhya, goes into exile due to his father's promise. Later, Ravana kidnaps Sita and Rama wages a war against him to rescue her and returns to Ayodhya to be crowned king. S01 E02.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161553"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "15:30",
-    "stop": "16:30",
+    "start": "20260405153000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775406600000,
     "title": "Shri Krishna",
     "desc": "When evil takes over the world, Lord Vishnu incarnates into the world as Shri Krishna for the protection of the righteous and the destruction of the wicked. S01 E01.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161557"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "16:30",
-    "stop": "17:30",
+    "start": "20260405163000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775410200000,
     "title": "Sadhguruvin Sorpozhivugal",
     "desc": "Sadhgurus Spirirual Discourses. S01 E06.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161545"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "17:30",
-    "stop": "18:30",
+    "start": "20260405173000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775413800000,
     "title": "Bakthi Malai",
     "desc": "A Program That Offers Spiritual Songs That Soothe our Soul. S01 E19.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93161538"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260405183000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Deiva Darisanam",
     "desc": "A religious scholar shares insights into Hindu teachings and conducts rituals at sacred temples.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93207903"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260405190000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Sakthi Peedangal",
     "desc": ".",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93207917"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "19:30",
-    "stop": "20:30",
+    "start": "20260405193000 +0000",
+    "stop": "20260405203000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775421000000,
     "title": "Dhanvantari Mantra",
     "desc": ".",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93207930"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "20:30",
-    "stop": "21:30",
+    "start": "20260405203000 +0000",
+    "stop": "20260405213000 +0000",
     "startTs": 1775421000000,
     "stopTs": 1775424600000,
     "title": "Ramayan",
     "desc": "An ancient epic of Prince Rama's quest to save Sita, embodying duty and divine love.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93111494"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260406003000 +0000",
+    "stop": "20260406010000 +0000",
     "startTs": 1775435400000,
     "stopTs": 1775437200000,
     "title": "Kandha Sashti",
     "desc": "A comprehensive compilation of a number of devotional songs is played back-to-back.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93111497"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "04:30",
-    "stop": "05:30",
+    "start": "20260406043000 +0000",
+    "stop": "20260406053000 +0000",
     "startTs": 1775449800000,
     "stopTs": 1775453400000,
     "title": "Sadhguruvin Sorpozhivugal",
     "desc": "Sadhguru, an Indian guru, delivers enlightening spiritual discourses.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93111493"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260406123000 +0000",
+    "stop": "20260406130000 +0000",
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Kandha Sashti",
     "desc": "A comprehensive compilation of a number of devotional songs is played back-to-back.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93111496"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "16:30",
-    "stop": "17:30",
+    "start": "20260406163000 +0000",
+    "stop": "20260406173000 +0000",
     "startTs": 1775493000000,
     "stopTs": 1775496600000,
     "title": "Sadhguruvin Sorpozhivugal",
     "desc": "Sadhguru, an Indian guru, delivers enlightening spiritual discourses.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93111492"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "20:30",
-    "stop": "21:30",
+    "start": "20260406203000 +0000",
+    "stop": "20260406213000 +0000",
     "startTs": 1775507400000,
     "stopTs": 1775511000000,
     "title": "Ramayan",
     "desc": "An ancient epic of Prince Rama's quest to save Sita, embodying duty and divine love.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93148311"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260407003000 +0000",
+    "stop": "20260407010000 +0000",
     "startTs": 1775521800000,
     "stopTs": 1775523600000,
     "title": "Kandha Sashti",
     "desc": "A comprehensive compilation of a number of devotional songs is played back-to-back.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93148314"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "04:30",
-    "stop": "05:30",
+    "start": "20260407043000 +0000",
+    "stop": "20260407053000 +0000",
     "startTs": 1775536200000,
     "stopTs": 1775539800000,
     "title": "Sadhguruvin Sorpozhivugal",
     "desc": "Sadhguru, an Indian guru, delivers enlightening spiritual discourses.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93148313"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260407123000 +0000",
+    "stop": "20260407130000 +0000",
     "startTs": 1775565000000,
     "stopTs": 1775566800000,
     "title": "Kandha Sashti",
     "desc": "A comprehensive compilation of a number of devotional songs is played back-to-back.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93148315"
   },
   {
     "channelId": "ts1459",
     "channelName": "Tata Play Deiveegam",
-    "start": "16:30",
-    "stop": "17:30",
+    "start": "20260407163000 +0000",
+    "stop": "20260407173000 +0000",
     "startTs": 1775579400000,
     "stopTs": 1775583000000,
     "title": "Sadhguruvin Sorpozhivugal",
     "desc": "Sadhguru, an Indian guru, delivers enlightening spiritual discourses.",
-    "category": null
+    "channel": "ts1459",
+    "catchup-id": "93148310"
   }
 ]

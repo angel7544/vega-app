@@ -2,474 +2,517 @@
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "18:30",
-    "stop": "19:15",
+    "start": "20260404183000 +0000",
+    "stop": "20260404191500 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775330100000,
     "title": "Ved Time",
     "desc": "The host offers in-depth analysis of notable literary works from various languages.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061111"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "19:15",
-    "stop": "19:30",
+    "start": "20260404191500 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775330100000,
     "stopTs": 1775331000000,
     "title": "Feature",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061090"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "19:30",
-    "stop": "20:15",
+    "start": "20260404193000 +0000",
+    "stop": "20260404201500 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775333700000,
     "title": "News Special",
     "desc": "The host shares regional and national news updates, covering significant current events.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061074"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "20:15",
-    "stop": "21:00",
+    "start": "20260404201500 +0000",
+    "stop": "20260404210000 +0000",
     "startTs": 1775333700000,
     "stopTs": 1775336400000,
     "title": "BKB + Feature (ENT)",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061082"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "21:00",
-    "stop": "21:45",
+    "start": "20260404210000 +0000",
+    "stop": "20260404214500 +0000",
     "startTs": 1775336400000,
     "stopTs": 1775339100000,
     "title": "Feature",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061094"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "21:45",
-    "stop": "22:00",
+    "start": "20260404214500 +0000",
+    "stop": "20260404220000 +0000",
     "startTs": 1775339100000,
     "stopTs": 1775340000000,
     "title": "Feature",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061101"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "22:00",
-    "stop": "22:45",
+    "start": "20260404220000 +0000",
+    "stop": "20260404224500 +0000",
     "startTs": 1775340000000,
     "stopTs": 1775342700000,
     "title": "ADAR",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061108"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "22:45",
-    "stop": "23:30",
+    "start": "20260404224500 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775342700000,
     "stopTs": 1775345400000,
     "title": "Feature",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061080"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "23:30",
-    "stop": "00:15",
+    "start": "20260404233000 +0000",
+    "stop": "20260405001500 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775348100000,
     "title": "News Special",
     "desc": "The host shares regional and national news updates, covering significant current events.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061083"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "00:15",
-    "stop": "00:30",
+    "start": "20260405001500 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775348100000,
     "stopTs": 1775349000000,
     "title": "Feature",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061107"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "00:30",
-    "stop": "01:15",
+    "start": "20260405003000 +0000",
+    "stop": "20260405011500 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775351700000,
     "title": "Feature",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061087"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "01:15",
-    "stop": "02:00",
+    "start": "20260405011500 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775351700000,
     "stopTs": 1775354400000,
     "title": "Morning Mantra",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061081"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260405020000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775356200000,
     "title": "Feature",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061103"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "02:30",
-    "stop": "03:15",
+    "start": "20260405023000 +0000",
+    "stop": "20260405031500 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775358900000,
     "title": "News",
     "desc": "The hosts present the latest updates pertaining to politics, economic and social news.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061096"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "03:15",
-    "stop": "04:00",
+    "start": "20260405031500 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775358900000,
     "stopTs": 1775361600000,
     "title": "Ved Time",
     "desc": "The host offers in-depth analysis of notable literary works from various languages.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061113"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "04:00",
-    "stop": "04:15",
+    "start": "20260405040000 +0000",
+    "stop": "20260405041500 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775362500000,
     "title": "Feature",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061095"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "04:15",
-    "stop": "05:00",
+    "start": "20260405041500 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775362500000,
     "stopTs": 1775365200000,
     "title": "News",
     "desc": "The hosts present the latest updates pertaining to politics, economic and social news.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061097"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775367000000,
     "title": "FEA",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061106"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "05:30",
-    "stop": "06:15",
+    "start": "20260405053000 +0000",
+    "stop": "20260405061500 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775369700000,
     "title": "FEA",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061076"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "06:15",
-    "stop": "06:30",
+    "start": "20260405061500 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775369700000,
     "stopTs": 1775370600000,
     "title": "Feature",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061092"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "06:30",
-    "stop": "07:15",
+    "start": "20260405063000 +0000",
+    "stop": "20260405071500 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775373300000,
     "title": "News",
     "desc": "The hosts present the latest updates pertaining to politics, economic and social news.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061088"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "07:15",
-    "stop": "07:30",
+    "start": "20260405071500 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775373300000,
     "stopTs": 1775374200000,
     "title": "Feature",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061084"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "07:30",
-    "stop": "08:15",
+    "start": "20260405073000 +0000",
+    "stop": "20260405081500 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775376900000,
     "title": "FEA",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061085"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "08:15",
-    "stop": "08:30",
+    "start": "20260405081500 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775376900000,
     "stopTs": 1775377800000,
     "title": "Feature",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061072"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "08:30",
-    "stop": "09:15",
+    "start": "20260405083000 +0000",
+    "stop": "20260405091500 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775380500000,
     "title": "News",
     "desc": "The hosts present the latest updates pertaining to politics, economic and social news.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061114"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "09:15",
-    "stop": "09:30",
+    "start": "20260405091500 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775380500000,
     "stopTs": 1775381400000,
     "title": "Feature",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061086"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "09:30",
-    "stop": "10:15",
+    "start": "20260405093000 +0000",
+    "stop": "20260405101500 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775384100000,
     "title": "FEA",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061100"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "10:15",
-    "stop": "10:30",
+    "start": "20260405101500 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775384100000,
     "stopTs": 1775385000000,
     "title": "Feature",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061109"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "10:30",
-    "stop": "11:15",
+    "start": "20260405103000 +0000",
+    "stop": "20260405111500 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775387700000,
     "title": "News",
     "desc": "The hosts present the latest updates pertaining to politics, economic and social news.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061102"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "11:15",
-    "stop": "11:30",
+    "start": "20260405111500 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775387700000,
     "stopTs": 1775388600000,
     "title": "Feature",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061112"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "11:30",
-    "stop": "12:15",
+    "start": "20260405113000 +0000",
+    "stop": "20260405121500 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775391300000,
     "title": "News Special",
     "desc": "The host shares regional and national news updates, covering significant current events.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061077"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "12:15",
-    "stop": "13:00",
+    "start": "20260405121500 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775391300000,
     "stopTs": 1775394000000,
     "title": "FEA",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061099"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "13:00",
-    "stop": "13:15",
+    "start": "20260405130000 +0000",
+    "stop": "20260405131500 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775394900000,
     "title": "Feature",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061105"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "13:15",
-    "stop": "14:00",
+    "start": "20260405131500 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775394900000,
     "stopTs": 1775397600000,
     "title": "Feature",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061110"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "BKB",
     "desc": "The host informs about the issues of the day and provides updates on current events.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061089"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "14:30",
-    "stop": "15:15",
+    "start": "20260405143000 +0000",
+    "stop": "20260405151500 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775402100000,
     "title": "ADAR",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061091"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "15:15",
-    "stop": "16:00",
+    "start": "20260405151500 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775402100000,
     "stopTs": 1775404800000,
     "title": "FEA",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061073"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "16:00",
-    "stop": "16:15",
+    "start": "20260405160000 +0000",
+    "stop": "20260405161500 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775405700000,
     "title": "Feature",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061098"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "16:15",
-    "stop": "16:30",
+    "start": "20260405161500 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775405700000,
     "stopTs": 1775406600000,
     "title": "FEA",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061093"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "16:30",
-    "stop": "17:15",
+    "start": "20260405163000 +0000",
+    "stop": "20260405171500 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775409300000,
     "title": "ADAR",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061078"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "17:15",
-    "stop": "17:30",
+    "start": "20260405171500 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775409300000,
     "stopTs": 1775410200000,
     "title": "Feature",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061104"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "17:30",
-    "stop": "18:15",
+    "start": "20260405173000 +0000",
+    "stop": "20260405181500 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775412900000,
     "title": "Feature",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061079"
   },
   {
     "channelId": "ts1338",
     "channelName": "TV 45 News",
-    "start": "18:15",
-    "stop": "18:30",
+    "start": "20260405181500 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775412900000,
     "stopTs": 1775413800000,
     "title": "Feature",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1338",
+    "catchup-id": "93061075"
   }
 ]

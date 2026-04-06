@@ -2,1497 +2,1633 @@
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260405183000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Mummy Ka Magic",
     "desc": "The host shares mouth-watering and healthy recipes for children and adults. S09 E06.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098920"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "19:00",
-    "stop": "19:10",
+    "start": "20260405190000 +0000",
+    "stop": "20260405191000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775416200000,
     "title": "Chef's Day Out",
     "desc": "A chef visits restaurants and cooks in various locations to learn and test their recipes. S01 E07.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098907"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "19:10",
-    "stop": "19:20",
+    "start": "20260405191000 +0000",
+    "stop": "20260405192000 +0000",
     "startTs": 1775416200000,
     "stopTs": 1775416800000,
     "title": "Swad E Virasat",
     "desc": "The chef demonstrates how to prepare delicious dishes and nutritious recipes. S01 E11.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098934"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "19:20",
-    "stop": "19:30",
+    "start": "20260405192000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775416800000,
     "stopTs": 1775417400000,
     "title": "Desi Videshi",
     "desc": "A renowned chef shares a selection of local and international recipes, demonstrating the preparation of the food in meticulous step-by-step fashion. S01 E09.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098912"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260405193000 +0000",
+    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Tea Time",
     "desc": "Chef Rakesh Sethi shares a variety of delicious teatime snacks' recipes. S01 E05.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098889"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260405200000 +0000",
+    "stop": "20260405203000 +0000",
     "startTs": 1775419200000,
     "stopTs": 1775421000000,
     "title": "Firangi Tadka",
     "desc": "Chef Chinu simplifies international recipes by cooking them with everyday ingredients. S01 E08.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098940"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260405203000 +0000",
+    "stop": "20260405210000 +0000",
     "startTs": 1775421000000,
     "stopTs": 1775422800000,
     "title": "Turban Tadka",
     "desc": "Chef Harpal Singh Sokhi prepares a variety of traditional and innovative dishes. S05 E74.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098899"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260405210000 +0000",
+    "stop": "20260405213000 +0000",
     "startTs": 1775422800000,
     "stopTs": 1775424600000,
     "title": "Mummy Ka Magic",
     "desc": "The host shares mouth-watering and healthy recipes for children and adults. S09 E06.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098918"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260405213000 +0000",
+    "stop": "20260405220000 +0000",
     "startTs": 1775424600000,
     "stopTs": 1775426400000,
     "title": "Hi Tea",
     "desc": "A chef shares recipes for a variety of effortless tea-time snacks. S01 E05.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098935"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "22:00",
-    "stop": "22:10",
+    "start": "20260405220000 +0000",
+    "stop": "20260405221000 +0000",
     "startTs": 1775426400000,
     "stopTs": 1775427000000,
     "title": "Desi Videshi",
     "desc": "A renowned chef shares a selection of local and international recipes, demonstrating the preparation of the food in meticulous step-by-step fashion. S01 E09.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098924"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "22:10",
-    "stop": "22:20",
+    "start": "20260405221000 +0000",
+    "stop": "20260405222000 +0000",
     "startTs": 1775427000000,
     "stopTs": 1775427600000,
     "title": "Sizzling Dal",
     "desc": "A culinary expert showcases an array of mouthwatering Indian 'dal' recipes. S01 E03.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098892"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "22:20",
-    "stop": "22:30",
+    "start": "20260405222000 +0000",
+    "stop": "20260405223000 +0000",
     "startTs": 1775427600000,
     "stopTs": 1775428200000,
     "title": "Go Healthy",
     "desc": "The host and medical practitioners discuss a variety of topics pertaining to healthcare. S01 E35.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098948"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260405223000 +0000",
+    "stop": "20260405230000 +0000",
     "startTs": 1775428200000,
     "stopTs": 1775430000000,
     "title": "Hi Tea",
     "desc": "A chef shares recipes for a variety of effortless tea-time snacks. S01 E05.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098900"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260405230000 +0000",
+    "stop": "20260405233000 +0000",
     "startTs": 1775430000000,
     "stopTs": 1775431800000,
     "title": "Cook Smart",
     "desc": "Renowned Indian chef Sanjeev Kapoor prepares a wide variety of delicious healthy dishes. S02 E70.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098909"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260405233000 +0000",
+    "stop": "20260406000000 +0000",
     "startTs": 1775431800000,
     "stopTs": 1775433600000,
     "title": "Turban Tadka",
     "desc": "Chef Harpal Singh Sokhi prepares a variety of traditional and innovative dishes. S05 E74.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098896"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260406000000 +0000",
+    "stop": "20260406003000 +0000",
     "startTs": 1775433600000,
     "stopTs": 1775435400000,
     "title": "Health Maange More",
     "desc": "Chef Vicky Ratnani prepares delectable Indian-based cuisines that are healthy in nature. S04 E01.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098911"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260406003000 +0000",
+    "stop": "20260406010000 +0000",
     "startTs": 1775435400000,
     "stopTs": 1775437200000,
     "title": "Style Chef",
     "desc": "Chef Shailendra prepares various delicious dishes using commonly found Indian ingredients. S04 E12.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098915"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260406010000 +0000",
+    "stop": "20260406013000 +0000",
     "startTs": 1775437200000,
     "stopTs": 1775439000000,
     "title": "Health Maange More",
     "desc": "Chef Vicky Ratnani prepares delectable Indian-based cuisines that are healthy in nature. S04 E01.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098956"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260406013000 +0000",
+    "stop": "20260406020000 +0000",
     "startTs": 1775439000000,
     "stopTs": 1775440800000,
     "title": "Sunny Side Up",
     "desc": "The host brings a creative twist to brunch classics with lively conversations and flair. S01 E11.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098945"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260406020000 +0000",
+    "stop": "20260406023000 +0000",
     "startTs": 1775440800000,
     "stopTs": 1775442600000,
     "title": "Firangi Tadka",
     "desc": "Chef Chinu simplifies international recipes by cooking them with everyday ingredients. S01 E09.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098906"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260406023000 +0000",
+    "stop": "20260406030000 +0000",
     "startTs": 1775442600000,
     "stopTs": 1775444400000,
     "title": "Cook Smart",
     "desc": "Renowned Indian chef Sanjeev Kapoor prepares a wide variety of delicious healthy dishes. S02 E71.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098905"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260406030000 +0000",
+    "stop": "20260406033000 +0000",
     "startTs": 1775444400000,
     "stopTs": 1775446200000,
     "title": "Style Chef",
     "desc": "Chef Shailendra prepares various delicious dishes using commonly found Indian ingredients. S04 E12.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098931"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260406033000 +0000",
+    "stop": "20260406040000 +0000",
     "startTs": 1775446200000,
     "stopTs": 1775448000000,
     "title": "Sunny Side Up",
     "desc": "The host brings a creative twist to brunch classics with lively conversations and flair. S01 E11.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098891"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260406040000 +0000",
+    "stop": "20260406043000 +0000",
     "startTs": 1775448000000,
     "stopTs": 1775449800000,
     "title": "Tea Time",
     "desc": "Chef Rakesh Sethi shares a variety of delicious teatime snacks' recipes. S01 E06.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098947"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260406043000 +0000",
+    "stop": "20260406050000 +0000",
     "startTs": 1775449800000,
     "stopTs": 1775451600000,
     "title": "Firangi Tadka",
     "desc": "Chef Chinu simplifies international recipes by cooking them with everyday ingredients. S01 E09.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098927"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "05:00",
-    "stop": "05:10",
+    "start": "20260406050000 +0000",
+    "stop": "20260406051000 +0000",
     "startTs": 1775451600000,
     "stopTs": 1775452200000,
     "title": "Sizzling Dal",
     "desc": "A culinary expert showcases an array of mouthwatering Indian 'dal' recipes. S01 E04.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098910"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "05:10",
-    "stop": "05:20",
+    "start": "20260406051000 +0000",
+    "stop": "20260406052000 +0000",
     "startTs": 1775452200000,
     "stopTs": 1775452800000,
     "title": "Chef's Day Out",
     "desc": "A chef visits restaurants and cooks in various locations to learn and test their recipes. S01 E09.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098936"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "05:20",
-    "stop": "05:30",
+    "start": "20260406052000 +0000",
+    "stop": "20260406053000 +0000",
     "startTs": 1775452800000,
     "stopTs": 1775453400000,
     "title": "Health Table",
     "desc": "The host prepares healthy dishes and shares their recipes with the viewers. S01 E02.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098903"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260406053000 +0000",
+    "stop": "20260406060000 +0000",
     "startTs": 1775453400000,
     "stopTs": 1775455200000,
     "title": "Tea Time",
     "desc": "Chef Rakesh Sethi shares a variety of delicious teatime snacks' recipes. S01 E06.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098946"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260406060000 +0000",
+    "stop": "20260406063000 +0000",
     "startTs": 1775455200000,
     "stopTs": 1775457000000,
     "title": "Firangi Tadka",
     "desc": "Chef Chinu simplifies international recipes by cooking them with everyday ingredients. S01 E09.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098908"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260406063000 +0000",
+    "stop": "20260406070000 +0000",
     "startTs": 1775457000000,
     "stopTs": 1775458800000,
     "title": "Mummy Ka Magic",
     "desc": "The host shares mouth-watering and healthy recipes for children and adults. S09 E07.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098890"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "07:00",
-    "stop": "07:10",
+    "start": "20260406070000 +0000",
+    "stop": "20260406071000 +0000",
     "startTs": 1775458800000,
     "stopTs": 1775459400000,
     "title": "Chef's Day Out",
     "desc": "A chef visits restaurants and cooks in various locations to learn and test their recipes. S01 E09.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098941"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "07:10",
-    "stop": "07:20",
+    "start": "20260406071000 +0000",
+    "stop": "20260406072000 +0000",
     "startTs": 1775459400000,
     "stopTs": 1775460000000,
     "title": "Family Food Tales",
     "desc": "A professional chef prepares a series of scrumptious delicacies and shares recipes. S03 E09.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098919"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "07:20",
-    "stop": "07:30",
+    "start": "20260406072000 +0000",
+    "stop": "20260406073000 +0000",
     "startTs": 1775460000000,
     "stopTs": 1775460600000,
     "title": "Dairy Delights",
     "desc": "Bringing the best in television. S01 E01.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098943"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260406073000 +0000",
+    "stop": "20260406080000 +0000",
     "startTs": 1775460600000,
     "stopTs": 1775462400000,
     "title": "Cook Smart",
     "desc": "Renowned Indian chef Sanjeev Kapoor prepares a wide variety of delicious healthy dishes. S02 E71.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098955"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260406080000 +0000",
+    "stop": "20260406083000 +0000",
     "startTs": 1775462400000,
     "stopTs": 1775464200000,
     "title": "SK Kitchen",
     "desc": "From traditional dishes to modern fusion, a culinary expert shares cooking tips. S01 E44.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098951"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260406083000 +0000",
+    "stop": "20260406090000 +0000",
     "startTs": 1775464200000,
     "stopTs": 1775466000000,
     "title": "Turban Tadka",
     "desc": "Chef Harpal Singh Sokhi prepares a variety of traditional and innovative dishes. S05 E75.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098954"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260406090000 +0000",
+    "stop": "20260406093000 +0000",
     "startTs": 1775466000000,
     "stopTs": 1775467800000,
     "title": "Tea Time",
     "desc": "Chef Rakesh Sethi shares a variety of delicious teatime snacks' recipes. S01 E58.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098925"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260406093000 +0000",
+    "stop": "20260406100000 +0000",
     "startTs": 1775467800000,
     "stopTs": 1775469600000,
     "title": "Mummy Ka Magic",
     "desc": "The host shares mouth-watering and healthy recipes for children and adults. S09 E07.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098942"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260406100000 +0000",
+    "stop": "20260406103000 +0000",
     "startTs": 1775469600000,
     "stopTs": 1775471400000,
     "title": "Cook Smart",
     "desc": "Renowned Indian chef Sanjeev Kapoor prepares a wide variety of delicious healthy dishes. S02 E71.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098937"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260406103000 +0000",
+    "stop": "20260406110000 +0000",
     "startTs": 1775471400000,
     "stopTs": 1775473200000,
     "title": "Hi Tea",
     "desc": "A chef shares recipes for a variety of effortless tea-time snacks. S01 E06.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098926"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260406110000 +0000",
+    "stop": "20260406113000 +0000",
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Turban Tadka",
     "desc": "Chef Harpal Singh Sokhi prepares a variety of traditional and innovative dishes. S05 E75.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098897"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "11:30",
-    "stop": "11:40",
+    "start": "20260406113000 +0000",
+    "stop": "20260406114000 +0000",
     "startTs": 1775475000000,
     "stopTs": 1775475600000,
     "title": "Mango Masti",
     "desc": "A chef explores various delicious recipes with mangoes as the key ingredient. S01 E04.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098932"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "11:40",
-    "stop": "11:50",
+    "start": "20260406114000 +0000",
+    "stop": "20260406115000 +0000",
     "startTs": 1775475600000,
     "stopTs": 1775476200000,
     "title": "Swad E Virasat",
     "desc": "The chef demonstrates how to prepare delicious dishes and nutritious recipes. S01 E12.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098952"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "11:50",
-    "stop": "12:00",
+    "start": "20260406115000 +0000",
+    "stop": "20260406120000 +0000",
     "startTs": 1775476200000,
     "stopTs": 1775476800000,
     "title": "Go Healthy",
     "desc": "The host and medical practitioners discuss a variety of topics pertaining to healthcare. S01 E36.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098928"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260406120000 +0000",
+    "stop": "20260406123000 +0000",
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "SK Kitchen",
     "desc": "From traditional dishes to modern fusion, a culinary expert shares cooking tips. S01 E44.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098898"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "12:30",
-    "stop": "12:40",
+    "start": "20260406123000 +0000",
+    "stop": "20260406124000 +0000",
     "startTs": 1775478600000,
     "stopTs": 1775479200000,
     "title": "Dairy Delights",
     "desc": "Bringing the best in television. S01 E01.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098901"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "12:40",
-    "stop": "12:50",
+    "start": "20260406124000 +0000",
+    "stop": "20260406125000 +0000",
     "startTs": 1775479200000,
     "stopTs": 1775479800000,
     "title": "Sizzling Dal",
     "desc": "A culinary expert showcases an array of mouthwatering Indian 'dal' recipes. S01 E04.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098913"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "12:50",
-    "stop": "13:00",
+    "start": "20260406125000 +0000",
+    "stop": "20260406130000 +0000",
     "startTs": 1775479800000,
     "stopTs": 1775480400000,
     "title": "Go Healthy",
     "desc": "The host and medical practitioners discuss a variety of topics pertaining to healthcare. S01 E36.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098930"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260406130000 +0000",
+    "stop": "20260406133000 +0000",
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Hi Tea",
     "desc": "A chef shares recipes for a variety of effortless tea-time snacks. S01 E06.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098902"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "13:30",
-    "stop": "13:40",
+    "start": "20260406133000 +0000",
+    "stop": "20260406134000 +0000",
     "startTs": 1775482200000,
     "stopTs": 1775482800000,
     "title": "Mango Masti",
     "desc": "A chef explores various delicious recipes with mangoes as the key ingredient. S01 E04.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098939"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "13:40",
-    "stop": "13:50",
+    "start": "20260406134000 +0000",
+    "stop": "20260406135000 +0000",
     "startTs": 1775482800000,
     "stopTs": 1775483400000,
     "title": "Snack Time",
     "desc": "A chef presents a variety of evening snacks and explains how to prepare them. S01 E76.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098953"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "13:50",
-    "stop": "14:00",
+    "start": "20260406135000 +0000",
+    "stop": "20260406140000 +0000",
     "startTs": 1775483400000,
     "stopTs": 1775484000000,
     "title": "Dairy Delights",
     "desc": "Bringing the best in television. S01 E01.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098921"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260406140000 +0000",
+    "stop": "20260406143000 +0000",
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Turban Tadka",
     "desc": "Chef Harpal Singh Sokhi prepares a variety of traditional and innovative dishes. S05 E75.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098916"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260406143000 +0000",
+    "stop": "20260406150000 +0000",
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Mummy Ka Magic",
     "desc": "The host shares mouth-watering and healthy recipes for children and adults. S09 E07.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098893"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "15:00",
-    "stop": "15:10",
+    "start": "20260406150000 +0000",
+    "stop": "20260406151000 +0000",
     "startTs": 1775487600000,
     "stopTs": 1775488200000,
     "title": "Mango Masti",
     "desc": "A chef explores various delicious recipes with mangoes as the key ingredient. S01 E04.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098933"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "15:10",
-    "stop": "15:20",
+    "start": "20260406151000 +0000",
+    "stop": "20260406152000 +0000",
     "startTs": 1775488200000,
     "stopTs": 1775488800000,
     "title": "Snack Time",
     "desc": "A chef presents a variety of evening snacks and explains how to prepare them. S01 E76.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098923"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "15:20",
-    "stop": "15:30",
+    "start": "20260406152000 +0000",
+    "stop": "20260406153000 +0000",
     "startTs": 1775488800000,
     "stopTs": 1775489400000,
     "title": "Chef's Day Out",
     "desc": "A chef visits restaurants and cooks in various locations to learn and test their recipes. S01 E09.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098904"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260406153000 +0000",
+    "stop": "20260406160000 +0000",
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "SK Kitchen",
     "desc": "From traditional dishes to modern fusion, a culinary expert shares cooking tips. S01 E44.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098929"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260406160000 +0000",
+    "stop": "20260406163000 +0000",
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Turban Tadka",
     "desc": "Chef Harpal Singh Sokhi prepares a variety of traditional and innovative dishes. S05 E75.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098894"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "16:30",
-    "stop": "16:40",
+    "start": "20260406163000 +0000",
+    "stop": "20260406164000 +0000",
     "startTs": 1775493000000,
     "stopTs": 1775493600000,
     "title": "Dairy Delights",
     "desc": "Bringing the best in television. S01 E01.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098914"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "16:40",
-    "stop": "16:50",
+    "start": "20260406164000 +0000",
+    "stop": "20260406165000 +0000",
     "startTs": 1775493600000,
     "stopTs": 1775494200000,
     "title": "Chef's Day Out",
     "desc": "A chef visits restaurants and cooks in various locations to learn and test their recipes. S01 E09.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098949"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "16:50",
-    "stop": "17:00",
+    "start": "20260406165000 +0000",
+    "stop": "20260406170000 +0000",
     "startTs": 1775494200000,
     "stopTs": 1775494800000,
     "title": "Go Healthy",
     "desc": "The host and medical practitioners discuss a variety of topics pertaining to healthcare. S01 E36.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098938"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "17:00",
-    "stop": "17:10",
+    "start": "20260406170000 +0000",
+    "stop": "20260406171000 +0000",
     "startTs": 1775494800000,
     "stopTs": 1775495400000,
     "title": "Mango Masti",
     "desc": "A chef explores various delicious recipes with mangoes as the key ingredient. S01 E04.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098950"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "17:10",
-    "stop": "17:20",
+    "start": "20260406171000 +0000",
+    "stop": "20260406172000 +0000",
     "startTs": 1775495400000,
     "stopTs": 1775496000000,
     "title": "Snack Time",
     "desc": "A chef presents a variety of evening snacks and explains how to prepare them. S01 E76.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098917"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "17:20",
-    "stop": "17:30",
+    "start": "20260406172000 +0000",
+    "stop": "20260406173000 +0000",
     "startTs": 1775496000000,
     "stopTs": 1775496600000,
     "title": "Sizzling Dal",
     "desc": "A culinary expert showcases an array of mouthwatering Indian 'dal' recipes. S01 E04.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098895"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260406173000 +0000",
+    "stop": "20260406180000 +0000",
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Health Maange More",
     "desc": "Chef Vicky Ratnani prepares delectable Indian-based cuisines that are healthy in nature. S04 E01.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098944"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260406180000 +0000",
+    "stop": "20260406183000 +0000",
     "startTs": 1775498400000,
     "stopTs": 1775500200000,
     "title": "Cook Smart",
     "desc": "Renowned Indian chef Sanjeev Kapoor prepares a wide variety of delicious healthy dishes. S02 E71.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93098922"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260406183000 +0000",
+    "stop": "20260406190000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775502000000,
     "title": "Mummy Ka Magic",
     "desc": "The host shares mouth-watering and healthy recipes for children and adults. S09 E07.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136216"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "19:00",
-    "stop": "19:10",
+    "start": "20260406190000 +0000",
+    "stop": "20260406191000 +0000",
     "startTs": 1775502000000,
     "stopTs": 1775502600000,
     "title": "Chef's Day Out",
     "desc": "A chef visits restaurants and cooks in various locations to learn and test their recipes. S01 E09.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136227"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "19:10",
-    "stop": "19:20",
+    "start": "20260406191000 +0000",
+    "stop": "20260406192000 +0000",
     "startTs": 1775502600000,
     "stopTs": 1775503200000,
     "title": "Swad E Virasat",
     "desc": "The chef demonstrates how to prepare delicious dishes and nutritious recipes. S01 E12.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136219"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "19:20",
-    "stop": "19:30",
+    "start": "20260406192000 +0000",
+    "stop": "20260406193000 +0000",
     "startTs": 1775503200000,
     "stopTs": 1775503800000,
     "title": "Dairy Delights",
     "desc": "Bringing the best in television. S01 E01.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136228"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260406193000 +0000",
+    "stop": "20260406200000 +0000",
     "startTs": 1775503800000,
     "stopTs": 1775505600000,
     "title": "Tea Time",
     "desc": "Chef Rakesh Sethi shares a variety of delicious teatime snacks' recipes. S01 E06.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136225"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260406200000 +0000",
+    "stop": "20260406203000 +0000",
     "startTs": 1775505600000,
     "stopTs": 1775507400000,
     "title": "Firangi Tadka",
     "desc": "Chef Chinu simplifies international recipes by cooking them with everyday ingredients. S01 E09.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136241"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260406203000 +0000",
+    "stop": "20260406210000 +0000",
     "startTs": 1775507400000,
     "stopTs": 1775509200000,
     "title": "Turban Tadka",
     "desc": "Chef Harpal Singh Sokhi prepares a variety of traditional and innovative dishes. S05 E75.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136232"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260406210000 +0000",
+    "stop": "20260406213000 +0000",
     "startTs": 1775509200000,
     "stopTs": 1775511000000,
     "title": "Mummy Ka Magic",
     "desc": "The host shares mouth-watering and healthy recipes for children and adults. S09 E07.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136231"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260406213000 +0000",
+    "stop": "20260406220000 +0000",
     "startTs": 1775511000000,
     "stopTs": 1775512800000,
     "title": "Hi Tea",
     "desc": "A chef shares recipes for a variety of effortless tea-time snacks. S01 E06.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136248"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "22:00",
-    "stop": "22:10",
+    "start": "20260406220000 +0000",
+    "stop": "20260406221000 +0000",
     "startTs": 1775512800000,
     "stopTs": 1775513400000,
     "title": "Dairy Delights",
     "desc": "Bringing the best in television. S01 E01.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136220"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "22:10",
-    "stop": "22:20",
+    "start": "20260406221000 +0000",
+    "stop": "20260406222000 +0000",
     "startTs": 1775513400000,
     "stopTs": 1775514000000,
     "title": "Sizzling Dal",
     "desc": "A culinary expert showcases an array of mouthwatering Indian 'dal' recipes. S01 E04.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136237"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "22:20",
-    "stop": "22:30",
+    "start": "20260406222000 +0000",
+    "stop": "20260406223000 +0000",
     "startTs": 1775514000000,
     "stopTs": 1775514600000,
     "title": "Go Healthy",
     "desc": "The host and medical practitioners discuss a variety of topics pertaining to healthcare. S01 E36.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136251"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260406223000 +0000",
+    "stop": "20260406230000 +0000",
     "startTs": 1775514600000,
     "stopTs": 1775516400000,
     "title": "Hi Tea",
     "desc": "A chef shares recipes for a variety of effortless tea-time snacks. S01 E06.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136254"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260406230000 +0000",
+    "stop": "20260406233000 +0000",
     "startTs": 1775516400000,
     "stopTs": 1775518200000,
     "title": "Cook Smart",
     "desc": "Renowned Indian chef Sanjeev Kapoor prepares a wide variety of delicious healthy dishes. S02 E71.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136247"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260406233000 +0000",
+    "stop": "20260407000000 +0000",
     "startTs": 1775518200000,
     "stopTs": 1775520000000,
     "title": "Turban Tadka",
     "desc": "Chef Harpal Singh Sokhi prepares a variety of traditional and innovative dishes. S05 E75.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136221"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260407000000 +0000",
+    "stop": "20260407003000 +0000",
     "startTs": 1775520000000,
     "stopTs": 1775521800000,
     "title": "Health Maange More",
     "desc": "Chef Vicky Ratnani prepares delectable Indian-based cuisines that are healthy in nature. S04 E02.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136276"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260407003000 +0000",
+    "stop": "20260407010000 +0000",
     "startTs": 1775521800000,
     "stopTs": 1775523600000,
     "title": "Style Chef",
     "desc": "Chef Shailendra prepares various delicious dishes using commonly found Indian ingredients. S04 E13.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136268"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260407010000 +0000",
+    "stop": "20260407013000 +0000",
     "startTs": 1775523600000,
     "stopTs": 1775525400000,
     "title": "Health Maange More",
     "desc": "Chef Vicky Ratnani prepares delectable Indian-based cuisines that are healthy in nature. S04 E02.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136224"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260407013000 +0000",
+    "stop": "20260407020000 +0000",
     "startTs": 1775525400000,
     "stopTs": 1775527200000,
     "title": "Sunny Side Up",
     "desc": "The host brings a creative twist to brunch classics with lively conversations and flair. S01 E12.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136246"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260407020000 +0000",
+    "stop": "20260407023000 +0000",
     "startTs": 1775527200000,
     "stopTs": 1775529000000,
     "title": "Firangi Tadka",
     "desc": "Chef Chinu simplifies international recipes by cooking them with everyday ingredients. S01 E10.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136233"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260407023000 +0000",
+    "stop": "20260407030000 +0000",
     "startTs": 1775529000000,
     "stopTs": 1775530800000,
     "title": "Cook Smart",
     "desc": "Renowned Indian chef Sanjeev Kapoor prepares a wide variety of delicious healthy dishes. S02 E73.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136257"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260407030000 +0000",
+    "stop": "20260407033000 +0000",
     "startTs": 1775530800000,
     "stopTs": 1775532600000,
     "title": "Style Chef",
     "desc": "Chef Shailendra prepares various delicious dishes using commonly found Indian ingredients. S04 E13.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136239"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260407033000 +0000",
+    "stop": "20260407040000 +0000",
     "startTs": 1775532600000,
     "stopTs": 1775534400000,
     "title": "Sunny Side Up",
     "desc": "The host brings a creative twist to brunch classics with lively conversations and flair. S01 E12.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136259"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260407040000 +0000",
+    "stop": "20260407043000 +0000",
     "startTs": 1775534400000,
     "stopTs": 1775536200000,
     "title": "Tea Time",
     "desc": "Chef Rakesh Sethi shares a variety of delicious teatime snacks' recipes. S01 E07.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136262"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260407043000 +0000",
+    "stop": "20260407050000 +0000",
     "startTs": 1775536200000,
     "stopTs": 1775538000000,
     "title": "Firangi Tadka",
     "desc": "Chef Chinu simplifies international recipes by cooking them with everyday ingredients. S01 E10.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136279"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "05:00",
-    "stop": "05:10",
+    "start": "20260407050000 +0000",
+    "stop": "20260407051000 +0000",
     "startTs": 1775538000000,
     "stopTs": 1775538600000,
     "title": "Sizzling Dal",
     "desc": "A culinary expert showcases an array of mouthwatering Indian 'dal' recipes. S01 E05.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136265"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "05:10",
-    "stop": "05:20",
+    "start": "20260407051000 +0000",
+    "stop": "20260407052000 +0000",
     "startTs": 1775538600000,
     "stopTs": 1775539200000,
     "title": "Chef's Day Out",
     "desc": "A chef visits restaurants and cooks in various locations to learn and test their recipes. S01 E10.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136260"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "05:20",
-    "stop": "05:30",
+    "start": "20260407052000 +0000",
+    "stop": "20260407053000 +0000",
     "startTs": 1775539200000,
     "stopTs": 1775539800000,
     "title": "Health Table",
     "desc": "The host prepares healthy dishes and shares their recipes with the viewers. S01 E03.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136272"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260407053000 +0000",
+    "stop": "20260407060000 +0000",
     "startTs": 1775539800000,
     "stopTs": 1775541600000,
     "title": "Tea Time",
     "desc": "Chef Rakesh Sethi shares a variety of delicious teatime snacks' recipes. S01 E07.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136242"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260407060000 +0000",
+    "stop": "20260407063000 +0000",
     "startTs": 1775541600000,
     "stopTs": 1775543400000,
     "title": "Firangi Tadka",
     "desc": "Chef Chinu simplifies international recipes by cooking them with everyday ingredients. S01 E10.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136255"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260407063000 +0000",
+    "stop": "20260407070000 +0000",
     "startTs": 1775543400000,
     "stopTs": 1775545200000,
     "title": "Mummy Ka Magic",
     "desc": "The host shares mouth-watering and healthy recipes for children and adults. S09 E08.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136249"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "07:00",
-    "stop": "07:10",
+    "start": "20260407070000 +0000",
+    "stop": "20260407071000 +0000",
     "startTs": 1775545200000,
     "stopTs": 1775545800000,
     "title": "Chef's Day Out",
     "desc": "A chef visits restaurants and cooks in various locations to learn and test their recipes. S01 E10.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136273"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "07:10",
-    "stop": "07:20",
+    "start": "20260407071000 +0000",
+    "stop": "20260407072000 +0000",
     "startTs": 1775545800000,
     "stopTs": 1775546400000,
     "title": "Family Food Tales",
     "desc": "A professional chef prepares a series of scrumptious delicacies and shares recipes. S03 E10.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136244"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "07:20",
-    "stop": "07:30",
+    "start": "20260407072000 +0000",
+    "stop": "20260407073000 +0000",
     "startTs": 1775546400000,
     "stopTs": 1775547000000,
     "title": "Dairy Delights",
     "desc": "Bringing the best in television. S01 E02.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136223"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260407073000 +0000",
+    "stop": "20260407080000 +0000",
     "startTs": 1775547000000,
     "stopTs": 1775548800000,
     "title": "Cook Smart",
     "desc": "Renowned Indian chef Sanjeev Kapoor prepares a wide variety of delicious healthy dishes. S02 E73.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136281"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260407080000 +0000",
+    "stop": "20260407083000 +0000",
     "startTs": 1775548800000,
     "stopTs": 1775550600000,
     "title": "SK Kitchen",
     "desc": "From traditional dishes to modern fusion, a culinary expert shares cooking tips. S01 E45.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136266"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260407083000 +0000",
+    "stop": "20260407090000 +0000",
     "startTs": 1775550600000,
     "stopTs": 1775552400000,
     "title": "Turban Tadka",
     "desc": "Chef Harpal Singh Sokhi prepares a variety of traditional and innovative dishes. S05 E76.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136250"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260407090000 +0000",
+    "stop": "20260407093000 +0000",
     "startTs": 1775552400000,
     "stopTs": 1775554200000,
     "title": "Tea Time",
     "desc": "Chef Rakesh Sethi shares a variety of delicious teatime snacks' recipes. S01 E59.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136278"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260407093000 +0000",
+    "stop": "20260407100000 +0000",
     "startTs": 1775554200000,
     "stopTs": 1775556000000,
     "title": "Mummy Ka Magic",
     "desc": "The host shares mouth-watering and healthy recipes for children and adults. S09 E08.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136234"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260407100000 +0000",
+    "stop": "20260407103000 +0000",
     "startTs": 1775556000000,
     "stopTs": 1775557800000,
     "title": "Cook Smart",
     "desc": "Renowned Indian chef Sanjeev Kapoor prepares a wide variety of delicious healthy dishes. S02 E73.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136277"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260407103000 +0000",
+    "stop": "20260407110000 +0000",
     "startTs": 1775557800000,
     "stopTs": 1775559600000,
     "title": "Hi Tea",
     "desc": "A chef shares recipes for a variety of effortless tea-time snacks. S01 E07.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136274"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260407110000 +0000",
+    "stop": "20260407113000 +0000",
     "startTs": 1775559600000,
     "stopTs": 1775561400000,
     "title": "Turban Tadka",
     "desc": "Chef Harpal Singh Sokhi prepares a variety of traditional and innovative dishes. S05 E76.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136245"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "11:30",
-    "stop": "11:40",
+    "start": "20260407113000 +0000",
+    "stop": "20260407114000 +0000",
     "startTs": 1775561400000,
     "stopTs": 1775562000000,
     "title": "Mango Masti",
     "desc": "A chef explores various delicious recipes with mangoes as the key ingredient. S01 E05.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136280"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "11:40",
-    "stop": "11:50",
+    "start": "20260407114000 +0000",
+    "stop": "20260407115000 +0000",
     "startTs": 1775562000000,
     "stopTs": 1775562600000,
     "title": "Great Recipes - Great Chef",
     "desc": "Renowned chefs teach the viewers how to prepare various recipes in a simple way. S01 E01.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136238"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "11:50",
-    "stop": "12:00",
+    "start": "20260407115000 +0000",
+    "stop": "20260407120000 +0000",
     "startTs": 1775562600000,
     "stopTs": 1775563200000,
     "title": "Go Healthy",
     "desc": "The host and medical practitioners discuss a variety of topics pertaining to healthcare. S01 E37.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136240"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260407120000 +0000",
+    "stop": "20260407123000 +0000",
     "startTs": 1775563200000,
     "stopTs": 1775565000000,
     "title": "SK Kitchen",
     "desc": "From traditional dishes to modern fusion, a culinary expert shares cooking tips. S01 E45.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136230"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "12:30",
-    "stop": "12:40",
+    "start": "20260407123000 +0000",
+    "stop": "20260407124000 +0000",
     "startTs": 1775565000000,
     "stopTs": 1775565600000,
     "title": "Dairy Delights",
     "desc": "Bringing the best in television. S01 E02.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136218"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "12:40",
-    "stop": "12:50",
+    "start": "20260407124000 +0000",
+    "stop": "20260407125000 +0000",
     "startTs": 1775565600000,
     "stopTs": 1775566200000,
     "title": "Sizzling Dal",
     "desc": "A culinary expert showcases an array of mouthwatering Indian 'dal' recipes. S01 E05.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136258"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "12:50",
-    "stop": "13:00",
+    "start": "20260407125000 +0000",
+    "stop": "20260407130000 +0000",
     "startTs": 1775566200000,
     "stopTs": 1775566800000,
     "title": "Go Healthy",
     "desc": "The host and medical practitioners discuss a variety of topics pertaining to healthcare. S01 E37.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136243"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260407130000 +0000",
+    "stop": "20260407133000 +0000",
     "startTs": 1775566800000,
     "stopTs": 1775568600000,
     "title": "Hi Tea",
     "desc": "A chef shares recipes for a variety of effortless tea-time snacks. S01 E07.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136229"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "13:30",
-    "stop": "13:40",
+    "start": "20260407133000 +0000",
+    "stop": "20260407134000 +0000",
     "startTs": 1775568600000,
     "stopTs": 1775569200000,
     "title": "Mango Masti",
     "desc": "A chef explores various delicious recipes with mangoes as the key ingredient. S01 E05.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136275"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "13:40",
-    "stop": "13:50",
+    "start": "20260407134000 +0000",
+    "stop": "20260407135000 +0000",
     "startTs": 1775569200000,
     "stopTs": 1775569800000,
     "title": "Snack Time",
     "desc": "A chef presents a variety of evening snacks and explains how to prepare them. S01 E79.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136261"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "13:50",
-    "stop": "14:00",
+    "start": "20260407135000 +0000",
+    "stop": "20260407140000 +0000",
     "startTs": 1775569800000,
     "stopTs": 1775570400000,
     "title": "Dairy Delights",
     "desc": "Bringing the best in television. S01 E02.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136222"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260407140000 +0000",
+    "stop": "20260407143000 +0000",
     "startTs": 1775570400000,
     "stopTs": 1775572200000,
     "title": "Turban Tadka",
     "desc": "Chef Harpal Singh Sokhi prepares a variety of traditional and innovative dishes. S05 E76.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136252"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260407143000 +0000",
+    "stop": "20260407150000 +0000",
     "startTs": 1775572200000,
     "stopTs": 1775574000000,
     "title": "Mummy Ka Magic",
     "desc": "The host shares mouth-watering and healthy recipes for children and adults. S09 E08.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136235"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "15:00",
-    "stop": "15:10",
+    "start": "20260407150000 +0000",
+    "stop": "20260407151000 +0000",
     "startTs": 1775574000000,
     "stopTs": 1775574600000,
     "title": "Mango Masti",
     "desc": "A chef explores various delicious recipes with mangoes as the key ingredient. S01 E05.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136270"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "15:10",
-    "stop": "15:20",
+    "start": "20260407151000 +0000",
+    "stop": "20260407152000 +0000",
     "startTs": 1775574600000,
     "stopTs": 1775575200000,
     "title": "Snack Time",
     "desc": "A chef presents a variety of evening snacks and explains how to prepare them. S01 E79.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136282"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "15:20",
-    "stop": "15:30",
+    "start": "20260407152000 +0000",
+    "stop": "20260407153000 +0000",
     "startTs": 1775575200000,
     "stopTs": 1775575800000,
     "title": "Chef's Day Out",
     "desc": "A chef visits restaurants and cooks in various locations to learn and test their recipes. S01 E10.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136271"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260407153000 +0000",
+    "stop": "20260407160000 +0000",
     "startTs": 1775575800000,
     "stopTs": 1775577600000,
     "title": "SK Kitchen",
     "desc": "From traditional dishes to modern fusion, a culinary expert shares cooking tips. S01 E45.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136263"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260407160000 +0000",
+    "stop": "20260407163000 +0000",
     "startTs": 1775577600000,
     "stopTs": 1775579400000,
     "title": "Turban Tadka",
     "desc": "Chef Harpal Singh Sokhi prepares a variety of traditional and innovative dishes. S05 E76.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136236"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "16:30",
-    "stop": "16:40",
+    "start": "20260407163000 +0000",
+    "stop": "20260407164000 +0000",
     "startTs": 1775579400000,
     "stopTs": 1775580000000,
     "title": "Dairy Delights",
     "desc": "Bringing the best in television. S01 E02.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136226"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "16:40",
-    "stop": "16:50",
+    "start": "20260407164000 +0000",
+    "stop": "20260407165000 +0000",
     "startTs": 1775580000000,
     "stopTs": 1775580600000,
     "title": "Chef's Day Out",
     "desc": "A chef visits restaurants and cooks in various locations to learn and test their recipes. S01 E10.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136256"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "16:50",
-    "stop": "17:00",
+    "start": "20260407165000 +0000",
+    "stop": "20260407170000 +0000",
     "startTs": 1775580600000,
     "stopTs": 1775581200000,
     "title": "Go Healthy",
     "desc": "The host and medical practitioners discuss a variety of topics pertaining to healthcare. S01 E37.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136267"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "17:00",
-    "stop": "17:10",
+    "start": "20260407170000 +0000",
+    "stop": "20260407171000 +0000",
     "startTs": 1775581200000,
     "stopTs": 1775581800000,
     "title": "Mango Masti",
     "desc": "A chef explores various delicious recipes with mangoes as the key ingredient. S01 E05.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136269"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "17:10",
-    "stop": "17:20",
+    "start": "20260407171000 +0000",
+    "stop": "20260407172000 +0000",
     "startTs": 1775581800000,
     "stopTs": 1775582400000,
     "title": "Snack Time",
     "desc": "A chef presents a variety of evening snacks and explains how to prepare them. S01 E79.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136264"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "17:20",
-    "stop": "17:30",
+    "start": "20260407172000 +0000",
+    "stop": "20260407173000 +0000",
     "startTs": 1775582400000,
     "stopTs": 1775583000000,
     "title": "Sizzling Dal",
     "desc": "A culinary expert showcases an array of mouthwatering Indian 'dal' recipes. S01 E05.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136283"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260407173000 +0000",
+    "stop": "20260407180000 +0000",
     "startTs": 1775583000000,
     "stopTs": 1775584800000,
     "title": "Health Maange More",
     "desc": "Chef Vicky Ratnani prepares delectable Indian-based cuisines that are healthy in nature. S04 E02.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136217"
   },
   {
     "channelId": "ts117",
     "channelName": "Food Food",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260407180000 +0000",
+    "stop": "20260407183000 +0000",
     "startTs": 1775584800000,
     "stopTs": 1775586600000,
     "title": "Cook Smart",
     "desc": "Renowned Indian chef Sanjeev Kapoor prepares a wide variety of delicious healthy dishes. S02 E73.",
-    "category": null
+    "channel": "ts117",
+    "catchup-id": "93136253"
   }
 ]

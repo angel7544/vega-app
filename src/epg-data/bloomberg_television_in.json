@@ -2,408 +2,445 @@
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260404183000 +0000",
+    "stop": "20260404190000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775329200000,
     "title": "Bloomberg Primer",
     "desc": "The host sheds light on the cutting-edge technology and scientific innovations.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062717"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260404190000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775329200000,
     "stopTs": 1775331000000,
     "title": "Bloomberg Primer",
     "desc": "Take a look at the electrified aircraft designs that are attracting global investment.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062725"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260404193000 +0000",
+    "stop": "20260404200000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775332800000,
     "title": "Bloomberg Primer",
     "desc": "Governments and entrepreneurs are in a race to commercialise the moon.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062694"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "20:00",
-    "stop": "21:00",
+    "start": "20260404200000 +0000",
+    "stop": "20260404210000 +0000",
     "startTs": 1775332800000,
     "stopTs": 1775336400000,
     "title": "Bloomberg Investigates",
     "desc": "The Iranian shadow fleet deals with oil and weapons worth billions of dollars.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062712"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260404210000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775336400000,
     "stopTs": 1775338200000,
     "title": "HSBC CEO Georges Elhedery on Leadership, AI and the Future of Global",
     "desc": "HSBC CEO Georges Elhedery reflects on leadership, integrity and cultural fluency, and shares how HSBC is adapting to geopolitical tensions, shifting trade routes and the rapid rise of. S01 E02.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062720"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260404213000 +0000",
+    "stop": "20260404220000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775340000000,
     "title": "The Circuit",
     "desc": "Emily talks with Reese Witherspoon about Hello Sunshine's goals and Hollywood's future.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062695"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260404220000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775340000000,
     "stopTs": 1775341800000,
     "title": "The Mishal Husain Show",
     "desc": "A respected journalist engages with global leaders and experts on key issues.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062708"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260404223000 +0000",
+    "stop": "20260404230000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775343600000,
     "title": "The Mishal Husain Show",
     "desc": "A respected journalist engages with global leaders and experts on key issues.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062715"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260404230000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775343600000,
     "stopTs": 1775345400000,
     "title": "Bloomberg Investigates",
     "desc": "The members of MACC have been accused of the very wrongdoing they were meant to stop.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062698"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260404233000 +0000",
+    "stop": "20260405000000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775347200000,
     "title": "LEADERS With Francine Lacqua",
     "desc": "An anchor sits down with the decision-makers shaping our future to explore their stories. S01 E06.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062707"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260405000000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775347200000,
     "stopTs": 1775349000000,
     "title": "Best of Bloomberg Invest 2026",
     "desc": "A look into the Bloomberg Invest where finance experts shed light on asset management.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062721"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260405003000 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775350800000,
     "title": "Bloomberg Investigates",
     "desc": "China's spy agency approached an engineer with an offer, changing his life trajectory.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062710"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260405010000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775352600000,
     "title": "Bloomberg Originals",
     "desc": "Experts invite curious minds to discuss some of the most impactful variety of topics.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062705"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260405013000 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775354400000,
     "title": "Posthuman",
     "desc": "The host interacts with advanced robots and explores the implications of technology.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062713"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260405020000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775356200000,
     "title": "Bloomberg Tech: Asia",
     "desc": "The presenter shows new Asian tech on Bloomberg, highlighting ideas changing daily life.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062700"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260405023000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775358000000,
     "title": "Best of the Bloomberg Women, Money & Power Event",
     "desc": "The host invites influential women to discuss the future of business.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062714"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "Bloomberg New Economy: Thriving In An Age Of Extremes",
     "desc": "The host engages in conversations with guests about navigating economic uncertainty.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062722"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "Bloomberg Screentime: The Business of Pop Culture",
     "desc": "The guests discuss AI's creative impact, streaming competition and legacy media's future.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062718"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "Bloomberg Originals",
     "desc": "Experts invite curious minds to discuss some of the most impactful variety of topics.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062711"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260405043000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775365200000,
     "title": "LEADERS With Francine Lacqua",
     "desc": "Francine Lacqua speaks to Christine Lagarde about Europe's economic fragility and more. S01.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062716"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "05:00",
-    "stop": "06:00",
+    "start": "20260405050000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775368800000,
     "title": "Businessweek Convenes: Black Leaders Face the DEI Backlash",
     "desc": "Black business leaders like Ursula Burns discuss the impact of DEI rollbacks across US.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062723"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260405060000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370600000,
     "title": "Posthuman",
     "desc": "Emily Chang explores the technologies powering a market of relationships-on-demand.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062726"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260405063000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775372400000,
     "title": "The Mishal Husain Show",
     "desc": "A respected journalist engages with global leaders and experts on key issues.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062727"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "HSBC CEO Georges Elhedery on Leadership, AI and the Future of Global",
     "desc": "HSBC CEO Georges Elhedery reflects on leadership, integrity and cultural fluency, and shares how HSBC is adapting to geopolitical tensions, shifting trade routes and the rapid rise of. S01 E02.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062702"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260405073000 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775376000000,
     "title": "Best of the Bloomberg Women, Money & Power Event",
     "desc": "The host invites influential women to discuss the future of business.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062706"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "08:00",
-    "stop": "09:00",
+    "start": "20260405080000 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775379600000,
     "title": "Bloomberg Wall Street Week",
     "desc": "The host talks to experts about the week's biggest ups and downs on Wall Street.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062697"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260405090000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775381400000,
     "title": "Best of Bloomberg Invest 2026",
     "desc": "A look into the Bloomberg Invest where finance experts shed light on asset management.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062709"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260405093000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775383200000,
     "title": "Beyond Innovation",
     "desc": "The latest technologies are explored, highlighting their impact on lifestyle.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062719"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "10:00",
-    "stop": "11:00",
+    "start": "20260405100000 +0000",
+    "stop": "20260405110000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775386800000,
     "title": "Bloomberg Wall Street Week",
     "desc": "The host talks to experts about the week's biggest ups and downs on Wall Street.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062703"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "11:00",
-    "stop": "14:00",
+    "start": "20260405110000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775386800000,
     "stopTs": 1775397600000,
     "title": "Bloomberg This Weekend",
     "desc": "The presenters elucidate and contextualise major news stories.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062704"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "The Mishal Husain Show",
     "desc": "A respected journalist engages with global leaders and experts on key issues.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062699"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775401200000,
     "title": "The David Rubenstein Show",
     "desc": "The host converses with businessmen to learn about their experiences and achievements. S11 E19.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062701"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "15:00",
-    "stop": "16:00",
+    "start": "20260405150000 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775404800000,
     "title": "The Circuit",
     "desc": "Emily Chang interviews the Newsoms, exploring their lives and vision for California.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062693"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "16:00",
-    "stop": "17:00",
+    "start": "20260405160000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775408400000,
     "title": "Bloomberg Wall Street Week",
     "desc": "The host talks to experts about the week's biggest ups and downs on Wall Street.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062696"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "The David Rubenstein Show",
     "desc": "The host converses with businessmen to learn about their experiences and achievements. S11 E19.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062691"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260405173000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775412000000,
     "title": "Best of Bloomberg Invest 2026",
     "desc": "A look into the Bloomberg Invest where finance experts shed light on asset management.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062692"
   },
   {
     "channelId": "ts1136",
     "channelName": "Bloomberg Television",
-    "start": "18:00",
-    "stop": "19:00",
+    "start": "20260405180000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775415600000,
     "title": "Businessweek Convenes: Black Leaders Face the DEI Backlash",
     "desc": "Black business leaders like Ursula Burns discuss the impact of DEI rollbacks across US.",
-    "category": null
+    "channel": "ts1136",
+    "catchup-id": "93062724"
   }
 ]

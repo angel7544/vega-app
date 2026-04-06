@@ -2,430 +2,469 @@
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "18:30",
-    "stop": "19:15",
+    "start": "20260404183000 +0000",
+    "stop": "20260404191500 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775330100000,
     "title": "Counter Point",
     "desc": "The host discusses various current issues with experts in different fields.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067248"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "19:15",
-    "stop": "20:05",
+    "start": "20260404191500 +0000",
+    "stop": "20260404200500 +0000",
     "startTs": 1775330100000,
     "stopTs": 1775333100000,
     "title": "Law & Order",
     "desc": "The host delves into major court rulings and legal controversies shaping society.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067237"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "20:05",
-    "stop": "20:30",
+    "start": "20260404200500 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775333100000,
     "stopTs": 1775334600000,
     "title": "News Tonight",
     "desc": "The host presents a compilation of the latest news pertaining to the Gulf countries.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067235"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "20:30",
-    "stop": "20:55",
+    "start": "20260404203000 +0000",
+    "stop": "20260404205500 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775336100000,
     "title": "Kuttapathram",
     "desc": "The host presents updates on sensational criminal cases, providing a deeper look.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067253"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "20:55",
-    "stop": "21:20",
+    "start": "20260404205500 +0000",
+    "stop": "20260404212000 +0000",
     "startTs": 1775336100000,
     "stopTs": 1775337600000,
     "title": "Law & Order",
     "desc": "The host delves into major court rulings and legal controversies shaping society.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067238"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "21:20",
-    "stop": "21:45",
+    "start": "20260404212000 +0000",
+    "stop": "20260404214500 +0000",
     "startTs": 1775337600000,
     "stopTs": 1775339100000,
     "title": "News Tonight",
     "desc": "The host presents a compilation of the latest news pertaining to the Gulf countries.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067259"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "21:45",
-    "stop": "22:30",
+    "start": "20260404214500 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775339100000,
     "stopTs": 1775341800000,
     "title": "Counter Point",
     "desc": "The host discusses various current issues with experts in different fields.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067247"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "22:30",
-    "stop": "22:55",
+    "start": "20260404223000 +0000",
+    "stop": "20260404225500 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775343300000,
     "title": "Law & Order",
     "desc": "The host delves into major court rulings and legal controversies shaping society.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067228"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "22:55",
-    "stop": "23:20",
+    "start": "20260404225500 +0000",
+    "stop": "20260404232000 +0000",
     "startTs": 1775343300000,
     "stopTs": 1775344800000,
     "title": "Parayathe Vayya",
     "desc": "The host presents in detail the lesser known facts on pressing socio-political matters. S01 E365.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067249"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "23:20",
-    "stop": "23:45",
+    "start": "20260404232000 +0000",
+    "stop": "20260404234500 +0000",
     "startTs": 1775344800000,
     "stopTs": 1775346300000,
     "title": "Kuttapathram",
     "desc": "The host presents updates on sensational criminal cases, providing a deeper look.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067261"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "23:45",
-    "stop": "00:30",
+    "start": "20260404234500 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775346300000,
     "stopTs": 1775349000000,
     "title": "Counter Point",
     "desc": "The host discusses various current issues with experts in different fields.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067232"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260405003000 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775350800000,
     "title": "6 AM News",
     "desc": "The host presents the latest updates on various social, economic and political issues.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067236"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260405010000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775352600000,
     "title": "Nattu Vartha",
     "desc": "The host highlights pressing local matters with stories from the ground.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067250"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "01:30",
-    "stop": "03:00",
+    "start": "20260405013000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775358000000,
     "title": "Hello Keralam",
     "desc": "The host presents information about the social, economic and political issues.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067227"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "Nattu Vartha",
     "desc": "The host highlights pressing local matters with stories from the ground.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067246"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "03:30",
-    "stop": "04:30",
+    "start": "20260405033000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775363400000,
     "title": "News Break",
     "desc": ".",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067244"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "04:30",
-    "stop": "05:30",
+    "start": "20260405043000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775367000000,
     "title": "News Break",
     "desc": ".",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067255"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "05:30",
-    "stop": "06:30",
+    "start": "20260405053000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775370600000,
     "title": "News Break",
     "desc": ".",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067231"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "06:30",
-    "stop": "07:30",
+    "start": "20260405063000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775374200000,
     "title": "News Break",
     "desc": ".",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067233"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260405073000 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775376000000,
     "title": "Orumani Vaartha",
     "desc": "The host presents the latest social, political and economic news updates.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067226"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260405080000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775377800000,
     "title": "Nattu Vartha",
     "desc": "The host highlights pressing local matters with stories from the ground.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067225"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260405083000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775381400000,
     "title": "Vote Kavala",
     "desc": "The host holds open discussions between the public and their elected representatives.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067240"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260405093000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775383200000,
     "title": "3 PM News",
     "desc": "The host discusses the latest socio-economic and political news, updates and developments.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067243"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260405100000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775385000000,
     "title": "News Update",
     "desc": "A reporter provides updates on events, developments and happenings around the world.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067230"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "10:30",
-    "stop": "11:30",
+    "start": "20260405103000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775388600000,
     "title": "4 PM News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067229"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260405113000 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775390400000,
     "title": "5 PM News",
     "desc": "The host discusses the latest socio-economic and political news, updates and developments.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067245"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "Votes App News",
     "desc": ". S01 E20.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067251"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260405123000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775394000000,
     "title": "Sandhya Vartha",
     "desc": "The host presents the latest updates pertaining to the current affairs of the day.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067260"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260405130000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395800000,
     "title": "Nattu Vartha",
     "desc": "The host highlights pressing local matters with stories from the ground.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067254"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260405133000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775397600000,
     "title": "Ningal Parayu",
     "desc": "The public voice opinions on social matters via on-camera interviews, calls and messages.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067258"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "Law & Order",
     "desc": "The host delves into major court rulings and legal controversies shaping society.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067242"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "14:30",
-    "stop": "15:30",
+    "start": "20260405143000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775403000000,
     "title": "Counter Point",
     "desc": "The host discusses various current issues with experts in different fields.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067241"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "15:30",
-    "stop": "16:30",
+    "start": "20260405153000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775406600000,
     "title": "Vote Kavala",
     "desc": "The host holds open discussions between the public and their elected representatives.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067239"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "Kuttapathram",
     "desc": "The host presents updates on sensational criminal cases, providing a deeper look.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067234"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "Innu Nadannathu",
     "desc": "The host presents information on issues of the day and provides updates on current events.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067256"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260405173000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775412000000,
     "title": "News Tonight",
     "desc": "The host presents a compilation of the latest news pertaining to the Gulf countries.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067252"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260405180000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775413800000,
     "title": "Vote Kavala",
     "desc": "The host holds open discussions between the public and their elected representatives.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93067257"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "18:30",
-    "stop": "19:15",
+    "start": "20260405183000 +0000",
+    "stop": "20260405191500 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775416500000,
     "title": "Counter Point",
     "desc": "The host discusses various current issues with experts in different fields.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93102506"
   },
   {
     "channelId": "ts87",
     "channelName": "Manorama News",
-    "start": "19:15",
-    "stop": "20:05",
+    "start": "20260405191500 +0000",
+    "stop": "20260405200500 +0000",
     "startTs": 1775416500000,
     "stopTs": 1775419500000,
     "title": "Law & Order",
     "desc": "The host delves into major court rulings and legal controversies shaping society.",
-    "category": null
+    "channel": "ts87",
+    "catchup-id": "93102495"
   }
 ]

@@ -2,562 +2,613 @@
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260404183000 +0000",
+    "stop": "20260404190000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775329200000,
     "title": "Adhigam Sthanantaran",
     "desc": "An expert delivers a lecture on the transfer of learning in a detailed fashion.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063423"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260404190000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775329200000,
     "stopTs": 1775331000000,
     "title": "Linear Search And Bubble Sort: Method And Complexity Analysis",
     "desc": "An expert expounds on linear search and bubble sort, along with their other aspects.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063432"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260404193000 +0000",
+    "stop": "20260404200000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775332800000,
     "title": "Panal Discussion On Machine Learning",
     "desc": "A panel of experts discuss and shed light on machine learning.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063419"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260404200000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775332800000,
     "stopTs": 1775334600000,
     "title": "History Of Hindustani Music From 13th To 18th Century",
     "desc": "An expert explains the history of Hindustani music from the 13th to 18th century.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063392"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260404203000 +0000",
+    "stop": "20260404210000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775336400000,
     "title": "Projects And Dissertation Of Master In Anthropology Programme",
     "desc": "An expert delivers a lecture on the projects and dissertation of masters In anthropology.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063436"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260404210000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775336400000,
     "stopTs": 1775338200000,
     "title": "SuchnaVisphot Ke Yug Me Bharat-Bodh Yavan Shikshan Ki Bhumika",
     "desc": "An expert explains the role of Indian education in the age of information explosion.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063435"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260404213000 +0000",
+    "stop": "20260404220000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775340000000,
     "title": "Cloud Service Delivery Models & Cloud Architecture",
     "desc": "An expert delivers a lecture on cloud service delivery models and cloud architecture.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063399"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260404220000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775340000000,
     "stopTs": 1775341800000,
     "title": "Community Participation In Curriculam Development",
     "desc": "An expert delivers a lecture on community participation in curriculum development.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063412"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260404223000 +0000",
+    "stop": "20260404230000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775343600000,
     "title": "Functional & System - Level Requirements",
     "desc": "A subject matter expert explains functional and system-level requirements.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063421"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260404230000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775343600000,
     "stopTs": 1775345400000,
     "title": "Indexing And Indexing Tools",
     "desc": "A subject-matter expert delivers a detailed lecture on indexing and indexing tools.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063427"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260404233000 +0000",
+    "stop": "20260405000000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775347200000,
     "title": "Hydrocarbon Source Rock",
     "desc": "A subject-matter expert delivers a detailed explanation on hydrocarbon source rocks.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063433"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260405000000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775347200000,
     "stopTs": 1775349000000,
     "title": "National Instruments Relating To Biodiversity Management",
     "desc": "An expert delivers a lecture on the sustainable management of biodiversity in detail.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063429"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260405003000 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775350800000,
     "title": "Text Retrieval Engines",
     "desc": "A subject matter expert explains text retrieval systems and their search algorithms.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063397"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260405010000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775352600000,
     "title": "Media Audience - Communicator's Prospective",
     "desc": "An expert delivers a lecture on media audiences from a communicator's perspective.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063405"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260405013000 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775354400000,
     "title": "Panal Discussion On Machine Learning",
     "desc": "A panel of experts discuss and shed light on machine learning.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063398"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260405020000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775356200000,
     "title": "History Of Hindustani Music From 13th To 18th Century",
     "desc": "An expert explains the history of Hindustani music from the 13th to 18th century.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063393"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260405023000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775358000000,
     "title": "Milk Testing Programmes Of SOCE",
     "desc": "A subject matter expert delivers a detailed lecture on milk testing programmes of SOCE.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063434"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "Anatomic Basic Of Echocardiography In Congenital Heart Disease",
     "desc": "An expert explains the anatomical basics of echocardiography in congenital heart disease.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063400"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "Gender And Migration",
     "desc": "A subject matter expert conducts a lecture to explain gender and migration.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063426"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "Tribal Language, Culture And Art",
     "desc": "A subject-matter expert explains tribal language, culture and art.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063420"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260405043000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775365200000,
     "title": "Korean Language Wovel",
     "desc": "A subject matter expert delivers a detailed lecture on the vowels of the Korean language.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063428"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775367000000,
     "title": "Subject Matter Of Trips Agreement",
     "desc": "An expert provides a lecture on scope and subject matter of TRIPS Agreement.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063408"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260405053000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775368800000,
     "title": "School Of Thoughts: Behaviourism",
     "desc": "A subject matter expert explores the core principles and impact of behaviourism.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063430"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260405060000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370600000,
     "title": "Basics Of Food Safety",
     "desc": "A subject-matter expert conducts an informative lecture on the basics of food safety.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063396"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260405063000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775372400000,
     "title": "Adhigam Sthanantaran",
     "desc": "An expert delivers a lecture on the transfer of learning in a detailed fashion.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063395"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "Linear Search And Bubble Sort: Method And Complexity Analysis",
     "desc": "An expert expounds on linear search and bubble sort, along with their other aspects.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063425"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260405073000 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775376000000,
     "title": "Panel Discussion On Machine Learning",
     "desc": "A subject-matter expert explains the topic of machine learning in a simple manner.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063409"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260405080000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775377800000,
     "title": "History Of Hindustani Music From 13th To 18th Century",
     "desc": "An expert explains the history of Hindustani music from the 13th to 18th century.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063414"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260405083000 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775379600000,
     "title": "Projects And Dissertation Of Master In Anthropology Programme",
     "desc": "An expert delivers a lecture on the projects and dissertation of masters In anthropology.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063402"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260405090000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775381400000,
     "title": "SuchnaVisphot Ke Yug Me Bharat-Bodh Yavan Shikshan Ki Bhumika",
     "desc": "An expert explains the role of Indian education in the age of information explosion.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063403"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260405093000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775383200000,
     "title": "Cloud Service Delivery Models & Cloud Architecture",
     "desc": "An expert delivers a lecture on cloud service delivery models and cloud architecture.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063410"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260405100000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775385000000,
     "title": "Community Participation In Curriculam Development",
     "desc": "An expert delivers a lecture on community participation in curriculum development.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063415"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260405103000 +0000",
+    "stop": "20260405110000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775386800000,
     "title": "Functional & System - Level Requirements",
     "desc": "A subject matter expert explains functional and system-level requirements.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063411"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260405110000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775386800000,
     "stopTs": 1775388600000,
     "title": "Indexing And Indexing Tools",
     "desc": "A subject-matter expert delivers a detailed lecture on indexing and indexing tools.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063394"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260405113000 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775390400000,
     "title": "Hydrocarbon Source Rock",
     "desc": "A subject-matter expert delivers a detailed explanation on hydrocarbon source rocks.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063439"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "National Instruments Relating To Biodiversity Management",
     "desc": "An expert delivers a lecture on the sustainable management of biodiversity in detail.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063404"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260405123000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775394000000,
     "title": "Text Retrieval Engines",
     "desc": "A subject matter expert explains text retrieval systems and their search algorithms.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063406"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260405130000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395800000,
     "title": "Media Audience - Communicator's Prospective",
     "desc": "An expert delivers a lecture on media audiences from a communicator's perspective.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063437"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260405133000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775397600000,
     "title": "Panal Discussion On Machine Learning",
     "desc": "A panel of experts discuss and shed light on machine learning.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063417"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "History Of Hindustani Music From 13th To 18th Century",
     "desc": "An expert explains the history of Hindustani music from the 13th to 18th century.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063401"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775401200000,
     "title": "Milk Testing Programmes Of SOCE",
     "desc": "A subject matter expert delivers a detailed lecture on milk testing programmes of SOCE.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063413"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "Anatomic Basic Of Echocardiography In Congenital Heart Disease",
     "desc": "An expert explains the anatomical basics of echocardiography in congenital heart disease.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063418"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260405153000 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775404800000,
     "title": "Gender And Migration",
     "desc": "A subject matter expert conducts a lecture to explain gender and migration.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063424"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260405160000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775406600000,
     "title": "Tribal Language, Culture And Art",
     "desc": "A subject-matter expert explains tribal language, culture and art.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063422"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "Korean Language Wovel",
     "desc": "A subject matter expert delivers a detailed lecture on the vowels of the Korean language.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063438"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "Subject Matter Of Trips Agreement",
     "desc": "An expert provides a lecture on scope and subject matter of TRIPS Agreement.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063416"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260405173000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775412000000,
     "title": "School Of Thoughts: Behaviourism",
     "desc": "A subject matter expert explores the core principles and impact of behaviourism.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063431"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260405180000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775413800000,
     "title": "Basics Of Food Safety",
     "desc": "A subject-matter expert conducts an informative lecture on the basics of food safety.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93063407"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260405183000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Care Of Dead Body",
     "desc": "An expert provides a detailed explanation on how to care for a dead body in the morgue.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93096326"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260405190000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Emergence Of Digital Media",
     "desc": "A subject matter expert elaborates on the emergence of digital media.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93096296"
   },
   {
     "channelId": "ts646",
     "channelName": "DD Gyan Darshan",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260405193000 +0000",
+    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Solid Waste Management Rules, 2016",
     "desc": "An expert delivers a detailed lecture on the Solid Waste Management Rules of 2016.",
-    "category": null
+    "channel": "ts646",
+    "catchup-id": "93096316"
   }
 ]

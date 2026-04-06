@@ -2,672 +2,733 @@
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "18:30",
-    "stop": "18:55",
+    "start": "20260404183000 +0000",
+    "stop": "20260404185500 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775328900000,
     "title": "Dr. Kumar",
     "desc": "A healthcare professional provides insights into treatments for various ailments.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059341"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "18:55",
-    "stop": "19:00",
+    "start": "20260404185500 +0000",
+    "stop": "20260404190000 +0000",
     "startTs": 1775328900000,
     "stopTs": 1775329200000,
     "title": "Advertisement and Promo",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059377"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "19:00",
-    "stop": "19:25",
+    "start": "20260404190000 +0000",
+    "stop": "20260404192500 +0000",
     "startTs": 1775329200000,
     "stopTs": 1775330700000,
     "title": "Frontline",
     "desc": "The host presents a detailed report on ongoing issues of national or international import.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059345"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "19:25",
-    "stop": "19:30",
+    "start": "20260404192500 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775330700000,
     "stopTs": 1775331000000,
     "title": "Advertisement and Promo",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059336"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260404193000 +0000",
+    "stop": "20260404200000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775332800000,
     "title": "One To One",
     "desc": "The host interviews eminent political personalities in an one-on-one interview.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059346"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "20:00",
-    "stop": "22:00",
+    "start": "20260404200000 +0000",
+    "stop": "20260404220000 +0000",
     "startTs": 1775332800000,
     "stopTs": 1775340000000,
     "title": "Gurbani Patna Sahib",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059364"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260404220000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775340000000,
     "stopTs": 1775341800000,
     "title": "Kla De Ang Sang",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059337"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260404223000 +0000",
+    "stop": "20260404230000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775343600000,
     "title": "Gurudham Yatra",
     "desc": "The host presents an update about a journey to a holy place.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059369"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "23:00",
-    "stop": "23:25",
+    "start": "20260404230000 +0000",
+    "stop": "20260404232500 +0000",
     "startTs": 1775343600000,
     "stopTs": 1775345100000,
     "title": "News Behind News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059378"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "23:25",
-    "stop": "23:30",
+    "start": "20260404232500 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775345100000,
     "stopTs": 1775345400000,
     "title": "Advertisement and Promo",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059347"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "23:30",
-    "stop": "23:55",
+    "start": "20260404233000 +0000",
+    "stop": "20260404235500 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775346900000,
     "title": "Global Podcast",
     "desc": "The hosts engage in insightful conversations with eminent personalities.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059362"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "23:55",
-    "stop": "00:00",
+    "start": "20260404235500 +0000",
+    "stop": "20260405000000 +0000",
     "startTs": 1775346900000,
     "stopTs": 1775347200000,
     "title": "Advertisement and Promo",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059355"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260405000000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775347200000,
     "stopTs": 1775349000000,
     "title": "Punjab News",
     "desc": "The host presents a roundup of the latest news from across the state and nation.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059342"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260405003000 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775350800000,
     "title": "Amne Samne",
     "desc": "The host updates the latest social and political updates from India and across the globe.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059371"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260405010000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775352600000,
     "title": "Clear Cut",
     "desc": "The host presents the latest news updates and developments from around the country.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059393"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "01:30",
-    "stop": "01:55",
+    "start": "20260405013000 +0000",
+    "stop": "20260405015500 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775354100000,
     "title": "Global Discussion",
     "desc": "The host sheds light on the latest news stories pertaining to various global issues.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059381"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "01:55",
-    "stop": "02:00",
+    "start": "20260405015500 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775354100000,
     "stopTs": 1775354400000,
     "title": "Advertisement and Promo",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059372"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "02:00",
-    "stop": "02:25",
+    "start": "20260405020000 +0000",
+    "stop": "20260405022500 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775355900000,
     "title": "One To One",
     "desc": "The host interviews eminent political personalities in an one-on-one interview.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059370"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "02:25",
-    "stop": "02:30",
+    "start": "20260405022500 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775355900000,
     "stopTs": 1775356200000,
     "title": "Advertisement and Promo",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059386"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "02:30",
-    "stop": "02:55",
+    "start": "20260405023000 +0000",
+    "stop": "20260405025500 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775357700000,
     "title": "Australia Dairy",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059395"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "02:55",
-    "stop": "03:00",
+    "start": "20260405025500 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775357700000,
     "stopTs": 1775358000000,
     "title": "Advertisement and Promo",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059384"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "03:00",
-    "stop": "03:25",
+    "start": "20260405030000 +0000",
+    "stop": "20260405032500 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359500000,
     "title": "Punjab News",
     "desc": "The host presents a roundup of the latest news from across the state and nation.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059352"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "03:25",
-    "stop": "03:30",
+    "start": "20260405032500 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775359500000,
     "stopTs": 1775359800000,
     "title": "Advertisement and Promo",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059361"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "03:30",
-    "stop": "04:30",
+    "start": "20260405033000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775363400000,
     "title": "Gurudham Yatra",
     "desc": "The host presents an update about a journey to a holy place.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059363"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "04:30",
-    "stop": "04:55",
+    "start": "20260405043000 +0000",
+    "stop": "20260405045500 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775364900000,
     "title": "Punjab Update World Update",
     "desc": "The host presents the latest socio-economic and political news from Punjab.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059356"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "04:55",
-    "stop": "05:00",
+    "start": "20260405045500 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775364900000,
     "stopTs": 1775365200000,
     "title": "Advertisement and Promo",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059374"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "05:00",
-    "stop": "05:25",
+    "start": "20260405050000 +0000",
+    "stop": "20260405052500 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775366700000,
     "title": "Mele Mitran De",
     "desc": "The host sheds light on the village fairs offering fun, food and entertainment.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059348"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "05:25",
-    "stop": "05:30",
+    "start": "20260405052500 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775366700000,
     "stopTs": 1775367000000,
     "title": "Advertisement and Promo",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059353"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "05:30",
-    "stop": "05:55",
+    "start": "20260405053000 +0000",
+    "stop": "20260405055500 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775368500000,
     "title": "Songs",
     "desc": "A comprehensive compilation of songs by various artists and bands, is played back-to-back.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059335"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "05:55",
-    "stop": "06:00",
+    "start": "20260405055500 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775368500000,
     "stopTs": 1775368800000,
     "title": "Advertisement and Promo",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059387"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "06:00",
-    "stop": "06:25",
+    "start": "20260405060000 +0000",
+    "stop": "20260405062500 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370300000,
     "title": "Clear Cut",
     "desc": "The host presents the latest news updates and developments from around the country.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059354"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "06:25",
-    "stop": "06:30",
+    "start": "20260405062500 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775370300000,
     "stopTs": 1775370600000,
     "title": "Advertisement and Promo",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059366"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "06:30",
-    "stop": "06:55",
+    "start": "20260405063000 +0000",
+    "stop": "20260405065500 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775372100000,
     "title": "Global Podcast",
     "desc": "The hosts engage in insightful conversations with eminent personalities.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059394"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "06:55",
-    "stop": "07:00",
+    "start": "20260405065500 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775372100000,
     "stopTs": 1775372400000,
     "title": "Advertisement and Promo",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059365"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "Kla De Ang Sang",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059389"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260405073000 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775376000000,
     "title": "Australia Dairy",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059338"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "08:00",
-    "stop": "11:00",
+    "start": "20260405080000 +0000",
+    "stop": "20260405110000 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775386800000,
     "title": "Gurbani Patna Sahib",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059358"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "11:00",
-    "stop": "11:25",
+    "start": "20260405110000 +0000",
+    "stop": "20260405112500 +0000",
     "startTs": 1775386800000,
     "stopTs": 1775388300000,
     "title": "Australia Dairy",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059382"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "11:25",
-    "stop": "11:30",
+    "start": "20260405112500 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775388300000,
     "stopTs": 1775388600000,
     "title": "Advertisement and Promo",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059357"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260405113000 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775390400000,
     "title": "Kla De Ang Sang",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059373"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "Gal Sachi Hai",
     "desc": "The host engages in discussion with guests on current pressing matters of the nation.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059391"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "12:30",
-    "stop": "12:55",
+    "start": "20260405123000 +0000",
+    "stop": "20260405125500 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775393700000,
     "title": "Amne Samne",
     "desc": "The host updates the latest social and political updates from India and across the globe.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059392"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "12:55",
-    "stop": "13:00",
+    "start": "20260405125500 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775393700000,
     "stopTs": 1775394000000,
     "title": "Advertisement and Promo",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059379"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "13:00",
-    "stop": "13:25",
+    "start": "20260405130000 +0000",
+    "stop": "20260405132500 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395500000,
     "title": "Punjab News",
     "desc": "The host presents a roundup of the latest news from across the state and nation.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059359"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "13:25",
-    "stop": "13:30",
+    "start": "20260405132500 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775395500000,
     "stopTs": 1775395800000,
     "title": "Advertisement and Promo",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059383"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "13:30",
-    "stop": "13:55",
+    "start": "20260405133000 +0000",
+    "stop": "20260405135500 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775397300000,
     "title": "Dastak",
     "desc": "The host talks to guests from different professions on various topics to get their views.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059349"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "13:55",
-    "stop": "14:00",
+    "start": "20260405135500 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775397300000,
     "stopTs": 1775397600000,
     "title": "Advertisement and Promo",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059344"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "14:00",
-    "stop": "15:00",
+    "start": "20260405140000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775401200000,
     "title": "Uncut Galbaaat",
     "desc": "The host converses with prominent personalities on a variety of other topics.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059367"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "Rubaru",
     "desc": "The host holds conversations with individuals from all walks of life.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059375"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "15:30",
-    "stop": "15:55",
+    "start": "20260405153000 +0000",
+    "stop": "20260405155500 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775404500000,
     "title": "Cafe Punjabi",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059385"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "15:55",
-    "stop": "16:00",
+    "start": "20260405155500 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775404500000,
     "stopTs": 1775404800000,
     "title": "Advertisement and Promo",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059376"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "16:00",
-    "stop": "16:25",
+    "start": "20260405160000 +0000",
+    "stop": "20260405162500 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775406300000,
     "title": "Khabar Tod",
     "desc": "The host provides a detailed report on matters concerning the state and the nation.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059390"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "16:25",
-    "stop": "16:30",
+    "start": "20260405162500 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775406300000,
     "stopTs": 1775406600000,
     "title": "Advertisement and Promo",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059340"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "16:30",
-    "stop": "16:55",
+    "start": "20260405163000 +0000",
+    "stop": "20260405165500 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408100000,
     "title": "Dr. Kumar",
     "desc": "A healthcare professional provides insights into treatments for various ailments.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059350"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "16:55",
-    "stop": "17:00",
+    "start": "20260405165500 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775408100000,
     "stopTs": 1775408400000,
     "title": "Advertisement and Promo",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059380"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "17:00",
-    "stop": "17:25",
+    "start": "20260405170000 +0000",
+    "stop": "20260405172500 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775409900000,
     "title": "Pindo Pind",
     "desc": "The presenter communicates with residents to share events transpiring within villages.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059343"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "17:25",
-    "stop": "17:30",
+    "start": "20260405172500 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775409900000,
     "stopTs": 1775410200000,
     "title": "Advertisement and Promo",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059368"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "17:30",
-    "stop": "17:55",
+    "start": "20260405173000 +0000",
+    "stop": "20260405175500 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775411700000,
     "title": "Songs",
     "desc": "A comprehensive compilation of songs by various artists and bands, is played back-to-back.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059351"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "17:55",
-    "stop": "18:00",
+    "start": "20260405175500 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775411700000,
     "stopTs": 1775412000000,
     "title": "Advertisement and Promo",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059360"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "18:00",
-    "stop": "18:25",
+    "start": "20260405180000 +0000",
+    "stop": "20260405182500 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775413500000,
     "title": "Punjab News",
     "desc": "The host presents a roundup of the latest news from across the state and nation.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059339"
   },
   {
     "channelId": "ts1044",
     "channelName": "Global India",
-    "start": "18:25",
-    "stop": "18:30",
+    "start": "20260405182500 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775413500000,
     "stopTs": 1775413800000,
     "title": "Advertisement and Promo",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1044",
+    "catchup-id": "93059388"
   }
 ]

@@ -2,12 +2,13 @@
   {
     "channelId": "ts385",
     "channelName": "Sharnam TV",
-    "start": "18:30",
-    "stop": "22:30",
+    "start": "20260405183000 +0000",
+    "stop": "20260405223000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775428200000,
     "title": "Bhajan Mala",
     "desc": "A comprehensive compilation of devotional songs is played back to back.",
-    "category": null
+    "channel": "ts385",
+    "catchup-id": "93108154"
   }
 ]

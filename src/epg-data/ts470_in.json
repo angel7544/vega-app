@@ -2,12 +2,13 @@
   {
     "channelId": "ts470",
     "channelName": "ts470",
-    "start": "19:16",
-    "stop": "21:04",
+    "start": "20260405191600 +0000",
+    "stop": "20260405210400 +0000",
     "startTs": 1775416560000,
     "stopTs": 1775423040000,
     "title": "Good Luck Jerry",
     "desc": "The desperate need for money drives Jerry into the world of drug peddling.",
-    "category": null
+    "channel": "ts470",
+    "catchup-id": "93274707"
   }
 ]

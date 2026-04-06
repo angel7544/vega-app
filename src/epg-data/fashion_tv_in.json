@@ -2,34 +2,37 @@
   {
     "channelId": "ts227",
     "channelName": "Fashion TV",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260405183000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Lingerie",
     "desc": "Heat your screen and get your fill of sexy and seductive lingerie as worn by your favourite models.",
-    "category": null
+    "channel": "ts227",
+    "catchup-id": "93098796"
   },
   {
     "channelId": "ts227",
     "channelName": "Fashion TV",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260405190000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Lingerie",
     "desc": "Heat your screen and get your fill of sexy and seductive lingerie as worn by your favourite models.",
-    "category": null
+    "channel": "ts227",
+    "catchup-id": "93098795"
   },
   {
     "channelId": "ts227",
     "channelName": "Fashion TV",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260405193000 +0000",
+    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Swimwear",
     "desc": "Get ready to strip down and cool off in this year's hottest swimwear, perfect for the beach goer!.",
-    "category": null
+    "channel": "ts227",
+    "catchup-id": "93098787"
   }
 ]

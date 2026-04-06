@@ -2,1057 +2,1153 @@
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260405183000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Champak Chacha resolves the fight over Suvichar between Bhide and Popatlal. S01 E2807.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108904"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260405190000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Bhide learns from Goli that Sonu and Tapu are hanging out together. S01 E2808.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108884"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260405193000 +0000",
+    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Tapu gets upset over Jethalal not letting him go on a picnic with his friends to Mahabaleshwar. S01 E952.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108926"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260405200000 +0000",
+    "stop": "20260405203000 +0000",
     "startTs": 1775419200000,
     "stopTs": 1775421000000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Daya asks Anjali to watch over the house when her family decide to visit Magan Kaka. S01 E953.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108879"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260405203000 +0000",
+    "stop": "20260405210000 +0000",
     "startTs": 1775421000000,
     "stopTs": 1775422800000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Jethalal rushes to check if Champaklal has returned but realises that he was mistaken.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108924"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260405210000 +0000",
+    "stop": "20260405213000 +0000",
     "startTs": 1775422800000,
     "stopTs": 1775424600000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Jethalal and his friends are looking forward to a special dance performance by European women.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108922"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260405213000 +0000",
+    "stop": "20260405220000 +0000",
     "startTs": 1775424600000,
     "stopTs": 1775426400000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Jethalal and Daya are happy to spend time together after Baapu Ji leaves for his village. S01 E956.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108903"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260405220000 +0000",
+    "stop": "20260405223000 +0000",
     "startTs": 1775426400000,
     "stopTs": 1775428200000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Taarak and other men from Gokuldham Society decide to go for a dance show. S01 E957.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108913"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260405223000 +0000",
+    "stop": "20260405230000 +0000",
     "startTs": 1775428200000,
     "stopTs": 1775430000000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "The men are stunned to see their women all dressed up and ready to go out to party. S01 E958.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108883"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260405230000 +0000",
+    "stop": "20260405233000 +0000",
     "startTs": 1775430000000,
     "stopTs": 1775431800000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "The male residents of Gokuldham try to talk their wives out of travelling alone. S01 E959.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108910"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260405233000 +0000",
+    "stop": "20260406000000 +0000",
     "startTs": 1775431800000,
     "stopTs": 1775433600000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "The men's party is cancelled when the dance troop's flight is delayed. S01 E960.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108909"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260406000000 +0000",
+    "stop": "20260406003000 +0000",
     "startTs": 1775433600000,
     "stopTs": 1775435400000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "A group of men bother the women of Gokuldham on their way back. S01 E961.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108894"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260406003000 +0000",
+    "stop": "20260406010000 +0000",
     "startTs": 1775435400000,
     "stopTs": 1775437200000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "The ladies of Gokuldham arm themselves with unusual weapons and get ready for a big fight. S01 E962.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108912"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260406010000 +0000",
+    "stop": "20260406013000 +0000",
     "startTs": 1775437200000,
     "stopTs": 1775439000000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Bapuji praises Ranbir Kapoor and his family for their extraordinary work. S01 E963.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108905"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260406013000 +0000",
+    "stop": "20260406020000 +0000",
     "startTs": 1775439000000,
     "stopTs": 1775440800000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Bhide organises a meeting to take a decision on the trip to Singapore. S01 E2694.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108900"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260406020000 +0000",
+    "stop": "20260406023000 +0000",
     "startTs": 1775440800000,
     "stopTs": 1775442600000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Gokuldham's residents convince Popatlal to join the Singapore trip. S01 E2695.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108921"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260406023000 +0000",
+    "stop": "20260406030000 +0000",
     "startTs": 1775442600000,
     "stopTs": 1775444400000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Jethalal finds himself in the midst of another crisis at Gokuldham. S01 E2696.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108888"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260406030000 +0000",
+    "stop": "20260406033000 +0000",
     "startTs": 1775444400000,
     "stopTs": 1775446200000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Jethalal finds himself in the midst of another crisis at Gokuldham. S01 E2697.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108881"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260406033000 +0000",
+    "stop": "20260406040000 +0000",
     "startTs": 1775446200000,
     "stopTs": 1775448000000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Popatlal gives a breakfast treat to Jethalal. Bhide learns about Tappu Sena's study trip. S01 E2524.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108893"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260406040000 +0000",
+    "stop": "20260406043000 +0000",
     "startTs": 1775448000000,
     "stopTs": 1775449800000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Bagha imagines Jethalal bald during his daydream and believes that it is a sign of good luck. S01 E2525.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108889"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260406043000 +0000",
+    "stop": "20260406050000 +0000",
     "startTs": 1775449800000,
     "stopTs": 1775451600000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "After Tapu and Jethalal leave, Champaklal sees a ghost in the opposite building. S01 E2526.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108880"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260406050000 +0000",
+    "stop": "20260406053000 +0000",
     "startTs": 1775451600000,
     "stopTs": 1775453400000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "When Bhide realises that Champaklal is scared, he asks Sodhi to help him. S01 E2527.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108916"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260406053000 +0000",
+    "stop": "20260406060000 +0000",
     "startTs": 1775453400000,
     "stopTs": 1775455200000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Sodhi and Bhide take Champaklal to the building after he sights a strange figure. S01 E2528.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108882"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260406060000 +0000",
+    "stop": "20260406063000 +0000",
     "startTs": 1775455200000,
     "stopTs": 1775457000000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Champaklal requests Bhide to investigate Mohanlal's apartment after the ghost sighting. S01 E2529.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108896"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260406063000 +0000",
+    "stop": "20260406070000 +0000",
     "startTs": 1775457000000,
     "stopTs": 1775458800000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Champaklal decides to bring the plant that he believes can ward off the spirit. S01 E2530.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108917"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260406070000 +0000",
+    "stop": "20260406073000 +0000",
     "startTs": 1775458800000,
     "stopTs": 1775460600000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "While Popatlal is going home, something eerie leaves him shocked. S01 E2531.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108911"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260406073000 +0000",
+    "stop": "20260406080000 +0000",
     "startTs": 1775460600000,
     "stopTs": 1775462400000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Sodhi decides to break the lock and find the truth after Popatlal sees the ghost too. S01 E2532.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108886"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260406080000 +0000",
+    "stop": "20260406083000 +0000",
     "startTs": 1775462400000,
     "stopTs": 1775464200000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Sodhi and the society members go into Mohanlal's apartment and look for the ghost. S01 E2533.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108887"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260406083000 +0000",
+    "stop": "20260406090000 +0000",
     "startTs": 1775464200000,
     "stopTs": 1775466000000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "After the society members find strange objects in Mohanlal's place, they call the police. S01 E2534.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108918"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260406090000 +0000",
+    "stop": "20260406093000 +0000",
     "startTs": 1775466000000,
     "stopTs": 1775467800000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Chalu Pandey gets informed by everyone about the situation and decides to go to Mohanlal's place. S01 E2535.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108914"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260406093000 +0000",
+    "stop": "20260406100000 +0000",
     "startTs": 1775467800000,
     "stopTs": 1775469600000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "The society members discover several weird things inside Mohanlal's apartment. S01 E2536.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108907"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260406100000 +0000",
+    "stop": "20260406103000 +0000",
     "startTs": 1775469600000,
     "stopTs": 1775471400000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Popatlal decides to sleep at Champaklal's house because of the ghost. S01 E2537.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108925"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260406103000 +0000",
+    "stop": "20260406110000 +0000",
     "startTs": 1775471400000,
     "stopTs": 1775473200000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "The bridal ghost tells Popatlal that she wants to marry him and makes him perform the rituals. S01 E2538.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108885"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260406110000 +0000",
+    "stop": "20260406113000 +0000",
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Sodhi gives Popatlal medicine to help him cope with his fears. S01 E2539.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108891"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260406113000 +0000",
+    "stop": "20260406120000 +0000",
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Champaklal and Popatlal get drunk and run to Mohanlal's apartment. S01 E2540.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108906"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260406120000 +0000",
+    "stop": "20260406123000 +0000",
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Champaklal unintentionally tells Jethalal the truth, making him decide to head home immediately. S01 E2541.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108915"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260406123000 +0000",
+    "stop": "20260406130000 +0000",
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "The Gokuldham Society members devise a plan to scare off flat buyers. S01 E2542.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108908"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260406130000 +0000",
+    "stop": "20260406133000 +0000",
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Something strange makes Bhide and the prospective buyers run for their lives. S01 E2543.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108895"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260406133000 +0000",
+    "stop": "20260406140000 +0000",
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "The society members call a ghostbuster after the ghost refuses to leave. S01 E2544.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108919"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260406140000 +0000",
+    "stop": "20260406143000 +0000",
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Jethlal arrives late at night and is startled to see the society quiet. S01 E2545.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108901"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260406143000 +0000",
+    "stop": "20260406150000 +0000",
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Hui Gumm Yaadein Ek Doctor, Do Zindagiyaan",
     "desc": ". S01 E01.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108890"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260406150000 +0000",
+    "stop": "20260406153000 +0000",
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "The residents of a housing society help each other when they face real-life challenges. S01 E4677.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108920"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260406153000 +0000",
+    "stop": "20260406160000 +0000",
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Itti Si Khushi",
     "desc": "Anvita shoulders the burden of raising her five siblings amidst their father's alcoholism. S01 E199.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108902"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260406160000 +0000",
+    "stop": "20260406163000 +0000",
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Pushpa Impossible",
     "desc": "An uneducated woman from Gujarat starts a business and attempts to keep her family happy. S01 E1199.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108898"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260406163000 +0000",
+    "stop": "20260406170000 +0000",
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Daya supports Bagha's request for a leave to visit Bawri's parents. S01 E1732.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108892"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "17:00",
-    "stop": "17:15",
+    "start": "20260406170000 +0000",
+    "stop": "20260406171500 +0000",
     "startTs": 1775494800000,
     "stopTs": 1775495700000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Jethalal celebrates a big order at his shop. Bagha abandons his duties to meet his future in-laws. S01 E1733.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108923"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260406173000 +0000",
+    "stop": "20260406180000 +0000",
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "The residents of a housing society help each other when they face real-life challenges. S01 E4677.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108897"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260406180000 +0000",
+    "stop": "20260406183000 +0000",
     "startTs": 1775498400000,
     "stopTs": 1775500200000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Daya and Taarak miss Jethalal while he is away. Later, a mysterious lady comes looking for Jethalal. S01 E1025.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93108899"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260406183000 +0000",
+    "stop": "20260406190000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775502000000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Daya bumps into Gulabo, a 'Kashmiri' woman who claims that she is trying to find her husband. S01 E1026.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145525"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260406190000 +0000",
+    "stop": "20260406193000 +0000",
     "startTs": 1775502000000,
     "stopTs": 1775503800000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Daya is in a state of shock and Gulabo consoles her by saying that this is nobody's fault. S01 E1027.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145499"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260406193000 +0000",
+    "stop": "20260406200000 +0000",
     "startTs": 1775503800000,
     "stopTs": 1775505600000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Everyone is shocked when Daya informs them that Gulabo claims to be Jethalal's first wife. S01 E1028.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145500"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260406200000 +0000",
+    "stop": "20260406203000 +0000",
     "startTs": 1775505600000,
     "stopTs": 1775507400000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Champaklal praises Daya for her maturity. Natu Kaka and Bagha are shocked by the news. S01 E1029.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145507"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260406203000 +0000",
+    "stop": "20260406210000 +0000",
     "startTs": 1775507400000,
     "stopTs": 1775509200000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Jethalal is shocked and faints when Daya tells him that Gulabo is his first wife. S01 E1030.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145524"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260406210000 +0000",
+    "stop": "20260406213000 +0000",
     "startTs": 1775509200000,
     "stopTs": 1775511000000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Jethalal reveals to everyone the shocking truth about his Kashmir trip many years ago. S01 E1031.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145513"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260406213000 +0000",
+    "stop": "20260406220000 +0000",
     "startTs": 1775511000000,
     "stopTs": 1775512800000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Jethalal requests Taarak to find a solution to get rid of Gulabo. S01 E1032.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145541"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260406220000 +0000",
+    "stop": "20260406223000 +0000",
     "startTs": 1775512800000,
     "stopTs": 1775514600000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "The Gadas and the others are shocked to see Gulabo living in a tent in the compound. S01 E1033.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145530"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260406223000 +0000",
+    "stop": "20260406230000 +0000",
     "startTs": 1775514600000,
     "stopTs": 1775516400000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Advocate Jwala threatens Jethalal and issues a notice to him and he seeks Taarak's help. S01 E1034.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145512"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260406230000 +0000",
+    "stop": "20260406233000 +0000",
     "startTs": 1775516400000,
     "stopTs": 1775518200000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Jethalal gets angry with Taarak and Anjali for helping Gulabo. S01 E1035.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145516"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260406233000 +0000",
+    "stop": "20260407000000 +0000",
     "startTs": 1775518200000,
     "stopTs": 1775520000000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Taarak and Jethalal visit a couple of advocates but are unable to find the right advocate. S01 E1036.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145540"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260407000000 +0000",
+    "stop": "20260407003000 +0000",
     "startTs": 1775520000000,
     "stopTs": 1775521800000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "While Jethalal finds a lawyer, Gulabo tries to get close to other members of the society. S01 E1037.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145519"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260407003000 +0000",
+    "stop": "20260407010000 +0000",
     "startTs": 1775521800000,
     "stopTs": 1775523600000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "When Gulabo brings food to the shop, Jethalal must deal with her in front of his clients. S01 E1038.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145506"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260407010000 +0000",
+    "stop": "20260407013000 +0000",
     "startTs": 1775523600000,
     "stopTs": 1775525400000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "While the Gadas stand united, Gulabo is adamant that Jethalal speaks to her at least once. S01 E1039.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145511"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260407013000 +0000",
+    "stop": "20260407020000 +0000",
     "startTs": 1775525400000,
     "stopTs": 1775527200000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Everyone from Gokuldham Society arrives in Singapore, but Jethalal faces another problem. S01 E2698.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145526"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260407020000 +0000",
+    "stop": "20260407023000 +0000",
     "startTs": 1775527200000,
     "stopTs": 1775529000000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Jethalal and Babita spend a quality moment on a Ferris wheel. S01 E2699.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145522"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260407023000 +0000",
+    "stop": "20260407030000 +0000",
     "startTs": 1775529000000,
     "stopTs": 1775530800000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "The residents of a housing society help each other when they face real-life challenges. S01 E2700.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145539"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260407030000 +0000",
+    "stop": "20260407033000 +0000",
     "startTs": 1775530800000,
     "stopTs": 1775532600000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "The residents of a housing society help each other when they face real-life challenges. S01 E2701.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145528"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260407033000 +0000",
+    "stop": "20260407040000 +0000",
     "startTs": 1775532600000,
     "stopTs": 1775534400000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "The residents of a housing society help each other when they face real-life challenges. S01 E2702.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145501"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260407040000 +0000",
+    "stop": "20260407043000 +0000",
     "startTs": 1775534400000,
     "stopTs": 1775536200000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Gokuldham residents embark on a luxury cruise to Singapore for three nights and four days. S01 E2703.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145517"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260407043000 +0000",
+    "stop": "20260407050000 +0000",
     "startTs": 1775536200000,
     "stopTs": 1775538000000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Champakal suddenly becomes afraid of boarding the cruise and finds a way to go back on shore. S01 E2704.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145535"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260407050000 +0000",
+    "stop": "20260407053000 +0000",
     "startTs": 1775538000000,
     "stopTs": 1775539800000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Champaklal finds Popatlal dancing with women on the sixth deck. S01 E2705.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145527"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260407053000 +0000",
+    "stop": "20260407060000 +0000",
     "startTs": 1775539800000,
     "stopTs": 1775541600000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Bhide embarrasses Jethalal by exposing his tardiness. Jethalal vows to avenge himself. S01 E1319.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145502"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260407060000 +0000",
+    "stop": "20260407063000 +0000",
     "startTs": 1775541600000,
     "stopTs": 1775543400000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Jethalal is tired of Bagha's issues. He gives Bagha a task involving a large sum of money. S01 E1320.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145529"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260407063000 +0000",
+    "stop": "20260407070000 +0000",
     "startTs": 1775543400000,
     "stopTs": 1775545200000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Bagha's latest goof up angers Champaklal and worsens the fight between Jethalal and Bhide. S01 E1321.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145533"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260407070000 +0000",
+    "stop": "20260407073000 +0000",
     "startTs": 1775545200000,
     "stopTs": 1775547000000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Everyone is bemused by Bagha's problem. A fight breaks out between Jethalal and Popatlal. S01 E1322.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145544"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260407073000 +0000",
+    "stop": "20260407080000 +0000",
     "startTs": 1775547000000,
     "stopTs": 1775548800000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "After Dr. Hathi gives him a clean chit, Daya comes up with a unique remedy for Bagha. S01 E1323.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145505"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260407080000 +0000",
+    "stop": "20260407083000 +0000",
     "startTs": 1775548800000,
     "stopTs": 1775550600000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Bagha tells Daya the reason for his confused state of mind; Daya updates everyone else. S01 E1324.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145531"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260407083000 +0000",
+    "stop": "20260407090000 +0000",
     "startTs": 1775550600000,
     "stopTs": 1775552400000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Just as Natu Kaka returns from his holiday, the women groom Bagha for his date with Bawri. S01 E1325.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145510"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260407090000 +0000",
+    "stop": "20260407093000 +0000",
     "startTs": 1775552400000,
     "stopTs": 1775554200000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Bawri tells the Gokuldham Society members about a problem she has. S01 E1326.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145523"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260407093000 +0000",
+    "stop": "20260407100000 +0000",
     "startTs": 1775554200000,
     "stopTs": 1775556000000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Bhide accidentally ruins Jethalal's cheque and has to get a new one from his house. S01 E701.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145518"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260407100000 +0000",
+    "stop": "20260407103000 +0000",
     "startTs": 1775556000000,
     "stopTs": 1775557800000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Bhide receives a package for Jethalal, but he breaks the merchandise inside by accident. S01 E702.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145538"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260407103000 +0000",
+    "stop": "20260407110000 +0000",
     "startTs": 1775557800000,
     "stopTs": 1775559600000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Bhide fixes the statue and hands it to Sodhi to give to Jethalal, but the statue breaks again. S01 E703.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145534"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260407110000 +0000",
+    "stop": "20260407113000 +0000",
     "startTs": 1775559600000,
     "stopTs": 1775561400000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Iyer breaks the statue while carrying it home and he gives it to Taarak. S01 E704.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145514"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260407113000 +0000",
+    "stop": "20260407120000 +0000",
     "startTs": 1775561400000,
     "stopTs": 1775563200000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "After Jethalal also breaks the statue, Ramesh arrives at his house to pick it up. S01 E705.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145543"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260407120000 +0000",
+    "stop": "20260407123000 +0000",
     "startTs": 1775563200000,
     "stopTs": 1775565000000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Ramesh opens the box to find the statue intact, much to Jethalal and Daya's relief. S01 E706.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145536"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260407123000 +0000",
+    "stop": "20260407130000 +0000",
     "startTs": 1775565000000,
     "stopTs": 1775566800000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Jethalal tries to impress Babita with his knowledge about foreign countries. S01 E722.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145520"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260407130000 +0000",
+    "stop": "20260407133000 +0000",
     "startTs": 1775566800000,
     "stopTs": 1775568600000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Jethalal begins to panic when Nattu Kaka accidentally sells a fridge prepared for Babita and Iyer. S01 E723.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145503"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260407133000 +0000",
+    "stop": "20260407140000 +0000",
     "startTs": 1775568600000,
     "stopTs": 1775570400000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Jethalal ends up with multiple pieces of the same refrigerator to please Babita. S01 E724.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145508"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260407140000 +0000",
+    "stop": "20260407143000 +0000",
     "startTs": 1775570400000,
     "stopTs": 1775572200000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Everyone looks forward to Diwali, and Tapu demands toys and clothes from Jethalal. S01 E725.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145497"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260407143000 +0000",
+    "stop": "20260407150000 +0000",
     "startTs": 1775572200000,
     "stopTs": 1775574000000,
     "title": "Hui Gumm Yaadein Ek Doctor, Do Zindagiyaan",
     "desc": ". S01 E02.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145542"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260407150000 +0000",
+    "stop": "20260407153000 +0000",
     "startTs": 1775574000000,
     "stopTs": 1775575800000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "The residents of a housing society help each other when they face real-life challenges. S01 E4678.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145504"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260407153000 +0000",
+    "stop": "20260407160000 +0000",
     "startTs": 1775575800000,
     "stopTs": 1775577600000,
     "title": "Itti Si Khushi",
     "desc": "Anvita shoulders the burden of raising her five siblings amidst their father's alcoholism. S01 E200.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145537"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260407160000 +0000",
+    "stop": "20260407163000 +0000",
     "startTs": 1775577600000,
     "stopTs": 1775579400000,
     "title": "Pushpa Impossible",
     "desc": "An uneducated woman from Gujarat starts a business and attempts to keep her family happy. S01 E1200.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145532"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260407163000 +0000",
+    "stop": "20260407170000 +0000",
     "startTs": 1775579400000,
     "stopTs": 1775581200000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Bawri lies to her parents about Bagha's electronics store ownership. S01 E1734.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145498"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "17:00",
-    "stop": "17:15",
+    "start": "20260407170000 +0000",
+    "stop": "20260407171500 +0000",
     "startTs": 1775581200000,
     "stopTs": 1775582100000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Bagha becomes scared that his secret will be exposed to Bawri's parents. S01 E1735.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145515"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260407173000 +0000",
+    "stop": "20260407180000 +0000",
     "startTs": 1775583000000,
     "stopTs": 1775584800000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "The residents of a housing society help each other when they face real-life challenges. S01 E4678.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145521"
   },
   {
     "channelId": "ts559",
     "channelName": "ts559",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260407180000 +0000",
+    "stop": "20260407183000 +0000",
     "startTs": 1775584800000,
     "stopTs": 1775586600000,
     "title": "Taarak Mehta Ka Ooltah Chashmah",
     "desc": "Jethalal gets angry with Taarak and Anjali for helping Gulabo. S01 E1035.",
-    "category": null
+    "channel": "ts559",
+    "catchup-id": "93145509"
   }
 ]

@@ -2,111 +2,121 @@
   {
     "channelId": "ts458",
     "channelName": "Shubh TV",
-    "start": "18:30",
-    "stop": "21:30",
+    "start": "20260405183000 +0000",
+    "stop": "20260405213000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775424600000,
     "title": "Shubham Ved / Nupur Parivar",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts458",
+    "catchup-id": "93108403"
   },
   {
     "channelId": "ts458",
     "channelName": "Shubh TV",
-    "start": "01:00",
-    "stop": "01:10",
+    "start": "20260406010000 +0000",
+    "stop": "20260406011000 +0000",
     "startTs": 1775437200000,
     "stopTs": 1775437800000,
     "title": "Meenal Nigam",
     "desc": ".",
-    "category": null
+    "channel": "ts458",
+    "catchup-id": "93108418"
   },
   {
     "channelId": "ts458",
     "channelName": "Shubh TV",
-    "start": "01:10",
-    "stop": "01:20",
+    "start": "20260406011000 +0000",
+    "stop": "20260406012000 +0000",
     "startTs": 1775437800000,
     "stopTs": 1775438400000,
     "title": "Samudaik Prarthna",
     "desc": "A compilation of devotional hymns and soothing prayers to start the day.",
-    "category": null
+    "channel": "ts458",
+    "catchup-id": "93108419"
   },
   {
     "channelId": "ts458",
     "channelName": "Shubh TV",
-    "start": "01:50",
-    "stop": "02:10",
+    "start": "20260406015000 +0000",
+    "stop": "20260406021000 +0000",
     "startTs": 1775440200000,
     "stopTs": 1775441400000,
     "title": "Sahib Bandagi Ji",
     "desc": "A religious leader gives a spiritual discourse on the importance of Satya Bhakti.",
-    "category": null
+    "channel": "ts458",
+    "catchup-id": "93108433"
   },
   {
     "channelId": "ts458",
     "channelName": "Shubh TV",
-    "start": "02:10",
-    "stop": "02:30",
+    "start": "20260406021000 +0000",
+    "stop": "20260406023000 +0000",
     "startTs": 1775441400000,
     "stopTs": 1775442600000,
     "title": "Ek Naya Yug",
     "desc": "A religious leader guides on living virtuously through Hindu teachings.",
-    "category": null
+    "channel": "ts458",
+    "catchup-id": "93108412"
   },
   {
     "channelId": "ts458",
     "channelName": "Shubh TV",
-    "start": "02:30",
-    "stop": "02:50",
+    "start": "20260406023000 +0000",
+    "stop": "20260406025000 +0000",
     "startTs": 1775442600000,
     "stopTs": 1775443800000,
     "title": "Bhajan",
     "desc": "An engaging compilation of spiritual hymns and divine melodies.",
-    "category": null
+    "channel": "ts458",
+    "catchup-id": "93108431"
   },
   {
     "channelId": "ts458",
     "channelName": "Shubh TV",
-    "start": "02:50",
-    "stop": "02:55",
+    "start": "20260406025000 +0000",
+    "stop": "20260406025500 +0000",
     "startTs": 1775443800000,
     "stopTs": 1775444100000,
     "title": "Ramashish Ji",
     "desc": "A religious leader sheds light on the teachings of the Almighty and promotes spirituality.",
-    "category": null
+    "channel": "ts458",
+    "catchup-id": "93108416"
   },
   {
     "channelId": "ts458",
     "channelName": "Shubh TV",
-    "start": "16:00",
-    "stop": "16:20",
+    "start": "20260406160000 +0000",
+    "stop": "20260406162000 +0000",
     "startTs": 1775491200000,
     "stopTs": 1775492400000,
     "title": "Morari Bapu",
     "desc": "Morari Bapu reads out excerpts from the Rama Katha and explains its importance.",
-    "category": null
+    "channel": "ts458",
+    "catchup-id": "93108404"
   },
   {
     "channelId": "ts458",
     "channelName": "Shubh TV",
-    "start": "16:20",
-    "stop": "16:40",
+    "start": "20260406162000 +0000",
+    "stop": "20260406164000 +0000",
     "startTs": 1775492400000,
     "stopTs": 1775493600000,
     "title": "Pujya Didi Maa",
     "desc": "Sadhvi Ritambhara, a religious scholar, delivers a discourse on the various virtues of Hinduism.",
-    "category": null
+    "channel": "ts458",
+    "catchup-id": "93108429"
   },
   {
     "channelId": "ts458",
     "channelName": "Shubh TV",
-    "start": "16:40",
-    "stop": "17:00",
+    "start": "20260406164000 +0000",
+    "stop": "20260406170000 +0000",
     "startTs": 1775493600000,
     "stopTs": 1775494800000,
     "title": "Bhajan Sandhya",
     "desc": "Devotees gather to sing religious songs in praise and worship of the Almighty.",
-    "category": null
+    "channel": "ts458",
+    "catchup-id": "93108410"
   }
 ]

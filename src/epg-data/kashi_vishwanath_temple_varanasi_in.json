@@ -2,133 +2,145 @@
   {
     "channelId": "ts849",
     "channelName": "Kashi Vishwanath Temple, Varanasi",
-    "start": "21:30",
-    "stop": "22:30",
+    "start": "20260404213000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775341800000,
     "title": "Mangala Aarti",
     "desc": ".",
-    "category": null
+    "channel": "ts849",
+    "catchup-id": "93059810"
   },
   {
     "channelId": "ts849",
     "channelName": "Kashi Vishwanath Temple, Varanasi",
-    "start": "22:30",
-    "stop": "05:45",
+    "start": "20260404223000 +0000",
+    "stop": "20260405054500 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775367900000,
     "title": "Darshan",
     "desc": "Live Darshan from Sri Sri Krishna Balaram Mandir, ISKCON Vrindavan.",
-    "category": null
+    "channel": "ts849",
+    "catchup-id": "93059804"
   },
   {
     "channelId": "ts849",
     "channelName": "Kashi Vishwanath Temple, Varanasi",
-    "start": "05:45",
-    "stop": "06:30",
+    "start": "20260405054500 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775367900000,
     "stopTs": 1775370600000,
     "title": "Cleaning Activity",
     "desc": ".",
-    "category": null
+    "channel": "ts849",
+    "catchup-id": "93059809"
   },
   {
     "channelId": "ts849",
     "channelName": "Kashi Vishwanath Temple, Varanasi",
-    "start": "06:30",
-    "stop": "06:50",
+    "start": "20260405063000 +0000",
+    "stop": "20260405065000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775371800000,
     "title": "Bhog Aarti",
     "desc": ".",
-    "category": null
+    "channel": "ts849",
+    "catchup-id": "93059812"
   },
   {
     "channelId": "ts849",
     "channelName": "Kashi Vishwanath Temple, Varanasi",
-    "start": "06:50",
-    "stop": "13:15",
+    "start": "20260405065000 +0000",
+    "stop": "20260405131500 +0000",
     "startTs": 1775371800000,
     "stopTs": 1775394900000,
     "title": "Darshan",
     "desc": "Live Darshan from Sri Sri Krishna Balaram Mandir, ISKCON Vrindavan.",
-    "category": null
+    "channel": "ts849",
+    "catchup-id": "93059806"
   },
   {
     "channelId": "ts849",
     "channelName": "Kashi Vishwanath Temple, Varanasi",
-    "start": "13:15",
-    "stop": "13:45",
+    "start": "20260405131500 +0000",
+    "stop": "20260405134500 +0000",
     "startTs": 1775394900000,
     "stopTs": 1775396700000,
     "title": "Cleaning Activity",
     "desc": ".",
-    "category": null
+    "channel": "ts849",
+    "catchup-id": "93059805"
   },
   {
     "channelId": "ts849",
     "channelName": "Kashi Vishwanath Temple, Varanasi",
-    "start": "13:45",
-    "stop": "14:45",
+    "start": "20260405134500 +0000",
+    "stop": "20260405144500 +0000",
     "startTs": 1775396700000,
     "stopTs": 1775400300000,
     "title": "Saptirishi Arti",
     "desc": ".",
-    "category": null
+    "channel": "ts849",
+    "catchup-id": "93059807"
   },
   {
     "channelId": "ts849",
     "channelName": "Kashi Vishwanath Temple, Varanasi",
-    "start": "14:45",
-    "stop": "15:30",
+    "start": "20260405144500 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775400300000,
     "stopTs": 1775403000000,
     "title": "Darshan",
     "desc": "Live Darshan from Sri Sri Krishna Balaram Mandir, ISKCON Vrindavan.",
-    "category": null
+    "channel": "ts849",
+    "catchup-id": "93059813"
   },
   {
     "channelId": "ts849",
     "channelName": "Kashi Vishwanath Temple, Varanasi",
-    "start": "15:30",
-    "stop": "16:45",
+    "start": "20260405153000 +0000",
+    "stop": "20260405164500 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775407500000,
     "title": "Shringar Aarti",
     "desc": ".",
-    "category": null
+    "channel": "ts849",
+    "catchup-id": "93059808"
   },
   {
     "channelId": "ts849",
     "channelName": "Kashi Vishwanath Temple, Varanasi",
-    "start": "16:45",
-    "stop": "17:00",
+    "start": "20260405164500 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775407500000,
     "stopTs": 1775408400000,
     "title": "Darshan",
     "desc": "Live Darshan from Sri Sri Krishna Balaram Mandir, ISKCON Vrindavan.",
-    "category": null
+    "channel": "ts849",
+    "catchup-id": "93059814"
   },
   {
     "channelId": "ts849",
     "channelName": "Kashi Vishwanath Temple, Varanasi",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "Shayan Aarti",
     "desc": ".",
-    "category": null
+    "channel": "ts849",
+    "catchup-id": "93059815"
   },
   {
     "channelId": "ts849",
     "channelName": "Kashi Vishwanath Temple, Varanasi",
-    "start": "17:30",
-    "stop": "21:30",
+    "start": "20260405173000 +0000",
+    "stop": "20260405213000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775424600000,
     "title": "Temple Closed",
     "desc": "Temple closed for Darshan.",
-    "category": null
+    "channel": "ts849",
+    "catchup-id": "93059811"
   }
 ]

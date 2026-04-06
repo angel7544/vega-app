@@ -2,408 +2,445 @@
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "18:30",
-    "stop": "18:40",
+    "start": "20260404183000 +0000",
+    "stop": "20260404184000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775328000000,
     "title": "The Khutba of Fadak",
     "desc": "A religious leader gives a sermon to the audience on leading a virtuous life.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062668"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "18:40",
-    "stop": "19:05",
+    "start": "20260404184000 +0000",
+    "stop": "20260404190500 +0000",
     "startTs": 1775328000000,
     "stopTs": 1775329500000,
     "title": "Hum Aur Islam",
     "desc": "A religious scholar discusses Islamic teachings and how to live as a true Muslim.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062686"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "19:05",
-    "stop": "19:30",
+    "start": "20260404190500 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775329500000,
     "stopTs": 1775331000000,
     "title": "Tilawat E Quran",
     "desc": "Ustad Parhezgar reads and interprets the verses of the Quran for the viewers.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062656"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "19:30",
-    "stop": "20:30",
+    "start": "20260404193000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775334600000,
     "title": "Satayesh",
     "desc": "A Muslim religious leader delivers a detailed discourse on Islam and its practices.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062670"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "20:30",
-    "stop": "21:30",
+    "start": "20260404203000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775338200000,
     "title": "Behtareen Aamaal",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062665"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260404213000 +0000",
+    "stop": "20260404220000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775340000000,
     "title": "Haqeeqat Today",
     "desc": "The host sheds light on unique stories that showcases the true spirit of humanity.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062662"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260404220000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775340000000,
     "stopTs": 1775341800000,
     "title": "Sawalon ka Safar",
     "desc": "Contestants answer questions pretaining to Islamic teachings in a bid to win the grand prize.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062688"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260404223000 +0000",
+    "stop": "20260404230000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775343600000,
     "title": "Makarimul Akhlaq",
     "desc": "The host invites religious experts to discuss Islamic ethics and moral philosophy.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062683"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "23:00",
-    "stop": "00:05",
+    "start": "20260404230000 +0000",
+    "stop": "20260405000500 +0000",
     "startTs": 1775343600000,
     "stopTs": 1775347500000,
     "title": "The Khutba of Fadak",
     "desc": "A religious leader gives a sermon to the audience on leading a virtuous life.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062672"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "00:05",
-    "stop": "00:13",
+    "start": "20260405000500 +0000",
+    "stop": "20260405001300 +0000",
     "startTs": 1775347500000,
     "stopTs": 1775347980000,
     "title": "Tilawat E Quran",
     "desc": "Ustad Parhezgar reads and interprets the verses of the Quran for the viewers.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062658"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "00:13",
-    "stop": "00:30",
+    "start": "20260405001300 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775347980000,
     "stopTs": 1775349000000,
     "title": "Azan & Namaz e Fajr",
     "desc": "Religious experts read and discuss Islamic prayers with the followers.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062673"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "00:30",
-    "stop": "00:35",
+    "start": "20260405003000 +0000",
+    "stop": "20260405003500 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775349300000,
     "title": "Day Dua & Ziyarat",
     "desc": "A religious leader recites devotional verses and prayers in praise of the Almighty.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062654"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "00:35",
-    "stop": "00:50",
+    "start": "20260405003500 +0000",
+    "stop": "20260405005000 +0000",
     "startTs": 1775349300000,
     "stopTs": 1775350200000,
     "title": "Dua e Sabah",
     "desc": "A religious leader recites a prayer and encourages devotees to seek blessings.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062657"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "00:50",
-    "stop": "01:05",
+    "start": "20260405005000 +0000",
+    "stop": "20260405010500 +0000",
     "startTs": 1775350200000,
     "stopTs": 1775351100000,
     "title": "Dua e Ahad",
     "desc": "Recitation of special prayers to show supplication of allegiance to Muhammad al-Mahdi.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062666"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "01:05",
-    "stop": "02:05",
+    "start": "20260405010500 +0000",
+    "stop": "20260405020500 +0000",
     "startTs": 1775351100000,
     "stopTs": 1775354700000,
     "title": "Tilawat e Quran",
     "desc": "A religious leader reads and interprets the verses of the Holy Quran for the viewers.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062661"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "02:05",
-    "stop": "02:35",
+    "start": "20260405020500 +0000",
+    "stop": "20260405023500 +0000",
     "startTs": 1775354700000,
     "stopTs": 1775356500000,
     "title": "Tafseer of Quran",
     "desc": "The host interacts with a religious scholar as they read and interpret the verses of the Quran.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062669"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "02:35",
-    "stop": "03:05",
+    "start": "20260405023500 +0000",
+    "stop": "20260405030500 +0000",
     "startTs": 1775356500000,
     "stopTs": 1775358300000,
     "title": "Islamic Lecture in Gujarati",
     "desc": "An Islamic religious scholar discusses the teachings of the Almighty in Gujarati.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062689"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "03:05",
-    "stop": "03:30",
+    "start": "20260405030500 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358300000,
     "stopTs": 1775359800000,
     "title": "Get Fit",
     "desc": "The host invites a fitness expert and discusses different ways to achieve good health.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062674"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "03:30",
-    "stop": "04:35",
+    "start": "20260405033000 +0000",
+    "stop": "20260405043500 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775363700000,
     "title": "The Khutba of Fadak",
     "desc": "A religious leader gives a sermon to the audience on leading a virtuous life.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062690"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "04:35",
-    "stop": "05:00",
+    "start": "20260405043500 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363700000,
     "stopTs": 1775365200000,
     "title": "Makarimul Akhlaq",
     "desc": "The host invites religious experts to discuss Islamic ethics and moral philosophy.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062685"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "05:00",
-    "stop": "05:20",
+    "start": "20260405050000 +0000",
+    "stop": "20260405052000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775366400000,
     "title": "The Leader of Women Across the Universe",
     "desc": "A religious leader sheds light on the teachings of the Almighty.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062678"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "05:20",
-    "stop": "06:15",
+    "start": "20260405052000 +0000",
+    "stop": "20260405061500 +0000",
     "startTs": 1775366400000,
     "stopTs": 1775369700000,
     "title": "Behtareen Aamaal",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062664"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "06:15",
-    "stop": "06:45",
+    "start": "20260405061500 +0000",
+    "stop": "20260405064500 +0000",
     "startTs": 1775369700000,
     "stopTs": 1775371500000,
     "title": "Haqeeqat Today",
     "desc": "The host sheds light on unique stories that showcases the true spirit of humanity.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062677"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "06:45",
-    "stop": "06:55",
+    "start": "20260405064500 +0000",
+    "stop": "20260405065500 +0000",
     "startTs": 1775371500000,
     "stopTs": 1775372100000,
     "title": "Tilawat E Quran",
     "desc": "Ustad Parhezgar reads and interprets the verses of the Quran for the viewers.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062675"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "06:55",
-    "stop": "07:20",
+    "start": "20260405065500 +0000",
+    "stop": "20260405072000 +0000",
     "startTs": 1775372100000,
     "stopTs": 1775373600000,
     "title": "Azan & Namaz e Zohar",
     "desc": "Devotees come together to offer prayers and seek blessings from the Almighty.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062660"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "07:20",
-    "stop": "07:35",
+    "start": "20260405072000 +0000",
+    "stop": "20260405073500 +0000",
     "startTs": 1775373600000,
     "stopTs": 1775374500000,
     "title": "Day Dua & Ziyarat",
     "desc": "A religious leader recites devotional verses and prayers in praise of the Almighty.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062663"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "07:35",
-    "stop": "07:45",
+    "start": "20260405073500 +0000",
+    "stop": "20260405074500 +0000",
     "startTs": 1775374500000,
     "stopTs": 1775375100000,
     "title": "Har Roz Qur'an aur Itrat ke Sath",
     "desc": "A religious leader sheds lights on the benefits of reading the Quran.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062676"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "07:45",
-    "stop": "08:00",
+    "start": "20260405074500 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775375100000,
     "stopTs": 1775376000000,
     "title": "The Leader of Women Across the Universe",
     "desc": "A religious leader sheds light on the teachings of the Almighty.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062681"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260405080000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775377800000,
     "title": "Sawalon ka Safar",
     "desc": "Contestants answer questions pretaining to Islamic teachings in a bid to win the grand prize.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062684"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260405083000 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775379600000,
     "title": "Aap Mai Aur Farsi",
     "desc": "A subject matter expert teaches the Persian language in a way that is easy to understand.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062671"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "09:00",
-    "stop": "09:35",
+    "start": "20260405090000 +0000",
+    "stop": "20260405093500 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775381700000,
     "title": "Salaam Kids",
     "desc": "A religious expert explains the teachings of Islam in a way that children can understand.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062667"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "09:35",
-    "stop": "10:00",
+    "start": "20260405093500 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381700000,
     "stopTs": 1775383200000,
     "title": "Sunday Madrasah",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062659"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "10:00",
-    "stop": "10:35",
+    "start": "20260405100000 +0000",
+    "stop": "20260405103500 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775385300000,
     "title": "Tafseer of Quran",
     "desc": "The host interacts with a religious scholar as they read and interpret the verses of the Quran.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062655"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "10:35",
-    "stop": "11:05",
+    "start": "20260405103500 +0000",
+    "stop": "20260405110500 +0000",
     "startTs": 1775385300000,
     "stopTs": 1775387100000,
     "title": "Haqeeqat Today",
     "desc": "The host sheds light on unique stories that showcases the true spirit of humanity.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062682"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "11:05",
-    "stop": "11:55",
+    "start": "20260405110500 +0000",
+    "stop": "20260405115500 +0000",
     "startTs": 1775387100000,
     "stopTs": 1775390100000,
     "title": "Satayesh",
     "desc": "A Muslim religious leader delivers a detailed discourse on Islam and its practices.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062679"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "11:55",
-    "stop": "12:25",
+    "start": "20260405115500 +0000",
+    "stop": "20260405122500 +0000",
     "startTs": 1775390100000,
     "stopTs": 1775391900000,
     "title": "Hum Aur Islam",
     "desc": "A religious scholar discusses Islamic teachings and how to live as a true Muslim.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062687"
   },
   {
     "channelId": "ts161",
     "channelName": "Channel WIN",
-    "start": "12:25",
-    "stop": "00:25",
+    "start": "20260405122500 +0000",
+    "stop": "20260406002500 +0000",
     "startTs": 1775391900000,
     "stopTs": 1775435100000,
     "title": "Tilawat e Quran",
     "desc": "A religious leader reads and interprets the verses of the Holy Quran for the viewers.",
-    "category": null
+    "channel": "ts161",
+    "catchup-id": "93062680"
   }
 ]

@@ -2,287 +2,313 @@
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "18:30",
-    "stop": "19:30",
+    "start": "20260404183000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775331000000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059771"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "19:30",
-    "stop": "20:30",
+    "start": "20260404193000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775334600000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059782"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "20:30",
-    "stop": "21:30",
+    "start": "20260404203000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775338200000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059791"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "21:30",
-    "stop": "22:30",
+    "start": "20260404213000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775341800000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059779"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "22:30",
-    "stop": "23:30",
+    "start": "20260404223000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775345400000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059770"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "23:30",
-    "stop": "00:30",
+    "start": "20260404233000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775349000000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059781"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "00:30",
-    "stop": "01:30",
+    "start": "20260405003000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775352600000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059772"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "01:30",
-    "stop": "02:30",
+    "start": "20260405013000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775356200000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059776"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "02:30",
-    "stop": "03:30",
+    "start": "20260405023000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775359800000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059774"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "03:30",
-    "stop": "04:30",
+    "start": "20260405033000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775363400000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059788"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "04:30",
-    "stop": "05:30",
+    "start": "20260405043000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775367000000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059783"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "05:30",
-    "stop": "06:30",
+    "start": "20260405053000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775370600000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059777"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "06:30",
-    "stop": "07:30",
+    "start": "20260405063000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775374200000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059789"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260405073000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775377800000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059792"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260405083000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775381400000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059784"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "09:30",
-    "stop": "10:30",
+    "start": "20260405093000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775385000000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059787"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "10:30",
-    "stop": "11:30",
+    "start": "20260405103000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775388600000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059778"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "11:30",
-    "stop": "12:30",
+    "start": "20260405113000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775392200000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059785"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "12:30",
-    "stop": "13:30",
+    "start": "20260405123000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775395800000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059786"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "13:30",
-    "stop": "14:30",
+    "start": "20260405133000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775399400000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059775"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "14:30",
-    "stop": "15:30",
+    "start": "20260405143000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775403000000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059780"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "15:30",
-    "stop": "16:30",
+    "start": "20260405153000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775406600000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059790"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "16:30",
-    "stop": "17:30",
+    "start": "20260405163000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775410200000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059769"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "17:30",
-    "stop": "18:30",
+    "start": "20260405173000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775413800000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93059773"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "18:30",
-    "stop": "19:30",
+    "start": "20260405183000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775417400000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93090081"
   },
   {
     "channelId": "ts1789",
     "channelName": "KM News",
-    "start": "19:30",
-    "stop": "20:30",
+    "start": "20260405193000 +0000",
+    "stop": "20260405203000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775421000000,
     "title": "News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1789",
+    "catchup-id": "93090086"
   }
 ]

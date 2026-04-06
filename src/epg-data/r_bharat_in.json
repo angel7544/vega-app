@@ -2,1046 +2,1141 @@
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260404183000 +0000",
+    "stop": "20260404190000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775329200000,
     "title": "Poochta Hai Bharat",
     "desc": "The host invites prominent personalities for a discussion on the latest political events.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069777"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260404190000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775329200000,
     "stopTs": 1775331000000,
     "title": "Poochta Hai Bharat",
     "desc": "The host invites prominent personalities for a discussion on the latest political events.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069783"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260404193000 +0000",
+    "stop": "20260404200000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775332800000,
     "title": "Ye Bharat Ki Baat Hai",
     "desc": "The host presents the latest updates about the political, social and economical issues of the world.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069819"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260404200000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775332800000,
     "stopTs": 1775334600000,
     "title": "Ye Bharat Ki Baat Hai",
     "desc": "The host presents the latest updates about the political, social and economical issues of the world.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069789"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260404203000 +0000",
+    "stop": "20260404210000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775336400000,
     "title": "Mahabharat",
     "desc": "The host illuminates current political and economic developments.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069814"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260404210000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775336400000,
     "stopTs": 1775338200000,
     "title": "Mahabharat",
     "desc": "The host illuminates current political and economic developments.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069818"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260404213000 +0000",
+    "stop": "20260404220000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775340000000,
     "title": "Ye Bharat Ki Baat Hai",
     "desc": "The host presents the latest updates about the political, social and economical issues of the world.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069801"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260404220000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775340000000,
     "stopTs": 1775341800000,
     "title": "Ye Bharat Ki Baat Hai",
     "desc": "The host presents the latest updates about the political, social and economical issues of the world.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069782"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260404223000 +0000",
+    "stop": "20260404230000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775343600000,
     "title": "Mahabharat",
     "desc": "The host illuminates current political and economic developments.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069807"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260404230000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775343600000,
     "stopTs": 1775345400000,
     "title": "Mahabharat",
     "desc": "The host illuminates current political and economic developments.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069785"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260404233000 +0000",
+    "stop": "20260405000000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775347200000,
     "title": "Poochta Hai Bharat",
     "desc": "The host invites prominent personalities for a discussion on the latest political events.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069809"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260405000000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775347200000,
     "stopTs": 1775349000000,
     "title": "Poochta Hai Bharat",
     "desc": "The host invites prominent personalities for a discussion on the latest political events.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069775"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260405003000 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775350800000,
     "title": "Good Morning Bharat",
     "desc": "The host presents a sharp overview of India's top headlines each morning.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069797"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260405010000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775352600000,
     "title": "Khabrein Superfat / 2 Min Dunia",
     "desc": "The host presents the latest political, social, sports and economic news updates.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069796"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260405013000 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775354400000,
     "title": "Kya Hua, Kya Hoga?",
     "desc": "The host presents the latest information on various important issues and events.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069822"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260405020000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775356200000,
     "title": "Bhagyaphal",
     "desc": "A renowned astrologer suggests astrological remedies for the problems of the viewers.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069778"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260405023000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775358000000,
     "title": "30 Second, 30 Khabrein",
     "desc": "The host presents the top 30 important headlines and major updates in the country.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069787"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "Raftaar 100",
     "desc": "The host sheds light on the latest news updates and developments happening in India.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069820"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "Morning Prime@9",
     "desc": "The host sheds light on the latest news updates and developments making headlines.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069813"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "Bullet 100",
     "desc": "The host presents a detailed coverage of the latest news from across the world.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069803"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260405043000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775365200000,
     "title": "Live & Breaking / 2 Min Bharat",
     "desc": "The host sheds light on top news stories from across the nation and the world.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069799"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775367000000,
     "title": "Live & Breaking",
     "desc": "The host presents the latest updates on social, economic and political issues, live.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069788"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260405053000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775368800000,
     "title": "Live & Breaking",
     "desc": "The host presents the latest updates on social, economic and political issues, live.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069815"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260405060000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370600000,
     "title": "Live & Breaking",
     "desc": "The host presents the latest updates on social, economic and political issues, live.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069821"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260405063000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775372400000,
     "title": "Live & Breaking",
     "desc": "The host presents the latest updates on social, economic and political issues, live.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069802"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "Raftaar 100",
     "desc": "The host sheds light on the latest news updates and developments happening in India.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069800"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260405073000 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775376000000,
     "title": "Live & Breaking",
     "desc": "The host presents the latest updates on social, economic and political issues, live.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069793"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260405080000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775377800000,
     "title": "Live & Breaking",
     "desc": "The host presents the latest updates on social, economic and political issues, live.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069780"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260405083000 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775379600000,
     "title": "Live & Breaking",
     "desc": "The host presents the latest updates on social, economic and political issues, live.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069816"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260405090000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775381400000,
     "title": "7 Mein 70",
     "desc": "The host presents the 70 most important news stories in seven minutes.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069806"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260405093000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775383200000,
     "title": "Live & Breaking / 2 Min Bharat",
     "desc": "The host sheds light on top news stories from across the nation and the world.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069810"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260405100000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775385000000,
     "title": "Live & Breaking",
     "desc": "The host presents the latest updates on social, economic and political issues, live.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069781"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260405103000 +0000",
+    "stop": "20260405110000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775386800000,
     "title": "Live & Breaking",
     "desc": "The host presents the latest updates on social, economic and political issues, live.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069811"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260405110000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775386800000,
     "stopTs": 1775388600000,
     "title": "Raftaar 100",
     "desc": "The host sheds light on the latest news updates and developments happening in India.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069808"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260405113000 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775390400000,
     "title": "Prahar",
     "desc": "The host sheds light on several important and brewing issues of public interest in detail.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069790"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "Prahar",
     "desc": "The host sheds light on several important and brewing issues of public interest in detail.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069805"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260405123000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775394000000,
     "title": "Mahabharat",
     "desc": "The host illuminates current political and economic developments.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069779"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260405130000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395800000,
     "title": "Mahabharat",
     "desc": "The host illuminates current political and economic developments.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069798"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260405133000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775397600000,
     "title": "Poochta Hai Bharat",
     "desc": "The host invites prominent personalities for a discussion on the latest political events.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069791"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "Poochta Hai Bharat",
     "desc": "The host invites prominent personalities for a discussion on the latest political events.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069786"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775401200000,
     "title": "Rashtra Sarvopari",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069817"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "Rashtra Sarvopari",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069804"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260405153000 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775404800000,
     "title": "Ye Bharat Ki Baat Hai",
     "desc": "The host presents the latest updates about the political, social and economical issues of the world.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069795"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260405160000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775406600000,
     "title": "Ye Bharat Ki Baat Hai",
     "desc": "The host presents the latest updates about the political, social and economical issues of the world.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069792"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "Master Stroke",
     "desc": "The host presents a detailed report of the latest news stories from around the region.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069794"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "Badi Khabar",
     "desc": "The host presents the biggest news stories and updates of the day.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069776"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260405173000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775412000000,
     "title": "Final Cut",
     "desc": "The host sheds light on trailers and songs from popular upcoming movies.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069812"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260405180000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775413800000,
     "title": "Rapid Fire",
     "desc": "The host sheds light on some of the latest national as well as regional news updates.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93069784"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260406183000 +0000",
+    "stop": "20260406190000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775502000000,
     "title": "Poochta Hai Bharat",
     "desc": "The host invites prominent personalities for a discussion on the latest political events.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143652"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260406190000 +0000",
+    "stop": "20260406193000 +0000",
     "startTs": 1775502000000,
     "stopTs": 1775503800000,
     "title": "Poochta Hai Bharat",
     "desc": "The host invites prominent personalities for a discussion on the latest political events.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143611"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260406193000 +0000",
+    "stop": "20260406200000 +0000",
     "startTs": 1775503800000,
     "stopTs": 1775505600000,
     "title": "Ye Bharat Ki Baat Hai",
     "desc": "The host presents the latest updates about the political, social and economical issues of the world.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143644"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260406200000 +0000",
+    "stop": "20260406203000 +0000",
     "startTs": 1775505600000,
     "stopTs": 1775507400000,
     "title": "Ye Bharat Ki Baat Hai",
     "desc": "The host presents the latest updates about the political, social and economical issues of the world.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143624"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260406203000 +0000",
+    "stop": "20260406210000 +0000",
     "startTs": 1775507400000,
     "stopTs": 1775509200000,
     "title": "Mahabharat",
     "desc": "The host illuminates current political and economic developments.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143639"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260406210000 +0000",
+    "stop": "20260406213000 +0000",
     "startTs": 1775509200000,
     "stopTs": 1775511000000,
     "title": "Mahabharat",
     "desc": "The host illuminates current political and economic developments.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143608"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260406213000 +0000",
+    "stop": "20260406220000 +0000",
     "startTs": 1775511000000,
     "stopTs": 1775512800000,
     "title": "Ye Bharat Ki Baat Hai",
     "desc": "The host presents the latest updates about the political, social and economical issues of the world.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143612"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260406220000 +0000",
+    "stop": "20260406223000 +0000",
     "startTs": 1775512800000,
     "stopTs": 1775514600000,
     "title": "Ye Bharat Ki Baat Hai",
     "desc": "The host presents the latest updates about the political, social and economical issues of the world.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143630"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260406223000 +0000",
+    "stop": "20260406230000 +0000",
     "startTs": 1775514600000,
     "stopTs": 1775516400000,
     "title": "Mahabharat",
     "desc": "The host illuminates current political and economic developments.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143625"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260406230000 +0000",
+    "stop": "20260406233000 +0000",
     "startTs": 1775516400000,
     "stopTs": 1775518200000,
     "title": "Mahabharat",
     "desc": "The host illuminates current political and economic developments.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143616"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260406233000 +0000",
+    "stop": "20260407000000 +0000",
     "startTs": 1775518200000,
     "stopTs": 1775520000000,
     "title": "Poochta Hai Bharat",
     "desc": "The host invites prominent personalities for a discussion on the latest political events.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143635"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260407000000 +0000",
+    "stop": "20260407003000 +0000",
     "startTs": 1775520000000,
     "stopTs": 1775521800000,
     "title": "Poochta Hai Bharat",
     "desc": "The host invites prominent personalities for a discussion on the latest political events.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143622"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260407003000 +0000",
+    "stop": "20260407010000 +0000",
     "startTs": 1775521800000,
     "stopTs": 1775523600000,
     "title": "Good Morning Bharat",
     "desc": "The host presents a sharp overview of India's top headlines each morning.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143634"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260407010000 +0000",
+    "stop": "20260407013000 +0000",
     "startTs": 1775523600000,
     "stopTs": 1775525400000,
     "title": "Khabrein Superfat / 2 Min Dunia",
     "desc": "The host presents the latest political, social, sports and economic news updates.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143641"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260407013000 +0000",
+    "stop": "20260407020000 +0000",
     "startTs": 1775525400000,
     "stopTs": 1775527200000,
     "title": "Kya Hua, Kya Hoga?",
     "desc": "The host presents the latest information on various important issues and events.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143609"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260407020000 +0000",
+    "stop": "20260407023000 +0000",
     "startTs": 1775527200000,
     "stopTs": 1775529000000,
     "title": "Bhagyaphal",
     "desc": "A renowned astrologer suggests astrological remedies for the problems of the viewers.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143620"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260407023000 +0000",
+    "stop": "20260407030000 +0000",
     "startTs": 1775529000000,
     "stopTs": 1775530800000,
     "title": "30 Second, 30 Khabrein",
     "desc": "The host presents the top 30 important headlines and major updates in the country.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143638"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260407030000 +0000",
+    "stop": "20260407033000 +0000",
     "startTs": 1775530800000,
     "stopTs": 1775532600000,
     "title": "Raftaar 100",
     "desc": "The host sheds light on the latest news updates and developments happening in India.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143631"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260407033000 +0000",
+    "stop": "20260407040000 +0000",
     "startTs": 1775532600000,
     "stopTs": 1775534400000,
     "title": "Morning Prime@9",
     "desc": "The host sheds light on the latest news updates and developments making headlines.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143655"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260407040000 +0000",
+    "stop": "20260407043000 +0000",
     "startTs": 1775534400000,
     "stopTs": 1775536200000,
     "title": "Bullet 100",
     "desc": "The host presents a detailed coverage of the latest news from across the world.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143636"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260407043000 +0000",
+    "stop": "20260407050000 +0000",
     "startTs": 1775536200000,
     "stopTs": 1775538000000,
     "title": "Live & Breaking / 2 Min Bharat",
     "desc": "The host sheds light on top news stories from across the nation and the world.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143633"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260407050000 +0000",
+    "stop": "20260407053000 +0000",
     "startTs": 1775538000000,
     "stopTs": 1775539800000,
     "title": "Live & Breaking",
     "desc": "The host presents the latest updates on social, economic and political issues, live.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143615"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260407053000 +0000",
+    "stop": "20260407060000 +0000",
     "startTs": 1775539800000,
     "stopTs": 1775541600000,
     "title": "Live & Breaking",
     "desc": "The host presents the latest updates on social, economic and political issues, live.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143613"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260407060000 +0000",
+    "stop": "20260407063000 +0000",
     "startTs": 1775541600000,
     "stopTs": 1775543400000,
     "title": "Live & Breaking",
     "desc": "The host presents the latest updates on social, economic and political issues, live.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143643"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260407063000 +0000",
+    "stop": "20260407070000 +0000",
     "startTs": 1775543400000,
     "stopTs": 1775545200000,
     "title": "Live & Breaking",
     "desc": "The host presents the latest updates on social, economic and political issues, live.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143626"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260407070000 +0000",
+    "stop": "20260407073000 +0000",
     "startTs": 1775545200000,
     "stopTs": 1775547000000,
     "title": "Raftaar 100",
     "desc": "The host sheds light on the latest news updates and developments happening in India.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143645"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260407073000 +0000",
+    "stop": "20260407080000 +0000",
     "startTs": 1775547000000,
     "stopTs": 1775548800000,
     "title": "Live & Breaking",
     "desc": "The host presents the latest updates on social, economic and political issues, live.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143632"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260407080000 +0000",
+    "stop": "20260407083000 +0000",
     "startTs": 1775548800000,
     "stopTs": 1775550600000,
     "title": "Live & Breaking",
     "desc": "The host presents the latest updates on social, economic and political issues, live.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143627"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260407083000 +0000",
+    "stop": "20260407090000 +0000",
     "startTs": 1775550600000,
     "stopTs": 1775552400000,
     "title": "Live & Breaking",
     "desc": "The host presents the latest updates on social, economic and political issues, live.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143646"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260407090000 +0000",
+    "stop": "20260407093000 +0000",
     "startTs": 1775552400000,
     "stopTs": 1775554200000,
     "title": "7 Mein 70",
     "desc": "The host presents the 70 most important news stories in seven minutes.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143637"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260407093000 +0000",
+    "stop": "20260407100000 +0000",
     "startTs": 1775554200000,
     "stopTs": 1775556000000,
     "title": "Live & Breaking / 2 Min Bharat",
     "desc": "The host sheds light on top news stories from across the nation and the world.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143618"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260407100000 +0000",
+    "stop": "20260407103000 +0000",
     "startTs": 1775556000000,
     "stopTs": 1775557800000,
     "title": "Live & Breaking",
     "desc": "The host presents the latest updates on social, economic and political issues, live.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143619"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260407103000 +0000",
+    "stop": "20260407110000 +0000",
     "startTs": 1775557800000,
     "stopTs": 1775559600000,
     "title": "Live & Breaking",
     "desc": "The host presents the latest updates on social, economic and political issues, live.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143651"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260407110000 +0000",
+    "stop": "20260407113000 +0000",
     "startTs": 1775559600000,
     "stopTs": 1775561400000,
     "title": "Raftaar 100",
     "desc": "The host sheds light on the latest news updates and developments happening in India.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143621"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260407113000 +0000",
+    "stop": "20260407120000 +0000",
     "startTs": 1775561400000,
     "stopTs": 1775563200000,
     "title": "Prahar",
     "desc": "The host sheds light on several important and brewing issues of public interest in detail.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143649"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260407120000 +0000",
+    "stop": "20260407123000 +0000",
     "startTs": 1775563200000,
     "stopTs": 1775565000000,
     "title": "Prahar",
     "desc": "The host sheds light on several important and brewing issues of public interest in detail.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143648"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260407123000 +0000",
+    "stop": "20260407130000 +0000",
     "startTs": 1775565000000,
     "stopTs": 1775566800000,
     "title": "Mahabharat",
     "desc": "The host illuminates current political and economic developments.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143610"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260407130000 +0000",
+    "stop": "20260407133000 +0000",
     "startTs": 1775566800000,
     "stopTs": 1775568600000,
     "title": "Mahabharat",
     "desc": "The host illuminates current political and economic developments.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143617"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260407133000 +0000",
+    "stop": "20260407140000 +0000",
     "startTs": 1775568600000,
     "stopTs": 1775570400000,
     "title": "Poochta Hai Bharat",
     "desc": "The host invites prominent personalities for a discussion on the latest political events.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143647"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260407140000 +0000",
+    "stop": "20260407143000 +0000",
     "startTs": 1775570400000,
     "stopTs": 1775572200000,
     "title": "Poochta Hai Bharat",
     "desc": "The host invites prominent personalities for a discussion on the latest political events.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143642"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260407143000 +0000",
+    "stop": "20260407150000 +0000",
     "startTs": 1775572200000,
     "stopTs": 1775574000000,
     "title": "Rashtra Sarvopari",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143650"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260407150000 +0000",
+    "stop": "20260407153000 +0000",
     "startTs": 1775574000000,
     "stopTs": 1775575800000,
     "title": "Rashtra Sarvopari",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143614"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260407160000 +0000",
+    "stop": "20260407163000 +0000",
     "startTs": 1775577600000,
     "stopTs": 1775579400000,
     "title": "Ye Bharat Ki Baat Hai",
     "desc": "The host presents the latest updates about the political, social and economical issues of the world.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143640"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260407163000 +0000",
+    "stop": "20260407170000 +0000",
     "startTs": 1775579400000,
     "stopTs": 1775581200000,
     "title": "Master Stroke",
     "desc": "The host presents a detailed report of the latest news stories from around the region.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143623"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260407170000 +0000",
+    "stop": "20260407173000 +0000",
     "startTs": 1775581200000,
     "stopTs": 1775583000000,
     "title": "Badi Khabar",
     "desc": "The host presents the biggest news stories and updates of the day.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143653"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260407173000 +0000",
+    "stop": "20260407180000 +0000",
     "startTs": 1775583000000,
     "stopTs": 1775584800000,
     "title": "Final Cut",
     "desc": "The host sheds light on trailers and songs from popular upcoming movies.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143629"
   },
   {
     "channelId": "ts696",
     "channelName": "R Bharat",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260407180000 +0000",
+    "stop": "20260407183000 +0000",
     "startTs": 1775584800000,
     "stopTs": 1775586600000,
     "title": "Rapid Fire",
     "desc": "The host sheds light on some of the latest national as well as regional news updates.",
-    "category": null
+    "channel": "ts696",
+    "catchup-id": "93143654"
   }
 ]

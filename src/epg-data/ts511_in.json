@@ -2,518 +2,565 @@
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "18:30",
-    "stop": "19:30",
+    "start": "20260404183000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775331000000,
     "title": "Chilax",
     "desc": "A compilation of songs recorded by various talented artistes is played back to back.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93071998"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "19:30",
-    "stop": "23:30",
+    "start": "20260404193000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775345400000,
     "title": "BreakFree",
     "desc": "A curated collection of popular songs from famous movies, featuring renowned artists.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93071988"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "23:30",
-    "stop": "00:30",
+    "start": "20260404233000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775349000000,
     "title": "Mellisaiye",
     "desc": "A collection of famous Tamil songs from films with performances by celebrated actors.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93071979"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "00:30",
-    "stop": "01:30",
+    "start": "20260405003000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775352600000,
     "title": "Flashback",
     "desc": "A comprehensive compilation of some of the most popular songs from the 80s and 90s.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93072005"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "01:30",
-    "stop": "02:30",
+    "start": "20260405013000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775356200000,
     "title": "Latest Hits",
     "desc": "A compilation of the latest tracks, offering a wide range of new music to enjoy.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93071984"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "02:30",
-    "stop": "03:30",
+    "start": "20260405023000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775359800000,
     "title": "Fresh Beats",
     "desc": "A comprehensive collection of popular and entertaining songs by various musical artists.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93071982"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "04:30",
-    "stop": "05:30",
+    "start": "20260405043000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775367000000,
     "title": "Back To 90' s",
     "desc": "A compilation of melodious songs from the 1990s composed by various artists back-to-back.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93071995"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260405053000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775368800000,
     "title": "Non-Stop Hits",
     "desc": "A compilation of popular Bollywood songs to showcase diverse melodies and styles.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93071989"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260405060000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370600000,
     "title": "Non-Stop Hits",
     "desc": "A compilation of popular Bollywood songs to showcase diverse melodies and styles.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93072007"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260405063000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775372400000,
     "title": "Scene Oda Pattu",
     "desc": "A comprehensive compilation of remarkable film scenes and popular songs are played.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93072001"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "Scene Oda Pattu",
     "desc": "A comprehensive compilation of remarkable film scenes and popular songs are played.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93072002"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260405073000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775377800000,
     "title": "Mellisaiye",
     "desc": "A collection of famous Tamil songs from films with performances by celebrated actors.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93072004"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260405083000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775381400000,
     "title": "BreakFree",
     "desc": "A curated collection of popular songs from famous movies, featuring renowned artists.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93071990"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "09:30",
-    "stop": "10:30",
+    "start": "20260405093000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775385000000,
     "title": "Back To 90' s",
     "desc": "A compilation of melodious songs from the 1990s composed by various artists back-to-back.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93071986"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260405103000 +0000",
+    "stop": "20260405110000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775386800000,
     "title": "Non-Stop Hits",
     "desc": "A compilation of popular Bollywood songs to showcase diverse melodies and styles.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93071985"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260405110000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775386800000,
     "stopTs": 1775388600000,
     "title": "Non-Stop Hits",
     "desc": "A compilation of popular Bollywood songs to showcase diverse melodies and styles.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93072000"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260405113000 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775390400000,
     "title": "Scene Oda Pattu",
     "desc": "A comprehensive compilation of remarkable film scenes and popular songs are played.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93071994"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "Scene Oda Pattu",
     "desc": "A comprehensive compilation of remarkable film scenes and popular songs are played.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93071999"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260405123000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775394000000,
     "title": "Scene Oda Pattu",
     "desc": "A comprehensive compilation of remarkable film scenes and popular songs are played.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93072003"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260405130000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395800000,
     "title": "Scene Oda Pattu",
     "desc": "A comprehensive compilation of remarkable film scenes and popular songs are played.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93072006"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260405133000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775397600000,
     "title": "Double Shot",
     "desc": "A compilation of melodious songs composed by musicians and performed by renowned singers.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93071983"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "Double Shot",
     "desc": "A compilation of melodious songs composed by musicians and performed by renowned singers.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93071981"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775401200000,
     "title": "Mass Masala",
     "desc": "A comprehensive compilation of various popular songs from well-known Kollywood films.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93071996"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "Mass Masala",
     "desc": "A comprehensive compilation of various popular songs from well-known Kollywood films.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93071993"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260405153000 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775404800000,
     "title": "Soup Songs",
     "desc": "A collection of songs on unrequited love and broken hearts is played back to back.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93072008"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260405160000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775406600000,
     "title": "Hits of Simran",
     "desc": "A compilation of superhit songs of the popular actress Simran is played back-to-back.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93071997"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "Marana Kuthu",
     "desc": "A comprehensive compilation of popular and well-known songs is played back-to-back.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93071987"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "Marana Kuthu",
     "desc": "A comprehensive compilation of popular and well-known songs is played back-to-back.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93071992"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "17:30",
-    "stop": "18:30",
+    "start": "20260405173000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775413800000,
     "title": "Flashback",
     "desc": "A comprehensive compilation of a series of comedy scenes are played in a quick succession.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93071991"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "18:30",
-    "stop": "19:30",
+    "start": "20260405183000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775417400000,
     "title": "Chilax",
     "desc": "A compilation of songs recorded by various talented artistes is played back to back.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93110686"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "19:30",
-    "stop": "23:30",
+    "start": "20260405193000 +0000",
+    "stop": "20260405233000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775431800000,
     "title": "BreakFree",
     "desc": "A curated collection of popular songs from famous movies, featuring renowned artists.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93110657"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "23:30",
-    "stop": "00:30",
+    "start": "20260405233000 +0000",
+    "stop": "20260406003000 +0000",
     "startTs": 1775431800000,
     "stopTs": 1775435400000,
     "title": "Mellisaiye",
     "desc": "A collection of famous Tamil songs from films with performances by celebrated actors.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93110677"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "00:30",
-    "stop": "01:30",
+    "start": "20260406003000 +0000",
+    "stop": "20260406013000 +0000",
     "startTs": 1775435400000,
     "stopTs": 1775439000000,
     "title": "Flashback",
     "desc": "A comprehensive compilation of some of the most popular songs from the 80s and 90s.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93110691"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "01:30",
-    "stop": "02:30",
+    "start": "20260406013000 +0000",
+    "stop": "20260406023000 +0000",
     "startTs": 1775439000000,
     "stopTs": 1775442600000,
     "title": "Latest Hits",
     "desc": "A compilation of the latest tracks, offering a wide range of new music to enjoy.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93110663"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "02:30",
-    "stop": "03:30",
+    "start": "20260406023000 +0000",
+    "stop": "20260406033000 +0000",
     "startTs": 1775442600000,
     "stopTs": 1775446200000,
     "title": "Fresh Beats",
     "desc": "A comprehensive collection of popular and entertaining songs by various musical artists.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93110668"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "03:30",
-    "stop": "04:30",
+    "start": "20260406033000 +0000",
+    "stop": "20260406043000 +0000",
     "startTs": 1775446200000,
     "stopTs": 1775449800000,
     "title": "Sun Music Super Morning",
     "desc": "An extensive collection of famous songs performed by renowned musicians, is played.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93110667"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "04:30",
-    "stop": "05:30",
+    "start": "20260406043000 +0000",
+    "stop": "20260406053000 +0000",
     "startTs": 1775449800000,
     "stopTs": 1775453400000,
     "title": "Back To 90' s",
     "desc": "A compilation of melodious songs from the 1990s composed by various artists back-to-back.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93110675"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "05:30",
-    "stop": "06:30",
+    "start": "20260406053000 +0000",
+    "stop": "20260406063000 +0000",
     "startTs": 1775453400000,
     "stopTs": 1775457000000,
     "title": "Marana Kuthu",
     "desc": "A comprehensive compilation of popular and well-known songs is played back-to-back.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93110662"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260406073000 +0000",
+    "stop": "20260406083000 +0000",
     "startTs": 1775460600000,
     "stopTs": 1775464200000,
     "title": "Mellisaiye",
     "desc": "A collection of famous Tamil songs from films with performances by celebrated actors.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93110652"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "09:30",
-    "stop": "10:30",
+    "start": "20260406093000 +0000",
+    "stop": "20260406103000 +0000",
     "startTs": 1775467800000,
     "stopTs": 1775471400000,
     "title": "Back To 90' s",
     "desc": "A compilation of melodious songs from the 1990s composed by various artists back-to-back.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93110688"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "10:30",
-    "stop": "11:30",
+    "start": "20260406103000 +0000",
+    "stop": "20260406113000 +0000",
     "startTs": 1775471400000,
     "stopTs": 1775475000000,
     "title": "Non-Stop Hits",
     "desc": "A compilation of popular Bollywood songs to showcase diverse melodies and styles.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93110676"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "11:30",
-    "stop": "12:30",
+    "start": "20260406113000 +0000",
+    "stop": "20260406123000 +0000",
     "startTs": 1775475000000,
     "stopTs": 1775478600000,
     "title": "Hit List",
     "desc": "A curated collection of famous songs written and performed by renowned artists, is played.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93110654"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260406133000 +0000",
+    "stop": "20260406140000 +0000",
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "BreakFree",
     "desc": "A curated collection of popular songs from famous movies, featuring renowned artists.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93110659"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260406140000 +0000",
+    "stop": "20260406143000 +0000",
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Double Shot",
     "desc": "A compilation of melodious songs composed by musicians and performed by renowned singers.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93110673"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "14:30",
-    "stop": "15:30",
+    "start": "20260406143000 +0000",
+    "stop": "20260406153000 +0000",
     "startTs": 1775485800000,
     "stopTs": 1775489400000,
     "title": "Mass Masala",
     "desc": "A comprehensive compilation of various popular songs from well-known Kollywood films.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93110687"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "16:30",
-    "stop": "17:30",
+    "start": "20260406163000 +0000",
+    "stop": "20260406173000 +0000",
     "startTs": 1775493000000,
     "stopTs": 1775496600000,
     "title": "Soup Songs",
     "desc": "A collection of songs on unrequited love and broken hearts is played back to back.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93110684"
   },
   {
     "channelId": "ts511",
     "channelName": "ts511",
-    "start": "17:30",
-    "stop": "18:30",
+    "start": "20260406173000 +0000",
+    "stop": "20260406183000 +0000",
     "startTs": 1775496600000,
     "stopTs": 1775500200000,
     "title": "Flashback",
     "desc": "A comprehensive compilation of a series of comedy scenes are played in a quick succession.",
-    "category": null
+    "channel": "ts511",
+    "catchup-id": "93110685"
   }
 ]

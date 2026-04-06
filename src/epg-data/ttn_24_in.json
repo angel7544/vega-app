@@ -2,320 +2,349 @@
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "18:30",
-    "stop": "19:30",
+    "start": "20260404183000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775331000000,
     "title": "Devotional Program",
     "desc": "A religious leader delivers a discourse on the importance of devotion to God.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159051"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "19:30",
-    "stop": "20:30",
+    "start": "20260404193000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775334600000,
     "title": "Devotional Program",
     "desc": "A religious leader delivers a discourse on the importance of devotion to God.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159058"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260404203000 +0000",
+    "stop": "20260404210000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775336400000,
     "title": "Advertisement",
     "desc": "The host showcases a wide range of products manufactured by popular brands.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159053"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260404210000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775336400000,
     "stopTs": 1775338200000,
     "title": "Vartalap",
     "desc": "The host invites guests who share their perspectives on several important topics.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159057"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "21:30",
-    "stop": "22:30",
+    "start": "20260404213000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775341800000,
     "title": "Khabarain Dinbhar",
     "desc": "The host highlights key national news stories, updates and developments across the country.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159066"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "22:30",
-    "stop": "23:30",
+    "start": "20260404223000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775345400000,
     "title": "Show Limitless",
     "desc": "The host shares the latest news updates and developments from various fields.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159068"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "23:30",
-    "stop": "00:30",
+    "start": "20260404233000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775349000000,
     "title": "Educational Show",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159069"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "00:30",
-    "stop": "01:30",
+    "start": "20260405003000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775352600000,
     "title": "Devotional Program",
     "desc": "A religious leader delivers a discourse on the importance of devotion to God.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159047"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "01:30",
-    "stop": "02:30",
+    "start": "20260405013000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775356200000,
     "title": "Darshan Live",
     "desc": "Priests and devotees offer their prayers to the revered deity at a prominent temple, live.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159059"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260405023000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775358000000,
     "title": "Advertisement",
     "desc": "The host showcases a wide range of products manufactured by popular brands.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159064"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "National Breaking",
     "desc": "The host highlights key national news stories and developments across the country.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159043"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "03:30",
-    "stop": "04:30",
+    "start": "20260405033000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775363400000,
     "title": "Mukhya Samachar",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159067"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "04:30",
-    "stop": "05:30",
+    "start": "20260405043000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775367000000,
     "title": "Show Limitless",
     "desc": "The host shares the latest news updates and developments from various fields.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159061"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "05:30",
-    "stop": "06:30",
+    "start": "20260405053000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775370600000,
     "title": "Educational Show",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159044"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "06:30",
-    "stop": "07:30",
+    "start": "20260405063000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775374200000,
     "title": "Desh Duniya Khabre",
     "desc": "The host presents the latest news and updates from around the country and the world.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159060"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260405073000 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775376000000,
     "title": "Advertisement",
     "desc": "The host showcases a wide range of products manufactured by popular brands.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159042"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260405080000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775377800000,
     "title": "Apna Uttar Pradesh",
     "desc": "A presenter reports important news and socio-political developments in Uttar Pradesh.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159046"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260405083000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775381400000,
     "title": "TTN 24 Special",
     "desc": "The host provides a detailed analysis of the latest events on issues of public interest.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159049"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "09:30",
-    "stop": "10:30",
+    "start": "20260405093000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775385000000,
     "title": "Desh Duniya Special",
     "desc": "The host presents important issues and provides updates on current events.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159056"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "10:30",
-    "stop": "11:30",
+    "start": "20260405103000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775388600000,
     "title": "TTN 24 Special",
     "desc": "The host provides a detailed analysis of the latest events on issues of public interest.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159054"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "11:30",
-    "stop": "12:30",
+    "start": "20260405113000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775392200000,
     "title": "Mukhya Samachar",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159052"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260405123000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775394000000,
     "title": "Madhya Pradesh Special",
     "desc": "The host collates and presents critical updates pertaining to the state of Madhya Pradesh.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159063"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260405130000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395800000,
     "title": "Bihar Jharkhand Special",
     "desc": "The host presents news stories and updates from the Indian states of Bihar and Jharkhand.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159045"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "13:30",
-    "stop": "14:30",
+    "start": "20260405133000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775399400000,
     "title": "Khabarain Dinbhar",
     "desc": "The host highlights key national news stories, updates and developments across the country.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159041"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "14:30",
-    "stop": "15:30",
+    "start": "20260405143000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775403000000,
     "title": "Mukhya Samachar",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159055"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "15:30",
-    "stop": "16:30",
+    "start": "20260405153000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775406600000,
     "title": "TTN 24 Special",
     "desc": "The host provides a detailed analysis of the latest events on issues of public interest.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159062"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "16:30",
-    "stop": "17:30",
+    "start": "20260405163000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775410200000,
     "title": "Khabarain Dinbhar",
     "desc": "The host highlights key national news stories, updates and developments across the country.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159048"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260405173000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775412000000,
     "title": "Late Night News",
     "desc": "The host presents important issues and provides updates on current events.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159050"
   },
   {
     "channelId": "ts1079",
     "channelName": "TTN 24",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260405180000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775413800000,
     "title": "Advertisement",
     "desc": "The host showcases a wide range of products manufactured by popular brands.",
-    "category": null
+    "channel": "ts1079",
+    "catchup-id": "93159065"
   }
 ]

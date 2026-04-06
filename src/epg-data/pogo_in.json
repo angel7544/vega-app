@@ -1,966 +1,1762 @@
-{
-  "channelId": "Pogo.in",
-  "channelName": "IN - Pogo",
-  "programs": [
-    {
-      "start": "20260405183000 +0000",
-      "stop": "20260405193000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E2 Upon learning of Michael Money's sinister plan to steal the town's funds, Simmba leaps into action to stop him from executing the robbery."
-    },
-    {
-      "start": "20260405193000 +0000",
-      "stop": "20260405203000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260405203000 +0000",
-      "stop": "20260405204200 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S5 E225 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260405204200 +0000",
-      "stop": "20260405205400 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S5 E226 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260405205400 +0000",
-      "stop": "20260405210600 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S5 E227 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260405210600 +0000",
-      "stop": "20260405211800 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S5 E228 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260405211800 +0000",
-      "stop": "20260405213000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S5 E229 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260405213000 +0000",
-      "stop": "20260405214200 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E251 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260405214200 +0000",
-      "stop": "20260405215400 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E252 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260405215400 +0000",
-      "stop": "20260405220600 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E253 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260405220600 +0000",
-      "stop": "20260405221800 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E254 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260405221800 +0000",
-      "stop": "20260405223000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E255 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260405223000 +0000",
-      "stop": "20260405224200 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S3 E22 In order to prank Pillu Kaka and Simmba, Kittu puts out a fake news report saying the Duggu Dumbbell has been seen committing a robbery."
-    },
-    {
-      "start": "20260405224200 +0000",
-      "stop": "20260405225400 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S3 E25 Simmba and Kittu compete against each other to become the school captain. But during their test, the school bully, Gangis, plans to make sure that they both fail."
-    },
-    {
-      "start": "20260405225400 +0000",
-      "stop": "20260405230600 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S3 E26 Simmba gets into trouble when he becomes too distracted by the new drone that he got and thus struggles to concentrate and solve a case."
-    },
-    {
-      "start": "20260405230600 +0000",
-      "stop": "20260405231800 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "A biker gang rolls into town and starts wreaking havoc. But when Simmba is alerted of this, he uses techniques from his favourite comic book to apprehend the gang."
-    },
-    {
-      "start": "20260405231800 +0000",
-      "stop": "20260405233000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "With an exam looming around the corner, Simmba is locked in a room so that he can concentrate on his studies. But being locked in the room drives him crazy with boredom."
-    },
-    {
-      "start": "20260405233000 +0000",
-      "stop": "20260406003000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260406003000 +0000",
-      "stop": "20260406013000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260406013000 +0000",
-      "stop": "20260406020000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260406020000 +0000",
-      "stop": "20260406030000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260406030000 +0000",
-      "stop": "20260406033000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260406033000 +0000",
-      "stop": "20260406040000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260406040000 +0000",
-      "stop": "20260406050000 +0000",
-      "title": "Omi No.1",
-      "desc": "Omi, an ultra rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life."
-    },
-    {
-      "start": "20260406050000 +0000",
-      "stop": "20260406060000 +0000",
-      "title": "Cb Mahashaitaan Ka Mahavaar",
-      "desc": "S1 E1 This is TV Show - Entertainment Category."
-    },
-    {
-      "start": "20260406060000 +0000",
-      "stop": "20260406064500 +0000",
-      "title": "Cb Mahashaitaan Ka Mahavaar",
-      "desc": "S1 E2 This is TV Show - Entertainment Category."
-    },
-    {
-      "start": "20260406064500 +0000",
-      "stop": "20260406073000 +0000",
-      "title": "Cb Mahashaitaan Ka Mahavaar",
-      "desc": "S1 E3 This is TV Show - Entertainment Category."
-    },
-    {
-      "start": "20260406073000 +0000",
-      "stop": "20260406083000 +0000",
-      "title": "Ls Narkasur Aur Kans",
-      "desc": "S1 E1 Narkasur and Kans are two evil entities who threaten to destroy the world. Little Singham must fight and defeat them in order to protect everyone."
-    },
-    {
-      "start": "20260406083000 +0000",
-      "stop": "20260406091500 +0000",
-      "title": "Ls Narkasur Aur Kans",
-      "desc": "S1 E2 Narkasur and Kans are two evil entities who threaten to destroy the world. Little Singham must fight and defeat them in order to protect everyone."
-    },
-    {
-      "start": "20260406091500 +0000",
-      "stop": "20260406100000 +0000",
-      "title": "Ls Narkasur Aur Kans",
-      "desc": "S1 E3 Narkasur and Kans are two evil entities who threaten to destroy the world. Little Singham must fight and defeat them in order to protect everyone."
-    },
-    {
-      "start": "20260406100000 +0000",
-      "stop": "20260406103000 +0000",
-      "title": "Grizzy and the Lemmings",
-      "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house."
-    },
-    {
-      "start": "20260406103000 +0000",
-      "stop": "20260406110000 +0000",
-      "title": "Grizzy and the Lemmings",
-      "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house."
-    },
-    {
-      "start": "20260406110000 +0000",
-      "stop": "20260406113000 +0000",
-      "title": "Grizzy and the Lemmings",
-      "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house."
-    },
-    {
-      "start": "20260406113000 +0000",
-      "stop": "20260406120000 +0000",
-      "title": "Grizzy and the Lemmings",
-      "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house."
-    },
-    {
-      "start": "20260406120000 +0000",
-      "stop": "20260406123000 +0000",
-      "title": "Grizzy and the Lemmings",
-      "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house."
-    },
-    {
-      "start": "20260406123000 +0000",
-      "stop": "20260406130000 +0000",
-      "title": "Grizzy and the Lemmings",
-      "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house."
-    },
-    {
-      "start": "20260406130000 +0000",
-      "stop": "20260406140000 +0000",
-      "title": "Omi No.1",
-      "desc": "Omi, an ultra rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life."
-    },
-    {
-      "start": "20260406140000 +0000",
-      "stop": "20260406143000 +0000",
-      "title": "Omi No.1",
-      "desc": "Omi, an ultra rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life."
-    },
-    {
-      "start": "20260406143000 +0000",
-      "stop": "20260406150000 +0000",
-      "title": "Omi No.1",
-      "desc": "Omi, an ultra rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life."
-    },
-    {
-      "start": "20260406150000 +0000",
-      "stop": "20260406153000 +0000",
-      "title": "Mighty Little Bheem",
-      "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller."
-    },
-    {
-      "start": "20260406153000 +0000",
-      "stop": "20260406160000 +0000",
-      "title": "Mighty Little Bheem",
-      "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller."
-    },
-    {
-      "start": "20260406160000 +0000",
-      "stop": "20260406163000 +0000",
-      "title": "Mighty Little Bheem",
-      "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller."
-    },
-    {
-      "start": "20260406163000 +0000",
-      "stop": "20260406170000 +0000",
-      "title": "Mighty Little Bheem",
-      "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller."
-    },
-    {
-      "start": "20260406170000 +0000",
-      "stop": "20260406173000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260406173000 +0000",
-      "stop": "20260406180000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260406180000 +0000",
-      "stop": "20260406183000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260406183000 +0000",
-      "stop": "20260406193000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E2 Upon learning of Michael Money's sinister plan to steal the town's funds, Simmba leaps into action to stop him from executing the robbery."
-    },
-    {
-      "start": "20260406193000 +0000",
-      "stop": "20260406203000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260406203000 +0000",
-      "stop": "20260406204200 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S5 E230 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260406204200 +0000",
-      "stop": "20260406205400 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S5 E205 Michael Money targets diamond shops, posing as a merchant with a counterfeit gem. Meanwhile, Simmba's holiday is cut short as he's tasked to protect the city's premier jewellery store."
-    },
-    {
-      "start": "20260406205400 +0000",
-      "stop": "20260406210600 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S5 E206 Duggu Dumbbell proposes a triple-feat strength contest to Simmba, with the defeated party exiting town. However, Simmba's wit and cunning may outmatch Duggu's raw physical might."
-    },
-    {
-      "start": "20260406210600 +0000",
-      "stop": "20260406211800 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S5 E207 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260406211800 +0000",
-      "stop": "20260406213000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S5 E208 The police force suddenly goes missing, causing the city to erupt in chaos due to Raaka's ultimate plan. As a result, Simmba, Pillu Kaka and Dholekar try to bring justice back."
-    },
-    {
-      "start": "20260406213000 +0000",
-      "stop": "20260406214200 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E256 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260406214200 +0000",
-      "stop": "20260406215400 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E231 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260406215400 +0000",
-      "stop": "20260406220600 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E232 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260406220600 +0000",
-      "stop": "20260406221800 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E233 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260406221800 +0000",
-      "stop": "20260406223000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E234 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260406223000 +0000",
-      "stop": "20260406224200 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "Simmba joins forces with Dholekar to locate the lost money printing machine. But when they find the machine they are ambushed by Raka the burglar and his goons."
-    },
-    {
-      "start": "20260406224200 +0000",
-      "stop": "20260406225400 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S3 E1 Simmba and his friends head to the circus for a day of fun and entertainment. But soon Simmba finds that Lambu Bauna is at the circus pickpocketing wallets from pant pockets."
-    },
-    {
-      "start": "20260406225400 +0000",
-      "stop": "20260406230600 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "When Simmba finds out that Ricky is being bullied by Amar, Akbar and Tony, he decides to intervene and give them a taste of their own medicine."
-    },
-    {
-      "start": "20260406230600 +0000",
-      "stop": "20260406231800 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S3 E2 While Simmba, Ricky and Kittu wait for Pillu Kaka to arrive, Nasty Ninja tries to steal an expensive jade locket from Pillu Kaka. So, Simmba sets out to catch Nasty Ninja before it is too late."
-    },
-    {
-      "start": "20260406231800 +0000",
-      "stop": "20260406233000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S3 E7 Simmba and his friends stand up to a group of bullies who ruin their camping trip and take actions to teach them a lesson."
-    },
-    {
-      "start": "20260406233000 +0000",
-      "stop": "20260407003000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260407003000 +0000",
-      "stop": "20260407013000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260407013000 +0000",
-      "stop": "20260407020000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260407020000 +0000",
-      "stop": "20260407030000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260407030000 +0000",
-      "stop": "20260407033000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260407033000 +0000",
-      "stop": "20260407040000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260407040000 +0000",
-      "stop": "20260407050000 +0000",
-      "title": "Omi No.1",
-      "desc": "Omi, an ultra-rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life."
-    },
-    {
-      "start": "20260407050000 +0000",
-      "stop": "20260407060000 +0000",
-      "title": "Chhota Bheem Aur Tabora Ka Maha-Muqaabala",
-      "desc": "Bheem, a valiant young boy, embarks on an adventurous journey with his friends to battle against evil forces and protect his village."
-    },
-    {
-      "start": "20260407060000 +0000",
-      "stop": "20260407064500 +0000",
-      "title": "Chhota Bheem Aur Tabora Ka Maha-Muqaabala",
-      "desc": "Bheem, a valiant young boy, embarks on an adventurous journey with his friends to battle against evil forces and protect his village."
-    },
-    {
-      "start": "20260407064500 +0000",
-      "stop": "20260407073000 +0000",
-      "title": "Chhota Bheem Aur Tabora Ka Maha-Muqaabala",
-      "desc": "Bheem, a valiant young boy, embarks on an adventurous journey with his friends to battle against evil forces and protect his village."
-    },
-    {
-      "start": "20260407073000 +0000",
-      "stop": "20260407090000 +0000",
-      "title": "Little Singham Mahabali",
-      "desc": "Little Singham lands in ancient Mirchigadh to face off against a zombie king and his undead army in order to claim the title of Ultimate Warrior and save the city."
-    },
-    {
-      "start": "20260407090000 +0000",
-      "stop": "20260407100000 +0000",
-      "title": "Little Singham Bandarpur Mein Hu Ha Hu",
-      "desc": "Little Singham and his team have to find a way to rescue Chikki from the magical land of Bandarpur. However, they are met with many obstacles on their journey."
-    },
-    {
-      "start": "20260407100000 +0000",
-      "stop": "20260407103000 +0000",
-      "title": "Grizzy and the Lemmings",
-      "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house."
-    },
-    {
-      "start": "20260407103000 +0000",
-      "stop": "20260407110000 +0000",
-      "title": "Grizzy and the Lemmings",
-      "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house."
-    },
-    {
-      "start": "20260407110000 +0000",
-      "stop": "20260407113000 +0000",
-      "title": "Grizzy and the Lemmings",
-      "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house."
-    },
-    {
-      "start": "20260407113000 +0000",
-      "stop": "20260407120000 +0000",
-      "title": "Grizzy and the Lemmings",
-      "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house."
-    },
-    {
-      "start": "20260407120000 +0000",
-      "stop": "20260407123000 +0000",
-      "title": "Grizzy and the Lemmings",
-      "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house."
-    },
-    {
-      "start": "20260407123000 +0000",
-      "stop": "20260407130000 +0000",
-      "title": "Grizzy and the Lemmings",
-      "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house."
-    },
-    {
-      "start": "20260407130000 +0000",
-      "stop": "20260407140000 +0000",
-      "title": "Omi No.1",
-      "desc": "Omi, an ultra-rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life."
-    },
-    {
-      "start": "20260407140000 +0000",
-      "stop": "20260407143000 +0000",
-      "title": "Omi No.1",
-      "desc": "Omi, an ultra-rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life."
-    },
-    {
-      "start": "20260407143000 +0000",
-      "stop": "20260407150000 +0000",
-      "title": "Omi No.1",
-      "desc": "Omi, an ultra-rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life."
-    },
-    {
-      "start": "20260407150000 +0000",
-      "stop": "20260407153000 +0000",
-      "title": "Mighty Little Bheem",
-      "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller."
-    },
-    {
-      "start": "20260407153000 +0000",
-      "stop": "20260407160000 +0000",
-      "title": "Mighty Little Bheem",
-      "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller."
-    },
-    {
-      "start": "20260407160000 +0000",
-      "stop": "20260407163000 +0000",
-      "title": "Mighty Little Bheem",
-      "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller."
-    },
-    {
-      "start": "20260407163000 +0000",
-      "stop": "20260407170000 +0000",
-      "title": "Mighty Little Bheem",
-      "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller."
-    },
-    {
-      "start": "20260407170000 +0000",
-      "stop": "20260407173000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260407173000 +0000",
-      "stop": "20260407180000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260407180000 +0000",
-      "stop": "20260407183000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260407183000 +0000",
-      "stop": "20260407193000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E2 Upon learning of Michael Money's sinister plan to steal the town's funds, Simmba leaps into action to stop him from executing the robbery."
-    },
-    {
-      "start": "20260407193000 +0000",
-      "stop": "20260407203000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260407203000 +0000",
-      "stop": "20260407204200 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S5 E209 After school, Simmba and his friends challenge Akbar, Amar and Tony to a kabaddi match to determine who gets to use the school playground."
-    },
-    {
-      "start": "20260407204200 +0000",
-      "stop": "20260407205400 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S5 E210 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260407205400 +0000",
-      "stop": "20260407210600 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S5 E211 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260407210600 +0000",
-      "stop": "20260407211800 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S5 E212 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260407211800 +0000",
-      "stop": "20260407213000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S5 E213 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260407213000 +0000",
-      "stop": "20260407214200 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E235 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260407214200 +0000",
-      "stop": "20260407215400 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E236 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260407215400 +0000",
-      "stop": "20260407220600 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E237 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260407220600 +0000",
-      "stop": "20260407221800 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E238 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260407221800 +0000",
-      "stop": "20260407223000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E239 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260407223000 +0000",
-      "stop": "20260407224200 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S3 E13 Pillu Kaka and Dholekarare decide to go off by themselves to bust a diamond smuggling ring. But they soon end up trapped in a warehouse waiting for someone to save them."
-    },
-    {
-      "start": "20260407224200 +0000",
-      "stop": "20260407225400 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S3 E10 Simba decides to take part in the annual cycle race. Here he goes head-to-head with Tony who challenges him to win the race."
-    },
-    {
-      "start": "20260407225400 +0000",
-      "stop": "20260407230600 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S3 E9 During a camping trip from school, Simmba and his friends start to face trouble from a group of four bullies who are trying to ruin their camping experience."
-    },
-    {
-      "start": "20260407230600 +0000",
-      "stop": "20260407231800 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "At the town fair, Aadha and Pauna rig the shooting game in order to cheat some money out of the children. But Simmba comes to know of their scheme and decides to teach them a lesson."
-    },
-    {
-      "start": "20260407231800 +0000",
-      "stop": "20260407233000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S3 E3 When Simmba learns that Duggu Dumbbell has stolen money and gym equipment, he comes up with a way to catch him before he does any more crimes."
-    },
-    {
-      "start": "20260407233000 +0000",
-      "stop": "20260408003000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260408003000 +0000",
-      "stop": "20260408013000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260408013000 +0000",
-      "stop": "20260408020000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260408020000 +0000",
-      "stop": "20260408030000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260408030000 +0000",
-      "stop": "20260408033000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260408033000 +0000",
-      "stop": "20260408040000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260408040000 +0000",
-      "stop": "20260408050000 +0000",
-      "title": "Omi No.1",
-      "desc": "Omi, an ultra-rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life."
-    },
-    {
-      "start": "20260408050000 +0000",
-      "stop": "20260408060000 +0000",
-      "title": "CB Andhakarmay Ka Chakravyuh",
-      "desc": "E1 Join Chhota Bheem and his friends as they come together to defeat the strange parasites attacking and taking control of Dholakpur."
-    },
-    {
-      "start": "20260408060000 +0000",
-      "stop": "20260408064500 +0000",
-      "title": "CB Andhakarmay Ka Chakravyuh",
-      "desc": "E2 Join Chhota Bheem and his friends as they come together to defeat the strange parasites attacking and taking control of Dholakpur."
-    },
-    {
-      "start": "20260408064500 +0000",
-      "stop": "20260408073000 +0000",
-      "title": "CB Andhakarmay Ka Chakravyuh",
-      "desc": "S1 E3 Join Chhota Bheem and his friends as they come together to defeat the strange parasites attacking and taking control of Dholakpur."
-    },
-    {
-      "start": "20260408073000 +0000",
-      "stop": "20260408083000 +0000",
-      "title": "Little Singham Aur Maharavan Se Muqabala",
-      "desc": "S1 E1 This is TV Show - Animation Category."
-    },
-    {
-      "start": "20260408083000 +0000",
-      "stop": "20260408091500 +0000",
-      "title": "Little Singham Aur Maharavan Se Muqabala",
-      "desc": "S1 E2 This is TV Show - Animation Category."
-    },
-    {
-      "start": "20260408091500 +0000",
-      "stop": "20260408100000 +0000",
-      "title": "Little Singham Aur Maharavan Se Muqabala",
-      "desc": "S1 E3 This is TV Show - Animation Category."
-    },
-    {
-      "start": "20260408100000 +0000",
-      "stop": "20260408103000 +0000",
-      "title": "Grizzy and the Lemmings",
-      "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house."
-    },
-    {
-      "start": "20260408103000 +0000",
-      "stop": "20260408110000 +0000",
-      "title": "Grizzy and the Lemmings",
-      "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house."
-    },
-    {
-      "start": "20260408110000 +0000",
-      "stop": "20260408113000 +0000",
-      "title": "Grizzy and the Lemmings",
-      "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house."
-    },
-    {
-      "start": "20260408113000 +0000",
-      "stop": "20260408120000 +0000",
-      "title": "Grizzy and the Lemmings",
-      "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house."
-    },
-    {
-      "start": "20260408120000 +0000",
-      "stop": "20260408123000 +0000",
-      "title": "Grizzy and the Lemmings",
-      "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house."
-    },
-    {
-      "start": "20260408123000 +0000",
-      "stop": "20260408130000 +0000",
-      "title": "Grizzy and the Lemmings",
-      "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house."
-    },
-    {
-      "start": "20260408130000 +0000",
-      "stop": "20260408140000 +0000",
-      "title": "Omi No.1",
-      "desc": "Omi, an ultra-rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life."
-    },
-    {
-      "start": "20260408140000 +0000",
-      "stop": "20260408143000 +0000",
-      "title": "Omi No.1",
-      "desc": "Omi, an ultra-rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life."
-    },
-    {
-      "start": "20260408143000 +0000",
-      "stop": "20260408150000 +0000",
-      "title": "Omi No.1",
-      "desc": "Omi, an ultra-rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life."
-    },
-    {
-      "start": "20260408150000 +0000",
-      "stop": "20260408153000 +0000",
-      "title": "Mighty Little Bheem",
-      "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller."
-    },
-    {
-      "start": "20260408153000 +0000",
-      "stop": "20260408160000 +0000",
-      "title": "Mighty Little Bheem",
-      "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller."
-    },
-    {
-      "start": "20260408160000 +0000",
-      "stop": "20260408163000 +0000",
-      "title": "Mighty Little Bheem",
-      "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller."
-    },
-    {
-      "start": "20260408163000 +0000",
-      "stop": "20260408170000 +0000",
-      "title": "Mighty Little Bheem",
-      "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller."
-    },
-    {
-      "start": "20260408170000 +0000",
-      "stop": "20260408173000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260408173000 +0000",
-      "stop": "20260408180000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260408180000 +0000",
-      "stop": "20260408183000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260408183000 +0000",
-      "stop": "20260408193000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E2 Upon learning of Michael Money's sinister plan to steal the town's funds, Simmba leaps into action to stop him from executing the robbery."
-    },
-    {
-      "start": "20260408193000 +0000",
-      "stop": "20260408203000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260408203000 +0000",
-      "stop": "20260408204200 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S5 E214 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260408204200 +0000",
-      "stop": "20260408205400 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S5 E215 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260408205400 +0000",
-      "stop": "20260408210600 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S5 E216 Meetha Majnu, a chef, sells jars of pickles laced with a substance that makes people fall asleep. Later, he enters their home at night in order to steal their belongings."
-    },
-    {
-      "start": "20260408210600 +0000",
-      "stop": "20260408211800 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S5 E217 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260408211800 +0000",
-      "stop": "20260408213000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S5 E218 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260408213000 +0000",
-      "stop": "20260408214200 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E240 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260408214200 +0000",
-      "stop": "20260408215400 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E241 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260408215400 +0000",
-      "stop": "20260408220600 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E242 Simba learns that Raka is making a plan to kidnap the mayor. As a result, he decides to become a bodyguard in order to protect him."
-    },
-    {
-      "start": "20260408220600 +0000",
-      "stop": "20260408221800 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E243 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260408221800 +0000",
-      "stop": "20260408223000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S1 E244 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260408223000 +0000",
-      "stop": "20260408224200 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S3 E12 Micheal Money dresses up as a news reporter in order to commit a robbery. But when Simmba comes to know about this, he devises a plan to stop him."
-    },
-    {
-      "start": "20260408224200 +0000",
-      "stop": "20260408225400 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S3 E4 After watching a horror movie, Pillu Kaka starts getting scared when he has to guard a bungalow at night. So when Teekhi Jalebi gets to know of this, she plans to scare him."
-    },
-    {
-      "start": "20260408225400 +0000",
-      "stop": "20260408230600 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S3 E17 Simmba comes down with a cold because he ate too much ice cream, causing him to be too sick to catch the culprits behind Sunday and Monday's robberies."
-    },
-    {
-      "start": "20260408230600 +0000",
-      "stop": "20260408231800 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S3 E11 During a confrontation, Duggu Dumbbell challenges Simmba to three different strength contests to determine who is more powerful."
-    },
-    {
-      "start": "20260408231800 +0000",
-      "stop": "20260408233000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "S3 E18 When Kittu gets stuck while trying to solve a case, she goes to Simmba for help. But when Simmba shows no interest in wanting to help her, she takes it as a challenge to solve the case on her own."
-    },
-    {
-      "start": "20260408233000 +0000",
-      "stop": "20260409003000 +0000",
-      "title": "Smaashhing Simmba",
-      "desc": "Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society."
-    },
-    {
-      "start": "20260409003000 +0000",
-      "stop": "20260409013000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260409013000 +0000",
-      "stop": "20260409020000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260409020000 +0000",
-      "stop": "20260409030000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260409030000 +0000",
-      "stop": "20260409033000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    },
-    {
-      "start": "20260409033000 +0000",
-      "stop": "20260409040000 +0000",
-      "title": "Chhota Bheem",
-      "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur."
-    }
-  ]
-}
+[
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260405183000 +0000",
+    "stop": "20260405193000 +0000",
+    "startTs": 1775413800000,
+    "stopTs": 1775417400000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E2 Upon learning of Michael Money's sinister plan to steal the town's funds, Simmba leaps into action to stop him from executing the robbery.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260405193000 +0000",
+    "stop": "20260405203000 +0000",
+    "startTs": 1775417400000,
+    "stopTs": 1775421000000,
+    "title": "Smaashhing Simmba",
+    "desc": "Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260405203000 +0000",
+    "stop": "20260405204200 +0000",
+    "startTs": 1775421000000,
+    "stopTs": 1775421720000,
+    "title": "Smaashhing Simmba",
+    "desc": "S5 E225 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260405204200 +0000",
+    "stop": "20260405205400 +0000",
+    "startTs": 1775421720000,
+    "stopTs": 1775422440000,
+    "title": "Smaashhing Simmba",
+    "desc": "S5 E226 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260405205400 +0000",
+    "stop": "20260405210600 +0000",
+    "startTs": 1775422440000,
+    "stopTs": 1775423160000,
+    "title": "Smaashhing Simmba",
+    "desc": "S5 E227 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260405210600 +0000",
+    "stop": "20260405211800 +0000",
+    "startTs": 1775423160000,
+    "stopTs": 1775423880000,
+    "title": "Smaashhing Simmba",
+    "desc": "S5 E228 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260405211800 +0000",
+    "stop": "20260405213000 +0000",
+    "startTs": 1775423880000,
+    "stopTs": 1775424600000,
+    "title": "Smaashhing Simmba",
+    "desc": "S5 E229 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260405213000 +0000",
+    "stop": "20260405214200 +0000",
+    "startTs": 1775424600000,
+    "stopTs": 1775425320000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E251 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260405214200 +0000",
+    "stop": "20260405215400 +0000",
+    "startTs": 1775425320000,
+    "stopTs": 1775426040000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E252 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260405215400 +0000",
+    "stop": "20260405220600 +0000",
+    "startTs": 1775426040000,
+    "stopTs": 1775426760000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E253 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260405220600 +0000",
+    "stop": "20260405221800 +0000",
+    "startTs": 1775426760000,
+    "stopTs": 1775427480000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E254 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260405221800 +0000",
+    "stop": "20260405223000 +0000",
+    "startTs": 1775427480000,
+    "stopTs": 1775428200000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E255 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260405223000 +0000",
+    "stop": "20260405224200 +0000",
+    "startTs": 1775428200000,
+    "stopTs": 1775428920000,
+    "title": "Smaashhing Simmba",
+    "desc": "S3 E22 In order to prank Pillu Kaka and Simmba, Kittu puts out a fake news report saying the Duggu Dumbbell has been seen committing a robbery.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260405224200 +0000",
+    "stop": "20260405225400 +0000",
+    "startTs": 1775428920000,
+    "stopTs": 1775429640000,
+    "title": "Smaashhing Simmba",
+    "desc": "S3 E25 Simmba and Kittu compete against each other to become the school captain. But during their test, the school bully, Gangis, plans to make sure that they both fail.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260405225400 +0000",
+    "stop": "20260405230600 +0000",
+    "startTs": 1775429640000,
+    "stopTs": 1775430360000,
+    "title": "Smaashhing Simmba",
+    "desc": "S3 E26 Simmba gets into trouble when he becomes too distracted by the new drone that he got and thus struggles to concentrate and solve a case.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260405230600 +0000",
+    "stop": "20260405231800 +0000",
+    "startTs": 1775430360000,
+    "stopTs": 1775431080000,
+    "title": "Smaashhing Simmba",
+    "desc": "A biker gang rolls into town and starts wreaking havoc. But when Simmba is alerted of this, he uses techniques from his favourite comic book to apprehend the gang.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260405231800 +0000",
+    "stop": "20260405233000 +0000",
+    "startTs": 1775431080000,
+    "stopTs": 1775431800000,
+    "title": "Smaashhing Simmba",
+    "desc": "With an exam looming around the corner, Simmba is locked in a room so that he can concentrate on his studies. But being locked in the room drives him crazy with boredom.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260405233000 +0000",
+    "stop": "20260406003000 +0000",
+    "startTs": 1775431800000,
+    "stopTs": 1775435400000,
+    "title": "Smaashhing Simmba",
+    "desc": "Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406003000 +0000",
+    "stop": "20260406013000 +0000",
+    "startTs": 1775435400000,
+    "stopTs": 1775439000000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406013000 +0000",
+    "stop": "20260406020000 +0000",
+    "startTs": 1775439000000,
+    "stopTs": 1775440800000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406020000 +0000",
+    "stop": "20260406030000 +0000",
+    "startTs": 1775440800000,
+    "stopTs": 1775444400000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406030000 +0000",
+    "stop": "20260406033000 +0000",
+    "startTs": 1775444400000,
+    "stopTs": 1775446200000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406033000 +0000",
+    "stop": "20260406040000 +0000",
+    "startTs": 1775446200000,
+    "stopTs": 1775448000000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406040000 +0000",
+    "stop": "20260406050000 +0000",
+    "startTs": 1775448000000,
+    "stopTs": 1775451600000,
+    "title": "Omi No.1",
+    "desc": "Omi, an ultra rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406050000 +0000",
+    "stop": "20260406060000 +0000",
+    "startTs": 1775451600000,
+    "stopTs": 1775455200000,
+    "title": "Cb Mahashaitaan Ka Mahavaar",
+    "desc": "S1 E1 This is TV Show - Entertainment Category.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406060000 +0000",
+    "stop": "20260406064500 +0000",
+    "startTs": 1775455200000,
+    "stopTs": 1775457900000,
+    "title": "Cb Mahashaitaan Ka Mahavaar",
+    "desc": "S1 E2 This is TV Show - Entertainment Category.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406064500 +0000",
+    "stop": "20260406073000 +0000",
+    "startTs": 1775457900000,
+    "stopTs": 1775460600000,
+    "title": "Cb Mahashaitaan Ka Mahavaar",
+    "desc": "S1 E3 This is TV Show - Entertainment Category.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406073000 +0000",
+    "stop": "20260406083000 +0000",
+    "startTs": 1775460600000,
+    "stopTs": 1775464200000,
+    "title": "Ls Narkasur Aur Kans",
+    "desc": "S1 E1 Narkasur and Kans are two evil entities who threaten to destroy the world. Little Singham must fight and defeat them in order to protect everyone.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406083000 +0000",
+    "stop": "20260406091500 +0000",
+    "startTs": 1775464200000,
+    "stopTs": 1775466900000,
+    "title": "Ls Narkasur Aur Kans",
+    "desc": "S1 E2 Narkasur and Kans are two evil entities who threaten to destroy the world. Little Singham must fight and defeat them in order to protect everyone.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406091500 +0000",
+    "stop": "20260406100000 +0000",
+    "startTs": 1775466900000,
+    "stopTs": 1775469600000,
+    "title": "Ls Narkasur Aur Kans",
+    "desc": "S1 E3 Narkasur and Kans are two evil entities who threaten to destroy the world. Little Singham must fight and defeat them in order to protect everyone.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406100000 +0000",
+    "stop": "20260406103000 +0000",
+    "startTs": 1775469600000,
+    "stopTs": 1775471400000,
+    "title": "Grizzy and the Lemmings",
+    "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406103000 +0000",
+    "stop": "20260406110000 +0000",
+    "startTs": 1775471400000,
+    "stopTs": 1775473200000,
+    "title": "Grizzy and the Lemmings",
+    "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406110000 +0000",
+    "stop": "20260406113000 +0000",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Grizzy and the Lemmings",
+    "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406113000 +0000",
+    "stop": "20260406120000 +0000",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Grizzy and the Lemmings",
+    "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406120000 +0000",
+    "stop": "20260406123000 +0000",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Grizzy and the Lemmings",
+    "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406123000 +0000",
+    "stop": "20260406130000 +0000",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Grizzy and the Lemmings",
+    "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406130000 +0000",
+    "stop": "20260406140000 +0000",
+    "startTs": 1775480400000,
+    "stopTs": 1775484000000,
+    "title": "Omi No.1",
+    "desc": "Omi, an ultra rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406140000 +0000",
+    "stop": "20260406143000 +0000",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Omi No.1",
+    "desc": "Omi, an ultra rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406143000 +0000",
+    "stop": "20260406150000 +0000",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Omi No.1",
+    "desc": "Omi, an ultra rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406150000 +0000",
+    "stop": "20260406153000 +0000",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Mighty Little Bheem",
+    "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406153000 +0000",
+    "stop": "20260406160000 +0000",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Mighty Little Bheem",
+    "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406160000 +0000",
+    "stop": "20260406163000 +0000",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Mighty Little Bheem",
+    "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406163000 +0000",
+    "stop": "20260406170000 +0000",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Mighty Little Bheem",
+    "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406170000 +0000",
+    "stop": "20260406173000 +0000",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406173000 +0000",
+    "stop": "20260406180000 +0000",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406180000 +0000",
+    "stop": "20260406183000 +0000",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406183000 +0000",
+    "stop": "20260406193000 +0000",
+    "startTs": 1775500200000,
+    "stopTs": 1775503800000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E2 Upon learning of Michael Money's sinister plan to steal the town's funds, Simmba leaps into action to stop him from executing the robbery.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406193000 +0000",
+    "stop": "20260406203000 +0000",
+    "startTs": 1775503800000,
+    "stopTs": 1775507400000,
+    "title": "Smaashhing Simmba",
+    "desc": "Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406203000 +0000",
+    "stop": "20260406204200 +0000",
+    "startTs": 1775507400000,
+    "stopTs": 1775508120000,
+    "title": "Smaashhing Simmba",
+    "desc": "S5 E230 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406204200 +0000",
+    "stop": "20260406205400 +0000",
+    "startTs": 1775508120000,
+    "stopTs": 1775508840000,
+    "title": "Smaashhing Simmba",
+    "desc": "S5 E205 Michael Money targets diamond shops, posing as a merchant with a counterfeit gem. Meanwhile, Simmba's holiday is cut short as he's tasked to protect the city's premier jewellery store.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406205400 +0000",
+    "stop": "20260406210600 +0000",
+    "startTs": 1775508840000,
+    "stopTs": 1775509560000,
+    "title": "Smaashhing Simmba",
+    "desc": "S5 E206 Duggu Dumbbell proposes a triple-feat strength contest to Simmba, with the defeated party exiting town. However, Simmba's wit and cunning may outmatch Duggu's raw physical might.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406210600 +0000",
+    "stop": "20260406211800 +0000",
+    "startTs": 1775509560000,
+    "stopTs": 1775510280000,
+    "title": "Smaashhing Simmba",
+    "desc": "S5 E207 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406211800 +0000",
+    "stop": "20260406213000 +0000",
+    "startTs": 1775510280000,
+    "stopTs": 1775511000000,
+    "title": "Smaashhing Simmba",
+    "desc": "S5 E208 The police force suddenly goes missing, causing the city to erupt in chaos due to Raaka's ultimate plan. As a result, Simmba, Pillu Kaka and Dholekar try to bring justice back.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406213000 +0000",
+    "stop": "20260406214200 +0000",
+    "startTs": 1775511000000,
+    "stopTs": 1775511720000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E256 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406214200 +0000",
+    "stop": "20260406215400 +0000",
+    "startTs": 1775511720000,
+    "stopTs": 1775512440000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E231 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406215400 +0000",
+    "stop": "20260406220600 +0000",
+    "startTs": 1775512440000,
+    "stopTs": 1775513160000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E232 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406220600 +0000",
+    "stop": "20260406221800 +0000",
+    "startTs": 1775513160000,
+    "stopTs": 1775513880000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E233 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406221800 +0000",
+    "stop": "20260406223000 +0000",
+    "startTs": 1775513880000,
+    "stopTs": 1775514600000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E234 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406223000 +0000",
+    "stop": "20260406224200 +0000",
+    "startTs": 1775514600000,
+    "stopTs": 1775515320000,
+    "title": "Smaashhing Simmba",
+    "desc": "Simmba joins forces with Dholekar to locate the lost money printing machine. But when they find the machine they are ambushed by Raka the burglar and his goons.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406224200 +0000",
+    "stop": "20260406225400 +0000",
+    "startTs": 1775515320000,
+    "stopTs": 1775516040000,
+    "title": "Smaashhing Simmba",
+    "desc": "S3 E1 Simmba and his friends head to the circus for a day of fun and entertainment. But soon Simmba finds that Lambu Bauna is at the circus pickpocketing wallets from pant pockets.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406225400 +0000",
+    "stop": "20260406230600 +0000",
+    "startTs": 1775516040000,
+    "stopTs": 1775516760000,
+    "title": "Smaashhing Simmba",
+    "desc": "When Simmba finds out that Ricky is being bullied by Amar, Akbar and Tony, he decides to intervene and give them a taste of their own medicine.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406230600 +0000",
+    "stop": "20260406231800 +0000",
+    "startTs": 1775516760000,
+    "stopTs": 1775517480000,
+    "title": "Smaashhing Simmba",
+    "desc": "S3 E2 While Simmba, Ricky and Kittu wait for Pillu Kaka to arrive, Nasty Ninja tries to steal an expensive jade locket from Pillu Kaka. So, Simmba sets out to catch Nasty Ninja before it is too late.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406231800 +0000",
+    "stop": "20260406233000 +0000",
+    "startTs": 1775517480000,
+    "stopTs": 1775518200000,
+    "title": "Smaashhing Simmba",
+    "desc": "S3 E7 Simmba and his friends stand up to a group of bullies who ruin their camping trip and take actions to teach them a lesson.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260406233000 +0000",
+    "stop": "20260407003000 +0000",
+    "startTs": 1775518200000,
+    "stopTs": 1775521800000,
+    "title": "Smaashhing Simmba",
+    "desc": "Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407003000 +0000",
+    "stop": "20260407013000 +0000",
+    "startTs": 1775521800000,
+    "stopTs": 1775525400000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407013000 +0000",
+    "stop": "20260407020000 +0000",
+    "startTs": 1775525400000,
+    "stopTs": 1775527200000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407020000 +0000",
+    "stop": "20260407030000 +0000",
+    "startTs": 1775527200000,
+    "stopTs": 1775530800000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407030000 +0000",
+    "stop": "20260407033000 +0000",
+    "startTs": 1775530800000,
+    "stopTs": 1775532600000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407033000 +0000",
+    "stop": "20260407040000 +0000",
+    "startTs": 1775532600000,
+    "stopTs": 1775534400000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407040000 +0000",
+    "stop": "20260407050000 +0000",
+    "startTs": 1775534400000,
+    "stopTs": 1775538000000,
+    "title": "Omi No.1",
+    "desc": "Omi, an ultra-rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407050000 +0000",
+    "stop": "20260407060000 +0000",
+    "startTs": 1775538000000,
+    "stopTs": 1775541600000,
+    "title": "Chhota Bheem Aur Tabora Ka Maha-Muqaabala",
+    "desc": "Bheem, a valiant young boy, embarks on an adventurous journey with his friends to battle against evil forces and protect his village.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407060000 +0000",
+    "stop": "20260407064500 +0000",
+    "startTs": 1775541600000,
+    "stopTs": 1775544300000,
+    "title": "Chhota Bheem Aur Tabora Ka Maha-Muqaabala",
+    "desc": "Bheem, a valiant young boy, embarks on an adventurous journey with his friends to battle against evil forces and protect his village.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407064500 +0000",
+    "stop": "20260407073000 +0000",
+    "startTs": 1775544300000,
+    "stopTs": 1775547000000,
+    "title": "Chhota Bheem Aur Tabora Ka Maha-Muqaabala",
+    "desc": "Bheem, a valiant young boy, embarks on an adventurous journey with his friends to battle against evil forces and protect his village.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407073000 +0000",
+    "stop": "20260407090000 +0000",
+    "startTs": 1775547000000,
+    "stopTs": 1775552400000,
+    "title": "Little Singham Mahabali",
+    "desc": "Little Singham lands in ancient Mirchigadh to face off against a zombie king and his undead army in order to claim the title of Ultimate Warrior and save the city.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407090000 +0000",
+    "stop": "20260407100000 +0000",
+    "startTs": 1775552400000,
+    "stopTs": 1775556000000,
+    "title": "Little Singham Bandarpur Mein Hu Ha Hu",
+    "desc": "Little Singham and his team have to find a way to rescue Chikki from the magical land of Bandarpur. However, they are met with many obstacles on their journey.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407100000 +0000",
+    "stop": "20260407103000 +0000",
+    "startTs": 1775556000000,
+    "stopTs": 1775557800000,
+    "title": "Grizzy and the Lemmings",
+    "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407103000 +0000",
+    "stop": "20260407110000 +0000",
+    "startTs": 1775557800000,
+    "stopTs": 1775559600000,
+    "title": "Grizzy and the Lemmings",
+    "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407110000 +0000",
+    "stop": "20260407113000 +0000",
+    "startTs": 1775559600000,
+    "stopTs": 1775561400000,
+    "title": "Grizzy and the Lemmings",
+    "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407113000 +0000",
+    "stop": "20260407120000 +0000",
+    "startTs": 1775561400000,
+    "stopTs": 1775563200000,
+    "title": "Grizzy and the Lemmings",
+    "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407120000 +0000",
+    "stop": "20260407123000 +0000",
+    "startTs": 1775563200000,
+    "stopTs": 1775565000000,
+    "title": "Grizzy and the Lemmings",
+    "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407123000 +0000",
+    "stop": "20260407130000 +0000",
+    "startTs": 1775565000000,
+    "stopTs": 1775566800000,
+    "title": "Grizzy and the Lemmings",
+    "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407130000 +0000",
+    "stop": "20260407140000 +0000",
+    "startTs": 1775566800000,
+    "stopTs": 1775570400000,
+    "title": "Omi No.1",
+    "desc": "Omi, an ultra-rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407140000 +0000",
+    "stop": "20260407143000 +0000",
+    "startTs": 1775570400000,
+    "stopTs": 1775572200000,
+    "title": "Omi No.1",
+    "desc": "Omi, an ultra-rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407143000 +0000",
+    "stop": "20260407150000 +0000",
+    "startTs": 1775572200000,
+    "stopTs": 1775574000000,
+    "title": "Omi No.1",
+    "desc": "Omi, an ultra-rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407150000 +0000",
+    "stop": "20260407153000 +0000",
+    "startTs": 1775574000000,
+    "stopTs": 1775575800000,
+    "title": "Mighty Little Bheem",
+    "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407153000 +0000",
+    "stop": "20260407160000 +0000",
+    "startTs": 1775575800000,
+    "stopTs": 1775577600000,
+    "title": "Mighty Little Bheem",
+    "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407160000 +0000",
+    "stop": "20260407163000 +0000",
+    "startTs": 1775577600000,
+    "stopTs": 1775579400000,
+    "title": "Mighty Little Bheem",
+    "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407163000 +0000",
+    "stop": "20260407170000 +0000",
+    "startTs": 1775579400000,
+    "stopTs": 1775581200000,
+    "title": "Mighty Little Bheem",
+    "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407170000 +0000",
+    "stop": "20260407173000 +0000",
+    "startTs": 1775581200000,
+    "stopTs": 1775583000000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407173000 +0000",
+    "stop": "20260407180000 +0000",
+    "startTs": 1775583000000,
+    "stopTs": 1775584800000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407180000 +0000",
+    "stop": "20260407183000 +0000",
+    "startTs": 1775584800000,
+    "stopTs": 1775586600000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407183000 +0000",
+    "stop": "20260407193000 +0000",
+    "startTs": 1775586600000,
+    "stopTs": 1775590200000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E2 Upon learning of Michael Money's sinister plan to steal the town's funds, Simmba leaps into action to stop him from executing the robbery.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407193000 +0000",
+    "stop": "20260407203000 +0000",
+    "startTs": 1775590200000,
+    "stopTs": 1775593800000,
+    "title": "Smaashhing Simmba",
+    "desc": "Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407203000 +0000",
+    "stop": "20260407204200 +0000",
+    "startTs": 1775593800000,
+    "stopTs": 1775594520000,
+    "title": "Smaashhing Simmba",
+    "desc": "S5 E209 After school, Simmba and his friends challenge Akbar, Amar and Tony to a kabaddi match to determine who gets to use the school playground.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407204200 +0000",
+    "stop": "20260407205400 +0000",
+    "startTs": 1775594520000,
+    "stopTs": 1775595240000,
+    "title": "Smaashhing Simmba",
+    "desc": "S5 E210 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407205400 +0000",
+    "stop": "20260407210600 +0000",
+    "startTs": 1775595240000,
+    "stopTs": 1775595960000,
+    "title": "Smaashhing Simmba",
+    "desc": "S5 E211 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407210600 +0000",
+    "stop": "20260407211800 +0000",
+    "startTs": 1775595960000,
+    "stopTs": 1775596680000,
+    "title": "Smaashhing Simmba",
+    "desc": "S5 E212 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407211800 +0000",
+    "stop": "20260407213000 +0000",
+    "startTs": 1775596680000,
+    "stopTs": 1775597400000,
+    "title": "Smaashhing Simmba",
+    "desc": "S5 E213 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407213000 +0000",
+    "stop": "20260407214200 +0000",
+    "startTs": 1775597400000,
+    "stopTs": 1775598120000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E235 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407214200 +0000",
+    "stop": "20260407215400 +0000",
+    "startTs": 1775598120000,
+    "stopTs": 1775598840000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E236 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407215400 +0000",
+    "stop": "20260407220600 +0000",
+    "startTs": 1775598840000,
+    "stopTs": 1775599560000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E237 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407220600 +0000",
+    "stop": "20260407221800 +0000",
+    "startTs": 1775599560000,
+    "stopTs": 1775600280000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E238 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407221800 +0000",
+    "stop": "20260407223000 +0000",
+    "startTs": 1775600280000,
+    "stopTs": 1775601000000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E239 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407223000 +0000",
+    "stop": "20260407224200 +0000",
+    "startTs": 1775601000000,
+    "stopTs": 1775601720000,
+    "title": "Smaashhing Simmba",
+    "desc": "S3 E13 Pillu Kaka and Dholekarare decide to go off by themselves to bust a diamond smuggling ring. But they soon end up trapped in a warehouse waiting for someone to save them.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407224200 +0000",
+    "stop": "20260407225400 +0000",
+    "startTs": 1775601720000,
+    "stopTs": 1775602440000,
+    "title": "Smaashhing Simmba",
+    "desc": "S3 E10 Simba decides to take part in the annual cycle race. Here he goes head-to-head with Tony who challenges him to win the race.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407225400 +0000",
+    "stop": "20260407230600 +0000",
+    "startTs": 1775602440000,
+    "stopTs": 1775603160000,
+    "title": "Smaashhing Simmba",
+    "desc": "S3 E9 During a camping trip from school, Simmba and his friends start to face trouble from a group of four bullies who are trying to ruin their camping experience.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407230600 +0000",
+    "stop": "20260407231800 +0000",
+    "startTs": 1775603160000,
+    "stopTs": 1775603880000,
+    "title": "Smaashhing Simmba",
+    "desc": "At the town fair, Aadha and Pauna rig the shooting game in order to cheat some money out of the children. But Simmba comes to know of their scheme and decides to teach them a lesson.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407231800 +0000",
+    "stop": "20260407233000 +0000",
+    "startTs": 1775603880000,
+    "stopTs": 1775604600000,
+    "title": "Smaashhing Simmba",
+    "desc": "S3 E3 When Simmba learns that Duggu Dumbbell has stolen money and gym equipment, he comes up with a way to catch him before he does any more crimes.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260407233000 +0000",
+    "stop": "20260408003000 +0000",
+    "startTs": 1775604600000,
+    "stopTs": 1775608200000,
+    "title": "Smaashhing Simmba",
+    "desc": "Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408003000 +0000",
+    "stop": "20260408013000 +0000",
+    "startTs": 1775608200000,
+    "stopTs": 1775611800000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408013000 +0000",
+    "stop": "20260408020000 +0000",
+    "startTs": 1775611800000,
+    "stopTs": 1775613600000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408020000 +0000",
+    "stop": "20260408030000 +0000",
+    "startTs": 1775613600000,
+    "stopTs": 1775617200000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408030000 +0000",
+    "stop": "20260408033000 +0000",
+    "startTs": 1775617200000,
+    "stopTs": 1775619000000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408033000 +0000",
+    "stop": "20260408040000 +0000",
+    "startTs": 1775619000000,
+    "stopTs": 1775620800000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408040000 +0000",
+    "stop": "20260408050000 +0000",
+    "startTs": 1775620800000,
+    "stopTs": 1775624400000,
+    "title": "Omi No.1",
+    "desc": "Omi, an ultra-rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408050000 +0000",
+    "stop": "20260408060000 +0000",
+    "startTs": 1775624400000,
+    "stopTs": 1775628000000,
+    "title": "CB Andhakarmay Ka Chakravyuh",
+    "desc": "E1 Join Chhota Bheem and his friends as they come together to defeat the strange parasites attacking and taking control of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408060000 +0000",
+    "stop": "20260408064500 +0000",
+    "startTs": 1775628000000,
+    "stopTs": 1775630700000,
+    "title": "CB Andhakarmay Ka Chakravyuh",
+    "desc": "E2 Join Chhota Bheem and his friends as they come together to defeat the strange parasites attacking and taking control of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408064500 +0000",
+    "stop": "20260408073000 +0000",
+    "startTs": 1775630700000,
+    "stopTs": 1775633400000,
+    "title": "CB Andhakarmay Ka Chakravyuh",
+    "desc": "S1 E3 Join Chhota Bheem and his friends as they come together to defeat the strange parasites attacking and taking control of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408073000 +0000",
+    "stop": "20260408083000 +0000",
+    "startTs": 1775633400000,
+    "stopTs": 1775637000000,
+    "title": "Little Singham Aur Maharavan Se Muqabala",
+    "desc": "S1 E1 This is TV Show - Animation Category.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408083000 +0000",
+    "stop": "20260408091500 +0000",
+    "startTs": 1775637000000,
+    "stopTs": 1775639700000,
+    "title": "Little Singham Aur Maharavan Se Muqabala",
+    "desc": "S1 E2 This is TV Show - Animation Category.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408091500 +0000",
+    "stop": "20260408100000 +0000",
+    "startTs": 1775639700000,
+    "stopTs": 1775642400000,
+    "title": "Little Singham Aur Maharavan Se Muqabala",
+    "desc": "S1 E3 This is TV Show - Animation Category.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408100000 +0000",
+    "stop": "20260408103000 +0000",
+    "startTs": 1775642400000,
+    "stopTs": 1775644200000,
+    "title": "Grizzy and the Lemmings",
+    "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408103000 +0000",
+    "stop": "20260408110000 +0000",
+    "startTs": 1775644200000,
+    "stopTs": 1775646000000,
+    "title": "Grizzy and the Lemmings",
+    "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408110000 +0000",
+    "stop": "20260408113000 +0000",
+    "startTs": 1775646000000,
+    "stopTs": 1775647800000,
+    "title": "Grizzy and the Lemmings",
+    "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408113000 +0000",
+    "stop": "20260408120000 +0000",
+    "startTs": 1775647800000,
+    "stopTs": 1775649600000,
+    "title": "Grizzy and the Lemmings",
+    "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408120000 +0000",
+    "stop": "20260408123000 +0000",
+    "startTs": 1775649600000,
+    "stopTs": 1775651400000,
+    "title": "Grizzy and the Lemmings",
+    "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408123000 +0000",
+    "stop": "20260408130000 +0000",
+    "startTs": 1775651400000,
+    "stopTs": 1775653200000,
+    "title": "Grizzy and the Lemmings",
+    "desc": "Grizzly, a bear, lives in the forest ranger's house every time he leaves and considers it as his own. However, things change when a tribe of lemmings moves into the same house.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408130000 +0000",
+    "stop": "20260408140000 +0000",
+    "startTs": 1775653200000,
+    "stopTs": 1775656800000,
+    "title": "Omi No.1",
+    "desc": "Omi, an ultra-rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408140000 +0000",
+    "stop": "20260408143000 +0000",
+    "startTs": 1775656800000,
+    "stopTs": 1775658600000,
+    "title": "Omi No.1",
+    "desc": "Omi, an ultra-rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408143000 +0000",
+    "stop": "20260408150000 +0000",
+    "startTs": 1775658600000,
+    "stopTs": 1775660400000,
+    "title": "Omi No.1",
+    "desc": "Omi, an ultra-rich nine-year-old heir, encounters hilarious and eye-opening situations that teach him about the realities of life.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408150000 +0000",
+    "stop": "20260408153000 +0000",
+    "startTs": 1775660400000,
+    "stopTs": 1775662200000,
+    "title": "Mighty Little Bheem",
+    "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408153000 +0000",
+    "stop": "20260408160000 +0000",
+    "startTs": 1775662200000,
+    "stopTs": 1775664000000,
+    "title": "Mighty Little Bheem",
+    "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408160000 +0000",
+    "stop": "20260408163000 +0000",
+    "startTs": 1775664000000,
+    "stopTs": 1775665800000,
+    "title": "Mighty Little Bheem",
+    "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408163000 +0000",
+    "stop": "20260408170000 +0000",
+    "startTs": 1775665800000,
+    "stopTs": 1775667600000,
+    "title": "Mighty Little Bheem",
+    "desc": "Bheem, an affectionate toddler, has many adventures with his little friends and loving family. Every day he learns something new as he grows taller.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408170000 +0000",
+    "stop": "20260408173000 +0000",
+    "startTs": 1775667600000,
+    "stopTs": 1775669400000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408173000 +0000",
+    "stop": "20260408180000 +0000",
+    "startTs": 1775669400000,
+    "stopTs": 1775671200000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408180000 +0000",
+    "stop": "20260408183000 +0000",
+    "startTs": 1775671200000,
+    "stopTs": 1775673000000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408183000 +0000",
+    "stop": "20260408193000 +0000",
+    "startTs": 1775673000000,
+    "stopTs": 1775676600000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E2 Upon learning of Michael Money's sinister plan to steal the town's funds, Simmba leaps into action to stop him from executing the robbery.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408193000 +0000",
+    "stop": "20260408203000 +0000",
+    "startTs": 1775676600000,
+    "stopTs": 1775680200000,
+    "title": "Smaashhing Simmba",
+    "desc": "Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408203000 +0000",
+    "stop": "20260408204200 +0000",
+    "startTs": 1775680200000,
+    "stopTs": 1775680920000,
+    "title": "Smaashhing Simmba",
+    "desc": "S5 E214 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408204200 +0000",
+    "stop": "20260408205400 +0000",
+    "startTs": 1775680920000,
+    "stopTs": 1775681640000,
+    "title": "Smaashhing Simmba",
+    "desc": "S5 E215 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408205400 +0000",
+    "stop": "20260408210600 +0000",
+    "startTs": 1775681640000,
+    "stopTs": 1775682360000,
+    "title": "Smaashhing Simmba",
+    "desc": "S5 E216 Meetha Majnu, a chef, sells jars of pickles laced with a substance that makes people fall asleep. Later, he enters their home at night in order to steal their belongings.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408210600 +0000",
+    "stop": "20260408211800 +0000",
+    "startTs": 1775682360000,
+    "stopTs": 1775683080000,
+    "title": "Smaashhing Simmba",
+    "desc": "S5 E217 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408211800 +0000",
+    "stop": "20260408213000 +0000",
+    "startTs": 1775683080000,
+    "stopTs": 1775683800000,
+    "title": "Smaashhing Simmba",
+    "desc": "S5 E218 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408213000 +0000",
+    "stop": "20260408214200 +0000",
+    "startTs": 1775683800000,
+    "stopTs": 1775684520000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E240 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408214200 +0000",
+    "stop": "20260408215400 +0000",
+    "startTs": 1775684520000,
+    "stopTs": 1775685240000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E241 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408215400 +0000",
+    "stop": "20260408220600 +0000",
+    "startTs": 1775685240000,
+    "stopTs": 1775685960000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E242 Simba learns that Raka is making a plan to kidnap the mayor. As a result, he decides to become a bodyguard in order to protect him.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408220600 +0000",
+    "stop": "20260408221800 +0000",
+    "startTs": 1775685960000,
+    "stopTs": 1775686680000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E243 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408221800 +0000",
+    "stop": "20260408223000 +0000",
+    "startTs": 1775686680000,
+    "stopTs": 1775687400000,
+    "title": "Smaashhing Simmba",
+    "desc": "S1 E244 Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408223000 +0000",
+    "stop": "20260408224200 +0000",
+    "startTs": 1775687400000,
+    "stopTs": 1775688120000,
+    "title": "Smaashhing Simmba",
+    "desc": "S3 E12 Micheal Money dresses up as a news reporter in order to commit a robbery. But when Simmba comes to know about this, he devises a plan to stop him.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408224200 +0000",
+    "stop": "20260408225400 +0000",
+    "startTs": 1775688120000,
+    "stopTs": 1775688840000,
+    "title": "Smaashhing Simmba",
+    "desc": "S3 E4 After watching a horror movie, Pillu Kaka starts getting scared when he has to guard a bungalow at night. So when Teekhi Jalebi gets to know of this, she plans to scare him.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408225400 +0000",
+    "stop": "20260408230600 +0000",
+    "startTs": 1775688840000,
+    "stopTs": 1775689560000,
+    "title": "Smaashhing Simmba",
+    "desc": "S3 E17 Simmba comes down with a cold because he ate too much ice cream, causing him to be too sick to catch the culprits behind Sunday and Monday's robberies.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408230600 +0000",
+    "stop": "20260408231800 +0000",
+    "startTs": 1775689560000,
+    "stopTs": 1775690280000,
+    "title": "Smaashhing Simmba",
+    "desc": "S3 E11 During a confrontation, Duggu Dumbbell challenges Simmba to three different strength contests to determine who is more powerful.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408231800 +0000",
+    "stop": "20260408233000 +0000",
+    "startTs": 1775690280000,
+    "stopTs": 1775691000000,
+    "title": "Smaashhing Simmba",
+    "desc": "S3 E18 When Kittu gets stuck while trying to solve a case, she goes to Simmba for help. But when Simmba shows no interest in wanting to help her, she takes it as a challenge to solve the case on her own.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260408233000 +0000",
+    "stop": "20260409003000 +0000",
+    "startTs": 1775691000000,
+    "stopTs": 1775694600000,
+    "title": "Smaashhing Simmba",
+    "desc": "Simmba, an honest and courageous police officer, teams up with his fearless colleagues in his mission to confront and defeat the evil forces of society.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260409003000 +0000",
+    "stop": "20260409013000 +0000",
+    "startTs": 1775694600000,
+    "stopTs": 1775698200000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260409013000 +0000",
+    "stop": "20260409020000 +0000",
+    "startTs": 1775698200000,
+    "stopTs": 1775700000000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260409020000 +0000",
+    "stop": "20260409030000 +0000",
+    "startTs": 1775700000000,
+    "stopTs": 1775703600000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260409030000 +0000",
+    "stop": "20260409033000 +0000",
+    "startTs": 1775703600000,
+    "stopTs": 1775705400000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  },
+  {
+    "channelId": "Pogo.in",
+    "channelName": "IN - Pogo",
+    "start": "20260409033000 +0000",
+    "stop": "20260409040000 +0000",
+    "startTs": 1775705400000,
+    "stopTs": 1775707200000,
+    "title": "Chhota Bheem",
+    "desc": "Bheem is an extremely brave, strong and intelligent young boy. He often manages to solve everyone's problems which endears him to the townspeople of Dholakpur.",
+    "channel": "Pogo.in"
+  }
+]

@@ -2,309 +2,337 @@
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "18:30",
-    "stop": "20:30",
+    "start": "20260405183000 +0000",
+    "stop": "20260405203000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775421000000,
     "title": "Hyderabad Super Stars vs. Dilli Dillwale-World Pickleball League",
     "desc": "Players from different parts of the world participate in the World Pickleball League.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93167115"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "20:30",
-    "stop": "21:30",
+    "start": "20260405203000 +0000",
+    "stop": "20260405213000 +0000",
     "startTs": 1775421000000,
     "stopTs": 1775424600000,
     "title": "Chongqing: Semi-final, WS , Miwa Harimoto vs Satsuki Odo-WTT",
     "desc": ".",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93098559"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "21:30",
-    "stop": "23:30",
+    "start": "20260405213000 +0000",
+    "stop": "20260405233000 +0000",
     "startTs": 1775424600000,
     "stopTs": 1775431800000,
     "title": "PSV vs. NEC-Eredivisie Soccer",
     "desc": "From Philips Stadium in Eindhoven, Noord-Brabant, Netherlands.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93167110"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "23:30",
-    "stop": "01:30",
+    "start": "20260405233000 +0000",
+    "stop": "20260406013000 +0000",
     "startTs": 1775431800000,
     "stopTs": 1775439000000,
     "title": "Rajasthan Titans vs. Pune United-World Pickleball League",
     "desc": "Players from different parts of the world participate in the World Pickleball League.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93167114"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "01:30",
-    "stop": "02:30",
+    "start": "20260406013000 +0000",
+    "stop": "20260406023000 +0000",
     "startTs": 1775439000000,
     "stopTs": 1775442600000,
     "title": "Road Warriors, The Steiners-TNA Wrestling: Legends",
     "desc": "Sports experts discuss performances of wrestling legends, Road Warriors and The Steiners.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93167109"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "02:30",
-    "stop": "04:30",
+    "start": "20260406023000 +0000",
+    "stop": "20260406043000 +0000",
     "startTs": 1775442600000,
     "stopTs": 1775449800000,
     "title": "AEW Collision",
     "desc": "Popular pro-wrestlers compete against each other in fights every Saturday.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93167118"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "04:30",
-    "stop": "05:30",
+    "start": "20260406043000 +0000",
+    "stop": "20260406053000 +0000",
     "startTs": 1775449800000,
     "stopTs": 1775453400000,
     "title": "TNA Wrestling: Pehalwani Patakha",
     "desc": "Highlights from the IMPACT wrestling series of TNA Wrestling, in Hindi.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93098557"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "05:30",
-    "stop": "07:30",
+    "start": "20260406053000 +0000",
+    "stop": "20260406073000 +0000",
     "startTs": 1775453400000,
     "stopTs": 1775460600000,
     "title": "2026 Tokyo Marathon",
     "desc": ".",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93167117"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "07:30",
-    "stop": "10:30",
+    "start": "20260406073000 +0000",
+    "stop": "20260406103000 +0000",
     "startTs": 1775460600000,
     "stopTs": 1775471400000,
     "title": "TNA Rebellion",
     "desc": "Professional wrestlers fiercely compete for the prestigious title at TNA Rebellion.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93167116"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "10:30",
-    "stop": "12:30",
+    "start": "20260406103000 +0000",
+    "stop": "20260406123000 +0000",
     "startTs": 1775471400000,
     "stopTs": 1775478600000,
     "title": "Bengaluru Jawans vs. Pune United-World Pickleball League",
     "desc": "Players from different parts of the world participate in the World Pickleball League.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93167111"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "12:30",
-    "stop": "14:30",
+    "start": "20260406123000 +0000",
+    "stop": "20260406143000 +0000",
     "startTs": 1775478600000,
     "stopTs": 1775485800000,
     "title": "TNA Impact",
     "desc": "Professional wrestlers compete against some of the biggest names to win.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93098558"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "14:30",
-    "stop": "16:30",
+    "start": "20260406143000 +0000",
+    "stop": "20260406163000 +0000",
     "startTs": 1775485800000,
     "stopTs": 1775493000000,
     "title": "Toronto FC vs. FC Cincinnati-Major League Soccer",
     "desc": "From TQL Stadium in Cincinnati.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93167112"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "16:30",
-    "stop": "17:30",
+    "start": "20260406163000 +0000",
+    "stop": "20260406173000 +0000",
     "startTs": 1775493000000,
     "stopTs": 1775496600000,
     "title": "Better, Faster, Stronger-WWE LFG",
     "desc": "An inside look at what it truly takes to become a part of the WWE. S02 E03.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93098562"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260406173000 +0000",
+    "stop": "20260406180000 +0000",
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Women's Evolution-WWE's Greatest Moments",
     "desc": "Showcasing iconic WWE events, heroes rise, rivalries ignite and epic battles unfold. S02 E08.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93167113"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260406180000 +0000",
+    "stop": "20260406183000 +0000",
     "startTs": 1775498400000,
     "stopTs": 1775500200000,
     "title": "Texas Death Match-AEW Revolution",
     "desc": "Professional wrestlers compete in high-stakes matches at AEW Revolution. S01.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93167108"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "18:30",
-    "stop": "20:30",
+    "start": "20260406183000 +0000",
+    "stop": "20260406203000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775507400000,
     "title": "Chennai Super Champs vs. Bengaluru Jawans-World Pickleball League",
     "desc": "Players from different parts of the world participate in the World Pickleball League.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93135875"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "20:30",
-    "stop": "21:30",
+    "start": "20260406203000 +0000",
+    "stop": "20260406213000 +0000",
     "startTs": 1775507400000,
     "stopTs": 1775511000000,
     "title": "Chongqing: Semi Final, WS, Kuai Man vs. Wang Yidi-WTT Champions Table",
     "desc": ".",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93135876"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "21:30",
-    "stop": "23:30",
+    "start": "20260406213000 +0000",
+    "stop": "20260406233000 +0000",
     "startTs": 1775511000000,
     "stopTs": 1775518200000,
     "title": "Ajax vs. Sparta Rotterdam-Eredivisie Soccer",
     "desc": "From Johan Cruijff Arena in Amsterdam.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93135874"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "23:30",
-    "stop": "01:30",
+    "start": "20260406233000 +0000",
+    "stop": "20260407013000 +0000",
     "startTs": 1775518200000,
     "stopTs": 1775525400000,
     "title": "Hyderabad Super Stars vs. Mumbai Pickle Power-World Pickleball League",
     "desc": "Players from different parts of the world participate in the World Pickleball League.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93135867"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "01:30",
-    "stop": "02:30",
+    "start": "20260407013000 +0000",
+    "stop": "20260407023000 +0000",
     "startTs": 1775525400000,
     "stopTs": 1775529000000,
     "title": "Savage, Piper, Sting, Snuka-TNA Wrestling: Legends",
     "desc": "Sports experts discuss performances of wrestling legends Savage, Piper, Sting and Snuka.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93135871"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "02:30",
-    "stop": "06:30",
+    "start": "20260407023000 +0000",
+    "stop": "20260407063000 +0000",
     "startTs": 1775529000000,
     "stopTs": 1775543400000,
     "title": "TNA Sacrifice",
     "desc": "Professional wrestlers compete to emerge victorious in TNA Sacrifice.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93135872"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "06:30",
-    "stop": "07:30",
+    "start": "20260407063000 +0000",
+    "stop": "20260407073000 +0000",
     "startTs": 1775543400000,
     "stopTs": 1775547000000,
     "title": "Grand Prix of The Americas-MotoGP",
     "desc": ". S002026, 2026.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93135865"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "07:30",
-    "stop": "10:15",
+    "start": "20260407073000 +0000",
+    "stop": "20260407101500 +0000",
     "startTs": 1775547000000,
     "stopTs": 1775556900000,
     "title": "TNA Unbreakable",
     "desc": "Top international wrestlers compete in TNA Unbreakable, a professional wrestling event.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93135873"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "10:15",
-    "stop": "10:30",
+    "start": "20260407101500 +0000",
+    "stop": "20260407103000 +0000",
     "startTs": 1775556900000,
     "stopTs": 1775557800000,
     "title": "Showtime with Sanju Samson",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93135869"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "10:30",
-    "stop": "12:30",
+    "start": "20260407103000 +0000",
+    "stop": "20260407123000 +0000",
     "startTs": 1775557800000,
     "stopTs": 1775565000000,
     "title": "Chennai Super Champs vs Dilli Dillwale-World Pickleball League",
     "desc": "Highlights of professional pickleball teams competing in the World Pickleball League. S002026, 2026.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93135870"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "12:30",
-    "stop": "14:30",
+    "start": "20260407123000 +0000",
+    "stop": "20260407143000 +0000",
     "startTs": 1775565000000,
     "stopTs": 1775572200000,
     "title": "AEW Collision",
     "desc": "Popular pro-wrestlers compete against each other in fights every Saturday.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93135877"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "14:30",
-    "stop": "16:30",
+    "start": "20260407143000 +0000",
+    "stop": "20260407163000 +0000",
     "startTs": 1775572200000,
     "stopTs": 1775579400000,
     "title": "Seattle Sounders FC vs. San Jose Earthquakes-MLS Soccer",
     "desc": "From PayPal Park in San Jose, Calif.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93135866"
   },
   {
     "channelId": "ts693",
     "channelName": "ts693",
-    "start": "16:30",
-    "stop": "18:30",
+    "start": "20260407163000 +0000",
+    "stop": "20260407183000 +0000",
     "startTs": 1775579400000,
     "stopTs": 1775586600000,
     "title": "AEW Dynamite",
     "desc": "Professional wrestlers compete against each other in an AEW Dynamite event.",
-    "category": null
+    "channel": "ts693",
+    "catchup-id": "93135868"
   }
 ]

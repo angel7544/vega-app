@@ -2,12 +2,13 @@
   {
     "channelId": "ts1168",
     "channelName": "Tata Play Hollywood Local Telugu",
-    "start": "18:30",
-    "stop": "21:00",
+    "start": "20260405183000 +0000",
+    "stop": "20260405210000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775422800000,
     "title": "Blade Runner 2049",
     "desc": "K, a police officer, tries to find a former Blade Runner after unearthing a big secret.",
-    "category": null
+    "channel": "ts1168",
+    "catchup-id": "93111629"
   }
 ]

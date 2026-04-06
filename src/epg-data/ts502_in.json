@@ -2,804 +2,877 @@
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "18:41",
-    "stop": "19:04",
+    "start": "20260405184100 +0000",
+    "stop": "20260405190400 +0000",
     "startTs": 1775414460000,
     "stopTs": 1775415840000,
     "title": "DPW ILT20",
     "desc": "Professional cricket teams compete against each other in the International League T20.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93274726"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "19:04",
-    "stop": "19:26",
+    "start": "20260405190400 +0000",
+    "stop": "20260405192600 +0000",
     "startTs": 1775415840000,
     "stopTs": 1775417160000,
     "title": "DPW ILT20",
     "desc": "Professional cricket teams compete against each other in the International League T20.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93274714"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "19:26",
-    "stop": "19:49",
+    "start": "20260405192600 +0000",
+    "stop": "20260405194900 +0000",
     "startTs": 1775417160000,
     "stopTs": 1775418540000,
     "title": "DPW ILT20",
     "desc": "Professional cricket teams compete against each other in the International League T20.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93274727"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "19:49",
-    "stop": "20:11",
+    "start": "20260405194900 +0000",
+    "stop": "20260405201100 +0000",
     "startTs": 1775418540000,
     "stopTs": 1775419860000,
     "title": "DPW ILT20",
     "desc": "Professional cricket teams compete against each other in the International League T20.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93274722"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "20:11",
-    "stop": "20:34",
+    "start": "20260405201100 +0000",
+    "stop": "20260405203400 +0000",
     "startTs": 1775419860000,
     "stopTs": 1775421240000,
     "title": "DPW ILT20",
     "desc": "Professional cricket teams compete against each other in the International League T20.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93274721"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "20:34",
-    "stop": "20:56",
+    "start": "20260405203400 +0000",
+    "stop": "20260405205600 +0000",
     "startTs": 1775421240000,
     "stopTs": 1775422560000,
     "title": "DPW ILT20",
     "desc": "Professional cricket teams compete against each other in the International League T20.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93274725"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "20:56",
-    "stop": "21:19",
+    "start": "20260405205600 +0000",
+    "stop": "20260405211900 +0000",
     "startTs": 1775422560000,
     "stopTs": 1775423940000,
     "title": "DPW ILT20",
     "desc": "Professional cricket teams compete against each other in the International League T20.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93274718"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "21:19",
-    "stop": "21:41",
+    "start": "20260405211900 +0000",
+    "stop": "20260405214100 +0000",
     "startTs": 1775423940000,
     "stopTs": 1775425260000,
     "title": "DPW ILT20",
     "desc": "Professional cricket teams compete against each other in the International League T20.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93274720"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "21:41",
-    "stop": "22:04",
+    "start": "20260405214100 +0000",
+    "stop": "20260405220400 +0000",
     "startTs": 1775425260000,
     "stopTs": 1775426640000,
     "title": "DPW ILT20",
     "desc": "Professional cricket teams compete against each other in the International League T20.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93274724"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "22:04",
-    "stop": "22:26",
+    "start": "20260405220400 +0000",
+    "stop": "20260405222600 +0000",
     "startTs": 1775426640000,
     "stopTs": 1775427960000,
     "title": "DPW ILT20",
     "desc": "Professional cricket teams compete against each other in the International League T20.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93274729"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "22:26",
-    "stop": "22:49",
+    "start": "20260405222600 +0000",
+    "stop": "20260405224900 +0000",
     "startTs": 1775427960000,
     "stopTs": 1775429340000,
     "title": "DPW ILT20",
     "desc": "Professional cricket teams compete against each other in the International League T20.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93274723"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "22:49",
-    "stop": "23:11",
+    "start": "20260405224900 +0000",
+    "stop": "20260405231100 +0000",
     "startTs": 1775429340000,
     "stopTs": 1775430660000,
     "title": "DPW ILT20",
     "desc": "Professional cricket teams compete against each other in the International League T20.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93274715"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "23:11",
-    "stop": "23:34",
+    "start": "20260405231100 +0000",
+    "stop": "20260405233400 +0000",
     "startTs": 1775430660000,
     "stopTs": 1775432040000,
     "title": "DPW ILT20",
     "desc": "Professional cricket teams compete against each other in the International League T20.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93274716"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "23:34",
-    "stop": "23:56",
+    "start": "20260405233400 +0000",
+    "stop": "20260405235600 +0000",
     "startTs": 1775432040000,
     "stopTs": 1775433360000,
     "title": "DPW ILT20",
     "desc": "Professional cricket teams compete against each other in the International League T20.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93274719"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "23:56",
-    "stop": "00:19",
+    "start": "20260405235600 +0000",
+    "stop": "20260406001900 +0000",
     "startTs": 1775433360000,
     "stopTs": 1775434740000,
     "title": "DPW ILT20",
     "desc": "Professional cricket teams compete against each other in the International League T20.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93274717"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "00:19",
-    "stop": "00:30",
+    "start": "20260406001900 +0000",
+    "stop": "20260406003000 +0000",
     "startTs": 1775434740000,
     "stopTs": 1775435400000,
     "title": "DPW ILT20",
     "desc": "Professional cricket teams compete against each other in the International League T20.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93274728"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "00:30",
-    "stop": "01:30",
+    "start": "20260406003000 +0000",
+    "stop": "20260406013000 +0000",
     "startTs": 1775435400000,
     "stopTs": 1775439000000,
     "title": "Be Melodramatic",
     "desc": "Beom-su loses his team as Eun-jeong struggles to ignore Hong-dae's absence. S01 E09.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93113975"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "01:30",
-    "stop": "02:30",
+    "start": "20260406013000 +0000",
+    "stop": "20260406023000 +0000",
     "startTs": 1775439000000,
     "stopTs": 1775442600000,
     "title": "Cheat On Me If You Can",
     "desc": "Yeo Joo walks out from Woo Sung's office after seeing Mi Rae hiding in the bottom cabinet. S01 E10.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93113996"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "02:30",
-    "stop": "03:30",
+    "start": "20260406023000 +0000",
+    "stop": "20260406033000 +0000",
     "startTs": 1775442600000,
     "stopTs": 1775446200000,
     "title": "Pretty Little Liars",
     "desc": "Four friends unite against an enemy who exposes their secrets and threatens their lives.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93113992"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "03:30",
-    "stop": "04:30",
+    "start": "20260406033000 +0000",
+    "stop": "20260406043000 +0000",
     "startTs": 1775446200000,
     "stopTs": 1775449800000,
     "title": "FBI",
     "desc": "FBI Agents Maggie Bell and OA Zidan work together to keep New York City safe.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93113979"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "04:30",
-    "stop": "05:30",
+    "start": "20260406043000 +0000",
+    "stop": "20260406053000 +0000",
     "startTs": 1775449800000,
     "stopTs": 1775453400000,
     "title": "Temptation Island",
     "desc": "Couples face a commitment choice in paradise and their love is tested in this getaway.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93114003"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "05:30",
-    "stop": "06:30",
+    "start": "20260406053000 +0000",
+    "stop": "20260406063000 +0000",
     "startTs": 1775453400000,
     "stopTs": 1775457000000,
     "title": "Evil",
     "desc": "Doctor Kristen Bouchard teams up with a priest to investigate supernatural occurrences.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93113981"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "06:30",
-    "stop": "07:30",
+    "start": "20260406063000 +0000",
+    "stop": "20260406073000 +0000",
     "startTs": 1775457000000,
     "stopTs": 1775460600000,
     "title": "Pretty Little Liars",
     "desc": "Four friends unite against an enemy who exposes their secrets and threatens their lives.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93113993"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260406073000 +0000",
+    "stop": "20260406083000 +0000",
     "startTs": 1775460600000,
     "stopTs": 1775464200000,
     "title": "SEAL Team",
     "desc": "An elite unit of Navy SEALs undertake some of the most dangerous high-stakes missions.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93114000"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260406083000 +0000",
+    "stop": "20260406093000 +0000",
     "startTs": 1775464200000,
     "stopTs": 1775467800000,
     "title": "FBI",
     "desc": "FBI Agents Maggie Bell and OA Zidan work together to keep New York City safe.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93113980"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260406093000 +0000",
+    "stop": "20260406100000 +0000",
     "startTs": 1775467800000,
     "stopTs": 1775469600000,
     "title": "Two Broke Girls",
     "desc": "Two waitresses dream of starting a business, but funding gaps challenge their vision.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93113986"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260406100000 +0000",
+    "stop": "20260406103000 +0000",
     "startTs": 1775469600000,
     "stopTs": 1775471400000,
     "title": "Two Broke Girls",
     "desc": "Two waitresses dream of starting a business, but funding gaps challenge their vision.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93113991"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260406103000 +0000",
+    "stop": "20260406110000 +0000",
     "startTs": 1775471400000,
     "stopTs": 1775473200000,
     "title": "Two Broke Girls",
     "desc": "Two waitresses dream of starting a business, but funding gaps challenge their vision.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93113974"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260406110000 +0000",
+    "stop": "20260406113000 +0000",
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Two Broke Girls",
     "desc": "Two waitresses dream of starting a business, but funding gaps challenge their vision.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93113983"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260406113000 +0000",
+    "stop": "20260406120000 +0000",
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Pretty Little Liars",
     "desc": "Four friends band together against a foe who threatens to reveal their deepest secrets. S01 E01.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93113989"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260406120000 +0000",
+    "stop": "20260406123000 +0000",
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Pretty Little Liars",
     "desc": "Four friends band together against a foe who threatens to reveal their deepest secrets. S01 E01.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93113984"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260406123000 +0000",
+    "stop": "20260406130000 +0000",
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Food Wars!",
     "desc": "An aspiring chef strives to overcome challenges and achieve his goal.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93113994"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260406130000 +0000",
+    "stop": "20260406133000 +0000",
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Food Wars!",
     "desc": "An aspiring chef strives to overcome challenges and achieve his goal.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93113973"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "13:30",
-    "stop": "14:46",
+    "start": "20260406133000 +0000",
+    "stop": "20260406144600 +0000",
     "startTs": 1775482200000,
     "stopTs": 1775486760000,
     "title": "Black Mirror",
     "desc": "An anthology of stories of individuals, grappling with the challenges in a dystopian future.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93113995"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "14:46",
-    "stop": "15:30",
+    "start": "20260406144600 +0000",
+    "stop": "20260406153000 +0000",
     "startTs": 1775486760000,
     "stopTs": 1775489400000,
     "title": "FBI",
     "desc": "FBI Agents Maggie Bell and OA Zidan work together to keep New York City safe.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93113987"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "15:30",
-    "stop": "16:30",
+    "start": "20260406153000 +0000",
+    "stop": "20260406163000 +0000",
     "startTs": 1775489400000,
     "stopTs": 1775493000000,
     "title": "Pretty Little Liars",
     "desc": "Four friends unite against an enemy who exposes their secrets and threatens their lives.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93113978"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260406163000 +0000",
+    "stop": "20260406170000 +0000",
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Two Broke Girls",
     "desc": "Two waitresses dream of starting a business, but funding gaps challenge their vision.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93113997"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260406170000 +0000",
+    "stop": "20260406173000 +0000",
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Two Broke Girls",
     "desc": "Two waitresses dream of starting a business, but funding gaps challenge their vision.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93113999"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260406173000 +0000",
+    "stop": "20260406180000 +0000",
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Two Broke Girls",
     "desc": "Two waitresses dream of starting a business, but funding gaps challenge their vision.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93113985"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "18:00",
-    "stop": "18:25",
+    "start": "20260406180000 +0000",
+    "stop": "20260406182500 +0000",
     "startTs": 1775498400000,
     "stopTs": 1775499900000,
     "title": "Two Broke Girls",
     "desc": "Two waitresses dream of starting a business, but funding gaps challenge their vision.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93114001"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "18:25",
-    "stop": "19:00",
+    "start": "20260406182500 +0000",
+    "stop": "20260406190000 +0000",
     "startTs": 1775499900000,
     "stopTs": 1775502000000,
     "title": "Two Broke Girls",
     "desc": "Two waitresses dream of starting a business, but funding gaps challenge their vision.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93114002"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260406190000 +0000",
+    "stop": "20260406193000 +0000",
     "startTs": 1775502000000,
     "stopTs": 1775503800000,
     "title": "Starry Nights 2.Oh!",
     "desc": "Parineeti Chopra, along with her brothers, engages in a lively chat with Komal Nahta. S01 E10.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208156"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "19:30",
-    "stop": "20:25",
+    "start": "20260406193000 +0000",
+    "stop": "20260406202500 +0000",
     "startTs": 1775503800000,
     "stopTs": 1775507100000,
     "title": "Strong Girl Bong-Soon",
     "desc": "Sleepless after confessing their feelings, Bong-soon pays Min-hyuk a late-night visit. S01 E15.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208164"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "20:25",
-    "stop": "21:10",
+    "start": "20260406202500 +0000",
+    "stop": "20260406211000 +0000",
     "startTs": 1775507100000,
     "stopTs": 1775509800000,
     "title": "Dali & Cocky Prince",
     "desc": "Sang-tae attempts to bribe the gallery workers to testify falsely. S01 E12.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208165"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "21:10",
-    "stop": "22:00",
+    "start": "20260406211000 +0000",
+    "stop": "20260406220000 +0000",
     "startTs": 1775509800000,
     "stopTs": 1775512800000,
     "title": "Youth of May",
     "desc": "Myung-hee learns her blind date is Hee-tae, a recent emergency room acquaintance. S01 E02.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208154"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "22:00",
-    "stop": "22:47",
+    "start": "20260406220000 +0000",
+    "stop": "20260406224700 +0000",
     "startTs": 1775512800000,
     "stopTs": 1775515620000,
     "title": "Strong Girl Bong-Soon",
     "desc": "Sleepless after confessing their feelings, Bong-soon pays Min-hyuk a late-night visit. S01 E15.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208138"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "22:47",
-    "stop": "23:30",
+    "start": "20260406224700 +0000",
+    "stop": "20260406233000 +0000",
     "startTs": 1775515620000,
     "stopTs": 1775518200000,
     "title": "Dali & Cocky Prince",
     "desc": "Sang-tae attempts to bribe the gallery workers to testify falsely. S01 E12.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208161"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "23:30",
-    "stop": "00:30",
+    "start": "20260406233000 +0000",
+    "stop": "20260407003000 +0000",
     "startTs": 1775518200000,
     "stopTs": 1775521800000,
     "title": "Youth of May",
     "desc": "Myung-hee learns her blind date is Hee-tae, a recent emergency room acquaintance. S01 E02.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208137"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "00:30",
-    "stop": "01:30",
+    "start": "20260407003000 +0000",
+    "stop": "20260407013000 +0000",
     "startTs": 1775521800000,
     "stopTs": 1775525400000,
     "title": "Be Melodramatic",
     "desc": "Jin-ju's past collides with her present as a director tests Eun-jeong's patience. S01 E10.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208148"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "01:30",
-    "stop": "02:30",
+    "start": "20260407013000 +0000",
+    "stop": "20260407023000 +0000",
     "startTs": 1775525400000,
     "stopTs": 1775529000000,
     "title": "Cheat On Me If You Can",
     "desc": "A crime novelist with murder on her mind suspects her husband of having an affair. S01 E11.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208162"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "02:30",
-    "stop": "03:30",
+    "start": "20260407023000 +0000",
+    "stop": "20260407033000 +0000",
     "startTs": 1775529000000,
     "stopTs": 1775532600000,
     "title": "Pretty Little Liars",
     "desc": "Four friends unite against an enemy who exposes their secrets and threatens their lives.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208149"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "03:30",
-    "stop": "04:30",
+    "start": "20260407033000 +0000",
+    "stop": "20260407043000 +0000",
     "startTs": 1775532600000,
     "stopTs": 1775536200000,
     "title": "FBI",
     "desc": "FBI Agents Maggie Bell and OA Zidan work together to keep New York City safe.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208155"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "04:30",
-    "stop": "05:30",
+    "start": "20260407043000 +0000",
+    "stop": "20260407053000 +0000",
     "startTs": 1775536200000,
     "stopTs": 1775539800000,
     "title": "Temptation Island",
     "desc": "Couples face a commitment choice in paradise and their love is tested in this getaway.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208151"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "05:30",
-    "stop": "06:30",
+    "start": "20260407053000 +0000",
+    "stop": "20260407063000 +0000",
     "startTs": 1775539800000,
     "stopTs": 1775543400000,
     "title": "Evil",
     "desc": "Doctor Kristen Bouchard teams up with a priest to investigate supernatural occurrences.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208135"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "06:30",
-    "stop": "07:30",
+    "start": "20260407063000 +0000",
+    "stop": "20260407073000 +0000",
     "startTs": 1775543400000,
     "stopTs": 1775547000000,
     "title": "Pretty Little Liars",
     "desc": "Four friends unite against an enemy who exposes their secrets and threatens their lives.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208141"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260407073000 +0000",
+    "stop": "20260407083000 +0000",
     "startTs": 1775547000000,
     "stopTs": 1775550600000,
     "title": "Seal Team",
     "desc": "An elite unit of Navy SEALs undertake some of the most dangerous high-stakes missions.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208153"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260407083000 +0000",
+    "stop": "20260407093000 +0000",
     "startTs": 1775550600000,
     "stopTs": 1775554200000,
     "title": "FBI",
     "desc": "FBI Agents Maggie Bell and OA Zidan work together to keep New York City safe.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208160"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260407093000 +0000",
+    "stop": "20260407100000 +0000",
     "startTs": 1775554200000,
     "stopTs": 1775556000000,
     "title": "Two Broke Girls",
     "desc": "Two waitresses dream of starting a business, but funding gaps challenge their vision.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208150"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260407100000 +0000",
+    "stop": "20260407103000 +0000",
     "startTs": 1775556000000,
     "stopTs": 1775557800000,
     "title": "Two Broke Girls",
     "desc": "Two waitresses dream of starting a business, but funding gaps challenge their vision.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208145"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260407103000 +0000",
+    "stop": "20260407110000 +0000",
     "startTs": 1775557800000,
     "stopTs": 1775559600000,
     "title": "Two Broke Girls",
     "desc": "Two waitresses dream of starting a business, but funding gaps challenge their vision.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208143"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260407110000 +0000",
+    "stop": "20260407113000 +0000",
     "startTs": 1775559600000,
     "stopTs": 1775561400000,
     "title": "Two Broke Girls",
     "desc": "Two waitresses dream of starting a business, but funding gaps challenge their vision.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208144"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260407113000 +0000",
+    "stop": "20260407120000 +0000",
     "startTs": 1775561400000,
     "stopTs": 1775563200000,
     "title": "Two Broke Girls",
     "desc": "Two waitresses dream of starting a business, but funding gaps challenge their vision.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208159"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260407120000 +0000",
+    "stop": "20260407123000 +0000",
     "startTs": 1775563200000,
     "stopTs": 1775565000000,
     "title": "Two Broke Girls",
     "desc": "Two waitresses dream of starting a business, but funding gaps challenge their vision.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208146"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260407123000 +0000",
+    "stop": "20260407130000 +0000",
     "startTs": 1775565000000,
     "stopTs": 1775566800000,
     "title": "Food Wars!",
     "desc": "An aspiring chef strives to overcome challenges and achieve his goal.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208163"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260407130000 +0000",
+    "stop": "20260407133000 +0000",
     "startTs": 1775566800000,
     "stopTs": 1775568600000,
     "title": "Food Wars!",
     "desc": "An aspiring chef strives to overcome challenges and achieve his goal.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208142"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "13:30",
-    "stop": "14:30",
+    "start": "20260407133000 +0000",
+    "stop": "20260407143000 +0000",
     "startTs": 1775568600000,
     "stopTs": 1775572200000,
     "title": "Black Mirror",
     "desc": "An anthology of stories of individuals, grappling with the challenges in a dystopian future.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208166"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "14:30",
-    "stop": "15:30",
+    "start": "20260407143000 +0000",
+    "stop": "20260407153000 +0000",
     "startTs": 1775572200000,
     "stopTs": 1775575800000,
     "title": "FBI",
     "desc": "FBI Agents Maggie Bell and OA Zidan work together to keep New York City safe.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208157"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "15:30",
-    "stop": "16:30",
+    "start": "20260407153000 +0000",
+    "stop": "20260407163000 +0000",
     "startTs": 1775575800000,
     "stopTs": 1775579400000,
     "title": "Pretty Little Liars",
     "desc": "Four friends unite against an enemy who exposes their secrets and threatens their lives.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208152"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260407163000 +0000",
+    "stop": "20260407170000 +0000",
     "startTs": 1775579400000,
     "stopTs": 1775581200000,
     "title": "Two Broke Girls",
     "desc": "Two waitresses dream of starting a business, but funding gaps challenge their vision.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208139"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260407170000 +0000",
+    "stop": "20260407173000 +0000",
     "startTs": 1775581200000,
     "stopTs": 1775583000000,
     "title": "Two Broke Girls",
     "desc": "Two waitresses dream of starting a business, but funding gaps challenge their vision.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208147"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260407173000 +0000",
+    "stop": "20260407180000 +0000",
     "startTs": 1775583000000,
     "stopTs": 1775584800000,
     "title": "Two Broke Girls",
     "desc": "Two waitresses dream of starting a business, but funding gaps challenge their vision.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208136"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "18:00",
-    "stop": "18:25",
+    "start": "20260407180000 +0000",
+    "stop": "20260407182500 +0000",
     "startTs": 1775584800000,
     "stopTs": 1775586300000,
     "title": "Two Broke Girls",
     "desc": "Two waitresses dream of starting a business, but funding gaps challenge their vision.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208158"
   },
   {
     "channelId": "ts502",
     "channelName": "ts502",
-    "start": "18:25",
-    "stop": "19:00",
+    "start": "20260407182500 +0000",
+    "stop": "20260407190000 +0000",
     "startTs": 1775586300000,
     "stopTs": 1775588400000,
     "title": "Two Broke Girls",
     "desc": "Two waitresses dream of starting a business, but funding gaps challenge their vision.",
-    "category": null
+    "channel": "ts502",
+    "catchup-id": "93208140"
   }
 ]

@@ -2,100 +2,109 @@
   {
     "channelId": "ts1274",
     "channelName": "Swadesh News",
-    "start": "18:30",
-    "stop": "21:30",
+    "start": "20260404183000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775338200000,
     "title": "News",
     "desc": "The host presents the latest news stories surrounding various issues around the globe.",
-    "category": null
+    "channel": "ts1274",
+    "catchup-id": "93072205"
   },
   {
     "channelId": "ts1274",
     "channelName": "Swadesh News",
-    "start": "21:30",
-    "stop": "00:30",
+    "start": "20260404213000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775349000000,
     "title": "News",
     "desc": "The host presents the latest news stories surrounding various issues around the globe.",
-    "category": null
+    "channel": "ts1274",
+    "catchup-id": "93072208"
   },
   {
     "channelId": "ts1274",
     "channelName": "Swadesh News",
-    "start": "00:30",
-    "stop": "03:30",
+    "start": "20260405003000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775359800000,
     "title": "News",
     "desc": "The host presents the latest news stories surrounding various issues around the globe.",
-    "category": null
+    "channel": "ts1274",
+    "catchup-id": "93072206"
   },
   {
     "channelId": "ts1274",
     "channelName": "Swadesh News",
-    "start": "03:30",
-    "stop": "06:30",
+    "start": "20260405033000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775370600000,
     "title": "News",
     "desc": "The host presents the latest news stories surrounding various issues around the globe.",
-    "category": null
+    "channel": "ts1274",
+    "catchup-id": "93072210"
   },
   {
     "channelId": "ts1274",
     "channelName": "Swadesh News",
-    "start": "06:30",
-    "stop": "09:30",
+    "start": "20260405063000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775381400000,
     "title": "News",
     "desc": "The host presents the latest news stories surrounding various issues around the globe.",
-    "category": null
+    "channel": "ts1274",
+    "catchup-id": "93072209"
   },
   {
     "channelId": "ts1274",
     "channelName": "Swadesh News",
-    "start": "09:30",
-    "stop": "12:30",
+    "start": "20260405093000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775392200000,
     "title": "News",
     "desc": "The host presents the latest news stories surrounding various issues around the globe.",
-    "category": null
+    "channel": "ts1274",
+    "catchup-id": "93072207"
   },
   {
     "channelId": "ts1274",
     "channelName": "Swadesh News",
-    "start": "12:30",
-    "stop": "15:30",
+    "start": "20260405123000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775403000000,
     "title": "News",
     "desc": "The host presents the latest news stories surrounding various issues around the globe.",
-    "category": null
+    "channel": "ts1274",
+    "catchup-id": "93072204"
   },
   {
     "channelId": "ts1274",
     "channelName": "Swadesh News",
-    "start": "15:30",
-    "stop": "18:30",
+    "start": "20260405153000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775413800000,
     "title": "News",
     "desc": "The host presents the latest news stories surrounding various issues around the globe.",
-    "category": null
+    "channel": "ts1274",
+    "catchup-id": "93072211"
   },
   {
     "channelId": "ts1274",
     "channelName": "Swadesh News",
-    "start": "18:30",
-    "stop": "21:30",
+    "start": "20260405183000 +0000",
+    "stop": "20260405213000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775424600000,
     "title": "News",
     "desc": "The host presents the latest news stories surrounding various issues around the globe.",
-    "category": null
+    "channel": "ts1274",
+    "catchup-id": "93111227"
   }
 ]

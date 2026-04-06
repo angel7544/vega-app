@@ -2,166 +2,181 @@
   {
     "channelId": "ts947",
     "channelName": "Live Patna Sahib Patna",
-    "start": "18:30",
-    "stop": "19:30",
+    "start": "20260404183000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775331000000,
     "title": "Gurudwara Open",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts947",
+    "catchup-id": "93156829"
   },
   {
     "channelId": "ts947",
     "channelName": "Live Patna Sahib Patna",
-    "start": "19:30",
-    "stop": "21:30",
+    "start": "20260404193000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775338200000,
     "title": "Patna Sahib Darshan",
     "desc": "Devotees embark on a pilgrimage to a sacred site, honoring its historical significance.",
-    "category": null
+    "channel": "ts947",
+    "catchup-id": "93156834"
   },
   {
     "channelId": "ts947",
     "channelName": "Live Patna Sahib Patna",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260404213000 +0000",
+    "stop": "20260404220000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775340000000,
     "title": "Hukumnama",
     "desc": "A religious leader shares a divine order from the holy Guru Granth Sahib.",
-    "category": null
+    "channel": "ts947",
+    "catchup-id": "93156830"
   },
   {
     "channelId": "ts947",
     "channelName": "Live Patna Sahib Patna",
-    "start": "22:00",
-    "stop": "22:45",
+    "start": "20260404220000 +0000",
+    "stop": "20260404224500 +0000",
     "startTs": 1775340000000,
     "stopTs": 1775342700000,
     "title": "Paath",
     "desc": "A religious leader recites sacred texts from the Guru Granth Sahib.",
-    "category": null
+    "channel": "ts947",
+    "catchup-id": "93156832"
   },
   {
     "channelId": "ts947",
     "channelName": "Live Patna Sahib Patna",
-    "start": "22:45",
-    "stop": "00:15",
+    "start": "20260404224500 +0000",
+    "stop": "20260405001500 +0000",
     "startTs": 1775342700000,
     "stopTs": 1775348100000,
     "title": "Huzuri Raga Jatha",
     "desc": "Religious leaders perform devotional music in a sacred setting.",
-    "category": null
+    "channel": "ts947",
+    "catchup-id": "93156836"
   },
   {
     "channelId": "ts947",
     "channelName": "Live Patna Sahib Patna",
-    "start": "00:15",
-    "stop": "00:30",
+    "start": "20260405001500 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775348100000,
     "stopTs": 1775349000000,
     "title": "Prasaad",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts947",
+    "catchup-id": "93156839"
   },
   {
     "channelId": "ts947",
     "channelName": "Live Patna Sahib Patna",
-    "start": "00:30",
-    "stop": "02:00",
+    "start": "20260405003000 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775354400000,
     "title": "Huzuri Ragi Jatha",
     "desc": "Religious leaders perform sacred hymns in the presence of devotees.",
-    "category": null
+    "channel": "ts947",
+    "catchup-id": "93156841"
   },
   {
     "channelId": "ts947",
     "channelName": "Live Patna Sahib Patna",
-    "start": "02:00",
-    "stop": "03:00",
+    "start": "20260405020000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775358000000,
     "title": "Huzuri Katha",
     "desc": "A religious leader delivers sacred teachings in the presence of devotees.",
-    "category": null
+    "channel": "ts947",
+    "catchup-id": "93156833"
   },
   {
     "channelId": "ts947",
     "channelName": "Live Patna Sahib Patna",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "Ardaas, Hukumnama",
     "desc": "A religious leader leads a heartfelt prayer, seeking blessings and guidance.",
-    "category": null
+    "channel": "ts947",
+    "catchup-id": "93156835"
   },
   {
     "channelId": "ts947",
     "channelName": "Live Patna Sahib Patna",
-    "start": "03:30",
-    "stop": "07:30",
+    "start": "20260405033000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775374200000,
     "title": "Patna Sahib Darshan",
     "desc": "Devotees embark on a pilgrimage to a sacred site, honoring its historical significance.",
-    "category": null
+    "channel": "ts947",
+    "catchup-id": "93156842"
   },
   {
     "channelId": "ts947",
     "channelName": "Live Patna Sahib Patna",
-    "start": "07:30",
-    "stop": "11:30",
+    "start": "20260405073000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775388600000,
     "title": "Patna Sahib Darshan",
     "desc": "Devotees embark on a pilgrimage to a sacred site, honoring its historical significance.",
-    "category": null
+    "channel": "ts947",
+    "catchup-id": "93156838"
   },
   {
     "channelId": "ts947",
     "channelName": "Live Patna Sahib Patna",
-    "start": "11:30",
-    "stop": "13:00",
+    "start": "20260405113000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775394000000,
     "title": "Kirtan Sodar",
     "desc": "Religious leaders recite soothing hymns, reflecting on the divine presence.",
-    "category": null
+    "channel": "ts947",
+    "catchup-id": "93156837"
   },
   {
     "channelId": "ts947",
     "channelName": "Live Patna Sahib Patna",
-    "start": "13:00",
-    "stop": "14:00",
+    "start": "20260405130000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775397600000,
     "title": "Ardaas, Hukumnama",
     "desc": "A religious leader leads a heartfelt prayer, seeking blessings and guidance.",
-    "category": null
+    "channel": "ts947",
+    "catchup-id": "93156840"
   },
   {
     "channelId": "ts947",
     "channelName": "Live Patna Sahib Patna",
-    "start": "14:00",
-    "stop": "15:00",
+    "start": "20260405140000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775401200000,
     "title": "Guru Itihaas",
     "desc": "A religious leader shares historical accounts and biographies of the Gurus.",
-    "category": null
+    "channel": "ts947",
+    "catchup-id": "93156843"
   },
   {
     "channelId": "ts947",
     "channelName": "Live Patna Sahib Patna",
-    "start": "15:00",
-    "stop": "18:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775413800000,
     "title": "Gurudwara Closed",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts947",
+    "catchup-id": "93156831"
   }
 ]

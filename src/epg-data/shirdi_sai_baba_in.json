@@ -2,133 +2,145 @@
   {
     "channelId": "ts840",
     "channelName": "Shirdi Sai Baba",
-    "start": "23:30",
-    "stop": "23:45",
+    "start": "20260404233000 +0000",
+    "stop": "20260404234500 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775346300000,
     "title": "Temple Open",
     "desc": "Live Telecast Of Sai Baba Temple Opening From Shirdi.",
-    "category": null
+    "channel": "ts840",
+    "catchup-id": "93070576"
   },
   {
     "channelId": "ts840",
     "channelName": "Shirdi Sai Baba",
-    "start": "23:45",
-    "stop": "00:20",
+    "start": "20260404234500 +0000",
+    "stop": "20260405002000 +0000",
     "startTs": 1775346300000,
     "stopTs": 1775348400000,
     "title": "Kakad Aarti",
     "desc": "Live Telecast Of Kakad Aarti From Sai Baba Temple, Shirdi.",
-    "category": null
+    "channel": "ts840",
+    "catchup-id": "93070583"
   },
   {
     "channelId": "ts840",
     "channelName": "Shirdi Sai Baba",
-    "start": "00:20",
-    "stop": "00:50",
+    "start": "20260405002000 +0000",
+    "stop": "20260405005000 +0000",
     "startTs": 1775348400000,
     "stopTs": 1775350200000,
     "title": "Mangal Snaan",
     "desc": "Live Telecast Holy Bath From Sai Baba Temple, Shirdi.",
-    "category": null
+    "channel": "ts840",
+    "catchup-id": "93070581"
   },
   {
     "channelId": "ts840",
     "channelName": "Shirdi Sai Baba",
-    "start": "00:50",
-    "stop": "00:55",
+    "start": "20260405005000 +0000",
+    "stop": "20260405005500 +0000",
     "startTs": 1775350200000,
     "stopTs": 1775350500000,
     "title": "Aarti",
     "desc": "Aarti Special",
-    "category": null
+    "channel": "ts840",
+    "catchup-id": "93070577"
   },
   {
     "channelId": "ts840",
     "channelName": "Shirdi Sai Baba",
-    "start": "00:55",
-    "stop": "06:00",
+    "start": "20260405005500 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775350500000,
     "stopTs": 1775368800000,
     "title": "Darshan",
     "desc": "Live Darshan From Shirdi Sai Baba Temple.",
-    "category": null
+    "channel": "ts840",
+    "catchup-id": "93070582"
   },
   {
     "channelId": "ts840",
     "channelName": "Shirdi Sai Baba",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260405060000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370600000,
     "title": "Dhuni Pooja",
     "desc": "Dhuni Pooja With Rice And Ghee In Dwarkamai.",
-    "category": null
+    "channel": "ts840",
+    "catchup-id": "93070585"
   },
   {
     "channelId": "ts840",
     "channelName": "Shirdi Sai Baba",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260405063000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775372400000,
     "title": "Madhyan Aarti",
     "desc": "Live Madhyan Aarti From Shirdi Sai Baba Mandir.",
-    "category": null
+    "channel": "ts840",
+    "catchup-id": "93070578"
   },
   {
     "channelId": "ts840",
     "channelName": "Shirdi Sai Baba",
-    "start": "07:00",
-    "stop": "13:00",
+    "start": "20260405070000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775394000000,
     "title": "Darshan",
     "desc": "Live Darshan From Shirdi Sai Baba Temple.",
-    "category": null
+    "channel": "ts840",
+    "catchup-id": "93070579"
   },
   {
     "channelId": "ts840",
     "channelName": "Shirdi Sai Baba",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260405130000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395800000,
     "title": "Sunset Dhup Aarti",
     "desc": "Live Sunset Dhup Aarti From Shirdi Sai Baba Mandir.",
-    "category": null
+    "channel": "ts840",
+    "catchup-id": "93070580"
   },
   {
     "channelId": "ts840",
     "channelName": "Shirdi Sai Baba",
-    "start": "13:30",
-    "stop": "16:30",
+    "start": "20260405133000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775406600000,
     "title": "Darshan",
     "desc": "Live Darshan From Shirdi Sai Baba Temple.",
-    "category": null
+    "channel": "ts840",
+    "catchup-id": "93070586"
   },
   {
     "channelId": "ts840",
     "channelName": "Shirdi Sai Baba",
-    "start": "16:30",
-    "stop": "17:05",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170500 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408700000,
     "title": "Shej Aarti",
     "desc": "LIVE Shej Aarti directly from Shirdi Sai Baba temple.",
-    "category": null
+    "channel": "ts840",
+    "catchup-id": "93070584"
   },
   {
     "channelId": "ts840",
     "channelName": "Shirdi Sai Baba",
-    "start": "17:05",
-    "stop": "23:30",
+    "start": "20260405170500 +0000",
+    "stop": "20260405233000 +0000",
     "startTs": 1775408700000,
     "stopTs": 1775431800000,
     "title": "Samadhi",
     "desc": "Temple Closed For Darshan.",
-    "category": null
+    "channel": "ts840",
+    "catchup-id": "93070587"
   }
 ]

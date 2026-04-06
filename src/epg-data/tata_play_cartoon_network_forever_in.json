@@ -2,364 +2,397 @@
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "18:30",
-    "stop": "19:34",
+    "start": "20260404183000 +0000",
+    "stop": "20260404193400 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775331240000,
     "title": "Be Cool, Scooby-Doo!",
     "desc": "After senior year, the Scooby-Doo gang spend their last summer break by solving mysteries.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93072394"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "19:34",
-    "stop": "20:36",
+    "start": "20260404193400 +0000",
+    "stop": "20260404203600 +0000",
     "startTs": 1775331240000,
     "stopTs": 1775334960000,
     "title": "Scooby-Doo and Scrappy-Doo",
     "desc": "A detective canine possessing a timid disposition, Scooby-Doo trembles in secluded nooks.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93205158"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "20:36",
-    "stop": "22:31",
+    "start": "20260404203600 +0000",
+    "stop": "20260404223100 +0000",
     "startTs": 1775334960000,
     "stopTs": 1775341860000,
     "title": "The Tom & Jerry Show",
     "desc": "Tom the cat gets up to all sorts of misadventures as he pursues Jerry the mouse.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93205157"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "22:31",
-    "stop": "23:37",
+    "start": "20260404223100 +0000",
+    "stop": "20260404233700 +0000",
     "startTs": 1775341860000,
     "stopTs": 1775345820000,
     "title": "Codename: Kids Next Door",
     "desc": "Five heroic 10-year-olds have formed a secret team to free kids from the rule of adults.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93205140"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "23:37",
-    "stop": "00:41",
+    "start": "20260404233700 +0000",
+    "stop": "20260405004100 +0000",
     "startTs": 1775345820000,
     "stopTs": 1775349660000,
     "title": "Be Cool, Scooby-Doo!",
     "desc": "After senior year, the Scooby-Doo gang spend their last summer break by solving mysteries.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93205153"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "00:41",
-    "stop": "01:43",
+    "start": "20260405004100 +0000",
+    "stop": "20260405014300 +0000",
     "startTs": 1775349660000,
     "stopTs": 1775353380000,
     "title": "Scooby-Doo and Scrappy-Doo",
     "desc": "A detective canine possessing a timid disposition, Scooby-Doo trembles in secluded nooks.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93205142"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "01:43",
-    "stop": "03:30",
+    "start": "20260405014300 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775353380000,
     "stopTs": 1775359800000,
     "title": "The Tom & Jerry Show",
     "desc": "Tom the cat gets up to all sorts of misadventures as he pursues Jerry the mouse.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93205147"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "03:30",
-    "stop": "04:35",
+    "start": "20260405033000 +0000",
+    "stop": "20260405043500 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775363700000,
     "title": "Codename: Kids Next Door",
     "desc": "Five heroic 10-year-olds have formed a secret team to free kids from the rule of adults.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93072395"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "04:35",
-    "stop": "05:41",
+    "start": "20260405043500 +0000",
+    "stop": "20260405054100 +0000",
     "startTs": 1775363700000,
     "stopTs": 1775367660000,
     "title": "Baby Looney Tunes",
     "desc": "Granny has several adventures taking care of the babies Bugs, Daffy and their friends.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93205145"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "05:41",
-    "stop": "06:54",
+    "start": "20260405054100 +0000",
+    "stop": "20260405065400 +0000",
     "startTs": 1775367660000,
     "stopTs": 1775372040000,
     "title": "Bugs Bunny's 3rd Movie: 1001 Rabbit Tales",
     "desc": "Bugs Bunny and Daffy Duck face odd things when they set out to sell books for a publisher.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93205154"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "06:54",
-    "stop": "08:14",
+    "start": "20260405065400 +0000",
+    "stop": "20260405081400 +0000",
     "startTs": 1775372040000,
     "stopTs": 1775376840000,
     "title": "Tom and Jerry: The Movie",
     "desc": "Tom and Jerry help Robyn discover a great secret that her aunt has kept from her.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93205143"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "08:14",
-    "stop": "09:28",
+    "start": "20260405081400 +0000",
+    "stop": "20260405092800 +0000",
     "startTs": 1775376840000,
     "stopTs": 1775381280000,
     "title": "Scooby-Doo and the Cyber Chase",
     "desc": "Mystery Inc faces many challenges after getting trapped in a video game.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93205152"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "09:28",
-    "stop": "10:40",
+    "start": "20260405092800 +0000",
+    "stop": "20260405104000 +0000",
     "startTs": 1775381280000,
     "stopTs": 1775385600000,
     "title": "Scooby Doo and the Monster of Mexico",
     "desc": "After Scooby, Shaggy and the team visit a town in Mexico, they encounter a monster.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93205144"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "10:40",
-    "stop": "11:51",
+    "start": "20260405104000 +0000",
+    "stop": "20260405115100 +0000",
     "startTs": 1775385600000,
     "stopTs": 1775389860000,
     "title": "Codename: Kids Next Door: Operation Z.E.R.O.",
     "desc": "The team diligently seek a strategy to prevent grandfather from dominating the globe.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93205141"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "11:51",
-    "stop": "12:30",
+    "start": "20260405115100 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775389860000,
     "stopTs": 1775392200000,
     "title": "The Tom & Jerry Show",
     "desc": "Tom the cat gets up to all sorts of misadventures as he pursues Jerry the mouse.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93205146"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "12:30",
-    "stop": "13:52",
+    "start": "20260405123000 +0000",
+    "stop": "20260405135200 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775397120000,
     "title": "Tom and Jerry: The Movie",
     "desc": "Tom and Jerry help Robyn discover a great secret that her aunt has kept from her.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93205150"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "13:52",
-    "stop": "14:15",
+    "start": "20260405135200 +0000",
+    "stop": "20260405141500 +0000",
     "startTs": 1775397120000,
     "stopTs": 1775398500000,
     "title": "Bugs Bunny's Lunar Tunes",
     "desc": "Bugs is designated to champion Earth's security in an Intergalactic tribunal.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93205151"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "14:15",
-    "stop": "15:18",
+    "start": "20260405141500 +0000",
+    "stop": "20260405151800 +0000",
     "startTs": 1775398500000,
     "stopTs": 1775402280000,
     "title": "Baby Looney Tunes",
     "desc": "Granny has several adventures taking care of the babies Bugs, Daffy and their friends.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93205149"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "15:18",
-    "stop": "16:30",
+    "start": "20260405151800 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775402280000,
     "stopTs": 1775406600000,
     "title": "Scooby-Doo and the Cyber Chase",
     "desc": "Mystery Inc faces many challenges after getting trapped in a video game.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93205155"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "16:30",
-    "stop": "17:44",
+    "start": "20260405163000 +0000",
+    "stop": "20260405174400 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775411040000,
     "title": "Scooby Doo and the Monster of Mexico",
     "desc": "After Scooby, Shaggy and the team visit a town in Mexico, they encounter a monster.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93205148"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "17:44",
-    "stop": "18:30",
+    "start": "20260405174400 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775411040000,
     "stopTs": 1775413800000,
     "title": "Codename: Kids Next Door",
     "desc": "Five heroic 10-year-olds have formed a secret team to free kids from the rule of adults.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93205156"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "18:30",
-    "stop": "19:30",
+    "start": "20260406183000 +0000",
+    "stop": "20260406193000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775503800000,
     "title": "Be Cool, Scooby-Doo!",
     "desc": "After senior year, the Scooby-Doo gang spend their last summer break by solving mysteries.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93148178"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "20:30",
-    "stop": "22:30",
+    "start": "20260406203000 +0000",
+    "stop": "20260406223000 +0000",
     "startTs": 1775507400000,
     "stopTs": 1775514600000,
     "title": "The Tom & Jerry Show",
     "desc": "Tom the cat gets up to all sorts of misadventures as he pursues Jerry the mouse.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93148176"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "22:30",
-    "stop": "23:30",
+    "start": "20260406223000 +0000",
+    "stop": "20260406233000 +0000",
     "startTs": 1775514600000,
     "stopTs": 1775518200000,
     "title": "Codename: Kids Next Door",
     "desc": "Five heroic 10-year-olds have formed a secret team to free kids from the rule of adults.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93148182"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "00:30",
-    "stop": "02:30",
+    "start": "20260407003000 +0000",
+    "stop": "20260407023000 +0000",
     "startTs": 1775521800000,
     "stopTs": 1775529000000,
     "title": "The Tom & Jerry Show",
     "desc": "Tom the cat gets up to all sorts of misadventures as he pursues Jerry the mouse.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93148171"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "03:30",
-    "stop": "04:30",
+    "start": "20260407033000 +0000",
+    "stop": "20260407043000 +0000",
     "startTs": 1775532600000,
     "stopTs": 1775536200000,
     "title": "Scooby-Doo and Scrappy-Doo",
     "desc": "A detective canine possessing a timid disposition, Scooby-Doo trembles in secluded nooks.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93148183"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "04:30",
-    "stop": "05:30",
+    "start": "20260407043000 +0000",
+    "stop": "20260407053000 +0000",
     "startTs": 1775536200000,
     "stopTs": 1775539800000,
     "title": "Codename: Kids Next Door",
     "desc": "Five heroic 10-year-olds have formed a secret team to free kids from the rule of adults.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93148181"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "06:30",
-    "stop": "08:30",
+    "start": "20260407063000 +0000",
+    "stop": "20260407083000 +0000",
     "startTs": 1775543400000,
     "stopTs": 1775550600000,
     "title": "The Tom & Jerry Show",
     "desc": "Tom the cat gets up to all sorts of misadventures as he pursues Jerry the mouse.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93148170"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260407083000 +0000",
+    "stop": "20260407093000 +0000",
     "startTs": 1775550600000,
     "stopTs": 1775554200000,
     "title": "Be Cool, Scooby-Doo!",
     "desc": "After senior year, the Scooby-Doo gang spend their last summer break by solving mysteries.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93148172"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "10:30",
-    "stop": "11:30",
+    "start": "20260407103000 +0000",
+    "stop": "20260407113000 +0000",
     "startTs": 1775557800000,
     "stopTs": 1775561400000,
     "title": "Codename: Kids Next Door",
     "desc": "Five heroic 10-year-olds have formed a secret team to free kids from the rule of adults.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93148174"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "11:30",
-    "stop": "12:30",
+    "start": "20260407113000 +0000",
+    "stop": "20260407123000 +0000",
     "startTs": 1775561400000,
     "stopTs": 1775565000000,
     "title": "Batman Animated Series",
     "desc": "Bruce Wayne masks his identity as Batman, a vigilante detective who defends Gotham City.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93148177"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "15:30",
-    "stop": "16:30",
+    "start": "20260407153000 +0000",
+    "stop": "20260407163000 +0000",
     "startTs": 1775575800000,
     "stopTs": 1775579400000,
     "title": "Scooby-Doo and Scrappy-Doo",
     "desc": "A detective canine possessing a timid disposition, Scooby-Doo trembles in secluded nooks.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93148173"
   },
   {
     "channelId": "ts1787",
     "channelName": "Tata Play Cartoon Network Forever",
-    "start": "17:30",
-    "stop": "18:30",
+    "start": "20260407173000 +0000",
+    "stop": "20260407183000 +0000",
     "startTs": 1775583000000,
     "stopTs": 1775586600000,
     "title": "Batman Animated Series",
     "desc": "Bruce Wayne masks his identity as Batman, a vigilante detective who defends Gotham City.",
-    "category": null
+    "channel": "ts1787",
+    "catchup-id": "93148180"
   }
 ]

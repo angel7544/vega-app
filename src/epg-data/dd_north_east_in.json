@@ -2,12 +2,13 @@
   {
     "channelId": "ts331",
     "channelName": "DD North East",
-    "start": "18:30",
-    "stop": "21:30",
+    "start": "20260405183000 +0000",
+    "stop": "20260405213000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775424600000,
     "title": "News At Glance",
     "desc": "The host provides an overview of the latest information on state and national issues.",
-    "category": null
+    "channel": "ts331",
+    "catchup-id": "93096991"
   }
 ]

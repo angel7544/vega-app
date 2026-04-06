@@ -2,1321 +2,1441 @@
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "18:30",
-    "stop": "18:55",
+    "start": "20260404183000 +0000",
+    "stop": "20260404185500 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775328900000,
     "title": "Cover Story",
     "desc": "The host informs about the issues of the day and provides updates on current events.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062279"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "18:55",
-    "stop": "19:45",
+    "start": "20260404185500 +0000",
+    "stop": "20260404194500 +0000",
     "startTs": 1775328900000,
     "stopTs": 1775331900000,
     "title": "News Hour",
     "desc": "The host presents the top news stories and developments surrounding various issues around the globe.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062246"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "19:45",
-    "stop": "20:10",
+    "start": "20260404194500 +0000",
+    "stop": "20260404201000 +0000",
     "startTs": 1775331900000,
     "stopTs": 1775333400000,
     "title": "Porkkalam",
     "desc": "The host highlights the elections and the leading candidates who interact with the voters.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062247"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "20:10",
-    "stop": "20:30",
+    "start": "20260404201000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775333400000,
     "stopTs": 1775334600000,
     "title": "Porkkalam",
     "desc": "The host highlights the elections and the leading candidates who interact with the voters.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062272"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "20:30",
-    "stop": "20:35",
+    "start": "20260404203000 +0000",
+    "stop": "20260404203500 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775334900000,
     "title": "Munshi",
     "desc": "People from different religious and political backgrounds talk about current issues.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062223"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "20:35",
-    "stop": "21:00",
+    "start": "20260404203500 +0000",
+    "stop": "20260404210000 +0000",
     "startTs": 1775334900000,
     "stopTs": 1775336400000,
     "title": "America E Aazcha",
     "desc": "The host provides updates on current socio-political events happening in the USA.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062248"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "21:00",
-    "stop": "21:25",
+    "start": "20260404210000 +0000",
+    "stop": "20260404212500 +0000",
     "startTs": 1775336400000,
     "stopTs": 1775337900000,
     "title": "Vartha Neram",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062275"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "21:25",
-    "stop": "21:50",
+    "start": "20260404212500 +0000",
+    "stop": "20260404215000 +0000",
     "startTs": 1775337900000,
     "stopTs": 1775339400000,
     "title": "Kissan Krishideepam",
     "desc": "Experts talk about the developments in agriculture, animal husbandry and horticulture.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062227"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "21:50",
-    "stop": "22:15",
+    "start": "20260404215000 +0000",
+    "stop": "20260404221500 +0000",
     "startTs": 1775339400000,
     "stopTs": 1775340900000,
     "title": "Gum",
     "desc": "The host shares his opinions on the latest political events in a satirical manner.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062250"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "22:15",
-    "stop": "22:40",
+    "start": "20260404221500 +0000",
+    "stop": "20260404224000 +0000",
     "startTs": 1775340900000,
     "stopTs": 1775342400000,
     "title": "Nine @ 9",
     "desc": "The host presents a detailed report of the latest news on crucial matters across the world.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062276"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "22:40",
-    "stop": "23:05",
+    "start": "20260404224000 +0000",
+    "stop": "20260404230500 +0000",
     "startTs": 1775342400000,
     "stopTs": 1775343900000,
     "title": "FIR Bullettin",
     "desc": "The host presents updates on crimes and the investigation processes following them.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062238"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "23:05",
-    "stop": "23:30",
+    "start": "20260404230500 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775343900000,
     "stopTs": 1775345400000,
     "title": "Around and Aside",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062242"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260404233000 +0000",
+    "stop": "20260405000000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775347200000,
     "title": "News @ 10",
     "desc": "The host sheds light on the latest news stories from across the nation and globe.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062254"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "00:00",
-    "stop": "00:25",
+    "start": "20260405000000 +0000",
+    "stop": "20260405002500 +0000",
     "startTs": 1775347200000,
     "stopTs": 1775348700000,
     "title": "Gulf Round Up",
     "desc": "The host talks about various issues relating to the expatriates residing in the Gulf.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062251"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "00:25",
-    "stop": "00:30",
+    "start": "20260405002500 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775348700000,
     "stopTs": 1775349000000,
     "title": "Munshi",
     "desc": "People from different religious and political backgrounds talk about current issues.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062273"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "00:30",
-    "stop": "00:55",
+    "start": "20260405003000 +0000",
+    "stop": "20260405005500 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775350500000,
     "title": "Asianet Varthakal",
     "desc": "The host presents a summary of the latest news updates and developments.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062230"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "00:55",
-    "stop": "01:00",
+    "start": "20260405005500 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775350500000,
     "stopTs": 1775350800000,
     "title": "Body Guard",
     "desc": "Sudhi humorously tackles serious issues, sparking thought and making topics accessible.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062274"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260405010000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775352600000,
     "title": "Sports News",
     "desc": "The host presents information about the social, economic and political issues.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062232"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260405013000 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775354400000,
     "title": "Namasthe Keralam",
     "desc": "The host talks to journalists across Kerala and gives a report on the latest news stories.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062237"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260405020000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775356200000,
     "title": "Namasthe Keralam",
     "desc": "The host talks to journalists across Kerala and gives a report on the latest news stories.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062224"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "02:30",
-    "stop": "02:45",
+    "start": "20260405023000 +0000",
+    "stop": "20260405024500 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775357100000,
     "title": "Namasthe Keralam",
     "desc": "The host talks to journalists across Kerala and gives a report on the latest news stories.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062262"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "02:45",
-    "stop": "03:00",
+    "start": "20260405024500 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775357100000,
     "stopTs": 1775358000000,
     "title": "Sports News",
     "desc": "The host presents information about the social, economic and political issues.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062278"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "Namasthe Keralam",
     "desc": "The host talks to journalists across Kerala and gives a report on the latest news stories.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062245"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "Namasthe Keralam",
     "desc": "The host talks to journalists across Kerala and gives a report on the latest news stories.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062259"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "04:00",
-    "stop": "04:25",
+    "start": "20260405040000 +0000",
+    "stop": "20260405042500 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363100000,
     "title": "Namasthe Keralam",
     "desc": "The host talks to journalists across Kerala and gives a report on the latest news stories.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062236"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "04:25",
-    "stop": "04:30",
+    "start": "20260405042500 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775363100000,
     "stopTs": 1775363400000,
     "title": "Body Guard",
     "desc": "Sudhi humorously tackles serious issues, sparking thought and making topics accessible.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062277"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260405043000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775365200000,
     "title": "Ippol Sambhavikkunnathu",
     "desc": "The host presents the latest news and updates from India and around the world.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062261"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775367000000,
     "title": "Ippol Sambhavikkunnathu",
     "desc": "The host presents the latest news and updates from India and around the world.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062252"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260405053000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775368800000,
     "title": "Ippol Sambhavikkunnathu",
     "desc": "The host presents the latest news and updates from India and around the world.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062267"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260405060000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370600000,
     "title": "Ippol Sambhavikkunnathu",
     "desc": "The host presents the latest news and updates from India and around the world.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062264"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260405063000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775372400000,
     "title": "Ippol Sambhavikkunnathu",
     "desc": "The host presents the latest news and updates from India and around the world.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062221"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "Evo India",
     "desc": "The host presents detailed information about various new automobiles in the market.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062280"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260405073000 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775376000000,
     "title": "News @ 1",
     "desc": "The host sheds light on the latest news updates from across the nation and the world.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062263"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260405080000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775377800000,
     "title": "News @ 1",
     "desc": "The host sheds light on the latest news updates from across the nation and the world.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062239"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260405083000 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775379600000,
     "title": "News @ 14",
     "desc": "The host presents the latest news updates from around the state and the nation.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062257"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260405090000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775381400000,
     "title": "Lokajalakam",
     "desc": "The host provides updates on current sociopolitical events from around the world.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062255"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260405093000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775383200000,
     "title": "Asianet Varthakal",
     "desc": "The host presents a summary of the latest news updates and developments.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062268"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "10:00",
-    "stop": "10:25",
+    "start": "20260405100000 +0000",
+    "stop": "20260405102500 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775384700000,
     "title": "Asianet Varthakal",
     "desc": "The host presents a summary of the latest news updates and developments.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062241"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "10:25",
-    "stop": "10:30",
+    "start": "20260405102500 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775384700000,
     "stopTs": 1775385000000,
     "title": "Body Guard",
     "desc": "Sudhi humorously tackles serious issues, sparking thought and making topics accessible.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062258"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260405103000 +0000",
+    "stop": "20260405110000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775386800000,
     "title": "Evening News",
     "desc": "The host presents updates on top national and international news stories and developments.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062253"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260405110000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775386800000,
     "stopTs": 1775388600000,
     "title": "Body Guard",
     "desc": "Sudhi humorously tackles serious issues, sparking thought and making topics accessible.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062234"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260405113000 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775390400000,
     "title": "Evening News",
     "desc": "The host presents updates on top national and international news stories and developments.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062269"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "12:00",
-    "stop": "12:25",
+    "start": "20260405120000 +0000",
+    "stop": "20260405122500 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775391900000,
     "title": "Evening News",
     "desc": "The host presents updates on top national and international news stories and developments.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062222"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "12:25",
-    "stop": "12:30",
+    "start": "20260405122500 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775391900000,
     "stopTs": 1775392200000,
     "title": "Munshi",
     "desc": "People from different religious and political backgrounds talk about current issues.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062233"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260405123000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775394000000,
     "title": "News Time",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062243"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260405130000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395800000,
     "title": "Vote Vartha",
     "desc": ".",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062229"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260405133000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775397600000,
     "title": "Porkkalam",
     "desc": "The host highlights the elections and the leading candidates who interact with the voters.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062240"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "Porkkalam",
     "desc": "The host highlights the elections and the leading candidates who interact with the voters.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062260"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775401200000,
     "title": "News Hour - Debate",
     "desc": "The host invites a panel of guests to engage in a debate on various pressing matters.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062231"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "15:00",
-    "stop": "15:25",
+    "start": "20260405150000 +0000",
+    "stop": "20260405152500 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775402700000,
     "title": "News Hour - Debate",
     "desc": "The host invites a panel of guests to engage in a debate on various pressing matters.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062266"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "15:25",
-    "stop": "15:30",
+    "start": "20260405152500 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775402700000,
     "stopTs": 1775403000000,
     "title": "Body Guard",
     "desc": "Sudhi humorously tackles serious issues, sparking thought and making topics accessible.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062256"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260405153000 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775404800000,
     "title": "Nine @ 9",
     "desc": "The host presents a detailed report of the latest news on crucial matters across the world.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062235"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "16:00",
-    "stop": "16:25",
+    "start": "20260405160000 +0000",
+    "stop": "20260405162500 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775406300000,
     "title": "Nerkkuner",
     "desc": "Representatives from different sections of society debate on politics and economic issues.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062225"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "16:25",
-    "stop": "16:30",
+    "start": "20260405162500 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775406300000,
     "stopTs": 1775406600000,
     "title": "Munshi",
     "desc": "People from different religious and political backgrounds talk about current issues.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062228"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "News @ 10",
     "desc": "The host sheds light on the latest news stories from across the nation and globe.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062249"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "17:00",
-    "stop": "17:25",
+    "start": "20260405170000 +0000",
+    "stop": "20260405172500 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775409900000,
     "title": "FIR Bullettin",
     "desc": "The host presents updates on crimes and the investigation processes following them.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062270"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "17:25",
-    "stop": "17:30",
+    "start": "20260405172500 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775409900000,
     "stopTs": 1775410200000,
     "title": "Body Guard",
     "desc": "Sudhi humorously tackles serious issues, sparking thought and making topics accessible.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062265"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260405173000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775412000000,
     "title": "Good Night News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062226"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "18:00",
-    "stop": "18:25",
+    "start": "20260405180000 +0000",
+    "stop": "20260405182500 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775413500000,
     "title": "Gulf News",
     "desc": "The host presents a round-up of the latest news updates from the Middle East.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062271"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "18:25",
-    "stop": "18:30",
+    "start": "20260405182500 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775413500000,
     "stopTs": 1775413800000,
     "title": "Munshi",
     "desc": "People from different religious and political backgrounds talk about current issues.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93062244"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "18:30",
-    "stop": "18:55",
+    "start": "20260405183000 +0000",
+    "stop": "20260405185500 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415300000,
     "title": "Nerkkuner",
     "desc": "Representatives from different sections of society debate on politics and economic issues.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093540"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "18:55",
-    "stop": "19:45",
+    "start": "20260405185500 +0000",
+    "stop": "20260405194500 +0000",
     "startTs": 1775415300000,
     "stopTs": 1775418300000,
     "title": "News Hour",
     "desc": "The host presents the top news stories and developments surrounding various issues around the globe.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093558"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "19:45",
-    "stop": "20:10",
+    "start": "20260405194500 +0000",
+    "stop": "20260405201000 +0000",
     "startTs": 1775418300000,
     "stopTs": 1775419800000,
     "title": "Porkkalam",
     "desc": "The host highlights the elections and the leading candidates who interact with the voters.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093588"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "20:10",
-    "stop": "20:30",
+    "start": "20260405201000 +0000",
+    "stop": "20260405203000 +0000",
     "startTs": 1775419800000,
     "stopTs": 1775421000000,
     "title": "Porkkalam",
     "desc": "The host highlights the elections and the leading candidates who interact with the voters.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093592"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "20:30",
-    "stop": "20:35",
+    "start": "20260405203000 +0000",
+    "stop": "20260405203500 +0000",
     "startTs": 1775421000000,
     "stopTs": 1775421300000,
     "title": "Munshi",
     "desc": "People from different religious and political backgrounds talk about current issues.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093585"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "20:35",
-    "stop": "21:00",
+    "start": "20260405203500 +0000",
+    "stop": "20260405210000 +0000",
     "startTs": 1775421300000,
     "stopTs": 1775422800000,
     "title": "Around and Aside",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093590"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "21:00",
-    "stop": "21:25",
+    "start": "20260405210000 +0000",
+    "stop": "20260405212500 +0000",
     "startTs": 1775422800000,
     "stopTs": 1775424300000,
     "title": "Vartha Neram",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093555"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "21:25",
-    "stop": "21:50",
+    "start": "20260405212500 +0000",
+    "stop": "20260405215000 +0000",
     "startTs": 1775424300000,
     "stopTs": 1775425800000,
     "title": "Evo India",
     "desc": "The host presents detailed information about various new automobiles in the market.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093587"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "21:50",
-    "stop": "22:15",
+    "start": "20260405215000 +0000",
+    "stop": "20260405221500 +0000",
     "startTs": 1775425800000,
     "stopTs": 1775427300000,
     "title": "Lokajalakam",
     "desc": "The host provides updates on current sociopolitical events from around the world.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093589"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "22:15",
-    "stop": "22:40",
+    "start": "20260405221500 +0000",
+    "stop": "20260405224000 +0000",
     "startTs": 1775427300000,
     "stopTs": 1775428800000,
     "title": "Nine @ 9",
     "desc": "The host presents a detailed report of the latest news on crucial matters across the world.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093581"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "22:40",
-    "stop": "23:05",
+    "start": "20260405224000 +0000",
+    "stop": "20260405230500 +0000",
     "startTs": 1775428800000,
     "stopTs": 1775430300000,
     "title": "FIR Bullettin",
     "desc": "The host presents updates on crimes and the investigation processes following them.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093548"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "23:05",
-    "stop": "23:30",
+    "start": "20260405230500 +0000",
+    "stop": "20260405233000 +0000",
     "startTs": 1775430300000,
     "stopTs": 1775431800000,
     "title": "Cover Story",
     "desc": "The host informs about the issues of the day and provides updates on current events.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093561"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260405233000 +0000",
+    "stop": "20260406000000 +0000",
     "startTs": 1775431800000,
     "stopTs": 1775433600000,
     "title": "News @ 10",
     "desc": "The host sheds light on the latest news stories from across the nation and globe.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093577"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "00:00",
-    "stop": "00:25",
+    "start": "20260406000000 +0000",
+    "stop": "20260406002500 +0000",
     "startTs": 1775433600000,
     "stopTs": 1775435100000,
     "title": "America E Aazcha",
     "desc": "The host provides updates on current socio-political events happening in the USA.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093541"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "00:25",
-    "stop": "00:30",
+    "start": "20260406002500 +0000",
+    "stop": "20260406003000 +0000",
     "startTs": 1775435100000,
     "stopTs": 1775435400000,
     "title": "Munshi",
     "desc": "People from different religious and political backgrounds talk about current issues.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093571"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "00:30",
-    "stop": "00:55",
+    "start": "20260406003000 +0000",
+    "stop": "20260406005500 +0000",
     "startTs": 1775435400000,
     "stopTs": 1775436900000,
     "title": "Asianet Varthakal",
     "desc": "The host presents a summary of the latest news updates and developments.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093565"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "00:55",
-    "stop": "01:00",
+    "start": "20260406005500 +0000",
+    "stop": "20260406010000 +0000",
     "startTs": 1775436900000,
     "stopTs": 1775437200000,
     "title": "Body Guard",
     "desc": "Sudhi humorously tackles serious issues, sparking thought and making topics accessible.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093564"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260406010000 +0000",
+    "stop": "20260406013000 +0000",
     "startTs": 1775437200000,
     "stopTs": 1775439000000,
     "title": "Body Guard",
     "desc": "Sudhi humorously tackles serious issues, sparking thought and making topics accessible.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093591"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260406013000 +0000",
+    "stop": "20260406020000 +0000",
     "startTs": 1775439000000,
     "stopTs": 1775440800000,
     "title": "Namasthe Keralam",
     "desc": "The host talks to journalists across Kerala and gives a report on the latest news stories.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093567"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260406020000 +0000",
+    "stop": "20260406023000 +0000",
     "startTs": 1775440800000,
     "stopTs": 1775442600000,
     "title": "Namasthe Keralam",
     "desc": "The host talks to journalists across Kerala and gives a report on the latest news stories.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093594"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "02:30",
-    "stop": "02:45",
+    "start": "20260406023000 +0000",
+    "stop": "20260406024500 +0000",
     "startTs": 1775442600000,
     "stopTs": 1775443500000,
     "title": "Namasthe Keralam",
     "desc": "The host talks to journalists across Kerala and gives a report on the latest news stories.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093575"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "02:45",
-    "stop": "03:00",
+    "start": "20260406024500 +0000",
+    "stop": "20260406030000 +0000",
     "startTs": 1775443500000,
     "stopTs": 1775444400000,
     "title": "Sports News",
     "desc": "The host presents information about the social, economic and political issues.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093576"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260406030000 +0000",
+    "stop": "20260406033000 +0000",
     "startTs": 1775444400000,
     "stopTs": 1775446200000,
     "title": "Namasthe Keralam",
     "desc": "The host talks to journalists across Kerala and gives a report on the latest news stories.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093539"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260406033000 +0000",
+    "stop": "20260406040000 +0000",
     "startTs": 1775446200000,
     "stopTs": 1775448000000,
     "title": "Namasthe Keralam",
     "desc": "The host talks to journalists across Kerala and gives a report on the latest news stories.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093549"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "04:00",
-    "stop": "04:25",
+    "start": "20260406040000 +0000",
+    "stop": "20260406042500 +0000",
     "startTs": 1775448000000,
     "stopTs": 1775449500000,
     "title": "Namasthe Keralam",
     "desc": "The host talks to journalists across Kerala and gives a report on the latest news stories.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093572"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "04:25",
-    "stop": "04:30",
+    "start": "20260406042500 +0000",
+    "stop": "20260406043000 +0000",
     "startTs": 1775449500000,
     "stopTs": 1775449800000,
     "title": "Body Guard",
     "desc": "Sudhi humorously tackles serious issues, sparking thought and making topics accessible.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093553"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260406043000 +0000",
+    "stop": "20260406050000 +0000",
     "startTs": 1775449800000,
     "stopTs": 1775451600000,
     "title": "Ippol Sambhavikkunnathu",
     "desc": "The host presents the latest news and updates from India and around the world.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093582"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260406050000 +0000",
+    "stop": "20260406053000 +0000",
     "startTs": 1775451600000,
     "stopTs": 1775453400000,
     "title": "Ippol Sambhavikkunnathu",
     "desc": "The host presents the latest news and updates from India and around the world.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093598"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260406053000 +0000",
+    "stop": "20260406060000 +0000",
     "startTs": 1775453400000,
     "stopTs": 1775455200000,
     "title": "Ippol Sambhavikkunnathu",
     "desc": "The host presents the latest news and updates from India and around the world.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093552"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260406060000 +0000",
+    "stop": "20260406063000 +0000",
     "startTs": 1775455200000,
     "stopTs": 1775457000000,
     "title": "Ippol Sambhavikkunnathu",
     "desc": "The host presents the latest news and updates from India and around the world.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093559"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260406063000 +0000",
+    "stop": "20260406070000 +0000",
     "startTs": 1775457000000,
     "stopTs": 1775458800000,
     "title": "Ippol Sambhavikkunnathu",
     "desc": "The host presents the latest news and updates from India and around the world.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093593"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260406070000 +0000",
+    "stop": "20260406073000 +0000",
     "startTs": 1775458800000,
     "stopTs": 1775460600000,
     "title": "Ippol Sambhavikkunnathu",
     "desc": "The host presents the latest news and updates from India and around the world.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093543"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260406073000 +0000",
+    "stop": "20260406080000 +0000",
     "startTs": 1775460600000,
     "stopTs": 1775462400000,
     "title": "News @ 1",
     "desc": "The host sheds light on the latest news updates from across the nation and the world.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093551"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260406080000 +0000",
+    "stop": "20260406083000 +0000",
     "startTs": 1775462400000,
     "stopTs": 1775464200000,
     "title": "News @ 1",
     "desc": "The host sheds light on the latest news updates from across the nation and the world.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093584"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260406083000 +0000",
+    "stop": "20260406090000 +0000",
     "startTs": 1775464200000,
     "stopTs": 1775466000000,
     "title": "News @ 14",
     "desc": "The host presents the latest news updates from around the state and the nation.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093573"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260406090000 +0000",
+    "stop": "20260406093000 +0000",
     "startTs": 1775466000000,
     "stopTs": 1775467800000,
     "title": "News @ 14",
     "desc": "The host presents the latest news updates from around the state and the nation.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093566"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260406093000 +0000",
+    "stop": "20260406100000 +0000",
     "startTs": 1775467800000,
     "stopTs": 1775469600000,
     "title": "Asianet Varthakal",
     "desc": "The host presents a summary of the latest news updates and developments.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093579"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "10:00",
-    "stop": "10:25",
+    "start": "20260406100000 +0000",
+    "stop": "20260406102500 +0000",
     "startTs": 1775469600000,
     "stopTs": 1775471100000,
     "title": "Asianet Varthakal",
     "desc": "The host presents a summary of the latest news updates and developments.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093596"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "10:25",
-    "stop": "10:30",
+    "start": "20260406102500 +0000",
+    "stop": "20260406103000 +0000",
     "startTs": 1775471100000,
     "stopTs": 1775471400000,
     "title": "Body Guard",
     "desc": "Sudhi humorously tackles serious issues, sparking thought and making topics accessible.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093597"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260406103000 +0000",
+    "stop": "20260406110000 +0000",
     "startTs": 1775471400000,
     "stopTs": 1775473200000,
     "title": "Evening News",
     "desc": "The host presents updates on top national and international news stories and developments.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093544"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260406110000 +0000",
+    "stop": "20260406113000 +0000",
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Evening News",
     "desc": "The host presents updates on top national and international news stories and developments.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093568"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260406113000 +0000",
+    "stop": "20260406120000 +0000",
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Evening News",
     "desc": "The host presents updates on top national and international news stories and developments.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093574"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "12:00",
-    "stop": "12:25",
+    "start": "20260406120000 +0000",
+    "stop": "20260406122500 +0000",
     "startTs": 1775476800000,
     "stopTs": 1775478300000,
     "title": "Evening News",
     "desc": "The host presents updates on top national and international news stories and developments.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093569"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "12:25",
-    "stop": "12:30",
+    "start": "20260406122500 +0000",
+    "stop": "20260406123000 +0000",
     "startTs": 1775478300000,
     "stopTs": 1775478600000,
     "title": "Munshi",
     "desc": "People from different religious and political backgrounds talk about current issues.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093560"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260406123000 +0000",
+    "stop": "20260406130000 +0000",
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "News Time",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093583"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260406130000 +0000",
+    "stop": "20260406133000 +0000",
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Vote Vartha",
     "desc": ".",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093545"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260406133000 +0000",
+    "stop": "20260406140000 +0000",
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Porkkalam",
     "desc": "The host highlights the elections and the leading candidates who interact with the voters.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093557"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "14:00",
-    "stop": "14:25",
+    "start": "20260406140000 +0000",
+    "stop": "20260406142500 +0000",
     "startTs": 1775484000000,
     "stopTs": 1775485500000,
     "title": "Porkkalam",
     "desc": "The host highlights the elections and the leading candidates who interact with the voters.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093542"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "14:25",
-    "stop": "14:30",
+    "start": "20260406142500 +0000",
+    "stop": "20260406143000 +0000",
     "startTs": 1775485500000,
     "stopTs": 1775485800000,
     "title": "Body Guard",
     "desc": "Sudhi humorously tackles serious issues, sparking thought and making topics accessible.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093550"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260406143000 +0000",
+    "stop": "20260406150000 +0000",
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "News Hour - Debate",
     "desc": "The host invites a panel of guests to engage in a debate on various pressing matters.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093586"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260406150000 +0000",
+    "stop": "20260406153000 +0000",
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "News Hour - Debate",
     "desc": "The host invites a panel of guests to engage in a debate on various pressing matters.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093546"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260406153000 +0000",
+    "stop": "20260406160000 +0000",
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Nine @ 9",
     "desc": "The host presents a detailed report of the latest news on crucial matters across the world.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093580"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "16:00",
-    "stop": "16:25",
+    "start": "20260406160000 +0000",
+    "stop": "20260406162500 +0000",
     "startTs": 1775491200000,
     "stopTs": 1775492700000,
     "title": "News Reel",
     "desc": "The host sheds light on the latest news updates from across the nation and the world.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093556"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "16:25",
-    "stop": "16:30",
+    "start": "20260406162500 +0000",
+    "stop": "20260406163000 +0000",
     "startTs": 1775492700000,
     "stopTs": 1775493000000,
     "title": "Munshi",
     "desc": "People from different religious and political backgrounds talk about current issues.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093562"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260406163000 +0000",
+    "stop": "20260406170000 +0000",
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "News @ 10",
     "desc": "The host sheds light on the latest news stories from across the nation and globe.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093578"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "17:00",
-    "stop": "17:25",
+    "start": "20260406170000 +0000",
+    "stop": "20260406172500 +0000",
     "startTs": 1775494800000,
     "stopTs": 1775496300000,
     "title": "FIR Bullettin",
     "desc": "The host presents updates on crimes and the investigation processes following them.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093563"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "17:25",
-    "stop": "17:30",
+    "start": "20260406172500 +0000",
+    "stop": "20260406173000 +0000",
     "startTs": 1775496300000,
     "stopTs": 1775496600000,
     "title": "Body Guard",
     "desc": "Sudhi humorously tackles serious issues, sparking thought and making topics accessible.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093547"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260406173000 +0000",
+    "stop": "20260406180000 +0000",
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Good Night News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093570"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "18:00",
-    "stop": "18:25",
+    "start": "20260406180000 +0000",
+    "stop": "20260406182500 +0000",
     "startTs": 1775498400000,
     "stopTs": 1775499900000,
     "title": "Gulf News",
     "desc": "The host presents a round-up of the latest news updates from the Middle East.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093554"
   },
   {
     "channelId": "ts532",
     "channelName": "Asianet News",
-    "start": "18:25",
-    "stop": "18:30",
+    "start": "20260406182500 +0000",
+    "stop": "20260406183000 +0000",
     "startTs": 1775499900000,
     "stopTs": 1775500200000,
     "title": "Munshi",
     "desc": "People from different religious and political backgrounds talk about current issues.",
-    "category": null
+    "channel": "ts532",
+    "catchup-id": "93093595"
   }
 ]

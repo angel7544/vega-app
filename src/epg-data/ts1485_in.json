@@ -2,408 +2,445 @@
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "18:43",
-    "stop": "19:13",
+    "start": "20260404184300 +0000",
+    "stop": "20260404191300 +0000",
     "startTs": 1775328180000,
     "stopTs": 1775329980000,
     "title": "Message",
     "desc": "A religious scholar delivers a discourse on the holy teachings of the Almighty.",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073551"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "19:13",
-    "stop": "19:48",
+    "start": "20260404191300 +0000",
+    "stop": "20260404194800 +0000",
     "startTs": 1775329980000,
     "stopTs": 1775332080000,
     "title": "Message",
     "desc": "A religious scholar delivers a discourse on the holy teachings of the Almighty.",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073535"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "19:48",
-    "stop": "20:26",
+    "start": "20260404194800 +0000",
+    "stop": "20260404202600 +0000",
     "startTs": 1775332080000,
     "stopTs": 1775334360000,
     "title": "Message",
     "desc": "A religious scholar delivers a discourse on the holy teachings of the Almighty.",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073527"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "20:26",
-    "stop": "20:55",
+    "start": "20260404202600 +0000",
+    "stop": "20260404205500 +0000",
     "startTs": 1775334360000,
     "stopTs": 1775336100000,
     "title": "Message",
     "desc": "A religious scholar delivers a discourse on the holy teachings of the Almighty.",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073554"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "20:55",
-    "stop": "21:21",
+    "start": "20260404205500 +0000",
+    "stop": "20260404212100 +0000",
     "startTs": 1775336100000,
     "stopTs": 1775337660000,
     "title": "Message",
     "desc": "A religious scholar delivers a discourse on the holy teachings of the Almighty.",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073549"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "21:21",
-    "stop": "21:43",
+    "start": "20260404212100 +0000",
+    "stop": "20260404214300 +0000",
     "startTs": 1775337660000,
     "stopTs": 1775338980000,
     "title": "Message",
     "desc": "A religious scholar delivers a discourse on the holy teachings of the Almighty.",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073521"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "21:43",
-    "stop": "22:24",
+    "start": "20260404214300 +0000",
+    "stop": "20260404222400 +0000",
     "startTs": 1775338980000,
     "stopTs": 1775341440000,
     "title": "Songs",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073522"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "22:24",
-    "stop": "22:53",
+    "start": "20260404222400 +0000",
+    "stop": "20260404225300 +0000",
     "startTs": 1775341440000,
     "stopTs": 1775343180000,
     "title": "Message",
     "desc": "A religious scholar delivers a discourse on the holy teachings of the Almighty.",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073542"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "22:53",
-    "stop": "23:29",
+    "start": "20260404225300 +0000",
+    "stop": "20260404232900 +0000",
     "startTs": 1775343180000,
     "stopTs": 1775345340000,
     "title": "Bible Reading, Stories",
     "desc": ".",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073545"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "23:29",
-    "stop": "00:28",
+    "start": "20260404232900 +0000",
+    "stop": "20260405002800 +0000",
     "startTs": 1775345340000,
     "stopTs": 1775348880000,
     "title": "Morning Devotion",
     "desc": ".",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073538"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "00:28",
-    "stop": "02:14",
+    "start": "20260405002800 +0000",
+    "stop": "20260405021400 +0000",
     "startTs": 1775348880000,
     "stopTs": 1775355240000,
     "title": "Program Intro Adv",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073531"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "02:14",
-    "stop": "03:16",
+    "start": "20260405021400 +0000",
+    "stop": "20260405031600 +0000",
     "startTs": 1775355240000,
     "stopTs": 1775358960000,
     "title": "Kutty's Story",
     "desc": ".",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073539"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "03:16",
-    "stop": "03:38",
+    "start": "20260405031600 +0000",
+    "stop": "20260405033800 +0000",
     "startTs": 1775358960000,
     "stopTs": 1775360280000,
     "title": "Ministry Message And Songs",
     "desc": ".",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073537"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "03:38",
-    "stop": "04:41",
+    "start": "20260405033800 +0000",
+    "stop": "20260405044100 +0000",
     "startTs": 1775360280000,
     "stopTs": 1775364060000,
     "title": "Kutt's Action Songs",
     "desc": ".",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073529"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "04:41",
-    "stop": "05:11",
+    "start": "20260405044100 +0000",
+    "stop": "20260405051100 +0000",
     "startTs": 1775364060000,
     "stopTs": 1775365860000,
     "title": "Daily Devotion - Message",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073524"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "05:11",
-    "stop": "05:57",
+    "start": "20260405051100 +0000",
+    "stop": "20260405055700 +0000",
     "startTs": 1775365860000,
     "stopTs": 1775368620000,
     "title": "Bible Reading, Stories",
     "desc": ".",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073530"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "05:57",
-    "stop": "06:12",
+    "start": "20260405055700 +0000",
+    "stop": "20260405061200 +0000",
     "startTs": 1775368620000,
     "stopTs": 1775369520000,
     "title": "Chinnatha Oru Seithi",
     "desc": ".",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073541"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "06:12",
-    "stop": "06:38",
+    "start": "20260405061200 +0000",
+    "stop": "20260405063800 +0000",
     "startTs": 1775369520000,
     "stopTs": 1775371080000,
     "title": "Shorts",
     "desc": ".",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073520"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "06:38",
-    "stop": "07:38",
+    "start": "20260405063800 +0000",
+    "stop": "20260405073800 +0000",
     "startTs": 1775371080000,
     "stopTs": 1775374680000,
     "title": "Yesuvin Chellangal",
     "desc": ".",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073525"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "07:38",
-    "stop": "08:08",
+    "start": "20260405073800 +0000",
+    "stop": "20260405080800 +0000",
     "startTs": 1775374680000,
     "stopTs": 1775376480000,
     "title": "Message",
     "desc": "A religious scholar delivers a discourse on the holy teachings of the Almighty.",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073548"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "08:08",
-    "stop": "08:36",
+    "start": "20260405080800 +0000",
+    "stop": "20260405083600 +0000",
     "startTs": 1775376480000,
     "stopTs": 1775378160000,
     "title": "Testimony",
     "desc": ".",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073552"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "08:36",
-    "stop": "09:04",
+    "start": "20260405083600 +0000",
+    "stop": "20260405090400 +0000",
     "startTs": 1775378160000,
     "stopTs": 1775379840000,
     "title": "3,5 Min Messages",
     "desc": ".",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073547"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "09:04",
-    "stop": "09:39",
+    "start": "20260405090400 +0000",
+    "stop": "20260405093900 +0000",
     "startTs": 1775379840000,
     "stopTs": 1775381940000,
     "title": "Message",
     "desc": "A religious scholar delivers a discourse on the holy teachings of the Almighty.",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073532"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "09:39",
-    "stop": "10:25",
+    "start": "20260405093900 +0000",
+    "stop": "20260405102500 +0000",
     "startTs": 1775381940000,
     "stopTs": 1775384700000,
     "title": "Missionary Biography",
     "desc": ".",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073534"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "10:25",
-    "stop": "12:39",
+    "start": "20260405102500 +0000",
+    "stop": "20260405123900 +0000",
     "startTs": 1775384700000,
     "stopTs": 1775392740000,
     "title": "Sunday Service",
     "desc": "Spiritual leaders apprise devotees of divine teachings from the Bible.",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073528"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "12:39",
-    "stop": "13:09",
+    "start": "20260405123900 +0000",
+    "stop": "20260405130900 +0000",
     "startTs": 1775392740000,
     "stopTs": 1775394540000,
     "title": "Message",
     "desc": "A religious scholar delivers a discourse on the holy teachings of the Almighty.",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073544"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "13:09",
-    "stop": "13:35",
+    "start": "20260405130900 +0000",
+    "stop": "20260405133500 +0000",
     "startTs": 1775394540000,
     "stopTs": 1775396100000,
     "title": "Message",
     "desc": "A religious scholar delivers a discourse on the holy teachings of the Almighty.",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073526"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "13:35",
-    "stop": "14:13",
+    "start": "20260405133500 +0000",
+    "stop": "20260405141300 +0000",
     "startTs": 1775396100000,
     "stopTs": 1775398380000,
     "title": "Message",
     "desc": "A religious scholar delivers a discourse on the holy teachings of the Almighty.",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073543"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "14:13",
-    "stop": "14:42",
+    "start": "20260405141300 +0000",
+    "stop": "20260405144200 +0000",
     "startTs": 1775398380000,
     "stopTs": 1775400120000,
     "title": "Message",
     "desc": "A religious scholar delivers a discourse on the holy teachings of the Almighty.",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073533"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "14:42",
-    "stop": "15:12",
+    "start": "20260405144200 +0000",
+    "stop": "20260405151200 +0000",
     "startTs": 1775400120000,
     "stopTs": 1775401920000,
     "title": "Iniyavale Program",
     "desc": ".",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073540"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "15:12",
-    "stop": "16:27",
+    "start": "20260405151200 +0000",
+    "stop": "20260405162700 +0000",
     "startTs": 1775401920000,
     "stopTs": 1775406420000,
     "title": "Message",
     "desc": "A religious scholar delivers a discourse on the holy teachings of the Almighty.",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073550"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "16:27",
-    "stop": "17:00",
+    "start": "20260405162700 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406420000,
     "stopTs": 1775408400000,
     "title": "Konmoniye Kel Program",
     "desc": ".",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073546"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "17:00",
-    "stop": "17:29",
+    "start": "20260405170000 +0000",
+    "stop": "20260405172900 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410140000,
     "title": "Message",
     "desc": "A religious scholar delivers a discourse on the holy teachings of the Almighty.",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073553"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "17:29",
-    "stop": "17:51",
+    "start": "20260405172900 +0000",
+    "stop": "20260405175100 +0000",
     "startTs": 1775410140000,
     "stopTs": 1775411460000,
     "title": "Message",
     "desc": "A religious scholar delivers a discourse on the holy teachings of the Almighty.",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073523"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "17:51",
-    "stop": "18:43",
+    "start": "20260405175100 +0000",
+    "stop": "20260405184300 +0000",
     "startTs": 1775411460000,
     "stopTs": 1775414580000,
     "title": "Message",
     "desc": "A religious scholar delivers a discourse on the holy teachings of the Almighty.",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93073536"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "18:43",
-    "stop": "19:13",
+    "start": "20260405184300 +0000",
+    "stop": "20260405191300 +0000",
     "startTs": 1775414580000,
     "stopTs": 1775416380000,
     "title": "Message",
     "desc": "A religious scholar delivers a discourse on the holy teachings of the Almighty.",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93113476"
   },
   {
     "channelId": "ts1485",
     "channelName": "ts1485",
-    "start": "19:13",
-    "stop": "19:48",
+    "start": "20260405191300 +0000",
+    "stop": "20260405194800 +0000",
     "startTs": 1775416380000,
     "stopTs": 1775418480000,
     "title": "Message",
     "desc": "A religious scholar delivers a discourse on the holy teachings of the Almighty.",
-    "category": null
+    "channel": "ts1485",
+    "catchup-id": "93113478"
   }
 ]

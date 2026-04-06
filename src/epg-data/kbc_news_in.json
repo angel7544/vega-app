@@ -2,529 +2,577 @@
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260404183000 +0000",
+    "stop": "20260404190000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775329200000,
     "title": "Katihar News",
     "desc": "The host presents a detailed report of the latest news and developments.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059759"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260404190000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775329200000,
     "stopTs": 1775331000000,
     "title": "Daily Update",
     "desc": "The host sheds light on the latest news updates from across the nation and the world.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059754"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260404193000 +0000",
+    "stop": "20260404200000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775332800000,
     "title": "Hamara Bihar",
     "desc": "A presenter reports the most recent news, updates and developments in the state of Bihar.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059763"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260404200000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775332800000,
     "stopTs": 1775334600000,
     "title": "Jan Bhakti",
     "desc": "The host presents the latest news and updates regarding religious events and festivals.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059726"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260404203000 +0000",
+    "stop": "20260404210000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775336400000,
     "title": "Jan Ki Charcha",
     "desc": "A panel of local representatives discuss various issues faced by the common people.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059755"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260404210000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775336400000,
     "stopTs": 1775338200000,
     "title": "Jan Super Fast",
     "desc": "The host presents the latest updates on various social, economic and political issues.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059740"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260404213000 +0000",
+    "stop": "20260404220000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775340000000,
     "title": "Khabar Din Bhar",
     "desc": "The host presents some of the latest updates, current affairs and developments.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059758"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260404220000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775340000000,
     "stopTs": 1775341800000,
     "title": "National Khabar",
     "desc": "The host provides the latest updates and stories from around the country and the world.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059752"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260404223000 +0000",
+    "stop": "20260404230000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775343600000,
     "title": "Dear Docter",
     "desc": "The host interacts with a doctor who provides insights into various health issues.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059729"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260404230000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775343600000,
     "stopTs": 1775345400000,
     "title": "In Short Story",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059737"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260404233000 +0000",
+    "stop": "20260405000000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775347200000,
     "title": "Bollywood Ki Khabrein",
     "desc": "The host presents the latest updates and developments from the Hindi film industry.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059722"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260405000000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775347200000,
     "stopTs": 1775349000000,
     "title": "Bhajan Darshan",
     "desc": "A comprehensive compilation of devotional songs and music is played back to back.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059735"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260405003000 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775350800000,
     "title": "Apna Bihar",
     "desc": "The host presents some of the most recent socio-political and economic updates from Bihar.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059760"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260405010000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775352600000,
     "title": "Daily Update",
     "desc": "The host sheds light on the latest news updates from across the nation and the world.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059744"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260405013000 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775354400000,
     "title": "Hamara Bihar",
     "desc": "A presenter reports the most recent news, updates and developments in the state of Bihar.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059731"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260405020000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775356200000,
     "title": "Jan Bhakti",
     "desc": "The host presents the latest news and updates regarding religious events and festivals.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059748"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260405023000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775358000000,
     "title": "Jan Ki Charcha",
     "desc": "A panel of local representatives discuss various issues faced by the common people.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059767"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "Jan Super Fast",
     "desc": "The host presents the latest updates on various social, economic and political issues.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059732"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "Khabar Din Bhar",
     "desc": "The host presents some of the latest updates, current affairs and developments.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059721"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "National Khabar",
     "desc": "The host provides the latest updates and stories from around the country and the world.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059764"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260405043000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775365200000,
     "title": "Dear Docter",
     "desc": "The host interacts with a doctor who provides insights into various health issues.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059768"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775367000000,
     "title": "In Short Story",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059747"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260405053000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775368800000,
     "title": "Apna Bihar",
     "desc": "The host presents some of the most recent socio-political and economic updates from Bihar.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059756"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260405060000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370600000,
     "title": "Daily Update",
     "desc": "The host sheds light on the latest news updates from across the nation and the world.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059725"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260405063000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775372400000,
     "title": "Hamara Bihar",
     "desc": "A presenter reports the most recent news, updates and developments in the state of Bihar.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059761"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "Jan Bhakti",
     "desc": "The host presents the latest news and updates regarding religious events and festivals.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059765"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260405073000 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775376000000,
     "title": "Jan Ki Charcha",
     "desc": "A panel of local representatives discuss various issues faced by the common people.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059743"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260405080000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775377800000,
     "title": "Jan Super Fast",
     "desc": "The host presents the latest updates on various social, economic and political issues.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059738"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260405083000 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775379600000,
     "title": "Khabar Din Bhar",
     "desc": "The host presents some of the latest updates, current affairs and developments.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059724"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260405090000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775381400000,
     "title": "National Khabar",
     "desc": "The host provides the latest updates and stories from around the country and the world.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059734"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260405093000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775383200000,
     "title": "Dear Docter",
     "desc": "The host interacts with a doctor who provides insights into various health issues.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059757"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260405100000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775385000000,
     "title": "In Short Story",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059723"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260405103000 +0000",
+    "stop": "20260405110000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775386800000,
     "title": "Apna Bihar",
     "desc": "The host presents some of the most recent socio-political and economic updates from Bihar.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059766"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260405110000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775386800000,
     "stopTs": 1775388600000,
     "title": "Daily Update",
     "desc": "The host sheds light on the latest news updates from across the nation and the world.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059749"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260405113000 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775390400000,
     "title": "Hamara Bihar",
     "desc": "A presenter reports the most recent news, updates and developments in the state of Bihar.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059746"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "Jan Bhakti",
     "desc": "The host presents the latest news and updates regarding religious events and festivals.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059727"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260405123000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775394000000,
     "title": "Jan Ki Charcha",
     "desc": "A panel of local representatives discuss various issues faced by the common people.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059730"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260405130000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395800000,
     "title": "Jan Super Fast",
     "desc": "The host presents the latest updates on various social, economic and political issues.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059750"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260405133000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775397600000,
     "title": "Khabar Din Bhar",
     "desc": "The host presents some of the latest updates, current affairs and developments.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059742"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "National Khabar",
     "desc": "The host provides the latest updates and stories from around the country and the world.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059739"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775401200000,
     "title": "Dear Docter",
     "desc": "The host interacts with a doctor who provides insights into various health issues.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059745"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "In Short Story",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059728"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260405153000 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775404800000,
     "title": "Apna Bihar",
     "desc": "The host presents some of the most recent socio-political and economic updates from Bihar.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059741"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260405160000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775406600000,
     "title": "Hamara Bihar",
     "desc": "A presenter reports the most recent news, updates and developments in the state of Bihar.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059733"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "Bollywood Ki Khabrein At Night",
     "desc": "The host sheds light on the latest gossip and happenings from Bollywood.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059753"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "National Khabar",
     "desc": "The host provides the latest updates and stories from around the country and the world.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059762"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260405173000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775412000000,
     "title": "Khabar Din Bhar",
     "desc": "The host presents some of the latest updates, current affairs and developments.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059751"
   },
   {
     "channelId": "ts1334",
     "channelName": "KBC News",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260405180000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775413800000,
     "title": "Hamara Bihar",
     "desc": "A presenter reports the most recent news, updates and developments in the state of Bihar.",
-    "category": null
+    "channel": "ts1334",
+    "catchup-id": "93059736"
   }
 ]

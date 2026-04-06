@@ -2,265 +2,443 @@
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "19:53",
-    "stop": "22:58",
+    "start": "20260404195300 +0000",
+    "stop": "20260404225800 +0000",
     "startTs": 1775332380000,
     "stopTs": 1775343480000,
     "title": "23rd March 1931: Shaheed",
     "desc": "A freedom fighter is arrested for killing an officer responsible for his mentor's death.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93205191"
   },
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "22:58",
-    "stop": "00:33",
+    "start": "20260404225800 +0000",
+    "stop": "20260405003300 +0000",
     "startTs": 1775343480000,
     "stopTs": 1775349180000,
     "title": "Chamku",
     "desc": "Chandrama, a Naxalite, becomes a police assassin and falls in love with Shubhi, a teacher.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93205192"
   },
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "00:33",
-    "stop": "02:47",
+    "start": "20260405003300 +0000",
+    "stop": "20260405024700 +0000",
     "startTs": 1775349180000,
     "stopTs": 1775357220000,
     "title": "Good Newwz",
     "desc": "Two couples end up in a complicated situation after their doctor makes a blunder.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93205193"
   },
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "02:47",
-    "stop": "06:03",
+    "start": "20260405024700 +0000",
+    "stop": "20260405060300 +0000",
     "startTs": 1775357220000,
     "stopTs": 1775368980000,
     "title": "Toofan",
     "desc": "Twins Shyam and Toofan, separated at birth, reunite years later to avenge their father.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93242015"
   },
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "06:03",
-    "stop": "08:46",
+    "start": "20260405060300 +0000",
+    "stop": "20260405084600 +0000",
     "startTs": 1775368980000,
     "stopTs": 1775378760000,
     "title": "Sirf Tum",
     "desc": "Aarti sets out to look for Deepak, with whom she fell in love by exchanging letters.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93242016"
   },
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "08:46",
-    "stop": "12:02",
+    "start": "20260405084600 +0000",
+    "stop": "20260405120200 +0000",
     "startTs": 1775378760000,
     "stopTs": 1775390520000,
     "title": "Ram Teri Ganga Maili",
     "desc": "Ganga is forced to work in a brothel when she cannot find the father of her child.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93242017"
   },
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "12:02",
-    "stop": "15:20",
+    "start": "20260405120200 +0000",
+    "stop": "20260405152000 +0000",
     "startTs": 1775390520000,
     "stopTs": 1775402400000,
     "title": "Khal Nayak",
     "desc": "Officer Ganga tries to catch an escaped convict to save her fiancé inspector Ram's honour.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93242014"
   },
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "15:20",
-    "stop": "18:20",
+    "start": "20260405152000 +0000",
+    "stop": "20260405182000 +0000",
     "startTs": 1775402400000,
     "stopTs": 1775413200000,
     "title": "Koyla",
     "desc": "Silenced by a piece of smouldering coal, Shankar lives enslaved until love liberates him.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93242018"
   },
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "18:20",
-    "stop": "22:49",
+    "start": "20260405182000 +0000",
+    "stop": "20260405224900 +0000",
     "startTs": 1775413200000,
     "stopTs": 1775429340000,
     "title": "Balidaan",
     "desc": "Police Inspector Vijay makes an enemy of bandit Ranga after he kills one of his men.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93242013"
+  },
+  {
+    "channelId": "ZeeBollywood.in",
+    "channelName": "IN - Zee Bollywood",
+    "start": "20260405202200 +0000",
+    "stop": "20260405224400 +0000",
+    "startTs": 1775420520000,
+    "stopTs": 1775429040000,
+    "title": "Issaq",
+    "desc": "In the kaleidoscopic cityscapes of Banaras, a soul-stirring Romeo-and-Juliet-esque romance kindles between two young individuals from rival mafia families.",
+    "channel": "ZeeBollywood.in"
+  },
+  {
+    "channelId": "ZeeBollywood.in",
+    "channelName": "IN - Zee Bollywood",
+    "start": "20260405224400 +0000",
+    "stop": "20260406002700 +0000",
+    "startTs": 1775429040000,
+    "stopTs": 1775435220000,
+    "title": "Kurukshetra",
+    "desc": "ACP Prithviraj, an honest man, arrests Chief Minister Baburao's son for raping a woman. Consequently, Baburao leaves no stone unturned to get revenge against Prithviraj.",
+    "channel": "ZeeBollywood.in"
+  },
+  {
+    "channelId": "ZeeBollywood.in",
+    "channelName": "IN - Zee Bollywood",
+    "start": "20260406002700 +0000",
+    "stop": "20260406024500 +0000",
+    "startTs": 1775435220000,
+    "stopTs": 1775443500000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "channel": "ZeeBollywood.in"
   },
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "02:45",
-    "stop": "05:32",
+    "start": "20260406024500 +0000",
+    "stop": "20260406053200 +0000",
     "startTs": 1775443500000,
     "stopTs": 1775453520000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93113954"
   },
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "05:32",
-    "stop": "08:30",
+    "start": "20260406053200 +0000",
+    "stop": "20260406083000 +0000",
     "startTs": 1775453520000,
     "stopTs": 1775464200000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93113956"
   },
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "08:30",
-    "stop": "11:57",
+    "start": "20260406083000 +0000",
+    "stop": "20260406115700 +0000",
     "startTs": 1775464200000,
     "stopTs": 1775476620000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93113948"
   },
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "11:57",
-    "stop": "14:27",
+    "start": "20260406115700 +0000",
+    "stop": "20260406142700 +0000",
     "startTs": 1775476620000,
     "stopTs": 1775485620000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93113949"
   },
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "14:27",
-    "stop": "17:30",
+    "start": "20260406142700 +0000",
+    "stop": "20260406173000 +0000",
     "startTs": 1775485620000,
     "stopTs": 1775496600000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93113953"
   },
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "17:30",
-    "stop": "19:51",
+    "start": "20260406173000 +0000",
+    "stop": "20260406195100 +0000",
     "startTs": 1775496600000,
     "stopTs": 1775505060000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93113950"
   },
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "19:51",
-    "stop": "21:34",
+    "start": "20260406195100 +0000",
+    "stop": "20260406213400 +0000",
     "startTs": 1775505060000,
     "stopTs": 1775511240000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93150388"
   },
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "21:34",
-    "stop": "00:20",
+    "start": "20260406213400 +0000",
+    "stop": "20260407002000 +0000",
     "startTs": 1775511240000,
     "stopTs": 1775521200000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93150382"
   },
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "00:20",
-    "stop": "02:33",
+    "start": "20260407002000 +0000",
+    "stop": "20260407023300 +0000",
     "startTs": 1775521200000,
     "stopTs": 1775529180000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93150383"
   },
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "02:33",
-    "stop": "05:32",
+    "start": "20260407023300 +0000",
+    "stop": "20260407053200 +0000",
     "startTs": 1775529180000,
     "stopTs": 1775539920000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93150389"
   },
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "05:32",
-    "stop": "08:30",
+    "start": "20260407053200 +0000",
+    "stop": "20260407083000 +0000",
     "startTs": 1775539920000,
     "stopTs": 1775550600000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93150386"
   },
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "08:30",
-    "stop": "11:37",
+    "start": "20260407083000 +0000",
+    "stop": "20260407113700 +0000",
     "startTs": 1775550600000,
     "stopTs": 1775561820000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93150384"
   },
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "11:37",
-    "stop": "14:30",
+    "start": "20260407113700 +0000",
+    "stop": "20260407143000 +0000",
     "startTs": 1775561820000,
     "stopTs": 1775572200000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93150385"
   },
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "14:30",
-    "stop": "18:24",
+    "start": "20260407143000 +0000",
+    "stop": "20260407182400 +0000",
     "startTs": 1775572200000,
     "stopTs": 1775586240000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93150381"
   },
   {
     "channelId": "ts175",
     "channelName": "Zee Bollywood",
-    "start": "18:24",
-    "stop": "20:27",
+    "start": "20260407182400 +0000",
+    "stop": "20260407202700 +0000",
     "startTs": 1775586240000,
     "stopTs": 1775593620000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts175",
+    "catchup-id": "93150387"
+  },
+  {
+    "channelId": "ZeeBollywood.in",
+    "channelName": "IN - Zee Bollywood",
+    "start": "20260407202700 +0000",
+    "stop": "20260407234700 +0000",
+    "startTs": 1775593620000,
+    "stopTs": 1775605620000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "channel": "ZeeBollywood.in"
+  },
+  {
+    "channelId": "ZeeBollywood.in",
+    "channelName": "IN - Zee Bollywood",
+    "start": "20260407234700 +0000",
+    "stop": "20260408023500 +0000",
+    "startTs": 1775605620000,
+    "stopTs": 1775615700000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "channel": "ZeeBollywood.in"
+  },
+  {
+    "channelId": "ZeeBollywood.in",
+    "channelName": "IN - Zee Bollywood",
+    "start": "20260408023500 +0000",
+    "stop": "20260408054500 +0000",
+    "startTs": 1775615700000,
+    "stopTs": 1775627100000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "channel": "ZeeBollywood.in"
+  },
+  {
+    "channelId": "ZeeBollywood.in",
+    "channelName": "IN - Zee Bollywood",
+    "start": "20260408054500 +0000",
+    "stop": "20260408084400 +0000",
+    "startTs": 1775627100000,
+    "stopTs": 1775637840000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "channel": "ZeeBollywood.in"
+  },
+  {
+    "channelId": "ZeeBollywood.in",
+    "channelName": "IN - Zee Bollywood",
+    "start": "20260408084400 +0000",
+    "stop": "20260408112300 +0000",
+    "startTs": 1775637840000,
+    "stopTs": 1775647380000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "channel": "ZeeBollywood.in"
+  },
+  {
+    "channelId": "ZeeBollywood.in",
+    "channelName": "IN - Zee Bollywood",
+    "start": "20260408112300 +0000",
+    "stop": "20260408143000 +0000",
+    "startTs": 1775647380000,
+    "stopTs": 1775658600000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "channel": "ZeeBollywood.in"
+  },
+  {
+    "channelId": "ZeeBollywood.in",
+    "channelName": "IN - Zee Bollywood",
+    "start": "20260408143000 +0000",
+    "stop": "20260408175000 +0000",
+    "startTs": 1775658600000,
+    "stopTs": 1775670600000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "channel": "ZeeBollywood.in"
+  },
+  {
+    "channelId": "ZeeBollywood.in",
+    "channelName": "IN - Zee Bollywood",
+    "start": "20260408175000 +0000",
+    "stop": "20260408202500 +0000",
+    "startTs": 1775670600000,
+    "stopTs": 1775679900000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "channel": "ZeeBollywood.in"
+  },
+  {
+    "channelId": "ZeeBollywood.in",
+    "channelName": "IN - Zee Bollywood",
+    "start": "20260408202500 +0000",
+    "stop": "20260408235400 +0000",
+    "startTs": 1775679900000,
+    "stopTs": 1775692440000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "channel": "ZeeBollywood.in"
+  },
+  {
+    "channelId": "ZeeBollywood.in",
+    "channelName": "IN - Zee Bollywood",
+    "start": "20260408235400 +0000",
+    "stop": "20260409032000 +0000",
+    "startTs": 1775692440000,
+    "stopTs": 1775704800000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "channel": "ZeeBollywood.in"
+  },
+  {
+    "channelId": "ZeeBollywood.in",
+    "channelName": "IN - Zee Bollywood",
+    "start": "20260409032000 +0000",
+    "stop": "20260409060500 +0000",
+    "startTs": 1775704800000,
+    "stopTs": 1775714700000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "channel": "ZeeBollywood.in"
   }
 ]

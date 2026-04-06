@@ -2,254 +2,277 @@
   {
     "channelId": "ts481",
     "channelName": "ts481",
-    "start": "18:30",
-    "stop": "00:30",
+    "start": "20260404183000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775349000000,
     "title": "Back To Back Comedy",
     "desc": "A compilation of funny scenes from Malayalam films are played back-to-back.",
-    "category": null
+    "channel": "ts481",
+    "catchup-id": "93161287"
   },
   {
     "channelId": "ts481",
     "channelName": "ts481",
-    "start": "00:30",
-    "stop": "01:30",
+    "start": "20260405003000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775352600000,
     "title": "Clap Board",
     "desc": "A livey mix of iconic Malayalam comedy moments, showcasing legendary actors.",
-    "category": null
+    "channel": "ts481",
+    "catchup-id": "93161297"
   },
   {
     "channelId": "ts481",
     "channelName": "ts481",
-    "start": "01:30",
-    "stop": "02:30",
+    "start": "20260405013000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775356200000,
     "title": "Comedy Time",
     "desc": "Catch some of the funniest scenes from various Tamil movies.",
-    "category": null
+    "channel": "ts481",
+    "catchup-id": "93161301"
   },
   {
     "channelId": "ts481",
     "channelName": "ts481",
-    "start": "02:30",
-    "stop": "03:30",
+    "start": "20260405023000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775359800000,
     "title": "Hello Comedy",
     "desc": "Talented comedians collaborate on a witty skit to entertain the audience.",
-    "category": null
+    "channel": "ts481",
+    "catchup-id": "93161302"
   },
   {
     "channelId": "ts481",
     "channelName": "ts481",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "Loka Comedy",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts481",
+    "catchup-id": "93161299"
   },
   {
     "channelId": "ts481",
     "channelName": "ts481",
-    "start": "04:00",
-    "stop": "05:00",
+    "start": "20260405040000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775365200000,
     "title": "One By Two",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts481",
+    "catchup-id": "93161288"
   },
   {
     "channelId": "ts481",
     "channelName": "ts481",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775367000000,
     "title": "Oru Cinemakkaran",
     "desc": "Newlyweds Alby and Sara struggle financially, he commits a crime and faces repercussions.",
-    "category": null
+    "channel": "ts481",
+    "catchup-id": "93161307"
   },
   {
     "channelId": "ts481",
     "channelName": "ts481",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260405053000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775368800000,
     "title": "Tamar Padar",
     "desc": "The host invites celebrities and asks them to perform various tasks against each other.",
-    "category": null
+    "channel": "ts481",
+    "catchup-id": "93161294"
   },
   {
     "channelId": "ts481",
     "channelName": "ts481",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260405060000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370600000,
     "title": "Dhe Ippo Sariyaakki Tharaam",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts481",
+    "catchup-id": "93161295"
   },
   {
     "channelId": "ts481",
     "channelName": "ts481",
-    "start": "06:30",
-    "stop": "07:30",
+    "start": "20260405063000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775374200000,
     "title": "Yemendan Thamasha",
     "desc": "A collection of comedy scenes from various movies in the Malayalam movie industry.",
-    "category": null
+    "channel": "ts481",
+    "catchup-id": "93161306"
   },
   {
     "channelId": "ts481",
     "channelName": "ts481",
-    "start": "07:30",
-    "stop": "09:00",
+    "start": "20260405073000 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775379600000,
     "title": "Weekend Freehit",
     "desc": "A collection of some of the most popular movie songs played consecutively.",
-    "category": null
+    "channel": "ts481",
+    "catchup-id": "93161305"
   },
   {
     "channelId": "ts481",
     "channelName": "ts481",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260405090000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775381400000,
     "title": "Humor Tumor",
     "desc": "A compilation of hilarious comedy scenes from recently released Tollywood movies.",
-    "category": null
+    "channel": "ts481",
+    "catchup-id": "93161289"
   },
   {
     "channelId": "ts481",
     "channelName": "ts481",
-    "start": "09:30",
-    "stop": "10:30",
+    "start": "20260405093000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775385000000,
     "title": "Chayodoppam Chiri",
     "desc": "A curated collection of hilarious scenes from various movies.",
-    "category": null
+    "channel": "ts481",
+    "catchup-id": "93161291"
   },
   {
     "channelId": "ts481",
     "channelName": "ts481",
-    "start": "10:30",
-    "stop": "11:30",
+    "start": "20260405103000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775388600000,
     "title": "Tamil Jollywood",
     "desc": "A compilation of hilarious comedy scenes from Tamil movies are showcased.",
-    "category": null
+    "channel": "ts481",
+    "catchup-id": "93161292"
   },
   {
     "channelId": "ts481",
     "channelName": "ts481",
-    "start": "11:30",
-    "stop": "12:30",
+    "start": "20260405113000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775392200000,
     "title": "Clap Board",
     "desc": "A livey mix of iconic Malayalam comedy moments, showcasing legendary actors.",
-    "category": null
+    "channel": "ts481",
+    "catchup-id": "93161290"
   },
   {
     "channelId": "ts481",
     "channelName": "ts481",
-    "start": "12:30",
-    "stop": "13:30",
+    "start": "20260405123000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775395800000,
     "title": "One By Two",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts481",
+    "catchup-id": "93161308"
   },
   {
     "channelId": "ts481",
     "channelName": "ts481",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260405133000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775397600000,
     "title": "Loka Comedy",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts481",
+    "catchup-id": "93161300"
   },
   {
     "channelId": "ts481",
     "channelName": "ts481",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "Scratch N Win",
     "desc": "The participants take part in a quiz and scratch off a coupon to win the prize.",
-    "category": null
+    "channel": "ts481",
+    "catchup-id": "93161293"
   },
   {
     "channelId": "ts481",
     "channelName": "ts481",
-    "start": "14:30",
-    "stop": "15:30",
+    "start": "20260405143000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775403000000,
     "title": "Yemendan Thamasha",
     "desc": "A collection of comedy scenes from various movies in the Malayalam movie industry.",
-    "category": null
+    "channel": "ts481",
+    "catchup-id": "93161303"
   },
   {
     "channelId": "ts481",
     "channelName": "ts481",
-    "start": "15:30",
-    "stop": "17:00",
+    "start": "20260405153000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775408400000,
     "title": "Weekend Freehit",
     "desc": "A collection of some of the most popular movie songs played consecutively.",
-    "category": null
+    "channel": "ts481",
+    "catchup-id": "93161304"
   },
   {
     "channelId": "ts481",
     "channelName": "ts481",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "Humor Tumor",
     "desc": "A compilation of hilarious comedy scenes from recently released Tollywood movies.",
-    "category": null
+    "channel": "ts481",
+    "catchup-id": "93161296"
   },
   {
     "channelId": "ts481",
     "channelName": "ts481",
-    "start": "17:30",
-    "stop": "00:30",
+    "start": "20260405173000 +0000",
+    "stop": "20260406003000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775435400000,
     "title": "Premix",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts481",
+    "catchup-id": "93161298"
   },
   {
     "channelId": "ts481",
     "channelName": "ts481",
-    "start": "06:30",
-    "stop": "07:30",
+    "start": "20260406063000 +0000",
+    "stop": "20260406073000 +0000",
     "startTs": 1775457000000,
     "stopTs": 1775460600000,
     "title": "Yemendan Thamasha",
     "desc": "A collection of comedy scenes from various movies in the Malayalam movie industry.",
-    "category": null
+    "channel": "ts481",
+    "catchup-id": "93110838"
   }
 ]

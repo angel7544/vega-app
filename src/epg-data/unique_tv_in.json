@@ -2,353 +2,385 @@
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "18:30",
-    "stop": "19:30",
+    "start": "20260404183000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775331000000,
     "title": "Health Show",
     "desc": "The host presents various fitness tips and routines that aid in improving one's health.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073438"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "19:30",
-    "stop": "20:30",
+    "start": "20260404193000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775334600000,
     "title": "The Little Mermaid",
     "desc": "Ariel decides to explore the human world despite her father's warning.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073435"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260404203000 +0000",
+    "stop": "20260404210000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775336400000,
     "title": "Honey Bunny",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073423"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260404210000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775336400000,
     "stopTs": 1775338200000,
     "title": "Jungle Book",
     "desc": "Jungle boy Mowgli has two friends Bagheera and Baloo, who protect him from Shere Khan.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073422"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "21:30",
-    "stop": "22:30",
+    "start": "20260404213000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775341800000,
     "title": "Tom Little",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073421"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260404223000 +0000",
+    "stop": "20260404230000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775343600000,
     "title": "Honey Bunny",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073442"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "23:00",
-    "stop": "23:10",
+    "start": "20260404230000 +0000",
+    "stop": "20260404231000 +0000",
     "startTs": 1775343600000,
     "stopTs": 1775344200000,
     "title": "Jungle Book",
     "desc": "Jungle boy Mowgli has two friends Bagheera and Baloo, who protect him from Shere Khan.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073420"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "23:10",
-    "stop": "23:30",
+    "start": "20260404231000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775344200000,
     "stopTs": 1775345400000,
     "title": "12 Jyotirlinga Darshan",
     "desc": "Devotees come together to participate in a pilgrimage to visit the 12 Jyotirlingas.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073419"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "23:30",
-    "stop": "00:30",
+    "start": "20260404233000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775349000000,
     "title": "Dharam Katha",
     "desc": "A religious leader sheds light on the teachings of the Almighty.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073424"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "00:30",
-    "stop": "01:30",
+    "start": "20260405003000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775352600000,
     "title": "Bhakti Prvaah",
     "desc": "A compilation of spiritual hymns and verses praising the Almighty is played back to back.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073429"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260405013000 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775354400000,
     "title": "Bhoot Boss(Paap-O-Meter)",
     "desc": "Bhoot Boss, Thakela and Pakela land in dangerous situations due to their peculiar mission.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073415"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260405020000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775356200000,
     "title": "Jaanbaz Murga",
     "desc": "A fun-loving chicken and his friends embark on various adventures.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073427"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "02:30",
-    "stop": "03:30",
+    "start": "20260405023000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775359800000,
     "title": "Honey Bunny",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073425"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "Jungle Book",
     "desc": "Jungle boy Mowgli has two friends Bagheera and Baloo, who protect him from Shere Khan.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073418"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "Bablu Dablu",
     "desc": "Bear brothers Bablu and Dablu decide to stop an evil logger from cutting down the trees.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073436"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260405043000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775365200000,
     "title": "Bablu Dablu",
     "desc": "Bear brothers Bablu and Dablu decide to stop an evil logger from cutting down the trees.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073414"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "05:00",
-    "stop": "06:00",
+    "start": "20260405050000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775368800000,
     "title": "Yess Boss",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073443"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "06:00",
-    "stop": "07:00",
+    "start": "20260405060000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775372400000,
     "title": "Maddam Sir",
     "desc": "Four brave female police officers of Aminabad police station tackle various challenges.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073417"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "07:00",
-    "stop": "08:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775377800000,
     "title": "Maddam Sir",
     "desc": "Four brave female police officers of Aminabad police station tackle various challenges.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073431"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260405083000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775381400000,
     "title": "Honey Bunny",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073439"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260405093000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775383200000,
     "title": "Jungle Book",
     "desc": "Jungle boy Mowgli has two friends Bagheera and Baloo, who protect him from Shere Khan.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073440"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "10:00",
-    "stop": "11:00",
+    "start": "20260405100000 +0000",
+    "stop": "20260405110000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775386800000,
     "title": "Bablu Dablu",
     "desc": "Bear brothers Bablu and Dablu decide to stop an evil logger from cutting down the trees.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073434"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260405110000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775386800000,
     "stopTs": 1775388600000,
     "title": "Bhoot Boss(Paap-O-Meter)",
     "desc": "Bhoot Boss, Thakela and Pakela land in dangerous situations due to their peculiar mission.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073441"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "11:30",
-    "stop": "12:30",
+    "start": "20260405113000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775392200000,
     "title": "Honey Bunny",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073430"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "12:30",
-    "stop": "14:00",
+    "start": "20260405123000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775397600000,
     "title": "Honey Bunny",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073428"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "14:00",
-    "stop": "15:00",
+    "start": "20260405140000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775401200000,
     "title": "Maddam Sir",
     "desc": "Four brave female police officers of Aminabad police station tackle various challenges.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073432"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "Maddam Sir",
     "desc": "Four brave female police officers of Aminabad police station tackle various challenges.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073433"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260405153000 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775404800000,
     "title": "Maddam Sir",
     "desc": "Four brave female police officers of Aminabad police station tackle various challenges.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073437"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "16:00",
-    "stop": "17:30",
+    "start": "20260405160000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775410200000,
     "title": "Maddam Sir",
     "desc": "Four brave female police officers of Aminabad police station tackle various challenges.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073416"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "17:30",
-    "stop": "19:00",
+    "start": "20260405173000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775415600000,
     "title": "Honey Bunny",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93073426"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260405190000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Bablu Dablu",
     "desc": "Bear brothers Bablu and Dablu decide to stop an evil logger from cutting down the trees.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93113268"
   },
   {
     "channelId": "ts1164",
     "channelName": "Unique TV",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260405193000 +0000",
+    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Honey Bunny",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1164",
+    "catchup-id": "93113246"
   }
 ]

@@ -2,12 +2,13 @@
   {
     "channelId": "ts833",
     "channelName": "DD Port Blair",
-    "start": "18:30",
-    "stop": "22:30",
+    "start": "20260405183000 +0000",
+    "stop": "20260405223000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775428200000,
     "title": "Channel Will Resume @ 16:00 Hrs",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts833",
+    "catchup-id": "93096717"
   }
 ]

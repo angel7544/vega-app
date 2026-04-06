@@ -2,672 +2,733 @@
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "20:27",
-    "stop": "20:57",
+    "start": "20260404202700 +0000",
+    "stop": "20260404205700 +0000",
     "startTs": 1775334420000,
     "stopTs": 1775336220000,
     "title": "Bulletin",
     "desc": "The host presents latest news highlights and updates from India and around the world.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157782"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "20:57",
-    "stop": "21:27",
+    "start": "20260404205700 +0000",
+    "stop": "20260404212700 +0000",
     "startTs": 1775336220000,
     "stopTs": 1775338020000,
     "title": "Superfast100",
     "desc": "The host presents the latest updates on various issues in quick succession.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157746"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "21:27",
-    "stop": "21:57",
+    "start": "20260404212700 +0000",
+    "stop": "20260404215700 +0000",
     "startTs": 1775338020000,
     "stopTs": 1775339820000,
     "title": "Bulletin",
     "desc": "The host presents latest news highlights and updates from India and around the world.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157778"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "21:57",
-    "stop": "22:27",
+    "start": "20260404215700 +0000",
+    "stop": "20260404222700 +0000",
     "startTs": 1775339820000,
     "stopTs": 1775341620000,
     "title": "Fatafat",
     "desc": "The host shares the latest news stories from various spheres in a quick succession.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157742"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "22:27",
-    "stop": "22:57",
+    "start": "20260404222700 +0000",
+    "stop": "20260404225700 +0000",
     "startTs": 1775341620000,
     "stopTs": 1775343420000,
     "title": "Bulletin",
     "desc": "The host presents latest news highlights and updates from India and around the world.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157771"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "22:57",
-    "stop": "23:27",
+    "start": "20260404225700 +0000",
+    "stop": "20260404232700 +0000",
     "startTs": 1775343420000,
     "stopTs": 1775345220000,
     "title": "Superfast100",
     "desc": "The host presents the latest updates on various issues in quick succession.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157731"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "23:27",
-    "stop": "23:57",
+    "start": "20260404232700 +0000",
+    "stop": "20260404235700 +0000",
     "startTs": 1775345220000,
     "stopTs": 1775347020000,
     "title": "Bulletin",
     "desc": "The host presents latest news highlights and updates from India and around the world.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157776"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "23:57",
-    "stop": "00:27",
+    "start": "20260404235700 +0000",
+    "stop": "20260405002700 +0000",
     "startTs": 1775347020000,
     "stopTs": 1775348820000,
     "title": "Superfast",
     "desc": "The host presents important issues and provides updates on current events.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157738"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "00:27",
-    "stop": "00:57",
+    "start": "20260405002700 +0000",
+    "stop": "20260405005700 +0000",
     "startTs": 1775348820000,
     "stopTs": 1775350620000,
     "title": "Bulletin",
     "desc": "The host presents latest news highlights and updates from India and around the world.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157730"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "00:57",
-    "stop": "01:22",
+    "start": "20260405005700 +0000",
+    "stop": "20260405012200 +0000",
     "startTs": 1775350620000,
     "stopTs": 1775352120000,
     "title": "Special Report",
     "desc": "The host presents some of the latest news stories, current affairs and developments.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157777"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "01:22",
-    "stop": "01:27",
+    "start": "20260405012200 +0000",
+    "stop": "20260405012700 +0000",
     "startTs": 1775352120000,
     "stopTs": 1775352420000,
     "title": "Top 10 Khabar",
     "desc": "The host presents the top 10 news on various topics of national and local importance.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157756"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "01:27",
-    "stop": "01:50",
+    "start": "20260405012700 +0000",
+    "stop": "20260405015000 +0000",
     "startTs": 1775352420000,
     "stopTs": 1775353800000,
     "title": "Suprabhat Live",
     "desc": "The host provides the latest updates on various key issues, live.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157753"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "01:50",
-    "stop": "01:58",
+    "start": "20260405015000 +0000",
+    "stop": "20260405015800 +0000",
     "startTs": 1775353800000,
     "stopTs": 1775354280000,
     "title": "Top 25 Uttrakhand",
     "desc": "The host presents the top 25 news stories on a variety of topics from Uttarakhand.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157764"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "01:58",
-    "stop": "02:15",
+    "start": "20260405015800 +0000",
+    "stop": "20260405021500 +0000",
     "startTs": 1775354280000,
     "stopTs": 1775355300000,
     "title": "Devbhumi Live",
     "desc": "The host presents the latest updates across various spheres in Uttarakhand, live.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157769"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "02:15",
-    "stop": "02:27",
+    "start": "20260405021500 +0000",
+    "stop": "20260405022700 +0000",
     "startTs": 1775355300000,
     "stopTs": 1775356020000,
     "title": "Chai Par Charcha",
     "desc": "The host presents the opinions of individuals on various political developments.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157751"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "02:27",
-    "stop": "02:57",
+    "start": "20260405022700 +0000",
+    "stop": "20260405025700 +0000",
     "startTs": 1775356020000,
     "stopTs": 1775357820000,
     "title": "Top 25 Khaber/ Bulletin",
     "desc": "The host presents the top news stories on various matters; the host shares key updates.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157747"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "02:57",
-    "stop": "03:22",
+    "start": "20260405025700 +0000",
+    "stop": "20260405032200 +0000",
     "startTs": 1775357820000,
     "stopTs": 1775359320000,
     "title": "Superfast",
     "desc": "The host presents the latest news on a range of topics of national and global importance.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157749"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "03:22",
-    "stop": "03:27",
+    "start": "20260405032200 +0000",
+    "stop": "20260405032700 +0000",
     "startTs": 1775359320000,
     "stopTs": 1775359620000,
     "title": "5 Mnt, 25 Khabar",
     "desc": "The host presents the latest information on various important issues.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157789"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "03:27",
-    "stop": "03:52",
+    "start": "20260405032700 +0000",
+    "stop": "20260405035200 +0000",
     "startTs": 1775359620000,
     "stopTs": 1775361120000,
     "title": "Top 35 / Bulletin",
     "desc": "The host presents the top news stories on various matters; the host shares key updates.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157760"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "03:52",
-    "stop": "03:57",
+    "start": "20260405035200 +0000",
+    "stop": "20260405035700 +0000",
     "startTs": 1775361120000,
     "stopTs": 1775361420000,
     "title": "2 Mnt, 10 Khaber",
     "desc": "The host presents the latest information on various important issues.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157770"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "03:57",
-    "stop": "04:22",
+    "start": "20260405035700 +0000",
+    "stop": "20260405042200 +0000",
     "startTs": 1775361420000,
     "stopTs": 1775362920000,
     "title": "Bulletin",
     "desc": "The host presents latest news highlights and updates from India and around the world.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157773"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "04:22",
-    "stop": "04:27",
+    "start": "20260405042200 +0000",
+    "stop": "20260405042700 +0000",
     "startTs": 1775362920000,
     "stopTs": 1775363220000,
     "title": "Top 10 Crime",
     "desc": "The host presents the top 10 criminal news stories and events from around the country.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157741"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "04:27",
-    "stop": "04:57",
+    "start": "20260405042700 +0000",
+    "stop": "20260405045700 +0000",
     "startTs": 1775363220000,
     "stopTs": 1775365020000,
     "title": "Maha Live",
     "desc": "The host presents the latest news on various regional and national issues, live.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157784"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "04:57",
-    "stop": "05:22",
+    "start": "20260405045700 +0000",
+    "stop": "20260405052200 +0000",
     "startTs": 1775365020000,
     "stopTs": 1775366520000,
     "title": "Bulletin",
     "desc": "The host presents latest news highlights and updates from India and around the world.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157736"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "05:22",
-    "stop": "05:28",
+    "start": "20260405052200 +0000",
+    "stop": "20260405052800 +0000",
     "startTs": 1775366520000,
     "stopTs": 1775366880000,
     "title": "Top 25 Uttrakhand / Devbhumi Live",
     "desc": "The host presents the top 25 news from Uttarakhand; the host shares latest regional news.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157783"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "05:28",
-    "stop": "05:57",
+    "start": "20260405052800 +0000",
+    "stop": "20260405055700 +0000",
     "startTs": 1775366880000,
     "stopTs": 1775368620000,
     "title": "Top 30 Khabar / Bulletin",
     "desc": "The host presents the top news stories on various matters; the host shares key updates.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157768"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "05:57",
-    "stop": "06:26",
+    "start": "20260405055700 +0000",
+    "stop": "20260405062600 +0000",
     "startTs": 1775368620000,
     "stopTs": 1775370360000,
     "title": "Top 25 Uttrakhand / Devbhumi Live",
     "desc": "The host presents the top 25 news from Uttarakhand; the host shares latest regional news.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157779"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "06:26",
-    "stop": "06:57",
+    "start": "20260405062600 +0000",
+    "stop": "20260405065700 +0000",
     "startTs": 1775370360000,
     "stopTs": 1775372220000,
     "title": "Top 30 / Bulletin",
     "desc": "The host presents the top 30 news stories; the host presents the latest national news.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157748"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "06:57",
-    "stop": "06:58",
+    "start": "20260405065700 +0000",
+    "stop": "20260405065800 +0000",
     "startTs": 1775372220000,
     "stopTs": 1775372280000,
     "title": "Fatafat",
     "desc": "The host shares the latest news stories from various spheres in a quick succession.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157790"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "06:58",
-    "stop": "07:26",
+    "start": "20260405065800 +0000",
+    "stop": "20260405072600 +0000",
     "startTs": 1775372280000,
     "stopTs": 1775373960000,
     "title": "Bulletin",
     "desc": "The host presents latest news highlights and updates from India and around the world.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157739"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "07:26",
-    "stop": "07:48",
+    "start": "20260405072600 +0000",
+    "stop": "20260405074800 +0000",
     "startTs": 1775373960000,
     "stopTs": 1775375280000,
     "title": "Top 20 Chunav / Lunch Break",
     "desc": "The host presents the top news stories on elections; the host provides the latest updates.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157737"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "07:48",
-    "stop": "07:56",
+    "start": "20260405074800 +0000",
+    "stop": "20260405075600 +0000",
     "startTs": 1775375280000,
     "stopTs": 1775375760000,
     "title": "Chai Par Charcha",
     "desc": "The host presents the opinions of individuals on various political developments.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157740"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "07:56",
-    "stop": "08:22",
+    "start": "20260405075600 +0000",
+    "stop": "20260405082200 +0000",
     "startTs": 1775375760000,
     "stopTs": 1775377320000,
     "title": "Top 25 Uttrakhand / Devbhumi Live",
     "desc": "The host presents the top 25 news from Uttarakhand; the host shares latest regional news.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157774"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "08:22",
-    "stop": "08:27",
+    "start": "20260405082200 +0000",
+    "stop": "20260405082700 +0000",
     "startTs": 1775377320000,
     "stopTs": 1775377620000,
     "title": "Up Top 30",
     "desc": "The host presents the top 30 news stories on a variety of topics from Uttar Pradesh.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157735"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "08:27",
-    "stop": "08:57",
+    "start": "20260405082700 +0000",
+    "stop": "20260405085700 +0000",
     "startTs": 1775377620000,
     "stopTs": 1775379420000,
     "title": "Bulletin",
     "desc": "The host presents latest news highlights and updates from India and around the world.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157762"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "08:57",
-    "stop": "09:22",
+    "start": "20260405085700 +0000",
+    "stop": "20260405092200 +0000",
     "startTs": 1775379420000,
     "stopTs": 1775380920000,
     "title": "Bulletin",
     "desc": "The host presents latest news highlights and updates from India and around the world.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157752"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "09:22",
-    "stop": "09:27",
+    "start": "20260405092200 +0000",
+    "stop": "20260405092700 +0000",
     "startTs": 1775380920000,
     "stopTs": 1775381220000,
     "title": "5 Mnt, 25 Khabar",
     "desc": "The host presents the latest information on various important issues.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157772"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "09:27",
-    "stop": "09:58",
+    "start": "20260405092700 +0000",
+    "stop": "20260405095800 +0000",
     "startTs": 1775381220000,
     "stopTs": 1775383080000,
     "title": "3 Ka Tadka",
     "desc": "The anchor delivers comprehensive coverage of key stories from across the country.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157732"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "09:58",
-    "stop": "10:22",
+    "start": "20260405095800 +0000",
+    "stop": "20260405102200 +0000",
     "startTs": 1775383080000,
     "stopTs": 1775384520000,
     "title": "Bulletin",
     "desc": "The host presents latest news highlights and updates from India and around the world.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157745"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "10:22",
-    "stop": "10:27",
+    "start": "20260405102200 +0000",
+    "stop": "20260405102700 +0000",
     "startTs": 1775384520000,
     "stopTs": 1775384820000,
     "title": "Top 20 Pashchimanchal",
     "desc": "The host presents the top 20 news on various topics from across Western Uttar Pradesh.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157758"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "10:27",
-    "stop": "10:57",
+    "start": "20260405102700 +0000",
+    "stop": "20260405105700 +0000",
     "startTs": 1775384820000,
     "stopTs": 1775386620000,
     "title": "Bulletin",
     "desc": "The host presents latest news highlights and updates from India and around the world.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157757"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "10:57",
-    "stop": "11:22",
+    "start": "20260405105700 +0000",
+    "stop": "20260405112200 +0000",
     "startTs": 1775386620000,
     "stopTs": 1775388120000,
     "title": "Superfast",
     "desc": "The host presents the latest news on a range of topics of national and global importance.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157785"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "11:22",
-    "stop": "11:28",
+    "start": "20260405112200 +0000",
+    "stop": "20260405112800 +0000",
     "startTs": 1775388120000,
     "stopTs": 1775388480000,
     "title": "5 Mnt, 25 Khabar",
     "desc": "The host presents the latest information on various important issues.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157780"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "11:28",
-    "stop": "11:57",
+    "start": "20260405112800 +0000",
+    "stop": "20260405115700 +0000",
     "startTs": 1775388480000,
     "stopTs": 1775390220000,
     "title": "Badi Bahas",
     "desc": "The host invites a panel of experts to discuss various issues of importance to the nation.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157754"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "11:57",
-    "stop": "12:27",
+    "start": "20260405115700 +0000",
+    "stop": "20260405122700 +0000",
     "startTs": 1775390220000,
     "stopTs": 1775392020000,
     "title": "Bulletin",
     "desc": "The host presents latest news highlights and updates from India and around the world.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157750"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "12:27",
-    "stop": "12:57",
+    "start": "20260405122700 +0000",
+    "stop": "20260405125700 +0000",
     "startTs": 1775392020000,
     "stopTs": 1775393820000,
     "title": "Superfast",
     "desc": "The host presents important issues and provides updates on current events.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157759"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "12:57",
-    "stop": "13:22",
+    "start": "20260405125700 +0000",
+    "stop": "20260405132200 +0000",
     "startTs": 1775393820000,
     "stopTs": 1775395320000,
     "title": "Bulletin",
     "desc": "The host presents latest news highlights and updates from India and around the world.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157788"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "13:22",
-    "stop": "13:27",
+    "start": "20260405132200 +0000",
+    "stop": "20260405132700 +0000",
     "startTs": 1775395320000,
     "stopTs": 1775395620000,
     "title": "Top 20 Bundelkhand",
     "desc": "The host presents the latest updates on various key issues in the Bundelkhand region.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157761"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "13:27",
-    "stop": "13:57",
+    "start": "20260405132700 +0000",
+    "stop": "20260405135700 +0000",
     "startTs": 1775395620000,
     "stopTs": 1775397420000,
     "title": "Bulletin",
     "desc": "The host presents latest news highlights and updates from India and around the world.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157781"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "13:57",
-    "stop": "14:27",
+    "start": "20260405135700 +0000",
+    "stop": "20260405142700 +0000",
     "startTs": 1775397420000,
     "stopTs": 1775399220000,
     "title": "Top 25 Uttrakhand / Devbhumi Live",
     "desc": "The host presents the top 25 news from Uttarakhand; the host shares latest regional news.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157766"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "14:27",
-    "stop": "14:57",
+    "start": "20260405142700 +0000",
+    "stop": "20260405145700 +0000",
     "startTs": 1775399220000,
     "stopTs": 1775401020000,
     "title": "Top Chunav / Ka Guru Ka Hal Ba",
     "desc": "The host shares political news; the host talks to citizens about election events.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157765"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "14:57",
-    "stop": "15:28",
+    "start": "20260405145700 +0000",
+    "stop": "20260405152800 +0000",
     "startTs": 1775401020000,
     "stopTs": 1775402880000,
     "title": "Sansad Ka Report Card",
     "desc": "The host interacts with the locals to get a pulse on how a particular region is governed.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157734"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "15:28",
-    "stop": "15:57",
+    "start": "20260405152800 +0000",
+    "stop": "20260405155700 +0000",
     "startTs": 1775402880000,
     "stopTs": 1775404620000,
     "title": "Top 25 Crime / Bulletin",
     "desc": "The host presents the top crime news stories; the host shares key updates.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157755"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "15:57",
-    "stop": "16:22",
+    "start": "20260405155700 +0000",
+    "stop": "20260405162200 +0000",
     "startTs": 1775404620000,
     "stopTs": 1775406120000,
     "title": "KLPD",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157767"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "16:22",
-    "stop": "16:27",
+    "start": "20260405162200 +0000",
+    "stop": "20260405162700 +0000",
     "startTs": 1775406120000,
     "stopTs": 1775406420000,
     "title": "Top 30 National",
     "desc": "The host presents the top 30 news stories on various topics from around the country.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157787"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "16:27",
-    "stop": "16:57",
+    "start": "20260405162700 +0000",
+    "stop": "20260405165700 +0000",
     "startTs": 1775406420000,
     "stopTs": 1775408220000,
     "title": "Bulletin",
     "desc": "The host presents latest news highlights and updates from India and around the world.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157743"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "16:57",
-    "stop": "17:22",
+    "start": "20260405165700 +0000",
+    "stop": "20260405172200 +0000",
     "startTs": 1775408220000,
     "stopTs": 1775409720000,
     "title": "Bulletin",
     "desc": "The host presents latest news highlights and updates from India and around the world.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157744"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "17:22",
-    "stop": "17:27",
+    "start": "20260405172200 +0000",
+    "stop": "20260405172700 +0000",
     "startTs": 1775409720000,
     "stopTs": 1775410020000,
     "title": "Top 30 National",
     "desc": "The host presents the top 30 news stories on various topics from around the country.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157786"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "17:27",
-    "stop": "17:57",
+    "start": "20260405172700 +0000",
+    "stop": "20260405175700 +0000",
     "startTs": 1775410020000,
     "stopTs": 1775411820000,
     "title": "Bulletin",
     "desc": "The host presents latest news highlights and updates from India and around the world.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157733"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "17:57",
-    "stop": "18:27",
+    "start": "20260405175700 +0000",
+    "stop": "20260405182700 +0000",
     "startTs": 1775411820000,
     "stopTs": 1775413620000,
     "title": "Special Report",
     "desc": "The host presents some of the latest news stories, current affairs and developments.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157775"
   },
   {
     "channelId": "ts30",
     "channelName": "India News UP UK",
-    "start": "18:27",
-    "stop": "20:27",
+    "start": "20260405182700 +0000",
+    "stop": "20260405202700 +0000",
     "startTs": 1775413620000,
     "stopTs": 1775420820000,
     "title": "Bulletin",
     "desc": "The host presents latest news highlights and updates from India and around the world.",
-    "category": null
+    "channel": "ts30",
+    "catchup-id": "93157763"
   }
 ]

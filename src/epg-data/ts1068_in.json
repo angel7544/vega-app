@@ -2,1145 +2,1249 @@
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260405183000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Delhi Capitals vs Sunrisers Hyderabad, 10th Match-TATA IPL 2025",
     "desc": "Delhi Capitals vs Sunrisers Hyderabad, 10th Match;Highlights of Delhi Capitals and Sunrisers Hyderabad competing against each other in IPL.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93109956"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260405190000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th",
     "desc": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167968"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260405193000 +0000",
+    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "2026: Sunrisers Hyderabad vs Lucknow Super Giants 10th match-TATA IPL",
     "desc": "2026: Sunrisers Hyderabad vs Lucknow Super Giants 10th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167964"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260405200000 +0000",
+    "stop": "20260405203000 +0000",
     "startTs": 1775419200000,
     "stopTs": 1775421000000,
     "title": "2026: Chennai Super Kings vs. Punjab Kings 7th Match-TATA IPL",
     "desc": "2026: Chennai Super Kings vs. Punjab Kings 7th Match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167947"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260405203000 +0000",
+    "stop": "20260405210000 +0000",
     "startTs": 1775421000000,
     "stopTs": 1775422800000,
     "title": "2026: Sunrisers Hyderabad vs Lucknow Super Giants 10th match-TATA IPL",
     "desc": "2026: Sunrisers Hyderabad vs Lucknow Super Giants 10th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167949"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260405210000 +0000",
+    "stop": "20260405213000 +0000",
     "startTs": 1775422800000,
     "stopTs": 1775424600000,
     "title": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th",
     "desc": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167958"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260405213000 +0000",
+    "stop": "20260405220000 +0000",
     "startTs": 1775424600000,
     "stopTs": 1775426400000,
     "title": "2026: Sunrisers Hyderabad vs Lucknow Super Giants 10th match-TATA IPL",
     "desc": "2026: Sunrisers Hyderabad vs Lucknow Super Giants 10th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93109957"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260405220000 +0000",
+    "stop": "20260405223000 +0000",
     "startTs": 1775426400000,
     "stopTs": 1775428200000,
     "title": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th",
     "desc": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167943"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260405223000 +0000",
+    "stop": "20260405230000 +0000",
     "startTs": 1775428200000,
     "stopTs": 1775430000000,
     "title": "2026: Sunrisers Hyderabad vs Lucknow Super Giants 10th match-TATA IPL",
     "desc": "2026: Sunrisers Hyderabad vs Lucknow Super Giants 10th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167940"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260405230000 +0000",
+    "stop": "20260405233000 +0000",
     "startTs": 1775430000000,
     "stopTs": 1775431800000,
     "title": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th",
     "desc": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167946"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260405233000 +0000",
+    "stop": "20260406000000 +0000",
     "startTs": 1775431800000,
     "stopTs": 1775433600000,
     "title": "2026: Sunrisers Hyderabad vs Lucknow Super Giants 10th match-TATA IPL",
     "desc": "2026: Sunrisers Hyderabad vs Lucknow Super Giants 10th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167967"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260406000000 +0000",
+    "stop": "20260406003000 +0000",
     "startTs": 1775433600000,
     "stopTs": 1775435400000,
     "title": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th",
     "desc": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167962"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260406003000 +0000",
+    "stop": "20260406010000 +0000",
     "startTs": 1775435400000,
     "stopTs": 1775437200000,
     "title": "2026: Sunrisers Hyderabad vs Lucknow Super Giants 10th match-TATA IPL",
     "desc": "2026: Sunrisers Hyderabad vs Lucknow Super Giants 10th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93109952"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260406010000 +0000",
+    "stop": "20260406013000 +0000",
     "startTs": 1775437200000,
     "stopTs": 1775439000000,
     "title": "2026: Delhi Capitals vs. Mumbai Indians 8th match-TATA IPL Highlights",
     "desc": "2026: Delhi Capitals vs. Mumbai Indians 8th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167944"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260406013000 +0000",
+    "stop": "20260406020000 +0000",
     "startTs": 1775439000000,
     "stopTs": 1775440800000,
     "title": "2026: Sunrisers Hyderabad vs Lucknow Super Giants 10th match-TATA IPL",
     "desc": "2026: Sunrisers Hyderabad vs Lucknow Super Giants 10th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167951"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260406020000 +0000",
+    "stop": "20260406023000 +0000",
     "startTs": 1775440800000,
     "stopTs": 1775442600000,
     "title": "SRH Review Show",
     "desc": "The host presents the composition and details of the players of a team competing in IPL.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167975"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "02:30",
-    "stop": "02:45",
+    "start": "20260406023000 +0000",
+    "stop": "20260406024500 +0000",
     "startTs": 1775442600000,
     "stopTs": 1775443500000,
     "title": "2026: Delhi Capitals vs. Mumbai Indians 8th match-TATA IPL Highlights",
     "desc": "2026: Delhi Capitals vs. Mumbai Indians 8th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167969"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "02:45",
-    "stop": "03:00",
+    "start": "20260406024500 +0000",
+    "stop": "20260406030000 +0000",
     "startTs": 1775443500000,
     "stopTs": 1775444400000,
     "title": "2026: Gujarat Titans vs. Rajasthan Royals 9th match-TATA IPL",
     "desc": "2026: Gujarat Titans vs. Rajasthan Royals 9th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167966"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260406030000 +0000",
+    "stop": "20260406033000 +0000",
     "startTs": 1775444400000,
     "stopTs": 1775446200000,
     "title": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th",
     "desc": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167957"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "03:30",
-    "stop": "03:45",
+    "start": "20260406033000 +0000",
+    "stop": "20260406034500 +0000",
     "startTs": 1775446200000,
     "stopTs": 1775447100000,
     "title": "TATA IPL-Game Plan",
     "desc": "TATA IPL;Experts preview the strengths, weaknesses and strategies of teams before a cricket series.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93109953"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "03:45",
-    "stop": "04:00",
+    "start": "20260406034500 +0000",
+    "stop": "20260406040000 +0000",
     "startTs": 1775447100000,
     "stopTs": 1775448000000,
     "title": "Punjab Kings vs Kolkata Knight Riders-TATA IPL 2025 Highlights",
     "desc": "Punjab Kings vs Kolkata Knight Riders;Highlights of a cricket match between Punjab Kings and Kolkata Knight Riders.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167941"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260406040000 +0000",
+    "stop": "20260406043000 +0000",
     "startTs": 1775448000000,
     "stopTs": 1775449800000,
     "title": "2026: Sunrisers Hyderabad vs Lucknow Super Giants 10th match-TATA IPL",
     "desc": "2026: Sunrisers Hyderabad vs Lucknow Super Giants 10th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167971"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260406043000 +0000",
+    "stop": "20260406050000 +0000",
     "startTs": 1775449800000,
     "stopTs": 1775451600000,
     "title": "SRH Review Show",
     "desc": "The host presents the composition and details of the players of a team competing in IPL.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167963"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260406050000 +0000",
+    "stop": "20260406053000 +0000",
     "startTs": 1775451600000,
     "stopTs": 1775453400000,
     "title": "TATA IPL-Cricket Countdown",
     "desc": "TATA IPL;A countdown of some of the best moments from various cricket matches.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167960"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260406053000 +0000",
+    "stop": "20260406060000 +0000",
     "startTs": 1775453400000,
     "stopTs": 1775455200000,
     "title": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th",
     "desc": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167936"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "06:00",
-    "stop": "06:15",
+    "start": "20260406060000 +0000",
+    "stop": "20260406061500 +0000",
     "startTs": 1775455200000,
     "stopTs": 1775456100000,
     "title": "TATA IPL-Game Plan",
     "desc": "TATA IPL;Experts preview the strengths, weaknesses and strategies of teams before a cricket series.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167953"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "06:15",
-    "stop": "06:30",
+    "start": "20260406061500 +0000",
+    "stop": "20260406063000 +0000",
     "startTs": 1775456100000,
     "stopTs": 1775457000000,
     "title": "Kolkata Knight Riders vs. Punjab Kings-IPL Highlights",
     "desc": "Kolkata Knight Riders vs. Punjab Kings;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167970"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260406063000 +0000",
+    "stop": "20260406070000 +0000",
     "startTs": 1775457000000,
     "stopTs": 1775458800000,
     "title": "SRH Review Show",
     "desc": "The host presents the composition and details of the players of a team competing in IPL.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93109958"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260406070000 +0000",
+    "stop": "20260406073000 +0000",
     "startTs": 1775458800000,
     "stopTs": 1775460600000,
     "title": "Tata Ipl 2024: KKR vs PK - 42nd Match-Cricket Highlights",
     "desc": "Tata Ipl 2024: KKR vs PK - 42nd Match;Highlights of a cricket match wherein teams compete against each other to emerge victorious.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167937"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260406073000 +0000",
+    "stop": "20260406080000 +0000",
     "startTs": 1775460600000,
     "stopTs": 1775462400000,
     "title": "Punjab Kings vs Kolkata Knight Riders-TATA IPL 2025 Highlights",
     "desc": "Punjab Kings vs Kolkata Knight Riders;Highlights of a cricket match between Punjab Kings and Kolkata Knight Riders.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167965"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260406080000 +0000",
+    "stop": "20260406083000 +0000",
     "startTs": 1775462400000,
     "stopTs": 1775464200000,
     "title": "2026: Sunrisers Hyderabad vs Lucknow Super Giants 10th match-TATA IPL",
     "desc": "2026: Sunrisers Hyderabad vs Lucknow Super Giants 10th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167954"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260406083000 +0000",
+    "stop": "20260406090000 +0000",
     "startTs": 1775464200000,
     "stopTs": 1775466000000,
     "title": "SRH Review Show",
     "desc": "The host presents the composition and details of the players of a team competing in IPL.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167972"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260406090000 +0000",
+    "stop": "20260406093000 +0000",
     "startTs": 1775466000000,
     "stopTs": 1775467800000,
     "title": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th",
     "desc": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167956"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "09:30",
-    "stop": "09:45",
+    "start": "20260406093000 +0000",
+    "stop": "20260406094500 +0000",
     "startTs": 1775467800000,
     "stopTs": 1775468700000,
     "title": "TATA IPL-Game Plan",
     "desc": "TATA IPL;Experts preview the strengths, weaknesses and strategies of teams before a cricket series.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93109951"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "09:45",
-    "stop": "10:00",
+    "start": "20260406094500 +0000",
+    "stop": "20260406100000 +0000",
     "startTs": 1775468700000,
     "stopTs": 1775469600000,
     "title": "Punjab Kings vs Kolkata Knight Riders-TATA IPL 2025 Highlights",
     "desc": "Punjab Kings vs Kolkata Knight Riders;Highlights of a cricket match between Punjab Kings and Kolkata Knight Riders.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167948"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "10:00",
-    "stop": "10:15",
+    "start": "20260406100000 +0000",
+    "stop": "20260406101500 +0000",
     "startTs": 1775469600000,
     "stopTs": 1775470500000,
     "title": "2026: Punjab Kings vs. Gujarat Titans 4th Match-TATA IPL Highlights",
     "desc": "2026: Punjab Kings vs. Gujarat Titans 4th Match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167938"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "10:15",
-    "stop": "10:30",
+    "start": "20260406101500 +0000",
+    "stop": "20260406103000 +0000",
     "startTs": 1775470500000,
     "stopTs": 1775471400000,
     "title": "2026: Kolkata Knight Riders vs. Sunriser Hyderabad 6th Match-TATA IPL",
     "desc": "2026: Kolkata Knight Riders vs. Sunriser Hyderabad 6th Match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167952"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260406103000 +0000",
+    "stop": "20260406110000 +0000",
     "startTs": 1775471400000,
     "stopTs": 1775473200000,
     "title": "TATA IPL-Cricket Countdown",
     "desc": "TATA IPL;A countdown of some of the best moments from various cricket matches.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167974"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260406110000 +0000",
+    "stop": "20260406113000 +0000",
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "SRH Review Show",
     "desc": "The host presents the composition and details of the players of a team competing in IPL.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167961"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "11:30",
-    "stop": "11:45",
+    "start": "20260406113000 +0000",
+    "stop": "20260406114500 +0000",
     "startTs": 1775475000000,
     "stopTs": 1775475900000,
     "title": "TATA IPL-Game Plan",
     "desc": "TATA IPL;Experts preview the strengths, weaknesses and strategies of teams before a cricket series.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167973"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "11:45",
-    "stop": "12:00",
+    "start": "20260406114500 +0000",
+    "stop": "20260406120000 +0000",
     "startTs": 1775475900000,
     "stopTs": 1775476800000,
     "title": "Kolkata Knight Riders vs. Punjab Kings-IPL Highlights",
     "desc": "Kolkata Knight Riders vs. Punjab Kings;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167950"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260406120000 +0000",
+    "stop": "20260406123000 +0000",
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "TATA IPL-Cricket Countdown",
     "desc": "TATA IPL;A countdown of some of the best moments from various cricket matches.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167942"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260406123000 +0000",
+    "stop": "20260406130000 +0000",
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th",
     "desc": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93109955"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "13:00",
-    "stop": "13:50",
+    "start": "20260406130000 +0000",
+    "stop": "20260406135000 +0000",
     "startTs": 1775480400000,
     "stopTs": 1775483400000,
     "title": "Live-IPL-Amul Cricket Pre Show",
     "desc": "IPL;Experts discuss and predict outcomes of various cricket tournaments.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167935"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "13:50",
-    "stop": "15:30",
+    "start": "20260406135000 +0000",
+    "stop": "20260406153000 +0000",
     "startTs": 1775483400000,
     "stopTs": 1775489400000,
     "title": "Live-Kolkata Knight Riders vs. Punjab Kings-TATA IPL",
     "desc": "Kolkata Knight Riders vs. Punjab Kings;From Eden Gardens in Kolkata, West Bengal, India.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167955"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "15:30",
-    "stop": "15:50",
+    "start": "20260406153000 +0000",
+    "stop": "20260406155000 +0000",
     "startTs": 1775489400000,
     "stopTs": 1775490600000,
     "title": "Live-IPL-Amul Cricket Mid Show",
     "desc": "IPL;Experts discuss and predict outcomes of various cricket tournaments.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93109954"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "15:50",
-    "stop": "17:30",
+    "start": "20260406155000 +0000",
+    "stop": "20260406173000 +0000",
     "startTs": 1775490600000,
     "stopTs": 1775496600000,
     "title": "Live-Kolkata Knight Riders vs. Punjab Kings-TATA IPL",
     "desc": "Kolkata Knight Riders vs. Punjab Kings;From Eden Gardens in Kolkata, West Bengal, India.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167945"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260406173000 +0000",
+    "stop": "20260406180000 +0000",
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Live-IPL 2026-Amul Cricket Post Show",
     "desc": "IPL 2026;Experts analyse team tactics, player strategies and results following diverse tournaments.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167939"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260406180000 +0000",
+    "stop": "20260406183000 +0000",
     "startTs": 1775498400000,
     "stopTs": 1775500200000,
     "title": "2026: Kolkata Knight Riders vs. Punjab Kings 12th match-TATA IPL",
     "desc": "2026: Kolkata Knight Riders vs. Punjab Kings 12th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93167959"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260406183000 +0000",
+    "stop": "20260406190000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775502000000,
     "title": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th",
     "desc": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93146588"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260406190000 +0000",
+    "stop": "20260406193000 +0000",
     "startTs": 1775502000000,
     "stopTs": 1775503800000,
     "title": "2026: Kolkata Knight Riders vs. Punjab Kings 12th match-TATA IPL",
     "desc": "2026: Kolkata Knight Riders vs. Punjab Kings 12th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207422"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260406193000 +0000",
+    "stop": "20260406200000 +0000",
     "startTs": 1775503800000,
     "stopTs": 1775505600000,
     "title": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th",
     "desc": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207428"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260406200000 +0000",
+    "stop": "20260406203000 +0000",
     "startTs": 1775505600000,
     "stopTs": 1775507400000,
     "title": "2026: Delhi Capitals vs. Mumbai Indians 8th match-TATA IPL Highlights",
     "desc": "2026: Delhi Capitals vs. Mumbai Indians 8th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207441"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260406203000 +0000",
+    "stop": "20260406210000 +0000",
     "startTs": 1775507400000,
     "stopTs": 1775509200000,
     "title": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th",
     "desc": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207409"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260406210000 +0000",
+    "stop": "20260406213000 +0000",
     "startTs": 1775509200000,
     "stopTs": 1775511000000,
     "title": "2026: Kolkata Knight Riders vs. Sunriser Hyderabad 6th Match-TATA IPL",
     "desc": "2026: Kolkata Knight Riders vs. Sunriser Hyderabad 6th Match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207433"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260406213000 +0000",
+    "stop": "20260406220000 +0000",
     "startTs": 1775511000000,
     "stopTs": 1775512800000,
     "title": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th",
     "desc": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93146584"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260406220000 +0000",
+    "stop": "20260406223000 +0000",
     "startTs": 1775512800000,
     "stopTs": 1775514600000,
     "title": "2026: Lucknow Super Giants vs. Delhi Capitals 5th Match-TATA IPL",
     "desc": "2026: Lucknow Super Giants vs. Delhi Capitals 5th Match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207432"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260406223000 +0000",
+    "stop": "20260406230000 +0000",
     "startTs": 1775514600000,
     "stopTs": 1775516400000,
     "title": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th",
     "desc": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207418"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260406230000 +0000",
+    "stop": "20260406233000 +0000",
     "startTs": 1775516400000,
     "stopTs": 1775518200000,
     "title": "2026: Kolkata Knight Riders vs. Sunriser Hyderabad 6th Match-TATA IPL",
     "desc": "2026: Kolkata Knight Riders vs. Sunriser Hyderabad 6th Match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207426"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260406233000 +0000",
+    "stop": "20260407000000 +0000",
     "startTs": 1775518200000,
     "stopTs": 1775520000000,
     "title": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th",
     "desc": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207452"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260407000000 +0000",
+    "stop": "20260407003000 +0000",
     "startTs": 1775520000000,
     "stopTs": 1775521800000,
     "title": "2026: Chennai Super Kings vs. Punjab Kings 7th Match-TATA IPL",
     "desc": "2026: Chennai Super Kings vs. Punjab Kings 7th Match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207431"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260407003000 +0000",
+    "stop": "20260407010000 +0000",
     "startTs": 1775521800000,
     "stopTs": 1775523600000,
     "title": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th",
     "desc": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93146586"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260407010000 +0000",
+    "stop": "20260407013000 +0000",
     "startTs": 1775523600000,
     "stopTs": 1775525400000,
     "title": "2026: Gujarat Titans vs. Rajasthan Royals 9th match-TATA IPL",
     "desc": "2026: Gujarat Titans vs. Rajasthan Royals 9th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207419"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260407013000 +0000",
+    "stop": "20260407020000 +0000",
     "startTs": 1775525400000,
     "stopTs": 1775527200000,
     "title": "2026: Kolkata Knight Riders vs. Punjab Kings 12th match-TATA IPL",
     "desc": "2026: Kolkata Knight Riders vs. Punjab Kings 12th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207427"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "02:00",
-    "stop": "02:15",
+    "start": "20260407020000 +0000",
+    "stop": "20260407021500 +0000",
     "startTs": 1775527200000,
     "stopTs": 1775528100000,
     "title": "TATA IPL-Match Point",
     "desc": "TATA IPL;Experts share analysis and highlights from the latest cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207440"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "02:15",
-    "stop": "02:30",
+    "start": "20260407021500 +0000",
+    "stop": "20260407023000 +0000",
     "startTs": 1775528100000,
     "stopTs": 1775529000000,
     "title": "2026: Kolkata Knight Riders vs. Punjab Kings 12th match-TATA IPL",
     "desc": "2026: Kolkata Knight Riders vs. Punjab Kings 12th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207414"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260407023000 +0000",
+    "stop": "20260407030000 +0000",
     "startTs": 1775529000000,
     "stopTs": 1775530800000,
     "title": "TATA IPL-Cricket Countdown",
     "desc": "TATA IPL;A countdown of some of the best moments from various cricket matches.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207420"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "03:00",
-    "stop": "03:15",
+    "start": "20260407030000 +0000",
+    "stop": "20260407031500 +0000",
     "startTs": 1775530800000,
     "stopTs": 1775531700000,
     "title": "2026: Sunrisers Hyderabad vs Lucknow Super Giants 10th match-TATA IPL",
     "desc": "2026: Sunrisers Hyderabad vs Lucknow Super Giants 10th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207434"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "03:15",
-    "stop": "03:30",
+    "start": "20260407031500 +0000",
+    "stop": "20260407033000 +0000",
     "startTs": 1775531700000,
     "stopTs": 1775532600000,
     "title": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th",
     "desc": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207438"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "03:30",
-    "stop": "03:45",
+    "start": "20260407033000 +0000",
+    "stop": "20260407034500 +0000",
     "startTs": 1775532600000,
     "stopTs": 1775533500000,
     "title": "TATA IPL-Game Plan",
     "desc": "TATA IPL;Experts preview the strengths, weaknesses and strategies of teams before a cricket series.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93146582"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "03:45",
-    "stop": "04:00",
+    "start": "20260407034500 +0000",
+    "stop": "20260407040000 +0000",
     "startTs": 1775533500000,
     "stopTs": 1775534400000,
     "title": "Tata Ipl 2024: RR vs MI - 38th Match-Cricket Highlights",
     "desc": "Tata Ipl 2024: RR vs MI - 38th Match;Highlights of a cricket match wherein teams compete against each other to emerge victorious.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207439"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260407040000 +0000",
+    "stop": "20260407043000 +0000",
     "startTs": 1775534400000,
     "stopTs": 1775536200000,
     "title": "2026: Kolkata Knight Riders vs. Punjab Kings 12th match-TATA IPL",
     "desc": "2026: Kolkata Knight Riders vs. Punjab Kings 12th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207453"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "04:30",
-    "stop": "04:45",
+    "start": "20260407043000 +0000",
+    "stop": "20260407044500 +0000",
     "startTs": 1775536200000,
     "stopTs": 1775537100000,
     "title": "TATA IPL-Match Point",
     "desc": "TATA IPL;Experts share analysis and highlights from the latest cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207415"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "04:45",
-    "stop": "05:00",
+    "start": "20260407044500 +0000",
+    "stop": "20260407050000 +0000",
     "startTs": 1775537100000,
     "stopTs": 1775538000000,
     "title": "2026: Kolkata Knight Riders vs. Punjab Kings 12th match-TATA IPL",
     "desc": "2026: Kolkata Knight Riders vs. Punjab Kings 12th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207412"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260407050000 +0000",
+    "stop": "20260407053000 +0000",
     "startTs": 1775538000000,
     "stopTs": 1775539800000,
     "title": "SRH Review Show",
     "desc": "The host presents the composition and details of the players of a team competing in IPL.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207443"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "05:30",
-    "stop": "05:45",
+    "start": "20260407053000 +0000",
+    "stop": "20260407054500 +0000",
     "startTs": 1775539800000,
     "stopTs": 1775540700000,
     "title": "2026: Delhi Capitals vs. Mumbai Indians 8th match-TATA IPL Highlights",
     "desc": "2026: Delhi Capitals vs. Mumbai Indians 8th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207449"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "05:45",
-    "stop": "06:00",
+    "start": "20260407054500 +0000",
+    "stop": "20260407060000 +0000",
     "startTs": 1775540700000,
     "stopTs": 1775541600000,
     "title": "2026: Gujarat Titans vs. Rajasthan Royals 9th match-TATA IPL",
     "desc": "2026: Gujarat Titans vs. Rajasthan Royals 9th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207413"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "06:00",
-    "stop": "06:15",
+    "start": "20260407060000 +0000",
+    "stop": "20260407061500 +0000",
     "startTs": 1775541600000,
     "stopTs": 1775542500000,
     "title": "TATA IPL-Game Plan",
     "desc": "TATA IPL;Experts preview the strengths, weaknesses and strategies of teams before a cricket series.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207446"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "06:15",
-    "stop": "06:30",
+    "start": "20260407061500 +0000",
+    "stop": "20260407063000 +0000",
     "startTs": 1775542500000,
     "stopTs": 1775543400000,
     "title": "Rajasthan Royals vs Mumbai Indians, 50th Match-TATA IPL 2025",
     "desc": "Rajasthan Royals vs Mumbai Indians, 50th Match;Highlights of an IPL match between Rajasthan Royals and Mumbai Indians.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207454"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "06:30",
-    "stop": "06:45",
+    "start": "20260407063000 +0000",
+    "stop": "20260407064500 +0000",
     "startTs": 1775543400000,
     "stopTs": 1775544300000,
     "title": "TATA IPL-Match Point",
     "desc": "TATA IPL;Experts share analysis and highlights from the latest cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93146583"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "06:45",
-    "stop": "07:00",
+    "start": "20260407064500 +0000",
+    "stop": "20260407070000 +0000",
     "startTs": 1775544300000,
     "stopTs": 1775545200000,
     "title": "2026: Kolkata Knight Riders vs. Punjab Kings 12th match-TATA IPL",
     "desc": "2026: Kolkata Knight Riders vs. Punjab Kings 12th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207423"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260407070000 +0000",
+    "stop": "20260407073000 +0000",
     "startTs": 1775545200000,
     "stopTs": 1775547000000,
     "title": "Tata Ipl 2023: MI vs RR - 42nd Match-Cricket Highlights",
     "desc": "Tata Ipl 2023: MI vs RR - 42nd Match;Highlights of Mumbai Indians facing Rajasthan Royals in the 2023 IPL.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207435"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260407073000 +0000",
+    "stop": "20260407080000 +0000",
     "startTs": 1775547000000,
     "stopTs": 1775548800000,
     "title": "Tata Ipl 2024: RR vs MI - 38th Match-Cricket Highlights",
     "desc": "Tata Ipl 2024: RR vs MI - 38th Match;Highlights of a cricket match wherein teams compete against each other to emerge victorious.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207444"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260407080000 +0000",
+    "stop": "20260407083000 +0000",
     "startTs": 1775548800000,
     "stopTs": 1775550600000,
     "title": "2026: Kolkata Knight Riders vs. Punjab Kings 12th match-TATA IPL",
     "desc": "2026: Kolkata Knight Riders vs. Punjab Kings 12th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207421"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "08:30",
-    "stop": "08:45",
+    "start": "20260407083000 +0000",
+    "stop": "20260407084500 +0000",
     "startTs": 1775550600000,
     "stopTs": 1775551500000,
     "title": "TATA IPL-Match Point",
     "desc": "TATA IPL;Experts share analysis and highlights from the latest cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207450"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "08:45",
-    "stop": "09:00",
+    "start": "20260407084500 +0000",
+    "stop": "20260407090000 +0000",
     "startTs": 1775551500000,
     "stopTs": 1775552400000,
     "title": "2026: Kolkata Knight Riders vs. Punjab Kings 12th match-TATA IPL",
     "desc": "2026: Kolkata Knight Riders vs. Punjab Kings 12th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207410"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260407090000 +0000",
+    "stop": "20260407093000 +0000",
     "startTs": 1775552400000,
     "stopTs": 1775554200000,
     "title": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th",
     "desc": "2026: Royal Challengers Bengaluru vs. Chennai Super Kings 11th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207424"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "09:30",
-    "stop": "09:45",
+    "start": "20260407093000 +0000",
+    "stop": "20260407094500 +0000",
     "startTs": 1775554200000,
     "stopTs": 1775555100000,
     "title": "TATA IPL-Game Plan",
     "desc": "TATA IPL;Experts preview the strengths, weaknesses and strategies of teams before a cricket series.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93146585"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "09:45",
-    "stop": "10:00",
+    "start": "20260407094500 +0000",
+    "stop": "20260407100000 +0000",
     "startTs": 1775555100000,
     "stopTs": 1775556000000,
     "title": "Tata Ipl 2024: RR vs MI - 38th Match-Cricket Highlights",
     "desc": "Tata Ipl 2024: RR vs MI - 38th Match;Highlights of a cricket match wherein teams compete against each other to emerge victorious.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207417"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260407100000 +0000",
+    "stop": "20260407103000 +0000",
     "startTs": 1775556000000,
     "stopTs": 1775557800000,
     "title": "TATA IPL-Cricket Countdown",
     "desc": "TATA IPL;A countdown of some of the best moments from various cricket matches.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207445"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260407103000 +0000",
+    "stop": "20260407110000 +0000",
     "startTs": 1775557800000,
     "stopTs": 1775559600000,
     "title": "SRH Review Show",
     "desc": "The host presents the composition and details of the players of a team competing in IPL.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207416"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "11:00",
-    "stop": "11:15",
+    "start": "20260407110000 +0000",
+    "stop": "20260407111500 +0000",
     "startTs": 1775559600000,
     "stopTs": 1775560500000,
     "title": "TATA IPL-Match Point",
     "desc": "TATA IPL;Experts share analysis and highlights from the latest cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207436"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "11:15",
-    "stop": "11:30",
+    "start": "20260407111500 +0000",
+    "stop": "20260407113000 +0000",
     "startTs": 1775560500000,
     "stopTs": 1775561400000,
     "title": "2026: Kolkata Knight Riders vs. Punjab Kings 12th match-TATA IPL",
     "desc": "2026: Kolkata Knight Riders vs. Punjab Kings 12th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207447"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "11:30",
-    "stop": "11:45",
+    "start": "20260407113000 +0000",
+    "stop": "20260407114500 +0000",
     "startTs": 1775561400000,
     "stopTs": 1775562300000,
     "title": "TATA IPL-Game Plan",
     "desc": "TATA IPL;Experts preview the strengths, weaknesses and strategies of teams before a cricket series.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207448"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "11:45",
-    "stop": "12:00",
+    "start": "20260407114500 +0000",
+    "stop": "20260407120000 +0000",
     "startTs": 1775562300000,
     "stopTs": 1775563200000,
     "title": "Rajasthan Royals vs Mumbai Indians, 50th Match-TATA IPL 2025",
     "desc": "Rajasthan Royals vs Mumbai Indians, 50th Match;Highlights of an IPL match between Rajasthan Royals and Mumbai Indians.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207429"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "12:00",
-    "stop": "12:15",
+    "start": "20260407120000 +0000",
+    "stop": "20260407121500 +0000",
     "startTs": 1775563200000,
     "stopTs": 1775564100000,
     "title": "2026: Delhi Capitals vs. Mumbai Indians 8th match-TATA IPL Highlights",
     "desc": "2026: Delhi Capitals vs. Mumbai Indians 8th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207408"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "12:15",
-    "stop": "12:30",
+    "start": "20260407121500 +0000",
+    "stop": "20260407123000 +0000",
     "startTs": 1775564100000,
     "stopTs": 1775565000000,
     "title": "2026: Gujarat Titans vs. Rajasthan Royals 9th match-TATA IPL",
     "desc": "2026: Gujarat Titans vs. Rajasthan Royals 9th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207442"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260407123000 +0000",
+    "stop": "20260407130000 +0000",
     "startTs": 1775565000000,
     "stopTs": 1775566800000,
     "title": "2026: Kolkata Knight Riders vs. Punjab Kings 12th match-TATA IPL",
     "desc": "2026: Kolkata Knight Riders vs. Punjab Kings 12th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93146589"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "13:00",
-    "stop": "13:50",
+    "start": "20260407130000 +0000",
+    "stop": "20260407135000 +0000",
     "startTs": 1775566800000,
     "stopTs": 1775569800000,
     "title": "Live-IPL-Amul Cricket Pre Show",
     "desc": "IPL;Experts discuss and predict outcomes of various cricket tournaments.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207437"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "13:50",
-    "stop": "15:30",
+    "start": "20260407135000 +0000",
+    "stop": "20260407153000 +0000",
     "startTs": 1775569800000,
     "stopTs": 1775575800000,
     "title": "Live-Rajasthan Royals vs. Mumbai Indians-TATA IPL",
     "desc": "Rajasthan Royals vs. Mumbai Indians;From Assam Cricket Association Stadium in Guwahati, Assam, India.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207425"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "15:30",
-    "stop": "15:50",
+    "start": "20260407153000 +0000",
+    "stop": "20260407155000 +0000",
     "startTs": 1775575800000,
     "stopTs": 1775577000000,
     "title": "Live-IPL-Amul Cricket Mid Show",
     "desc": "IPL;Experts discuss and predict outcomes of various cricket tournaments.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93146587"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "15:50",
-    "stop": "17:30",
+    "start": "20260407155000 +0000",
+    "stop": "20260407173000 +0000",
     "startTs": 1775577000000,
     "stopTs": 1775583000000,
     "title": "Live-Rajasthan Royals vs. Mumbai Indians-TATA IPL",
     "desc": "Rajasthan Royals vs. Mumbai Indians;From Assam Cricket Association Stadium in Guwahati, Assam, India.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207430"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260407173000 +0000",
+    "stop": "20260407180000 +0000",
     "startTs": 1775583000000,
     "stopTs": 1775584800000,
     "title": "Live-IPL 2026-Amul Cricket Post Show",
     "desc": "IPL 2026;Experts analyse team tactics, player strategies and results following diverse tournaments.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207451"
   },
   {
     "channelId": "ts1068",
     "channelName": "ts1068",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260407180000 +0000",
+    "stop": "20260407183000 +0000",
     "startTs": 1775584800000,
     "stopTs": 1775586600000,
     "title": "2026: Rajasthan Royals vs. Mumbai Indians 13th match-TATA IPL",
     "desc": "2026: Rajasthan Royals vs. Mumbai Indians 13th match;A detailed revisit of match highlights of the Indian Premier League cricket tournament.",
-    "category": null
+    "channel": "ts1068",
+    "catchup-id": "93207411"
   }
 ]

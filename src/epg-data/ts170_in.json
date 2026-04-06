@@ -2,265 +2,289 @@
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "18:30",
-    "stop": "21:30",
+    "start": "20260405183000 +0000",
+    "stop": "20260405213000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775424600000,
     "title": "UFC Fight Night - Renato Moicano vs Chris Duncan (Main Card)",
     "desc": "UFC Fight Night - Renato Moicano vs Chris Duncan (Main Card)",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108833"
   },
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260405213000 +0000",
+    "stop": "20260405220000 +0000",
     "startTs": 1775424600000,
     "stopTs": 1775426400000,
     "title": "Manchester City vs Liverpool-FA Cup Highlights",
     "desc": "Manchester City vs Liverpool;English football clubs compete against each other in the FA Cup to win the title.",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108843"
   },
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260405220000 +0000",
+    "stop": "20260405223000 +0000",
     "startTs": 1775426400000,
     "stopTs": 1775428200000,
     "title": "Southampton vs Arsenal-FA Cup Highlights",
     "desc": "Southampton vs Arsenal;English football clubs compete against each other in the FA Cup to win the title.",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108848"
   },
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "22:30",
-    "stop": "00:30",
+    "start": "20260405223000 +0000",
+    "stop": "20260406003000 +0000",
     "startTs": 1775428200000,
     "stopTs": 1775435400000,
     "title": "Manchester City vs. Real Madrid-UEFA Champions League Soccer",
     "desc": "Manchester City vs. Real Madrid;From Etihad Stadium in Manchester, England, United Kingdom.",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108826"
   },
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "00:30",
-    "stop": "01:30",
+    "start": "20260406003000 +0000",
+    "stop": "20260406013000 +0000",
     "startTs": 1775435400000,
     "stopTs": 1775439000000,
     "title": "UFC 324: Gaethje vs. Pimblett",
     "desc": "From T-Mobile Arena in Las Vegas.",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108825"
   },
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "01:30",
-    "stop": "02:30",
+    "start": "20260406013000 +0000",
+    "stop": "20260406023000 +0000",
     "startTs": 1775439000000,
     "stopTs": 1775442600000,
     "title": "UFC Fight Night: Adesanya vs. Pyfer - Highlights",
     "desc": "Highlights of the intense UFC Fight Night clash between Israel Adesanya and Joe Pyfer.",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108830"
   },
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "02:30",
-    "stop": "03:30",
+    "start": "20260406023000 +0000",
+    "stop": "20260406033000 +0000",
     "startTs": 1775442600000,
     "stopTs": 1775446200000,
     "title": "WWE: EVOLVE",
     "desc": "WWE hopefuls embark on their wrestling careers, striving to become the next superstar.",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108842"
   },
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "03:30",
-    "stop": "05:30",
+    "start": "20260406033000 +0000",
+    "stop": "20260406053000 +0000",
     "startTs": 1775446200000,
     "stopTs": 1775453400000,
     "title": "Mansfield Town vs. Arsenal-FA Cup Soccer",
     "desc": "Mansfield Town vs. Arsenal;English football clubs compete against each other in the FA Cup to win the title.",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108837"
   },
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "05:30",
-    "stop": "06:30",
+    "start": "20260406053000 +0000",
+    "stop": "20260406063000 +0000",
     "startTs": 1775453400000,
     "stopTs": 1775457000000,
     "title": "European Qualifiers Highlights",
     "desc": "The European teams vie for the championship spots, showcasing top plays.",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108838"
   },
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "06:30",
-    "stop": "07:30",
+    "start": "20260406063000 +0000",
+    "stop": "20260406073000 +0000",
     "startTs": 1775457000000,
     "stopTs": 1775460600000,
     "title": "UFC Fight Night: Adesanya vs. Pyfer - Highlights",
     "desc": "Highlights of the intense UFC Fight Night clash between Israel Adesanya and Joe Pyfer.",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108829"
   },
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260406073000 +0000",
+    "stop": "20260406080000 +0000",
     "startTs": 1775460600000,
     "stopTs": 1775462400000,
     "title": "Monster Jam",
     "desc": "The host presents Monster Jam, showcasing big trucks, stunts and thrilling races.",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108834"
   },
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260406080000 +0000",
+    "stop": "20260406083000 +0000",
     "startTs": 1775462400000,
     "stopTs": 1775464200000,
     "title": "Wolverhampton Wanderers vs. Liverpool-FA Cup Football",
     "desc": "Wolverhampton Wanderers vs. Liverpool;English football clubs compete against each other in the FA Cup to win the title.",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108832"
   },
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260406083000 +0000",
+    "stop": "20260406090000 +0000",
     "startTs": 1775464200000,
     "stopTs": 1775466000000,
     "title": "WWE: EVOLVE",
     "desc": "WWE hopefuls embark on their wrestling careers, striving to become the next superstar.",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108841"
   },
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260406090000 +0000",
+    "stop": "20260406093000 +0000",
     "startTs": 1775466000000,
     "stopTs": 1775467800000,
     "title": "UCL Magazine",
     "desc": "A look at the latest updates and developments from the UEFA Champions League.",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108831"
   },
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "09:30",
-    "stop": "11:30",
+    "start": "20260406093000 +0000",
+    "stop": "20260406113000 +0000",
     "startTs": 1775467800000,
     "stopTs": 1775475000000,
     "title": "Manchester City vs. Real Madrid-UEFA Champions League Soccer",
     "desc": "Manchester City vs. Real Madrid;From Etihad Stadium in Manchester, England, United Kingdom.",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108835"
   },
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260406113000 +0000",
+    "stop": "20260406120000 +0000",
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Monster Jam",
     "desc": "The host presents Monster Jam, showcasing big trucks, stunts and thrilling races.",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108827"
   },
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260406120000 +0000",
+    "stop": "20260406123000 +0000",
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "England vs. Uruguay-Men's International Soccer Friendlies",
     "desc": "England vs. Uruguay;Highlights of an International Friendly soccer game where teams participate.",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108847"
   },
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260406123000 +0000",
+    "stop": "20260406130000 +0000",
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Sporting CP vs FK Bodø/Glimt, Round of 16, 2nd Leg-UEFA Champions",
     "desc": "Sporting CP vs FK Bodø/Glimt, Round of 16, 2nd Leg;Highlights and analysis of memorable moments at the UEFA Champions League.",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108836"
   },
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260406130000 +0000",
+    "stop": "20260406133000 +0000",
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Arsenal - Bayer Leverkusen-UEFA Champions League Highlights",
     "desc": "Arsenal - Bayer Leverkusen;Highlights and analysis of memorable moments at the UEFA Champions League.",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108839"
   },
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "13:30",
-    "stop": "14:30",
+    "start": "20260406133000 +0000",
+    "stop": "20260406143000 +0000",
     "startTs": 1775482200000,
     "stopTs": 1775485800000,
     "title": "UFC - Fight O'Clock",
     "desc": "2.0 - Heavyweight;",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108840"
   },
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260406143000 +0000",
+    "stop": "20260406150000 +0000",
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "UCL Magazine",
     "desc": "A look at the latest updates and developments from the UEFA Champions League.",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108844"
   },
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "15:00",
-    "stop": "16:00",
+    "start": "20260406150000 +0000",
+    "stop": "20260406160000 +0000",
     "startTs": 1775487600000,
     "stopTs": 1775491200000,
     "title": "European Qualifiers Highlights",
     "desc": "The European teams vie for the championship spots, showcasing top plays.",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108845"
   },
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "16:00",
-    "stop": "18:00",
+    "start": "20260406160000 +0000",
+    "stop": "20260406180000 +0000",
     "startTs": 1775491200000,
     "stopTs": 1775498400000,
     "title": "Live-Cyprus vs. Moldova-Men's International Soccer Friendlies",
     "desc": "Cyprus vs. Moldova;From New GSP Stadium in Nicosia, Lefkosia, Cyprus.",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108828"
   },
   {
     "channelId": "ts170",
     "channelName": "ts170",
-    "start": "18:00",
-    "stop": "20:30",
+    "start": "20260406180000 +0000",
+    "stop": "20260406203000 +0000",
     "startTs": 1775498400000,
     "stopTs": 1775507400000,
     "title": "Switzerland vs. Germany-Men's International Soccer Friendlies",
     "desc": "Switzerland vs. Germany;Highlights of an International Friendly soccer game where teams participate.",
-    "category": null
+    "channel": "ts170",
+    "catchup-id": "93108846"
   }
 ]

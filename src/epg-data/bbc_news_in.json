@@ -2,496 +2,541 @@
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260404183000 +0000",
+    "stop": "20260404190000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775329200000,
     "title": "Tech Now",
     "desc": "Shiona McCallum takes a tour behind the scenes of Blenheim Palace to see new technologies.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062517"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260404190000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775329200000,
     "stopTs": 1775331000000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062498"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260404193000 +0000",
+    "stop": "20260404200000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775332800000,
     "title": "The Travel Show",
     "desc": "Qasa Alom finds out how the Jasper National Park community is getting back on its feet.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062532"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "20:00",
-    "stop": "21:00",
+    "start": "20260404200000 +0000",
+    "stop": "20260404210000 +0000",
     "startTs": 1775332800000,
     "stopTs": 1775336400000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062501"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "21:00",
-    "stop": "22:00",
+    "start": "20260404210000 +0000",
+    "stop": "20260404220000 +0000",
     "startTs": 1775336400000,
     "stopTs": 1775340000000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062520"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260404220000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775340000000,
     "stopTs": 1775341800000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062516"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260404223000 +0000",
+    "stop": "20260404230000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775343600000,
     "title": "Talking Business",
     "desc": "The so-called quiet quitting and 'act your wage' craze encourages workers to do the bare minimum.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062525"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260404230000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775343600000,
     "stopTs": 1775345400000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062531"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260404233000 +0000",
+    "stop": "20260405000000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775347200000,
     "title": "The Media Show",
     "desc": "Exploring the stories making the rounds on social media platforms and news reports across the world.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062510"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260405000000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775347200000,
     "stopTs": 1775349000000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062513"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260405003000 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775350800000,
     "title": "Tragedy and Politics-The President's Path",
     "desc": "Trump reacts to Washington DC air tragedy and continues his political promises.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062533"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260405010000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775352600000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062529"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260405013000 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775354400000,
     "title": "Panorama",
     "desc": "The government banned XL bully dogs, promising it would save lives. Panorama investigates this.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062522"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260405020000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775356200000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062518"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260405023000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775358000000,
     "title": "AI Decoded",
     "desc": "Exploring and unpacking the world of artificial intelligence.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062536"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062521"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "Global Eye",
     "desc": "This week, the Eye team reveals how soaring global demand for eel has fuelled a vast illegal trade worth billions, exposing criminal networks, trafficking routes and controversial deals.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062528"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062512"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260405043000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775365200000,
     "title": "Rachel Khoo's Kitchen Notebook: Cosmopolitan Cook",
     "desc": "Rachel cooks a family meal at a cliff-side restaurant on the beautiful Amalfi Coast. S01 E02.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062539"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775367000000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062534"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260405053000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775368800000,
     "title": "Talking Business",
     "desc": "The so-called quiet quitting and 'act your wage' craze encourages workers to do the bare minimum.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062508"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260405060000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370600000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062526"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260405063000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775372400000,
     "title": "The Travel Show",
     "desc": "Qasa Alom finds out how the Jasper National Park community is getting back on its feet.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062500"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062541"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260405073000 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775376000000,
     "title": "Panorama",
     "desc": "The government banned XL bully dogs, promising it would save lives. Panorama investigates this.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062515"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "08:00",
-    "stop": "09:00",
+    "start": "20260405080000 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775379600000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062507"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260405090000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775381400000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062502"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260405093000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775383200000,
     "title": "Baby Brain: What's Really Going On?",
     "desc": "What's really going on inside the brains of mums-to-be? We go inside the world's largest study.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062519"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260405100000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775385000000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062505"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260405103000 +0000",
+    "stop": "20260405110000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775386800000,
     "title": "Tragedy and Politics-The President's Path",
     "desc": "Trump reacts to Washington DC air tragedy and continues his political promises.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062514"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260405110000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775386800000,
     "stopTs": 1775388600000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062511"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260405113000 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775390400000,
     "title": "The Media Show",
     "desc": "Exploring the stories making the rounds on social media platforms and news reports across the world.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062503"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062524"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260405123000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775394000000,
     "title": "The Travel Show",
     "desc": "Qasa Alom finds out how the Jasper National Park community is getting back on its feet.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062506"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260405130000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395800000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062497"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260405133000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775397600000,
     "title": "Tech Now",
     "desc": "Shiona McCallum takes a tour behind the scenes of Blenheim Palace to see new technologies.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062537"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062540"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775401200000,
     "title": "Rachel Khoo's Kitchen Notebook: Cosmopolitan Cook",
     "desc": "Rachel cooks a family meal at a cliff-side restaurant on the beautiful Amalfi Coast. S01 E02.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062504"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062538"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260405153000 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775404800000,
     "title": "Global Eye",
     "desc": "This week, the Eye team reveals how soaring global demand for eel has fuelled a vast illegal trade worth billions, exposing criminal networks, trafficking routes and controversial deals.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062499"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "16:00",
-    "stop": "17:00",
+    "start": "20260405160000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775408400000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062523"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062535"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "17:30",
-    "stop": "17:45",
+    "start": "20260405173000 +0000",
+    "stop": "20260405174500 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775411100000,
     "title": "The Iran War Today",
     "desc": "A daily briefing from BBC News on the latest developments on the Israel-US war in Iran.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062509"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "17:45",
-    "stop": "18:00",
+    "start": "20260405174500 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775411100000,
     "stopTs": 1775412000000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062530"
   },
   {
     "channelId": "ts188",
     "channelName": "BBC News",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260405180000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775413800000,
     "title": "BBC News",
     "desc": "Twenty-four hours a day, the latest national and international stories as they break.",
-    "category": null
+    "channel": "ts188",
+    "catchup-id": "93062527"
   }
 ]

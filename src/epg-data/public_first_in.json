@@ -2,474 +2,517 @@
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "18:30",
-    "stop": "21:00",
+    "start": "20260404183000 +0000",
+    "stop": "20260404210000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775336400000,
     "title": "Bhakti Live",
     "desc": "A religious scholar sheds light on matters concerning the path of devotion, love.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069315"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260404210000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775336400000,
     "stopTs": 1775338200000,
     "title": "Youth First",
     "desc": "The host discusses developments, challenges and societal contributions of the youth.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069299"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260404213000 +0000",
+    "stop": "20260404220000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775340000000,
     "title": "Bharat First",
     "desc": "The host shares current news on political, social and economic issues in India.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069295"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260404220000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775340000000,
     "stopTs": 1775341800000,
     "title": "Education First",
     "desc": "The host delivers updates on education, policy changes and institutional progress.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069283"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260404223000 +0000",
+    "stop": "20260404230000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775343600000,
     "title": "Debate",
     "desc": "The host invites a panel of guests to engage in a debate on various pressing matters.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069316"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260404230000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775343600000,
     "stopTs": 1775345400000,
     "title": "Astrology First",
     "desc": "An astrology expert analyses celestial alignments to offer insights based on zodiac signs.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069300"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260404233000 +0000",
+    "stop": "20260405000000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775347200000,
     "title": "India First",
     "desc": "The host presents the key national news reports related to various issues in the country.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069285"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260405000000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775347200000,
     "stopTs": 1775349000000,
     "title": "Youth First",
     "desc": "The host discusses developments, challenges and societal contributions of the youth.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069281"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260405003000 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775350800000,
     "title": "Kisan First",
     "desc": "The shares the latest news stories and updates regarding the farmers in India.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069301"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260405010000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775352600000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069312"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260405013000 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775354400000,
     "title": "Ladies First",
     "desc": "The host sheds light on the latest news stories that impact people around the country.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069302"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260405020000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775356200000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069289"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260405023000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775358000000,
     "title": "Sports First",
     "desc": "The host sheds light on the latest news updates pertaining to the field of sports.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069309"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069276"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "Tribal First",
     "desc": "The shares the latest news stories and updates regarding the tribal communities in India.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069310"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069278"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260405043000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775365200000,
     "title": "Yoga First",
     "desc": "The host demonstrates various yoga poses and relaxation techniques.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069314"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775367000000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069274"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260405053000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775368800000,
     "title": "Fitness First",
     "desc": "The host shares insights on nutrition and mental health for wellness.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069277"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260405060000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370600000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069313"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260405063000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775372400000,
     "title": "Debate - Politics First",
     "desc": "Experts discuss recent political news and developments nationwide.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069286"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069290"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260405073000 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775376000000,
     "title": "India First",
     "desc": "The host presents the key national news reports related to various issues in the country.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069311"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "08:00",
-    "stop": "09:00",
+    "start": "20260405080000 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775379600000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069297"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260405090000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775381400000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069303"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260405093000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775383200000,
     "title": "Sanatan First",
     "desc": "The host explores Sanatana Dharma, Hinduism's philosophy of spiritual growth.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069282"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260405100000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775385000000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069288"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260405103000 +0000",
+    "stop": "20260405110000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775386800000,
     "title": "Sanskriti First",
     "desc": "The host shares insights on Hindu temples, rituals, practices and community initiatives.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069293"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260405110000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775386800000,
     "stopTs": 1775388600000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069308"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260405113000 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775390400000,
     "title": "Debate",
     "desc": "The host invites a panel of guests to engage in a debate on various pressing matters.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069291"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "Final News Bulletin",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069307"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260405123000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775394000000,
     "title": "Legal First",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069275"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260405130000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395800000,
     "title": "Debate - Politics First",
     "desc": "Experts discuss recent political news and developments nationwide.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069296"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260405133000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775397600000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069294"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "Debate - Politics First",
     "desc": "Experts discuss recent political news and developments nationwide.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069284"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775401200000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069287"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "India First",
     "desc": "The host presents the key national news reports related to various issues in the country.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069304"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260405153000 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775404800000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069280"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260405160000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775406600000,
     "title": "Health First",
     "desc": "Various doctors provide tips on maintaining a healthy lifestyle with a focus on exercise.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069279"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069305"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "Sanatan First",
     "desc": "The host explores Sanatana Dharma, Hinduism's philosophy of spiritual growth.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069306"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260405173000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775412000000,
     "title": "News Bulletin",
     "desc": "The host presents the latest news stories pertaining to various issues around the globe.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069298"
   },
   {
     "channelId": "ts1799",
     "channelName": "Public First",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260405180000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775413800000,
     "title": "Sanskriti First",
     "desc": "The host shares insights on Hindu temples, rituals, practices and community initiatives.",
-    "category": null
+    "channel": "ts1799",
+    "catchup-id": "93069292"
   }
 ]

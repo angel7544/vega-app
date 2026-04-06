@@ -2,408 +2,445 @@
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "18:30",
-    "stop": "19:30",
+    "start": "20260404183000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775331000000,
     "title": "Rangmanch",
     "desc": "Talented artists enthral the audience through theatrical enactments of riveting tales.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154194"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260404193000 +0000",
+    "stop": "20260404200000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775332800000,
     "title": "Arogya",
     "desc": "A medical expert shares remedies and tips that help in curing a range of illnesses.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154171"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260404200000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775332800000,
     "stopTs": 1775334600000,
     "title": "AAO Bhagat",
     "desc": "The host travels to different parts of India to savour traditional delicacies.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154182"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260404203000 +0000",
+    "stop": "20260404210000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775336400000,
     "title": "Kahaniwala",
     "desc": "Narrators recount intriguing stories surrounding people from everyday walks of life.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154199"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260404210000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775336400000,
     "stopTs": 1775338200000,
     "title": "Goodnews",
     "desc": "The anchor delivers stories from around the world, focusing on positive developments.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154195"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "21:30",
-    "stop": "22:30",
+    "start": "20260404213000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775341800000,
     "title": "Rangmanch",
     "desc": "Talented artists enthral the audience through theatrical enactments of riveting tales.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154183"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260404223000 +0000",
+    "stop": "20260404230000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775343600000,
     "title": "Sangam",
     "desc": "Prominent personalities gather to celebrate and promote India's culture and heritage.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154204"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260404230000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775343600000,
     "stopTs": 1775345400000,
     "title": "Hriday Geet",
     "desc": "Collections of soulful Bhjajans and message of peace by an author (Prem Rawat).",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154173"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "23:30",
-    "stop": "00:30",
+    "start": "20260404233000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775349000000,
     "title": "Jeevan Utasv",
     "desc": "A comprehensive compilation featuring devotional songs by talented musicians is played.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154191"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260405003000 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775350800000,
     "title": "Prabhu Aaradhana",
     "desc": "Priests chant hymns and sing devotional songs in praise of the Almighty.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154177"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260405010000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775352600000,
     "title": "Baje Anhad",
     "desc": "Listen to soulful songs that convey the message of love, peace and humanity.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154180"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "01:30",
-    "stop": "02:30",
+    "start": "20260405013000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775356200000,
     "title": "Jeevan Utasv",
     "desc": "A comprehensive compilation featuring devotional songs by talented musicians is played.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154192"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260405023000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775358000000,
     "title": "Hriday Geet",
     "desc": "Collections of soulful Bhjajans and message of peace by an author (Prem Rawat).",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154186"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "Sangam",
     "desc": "Prominent personalities gather to celebrate and promote India's culture and heritage.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154167"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "Arogya",
     "desc": "A medical expert shares remedies and tips that help in curing a range of illnesses.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154184"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "Saar - the Essence of Life",
     "desc": "The host sheds light on how one can understand the true meaning and purpose of existence.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154201"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "04:30",
-    "stop": "05:30",
+    "start": "20260405043000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775367000000,
     "title": "Margdarshan",
     "desc": "Mr Prem Rawat discusses the importance of inner peace in an individual's life.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154178"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260405053000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775368800000,
     "title": "Bole Youngistan",
     "desc": "Important life themes are explored and understood from a young individual's perspective.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154193"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260405060000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370600000,
     "title": "Grih Mantri",
     "desc": "Homemakers from around the country complete tasks and compete with each other to win.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154185"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260405063000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775372400000,
     "title": "Hriday Geet",
     "desc": "Collections of soulful Bhjajans and message of peace by an author (Prem Rawat).",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154168"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "Shanti Ka Anubhav",
     "desc": "An author and international speaker emphasises the importance of finding inner harmony.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154197"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260405073000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775377800000,
     "title": "Chulha Chouka",
     "desc": "Amateur cooks from all around the region participate in a cooking competition.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154189"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260405083000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775381400000,
     "title": "Rangmanch",
     "desc": "Talented artists enthral the audience through theatrical enactments of riveting tales.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154200"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260405093000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775383200000,
     "title": "Arogya",
     "desc": "A medical expert shares remedies and tips that help in curing a range of illnesses.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154187"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "10:00",
-    "stop": "11:00",
+    "start": "20260405100000 +0000",
+    "stop": "20260405110000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775386800000,
     "title": "Margdarshan",
     "desc": "Mr Prem Rawat discusses the importance of inner peace in an individual's life.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154202"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260405110000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775386800000,
     "stopTs": 1775388600000,
     "title": "Goodnews",
     "desc": "The anchor delivers stories from around the world, focusing on positive developments.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154198"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "11:30",
-    "stop": "11:45",
+    "start": "20260405113000 +0000",
+    "stop": "20260405114500 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775389500000,
     "title": "Sangam",
     "desc": "Prominent personalities gather to celebrate and promote India's culture and heritage.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154203"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "11:45",
-    "stop": "12:15",
+    "start": "20260405114500 +0000",
+    "stop": "20260405121500 +0000",
     "startTs": 1775389500000,
     "stopTs": 1775391300000,
     "title": "Arogya",
     "desc": "A medical expert shares remedies and tips that help in curing a range of illnesses.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154172"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "12:15",
-    "stop": "12:30",
+    "start": "20260405121500 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775391300000,
     "stopTs": 1775392200000,
     "title": "Baje Anhad",
     "desc": "Listen to soulful songs that convey the message of love, peace and humanity.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154169"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260405133000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775397600000,
     "title": "Bole Youngistan",
     "desc": "Important life themes are explored and understood from a young individual's perspective.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154176"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "Sangam",
     "desc": "Prominent personalities gather to celebrate and promote India's culture and heritage.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154188"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775401200000,
     "title": "Goodnews",
     "desc": "The anchor delivers stories from around the world, focusing on positive developments.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154181"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "Saar - the Essence of Life",
     "desc": "The host sheds light on how one can understand the true meaning and purpose of existence.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154174"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "15:30",
-    "stop": "16:30",
+    "start": "20260405153000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775406600000,
     "title": "Margdarshan",
     "desc": "Mr Prem Rawat discusses the importance of inner peace in an individual's life.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154170"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "Kahaniwala",
     "desc": "Narrators recount intriguing stories surrounding people from everyday walks of life.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154190"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "Arogya",
     "desc": "A medical expert shares remedies and tips that help in curing a range of illnesses.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154179"
   },
   {
     "channelId": "ts180",
     "channelName": "Anjan TV",
-    "start": "17:30",
-    "stop": "00:30",
+    "start": "20260405173000 +0000",
+    "stop": "20260406003000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775435400000,
     "title": "Chulha Chouka",
     "desc": "Amateur cooks from all around the region participate in a cooking competition.",
-    "category": null
+    "channel": "ts180",
+    "catchup-id": "93154175"
   }
 ]

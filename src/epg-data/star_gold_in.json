@@ -2,12 +2,13 @@
   {
     "channelId": "ts632",
     "channelName": "Star GOLD HD",
-    "start": "18:37",
-    "stop": "20:37",
+    "start": "20260405183700 +0000",
+    "stop": "20260405203700 +0000",
     "startTs": 1775414220000,
     "stopTs": 1775421420000,
     "title": "Munjya",
     "desc": "When Bittu visits his village, he uncovers a family secret involving a vengeful spirit.",
-    "category": null
+    "channel": "ts632",
+    "catchup-id": "93278372"
   }
 ]

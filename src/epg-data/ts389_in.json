@@ -2,628 +2,685 @@
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "18:30",
-    "stop": "19:30",
+    "start": "20260404183000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775331000000,
     "title": "Let's Do Kummudu",
     "desc": "A curated compilation of some of the most popular songs is played in succession. S01 E708.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160817"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "19:30",
-    "stop": "20:30",
+    "start": "20260404193000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775334600000,
     "title": "Geetanjali",
     "desc": "Bringing the best in television. S01 E562.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160841"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "20:30",
-    "stop": "21:30",
+    "start": "20260404203000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775338200000,
     "title": "Let's Do Kummudu",
     "desc": "A curated compilation of some of the most popular songs is played in succession. S01 E708.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160835"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "21:30",
-    "stop": "22:30",
+    "start": "20260404213000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775341800000,
     "title": "Geetanjali",
     "desc": "Bringing the best in television. S01 E562.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160820"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "22:30",
-    "stop": "23:30",
+    "start": "20260404223000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775345400000,
     "title": "Let's Do Kummudu",
     "desc": "A curated compilation of some of the most popular songs is played in succession. S01 E708.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160844"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "23:30",
-    "stop": "00:30",
+    "start": "20260404233000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775349000000,
     "title": "Geetanjali",
     "desc": "Bringing the best in television. S01 E562.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160828"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260405003000 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775350800000,
     "title": "Break Ledu Mitrama",
     "desc": "A compilation of the greatest foot-tapping hits are played back to back. S01 E1330.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160839"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260405010000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775352600000,
     "title": "Love Today",
     "desc": "Bringing the best in television. S01 E23.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160819"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "01:30",
-    "stop": "03:30",
+    "start": "20260405013000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775359800000,
     "title": "Yours Lovingly Live",
     "desc": "The host plays songs after listening to the requests of the callers, live.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160842"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "03:30",
-    "stop": "04:30",
+    "start": "20260405033000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775363400000,
     "title": "Yours Lovingly Live",
     "desc": "The host plays songs after listening to the requests of the callers, live.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160825"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "04:30",
-    "stop": "05:30",
+    "start": "20260405043000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775367000000,
     "title": "Hello Star Maa Music",
     "desc": "Viewers call in and request to play their favourite songs from movies.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160829"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "05:30",
-    "stop": "06:30",
+    "start": "20260405053000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775370600000,
     "title": "Hello Star Maa Music",
     "desc": "Viewers call in and request to play their favourite songs from movies.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160824"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "06:30",
-    "stop": "07:30",
+    "start": "20260405063000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775374200000,
     "title": "Hello Star Maa Music",
     "desc": "Viewers call in and request to play their favourite songs from movies.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160821"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260405073000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775377800000,
     "title": "Hello Star Maa Music",
     "desc": "Viewers call in and request to play their favourite songs from movies.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160827"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260405083000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775381400000,
     "title": "Hello Star Maa Music",
     "desc": "Viewers call in and request to play their favourite songs from movies.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160832"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "09:30",
-    "stop": "10:30",
+    "start": "20260405093000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775385000000,
     "title": "Hello Star Maa Music",
     "desc": "Viewers call in and request to play their favourite songs from movies.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160822"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "10:30",
-    "stop": "11:30",
+    "start": "20260405103000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775388600000,
     "title": "On Demand",
     "desc": "The host plays the favourite songs of viewers as requested by them.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160840"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "11:30",
-    "stop": "12:30",
+    "start": "20260405113000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775392200000,
     "title": "Hello Star Maa Music",
     "desc": "Viewers call in and request to play their favourite songs from movies.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160818"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "12:30",
-    "stop": "13:30",
+    "start": "20260405123000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775395800000,
     "title": "Viral Vibes",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160826"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260405133000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775397600000,
     "title": "Break Ledu Mitrama",
     "desc": "A compilation of the greatest foot-tapping hits are played back to back. S01 E1367.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160838"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "Break Ledu Mitrama",
     "desc": "A compilation of the greatest foot-tapping hits are played back to back. S01 E1359.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160833"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775401200000,
     "title": "Premaya Namaha",
     "desc": "A collection of love songs that feature some of the most notable names. S01 E947.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160837"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "Premaya Namaha",
     "desc": "A collection of love songs that feature some of the most notable names. S01 E952.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160830"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260405153000 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775404800000,
     "title": "Break Ledu Mitrama",
     "desc": "A compilation of the greatest foot-tapping hits are played back to back. S01 E1354.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160823"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260405160000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775406600000,
     "title": "Break Ledu Mitrama",
     "desc": "A compilation of the greatest foot-tapping hits are played back to back. S01 E1347.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160836"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "Let's Do Kummudu",
     "desc": "A curated compilation of some of the most popular songs is played in succession. S01 E1006.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160831"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "Let's Do Kummudu",
     "desc": "A curated compilation of some of the most popular songs is played in succession. S01 E1011.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160843"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260405173000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775412000000,
     "title": "Break Ledu Mitrama",
     "desc": "A compilation of the greatest foot-tapping hits are played back to back. S01 E1340.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160845"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260405180000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775413800000,
     "title": "Break Ledu Mitrama",
     "desc": "A compilation of the greatest foot-tapping hits are played back to back. S01 E1333.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93160834"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "18:30",
-    "stop": "19:30",
+    "start": "20260406183000 +0000",
+    "stop": "20260406193000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775503800000,
     "title": "Let's Do Kummudu",
     "desc": "A curated compilation of some of the most popular songs is played in succession. S01 E710.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146142"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "19:30",
-    "stop": "20:30",
+    "start": "20260406193000 +0000",
+    "stop": "20260406203000 +0000",
     "startTs": 1775503800000,
     "stopTs": 1775507400000,
     "title": "Geetanjali",
     "desc": "Bringing the best in television. S01 E564.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146126"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "20:30",
-    "stop": "21:30",
+    "start": "20260406203000 +0000",
+    "stop": "20260406213000 +0000",
     "startTs": 1775507400000,
     "stopTs": 1775511000000,
     "title": "Let's Do Kummudu",
     "desc": "A curated compilation of some of the most popular songs is played in succession. S01 E710.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146120"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "21:30",
-    "stop": "22:30",
+    "start": "20260406213000 +0000",
+    "stop": "20260406223000 +0000",
     "startTs": 1775511000000,
     "stopTs": 1775514600000,
     "title": "Geetanjali",
     "desc": "Bringing the best in television. S01 E564.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146124"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "22:30",
-    "stop": "23:30",
+    "start": "20260406223000 +0000",
+    "stop": "20260406233000 +0000",
     "startTs": 1775514600000,
     "stopTs": 1775518200000,
     "title": "Let's Do Kummudu",
     "desc": "A curated compilation of some of the most popular songs is played in succession. S01 E710.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146127"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "23:30",
-    "stop": "00:30",
+    "start": "20260406233000 +0000",
+    "stop": "20260407003000 +0000",
     "startTs": 1775518200000,
     "stopTs": 1775521800000,
     "title": "Geetanjali",
     "desc": "Bringing the best in television. S01 E564.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146129"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260407003000 +0000",
+    "stop": "20260407010000 +0000",
     "startTs": 1775521800000,
     "stopTs": 1775523600000,
     "title": "Break Ledu Mitrama",
     "desc": "A compilation of the greatest foot-tapping hits are played back to back. S01 E1332.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146139"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260407010000 +0000",
+    "stop": "20260407013000 +0000",
     "startTs": 1775523600000,
     "stopTs": 1775525400000,
     "title": "Love Today",
     "desc": "Bringing the best in television. S01 E25.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146130"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "01:30",
-    "stop": "03:30",
+    "start": "20260407013000 +0000",
+    "stop": "20260407033000 +0000",
     "startTs": 1775525400000,
     "stopTs": 1775532600000,
     "title": "Yours Lovingly Live",
     "desc": "The host plays songs after listening to the requests of the callers, live.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146141"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "03:30",
-    "stop": "04:30",
+    "start": "20260407033000 +0000",
+    "stop": "20260407043000 +0000",
     "startTs": 1775532600000,
     "stopTs": 1775536200000,
     "title": "Yours Lovingly Live",
     "desc": "The host plays songs after listening to the requests of the callers, live.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146117"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "04:30",
-    "stop": "05:30",
+    "start": "20260407043000 +0000",
+    "stop": "20260407053000 +0000",
     "startTs": 1775536200000,
     "stopTs": 1775539800000,
     "title": "Hello Star Maa Music",
     "desc": "Viewers call in and request to play their favourite songs from movies.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146128"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "05:30",
-    "stop": "06:30",
+    "start": "20260407053000 +0000",
+    "stop": "20260407063000 +0000",
     "startTs": 1775539800000,
     "stopTs": 1775543400000,
     "title": "Hello Star Maa Music",
     "desc": "Viewers call in and request to play their favourite songs from movies.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146135"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "06:30",
-    "stop": "07:30",
+    "start": "20260407063000 +0000",
+    "stop": "20260407073000 +0000",
     "startTs": 1775543400000,
     "stopTs": 1775547000000,
     "title": "Hello Star Maa Music",
     "desc": "Viewers call in and request to play their favourite songs from movies.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146116"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260407073000 +0000",
+    "stop": "20260407083000 +0000",
     "startTs": 1775547000000,
     "stopTs": 1775550600000,
     "title": "Hello Star Maa Music",
     "desc": "Viewers call in and request to play their favourite songs from movies.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146125"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260407083000 +0000",
+    "stop": "20260407093000 +0000",
     "startTs": 1775550600000,
     "stopTs": 1775554200000,
     "title": "Hello Star Maa Music",
     "desc": "Viewers call in and request to play their favourite songs from movies.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146119"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "09:30",
-    "stop": "10:30",
+    "start": "20260407093000 +0000",
+    "stop": "20260407103000 +0000",
     "startTs": 1775554200000,
     "stopTs": 1775557800000,
     "title": "Hello Star Maa Music",
     "desc": "Viewers call in and request to play their favourite songs from movies.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146133"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "10:30",
-    "stop": "11:30",
+    "start": "20260407103000 +0000",
+    "stop": "20260407113000 +0000",
     "startTs": 1775557800000,
     "stopTs": 1775561400000,
     "title": "On Demand",
     "desc": "The host plays the favourite songs of viewers as requested by them.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146137"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "12:30",
-    "stop": "13:30",
+    "start": "20260407123000 +0000",
+    "stop": "20260407133000 +0000",
     "startTs": 1775565000000,
     "stopTs": 1775568600000,
     "title": "Viral Vibes",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146118"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260407133000 +0000",
+    "stop": "20260407140000 +0000",
     "startTs": 1775568600000,
     "stopTs": 1775570400000,
     "title": "Break Ledu Mitrama",
     "desc": "A compilation of the greatest foot-tapping hits are played back to back. S01 E1364.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146136"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260407140000 +0000",
+    "stop": "20260407143000 +0000",
     "startTs": 1775570400000,
     "stopTs": 1775572200000,
     "title": "Break Ledu Mitrama",
     "desc": "A compilation of the greatest foot-tapping hits are played back to back. S01 E1357.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146115"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260407143000 +0000",
+    "stop": "20260407150000 +0000",
     "startTs": 1775572200000,
     "stopTs": 1775574000000,
     "title": "Premaya Namaha",
     "desc": "A collection of love songs that feature some of the most notable names. S01 E949.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146140"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260407150000 +0000",
+    "stop": "20260407153000 +0000",
     "startTs": 1775574000000,
     "stopTs": 1775575800000,
     "title": "Premaya Namaha",
     "desc": "A collection of love songs that feature some of the most notable names. S01 E954.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146138"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260407153000 +0000",
+    "stop": "20260407160000 +0000",
     "startTs": 1775575800000,
     "stopTs": 1775577600000,
     "title": "Break Ledu Mitrama",
     "desc": "A compilation of the greatest foot-tapping hits are played back to back. S01 E1352.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146122"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260407160000 +0000",
+    "stop": "20260407163000 +0000",
     "startTs": 1775577600000,
     "stopTs": 1775579400000,
     "title": "Break Ledu Mitrama",
     "desc": "A compilation of the greatest foot-tapping hits are played back to back. S01 E1345.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146131"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260407163000 +0000",
+    "stop": "20260407170000 +0000",
     "startTs": 1775579400000,
     "stopTs": 1775581200000,
     "title": "Let's Do Kummudu",
     "desc": "A curated compilation of some of the most popular songs is played in succession. S01 E1008.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146114"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260407170000 +0000",
+    "stop": "20260407173000 +0000",
     "startTs": 1775581200000,
     "stopTs": 1775583000000,
     "title": "Let's Do Kummudu",
     "desc": "A curated compilation of some of the most popular songs is played in succession. S01 E1013.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146132"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260407173000 +0000",
+    "stop": "20260407180000 +0000",
     "startTs": 1775583000000,
     "stopTs": 1775584800000,
     "title": "Break Ledu Mitrama",
     "desc": "A compilation of the greatest foot-tapping hits are played back to back. S01 E1338.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146121"
   },
   {
     "channelId": "ts389",
     "channelName": "ts389",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260407180000 +0000",
+    "stop": "20260407183000 +0000",
     "startTs": 1775584800000,
     "stopTs": 1775586600000,
     "title": "Break Ledu Mitrama",
     "desc": "A compilation of the greatest foot-tapping hits are played back to back. S01 E1331.",
-    "category": null
+    "channel": "ts389",
+    "catchup-id": "93146123"
   }
 ]

@@ -2,419 +2,457 @@
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260404183000 +0000",
+    "stop": "20260404190000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775329200000,
     "title": "Close",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158368"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "19:00",
-    "stop": "01:30",
+    "start": "20260404190000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775329200000,
     "stopTs": 1775352600000,
     "title": "Close",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158376"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "01:30",
-    "stop": "02:15",
+    "start": "20260405013000 +0000",
+    "stop": "20260405021500 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775355300000,
     "title": "National Bull",
     "desc": "The host presents the latest news of social, political and economic significance.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158395"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "02:15",
-    "stop": "02:30",
+    "start": "20260405021500 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775355300000,
     "stopTs": 1775356200000,
     "title": "Divyang News",
     "desc": "The host presents the top news stories and updates surrounding various issues around the country.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158367"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260405023000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775358000000,
     "title": "Delhi Special",
     "desc": "The host collates and presents the latest news and updates from Delhi.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158362"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "Special Program",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158374"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "National Bull",
     "desc": "The host presents the latest news of social, political and economic significance.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158372"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "Good Luck",
     "desc": "The host interacts with an astrologist, who makes predictions based on one's horoscope.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158373"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260405043000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775365200000,
     "title": "Apna Uttar Pradesh",
     "desc": "A presenter reports important news and socio-political developments in Uttar Pradesh.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158391"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775367000000,
     "title": "Apna Uttarakhand",
     "desc": "The host presents information about the social, economic and political issues.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158385"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260405053000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775368800000,
     "title": "National Bull",
     "desc": "The host presents the latest news of social, political and economic significance.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158392"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260405060000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370600000,
     "title": "Fast News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158389"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260405063000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775372400000,
     "title": "Apna Uttar Pradesh",
     "desc": "A presenter reports important news and socio-political developments in Uttar Pradesh.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158381"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "Fast News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158378"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260405073000 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775376000000,
     "title": "Khabar Dopahar",
     "desc": "An afternoon segment provides an overview of the day's newsworthy events and stories.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158397"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260405080000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775377800000,
     "title": "Khabar Dopahar",
     "desc": "An afternoon segment provides an overview of the day's newsworthy events and stories.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158393"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260405083000 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775379600000,
     "title": "Apna Uttar Pradesh",
     "desc": "A presenter reports important news and socio-political developments in Uttar Pradesh.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158363"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260405090000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775381400000,
     "title": "Apna Uttarakhand",
     "desc": "The host presents information about the social, economic and political issues.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158390"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260405093000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775383200000,
     "title": "National Bull",
     "desc": "The host presents the latest news of social, political and economic significance.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158379"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260405100000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775385000000,
     "title": "Baat Naari Ki",
     "desc": "The host presents the latest updates and developments on several issues related to women.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158386"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260405103000 +0000",
+    "stop": "20260405110000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775386800000,
     "title": "Apna Uttar Pradesh",
     "desc": "A presenter reports important news and socio-political developments in Uttar Pradesh.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158370"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260405110000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775386800000,
     "stopTs": 1775388600000,
     "title": "Fast News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158382"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260405113000 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775390400000,
     "title": "Khas Mulakat",
     "desc": "The host conducts an insightful interaction with prominent personalities.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158396"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "Fast News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158366"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260405123000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775394000000,
     "title": "Harihar Chhatisgarh",
     "desc": "The host sheds light on the latest news stories, updates and developments of Chhattisgarh.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158387"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260405130000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395800000,
     "title": "Apna Uttarakhand",
     "desc": "The host presents information about the social, economic and political issues.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158388"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260405133000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775397600000,
     "title": "National Bulletin / Debate",
     "desc": "The host presents key news updates; experts engage in debates on pressing topics.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158365"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "Fast News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158394"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775401200000,
     "title": "Delhi Special",
     "desc": "The host collates and presents the latest news and updates from Delhi.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158377"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "Ghatak",
     "desc": "The host provides a detailed analysis of the latest information on various issues.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158383"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260405153000 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775404800000,
     "title": "Apna Uttar Pradesh",
     "desc": "A presenter reports important news and socio-political developments in Uttar Pradesh.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158364"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260405160000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775406600000,
     "title": "Good News",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158380"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "News Roundup",
     "desc": "The host provides a detailed coverage of the latest news and developments.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158375"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "FIR",
     "desc": "The host sheds on some of the horrifying crimes in the country.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158371"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260405173000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775412000000,
     "title": "Close",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158384"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260405180000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775413800000,
     "title": "Close",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93158369"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260405183000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Close",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93100952"
   },
   {
     "channelId": "ts701",
     "channelName": "Jantantra TV",
-    "start": "19:00",
-    "stop": "01:30",
+    "start": "20260405190000 +0000",
+    "stop": "20260406013000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775439000000,
     "title": "Close",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts701",
+    "catchup-id": "93100953"
   }
 ]

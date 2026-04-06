@@ -2,276 +2,301 @@
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "19:35",
-    "stop": "20:49",
+    "start": "20260404193500 +0000",
+    "stop": "20260404204900 +0000",
     "startTs": 1775331300000,
     "stopTs": 1775335740000,
     "title": "Darkroom",
     "desc": "A group of ghost-hunting teenagers play with an old camera and unknowingly summon a demon.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93239107"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "20:49",
-    "stop": "23:03",
+    "start": "20260404204900 +0000",
+    "stop": "20260404230300 +0000",
     "startTs": 1775335740000,
     "stopTs": 1775343780000,
     "title": "Emergency Declaration",
     "desc": "A captain and crew take extreme measures to keep passengers safe from a terror threat.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93239106"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "23:03",
-    "stop": "23:21",
+    "start": "20260404230300 +0000",
+    "stop": "20260404232100 +0000",
     "startTs": 1775343780000,
     "stopTs": 1775344860000,
     "title": "Fillers",
     "desc": "A comprehensive compilation of promotional videos and trailers of Bollywood movies.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93241624"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "23:21",
-    "stop": "01:25",
+    "start": "20260404232100 +0000",
+    "stop": "20260405012500 +0000",
     "startTs": 1775344860000,
     "stopTs": 1775352300000,
     "title": "Kingsman: The Golden Circle",
     "desc": "The agents of Kingsman team up with their American counterpart to eliminate the enemy.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93241622"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "01:25",
-    "stop": "03:35",
+    "start": "20260405012500 +0000",
+    "stop": "20260405033500 +0000",
     "startTs": 1775352300000,
     "stopTs": 1775360100000,
     "title": "Spider-Man: Into the Spider-Verse",
     "desc": "Following a spider bite, Miles becomes Spider-Man and meets alternate versions of himself.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93241625"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "03:35",
-    "stop": "05:53",
+    "start": "20260405033500 +0000",
+    "stop": "20260405055300 +0000",
     "startTs": 1775360100000,
     "stopTs": 1775368380000,
     "title": "Captain Marvel",
     "desc": "Captain Marvel, a Kree warrior, must learn about her past to end the intergalactic war.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93241626"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "05:53",
-    "stop": "08:57",
+    "start": "20260405055300 +0000",
+    "stop": "20260405085700 +0000",
     "startTs": 1775368380000,
     "stopTs": 1775379420000,
     "title": "Harry Potter Aur Rahasyamayi Tahkhana",
     "desc": "Harry returns to Hogwarts despite being warned by a house-elf of a grave danger.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93241623"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "08:57",
-    "stop": "10:56",
+    "start": "20260405085700 +0000",
+    "stop": "20260405105600 +0000",
     "startTs": 1775379420000,
     "stopTs": 1775386560000,
     "title": "Percy Jackson: Sea of Monsters",
     "desc": "Percy Jackson and his friends try to find the Golden Fleece in the Sea of Monsters.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93241621"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "10:56",
-    "stop": "12:59",
+    "start": "20260405105600 +0000",
+    "stop": "20260405125900 +0000",
     "startTs": 1775386560000,
     "stopTs": 1775393940000,
     "title": "Fall",
     "desc": "A broken ladder leaves Becky and Hunter trapped on a TV tower.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93241629"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "12:59",
-    "stop": "15:30",
+    "start": "20260405125900 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775393940000,
     "stopTs": 1775403000000,
     "title": "Shang-Chi and the Legend of the Ten Rings",
     "desc": "Shang-Chi confronts his past when his father sends Ten Rings assassins to track him down.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93241627"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "15:30",
-    "stop": "18:48",
+    "start": "20260405153000 +0000",
+    "stop": "20260405184800 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775414880000,
     "title": "Avengers: Endgame",
     "desc": "The Avengers must pick up the pieces of the broken world left in the wake of Thanos' rampage.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93241628"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "18:48",
-    "stop": "20:15",
+    "start": "20260405184800 +0000",
+    "stop": "20260405201500 +0000",
     "startTs": 1775414880000,
     "stopTs": 1775420100000,
     "title": "Lake Placid 3",
     "desc": "A few baby crocodiles quickly grow into monsters that terrorise everyone around them.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93274611"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "19:23",
-    "stop": "21:37",
+    "start": "20260406192300 +0000",
+    "stop": "20260406213700 +0000",
     "startTs": 1775503380000,
     "stopTs": 1775511420000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93145952"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "21:37",
-    "stop": "22:32",
+    "start": "20260406213700 +0000",
+    "stop": "20260406223200 +0000",
     "startTs": 1775511420000,
     "stopTs": 1775514720000,
     "title": "Fillers",
     "desc": "A comprehensive compilation of promotional videos and trailers of Bollywood movies.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93145948"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "22:32",
-    "stop": "00:19",
+    "start": "20260406223200 +0000",
+    "stop": "20260407001900 +0000",
     "startTs": 1775514720000,
     "stopTs": 1775521140000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93145942"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "00:19",
-    "stop": "02:26",
+    "start": "20260407001900 +0000",
+    "stop": "20260407022600 +0000",
     "startTs": 1775521140000,
     "stopTs": 1775528760000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93145944"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "02:26",
-    "stop": "04:01",
+    "start": "20260407022600 +0000",
+    "stop": "20260407040100 +0000",
     "startTs": 1775528760000,
     "stopTs": 1775534460000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93145954"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "04:01",
-    "stop": "06:12",
+    "start": "20260407040100 +0000",
+    "stop": "20260407061200 +0000",
     "startTs": 1775534460000,
     "stopTs": 1775542320000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93145953"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "06:12",
-    "stop": "07:53",
+    "start": "20260407061200 +0000",
+    "stop": "20260407075300 +0000",
     "startTs": 1775542320000,
     "stopTs": 1775548380000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93145943"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "07:53",
-    "stop": "10:03",
+    "start": "20260407075300 +0000",
+    "stop": "20260407100300 +0000",
     "startTs": 1775548380000,
     "stopTs": 1775556180000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93145945"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "10:03",
-    "stop": "11:43",
+    "start": "20260407100300 +0000",
+    "stop": "20260407114300 +0000",
     "startTs": 1775556180000,
     "stopTs": 1775562180000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93145951"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "11:43",
-    "stop": "13:34",
+    "start": "20260407114300 +0000",
+    "stop": "20260407133400 +0000",
     "startTs": 1775562180000,
     "stopTs": 1775568840000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93145946"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "13:34",
-    "stop": "15:15",
+    "start": "20260407133400 +0000",
+    "stop": "20260407151500 +0000",
     "startTs": 1775568840000,
     "stopTs": 1775574900000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93145949"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "15:15",
-    "stop": "17:04",
+    "start": "20260407151500 +0000",
+    "stop": "20260407170400 +0000",
     "startTs": 1775574900000,
     "stopTs": 1775581440000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93145950"
   },
   {
     "channelId": "ts494",
     "channelName": "ts494",
-    "start": "17:04",
-    "stop": "19:02",
+    "start": "20260407170400 +0000",
+    "stop": "20260407190200 +0000",
     "startTs": 1775581440000,
     "stopTs": 1775588520000,
     "title": "Movie",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts494",
+    "catchup-id": "93145947"
   }
 ]

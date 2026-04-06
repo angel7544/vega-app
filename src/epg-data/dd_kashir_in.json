@@ -2,507 +2,553 @@
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260405183000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Roshni",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096739"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260405190000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Nalla-e-Afreen",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096751"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260405193000 +0000",
+    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Madanwar",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096730"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260405200000 +0000",
+    "stop": "20260405203000 +0000",
     "startTs": 1775419200000,
     "stopTs": 1775421000000,
     "title": "Sadai -E- Saaz",
     "desc": "Talented musical artists showcase their skills as they perform a variety of folk songs.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096720"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260405203000 +0000",
+    "stop": "20260405210000 +0000",
     "startTs": 1775421000000,
     "stopTs": 1775422800000,
     "title": "Kashmirnama",
     "desc": "The host presents the important developments in the Indian state of Jammu and Kashmir. S01 E1348.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096742"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260405210000 +0000",
+    "stop": "20260405213000 +0000",
     "startTs": 1775422800000,
     "stopTs": 1775424600000,
     "title": "Funkar",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096732"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260405213000 +0000",
+    "stop": "20260405220000 +0000",
     "startTs": 1775424600000,
     "stopTs": 1775426400000,
     "title": "Waris",
     "desc": "Bringing the best in television. S01 E04.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096741"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260405220000 +0000",
+    "stop": "20260405223000 +0000",
     "startTs": 1775426400000,
     "stopTs": 1775428200000,
     "title": "Sadai -E- Saaz",
     "desc": "Talented musical artists showcase their skills as they perform a variety of folk songs.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096763"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260405223000 +0000",
+    "stop": "20260405230000 +0000",
     "startTs": 1775428200000,
     "stopTs": 1775430000000,
     "title": "Talaash",
     "desc": "Dr Deepa is on the run, fearing for her life, after uncovering a major scam.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096734"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260405230000 +0000",
+    "stop": "20260405233000 +0000",
     "startTs": 1775430000000,
     "stopTs": 1775431800000,
     "title": "Sarhad Ke Do Rukh",
     "desc": "The host presents the latest new stories, updates and developments. S01 E2301.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096735"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260405233000 +0000",
+    "stop": "20260406000000 +0000",
     "startTs": 1775431800000,
     "stopTs": 1775433600000,
     "title": "Aine",
     "desc": "Bringing the best in television. S01 E08.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096765"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "00:00",
-    "stop": "00:29",
+    "start": "20260406000000 +0000",
+    "stop": "20260406002900 +0000",
     "startTs": 1775433600000,
     "stopTs": 1775435340000,
     "title": "Zar Zan Zameen",
     "desc": ". S01 E06.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096756"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "00:30",
-    "stop": "00:58",
+    "start": "20260406003000 +0000",
+    "stop": "20260406005800 +0000",
     "startTs": 1775435400000,
     "stopTs": 1775437080000,
     "title": "Roshni",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096764"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "01:00",
-    "stop": "01:15",
+    "start": "20260406010000 +0000",
+    "stop": "20260406011500 +0000",
     "startTs": 1775437200000,
     "stopTs": 1775438100000,
     "title": "Sanskrit News",
     "desc": "The host presents the latest updates on various current affairs in Sanskrit.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096749"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "02:30",
-    "stop": "03:30",
+    "start": "20260406023000 +0000",
+    "stop": "20260406033000 +0000",
     "startTs": 1775442600000,
     "stopTs": 1775446200000,
     "title": "Good Morning J&K",
     "desc": "The host presents the latest updates, top stories and leading developments from Jammu and Kashmir.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096744"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "03:30",
-    "stop": "03:40",
+    "start": "20260406033000 +0000",
+    "stop": "20260406034000 +0000",
     "startTs": 1775446200000,
     "stopTs": 1775446800000,
     "title": "News Kashmiri / Urdu",
     "desc": "An anchor reports the latest social, political and economic news from Jammu and Kashmir.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096762"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "03:40",
-    "stop": "04:40",
+    "start": "20260406034000 +0000",
+    "stop": "20260406044000 +0000",
     "startTs": 1775446800000,
     "stopTs": 1775450400000,
     "title": "Phone in Studio based Health Prog-Doctor On Line",
     "desc": "The host invites medical professionals to answer health queries from callers.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096724"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "04:40",
-    "stop": "05:05",
+    "start": "20260406044000 +0000",
+    "stop": "20260406050500 +0000",
     "startTs": 1775450400000,
     "stopTs": 1775451900000,
     "title": "Sarhad Ke Do Rukh",
     "desc": "The host presents the latest new stories, updates and developments. S01 E2301.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096753"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "05:30",
-    "stop": "05:40",
+    "start": "20260406053000 +0000",
+    "stop": "20260406054000 +0000",
     "startTs": 1775453400000,
     "stopTs": 1775454000000,
     "title": "News Kashmiri / Urdu",
     "desc": "An anchor reports the latest social, political and economic news from Jammu and Kashmir.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096750"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "05:40",
-    "stop": "06:10",
+    "start": "20260406054000 +0000",
+    "stop": "20260406061000 +0000",
     "startTs": 1775454000000,
     "stopTs": 1775455800000,
     "title": "Aabshaar Light Music",
     "desc": "A compilation of Kashmiri folk tunes with contemporary melodies is played back-to-back.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096761"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260406063000 +0000",
+    "stop": "20260406070000 +0000",
     "startTs": 1775457000000,
     "stopTs": 1775458800000,
     "title": "Bazm-E-Khawateen",
     "desc": "The host engages in discussions with women from diverse fields on topics focused on women.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096729"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "07:00",
-    "stop": "07:22",
+    "start": "20260406070000 +0000",
+    "stop": "20260406072200 +0000",
     "startTs": 1775458800000,
     "stopTs": 1775460120000,
     "title": "Yeh Zindagi Hai Gulshan",
     "desc": "A Muslim girl's life is affected by Shariah, which lets her pursue development. S01 E50.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096726"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "07:30",
-    "stop": "07:40",
+    "start": "20260406073000 +0000",
+    "stop": "20260406074000 +0000",
     "startTs": 1775460600000,
     "stopTs": 1775461200000,
     "title": "News Kashmiri / Urdu",
     "desc": "An anchor reports the latest social, political and economic news from Jammu and Kashmir.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096754"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "07:40",
-    "stop": "08:05",
+    "start": "20260406074000 +0000",
+    "stop": "20260406080500 +0000",
     "startTs": 1775461200000,
     "stopTs": 1775462700000,
     "title": "Sadai -E- Saaz",
     "desc": "Talented musical artists showcase their skills as they perform a variety of folk songs.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096760"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "08:05",
-    "stop": "08:30",
+    "start": "20260406080500 +0000",
+    "stop": "20260406083000 +0000",
     "startTs": 1775462700000,
     "stopTs": 1775464200000,
     "title": "Wozli Kane Choup",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096746"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "08:30",
-    "stop": "08:59",
+    "start": "20260406083000 +0000",
+    "stop": "20260406085900 +0000",
     "startTs": 1775464200000,
     "stopTs": 1775465940000,
     "title": "Pakistan Reporter",
     "desc": "The hosts deliver the latest news headlines and updates in Pakistan and around the world. S01 E2490.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096725"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260406090000 +0000",
+    "stop": "20260406093000 +0000",
     "startTs": 1775466000000,
     "stopTs": 1775467800000,
     "title": "Ladakhi Transmission",
     "desc": "The host sheds light on Ladakh's local cultural scene and development initiatives.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096758"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "09:30",
-    "stop": "09:40",
+    "start": "20260406093000 +0000",
+    "stop": "20260406094000 +0000",
     "startTs": 1775467800000,
     "stopTs": 1775468400000,
     "title": "News Kashmiri / Urdu",
     "desc": "An anchor reports the latest social, political and economic news from Jammu and Kashmir.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096752"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "09:40",
-    "stop": "10:08",
+    "start": "20260406094000 +0000",
+    "stop": "20260406100800 +0000",
     "startTs": 1775468400000,
     "stopTs": 1775470080000,
     "title": "Programme Highlights",
     "desc": "A compilation of information about the major programmes airing throughout the day.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096723"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "11:00",
-    "stop": "11:10",
+    "start": "20260406110000 +0000",
+    "stop": "20260406111000 +0000",
     "startTs": 1775473200000,
     "stopTs": 1775473800000,
     "title": "News Kashmiri / Urdu",
     "desc": "An anchor reports the latest social, political and economic news from Jammu and Kashmir.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096722"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "11:10",
-    "stop": "11:20",
+    "start": "20260406111000 +0000",
+    "stop": "20260406112000 +0000",
     "startTs": 1775473800000,
     "stopTs": 1775474400000,
     "title": "News For Hearing Speech Impaired",
     "desc": "The host presents the latest news for hearing and speech impaired viewers.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096770"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "11:20",
-    "stop": "11:30",
+    "start": "20260406112000 +0000",
+    "stop": "20260406113000 +0000",
     "startTs": 1775474400000,
     "stopTs": 1775475000000,
     "title": "Song",
     "desc": "A compilation of some of the most popular songs sung by talented artists is played.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096731"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "11:30",
-    "stop": "12:29",
+    "start": "20260406113000 +0000",
+    "stop": "20260406122900 +0000",
     "startTs": 1775475000000,
     "stopTs": 1775478540000,
     "title": "Hello DD Phone-in Live",
     "desc": "A host represents a live telecast with callers discussing key issues with experts.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096767"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "12:30",
-    "stop": "12:59",
+    "start": "20260406123000 +0000",
+    "stop": "20260406125900 +0000",
     "startTs": 1775478600000,
     "stopTs": 1775480340000,
     "title": "Dogri Transmission",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096740"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260406130000 +0000",
+    "stop": "20260406133000 +0000",
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Ladakhi Transmission",
     "desc": "The host sheds light on Ladakh's local cultural scene and development initiatives.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096772"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260406133000 +0000",
+    "stop": "20260406140000 +0000",
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "News Kashmiri / Urdu",
     "desc": "An anchor reports the latest social, political and economic news from Jammu and Kashmir.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096755"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260406140000 +0000",
+    "stop": "20260406143000 +0000",
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Jahan Been",
     "desc": "The host pays a visit to various shops, exploring the latest trends and products.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096773"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260406143000 +0000",
+    "stop": "20260406150000 +0000",
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Programme Highlights",
     "desc": "A compilation of information about the major programmes airing throughout the day.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096774"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260406150000 +0000",
+    "stop": "20260406153000 +0000",
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Nasha Chhod Jeevan Jod",
     "desc": "Subject matter expert educates viewers on severe consequences of drug use.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096771"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260406153000 +0000",
+    "stop": "20260406160000 +0000",
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Sufi-Sada",
     "desc": "Listen to talented musicians deliver heartfelt performances.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096737"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260406160000 +0000",
+    "stop": "20260406163000 +0000",
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Yeh Vadiyian Yeh Gilistan",
     "desc": ". S01 E03.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096733"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "16:30",
-    "stop": "16:40",
+    "start": "20260406163000 +0000",
+    "stop": "20260406164000 +0000",
     "startTs": 1775493000000,
     "stopTs": 1775493600000,
     "title": "News Kashmiri / Urdu",
     "desc": "An anchor reports the latest social, political and economic news from Jammu and Kashmir.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096766"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "16:40",
-    "stop": "17:00",
+    "start": "20260406164000 +0000",
+    "stop": "20260406170000 +0000",
     "startTs": 1775493600000,
     "stopTs": 1775494800000,
     "title": "Programme Highlights",
     "desc": "A compilation of information about the major programmes airing throughout the day.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096727"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260406170000 +0000",
+    "stop": "20260406173000 +0000",
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Dugar De Rang",
     "desc": "The host invites various folk artists to perform traditional and cultural music and dance.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096728"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260406173000 +0000",
+    "stop": "20260406180000 +0000",
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Yeh Gou Tufan",
     "desc": ". S01 E05.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096745"
   },
   {
     "channelId": "ts325",
     "channelName": "DD Kashir",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260406180000 +0000",
+    "stop": "20260406183000 +0000",
     "startTs": 1775498400000,
     "stopTs": 1775500200000,
     "title": "Chiraag",
     "desc": "A young orphaned girl becomes the first female physician of the king.",
-    "category": null
+    "channel": "ts325",
+    "catchup-id": "93096775"
   }
 ]

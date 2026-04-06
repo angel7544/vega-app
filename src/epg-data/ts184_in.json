@@ -2,848 +2,925 @@
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "19:00",
-    "stop": "19:50",
+    "start": "20260404190000 +0000",
+    "stop": "20260404195000 +0000",
     "startTs": 1775329200000,
     "stopTs": 1775332200000,
     "title": "The Incredible Honey Badger",
     "desc": "The filmmaker sheds light on the honey badger's reign in Africa's wilderness.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93204865"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "19:50",
-    "stop": "20:42",
+    "start": "20260404195000 +0000",
+    "stop": "20260404204200 +0000",
     "startTs": 1775332200000,
     "stopTs": 1775335320000,
     "title": "The Pack",
     "desc": "Experts examine the hunting tactics used by a pride of lions in the Singita Game Reserve.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93204869"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "20:42",
-    "stop": "21:30",
+    "start": "20260404204200 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775335320000,
     "stopTs": 1775338200000,
     "title": "Lion Dynasty",
     "desc": "The filmmaker explores how the population of lions is increasing in the Serengeti kingdom.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93204868"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "21:30",
-    "stop": "22:18",
+    "start": "20260404213000 +0000",
+    "stop": "20260404221800 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775341080000,
     "title": "Animal Fight Club",
     "desc": "In a world where its kill or be killed, sticking together can make all the difference.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93158778"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "22:18",
-    "stop": "23:02",
+    "start": "20260404221800 +0000",
+    "stop": "20260404230200 +0000",
     "startTs": 1775341080000,
     "stopTs": 1775343720000,
     "title": "Predator Fails",
     "desc": "The filmmakers shed light on predator's hunting trials and tribulations.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93204872"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "23:02",
-    "stop": "23:46",
+    "start": "20260404230200 +0000",
+    "stop": "20260404234600 +0000",
     "startTs": 1775343720000,
     "stopTs": 1775346360000,
     "title": "Wild Botswana: Lion Brotherhood",
     "desc": "Two young male lions are evicted from their pride and forced to fend for themselves.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93204866"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "23:46",
-    "stop": "00:30",
+    "start": "20260404234600 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775346360000,
     "stopTs": 1775349000000,
     "title": "Wild India",
     "desc": "From the Himalayas to the Western Ghats, life in India's extreme mountains is a struggle.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93204870"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "00:30",
-    "stop": "01:30",
+    "start": "20260405003000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775352600000,
     "title": "Predator Fails",
     "desc": "The filmmakers shed light on predator's hunting trials and tribulations.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93158789"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "01:30",
-    "stop": "02:30",
+    "start": "20260405013000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775356200000,
     "title": "Cat Attack-Tics",
     "desc": "The filmmaker explores the killer instincts and tactics of the deadliest wild cats.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93158782"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "02:30",
-    "stop": "03:30",
+    "start": "20260405023000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775359800000,
     "title": "Killer Safari",
     "desc": "Life in the African jungle is a game of survival where motherly instincts rule. S01 E04.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93158779"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "03:30",
-    "stop": "04:30",
+    "start": "20260405033000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775363400000,
     "title": "Shadow Cats",
     "desc": "The filmmaker explores the small wild cats that are as equally ferocious as the big ones.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93158777"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "04:30",
-    "stop": "05:30",
+    "start": "20260405043000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775367000000,
     "title": "Lions: The Hunt For Survival",
     "desc": "Three lionesses from different parts of the continent face various challenges to survive.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93158772"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "05:30",
-    "stop": "06:30",
+    "start": "20260405053000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775370600000,
     "title": "War of the Lions",
     "desc": "The survival and hunting techniques of savannah lions are showcased.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93158773"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "06:30",
-    "stop": "07:30",
+    "start": "20260405063000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775374200000,
     "title": "Strangest Nature",
     "desc": "Strangest Nature",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93158786"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260405073000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775377800000,
     "title": "Africa's Deadliest",
     "desc": "Africa's predators implement ruthless strategies in order to survive in the wilderness.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93158794"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260405083000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775381400000,
     "title": "The Way of the Cheetah",
     "desc": "The story of how a cheetah mother protects her cubs against male cheetahs and predators.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93158784"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "09:30",
-    "stop": "10:30",
+    "start": "20260405093000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775385000000,
     "title": "Monster Constrictors",
     "desc": "Wildlife experts observe hunting skills of snake species of monstrous dimensions.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93158791"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "10:30",
-    "stop": "11:30",
+    "start": "20260405103000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775388600000,
     "title": "Animal Fight Club",
     "desc": "Witness some of the most deadly battles fought in the animal kingdom.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93158774"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "11:30",
-    "stop": "12:30",
+    "start": "20260405113000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775392200000,
     "title": "Russia's Wild Tiger",
     "desc": "Witness the survival struggles of the majestic Siberian tigers in the Russian Far East.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93158795"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "12:30",
-    "stop": "13:30",
+    "start": "20260405123000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775395800000,
     "title": "Cheetah Speed Trap",
     "desc": "The filmmaker shows how a female cheetah feeds her children when speed is not enough.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93158780"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "13:30",
-    "stop": "14:30",
+    "start": "20260405133000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775399400000,
     "title": "Extreme Animal Transport",
     "desc": "Extreme Animal Transport",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93158787"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "14:30",
-    "stop": "15:30",
+    "start": "20260405143000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775403000000,
     "title": "Animal Fight Club",
     "desc": "The filmmaker shows lust, jealousy and pure rage fuelling deadly encounters in the wild.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93158790"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "15:30",
-    "stop": "16:30",
+    "start": "20260405153000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775406600000,
     "title": "The Pack",
     "desc": "Wild dogs operate as group hunters, analyzing everything like strategy and tactics.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93158788"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "Desert Lions",
     "desc": "Witness a mega-pride's struggle to survive the deadly dry season in Nxai Pan, Botswana.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93158781"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "Hippo vs. Croc",
     "desc": "The filmmakers explore the lives and survival tactics of hippopotamuses and crocodiles.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93204871"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260405173000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775412000000,
     "title": "Wild India",
     "desc": "Every day is a quest for survival in India's monsoon forest, a place of extremes.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93158783"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260405180000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775413800000,
     "title": "Jaguars vs. Crocs",
     "desc": "A mighty jaguar leaves no stone unturned to satisfy its beastly hunger.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93204867"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "18:30",
-    "stop": "19:30",
+    "start": "20260405183000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775417400000,
     "title": "Leopard Kingdom",
     "desc": "Karula, a leopard, passes away and now one of her daughters must take over the throne.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102944"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "19:30",
-    "stop": "20:30",
+    "start": "20260405193000 +0000",
+    "stop": "20260405203000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775421000000,
     "title": "Africa's Deadliest",
     "desc": "Invaders in the wild are specialised agents armed to the teeth with cunning strategies.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102943"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "20:30",
-    "stop": "21:30",
+    "start": "20260405203000 +0000",
+    "stop": "20260405213000 +0000",
     "startTs": 1775421000000,
     "stopTs": 1775424600000,
     "title": "Wild India",
     "desc": "From the Himalayas to the Western Ghats, life in India's extreme mountains is a struggle.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102949"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "21:30",
-    "stop": "22:30",
+    "start": "20260405213000 +0000",
+    "stop": "20260405223000 +0000",
     "startTs": 1775424600000,
     "stopTs": 1775428200000,
     "title": "Cheetah: Price of Speed",
     "desc": "The filmmaker explores the daily lives of cheetahs on the plains of southern Serengeti.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102955"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "22:30",
-    "stop": "23:30",
+    "start": "20260405223000 +0000",
+    "stop": "20260405233000 +0000",
     "startTs": 1775428200000,
     "stopTs": 1775431800000,
     "title": "Africa's Deadliest",
     "desc": "The narrator gives an overview of Africa's untamed wilderness and its survival battles.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102942"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "23:30",
-    "stop": "00:30",
+    "start": "20260405233000 +0000",
+    "stop": "20260406003000 +0000",
     "startTs": 1775431800000,
     "stopTs": 1775435400000,
     "title": "South Africa",
     "desc": "The filmmaker explores South Africa's breathtaking Cape region.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102951"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "00:30",
-    "stop": "01:30",
+    "start": "20260406003000 +0000",
+    "stop": "20260406013000 +0000",
     "startTs": 1775435400000,
     "stopTs": 1775439000000,
     "title": "Wild India",
     "desc": "Every day is a quest for survival in India's monsoon forest, a place of extremes.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102965"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "01:30",
-    "stop": "02:30",
+    "start": "20260406013000 +0000",
+    "stop": "20260406023000 +0000",
     "startTs": 1775439000000,
     "stopTs": 1775442600000,
     "title": "Cheetah: Price of Speed",
     "desc": "The filmmaker explores the daily lives of cheetahs on the plains of southern Serengeti.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102948"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "02:30",
-    "stop": "03:30",
+    "start": "20260406023000 +0000",
+    "stop": "20260406033000 +0000",
     "startTs": 1775442600000,
     "stopTs": 1775446200000,
     "title": "Return of the Lion",
     "desc": "A group of lions must band together to form a new pride in Akagera National Park.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102958"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "03:30",
-    "stop": "04:30",
+    "start": "20260406033000 +0000",
+    "stop": "20260406043000 +0000",
     "startTs": 1775446200000,
     "stopTs": 1775449800000,
     "title": "The Pack",
     "desc": "Wild dogs operate as group hunters, analyzing everything like strategy and tactics.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102956"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "04:30",
-    "stop": "05:30",
+    "start": "20260406043000 +0000",
+    "stop": "20260406053000 +0000",
     "startTs": 1775449800000,
     "stopTs": 1775453400000,
     "title": "Malika: Leopard Huntress",
     "desc": "Malika, a leopard mother, struggles to recover after losing her cub in a brutal fight.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102957"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "05:30",
-    "stop": "06:30",
+    "start": "20260406053000 +0000",
+    "stop": "20260406063000 +0000",
     "startTs": 1775453400000,
     "stopTs": 1775457000000,
     "title": "Animal Fight Club",
     "desc": "Animals of the same species engage in fights to survive and thrive in the wilderness.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102953"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "06:30",
-    "stop": "07:30",
+    "start": "20260406063000 +0000",
+    "stop": "20260406073000 +0000",
     "startTs": 1775457000000,
     "stopTs": 1775460600000,
     "title": "Savanna Killers",
     "desc": "The park spirals into drought ushing its residents to the limt of their endurance.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102952"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260406073000 +0000",
+    "stop": "20260406083000 +0000",
     "startTs": 1775460600000,
     "stopTs": 1775464200000,
     "title": "Predator Fails",
     "desc": "The filmmakers shed light on predator's hunting trials and tribulations.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102963"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260406083000 +0000",
+    "stop": "20260406093000 +0000",
     "startTs": 1775464200000,
     "stopTs": 1775467800000,
     "title": "Cheetah: The Maasai Brotherhood",
     "desc": "The filmmaker sheds light on an alliance of five cheetahs and their hunting unit.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102959"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "09:30",
-    "stop": "10:30",
+    "start": "20260406093000 +0000",
+    "stop": "20260406103000 +0000",
     "startTs": 1775467800000,
     "stopTs": 1775471400000,
     "title": "Serpent's Surprise",
     "desc": "The filmmaker explores the lives of snakes and how they are useful for mankind.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102946"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "10:30",
-    "stop": "11:30",
+    "start": "20260406103000 +0000",
+    "stop": "20260406113000 +0000",
     "startTs": 1775471400000,
     "stopTs": 1775475000000,
     "title": "Killer Safari",
     "desc": "Crocs, hippos and big cats battle it out to see who rules Africa's waterways.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102964"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "11:30",
-    "stop": "12:30",
+    "start": "20260406113000 +0000",
+    "stop": "20260406123000 +0000",
     "startTs": 1775475000000,
     "stopTs": 1775478600000,
     "title": "King of The Mountain Baboons",
     "desc": "The filmmaker explores the lives of mountain baboons residing in highlands of Ethiopia.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102960"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "12:30",
-    "stop": "13:30",
+    "start": "20260406123000 +0000",
+    "stop": "20260406133000 +0000",
     "startTs": 1775478600000,
     "stopTs": 1775482200000,
     "title": "Africa's Deadliest",
     "desc": "Africa's deadliest predators are captured in the harshest of conditions as they hunt.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102947"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "13:30",
-    "stop": "14:30",
+    "start": "20260406133000 +0000",
+    "stop": "20260406143000 +0000",
     "startTs": 1775482200000,
     "stopTs": 1775485800000,
     "title": "Sri Lanka: Leopard Dynasty",
     "desc": "The filmmaker sheds light on the lives of leopards in the dense forests of Sri Lanka.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102945"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "14:30",
-    "stop": "15:30",
+    "start": "20260406143000 +0000",
+    "stop": "20260406153000 +0000",
     "startTs": 1775485800000,
     "stopTs": 1775489400000,
     "title": "South Africa",
     "desc": "The filmmaker explores South Africa's breathtaking Cape region.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102950"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "15:30",
-    "stop": "16:30",
+    "start": "20260406153000 +0000",
+    "stop": "20260406163000 +0000",
     "startTs": 1775489400000,
     "stopTs": 1775493000000,
     "title": "The Real Black Panther",
     "desc": "Experts track the movements of a black panther named Saya in Nagarhole Tiger Reserve.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102962"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "16:30",
-    "stop": "17:30",
+    "start": "20260406163000 +0000",
+    "stop": "20260406173000 +0000",
     "startTs": 1775493000000,
     "stopTs": 1775496600000,
     "title": "Savanna Killers",
     "desc": ".",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102961"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "17:30",
-    "stop": "18:30",
+    "start": "20260406173000 +0000",
+    "stop": "20260406183000 +0000",
     "startTs": 1775496600000,
     "stopTs": 1775500200000,
     "title": "Predator v Prey",
     "desc": "The filmmaker provides insights into the life and predatory nature of cheetahs.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93102954"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "18:30",
-    "stop": "19:30",
+    "start": "20260406183000 +0000",
+    "stop": "20260406193000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775503800000,
     "title": "Katavi - Africa's Fallen Paradise",
     "desc": "After a treacherous drought, the rainy days bring relief to all the inhabitants.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139752"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "19:30",
-    "stop": "20:30",
+    "start": "20260406193000 +0000",
+    "stop": "20260406203000 +0000",
     "startTs": 1775503800000,
     "stopTs": 1775507400000,
     "title": "Return of the Lion",
     "desc": "A group of lions must band together to form a new pride in Akagera National Park.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139749"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "20:30",
-    "stop": "21:30",
+    "start": "20260406203000 +0000",
+    "stop": "20260406213000 +0000",
     "startTs": 1775507400000,
     "stopTs": 1775511000000,
     "title": "World of the Wild",
     "desc": "Despite their hostile conditions, deserts are home to a diverse range of animals.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139759"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "21:30",
-    "stop": "22:30",
+    "start": "20260406213000 +0000",
+    "stop": "20260406223000 +0000",
     "startTs": 1775511000000,
     "stopTs": 1775514600000,
     "title": "Built To Survive",
     "desc": "Phil Breslin tries to track down the deadly eastern brown snake and the sleepy koala.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139760"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "22:30",
-    "stop": "23:30",
+    "start": "20260406223000 +0000",
+    "stop": "20260406233000 +0000",
     "startTs": 1775514600000,
     "stopTs": 1775518200000,
     "title": "Animal Fight Club",
     "desc": "The filmmaker captures some of the most brutal battles between various animals.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139765"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "23:30",
-    "stop": "00:30",
+    "start": "20260406233000 +0000",
+    "stop": "20260407003000 +0000",
     "startTs": 1775518200000,
     "stopTs": 1775521800000,
     "title": "Lions: The Hunt For Survival",
     "desc": "Three lionesses from different parts of the continent face various challenges to survive.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139768"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "00:30",
-    "stop": "01:30",
+    "start": "20260407003000 +0000",
+    "stop": "20260407013000 +0000",
     "startTs": 1775521800000,
     "stopTs": 1775525400000,
     "title": "Africa's Deadliest",
     "desc": "The narrator explores the prey-catching methods of some Africa's deadliest predators.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139748"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "01:30",
-    "stop": "02:30",
+    "start": "20260407013000 +0000",
+    "stop": "20260407023000 +0000",
     "startTs": 1775525400000,
     "stopTs": 1775529000000,
     "title": "Desert Lions",
     "desc": "Witness a mega-pride's struggle to survive the deadly dry season in Nxai Pan, Botswana.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139757"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "02:30",
-    "stop": "03:30",
+    "start": "20260407023000 +0000",
+    "stop": "20260407033000 +0000",
     "startTs": 1775529000000,
     "stopTs": 1775532600000,
     "title": "Jaguars vs. Crocs",
     "desc": "A mighty jaguar leaves no stone unturned to satisfy its beastly hunger.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139771"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "03:30",
-    "stop": "04:30",
+    "start": "20260407033000 +0000",
+    "stop": "20260407043000 +0000",
     "startTs": 1775532600000,
     "stopTs": 1775536200000,
     "title": "Predator v Prey",
     "desc": "The narrator sheds light on the life of crocodiles by focusing on their predatory nature.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139751"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "04:30",
-    "stop": "05:30",
+    "start": "20260407043000 +0000",
+    "stop": "20260407053000 +0000",
     "startTs": 1775536200000,
     "stopTs": 1775539800000,
     "title": "Tiger Queen of Taru",
     "desc": "The incredible story of tigress Maya, as she fights to keep a stronghold on her territory.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139756"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "05:30",
-    "stop": "06:30",
+    "start": "20260407053000 +0000",
+    "stop": "20260407063000 +0000",
     "startTs": 1775539800000,
     "stopTs": 1775543400000,
     "title": "Africa's Deadliest",
     "desc": "For deadly snakes in Africa, chemical weaponry and stealth are the names of the game.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139761"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "06:30",
-    "stop": "07:30",
+    "start": "20260407063000 +0000",
+    "stop": "20260407073000 +0000",
     "startTs": 1775543400000,
     "stopTs": 1775547000000,
     "title": "Big Cat Odyssey",
     "desc": "The filmmaker explores the lives of groups of lions and leopards in the plains of Africa.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139764"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260407073000 +0000",
+    "stop": "20260407083000 +0000",
     "startTs": 1775547000000,
     "stopTs": 1775550600000,
     "title": "Savanna Killers",
     "desc": ".",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139753"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260407083000 +0000",
+    "stop": "20260407093000 +0000",
     "startTs": 1775550600000,
     "stopTs": 1775554200000,
     "title": "Eye of the Leopard",
     "desc": "The filmmaker captures the beauty of one leopardess's life in the Okavango Delta.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139754"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "09:30",
-    "stop": "10:30",
+    "start": "20260407093000 +0000",
+    "stop": "20260407103000 +0000",
     "startTs": 1775554200000,
     "stopTs": 1775557800000,
     "title": "Wild India",
     "desc": "In India's deserts, animals battle each other and harsh landscapes to ensure survival.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139755"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "10:30",
-    "stop": "11:30",
+    "start": "20260407103000 +0000",
+    "stop": "20260407113000 +0000",
     "startTs": 1775557800000,
     "stopTs": 1775561400000,
     "title": "Superpride",
     "desc": "The filmmaker sheds light on a group of lions that have acquired the Super Pride status.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139762"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "11:30",
-    "stop": "12:30",
+    "start": "20260407113000 +0000",
+    "stop": "20260407123000 +0000",
     "startTs": 1775561400000,
     "stopTs": 1775565000000,
     "title": "Wild Botswana: Lion Brotherhood",
     "desc": "Two young male lions are evicted from their pride and forced to fend for themselves.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139766"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "12:30",
-    "stop": "13:30",
+    "start": "20260407123000 +0000",
+    "stop": "20260407133000 +0000",
     "startTs": 1775565000000,
     "stopTs": 1775568600000,
     "title": "Lion Dynasty",
     "desc": "The filmmaker explores how the population of lions is increasing in the Serengeti kingdom.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139767"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "13:30",
-    "stop": "14:30",
+    "start": "20260407133000 +0000",
+    "stop": "20260407143000 +0000",
     "startTs": 1775568600000,
     "stopTs": 1775572200000,
     "title": "The Way of the Cheetah",
     "desc": "The story of how a cheetah mother protects her cubs against male cheetahs and predators.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139770"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "14:30",
-    "stop": "15:30",
+    "start": "20260407143000 +0000",
+    "stop": "20260407153000 +0000",
     "startTs": 1775572200000,
     "stopTs": 1775575800000,
     "title": "Africa's Deadliest",
     "desc": "The filmmaker gives an insight into animals armed with savage canines.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139758"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "15:30",
-    "stop": "16:30",
+    "start": "20260407153000 +0000",
+    "stop": "20260407163000 +0000",
     "startTs": 1775575800000,
     "stopTs": 1775579400000,
     "title": "World of the Wild",
     "desc": "Landscapes like wetlands and marshes are inhabited by a wide range of flora and fauna.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139763"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260407163000 +0000",
+    "stop": "20260407170000 +0000",
     "startTs": 1775579400000,
     "stopTs": 1775581200000,
     "title": "Built To Survive",
     "desc": "Phil Breslin chases a feisty mud crab and gets attacked by mosquitoes in a muddy mangrove.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139750"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260407170000 +0000",
+    "stop": "20260407173000 +0000",
     "startTs": 1775581200000,
     "stopTs": 1775583000000,
     "title": "Eternal Enemies",
     "desc": "The filmmaker explores the enmity between a pride of lions and a clan of hyenas.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93206540"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260407173000 +0000",
+    "stop": "20260407180000 +0000",
     "startTs": 1775583000000,
     "stopTs": 1775584800000,
     "title": "Savanna Killers",
     "desc": ".",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93139769"
   },
   {
     "channelId": "ts184",
     "channelName": "ts184",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260407180000 +0000",
+    "stop": "20260407183000 +0000",
     "startTs": 1775584800000,
     "stopTs": 1775586600000,
     "title": "Animal Fight Club",
     "desc": "Animals from the same species engaging in fatal fights with lethal precision to survive.",
-    "category": null
+    "channel": "ts184",
+    "catchup-id": "93206539"
   }
 ]

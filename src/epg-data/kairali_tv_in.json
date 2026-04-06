@@ -2,243 +2,265 @@
   {
     "channelId": "ts25",
     "channelName": "Kairali TV",
-    "start": "19:00",
-    "stop": "21:00",
+    "start": "20260404190000 +0000",
+    "stop": "20260404210000 +0000",
     "startTs": 1775329200000,
     "stopTs": 1775336400000,
     "title": "Jesus",
     "desc": "Overcoming an attempt on his life, Jesus grows up to lead humanity onto the path of God.",
-    "category": null
+    "channel": "ts25",
+    "catchup-id": "93158286"
   },
   {
     "channelId": "ts25",
     "channelName": "Kairali TV",
-    "start": "21:00",
-    "stop": "23:00",
+    "start": "20260404210000 +0000",
+    "stop": "20260404230000 +0000",
     "startTs": 1775336400000,
     "stopTs": 1775343600000,
     "title": "Saamy 2",
     "desc": "Union Minister Viswanathan's daughter falls in love with Ramasamy after he saves her.",
-    "category": null
+    "channel": "ts25",
+    "catchup-id": "93158288"
   },
   {
     "channelId": "ts25",
     "channelName": "Kairali TV",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260404230000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775343600000,
     "stopTs": 1775345400000,
     "title": "USA Weekly News",
     "desc": "The host presents the latest news stories about the Malayali diaspora in the USA.",
-    "category": null
+    "channel": "ts25",
+    "catchup-id": "93158289"
   },
   {
     "channelId": "ts25",
     "channelName": "Kairali TV",
-    "start": "23:30",
-    "stop": "02:00",
+    "start": "20260404233000 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775354400000,
     "title": "Radhakrishna",
     "desc": "After his friend, an elephant, gets taken away, a boy sets out to search for the animal.",
-    "category": null
+    "channel": "ts25",
+    "catchup-id": "93158284"
   },
   {
     "channelId": "ts25",
     "channelName": "Kairali TV",
-    "start": "02:00",
-    "stop": "04:30",
+    "start": "20260405020000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775363400000,
     "title": "Pothan Vava",
     "desc": "Vava goes through many hardships as he is determined to prove that love matters the most.",
-    "category": null
+    "channel": "ts25",
+    "catchup-id": "93158287"
   },
   {
     "channelId": "ts25",
     "channelName": "Kairali TV",
-    "start": "04:30",
-    "stop": "07:30",
+    "start": "20260405043000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775374200000,
     "title": "Choo Mantar",
     "desc": "Paranormal team seeks treasure in haunted Morgan House, ignorant of its violent past.",
-    "category": null
+    "channel": "ts25",
+    "catchup-id": "93158290"
   },
   {
     "channelId": "ts25",
     "channelName": "Kairali TV",
-    "start": "07:30",
-    "stop": "10:30",
+    "start": "20260405073000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775385000000,
     "title": "Devil",
     "desc": "Devil",
-    "category": null
+    "channel": "ts25",
+    "catchup-id": "93158291"
   },
   {
     "channelId": "ts25",
     "channelName": "Kairali TV",
-    "start": "10:30",
-    "stop": "13:30",
+    "start": "20260405103000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775395800000,
     "title": "Ee Parakkum Thalika",
     "desc": "A bus owner's life takes a turn when his path crosses the daughter of a powerful politician.",
-    "category": null
+    "channel": "ts25",
+    "catchup-id": "93158292"
   },
   {
     "channelId": "ts25",
     "channelName": "Kairali TV",
-    "start": "13:30",
-    "stop": "16:30",
+    "start": "20260405133000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775406600000,
     "title": "Alangu",
     "desc": "While trying to cross over to Kerala, a boy and his group get drawn into communal clashes.",
-    "category": null
+    "channel": "ts25",
+    "catchup-id": "93158293"
   },
   {
     "channelId": "ts25",
     "channelName": "Kairali TV",
-    "start": "16:30",
-    "stop": "19:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775415600000,
     "title": "Devil: The British Secret Agent",
     "desc": "A covert agent gets tangled in love, deception and betrayal, while investigating a murder.",
-    "category": null
+    "channel": "ts25",
+    "catchup-id": "93158285"
   },
   {
     "channelId": "ts25",
     "channelName": "Kairali TV",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260405190000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Pothan Vava",
     "desc": "Vava goes through many hardships as he is determined to prove that love matters the most.",
-    "category": null
+    "channel": "ts25",
+    "catchup-id": "93101451"
   },
   {
     "channelId": "ts25",
     "channelName": "Kairali TV",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260405193000 +0000",
+    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Chiriyo Chiri",
     "desc": "A comprehensive compilation of the funniest comedy scenes from famous Malayalam movies.",
-    "category": null
+    "channel": "ts25",
+    "catchup-id": "93101444"
   },
   {
     "channelId": "ts25",
     "channelName": "Kairali TV",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260405200000 +0000",
+    "stop": "20260405203000 +0000",
     "startTs": 1775419200000,
     "stopTs": 1775421000000,
     "title": "USA Weekly News",
     "desc": "The host presents the latest news stories about the Malayali diaspora in the USA.",
-    "category": null
+    "channel": "ts25",
+    "catchup-id": "93101447"
   },
   {
     "channelId": "ts25",
     "channelName": "Kairali TV",
-    "start": "20:30",
-    "stop": "23:00",
+    "start": "20260405203000 +0000",
+    "stop": "20260405230000 +0000",
     "startTs": 1775421000000,
     "stopTs": 1775430000000,
     "title": "Ee Parakkum Thalika",
     "desc": "A bus owner's life takes a turn when his path crosses the daughter of a powerful politician.",
-    "category": null
+    "channel": "ts25",
+    "catchup-id": "93101445"
   },
   {
     "channelId": "ts25",
     "channelName": "Kairali TV",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260405230000 +0000",
+    "stop": "20260405233000 +0000",
     "startTs": 1775430000000,
     "stopTs": 1775431800000,
     "title": "Doctor's Talk",
     "desc": "The host sheds light about various health problems and solutions with experts.",
-    "category": null
+    "channel": "ts25",
+    "catchup-id": "93101452"
   },
   {
     "channelId": "ts25",
     "channelName": "Kairali TV",
-    "start": "23:30",
-    "stop": "02:00",
+    "start": "20260405233000 +0000",
+    "stop": "20260406020000 +0000",
     "startTs": 1775431800000,
     "stopTs": 1775440800000,
     "title": "Choo Mantar",
     "desc": "Paranormal team seeks treasure in haunted Morgan House, ignorant of its violent past.",
-    "category": null
+    "channel": "ts25",
+    "catchup-id": "93101442"
   },
   {
     "channelId": "ts25",
     "channelName": "Kairali TV",
-    "start": "02:00",
-    "stop": "04:30",
+    "start": "20260406020000 +0000",
+    "stop": "20260406043000 +0000",
     "startTs": 1775440800000,
     "stopTs": 1775449800000,
     "title": "Ko",
     "desc": "Ashwin, a photojournalist, learns a shocking fact surrounding his friend.",
-    "category": null
+    "channel": "ts25",
+    "catchup-id": "93101449"
   },
   {
     "channelId": "ts25",
     "channelName": "Kairali TV",
-    "start": "04:30",
-    "stop": "07:30",
+    "start": "20260406043000 +0000",
+    "stop": "20260406073000 +0000",
     "startTs": 1775449800000,
     "stopTs": 1775460600000,
     "title": "Arrambam",
     "desc": "A mysterious man and a computer hacker try to unveil a scam involving higher authorities.",
-    "category": null
+    "channel": "ts25",
+    "catchup-id": "93101443"
   },
   {
     "channelId": "ts25",
     "channelName": "Kairali TV",
-    "start": "07:30",
-    "stop": "10:30",
+    "start": "20260406073000 +0000",
+    "stop": "20260406103000 +0000",
     "startTs": 1775460600000,
     "stopTs": 1775471400000,
     "title": "Arjun S/O Vyjayanthi",
     "desc": "A gangster strives to protect his mother, who is an IPS officer, from a terrorist.",
-    "category": null
+    "channel": "ts25",
+    "catchup-id": "93101450"
   },
   {
     "channelId": "ts25",
     "channelName": "Kairali TV",
-    "start": "10:30",
-    "stop": "13:30",
+    "start": "20260406103000 +0000",
+    "stop": "20260406133000 +0000",
     "startTs": 1775471400000,
     "stopTs": 1775482200000,
     "title": "Surya's Saturday",
     "desc": "A young man with anger issues who channels his anger on Saturdays, confronts a cop.",
-    "category": null
+    "channel": "ts25",
+    "catchup-id": "93101446"
   },
   {
     "channelId": "ts25",
     "channelName": "Kairali TV",
-    "start": "13:30",
-    "stop": "16:30",
+    "start": "20260406133000 +0000",
+    "stop": "20260406163000 +0000",
     "startTs": 1775482200000,
     "stopTs": 1775493000000,
     "title": "Chess",
     "desc": "A man murders his rich brother-in-law with the help of three men to amass his wealth.",
-    "category": null
+    "channel": "ts25",
+    "catchup-id": "93101453"
   },
   {
     "channelId": "ts25",
     "channelName": "Kairali TV",
-    "start": "16:30",
-    "stop": "19:00",
+    "start": "20260406163000 +0000",
+    "stop": "20260406190000 +0000",
     "startTs": 1775493000000,
     "stopTs": 1775502000000,
     "title": "Kochi Rajavu",
     "desc": "Tragedy strikes when Unni accidentally kills his lover's cousin, resulting in his imprisonment.",
-    "category": null
+    "channel": "ts25",
+    "catchup-id": "93101448"
   }
 ]

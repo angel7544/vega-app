@@ -2,562 +2,613 @@
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260404183000 +0000",
+    "stop": "20260404190000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775329200000,
     "title": "Samarangal Pinvathil",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122822"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260404190000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775329200000,
     "stopTs": 1775331000000,
     "title": "Ballet Box",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122823"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260404193000 +0000",
+    "stop": "20260404200000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775332800000,
     "title": "Ballet Box",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122819"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260404200000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775332800000,
     "stopTs": 1775334600000,
     "title": "Middle East",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122796"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260404203000 +0000",
+    "stop": "20260404210000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775336400000,
     "title": "Mandalangaliloode",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122789"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260404210000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775336400000,
     "stopTs": 1775338200000,
     "title": "Jillakaliloode",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122830"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260404213000 +0000",
+    "stop": "20260404220000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775340000000,
     "title": "Gen C",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122809"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260404220000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775340000000,
     "stopTs": 1775341800000,
     "title": "Election Committee",
     "desc": "Bringing the best in television. S01 E04.",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122802"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260404223000 +0000",
+    "stop": "20260404230000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775343600000,
     "title": "Ballet Box",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122826"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260404230000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775343600000,
     "stopTs": 1775345400000,
     "title": "Ballet Box",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122817"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260404233000 +0000",
+    "stop": "20260405000000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775347200000,
     "title": "Sabarimala Swarnnakolla",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122807"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260405000000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775347200000,
     "stopTs": 1775349000000,
     "title": "Samarangal Pinvathil",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122813"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260405003000 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775350800000,
     "title": "Oomman Chandi Pgm",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122831"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260405010000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775352600000,
     "title": "Vismayasandesam",
     "desc": "A religious leader delivers a special message on the occasion of Easter.",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122821"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260405013000 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775354400000,
     "title": "News Morning",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122792"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260405020000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775356200000,
     "title": "Arogyam",
     "desc": "Health experts shed light on the symptoms and cure of various ailments.",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122790"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260405023000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775358000000,
     "title": "News Morning",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122810"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "Mandalangaliloode",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122828"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "News Morning",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122834"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "Election Committee",
     "desc": "Bringing the best in television. S01 E04.",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122818"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260405043000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775365200000,
     "title": "Breaking Hours Live",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122798"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775367000000,
     "title": "Breaking Hours Live",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122815"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260405053000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775368800000,
     "title": "Breaking Hours Live",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122803"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260405060000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370600000,
     "title": "Breaking Hours Live",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122812"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260405063000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775372400000,
     "title": "Nehru Pgm",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122835"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "Sabarimala Yuvathi",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122799"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260405073000 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775376000000,
     "title": "News Mid Day",
     "desc": "The host sheds light on the latest news stories and updates from across the world.",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122800"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260405080000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775377800000,
     "title": "Election Committee",
     "desc": "Bringing the best in television. S01 E03.",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122808"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260405083000 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775379600000,
     "title": "News Mid Day",
     "desc": "The host sheds light on the latest news stories and updates from across the world.",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122820"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260405090000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775381400000,
     "title": "Sabarimala Swarnnakolla",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122829"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260405093000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775383200000,
     "title": "Kerala Lottery",
     "desc": "The host draws lottery numbers, revealing winners of fantastic prizes.",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122797"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260405100000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775385000000,
     "title": "Kerala Lottery",
     "desc": "The host draws lottery numbers, revealing winners of fantastic prizes.",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122794"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260405103000 +0000",
+    "stop": "20260405110000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775386800000,
     "title": "Live-Over A Cup of Tea-Over A Cup of Tea",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122836"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260405110000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775386800000,
     "stopTs": 1775388600000,
     "title": "Samarangal Pinvathil",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122805"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260405113000 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775390400000,
     "title": "Live-Over A Cup of Tea-Over A Cup of Tea",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122825"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "Jillakaliloode",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122833"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260405123000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775394000000,
     "title": "News 360 Live",
     "desc": "The host presents a report of all the social, economic and political news stories, live.",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122827"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260405130000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395800000,
     "title": "Gen C",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122814"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260405133000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775397600000,
     "title": "Ballet Box",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122791"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "Ballet Box",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122832"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775401200000,
     "title": "Election Committee",
     "desc": "Bringing the best in television. S01 E04.",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122806"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "Mandalangaliloode",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122801"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260405153000 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775404800000,
     "title": "News Night",
     "desc": "The host offers detailed insights into major global and domestic developments.",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122795"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260405160000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775406600000,
     "title": "Jillakaliloode",
     "desc": "Bringing the best in television. S01 E10.",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122816"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "K.Karunakaran Pgm",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122793"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "Middle East Live",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122811"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260405173000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775412000000,
     "title": "Election Committee",
     "desc": "Bringing the best in television. S01 E05.",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122824"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260405180000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775413800000,
     "title": "Ballet Box",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93122804"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260405183000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "K.Karunakaran Pgm",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93100936"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260405190000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Ballet Box",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93100922"
   },
   {
     "channelId": "ts370",
     "channelName": "Jaihind TV",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260405193000 +0000",
+    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Ballet Box",
     "desc": ".",
-    "category": null
+    "channel": "ts370",
+    "catchup-id": "93100915"
   }
 ]

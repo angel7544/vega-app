@@ -2,133 +2,145 @@
   {
     "channelId": "ts1754",
     "channelName": "Dagdusheth Pune",
-    "start": "00:30",
-    "stop": "01:45",
+    "start": "20260405003000 +0000",
+    "stop": "20260405014500 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775353500000,
     "title": "Darshan",
     "desc": "Live Darshan From Dagdusheth Temple, Pune.",
-    "category": null
+    "channel": "ts1754",
+    "catchup-id": "93058957"
   },
   {
     "channelId": "ts1754",
     "channelName": "Dagdusheth Pune",
-    "start": "01:45",
-    "stop": "02:15",
+    "start": "20260405014500 +0000",
+    "stop": "20260405021500 +0000",
     "startTs": 1775353500000,
     "stopTs": 1775355300000,
     "title": "Morning Aarti",
     "desc": "Watch The Telecast Of Morning Aarti From Dagdusheth Temple, Pune.",
-    "category": null
+    "channel": "ts1754",
+    "catchup-id": "93058952"
   },
   {
     "channelId": "ts1754",
     "channelName": "Dagdusheth Pune",
-    "start": "02:15",
-    "stop": "08:05",
+    "start": "20260405021500 +0000",
+    "stop": "20260405080500 +0000",
     "startTs": 1775355300000,
     "stopTs": 1775376300000,
     "title": "Darshan",
     "desc": "Live Darshan From Dagdusheth Temple, Pune.",
-    "category": null
+    "channel": "ts1754",
+    "catchup-id": "93058956"
   },
   {
     "channelId": "ts1754",
     "channelName": "Dagdusheth Pune",
-    "start": "08:05",
-    "stop": "08:20",
+    "start": "20260405080500 +0000",
+    "stop": "20260405082000 +0000",
     "startTs": 1775376300000,
     "stopTs": 1775377200000,
     "title": "Afternoon Aarti",
     "desc": "Live Telecast Of Afternoon Aarti From Dagdusheth Temple, Pune.",
-    "category": null
+    "channel": "ts1754",
+    "catchup-id": "93058950"
   },
   {
     "channelId": "ts1754",
     "channelName": "Dagdusheth Pune",
-    "start": "08:20",
-    "stop": "09:30",
+    "start": "20260405082000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775377200000,
     "stopTs": 1775381400000,
     "title": "Darshan",
     "desc": "Live Darshan From Dagdusheth Temple, Pune.",
-    "category": null
+    "channel": "ts1754",
+    "catchup-id": "93058951"
   },
   {
     "channelId": "ts1754",
     "channelName": "Dagdusheth Pune",
-    "start": "09:30",
-    "stop": "09:40",
+    "start": "20260405093000 +0000",
+    "stop": "20260405094000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775382000000,
     "title": "Afternoon Aarti",
     "desc": "Live Telecast Of Afternoon Aarti From Dagdusheth Temple, Pune.",
-    "category": null
+    "channel": "ts1754",
+    "catchup-id": "93058954"
   },
   {
     "channelId": "ts1754",
     "channelName": "Dagdusheth Pune",
-    "start": "09:40",
-    "stop": "14:45",
+    "start": "20260405094000 +0000",
+    "stop": "20260405144500 +0000",
     "startTs": 1775382000000,
     "stopTs": 1775400300000,
     "title": "Darshan",
     "desc": "Live Darshan From Dagdusheth Temple, Pune.",
-    "category": null
+    "channel": "ts1754",
+    "catchup-id": "93058948"
   },
   {
     "channelId": "ts1754",
     "channelName": "Dagdusheth Pune",
-    "start": "14:45",
-    "stop": "15:15",
+    "start": "20260405144500 +0000",
+    "stop": "20260405151500 +0000",
     "startTs": 1775400300000,
     "stopTs": 1775402100000,
     "title": "Evening Aarti",
     "desc": "Watch The Telecast Of Evening Aarti From Dagdusheth Temple, Pune.",
-    "category": null
+    "channel": "ts1754",
+    "catchup-id": "93058958"
   },
   {
     "channelId": "ts1754",
     "channelName": "Dagdusheth Pune",
-    "start": "15:15",
-    "stop": "17:00",
+    "start": "20260405151500 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775402100000,
     "stopTs": 1775408400000,
     "title": "Darshan",
     "desc": "Live Darshan From Dagdusheth Temple, Pune.",
-    "category": null
+    "channel": "ts1754",
+    "catchup-id": "93058949"
   },
   {
     "channelId": "ts1754",
     "channelName": "Dagdusheth Pune",
-    "start": "17:00",
-    "stop": "17:15",
+    "start": "20260405170000 +0000",
+    "stop": "20260405171500 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775409300000,
     "title": "Night Aarti",
     "desc": "Watch The Telecast Of Night Aarti From Dagdusheth Temple, Pune.",
-    "category": null
+    "channel": "ts1754",
+    "catchup-id": "93058947"
   },
   {
     "channelId": "ts1754",
     "channelName": "Dagdusheth Pune",
-    "start": "17:15",
-    "stop": "17:30",
+    "start": "20260405171500 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775409300000,
     "stopTs": 1775410200000,
     "title": "Darshan",
     "desc": "Live Darshan From Dagdusheth Temple, Pune.",
-    "category": null
+    "channel": "ts1754",
+    "catchup-id": "93058953"
   },
   {
     "channelId": "ts1754",
     "channelName": "Dagdusheth Pune",
-    "start": "17:30",
-    "stop": "00:30",
+    "start": "20260405173000 +0000",
+    "stop": "20260406003000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775435400000,
     "title": "Temple Closed",
     "desc": "Temple Closed For Darshan.",
-    "category": null
+    "channel": "ts1754",
+    "catchup-id": "93058955"
   }
 ]

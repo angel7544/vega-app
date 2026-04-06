@@ -2,254 +2,277 @@
   {
     "channelId": "ts400",
     "channelName": "Mega Musiq",
-    "start": "19:30",
-    "stop": "07:30",
+    "start": "20260404193000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775374200000,
     "title": "Vidiyum Varai Kealu",
     "desc": "An exciting mix of energetic and soulful tunes from the Tamil film industry.",
-    "category": null
+    "channel": "ts400",
+    "catchup-id": "93067172"
   },
   {
     "channelId": "ts400",
     "channelName": "Mega Musiq",
-    "start": "07:30",
-    "stop": "19:30",
+    "start": "20260405073000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775417400000,
     "title": "Vidiyum Varai Kealu",
     "desc": "An exciting mix of energetic and soulful tunes from the Tamil film industry.",
-    "category": null
+    "channel": "ts400",
+    "catchup-id": "93067173"
   },
   {
     "channelId": "ts400",
     "channelName": "Mega Musiq",
-    "start": "19:30",
-    "stop": "22:30",
+    "start": "20260405193000 +0000",
+    "stop": "20260405223000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775428200000,
     "title": "Vidiyum Varai Kealu",
     "desc": "An exciting mix of energetic and soulful tunes from the Tamil film industry.",
-    "category": null
+    "channel": "ts400",
+    "catchup-id": "93102645"
   },
   {
     "channelId": "ts400",
     "channelName": "Mega Musiq",
-    "start": "22:30",
-    "stop": "00:30",
+    "start": "20260405223000 +0000",
+    "stop": "20260406003000 +0000",
     "startTs": 1775428200000,
     "stopTs": 1775435400000,
     "title": "Classic Old Songs",
     "desc": "A rich and entertaining collection of evergreen songs from vintage Tamil movies.",
-    "category": null
+    "channel": "ts400",
+    "catchup-id": "93102641"
   },
   {
     "channelId": "ts400",
     "channelName": "Mega Musiq",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260406003000 +0000",
+    "stop": "20260406010000 +0000",
     "startTs": 1775435400000,
     "stopTs": 1775437200000,
     "title": "Deiveega Neram",
     "desc": "Spiritual leaders discuss divine teachings and share religious verses from the scriptures.",
-    "category": null
+    "channel": "ts400",
+    "catchup-id": "93102634"
   },
   {
     "channelId": "ts400",
     "channelName": "Mega Musiq",
-    "start": "01:00",
-    "stop": "02:00",
+    "start": "20260406010000 +0000",
+    "stop": "20260406020000 +0000",
     "startTs": 1775437200000,
     "stopTs": 1775440800000,
     "title": "Isai Charal",
     "desc": "A compilation of some of the most melodious songs written and performed by eminent musicians.",
-    "category": null
+    "channel": "ts400",
+    "catchup-id": "93102643"
   },
   {
     "channelId": "ts400",
     "channelName": "Mega Musiq",
-    "start": "02:00",
-    "stop": "03:00",
+    "start": "20260406020000 +0000",
+    "stop": "20260406030000 +0000",
     "startTs": 1775440800000,
     "stopTs": 1775444400000,
     "title": "Isai Thendral",
     "desc": "A comprehensive collection of some of the most soul-stirring songs composed by various musicians.",
-    "category": null
+    "channel": "ts400",
+    "catchup-id": "93102637"
   },
   {
     "channelId": "ts400",
     "channelName": "Mega Musiq",
-    "start": "03:00",
-    "stop": "04:30",
+    "start": "20260406030000 +0000",
+    "stop": "20260406043000 +0000",
     "startTs": 1775444400000,
     "stopTs": 1775449800000,
     "title": "Star Hits",
     "desc": "A compilation of the greatest foot-tapping hits of selected music directors and actors are played.",
-    "category": null
+    "channel": "ts400",
+    "catchup-id": "93102640"
   },
   {
     "channelId": "ts400",
     "channelName": "Mega Musiq",
-    "start": "04:30",
-    "stop": "05:30",
+    "start": "20260406043000 +0000",
+    "stop": "20260406053000 +0000",
     "startTs": 1775449800000,
     "stopTs": 1775453400000,
     "title": "Aanandha Ragam - New Beats",
     "desc": "A comprehensive compilation of popular melodious songs is played in quick succession.",
-    "category": null
+    "channel": "ts400",
+    "catchup-id": "93102632"
   },
   {
     "channelId": "ts400",
     "channelName": "Mega Musiq",
-    "start": "05:30",
-    "stop": "06:30",
+    "start": "20260406053000 +0000",
+    "stop": "20260406063000 +0000",
     "startTs": 1775453400000,
     "stopTs": 1775457000000,
     "title": "Isai Thendral",
     "desc": "A comprehensive collection of some of the most soul-stirring songs composed by various musicians.",
-    "category": null
+    "channel": "ts400",
+    "catchup-id": "93102649"
   },
   {
     "channelId": "ts400",
     "channelName": "Mega Musiq",
-    "start": "06:30",
-    "stop": "07:30",
+    "start": "20260406063000 +0000",
+    "stop": "20260406073000 +0000",
     "startTs": 1775457000000,
     "stopTs": 1775460600000,
     "title": "Mega Melodioues",
     "desc": "A compilation of melodious and popular songs, played back to back.",
-    "category": null
+    "channel": "ts400",
+    "catchup-id": "93102636"
   },
   {
     "channelId": "ts400",
     "channelName": "Mega Musiq",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260406073000 +0000",
+    "stop": "20260406083000 +0000",
     "startTs": 1775460600000,
     "stopTs": 1775464200000,
     "title": "Star Hits",
     "desc": "A compilation of popular songs featuring renowned actors is played back-to-back.",
-    "category": null
+    "channel": "ts400",
+    "catchup-id": "93102644"
   },
   {
     "channelId": "ts400",
     "channelName": "Mega Musiq",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260406083000 +0000",
+    "stop": "20260406093000 +0000",
     "startTs": 1775464200000,
     "stopTs": 1775467800000,
     "title": "Antha Naal Gnabagam",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts400",
+    "catchup-id": "93102646"
   },
   {
     "channelId": "ts400",
     "channelName": "Mega Musiq",
-    "start": "09:30",
-    "stop": "10:30",
+    "start": "20260406093000 +0000",
+    "stop": "20260406103000 +0000",
     "startTs": 1775467800000,
     "stopTs": 1775471400000,
     "title": "Oru Pada Padalgal",
     "desc": "A compilation featuring songs a popular single album composition by renowned artists.",
-    "category": null
+    "channel": "ts400",
+    "catchup-id": "93102638"
   },
   {
     "channelId": "ts400",
     "channelName": "Mega Musiq",
-    "start": "10:30",
-    "stop": "11:30",
+    "start": "20260406103000 +0000",
+    "stop": "20260406113000 +0000",
     "startTs": 1775471400000,
     "stopTs": 1775475000000,
     "title": "Star Hits 80's",
     "desc": "A collection of popular songs featuring eminent stars from the Tamil movies of the '80s.",
-    "category": null
+    "channel": "ts400",
+    "catchup-id": "93102652"
   },
   {
     "channelId": "ts400",
     "channelName": "Mega Musiq",
-    "start": "11:30",
-    "stop": "12:30",
+    "start": "20260406113000 +0000",
+    "stop": "20260406123000 +0000",
     "startTs": 1775475000000,
     "stopTs": 1775478600000,
     "title": "En Uyir Neethaane",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts400",
+    "catchup-id": "93102642"
   },
   {
     "channelId": "ts400",
     "channelName": "Mega Musiq",
-    "start": "12:30",
-    "stop": "13:30",
+    "start": "20260406123000 +0000",
+    "stop": "20260406133000 +0000",
     "startTs": 1775478600000,
     "stopTs": 1775482200000,
     "title": "Athiradi Hits",
     "desc": "A collection of popular, catchy and entertaining songs from Tamil movies.",
-    "category": null
+    "channel": "ts400",
+    "catchup-id": "93102647"
   },
   {
     "channelId": "ts400",
     "channelName": "Mega Musiq",
-    "start": "13:30",
-    "stop": "14:30",
+    "start": "20260406133000 +0000",
+    "stop": "20260406143000 +0000",
     "startTs": 1775482200000,
     "stopTs": 1775485800000,
     "title": "Natchaththiram",
     "desc": "A compilation of famous songs is played back to back to entertain the listeners.",
-    "category": null
+    "channel": "ts400",
+    "catchup-id": "93102635"
   },
   {
     "channelId": "ts400",
     "channelName": "Mega Musiq",
-    "start": "14:30",
-    "stop": "15:30",
+    "start": "20260406143000 +0000",
+    "stop": "20260406153000 +0000",
     "startTs": 1775485800000,
     "stopTs": 1775489400000,
     "title": "Traffic Songs",
     "desc": "A lively blend of tunes, showcasing a variety of styles to entertain and energise.",
-    "category": null
+    "channel": "ts400",
+    "catchup-id": "93102633"
   },
   {
     "channelId": "ts400",
     "channelName": "Mega Musiq",
-    "start": "15:30",
-    "stop": "16:30",
+    "start": "20260406153000 +0000",
+    "stop": "20260406163000 +0000",
     "startTs": 1775489400000,
     "stopTs": 1775493000000,
     "title": "Iravin Madiyil",
     "desc": "A comprehensive compilation of melodious Tamil songs is played back-to-back.",
-    "category": null
+    "channel": "ts400",
+    "catchup-id": "93102650"
   },
   {
     "channelId": "ts400",
     "channelName": "Mega Musiq",
-    "start": "16:30",
-    "stop": "17:30",
+    "start": "20260406163000 +0000",
+    "stop": "20260406173000 +0000",
     "startTs": 1775493000000,
     "stopTs": 1775496600000,
     "title": "Mega Melodioues",
     "desc": "A compilation of melodious and popular songs, played back to back.",
-    "category": null
+    "channel": "ts400",
+    "catchup-id": "93102648"
   },
   {
     "channelId": "ts400",
     "channelName": "Mega Musiq",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260406173000 +0000",
+    "stop": "20260406180000 +0000",
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Aanandha Ragam",
     "desc": "Talented artists perform a compilation of the most popular songs composed by famous musicians.",
-    "category": null
+    "channel": "ts400",
+    "catchup-id": "93102651"
   },
   {
     "channelId": "ts400",
     "channelName": "Mega Musiq",
-    "start": "18:00",
-    "stop": "19:30",
+    "start": "20260406180000 +0000",
+    "stop": "20260406193000 +0000",
     "startTs": 1775498400000,
     "stopTs": 1775503800000,
     "title": "Antha Naal Gnabagam",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts400",
+    "catchup-id": "93102639"
   }
 ]

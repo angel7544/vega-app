@@ -2,34 +2,37 @@
   {
     "channelId": "ts1201",
     "channelName": "Ekamra Paramatma",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260405183000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Prabhukrupa",
     "desc": "Brining the best in television.",
-    "category": null
+    "channel": "ts1201",
+    "catchup-id": "93089168"
   },
   {
     "channelId": "ts1201",
     "channelName": "Ekamra Paramatma",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260405190000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Katha Kaibalya",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts1201",
+    "catchup-id": "93089151"
   },
   {
     "channelId": "ts1201",
     "channelName": "Ekamra Paramatma",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260405193000 +0000",
+    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Patitapabane Uduchibana",
     "desc": "A compilation of some of the most melodious devotional songs are played back-to-back.",
-    "category": null
+    "channel": "ts1201",
+    "catchup-id": "93089162"
   }
 ]

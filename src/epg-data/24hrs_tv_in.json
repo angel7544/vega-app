@@ -2,287 +2,313 @@
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "18:30",
-    "stop": "19:30",
+    "start": "20260404183000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775331000000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153271"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "19:30",
-    "stop": "20:30",
+    "start": "20260404193000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775334600000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153287"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "20:30",
-    "stop": "21:30",
+    "start": "20260404203000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775338200000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153282"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "21:30",
-    "stop": "22:30",
+    "start": "20260404213000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775341800000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153272"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "22:30",
-    "stop": "23:30",
+    "start": "20260404223000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775345400000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153283"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "23:30",
-    "stop": "00:30",
+    "start": "20260404233000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775349000000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153270"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "00:30",
-    "stop": "01:30",
+    "start": "20260405003000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775352600000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153278"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "01:30",
-    "stop": "02:30",
+    "start": "20260405013000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775356200000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153284"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "02:30",
-    "stop": "03:30",
+    "start": "20260405023000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775359800000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153279"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "03:30",
-    "stop": "04:30",
+    "start": "20260405033000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775363400000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153276"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "04:30",
-    "stop": "05:30",
+    "start": "20260405043000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775367000000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153273"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "05:30",
-    "stop": "06:30",
+    "start": "20260405053000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775370600000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153277"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "06:30",
-    "stop": "07:30",
+    "start": "20260405063000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775374200000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153288"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260405073000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775377800000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153266"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "08:30",
-    "stop": "09:30",
+    "start": "20260405083000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775381400000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153265"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "09:30",
-    "stop": "10:30",
+    "start": "20260405093000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775385000000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153280"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "10:30",
-    "stop": "11:30",
+    "start": "20260405103000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775388600000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153285"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "11:30",
-    "stop": "12:30",
+    "start": "20260405113000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775392200000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153274"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "12:30",
-    "stop": "13:30",
+    "start": "20260405123000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775395800000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153269"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "13:30",
-    "stop": "14:30",
+    "start": "20260405133000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775399400000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153286"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "14:30",
-    "stop": "15:30",
+    "start": "20260405143000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775403000000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153275"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "15:30",
-    "stop": "16:30",
+    "start": "20260405153000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775406600000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153281"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "16:30",
-    "stop": "17:30",
+    "start": "20260405163000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775410200000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153268"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "17:30",
-    "stop": "18:30",
+    "start": "20260405173000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775413800000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93153267"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "18:30",
-    "stop": "19:30",
+    "start": "20260405183000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775417400000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93086535"
   },
   {
     "channelId": "ts1448",
     "channelName": "24Hrs TV",
-    "start": "19:30",
-    "stop": "20:30",
+    "start": "20260405193000 +0000",
+    "stop": "20260405203000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775421000000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts1448",
+    "catchup-id": "93086539"
   }
 ]

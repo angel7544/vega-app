@@ -2,452 +2,493 @@
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "19:00",
-    "stop": "19:05",
+    "start": "20260404190000 +0000",
+    "stop": "20260404190500 +0000",
     "startTs": 1775329200000,
     "stopTs": 1775329500000,
     "title": "Advertisement; Religious Songs",
     "desc": "The presenter shares an advertisement; ceremonial songs are sung in worship of the divine.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059266"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "19:05",
-    "stop": "19:30",
+    "start": "20260404190500 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775329500000,
     "stopTs": 1775331000000,
     "title": "Katha Vichar",
     "desc": "A religious scholar explains Gurbani and the Sikh history to a gathering of devotees.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059306"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "19:30",
-    "stop": "19:35",
+    "start": "20260404193000 +0000",
+    "stop": "20260404193500 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775331300000,
     "title": "Shabad",
     "desc": "A compilation of devotional songs and sacred hymns in praise of the Almighty is played.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059305"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "19:35",
-    "stop": "20:15",
+    "start": "20260404193500 +0000",
+    "stop": "20260404201500 +0000",
     "startTs": 1775331300000,
     "stopTs": 1775333700000,
     "title": "Akhand Kirtani Jatha",
     "desc": "Religious leaders sing a compilation of devotional songs and hymns.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059281"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "20:15",
-    "stop": "20:20",
+    "start": "20260404201500 +0000",
+    "stop": "20260404202000 +0000",
     "startTs": 1775333700000,
     "stopTs": 1775334000000,
     "title": "Religious Songs",
     "desc": "A compilation of some of the most popular devotional songs is played back-to-back.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059303"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "20:20",
-    "stop": "20:35",
+    "start": "20260404202000 +0000",
+    "stop": "20260404203500 +0000",
     "startTs": 1775334000000,
     "stopTs": 1775334900000,
     "title": "Advertisement; Religious Songs",
     "desc": "The presenter shares an advertisement; ceremonial songs are sung in worship of the divine.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059294"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "20:35",
-    "stop": "22:30",
+    "start": "20260404203500 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775334900000,
     "stopTs": 1775341800000,
     "title": "Shaheedan Sahib Live",
     "desc": "Devotees gather at Shaheedan Sahib, Amritsar, to sing in praise of the Almighty, live.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059269"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "22:30",
-    "stop": "02:00",
+    "start": "20260404223000 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775354400000,
     "title": "Gurdwara Baba Fateh Singh Baba Zorawar Singh Live",
     "desc": "A religious leader recites verses from the sacred Guru Granth Sahib at a gurudwara.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059293"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "02:00",
-    "stop": "02:05",
+    "start": "20260405020000 +0000",
+    "stop": "20260405020500 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775354700000,
     "title": "Advertisement; Religious Songs",
     "desc": "The presenter shares an advertisement; ceremonial songs are sung in worship of the divine.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059286"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "02:05",
-    "stop": "02:30",
+    "start": "20260405020500 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775354700000,
     "stopTs": 1775356200000,
     "title": "Sab Rang / Studio Shabad / Copyright Shabad",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059275"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "02:30",
-    "stop": "02:35",
+    "start": "20260405023000 +0000",
+    "stop": "20260405023500 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775356500000,
     "title": "Promo",
     "desc": "A compilation of promotional events and snippets of various programmes is presented.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059295"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "02:35",
-    "stop": "03:15",
+    "start": "20260405023500 +0000",
+    "stop": "20260405031500 +0000",
     "startTs": 1775356500000,
     "stopTs": 1775358900000,
     "title": "Amrit Vikhyan",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059274"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "03:15",
-    "stop": "03:20",
+    "start": "20260405031500 +0000",
+    "stop": "20260405032000 +0000",
     "startTs": 1775358900000,
     "stopTs": 1775359200000,
     "title": "Advertisement",
     "desc": "The host showcases a wide range of products manufactured by popular brands.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059288"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "03:20",
-    "stop": "03:30",
+    "start": "20260405032000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775359200000,
     "stopTs": 1775359800000,
     "title": "Shabad Kirtan",
     "desc": "Renowned 'ragis' render Shabad Gurbani kirtans in the praise of the Almighty.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059270"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "03:30",
-    "stop": "03:55",
+    "start": "20260405033000 +0000",
+    "stop": "20260405035500 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361300000,
     "title": "Sadhsang Har Kirtan Gayiye",
     "desc": "A religious leader sings a melodious devotional hymn praising the Almighty.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059279"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "03:55",
-    "stop": "04:00",
+    "start": "20260405035500 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775361300000,
     "stopTs": 1775361600000,
     "title": "Promo",
     "desc": "A compilation of promotional events and snippets of various programmes is presented.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059283"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "Amrit Bani",
     "desc": "A spiritual leader sings devotional songs and religious hymns in praise of the Almighty.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059272"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "04:30",
-    "stop": "04:35",
+    "start": "20260405043000 +0000",
+    "stop": "20260405043500 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775363700000,
     "title": "Advertisement; Religious Songs",
     "desc": "The presenter shares an advertisement; ceremonial songs are sung in worship of the divine.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059290"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "04:35",
-    "stop": "06:00",
+    "start": "20260405043500 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775363700000,
     "stopTs": 1775368800000,
     "title": "Sukhmani Sahib",
     "desc": "Sikh devotees gather to chant sacred devotional verses from the Sukhmani Sahib.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059291"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "06:00",
-    "stop": "06:05",
+    "start": "20260405060000 +0000",
+    "stop": "20260405060500 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775369100000,
     "title": "Advertisement; Religious Songs",
     "desc": "The presenter shares an advertisement; ceremonial songs are sung in worship of the divine.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059301"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "06:05",
-    "stop": "06:30",
+    "start": "20260405060500 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775369100000,
     "stopTs": 1775370600000,
     "title": "Shabad",
     "desc": "A compilation of devotional songs and sacred hymns in praise of the Almighty is played.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059289"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "06:30",
-    "stop": "06:35",
+    "start": "20260405063000 +0000",
+    "stop": "20260405063500 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775370900000,
     "title": "Promo",
     "desc": "A compilation of promotional events and snippets of various programmes is presented.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059300"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "06:35",
-    "stop": "07:50",
+    "start": "20260405063500 +0000",
+    "stop": "20260405075000 +0000",
     "startTs": 1775370900000,
     "stopTs": 1775375400000,
     "title": "Nirban Kirtan",
     "desc": "Religious leaders deliver a sermon and sing devotional songs and hymns from the Guru Granth Sahib.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059296"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "07:50",
-    "stop": "08:00",
+    "start": "20260405075000 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775375400000,
     "stopTs": 1775376000000,
     "title": "Chopai Sahib",
     "desc": "Sikh religious leaders and followers recite hymns to invoke the Almighty's blessings.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059276"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "08:00",
-    "stop": "08:05",
+    "start": "20260405080000 +0000",
+    "stop": "20260405080500 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775376300000,
     "title": "Advertisement",
     "desc": "The host showcases a wide range of products manufactured by popular brands.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059267"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "08:05",
-    "stop": "08:30",
+    "start": "20260405080500 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775376300000,
     "stopTs": 1775377800000,
     "title": "Har Kirtan Sune Har Kirtan Gaave",
     "desc": "Singers and musicians gather to sing sacred hymns to seek the blessings of the Almighty.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059271"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260405083000 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775379600000,
     "title": "Shabad",
     "desc": "A compilation of devotional songs and sacred hymns in praise of the Almighty is played.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059268"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "09:00",
-    "stop": "09:25",
+    "start": "20260405090000 +0000",
+    "stop": "20260405092500 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775381100000,
     "title": "Ras Mangal Gavo",
     "desc": "Musical artists gather to sing devotional hymns and seek the blessings of the Almighty.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059284"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "09:25",
-    "stop": "09:30",
+    "start": "20260405092500 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775381100000,
     "stopTs": 1775381400000,
     "title": "Gurdham Darshan / Shabad",
     "desc": "Gurdham Darshan / Shabad",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059285"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "09:30",
-    "stop": "09:35",
+    "start": "20260405093000 +0000",
+    "stop": "20260405093500 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775381700000,
     "title": "Shabad",
     "desc": "A compilation of devotional songs and sacred hymns in praise of the Almighty is played.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059292"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "09:35",
-    "stop": "10:30",
+    "start": "20260405093500 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775381700000,
     "stopTs": 1775385000000,
     "title": "Hazuri Ragi Kirtan",
     "desc": "A comprehensive compilation of melodious devotional Sikh songs and hymns.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059277"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "10:30",
-    "stop": "12:30",
+    "start": "20260405103000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775392200000,
     "title": "Sohana Live",
     "desc": "Sikh religious leaders and devotees offer their prayers to the Almighty in Sohana, live.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059282"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "12:30",
-    "stop": "12:55",
+    "start": "20260405123000 +0000",
+    "stop": "20260405125500 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775393700000,
     "title": "Haryana",
     "desc": "A reporter sheds light on the most recent news stories and current events from the state of Haryana.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059304"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "12:55",
-    "stop": "13:30",
+    "start": "20260405125500 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775393700000,
     "stopTs": 1775395800000,
     "title": "Shabad",
     "desc": "A compilation of devotional songs and sacred hymns in praise of the Almighty is played.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059298"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "13:30",
-    "stop": "13:35",
+    "start": "20260405133000 +0000",
+    "stop": "20260405133500 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775396100000,
     "title": "Promo",
     "desc": "A compilation of promotional events and snippets of various programmes is presented.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059287"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "13:35",
-    "stop": "14:30",
+    "start": "20260405133500 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775396100000,
     "stopTs": 1775399400000,
     "title": "Bhai Amandeep Singh",
     "desc": "Religious leader Bhai Amandeep Singh Ji sings devotional songs and hymns from the Guru Granth Sahib.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059273"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "14:30",
-    "stop": "15:30",
+    "start": "20260405143000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775403000000,
     "title": "Vishesh",
     "desc": "A religious leader sings a compilation of devotional songs and hymns in praise of God.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059299"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "15:30",
-    "stop": "15:35",
+    "start": "20260405153000 +0000",
+    "stop": "20260405153500 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775403300000,
     "title": "Filler / Shabad",
     "desc": "Talented artists perform a compilation of devotional songs praising the Almighty.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059302"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "15:35",
-    "stop": "16:30",
+    "start": "20260405153500 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775403300000,
     "stopTs": 1775406600000,
     "title": "Gurmat Samagam Special",
     "desc": "Sikh religious leaders and followers gather to invoke the blessings of the Almighty.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059278"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "16:30",
-    "stop": "17:30",
+    "start": "20260405163000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775410200000,
     "title": "Kirtan Sadhna",
     "desc": "Religious leaders and devotees gather to sing devotional hymns in praise of the Almighty.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059280"
   },
   {
     "channelId": "ts791",
     "channelName": "Fateh TV",
-    "start": "17:30",
-    "stop": "19:00",
+    "start": "20260405173000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775415600000,
     "title": "Amritvela",
     "desc": "The narrator walks one through a guided meditation designed specially for early morning.",
-    "category": null
+    "channel": "ts791",
+    "catchup-id": "93059297"
   }
 ]

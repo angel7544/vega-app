@@ -2,12 +2,13 @@
   {
     "channelId": "ts1717",
     "channelName": "ts1717",
-    "start": "19:19",
-    "stop": "21:29",
+    "start": "20260405191900 +0000",
+    "stop": "20260405212900 +0000",
     "startTs": 1775416740000,
     "stopTs": 1775424540000,
     "title": "Namastey, London",
     "desc": "Jasmeet is forced to marry Arjun but announces that she is in love with another man.",
-    "category": null
+    "channel": "ts1717",
+    "catchup-id": "93274531"
   }
 ]

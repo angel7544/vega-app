@@ -2,551 +2,601 @@
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260404183000 +0000",
+    "stop": "20260404190000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775329200000,
     "title": "Mahamanthan",
     "desc": "The host delivers the latest news headlines on various issues from the state of Gujarat.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073623"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260404190000 +0000",
+    "stop": "20260404193000 +0000",
     "startTs": 1775329200000,
     "stopTs": 1775331000000,
     "title": "Mahamanthan",
     "desc": "The host delivers the latest news headlines on various issues from the state of Gujarat.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073621"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260404193000 +0000",
+    "stop": "20260404200000 +0000",
     "startTs": 1775331000000,
     "stopTs": 1775332800000,
     "title": "Criminal",
     "desc": "The host presents the latest updates about sensational crime stories.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073635"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260404200000 +0000",
+    "stop": "20260404203000 +0000",
     "startTs": 1775332800000,
     "stopTs": 1775334600000,
     "title": "V Factor",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073626"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260404203000 +0000",
+    "stop": "20260404210000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775336400000,
     "title": "Vishesh",
     "desc": "The host presents updates and developments from around the world.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073627"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260404210000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775336400000,
     "stopTs": 1775338200000,
     "title": "Criminal",
     "desc": "The host presents the latest updates about sensational crime stories.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073607"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260404213000 +0000",
+    "stop": "20260404220000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775340000000,
     "title": "V Factor",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073638"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260404220000 +0000",
+    "stop": "20260404223000 +0000",
     "startTs": 1775340000000,
     "stopTs": 1775341800000,
     "title": "Vishesh",
     "desc": "The host presents updates and developments from around the world.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073619"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260404223000 +0000",
+    "stop": "20260404230000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775343600000,
     "title": "V Factor",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073608"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260404230000 +0000",
+    "stop": "20260404233000 +0000",
     "startTs": 1775343600000,
     "stopTs": 1775345400000,
     "title": "Vishesh",
     "desc": "The host presents updates and developments from around the world.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073640"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260404233000 +0000",
+    "stop": "20260405000000 +0000",
     "startTs": 1775345400000,
     "stopTs": 1775347200000,
     "title": "Soor Sangeet",
     "desc": "A comprehensive compilation featuring popular regional songs by various artists is played.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073620"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260405000000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775347200000,
     "stopTs": 1775349000000,
     "title": "Soor Sangeet",
     "desc": "A comprehensive compilation featuring popular regional songs by various artists is played.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073609"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260405003000 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775350800000,
     "title": "Maha Aarti",
     "desc": "Religious leader and devotees offer their worship and prayers to the Hindu gods.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073642"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260405010000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775352600000,
     "title": "Shakti upasana",
     "desc": "A learned individual delivers spiritual insights on the topic of Shakti Upasana.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073624"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260405013000 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775354400000,
     "title": "Khabar Suprabhat",
     "desc": "The host delves into the latest updates surrounding various pressing issues.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073646"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260405020000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775356200000,
     "title": "Soor Sangeet",
     "desc": "A comprehensive compilation featuring popular regional songs by various artists is played.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073606"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260405023000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775358000000,
     "title": "Samachar Time",
     "desc": "The host sheds light on the latest news updates and developments from across the country.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073643"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "Shakti upasana",
     "desc": "A learned individual delivers spiritual insights on the topic of Shakti Upasana.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073644"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "Bhavishya Darshan",
     "desc": "Qualified astrologers use their vast field knowledge to predict people's future.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073636"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "Bhavishya Darshan",
     "desc": "Qualified astrologers use their vast field knowledge to predict people's future.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073610"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260405043000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775365200000,
     "title": "Breaking News",
     "desc": "The host presents numerous top stories, latest happenings and significant updates.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073634"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775367000000,
     "title": "Samachar Time",
     "desc": "The host sheds light on the latest news updates and developments from across the country.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073637"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260405053000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775368800000,
     "title": "Samachar Time",
     "desc": "The host sheds light on the latest news updates and developments from across the country.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073612"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260405060000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370600000,
     "title": "Vishesh",
     "desc": "The host presents updates and developments from around the world.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073617"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260405063000 +0000",
+    "stop": "20260405070000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775372400000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073602"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260405070000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775372400000,
     "stopTs": 1775374200000,
     "title": "Viral News",
     "desc": "The host presents trending stories and incidents that have captured widespread attention.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073628"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260405073000 +0000",
+    "stop": "20260405080000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775376000000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073603"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260405080000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775376000000,
     "stopTs": 1775377800000,
     "title": "Criminal",
     "desc": "The host presents the latest updates about sensational crime stories.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073618"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260405083000 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775379600000,
     "title": "News",
     "desc": "The host presents the latest news updates from around the nation and the world.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073616"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260405090000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775381400000,
     "title": "Geet Gurjari",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073641"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260405100000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775385000000,
     "title": "Viral Reel",
     "desc": "The host collates and presents important updates and viral videos.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073645"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260405103000 +0000",
+    "stop": "20260405110000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775386800000,
     "title": "Soor Sangeet",
     "desc": "A comprehensive compilation featuring popular regional songs by various artists is played.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073615"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260405110000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775386800000,
     "stopTs": 1775388600000,
     "title": "Soor Sangeet",
     "desc": "A comprehensive compilation featuring popular regional songs by various artists is played.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073605"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260405113000 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775390400000,
     "title": "Samachar Plus",
     "desc": "The host presents in detail the latest updates pertaining to the current affairs of the day.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073625"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "Samachar Plus",
     "desc": "The host presents in detail the latest updates pertaining to the current affairs of the day.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073629"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260405123000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775394000000,
     "title": "Khabar Round Up",
     "desc": "The host presents the latest updates and stories from around the world and country.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073647"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260405130000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395800000,
     "title": "Advertisement",
     "desc": "The host showcases a wide range of products manufactured by popular brands.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073632"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260405133000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775397600000,
     "title": "Sanje Sate",
     "desc": "The host delivers updates regarding economical, social and cultural affairs of the nation.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073600"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "Viral News",
     "desc": "The host presents trending stories and incidents that have captured widespread attention.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073611"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775401200000,
     "title": "Mahamanthan",
     "desc": "The host delivers the latest news headlines on various issues from the state of Gujarat.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073639"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "Mahamanthan",
     "desc": "The host delivers the latest news headlines on various issues from the state of Gujarat.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073622"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260405153000 +0000",
+    "stop": "20260405160000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775404800000,
     "title": "Ye Jivan Hai",
     "desc": "The host delves deeper into various awareness initiatives in the state of Gujarat.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073614"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260405160000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775404800000,
     "stopTs": 1775406600000,
     "title": "Vishesh",
     "desc": "The host presents updates and developments from around the world.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073613"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "Criminal",
     "desc": "The host presents the latest updates about sensational crime stories.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073633"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "Samachar Plus",
     "desc": "The host presents in detail the latest updates pertaining to the current affairs of the day.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073604"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260405173000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775412000000,
     "title": "Final Report",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073630"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260405180000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775413800000,
     "title": "Soor Sangeet",
     "desc": "A comprehensive compilation featuring popular regional songs by various artists is played.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93073631"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260405183000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Mahamanthan",
     "desc": "The host delivers the latest news headlines on various issues from the state of Gujarat.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93113563"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260405190000 +0000",
+    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Mahamanthan",
     "desc": "The host delivers the latest news headlines on various issues from the state of Gujarat.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93113568"
   },
   {
     "channelId": "ts497",
     "channelName": "VTV News",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260405193000 +0000",
+    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Criminal",
     "desc": "The host presents the latest updates about sensational crime stories.",
-    "category": null
+    "channel": "ts497",
+    "catchup-id": "93113580"
   }
 ]

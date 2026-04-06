@@ -2,1321 +2,1441 @@
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260404183000 +0000",
+    "stop": "20260404190000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775329200000,
     "title": "Advertisement",
     "desc": "The host showcases a wide range of products manufactured by popular brands.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076383"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "19:00",
-    "stop": "00:30",
+    "start": "20260404190000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775329200000,
     "stopTs": 1775349000000,
     "title": "Newsroom Live",
     "desc": "The host talks about the latest and most important news from the city and world, live.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076355"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260405003000 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775350800000,
     "title": "Khobor Dinbhor",
     "desc": "The host talks about the latest and most important news from the city.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076376"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260405010000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775352600000,
     "title": "Jela Express",
     "desc": "The host presents the latest news stories from the various districts of West Bengal.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076372"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260405013000 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775354400000,
     "title": "Khobor Dinbhor",
     "desc": "The host talks about the latest and most important news from the city.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076373"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260405020000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775356200000,
     "title": "Speed News",
     "desc": "The host presents a quick update on the top stories of the day.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076360"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260405023000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775358000000,
     "title": "Ek Phone-E Bangla",
     "desc": "The host presents the latest news stories and provides updates on current events.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076369"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "Morning Superfast",
     "desc": "The host presents the latest news updates about various significant events.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076374"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260405033000 +0000",
+    "stop": "20260405040000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775361600000,
     "title": "Najare Bangla",
     "desc": "The host delivers the latest news and developments to offer valuable insights.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076353"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260405040000 +0000",
+    "stop": "20260405043000 +0000",
     "startTs": 1775361600000,
     "stopTs": 1775363400000,
     "title": "Morning Superfast",
     "desc": "The host presents the latest news updates about various significant events.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076362"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260405043000 +0000",
+    "stop": "20260405050000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775365200000,
     "title": "Banglar Kurukhetra",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076375"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260405050000 +0000",
+    "stop": "20260405053000 +0000",
     "startTs": 1775365200000,
     "stopTs": 1775367000000,
     "title": "Jhoro Ponero",
     "desc": "The host presents the latest news stories and provides updates on current events.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076371"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260405053000 +0000",
+    "stop": "20260405060000 +0000",
     "startTs": 1775367000000,
     "stopTs": 1775368800000,
     "title": "Banglar Kurukhetra",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076380"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260405060000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775368800000,
     "stopTs": 1775370600000,
     "title": "Jhoro Ponero",
     "desc": "The host presents the latest news stories and provides updates on current events.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076370"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "06:30",
-    "stop": "07:30",
+    "start": "20260405063000 +0000",
+    "stop": "20260405073000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775374200000,
     "title": "Banglar Kurukhetra",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076354"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "07:30",
-    "stop": "08:30",
+    "start": "20260405073000 +0000",
+    "stop": "20260405083000 +0000",
     "startTs": 1775374200000,
     "stopTs": 1775377800000,
     "title": "Khobor Dinbhor",
     "desc": "The host talks about the latest and most important news from the city.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076364"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260405083000 +0000",
+    "stop": "20260405090000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775379600000,
     "title": "Khobor Dinbhor",
     "desc": "The host talks about the latest and most important news from the city.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076363"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260405090000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775379600000,
     "stopTs": 1775381400000,
     "title": "Jela Express",
     "desc": "The host presents the latest news stories from the various districts of West Bengal.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076381"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260405093000 +0000",
+    "stop": "20260405100000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775383200000,
     "title": "Khobor Dinbhor",
     "desc": "The host talks about the latest and most important news from the city.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076357"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260405100000 +0000",
+    "stop": "20260405103000 +0000",
     "startTs": 1775383200000,
     "stopTs": 1775385000000,
     "title": "Khobor Dinbhor",
     "desc": "The host talks about the latest and most important news from the city.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076356"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "10:30",
-    "stop": "11:30",
+    "start": "20260405103000 +0000",
+    "stop": "20260405113000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775388600000,
     "title": "News18 Prime",
     "desc": "The host sheds light on the socio-economic and political news updates and developments.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076352"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260405113000 +0000",
+    "stop": "20260405120000 +0000",
     "startTs": 1775388600000,
     "stopTs": 1775390400000,
     "title": "5 Tar 5 Meshali",
     "desc": "The host presents the latest news stories surrounding various issues in the country.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076361"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260405120000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775390400000,
     "stopTs": 1775392200000,
     "title": "Jela Express",
     "desc": "The host presents the latest news stories from the various districts of West Bengal.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076359"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260405123000 +0000",
+    "stop": "20260405130000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775394000000,
     "title": "Jela Theke Sarasari",
     "desc": "The host presents the latest news pertaining to events of significance.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076368"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260405130000 +0000",
+    "stop": "20260405133000 +0000",
     "startTs": 1775394000000,
     "stopTs": 1775395800000,
     "title": "Kemon Ache Bangla",
     "desc": "The host presents a quick round-up of all the major stories from around the state.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076365"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260405133000 +0000",
+    "stop": "20260405140000 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775397600000,
     "title": "Aamar Bangla",
     "desc": "The host talks about the latest news and updates from various parts of West Bengal.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076351"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260405140000 +0000",
+    "stop": "20260405143000 +0000",
     "startTs": 1775397600000,
     "stopTs": 1775399400000,
     "title": "Campuser Compass",
     "desc": ".",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076379"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260405143000 +0000",
+    "stop": "20260405150000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775401200000,
     "title": "Banglar Kurukhetra",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076367"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260405150000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775401200000,
     "stopTs": 1775403000000,
     "title": "Banglar Kurukhetra",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076358"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "15:30",
-    "stop": "16:30",
+    "start": "20260405153000 +0000",
+    "stop": "20260405163000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775406600000,
     "title": "Newsroom Live",
     "desc": "The host talks about the latest and most important news from the city and world, live.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076378"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260405163000 +0000",
+    "stop": "20260405170000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775408400000,
     "title": "Voter Bhobisyat",
     "desc": "The host presents a detailed report on the updates related to assembly elections.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076377"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260405170000 +0000",
+    "stop": "20260405173000 +0000",
     "startTs": 1775408400000,
     "stopTs": 1775410200000,
     "title": "Sera 100",
     "desc": "The host presents the top 100 news updates from across the state and the nation.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076382"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260405173000 +0000",
+    "stop": "20260405180000 +0000",
     "startTs": 1775410200000,
     "stopTs": 1775412000000,
     "title": "Sera 11",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076350"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260405180000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775412000000,
     "stopTs": 1775413800000,
     "title": "Superfast Roundup",
     "desc": "The host presents the latest news updates from around the country and the world.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93076366"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260405183000 +0000",
+    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Advertisement",
     "desc": "The host showcases a wide range of products manufactured by popular brands.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103839"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "19:00",
-    "stop": "00:30",
+    "start": "20260405190000 +0000",
+    "stop": "20260406003000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775435400000,
     "title": "Newsroom Live",
     "desc": "The host talks about the latest and most important news from the city and world, live.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103829"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260406003000 +0000",
+    "stop": "20260406010000 +0000",
     "startTs": 1775435400000,
     "stopTs": 1775437200000,
     "title": "Khobor Dinbhor",
     "desc": "The host talks about the latest and most important news from the city.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103842"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260406010000 +0000",
+    "stop": "20260406013000 +0000",
     "startTs": 1775437200000,
     "stopTs": 1775439000000,
     "title": "Jela Express",
     "desc": "The host presents the latest news stories from the various districts of West Bengal.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103834"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260406013000 +0000",
+    "stop": "20260406020000 +0000",
     "startTs": 1775439000000,
     "stopTs": 1775440800000,
     "title": "Khobor Dinbhor",
     "desc": "The host talks about the latest and most important news from the city.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103841"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260406020000 +0000",
+    "stop": "20260406023000 +0000",
     "startTs": 1775440800000,
     "stopTs": 1775442600000,
     "title": "Speed News",
     "desc": "The host presents a quick update on the top stories of the day.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103847"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260406023000 +0000",
+    "stop": "20260406030000 +0000",
     "startTs": 1775442600000,
     "stopTs": 1775444400000,
     "title": "Ek Phone-E Bangla",
     "desc": "The host presents the latest news stories and provides updates on current events.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103826"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260406030000 +0000",
+    "stop": "20260406033000 +0000",
     "startTs": 1775444400000,
     "stopTs": 1775446200000,
     "title": "Morning Superfast",
     "desc": "The host presents the latest news updates about various significant events.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103851"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260406033000 +0000",
+    "stop": "20260406040000 +0000",
     "startTs": 1775446200000,
     "stopTs": 1775448000000,
     "title": "Najare Bangla",
     "desc": "The host delivers the latest news and developments to offer valuable insights.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103854"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260406040000 +0000",
+    "stop": "20260406043000 +0000",
     "startTs": 1775448000000,
     "stopTs": 1775449800000,
     "title": "Morning Superfast",
     "desc": "The host presents the latest news updates about various significant events.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103849"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260406043000 +0000",
+    "stop": "20260406050000 +0000",
     "startTs": 1775449800000,
     "stopTs": 1775451600000,
     "title": "Banglar Kurukhetra",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103857"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260406050000 +0000",
+    "stop": "20260406053000 +0000",
     "startTs": 1775451600000,
     "stopTs": 1775453400000,
     "title": "Jhoro Ponero",
     "desc": "The host presents the latest news stories and provides updates on current events.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103822"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260406053000 +0000",
+    "stop": "20260406060000 +0000",
     "startTs": 1775453400000,
     "stopTs": 1775455200000,
     "title": "Banglar Kurukhetra",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103820"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260406060000 +0000",
+    "stop": "20260406063000 +0000",
     "startTs": 1775455200000,
     "stopTs": 1775457000000,
     "title": "Jhoro Ponero",
     "desc": "The host presents the latest news stories and provides updates on current events.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103855"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260406063000 +0000",
+    "stop": "20260406070000 +0000",
     "startTs": 1775457000000,
     "stopTs": 1775458800000,
     "title": "Banglar Kurukhetra",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103823"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260406070000 +0000",
+    "stop": "20260406073000 +0000",
     "startTs": 1775458800000,
     "stopTs": 1775460600000,
     "title": "Banglar Kurukhetra",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103850"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260406073000 +0000",
+    "stop": "20260406080000 +0000",
     "startTs": 1775460600000,
     "stopTs": 1775462400000,
     "title": "Khobor Dinbhor",
     "desc": "The host talks about the latest and most important news from the city.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103830"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260406080000 +0000",
+    "stop": "20260406083000 +0000",
     "startTs": 1775462400000,
     "stopTs": 1775464200000,
     "title": "Khobor Dinbhor",
     "desc": "The host talks about the latest and most important news from the city.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103824"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260406083000 +0000",
+    "stop": "20260406090000 +0000",
     "startTs": 1775464200000,
     "stopTs": 1775466000000,
     "title": "Khobor Dinbhor",
     "desc": "The host talks about the latest and most important news from the city.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103846"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260406090000 +0000",
+    "stop": "20260406093000 +0000",
     "startTs": 1775466000000,
     "stopTs": 1775467800000,
     "title": "Jela Express",
     "desc": "The host presents the latest news stories from the various districts of West Bengal.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103848"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260406093000 +0000",
+    "stop": "20260406100000 +0000",
     "startTs": 1775467800000,
     "stopTs": 1775469600000,
     "title": "Khobor Dinbhor",
     "desc": "The host talks about the latest and most important news from the city.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103856"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260406100000 +0000",
+    "stop": "20260406103000 +0000",
     "startTs": 1775469600000,
     "stopTs": 1775471400000,
     "title": "Khobor Dinbhor",
     "desc": "The host talks about the latest and most important news from the city.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103835"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260406103000 +0000",
+    "stop": "20260406110000 +0000",
     "startTs": 1775471400000,
     "stopTs": 1775473200000,
     "title": "News18 Prime",
     "desc": "The host sheds light on the socio-economic and political news updates and developments.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103845"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260406110000 +0000",
+    "stop": "20260406113000 +0000",
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "News18 Prime",
     "desc": "The host sheds light on the socio-economic and political news updates and developments.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103836"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260406113000 +0000",
+    "stop": "20260406120000 +0000",
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "5 Tar 5 Meshali",
     "desc": "The host presents the latest news stories surrounding various issues in the country.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103838"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260406120000 +0000",
+    "stop": "20260406123000 +0000",
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Jela Express",
     "desc": "The host presents the latest news stories from the various districts of West Bengal.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103840"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260406123000 +0000",
+    "stop": "20260406130000 +0000",
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Jela Theke Sarasari",
     "desc": "The host presents the latest news pertaining to events of significance.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103843"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260406130000 +0000",
+    "stop": "20260406133000 +0000",
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Hotspot",
     "desc": "The host presents an analysis of the recent political, business and socio-economic news.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103852"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260406133000 +0000",
+    "stop": "20260406140000 +0000",
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Aamar Bangla",
     "desc": "The host talks about the latest news and updates from various parts of West Bengal.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103837"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260406140000 +0000",
+    "stop": "20260406143000 +0000",
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Aamar Bangla",
     "desc": "The host talks about the latest news and updates from various parts of West Bengal.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103832"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260406143000 +0000",
+    "stop": "20260406150000 +0000",
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Banglar Kurukhetra",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103827"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260406150000 +0000",
+    "stop": "20260406153000 +0000",
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Banglar Kurukhetra",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103828"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260406153000 +0000",
+    "stop": "20260406160000 +0000",
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Newsroom Live",
     "desc": "The host talks about the latest and most important news from the city and world, live.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103831"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260406160000 +0000",
+    "stop": "20260406163000 +0000",
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Newsroom Live",
     "desc": "The host talks about the latest and most important news from the city and world, live.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103853"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260406163000 +0000",
+    "stop": "20260406170000 +0000",
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Neta Noye Janata",
     "desc": ".",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103821"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260406170000 +0000",
+    "stop": "20260406173000 +0000",
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Sera 100",
     "desc": "The host presents the top 100 news updates from across the state and the nation.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103825"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260406173000 +0000",
+    "stop": "20260406180000 +0000",
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Sera 11",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103844"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260406180000 +0000",
+    "stop": "20260406183000 +0000",
     "startTs": 1775498400000,
     "stopTs": 1775500200000,
     "title": "Superfast Roundup",
     "desc": "The host presents the latest news updates from around the country and the world.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93103833"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "18:30",
-    "stop": "19:00",
+    "start": "20260406183000 +0000",
+    "stop": "20260406190000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775502000000,
     "title": "Advertisement",
     "desc": "The host showcases a wide range of products manufactured by popular brands.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140509"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "19:00",
-    "stop": "19:30",
+    "start": "20260406190000 +0000",
+    "stop": "20260406193000 +0000",
     "startTs": 1775502000000,
     "stopTs": 1775503800000,
     "title": "Newsroom Live",
     "desc": "The host talks about the latest and most important news from the city and world, live.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140502"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "19:30",
-    "stop": "20:00",
+    "start": "20260406193000 +0000",
+    "stop": "20260406200000 +0000",
     "startTs": 1775503800000,
     "stopTs": 1775505600000,
     "title": "Newsroom Live",
     "desc": "The host talks about the latest and most important news from the city and world, live.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140495"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "20:00",
-    "stop": "20:30",
+    "start": "20260406200000 +0000",
+    "stop": "20260406203000 +0000",
     "startTs": 1775505600000,
     "stopTs": 1775507400000,
     "title": "Newsroom Live",
     "desc": "The host talks about the latest and most important news from the city and world, live.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140533"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "20:30",
-    "stop": "21:00",
+    "start": "20260406203000 +0000",
+    "stop": "20260406210000 +0000",
     "startTs": 1775507400000,
     "stopTs": 1775509200000,
     "title": "Newsroom Live",
     "desc": "The host talks about the latest and most important news from the city and world, live.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140534"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "21:00",
-    "stop": "21:30",
+    "start": "20260406210000 +0000",
+    "stop": "20260406213000 +0000",
     "startTs": 1775509200000,
     "stopTs": 1775511000000,
     "title": "Newsroom Live",
     "desc": "The host talks about the latest and most important news from the city and world, live.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140497"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "21:30",
-    "stop": "22:00",
+    "start": "20260406213000 +0000",
+    "stop": "20260406220000 +0000",
     "startTs": 1775511000000,
     "stopTs": 1775512800000,
     "title": "Newsroom Live",
     "desc": "The host talks about the latest and most important news from the city and world, live.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140505"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "22:00",
-    "stop": "22:30",
+    "start": "20260406220000 +0000",
+    "stop": "20260406223000 +0000",
     "startTs": 1775512800000,
     "stopTs": 1775514600000,
     "title": "Newsroom Live",
     "desc": "The host talks about the latest and most important news from the city and world, live.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140507"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "22:30",
-    "stop": "23:00",
+    "start": "20260406223000 +0000",
+    "stop": "20260406230000 +0000",
     "startTs": 1775514600000,
     "stopTs": 1775516400000,
     "title": "Newsroom Live",
     "desc": "The host talks about the latest and most important news from the city and world, live.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140539"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "23:00",
-    "stop": "23:30",
+    "start": "20260406230000 +0000",
+    "stop": "20260406233000 +0000",
     "startTs": 1775516400000,
     "stopTs": 1775518200000,
     "title": "Newsroom Live",
     "desc": "The host talks about the latest and most important news from the city and world, live.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140499"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "23:30",
-    "stop": "00:00",
+    "start": "20260406233000 +0000",
+    "stop": "20260407000000 +0000",
     "startTs": 1775518200000,
     "stopTs": 1775520000000,
     "title": "Newsroom Live",
     "desc": "The host talks about the latest and most important news from the city and world, live.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140518"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "00:00",
-    "stop": "00:30",
+    "start": "20260407000000 +0000",
+    "stop": "20260407003000 +0000",
     "startTs": 1775520000000,
     "stopTs": 1775521800000,
     "title": "Newsroom Live",
     "desc": "The host talks about the latest and most important news from the city and world, live.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140510"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260407003000 +0000",
+    "stop": "20260407010000 +0000",
     "startTs": 1775521800000,
     "stopTs": 1775523600000,
     "title": "Khobor Dinbhor",
     "desc": "The host talks about the latest and most important news from the city.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140537"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260407010000 +0000",
+    "stop": "20260407013000 +0000",
     "startTs": 1775523600000,
     "stopTs": 1775525400000,
     "title": "Jela Express",
     "desc": "The host presents the latest news stories from the various districts of West Bengal.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140515"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260407013000 +0000",
+    "stop": "20260407020000 +0000",
     "startTs": 1775525400000,
     "stopTs": 1775527200000,
     "title": "Khobor Dinbhor",
     "desc": "The host talks about the latest and most important news from the city.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140500"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260407020000 +0000",
+    "stop": "20260407023000 +0000",
     "startTs": 1775527200000,
     "stopTs": 1775529000000,
     "title": "Speed News",
     "desc": "The host presents a quick update on the top stories of the day.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140496"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260407023000 +0000",
+    "stop": "20260407030000 +0000",
     "startTs": 1775529000000,
     "stopTs": 1775530800000,
     "title": "Ek Phone-E Bangla",
     "desc": "The host presents the latest news stories and provides updates on current events.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140528"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260407030000 +0000",
+    "stop": "20260407033000 +0000",
     "startTs": 1775530800000,
     "stopTs": 1775532600000,
     "title": "Morning Superfast",
     "desc": "The host presents the latest news updates about various significant events.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140501"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "03:30",
-    "stop": "04:00",
+    "start": "20260407033000 +0000",
+    "stop": "20260407040000 +0000",
     "startTs": 1775532600000,
     "stopTs": 1775534400000,
     "title": "Najare Bangla",
     "desc": "The host delivers the latest news and developments to offer valuable insights.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140521"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "04:00",
-    "stop": "04:30",
+    "start": "20260407040000 +0000",
+    "stop": "20260407043000 +0000",
     "startTs": 1775534400000,
     "stopTs": 1775536200000,
     "title": "Morning Superfast",
     "desc": "The host presents the latest news updates about various significant events.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140498"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "04:30",
-    "stop": "05:00",
+    "start": "20260407043000 +0000",
+    "stop": "20260407050000 +0000",
     "startTs": 1775536200000,
     "stopTs": 1775538000000,
     "title": "Banglar Kurukhetra",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140511"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "05:00",
-    "stop": "05:30",
+    "start": "20260407050000 +0000",
+    "stop": "20260407053000 +0000",
     "startTs": 1775538000000,
     "stopTs": 1775539800000,
     "title": "Jhoro Ponero",
     "desc": "The host presents the latest news stories and provides updates on current events.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140506"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "05:30",
-    "stop": "06:00",
+    "start": "20260407053000 +0000",
+    "stop": "20260407060000 +0000",
     "startTs": 1775539800000,
     "stopTs": 1775541600000,
     "title": "Banglar Kurukhetra",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140522"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "06:00",
-    "stop": "06:30",
+    "start": "20260407060000 +0000",
+    "stop": "20260407063000 +0000",
     "startTs": 1775541600000,
     "stopTs": 1775543400000,
     "title": "Jhoro Ponero",
     "desc": "The host presents the latest news stories and provides updates on current events.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140523"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "06:30",
-    "stop": "07:00",
+    "start": "20260407063000 +0000",
+    "stop": "20260407070000 +0000",
     "startTs": 1775543400000,
     "stopTs": 1775545200000,
     "title": "Banglar Kurukhetra",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140516"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "07:00",
-    "stop": "07:30",
+    "start": "20260407070000 +0000",
+    "stop": "20260407073000 +0000",
     "startTs": 1775545200000,
     "stopTs": 1775547000000,
     "title": "Banglar Kurukhetra",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140503"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "07:30",
-    "stop": "08:00",
+    "start": "20260407073000 +0000",
+    "stop": "20260407080000 +0000",
     "startTs": 1775547000000,
     "stopTs": 1775548800000,
     "title": "Khobor Dinbhor",
     "desc": "The host talks about the latest and most important news from the city.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140529"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "08:00",
-    "stop": "08:30",
+    "start": "20260407080000 +0000",
+    "stop": "20260407083000 +0000",
     "startTs": 1775548800000,
     "stopTs": 1775550600000,
     "title": "Khobor Dinbhor",
     "desc": "The host talks about the latest and most important news from the city.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140541"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "08:30",
-    "stop": "09:00",
+    "start": "20260407083000 +0000",
+    "stop": "20260407090000 +0000",
     "startTs": 1775550600000,
     "stopTs": 1775552400000,
     "title": "Khobor Dinbhor",
     "desc": "The host talks about the latest and most important news from the city.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140535"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "09:00",
-    "stop": "09:30",
+    "start": "20260407090000 +0000",
+    "stop": "20260407093000 +0000",
     "startTs": 1775552400000,
     "stopTs": 1775554200000,
     "title": "Jela Express",
     "desc": "The host presents the latest news stories from the various districts of West Bengal.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140513"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "09:30",
-    "stop": "10:00",
+    "start": "20260407093000 +0000",
+    "stop": "20260407100000 +0000",
     "startTs": 1775554200000,
     "stopTs": 1775556000000,
     "title": "Khobor Dinbhor",
     "desc": "The host talks about the latest and most important news from the city.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140532"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "10:00",
-    "stop": "10:30",
+    "start": "20260407100000 +0000",
+    "stop": "20260407103000 +0000",
     "startTs": 1775556000000,
     "stopTs": 1775557800000,
     "title": "Khobor Dinbhor",
     "desc": "The host talks about the latest and most important news from the city.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140540"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "10:30",
-    "stop": "11:00",
+    "start": "20260407103000 +0000",
+    "stop": "20260407110000 +0000",
     "startTs": 1775557800000,
     "stopTs": 1775559600000,
     "title": "News18 Prime",
     "desc": "The host sheds light on the socio-economic and political news updates and developments.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140525"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "11:00",
-    "stop": "11:30",
+    "start": "20260407110000 +0000",
+    "stop": "20260407113000 +0000",
     "startTs": 1775559600000,
     "stopTs": 1775561400000,
     "title": "News18 Prime",
     "desc": "The host sheds light on the socio-economic and political news updates and developments.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140530"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "11:30",
-    "stop": "12:00",
+    "start": "20260407113000 +0000",
+    "stop": "20260407120000 +0000",
     "startTs": 1775561400000,
     "stopTs": 1775563200000,
     "title": "5 Tar 5 Meshali",
     "desc": "The host presents the latest news stories surrounding various issues in the country.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140512"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "12:00",
-    "stop": "12:30",
+    "start": "20260407120000 +0000",
+    "stop": "20260407123000 +0000",
     "startTs": 1775563200000,
     "stopTs": 1775565000000,
     "title": "Jela Express",
     "desc": "The host presents the latest news stories from the various districts of West Bengal.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140517"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "12:30",
-    "stop": "13:00",
+    "start": "20260407123000 +0000",
+    "stop": "20260407130000 +0000",
     "startTs": 1775565000000,
     "stopTs": 1775566800000,
     "title": "Jela Theke Sarasari",
     "desc": "The host presents the latest news pertaining to events of significance.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140536"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "13:00",
-    "stop": "13:30",
+    "start": "20260407130000 +0000",
+    "stop": "20260407133000 +0000",
     "startTs": 1775566800000,
     "stopTs": 1775568600000,
     "title": "Hotspot",
     "desc": "The host presents an analysis of the recent political, business and socio-economic news.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140538"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "13:30",
-    "stop": "14:00",
+    "start": "20260407133000 +0000",
+    "stop": "20260407140000 +0000",
     "startTs": 1775568600000,
     "stopTs": 1775570400000,
     "title": "Aamar Bangla",
     "desc": "The host talks about the latest news and updates from various parts of West Bengal.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140526"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "14:00",
-    "stop": "14:30",
+    "start": "20260407140000 +0000",
+    "stop": "20260407143000 +0000",
     "startTs": 1775570400000,
     "stopTs": 1775572200000,
     "title": "Aamar Bangla",
     "desc": "The host talks about the latest news and updates from various parts of West Bengal.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140508"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "14:30",
-    "stop": "15:00",
+    "start": "20260407143000 +0000",
+    "stop": "20260407150000 +0000",
     "startTs": 1775572200000,
     "stopTs": 1775574000000,
     "title": "Banglar Kurukhetra",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140514"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "15:00",
-    "stop": "15:30",
+    "start": "20260407150000 +0000",
+    "stop": "20260407153000 +0000",
     "startTs": 1775574000000,
     "stopTs": 1775575800000,
     "title": "Banglar Kurukhetra",
     "desc": "Bringing the best in television.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140520"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "15:30",
-    "stop": "16:00",
+    "start": "20260407153000 +0000",
+    "stop": "20260407160000 +0000",
     "startTs": 1775575800000,
     "stopTs": 1775577600000,
     "title": "Newsroom Live",
     "desc": "The host talks about the latest and most important news from the city and world, live.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140527"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "16:00",
-    "stop": "16:30",
+    "start": "20260407160000 +0000",
+    "stop": "20260407163000 +0000",
     "startTs": 1775577600000,
     "stopTs": 1775579400000,
     "title": "Newsroom Live",
     "desc": "The host talks about the latest and most important news from the city and world, live.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140542"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "16:30",
-    "stop": "17:00",
+    "start": "20260407163000 +0000",
+    "stop": "20260407170000 +0000",
     "startTs": 1775579400000,
     "stopTs": 1775581200000,
     "title": "Neta Noye Janata",
     "desc": ".",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140524"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "17:00",
-    "stop": "17:30",
+    "start": "20260407170000 +0000",
+    "stop": "20260407173000 +0000",
     "startTs": 1775581200000,
     "stopTs": 1775583000000,
     "title": "Sera 100",
     "desc": "The host presents the top 100 news updates from across the state and the nation.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140519"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "17:30",
-    "stop": "18:00",
+    "start": "20260407173000 +0000",
+    "stop": "20260407180000 +0000",
     "startTs": 1775583000000,
     "stopTs": 1775584800000,
     "title": "Sera 11",
     "desc": "The host presents information about the social, economic and political issues of the day.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140504"
   },
   {
     "channelId": "ts23",
     "channelName": "News18 Bangla",
-    "start": "18:00",
-    "stop": "18:30",
+    "start": "20260407180000 +0000",
+    "stop": "20260407183000 +0000",
     "startTs": 1775584800000,
     "stopTs": 1775586600000,
     "title": "Superfast Roundup",
     "desc": "The host presents the latest news updates from around the country and the world.",
-    "category": null
+    "channel": "ts23",
+    "catchup-id": "93140531"
   }
 ]

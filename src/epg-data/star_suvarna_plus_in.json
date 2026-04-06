@@ -2,430 +2,469 @@
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "18:30",
-    "stop": "21:30",
+    "start": "20260404183000 +0000",
+    "stop": "20260404213000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775338200000,
     "title": "Bhaagamathie",
     "desc": "An IAS officer gets possessed by a spirit when she is imprisoned in a haunted house.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93071642"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "21:30",
-    "stop": "00:30",
+    "start": "20260404213000 +0000",
+    "stop": "20260405003000 +0000",
     "startTs": 1775338200000,
     "stopTs": 1775349000000,
     "title": "Thaakath",
     "desc": "Basya, who is raised by two generous men, falls in love with the village head's daughter.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93071652"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260405003000 +0000",
+    "stop": "20260405010000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775350800000,
     "title": "Star Comedy Cafe",
     "desc": "Various comedians entertain the audience with their outstanding skits and jokes. S01 E21.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93071648"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260405010000 +0000",
+    "stop": "20260405013000 +0000",
     "startTs": 1775350800000,
     "stopTs": 1775352600000,
     "title": "Star Comedy Cafe",
     "desc": "Various comedians entertain the audience with their outstanding skits and jokes. S01 E22.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93071643"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260405013000 +0000",
+    "stop": "20260405020000 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775354400000,
     "title": "Yediyur Shree Siddhalingeshwara",
     "desc": "Lord Shiva incarnates himself as Sri Siddalingeshwara Swamy to restore peace on Earth. S01 E171.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93071646"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260405020000 +0000",
+    "stop": "20260405023000 +0000",
     "startTs": 1775354400000,
     "stopTs": 1775356200000,
     "title": "Yediyur Shree Siddhalingeshwara",
     "desc": "Lord Shiva incarnates himself as Sri Siddalingeshwara Swamy to restore peace on Earth. S01 E172.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93071647"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260405023000 +0000",
+    "stop": "20260405030000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775358000000,
     "title": "Radha Krishna",
     "desc": "Krishna tries to make Radha realise that she must accept her love for him to move on. S01 E235.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93071649"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260405030000 +0000",
+    "stop": "20260405033000 +0000",
     "startTs": 1775358000000,
     "stopTs": 1775359800000,
     "title": "Radha Krishna",
     "desc": "Radha gets defensive when Krishna states that she is used to calling him for help. S01 E236.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93071650"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "03:30",
-    "stop": "06:30",
+    "start": "20260405033000 +0000",
+    "stop": "20260405063000 +0000",
     "startTs": 1775359800000,
     "stopTs": 1775370600000,
     "title": "Veera Madakari",
     "desc": "After Madakari's death, his daughter is left on the doorstep of his strange doppelgänger.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93071644"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "06:30",
-    "stop": "09:30",
+    "start": "20260405063000 +0000",
+    "stop": "20260405093000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775381400000,
     "title": "Lakshmi Mahalakshmi",
     "desc": "Lakshmi insults her sister Anita for being poor but Anita vows to avenge her humiliation.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93071641"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "09:30",
-    "stop": "12:30",
+    "start": "20260405093000 +0000",
+    "stop": "20260405123000 +0000",
     "startTs": 1775381400000,
     "stopTs": 1775392200000,
     "title": "Gaalipata",
     "desc": "Ganesh falls in love with Sowmya, a widow who stays with her in-laws.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93241677"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "12:30",
-    "stop": "15:30",
+    "start": "20260405123000 +0000",
+    "stop": "20260405153000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775403000000,
     "title": "Ajay",
     "desc": "Cast: Puneeth Rajkumar, Anuradha Mehta",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93071653"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "15:30",
-    "stop": "18:30",
+    "start": "20260405153000 +0000",
+    "stop": "20260405183000 +0000",
     "startTs": 1775403000000,
     "stopTs": 1775413800000,
     "title": "Waltair Veerayya",
     "desc": "Cast: Chiranjeevi, Ravi Teja",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93071645"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "18:30",
-    "stop": "21:30",
+    "start": "20260405183000 +0000",
+    "stop": "20260405213000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775424600000,
     "title": "Sardar",
     "desc": "Inspector Vijay Prakash must stop a company from spreading toxic water across the nation.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93110266"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "21:30",
-    "stop": "00:30",
+    "start": "20260405213000 +0000",
+    "stop": "20260406003000 +0000",
     "startTs": 1775424600000,
     "stopTs": 1775435400000,
     "title": "Chellata",
     "desc": "A rich woman falls for Ganesh, but remains unaware of his poor financial condition.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93110265"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260406003000 +0000",
+    "stop": "20260406010000 +0000",
     "startTs": 1775435400000,
     "stopTs": 1775437200000,
     "title": "Star Comedy Cafe",
     "desc": "Various comedians entertain the audience with their outstanding skits and jokes. S01 E23.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93110274"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260406010000 +0000",
+    "stop": "20260406013000 +0000",
     "startTs": 1775437200000,
     "stopTs": 1775439000000,
     "title": "Star Comedy Cafe",
     "desc": "Various comedians entertain the audience with their outstanding skits and jokes. S01 E24.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93110264"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260406013000 +0000",
+    "stop": "20260406020000 +0000",
     "startTs": 1775439000000,
     "stopTs": 1775440800000,
     "title": "Yediyur Shree Siddhalingeshwara",
     "desc": "Lord Shiva incarnates himself as Sri Siddalingeshwara Swamy to restore peace on Earth. S01 E173.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93110269"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260406020000 +0000",
+    "stop": "20260406023000 +0000",
     "startTs": 1775440800000,
     "stopTs": 1775442600000,
     "title": "Yediyur Shree Siddhalingeshwara",
     "desc": "Lord Shiva incarnates himself as Sri Siddalingeshwara Swamy to restore peace on Earth. S01 E174.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93110276"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260406023000 +0000",
+    "stop": "20260406030000 +0000",
     "startTs": 1775442600000,
     "stopTs": 1775444400000,
     "title": "Radha Krishna",
     "desc": "Leaving Balram in charge of protecting Sage Durvasa on the mountain top, Krishna goes to meet Radha. S01 E237.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93110272"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260406030000 +0000",
+    "stop": "20260406033000 +0000",
     "startTs": 1775444400000,
     "stopTs": 1775446200000,
     "title": "Radha Krishna",
     "desc": "Krishna and Radha create a garland to celebrate Durvasa together. S01 E238.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93110271"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "03:30",
-    "stop": "06:30",
+    "start": "20260406033000 +0000",
+    "stop": "20260406063000 +0000",
     "startTs": 1775446200000,
     "stopTs": 1775457000000,
     "title": "Cheluvina Chittara",
     "desc": "A married woman vows to make amends after finding her former lover in a deranged state.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93110270"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "06:30",
-    "stop": "09:30",
+    "start": "20260406063000 +0000",
+    "stop": "20260406093000 +0000",
     "startTs": 1775457000000,
     "stopTs": 1775467800000,
     "title": "Bharjari",
     "desc": "Surya, an orphan, falls in love with a woman, but he receives an offer to join the army.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93110273"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "09:30",
-    "stop": "12:30",
+    "start": "20260406093000 +0000",
+    "stop": "20260406123000 +0000",
     "startTs": 1775467800000,
     "stopTs": 1775478600000,
     "title": "Raja The Great",
     "desc": "Raja, a visually impaired young man, steps in to save Lucky from a gangster.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93110267"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "12:30",
-    "stop": "15:30",
+    "start": "20260406123000 +0000",
+    "stop": "20260406153000 +0000",
     "startTs": 1775478600000,
     "stopTs": 1775489400000,
     "title": "Chandra Chakori",
     "desc": "Puttaraju falls in love with Sevanthi but has to choose between his love and his master.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93110268"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "15:30",
-    "stop": "18:30",
+    "start": "20260406153000 +0000",
+    "stop": "20260406183000 +0000",
     "startTs": 1775489400000,
     "stopTs": 1775500200000,
     "title": "Thirupathi",
     "desc": "A police officer undertakes a sacrifice after his father is involved in a brutal crime.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93110275"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "18:30",
-    "stop": "21:30",
+    "start": "20260406183000 +0000",
+    "stop": "20260406213000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775511000000,
     "title": "Maragatha Mani",
     "desc": "Two thieves take on an audacious task to acquire an antique emerald medallion.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93146942"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "21:30",
-    "stop": "00:30",
+    "start": "20260406213000 +0000",
+    "stop": "20260407003000 +0000",
     "startTs": 1775511000000,
     "stopTs": 1775521800000,
     "title": "Balaga",
     "desc": "A young man's attempt to pay off his debt is interrupted by his grandfather's death.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93146941"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "00:30",
-    "stop": "01:00",
+    "start": "20260407003000 +0000",
+    "stop": "20260407010000 +0000",
     "startTs": 1775521800000,
     "stopTs": 1775523600000,
     "title": "Star Comedy Cafe",
     "desc": "Various comedians entertain the audience with their outstanding skits and jokes. S01 E25.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93146946"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "01:00",
-    "stop": "01:30",
+    "start": "20260407010000 +0000",
+    "stop": "20260407013000 +0000",
     "startTs": 1775523600000,
     "stopTs": 1775525400000,
     "title": "Star Comedy Cafe",
     "desc": "Various comedians entertain the audience with their outstanding skits and jokes. S01 E26.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93146938"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "01:30",
-    "stop": "02:00",
+    "start": "20260407013000 +0000",
+    "stop": "20260407020000 +0000",
     "startTs": 1775525400000,
     "stopTs": 1775527200000,
     "title": "Yediyur Shree Siddhalingeshwara",
     "desc": "Lord Shiva incarnates himself as Sri Siddalingeshwara Swamy to restore peace on Earth. S01 E175.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93146943"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "02:00",
-    "stop": "02:30",
+    "start": "20260407020000 +0000",
+    "stop": "20260407023000 +0000",
     "startTs": 1775527200000,
     "stopTs": 1775529000000,
     "title": "Yediyur Shree Siddhalingeshwara",
     "desc": "Lord Shiva incarnates himself as Sri Siddalingeshwara Swamy to restore peace on Earth. S01 E176.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93146947"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "02:30",
-    "stop": "03:00",
+    "start": "20260407023000 +0000",
+    "stop": "20260407030000 +0000",
     "startTs": 1775529000000,
     "stopTs": 1775530800000,
     "title": "Radha Krishna",
     "desc": "Krishna instructs Balram to go into action if the asura in Shuka's disguise harms Radha. S01 E239.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93146948"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "03:00",
-    "stop": "03:30",
+    "start": "20260407030000 +0000",
+    "stop": "20260407033000 +0000",
     "startTs": 1775530800000,
     "stopTs": 1775532600000,
     "title": "Radha Krishna",
     "desc": "Radha lays a condition before Krishna in exchange for letting him worship her as his guru. S01 E240.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93146945"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "03:30",
-    "stop": "06:30",
+    "start": "20260407033000 +0000",
+    "stop": "20260407063000 +0000",
     "startTs": 1775532600000,
     "stopTs": 1775543400000,
     "title": "S/O Satyamurthy",
     "desc": "Anand faces challenges while handling the responsibility of his family.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93146949"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "06:30",
-    "stop": "09:30",
+    "start": "20260407063000 +0000",
+    "stop": "20260407093000 +0000",
     "startTs": 1775543400000,
     "stopTs": 1775554200000,
     "title": "Surya S/O India",
     "desc": "Surya, a court-martialed soldier, must seek approval for his anger management issues.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93146940"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "09:30",
-    "stop": "12:30",
+    "start": "20260407093000 +0000",
+    "stop": "20260407123000 +0000",
     "startTs": 1775554200000,
     "stopTs": 1775565000000,
     "title": "Aarya",
     "desc": "Arya, a free-spirited guy, relentlessly tries to woo Geethanjali, who has a rowdy boyfriend.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93146950"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "12:30",
-    "stop": "15:30",
+    "start": "20260407123000 +0000",
+    "stop": "20260407153000 +0000",
     "startTs": 1775565000000,
     "stopTs": 1775575800000,
     "title": "Pushpa: The Rise",
     "desc": "As Pushpa rises in the world of red sandalwood smuggling, he ends up making many enemies.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93146944"
   },
   {
     "channelId": "ts540",
     "channelName": "Star Suvarna Plus",
-    "start": "15:30",
-    "stop": "18:30",
+    "start": "20260407153000 +0000",
+    "stop": "20260407183000 +0000",
     "startTs": 1775575800000,
     "stopTs": 1775586600000,
     "title": "Julayi",
     "desc": "Bittu seeks vengeance after Ravi helps the police foil his plan of robbing a bank.",
-    "category": null
+    "channel": "ts540",
+    "catchup-id": "93146939"
   }
 ]
