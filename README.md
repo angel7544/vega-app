@@ -93,13 +93,13 @@ https://reactnative.dev/docs/signed-apk-android
 #### 📊 EPG Data Flow Architecture
 ```mermaid
 graph TD
-    RemoteSource["🌐 Remote IPTV Sources"] -->|XMLTV / M3U| Engine["⚙️ Extraction Engine"]
-    Engine -->|Large XML Pruning| Parser["🔬 Data Parser"]
-    Parser -->|Tata Play Integration| Metadata["🏗️ Metadata Alignment"]
-    Parser -->|JSON Chunking| Storage["📦 Optimized JSON Storage"]
-    Storage -->|On-Demand Fetching| App["📱 Vega App Frontend"]
-    App -->|Virtual Grid| Guide["📅 Live TV Guide"]
-    App -->|O(1) Lookup| RealTime["⏱️ Real-time Schedules"]
+    RemoteSource["🌐 Remote IPTV Sources"] -->|"XMLTV / M3U"| Engine["⚙️ Extraction Engine"]
+    Engine -->|"Large XML Pruning"| Parser["🔬 Data Parser"]
+    Parser -->|"Tata Play Integration"| Metadata["🏗️ Metadata Alignment"]
+    Parser -->|"JSON Chunking"| Storage["📦 Optimized JSON Storage"]
+    Storage -->|"On-Demand Fetching"| App["📱 Vega App Frontend"]
+    App -->|"Virtual Grid"| Guide["📅 Live TV Guide"]
+    App -->|"O(1) Lookup"| RealTime["⏱️ Real-time Schedules"]
 
     style Storage fill:#f9f,stroke:#333,stroke-width:2px
     style App fill:#bbf,stroke:#333,stroke-width:2px
