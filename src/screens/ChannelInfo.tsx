@@ -67,10 +67,10 @@ const ChannelInfo = () => {
   const [now, setNow] = useState(Date.now());
   const [loading, setLoading] = useState(true);
   const [showInfo, setShowInfo] = useState(true);
-  const [muted, setMuted] = useState(true);
+  const [muted, setMuted] = useState(false);
   const [isPaused, setIsPaused] = useState(!autoPlayChannel);
   const [reloadKey, setReloadKey] = useState(0);
-  const [resizeMode, setResizeMode] = useState<ResizeMode>(ResizeMode.COVER);
+  const [resizeMode, setResizeMode] = useState<ResizeMode>(ResizeMode.CONTAIN);
   const videoRef = useRef<VideoRef>(null);
   const controlTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const favorited = isFavorite(channel.url);
@@ -265,7 +265,7 @@ const ChannelInfo = () => {
   };
 
   const renderPlayer = () => (
-    <View className="flex-1 bg-gray-900 justify-center items-center overflow-hidden">
+    <View className="flex-1 bg-black justify-center items-center overflow-hidden">
       {channel.url ? (
         <Video
           ref={videoRef}
@@ -297,12 +297,17 @@ const ChannelInfo = () => {
         <Feather name="tv" size={80} color="white" />
       )}
 
-      {/* Gradient Overlay */}
-      <LinearGradient
-        colors={['rgba(0,0,0,0.5)', 'transparent', 'rgba(0,0,0,0.9)']}
-        style={[StyleSheet.absoluteFill, { elevation: 4 }]}
+      {/* Gradient Overlay - Now Animated to hide with controls */}
+      <Animated.View 
+        style={[StyleSheet.absoluteFill, animatedControlsStyle, { zIndex: 4, elevation: 4 }]} 
         pointerEvents="none"
-      />
+      >
+        <LinearGradient
+          colors={['rgba(0,0,0,0.4)', 'transparent', 'rgba(0,0,0,0.6)']}
+          style={StyleSheet.absoluteFill}
+          pointerEvents="none"
+        />
+      </Animated.View>
 
       {/* Tap Interaction Overlay */}
       <Pressable 
@@ -457,7 +462,7 @@ const ChannelInfo = () => {
           className="absolute bottom-24 left-6 right-6 flex-row items-center gap-x-4"
         >
           <View className="w-12 items-end">
-            <Text className="text-white text-[10px] font-black opacity-70">
+            <Text className="text-white text-[10px] font-black opacity-100">
               {new Date((progress * seekableDuration) * 1000).toISOString().substring(14, 19)}
             </Text>
           </View>
