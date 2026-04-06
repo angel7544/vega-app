@@ -8,12 +8,13 @@ import {
   TouchableOpacity,
   View,
   Image,
+  useWindowDimensions,
 } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import {Feather, MaterialCommunityIcons} from '@expo/vector-icons';
 import {useNavigation} from '@react-navigation/native';
 import {NativeStackNavigationProp} from '@react-navigation/native-stack';
-import {HomeStackParamList, SearchStackParamList} from '../App';
+import {HomeStackParamList, SearchStackParamList} from '../types/navigation';
 import useContentStore from '../lib/zustand/contentStore';
 import useHeroStore from '../lib/zustand/herostore';
 import {settingsStorage} from '../lib/storage';
@@ -26,10 +27,24 @@ interface HeroProps {
 }
 
 const Hero = memo(({isDrawerOpen, onOpenDrawer}: HeroProps) => {
-  const [searchActive, setSearchActive] = useState(false);
+  const {width: windowWidth, height: windowHeight} = useWindowDimensions();
+  const {mode} = useThemeStore(state => state);
   const {provider} = useContentStore(state => state);
   const {hero} = useHeroStore(state => state);
-  const {mode} = useThemeStore(state => state);
+  const isLandscape = windowWidth > windowHeight;
+  
+  // Dynamic height based on device type and orientation
+  const isLarge = windowWidth > 1024;
+  const isTablet = windowWidth > 768;
+  
+  const heroHeight = React.useMemo(() => {
+    if (isLandscape) {
+      return isLarge ? windowHeight * 0.4 : isTablet ? windowHeight * 0.45 : windowHeight * 0.55;
+    }
+    return isLarge ? windowHeight * 0.45 : isTablet ? windowHeight * 0.55 : windowHeight * 0.65;
+  }, [windowHeight, isLandscape, isLarge, isTablet]);
+
+  const [searchActive, setSearchActive] = useState(false);
 
   // Memoize settings to prevent re-renders
   const [showHamburgerMenu] = useState(() =>
@@ -127,7 +142,7 @@ const Hero = memo(({isDrawerOpen, onOpenDrawer}: HeroProps) => {
   }
 
   return (
-    <View className="relative h-[55vh]">
+    <View style={{ height: heroHeight as any }} className="relative w-full">
       {/* Header Controls */}
       <View className="absolute pt-3 w-full top-6 px-3 mt-2 z-30 flex-row justify-between items-center">
         {!searchActive && (
@@ -140,7 +155,9 @@ const Hero = memo(({isDrawerOpen, onOpenDrawer}: HeroProps) => {
             <Pressable
               className={`${isDrawerOpen ? 'opacity-0' : 'opacity-100'}`}
               onPress={onOpenDrawer}>
-              <Feather name="menu" size={27} color={mode === 'dark' ? 'white' : 'black'} />
+              <View className={`${mode === 'dark' ? 'bg-black/20' : 'bg-gray-100/50'} p-2 rounded-full backdrop-blur-md`}>
+                <Feather name="menu" size={27} color={mode === 'dark' ? 'white' : 'black'} />
+              </View>
             </Pressable>
           </View>
         )}
@@ -162,7 +179,9 @@ const Hero = memo(({isDrawerOpen, onOpenDrawer}: HeroProps) => {
 
         {!searchActive && (
           <Pressable onPress={() => setSearchActive(true)}>
-            <Feather name="search" size={24} color={mode === 'dark' ? 'white' : 'black'} />
+            <View className={`${mode === 'dark' ? 'bg-black/20' : 'bg-gray-100/50'} p-2 rounded-full backdrop-blur-md`}>
+              <Feather name="search" size={24} color={mode === 'dark' ? 'white' : 'black'} />
+            </View>
           </Pressable>
         )}
       </View>
@@ -175,7 +194,7 @@ const Hero = memo(({isDrawerOpen, onOpenDrawer}: HeroProps) => {
           source={imageSource}
           onError={handleImageError}
           className="h-full w-full"
-          style={{resizeMode: 'stretch'}}
+          style={{resizeMode: 'cover'}}
         />
       )}
 
@@ -195,7 +214,7 @@ const Hero = memo(({isDrawerOpen, onOpenDrawer}: HeroProps) => {
                 onError={() => console.warn('Logo failed to load')}
               />
             ) : (
-              <Text className="text-white text-center text-2xl font-bold">
+              <Text className="text-white text-center text-4xl font-black shadow-2xl tracking-tighter" style={{ textShadowColor: 'rgba(0,0,0,0.75)', textShadowOffset: {width: -1, height: 1}, textShadowRadius: 10 }}>
                 {heroData.name || heroData.title}
               </Text>
             )}
@@ -217,11 +236,11 @@ const Hero = memo(({isDrawerOpen, onOpenDrawer}: HeroProps) => {
             <View className="flex-1 items-center justify-center">
               {hero?.link && (
                 <TouchableOpacity
-                  className={`${mode === 'dark' ? 'bg-white' : 'bg-black'} px-10 py-2 rounded-lg flex-row items-center space-x-2`}
+                  className="bg-primary px-12 py-4 rounded-full flex-row items-center space-x-3 shadow-xl shadow-primary/40"
                   onPress={handlePlayPress}
                   activeOpacity={0.8}>
-                  <MaterialCommunityIcons name="play" size={24} color={mode === 'dark' ? 'black' : 'white'} />
-                  <Text className={`${mode === 'dark' ? 'text-black' : 'text-white'} font-bold text-lg`}>Play</Text>
+                  <MaterialCommunityIcons name="play" size={28} color="white" />
+                  <Text className="text-white font-black text-xl uppercase tracking-widest">Watch Now</Text>
                 </TouchableOpacity>
               )}
             </View>
@@ -250,9 +269,9 @@ const Hero = memo(({isDrawerOpen, onOpenDrawer}: HeroProps) => {
 
       {/* Gradients */}
       <LinearGradient
-        colors={['transparent', 'rgba(0,0,0,0.8)', 'black']}
-        locations={[0, 0.7, 1]}
-        className="absolute h-full w-full"
+        colors={['rgba(0,0,0,0.5)', 'transparent', 'rgba(0,0,0,0.8)', 'black']}
+        locations={[0, 0.4, 0.7, 1]}
+        className="absolute inset-0"
       />
 
       {searchActive && (

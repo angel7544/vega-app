@@ -19,6 +19,7 @@ import AntDesign from '@expo/vector-icons/AntDesign';
 import ReactNativeHapticFeedback from 'react-native-haptic-feedback';
 import {MaterialCommunityIcons} from '@expo/vector-icons';
 import LinearGradient from 'react-native-linear-gradient';
+import Animated, { FadeInRight, Layout, useAnimatedStyle, useSharedValue, withSpring } from 'react-native-reanimated';
 
 const ContinueWatching = () => {
   const themeState = useThemeStore();
@@ -28,13 +29,31 @@ const ContinueWatching = () => {
     useNavigation<NativeStackNavigationProp<TabStackParamList>>();
   const {history, removeItem} = useWatchHistoryStore(state => state);
   const {installedProviders, setProvider} = useContentStore((state: Content) => state);
-  const {width: windowWidth} = useWindowDimensions();
+  const {width: windowWidth, height: windowHeight} = useWindowDimensions();
+  const isLandscape = windowWidth > windowHeight;
+  
+  // Responsive sizing using windowWidth and orientation
+  const isLarge = windowWidth > 1024;
   const isTablet = windowWidth > 768;
-  const itemWidth = isTablet ? 150 : 100;
-  const itemHeight = isTablet ? 225 : 150;
+  
+  const itemWidth = React.useMemo(() => {
+    if (isLandscape) return isLarge ? 200 : isTablet ? 160 : 120;
+    return isLarge ? 220 : isTablet ? 180 : 130;
+  }, [isLandscape, isLarge, isTablet]);
+
+  const itemHeight = React.useMemo(() => {
+    if (isLandscape) return isLarge ? 110 : isTablet ? 90 : 70;
+    return isLarge ? 130 : isTablet ? 110 : 80;
+  }, [isLandscape, isLarge, isTablet]);
+  
   const [progressData, setProgressData] = useState<Record<string, number>>({});
   const [selectedItems, setSelectedItems] = useState<Set<string>>(new Set());
   const [selectionMode, setSelectionMode] = useState<boolean>(false);
+
+  const scale = useSharedValue(1);
+  const animatedStyle = useAnimatedStyle(() => ({
+    transform: [{ scale: scale.value }]
+  }));
 
   // Filter out duplicates and get the most recent items
   const recentItems = React.useMemo(() => {
@@ -59,7 +78,6 @@ const ContinueWatching = () => {
 
       recentItems.forEach(item => {
         try {
-          // Try to get dedicated watch history progress
           const historyKey = item.link;
           const historyProgressKey = `watch_history_progress_${historyKey}`;
           const storedProgress = MMKV.getString(historyProgressKey);
@@ -67,10 +85,7 @@ const ContinueWatching = () => {
           if (storedProgress) {
             const parsed = JSON.parse(storedProgress);
             if (parsed.percentage) {
-              progressMap[item.link] = Math.min(
-                Math.max(parsed.percentage, 0),
-                100,
-              );
+              progressMap[item.link] = Math.min(Math.max(parsed.percentage, 0), 100);
             } else if (parsed.currentTime && parsed.duration) {
               const percentage = (parsed.currentTime / parsed.duration) * 100;
               progressMap[item.link] = Math.min(Math.max(percentage, 0), 100);
@@ -92,7 +107,6 @@ const ContinueWatching = () => {
 
   const handleNavigateToInfo = (item: any) => {
     try {
-      // Detect if it's Live TV immediately
       if (item.isLiveTV) {
         (navigation as any).navigate('ChannelInfo', {
           channel: {
@@ -106,7 +120,6 @@ const ContinueWatching = () => {
         return;
       }
 
-      // Remember and sync the provider for standard content
       if (item.provider) {
         const matchingProvider = installedProviders.find((p: any) => p.value === item.provider);
         if (matchingProvider) {
@@ -114,7 +127,6 @@ const ContinueWatching = () => {
         }
       }
 
-      // Parse the link if it's a JSON string
       let linkData = item.link;
       if (typeof item.link === 'string' && item.link.startsWith('{')) {
         try {
@@ -124,7 +136,6 @@ const ContinueWatching = () => {
         }
       }
       
-      // Navigate to Info screen
       navigation.navigate('HomeStack', {
         screen: 'Info',
         params: {
@@ -146,12 +157,9 @@ const ContinueWatching = () => {
       } else {
         newSelected.add(link);
       }
-
-      // Exit selection mode if no items are selected
       if (newSelected.size === 0) {
         setSelectionMode(false);
       }
-
       return newSelected;
     });
   };
@@ -161,13 +169,18 @@ const ContinueWatching = () => {
       enableVibrateFallback: true,
       ignoreAndroidSystemSettings: false,
     });
-
-    // Enter selection mode if not already in it
     if (!selectionMode) {
       setSelectionMode(true);
     }
-
     toggleItemSelection(link);
+  };
+
+  const handlePressIn = () => {
+    scale.value = withSpring(0.95);
+  };
+
+  const handlePressOut = () => {
+    scale.value = withSpring(1);
   };
 
   const handlePress = (item: any) => {
@@ -188,42 +201,30 @@ const ContinueWatching = () => {
     setSelectionMode(false);
   };
 
-  const exitSelectionMode = () => {
-    setSelectedItems(new Set());
-    setSelectionMode(false);
-  };
-
-  // Only render if we have items (MOVED AFTER ALL HOOKS)
   if (recentItems.length === 0) {
     return null;
   }
 
   return (
-    <Pressable
-      onPress={() => selectionMode && exitSelectionMode()}
-      className="mt-3 mb-8">
-      <View className="flex flex-row justify-between items-center px-2 mb-3">
-        <Text
-          className={`text-2xl font-semibold ${mode === 'dark' ? '' : 'text-black'}`}
-          style={mode === 'dark' ? {color: primary} : {}}>
-          Continue Watching
-        </Text>
+    <View className="mt-4 mb-10">
+      <View className="flex flex-row justify-between items-center px-4 mb-4">
+        <View className="flex-row items-center">
+            <View style={{ backgroundColor: primary }} className="w-1.5 h-6 rounded-full mr-3" />
+            <Text
+               className={`text-xl font-black uppercase tracking-widest ${mode === 'dark' ? 'text-white' : 'text-black'}`}>
+               Jump Back In
+            </Text>
+        </View>
 
         {selectionMode && selectedItems.size > 0 && (
-          <View className="flex flex-row items-center">
-            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} mr-1`}>
-              {selectedItems.size} selected
+          <TouchableOpacity
+            onPress={deleteSelectedItems}
+            className="bg-red-500/10 px-3 py-1.5 rounded-full flex-row items-center border border-red-500/20">
+            <Text className="text-red-500 text-xs font-black mr-2 italic">
+               Clear ({selectedItems.size})
             </Text>
-            <TouchableOpacity
-              onPress={deleteSelectedItems}
-              className=" rounded-full mr-2">
-              <MaterialCommunityIcons
-                name="delete-outline"
-                size={25}
-                color={primary}
-              />
-            </TouchableOpacity>
-          </View>
+            <MaterialCommunityIcons name="trash-can-outline" size={16} color={primary} />
+          </TouchableOpacity>
         )}
       </View>
 
@@ -232,84 +233,96 @@ const ContinueWatching = () => {
         horizontal
         showsHorizontalScrollIndicator={false}
         keyExtractor={item => item.link}
-        contentContainerStyle={{paddingHorizontal: 12}}
-        renderItem={({item}) => {
+        contentContainerStyle={{paddingHorizontal: 16}}
+        renderItem={({item, index}) => {
           const progress = progressData[item.link] || 0;
           const isSelected = selectedItems.has(item.link);
 
           return (
-            <TouchableOpacity
-              activeOpacity={0.8}
-              className="mr-5"
-              style={{width: itemWidth}}
-              onLongPress={e => {
-                e.stopPropagation();
-                handleLongPress(item.link);
-              }}
-              onPress={e => {
-                e.stopPropagation();
-                handlePress(item);
-              }}>
-              <View className="relative shadow-2xl overflow-hidden rounded-2xl" 
-                style={{ 
-                  width: itemWidth, 
-                  height: itemHeight,
-                  backgroundColor: mode === 'dark' ? '#111' : '#f0f0f0' 
-                }}>
-                <Image
-                  source={{uri: item?.poster}}
-                  className="w-full h-full"
-                  style={{resizeMode: 'cover'}}
-                />
+            <Animated.View 
+               entering={FadeInRight.delay(index * 100).springify()}
+               layout={Layout.springify()}
+            >
+              <TouchableOpacity
+                activeOpacity={1}
+                onPressIn={handlePressIn}
+                onPressOut={handlePressOut}
+                className="mr-4"
+                style={[{width: itemWidth}, animatedStyle]}
+                onLongPress={() => handleLongPress(item.link)}
+                onPress={() => handlePress(item)}>
+                
+                <View className={`relative overflow-hidden rounded-[24px] border ${mode === 'dark' ? 'border-white/10 bg-[#0A0A0A]' : 'border-black/5 bg-gray-50'}`} 
+                  style={{ 
+                    width: itemWidth, 
+                    height: itemHeight,
+                    shadowColor: primary,
+                    shadowOffset: { width: 0, height: 4 },
+                    shadowOpacity: 0.1,
+                    shadowRadius: 8,
+                  }}>
+                  
+                  <Image
+                    source={{uri: item?.poster}}
+                    className="w-full h-full opacity-60"
+                    style={{resizeMode: 'cover'}}
+                  />
 
-                {/* Progress Overlay Gradient */}
-                <LinearGradient
-                  colors={['transparent', 'rgba(0,0,0,0.4)', 'rgba(0,0,0,0.85)']}
-                  className="absolute bottom-0 left-0 right-0 h-1/2 justify-end"
-                >
-                  <View className="p-2">
-                    <Text
-                      className="text-white font-bold text-[9px] mb-2 px-0.5"
-                      numberOfLines={1}
-                    >
-                      {item.title}
-                    </Text>
+                  {/* Creative Glass Overlay */}
+                  <LinearGradient
+                    colors={['transparent', 'rgba(0,0,0,0.85)']}
+                    className="absolute inset-0 justify-end p-3"
+                  >
+                    <View className="flex-row items-center justify-between mb-2">
+                       <Text
+                          className="text-white font-black text-[10px] uppercase tracking-tighter flex-1"
+                          numberOfLines={1}
+                       >
+                          {item.title}
+                       </Text>
+                       <MaterialCommunityIcons name="play-circle" size={18} color="white" style={{ opacity: 0.8 }} />
+                    </View>
                     
-                    {/* Minimalist Progress Bar */}
-                    <View className="h-1 bg-white/20 w-full rounded-full overflow-hidden">
+                    {/* Glowing Progress Architecture */}
+                    <View className="h-1 bg-white/10 w-full rounded-full overflow-hidden border border-white/5">
                       <View
                         style={{
                           height: '100%',
                           width: `${progress}%`,
                           backgroundColor: primary,
-                          shadowColor: primary,
-                          shadowRadius: 3,
-                          elevation: 3,
                         }}
                       />
                     </View>
-                  </View>
-                </LinearGradient>
+                    
+                    {/* Bottom Aura Glow */}
+                    <View 
+                       className="absolute bottom-0 left-0 right-0 h-[2px]" 
+                       style={{ 
+                          backgroundColor: primary, 
+                          opacity: 0.3,
+                          shadowColor: primary,
+                          shadowRadius: 10,
+                          shadowOpacity: 1,
+                          elevation: 10
+                       }} 
+                    />
+                  </LinearGradient>
 
-                {/* Selection Indicators */}
-                {selectionMode && (
-                  <View className="absolute top-2 right-2 z-50">
-                    <View
-                      className={`w-6 h-6 rounded-full items-center justify-center border-2 ${
-                        isSelected ? 'border-white' : 'border-white/50 bg-black/30'
-                      }`}
-                      style={{ backgroundColor: isSelected ? primary : undefined }}>
-                      {isSelected && <AntDesign name="check" size={14} color="white" />}
+                  {/* Selection Glow */}
+                  {isSelected && (
+                    <View className="absolute inset-0 bg-primary/40 flex items-center justify-center">
+                       <View className="bg-white rounded-full p-2">
+                          <AntDesign name="check" size={20} color={primary} />
+                       </View>
                     </View>
-                  </View>
-                )}
-                {isSelected && <View className="absolute inset-0 bg-black/40" />}
-              </View>
-            </TouchableOpacity>
+                  )}
+                </View>
+              </TouchableOpacity>
+            </Animated.View>
           );
         }}
       />
-    </Pressable>
+    </View>
   );
 };
 

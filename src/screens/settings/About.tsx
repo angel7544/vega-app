@@ -1,22 +1,26 @@
 import {
   View,
   Text,
-  TouchableNativeFeedback,
   Linking,
   Alert,
   Switch,
   ScrollView,
+  TouchableOpacity,
+  Image,
+  useWindowDimensions,
 } from 'react-native';
 import React, {useState} from 'react';
-import {Feather} from '@expo/vector-icons';
+import {Feather, MaterialCommunityIcons} from '@expo/vector-icons';
 import {settingsStorage} from '../../lib/storage';
 import * as RNFS from '@dr.pogodin/react-native-fs';
-import {MaterialCommunityIcons} from '@expo/vector-icons';
 import useThemeStore from '../../lib/zustand/themeStore';
 import * as Application from 'expo-application';
 import {notificationService} from '../../lib/services/Notification';
 import useToastStore from '../../lib/zustand/toastStore';
 import UpdateModal from '../../components/UpdateModal';
+import Animated, {FadeInDown} from 'react-native-reanimated';
+import {useNavigation} from '@react-navigation/native';
+import LinearGradient from 'react-native-linear-gradient';
 
 // download update
 const downloadUpdate = async (url: string, name: string) => {
@@ -108,6 +112,8 @@ export const checkForUpdate = async (
 
 const About = () => {
   const {primary, mode} = useThemeStore(state => state);
+  const {width: windowWidth} = useWindowDimensions();
+  const navigation = useNavigation();
   const [updateLoading, setUpdateLoading] = useState(false);
   const [autoDownload, setAutoDownload] = useState(
     settingsStorage.isAutoDownloadEnabled(),
@@ -130,115 +136,168 @@ const About = () => {
     );
   };
 
+  const OptionCard = ({ icon, label, subLabel, value, onToggle, onPress, delay }: any) => (
+    <Animated.View entering={FadeInDown.delay(delay).springify()}>
+      <TouchableOpacity 
+        activeOpacity={onPress ? 0.7 : 1}
+        onPress={onPress}
+        className={`${mode === 'dark' ? 'bg-[#121212]' : 'bg-gray-100'} rounded-2xl p-4 mb-4 border ${mode === 'dark' ? 'border-white/5' : 'border-black/5'} flex-row items-center justify-between shadow-sm`}
+      >
+        <View className="flex-row items-center flex-1">
+          <View style={{ backgroundColor: `${primary}15` }} className="w-10 h-10 rounded-xl items-center justify-center mr-4">
+             <MaterialCommunityIcons name={icon} size={22} color={primary} />
+          </View>
+          <View className="flex-1">
+            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-bold text-base`}>{label}</Text>
+            {subLabel && <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-xs mt-0.5`}>{subLabel}</Text>}
+          </View>
+        </View>
+        {onToggle ? (
+          <Switch
+            value={value}
+            onValueChange={onToggle}
+            thumbColor={value ? primary : '#666'}
+            trackColor={{ false: '#333', true: `${primary}50` }}
+          />
+        ) : onPress ? (
+          <Feather name="chevron-right" size={20} color={mode === 'dark' ? '#555' : '#AAA'} />
+        ) : (
+          <Text className={`${mode === 'dark' ? 'text-white/60' : 'text-black/60'} font-black text-sm`}>{value}</Text>
+        )}
+      </TouchableOpacity>
+    </Animated.View>
+  );
+
   return (
-    <View className={`flex-1 ${mode === 'dark' ? 'bg-black' : 'bg-white'} mt-8`}>
-      <View className={`px-4 py-3 border-b ${mode === 'dark' ? 'border-white/10' : 'border-black/5'}`}>
-        <Text className={`text-2xl font-bold ${mode === 'dark' ? 'text-white' : 'text-black'}`}>About</Text>
-        <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} mt-1 text-sm`}>
-          App information and updates
-        </Text>
+    <View className={`flex-1 ${mode === 'dark' ? 'bg-black' : 'bg-white'}`}>
+      {/* Premium Header */}
+      <View className={`px-6 pt-12 pb-6 flex-row items-center justify-between border-b ${mode === 'dark' ? 'border-white/5' : 'border-black/5'}`}>
+         <View className="flex-row items-center">
+            <TouchableOpacity
+               onPress={() => navigation.goBack()}
+               className={`w-10 h-10 rounded-full items-center justify-center ${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} mr-4`}>
+               <Feather
+                  name="chevron-left"
+                  size={24}
+                  color={mode === 'dark' ? 'white' : 'black'}
+               />
+            </TouchableOpacity>
+            <Text
+               className={`text-2xl font-black ${
+                  mode === 'dark' ? 'text-white' : 'text-black'
+               }`}>
+               About
+            </Text>
+         </View>
+         <MaterialCommunityIcons name="information-outline" size={24} color={primary} />
       </View>
 
-      <ScrollView className="p-4 space-y-4 pb-24">
-        {/* Version */}
-        <View className={`${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} p-4 rounded-lg flex-row justify-between items-center mb-4`}>
-          <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>Version</Text>
-          <Text className={mode === 'dark' ? 'text-white/70' : 'text-black/70'}>
-            v{Application.nativeApplicationVersion}
-          </Text>
-        </View>
+      <ScrollView 
+        showsVerticalScrollIndicator={false}
+        contentContainerStyle={{paddingBottom: 60, paddingTop: 24, paddingHorizontal: 20}}
+      >
+        {/* App Logo & Info Area */}
+        <Animated.View entering={FadeInDown.delay(100).springify()} className="items-center mb-10">
+           <View className="relative">
+              <View style={{ backgroundColor: primary, opacity: 0.1 }} className="absolute -inset-4 rounded-[32px] blur-2xl" />
+              <Image 
+                source={{ uri: 'https://br31tech.live/logo.png' }}
+                style={{ width: 100, height: 100, borderRadius: 24 }}
+                resizeMode="contain"
+              />
+           </View>
+           <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-black text-3xl mt-6 tracking-tighter`}>VEGA APP</Text>
+           <View className="bg-primary/10 px-4 py-1.5 rounded-full border border-primary/20 mt-3">
+              <Text className="text-primary font-black uppercase text-[10px] tracking-[3px]">Orbix Edition</Text>
+           </View>
+        </Animated.View>
 
-        {/* Auto Install Updates */}
-        <View className={`${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} p-4 rounded-lg flex-row justify-between items-center mb-4`}>
-          <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>Auto Install Updates</Text>
-          <Switch
-            value={autoDownload}
-            onValueChange={() => {
+        {/* Info Sections */}
+        <OptionCard 
+           icon="identifier" 
+           label="Version" 
+           value={`v${Application.nativeApplicationVersion}`} 
+           delay={200}
+        />
+        
+        <OptionCard 
+           icon="auto-fix" 
+           label="Auto Install Updates" 
+           subLabel="Efficient background deployment"
+           value={autoDownload}
+           onToggle={() => {
               setAutoDownload(!autoDownload);
               settingsStorage.setAutoDownloadEnabled(!autoDownload);
-            }}
-            thumbColor={autoDownload ? primary : 'gray'}
-          />
-        </View>
+           }}
+           delay={300}
+        />
 
-        {/* Auto Check Updates */}
-        <View className={`${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} p-3 rounded-lg flex-row justify-between items-center mb-4`}>
-          <View className="flex-1 mr-2">
-            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>Check Updates on Start</Text>
-            <Text className={mode === 'dark' ? 'text-gray-400' : 'text-gray-500'}>
-              Automatically check for updates when app starts
-            </Text>
-          </View>
-          <Switch
-            value={autoCheckUpdate}
-            onValueChange={() => {
+        <OptionCard 
+           icon="sync-alert" 
+           label="Check on Startup" 
+           subLabel="Stay ahead with real-time sync"
+           value={autoCheckUpdate}
+           onToggle={() => {
               setAutoCheckUpdate(!autoCheckUpdate);
               settingsStorage.setAutoCheckUpdateEnabled(!autoCheckUpdate);
-            }}
-            thumbColor={autoCheckUpdate ? primary : 'gray'}
-          />
-        </View>
+           }}
+           delay={400}
+        />
 
-        {/* Check Updates Button */}
-        <TouchableNativeFeedback
-          onPress={handleUpdatePress}
-          disabled={updateLoading}
-          background={TouchableNativeFeedback.Ripple(mode === 'dark' ? '#ffffff20' : '#00000010', false)}>
-          <View className={`${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} p-4 rounded-lg flex-row justify-between items-center mt-4`}>
-            <View className="flex-row items-center space-x-3">
-              <MaterialCommunityIcons name="cloud-refresh" size={22} color={mode === 'dark' ? 'white' : 'black'} />
-              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base`}>Check for Updates</Text>
-            </View>
-            <Feather name="chevron-right" size={20} color={mode === 'dark' ? 'white' : 'black'} />
-          </View>
-        </TouchableNativeFeedback>
+        <OptionCard 
+           icon="cloud-refresh" 
+           label="Check for Updates" 
+           subLabel="Verify latest version manually"
+           onPress={handleUpdatePress}
+           delay={500}
+        />
 
-        {/* Developer Section */}
-        <View className={`mt-8 border-t ${mode === 'dark' ? 'border-white/10' : 'border-black/5'} pt-6`}>
-          <Text className="text-gray-400 uppercase text-xs font-bold mb-4 tracking-widest">
-            Developed By
-          </Text>
-          
-          <View className={`${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} p-4 rounded-2xl mb-4`}>
-            <View className="flex-row items-center mb-4">
-              <View className="w-12 h-12 bg-primary/20 rounded-full items-center justify-center mr-4">
-                <MaterialCommunityIcons name="code-braces" size={24} color={primary} />
-              </View>
-              <View>
-                <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-bold text-lg`}>br31tech.live</Text>
-                <Text className={mode === 'dark' ? 'text-gray-400' : 'text-gray-500'}>Digital Solutions & Innovation</Text>
-              </View>
-            </View>
-            
-            <Text className={`${mode === 'dark' ? 'text-gray-300' : 'text-gray-700'} text-sm leading-5 mb-4`}>
-              Crafted with ❤️ by the team at BR31 Technologies. We specialize in building high-performance digital experiences.
-            </Text>
-
-            <View className="flex-row space-x-3">
-              <TouchableNativeFeedback
-                onPress={() => Linking.openURL('https://www.br31tech.live')}
-                background={TouchableNativeFeedback.Ripple(mode === 'dark' ? '#ffffff20' : '#00000010', false)}>
-                <View className={`${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'} flex-1 py-3 rounded-xl items-center justify-center flex-row`}>
-                  <Feather name="globe" size={16} color={mode === 'dark' ? 'white' : 'black'} className="mr-2" />
-                  <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-sm font-medium`}>Website</Text>
+        {/* Developer Branding Section */}
+        <Animated.View entering={FadeInDown.delay(600).springify()} className="mt-10">
+           <Text className="text-gray-500 font-black uppercase tracking-[4px] text-[10px] mb-6 text-center">Development Powerhouse</Text>
+           
+           <View className={`${mode === 'dark' ? 'bg-[#0A0A0A]' : 'bg-gray-100'} p-6 rounded-[32px] border ${mode === 'dark' ? 'border-white/5' : 'border-black/5'} overflow-hidden`}>
+              <LinearGradient
+                colors={['transparent', mode === 'dark' ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)']}
+                className="absolute inset-0"
+              />
+              <View className="flex-row items-center mb-6">
+                <Image 
+                  source={{ uri: 'https://br31tech.live/logo.png' }}
+                  style={{ width: 44, height: 44, borderRadius: 12 }}
+                />
+                <View className="ml-4">
+                  <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-black text-lg tracking-tight`}>BR31 TECHNOLOGIES</Text>
+                  <Text className="text-primary font-bold text-[10px] uppercase tracking-widest">Digital Excellence</Text>
                 </View>
-              </TouchableNativeFeedback>
-              
-              <TouchableNativeFeedback
-                onPress={() => Linking.openURL('mailto:info@br31tech.live')}
-                background={TouchableNativeFeedback.Ripple(mode === 'dark' ? '#ffffff20' : '#00000010', false)}>
-                <View className={`${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'} flex-1 py-3 rounded-xl items-center justify-center flex-row`}>
-                  <Feather name="mail" size={16} color={mode === 'dark' ? 'white' : 'black'} className="mr-2" />
-                  <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-sm font-medium`}>Contact</Text>
-                </View>
-              </TouchableNativeFeedback>
-            </View>
-          </View>
+              </View>
 
-          <Text className="text-gray-500 text-[10px] text-center mt-4">
-            © 2026 BR31 Technologies • All Rights Reserved
-          </Text>
-        </View>
+              <Text className={`${mode === 'dark' ? 'text-white/60' : 'text-black/60'} text-xs leading-5 mb-8 font-medium`}>
+                 Dedicated to refining the global streaming landscape through innovative pipelines and state-of-the-art UI architectures.
+              </Text>
+
+              <View className="flex-row space-x-3">
+                <TouchableOpacity 
+                  onPress={() => Linking.openURL('https://www.br31tech.live')}
+                  className="flex-1 bg-white/[0.03] border border-white/5 py-4 rounded-2xl items-center flex-row justify-center"
+                >
+                   <Feather name="globe" size={14} color={primary} />
+                   <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} ml-2 font-bold text-xs uppercase tracking-widest`}>Portal</Text>
+                </TouchableOpacity>
+                <TouchableOpacity 
+                   onPress={() => Linking.openURL('mailto:info@br31tech.live')}
+                   className="flex-1 bg-white/[0.03] border border-white/5 py-4 rounded-2xl items-center flex-row justify-center"
+                >
+                   <Feather name="mail" size={14} color={primary} />
+                   <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} ml-2 font-bold text-xs uppercase tracking-widest`}>Support</Text>
+                </TouchableOpacity>
+              </View>
+           </View>
+
+           <Text className="text-gray-600 text-[9px] font-black text-center mt-8 uppercase tracking-[2px] opacity-40">
+              Orbix Pipeline • v{Application.nativeApplicationVersion} • Built with Passion
+           </Text>
+        </Animated.View>
       </ScrollView>
 
       {updateData && (
