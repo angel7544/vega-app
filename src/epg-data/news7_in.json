@@ -1,26 +1,26 @@
 [
   {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "ts448",
+    "catchup-id": "93104680",
     "channelId": "ts448",
     "channelName": "News7",
-    "start": "20260405183000 +0000",
-    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Khabar India",
-    "desc": "The host shares the latest news stories and updates from across the country.",
-    "channel": "ts448",
-    "catchup-id": "93104680"
+    "desc": "The host shares the latest news stories and updates from across the country."
   },
   {
+    "start": "19:00",
+    "stop": "20:00",
+    "channel": "ts448",
+    "catchup-id": "93104706",
     "channelId": "ts448",
     "channelName": "News7",
-    "start": "20260405190000 +0000",
-    "stop": "20260405200000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775419200000,
     "title": "Bfo",
-    "desc": "Bringing the best in television.",
-    "channel": "ts448",
-    "catchup-id": "93104706"
+    "desc": "Bringing the best in television."
   }
 ]

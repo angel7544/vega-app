@@ -1,38 +1,38 @@
 [
   {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "ts898",
+    "catchup-id": "93100100",
     "channelId": "ts898",
     "channelName": "Hornbill TV",
-    "start": "20260405183000 +0000",
-    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Music",
-    "desc": "A compilation of popular songs is played back-to-back to entertain the audience.",
-    "channel": "ts898",
-    "catchup-id": "93100100"
+    "desc": "A compilation of popular songs is played back-to-back to entertain the audience."
   },
   {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "ts898",
+    "catchup-id": "93100108",
     "channelId": "ts898",
     "channelName": "Hornbill TV",
-    "start": "20260405190000 +0000",
-    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Music",
-    "desc": "A compilation of popular songs is played back-to-back to entertain the audience.",
-    "channel": "ts898",
-    "catchup-id": "93100108"
+    "desc": "A compilation of popular songs is played back-to-back to entertain the audience."
   },
   {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "ts898",
+    "catchup-id": "93100097",
     "channelId": "ts898",
     "channelName": "Hornbill TV",
-    "start": "20260405193000 +0000",
-    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Northeast Express",
-    "desc": "The host provides a detailed report on the latest news and developments.",
-    "channel": "ts898",
-    "catchup-id": "93100097"
+    "desc": "The host provides a detailed report on the latest news and developments."
   }
 ]

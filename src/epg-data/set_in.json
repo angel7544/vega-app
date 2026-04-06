@@ -1,992 +1,992 @@
 [
   {
+    "start": "19:00",
+    "stop": "19:50",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260405190000 +0000",
-    "stop": "20260405195000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775418600000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E42 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E42 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "19:50",
+    "stop": "21:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260405195000 +0000",
-    "stop": "20260405213000 +0000",
     "startTs": 1775418600000,
     "stopTs": 1775424600000,
     "title": "Best of Crime Patrol - Crime Patrol 48 Hours",
-    "desc": "S1 E30 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E30 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "21:30",
+    "stop": "22:10",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260405213000 +0000",
-    "stop": "20260405221000 +0000",
     "startTs": 1775424600000,
     "stopTs": 1775427000000,
     "title": "Best of Crime Patrol - Crime Patrol Satark",
-    "desc": "S1 E320 A compilation of some of the most spine-chilling cases from 'Crime Patrol', which investigates murders, kidnappings and thefts among other heinous crimes.",
-    "channel": "SET.in"
+    "desc": "S1 E320 A compilation of some of the most spine-chilling cases from 'Crime Patrol', which investigates murders, kidnappings and thefts among other heinous crimes."
   },
   {
+    "start": "22:10",
+    "stop": "22:50",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260405221000 +0000",
-    "stop": "20260405225000 +0000",
     "startTs": 1775427000000,
     "stopTs": 1775429400000,
     "title": "Best of Crime Patrol - Crime Patrol Dial 100",
-    "desc": "S1 E524 A compilation of some of the most spine-chilling cases from 'Crime Patrol Dial 100', which investigates murders, kidnappings and thefts among other heinous crimes.",
-    "channel": "SET.in"
+    "desc": "S1 E524 A compilation of some of the most spine-chilling cases from 'Crime Patrol Dial 100', which investigates murders, kidnappings and thefts among other heinous crimes."
   },
   {
+    "start": "22:50",
+    "stop": "23:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260405225000 +0000",
-    "stop": "20260405233000 +0000",
     "startTs": 1775429400000,
     "stopTs": 1775431800000,
     "title": "Best of Crime Patrol - Crime Patrol Dial 100",
-    "desc": "S1 E397 A compilation of some of the most spine-chilling cases from 'Crime Patrol Dial 100', which investigates murders, kidnappings and thefts among other heinous crimes.",
-    "channel": "SET.in"
+    "desc": "S1 E397 A compilation of some of the most spine-chilling cases from 'Crime Patrol Dial 100', which investigates murders, kidnappings and thefts among other heinous crimes."
   },
   {
+    "start": "23:30",
+    "stop": "00:10",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260405233000 +0000",
-    "stop": "20260406001000 +0000",
     "startTs": 1775431800000,
     "stopTs": 1775434200000,
     "title": "Best of Crime Patrol",
-    "desc": "Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society.",
-    "channel": "SET.in"
+    "desc": "Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society."
   },
   {
+    "start": "00:10",
+    "stop": "00:50",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406001000 +0000",
-    "stop": "20260406005000 +0000",
     "startTs": 1775434200000,
     "stopTs": 1775436600000,
     "title": "Best of Crime Patrol",
-    "desc": "Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society.",
-    "channel": "SET.in"
+    "desc": "Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society."
   },
   {
+    "start": "00:50",
+    "stop": "01:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406005000 +0000",
-    "stop": "20260406013000 +0000",
     "startTs": 1775436600000,
     "stopTs": 1775439000000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E323 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E323 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "01:30",
+    "stop": "02:20",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406013000 +0000",
-    "stop": "20260406022000 +0000",
     "startTs": 1775439000000,
     "stopTs": 1775442000000,
     "title": "The Kapil Sharma Show - Masti Lagataar",
-    "desc": "S1 E23 Kapil Sharma invites renowned Bollywood star, Salman Khan, as he graces the show with his presence and interacts with the audience.",
-    "channel": "SET.in"
+    "desc": "S1 E23 Kapil Sharma invites renowned Bollywood star, Salman Khan, as he graces the show with his presence and interacts with the audience."
   },
   {
+    "start": "02:20",
+    "stop": "03:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406022000 +0000",
-    "stop": "20260406033000 +0000",
     "startTs": 1775442000000,
     "stopTs": 1775446200000,
     "title": "Wheel of Fortune",
-    "desc": "S1 E49 Contestants put their minds to solving word puzzles after spinning a giant wheel that determines the monetary value they are playing for.",
-    "channel": "SET.in"
+    "desc": "S1 E49 Contestants put their minds to solving word puzzles after spinning a giant wheel that determines the monetary value they are playing for."
   },
   {
+    "start": "03:30",
+    "stop": "04:50",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406033000 +0000",
-    "stop": "20260406045000 +0000",
     "startTs": 1775446200000,
     "stopTs": 1775451000000,
     "title": "Best of the Kapil Sharma Show",
-    "desc": "S2 E34 A compilation of the best moments from 'The Kapil Sharma Show' celebrates top highlights, playful roasts and the vibrant energy that defines its comedy.",
-    "channel": "SET.in"
+    "desc": "S2 E34 A compilation of the best moments from 'The Kapil Sharma Show' celebrates top highlights, playful roasts and the vibrant energy that defines its comedy."
   },
   {
+    "start": "04:50",
+    "stop": "06:10",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406045000 +0000",
-    "stop": "20260406061000 +0000",
     "startTs": 1775451000000,
     "stopTs": 1775455800000,
     "title": "Best of the Kapil Sharma Show",
-    "desc": "S1 E229 A compilation of the best moments from 'The Kapil Sharma Show' celebrates top highlights, playful roasts and the vibrant energy that defines its comedy.",
-    "channel": "SET.in"
+    "desc": "S1 E229 A compilation of the best moments from 'The Kapil Sharma Show' celebrates top highlights, playful roasts and the vibrant energy that defines its comedy."
   },
   {
+    "start": "06:10",
+    "stop": "07:40",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406061000 +0000",
-    "stop": "20260406074000 +0000",
     "startTs": 1775455800000,
     "stopTs": 1775461200000,
     "title": "Indian Idol",
-    "desc": "S16 E50 Various talented participants from India compete against each other during a singing competition in order to impress the judges and win the title.",
-    "channel": "SET.in"
+    "desc": "S16 E50 Various talented participants from India compete against each other during a singing competition in order to impress the judges and win the title."
   },
   {
+    "start": "07:40",
+    "stop": "08:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406074000 +0000",
-    "stop": "20260406083000 +0000",
     "startTs": 1775461200000,
     "stopTs": 1775464200000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E535 Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society.",
-    "channel": "SET.in"
+    "desc": "S1 E535 Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society."
   },
   {
+    "start": "08:30",
+    "stop": "09:20",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406083000 +0000",
-    "stop": "20260406092000 +0000",
     "startTs": 1775464200000,
     "stopTs": 1775467200000,
     "title": "Best of Crime Patrol - Crime Patrol Satark",
-    "desc": "S1 E402 A compilation of some of the most spine-chilling cases from 'Crime Patrol', which investigates murders, kidnappings and thefts among other heinous crimes.",
-    "channel": "SET.in"
+    "desc": "S1 E402 A compilation of some of the most spine-chilling cases from 'Crime Patrol', which investigates murders, kidnappings and thefts among other heinous crimes."
   },
   {
+    "start": "09:20",
+    "stop": "11:00",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406092000 +0000",
-    "stop": "20260406110000 +0000",
     "startTs": 1775467200000,
     "stopTs": 1775473200000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E26 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E26 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406110000 +0000",
-    "stop": "20260406113000 +0000",
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E674 Some of the best cases investigated in 'Crime Patrol' showcase people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E674 Some of the best cases investigated in 'Crime Patrol' showcase people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "11:30",
+    "stop": "12:40",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406113000 +0000",
-    "stop": "20260406124000 +0000",
     "startTs": 1775475000000,
     "stopTs": 1775479200000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E675 Some of the best cases investigated in 'Crime Patrol' showcase people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E675 Some of the best cases investigated in 'Crime Patrol' showcase people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "12:40",
+    "stop": "13:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406124000 +0000",
-    "stop": "20260406133000 +0000",
     "startTs": 1775479200000,
     "stopTs": 1775482200000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E260 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E260 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406133000 +0000",
-    "stop": "20260406140000 +0000",
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Mere Sai - Shraddha Aur Saburi",
-    "desc": "A humble spiritual figure transforms lives in a small village by spreading compassion, unity and wisdom while confronting social divisions and injustice with calm resolve.",
-    "channel": "SET.in"
+    "desc": "A humble spiritual figure transforms lives in a small village by spreading compassion, unity and wisdom while confronting social divisions and injustice with calm resolve."
   },
   {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406140000 +0000",
-    "stop": "20260406143000 +0000",
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Mere Sai - Shraddha Aur Saburi",
-    "desc": "S1 E966 The social conflict in Shirdi explodes exponentially as the men forbid women from going to the workshop. In the meantime, both men and women are left irritated with Sai's behaviour.",
-    "channel": "SET.in"
+    "desc": "S1 E966 The social conflict in Shirdi explodes exponentially as the men forbid women from going to the workshop. In the meantime, both men and women are left irritated with Sai's behaviour."
   },
   {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406143000 +0000",
-    "stop": "20260406150000 +0000",
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Mere Sai - Shraddha Aur Saburi",
-    "desc": "S1 E967 Sai cites the example of a bullock cart and teaches an important lesson to the villagers. In the meantime, Dabholkar witnesses Sai performing a miracle.",
-    "channel": "SET.in"
+    "desc": "S1 E967 Sai cites the example of a bullock cart and teaches an important lesson to the villagers. In the meantime, Dabholkar witnesses Sai performing a miracle."
   },
   {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406150000 +0000",
-    "stop": "20260406153000 +0000",
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Mere Sai - Shraddha Aur Saburi",
-    "desc": "S1 E968 After overcoming numerous obstacles, Dabholkar completes writing a book on Sai. Later, he visits Sai and seeks his blessings for the book.",
-    "channel": "SET.in"
+    "desc": "S1 E968 After overcoming numerous obstacles, Dabholkar completes writing a book on Sai. Later, he visits Sai and seeks his blessings for the book."
   },
   {
+    "start": "15:30",
+    "stop": "16:50",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406153000 +0000",
-    "stop": "20260406165000 +0000",
     "startTs": 1775489400000,
     "stopTs": 1775494200000,
     "title": "Wheel of Fortune",
-    "desc": "S1 E50 Contestants put their minds to solving word puzzles after spinning a giant wheel that determines the monetary value they are playing for.",
-    "channel": "SET.in"
+    "desc": "S1 E50 Contestants put their minds to solving word puzzles after spinning a giant wheel that determines the monetary value they are playing for."
   },
   {
+    "start": "16:50",
+    "stop": "17:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406165000 +0000",
-    "stop": "20260406173000 +0000",
     "startTs": 1775494200000,
     "stopTs": 1775496600000,
     "title": "Vashikaranam - Kis Par Rakhe Vishwas",
-    "desc": "S1 E16 In a remote village, Suman, a feared matriarch, secretly practises Vashikaran, an occult ritual believed to control people, and even spirits. As police investigate this, eerie events erupt.",
-    "channel": "SET.in"
+    "desc": "S1 E16 In a remote village, Suman, a feared matriarch, secretly practises Vashikaran, an occult ritual believed to control people, and even spirits. As police investigate this, eerie events erupt."
   },
   {
+    "start": "17:30",
+    "stop": "18:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406173000 +0000",
-    "stop": "20260406183000 +0000",
     "startTs": 1775496600000,
     "stopTs": 1775500200000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E701 Some of the best cases investigated in 'Crime Patrol' showcase people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E701 Some of the best cases investigated in 'Crime Patrol' showcase people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "18:30",
+    "stop": "19:10",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406183000 +0000",
-    "stop": "20260406191000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775502600000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E702 Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society.",
-    "channel": "SET.in"
+    "desc": "S1 E702 Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society."
   },
   {
+    "start": "19:10",
+    "stop": "20:50",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406191000 +0000",
-    "stop": "20260406205000 +0000",
     "startTs": 1775502600000,
     "stopTs": 1775508600000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E198 Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society.",
-    "channel": "SET.in"
+    "desc": "S1 E198 Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society."
   },
   {
+    "start": "20:50",
+    "stop": "21:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406205000 +0000",
-    "stop": "20260406213000 +0000",
     "startTs": 1775508600000,
     "stopTs": 1775511000000,
     "title": "Best of Crime Patrol - Crime Patrol Dial 100",
-    "desc": "S1 E368 A compilation of some of the most spine-chilling cases from 'Crime Patrol Dial 100', which investigates murders, kidnappings and thefts among other heinous crimes.",
-    "channel": "SET.in"
+    "desc": "S1 E368 A compilation of some of the most spine-chilling cases from 'Crime Patrol Dial 100', which investigates murders, kidnappings and thefts among other heinous crimes."
   },
   {
+    "start": "21:30",
+    "stop": "22:10",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406213000 +0000",
-    "stop": "20260406221000 +0000",
     "startTs": 1775511000000,
     "stopTs": 1775513400000,
     "title": "Best of Crime Patrol - Crime Patrol Dial 100",
-    "desc": "S1 E640 A compilation of some of the most spine-chilling cases from 'Crime Patrol Dial 100', which investigates murders, kidnappings and thefts among other heinous crimes.",
-    "channel": "SET.in"
+    "desc": "S1 E640 A compilation of some of the most spine-chilling cases from 'Crime Patrol Dial 100', which investigates murders, kidnappings and thefts among other heinous crimes."
   },
   {
+    "start": "22:10",
+    "stop": "22:50",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406221000 +0000",
-    "stop": "20260406225000 +0000",
     "startTs": 1775513400000,
     "stopTs": 1775515800000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E337 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E337 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "22:50",
+    "stop": "23:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406225000 +0000",
-    "stop": "20260406233000 +0000",
     "startTs": 1775515800000,
     "stopTs": 1775518200000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E21 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E21 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "23:30",
+    "stop": "00:10",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260406233000 +0000",
-    "stop": "20260407001000 +0000",
     "startTs": 1775518200000,
     "stopTs": 1775520600000,
     "title": "Best of Crime Patrol",
-    "desc": "Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society.",
-    "channel": "SET.in"
+    "desc": "Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society."
   },
   {
+    "start": "00:10",
+    "stop": "01:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407001000 +0000",
-    "stop": "20260407013000 +0000",
     "startTs": 1775520600000,
     "stopTs": 1775525400000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E20 In today's episode of Crime Patrol showcases a case about a girl named Rihana from West Bengal and her broken dream which left her shattered.",
-    "channel": "SET.in"
+    "desc": "S1 E20 In today's episode of Crime Patrol showcases a case about a girl named Rihana from West Bengal and her broken dream which left her shattered."
   },
   {
+    "start": "01:30",
+    "stop": "02:20",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407013000 +0000",
-    "stop": "20260407022000 +0000",
     "startTs": 1775525400000,
     "stopTs": 1775528400000,
     "title": "The Kapil Sharma Show - Masti Lagataar",
-    "desc": "S1 E24 Host Kapil Sharma invites celebrity guests, who discuss their latest movie projects, while keeping the audience laughing with his humourous take on several topics.",
-    "channel": "SET.in"
+    "desc": "S1 E24 Host Kapil Sharma invites celebrity guests, who discuss their latest movie projects, while keeping the audience laughing with his humourous take on several topics."
   },
   {
+    "start": "02:20",
+    "stop": "03:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407022000 +0000",
-    "stop": "20260407033000 +0000",
     "startTs": 1775528400000,
     "stopTs": 1775532600000,
     "title": "Wheel of Fortune",
-    "desc": "S1 E50 Contestants put their minds to solving word puzzles after spinning a giant wheel that determines the monetary value they are playing for.",
-    "channel": "SET.in"
+    "desc": "S1 E50 Contestants put their minds to solving word puzzles after spinning a giant wheel that determines the monetary value they are playing for."
   },
   {
+    "start": "03:30",
+    "stop": "04:50",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407033000 +0000",
-    "stop": "20260407045000 +0000",
     "startTs": 1775532600000,
     "stopTs": 1775537400000,
     "title": "Best of the Kapil Sharma Show",
-    "desc": "S1 E59 A compilation of the best moments from 'The Kapil Sharma Show' celebrates top highlights, playful roasts and the vibrant energy that defines its comedy.",
-    "channel": "SET.in"
+    "desc": "S1 E59 A compilation of the best moments from 'The Kapil Sharma Show' celebrates top highlights, playful roasts and the vibrant energy that defines its comedy."
   },
   {
+    "start": "04:50",
+    "stop": "06:10",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407045000 +0000",
-    "stop": "20260407061000 +0000",
     "startTs": 1775537400000,
     "stopTs": 1775542200000,
     "title": "Best of the Kapil Sharma Show",
-    "desc": "S2 E242 A compilation of the best moments from 'The Kapil Sharma Show' celebrates top highlights, playful roasts and the vibrant energy that defines its comedy.",
-    "channel": "SET.in"
+    "desc": "S2 E242 A compilation of the best moments from 'The Kapil Sharma Show' celebrates top highlights, playful roasts and the vibrant energy that defines its comedy."
   },
   {
+    "start": "06:10",
+    "stop": "07:40",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407061000 +0000",
-    "stop": "20260407074000 +0000",
     "startTs": 1775542200000,
     "stopTs": 1775547600000,
     "title": "Indian Idol",
-    "desc": "S16 E46 The ultimate singing show is back, join judges Shreya Ghoshal, Vishal Dadlani & Badshah for a new season packed with amazing voices, thrilling moments, and pure entertainment!",
-    "channel": "SET.in"
+    "desc": "S16 E46 The ultimate singing show is back, join judges Shreya Ghoshal, Vishal Dadlani & Badshah for a new season packed with amazing voices, thrilling moments, and pure entertainment!"
   },
   {
+    "start": "07:40",
+    "stop": "08:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407074000 +0000",
-    "stop": "20260407083000 +0000",
     "startTs": 1775547600000,
     "stopTs": 1775550600000,
     "title": "Best of Crime Patrol - Crime Patrol Dial 100",
-    "desc": "S1 E438 A compilation of some of the most spine-chilling cases from 'Crime Patrol Dial 100', which investigates murders, kidnappings and thefts among other heinous crimes.",
-    "channel": "SET.in"
+    "desc": "S1 E438 A compilation of some of the most spine-chilling cases from 'Crime Patrol Dial 100', which investigates murders, kidnappings and thefts among other heinous crimes."
   },
   {
+    "start": "08:30",
+    "stop": "09:20",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407083000 +0000",
-    "stop": "20260407092000 +0000",
     "startTs": 1775550600000,
     "stopTs": 1775553600000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E278 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E278 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "09:20",
+    "stop": "10:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407092000 +0000",
-    "stop": "20260407103000 +0000",
     "startTs": 1775553600000,
     "stopTs": 1775557800000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E585 Some of the best cases investigated in 'Crime Patrol' showcase people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E585 Some of the best cases investigated in 'Crime Patrol' showcase people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "10:30",
+    "stop": "11:00",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407103000 +0000",
-    "stop": "20260407110000 +0000",
     "startTs": 1775557800000,
     "stopTs": 1775559600000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E586 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E586 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "11:00",
+    "stop": "12:40",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407110000 +0000",
-    "stop": "20260407124000 +0000",
     "startTs": 1775559600000,
     "stopTs": 1775565600000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E199 Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society.",
-    "channel": "SET.in"
+    "desc": "S1 E199 Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society."
   },
   {
+    "start": "12:40",
+    "stop": "13:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407124000 +0000",
-    "stop": "20260407133000 +0000",
     "startTs": 1775565600000,
     "stopTs": 1775568600000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E311 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E311 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407133000 +0000",
-    "stop": "20260407140000 +0000",
     "startTs": 1775568600000,
     "stopTs": 1775570400000,
     "title": "Mere Sai - Shraddha Aur Saburi",
-    "desc": "A humble spiritual figure transforms lives in a small village by spreading compassion, unity and wisdom while confronting social divisions and injustice with calm resolve.",
-    "channel": "SET.in"
+    "desc": "A humble spiritual figure transforms lives in a small village by spreading compassion, unity and wisdom while confronting social divisions and injustice with calm resolve."
   },
   {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407140000 +0000",
-    "stop": "20260407143000 +0000",
     "startTs": 1775570400000,
     "stopTs": 1775572200000,
     "title": "Mere Sai - Shraddha Aur Saburi",
-    "desc": "S1 E970 Mansingh breaks down when he remembers the massacre of his community. In the meantime, the British officers frantically search for Mansingh.",
-    "channel": "SET.in"
+    "desc": "S1 E970 Mansingh breaks down when he remembers the massacre of his community. In the meantime, the British officers frantically search for Mansingh."
   },
   {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407143000 +0000",
-    "stop": "20260407150000 +0000",
     "startTs": 1775572200000,
     "stopTs": 1775574000000,
     "title": "Mere Sai - Shraddha Aur Saburi",
-    "desc": "S1 E971 The residents of Shirdi face a lot of inconveniences when the British officers interfere. On the other hand, Mansingh gets into trouble because of his impulsive decisions.",
-    "channel": "SET.in"
+    "desc": "S1 E971 The residents of Shirdi face a lot of inconveniences when the British officers interfere. On the other hand, Mansingh gets into trouble because of his impulsive decisions."
   },
   {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407150000 +0000",
-    "stop": "20260407153000 +0000",
     "startTs": 1775574000000,
     "stopTs": 1775575800000,
     "title": "Mere Sai - Shraddha Aur Saburi",
-    "desc": "S1 E972 The youngsters of Shirdi express their disapproval of Mansingh's presence in their town. On the other hand, Kulkarni fumes with rage when the British officers refuse to listen to him.",
-    "channel": "SET.in"
+    "desc": "S1 E972 The youngsters of Shirdi express their disapproval of Mansingh's presence in their town. On the other hand, Kulkarni fumes with rage when the British officers refuse to listen to him."
   },
   {
+    "start": "15:30",
+    "stop": "16:50",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407153000 +0000",
-    "stop": "20260407165000 +0000",
     "startTs": 1775575800000,
     "stopTs": 1775580600000,
     "title": "Wheel of Fortune",
-    "desc": "S1 E51 Contestants put their minds to solving word puzzles after spinning a giant wheel that determines the monetary value they are playing for.",
-    "channel": "SET.in"
+    "desc": "S1 E51 Contestants put their minds to solving word puzzles after spinning a giant wheel that determines the monetary value they are playing for."
   },
   {
+    "start": "16:50",
+    "stop": "17:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407165000 +0000",
-    "stop": "20260407173000 +0000",
     "startTs": 1775580600000,
     "stopTs": 1775583000000,
     "title": "Vashikaranam - Kis Par Rakhe Vishwas",
-    "desc": "S1 E17 In a remote village, Suman, a feared matriarch, secretly practises Vashikaran, an occult ritual believed to control people, and even spirits. As police investigate this, eerie events erupt.",
-    "channel": "SET.in"
+    "desc": "S1 E17 In a remote village, Suman, a feared matriarch, secretly practises Vashikaran, an occult ritual believed to control people, and even spirits. As police investigate this, eerie events erupt."
   },
   {
+    "start": "17:30",
+    "stop": "18:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407173000 +0000",
-    "stop": "20260407183000 +0000",
     "startTs": 1775583000000,
     "stopTs": 1775586600000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E674 Some of the best cases investigated in 'Crime Patrol' showcase people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E674 Some of the best cases investigated in 'Crime Patrol' showcase people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "18:30",
+    "stop": "19:10",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407183000 +0000",
-    "stop": "20260407191000 +0000",
     "startTs": 1775586600000,
     "stopTs": 1775589000000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E675 Some of the best cases investigated in 'Crime Patrol' showcase people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E675 Some of the best cases investigated in 'Crime Patrol' showcase people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "19:10",
+    "stop": "20:50",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407191000 +0000",
-    "stop": "20260407205000 +0000",
     "startTs": 1775589000000,
     "stopTs": 1775595000000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E26 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E26 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "20:50",
+    "stop": "21:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407205000 +0000",
-    "stop": "20260407213000 +0000",
     "startTs": 1775595000000,
     "stopTs": 1775597400000,
     "title": "Best of Crime Patrol - Crime Patrol Satark",
-    "desc": "S1 E402 A compilation of some of the most spine-chilling cases from 'Crime Patrol', which investigates murders, kidnappings and thefts among other heinous crimes.",
-    "channel": "SET.in"
+    "desc": "S1 E402 A compilation of some of the most spine-chilling cases from 'Crime Patrol', which investigates murders, kidnappings and thefts among other heinous crimes."
   },
   {
+    "start": "21:30",
+    "stop": "22:10",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407213000 +0000",
-    "stop": "20260407221000 +0000",
     "startTs": 1775597400000,
     "stopTs": 1775599800000,
     "title": "Best of Crime Patrol",
-    "desc": "Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society.",
-    "channel": "SET.in"
+    "desc": "Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society."
   },
   {
+    "start": "22:10",
+    "stop": "22:50",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407221000 +0000",
-    "stop": "20260407225000 +0000",
     "startTs": 1775599800000,
     "stopTs": 1775602200000,
     "title": "Best of Crime Patrol",
-    "desc": "Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society.",
-    "channel": "SET.in"
+    "desc": "Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society."
   },
   {
+    "start": "22:50",
+    "stop": "23:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407225000 +0000",
-    "stop": "20260407233000 +0000",
     "startTs": 1775602200000,
     "stopTs": 1775604600000,
     "title": "Best of Crime Patrol",
-    "desc": "Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society.",
-    "channel": "SET.in"
+    "desc": "Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society."
   },
   {
+    "start": "23:30",
+    "stop": "00:10",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260407233000 +0000",
-    "stop": "20260408001000 +0000",
     "startTs": 1775604600000,
     "stopTs": 1775607000000,
     "title": "Best of Crime Patrol",
-    "desc": "Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society.",
-    "channel": "SET.in"
+    "desc": "Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society."
   },
   {
+    "start": "00:10",
+    "stop": "01:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408001000 +0000",
-    "stop": "20260408013000 +0000",
     "startTs": 1775607000000,
     "stopTs": 1775611800000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E4 Some of the best cases investigated in 'Crime Patrol' showcase people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E4 Some of the best cases investigated in 'Crime Patrol' showcase people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "01:30",
+    "stop": "02:20",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408013000 +0000",
-    "stop": "20260408022000 +0000",
     "startTs": 1775611800000,
     "stopTs": 1775614800000,
     "title": "The Kapil Sharma Show - Masti Lagataar",
-    "desc": "S1 E25 Kapil Sharma invites renowned Bollywood actors Vivek Oberoi, Aftab Shivdasani and Ritesh Deskmukh as they grace the show with their presence.",
-    "channel": "SET.in"
+    "desc": "S1 E25 Kapil Sharma invites renowned Bollywood actors Vivek Oberoi, Aftab Shivdasani and Ritesh Deskmukh as they grace the show with their presence."
   },
   {
+    "start": "02:20",
+    "stop": "03:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408022000 +0000",
-    "stop": "20260408033000 +0000",
     "startTs": 1775614800000,
     "stopTs": 1775619000000,
     "title": "Wheel of Fortune",
-    "desc": "S1 E51 Contestants put their minds to solving word puzzles after spinning a giant wheel that determines the monetary value they are playing for.",
-    "channel": "SET.in"
+    "desc": "S1 E51 Contestants put their minds to solving word puzzles after spinning a giant wheel that determines the monetary value they are playing for."
   },
   {
+    "start": "03:30",
+    "stop": "04:50",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408033000 +0000",
-    "stop": "20260408045000 +0000",
     "startTs": 1775619000000,
     "stopTs": 1775623800000,
     "title": "Best of the Kapil Sharma Show",
-    "desc": "S1 E76 A compilation of the best moments from the Kapil Sharma Show features the renowned comedian Kapil Sharma entertaining the audience with hilarious skits and interactions.",
-    "channel": "SET.in"
+    "desc": "S1 E76 A compilation of the best moments from the Kapil Sharma Show features the renowned comedian Kapil Sharma entertaining the audience with hilarious skits and interactions."
   },
   {
+    "start": "04:50",
+    "stop": "06:10",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408045000 +0000",
-    "stop": "20260408061000 +0000",
     "startTs": 1775623800000,
     "stopTs": 1775628600000,
     "title": "Best of the Kapil Sharma Show",
-    "desc": "S1 E81 A compilation of the best moments from 'The Kapil Sharma Show' celebrates top highlights, playful roasts and the vibrant energy that defines its comedy.",
-    "channel": "SET.in"
+    "desc": "S1 E81 A compilation of the best moments from 'The Kapil Sharma Show' celebrates top highlights, playful roasts and the vibrant energy that defines its comedy."
   },
   {
+    "start": "06:10",
+    "stop": "07:40",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408061000 +0000",
-    "stop": "20260408074000 +0000",
     "startTs": 1775628600000,
     "stopTs": 1775634000000,
     "title": "Indian Idol",
-    "desc": "S16 E47 The ultimate singing show is back, join judges Shreya Ghoshal, Vishal Dadlani & Badshah for a new season packed with amazing voices, thrilling moments, and pure entertainment!",
-    "channel": "SET.in"
+    "desc": "S16 E47 The ultimate singing show is back, join judges Shreya Ghoshal, Vishal Dadlani & Badshah for a new season packed with amazing voices, thrilling moments, and pure entertainment!"
   },
   {
+    "start": "07:40",
+    "stop": "08:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408074000 +0000",
-    "stop": "20260408083000 +0000",
     "startTs": 1775634000000,
     "stopTs": 1775637000000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E902 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E902 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "08:30",
+    "stop": "09:20",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408083000 +0000",
-    "stop": "20260408092000 +0000",
     "startTs": 1775637000000,
     "stopTs": 1775640000000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E527 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E527 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "09:20",
+    "stop": "11:00",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408092000 +0000",
-    "stop": "20260408110000 +0000",
     "startTs": 1775640000000,
     "stopTs": 1775646000000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E16 Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society.",
-    "channel": "SET.in"
+    "desc": "S1 E16 Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society."
   },
   {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408110000 +0000",
-    "stop": "20260408113000 +0000",
     "startTs": 1775646000000,
     "stopTs": 1775647800000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E433 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E433 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "11:30",
+    "stop": "12:40",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408113000 +0000",
-    "stop": "20260408124000 +0000",
     "startTs": 1775647800000,
     "stopTs": 1775652000000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E434 Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society.",
-    "channel": "SET.in"
+    "desc": "S1 E434 Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society."
   },
   {
+    "start": "12:40",
+    "stop": "13:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408124000 +0000",
-    "stop": "20260408133000 +0000",
     "startTs": 1775652000000,
     "stopTs": 1775655000000,
     "title": "Crime Patrol - 26 Jurm, 26 Cases",
-    "desc": "S1 E4 Subodh Khanna, insurance mogul, disappears without a trace. Meanwhile, his wife's suicide video evidence sparks doubts among investigators about the case's true nature.",
-    "channel": "SET.in"
+    "desc": "S1 E4 Subodh Khanna, insurance mogul, disappears without a trace. Meanwhile, his wife's suicide video evidence sparks doubts among investigators about the case's true nature."
   },
   {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408133000 +0000",
-    "stop": "20260408140000 +0000",
     "startTs": 1775655000000,
     "stopTs": 1775656800000,
     "title": "Mere Sai - Shraddha Aur Saburi",
-    "desc": "A humble spiritual figure transforms lives in a small village by spreading compassion, unity and wisdom while confronting social divisions and injustice with calm resolve.",
-    "channel": "SET.in"
+    "desc": "A humble spiritual figure transforms lives in a small village by spreading compassion, unity and wisdom while confronting social divisions and injustice with calm resolve."
   },
   {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408140000 +0000",
-    "stop": "20260408143000 +0000",
     "startTs": 1775656800000,
     "stopTs": 1775658600000,
     "title": "Mere Sai - Shraddha Aur Saburi",
-    "desc": "S1 E974 Upon realising the value of freedom, the trio decides to help Mansingh secure safe passage. In the meantime, Sai helps a man who refused to pay heed to his warning.",
-    "channel": "SET.in"
+    "desc": "S1 E974 Upon realising the value of freedom, the trio decides to help Mansingh secure safe passage. In the meantime, Sai helps a man who refused to pay heed to his warning."
   },
   {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408143000 +0000",
-    "stop": "20260408150000 +0000",
     "startTs": 1775658600000,
     "stopTs": 1775660400000,
     "title": "Mere Sai - Shraddha Aur Saburi",
-    "desc": "S1 E975 Major Billy threatens to hit Sai if the villagers fail to reveal Mansingh's whereabouts. Meanwhile, Keshav and Tatya protest against that British officer's tyranny.",
-    "channel": "SET.in"
+    "desc": "S1 E975 Major Billy threatens to hit Sai if the villagers fail to reveal Mansingh's whereabouts. Meanwhile, Keshav and Tatya protest against that British officer's tyranny."
   },
   {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408150000 +0000",
-    "stop": "20260408153000 +0000",
     "startTs": 1775660400000,
     "stopTs": 1775662200000,
     "title": "Mere Sai - Shraddha Aur Saburi",
-    "desc": "S1 E976 Sai's intervention saves the day for Mansingh as he almost gets caught by the officers. On the other hand, Kulkarni gives a valuable piece of advice to General Billy.",
-    "channel": "SET.in"
+    "desc": "S1 E976 Sai's intervention saves the day for Mansingh as he almost gets caught by the officers. On the other hand, Kulkarni gives a valuable piece of advice to General Billy."
   },
   {
+    "start": "15:30",
+    "stop": "16:50",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408153000 +0000",
-    "stop": "20260408165000 +0000",
     "startTs": 1775662200000,
     "stopTs": 1775667000000,
     "title": "Wheel of Fortune",
-    "desc": "S1 E52 Contestants put their minds to solving word puzzles after spinning a giant wheel that determines the monetary value they are playing for.",
-    "channel": "SET.in"
+    "desc": "S1 E52 Contestants put their minds to solving word puzzles after spinning a giant wheel that determines the monetary value they are playing for."
   },
   {
+    "start": "16:50",
+    "stop": "17:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408165000 +0000",
-    "stop": "20260408173000 +0000",
     "startTs": 1775667000000,
     "stopTs": 1775669400000,
     "title": "Vashikaranam - Kis Par Rakhe Vishwas",
-    "desc": "S1 E18 In a remote village, Suman, a feared matriarch, secretly practises Vashikaran, an occult ritual believed to control people, and even spirits. As police investigate this, eerie events erupt.",
-    "channel": "SET.in"
+    "desc": "S1 E18 In a remote village, Suman, a feared matriarch, secretly practises Vashikaran, an occult ritual believed to control people, and even spirits. As police investigate this, eerie events erupt."
   },
   {
+    "start": "17:30",
+    "stop": "18:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408173000 +0000",
-    "stop": "20260408183000 +0000",
     "startTs": 1775669400000,
     "stopTs": 1775673000000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E585 Some of the best cases investigated in 'Crime Patrol' showcase people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E585 Some of the best cases investigated in 'Crime Patrol' showcase people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "18:30",
+    "stop": "19:10",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408183000 +0000",
-    "stop": "20260408191000 +0000",
     "startTs": 1775673000000,
     "stopTs": 1775675400000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E586 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E586 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "19:10",
+    "stop": "20:50",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408191000 +0000",
-    "stop": "20260408205000 +0000",
     "startTs": 1775675400000,
     "stopTs": 1775681400000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E199 Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society.",
-    "channel": "SET.in"
+    "desc": "S1 E199 Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society."
   },
   {
+    "start": "20:50",
+    "stop": "21:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408205000 +0000",
-    "stop": "20260408213000 +0000",
     "startTs": 1775681400000,
     "stopTs": 1775683800000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E278 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E278 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "21:30",
+    "stop": "22:10",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408213000 +0000",
-    "stop": "20260408221000 +0000",
     "startTs": 1775683800000,
     "stopTs": 1775686200000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E311 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E311 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "22:10",
+    "stop": "22:50",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408221000 +0000",
-    "stop": "20260408225000 +0000",
     "startTs": 1775686200000,
     "stopTs": 1775688600000,
     "title": "Best of Crime Patrol - Crime Patrol Dial 100",
-    "desc": "S1 E438 A compilation of some of the most spine-chilling cases from 'Crime Patrol Dial 100', which investigates murders, kidnappings and thefts among other heinous crimes.",
-    "channel": "SET.in"
+    "desc": "S1 E438 A compilation of some of the most spine-chilling cases from 'Crime Patrol Dial 100', which investigates murders, kidnappings and thefts among other heinous crimes."
   },
   {
+    "start": "22:50",
+    "stop": "23:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408225000 +0000",
-    "stop": "20260408233000 +0000",
     "startTs": 1775688600000,
     "stopTs": 1775691000000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E592 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own.",
-    "channel": "SET.in"
+    "desc": "S1 E592 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "23:30",
+    "stop": "00:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260408233000 +0000",
-    "stop": "20260409003000 +0000",
     "startTs": 1775691000000,
     "stopTs": 1775694600000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E593 Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society.",
-    "channel": "SET.in"
+    "desc": "S1 E593 Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society."
   },
   {
+    "start": "00:30",
+    "stop": "00:50",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260409003000 +0000",
-    "stop": "20260409005000 +0000",
     "startTs": 1775694600000,
     "stopTs": 1775695800000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E594 Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society.",
-    "channel": "SET.in"
+    "desc": "S1 E594 Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society."
   },
   {
+    "start": "00:50",
+    "stop": "01:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260409005000 +0000",
-    "stop": "20260409013000 +0000",
     "startTs": 1775695800000,
     "stopTs": 1775698200000,
     "title": "Best of Crime Patrol",
-    "desc": "S1 E10 Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society.",
-    "channel": "SET.in"
+    "desc": "S1 E10 Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society."
   },
   {
+    "start": "01:30",
+    "stop": "02:20",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260409013000 +0000",
-    "stop": "20260409022000 +0000",
     "startTs": 1775698200000,
     "stopTs": 1775701200000,
     "title": "The Kapil Sharma Show - Masti Lagataar",
-    "desc": "S1 E26 Host Kapil Sharma invites music maestro A R Rahman to grace the stage as his comedic troupe engage in several hilarious escapades.",
-    "channel": "SET.in"
+    "desc": "S1 E26 Host Kapil Sharma invites music maestro A R Rahman to grace the stage as his comedic troupe engage in several hilarious escapades."
   },
   {
+    "start": "02:20",
+    "stop": "03:30",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260409022000 +0000",
-    "stop": "20260409033000 +0000",
     "startTs": 1775701200000,
     "stopTs": 1775705400000,
     "title": "Wheel of Fortune",
-    "desc": "S1 E52 Contestants put their minds to solving word puzzles after spinning a giant wheel that determines the monetary value they are playing for.",
-    "channel": "SET.in"
+    "desc": "S1 E52 Contestants put their minds to solving word puzzles after spinning a giant wheel that determines the monetary value they are playing for."
   },
   {
+    "start": "03:30",
+    "stop": "04:50",
+    "channel": "SET.in",
     "channelId": "SET.in",
     "channelName": "IN - SET",
-    "start": "20260409033000 +0000",
-    "stop": "20260409045000 +0000",
     "startTs": 1775705400000,
     "stopTs": 1775710200000,
     "title": "Best of the Kapil Sharma Show",
-    "desc": "S2 E194 A compilation of the best moments from the Kapil Sharma Show features the renowned comedian Kapil Sharma entertaining the audience with hilarious skits and interactions.",
-    "channel": "SET.in"
+    "desc": "S2 E194 A compilation of the best moments from the Kapil Sharma Show features the renowned comedian Kapil Sharma entertaining the audience with hilarious skits and interactions."
   }
 ]

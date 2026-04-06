@@ -107,15 +107,15 @@ for (const xmlPath of inputFiles) {
         }
 
         programmesByCleanName[cleanName].push({
+            ...attrs, // Contains all XML attributes (start, stop, channel, etc.)
             channelId: channelId,
             channelName: displayName,
-            start: startObj.display,
-            stop: stopObj.display,
-            startTs: startObj.ts,
-            stopTs: stopObj.ts,
+            start: startObj.display, // HH:mm format
+            stop: stopObj.display,   // HH:mm format
+            startTs: startObj.ts,     // millisecond timestamp
+            stopTs: stopObj.ts,       // millisecond timestamp
             title: title,
-            desc: desc,
-            ...attrs // Includes catchup-id etc.
+            desc: desc
         });
         countInFile++;
     }

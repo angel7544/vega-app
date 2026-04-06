@@ -1,14 +1,14 @@
 [
   {
+    "start": "18:30",
+    "stop": "20:00",
+    "channel": "ts1384",
+    "catchup-id": "93091154",
     "channelId": "ts1384",
     "channelName": "SURIYAN TV",
-    "start": "20260405183000 +0000",
-    "stop": "20260405200000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775419200000,
     "title": "Hot Hot",
-    "desc": "A compilation of the greatest foot-tapping hits of various singers is played.",
-    "channel": "ts1384",
-    "catchup-id": "93091154"
+    "desc": "A compilation of the greatest foot-tapping hits of various singers is played."
   }
 ]

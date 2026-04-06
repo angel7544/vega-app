@@ -1,1839 +1,1839 @@
 [
   {
+    "start": "18:30",
+    "stop": "18:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260405183000 +0000",
-    "stop": "20260405185000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415000000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "18:50",
+    "stop": "19:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260405185000 +0000",
-    "stop": "20260405192000 +0000",
     "startTs": 1775415000000,
     "stopTs": 1775416800000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "19:20",
+    "stop": "19:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260405192000 +0000",
-    "stop": "20260405195000 +0000",
     "startTs": 1775416800000,
     "stopTs": 1775418600000,
     "title": "Pudhari Focus",
-    "desc": "The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs."
   },
   {
+    "start": "19:50",
+    "stop": "20:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260405195000 +0000",
-    "stop": "20260405202000 +0000",
     "startTs": 1775418600000,
     "stopTs": 1775420400000,
     "title": "Pudhari Prime",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation."
   },
   {
+    "start": "20:20",
+    "stop": "20:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260405202000 +0000",
-    "stop": "20260405205000 +0000",
     "startTs": 1775420400000,
     "stopTs": 1775422200000,
     "title": "Non Stop Headline",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation."
   },
   {
+    "start": "20:50",
+    "stop": "21:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260405205000 +0000",
-    "stop": "20260405212000 +0000",
     "startTs": 1775422200000,
     "stopTs": 1775424000000,
     "title": "Mumbai Metro",
-    "desc": "The host presents the latest news updates and developments based on social, political, and economic issues from across Mumbai.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments based on social, political, and economic issues from across Mumbai."
   },
   {
+    "start": "21:20",
+    "stop": "21:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260405212000 +0000",
-    "stop": "20260405215000 +0000",
     "startTs": 1775424000000,
     "stopTs": 1775425800000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "21:50",
+    "stop": "22:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260405215000 +0000",
-    "stop": "20260405222000 +0000",
     "startTs": 1775425800000,
     "stopTs": 1775427600000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "22:20",
+    "stop": "22:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260405222000 +0000",
-    "stop": "20260405225000 +0000",
     "startTs": 1775427600000,
     "stopTs": 1775429400000,
     "title": "Mumbai Metro",
-    "desc": "The host presents the latest news updates and developments based on social, political, and economic issues from across Mumbai.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments based on social, political, and economic issues from across Mumbai."
   },
   {
+    "start": "22:50",
+    "stop": "23:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260405225000 +0000",
-    "stop": "20260405232000 +0000",
     "startTs": 1775429400000,
     "stopTs": 1775431200000,
     "title": "Pudhari Prime",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation."
   },
   {
+    "start": "23:20",
+    "stop": "23:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260405232000 +0000",
-    "stop": "20260405235000 +0000",
     "startTs": 1775431200000,
     "stopTs": 1775433000000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "23:50",
+    "stop": "00:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260405235000 +0000",
-    "stop": "20260406002000 +0000",
     "startTs": 1775433000000,
     "stopTs": 1775434800000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "00:20",
+    "stop": "00:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406002000 +0000",
-    "stop": "20260406005000 +0000",
     "startTs": 1775434800000,
     "stopTs": 1775436600000,
     "title": "Deaf And Mute Bulletin",
-    "desc": "The host presents the latest news stories and updates regarding various issues around the country for people who are visually and hearing impaired.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news stories and updates regarding various issues around the country for people who are visually and hearing impaired."
   },
   {
+    "start": "00:50",
+    "stop": "01:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406005000 +0000",
-    "stop": "20260406012000 +0000",
     "startTs": 1775436600000,
     "stopTs": 1775438400000,
     "title": "Devachiye Dwari",
-    "desc": "Various religious singers and musicians sing devotional songs in praise of the Almighty and to seek blessings while delivering a spiritual message.",
-    "channel": "PudhariNews.in"
+    "desc": "Various religious singers and musicians sing devotional songs in praise of the Almighty and to seek blessings while delivering a spiritual message."
   },
   {
+    "start": "01:20",
+    "stop": "01:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406012000 +0000",
-    "stop": "20260406015000 +0000",
     "startTs": 1775438400000,
     "stopTs": 1775440200000,
     "title": "Pudhari Fresh And Fast",
-    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
   },
   {
+    "start": "01:50",
+    "stop": "02:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406015000 +0000",
-    "stop": "20260406022000 +0000",
     "startTs": 1775440200000,
     "stopTs": 1775442000000,
     "title": "Bantmyanchya Gavat",
-    "desc": "The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs."
   },
   {
+    "start": "02:20",
+    "stop": "02:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406022000 +0000",
-    "stop": "20260406025000 +0000",
     "startTs": 1775442000000,
     "stopTs": 1775443800000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "02:50",
+    "stop": "03:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406025000 +0000",
-    "stop": "20260406032000 +0000",
     "startTs": 1775443800000,
     "stopTs": 1775445600000,
     "title": "Non Stop Headline",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation."
   },
   {
+    "start": "03:20",
+    "stop": "03:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406032000 +0000",
-    "stop": "20260406035000 +0000",
     "startTs": 1775445600000,
     "stopTs": 1775447400000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "03:50",
+    "stop": "04:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406035000 +0000",
-    "stop": "20260406042000 +0000",
     "startTs": 1775447400000,
     "stopTs": 1775449200000,
     "title": "MH 100",
-    "desc": "A compilation of 100 latest news stories about political, economic, social and cultural topics from all around the region.",
-    "channel": "PudhariNews.in"
+    "desc": "A compilation of 100 latest news stories about political, economic, social and cultural topics from all around the region."
   },
   {
+    "start": "04:20",
+    "stop": "04:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406042000 +0000",
-    "stop": "20260406045000 +0000",
     "startTs": 1775449200000,
     "stopTs": 1775451000000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "04:50",
+    "stop": "05:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406045000 +0000",
-    "stop": "20260406052000 +0000",
     "startTs": 1775451000000,
     "stopTs": 1775452800000,
     "title": "Ardha Minute, Akkhi Batmi",
-    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
   },
   {
+    "start": "05:20",
+    "stop": "05:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406052000 +0000",
-    "stop": "20260406055000 +0000",
     "startTs": 1775452800000,
     "stopTs": 1775454600000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "05:50",
+    "stop": "06:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406055000 +0000",
-    "stop": "20260406062000 +0000",
     "startTs": 1775454600000,
     "stopTs": 1775456400000,
     "title": "Pudhari Fresh And Fast",
-    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
   },
   {
+    "start": "06:20",
+    "stop": "06:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406062000 +0000",
-    "stop": "20260406065000 +0000",
     "startTs": 1775456400000,
     "stopTs": 1775458200000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "06:50",
+    "stop": "07:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406065000 +0000",
-    "stop": "20260406072000 +0000",
     "startTs": 1775458200000,
     "stopTs": 1775460000000,
     "title": "Non Stop Headline",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation."
   },
   {
+    "start": "07:20",
+    "stop": "07:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406072000 +0000",
-    "stop": "20260406075000 +0000",
     "startTs": 1775460000000,
     "stopTs": 1775461800000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "07:50",
+    "stop": "08:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406075000 +0000",
-    "stop": "20260406082000 +0000",
     "startTs": 1775461800000,
     "stopTs": 1775463600000,
     "title": "MH 100",
-    "desc": "A compilation of 100 latest news stories about political, economic, social and cultural topics from all around the region.",
-    "channel": "PudhariNews.in"
+    "desc": "A compilation of 100 latest news stories about political, economic, social and cultural topics from all around the region."
   },
   {
+    "start": "08:20",
+    "stop": "08:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406082000 +0000",
-    "stop": "20260406085000 +0000",
     "startTs": 1775463600000,
     "stopTs": 1775465400000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "08:50",
+    "stop": "09:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406085000 +0000",
-    "stop": "20260406092000 +0000",
     "startTs": 1775465400000,
     "stopTs": 1775467200000,
     "title": "Pudhari Icons/Pudhari Fresh And Fast",
-    "desc": "Bringing the best in television.",
-    "channel": "PudhariNews.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "09:20",
+    "stop": "09:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406092000 +0000",
-    "stop": "20260406095000 +0000",
     "startTs": 1775467200000,
     "stopTs": 1775469000000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "09:50",
+    "stop": "10:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406095000 +0000",
-    "stop": "20260406102000 +0000",
     "startTs": 1775469000000,
     "stopTs": 1775470800000,
     "title": "Health Talk/ MH 100",
-    "desc": "The host engages in a conversation with medical experts about various health issues; The host shares latest updates and developments on the top 100 issues within the state Maharashtra.",
-    "channel": "PudhariNews.in"
+    "desc": "The host engages in a conversation with medical experts about various health issues; The host shares latest updates and developments on the top 100 issues within the state Maharashtra."
   },
   {
+    "start": "10:20",
+    "stop": "10:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406102000 +0000",
-    "stop": "20260406105000 +0000",
     "startTs": 1775470800000,
     "stopTs": 1775472600000,
     "title": "Chahachya Batmya",
-    "desc": "The host brings up-to-date coverage of political, social, economic and sports developments, offering insightful reports on key events from both the state and national levels.",
-    "channel": "PudhariNews.in"
+    "desc": "The host brings up-to-date coverage of political, social, economic and sports developments, offering insightful reports on key events from both the state and national levels."
   },
   {
+    "start": "10:50",
+    "stop": "11:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406105000 +0000",
-    "stop": "20260406112000 +0000",
     "startTs": 1775472600000,
     "stopTs": 1775474400000,
     "title": "Ardha Minute, Akkhi Batmi",
-    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
   },
   {
+    "start": "11:20",
+    "stop": "11:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406112000 +0000",
-    "stop": "20260406115000 +0000",
     "startTs": 1775474400000,
     "stopTs": 1775476200000,
     "title": "Dhurala",
-    "desc": "The host invites a panel of guests to engage in an insightful conversation surrounding the various matters concerning the state.",
-    "channel": "PudhariNews.in"
+    "desc": "The host invites a panel of guests to engage in an insightful conversation surrounding the various matters concerning the state."
   },
   {
+    "start": "11:50",
+    "stop": "12:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406115000 +0000",
-    "stop": "20260406122000 +0000",
     "startTs": 1775476200000,
     "stopTs": 1775478000000,
     "title": "Susat 60",
-    "desc": "The host presents 60 latest news stories and significant developments from various fronts that impact people in quick succession.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents 60 latest news stories and significant developments from various fronts that impact people in quick succession."
   },
   {
+    "start": "12:20",
+    "stop": "12:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406122000 +0000",
-    "stop": "20260406125000 +0000",
     "startTs": 1775478000000,
     "stopTs": 1775479800000,
     "title": "Supersix",
-    "desc": "The host presents a mix of top stories, covering politics, social issues, economy and sports, offering a comprehensive look at the most important updates from across the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents a mix of top stories, covering politics, social issues, economy and sports, offering a comprehensive look at the most important updates from across the nation."
   },
   {
+    "start": "12:50",
+    "stop": "13:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406125000 +0000",
-    "stop": "20260406132000 +0000",
     "startTs": 1775479800000,
     "stopTs": 1775481600000,
     "title": "Non Stop Maharashtra",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state of Maharashtra.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state of Maharashtra."
   },
   {
+    "start": "13:20",
+    "stop": "13:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406132000 +0000",
-    "stop": "20260406135000 +0000",
     "startTs": 1775481600000,
     "stopTs": 1775483400000,
     "title": "My Maharashtra",
-    "desc": "The host presents the latest information, advancements and developments on various key issues in the state of Maharashtra.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest information, advancements and developments on various key issues in the state of Maharashtra."
   },
   {
+    "start": "13:50",
+    "stop": "14:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406135000 +0000",
-    "stop": "20260406142000 +0000",
     "startTs": 1775483400000,
     "stopTs": 1775485200000,
     "title": "Susat 60",
-    "desc": "The host presents 60 latest news stories and significant developments from various fronts that impact people in quick succession.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents 60 latest news stories and significant developments from various fronts that impact people in quick succession."
   },
   {
+    "start": "14:20",
+    "stop": "14:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406142000 +0000",
-    "stop": "20260406145000 +0000",
     "startTs": 1775485200000,
     "stopTs": 1775487000000,
     "title": "Smart City",
-    "desc": "The host presents the latest political, social and economic news, updates and developments from various cities across India.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest political, social and economic news, updates and developments from various cities across India."
   },
   {
+    "start": "14:50",
+    "stop": "15:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406145000 +0000",
-    "stop": "20260406152000 +0000",
     "startTs": 1775487000000,
     "stopTs": 1775488800000,
     "title": "Pudhari Prime",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation."
   },
   {
+    "start": "15:20",
+    "stop": "15:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406152000 +0000",
-    "stop": "20260406155000 +0000",
     "startTs": 1775488800000,
     "stopTs": 1775490600000,
     "title": "Duniyadari",
-    "desc": "The host presents the latest news stories and recent updates on crucial matters such as governance, social issues, economics, and political issues happening across the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news stories and recent updates on crucial matters such as governance, social issues, economics, and political issues happening across the nation."
   },
   {
+    "start": "15:50",
+    "stop": "16:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406155000 +0000",
-    "stop": "20260406162000 +0000",
     "startTs": 1775490600000,
     "stopTs": 1775492400000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "16:20",
+    "stop": "16:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406162000 +0000",
-    "stop": "20260406165000 +0000",
     "startTs": 1775492400000,
     "stopTs": 1775494200000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "16:50",
+    "stop": "17:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406165000 +0000",
-    "stop": "20260406172000 +0000",
     "startTs": 1775494200000,
     "stopTs": 1775496000000,
     "title": "Mahasummit",
-    "desc": "The host interacts with the guest and converses with them about political events, current affairs and the latest developments.",
-    "channel": "PudhariNews.in"
+    "desc": "The host interacts with the guest and converses with them about political events, current affairs and the latest developments."
   },
   {
+    "start": "17:20",
+    "stop": "17:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406172000 +0000",
-    "stop": "20260406175000 +0000",
     "startTs": 1775496000000,
     "stopTs": 1775497800000,
     "title": "Dhurala",
-    "desc": "The host invites a panel of guests to engage in an insightful conversation surrounding the various matters concerning the state.",
-    "channel": "PudhariNews.in"
+    "desc": "The host invites a panel of guests to engage in an insightful conversation surrounding the various matters concerning the state."
   },
   {
+    "start": "17:50",
+    "stop": "18:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406175000 +0000",
-    "stop": "20260406182000 +0000",
     "startTs": 1775497800000,
     "stopTs": 1775499600000,
     "title": "Pudhari Prime",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation."
   },
   {
+    "start": "18:20",
+    "stop": "18:30",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406182000 +0000",
-    "stop": "20260406183000 +0000",
     "startTs": 1775499600000,
     "stopTs": 1775500200000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "18:30",
+    "stop": "18:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406183000 +0000",
-    "stop": "20260406185000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775501400000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "18:50",
+    "stop": "19:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406185000 +0000",
-    "stop": "20260406192000 +0000",
     "startTs": 1775501400000,
     "stopTs": 1775503200000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "19:20",
+    "stop": "19:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406192000 +0000",
-    "stop": "20260406195000 +0000",
     "startTs": 1775503200000,
     "stopTs": 1775505000000,
     "title": "Pudhari Focus",
-    "desc": "The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs."
   },
   {
+    "start": "19:50",
+    "stop": "20:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406195000 +0000",
-    "stop": "20260406202000 +0000",
     "startTs": 1775505000000,
     "stopTs": 1775506800000,
     "title": "Pudhari Prime",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation."
   },
   {
+    "start": "20:20",
+    "stop": "20:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406202000 +0000",
-    "stop": "20260406205000 +0000",
     "startTs": 1775506800000,
     "stopTs": 1775508600000,
     "title": "Non Stop Headline",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation."
   },
   {
+    "start": "20:50",
+    "stop": "21:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406205000 +0000",
-    "stop": "20260406212000 +0000",
     "startTs": 1775508600000,
     "stopTs": 1775510400000,
     "title": "Mumbai Metro",
-    "desc": "The host presents the latest news updates and developments based on social, political, and economic issues from across Mumbai.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments based on social, political, and economic issues from across Mumbai."
   },
   {
+    "start": "21:20",
+    "stop": "21:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406212000 +0000",
-    "stop": "20260406215000 +0000",
     "startTs": 1775510400000,
     "stopTs": 1775512200000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "21:50",
+    "stop": "22:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406215000 +0000",
-    "stop": "20260406222000 +0000",
     "startTs": 1775512200000,
     "stopTs": 1775514000000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "22:20",
+    "stop": "22:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406222000 +0000",
-    "stop": "20260406225000 +0000",
     "startTs": 1775514000000,
     "stopTs": 1775515800000,
     "title": "Mumbai Metro",
-    "desc": "The host presents the latest news updates and developments based on social, political, and economic issues from across Mumbai.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments based on social, political, and economic issues from across Mumbai."
   },
   {
+    "start": "22:50",
+    "stop": "23:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406225000 +0000",
-    "stop": "20260406232000 +0000",
     "startTs": 1775515800000,
     "stopTs": 1775517600000,
     "title": "Pudhari Prime",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation."
   },
   {
+    "start": "23:20",
+    "stop": "23:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406232000 +0000",
-    "stop": "20260406235000 +0000",
     "startTs": 1775517600000,
     "stopTs": 1775519400000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "23:50",
+    "stop": "00:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260406235000 +0000",
-    "stop": "20260407002000 +0000",
     "startTs": 1775519400000,
     "stopTs": 1775521200000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "00:20",
+    "stop": "00:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407002000 +0000",
-    "stop": "20260407005000 +0000",
     "startTs": 1775521200000,
     "stopTs": 1775523000000,
     "title": "Deaf And Mute Bulletin",
-    "desc": "The host presents the latest news stories and updates regarding various issues around the country for people who are visually and hearing impaired.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news stories and updates regarding various issues around the country for people who are visually and hearing impaired."
   },
   {
+    "start": "00:50",
+    "stop": "01:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407005000 +0000",
-    "stop": "20260407012000 +0000",
     "startTs": 1775523000000,
     "stopTs": 1775524800000,
     "title": "Devachiye Dwari",
-    "desc": "Various religious singers and musicians sing devotional songs in praise of the Almighty and to seek blessings while delivering a spiritual message.",
-    "channel": "PudhariNews.in"
+    "desc": "Various religious singers and musicians sing devotional songs in praise of the Almighty and to seek blessings while delivering a spiritual message."
   },
   {
+    "start": "01:20",
+    "stop": "01:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407012000 +0000",
-    "stop": "20260407015000 +0000",
     "startTs": 1775524800000,
     "stopTs": 1775526600000,
     "title": "Pudhari Fresh And Fast",
-    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
   },
   {
+    "start": "01:50",
+    "stop": "02:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407015000 +0000",
-    "stop": "20260407022000 +0000",
     "startTs": 1775526600000,
     "stopTs": 1775528400000,
     "title": "Bantmyanchya Gavat",
-    "desc": "The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs."
   },
   {
+    "start": "02:20",
+    "stop": "02:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407022000 +0000",
-    "stop": "20260407025000 +0000",
     "startTs": 1775528400000,
     "stopTs": 1775530200000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "02:50",
+    "stop": "03:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407025000 +0000",
-    "stop": "20260407032000 +0000",
     "startTs": 1775530200000,
     "stopTs": 1775532000000,
     "title": "Non Stop Headline",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation."
   },
   {
+    "start": "03:20",
+    "stop": "03:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407032000 +0000",
-    "stop": "20260407035000 +0000",
     "startTs": 1775532000000,
     "stopTs": 1775533800000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "03:50",
+    "stop": "04:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407035000 +0000",
-    "stop": "20260407042000 +0000",
     "startTs": 1775533800000,
     "stopTs": 1775535600000,
     "title": "MH 100",
-    "desc": "A compilation of 100 latest news stories about political, economic, social and cultural topics from all around the region.",
-    "channel": "PudhariNews.in"
+    "desc": "A compilation of 100 latest news stories about political, economic, social and cultural topics from all around the region."
   },
   {
+    "start": "04:20",
+    "stop": "04:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407042000 +0000",
-    "stop": "20260407045000 +0000",
     "startTs": 1775535600000,
     "stopTs": 1775537400000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "04:50",
+    "stop": "05:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407045000 +0000",
-    "stop": "20260407052000 +0000",
     "startTs": 1775537400000,
     "stopTs": 1775539200000,
     "title": "Ardha Minute, Akkhi Batmi",
-    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
   },
   {
+    "start": "05:20",
+    "stop": "05:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407052000 +0000",
-    "stop": "20260407055000 +0000",
     "startTs": 1775539200000,
     "stopTs": 1775541000000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "05:50",
+    "stop": "06:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407055000 +0000",
-    "stop": "20260407062000 +0000",
     "startTs": 1775541000000,
     "stopTs": 1775542800000,
     "title": "Pudhari Fresh And Fast",
-    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
   },
   {
+    "start": "06:20",
+    "stop": "06:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407062000 +0000",
-    "stop": "20260407065000 +0000",
     "startTs": 1775542800000,
     "stopTs": 1775544600000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "06:50",
+    "stop": "07:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407065000 +0000",
-    "stop": "20260407072000 +0000",
     "startTs": 1775544600000,
     "stopTs": 1775546400000,
     "title": "Non Stop Headline",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation."
   },
   {
+    "start": "07:20",
+    "stop": "07:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407072000 +0000",
-    "stop": "20260407075000 +0000",
     "startTs": 1775546400000,
     "stopTs": 1775548200000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "07:50",
+    "stop": "08:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407075000 +0000",
-    "stop": "20260407082000 +0000",
     "startTs": 1775548200000,
     "stopTs": 1775550000000,
     "title": "MH 100",
-    "desc": "A compilation of 100 latest news stories about political, economic, social and cultural topics from all around the region.",
-    "channel": "PudhariNews.in"
+    "desc": "A compilation of 100 latest news stories about political, economic, social and cultural topics from all around the region."
   },
   {
+    "start": "08:20",
+    "stop": "08:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407082000 +0000",
-    "stop": "20260407085000 +0000",
     "startTs": 1775550000000,
     "stopTs": 1775551800000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "08:50",
+    "stop": "09:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407085000 +0000",
-    "stop": "20260407092000 +0000",
     "startTs": 1775551800000,
     "stopTs": 1775553600000,
     "title": "Pudhari Icons/Pudhari Fresh And Fast",
-    "desc": "Bringing the best in television.",
-    "channel": "PudhariNews.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "09:20",
+    "stop": "09:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407092000 +0000",
-    "stop": "20260407095000 +0000",
     "startTs": 1775553600000,
     "stopTs": 1775555400000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "09:50",
+    "stop": "10:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407095000 +0000",
-    "stop": "20260407102000 +0000",
     "startTs": 1775555400000,
     "stopTs": 1775557200000,
     "title": "Health Talk/ MH 100",
-    "desc": "The host engages in a conversation with medical experts about various health issues; The host shares latest updates and developments on the top 100 issues within the state Maharashtra.",
-    "channel": "PudhariNews.in"
+    "desc": "The host engages in a conversation with medical experts about various health issues; The host shares latest updates and developments on the top 100 issues within the state Maharashtra."
   },
   {
+    "start": "10:20",
+    "stop": "10:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407102000 +0000",
-    "stop": "20260407105000 +0000",
     "startTs": 1775557200000,
     "stopTs": 1775559000000,
     "title": "Chahachya Batmya",
-    "desc": "The host brings up-to-date coverage of political, social, economic and sports developments, offering insightful reports on key events from both the state and national levels.",
-    "channel": "PudhariNews.in"
+    "desc": "The host brings up-to-date coverage of political, social, economic and sports developments, offering insightful reports on key events from both the state and national levels."
   },
   {
+    "start": "10:50",
+    "stop": "11:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407105000 +0000",
-    "stop": "20260407112000 +0000",
     "startTs": 1775559000000,
     "stopTs": 1775560800000,
     "title": "Ardha Minute, Akkhi Batmi",
-    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
   },
   {
+    "start": "11:20",
+    "stop": "11:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407112000 +0000",
-    "stop": "20260407115000 +0000",
     "startTs": 1775560800000,
     "stopTs": 1775562600000,
     "title": "Dhurala",
-    "desc": "The host invites a panel of guests to engage in an insightful conversation surrounding the various matters concerning the state.",
-    "channel": "PudhariNews.in"
+    "desc": "The host invites a panel of guests to engage in an insightful conversation surrounding the various matters concerning the state."
   },
   {
+    "start": "11:50",
+    "stop": "12:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407115000 +0000",
-    "stop": "20260407122000 +0000",
     "startTs": 1775562600000,
     "stopTs": 1775564400000,
     "title": "Susat 60",
-    "desc": "The host presents 60 latest news stories and significant developments from various fronts that impact people in quick succession.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents 60 latest news stories and significant developments from various fronts that impact people in quick succession."
   },
   {
+    "start": "12:20",
+    "stop": "12:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407122000 +0000",
-    "stop": "20260407125000 +0000",
     "startTs": 1775564400000,
     "stopTs": 1775566200000,
     "title": "Supersix",
-    "desc": "The host presents a mix of top stories, covering politics, social issues, economy and sports, offering a comprehensive look at the most important updates from across the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents a mix of top stories, covering politics, social issues, economy and sports, offering a comprehensive look at the most important updates from across the nation."
   },
   {
+    "start": "12:50",
+    "stop": "13:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407125000 +0000",
-    "stop": "20260407132000 +0000",
     "startTs": 1775566200000,
     "stopTs": 1775568000000,
     "title": "Non Stop Maharashtra",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state of Maharashtra.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state of Maharashtra."
   },
   {
+    "start": "13:20",
+    "stop": "13:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407132000 +0000",
-    "stop": "20260407135000 +0000",
     "startTs": 1775568000000,
     "stopTs": 1775569800000,
     "title": "My Maharashtra",
-    "desc": "The host presents the latest information, advancements and developments on various key issues in the state of Maharashtra.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest information, advancements and developments on various key issues in the state of Maharashtra."
   },
   {
+    "start": "13:50",
+    "stop": "14:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407135000 +0000",
-    "stop": "20260407142000 +0000",
     "startTs": 1775569800000,
     "stopTs": 1775571600000,
     "title": "Susat 60",
-    "desc": "The host presents 60 latest news stories and significant developments from various fronts that impact people in quick succession.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents 60 latest news stories and significant developments from various fronts that impact people in quick succession."
   },
   {
+    "start": "14:20",
+    "stop": "14:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407142000 +0000",
-    "stop": "20260407145000 +0000",
     "startTs": 1775571600000,
     "stopTs": 1775573400000,
     "title": "Smart City",
-    "desc": "The host presents the latest political, social and economic news, updates and developments from various cities across India.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest political, social and economic news, updates and developments from various cities across India."
   },
   {
+    "start": "14:50",
+    "stop": "15:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407145000 +0000",
-    "stop": "20260407152000 +0000",
     "startTs": 1775573400000,
     "stopTs": 1775575200000,
     "title": "Pudhari Prime",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation."
   },
   {
+    "start": "15:20",
+    "stop": "15:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407152000 +0000",
-    "stop": "20260407155000 +0000",
     "startTs": 1775575200000,
     "stopTs": 1775577000000,
     "title": "Duniyadari",
-    "desc": "The host presents the latest news stories and recent updates on crucial matters such as governance, social issues, economics, and political issues happening across the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news stories and recent updates on crucial matters such as governance, social issues, economics, and political issues happening across the nation."
   },
   {
+    "start": "15:50",
+    "stop": "16:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407155000 +0000",
-    "stop": "20260407162000 +0000",
     "startTs": 1775577000000,
     "stopTs": 1775578800000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "16:20",
+    "stop": "16:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407162000 +0000",
-    "stop": "20260407165000 +0000",
     "startTs": 1775578800000,
     "stopTs": 1775580600000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "16:50",
+    "stop": "17:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407165000 +0000",
-    "stop": "20260407172000 +0000",
     "startTs": 1775580600000,
     "stopTs": 1775582400000,
     "title": "Mahasummit",
-    "desc": "The host interacts with the guest and converses with them about political events, current affairs and the latest developments.",
-    "channel": "PudhariNews.in"
+    "desc": "The host interacts with the guest and converses with them about political events, current affairs and the latest developments."
   },
   {
+    "start": "17:20",
+    "stop": "17:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407172000 +0000",
-    "stop": "20260407175000 +0000",
     "startTs": 1775582400000,
     "stopTs": 1775584200000,
     "title": "Dhurala",
-    "desc": "The host invites a panel of guests to engage in an insightful conversation surrounding the various matters concerning the state.",
-    "channel": "PudhariNews.in"
+    "desc": "The host invites a panel of guests to engage in an insightful conversation surrounding the various matters concerning the state."
   },
   {
+    "start": "17:50",
+    "stop": "18:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407175000 +0000",
-    "stop": "20260407182000 +0000",
     "startTs": 1775584200000,
     "stopTs": 1775586000000,
     "title": "Pudhari Prime",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation."
   },
   {
+    "start": "18:20",
+    "stop": "18:30",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407182000 +0000",
-    "stop": "20260407183000 +0000",
     "startTs": 1775586000000,
     "stopTs": 1775586600000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "18:30",
+    "stop": "18:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407183000 +0000",
-    "stop": "20260407185000 +0000",
     "startTs": 1775586600000,
     "stopTs": 1775587800000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "18:50",
+    "stop": "19:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407185000 +0000",
-    "stop": "20260407192000 +0000",
     "startTs": 1775587800000,
     "stopTs": 1775589600000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "19:20",
+    "stop": "19:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407192000 +0000",
-    "stop": "20260407195000 +0000",
     "startTs": 1775589600000,
     "stopTs": 1775591400000,
     "title": "Pudhari Focus",
-    "desc": "The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs."
   },
   {
+    "start": "19:50",
+    "stop": "20:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407195000 +0000",
-    "stop": "20260407202000 +0000",
     "startTs": 1775591400000,
     "stopTs": 1775593200000,
     "title": "Pudhari Prime",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation."
   },
   {
+    "start": "20:20",
+    "stop": "20:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407202000 +0000",
-    "stop": "20260407205000 +0000",
     "startTs": 1775593200000,
     "stopTs": 1775595000000,
     "title": "Non Stop Headline",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation."
   },
   {
+    "start": "20:50",
+    "stop": "21:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407205000 +0000",
-    "stop": "20260407212000 +0000",
     "startTs": 1775595000000,
     "stopTs": 1775596800000,
     "title": "Mumbai Metro",
-    "desc": "The host presents the latest news updates and developments based on social, political, and economic issues from across Mumbai.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments based on social, political, and economic issues from across Mumbai."
   },
   {
+    "start": "21:20",
+    "stop": "21:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407212000 +0000",
-    "stop": "20260407215000 +0000",
     "startTs": 1775596800000,
     "stopTs": 1775598600000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "21:50",
+    "stop": "22:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407215000 +0000",
-    "stop": "20260407222000 +0000",
     "startTs": 1775598600000,
     "stopTs": 1775600400000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "22:20",
+    "stop": "22:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407222000 +0000",
-    "stop": "20260407225000 +0000",
     "startTs": 1775600400000,
     "stopTs": 1775602200000,
     "title": "Mumbai Metro",
-    "desc": "The host presents the latest news updates and developments based on social, political, and economic issues from across Mumbai.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments based on social, political, and economic issues from across Mumbai."
   },
   {
+    "start": "22:50",
+    "stop": "23:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407225000 +0000",
-    "stop": "20260407232000 +0000",
     "startTs": 1775602200000,
     "stopTs": 1775604000000,
     "title": "Pudhari Prime",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation."
   },
   {
+    "start": "23:20",
+    "stop": "23:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407232000 +0000",
-    "stop": "20260407235000 +0000",
     "startTs": 1775604000000,
     "stopTs": 1775605800000,
     "title": "Deaf And Mute Bulletin",
-    "desc": "The host presents the latest news stories and updates regarding various issues around the country for people who are visually and hearing impaired.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news stories and updates regarding various issues around the country for people who are visually and hearing impaired."
   },
   {
+    "start": "23:50",
+    "stop": "00:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260407235000 +0000",
-    "stop": "20260408002000 +0000",
     "startTs": 1775605800000,
     "stopTs": 1775607600000,
     "title": "Devachiye Dwari",
-    "desc": "Various religious singers and musicians sing devotional songs in praise of the Almighty and to seek blessings while delivering a spiritual message.",
-    "channel": "PudhariNews.in"
+    "desc": "Various religious singers and musicians sing devotional songs in praise of the Almighty and to seek blessings while delivering a spiritual message."
   },
   {
+    "start": "00:20",
+    "stop": "00:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408002000 +0000",
-    "stop": "20260408005000 +0000",
     "startTs": 1775607600000,
     "stopTs": 1775609400000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "00:50",
+    "stop": "01:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408005000 +0000",
-    "stop": "20260408012000 +0000",
     "startTs": 1775609400000,
     "stopTs": 1775611200000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "01:20",
+    "stop": "01:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408012000 +0000",
-    "stop": "20260408015000 +0000",
     "startTs": 1775611200000,
     "stopTs": 1775613000000,
     "title": "Pudhari Fresh And Fast",
-    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
   },
   {
+    "start": "01:50",
+    "stop": "02:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408015000 +0000",
-    "stop": "20260408022000 +0000",
     "startTs": 1775613000000,
     "stopTs": 1775614800000,
     "title": "Bantmyanchya Gavat",
-    "desc": "The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs."
   },
   {
+    "start": "02:20",
+    "stop": "02:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408022000 +0000",
-    "stop": "20260408025000 +0000",
     "startTs": 1775614800000,
     "stopTs": 1775616600000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "02:50",
+    "stop": "03:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408025000 +0000",
-    "stop": "20260408032000 +0000",
     "startTs": 1775616600000,
     "stopTs": 1775618400000,
     "title": "Non Stop Headline",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation."
   },
   {
+    "start": "03:20",
+    "stop": "03:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408032000 +0000",
-    "stop": "20260408035000 +0000",
     "startTs": 1775618400000,
     "stopTs": 1775620200000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "03:50",
+    "stop": "04:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408035000 +0000",
-    "stop": "20260408042000 +0000",
     "startTs": 1775620200000,
     "stopTs": 1775622000000,
     "title": "MH 100",
-    "desc": "A compilation of 100 latest news stories about political, economic, social and cultural topics from all around the region.",
-    "channel": "PudhariNews.in"
+    "desc": "A compilation of 100 latest news stories about political, economic, social and cultural topics from all around the region."
   },
   {
+    "start": "04:20",
+    "stop": "04:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408042000 +0000",
-    "stop": "20260408045000 +0000",
     "startTs": 1775622000000,
     "stopTs": 1775623800000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "04:50",
+    "stop": "05:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408045000 +0000",
-    "stop": "20260408052000 +0000",
     "startTs": 1775623800000,
     "stopTs": 1775625600000,
     "title": "Ardha Minute, Akkhi Batmi",
-    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
   },
   {
+    "start": "05:20",
+    "stop": "05:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408052000 +0000",
-    "stop": "20260408055000 +0000",
     "startTs": 1775625600000,
     "stopTs": 1775627400000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "05:50",
+    "stop": "06:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408055000 +0000",
-    "stop": "20260408062000 +0000",
     "startTs": 1775627400000,
     "stopTs": 1775629200000,
     "title": "Pudhari Fresh And Fast",
-    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
   },
   {
+    "start": "06:20",
+    "stop": "06:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408062000 +0000",
-    "stop": "20260408065000 +0000",
     "startTs": 1775629200000,
     "stopTs": 1775631000000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "06:50",
+    "stop": "07:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408065000 +0000",
-    "stop": "20260408072000 +0000",
     "startTs": 1775631000000,
     "stopTs": 1775632800000,
     "title": "Non Stop Headline",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation."
   },
   {
+    "start": "07:20",
+    "stop": "07:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408072000 +0000",
-    "stop": "20260408075000 +0000",
     "startTs": 1775632800000,
     "stopTs": 1775634600000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "07:50",
+    "stop": "08:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408075000 +0000",
-    "stop": "20260408082000 +0000",
     "startTs": 1775634600000,
     "stopTs": 1775636400000,
     "title": "MH 100",
-    "desc": "A compilation of 100 latest news stories about political, economic, social and cultural topics from all around the region.",
-    "channel": "PudhariNews.in"
+    "desc": "A compilation of 100 latest news stories about political, economic, social and cultural topics from all around the region."
   },
   {
+    "start": "08:20",
+    "stop": "08:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408082000 +0000",
-    "stop": "20260408085000 +0000",
     "startTs": 1775636400000,
     "stopTs": 1775638200000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "08:50",
+    "stop": "09:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408085000 +0000",
-    "stop": "20260408092000 +0000",
     "startTs": 1775638200000,
     "stopTs": 1775640000000,
     "title": "Pudhari Icons/Pudhari Fresh And Fast",
-    "desc": "Bringing the best in television.",
-    "channel": "PudhariNews.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "09:20",
+    "stop": "09:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408092000 +0000",
-    "stop": "20260408095000 +0000",
     "startTs": 1775640000000,
     "stopTs": 1775641800000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "09:50",
+    "stop": "10:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408095000 +0000",
-    "stop": "20260408102000 +0000",
     "startTs": 1775641800000,
     "stopTs": 1775643600000,
     "title": "Health Talk/ MH 100",
-    "desc": "The host engages in a conversation with medical experts about various health issues; The host shares latest updates and developments on the top 100 issues within the state Maharashtra.",
-    "channel": "PudhariNews.in"
+    "desc": "The host engages in a conversation with medical experts about various health issues; The host shares latest updates and developments on the top 100 issues within the state Maharashtra."
   },
   {
+    "start": "10:20",
+    "stop": "10:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408102000 +0000",
-    "stop": "20260408105000 +0000",
     "startTs": 1775643600000,
     "stopTs": 1775645400000,
     "title": "Chahachya Batmya",
-    "desc": "The host brings up-to-date coverage of political, social, economic and sports developments, offering insightful reports on key events from both the state and national levels.",
-    "channel": "PudhariNews.in"
+    "desc": "The host brings up-to-date coverage of political, social, economic and sports developments, offering insightful reports on key events from both the state and national levels."
   },
   {
+    "start": "10:50",
+    "stop": "11:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408105000 +0000",
-    "stop": "20260408112000 +0000",
     "startTs": 1775645400000,
     "stopTs": 1775647200000,
     "title": "Ardha Minute, Akkhi Batmi",
-    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
   },
   {
+    "start": "11:20",
+    "stop": "11:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408112000 +0000",
-    "stop": "20260408115000 +0000",
     "startTs": 1775647200000,
     "stopTs": 1775649000000,
     "title": "Dhurala",
-    "desc": "The host invites a panel of guests to engage in an insightful conversation surrounding the various matters concerning the state.",
-    "channel": "PudhariNews.in"
+    "desc": "The host invites a panel of guests to engage in an insightful conversation surrounding the various matters concerning the state."
   },
   {
+    "start": "11:50",
+    "stop": "12:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408115000 +0000",
-    "stop": "20260408122000 +0000",
     "startTs": 1775649000000,
     "stopTs": 1775650800000,
     "title": "Susat 60",
-    "desc": "The host presents 60 latest news stories and significant developments from various fronts that impact people in quick succession.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents 60 latest news stories and significant developments from various fronts that impact people in quick succession."
   },
   {
+    "start": "12:20",
+    "stop": "12:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408122000 +0000",
-    "stop": "20260408125000 +0000",
     "startTs": 1775650800000,
     "stopTs": 1775652600000,
     "title": "Supersix",
-    "desc": "The host presents a mix of top stories, covering politics, social issues, economy and sports, offering a comprehensive look at the most important updates from across the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents a mix of top stories, covering politics, social issues, economy and sports, offering a comprehensive look at the most important updates from across the nation."
   },
   {
+    "start": "12:50",
+    "stop": "13:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408125000 +0000",
-    "stop": "20260408132000 +0000",
     "startTs": 1775652600000,
     "stopTs": 1775654400000,
     "title": "Non Stop Maharashtra",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state of Maharashtra.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state of Maharashtra."
   },
   {
+    "start": "13:20",
+    "stop": "13:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408132000 +0000",
-    "stop": "20260408135000 +0000",
     "startTs": 1775654400000,
     "stopTs": 1775656200000,
     "title": "My Maharashtra",
-    "desc": "The host presents the latest information, advancements and developments on various key issues in the state of Maharashtra.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest information, advancements and developments on various key issues in the state of Maharashtra."
   },
   {
+    "start": "13:50",
+    "stop": "14:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408135000 +0000",
-    "stop": "20260408142000 +0000",
     "startTs": 1775656200000,
     "stopTs": 1775658000000,
     "title": "Susat 60",
-    "desc": "The host presents 60 latest news stories and significant developments from various fronts that impact people in quick succession.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents 60 latest news stories and significant developments from various fronts that impact people in quick succession."
   },
   {
+    "start": "14:20",
+    "stop": "14:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408142000 +0000",
-    "stop": "20260408145000 +0000",
     "startTs": 1775658000000,
     "stopTs": 1775659800000,
     "title": "Smart City",
-    "desc": "The host presents the latest political, social and economic news, updates and developments from various cities across India.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest political, social and economic news, updates and developments from various cities across India."
   },
   {
+    "start": "14:50",
+    "stop": "15:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408145000 +0000",
-    "stop": "20260408152000 +0000",
     "startTs": 1775659800000,
     "stopTs": 1775661600000,
     "title": "Pudhari Prime",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation."
   },
   {
+    "start": "15:20",
+    "stop": "15:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408152000 +0000",
-    "stop": "20260408155000 +0000",
     "startTs": 1775661600000,
     "stopTs": 1775663400000,
     "title": "Duniyadari",
-    "desc": "The host presents the latest news stories and recent updates on crucial matters such as governance, social issues, economics, and political issues happening across the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news stories and recent updates on crucial matters such as governance, social issues, economics, and political issues happening across the nation."
   },
   {
+    "start": "15:50",
+    "stop": "16:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408155000 +0000",
-    "stop": "20260408162000 +0000",
     "startTs": 1775663400000,
     "stopTs": 1775665200000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "16:20",
+    "stop": "16:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408162000 +0000",
-    "stop": "20260408165000 +0000",
     "startTs": 1775665200000,
     "stopTs": 1775667000000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "16:50",
+    "stop": "17:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408165000 +0000",
-    "stop": "20260408172000 +0000",
     "startTs": 1775667000000,
     "stopTs": 1775668800000,
     "title": "Mumbai Metro",
-    "desc": "The host presents the latest news updates and developments based on social, political, and economic issues from across Mumbai.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments based on social, political, and economic issues from across Mumbai."
   },
   {
+    "start": "17:20",
+    "stop": "17:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408172000 +0000",
-    "stop": "20260408175000 +0000",
     "startTs": 1775668800000,
     "stopTs": 1775670600000,
     "title": "Dhurala",
-    "desc": "The host invites a panel of guests to engage in an insightful conversation surrounding the various matters concerning the state.",
-    "channel": "PudhariNews.in"
+    "desc": "The host invites a panel of guests to engage in an insightful conversation surrounding the various matters concerning the state."
   },
   {
+    "start": "17:50",
+    "stop": "18:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408175000 +0000",
-    "stop": "20260408182000 +0000",
     "startTs": 1775670600000,
     "stopTs": 1775672400000,
     "title": "Pudhari Prime",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation."
   },
   {
+    "start": "18:20",
+    "stop": "18:30",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408182000 +0000",
-    "stop": "20260408183000 +0000",
     "startTs": 1775672400000,
     "stopTs": 1775673000000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "18:30",
+    "stop": "18:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408183000 +0000",
-    "stop": "20260408185000 +0000",
     "startTs": 1775673000000,
     "stopTs": 1775674200000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "18:50",
+    "stop": "19:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408185000 +0000",
-    "stop": "20260408192000 +0000",
     "startTs": 1775674200000,
     "stopTs": 1775676000000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "19:20",
+    "stop": "19:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408192000 +0000",
-    "stop": "20260408195000 +0000",
     "startTs": 1775676000000,
     "stopTs": 1775677800000,
     "title": "Pudhari Focus",
-    "desc": "The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs."
   },
   {
+    "start": "19:50",
+    "stop": "20:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408195000 +0000",
-    "stop": "20260408202000 +0000",
     "startTs": 1775677800000,
     "stopTs": 1775679600000,
     "title": "Pudhari Prime",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation."
   },
   {
+    "start": "20:20",
+    "stop": "20:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408202000 +0000",
-    "stop": "20260408205000 +0000",
     "startTs": 1775679600000,
     "stopTs": 1775681400000,
     "title": "Non Stop Headline",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation."
   },
   {
+    "start": "20:50",
+    "stop": "21:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408205000 +0000",
-    "stop": "20260408212000 +0000",
     "startTs": 1775681400000,
     "stopTs": 1775683200000,
     "title": "Mumbai Metro",
-    "desc": "The host presents the latest news updates and developments based on social, political, and economic issues from across Mumbai.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments based on social, political, and economic issues from across Mumbai."
   },
   {
+    "start": "21:20",
+    "stop": "21:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408212000 +0000",
-    "stop": "20260408215000 +0000",
     "startTs": 1775683200000,
     "stopTs": 1775685000000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "21:50",
+    "stop": "22:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408215000 +0000",
-    "stop": "20260408222000 +0000",
     "startTs": 1775685000000,
     "stopTs": 1775686800000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "22:20",
+    "stop": "22:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408222000 +0000",
-    "stop": "20260408225000 +0000",
     "startTs": 1775686800000,
     "stopTs": 1775688600000,
     "title": "Mumbai Metro",
-    "desc": "The host presents the latest news updates and developments based on social, political, and economic issues from across Mumbai.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments based on social, political, and economic issues from across Mumbai."
   },
   {
+    "start": "22:50",
+    "stop": "23:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408225000 +0000",
-    "stop": "20260408232000 +0000",
     "startTs": 1775688600000,
     "stopTs": 1775690400000,
     "title": "Pudhari Prime",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the state and the nation."
   },
   {
+    "start": "23:20",
+    "stop": "23:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408232000 +0000",
-    "stop": "20260408235000 +0000",
     "startTs": 1775690400000,
     "stopTs": 1775692200000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "23:50",
+    "stop": "00:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260408235000 +0000",
-    "stop": "20260409002000 +0000",
     "startTs": 1775692200000,
     "stopTs": 1775694000000,
     "title": "Newshour",
-    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates and developments from around the world in the fields of politics, social issues, economics, entertainment and sports."
   },
   {
+    "start": "00:20",
+    "stop": "00:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260409002000 +0000",
-    "stop": "20260409005000 +0000",
     "startTs": 1775694000000,
     "stopTs": 1775695800000,
     "title": "Deaf And Mute Bulletin",
-    "desc": "The host presents the latest news stories and updates regarding various issues around the country for people who are visually and hearing impaired.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news stories and updates regarding various issues around the country for people who are visually and hearing impaired."
   },
   {
+    "start": "00:50",
+    "stop": "01:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260409005000 +0000",
-    "stop": "20260409012000 +0000",
     "startTs": 1775695800000,
     "stopTs": 1775697600000,
     "title": "Devachiye Dwari",
-    "desc": "Various religious singers and musicians sing devotional songs in praise of the Almighty and to seek blessings while delivering a spiritual message.",
-    "channel": "PudhariNews.in"
+    "desc": "Various religious singers and musicians sing devotional songs in praise of the Almighty and to seek blessings while delivering a spiritual message."
   },
   {
+    "start": "01:20",
+    "stop": "01:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260409012000 +0000",
-    "stop": "20260409015000 +0000",
     "startTs": 1775697600000,
     "stopTs": 1775699400000,
     "title": "Pudhari Fresh And Fast",
-    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
   },
   {
+    "start": "01:50",
+    "stop": "02:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260409015000 +0000",
-    "stop": "20260409022000 +0000",
     "startTs": 1775699400000,
     "stopTs": 1775701200000,
     "title": "Bantmyanchya Gavat",
-    "desc": "The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs."
   },
   {
+    "start": "02:20",
+    "stop": "02:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260409022000 +0000",
-    "stop": "20260409025000 +0000",
     "startTs": 1775701200000,
     "stopTs": 1775703000000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "02:50",
+    "stop": "03:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260409025000 +0000",
-    "stop": "20260409032000 +0000",
     "startTs": 1775703000000,
     "stopTs": 1775704800000,
     "title": "Non Stop Headline",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation."
   },
   {
+    "start": "03:20",
+    "stop": "03:50",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260409032000 +0000",
-    "stop": "20260409035000 +0000",
     "startTs": 1775704800000,
     "stopTs": 1775706600000,
     "title": "General Bulletin",
-    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation.",
-    "channel": "PudhariNews.in"
+    "desc": "The host presents the latest developments and events on crucial political, social, economic and sports matters affecting the nation."
   },
   {
+    "start": "03:50",
+    "stop": "04:20",
+    "channel": "PudhariNews.in",
     "channelId": "PudhariNews.in",
     "channelName": "IN - Pudhari News",
-    "start": "20260409035000 +0000",
-    "stop": "20260409042000 +0000",
     "startTs": 1775706600000,
     "stopTs": 1775708400000,
     "title": "MH 100",
-    "desc": "A compilation of 100 latest news stories about political, economic, social and cultural topics from all around the region.",
-    "channel": "PudhariNews.in"
+    "desc": "A compilation of 100 latest news stories about political, economic, social and cultural topics from all around the region."
   }
 ]

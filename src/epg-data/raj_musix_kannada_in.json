@@ -1,619 +1,619 @@
 [
   {
+    "start": "18:30",
+    "stop": "01:30",
+    "channel": "ts427",
+    "catchup-id": "93106535",
     "channelId": "ts427",
     "channelName": "Raj Musix Kannada",
-    "start": "20260405183000 +0000",
-    "stop": "20260406013000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775439000000,
     "title": "Tara Rum Pum",
-    "desc": "A compilation of popular songs is played back-to-back to entertain the audience.",
-    "channel": "ts427",
-    "catchup-id": "93106535"
+    "desc": "A compilation of popular songs is played back-to-back to entertain the audience."
   },
   {
+    "start": "01:30",
+    "stop": "04:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260406013000 +0000",
-    "stop": "20260406043000 +0000",
     "startTs": 1775439000000,
     "stopTs": 1775449800000,
     "title": "Good Morning Karunadu",
-    "desc": "The hosts invite prominent personalities and engage with them in a fascinating conversation about their professional and personal lives.",
-    "channel": "RajMusixKannada.in"
+    "desc": "The hosts invite prominent personalities and engage with them in a fascinating conversation about their professional and personal lives."
   },
   {
+    "start": "04:30",
+    "stop": "05:00",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260406043000 +0000",
-    "stop": "20260406050000 +0000",
     "startTs": 1775449800000,
     "stopTs": 1775451600000,
     "title": "Tara Rum Pum",
-    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience."
   },
   {
+    "start": "05:00",
+    "stop": "05:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260406050000 +0000",
-    "stop": "20260406053000 +0000",
     "startTs": 1775451600000,
     "stopTs": 1775453400000,
     "title": "RJR Herbal Hospital",
-    "desc": "The host showcases the holistic healing at RJR Herbal Hospital, where Ayurvedic treatments are used to address various health issues.",
-    "channel": "RajMusixKannada.in"
+    "desc": "The host showcases the holistic healing at RJR Herbal Hospital, where Ayurvedic treatments are used to address various health issues."
   },
   {
+    "start": "05:30",
+    "stop": "06:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260406053000 +0000",
-    "stop": "20260406063000 +0000",
     "startTs": 1775453400000,
     "stopTs": 1775457000000,
     "title": "Tara Rum Pum",
-    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience."
   },
   {
+    "start": "06:30",
+    "stop": "07:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260406063000 +0000",
-    "stop": "20260406073000 +0000",
     "startTs": 1775457000000,
     "stopTs": 1775460600000,
     "title": "Music Junction",
-    "desc": "A comprehensive compilation of melodious and famous songs sung by popular artists is played back-to-back for entertainment.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of melodious and famous songs sung by popular artists is played back-to-back for entertainment."
   },
   {
+    "start": "07:30",
+    "stop": "08:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260406073000 +0000",
-    "stop": "20260406083000 +0000",
     "startTs": 1775460600000,
     "stopTs": 1775464200000,
     "title": "Savigana",
-    "desc": "The host takes song requests from viewers, playing the most loved Kannada hits and creating a lively musical atmosphere with top tracks from recent films.",
-    "channel": "RajMusixKannada.in"
+    "desc": "The host takes song requests from viewers, playing the most loved Kannada hits and creating a lively musical atmosphere with top tracks from recent films."
   },
   {
+    "start": "08:30",
+    "stop": "10:00",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260406083000 +0000",
-    "stop": "20260406100000 +0000",
     "startTs": 1775464200000,
     "stopTs": 1775469600000,
     "title": "Tara Rum Pum",
-    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience."
   },
   {
+    "start": "10:00",
+    "stop": "10:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260406100000 +0000",
-    "stop": "20260406103000 +0000",
     "startTs": 1775469600000,
     "stopTs": 1775471400000,
     "title": "RJR Herbal Hospital",
-    "desc": "The host showcases the holistic healing at RJR Herbal Hospital, where Ayurvedic treatments are used to address various health issues.",
-    "channel": "RajMusixKannada.in"
+    "desc": "The host showcases the holistic healing at RJR Herbal Hospital, where Ayurvedic treatments are used to address various health issues."
   },
   {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260406103000 +0000",
-    "stop": "20260406113000 +0000",
     "startTs": 1775471400000,
     "stopTs": 1775475000000,
     "title": "Tara Rum Pum",
-    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience."
   },
   {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260406113000 +0000",
-    "stop": "20260406123000 +0000",
     "startTs": 1775475000000,
     "stopTs": 1775478600000,
     "title": "Sikkapatte Esta Patte",
-    "desc": "Bringing the best in television.",
-    "channel": "RajMusixKannada.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260406123000 +0000",
-    "stop": "20260406133000 +0000",
     "startTs": 1775478600000,
     "stopTs": 1775482200000,
     "title": "Love Zone",
-    "desc": "A curated collection of the finest romantic songs from various Kannada movies, showcasing the magic of renowned musicians and singers, perfect for every mood and moment.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A curated collection of the finest romantic songs from various Kannada movies, showcasing the magic of renowned musicians and singers, perfect for every mood and moment."
   },
   {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260406133000 +0000",
-    "stop": "20260406140000 +0000",
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Yeddelu Manjunatha",
-    "desc": "Bringing the best in television.",
-    "channel": "RajMusixKannada.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "14:00",
+    "stop": "15:00",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260406140000 +0000",
-    "stop": "20260406150000 +0000",
     "startTs": 1775484000000,
     "stopTs": 1775487600000,
     "title": "Sant Rampal Ji Maharaj",
-    "desc": "Sant Rampal Ji Maharaj delivers a discourse based on sacred religious scriptures and imparts their significance among the followers.",
-    "channel": "RajMusixKannada.in"
+    "desc": "Sant Rampal Ji Maharaj delivers a discourse based on sacred religious scriptures and imparts their significance among the followers."
   },
   {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260406150000 +0000",
-    "stop": "20260406153000 +0000",
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Silver Screen",
-    "desc": "Dive into the film world with updates on movie releases, conversations with artists and behind-the-scenes moments that bring the industry to life.",
-    "channel": "RajMusixKannada.in"
+    "desc": "Dive into the film world with updates on movie releases, conversations with artists and behind-the-scenes moments that bring the industry to life."
   },
   {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260406153000 +0000",
-    "stop": "20260406163000 +0000",
     "startTs": 1775489400000,
     "stopTs": 1775493000000,
     "title": "Savigana",
-    "desc": "The host takes song requests from viewers, playing the most loved Kannada hits and creating a lively musical atmosphere with top tracks from recent films.",
-    "channel": "RajMusixKannada.in"
+    "desc": "The host takes song requests from viewers, playing the most loved Kannada hits and creating a lively musical atmosphere with top tracks from recent films."
   },
   {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260406163000 +0000",
-    "stop": "20260406173000 +0000",
     "startTs": 1775493000000,
     "stopTs": 1775496600000,
     "title": "Tara Rum Pum",
-    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience."
   },
   {
+    "start": "17:30",
+    "stop": "18:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260406173000 +0000",
-    "stop": "20260406183000 +0000",
     "startTs": 1775496600000,
     "stopTs": 1775500200000,
     "title": "Tara Rum Pum",
-    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience."
   },
   {
+    "start": "18:30",
+    "stop": "01:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260406183000 +0000",
-    "stop": "20260407013000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775525400000,
     "title": "Tara Rum Pum",
-    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience."
   },
   {
+    "start": "01:30",
+    "stop": "04:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260407013000 +0000",
-    "stop": "20260407043000 +0000",
     "startTs": 1775525400000,
     "stopTs": 1775536200000,
     "title": "Good Morning Karunadu",
-    "desc": "The hosts invite prominent personalities and engage with them in a fascinating conversation about their professional and personal lives.",
-    "channel": "RajMusixKannada.in"
+    "desc": "The hosts invite prominent personalities and engage with them in a fascinating conversation about their professional and personal lives."
   },
   {
+    "start": "04:30",
+    "stop": "05:00",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260407043000 +0000",
-    "stop": "20260407050000 +0000",
     "startTs": 1775536200000,
     "stopTs": 1775538000000,
     "title": "Tara Rum Pum",
-    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience."
   },
   {
+    "start": "05:00",
+    "stop": "05:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260407050000 +0000",
-    "stop": "20260407053000 +0000",
     "startTs": 1775538000000,
     "stopTs": 1775539800000,
     "title": "RJR Herbal Hospital",
-    "desc": "The host showcases the holistic healing at RJR Herbal Hospital, where Ayurvedic treatments are used to address various health issues.",
-    "channel": "RajMusixKannada.in"
+    "desc": "The host showcases the holistic healing at RJR Herbal Hospital, where Ayurvedic treatments are used to address various health issues."
   },
   {
+    "start": "05:30",
+    "stop": "06:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260407053000 +0000",
-    "stop": "20260407063000 +0000",
     "startTs": 1775539800000,
     "stopTs": 1775543400000,
     "title": "Tara Rum Pum",
-    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience."
   },
   {
+    "start": "06:30",
+    "stop": "07:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260407063000 +0000",
-    "stop": "20260407073000 +0000",
     "startTs": 1775543400000,
     "stopTs": 1775547000000,
     "title": "Music Junction",
-    "desc": "A comprehensive compilation of melodious and famous songs sung by popular artists is played back-to-back for entertainment.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of melodious and famous songs sung by popular artists is played back-to-back for entertainment."
   },
   {
+    "start": "07:30",
+    "stop": "08:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260407073000 +0000",
-    "stop": "20260407083000 +0000",
     "startTs": 1775547000000,
     "stopTs": 1775550600000,
     "title": "Savigana",
-    "desc": "The host takes song requests from viewers, playing the most loved Kannada hits and creating a lively musical atmosphere with top tracks from recent films.",
-    "channel": "RajMusixKannada.in"
+    "desc": "The host takes song requests from viewers, playing the most loved Kannada hits and creating a lively musical atmosphere with top tracks from recent films."
   },
   {
+    "start": "08:30",
+    "stop": "10:00",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260407083000 +0000",
-    "stop": "20260407100000 +0000",
     "startTs": 1775550600000,
     "stopTs": 1775556000000,
     "title": "Tara Rum Pum",
-    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience."
   },
   {
+    "start": "10:00",
+    "stop": "10:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260407100000 +0000",
-    "stop": "20260407103000 +0000",
     "startTs": 1775556000000,
     "stopTs": 1775557800000,
     "title": "RJR Herbal Hospital",
-    "desc": "The host showcases the holistic healing at RJR Herbal Hospital, where Ayurvedic treatments are used to address various health issues.",
-    "channel": "RajMusixKannada.in"
+    "desc": "The host showcases the holistic healing at RJR Herbal Hospital, where Ayurvedic treatments are used to address various health issues."
   },
   {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260407103000 +0000",
-    "stop": "20260407113000 +0000",
     "startTs": 1775557800000,
     "stopTs": 1775561400000,
     "title": "Tara Rum Pum",
-    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience."
   },
   {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260407113000 +0000",
-    "stop": "20260407123000 +0000",
     "startTs": 1775561400000,
     "stopTs": 1775565000000,
     "title": "Sikkapatte Esta Patte",
-    "desc": "Bringing the best in television.",
-    "channel": "RajMusixKannada.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260407123000 +0000",
-    "stop": "20260407133000 +0000",
     "startTs": 1775565000000,
     "stopTs": 1775568600000,
     "title": "Love Zone",
-    "desc": "A curated collection of the finest romantic songs from various Kannada movies, showcasing the magic of renowned musicians and singers, perfect for every mood and moment.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A curated collection of the finest romantic songs from various Kannada movies, showcasing the magic of renowned musicians and singers, perfect for every mood and moment."
   },
   {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260407133000 +0000",
-    "stop": "20260407140000 +0000",
     "startTs": 1775568600000,
     "stopTs": 1775570400000,
     "title": "Yeddelu Manjunatha",
-    "desc": "Bringing the best in television.",
-    "channel": "RajMusixKannada.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "14:00",
+    "stop": "15:00",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260407140000 +0000",
-    "stop": "20260407150000 +0000",
     "startTs": 1775570400000,
     "stopTs": 1775574000000,
     "title": "Sant Rampal Ji Maharaj",
-    "desc": "Sant Rampal Ji Maharaj delivers a discourse based on sacred religious scriptures and imparts their significance among the followers.",
-    "channel": "RajMusixKannada.in"
+    "desc": "Sant Rampal Ji Maharaj delivers a discourse based on sacred religious scriptures and imparts their significance among the followers."
   },
   {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260407150000 +0000",
-    "stop": "20260407153000 +0000",
     "startTs": 1775574000000,
     "stopTs": 1775575800000,
     "title": "Silver Screen",
-    "desc": "Dive into the film world with updates on movie releases, conversations with artists and behind-the-scenes moments that bring the industry to life.",
-    "channel": "RajMusixKannada.in"
+    "desc": "Dive into the film world with updates on movie releases, conversations with artists and behind-the-scenes moments that bring the industry to life."
   },
   {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260407153000 +0000",
-    "stop": "20260407163000 +0000",
     "startTs": 1775575800000,
     "stopTs": 1775579400000,
     "title": "Savigana",
-    "desc": "The host takes song requests from viewers, playing the most loved Kannada hits and creating a lively musical atmosphere with top tracks from recent films.",
-    "channel": "RajMusixKannada.in"
+    "desc": "The host takes song requests from viewers, playing the most loved Kannada hits and creating a lively musical atmosphere with top tracks from recent films."
   },
   {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260407163000 +0000",
-    "stop": "20260407173000 +0000",
     "startTs": 1775579400000,
     "stopTs": 1775583000000,
     "title": "Tara Rum Pum",
-    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience."
   },
   {
+    "start": "17:30",
+    "stop": "18:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260407173000 +0000",
-    "stop": "20260407183000 +0000",
     "startTs": 1775583000000,
     "stopTs": 1775586600000,
     "title": "Tara Rum Pum",
-    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience."
   },
   {
+    "start": "18:30",
+    "stop": "01:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260407183000 +0000",
-    "stop": "20260408013000 +0000",
     "startTs": 1775586600000,
     "stopTs": 1775611800000,
     "title": "Tara Rum Pum",
-    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience."
   },
   {
+    "start": "01:30",
+    "stop": "04:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260408013000 +0000",
-    "stop": "20260408043000 +0000",
     "startTs": 1775611800000,
     "stopTs": 1775622600000,
     "title": "Good Morning Karunadu",
-    "desc": "The hosts invite prominent personalities and engage with them in a fascinating conversation about their professional and personal lives.",
-    "channel": "RajMusixKannada.in"
+    "desc": "The hosts invite prominent personalities and engage with them in a fascinating conversation about their professional and personal lives."
   },
   {
+    "start": "04:30",
+    "stop": "05:00",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260408043000 +0000",
-    "stop": "20260408050000 +0000",
     "startTs": 1775622600000,
     "stopTs": 1775624400000,
     "title": "Tara Rum Pum",
-    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience."
   },
   {
+    "start": "05:00",
+    "stop": "05:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260408050000 +0000",
-    "stop": "20260408053000 +0000",
     "startTs": 1775624400000,
     "stopTs": 1775626200000,
     "title": "RJR Herbal Hospital",
-    "desc": "The host showcases the holistic healing at RJR Herbal Hospital, where Ayurvedic treatments are used to address various health issues.",
-    "channel": "RajMusixKannada.in"
+    "desc": "The host showcases the holistic healing at RJR Herbal Hospital, where Ayurvedic treatments are used to address various health issues."
   },
   {
+    "start": "05:30",
+    "stop": "06:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260408053000 +0000",
-    "stop": "20260408063000 +0000",
     "startTs": 1775626200000,
     "stopTs": 1775629800000,
     "title": "Tara Rum Pum",
-    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience."
   },
   {
+    "start": "06:30",
+    "stop": "07:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260408063000 +0000",
-    "stop": "20260408073000 +0000",
     "startTs": 1775629800000,
     "stopTs": 1775633400000,
     "title": "Music Junction",
-    "desc": "A comprehensive compilation of melodious and famous songs sung by popular artists is played back-to-back for entertainment.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of melodious and famous songs sung by popular artists is played back-to-back for entertainment."
   },
   {
+    "start": "07:30",
+    "stop": "08:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260408073000 +0000",
-    "stop": "20260408083000 +0000",
     "startTs": 1775633400000,
     "stopTs": 1775637000000,
     "title": "Savigana",
-    "desc": "The host takes song requests from viewers, playing the most loved Kannada hits and creating a lively musical atmosphere with top tracks from recent films.",
-    "channel": "RajMusixKannada.in"
+    "desc": "The host takes song requests from viewers, playing the most loved Kannada hits and creating a lively musical atmosphere with top tracks from recent films."
   },
   {
+    "start": "08:30",
+    "stop": "10:00",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260408083000 +0000",
-    "stop": "20260408100000 +0000",
     "startTs": 1775637000000,
     "stopTs": 1775642400000,
     "title": "Tara Rum Pum",
-    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience."
   },
   {
+    "start": "10:00",
+    "stop": "10:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260408100000 +0000",
-    "stop": "20260408103000 +0000",
     "startTs": 1775642400000,
     "stopTs": 1775644200000,
     "title": "RJR Herbal Hospital",
-    "desc": "The host showcases the holistic healing at RJR Herbal Hospital, where Ayurvedic treatments are used to address various health issues.",
-    "channel": "RajMusixKannada.in"
+    "desc": "The host showcases the holistic healing at RJR Herbal Hospital, where Ayurvedic treatments are used to address various health issues."
   },
   {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260408103000 +0000",
-    "stop": "20260408113000 +0000",
     "startTs": 1775644200000,
     "stopTs": 1775647800000,
     "title": "Tara Rum Pum",
-    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience."
   },
   {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260408113000 +0000",
-    "stop": "20260408123000 +0000",
     "startTs": 1775647800000,
     "stopTs": 1775651400000,
     "title": "Sikkapatte Esta Patte",
-    "desc": "Bringing the best in television.",
-    "channel": "RajMusixKannada.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260408123000 +0000",
-    "stop": "20260408133000 +0000",
     "startTs": 1775651400000,
     "stopTs": 1775655000000,
     "title": "Love Zone",
-    "desc": "A curated collection of the finest romantic songs from various Kannada movies, showcasing the magic of renowned musicians and singers, perfect for every mood and moment.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A curated collection of the finest romantic songs from various Kannada movies, showcasing the magic of renowned musicians and singers, perfect for every mood and moment."
   },
   {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260408133000 +0000",
-    "stop": "20260408140000 +0000",
     "startTs": 1775655000000,
     "stopTs": 1775656800000,
     "title": "Yeddelu Manjunatha",
-    "desc": "Bringing the best in television.",
-    "channel": "RajMusixKannada.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "14:00",
+    "stop": "15:00",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260408140000 +0000",
-    "stop": "20260408150000 +0000",
     "startTs": 1775656800000,
     "stopTs": 1775660400000,
     "title": "Sant Rampal Ji Maharaj",
-    "desc": "Sant Rampal Ji Maharaj delivers a discourse based on sacred religious scriptures and imparts their significance among the followers.",
-    "channel": "RajMusixKannada.in"
+    "desc": "Sant Rampal Ji Maharaj delivers a discourse based on sacred religious scriptures and imparts their significance among the followers."
   },
   {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260408150000 +0000",
-    "stop": "20260408153000 +0000",
     "startTs": 1775660400000,
     "stopTs": 1775662200000,
     "title": "Silver Screen",
-    "desc": "Dive into the film world with updates on movie releases, conversations with artists and behind-the-scenes moments that bring the industry to life.",
-    "channel": "RajMusixKannada.in"
+    "desc": "Dive into the film world with updates on movie releases, conversations with artists and behind-the-scenes moments that bring the industry to life."
   },
   {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260408153000 +0000",
-    "stop": "20260408163000 +0000",
     "startTs": 1775662200000,
     "stopTs": 1775665800000,
     "title": "Savigana",
-    "desc": "The host takes song requests from viewers, playing the most loved Kannada hits and creating a lively musical atmosphere with top tracks from recent films.",
-    "channel": "RajMusixKannada.in"
+    "desc": "The host takes song requests from viewers, playing the most loved Kannada hits and creating a lively musical atmosphere with top tracks from recent films."
   },
   {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260408163000 +0000",
-    "stop": "20260408173000 +0000",
     "startTs": 1775665800000,
     "stopTs": 1775669400000,
     "title": "Tara Rum Pum",
-    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience."
   },
   {
+    "start": "17:30",
+    "stop": "18:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260408173000 +0000",
-    "stop": "20260408183000 +0000",
     "startTs": 1775669400000,
     "stopTs": 1775673000000,
     "title": "Tara Rum Pum",
-    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience."
   },
   {
+    "start": "18:30",
+    "stop": "01:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260408183000 +0000",
-    "stop": "20260409013000 +0000",
     "startTs": 1775673000000,
     "stopTs": 1775698200000,
     "title": "Tara Rum Pum",
-    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience.",
-    "channel": "RajMusixKannada.in"
+    "desc": "A comprehensive compilation of popular songs composed by renowned musicians is played back-to-back to entertain the audience."
   },
   {
+    "start": "01:30",
+    "stop": "04:30",
+    "channel": "RajMusixKannada.in",
     "channelId": "RajMusixKannada.in",
     "channelName": "IN - Raj Musix Kannada",
-    "start": "20260409013000 +0000",
-    "stop": "20260409043000 +0000",
     "startTs": 1775698200000,
     "stopTs": 1775709000000,
     "title": "Good Morning Karunadu",
-    "desc": "The hosts invite prominent personalities and engage with them in a fascinating conversation about their professional and personal lives.",
-    "channel": "RajMusixKannada.in"
+    "desc": "The hosts invite prominent personalities and engage with them in a fascinating conversation about their professional and personal lives."
   }
 ]

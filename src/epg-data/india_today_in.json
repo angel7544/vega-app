@@ -1,1795 +1,1795 @@
 [
   {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260405183000 +0000",
-    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "India Today Global",
-    "desc": "The host provides information on the latest news stories and developments, presenting updates on relevant current affairs from around the world.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host provides information on the latest news stories and developments, presenting updates on relevant current affairs from around the world."
   },
   {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260405190000 +0000",
-    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260405193000 +0000",
-    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "It's Gone Viral",
-    "desc": "The host presents a compilation of some of the most engaging videos that have gone viral in different parts of the world.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents a compilation of some of the most engaging videos that have gone viral in different parts of the world."
   },
   {
+    "start": "20:00",
+    "stop": "20:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260405200000 +0000",
-    "stop": "20260405203000 +0000",
     "startTs": 1775419200000,
     "stopTs": 1775421000000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "20:30",
+    "stop": "21:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260405203000 +0000",
-    "stop": "20260405210000 +0000",
     "startTs": 1775421000000,
     "stopTs": 1775422800000,
     "title": "Tech Today",
-    "desc": "The host collates and presents some of the most important news, updates and developments related to the world of technology.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host collates and presents some of the most important news, updates and developments related to the world of technology."
   },
   {
+    "start": "21:00",
+    "stop": "21:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260405210000 +0000",
-    "stop": "20260405213000 +0000",
     "startTs": 1775422800000,
     "stopTs": 1775424600000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "21:30",
+    "stop": "22:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260405213000 +0000",
-    "stop": "20260405220000 +0000",
     "startTs": 1775424600000,
     "stopTs": 1775426400000,
     "title": "It Special",
-    "desc": "The host talks about the latest updates and stories from around the country and interviews expert guests on their opinions on various issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host talks about the latest updates and stories from around the country and interviews expert guests on their opinions on various issues."
   },
   {
+    "start": "22:00",
+    "stop": "22:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260405220000 +0000",
-    "stop": "20260405223000 +0000",
     "startTs": 1775426400000,
     "stopTs": 1775428200000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "22:30",
+    "stop": "23:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260405223000 +0000",
-    "stop": "20260405230000 +0000",
     "startTs": 1775428200000,
     "stopTs": 1775430000000,
     "title": "Post Mortem",
-    "desc": "The host provides a detailed analysis of the day's top headlines, dissecting complex legal, political and social issues to uncover the truth behind the news.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host provides a detailed analysis of the day's top headlines, dissecting complex legal, political and social issues to uncover the truth behind the news."
   },
   {
+    "start": "23:00",
+    "stop": "23:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260405230000 +0000",
-    "stop": "20260405233000 +0000",
     "startTs": 1775430000000,
     "stopTs": 1775431800000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "23:30",
+    "stop": "00:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260405233000 +0000",
-    "stop": "20260406000000 +0000",
     "startTs": 1775431800000,
     "stopTs": 1775433600000,
     "title": "India Today Global",
-    "desc": "The host provides information on the latest news stories and developments, presenting updates on relevant current affairs from around the world.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host provides information on the latest news stories and developments, presenting updates on relevant current affairs from around the world."
   },
   {
+    "start": "00:00",
+    "stop": "00:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406000000 +0000",
-    "stop": "20260406003000 +0000",
     "startTs": 1775433600000,
     "stopTs": 1775435400000,
     "title": "Unpolitics With Preeti Choudhry",
-    "desc": "Host Preeti Choudhry invites prominent politicians and interacts with them on some of the latest and most important political issues of the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "Host Preeti Choudhry invites prominent politicians and interacts with them on some of the latest and most important political issues of the country."
   },
   {
+    "start": "00:30",
+    "stop": "01:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406003000 +0000",
-    "stop": "20260406010000 +0000",
     "startTs": 1775435400000,
     "stopTs": 1775437200000,
     "title": "It Special",
-    "desc": "The host talks about the latest updates and stories from around the country and interviews expert guests on their opinions on various issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host talks about the latest updates and stories from around the country and interviews expert guests on their opinions on various issues."
   },
   {
+    "start": "01:00",
+    "stop": "01:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406010000 +0000",
-    "stop": "20260406013000 +0000",
     "startTs": 1775437200000,
     "stopTs": 1775439000000,
     "title": "Democratic Newsroom",
-    "desc": "News anchors present their diversified viewpoints on various issues pertaining to social, political and economic topics of significance.",
-    "channel": "INDIATODAY.in"
+    "desc": "News anchors present their diversified viewpoints on various issues pertaining to social, political and economic topics of significance."
   },
   {
+    "start": "01:30",
+    "stop": "02:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406013000 +0000",
-    "stop": "20260406020000 +0000",
     "startTs": 1775439000000,
     "stopTs": 1775440800000,
     "title": "It Special",
-    "desc": "The host talks about the latest updates and stories from around the country and interviews expert guests on their opinions on various issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host talks about the latest updates and stories from around the country and interviews expert guests on their opinions on various issues."
   },
   {
+    "start": "02:00",
+    "stop": "02:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406020000 +0000",
-    "stop": "20260406023000 +0000",
     "startTs": 1775440800000,
     "stopTs": 1775442600000,
     "title": "It Special",
-    "desc": "The host talks about the latest updates and stories from around the country and interviews expert guests on their opinions on various issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host talks about the latest updates and stories from around the country and interviews expert guests on their opinions on various issues."
   },
   {
+    "start": "02:30",
+    "stop": "03:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406023000 +0000",
-    "stop": "20260406030000 +0000",
     "startTs": 1775442600000,
     "stopTs": 1775444400000,
     "title": "Health 360",
-    "desc": "A medical professional sheds light on various common ailments whilst providing relevant tips that can facilitate maintaining a healthy lifestyle.",
-    "channel": "INDIATODAY.in"
+    "desc": "A medical professional sheds light on various common ailments whilst providing relevant tips that can facilitate maintaining a healthy lifestyle."
   },
   {
+    "start": "03:00",
+    "stop": "03:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406030000 +0000",
-    "stop": "20260406033000 +0000",
     "startTs": 1775444400000,
     "stopTs": 1775446200000,
     "title": "It Special",
-    "desc": "The host talks about the latest updates and stories from around the country and interviews expert guests on their opinions on various issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host talks about the latest updates and stories from around the country and interviews expert guests on their opinions on various issues."
   },
   {
+    "start": "03:30",
+    "stop": "04:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406033000 +0000",
-    "stop": "20260406040000 +0000",
     "startTs": 1775446200000,
     "stopTs": 1775448000000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "04:00",
+    "stop": "04:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406040000 +0000",
-    "stop": "20260406043000 +0000",
     "startTs": 1775448000000,
     "stopTs": 1775449800000,
     "title": "It Special",
-    "desc": "The host talks about the latest updates and stories from around the country and interviews expert guests on their opinions on various issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host talks about the latest updates and stories from around the country and interviews expert guests on their opinions on various issues."
   },
   {
+    "start": "04:30",
+    "stop": "05:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406043000 +0000",
-    "stop": "20260406050000 +0000",
     "startTs": 1775449800000,
     "stopTs": 1775451600000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "05:00",
+    "stop": "05:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406050000 +0000",
-    "stop": "20260406053000 +0000",
     "startTs": 1775451600000,
     "stopTs": 1775453400000,
     "title": "It Special",
-    "desc": "The host talks about the latest updates and stories from around the country and interviews expert guests on their opinions on various issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host talks about the latest updates and stories from around the country and interviews expert guests on their opinions on various issues."
   },
   {
+    "start": "05:30",
+    "stop": "06:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406053000 +0000",
-    "stop": "20260406060000 +0000",
     "startTs": 1775453400000,
     "stopTs": 1775455200000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "06:00",
+    "stop": "06:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406060000 +0000",
-    "stop": "20260406063000 +0000",
     "startTs": 1775455200000,
     "stopTs": 1775457000000,
     "title": "It Special",
-    "desc": "The host talks about the latest updates and stories from around the country and interviews expert guests on their opinions on various issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host talks about the latest updates and stories from around the country and interviews expert guests on their opinions on various issues."
   },
   {
+    "start": "06:30",
+    "stop": "07:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406063000 +0000",
-    "stop": "20260406070000 +0000",
     "startTs": 1775457000000,
     "stopTs": 1775458800000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "07:00",
+    "stop": "07:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406070000 +0000",
-    "stop": "20260406073000 +0000",
     "startTs": 1775458800000,
     "stopTs": 1775460600000,
     "title": "It Special",
-    "desc": "The host talks about the latest updates and stories from around the country and interviews expert guests on their opinions on various issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host talks about the latest updates and stories from around the country and interviews expert guests on their opinions on various issues."
   },
   {
+    "start": "07:30",
+    "stop": "08:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406073000 +0000",
-    "stop": "20260406080000 +0000",
     "startTs": 1775460600000,
     "stopTs": 1775462400000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "08:00",
+    "stop": "08:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406080000 +0000",
-    "stop": "20260406083000 +0000",
     "startTs": 1775462400000,
     "stopTs": 1775464200000,
     "title": "It Special",
-    "desc": "The host talks about the latest updates and stories from around the country and interviews expert guests on their opinions on various issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host talks about the latest updates and stories from around the country and interviews expert guests on their opinions on various issues."
   },
   {
+    "start": "08:30",
+    "stop": "09:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406083000 +0000",
-    "stop": "20260406090000 +0000",
     "startTs": 1775464200000,
     "stopTs": 1775466000000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "09:00",
+    "stop": "09:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406090000 +0000",
-    "stop": "20260406093000 +0000",
     "startTs": 1775466000000,
     "stopTs": 1775467800000,
     "title": "It Special",
-    "desc": "The host talks about the latest updates and stories from around the country and interviews expert guests on their opinions on various issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host talks about the latest updates and stories from around the country and interviews expert guests on their opinions on various issues."
   },
   {
+    "start": "09:30",
+    "stop": "10:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406093000 +0000",
-    "stop": "20260406100000 +0000",
     "startTs": 1775467800000,
     "stopTs": 1775469600000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "10:00",
+    "stop": "10:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406100000 +0000",
-    "stop": "20260406103000 +0000",
     "startTs": 1775469600000,
     "stopTs": 1775471400000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "10:30",
+    "stop": "11:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406103000 +0000",
-    "stop": "20260406110000 +0000",
     "startTs": 1775471400000,
     "stopTs": 1775473200000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406110000 +0000",
-    "stop": "20260406113000 +0000",
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406113000 +0000",
-    "stop": "20260406120000 +0000",
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "5 Live",
-    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live."
   },
   {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406120000 +0000",
-    "stop": "20260406123000 +0000",
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "5 Live",
-    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live."
   },
   {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406123000 +0000",
-    "stop": "20260406130000 +0000",
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Super Six",
-    "desc": "The host presents the top six news updates and developments pertaining to various political and socio-economic issues around the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the top six news updates and developments pertaining to various political and socio-economic issues around the country."
   },
   {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406130000 +0000",
-    "stop": "20260406133000 +0000",
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Namaste World",
-    "desc": "This is News - News Bulletin Category.",
-    "channel": "INDIATODAY.in"
+    "desc": "This is News - News Bulletin Category."
   },
   {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406133000 +0000",
-    "stop": "20260406140000 +0000",
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "To the Point",
-    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues."
   },
   {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406140000 +0000",
-    "stop": "20260406143000 +0000",
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "To the Point",
-    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues."
   },
   {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406143000 +0000",
-    "stop": "20260406150000 +0000",
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "India First",
-    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country."
   },
   {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406150000 +0000",
-    "stop": "20260406153000 +0000",
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "India First",
-    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country."
   },
   {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406153000 +0000",
-    "stop": "20260406160000 +0000",
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "News Today",
-    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world."
   },
   {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406160000 +0000",
-    "stop": "20260406163000 +0000",
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "News Today",
-    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world."
   },
   {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406163000 +0000",
-    "stop": "20260406170000 +0000",
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Newstrack",
-    "desc": "The host presents the top news stories and developments pertaining to various socio-economic and political issues around the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the top news stories and developments pertaining to various socio-economic and political issues around the country."
   },
   {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406170000 +0000",
-    "stop": "20260406173000 +0000",
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "India Today Global",
-    "desc": "The host provides information on the latest news stories and developments, presenting updates on relevant current affairs from around the world.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host provides information on the latest news stories and developments, presenting updates on relevant current affairs from around the world."
   },
   {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406173000 +0000",
-    "stop": "20260406180000 +0000",
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406180000 +0000",
-    "stop": "20260406183000 +0000",
     "startTs": 1775498400000,
     "stopTs": 1775500200000,
     "title": "In Da Club",
-    "desc": "The host interacts with prominent celebrities and learns more about their professional and personal life and upcoming projects.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host interacts with prominent celebrities and learns more about their professional and personal life and upcoming projects."
   },
   {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406183000 +0000",
-    "stop": "20260406190000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775502000000,
     "title": "To the Point",
-    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues."
   },
   {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406190000 +0000",
-    "stop": "20260406193000 +0000",
     "startTs": 1775502000000,
     "stopTs": 1775503800000,
     "title": "To the Point",
-    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues."
   },
   {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406193000 +0000",
-    "stop": "20260406200000 +0000",
     "startTs": 1775503800000,
     "stopTs": 1775505600000,
     "title": "Newstrack",
-    "desc": "The host presents the top news stories and developments pertaining to various socio-economic and political issues around the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the top news stories and developments pertaining to various socio-economic and political issues around the country."
   },
   {
+    "start": "20:00",
+    "stop": "20:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406200000 +0000",
-    "stop": "20260406203000 +0000",
     "startTs": 1775505600000,
     "stopTs": 1775507400000,
     "title": "Statecraft",
-    "desc": "This is Documentary - Others Category.",
-    "channel": "INDIATODAY.in"
+    "desc": "This is Documentary - Others Category."
   },
   {
+    "start": "20:30",
+    "stop": "21:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406203000 +0000",
-    "stop": "20260406210000 +0000",
     "startTs": 1775507400000,
     "stopTs": 1775509200000,
     "title": "Namaste World",
-    "desc": "This is News - News Bulletin Category.",
-    "channel": "INDIATODAY.in"
+    "desc": "This is News - News Bulletin Category."
   },
   {
+    "start": "21:00",
+    "stop": "21:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406210000 +0000",
-    "stop": "20260406213000 +0000",
     "startTs": 1775509200000,
     "stopTs": 1775511000000,
     "title": "5 Live",
-    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live."
   },
   {
+    "start": "21:30",
+    "stop": "22:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406213000 +0000",
-    "stop": "20260406220000 +0000",
     "startTs": 1775511000000,
     "stopTs": 1775512800000,
     "title": "5 Live",
-    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live."
   },
   {
+    "start": "22:00",
+    "stop": "22:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406220000 +0000",
-    "stop": "20260406223000 +0000",
     "startTs": 1775512800000,
     "stopTs": 1775514600000,
     "title": "Super Six",
-    "desc": "The host presents the top six news updates and developments pertaining to various political and socio-economic issues around the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the top six news updates and developments pertaining to various political and socio-economic issues around the country."
   },
   {
+    "start": "22:30",
+    "stop": "23:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406223000 +0000",
-    "stop": "20260406230000 +0000",
     "startTs": 1775514600000,
     "stopTs": 1775516400000,
     "title": "Super Six",
-    "desc": "The host presents the top six news updates and developments pertaining to various political and socio-economic issues around the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the top six news updates and developments pertaining to various political and socio-economic issues around the country."
   },
   {
+    "start": "23:00",
+    "stop": "23:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406230000 +0000",
-    "stop": "20260406233000 +0000",
     "startTs": 1775516400000,
     "stopTs": 1775518200000,
     "title": "To the Point",
-    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues."
   },
   {
+    "start": "23:30",
+    "stop": "00:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260406233000 +0000",
-    "stop": "20260407000000 +0000",
     "startTs": 1775518200000,
     "stopTs": 1775520000000,
     "title": "To the Point",
-    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues."
   },
   {
+    "start": "00:00",
+    "stop": "00:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407000000 +0000",
-    "stop": "20260407003000 +0000",
     "startTs": 1775520000000,
     "stopTs": 1775521800000,
     "title": "India First",
-    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country."
   },
   {
+    "start": "00:30",
+    "stop": "01:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407003000 +0000",
-    "stop": "20260407010000 +0000",
     "startTs": 1775521800000,
     "stopTs": 1775523600000,
     "title": "India First",
-    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country."
   },
   {
+    "start": "01:00",
+    "stop": "01:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407010000 +0000",
-    "stop": "20260407013000 +0000",
     "startTs": 1775523600000,
     "stopTs": 1775525400000,
     "title": "News Today",
-    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world."
   },
   {
+    "start": "01:30",
+    "stop": "02:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407013000 +0000",
-    "stop": "20260407020000 +0000",
     "startTs": 1775525400000,
     "stopTs": 1775527200000,
     "title": "News Today",
-    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world."
   },
   {
+    "start": "02:00",
+    "stop": "02:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407020000 +0000",
-    "stop": "20260407023000 +0000",
     "startTs": 1775527200000,
     "stopTs": 1775529000000,
     "title": "Newstrack",
-    "desc": "The host presents the top news stories and developments pertaining to various socio-economic and political issues around the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the top news stories and developments pertaining to various socio-economic and political issues around the country."
   },
   {
+    "start": "02:30",
+    "stop": "03:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407023000 +0000",
-    "stop": "20260407030000 +0000",
     "startTs": 1775529000000,
     "stopTs": 1775530800000,
     "title": "India Today Global",
-    "desc": "The host provides information on the latest news stories and developments, presenting updates on relevant current affairs from around the world.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host provides information on the latest news stories and developments, presenting updates on relevant current affairs from around the world."
   },
   {
+    "start": "03:00",
+    "stop": "03:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407030000 +0000",
-    "stop": "20260407033000 +0000",
     "startTs": 1775530800000,
     "stopTs": 1775532600000,
     "title": "In Da Club",
-    "desc": "The host interacts with prominent celebrities and learns more about their professional and personal life and upcoming projects.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host interacts with prominent celebrities and learns more about their professional and personal life and upcoming projects."
   },
   {
+    "start": "03:30",
+    "stop": "04:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407033000 +0000",
-    "stop": "20260407040000 +0000",
     "startTs": 1775532600000,
     "stopTs": 1775534400000,
     "title": "Statecraft",
-    "desc": "This is Documentary - Others Category.",
-    "channel": "INDIATODAY.in"
+    "desc": "This is Documentary - Others Category."
   },
   {
+    "start": "04:00",
+    "stop": "04:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407040000 +0000",
-    "stop": "20260407043000 +0000",
     "startTs": 1775534400000,
     "stopTs": 1775536200000,
     "title": "Burning Question",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
   },
   {
+    "start": "04:30",
+    "stop": "05:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407043000 +0000",
-    "stop": "20260407050000 +0000",
     "startTs": 1775536200000,
     "stopTs": 1775538000000,
     "title": "India's Agenda",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events in India.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events in India."
   },
   {
+    "start": "05:00",
+    "stop": "05:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407050000 +0000",
-    "stop": "20260407053000 +0000",
     "startTs": 1775538000000,
     "stopTs": 1775539800000,
     "title": "India's Agenda",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events in India.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events in India."
   },
   {
+    "start": "05:30",
+    "stop": "06:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407053000 +0000",
-    "stop": "20260407060000 +0000",
     "startTs": 1775539800000,
     "stopTs": 1775541600000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "06:00",
+    "stop": "06:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407060000 +0000",
-    "stop": "20260407063000 +0000",
     "startTs": 1775541600000,
     "stopTs": 1775543400000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "06:30",
+    "stop": "07:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407063000 +0000",
-    "stop": "20260407070000 +0000",
     "startTs": 1775543400000,
     "stopTs": 1775545200000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "07:00",
+    "stop": "07:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407070000 +0000",
-    "stop": "20260407073000 +0000",
     "startTs": 1775545200000,
     "stopTs": 1775547000000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "07:30",
+    "stop": "08:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407073000 +0000",
-    "stop": "20260407080000 +0000",
     "startTs": 1775547000000,
     "stopTs": 1775548800000,
     "title": "So South",
-    "desc": "The hosts delve into the latest political, cinema, society and technological news from the perspective of the south region of India.",
-    "channel": "INDIATODAY.in"
+    "desc": "The hosts delve into the latest political, cinema, society and technological news from the perspective of the south region of India."
   },
   {
+    "start": "08:00",
+    "stop": "08:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407080000 +0000",
-    "stop": "20260407083000 +0000",
     "startTs": 1775548800000,
     "stopTs": 1775550600000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "08:30",
+    "stop": "09:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407083000 +0000",
-    "stop": "20260407090000 +0000",
     "startTs": 1775550600000,
     "stopTs": 1775552400000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "09:00",
+    "stop": "09:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407090000 +0000",
-    "stop": "20260407093000 +0000",
     "startTs": 1775552400000,
     "stopTs": 1775554200000,
     "title": "In Da Club",
-    "desc": "The host interacts with prominent celebrities and learns more about their professional and personal life and upcoming projects.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host interacts with prominent celebrities and learns more about their professional and personal life and upcoming projects."
   },
   {
+    "start": "09:30",
+    "stop": "10:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407093000 +0000",
-    "stop": "20260407100000 +0000",
     "startTs": 1775554200000,
     "stopTs": 1775556000000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "10:00",
+    "stop": "10:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407100000 +0000",
-    "stop": "20260407103000 +0000",
     "startTs": 1775556000000,
     "stopTs": 1775557800000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "10:30",
+    "stop": "11:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407103000 +0000",
-    "stop": "20260407110000 +0000",
     "startTs": 1775557800000,
     "stopTs": 1775559600000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407110000 +0000",
-    "stop": "20260407113000 +0000",
     "startTs": 1775559600000,
     "stopTs": 1775561400000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407113000 +0000",
-    "stop": "20260407120000 +0000",
     "startTs": 1775561400000,
     "stopTs": 1775563200000,
     "title": "5 Live",
-    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live."
   },
   {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407120000 +0000",
-    "stop": "20260407123000 +0000",
     "startTs": 1775563200000,
     "stopTs": 1775565000000,
     "title": "5 Live",
-    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live."
   },
   {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407123000 +0000",
-    "stop": "20260407130000 +0000",
     "startTs": 1775565000000,
     "stopTs": 1775566800000,
     "title": "Super Six",
-    "desc": "The host presents the top six news updates and developments pertaining to various political and socio-economic issues around the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the top six news updates and developments pertaining to various political and socio-economic issues around the country."
   },
   {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407130000 +0000",
-    "stop": "20260407133000 +0000",
     "startTs": 1775566800000,
     "stopTs": 1775568600000,
     "title": "Namaste World",
-    "desc": "This is News - News Bulletin Category.",
-    "channel": "INDIATODAY.in"
+    "desc": "This is News - News Bulletin Category."
   },
   {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407133000 +0000",
-    "stop": "20260407140000 +0000",
     "startTs": 1775568600000,
     "stopTs": 1775570400000,
     "title": "To the Point",
-    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues."
   },
   {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407140000 +0000",
-    "stop": "20260407143000 +0000",
     "startTs": 1775570400000,
     "stopTs": 1775572200000,
     "title": "To the Point",
-    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues."
   },
   {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407143000 +0000",
-    "stop": "20260407150000 +0000",
     "startTs": 1775572200000,
     "stopTs": 1775574000000,
     "title": "India First",
-    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country."
   },
   {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407150000 +0000",
-    "stop": "20260407153000 +0000",
     "startTs": 1775574000000,
     "stopTs": 1775575800000,
     "title": "India First",
-    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country."
   },
   {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407153000 +0000",
-    "stop": "20260407160000 +0000",
     "startTs": 1775575800000,
     "stopTs": 1775577600000,
     "title": "News Today",
-    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world."
   },
   {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407160000 +0000",
-    "stop": "20260407163000 +0000",
     "startTs": 1775577600000,
     "stopTs": 1775579400000,
     "title": "News Today",
-    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world."
   },
   {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407163000 +0000",
-    "stop": "20260407170000 +0000",
     "startTs": 1775579400000,
     "stopTs": 1775581200000,
     "title": "Newstrack",
-    "desc": "The host presents the top news stories and developments pertaining to various socio-economic and political issues around the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the top news stories and developments pertaining to various socio-economic and political issues around the country."
   },
   {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407170000 +0000",
-    "stop": "20260407173000 +0000",
     "startTs": 1775581200000,
     "stopTs": 1775583000000,
     "title": "India Today Global",
-    "desc": "The host provides information on the latest news stories and developments, presenting updates on relevant current affairs from around the world.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host provides information on the latest news stories and developments, presenting updates on relevant current affairs from around the world."
   },
   {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407173000 +0000",
-    "stop": "20260407180000 +0000",
     "startTs": 1775583000000,
     "stopTs": 1775584800000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407180000 +0000",
-    "stop": "20260407183000 +0000",
     "startTs": 1775584800000,
     "stopTs": 1775586600000,
     "title": "In Da Club",
-    "desc": "The host interacts with prominent celebrities and learns more about their professional and personal life and upcoming projects.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host interacts with prominent celebrities and learns more about their professional and personal life and upcoming projects."
   },
   {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407183000 +0000",
-    "stop": "20260407190000 +0000",
     "startTs": 1775586600000,
     "stopTs": 1775588400000,
     "title": "To the Point",
-    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues."
   },
   {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407190000 +0000",
-    "stop": "20260407193000 +0000",
     "startTs": 1775588400000,
     "stopTs": 1775590200000,
     "title": "To the Point",
-    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues."
   },
   {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407193000 +0000",
-    "stop": "20260407200000 +0000",
     "startTs": 1775590200000,
     "stopTs": 1775592000000,
     "title": "Newstrack",
-    "desc": "The host presents the top news stories and developments pertaining to various socio-economic and political issues around the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the top news stories and developments pertaining to various socio-economic and political issues around the country."
   },
   {
+    "start": "20:00",
+    "stop": "20:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407200000 +0000",
-    "stop": "20260407203000 +0000",
     "startTs": 1775592000000,
     "stopTs": 1775593800000,
     "title": "Statecraft",
-    "desc": "This is Documentary - Others Category.",
-    "channel": "INDIATODAY.in"
+    "desc": "This is Documentary - Others Category."
   },
   {
+    "start": "20:30",
+    "stop": "21:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407203000 +0000",
-    "stop": "20260407210000 +0000",
     "startTs": 1775593800000,
     "stopTs": 1775595600000,
     "title": "Namaste World",
-    "desc": "This is News - News Bulletin Category.",
-    "channel": "INDIATODAY.in"
+    "desc": "This is News - News Bulletin Category."
   },
   {
+    "start": "21:00",
+    "stop": "21:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407210000 +0000",
-    "stop": "20260407213000 +0000",
     "startTs": 1775595600000,
     "stopTs": 1775597400000,
     "title": "5 Live",
-    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live."
   },
   {
+    "start": "21:30",
+    "stop": "22:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407213000 +0000",
-    "stop": "20260407220000 +0000",
     "startTs": 1775597400000,
     "stopTs": 1775599200000,
     "title": "5 Live",
-    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live."
   },
   {
+    "start": "22:00",
+    "stop": "22:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407220000 +0000",
-    "stop": "20260407223000 +0000",
     "startTs": 1775599200000,
     "stopTs": 1775601000000,
     "title": "Super Six",
-    "desc": "The host presents the top six news updates and developments pertaining to various political and socio-economic issues around the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the top six news updates and developments pertaining to various political and socio-economic issues around the country."
   },
   {
+    "start": "22:30",
+    "stop": "23:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407223000 +0000",
-    "stop": "20260407230000 +0000",
     "startTs": 1775601000000,
     "stopTs": 1775602800000,
     "title": "Super Six",
-    "desc": "The host presents the top six news updates and developments pertaining to various political and socio-economic issues around the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the top six news updates and developments pertaining to various political and socio-economic issues around the country."
   },
   {
+    "start": "23:00",
+    "stop": "23:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407230000 +0000",
-    "stop": "20260407233000 +0000",
     "startTs": 1775602800000,
     "stopTs": 1775604600000,
     "title": "To the Point",
-    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues."
   },
   {
+    "start": "23:30",
+    "stop": "00:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260407233000 +0000",
-    "stop": "20260408000000 +0000",
     "startTs": 1775604600000,
     "stopTs": 1775606400000,
     "title": "To the Point",
-    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues."
   },
   {
+    "start": "00:00",
+    "stop": "00:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408000000 +0000",
-    "stop": "20260408003000 +0000",
     "startTs": 1775606400000,
     "stopTs": 1775608200000,
     "title": "India First",
-    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country."
   },
   {
+    "start": "00:30",
+    "stop": "01:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408003000 +0000",
-    "stop": "20260408010000 +0000",
     "startTs": 1775608200000,
     "stopTs": 1775610000000,
     "title": "India First",
-    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country."
   },
   {
+    "start": "01:00",
+    "stop": "01:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408010000 +0000",
-    "stop": "20260408013000 +0000",
     "startTs": 1775610000000,
     "stopTs": 1775611800000,
     "title": "News Today",
-    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world."
   },
   {
+    "start": "01:30",
+    "stop": "02:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408013000 +0000",
-    "stop": "20260408020000 +0000",
     "startTs": 1775611800000,
     "stopTs": 1775613600000,
     "title": "News Today",
-    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world."
   },
   {
+    "start": "02:00",
+    "stop": "02:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408020000 +0000",
-    "stop": "20260408023000 +0000",
     "startTs": 1775613600000,
     "stopTs": 1775615400000,
     "title": "Newstrack",
-    "desc": "The host presents the top news stories and developments pertaining to various socio-economic and political issues around the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the top news stories and developments pertaining to various socio-economic and political issues around the country."
   },
   {
+    "start": "02:30",
+    "stop": "03:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408023000 +0000",
-    "stop": "20260408030000 +0000",
     "startTs": 1775615400000,
     "stopTs": 1775617200000,
     "title": "India Today Global",
-    "desc": "The host provides information on the latest news stories and developments, presenting updates on relevant current affairs from around the world.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host provides information on the latest news stories and developments, presenting updates on relevant current affairs from around the world."
   },
   {
+    "start": "03:00",
+    "stop": "03:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408030000 +0000",
-    "stop": "20260408033000 +0000",
     "startTs": 1775617200000,
     "stopTs": 1775619000000,
     "title": "In Da Club",
-    "desc": "The host interacts with prominent celebrities and learns more about their professional and personal life and upcoming projects.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host interacts with prominent celebrities and learns more about their professional and personal life and upcoming projects."
   },
   {
+    "start": "03:30",
+    "stop": "04:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408033000 +0000",
-    "stop": "20260408040000 +0000",
     "startTs": 1775619000000,
     "stopTs": 1775620800000,
     "title": "Statecraft",
-    "desc": "This is Documentary - Others Category.",
-    "channel": "INDIATODAY.in"
+    "desc": "This is Documentary - Others Category."
   },
   {
+    "start": "04:00",
+    "stop": "04:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408040000 +0000",
-    "stop": "20260408043000 +0000",
     "startTs": 1775620800000,
     "stopTs": 1775622600000,
     "title": "Burning Question",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
   },
   {
+    "start": "04:30",
+    "stop": "05:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408043000 +0000",
-    "stop": "20260408050000 +0000",
     "startTs": 1775622600000,
     "stopTs": 1775624400000,
     "title": "India's Agenda",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events in India.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events in India."
   },
   {
+    "start": "05:00",
+    "stop": "05:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408050000 +0000",
-    "stop": "20260408053000 +0000",
     "startTs": 1775624400000,
     "stopTs": 1775626200000,
     "title": "India's Agenda",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events in India.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events in India."
   },
   {
+    "start": "05:30",
+    "stop": "06:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408053000 +0000",
-    "stop": "20260408060000 +0000",
     "startTs": 1775626200000,
     "stopTs": 1775628000000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "06:00",
+    "stop": "06:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408060000 +0000",
-    "stop": "20260408063000 +0000",
     "startTs": 1775628000000,
     "stopTs": 1775629800000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "06:30",
+    "stop": "07:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408063000 +0000",
-    "stop": "20260408070000 +0000",
     "startTs": 1775629800000,
     "stopTs": 1775631600000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "07:00",
+    "stop": "07:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408070000 +0000",
-    "stop": "20260408073000 +0000",
     "startTs": 1775631600000,
     "stopTs": 1775633400000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "07:30",
+    "stop": "08:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408073000 +0000",
-    "stop": "20260408080000 +0000",
     "startTs": 1775633400000,
     "stopTs": 1775635200000,
     "title": "So South",
-    "desc": "The hosts delve into the latest political, cinema, society and technological news from the perspective of the south region of India.",
-    "channel": "INDIATODAY.in"
+    "desc": "The hosts delve into the latest political, cinema, society and technological news from the perspective of the south region of India."
   },
   {
+    "start": "08:00",
+    "stop": "08:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408080000 +0000",
-    "stop": "20260408083000 +0000",
     "startTs": 1775635200000,
     "stopTs": 1775637000000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "08:30",
+    "stop": "09:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408083000 +0000",
-    "stop": "20260408090000 +0000",
     "startTs": 1775637000000,
     "stopTs": 1775638800000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "09:00",
+    "stop": "09:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408090000 +0000",
-    "stop": "20260408093000 +0000",
     "startTs": 1775638800000,
     "stopTs": 1775640600000,
     "title": "In Da Club",
-    "desc": "The host interacts with prominent celebrities and learns more about their professional and personal life and upcoming projects.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host interacts with prominent celebrities and learns more about their professional and personal life and upcoming projects."
   },
   {
+    "start": "09:30",
+    "stop": "10:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408093000 +0000",
-    "stop": "20260408100000 +0000",
     "startTs": 1775640600000,
     "stopTs": 1775642400000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "10:00",
+    "stop": "10:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408100000 +0000",
-    "stop": "20260408103000 +0000",
     "startTs": 1775642400000,
     "stopTs": 1775644200000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "10:30",
+    "stop": "11:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408103000 +0000",
-    "stop": "20260408110000 +0000",
     "startTs": 1775644200000,
     "stopTs": 1775646000000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408110000 +0000",
-    "stop": "20260408113000 +0000",
     "startTs": 1775646000000,
     "stopTs": 1775647800000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408113000 +0000",
-    "stop": "20260408120000 +0000",
     "startTs": 1775647800000,
     "stopTs": 1775649600000,
     "title": "5 Live",
-    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live."
   },
   {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408120000 +0000",
-    "stop": "20260408123000 +0000",
     "startTs": 1775649600000,
     "stopTs": 1775651400000,
     "title": "5 Live",
-    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live."
   },
   {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408123000 +0000",
-    "stop": "20260408130000 +0000",
     "startTs": 1775651400000,
     "stopTs": 1775653200000,
     "title": "Super Six",
-    "desc": "The host presents the top six news updates and developments pertaining to various political and socio-economic issues around the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the top six news updates and developments pertaining to various political and socio-economic issues around the country."
   },
   {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408130000 +0000",
-    "stop": "20260408133000 +0000",
     "startTs": 1775653200000,
     "stopTs": 1775655000000,
     "title": "Namaste World",
-    "desc": "This is News - News Bulletin Category.",
-    "channel": "INDIATODAY.in"
+    "desc": "This is News - News Bulletin Category."
   },
   {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408133000 +0000",
-    "stop": "20260408140000 +0000",
     "startTs": 1775655000000,
     "stopTs": 1775656800000,
     "title": "To the Point",
-    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues."
   },
   {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408140000 +0000",
-    "stop": "20260408143000 +0000",
     "startTs": 1775656800000,
     "stopTs": 1775658600000,
     "title": "To the Point",
-    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues."
   },
   {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408143000 +0000",
-    "stop": "20260408150000 +0000",
     "startTs": 1775658600000,
     "stopTs": 1775660400000,
     "title": "India First",
-    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country."
   },
   {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408150000 +0000",
-    "stop": "20260408153000 +0000",
     "startTs": 1775660400000,
     "stopTs": 1775662200000,
     "title": "India First",
-    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country."
   },
   {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408153000 +0000",
-    "stop": "20260408160000 +0000",
     "startTs": 1775662200000,
     "stopTs": 1775664000000,
     "title": "News Today",
-    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world."
   },
   {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408160000 +0000",
-    "stop": "20260408163000 +0000",
     "startTs": 1775664000000,
     "stopTs": 1775665800000,
     "title": "News Today",
-    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world."
   },
   {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408163000 +0000",
-    "stop": "20260408170000 +0000",
     "startTs": 1775665800000,
     "stopTs": 1775667600000,
     "title": "Newstrack",
-    "desc": "The host presents the top news stories and developments pertaining to various socio-economic and political issues around the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the top news stories and developments pertaining to various socio-economic and political issues around the country."
   },
   {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408170000 +0000",
-    "stop": "20260408173000 +0000",
     "startTs": 1775667600000,
     "stopTs": 1775669400000,
     "title": "India Today Global",
-    "desc": "The host provides information on the latest news stories and developments, presenting updates on relevant current affairs from around the world.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host provides information on the latest news stories and developments, presenting updates on relevant current affairs from around the world."
   },
   {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408173000 +0000",
-    "stop": "20260408180000 +0000",
     "startTs": 1775669400000,
     "stopTs": 1775671200000,
     "title": "It News",
-    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the latest trending news from the world of information technology and learns about the new developments in the field."
   },
   {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408180000 +0000",
-    "stop": "20260408183000 +0000",
     "startTs": 1775671200000,
     "stopTs": 1775673000000,
     "title": "In Da Club",
-    "desc": "The host interacts with prominent celebrities and learns more about their professional and personal life and upcoming projects.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host interacts with prominent celebrities and learns more about their professional and personal life and upcoming projects."
   },
   {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408183000 +0000",
-    "stop": "20260408190000 +0000",
     "startTs": 1775673000000,
     "stopTs": 1775674800000,
     "title": "To the Point",
-    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues."
   },
   {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408190000 +0000",
-    "stop": "20260408193000 +0000",
     "startTs": 1775674800000,
     "stopTs": 1775676600000,
     "title": "To the Point",
-    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues."
   },
   {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408193000 +0000",
-    "stop": "20260408200000 +0000",
     "startTs": 1775676600000,
     "stopTs": 1775678400000,
     "title": "Newstrack",
-    "desc": "The host presents the top news stories and developments pertaining to various socio-economic and political issues around the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the top news stories and developments pertaining to various socio-economic and political issues around the country."
   },
   {
+    "start": "20:00",
+    "stop": "20:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408200000 +0000",
-    "stop": "20260408203000 +0000",
     "startTs": 1775678400000,
     "stopTs": 1775680200000,
     "title": "Statecraft",
-    "desc": "This is Documentary - Others Category.",
-    "channel": "INDIATODAY.in"
+    "desc": "This is Documentary - Others Category."
   },
   {
+    "start": "20:30",
+    "stop": "21:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408203000 +0000",
-    "stop": "20260408210000 +0000",
     "startTs": 1775680200000,
     "stopTs": 1775682000000,
     "title": "Namaste World",
-    "desc": "This is News - News Bulletin Category.",
-    "channel": "INDIATODAY.in"
+    "desc": "This is News - News Bulletin Category."
   },
   {
+    "start": "21:00",
+    "stop": "21:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408210000 +0000",
-    "stop": "20260408213000 +0000",
     "startTs": 1775682000000,
     "stopTs": 1775683800000,
     "title": "5 Live",
-    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live."
   },
   {
+    "start": "21:30",
+    "stop": "22:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408213000 +0000",
-    "stop": "20260408220000 +0000",
     "startTs": 1775683800000,
     "stopTs": 1775685600000,
     "title": "5 Live",
-    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news stories and significant updates from various fields impacting people around the world, live."
   },
   {
+    "start": "22:00",
+    "stop": "22:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408220000 +0000",
-    "stop": "20260408223000 +0000",
     "startTs": 1775685600000,
     "stopTs": 1775687400000,
     "title": "Super Six",
-    "desc": "The host presents the top six news updates and developments pertaining to various political and socio-economic issues around the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the top six news updates and developments pertaining to various political and socio-economic issues around the country."
   },
   {
+    "start": "22:30",
+    "stop": "23:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408223000 +0000",
-    "stop": "20260408230000 +0000",
     "startTs": 1775687400000,
     "stopTs": 1775689200000,
     "title": "Super Six",
-    "desc": "The host presents the top six news updates and developments pertaining to various political and socio-economic issues around the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the top six news updates and developments pertaining to various political and socio-economic issues around the country."
   },
   {
+    "start": "23:00",
+    "stop": "23:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408230000 +0000",
-    "stop": "20260408233000 +0000",
     "startTs": 1775689200000,
     "stopTs": 1775691000000,
     "title": "To the Point",
-    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues."
   },
   {
+    "start": "23:30",
+    "stop": "00:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260408233000 +0000",
-    "stop": "20260409000000 +0000",
     "startTs": 1775691000000,
     "stopTs": 1775692800000,
     "title": "To the Point",
-    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host invites a panel of experts from different fields to discuss and share their views and opinions on important topics related to various current issues."
   },
   {
+    "start": "00:00",
+    "stop": "00:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260409000000 +0000",
-    "stop": "20260409003000 +0000",
     "startTs": 1775692800000,
     "stopTs": 1775694600000,
     "title": "India First",
-    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country."
   },
   {
+    "start": "00:30",
+    "stop": "01:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260409003000 +0000",
-    "stop": "20260409010000 +0000",
     "startTs": 1775694600000,
     "stopTs": 1775696400000,
     "title": "India First",
-    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host, a renowned journalist, presents the key national news reports related to politics, diplomacy, economics and sports in the country."
   },
   {
+    "start": "01:00",
+    "stop": "01:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260409010000 +0000",
-    "stop": "20260409013000 +0000",
     "startTs": 1775696400000,
     "stopTs": 1775698200000,
     "title": "News Today",
-    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world."
   },
   {
+    "start": "01:30",
+    "stop": "02:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260409013000 +0000",
-    "stop": "20260409020000 +0000",
     "startTs": 1775698200000,
     "stopTs": 1775700000000,
     "title": "News Today",
-    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world."
   },
   {
+    "start": "02:00",
+    "stop": "02:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260409020000 +0000",
-    "stop": "20260409023000 +0000",
     "startTs": 1775700000000,
     "stopTs": 1775701800000,
     "title": "Newstrack",
-    "desc": "The host presents the top news stories and developments pertaining to various socio-economic and political issues around the country.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host presents the top news stories and developments pertaining to various socio-economic and political issues around the country."
   },
   {
+    "start": "02:30",
+    "stop": "03:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260409023000 +0000",
-    "stop": "20260409030000 +0000",
     "startTs": 1775701800000,
     "stopTs": 1775703600000,
     "title": "India Today Global",
-    "desc": "The host provides information on the latest news stories and developments, presenting updates on relevant current affairs from around the world.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host provides information on the latest news stories and developments, presenting updates on relevant current affairs from around the world."
   },
   {
+    "start": "03:00",
+    "stop": "03:30",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260409030000 +0000",
-    "stop": "20260409033000 +0000",
     "startTs": 1775703600000,
     "stopTs": 1775705400000,
     "title": "In Da Club",
-    "desc": "The host interacts with prominent celebrities and learns more about their professional and personal life and upcoming projects.",
-    "channel": "INDIATODAY.in"
+    "desc": "The host interacts with prominent celebrities and learns more about their professional and personal life and upcoming projects."
   },
   {
+    "start": "03:30",
+    "stop": "04:00",
+    "channel": "INDIATODAY.in",
     "channelId": "INDIATODAY.in",
     "channelName": "IN - INDIA TODAY",
-    "start": "20260409033000 +0000",
-    "stop": "20260409040000 +0000",
     "startTs": 1775705400000,
     "stopTs": 1775707200000,
     "title": "Statecraft",
-    "desc": "This is Documentary - Others Category.",
-    "channel": "INDIATODAY.in"
+    "desc": "This is Documentary - Others Category."
   }
 ]

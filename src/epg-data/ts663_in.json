@@ -1,74 +1,74 @@
 [
   {
+    "start": "18:30",
+    "stop": "21:10",
+    "channel": "ts663",
+    "catchup-id": "93148601",
     "channelId": "ts663",
     "channelName": "ts663",
-    "start": "20260406183000 +0000",
-    "stop": "20260406211000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775509800000,
     "title": "Minnal Murali",
-    "desc": "After gaining superpowers, a tailor must protect his village by taking down an adversary.",
-    "channel": "ts663",
-    "catchup-id": "93148601"
+    "desc": "After gaining superpowers, a tailor must protect his village by taking down an adversary."
   },
   {
+    "start": "00:20",
+    "stop": "02:50",
+    "channel": "ts663",
+    "catchup-id": "93148592",
     "channelId": "ts663",
     "channelName": "ts663",
-    "start": "20260407002000 +0000",
-    "stop": "20260407025000 +0000",
     "startTs": 1775521200000,
     "stopTs": 1775530200000,
     "title": "Jaanu",
-    "desc": "Two childhood sweethearts meet at their school reunion and recollect their past.",
-    "channel": "ts663",
-    "catchup-id": "93148592"
+    "desc": "Two childhood sweethearts meet at their school reunion and recollect their past."
   },
   {
+    "start": "12:40",
+    "stop": "12:45",
+    "channel": "ts663",
+    "catchup-id": "93148597",
     "channelId": "ts663",
     "channelName": "ts663",
-    "start": "20260407124000 +0000",
-    "stop": "20260407124500 +0000",
     "startTs": 1775565600000,
     "stopTs": 1775565900000,
     "title": "Tamil Cinema Highlights",
-    "desc": "A compilation of promotional videos of various movies and programmes is presented.",
-    "channel": "ts663",
-    "catchup-id": "93148597"
+    "desc": "A compilation of promotional videos of various movies and programmes is presented."
   },
   {
+    "start": "12:45",
+    "stop": "15:25",
+    "channel": "ts663",
+    "catchup-id": "93148604",
     "channelId": "ts663",
     "channelName": "ts663",
-    "start": "20260407124500 +0000",
-    "stop": "20260407152500 +0000",
     "startTs": 1775565900000,
     "stopTs": 1775575500000,
     "title": "Hanu Man",
-    "desc": "A local thief comes across a Hanuman-like power and decides to protect people.",
-    "channel": "ts663",
-    "catchup-id": "93148604"
+    "desc": "A local thief comes across a Hanuman-like power and decides to protect people."
   },
   {
+    "start": "15:25",
+    "stop": "15:30",
+    "channel": "ts663",
+    "catchup-id": "93148602",
     "channelId": "ts663",
     "channelName": "ts663",
-    "start": "20260407152500 +0000",
-    "stop": "20260407153000 +0000",
     "startTs": 1775575500000,
     "stopTs": 1775575800000,
     "title": "Tamil Cinema Highlights",
-    "desc": "A compilation of promotional videos of various movies and programmes is presented.",
-    "channel": "ts663",
-    "catchup-id": "93148602"
+    "desc": "A compilation of promotional videos of various movies and programmes is presented."
   },
   {
+    "start": "15:30",
+    "stop": "18:10",
+    "channel": "ts663",
+    "catchup-id": "93148603",
     "channelId": "ts663",
     "channelName": "ts663",
-    "start": "20260407153000 +0000",
-    "stop": "20260407181000 +0000",
     "startTs": 1775575800000,
     "stopTs": 1775585400000,
     "title": "Minnal Murali",
-    "desc": "After gaining superpowers, a tailor must protect his village by taking down an adversary.",
-    "channel": "ts663",
-    "catchup-id": "93148603"
+    "desc": "After gaining superpowers, a tailor must protect his village by taking down an adversary."
   }
 ]

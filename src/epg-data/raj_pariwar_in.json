@@ -1,38 +1,38 @@
 [
   {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "ts1330",
+    "catchup-id": "93106741",
     "channelId": "ts1330",
     "channelName": "Raj Pariwar",
-    "start": "20260405183000 +0000",
-    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Songs",
-    "desc": "A compilation of popular songs curated by artists is played back to back to entertain the audience.",
-    "channel": "ts1330",
-    "catchup-id": "93106741"
+    "desc": "A compilation of popular songs curated by artists is played back to back to entertain the audience."
   },
   {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "ts1330",
+    "catchup-id": "93106696",
     "channelId": "ts1330",
     "channelName": "Raj Pariwar",
-    "start": "20260405190000 +0000",
-    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Songs",
-    "desc": "A compilation of popular songs curated by artists is played back to back to entertain the audience.",
-    "channel": "ts1330",
-    "catchup-id": "93106696"
+    "desc": "A compilation of popular songs curated by artists is played back to back to entertain the audience."
   },
   {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "ts1330",
+    "catchup-id": "93106702",
     "channelId": "ts1330",
     "channelName": "Raj Pariwar",
-    "start": "20260405193000 +0000",
-    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Songs",
-    "desc": "A compilation of popular songs curated by artists is played back to back to entertain the audience.",
-    "channel": "ts1330",
-    "catchup-id": "93106702"
+    "desc": "A compilation of popular songs curated by artists is played back to back to entertain the audience."
   }
 ]

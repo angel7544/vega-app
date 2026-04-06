@@ -1,38 +1,38 @@
 [
   {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "ts1444",
+    "catchup-id": "93111777",
     "channelId": "ts1444",
     "channelName": "Tata Play Marathi Classics",
-    "start": "20260405183000 +0000",
-    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Z.P.",
-    "desc": "Bringing the best in cinema.",
-    "channel": "ts1444",
-    "catchup-id": "93111777"
+    "desc": "Bringing the best in cinema."
   },
   {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "ts1444",
+    "catchup-id": "93111785",
     "channelId": "ts1444",
     "channelName": "Tata Play Marathi Classics",
-    "start": "20260405190000 +0000",
-    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Vadalvaat",
-    "desc": "When Rama, an advocate, takes on a murder case, the culprits threaten her and her clients.",
-    "channel": "ts1444",
-    "catchup-id": "93111785"
+    "desc": "When Rama, an advocate, takes on a murder case, the culprits threaten her and her clients."
   },
   {
+    "start": "19:30",
+    "stop": "21:30",
+    "channel": "ts1444",
+    "catchup-id": "93111789",
     "channelId": "ts1444",
     "channelName": "Tata Play Marathi Classics",
-    "start": "20260405193000 +0000",
-    "stop": "20260405213000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775424600000,
     "title": "Priyatama",
-    "desc": "When a lower-class boy falls in love with the daughter of a headman, conflicts arise.",
-    "channel": "ts1444",
-    "catchup-id": "93111789"
+    "desc": "When a lower-class boy falls in love with the daughter of a headman, conflicts arise."
   }
 ]

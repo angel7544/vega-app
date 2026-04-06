@@ -1,14 +1,14 @@
 [
   {
+    "start": "18:30",
+    "stop": "21:30",
+    "channel": "ts991",
+    "catchup-id": "93096515",
     "channelId": "ts991",
     "channelName": "DD Meghalaya",
-    "start": "20260405183000 +0000",
-    "stop": "20260405213000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775424600000,
     "title": "Entertainment Programme",
-    "desc": "Bringing the best in television.",
-    "channel": "ts991",
-    "catchup-id": "93096515"
+    "desc": "Bringing the best in television."
   }
 ]

@@ -1,14 +1,14 @@
 [
   {
+    "start": "18:30",
+    "stop": "00:30",
+    "channel": "ts1258",
+    "catchup-id": "93241019",
     "channelId": "ts1258",
     "channelName": "ts1258",
-    "start": "20260405183000 +0000",
-    "stop": "20260406003000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775435400000,
     "title": "Cocomelon on TV!",
-    "desc": "Cocomelon on TV!",
-    "channel": "ts1258",
-    "catchup-id": "93241019"
+    "desc": "Cocomelon on TV!"
   }
 ]

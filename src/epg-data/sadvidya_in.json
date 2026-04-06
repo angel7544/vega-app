@@ -1,14 +1,14 @@
 [
   {
+    "start": "18:30",
+    "stop": "19:44",
+    "channel": "ts1392",
+    "catchup-id": "93087467",
     "channelId": "ts1392",
     "channelName": "Sadvidya",
-    "start": "20260405183000 +0000",
-    "stop": "20260405194400 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775418240000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "ts1392",
-    "catchup-id": "93087467"
+    "desc": "Bringing the best in television."
   }
 ]

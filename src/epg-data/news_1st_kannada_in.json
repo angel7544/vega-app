@@ -1,38 +1,38 @@
 [
   {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "ts913",
+    "catchup-id": "93104360",
     "channelId": "ts913",
     "channelName": "News 1st Kannada",
-    "start": "20260405183000 +0000",
-    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Suddi E Dina",
-    "desc": "The host presents the latest updates pertaining to the current affairs of the day.",
-    "channel": "ts913",
-    "catchup-id": "93104360"
+    "desc": "The host presents the latest updates pertaining to the current affairs of the day."
   },
   {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "ts913",
+    "catchup-id": "93104364",
     "channelId": "ts913",
     "channelName": "News 1st Kannada",
-    "start": "20260405190000 +0000",
-    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Bengaluru Live",
-    "desc": "The host presents live updates pertaining to various current affairs in Bengaluru.",
-    "channel": "ts913",
-    "catchup-id": "93104364"
+    "desc": "The host presents live updates pertaining to various current affairs in Bengaluru."
   },
   {
+    "start": "19:30",
+    "stop": "20:30",
+    "channel": "ts913",
+    "catchup-id": "93104388",
     "channelId": "ts913",
     "channelName": "News 1st Kannada",
-    "start": "20260405193000 +0000",
-    "stop": "20260405203000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775421000000,
     "title": "India 1st",
-    "desc": "The host reports on politics, socio-economic issues and current affairs in the country.",
-    "channel": "ts913",
-    "catchup-id": "93104388"
+    "desc": "The host reports on politics, socio-economic issues and current affairs in the country."
   }
 ]

@@ -1,377 +1,377 @@
 [
   {
+    "start": "19:34",
+    "stop": "22:47",
+    "channel": "ts823",
+    "catchup-id": "93274454",
     "channelId": "ts823",
     "channelName": "Goldmines",
-    "start": "20260405193400 +0000",
-    "stop": "20260405224700 +0000",
     "startTs": 1775417640000,
     "stopTs": 1775429220000,
     "title": "Khatarnak Khiladi 3",
-    "desc": "A former gangster falls in love after his grandfather's spirit compels him to reform.",
-    "channel": "ts823",
-    "catchup-id": "93274454"
+    "desc": "A former gangster falls in love after his grandfather's spirit compels him to reform."
   },
   {
+    "start": "22:47",
+    "stop": "00:30",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260405224700 +0000",
-    "stop": "20260406003000 +0000",
     "startTs": 1775429220000,
     "stopTs": 1775435400000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "00:30",
+    "stop": "03:30",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260406003000 +0000",
-    "stop": "20260406033000 +0000",
     "startTs": 1775435400000,
     "stopTs": 1775446200000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "03:30",
+    "stop": "06:30",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260406033000 +0000",
-    "stop": "20260406063000 +0000",
     "startTs": 1775446200000,
     "stopTs": 1775457000000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "06:30",
+    "stop": "09:30",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260406063000 +0000",
-    "stop": "20260406093000 +0000",
     "startTs": 1775457000000,
     "stopTs": 1775467800000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "09:30",
+    "stop": "12:30",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260406093000 +0000",
-    "stop": "20260406123000 +0000",
     "startTs": 1775467800000,
     "stopTs": 1775478600000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "12:30",
+    "stop": "15:30",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260406123000 +0000",
-    "stop": "20260406153000 +0000",
     "startTs": 1775478600000,
     "stopTs": 1775489400000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "15:30",
+    "stop": "20:19",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260406153000 +0000",
-    "stop": "20260406201900 +0000",
     "startTs": 1775489400000,
     "stopTs": 1775506740000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "20:19",
+    "stop": "21:23",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260406201900 +0000",
-    "stop": "20260406212300 +0000",
     "startTs": 1775506740000,
     "stopTs": 1775510580000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "21:23",
+    "stop": "22:45",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260406212300 +0000",
-    "stop": "20260406224500 +0000",
     "startTs": 1775510580000,
     "stopTs": 1775515500000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "22:45",
+    "stop": "00:36",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260406224500 +0000",
-    "stop": "20260407003600 +0000",
     "startTs": 1775515500000,
     "stopTs": 1775522160000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "00:36",
+    "stop": "02:41",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260407003600 +0000",
-    "stop": "20260407024100 +0000",
     "startTs": 1775522160000,
     "stopTs": 1775529660000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "02:41",
+    "stop": "05:11",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260407024100 +0000",
-    "stop": "20260407051100 +0000",
     "startTs": 1775529660000,
     "stopTs": 1775538660000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "05:11",
+    "stop": "08:20",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260407051100 +0000",
-    "stop": "20260407082000 +0000",
     "startTs": 1775538660000,
     "stopTs": 1775550000000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "08:20",
+    "stop": "11:17",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260407082000 +0000",
-    "stop": "20260407111700 +0000",
     "startTs": 1775550000000,
     "stopTs": 1775560620000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "11:17",
+    "stop": "14:24",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260407111700 +0000",
-    "stop": "20260407142400 +0000",
     "startTs": 1775560620000,
     "stopTs": 1775571840000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "14:24",
+    "stop": "17:42",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260407142400 +0000",
-    "stop": "20260407174200 +0000",
     "startTs": 1775571840000,
     "stopTs": 1775583720000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "17:42",
+    "stop": "20:14",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260407174200 +0000",
-    "stop": "20260407201400 +0000",
     "startTs": 1775583720000,
     "stopTs": 1775592840000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "20:14",
+    "stop": "22:22",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260407201400 +0000",
-    "stop": "20260407222200 +0000",
     "startTs": 1775592840000,
     "stopTs": 1775600520000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "22:22",
+    "stop": "23:55",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260407222200 +0000",
-    "stop": "20260407235500 +0000",
     "startTs": 1775600520000,
     "stopTs": 1775606100000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "23:55",
+    "stop": "01:47",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260407235500 +0000",
-    "stop": "20260408014700 +0000",
     "startTs": 1775606100000,
     "stopTs": 1775612820000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "01:47",
+    "stop": "03:58",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260408014700 +0000",
-    "stop": "20260408035800 +0000",
     "startTs": 1775612820000,
     "stopTs": 1775620680000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "03:58",
+    "stop": "06:24",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260408035800 +0000",
-    "stop": "20260408062400 +0000",
     "startTs": 1775620680000,
     "stopTs": 1775629440000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "06:24",
+    "stop": "09:01",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260408062400 +0000",
-    "stop": "20260408090100 +0000",
     "startTs": 1775629440000,
     "stopTs": 1775638860000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "09:01",
+    "stop": "11:44",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260408090100 +0000",
-    "stop": "20260408114400 +0000",
     "startTs": 1775638860000,
     "stopTs": 1775648640000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "11:44",
+    "stop": "14:27",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260408114400 +0000",
-    "stop": "20260408142700 +0000",
     "startTs": 1775648640000,
     "stopTs": 1775658420000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "14:27",
+    "stop": "16:43",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260408142700 +0000",
-    "stop": "20260408164300 +0000",
     "startTs": 1775658420000,
     "stopTs": 1775666580000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "16:43",
+    "stop": "19:21",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260408164300 +0000",
-    "stop": "20260408192100 +0000",
     "startTs": 1775666580000,
     "stopTs": 1775676060000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "19:21",
+    "stop": "21:32",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260408192100 +0000",
-    "stop": "20260408213200 +0000",
     "startTs": 1775676060000,
     "stopTs": 1775683920000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "21:32",
+    "stop": "21:47",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260408213200 +0000",
-    "stop": "20260408214700 +0000",
     "startTs": 1775683920000,
     "stopTs": 1775684820000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "21:47",
+    "stop": "23:21",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260408214700 +0000",
-    "stop": "20260408232100 +0000",
     "startTs": 1775684820000,
     "stopTs": 1775690460000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "23:21",
+    "stop": "01:28",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260408232100 +0000",
-    "stop": "20260409012800 +0000",
     "startTs": 1775690460000,
     "stopTs": 1775698080000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "01:28",
+    "stop": "03:47",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260409012800 +0000",
-    "stop": "20260409034700 +0000",
     "startTs": 1775698080000,
     "stopTs": 1775706420000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "03:47",
+    "stop": "06:02",
+    "channel": "Goldmines.in",
     "channelId": "Goldmines.in",
     "channelName": "IN - Goldmines",
-    "start": "20260409034700 +0000",
-    "stop": "20260409060200 +0000",
     "startTs": 1775706420000,
     "stopTs": 1775714520000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "Goldmines.in"
+    "desc": "Bringing the best in television."
   }
 ]

@@ -221,7 +221,7 @@ const ChannelInfo = () => {
 
   // EPG details are fetched on mount or URL change
 
-  const fetchChannelDetails = async () => {
+  const fetchChannelDetails = async (force = false) => {
     const currentUrl = channel.url;
     
     // Safety check: if EPG is disabled, don't even try
@@ -234,7 +234,8 @@ const ChannelInfo = () => {
     try {
       const country = settingsStorage.getIptvCountry() || 'in';
       // Use the dedicated GitHub JSON service for best performance and accuracy
-      const programs = await fetchChannelSchedule(channel, country);
+      // Pass the force flag to bypass the 5-minute cache
+      const programs = await fetchChannelSchedule(channel, country, force);
       
       if (channel.url === currentUrl) {
          updateChannelEpg(currentUrl, Array.isArray(programs) ? programs : []);
@@ -777,7 +778,7 @@ const ChannelInfo = () => {
           </View>
           <View className="flex-row gap-x-2">
             <TouchableOpacity 
-              onPress={() => fetchChannelDetails()}
+              onPress={() => fetchChannelDetails(true)}
               disabled={loading}
               className="p-4 bg-gray-100 dark:bg-white/5 rounded-2xl border border-gray-200 dark:border-white/10"
             >

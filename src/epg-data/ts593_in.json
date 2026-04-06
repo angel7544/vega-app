@@ -1,26 +1,26 @@
 [
   {
+    "start": "19:07",
+    "stop": "20:32",
+    "channel": "ts593",
+    "catchup-id": "93274632",
     "channelId": "ts593",
     "channelName": "ts593",
-    "start": "20260405190700 +0000",
-    "stop": "20260405203200 +0000",
     "startTs": 1775416020000,
     "stopTs": 1775421120000,
     "title": "Ghost Shark",
-    "desc": "A great white shark returns from the dead to seek vengeance on the town of Smallport.",
-    "channel": "ts593",
-    "catchup-id": "93274632"
+    "desc": "A great white shark returns from the dead to seek vengeance on the town of Smallport."
   },
   {
+    "start": "15:30",
+    "stop": "17:15",
+    "channel": "ts593",
+    "catchup-id": "93109604",
     "channelId": "ts593",
     "channelName": "ts593",
-    "start": "20260406153000 +0000",
-    "stop": "20260406171500 +0000",
     "startTs": 1775489400000,
     "stopTs": 1775495700000,
     "title": "The Proposal",
-    "desc": "A high-powered editor forces her young assistant to marry her in order to avoid deportation.",
-    "channel": "ts593",
-    "catchup-id": "93109604"
+    "desc": "A high-powered editor forces her young assistant to marry her in order to avoid deportation."
   }
 ]

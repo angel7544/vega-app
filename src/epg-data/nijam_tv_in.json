@@ -1,26 +1,26 @@
 [
   {
+    "start": "18:30",
+    "stop": "18:40",
+    "channel": "ts1383",
+    "catchup-id": "93087243",
     "channelId": "ts1383",
     "channelName": "NIJAM TV",
-    "start": "20260405183000 +0000",
-    "stop": "20260405184000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775414400000,
     "title": "Today Special Word",
-    "desc": "A religious scholar discusses the meaning of sacred verses and words from the Holy Bible.",
-    "channel": "ts1383",
-    "catchup-id": "93087243"
+    "desc": "A religious scholar discusses the meaning of sacred verses and words from the Holy Bible."
   },
   {
+    "start": "18:40",
+    "stop": "23:30",
+    "channel": "ts1383",
+    "catchup-id": "93087236",
     "channelId": "ts1383",
     "channelName": "NIJAM TV",
-    "start": "20260405184000 +0000",
-    "stop": "20260405233000 +0000",
     "startTs": 1775414400000,
     "stopTs": 1775431800000,
     "title": "Melodies Songs",
-    "desc": "A comprehensive compilation of melodious songs is played to invoke the spirit of devotion.",
-    "channel": "ts1383",
-    "catchup-id": "93087236"
+    "desc": "A comprehensive compilation of melodious songs is played to invoke the spirit of devotion."
   }
 ]

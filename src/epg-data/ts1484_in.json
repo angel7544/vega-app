@@ -1,38 +1,38 @@
 [
   {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "ts1484",
+    "catchup-id": "93093677",
     "channelId": "ts1484",
     "channelName": "ts1484",
-    "start": "20260405183000 +0000",
-    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Songs",
-    "desc": "A comprehensive compilation of songs by various artists and bands, is played back-to-back.",
-    "channel": "ts1484",
-    "catchup-id": "93093677"
+    "desc": "A comprehensive compilation of songs by various artists and bands, is played back-to-back."
   },
   {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "ts1484",
+    "catchup-id": "93093640",
     "channelId": "ts1484",
     "channelName": "ts1484",
-    "start": "20260405190000 +0000",
-    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Songs",
-    "desc": "A comprehensive compilation of songs by various artists and bands, is played back-to-back.",
-    "channel": "ts1484",
-    "catchup-id": "93093640"
+    "desc": "A comprehensive compilation of songs by various artists and bands, is played back-to-back."
   },
   {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "ts1484",
+    "catchup-id": "93093660",
     "channelId": "ts1484",
     "channelName": "ts1484",
-    "start": "20260405193000 +0000",
-    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Songs",
-    "desc": "A comprehensive compilation of songs by various artists and bands, is played back-to-back.",
-    "channel": "ts1484",
-    "catchup-id": "93093660"
+    "desc": "A comprehensive compilation of songs by various artists and bands, is played back-to-back."
   }
 ]

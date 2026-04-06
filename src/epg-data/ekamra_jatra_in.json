@@ -1,38 +1,38 @@
 [
   {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "ts1200",
+    "catchup-id": "93089066",
     "channelId": "ts1200",
     "channelName": "Ekamra Jatra",
-    "start": "20260405183000 +0000",
-    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Jatra 04",
-    "desc": "Bringing the best in television.",
-    "channel": "ts1200",
-    "catchup-id": "93089066"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "ts1200",
+    "catchup-id": "93089061",
     "channelId": "ts1200",
     "channelName": "Ekamra Jatra",
-    "start": "20260405190000 +0000",
-    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Jatra 04",
-    "desc": "Bringing the best in television.",
-    "channel": "ts1200",
-    "catchup-id": "93089061"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "ts1200",
+    "catchup-id": "93089048",
     "channelId": "ts1200",
     "channelName": "Ekamra Jatra",
-    "start": "20260405193000 +0000",
-    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Jatra 04",
-    "desc": "Bringing the best in television.",
-    "channel": "ts1200",
-    "catchup-id": "93089048"
+    "desc": "Bringing the best in television."
   }
 ]

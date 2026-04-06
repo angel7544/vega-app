@@ -1,74 +1,74 @@
 [
   {
+    "start": "20:30",
+    "stop": "00:30",
+    "channel": "ts1822",
+    "catchup-id": "93060029",
     "channelId": "ts1822",
     "channelName": "NE Bharat 24",
-    "start": "20260404203000 +0000",
-    "stop": "20260405003000 +0000",
     "startTs": 1775334600000,
     "stopTs": 1775349000000,
     "title": "NE Bharat24",
-    "desc": ".",
-    "channel": "ts1822",
-    "catchup-id": "93060029"
+    "desc": "."
   },
   {
+    "start": "00:30",
+    "stop": "04:30",
+    "channel": "ts1822",
+    "catchup-id": "93060033",
     "channelId": "ts1822",
     "channelName": "NE Bharat 24",
-    "start": "20260405003000 +0000",
-    "stop": "20260405043000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775363400000,
     "title": "NE Bharat24",
-    "desc": ".",
-    "channel": "ts1822",
-    "catchup-id": "93060033"
+    "desc": "."
   },
   {
+    "start": "04:30",
+    "stop": "08:30",
+    "channel": "ts1822",
+    "catchup-id": "93060034",
     "channelId": "ts1822",
     "channelName": "NE Bharat 24",
-    "start": "20260405043000 +0000",
-    "stop": "20260405083000 +0000",
     "startTs": 1775363400000,
     "stopTs": 1775377800000,
     "title": "NE Bharat24",
-    "desc": ".",
-    "channel": "ts1822",
-    "catchup-id": "93060034"
+    "desc": "."
   },
   {
+    "start": "08:30",
+    "stop": "12:30",
+    "channel": "ts1822",
+    "catchup-id": "93060030",
     "channelId": "ts1822",
     "channelName": "NE Bharat 24",
-    "start": "20260405083000 +0000",
-    "stop": "20260405123000 +0000",
     "startTs": 1775377800000,
     "stopTs": 1775392200000,
     "title": "NE Bharat24",
-    "desc": ".",
-    "channel": "ts1822",
-    "catchup-id": "93060030"
+    "desc": "."
   },
   {
+    "start": "12:30",
+    "stop": "16:30",
+    "channel": "ts1822",
+    "catchup-id": "93060032",
     "channelId": "ts1822",
     "channelName": "NE Bharat 24",
-    "start": "20260405123000 +0000",
-    "stop": "20260405163000 +0000",
     "startTs": 1775392200000,
     "stopTs": 1775406600000,
     "title": "NE Bharat24",
-    "desc": ".",
-    "channel": "ts1822",
-    "catchup-id": "93060032"
+    "desc": "."
   },
   {
+    "start": "16:30",
+    "stop": "20:30",
+    "channel": "ts1822",
+    "catchup-id": "93060031",
     "channelId": "ts1822",
     "channelName": "NE Bharat 24",
-    "start": "20260405163000 +0000",
-    "stop": "20260405203000 +0000",
     "startTs": 1775406600000,
     "stopTs": 1775421000000,
     "title": "NE Bharat24",
-    "desc": ".",
-    "channel": "ts1822",
-    "catchup-id": "93060031"
+    "desc": "."
   }
 ]

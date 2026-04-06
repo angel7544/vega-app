@@ -1,38 +1,38 @@
 [
   {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "ts1242",
+    "catchup-id": "93087070",
     "channelId": "ts1242",
     "channelName": "In24 News",
-    "start": "20260405183000 +0000",
-    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Punjab News",
-    "desc": "The host presents a roundup of the latest news from across the state and nation.",
-    "channel": "ts1242",
-    "catchup-id": "93087070"
+    "desc": "The host presents a roundup of the latest news from across the state and nation."
   },
   {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "ts1242",
+    "catchup-id": "93087087",
     "channelId": "ts1242",
     "channelName": "In24 News",
-    "start": "20260405190000 +0000",
-    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Shabad Kirtan",
-    "desc": "Numerous renowned musicians sing a collection of prayers in praise of the Almighty.",
-    "channel": "ts1242",
-    "catchup-id": "93087087"
+    "desc": "Numerous renowned musicians sing a collection of prayers in praise of the Almighty."
   },
   {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "ts1242",
+    "catchup-id": "93087088",
     "channelId": "ts1242",
     "channelName": "In24 News",
-    "start": "20260405193000 +0000",
-    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Living Treasure",
-    "desc": "Bringing the best in television.",
-    "channel": "ts1242",
-    "catchup-id": "93087088"
+    "desc": "Bringing the best in television."
   }
 ]

@@ -1,520 +1,520 @@
 [
   {
+    "start": "18:30",
+    "stop": "20:30",
+    "channel": "ts96",
+    "catchup-id": "93115236",
     "channelId": "ts96",
     "channelName": "Zoom",
-    "start": "20260405183000 +0000",
-    "stop": "20260405203000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775421000000,
     "title": "Love Cocktail",
-    "desc": "A comprehensive compilation of popular songs performed by prominent artists.",
-    "channel": "ts96",
-    "catchup-id": "93115236"
+    "desc": "A comprehensive compilation of popular songs performed by prominent artists."
   },
   {
+    "start": "20:30",
+    "stop": "23:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260405203000 +0000",
-    "stop": "20260405233000 +0000",
     "startTs": 1775421000000,
     "stopTs": 1775431800000,
     "title": "NIGHTOUT",
-    "desc": "E2 An extensive compilation of some of the catchiest foot-tapping hits from various musical artists is played back to back.",
-    "channel": "Zoom.in"
+    "desc": "E2 An extensive compilation of some of the catchiest foot-tapping hits from various musical artists is played back to back."
   },
   {
+    "start": "23:30",
+    "stop": "02:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260405233000 +0000",
-    "stop": "20260406023000 +0000",
     "startTs": 1775431800000,
     "stopTs": 1775442600000,
     "title": "Beetey Lamhey",
-    "desc": "S1 E2 A comprehensive compilation of some of the most popular and beloved songs from the 90s is played back to back, entertaining the audience and evoking nostalgia.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 A comprehensive compilation of some of the most popular and beloved songs from the 90s is played back to back, entertaining the audience and evoking nostalgia."
   },
   {
+    "start": "02:30",
+    "stop": "04:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260406023000 +0000",
-    "stop": "20260406043000 +0000",
     "startTs": 1775442600000,
     "stopTs": 1775449800000,
     "title": "SUNRISE HITS",
-    "desc": "E2 A comprehensive compilation of some of the most popular and catchy Bollywood songs by renowned singers and musicians is played back to back to entertain the audience.",
-    "channel": "Zoom.in"
+    "desc": "E2 A comprehensive compilation of some of the most popular and catchy Bollywood songs by renowned singers and musicians is played back to back to entertain the audience."
   },
   {
+    "start": "04:30",
+    "stop": "05:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260406043000 +0000",
-    "stop": "20260406053000 +0000",
     "startTs": 1775449800000,
     "stopTs": 1775453400000,
     "title": "Likes Bajao",
-    "desc": "E2 Viewers from across the country vote for some of their most favourite songs on social media, which are played back to back.",
-    "channel": "Zoom.in"
+    "desc": "E2 Viewers from across the country vote for some of their most favourite songs on social media, which are played back to back."
   },
   {
+    "start": "05:30",
+    "stop": "07:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260406053000 +0000",
-    "stop": "20260406073000 +0000",
     "startTs": 1775453400000,
     "stopTs": 1775460600000,
     "title": "PYAAR HITS",
-    "desc": "S1 E2 A compilation of some of the most iconic songs based on the theme of love, composed by popular artists and musicians, is played back-to-back.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 A compilation of some of the most iconic songs based on the theme of love, composed by popular artists and musicians, is played back-to-back."
   },
   {
+    "start": "07:30",
+    "stop": "09:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260406073000 +0000",
-    "stop": "20260406093000 +0000",
     "startTs": 1775460600000,
     "stopTs": 1775467800000,
     "title": "REQUEST WALA SHOW",
-    "desc": "S1 E2 A comprehensive compilation of popular songs composed by well-known artists is played back to back at the request of ardent fans.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 A comprehensive compilation of popular songs composed by well-known artists is played back to back at the request of ardent fans."
   },
   {
+    "start": "09:30",
+    "stop": "11:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260406093000 +0000",
-    "stop": "20260406113000 +0000",
     "startTs": 1775467800000,
     "stopTs": 1775475000000,
     "title": "My Dil Goes Zoom",
-    "desc": "S1 E2 A comprehensive compilation of catchy, popular and entertaining songs by various artists and bands from around the world.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 A comprehensive compilation of catchy, popular and entertaining songs by various artists and bands from around the world."
   },
   {
+    "start": "11:30",
+    "stop": "13:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260406113000 +0000",
-    "stop": "20260406133000 +0000",
     "startTs": 1775475000000,
     "stopTs": 1775482200000,
     "title": "REQUEST WALA SHOW",
-    "desc": "S1 E2 A comprehensive compilation of popular songs composed by well-known artists is played back to back at the request of ardent fans.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 A comprehensive compilation of popular songs composed by well-known artists is played back to back at the request of ardent fans."
   },
   {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260406133000 +0000",
-    "stop": "20260406143000 +0000",
     "startTs": 1775482200000,
     "stopTs": 1775485800000,
     "title": "Fab 10",
-    "desc": "E2 A comprehensive compilation of the top ten songs performed by various singers, musicians and artists are played back to back.",
-    "channel": "Zoom.in"
+    "desc": "E2 A comprehensive compilation of the top ten songs performed by various singers, musicians and artists are played back to back."
   },
   {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260406143000 +0000",
-    "stop": "20260406153000 +0000",
     "startTs": 1775485800000,
     "stopTs": 1775489400000,
     "title": "My Dil Goes Zoom",
-    "desc": "S1 E2 A comprehensive compilation of catchy, popular and entertaining songs by various artists and bands from around the world.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 A comprehensive compilation of catchy, popular and entertaining songs by various artists and bands from around the world."
   },
   {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260406153000 +0000",
-    "stop": "20260406163000 +0000",
     "startTs": 1775489400000,
     "stopTs": 1775493000000,
     "title": "ZOOMBASTIC TOP 10",
-    "desc": "E2 An extensive compilation of some of the catchiest foot-tapping hits from various musical artists is played back to back in order to entertain the audience.",
-    "channel": "Zoom.in"
+    "desc": "E2 An extensive compilation of some of the catchiest foot-tapping hits from various musical artists is played back to back in order to entertain the audience."
   },
   {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260406163000 +0000",
-    "stop": "20260406173000 +0000",
     "startTs": 1775493000000,
     "stopTs": 1775496600000,
     "title": "Beetey Lamhey",
-    "desc": "S1 E2 A comprehensive compilation of some of the most popular and beloved songs from the 90s is played back to back, entertaining the audience and evoking nostalgia.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 A comprehensive compilation of some of the most popular and beloved songs from the 90s is played back to back, entertaining the audience and evoking nostalgia."
   },
   {
+    "start": "17:30",
+    "stop": "18:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260406173000 +0000",
-    "stop": "20260406183000 +0000",
     "startTs": 1775496600000,
     "stopTs": 1775500200000,
     "title": "Secrets No More",
-    "desc": "S1 E2 Bringing the best in television.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 Bringing the best in television."
   },
   {
+    "start": "18:30",
+    "stop": "19:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260406183000 +0000",
-    "stop": "20260406193000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775503800000,
     "title": "Secrets No More",
-    "desc": "S1 E2 Bringing the best in television.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 Bringing the best in television."
   },
   {
+    "start": "19:30",
+    "stop": "20:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260406193000 +0000",
-    "stop": "20260406203000 +0000",
     "startTs": 1775503800000,
     "stopTs": 1775507400000,
     "title": "Love Cocktail",
-    "desc": "E2 A comprehensive compilation of popular songs performed by prominent artists is played back to back to captivate the audience.",
-    "channel": "Zoom.in"
+    "desc": "E2 A comprehensive compilation of popular songs performed by prominent artists is played back to back to captivate the audience."
   },
   {
+    "start": "20:30",
+    "stop": "23:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260406203000 +0000",
-    "stop": "20260406233000 +0000",
     "startTs": 1775507400000,
     "stopTs": 1775518200000,
     "title": "NIGHTOUT",
-    "desc": "E2 An extensive compilation of some of the catchiest foot-tapping hits from various musical artists is played back to back.",
-    "channel": "Zoom.in"
+    "desc": "E2 An extensive compilation of some of the catchiest foot-tapping hits from various musical artists is played back to back."
   },
   {
+    "start": "23:30",
+    "stop": "02:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260406233000 +0000",
-    "stop": "20260407023000 +0000",
     "startTs": 1775518200000,
     "stopTs": 1775529000000,
     "title": "Beetey Lamhey",
-    "desc": "S1 E2 A comprehensive compilation of some of the most popular and beloved songs from the 90s is played back to back, entertaining the audience and evoking nostalgia.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 A comprehensive compilation of some of the most popular and beloved songs from the 90s is played back to back, entertaining the audience and evoking nostalgia."
   },
   {
+    "start": "02:30",
+    "stop": "04:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260407023000 +0000",
-    "stop": "20260407043000 +0000",
     "startTs": 1775529000000,
     "stopTs": 1775536200000,
     "title": "SUNRISE HITS",
-    "desc": "E2 A comprehensive compilation of some of the most popular and catchy Bollywood songs by renowned singers and musicians is played back to back to entertain the audience.",
-    "channel": "Zoom.in"
+    "desc": "E2 A comprehensive compilation of some of the most popular and catchy Bollywood songs by renowned singers and musicians is played back to back to entertain the audience."
   },
   {
+    "start": "04:30",
+    "stop": "05:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260407043000 +0000",
-    "stop": "20260407053000 +0000",
     "startTs": 1775536200000,
     "stopTs": 1775539800000,
     "title": "Likes Bajao",
-    "desc": "E2 Viewers from across the country vote for some of their most favourite songs on social media, which are played back to back.",
-    "channel": "Zoom.in"
+    "desc": "E2 Viewers from across the country vote for some of their most favourite songs on social media, which are played back to back."
   },
   {
+    "start": "05:30",
+    "stop": "07:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260407053000 +0000",
-    "stop": "20260407073000 +0000",
     "startTs": 1775539800000,
     "stopTs": 1775547000000,
     "title": "PYAAR HITS",
-    "desc": "S1 E2 A compilation of some of the most iconic songs based on the theme of love, composed by popular artists and musicians, is played back-to-back.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 A compilation of some of the most iconic songs based on the theme of love, composed by popular artists and musicians, is played back-to-back."
   },
   {
+    "start": "07:30",
+    "stop": "09:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260407073000 +0000",
-    "stop": "20260407093000 +0000",
     "startTs": 1775547000000,
     "stopTs": 1775554200000,
     "title": "REQUEST WALA SHOW",
-    "desc": "S1 E2 A comprehensive compilation of popular songs composed by well-known artists is played back to back at the request of ardent fans.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 A comprehensive compilation of popular songs composed by well-known artists is played back to back at the request of ardent fans."
   },
   {
+    "start": "09:30",
+    "stop": "11:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260407093000 +0000",
-    "stop": "20260407113000 +0000",
     "startTs": 1775554200000,
     "stopTs": 1775561400000,
     "title": "My Dil Goes Zoom",
-    "desc": "S1 E2 A comprehensive compilation of catchy, popular and entertaining songs by various artists and bands from around the world.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 A comprehensive compilation of catchy, popular and entertaining songs by various artists and bands from around the world."
   },
   {
+    "start": "11:30",
+    "stop": "13:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260407113000 +0000",
-    "stop": "20260407133000 +0000",
     "startTs": 1775561400000,
     "stopTs": 1775568600000,
     "title": "REQUEST WALA SHOW",
-    "desc": "S1 E2 A comprehensive compilation of popular songs composed by well-known artists is played back to back at the request of ardent fans.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 A comprehensive compilation of popular songs composed by well-known artists is played back to back at the request of ardent fans."
   },
   {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260407133000 +0000",
-    "stop": "20260407143000 +0000",
     "startTs": 1775568600000,
     "stopTs": 1775572200000,
     "title": "Fab 10",
-    "desc": "E2 A comprehensive compilation of the top ten songs performed by various singers, musicians and artists are played back to back.",
-    "channel": "Zoom.in"
+    "desc": "E2 A comprehensive compilation of the top ten songs performed by various singers, musicians and artists are played back to back."
   },
   {
+    "start": "14:30",
+    "stop": "16:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260407143000 +0000",
-    "stop": "20260407163000 +0000",
     "startTs": 1775572200000,
     "stopTs": 1775579400000,
     "title": "My Dil Goes Zoom",
-    "desc": "S1 E2 A comprehensive compilation of catchy, popular and entertaining songs by various artists and bands from around the world.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 A comprehensive compilation of catchy, popular and entertaining songs by various artists and bands from around the world."
   },
   {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260407163000 +0000",
-    "stop": "20260407173000 +0000",
     "startTs": 1775579400000,
     "stopTs": 1775583000000,
     "title": "Beetey Lamhey",
-    "desc": "S1 E2 A comprehensive compilation of some of the most popular and beloved songs from the 90s is played back to back, entertaining the audience and evoking nostalgia.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 A comprehensive compilation of some of the most popular and beloved songs from the 90s is played back to back, entertaining the audience and evoking nostalgia."
   },
   {
+    "start": "17:30",
+    "stop": "18:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260407173000 +0000",
-    "stop": "20260407183000 +0000",
     "startTs": 1775583000000,
     "stopTs": 1775586600000,
     "title": "Secrets No More",
-    "desc": "S1 E2 Bringing the best in television.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 Bringing the best in television."
   },
   {
+    "start": "18:30",
+    "stop": "19:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260407183000 +0000",
-    "stop": "20260407193000 +0000",
     "startTs": 1775586600000,
     "stopTs": 1775590200000,
     "title": "Secrets No More",
-    "desc": "S1 E2 Bringing the best in television.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 Bringing the best in television."
   },
   {
+    "start": "19:30",
+    "stop": "20:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260407193000 +0000",
-    "stop": "20260407203000 +0000",
     "startTs": 1775590200000,
     "stopTs": 1775593800000,
     "title": "Love Cocktail",
-    "desc": "E2 A comprehensive compilation of popular songs performed by prominent artists is played back to back to captivate the audience.",
-    "channel": "Zoom.in"
+    "desc": "E2 A comprehensive compilation of popular songs performed by prominent artists is played back to back to captivate the audience."
   },
   {
+    "start": "20:30",
+    "stop": "23:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260407203000 +0000",
-    "stop": "20260407233000 +0000",
     "startTs": 1775593800000,
     "stopTs": 1775604600000,
     "title": "NIGHTOUT",
-    "desc": "E2 An extensive compilation of some of the catchiest foot-tapping hits from various musical artists is played back to back.",
-    "channel": "Zoom.in"
+    "desc": "E2 An extensive compilation of some of the catchiest foot-tapping hits from various musical artists is played back to back."
   },
   {
+    "start": "23:30",
+    "stop": "02:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260407233000 +0000",
-    "stop": "20260408023000 +0000",
     "startTs": 1775604600000,
     "stopTs": 1775615400000,
     "title": "Beetey Lamhey",
-    "desc": "S1 E2 A comprehensive compilation of some of the most popular and beloved songs from the 90s is played back to back, entertaining the audience and evoking nostalgia.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 A comprehensive compilation of some of the most popular and beloved songs from the 90s is played back to back, entertaining the audience and evoking nostalgia."
   },
   {
+    "start": "02:30",
+    "stop": "04:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260408023000 +0000",
-    "stop": "20260408043000 +0000",
     "startTs": 1775615400000,
     "stopTs": 1775622600000,
     "title": "SUNRISE HITS",
-    "desc": "E2 A comprehensive compilation of some of the most popular and catchy Bollywood songs by renowned singers and musicians is played back to back to entertain the audience.",
-    "channel": "Zoom.in"
+    "desc": "E2 A comprehensive compilation of some of the most popular and catchy Bollywood songs by renowned singers and musicians is played back to back to entertain the audience."
   },
   {
+    "start": "04:30",
+    "stop": "05:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260408043000 +0000",
-    "stop": "20260408053000 +0000",
     "startTs": 1775622600000,
     "stopTs": 1775626200000,
     "title": "Likes Bajao",
-    "desc": "E2 Viewers from across the country vote for some of their most favourite songs on social media, which are played back to back.",
-    "channel": "Zoom.in"
+    "desc": "E2 Viewers from across the country vote for some of their most favourite songs on social media, which are played back to back."
   },
   {
+    "start": "05:30",
+    "stop": "07:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260408053000 +0000",
-    "stop": "20260408073000 +0000",
     "startTs": 1775626200000,
     "stopTs": 1775633400000,
     "title": "PYAAR HITS",
-    "desc": "S1 E2 A compilation of some of the most iconic songs based on the theme of love, composed by popular artists and musicians, is played back-to-back.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 A compilation of some of the most iconic songs based on the theme of love, composed by popular artists and musicians, is played back-to-back."
   },
   {
+    "start": "07:30",
+    "stop": "09:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260408073000 +0000",
-    "stop": "20260408093000 +0000",
     "startTs": 1775633400000,
     "stopTs": 1775640600000,
     "title": "REQUEST WALA SHOW",
-    "desc": "S1 E2 A comprehensive compilation of popular songs composed by well-known artists is played back to back at the request of ardent fans.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 A comprehensive compilation of popular songs composed by well-known artists is played back to back at the request of ardent fans."
   },
   {
+    "start": "09:30",
+    "stop": "11:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260408093000 +0000",
-    "stop": "20260408113000 +0000",
     "startTs": 1775640600000,
     "stopTs": 1775647800000,
     "title": "My Dil Goes Zoom",
-    "desc": "S1 E2 A comprehensive compilation of catchy, popular and entertaining songs by various artists and bands from around the world.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 A comprehensive compilation of catchy, popular and entertaining songs by various artists and bands from around the world."
   },
   {
+    "start": "11:30",
+    "stop": "13:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260408113000 +0000",
-    "stop": "20260408133000 +0000",
     "startTs": 1775647800000,
     "stopTs": 1775655000000,
     "title": "REQUEST WALA SHOW",
-    "desc": "S1 E2 A comprehensive compilation of popular songs composed by well-known artists is played back to back at the request of ardent fans.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 A comprehensive compilation of popular songs composed by well-known artists is played back to back at the request of ardent fans."
   },
   {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260408133000 +0000",
-    "stop": "20260408143000 +0000",
     "startTs": 1775655000000,
     "stopTs": 1775658600000,
     "title": "Fab 10",
-    "desc": "E2 A comprehensive compilation of the top ten songs performed by various singers, musicians and artists are played back to back.",
-    "channel": "Zoom.in"
+    "desc": "E2 A comprehensive compilation of the top ten songs performed by various singers, musicians and artists are played back to back."
   },
   {
+    "start": "14:30",
+    "stop": "16:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260408143000 +0000",
-    "stop": "20260408163000 +0000",
     "startTs": 1775658600000,
     "stopTs": 1775665800000,
     "title": "My Dil Goes Zoom",
-    "desc": "S1 E2 A comprehensive compilation of catchy, popular and entertaining songs by various artists and bands from around the world.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 A comprehensive compilation of catchy, popular and entertaining songs by various artists and bands from around the world."
   },
   {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260408163000 +0000",
-    "stop": "20260408173000 +0000",
     "startTs": 1775665800000,
     "stopTs": 1775669400000,
     "title": "Beetey Lamhey",
-    "desc": "S1 E2 A comprehensive compilation of some of the most popular and beloved songs from the 90s is played back to back, entertaining the audience and evoking nostalgia.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 A comprehensive compilation of some of the most popular and beloved songs from the 90s is played back to back, entertaining the audience and evoking nostalgia."
   },
   {
+    "start": "17:30",
+    "stop": "18:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260408173000 +0000",
-    "stop": "20260408183000 +0000",
     "startTs": 1775669400000,
     "stopTs": 1775673000000,
     "title": "Secrets No More",
-    "desc": "S1 E2 Bringing the best in television.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 Bringing the best in television."
   },
   {
+    "start": "18:30",
+    "stop": "19:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260408183000 +0000",
-    "stop": "20260408193000 +0000",
     "startTs": 1775673000000,
     "stopTs": 1775676600000,
     "title": "Secrets No More",
-    "desc": "S1 E2 Bringing the best in television.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 Bringing the best in television."
   },
   {
+    "start": "19:30",
+    "stop": "20:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260408193000 +0000",
-    "stop": "20260408203000 +0000",
     "startTs": 1775676600000,
     "stopTs": 1775680200000,
     "title": "Love Cocktail",
-    "desc": "E2 A comprehensive compilation of popular songs performed by prominent artists is played back to back to captivate the audience.",
-    "channel": "Zoom.in"
+    "desc": "E2 A comprehensive compilation of popular songs performed by prominent artists is played back to back to captivate the audience."
   },
   {
+    "start": "20:30",
+    "stop": "23:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260408203000 +0000",
-    "stop": "20260408233000 +0000",
     "startTs": 1775680200000,
     "stopTs": 1775691000000,
     "title": "NIGHTOUT",
-    "desc": "E2 An extensive compilation of some of the catchiest foot-tapping hits from various musical artists is played back to back.",
-    "channel": "Zoom.in"
+    "desc": "E2 An extensive compilation of some of the catchiest foot-tapping hits from various musical artists is played back to back."
   },
   {
+    "start": "23:30",
+    "stop": "02:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260408233000 +0000",
-    "stop": "20260409023000 +0000",
     "startTs": 1775691000000,
     "stopTs": 1775701800000,
     "title": "Beetey Lamhey",
-    "desc": "S1 E2 A comprehensive compilation of some of the most popular and beloved songs from the 90s is played back to back, entertaining the audience and evoking nostalgia.",
-    "channel": "Zoom.in"
+    "desc": "S1 E2 A comprehensive compilation of some of the most popular and beloved songs from the 90s is played back to back, entertaining the audience and evoking nostalgia."
   },
   {
+    "start": "02:30",
+    "stop": "04:30",
+    "channel": "Zoom.in",
     "channelId": "Zoom.in",
     "channelName": "IN - Zoom",
-    "start": "20260409023000 +0000",
-    "stop": "20260409043000 +0000",
     "startTs": 1775701800000,
     "stopTs": 1775709000000,
     "title": "SUNRISE HITS",
-    "desc": "E2 A comprehensive compilation of some of the most popular and catchy Bollywood songs by renowned singers and musicians is played back to back to entertain the audience.",
-    "channel": "Zoom.in"
+    "desc": "E2 A comprehensive compilation of some of the most popular and catchy Bollywood songs by renowned singers and musicians is played back to back to entertain the audience."
   }
 ]

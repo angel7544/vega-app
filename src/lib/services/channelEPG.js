@@ -49,7 +49,7 @@ function getProviderFormattedIds(rawId) {
  * Fetch channel schedule (up to 15 items) directly from GitHub JSON repository.
  * Bypasses XML EPG guides for high-performance, screen-specific schedules.
  */
-export async function fetchChannelSchedule(channel, countryCode = 'in') {
+export async function fetchChannelSchedule(channel, countryCode = 'in', forceRefresh = false) {
     if (!channel || !channel.name) return [];
 
     const countrySuffix = countryCode.toLowerCase();
@@ -89,14 +89,20 @@ export async function fetchChannelSchedule(channel, countryCode = 'in') {
 
     for (const pName of uniqueNames) {
         const jsonUrl = `https://raw.githubusercontent.com/angel7544/vega-app/orbix-personal/src/epg-data/${pName}.json`;
-        console.log(`[EPG] 🌐 Fetching: ${jsonUrl}`);
         
         try {
             // Check cache
             const cached = epgCache.get(jsonUrl);
-            if (cached && (Date.now() - cached.timestamp < CACHE_EXPIRY)) {
+            if (!forceRefresh && cached && (Date.now() - cached.timestamp < CACHE_EXPIRY)) {
                 if (cached.data === '404') continue;
                 return filterAndSlicePrograms(cached.data);
+            }
+
+            if (forceRefresh) {
+                console.log(`[EPG] 🔄 Force-refreshing: ${jsonUrl}`);
+                epgCache.delete(jsonUrl);
+            } else {
+                console.log(`[EPG] 🌐 Fetching: ${jsonUrl}`);
             }
 
             // In-flight request management

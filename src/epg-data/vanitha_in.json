@@ -1,14 +1,14 @@
 [
   {
+    "start": "18:30",
+    "stop": "23:30",
+    "channel": "ts1135",
+    "catchup-id": "93113225",
     "channelId": "ts1135",
     "channelName": "Vanitha",
-    "start": "20260405183000 +0000",
-    "stop": "20260405233000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775431800000,
     "title": "Vanitha Special",
-    "desc": "The host engages with guests, discussing women's achievements and important issues.",
-    "channel": "ts1135",
-    "catchup-id": "93113225"
+    "desc": "The host engages with guests, discussing women's achievements and important issues."
   }
 ]

@@ -1,26 +1,26 @@
 [
   {
+    "start": "18:30",
+    "stop": "19:30",
+    "channel": "ts50",
+    "catchup-id": "93111240",
     "channelId": "ts50",
     "channelName": "ts50",
-    "start": "20260405183000 +0000",
-    "stop": "20260405193000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775417400000,
     "title": "Mind Fresh Music",
-    "desc": "A comprehensive compilation of some of the most soothing and refreshing music is played.",
-    "channel": "ts50",
-    "catchup-id": "93111240"
+    "desc": "A comprehensive compilation of some of the most soothing and refreshing music is played."
   },
   {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "ts50",
+    "catchup-id": "93111262",
     "channelId": "ts50",
     "channelName": "ts50",
-    "start": "20260405193000 +0000",
-    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Dilse Music",
-    "desc": "The host invites artists from the music industry to learn about their life journeys.",
-    "channel": "ts50",
-    "catchup-id": "93111262"
+    "desc": "The host invites artists from the music industry to learn about their life journeys."
   }
 ]

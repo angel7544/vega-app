@@ -1,38 +1,38 @@
 [
   {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "ts152",
+    "catchup-id": "93113003",
     "channelId": "ts152",
     "channelName": "TV9 Kannada",
-    "start": "20260405183000 +0000",
-    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "News Bulletin",
-    "desc": "The host presents the latest regional, national and international news of the day.",
-    "channel": "ts152",
-    "catchup-id": "93113003"
+    "desc": "The host presents the latest regional, national and international news of the day."
   },
   {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "ts152",
+    "catchup-id": "93112996",
     "channelId": "ts152",
     "channelName": "TV9 Kannada",
-    "start": "20260405190000 +0000",
-    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Just Bangalore",
-    "desc": "The host presents information about various current events of the day in Bengaluru.",
-    "channel": "ts152",
-    "catchup-id": "93112996"
+    "desc": "The host presents information about various current events of the day in Bengaluru."
   },
   {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "ts152",
+    "catchup-id": "93113000",
     "channelId": "ts152",
     "channelName": "TV9 Kannada",
-    "start": "20260405193000 +0000",
-    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "News Bulletin",
-    "desc": "The host presents the latest regional, national and international news of the day.",
-    "channel": "ts152",
-    "catchup-id": "93113000"
+    "desc": "The host presents the latest regional, national and international news of the day."
   }
 ]

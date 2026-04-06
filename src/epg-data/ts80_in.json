@@ -1,14 +1,14 @@
 [
   {
+    "start": "19:25",
+    "stop": "21:31",
+    "channel": "ts80",
+    "catchup-id": "93274518",
     "channelId": "ts80",
     "channelName": "ts80",
-    "start": "20260405192500 +0000",
-    "stop": "20260405213100 +0000",
     "startTs": 1775417100000,
     "stopTs": 1775424660000,
     "title": "Savyasachi",
-    "desc": "Vikram loses control over one of his hands but his unseen twin brother has his back.",
-    "channel": "ts80",
-    "catchup-id": "93274518"
+    "desc": "Vikram loses control over one of his hands but his unseen twin brother has his back."
   }
 ]

@@ -1,86 +1,86 @@
 [
   {
+    "start": "18:30",
+    "stop": "22:30",
+    "channel": "ts1834",
+    "catchup-id": "93158799",
     "channelId": "ts1834",
     "channelName": "Hingulambika Devi, Solapur",
-    "start": "20260404183000 +0000",
-    "stop": "20260404223000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775341800000,
     "title": "Bhakti Darshan",
-    "desc": ".",
-    "channel": "ts1834",
-    "catchup-id": "93158799"
+    "desc": "."
   },
   {
+    "start": "22:30",
+    "stop": "02:30",
+    "channel": "ts1834",
+    "catchup-id": "93158797",
     "channelId": "ts1834",
     "channelName": "Hingulambika Devi, Solapur",
-    "start": "20260404223000 +0000",
-    "stop": "20260405023000 +0000",
     "startTs": 1775341800000,
     "stopTs": 1775356200000,
     "title": "Bhakti Darshan",
-    "desc": ".",
-    "channel": "ts1834",
-    "catchup-id": "93158797"
+    "desc": "."
   },
   {
+    "start": "02:30",
+    "stop": "06:30",
+    "channel": "ts1834",
+    "catchup-id": "93158798",
     "channelId": "ts1834",
     "channelName": "Hingulambika Devi, Solapur",
-    "start": "20260405023000 +0000",
-    "stop": "20260405063000 +0000",
     "startTs": 1775356200000,
     "stopTs": 1775370600000,
     "title": "Bhakti Darshan",
-    "desc": ".",
-    "channel": "ts1834",
-    "catchup-id": "93158798"
+    "desc": "."
   },
   {
+    "start": "06:30",
+    "stop": "10:30",
+    "channel": "ts1834",
+    "catchup-id": "93158801",
     "channelId": "ts1834",
     "channelName": "Hingulambika Devi, Solapur",
-    "start": "20260405063000 +0000",
-    "stop": "20260405103000 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775385000000,
     "title": "Bhakti Darshan",
-    "desc": ".",
-    "channel": "ts1834",
-    "catchup-id": "93158801"
+    "desc": "."
   },
   {
+    "start": "10:30",
+    "stop": "14:30",
+    "channel": "ts1834",
+    "catchup-id": "93158796",
     "channelId": "ts1834",
     "channelName": "Hingulambika Devi, Solapur",
-    "start": "20260405103000 +0000",
-    "stop": "20260405143000 +0000",
     "startTs": 1775385000000,
     "stopTs": 1775399400000,
     "title": "Bhakti Darshan",
-    "desc": ".",
-    "channel": "ts1834",
-    "catchup-id": "93158796"
+    "desc": "."
   },
   {
+    "start": "14:30",
+    "stop": "18:30",
+    "channel": "ts1834",
+    "catchup-id": "93158800",
     "channelId": "ts1834",
     "channelName": "Hingulambika Devi, Solapur",
-    "start": "20260405143000 +0000",
-    "stop": "20260405183000 +0000",
     "startTs": 1775399400000,
     "stopTs": 1775413800000,
     "title": "Bhakti Darshan",
-    "desc": ".",
-    "channel": "ts1834",
-    "catchup-id": "93158800"
+    "desc": "."
   },
   {
+    "start": "18:30",
+    "stop": "22:30",
+    "channel": "ts1834",
+    "catchup-id": "93087799",
     "channelId": "ts1834",
     "channelName": "Hingulambika Devi, Solapur",
-    "start": "20260405183000 +0000",
-    "stop": "20260405223000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775428200000,
     "title": "Bhakti Darshan",
-    "desc": ".",
-    "channel": "ts1834",
-    "catchup-id": "93087799"
+    "desc": "."
   }
 ]

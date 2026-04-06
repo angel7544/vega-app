@@ -1,26 +1,26 @@
 [
   {
+    "start": "18:30",
+    "stop": "20:25",
+    "channel": "ts319",
+    "catchup-id": "93111434",
     "channelId": "ts319",
     "channelName": "ts319",
-    "start": "20260405183000 +0000",
-    "stop": "20260405202500 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775420700000,
     "title": "Ammaa Ki Boli",
-    "desc": "A second-hand scooter affects the lives of an old widow and her five children.",
-    "channel": "ts319",
-    "catchup-id": "93111434"
+    "desc": "A second-hand scooter affects the lives of an old widow and her five children."
   },
   {
+    "start": "00:30",
+    "stop": "02:32",
+    "channel": "ts319",
+    "catchup-id": "93111435",
     "channelId": "ts319",
     "channelName": "ts319",
-    "start": "20260406003000 +0000",
-    "stop": "20260406023200 +0000",
     "startTs": 1775435400000,
     "stopTs": 1775442720000,
     "title": "Tara vs Bilal",
-    "desc": "Sparks fly when vivacious yet sensitive Tara collides with reclusive charmer Bilal.",
-    "channel": "ts319",
-    "catchup-id": "93111435"
+    "desc": "Sparks fly when vivacious yet sensitive Tara collides with reclusive charmer Bilal."
   }
 ]

@@ -1,38 +1,38 @@
 [
   {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "ts265",
+    "catchup-id": "93097837",
     "channelId": "ts265",
     "channelName": "ts265",
-    "start": "20260405183000 +0000",
-    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Liv and Maddie",
-    "desc": "When Maddie's twin sister Liv returns to high school, her life turns chaotic.",
-    "channel": "ts265",
-    "catchup-id": "93097837"
+    "desc": "When Maddie's twin sister Liv returns to high school, her life turns chaotic."
   },
   {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "ts265",
+    "catchup-id": "93097819",
     "channelId": "ts265",
     "channelName": "ts265",
-    "start": "20260405190000 +0000",
-    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Liv and Maddie",
-    "desc": "When Maddie's twin sister Liv returns to high school, her life turns chaotic.",
-    "channel": "ts265",
-    "catchup-id": "93097819"
+    "desc": "When Maddie's twin sister Liv returns to high school, her life turns chaotic."
   },
   {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "ts265",
+    "catchup-id": "93097851",
     "channelId": "ts265",
     "channelName": "ts265",
-    "start": "20260405193000 +0000",
-    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Girl Meets World",
-    "desc": "Riley Matthews faces many problems growing up but finds solace in her best friend, Maya.",
-    "channel": "ts265",
-    "catchup-id": "93097851"
+    "desc": "Riley Matthews faces many problems growing up but finds solace in her best friend, Maya."
   }
 ]

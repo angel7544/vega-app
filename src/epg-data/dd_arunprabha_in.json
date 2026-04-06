@@ -1,38 +1,38 @@
 [
   {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "ts758",
+    "catchup-id": "93096056",
     "channelId": "ts758",
     "channelName": "DD Arunprabha",
-    "start": "20260405183000 +0000",
-    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Wah Kya Taste Hai",
-    "desc": "The host interacts with chefs from famous restaurants and showcases their recipes.",
-    "channel": "ts758",
-    "catchup-id": "93096056"
+    "desc": "The host interacts with chefs from famous restaurants and showcases their recipes."
   },
   {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "ts758",
+    "catchup-id": "93096089",
     "channelId": "ts758",
     "channelName": "DD Arunprabha",
-    "start": "20260405190000 +0000",
-    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Documentary / Commission Programme",
-    "desc": "A compilation of documentaries and television shows, exploring unique topics, is showcased.",
-    "channel": "ts758",
-    "catchup-id": "93096089"
+    "desc": "A compilation of documentaries and television shows, exploring unique topics, is showcased."
   },
   {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "ts758",
+    "catchup-id": "93096071",
     "channelId": "ts758",
     "channelName": "DD Arunprabha",
-    "start": "20260405193000 +0000",
-    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Modern Dance & Song Of Arunachal Pradesh",
-    "desc": "Renowned artists deliver electrifying performances, blending modern dance and music.",
-    "channel": "ts758",
-    "catchup-id": "93096071"
+    "desc": "Renowned artists deliver electrifying performances, blending modern dance and music."
   }
 ]

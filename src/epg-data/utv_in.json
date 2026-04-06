@@ -1,26 +1,26 @@
 [
   {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "ts1388",
+    "catchup-id": "93091899",
     "channelId": "ts1388",
     "channelName": "UTV",
-    "start": "20260405183000 +0000",
-    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "ts1388",
-    "catchup-id": "93091899"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "19:00",
+    "stop": "21:00",
+    "channel": "ts1388",
+    "catchup-id": "93091913",
     "channelId": "ts1388",
     "channelName": "UTV",
-    "start": "20260405190000 +0000",
-    "stop": "20260405210000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775422800000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "ts1388",
-    "catchup-id": "93091913"
+    "desc": "Bringing the best in television."
   }
 ]

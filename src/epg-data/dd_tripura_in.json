@@ -1,38 +1,38 @@
 [
   {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "ts1210",
+    "catchup-id": "93097336",
     "channelId": "ts1210",
     "channelName": "DD Tripura",
-    "start": "20260405183000 +0000",
-    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Ek Bharat Shreshtha Bharat",
-    "desc": "The host sheds light on the 'Ek Bharat Shreshtha Bharat' initiative.",
-    "channel": "ts1210",
-    "catchup-id": "93097336"
+    "desc": "The host sheds light on the 'Ek Bharat Shreshtha Bharat' initiative."
   },
   {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "ts1210",
+    "catchup-id": "93097314",
     "channelId": "ts1210",
     "channelName": "DD Tripura",
-    "start": "20260405190000 +0000",
-    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Cookery Show",
-    "desc": "A chef prepares a variety of delicious dishes and provides recipes and suggestions.",
-    "channel": "ts1210",
-    "catchup-id": "93097314"
+    "desc": "A chef prepares a variety of delicious dishes and provides recipes and suggestions."
   },
   {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "ts1210",
+    "catchup-id": "93097320",
     "channelId": "ts1210",
     "channelName": "DD Tripura",
-    "start": "20260405193000 +0000",
-    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Ghore Boshe Rojgar",
-    "desc": "The host showcases ways on how one can make income from home.",
-    "channel": "ts1210",
-    "catchup-id": "93097320"
+    "desc": "The host showcases ways on how one can make income from home."
   }
 ]

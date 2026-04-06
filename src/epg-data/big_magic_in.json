@@ -1,450 +1,450 @@
 [
   {
+    "start": "19:40",
+    "stop": "21:14",
+    "channel": "ts297",
+    "catchup-id": "93242511",
     "channelId": "ts297",
     "channelName": "Big Magic",
-    "start": "20260405194000 +0000",
-    "stop": "20260405211400 +0000",
     "startTs": 1775418000000,
     "stopTs": 1775423640000,
     "title": "Firaaq",
-    "desc": "The victims of the 2002 Gujarat riots grapple with the aftermath of the devastation.",
-    "channel": "ts297",
-    "catchup-id": "93242511"
+    "desc": "The victims of the 2002 Gujarat riots grapple with the aftermath of the devastation."
   },
   {
+    "start": "21:14",
+    "stop": "23:12",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260405211400 +0000",
-    "stop": "20260405231200 +0000",
     "startTs": 1775423640000,
     "stopTs": 1775430720000,
     "title": "Murder 2",
-    "desc": "When a slew of sex workers disappear, Arjun, a former police officer, is brought in to crack the case. Subsequently, as he works undercover with Reshma, a young prostitute, she too disappears.",
-    "channel": "BigMagic.in"
+    "desc": "When a slew of sex workers disappear, Arjun, a former police officer, is brought in to crack the case. Subsequently, as he works undercover with Reshma, a young prostitute, she too disappears."
   },
   {
+    "start": "23:12",
+    "stop": "00:38",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260405231200 +0000",
-    "stop": "20260406003800 +0000",
     "startTs": 1775430720000,
     "stopTs": 1775435880000,
     "title": "Love Hostel",
-    "desc": "A series of bloodshed, escapes and deception ensue when Jyothi and Ashu elope together and her family hires a ruthless mercenary to kill the couple.",
-    "channel": "BigMagic.in"
+    "desc": "A series of bloodshed, escapes and deception ensue when Jyothi and Ashu elope together and her family hires a ruthless mercenary to kill the couple."
   },
   {
+    "start": "00:38",
+    "stop": "02:30",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260406003800 +0000",
-    "stop": "20260406023000 +0000",
     "startTs": 1775435880000,
     "stopTs": 1775442600000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "02:30",
+    "stop": "05:55",
+    "channel": "ts297",
+    "catchup-id": "93166703",
     "channelId": "ts297",
     "channelName": "Big Magic",
-    "start": "20260406023000 +0000",
-    "stop": "20260406055500 +0000",
     "startTs": 1775442600000,
     "stopTs": 1775454900000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "ts297",
-    "catchup-id": "93166703"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "05:55",
+    "stop": "07:57",
+    "channel": "ts297",
+    "catchup-id": "93166700",
     "channelId": "ts297",
     "channelName": "Big Magic",
-    "start": "20260406055500 +0000",
-    "stop": "20260406075700 +0000",
     "startTs": 1775454900000,
     "stopTs": 1775462220000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "ts297",
-    "catchup-id": "93166700"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "07:57",
+    "stop": "10:52",
+    "channel": "ts297",
+    "catchup-id": "93166704",
     "channelId": "ts297",
     "channelName": "Big Magic",
-    "start": "20260406075700 +0000",
-    "stop": "20260406105200 +0000",
     "startTs": 1775462220000,
     "stopTs": 1775472720000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "ts297",
-    "catchup-id": "93166704"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "10:52",
+    "stop": "13:29",
+    "channel": "ts297",
+    "catchup-id": "93166706",
     "channelId": "ts297",
     "channelName": "Big Magic",
-    "start": "20260406105200 +0000",
-    "stop": "20260406132900 +0000",
     "startTs": 1775472720000,
     "stopTs": 1775482140000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "ts297",
-    "catchup-id": "93166706"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "13:29",
+    "stop": "15:47",
+    "channel": "ts297",
+    "catchup-id": "93166702",
     "channelId": "ts297",
     "channelName": "Big Magic",
-    "start": "20260406132900 +0000",
-    "stop": "20260406154700 +0000",
     "startTs": 1775482140000,
     "stopTs": 1775490420000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "ts297",
-    "catchup-id": "93166702"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "15:47",
+    "stop": "18:09",
+    "channel": "ts297",
+    "catchup-id": "93166708",
     "channelId": "ts297",
     "channelName": "Big Magic",
-    "start": "20260406154700 +0000",
-    "stop": "20260406180900 +0000",
     "startTs": 1775490420000,
     "stopTs": 1775498940000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "ts297",
-    "catchup-id": "93166708"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "18:09",
+    "stop": "20:01",
+    "channel": "ts297",
+    "catchup-id": "93166707",
     "channelId": "ts297",
     "channelName": "Big Magic",
-    "start": "20260406180900 +0000",
-    "stop": "20260406200100 +0000",
     "startTs": 1775498940000,
     "stopTs": 1775505660000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "ts297",
-    "catchup-id": "93166707"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "20:01",
+    "stop": "21:25",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260406200100 +0000",
-    "stop": "20260406212500 +0000",
     "startTs": 1775505660000,
     "stopTs": 1775510700000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "21:25",
+    "stop": "22:32",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260406212500 +0000",
-    "stop": "20260406223200 +0000",
     "startTs": 1775510700000,
     "stopTs": 1775514720000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "22:32",
+    "stop": "00:30",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260406223200 +0000",
-    "stop": "20260407003000 +0000",
     "startTs": 1775514720000,
     "stopTs": 1775521800000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "00:30",
+    "stop": "02:00",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260407003000 +0000",
-    "stop": "20260407020000 +0000",
     "startTs": 1775521800000,
     "stopTs": 1775527200000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "02:00",
+    "stop": "02:30",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260407020000 +0000",
-    "stop": "20260407023000 +0000",
     "startTs": 1775527200000,
     "stopTs": 1775529000000,
     "title": "Teleshopping",
-    "desc": "Learn about a wide selection of products and take advantage of a convenient method of shopping. A show for those who love to shop from the comforts of their home.",
-    "channel": "BigMagic.in"
+    "desc": "Learn about a wide selection of products and take advantage of a convenient method of shopping. A show for those who love to shop from the comforts of their home."
   },
   {
+    "start": "02:30",
+    "stop": "05:47",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260407023000 +0000",
-    "stop": "20260407054700 +0000",
     "startTs": 1775529000000,
     "stopTs": 1775540820000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "05:47",
+    "stop": "08:23",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260407054700 +0000",
-    "stop": "20260407082300 +0000",
     "startTs": 1775540820000,
     "stopTs": 1775550180000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "08:23",
+    "stop": "10:57",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260407082300 +0000",
-    "stop": "20260407105700 +0000",
     "startTs": 1775550180000,
     "stopTs": 1775559420000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "10:57",
+    "stop": "13:30",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260407105700 +0000",
-    "stop": "20260407133000 +0000",
     "startTs": 1775559420000,
     "stopTs": 1775568600000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "13:30",
+    "stop": "15:54",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260407133000 +0000",
-    "stop": "20260407155400 +0000",
     "startTs": 1775568600000,
     "stopTs": 1775577240000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "15:54",
+    "stop": "18:23",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260407155400 +0000",
-    "stop": "20260407182300 +0000",
     "startTs": 1775577240000,
     "stopTs": 1775586180000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "18:23",
+    "stop": "20:20",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260407182300 +0000",
-    "stop": "20260407202000 +0000",
     "startTs": 1775586180000,
     "stopTs": 1775593200000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "20:20",
+    "stop": "22:16",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260407202000 +0000",
-    "stop": "20260407221600 +0000",
     "startTs": 1775593200000,
     "stopTs": 1775600160000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "22:16",
+    "stop": "23:28",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260407221600 +0000",
-    "stop": "20260407232800 +0000",
     "startTs": 1775600160000,
     "stopTs": 1775604480000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "23:28",
+    "stop": "00:30",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260407232800 +0000",
-    "stop": "20260408003000 +0000",
     "startTs": 1775604480000,
     "stopTs": 1775608200000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "00:30",
+    "stop": "02:36",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260408003000 +0000",
-    "stop": "20260408023600 +0000",
     "startTs": 1775608200000,
     "stopTs": 1775615760000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "02:36",
+    "stop": "04:41",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260408023600 +0000",
-    "stop": "20260408044100 +0000",
     "startTs": 1775615760000,
     "stopTs": 1775623260000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "04:41",
+    "stop": "07:28",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260408044100 +0000",
-    "stop": "20260408072800 +0000",
     "startTs": 1775623260000,
     "stopTs": 1775633280000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "07:28",
+    "stop": "09:27",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260408072800 +0000",
-    "stop": "20260408092700 +0000",
     "startTs": 1775633280000,
     "stopTs": 1775640420000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "09:27",
+    "stop": "11:50",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260408092700 +0000",
-    "stop": "20260408115000 +0000",
     "startTs": 1775640420000,
     "stopTs": 1775649000000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "11:50",
+    "stop": "13:29",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260408115000 +0000",
-    "stop": "20260408132900 +0000",
     "startTs": 1775649000000,
     "stopTs": 1775654940000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "13:29",
+    "stop": "15:16",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260408132900 +0000",
-    "stop": "20260408151600 +0000",
     "startTs": 1775654940000,
     "stopTs": 1775661360000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "15:16",
+    "stop": "17:41",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260408151600 +0000",
-    "stop": "20260408174100 +0000",
     "startTs": 1775661360000,
     "stopTs": 1775670060000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "17:41",
+    "stop": "19:40",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260408174100 +0000",
-    "stop": "20260408194000 +0000",
     "startTs": 1775670060000,
     "stopTs": 1775677200000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "19:40",
+    "stop": "21:37",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260408194000 +0000",
-    "stop": "20260408213700 +0000",
     "startTs": 1775677200000,
     "stopTs": 1775684220000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "21:37",
+    "stop": "23:09",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260408213700 +0000",
-    "stop": "20260408230900 +0000",
     "startTs": 1775684220000,
     "stopTs": 1775689740000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "23:09",
+    "stop": "00:30",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260408230900 +0000",
-    "stop": "20260409003000 +0000",
     "startTs": 1775689740000,
     "stopTs": 1775694600000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "00:30",
+    "stop": "03:30",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260409003000 +0000",
-    "stop": "20260409033000 +0000",
     "startTs": 1775694600000,
     "stopTs": 1775705400000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "03:30",
+    "stop": "06:30",
+    "channel": "BigMagic.in",
     "channelId": "BigMagic.in",
     "channelName": "IN - Big Magic",
-    "start": "20260409033000 +0000",
-    "stop": "20260409063000 +0000",
     "startTs": 1775705400000,
     "stopTs": 1775716200000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "BigMagic.in"
+    "desc": "Bringing the best in television."
   }
 ]

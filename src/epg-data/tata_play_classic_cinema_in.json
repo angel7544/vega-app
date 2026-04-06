@@ -1,14 +1,14 @@
 [
   {
+    "start": "18:30",
+    "stop": "20:45",
+    "channel": "ts741",
+    "catchup-id": "93111539",
     "channelId": "ts741",
     "channelName": "Tata Play Classic Cinema",
-    "start": "20260405183000 +0000",
-    "stop": "20260405204500 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775421900000,
     "title": "Junglee",
-    "desc": "Shekhar falls for a woman and soon, the lovers try to be together facing all odds.",
-    "channel": "ts741",
-    "catchup-id": "93111539"
+    "desc": "Shekhar falls for a woman and soon, the lovers try to be together facing all odds."
   }
 ]

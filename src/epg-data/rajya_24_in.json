@@ -1,38 +1,38 @@
 [
   {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "ts1208",
+    "catchup-id": "93088983",
     "channelId": "ts1208",
     "channelName": "Rajya 24",
-    "start": "20260405183000 +0000",
-    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Midnight Halchal",
-    "desc": "The host highlights updates on social, economic and political issues and current events.",
-    "channel": "ts1208",
-    "catchup-id": "93088983"
+    "desc": "The host highlights updates on social, economic and political issues and current events."
   },
   {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "ts1208",
+    "catchup-id": "93088968",
     "channelId": "ts1208",
     "channelName": "Rajya 24",
-    "start": "20260405190000 +0000",
-    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Midnight Halchal",
-    "desc": "The host highlights updates on social, economic and political issues and current events.",
-    "channel": "ts1208",
-    "catchup-id": "93088968"
+    "desc": "The host highlights updates on social, economic and political issues and current events."
   },
   {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "ts1208",
+    "catchup-id": "93088981",
     "channelId": "ts1208",
     "channelName": "Rajya 24",
-    "start": "20260405193000 +0000",
-    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Sara Dinara Halchal",
-    "desc": "The host provides a detailed report on matters concerning the nation and the world.",
-    "channel": "ts1208",
-    "catchup-id": "93088981"
+    "desc": "The host provides a detailed report on matters concerning the nation and the world."
   }
 ]

@@ -1,14 +1,14 @@
 [
   {
+    "start": "19:03",
+    "stop": "20:26",
+    "channel": "ts1069",
+    "catchup-id": "93274643",
     "channelId": "ts1069",
     "channelName": "ts1069",
-    "start": "20260405190300 +0000",
-    "stop": "20260405202600 +0000",
     "startTs": 1775415780000,
     "stopTs": 1775420760000,
     "title": "Ghost Shark",
-    "desc": "A great white shark returns from the dead to seek vengeance on the town of Smallport.",
-    "channel": "ts1069",
-    "catchup-id": "93274643"
+    "desc": "A great white shark returns from the dead to seek vengeance on the town of Smallport."
   }
 ]

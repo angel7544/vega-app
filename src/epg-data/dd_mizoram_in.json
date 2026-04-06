@@ -1,14 +1,14 @@
 [
   {
+    "start": "18:30",
+    "stop": "21:30",
+    "channel": "ts1211",
+    "catchup-id": "93096671",
     "channelId": "ts1211",
     "channelName": "DD Mizoram",
-    "start": "20260405183000 +0000",
-    "stop": "20260405213000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775424600000,
     "title": "Special Programme",
-    "desc": "Bringing the best in television.",
-    "channel": "ts1211",
-    "catchup-id": "93096671"
+    "desc": "Bringing the best in television."
   }
 ]

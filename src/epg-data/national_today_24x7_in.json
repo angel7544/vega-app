@@ -1,26 +1,26 @@
 [
   {
+    "start": "00:30",
+    "stop": "01:30",
+    "channel": "ts1245",
+    "catchup-id": "93087179",
     "channelId": "ts1245",
     "channelName": "National Today 24x7",
-    "start": "20260406003000 +0000",
-    "stop": "20260406013000 +0000",
     "startTs": 1775435400000,
     "stopTs": 1775439000000,
     "title": "Vidhya Bhakti",
-    "desc": ".",
-    "channel": "ts1245",
-    "catchup-id": "93087179"
+    "desc": "."
   },
   {
+    "start": "12:30",
+    "stop": "14:30",
+    "channel": "ts1245",
+    "catchup-id": "93087177",
     "channelId": "ts1245",
     "channelName": "National Today 24x7",
-    "start": "20260406123000 +0000",
-    "stop": "20260406143000 +0000",
     "startTs": 1775478600000,
     "stopTs": 1775485800000,
     "title": "Politics Program",
-    "desc": ".",
-    "channel": "ts1245",
-    "catchup-id": "93087177"
+    "desc": "."
   }
 ]

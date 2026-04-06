@@ -1,62 +1,62 @@
 [
   {
+    "start": "18:50",
+    "stop": "19:00",
+    "channel": "ts955",
+    "catchup-id": "93168719",
     "channelId": "ts955",
     "channelName": "ts955",
-    "start": "20260405185000 +0000",
-    "stop": "20260405190000 +0000",
     "startTs": 1775415000000,
     "stopTs": 1775415600000,
     "title": "Tu Anolakhi Tari Sobati",
-    "desc": "A boy and a girl who love their families become friends, only to be separated by fate. S01 E89.",
-    "channel": "ts955",
-    "catchup-id": "93168719"
+    "desc": "A boy and a girl who love their families become friends, only to be separated by fate. S01 E89."
   },
   {
+    "start": "19:00",
+    "stop": "00:30",
+    "channel": "ts955",
+    "catchup-id": "93168701",
     "channelId": "ts955",
     "channelName": "ts955",
-    "start": "20260405190000 +0000",
-    "stop": "20260406003000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775435400000,
     "title": "To Be Announced",
-    "desc": "Bringing the best in television.",
-    "channel": "ts955",
-    "catchup-id": "93168701"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "00:30",
+    "stop": "01:00",
+    "channel": "ts955",
+    "catchup-id": "93110606",
     "channelId": "ts955",
     "channelName": "ts955",
-    "start": "20260406003000 +0000",
-    "stop": "20260406010000 +0000",
     "startTs": 1775435400000,
     "stopTs": 1775437200000,
     "title": "To Be Announced",
-    "desc": "Bringing the best in television.",
-    "channel": "ts955",
-    "catchup-id": "93110606"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "01:00",
+    "stop": "01:29",
+    "channel": "ts955",
+    "catchup-id": "93110605",
     "channelId": "ts955",
     "channelName": "ts955",
-    "start": "20260406010000 +0000",
-    "stop": "20260406012900 +0000",
     "startTs": 1775437200000,
     "stopTs": 1775438940000,
     "title": "To Be Announced",
-    "desc": "Bringing the best in television.",
-    "channel": "ts955",
-    "catchup-id": "93110605"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "03:23",
+    "stop": "03:55",
+    "channel": "ts955",
+    "catchup-id": "93110614",
     "channelId": "ts955",
     "channelName": "ts955",
-    "start": "20260406032300 +0000",
-    "stop": "20260406035500 +0000",
     "startTs": 1775445780000,
     "stopTs": 1775447700000,
     "title": "Sakha Majha Pandurang",
-    "desc": "Sakhu's divine connection with Lord Vitthal sparks jealousy which complicates her life. S01 E389.",
-    "channel": "ts955",
-    "catchup-id": "93110614"
+    "desc": "Sakhu's divine connection with Lord Vitthal sparks jealousy which complicates her life. S01 E389."
   }
 ]

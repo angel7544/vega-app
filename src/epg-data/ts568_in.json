@@ -1,38 +1,38 @@
 [
   {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "ts568",
+    "catchup-id": "93106018",
     "channelId": "ts568",
     "channelName": "ts568",
-    "start": "20260405183000 +0000",
-    "stop": "20260405190000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775415600000,
     "title": "Bhakti Mala",
-    "desc": "A religious leader elaborates on the teachings of the Almighty.",
-    "channel": "ts568",
-    "catchup-id": "93106018"
+    "desc": "A religious leader elaborates on the teachings of the Almighty."
   },
   {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "ts568",
+    "catchup-id": "93105993",
     "channelId": "ts568",
     "channelName": "ts568",
-    "start": "20260405190000 +0000",
-    "stop": "20260405193000 +0000",
     "startTs": 1775415600000,
     "stopTs": 1775417400000,
     "title": "Bharat Lilare Balmiki Ramayana",
-    "desc": ".",
-    "channel": "ts568",
-    "catchup-id": "93105993"
+    "desc": "."
   },
   {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "ts568",
+    "catchup-id": "93105987",
     "channelId": "ts568",
     "channelName": "ts568",
-    "start": "20260405193000 +0000",
-    "stop": "20260405200000 +0000",
     "startTs": 1775417400000,
     "stopTs": 1775419200000,
     "title": "Bharat Lilare Balmiki Ramayana",
-    "desc": ".",
-    "channel": "ts568",
-    "catchup-id": "93105987"
+    "desc": "."
   }
 ]

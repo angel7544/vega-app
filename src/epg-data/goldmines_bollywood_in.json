@@ -1,14 +1,14 @@
 [
   {
+    "start": "19:21",
+    "stop": "21:28",
+    "channel": "ts1050",
+    "catchup-id": "93274446",
     "channelId": "ts1050",
     "channelName": "Goldmines Bollywood",
-    "start": "20260405192100 +0000",
-    "stop": "20260405212800 +0000",
     "startTs": 1775416860000,
     "stopTs": 1775424480000,
     "title": "Angaara",
-    "desc": "A small-time thief meets a man who claims to know his estranged father's whereabouts.",
-    "channel": "ts1050",
-    "catchup-id": "93274446"
+    "desc": "A small-time thief meets a man who claims to know his estranged father's whereabouts."
   }
 ]

@@ -1,110 +1,110 @@
 [
   {
+    "start": "18:30",
+    "stop": "00:30",
+    "channel": "ts1007",
+    "catchup-id": "93060464",
     "channelId": "ts1007",
     "channelName": "Shri Ashtavinayak Mahaganpati, Ranjangaon",
-    "start": "20260404183000 +0000",
-    "stop": "20260405003000 +0000",
     "startTs": 1775327400000,
     "stopTs": 1775349000000,
     "title": "Temple Closed",
-    "desc": ".",
-    "channel": "ts1007",
-    "catchup-id": "93060464"
+    "desc": "."
   },
   {
+    "start": "00:30",
+    "stop": "01:30",
+    "channel": "ts1007",
+    "catchup-id": "93060463",
     "channelId": "ts1007",
     "channelName": "Shri Ashtavinayak Mahaganpati, Ranjangaon",
-    "start": "20260405003000 +0000",
-    "stop": "20260405013000 +0000",
     "startTs": 1775349000000,
     "stopTs": 1775352600000,
     "title": "Temple Open",
-    "desc": ".",
-    "channel": "ts1007",
-    "catchup-id": "93060463"
+    "desc": "."
   },
   {
+    "start": "01:30",
+    "stop": "01:45",
+    "channel": "ts1007",
+    "catchup-id": "93060462",
     "channelId": "ts1007",
     "channelName": "Shri Ashtavinayak Mahaganpati, Ranjangaon",
-    "start": "20260405013000 +0000",
-    "stop": "20260405014500 +0000",
     "startTs": 1775352600000,
     "stopTs": 1775353500000,
     "title": "Morning Aarti",
-    "desc": ".",
-    "channel": "ts1007",
-    "catchup-id": "93060462"
+    "desc": "."
   },
   {
+    "start": "01:45",
+    "stop": "06:30",
+    "channel": "ts1007",
+    "catchup-id": "93060469",
     "channelId": "ts1007",
     "channelName": "Shri Ashtavinayak Mahaganpati, Ranjangaon",
-    "start": "20260405014500 +0000",
-    "stop": "20260405063000 +0000",
     "startTs": 1775353500000,
     "stopTs": 1775370600000,
     "title": "Ashtavinayak Darshan",
-    "desc": "Hindu devotees visit the eight holy temples of Lord Ganesha to seek his blessings.",
-    "channel": "ts1007",
-    "catchup-id": "93060469"
+    "desc": "Hindu devotees visit the eight holy temples of Lord Ganesha to seek his blessings."
   },
   {
+    "start": "06:30",
+    "stop": "06:45",
+    "channel": "ts1007",
+    "catchup-id": "93060467",
     "channelId": "ts1007",
     "channelName": "Shri Ashtavinayak Mahaganpati, Ranjangaon",
-    "start": "20260405063000 +0000",
-    "stop": "20260405064500 +0000",
     "startTs": 1775370600000,
     "stopTs": 1775371500000,
     "title": "Afternoon Aarti",
-    "desc": ".",
-    "channel": "ts1007",
-    "catchup-id": "93060467"
+    "desc": "."
   },
   {
+    "start": "06:45",
+    "stop": "13:30",
+    "channel": "ts1007",
+    "catchup-id": "93060468",
     "channelId": "ts1007",
     "channelName": "Shri Ashtavinayak Mahaganpati, Ranjangaon",
-    "start": "20260405064500 +0000",
-    "stop": "20260405133000 +0000",
     "startTs": 1775371500000,
     "stopTs": 1775395800000,
     "title": "Ashtavinayak Darshan",
-    "desc": "Hindu devotees visit the eight holy temples of Lord Ganesha to seek his blessings.",
-    "channel": "ts1007",
-    "catchup-id": "93060468"
+    "desc": "Hindu devotees visit the eight holy temples of Lord Ganesha to seek his blessings."
   },
   {
+    "start": "13:30",
+    "stop": "14:15",
+    "channel": "ts1007",
+    "catchup-id": "93060465",
     "channelId": "ts1007",
     "channelName": "Shri Ashtavinayak Mahaganpati, Ranjangaon",
-    "start": "20260405133000 +0000",
-    "stop": "20260405141500 +0000",
     "startTs": 1775395800000,
     "stopTs": 1775398500000,
     "title": "Evening Aarti",
-    "desc": ".",
-    "channel": "ts1007",
-    "catchup-id": "93060465"
+    "desc": "."
   },
   {
+    "start": "14:15",
+    "stop": "17:15",
+    "channel": "ts1007",
+    "catchup-id": "93060470",
     "channelId": "ts1007",
     "channelName": "Shri Ashtavinayak Mahaganpati, Ranjangaon",
-    "start": "20260405141500 +0000",
-    "stop": "20260405171500 +0000",
     "startTs": 1775398500000,
     "stopTs": 1775409300000,
     "title": "Ashtavinayak Darshan",
-    "desc": "Hindu devotees visit the eight holy temples of Lord Ganesha to seek his blessings.",
-    "channel": "ts1007",
-    "catchup-id": "93060470"
+    "desc": "Hindu devotees visit the eight holy temples of Lord Ganesha to seek his blessings."
   },
   {
+    "start": "17:15",
+    "stop": "18:30",
+    "channel": "ts1007",
+    "catchup-id": "93060466",
     "channelId": "ts1007",
     "channelName": "Shri Ashtavinayak Mahaganpati, Ranjangaon",
-    "start": "20260405171500 +0000",
-    "stop": "20260405183000 +0000",
     "startTs": 1775409300000,
     "stopTs": 1775413800000,
     "title": "Temple Closed",
-    "desc": ".",
-    "channel": "ts1007",
-    "catchup-id": "93060466"
+    "desc": "."
   }
 ]

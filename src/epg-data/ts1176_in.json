@@ -1,122 +1,122 @@
 [
   {
+    "start": "18:30",
+    "stop": "21:00",
+    "channel": "ts1176",
+    "catchup-id": "93149910",
     "channelId": "ts1176",
     "channelName": "ts1176",
-    "start": "20260406183000 +0000",
-    "stop": "20260406210000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775509200000,
     "title": "Anjani Putra",
-    "desc": "A businessman incurs the wrath of a cruel local gangster by saving a policeman.",
-    "channel": "ts1176",
-    "catchup-id": "93149910"
+    "desc": "A businessman incurs the wrath of a cruel local gangster by saving a policeman."
   },
   {
+    "start": "21:00",
+    "stop": "22:00",
+    "channel": "ts1176",
+    "catchup-id": "93149909",
     "channelId": "ts1176",
     "channelName": "ts1176",
-    "start": "20260406210000 +0000",
-    "stop": "20260406220000 +0000",
     "startTs": 1775509200000,
     "stopTs": 1775512800000,
     "title": "Super Hit Songs",
-    "desc": "A compilation of the greatest super hit songs is played in order to enthrall the audience. S01 E18.",
-    "channel": "ts1176",
-    "catchup-id": "93149909"
+    "desc": "A compilation of the greatest super hit songs is played in order to enthrall the audience. S01 E18."
   },
   {
+    "start": "22:00",
+    "stop": "01:00",
+    "channel": "ts1176",
+    "catchup-id": "93149906",
     "channelId": "ts1176",
     "channelName": "ts1176",
-    "start": "20260406220000 +0000",
-    "stop": "20260407010000 +0000",
     "startTs": 1775512800000,
     "stopTs": 1775523600000,
     "title": "Maanagaram",
-    "desc": "When a gangster threatens to ruin four lives, they group together to defeat him.",
-    "channel": "ts1176",
-    "catchup-id": "93149906"
+    "desc": "When a gangster threatens to ruin four lives, they group together to defeat him."
   },
   {
+    "start": "01:00",
+    "stop": "01:30",
+    "channel": "ts1176",
+    "catchup-id": "93149904",
     "channelId": "ts1176",
     "channelName": "ts1176",
-    "start": "20260407010000 +0000",
-    "stop": "20260407013000 +0000",
     "startTs": 1775523600000,
     "stopTs": 1775525400000,
     "title": "Super Hit Songs",
-    "desc": "A compilation of the greatest super hit songs is played in order to enthrall the audience. S01 E16.",
-    "channel": "ts1176",
-    "catchup-id": "93149904"
+    "desc": "A compilation of the greatest super hit songs is played in order to enthrall the audience. S01 E16."
   },
   {
+    "start": "01:30",
+    "stop": "04:30",
+    "channel": "ts1176",
+    "catchup-id": "93149902",
     "channelId": "ts1176",
     "channelName": "ts1176",
-    "start": "20260407013000 +0000",
-    "stop": "20260407043000 +0000",
     "startTs": 1775525400000,
     "stopTs": 1775536200000,
     "title": "Nenjamundu Nermaiyundu Odu Raja",
-    "desc": "YouTubers Shiva and Vicky decide to work for Jeepakaran when he offers them money.",
-    "channel": "ts1176",
-    "catchup-id": "93149902"
+    "desc": "YouTubers Shiva and Vicky decide to work for Jeepakaran when he offers them money."
   },
   {
+    "start": "04:30",
+    "stop": "07:30",
+    "channel": "ts1176",
+    "catchup-id": "93149905",
     "channelId": "ts1176",
     "channelName": "ts1176",
-    "start": "20260407043000 +0000",
-    "stop": "20260407073000 +0000",
     "startTs": 1775536200000,
     "stopTs": 1775547000000,
     "title": "Ruler",
-    "desc": "A businesswoman adopts a young man who tries to save her and discovers his dark past.",
-    "channel": "ts1176",
-    "catchup-id": "93149905"
+    "desc": "A businesswoman adopts a young man who tries to save her and discovers his dark past."
   },
   {
+    "start": "07:30",
+    "stop": "10:00",
+    "channel": "ts1176",
+    "catchup-id": "93149907",
     "channelId": "ts1176",
     "channelName": "ts1176",
-    "start": "20260407073000 +0000",
-    "stop": "20260407100000 +0000",
     "startTs": 1775547000000,
     "stopTs": 1775556000000,
     "title": "Vacha Kuri Thappaathu",
-    "desc": "A businessman falls in love with an environmentalist, who files a suit against his firm.",
-    "channel": "ts1176",
-    "catchup-id": "93149907"
+    "desc": "A businessman falls in love with an environmentalist, who files a suit against his firm."
   },
   {
+    "start": "10:00",
+    "stop": "12:30",
+    "channel": "ts1176",
+    "catchup-id": "93149911",
     "channelId": "ts1176",
     "channelName": "ts1176",
-    "start": "20260407100000 +0000",
-    "stop": "20260407123000 +0000",
     "startTs": 1775556000000,
     "stopTs": 1775565000000,
     "title": "Velainu Vandhutta Vellaikaaran",
-    "desc": "An MLA who knows the whereabouts of billions in cash loses his memory in an accident.",
-    "channel": "ts1176",
-    "catchup-id": "93149911"
+    "desc": "An MLA who knows the whereabouts of billions in cash loses his memory in an accident."
   },
   {
+    "start": "12:30",
+    "stop": "15:30",
+    "channel": "ts1176",
+    "catchup-id": "93149908",
     "channelId": "ts1176",
     "channelName": "ts1176",
-    "start": "20260407123000 +0000",
-    "stop": "20260407153000 +0000",
     "startTs": 1775565000000,
     "stopTs": 1775575800000,
     "title": "Daruvu",
-    "desc": "Bullet Raja is sent back to earth by the god of death to exact revenge on his enemy.",
-    "channel": "ts1176",
-    "catchup-id": "93149908"
+    "desc": "Bullet Raja is sent back to earth by the god of death to exact revenge on his enemy."
   },
   {
+    "start": "15:30",
+    "stop": "18:30",
+    "channel": "ts1176",
+    "catchup-id": "93149903",
     "channelId": "ts1176",
     "channelName": "ts1176",
-    "start": "20260407153000 +0000",
-    "stop": "20260407183000 +0000",
     "startTs": 1775575800000,
     "stopTs": 1775586600000,
     "title": "Villain 2",
-    "desc": "Ramu sets out to find his estranged brother, Rama, to reunite him with their mother.",
-    "channel": "ts1176",
-    "catchup-id": "93149903"
+    "desc": "Ramu sets out to find his estranged brother, Rama, to reunite him with their mother."
   }
 ]

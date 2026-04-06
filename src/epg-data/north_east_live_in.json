@@ -1,14 +1,14 @@
 [
   {
+    "start": "18:30",
+    "stop": "01:30",
+    "channel": "ts417",
+    "catchup-id": "93105352",
     "channelId": "ts417",
     "channelName": "North East Live",
-    "start": "20260405183000 +0000",
-    "stop": "20260406013000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775439000000,
     "title": "Special Programs",
-    "desc": "Bringing the best in television.",
-    "channel": "ts417",
-    "catchup-id": "93105352"
+    "desc": "Bringing the best in television."
   }
 ]

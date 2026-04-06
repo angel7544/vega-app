@@ -1,122 +1,122 @@
 [
   {
+    "start": "20:17",
+    "stop": "22:43",
+    "channel": "ts163",
+    "catchup-id": "93242978",
     "channelId": "ts163",
     "channelName": "ts163",
-    "start": "20260405201700 +0000",
-    "stop": "20260405224300 +0000",
     "startTs": 1775420220000,
     "stopTs": 1775428980000,
     "title": "Sarfira",
-    "desc": "A man sets out, against all odds, to fulfil his dream of starting a low-cost airline.",
-    "channel": "ts163",
-    "catchup-id": "93242978"
+    "desc": "A man sets out, against all odds, to fulfil his dream of starting a low-cost airline."
   },
   {
+    "start": "15:30",
+    "stop": "18:14",
+    "channel": "ts163",
+    "catchup-id": "93109175",
     "channelId": "ts163",
     "channelName": "ts163",
-    "start": "20260406153000 +0000",
-    "stop": "20260406181400 +0000",
     "startTs": 1775489400000,
     "stopTs": 1775499240000,
     "title": "Crakk: Jeetega... Toh Jiyegaa",
-    "desc": "A man from the slums partakes in an extreme sports contest to fulfill his brother's dream.",
-    "channel": "ts163",
-    "catchup-id": "93109175"
+    "desc": "A man from the slums partakes in an extreme sports contest to fulfill his brother's dream."
   },
   {
+    "start": "18:30",
+    "stop": "21:30",
+    "channel": "ts163",
+    "catchup-id": "93145689",
     "channelId": "ts163",
     "channelName": "ts163",
-    "start": "20260406183000 +0000",
-    "stop": "20260406213000 +0000",
     "startTs": 1775500200000,
     "stopTs": 1775511000000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "ts163",
-    "catchup-id": "93145689"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "21:30",
+    "stop": "00:30",
+    "channel": "ts163",
+    "catchup-id": "93145692",
     "channelId": "ts163",
     "channelName": "ts163",
-    "start": "20260406213000 +0000",
-    "stop": "20260407003000 +0000",
     "startTs": 1775511000000,
     "stopTs": 1775521800000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "ts163",
-    "catchup-id": "93145692"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "00:30",
+    "stop": "03:30",
+    "channel": "ts163",
+    "catchup-id": "93145694",
     "channelId": "ts163",
     "channelName": "ts163",
-    "start": "20260407003000 +0000",
-    "stop": "20260407033000 +0000",
     "startTs": 1775521800000,
     "stopTs": 1775532600000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "ts163",
-    "catchup-id": "93145694"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "03:30",
+    "stop": "06:30",
+    "channel": "ts163",
+    "catchup-id": "93145690",
     "channelId": "ts163",
     "channelName": "ts163",
-    "start": "20260407033000 +0000",
-    "stop": "20260407063000 +0000",
     "startTs": 1775532600000,
     "stopTs": 1775543400000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "ts163",
-    "catchup-id": "93145690"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "06:30",
+    "stop": "09:30",
+    "channel": "ts163",
+    "catchup-id": "93145695",
     "channelId": "ts163",
     "channelName": "ts163",
-    "start": "20260407063000 +0000",
-    "stop": "20260407093000 +0000",
     "startTs": 1775543400000,
     "stopTs": 1775554200000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "ts163",
-    "catchup-id": "93145695"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "09:30",
+    "stop": "12:30",
+    "channel": "ts163",
+    "catchup-id": "93145696",
     "channelId": "ts163",
     "channelName": "ts163",
-    "start": "20260407093000 +0000",
-    "stop": "20260407123000 +0000",
     "startTs": 1775554200000,
     "stopTs": 1775565000000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "ts163",
-    "catchup-id": "93145696"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "12:30",
+    "stop": "15:30",
+    "channel": "ts163",
+    "catchup-id": "93145691",
     "channelId": "ts163",
     "channelName": "ts163",
-    "start": "20260407123000 +0000",
-    "stop": "20260407153000 +0000",
     "startTs": 1775565000000,
     "stopTs": 1775575800000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "ts163",
-    "catchup-id": "93145691"
+    "desc": "Bringing the best in television."
   },
   {
+    "start": "15:30",
+    "stop": "18:30",
+    "channel": "ts163",
+    "catchup-id": "93145693",
     "channelId": "ts163",
     "channelName": "ts163",
-    "start": "20260407153000 +0000",
-    "stop": "20260407183000 +0000",
     "startTs": 1775575800000,
     "stopTs": 1775586600000,
     "title": "Movie",
-    "desc": "Bringing the best in television.",
-    "channel": "ts163",
-    "catchup-id": "93145693"
+    "desc": "Bringing the best in television."
   }
 ]

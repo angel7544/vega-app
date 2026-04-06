@@ -1,14 +1,14 @@
 [
   {
+    "start": "18:30",
+    "stop": "21:20",
+    "channel": "ts657",
+    "catchup-id": "93111968",
     "channelId": "ts657",
     "channelName": "ts657",
-    "start": "20260405183000 +0000",
-    "stop": "20260405212000 +0000",
     "startTs": 1775413800000,
     "stopTs": 1775424000000,
     "title": "Dookudu",
-    "desc": "A policeman sets out to hunt down the men who tried to kill his father.",
-    "channel": "ts657",
-    "catchup-id": "93111968"
+    "desc": "A policeman sets out to hunt down the men who tried to kill his father."
   }
 ]
