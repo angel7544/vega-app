@@ -12,14 +12,13 @@ function cleanName(name) {
   if (!name) return '';
   return name
     .toLowerCase()
-    .replace(/&/g, 'and') // Map & to 'and' as seen in andtv_in.json
-    .replace(/\s+(hd|sd|uhd|4k|1080p|720p|576p|fhd)\b/gi, '') // Strip tech suffixes (e.g., "Colors HD" -> "colors")
-    .replace(/\((hd|sd|uhd|4k|1080p|720p|576p|fhd)\)/gi, '') // Strip bracketed tech suffixes (e.g., "(HD)")
-    .split('(')[0] // Remove anything after brackets
-    .replace(/^(in|us|uk|ca|au|fr|de|it|es|br|mx|ru|jp|cn|kr|ae|sa|za|tr|pk|bd|id|vn|th|my|ph|ng|eg|mx|ar|cl|co|pe|ve|eg|pl|nl|be|se|no|dk|fi|gr|pt|ro|ua|bg|hu|cz|sk|rs|hr|si|ee|lv|lt|is|ie|lu|mc|ad|li|mt|cy|il|jo|qa|kw|om|bh|af|lk|np|mm|kh|la|mn|kp|tw|hk|mo|sg|nz|fj|pg|vu|sb|tl|pw|fm|mh|ki|nr|ws|to|as|gu|mp|um|as|vi|pr|io|sh|fk|gs|gi|tc|ky|bm|ms|vg|ai|ax|aw|cw|sx|bq|pm|yt|wf|tf|bv|hm|tf|aq|tk|nu|nf|pn|ck|wf|tf|bv|hm|tf|aq|tk|nu|nf|pn|ck|wf|tf|bv|hm|tf|aq|tk|nu|nf|pn|ck)\s*-\s*/gi, '') // Remove country prefixes
-    .replace(/\b(hindi|english|telugu|tamil|kannada|malayalam|marathi|bengali|gujarati|punjabi|odia|bhojpuri|assamese|urdu)\b/gi, '') // Strip language tags
-    .replace(/[^a-z0-9+]/g, ' ') // Keep numbers and '+'
-    .replace(/\s+/g, ' ') // Collapse spaces
+    .replace(/&/g, 'and')
+    .replace(/\s+(hd|sd|uhd|4k|1080p|720p|576p|fhd)\b/gi, '')
+    .replace(/\((hd|sd|uhd|4k|1080p|720p|576p|fhd)\)/gi, '')
+    .split('(')[0]
+    .replace(/\b(hindi|english|telugu|tamil|kannada|malayalam|marathi|bengali|gujarati|punjabi|odia|bhojpuri|assamese|urdu)\b/gi, '')
+    .replace(/[^a-z0-9+]/g, ' ')
+    .replace(/\s+/g, ' ')
     .trim();
 }
 
@@ -34,30 +33,32 @@ export async function fetchChannelSchedule(channel, countryCode = 'in') {
     const clean = cleanName(channel.name);
     console.log(`[EPG] Clean Name: "${clean}" (Orig: "${channel.name}")`);
     
-    // Generate possible ID matches for the JSON filename
     const targetRId = (channel.iptvOrgId || '').toLowerCase().replace(/[^a-z0-9_-]/gi, '_');
     const targetTId = (channel.tvgId || '').toLowerCase().replace(/[^a-z0-9_-]/gi, '_');
     const targetNId = clean.replace(/[^a-z0-9_-]/gi, '_');
-    
-    const suffixedNId = targetNId.endsWith(`_${countrySuffix}`) ? targetNId : `${targetNId}_${countrySuffix}`;
-    const suffixedRId = targetRId && !targetRId.endsWith(`_${countrySuffix}`) ? `${targetRId}_${countrySuffix}` : targetRId;
 
-    const possibleNames = [
+    const baseCandidates = [
         targetRId, 
         targetTId, 
-        targetNId, 
-        suffixedNId, 
-        suffixedRId,
-        targetNId.replace(/_/g, ''), // Fallback: zeecinema
-        targetNId.replace(/_/g, '') + `_${countrySuffix}`, // Fallback: zeecinema_in
-        clean.replace(/\s+/g, ''), // fallback: zeecinema
-        clean.replace(/\s+/g, '') + `_${countrySuffix}`, // fallback: zeecinema_in
-        clean.replace(/\s+/g, '_'), // fallback: zee_cinema
-        clean.replace(/\s+/g, '_') + `_${countrySuffix}` // fallback: zee_cinema_in
+        targetNId,
+        targetNId.replace(/_/g, ''), // zeecinema
+        clean.replace(/\s+/g, ''), // zeecinema
+        clean.replace(/\s+/g, '_'), // zee_cinema
+        targetNId.replace(/[0-9]/g, '').replace(/__+/g, '_') // Strip numbers: zee_cinema
     ].filter(Boolean);
-    
-    // Only unique names
-    const uniqueNames = [...new Set(possibleNames)];
+
+    const candidatesWithSuffix = [];
+    baseCandidates.forEach(b => {
+        candidatesWithSuffix.push(b);
+        if (!b.endsWith(`_${countrySuffix}`)) {
+            candidatesWithSuffix.push(`${b}_${countrySuffix}`);
+        }
+        if (!b.endsWith(`${countrySuffix}`)) {
+            candidatesWithSuffix.push(`${b}${countrySuffix}`);
+        }
+    });
+
+    const uniqueNames = [...new Set(candidatesWithSuffix)];
 
     for (const pName of uniqueNames) {
         const jsonUrl = `https://raw.githubusercontent.com/angel7544/vega-app/orbix-personal/src/epg-data/${pName}.json`;
@@ -96,7 +97,11 @@ export async function fetchChannelSchedule(channel, countryCode = 'in') {
             if (data === '404' || typeof data === 'string') continue;
 
             if (Array.isArray(data) && data.length > 0) {
-                return filterAndSlicePrograms(data);
+                const filtered = filterAndSlicePrograms(data);
+                if (filtered.length > 0) {
+                    return filtered;
+                }
+                console.log(`[EPG] ⚠️ Data found for ${pName} but all programs are outdated. Trying next...`);
             }
         } catch (e) {
             // Log for debugging but continue to next possible name

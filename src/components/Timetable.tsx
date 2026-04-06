@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useCallback } from 'react';
 import { View, Text, FlatList, Image, StyleSheet } from 'react-native';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import useThemeStore from '../lib/zustand/themeStore';
@@ -42,7 +42,7 @@ const Timetable: React.FC<TimetableProps> = ({ programs = [], now, onSetLivePosi
     return programs.filter(p => !p.stopTs || p.stopTs > now);
   }, [programs, now]);
 
-  const renderItem = (item: Program, index: number) => {
+  const renderItem = useCallback(({ item, index }: { item: Program, index: number }) => {
     const startTs = item.startTs ?? 0;
     const stopTs = item.stopTs ?? 0;
 
@@ -58,7 +58,6 @@ const Timetable: React.FC<TimetableProps> = ({ programs = [], now, onSetLivePosi
 
     return (
       <View
-        key={index}
         onLayout={isLive && !hasReportedLivePos.current ? (e) => {
           hasReportedLivePos.current = true;
           if (onSetLivePosition) onSetLivePosition(e.nativeEvent.layout.y);
@@ -163,7 +162,7 @@ const Timetable: React.FC<TimetableProps> = ({ programs = [], now, onSetLivePosi
         </View>
       </View>
     );
-  };
+  }, [now, isDark, primary, onSetLivePosition]);
 
   if (filteredPrograms.length === 0) {
     return (
@@ -184,7 +183,14 @@ const Timetable: React.FC<TimetableProps> = ({ programs = [], now, onSetLivePosi
         { backgroundColor: isDark ? '#0d0d0d' : '#f4f4f4' },
       ]}
     >
-      {filteredPrograms.map((item, index) => renderItem(item, index))}
+      <FlatList
+        data={filteredPrograms}
+        renderItem={renderItem}
+        keyExtractor={(item, index) => `${item.startTs}-${index}`}
+        initialNumToRender={10}
+        windowSize={3}
+        showsVerticalScrollIndicator={false}
+      />
     </View>
   );
 };

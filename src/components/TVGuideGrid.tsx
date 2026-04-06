@@ -1,7 +1,8 @@
 import React, { useMemo, useState, useEffect, memo, useCallback, useRef } from 'react';
-import { View, Text, Image, TouchableOpacity, Dimensions, FlatList, useWindowDimensions } from 'react-native';
+import { View, Text, Image, TouchableOpacity, Dimensions, FlatList, useWindowDimensions, Platform } from 'react-native';
 import Animated, { useSharedValue, useAnimatedScrollHandler, useAnimatedStyle, runOnJS } from 'react-native-reanimated';
 import { LinearGradient } from 'react-native-linear-gradient';
+import { useNow } from '../lib/hooks/useNow';
 
 const PIXELS_PER_MINUTE = 4;
 const ROW_HEIGHT = 70;
@@ -9,7 +10,7 @@ const LOGO_WIDTH = 80;
 const TIMELINE_MINUTES = 24 * 60; // 24 hours
 const TOTAL_WIDTH = TIMELINE_MINUTES * PIXELS_PER_MINUTE;
 
-const GuideRow = memo(({ item, programs, isDark, primary, onPlay, scrollX, startOfDay, windowWidth }: any) => {
+const GuideRow = memo(({ item, programs, isDark, primary, onPlay, scrollX, startOfDay }: any) => {
   const animatedStickyStyle = useAnimatedStyle(() => ({
     transform: [{ translateX: scrollX.value }],
     zIndex: 10,
@@ -18,9 +19,16 @@ const GuideRow = memo(({ item, programs, isDark, primary, onPlay, scrollX, start
   // Render only programs within visible range + buffer
   const visiblePrograms = useMemo(() => {
     if (!Array.isArray(programs)) return [];
-    // Only fetch enough for Now, Next, and third (to reduce memory)
-    return programs.slice(0, 3);
-  }, [programs]);
+    // Filter programs to only those relevant to the current 24h view to save memory
+    const startOfDayVal = Number(startOfDay);
+    const endOfDayVal = startOfDayVal + 24 * 60 * 60000;
+    
+    return programs.filter(p => {
+      const stopTs = Number(p.stopTs);
+      const startTs = Number(p.startTs);
+      return stopTs > startOfDayVal && startTs < endOfDayVal;
+    }).slice(0, 50); 
+  }, [programs, startOfDay]);
 
   return (
     <View style={{ flexDirection: 'row', height: ROW_HEIGHT, borderBottomWidth: 1, borderBottomColor: isDark ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)' }}>
@@ -36,65 +44,59 @@ const GuideRow = memo(({ item, programs, isDark, primary, onPlay, scrollX, start
       </Animated.View>
 
       <View style={{ width: TOTAL_WIDTH, height: ROW_HEIGHT, backgroundColor: isDark ? '#0a0a0a' : '#f5f5f5', position: 'relative' }}>
-         {(visiblePrograms || []).map((prog: any, idx: number) => {
-            try {
-                const now = Date.now();
-                const startTs = Number(prog.startTs) || 0;
-                const stopTs = Number(prog.stopTs) || 0;
-                const startOfDayVal = Number(startOfDay) || 0;
+         {visiblePrograms.map((prog: any, idx: number) => {
+            const startTs = Number(prog.startTs) || 0;
+            const stopTs = Number(prog.stopTs) || 0;
+            const startOfDayVal = Number(startOfDay) || 0;
 
-                const startOff = (startTs - startOfDayVal) / 60000;
-                const stopOff = (stopTs - startOfDayVal) / 60000;
-                
-                // Safety check for NaN or infinite offsets
-                if (!isFinite(startOff) || !isFinite(stopOff)) return null;
-                if (stopOff <= 0 || startOff >= TIMELINE_MINUTES) return null;
-                
-                const pLeft = Math.max(0, startOff) * PIXELS_PER_MINUTE;
-                const pRight = Math.min(TIMELINE_MINUTES, stopOff) * PIXELS_PER_MINUTE;
-                const pWidth = pRight - pLeft;
+            const startOff = (startTs - startOfDayVal) / 60000;
+            const stopOff = (stopTs - startOfDayVal) / 60000;
+            
+            if (stopOff <= 0 || startOff >= TIMELINE_MINUTES) return null;
+            
+            const pLeft = Math.max(0, startOff) * PIXELS_PER_MINUTE;
+            const pRight = Math.min(TIMELINE_MINUTES, stopOff) * PIXELS_PER_MINUTE;
+            const pWidth = pRight - pLeft;
 
-                if (pWidth <= 0 || !isFinite(pWidth)) return null;
+            if (pWidth <= 0 || !isFinite(pWidth)) return null;
 
-                const isLive = startTs <= now && stopTs >= now;
+            const now = Date.now();
+            const isLive = startTs <= now && stopTs >= now;
 
-                return (
-                   <TouchableOpacity 
-                     key={`${prog.title}-${idx}`}
-                     onPress={() => onPlay(item)}
-                     activeOpacity={0.8}
-                     style={{ 
-                       position: 'absolute', 
-                       left: pLeft + 1, 
-                       width: pWidth - 2, 
-                       height: ROW_HEIGHT - 6,
-                       top: 3,
-                       backgroundColor: isLive ? (isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.08)') : (isDark ? '#1a1a1a' : '#e5e5e5'),
-                       borderRadius: 6,
-                       justifyContent: 'center',
-                       paddingHorizontal: 8,
-                       borderWidth: isLive ? 1 : 0,
-                       borderColor: isLive ? primary : 'transparent'
-                     }}
-                   >
-                      <Text numberOfLines={1} style={{ fontSize: 11, fontWeight: isLive ? 'bold' : '600', color: isDark ? '#fff' : '#000' }}>
-                        {prog.title}
-                      </Text>
-                      {isLive && (
-                        <View style={{ marginTop: 4, height: 2, backgroundColor: 'rgba(255,255,255,0.2)', width: '100%', borderRadius: 2 }}>
-                           <View style={{ 
-                             width: `${Math.max(0, Math.min(100, (stopTs - startTs) > 0 ? ((now - startTs) / (stopTs - startTs)) * 100 : 0))}%`, 
-                             height: '100%', 
-                             backgroundColor: primary, 
-                             borderRadius: 2 
-                           }} />
-                        </View>
-                      )}
-                   </TouchableOpacity>
-                );
-            } catch (e) {
-                return null;
-            }
+            return (
+               <TouchableOpacity 
+                 key={`${prog.title}-${idx}`}
+                 onPress={() => onPlay(item)}
+                 activeOpacity={0.8}
+                 style={{ 
+                   position: 'absolute', 
+                   left: pLeft + 1, 
+                   width: pWidth - 2, 
+                   height: ROW_HEIGHT - 6,
+                   top: 3,
+                   backgroundColor: isLive ? (isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.08)') : (isDark ? '#1a1a1a' : '#e5e5e5'),
+                   borderRadius: 6,
+                   justifyContent: 'center',
+                   paddingHorizontal: 8,
+                   borderWidth: isLive ? 1 : 0,
+                   borderColor: isLive ? primary : 'transparent'
+                 }}
+               >
+                  <Text numberOfLines={1} style={{ fontSize: 11, fontWeight: isLive ? 'bold' : '600', color: isDark ? '#fff' : '#000' }}>
+                    {prog.title}
+                  </Text>
+                  {isLive && (
+                    <View style={{ marginTop: 4, height: 2, backgroundColor: 'rgba(255,255,255,0.2)', width: '100%', borderRadius: 2 }}>
+                       <View style={{ 
+                         width: `${Math.max(0, Math.min(100, (stopTs - startTs) > 0 ? ((now - startTs) / (stopTs - startTs)) * 100 : 0))}%`, 
+                         height: '100%', 
+                         backgroundColor: primary, 
+                         borderRadius: 2 
+                       }} />
+                    </View>
+                  )}
+               </TouchableOpacity>
+            );
          })}
       </View>
     </View>
@@ -104,24 +106,15 @@ const GuideRow = memo(({ item, programs, isDark, primary, onPlay, scrollX, start
 export const TVGuideGrid = ({ channels, epgData, isDark, primary, onPlay, onVisibleChannelsChanged }: any) => {
   const { width: windowWidth } = useWindowDimensions();
   const scrollX = useSharedValue(0);
-  const [now, setNow] = useState(Date.now());
-  const [currentTimeMs, setCurrentTimeMs] = useState(0);
+  const now = useNow();
 
   const startOfDay = useMemo(() => {
-    const d = new Date();
+    const d = new Date(now);
     d.setHours(0, 0, 0, 0);
     return d.getTime();
   }, [now]);
 
-  useEffect(() => {
-    const timer = setInterval(() => {
-      const ms = Date.now();
-      setNow(ms);
-      setCurrentTimeMs(ms - startOfDay);
-    }, 60000);
-    setCurrentTimeMs(Date.now() - startOfDay);
-    return () => clearInterval(timer);
-  }, [startOfDay]);
+  const currentTimeMs = now - startOfDay;
 
   const onScroll = useAnimatedScrollHandler({
     onScroll: (event) => {
@@ -154,10 +147,9 @@ export const TVGuideGrid = ({ channels, epgData, isDark, primary, onPlay, onVisi
       onPlay={onPlay} 
       scrollX={scrollX}
       startOfDay={startOfDay}
-      windowWidth={windowWidth}
     />
-  ), [epgData, isDark, primary, onPlay, startOfDay, windowWidth]);
-  
+  ), [epgData, isDark, primary, onPlay, startOfDay]);
+
   const onViewableItemsChanged = useRef(({ viewableItems }: any) => {
     if (onVisibleChannelsChanged && viewableItems.length > 0) {
       const visibleIndices = viewableItems.map((v: any) => v.item);
@@ -166,8 +158,8 @@ export const TVGuideGrid = ({ channels, epgData, isDark, primary, onPlay, onVisi
   }).current;
 
   const viewabilityConfig = useRef({
-    itemVisiblePercentThreshold: 10,
-    minimumViewTime: 300,
+    itemVisiblePercentThreshold: 1,
+    minimumViewTime: 200,
   }).current;
 
   return (
@@ -179,7 +171,7 @@ export const TVGuideGrid = ({ channels, epgData, isDark, primary, onPlay, onVisi
         scrollEventThrottle={16}
         contentOffset={{ x: Math.max(0, nowPosition - (windowWidth / 2) + LOGO_WIDTH), y: 0 }}
       >
-         <View style={{ width: TOTAL_WIDTH + LOGO_WIDTH }}>
+         <View style={{ width: TOTAL_WIDTH + LOGO_WIDTH, flex: 1 }}>
             {/* Header Timeline */}
             <View style={{ height: 40, flexDirection: 'row', backgroundColor: isDark ? '#000' : '#fff', borderBottomWidth: 1, borderColor: isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)' }}>
                <Animated.View style={[{ width: LOGO_WIDTH, height: 40, backgroundColor: isDark ? '#000' : '#fff', zIndex: 11 }, animatedHeaderStickyStyle]} />
@@ -192,30 +184,38 @@ export const TVGuideGrid = ({ channels, epgData, isDark, primary, onPlay, onVisi
                </View>
             </View>
 
-            {/* Grid Container */}
-            <View style={{ height: (channels.length || 0) * ROW_HEIGHT + 100 }}>
-               <FlatList
-                 data={channels}
-                 renderItem={renderItem}
-                 keyExtractor={(item, index) => `${item.url}-${index}`}
-                 showsVerticalScrollIndicator={false}
-                 scrollEnabled={false} // Disable vertical scroll inside horizontal scroll
-                 windowSize={3}
-                 maxToRenderPerBatch={5}
-                 initialNumToRender={12}
-                 onViewableItemsChanged={onViewableItemsChanged}
-                 viewabilityConfig={viewabilityConfig}
-               />
-               
-               {/* Global NOW Line Indicator */}
-               {nowPosition > 0 && nowPosition < TOTAL_WIDTH && (
-                  <View style={{ position: 'absolute', left: nowPosition + LOGO_WIDTH, top: -40, bottom: 0, width: 2, backgroundColor: 'red', zIndex: 5 }}>
-                    <View style={{ position: 'absolute', top: 5, left: -14, backgroundColor: 'red', borderRadius: 10, paddingHorizontal: 6, paddingVertical: 2 }}>
-                       <Text style={{ color: 'white', fontSize: 9, fontWeight: '900' }}>NOW</Text>
-                    </View>
-                  </View>
-               )}
-            </View>
+            {/* Grid Container - Virtualized Vertical List */}
+            <FlatList
+              data={channels}
+              renderItem={renderItem}
+              keyExtractor={(item, index) => `${item.url}-${index}`}
+              showsVerticalScrollIndicator={false}
+              windowSize={5}
+              maxToRenderPerBatch={5}
+              initialNumToRender={10}
+              onViewableItemsChanged={onViewableItemsChanged}
+              viewabilityConfig={viewabilityConfig}
+              removeClippedSubviews={Platform.OS === 'android'}
+              style={{ flex: 1 }}
+              contentContainerStyle={{ paddingBottom: 100 }}
+            />
+            
+            {/* Global NOW Line Indicator */}
+            {nowPosition > 0 && nowPosition < TOTAL_WIDTH && (
+               <Animated.View style={[{ 
+                 position: 'absolute', 
+                 left: nowPosition + LOGO_WIDTH, 
+                 top: 0, 
+                 bottom: 0, 
+                 width: 2, 
+                 backgroundColor: 'red', 
+                 zIndex: 5 
+               }, animatedHeaderStickyStyle]}>
+                 <View style={{ position: 'absolute', top: 45, left: -14, backgroundColor: 'red', borderRadius: 10, paddingHorizontal: 6, paddingVertical: 2 }}>
+                    <Text style={{ color: 'white', fontSize: 9, fontWeight: '900' }}>NOW</Text>
+                 </View>
+               </Animated.View>
+            )}
          </View>
       </Animated.ScrollView>
     </View>

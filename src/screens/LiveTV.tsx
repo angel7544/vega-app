@@ -42,6 +42,7 @@ import useWatchHistoryStore from '../lib/zustand/watchHistrory';
 import usePlayerStore from '../lib/zustand/playerStore';
 import { settingsStorage } from '../lib/storage';
 import useIPTVStore from '../lib/zustand/iptvStore';
+import { useNow } from '../lib/hooks/useNow';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../types/navigation';
 
@@ -79,12 +80,7 @@ const QualityBadge = ({ name, isDark }: { name: string, isDark: boolean }) => {
 
 const EPGInfo = React.memo(({ channel, isDark, primary, showNext = true }: any) => {
   const { epgData } = usePlayerStore();
-  const [now, setNow] = useState(Date.now());
-
-  useEffect(() => {
-    const timer = setInterval(() => setNow(Date.now()), 60000);
-    return () => clearInterval(timer);
-  }, []);
+  const now = useNow();
 
   const info = useMemo(() => {
     const programs = epgData[channel.url];

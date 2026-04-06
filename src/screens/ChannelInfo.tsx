@@ -45,6 +45,7 @@ import Orientation, { OrientationLocker, LANDSCAPE } from 'react-native-orientat
 import * as NavigationBar from 'expo-navigation-bar';
 import { useVideoSettings } from '../lib/hooks/useStream';
 import { usePlayerSettings } from '../lib/hooks/usePlayerSettings';
+import { useNow } from '../lib/hooks/useNow';
 
 const CH_INFO_UPDATE_INTERVAL = 30000; // 30 seconds
 
@@ -68,7 +69,7 @@ const ChannelInfo = () => {
   const isLandscape = screenWidth > screenHeight;
   const isTabletLandscape = isWide && isLandscape;
   
-  const [now, setNow] = useState(Date.now());
+  const now = useNow();
   const [loading, setLoading] = useState(true);
   const [showInfo, setShowInfo] = useState(true);
   const [muted, setMuted] = useState(false);
@@ -218,13 +219,7 @@ const ChannelInfo = () => {
     fetchChannelDetails();
   }, [channel.url]);
 
-  // Real-time EPG heartbeat
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setNow(Date.now());
-    }, CH_INFO_UPDATE_INTERVAL);
-    return () => clearInterval(interval);
-  }, []);
+  // EPG details are fetched on mount or URL change
 
   const fetchChannelDetails = async () => {
     const currentUrl = channel.url;
