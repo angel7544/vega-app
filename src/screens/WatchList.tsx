@@ -1,7 +1,6 @@
 import {
   View,
   Text,
-  Platform,
   FlatList,
   TextInput,
   ScrollView,
@@ -21,10 +20,10 @@ import {StatusBar} from 'expo-status-bar';
 import useContentStore, {Content} from '../lib/zustand/contentStore';
 import WatchListCard from '../components/WatchListCard';
 import usePlayerStore from '../lib/zustand/playerStore';
-import LinearGradient from 'react-native-linear-gradient';
 import {BlurView} from 'expo-blur';
 import Animated, {FadeInDown} from 'react-native-reanimated';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
+import {settingsStorage} from '../lib/storage';
 
 const WatchList = () => {
   const {primary, mode} = useThemeStore(state => state);
@@ -36,14 +35,24 @@ const WatchList = () => {
   const {installedProviders, setProvider} = useContentStore((state: Content) => state);
   const {width: windowWidth} = useWindowDimensions();
 
+  // Layout Preference (1 = Grid, 0 = List)
+  const [layoutMode, setLayoutMode] = useState<'grid' | 'list'>(
+    settingsStorage.getListViewType() === 1 ? 'grid' : 'list'
+  );
+  
+  const toggleLayout = () => {
+    const next = layoutMode === 'grid' ? 'list' : 'grid';
+    setLayoutMode(next);
+    settingsStorage.setListViewType(next === 'grid' ? 1 : 0);
+  };
+
   const [searchText, setSearchText] = useState('');
 
   // Grid calculations
   const isTablet = windowWidth > 768;
-  const numColumns = isTablet ? 5 : 3;
-  const spacing = 12;
+  const numColumns = layoutMode === 'grid' ? (isTablet ? 5 : 3) : 1;
 
-  // Filter the watchlist based on search text
+  // Filter the watchlist
   const filteredList = useMemo(() => {
     return watchList.filter(item => {
       const matchesSearch = item.title.toLowerCase().includes(searchText.toLowerCase());
@@ -55,6 +64,7 @@ const WatchList = () => {
     <WatchListCard
       item={item}
       index={index}
+      layout={layoutMode}
       onPress={() => {
         if (item.provider) {
           const matchingProvider = installedProviders.find((p: any) => p.value === item.provider);
@@ -74,12 +84,12 @@ const WatchList = () => {
 
   const listHeader = (
     <View className="px-4">
-      {/* Featured Channels Section (Premium Style) */}
+      {/* Featured Channels Slider (Only shown if no search) */}
       {favorites.length > 0 && !searchText && (
         <View className="mb-10">
           <View className="flex-row items-center justify-between mb-5 px-1">
              <View className="flex-row items-center">
-                <View style={{ backgroundColor: primary }} className="w-1.5 h-6 rounded-full mr-3 shadow-lg shadow-primary/20" />
+                <View style={{ backgroundColor: primary }} className="w-1.5 h-6 rounded-full mr-3 shadow-lg" />
                 <Text className={`text-xl font-black italic tracking-tighter ${isDark ? 'text-white' : 'text-black'}`}>
                    Featured Channels
                 </Text>
@@ -105,14 +115,13 @@ const WatchList = () => {
                 style={{ width: isTablet ? 220 : 180, height: isTablet ? 120 : 100 }}
               >
                 <View className="flex-1 w-full flex-row">
-                   <View className="w-1/3 h-full p-3 items-center justify-center">
+                   <View className="w-1/3 h-full p-4 items-center justify-center">
                      {channel.logo ? (
                        <Image source={{ uri: channel.logo }} className="w-full h-full" resizeMode="contain" />
                      ) : (
                        <Feather name="tv" size={24} color={primary} />
                      )}
                    </View>
-                   
                    <View className="flex-1 h-full justify-center pr-3">
                       <Text className={`text-[11px] font-black uppercase tracking-wider mb-1 ${isDark ? 'text-white' : 'text-black'}`} numberOfLines={1}>
                         {channel.name}
@@ -123,26 +132,21 @@ const WatchList = () => {
                       </View>
                    </View>
                 </View>
-                
-                {/* Aura Glow */}
-                <View 
-                  className="absolute bottom-0 left-0 right-0 h-[3px]" 
-                  style={{ backgroundColor: primary, opacity: 0.3 }} 
-                />
+                <View className="absolute bottom-0 left-0 right-0 h-[3px]" style={{ backgroundColor: primary, opacity: 0.3 }} />
               </TouchableOpacity>
             ))}
           </ScrollView>
         </View>
       )}
 
-      {/* Main List Section Title */}
+      {/* Main List Section Header */}
       <View className="flex-row items-center justify-between mb-6">
         <View className="flex-row items-baseline">
            <Text className={`text-2xl font-black italic tracking-tighter ${isDark ? 'text-white' : 'text-black'}`}>
              Your Vault
            </Text>
            <Text className={`ml-3 text-[10px] font-black uppercase tracking-[2px] opacity-40 ${isDark ? 'text-white' : 'text-black'}`}>
-             {filteredList.length} Items
+             {filteredList.length} Tracks
            </Text>
         </View>
       </View>
@@ -163,26 +167,31 @@ const WatchList = () => {
           <Text className={`text-2xl font-black italic tracking-tighter ${isDark ? 'text-white' : 'text-black'}`}>
             Watchlist
           </Text>
-          <View 
-             className="w-1.5 h-1.5 rounded-full ml-2" 
-             style={{ backgroundColor: primary }} 
-          />
+          <View className="w-1.5 h-1.5 rounded-full ml-2" style={{ backgroundColor: primary }} />
         </View>
-        <TouchableOpacity
-          onPress={() => setSearchText(searchText ? '' : ' ')} // Placeholder toggle search logic
-          className={`w-10 h-10 items-center justify-center rounded-full ${isDark ? 'bg-white/10' : 'bg-black/5'}`}
-        >
-          <Feather name="search" size={20} color={isDark ? 'white' : 'black'} />
-        </TouchableOpacity>
+        <View className="flex-row space-x-2">
+          <TouchableOpacity
+            onPress={toggleLayout}
+            className={`w-10 h-10 items-center justify-center rounded-full ${isDark ? 'bg-white/10' : 'bg-black/5'}`}
+          >
+            <Feather name={layoutMode === 'grid' ? "list" : "grid"} size={20} color={isDark ? 'white' : 'black'} />
+          </TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => setSearchText(searchText ? '' : ' ')}
+            className={`w-10 h-10 items-center justify-center rounded-full ${isDark ? 'bg-white/10' : 'bg-black/5'}`}
+          >
+            <Feather name="search" size={20} color={isDark ? 'white' : 'black'} />
+          </TouchableOpacity>
+        </View>
       </View>
 
       <FlatList
+        key={layoutMode} // Force full re-render when changing layout mode to avoid numColumns error
         data={filteredList}
         renderItem={renderItem}
         ListHeaderComponent={
           <>
             <View style={{ height: 120 }} />
-            {/* Search Section */}
             <View className="px-6 mb-8">
                <View className={`flex-row items-center px-6 h-14 rounded-[28px] border ${isDark ? 'bg-[#1A1A1A] border-white/5 shadow-2xl' : 'bg-gray-50 border-black/5 shadow-xl'}`}>
                   <Feather name="search" size={18} color={isDark ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)"} />
@@ -193,11 +202,6 @@ const WatchList = () => {
                     value={searchText}
                     onChangeText={setSearchText}
                   />
-                  {searchText.length > 0 && (
-                    <TouchableOpacity onPress={() => setSearchText('')}>
-                      <MaterialCommunityIcons name="close-circle" size={18} color={isDark ? "rgba(255,255,255,0.2)" : "rgba(0,0,0,0.2)"} />
-                    </TouchableOpacity>
-                  )}
                </View>
             </View>
             {listHeader}
@@ -205,7 +209,7 @@ const WatchList = () => {
         }
         keyExtractor={(item, index) => item.link + index}
         numColumns={numColumns}
-        columnWrapperStyle={{ paddingHorizontal: 12, gap: 12 }}
+        columnWrapperStyle={layoutMode === 'grid' ? { paddingHorizontal: 12, gap: 12 } : null}
         contentContainerStyle={{ paddingBottom: 150 }}
         showsVerticalScrollIndicator={false}
         ListEmptyComponent={
