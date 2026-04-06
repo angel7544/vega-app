@@ -1,0 +1,35 @@
+[
+  {
+    "channelId": "ts1242",
+    "channelName": "In24 News",
+    "start": "18:30",
+    "stop": "19:00",
+    "startTs": 1775413800000,
+    "stopTs": 1775415600000,
+    "title": "Punjab News",
+    "desc": "The host presents a roundup of the latest news from across the state and nation.",
+    "category": null
+  },
+  {
+    "channelId": "ts1242",
+    "channelName": "In24 News",
+    "start": "19:00",
+    "stop": "19:30",
+    "startTs": 1775415600000,
+    "stopTs": 1775417400000,
+    "title": "Shabad Kirtan",
+    "desc": "Numerous renowned musicians sing a collection of prayers in praise of the Almighty.",
+    "category": null
+  },
+  {
+    "channelId": "ts1242",
+    "channelName": "In24 News",
+    "start": "19:30",
+    "stop": "20:00",
+    "startTs": 1775417400000,
+    "stopTs": 1775419200000,
+    "title": "Living Treasure",
+    "desc": "Bringing the best in television.",
+    "category": null
+  }
+]

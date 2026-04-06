@@ -1,0 +1,134 @@
+[
+  {
+    "channelId": "ts28",
+    "channelName": "ts28",
+    "start": "19:30",
+    "stop": "23:30",
+    "startTs": 1775417400000,
+    "stopTs": 1775431800000,
+    "title": "Baramashi Bohu",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts28",
+    "channelName": "ts28",
+    "start": "23:30",
+    "stop": "00:30",
+    "startTs": 1775431800000,
+    "stopTs": 1775435400000,
+    "title": "Stars Choice",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts28",
+    "channelName": "ts28",
+    "start": "00:30",
+    "stop": "01:00",
+    "startTs": 1775435400000,
+    "stopTs": 1775437200000,
+    "title": "Jatra Comedy Tadka",
+    "desc": "The host interviews guests and presents stand-up comedy routines and satirical skits.",
+    "category": null
+  },
+  {
+    "channelId": "ts28",
+    "channelName": "ts28",
+    "start": "01:00",
+    "stop": "01:30",
+    "startTs": 1775437200000,
+    "stopTs": 1775439000000,
+    "title": "Tele Shopping",
+    "desc": "The host provides the features and specifications of a wide range of products.",
+    "category": null
+  },
+  {
+    "channelId": "ts28",
+    "channelName": "ts28",
+    "start": "01:30",
+    "stop": "02:00",
+    "startTs": 1775439000000,
+    "stopTs": 1775440800000,
+    "title": "Alankar Hits",
+    "desc": "A comprehensive compilation of popular songs by musical artists are played back to back.",
+    "category": null
+  },
+  {
+    "channelId": "ts28",
+    "channelName": "ts28",
+    "start": "02:30",
+    "stop": "05:30",
+    "startTs": 1775442600000,
+    "stopTs": 1775453400000,
+    "title": "Asibu Kebe Saji Mo Rani",
+    "desc": "Bringing the best in cinema.",
+    "category": null
+  },
+  {
+    "channelId": "ts28",
+    "channelName": "ts28",
+    "start": "05:30",
+    "stop": "08:30",
+    "startTs": 1775453400000,
+    "stopTs": 1775464200000,
+    "title": "Swayambar",
+    "desc": "Bringing the best in cinema.",
+    "category": null
+  },
+  {
+    "channelId": "ts28",
+    "channelName": "ts28",
+    "start": "08:30",
+    "stop": "11:20",
+    "startTs": 1775464200000,
+    "stopTs": 1775474400000,
+    "title": "Dancing Star",
+    "desc": "Bringing the best in cinema.",
+    "category": null
+  },
+  {
+    "channelId": "ts28",
+    "channelName": "ts28",
+    "start": "11:20",
+    "stop": "11:30",
+    "startTs": 1775474400000,
+    "stopTs": 1775475000000,
+    "title": "Tele Shopping",
+    "desc": "The host provides the features and specifications of a wide range of products.",
+    "category": null
+  },
+  {
+    "channelId": "ts28",
+    "channelName": "ts28",
+    "start": "11:30",
+    "stop": "14:20",
+    "startTs": 1775475000000,
+    "stopTs": 1775485200000,
+    "title": "Jatha Rabanashya Mandadori",
+    "desc": "The rivalry between two families gets escalated when their children fall for each other.",
+    "category": null
+  },
+  {
+    "channelId": "ts28",
+    "channelName": "ts28",
+    "start": "14:20",
+    "stop": "14:30",
+    "startTs": 1775485200000,
+    "stopTs": 1775485800000,
+    "title": "Tele Shopping",
+    "desc": "The host provides the features and specifications of a wide range of products.",
+    "category": null
+  },
+  {
+    "channelId": "ts28",
+    "channelName": "ts28",
+    "start": "14:30",
+    "stop": "19:30",
+    "startTs": 1775485800000,
+    "stopTs": 1775503800000,
+    "title": "Rupa Raijara Raj Kumari",
+    "desc": "Bringing the best in television.",
+    "category": null
+  }
+]

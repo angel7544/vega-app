@@ -1,0 +1,90 @@
+[
+  {
+    "channelId": "ts842",
+    "channelName": "Somnath Temple",
+    "start": "00:30",
+    "stop": "01:30",
+    "startTs": 1775349000000,
+    "stopTs": 1775352600000,
+    "title": "Darshan",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts842",
+    "channelName": "Somnath Temple",
+    "start": "01:30",
+    "stop": "01:45",
+    "startTs": 1775352600000,
+    "stopTs": 1775353500000,
+    "title": "Mangal Aarti",
+    "desc": "Priests perform a ritual of worship to express devotion and gratitude to the Almighty.",
+    "category": null
+  },
+  {
+    "channelId": "ts842",
+    "channelName": "Somnath Temple",
+    "start": "01:45",
+    "stop": "06:30",
+    "startTs": 1775353500000,
+    "stopTs": 1775370600000,
+    "title": "Darshan",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts842",
+    "channelName": "Somnath Temple",
+    "start": "06:30",
+    "stop": "06:45",
+    "startTs": 1775370600000,
+    "stopTs": 1775371500000,
+    "title": "Afternoon Aarti",
+    "desc": ".",
+    "category": null
+  },
+  {
+    "channelId": "ts842",
+    "channelName": "Somnath Temple",
+    "start": "06:45",
+    "stop": "13:30",
+    "startTs": 1775371500000,
+    "stopTs": 1775395800000,
+    "title": "Darshan",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts842",
+    "channelName": "Somnath Temple",
+    "start": "13:30",
+    "stop": "13:45",
+    "startTs": 1775395800000,
+    "stopTs": 1775396700000,
+    "title": "Evening Aarti",
+    "desc": "A religious leader performs an 'arti' in the presence of ardent devotees.",
+    "category": null
+  },
+  {
+    "channelId": "ts842",
+    "channelName": "Somnath Temple",
+    "start": "13:45",
+    "stop": "16:30",
+    "startTs": 1775396700000,
+    "stopTs": 1775406600000,
+    "title": "Darshan",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts842",
+    "channelName": "Somnath Temple",
+    "start": "16:30",
+    "stop": "00:30",
+    "startTs": 1775406600000,
+    "stopTs": 1775435400000,
+    "title": "Temple Closed",
+    "desc": "Bringing the best in television.",
+    "category": null
+  }
+]

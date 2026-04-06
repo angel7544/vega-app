@@ -1,0 +1,35 @@
+[
+  {
+    "channelId": "ts288",
+    "channelName": "Dharma Sandesh",
+    "start": "18:30",
+    "stop": "18:50",
+    "startTs": 1775413800000,
+    "stopTs": 1775415000000,
+    "title": "Stavan",
+    "desc": "A comprehensive compilation featuring various devotional songs in praise of the Almighty.",
+    "category": null
+  },
+  {
+    "channelId": "ts288",
+    "channelName": "Dharma Sandesh",
+    "start": "18:50",
+    "stop": "19:30",
+    "startTs": 1775415000000,
+    "stopTs": 1775417400000,
+    "title": "Pujya Gurudev Shri Kanji Swami",
+    "desc": "Kanji Swami, a religious leader, reads passages from a holy text.",
+    "category": null
+  },
+  {
+    "channelId": "ts288",
+    "channelName": "Dharma Sandesh",
+    "start": "19:30",
+    "stop": "20:00",
+    "startTs": 1775417400000,
+    "stopTs": 1775419200000,
+    "title": "Pujya Lalitprabh Ji & Chandrabh Ji M.S.",
+    "desc": "Lalitprabhji and Chandrabhji offer motivational content on healthy and holistic living.",
+    "category": null
+  }
+]

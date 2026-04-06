@@ -1,0 +1,222 @@
+[
+  {
+    "channelId": "ts1825",
+    "channelName": "A ONE NEWS",
+    "start": "18:30",
+    "stop": "21:30",
+    "startTs": 1775327400000,
+    "stopTs": 1775338200000,
+    "title": "Taaja Khabar",
+    "desc": "The host presents the latest news and developments from around the country.",
+    "category": null
+  },
+  {
+    "channelId": "ts1825",
+    "channelName": "A ONE NEWS",
+    "start": "21:30",
+    "stop": "22:30",
+    "startTs": 1775338200000,
+    "stopTs": 1775341800000,
+    "title": "Top 10 News",
+    "desc": "The host presents the top 10 news updates from around the country and the world.",
+    "category": null
+  },
+  {
+    "channelId": "ts1825",
+    "channelName": "A ONE NEWS",
+    "start": "22:30",
+    "stop": "00:30",
+    "startTs": 1775341800000,
+    "stopTs": 1775349000000,
+    "title": "Public Affairs",
+    "desc": "The anchor sheds light on the latest developments and updates regarding public affairs.",
+    "category": null
+  },
+  {
+    "channelId": "ts1825",
+    "channelName": "A ONE NEWS",
+    "start": "00:30",
+    "stop": "02:30",
+    "startTs": 1775349000000,
+    "stopTs": 1775356200000,
+    "title": "Morning News",
+    "desc": "The host presents the latest news on a variety of topics of national and global concern.",
+    "category": null
+  },
+  {
+    "channelId": "ts1825",
+    "channelName": "A ONE NEWS",
+    "start": "02:30",
+    "stop": "03:30",
+    "startTs": 1775356200000,
+    "stopTs": 1775359800000,
+    "title": "Political News",
+    "desc": "The host presents information about the social, economic and political issues of the day.",
+    "category": null
+  },
+  {
+    "channelId": "ts1825",
+    "channelName": "A ONE NEWS",
+    "start": "03:30",
+    "stop": "04:30",
+    "startTs": 1775359800000,
+    "stopTs": 1775363400000,
+    "title": "Special Bulletin",
+    "desc": "The host presents some of the latest news stories, current affairs and developments.",
+    "category": null
+  },
+  {
+    "channelId": "ts1825",
+    "channelName": "A ONE NEWS",
+    "start": "04:30",
+    "stop": "05:30",
+    "startTs": 1775363400000,
+    "stopTs": 1775367000000,
+    "title": "Top 25 News",
+    "desc": "The host presents the top 25 news updates from across the nation and the world.",
+    "category": null
+  },
+  {
+    "channelId": "ts1825",
+    "channelName": "A ONE NEWS",
+    "start": "05:30",
+    "stop": "06:00",
+    "startTs": 1775367000000,
+    "stopTs": 1775368800000,
+    "title": "World News",
+    "desc": "The host shares the latest updates on key issues and events taking place around the world.",
+    "category": null
+  },
+  {
+    "channelId": "ts1825",
+    "channelName": "A ONE NEWS",
+    "start": "06:00",
+    "stop": "07:00",
+    "startTs": 1775368800000,
+    "stopTs": 1775372400000,
+    "title": "Top 35",
+    "desc": "The host presents the top news stories and the latest updates from around the world.",
+    "category": null
+  },
+  {
+    "channelId": "ts1825",
+    "channelName": "A ONE NEWS",
+    "start": "07:00",
+    "stop": "07:30",
+    "startTs": 1775372400000,
+    "stopTs": 1775374200000,
+    "title": "Public Affairs",
+    "desc": "The anchor sheds light on the latest developments and updates regarding public affairs.",
+    "category": null
+  },
+  {
+    "channelId": "ts1825",
+    "channelName": "A ONE NEWS",
+    "start": "07:30",
+    "stop": "08:30",
+    "startTs": 1775374200000,
+    "stopTs": 1775377800000,
+    "title": "Political News",
+    "desc": "The host presents information about the social, economic and political issues of the day.",
+    "category": null
+  },
+  {
+    "channelId": "ts1825",
+    "channelName": "A ONE NEWS",
+    "start": "08:30",
+    "stop": "09:30",
+    "startTs": 1775377800000,
+    "stopTs": 1775381400000,
+    "title": "Special Bulletin",
+    "desc": "The host presents some of the latest news stories, current affairs and developments.",
+    "category": null
+  },
+  {
+    "channelId": "ts1825",
+    "channelName": "A ONE NEWS",
+    "start": "09:30",
+    "stop": "10:00",
+    "startTs": 1775381400000,
+    "stopTs": 1775383200000,
+    "title": "TOP 50",
+    "desc": "The host presents the latest updates on various social, political and economic issues.",
+    "category": null
+  },
+  {
+    "channelId": "ts1825",
+    "channelName": "A ONE NEWS",
+    "start": "10:00",
+    "stop": "13:00",
+    "startTs": 1775383200000,
+    "stopTs": 1775394000000,
+    "title": "Bollywood News",
+    "desc": "The presenter reports the latest updates from the world of Bollywood.",
+    "category": null
+  },
+  {
+    "channelId": "ts1825",
+    "channelName": "A ONE NEWS",
+    "start": "13:00",
+    "stop": "13:30",
+    "startTs": 1775394000000,
+    "stopTs": 1775395800000,
+    "title": "Evening News",
+    "desc": "The host presents numerous top stories, latest happenings and major updates.",
+    "category": null
+  },
+  {
+    "channelId": "ts1825",
+    "channelName": "A ONE NEWS",
+    "start": "13:30",
+    "stop": "14:30",
+    "startTs": 1775395800000,
+    "stopTs": 1775399400000,
+    "title": "Today Hot Topic",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts1825",
+    "channelName": "A ONE NEWS",
+    "start": "14:30",
+    "stop": "15:30",
+    "startTs": 1775399400000,
+    "stopTs": 1775403000000,
+    "title": "Current Events",
+    "desc": "The host presents the latest updates and news stories pertaining to current affairs.",
+    "category": null
+  },
+  {
+    "channelId": "ts1825",
+    "channelName": "A ONE NEWS",
+    "start": "15:30",
+    "stop": "16:30",
+    "startTs": 1775403000000,
+    "stopTs": 1775406600000,
+    "title": "Sports News",
+    "desc": "The host provides the most recent news, updates and developments from the world of sports.",
+    "category": null
+  },
+  {
+    "channelId": "ts1825",
+    "channelName": "A ONE NEWS",
+    "start": "16:30",
+    "stop": "18:30",
+    "startTs": 1775406600000,
+    "stopTs": 1775413800000,
+    "title": "Top 100",
+    "desc": "The host presents a detailed report of the top 100 latest news and developments.",
+    "category": null
+  },
+  {
+    "channelId": "ts1825",
+    "channelName": "A ONE NEWS",
+    "start": "18:30",
+    "stop": "21:30",
+    "startTs": 1775413800000,
+    "stopTs": 1775424600000,
+    "title": "Taaja Khabar",
+    "desc": "The host presents the latest news and developments from around the country.",
+    "category": null
+  }
+]

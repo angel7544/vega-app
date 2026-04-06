@@ -1,0 +1,35 @@
+[
+  {
+    "channelId": "ts484",
+    "channelName": "Travelxp HD",
+    "start": "18:30",
+    "stop": "19:00",
+    "startTs": 1775413800000,
+    "stopTs": 1775415600000,
+    "title": "Backpack",
+    "desc": "The host explores various castles and palaces in Sintra and heads to the town of Óbidos. S01 E43.",
+    "category": null
+  },
+  {
+    "channelId": "ts484",
+    "channelName": "Travelxp HD",
+    "start": "19:00",
+    "stop": "19:30",
+    "startTs": 1775415600000,
+    "stopTs": 1775417400000,
+    "title": "City Breaks",
+    "desc": "The host explores the history and culture of various cities around the world.",
+    "category": null
+  },
+  {
+    "channelId": "ts484",
+    "channelName": "Travelxp HD",
+    "start": "19:30",
+    "stop": "20:00",
+    "startTs": 1775417400000,
+    "stopTs": 1775419200000,
+    "title": "Xplore Oman",
+    "desc": "The host sheds light on the Wadi Bin Khalid, a renowned wadi in Oman.",
+    "category": null
+  }
+]

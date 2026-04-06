@@ -1,0 +1,156 @@
+[
+  {
+    "channelId": "ts1198",
+    "channelName": "Ekamra Cynema",
+    "start": "18:30",
+    "stop": "19:30",
+    "startTs": 1775327400000,
+    "stopTs": 1775331000000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts1198",
+    "channelName": "Ekamra Cynema",
+    "start": "19:30",
+    "stop": "20:00",
+    "startTs": 1775331000000,
+    "stopTs": 1775332800000,
+    "title": "Just Trailors",
+    "desc": "A comprehensive compilation of trailers showcasing forthcoming cinematic releases.",
+    "category": null
+  },
+  {
+    "channelId": "ts1198",
+    "channelName": "Ekamra Cynema",
+    "start": "20:00",
+    "stop": "20:30",
+    "startTs": 1775332800000,
+    "stopTs": 1775334600000,
+    "title": "Just Trailors",
+    "desc": "A comprehensive compilation of trailers showcasing forthcoming cinematic releases.",
+    "category": null
+  },
+  {
+    "channelId": "ts1198",
+    "channelName": "Ekamra Cynema",
+    "start": "20:30",
+    "stop": "00:30",
+    "startTs": 1775334600000,
+    "stopTs": 1775349000000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts1198",
+    "channelName": "Ekamra Cynema",
+    "start": "00:30",
+    "stop": "04:30",
+    "startTs": 1775349000000,
+    "stopTs": 1775363400000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts1198",
+    "channelName": "Ekamra Cynema",
+    "start": "04:30",
+    "stop": "05:00",
+    "startTs": 1775363400000,
+    "stopTs": 1775365200000,
+    "title": "Just Trailors",
+    "desc": "A comprehensive compilation of trailers showcasing forthcoming cinematic releases.",
+    "category": null
+  },
+  {
+    "channelId": "ts1198",
+    "channelName": "Ekamra Cynema",
+    "start": "05:00",
+    "stop": "05:30",
+    "startTs": 1775365200000,
+    "stopTs": 1775367000000,
+    "title": "Just Trailors",
+    "desc": "A comprehensive compilation of trailers showcasing forthcoming cinematic releases.",
+    "category": null
+  },
+  {
+    "channelId": "ts1198",
+    "channelName": "Ekamra Cynema",
+    "start": "05:30",
+    "stop": "09:30",
+    "startTs": 1775367000000,
+    "stopTs": 1775381400000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts1198",
+    "channelName": "Ekamra Cynema",
+    "start": "09:30",
+    "stop": "10:00",
+    "startTs": 1775381400000,
+    "stopTs": 1775383200000,
+    "title": "Just Trailors",
+    "desc": "A comprehensive compilation of trailers showcasing forthcoming cinematic releases.",
+    "category": null
+  },
+  {
+    "channelId": "ts1198",
+    "channelName": "Ekamra Cynema",
+    "start": "10:00",
+    "stop": "10:30",
+    "startTs": 1775383200000,
+    "stopTs": 1775385000000,
+    "title": "Just Trailors",
+    "desc": "A comprehensive compilation of trailers showcasing forthcoming cinematic releases.",
+    "category": null
+  },
+  {
+    "channelId": "ts1198",
+    "channelName": "Ekamra Cynema",
+    "start": "10:30",
+    "stop": "14:30",
+    "startTs": 1775385000000,
+    "stopTs": 1775399400000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts1198",
+    "channelName": "Ekamra Cynema",
+    "start": "14:30",
+    "stop": "15:00",
+    "startTs": 1775399400000,
+    "stopTs": 1775401200000,
+    "title": "Just Trailors",
+    "desc": "A comprehensive compilation of trailers showcasing forthcoming cinematic releases.",
+    "category": null
+  },
+  {
+    "channelId": "ts1198",
+    "channelName": "Ekamra Cynema",
+    "start": "15:00",
+    "stop": "15:30",
+    "startTs": 1775401200000,
+    "stopTs": 1775403000000,
+    "title": "Just Trailors",
+    "desc": "A comprehensive compilation of trailers showcasing forthcoming cinematic releases.",
+    "category": null
+  },
+  {
+    "channelId": "ts1198",
+    "channelName": "Ekamra Cynema",
+    "start": "15:30",
+    "stop": "18:30",
+    "startTs": 1775403000000,
+    "stopTs": 1775413800000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  }
+]

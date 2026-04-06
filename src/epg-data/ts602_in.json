@@ -1,0 +1,112 @@
+[
+  {
+    "channelId": "ts602",
+    "channelName": "ts602",
+    "start": "19:05",
+    "stop": "19:27",
+    "startTs": 1775415900000,
+    "stopTs": 1775417220000,
+    "title": "DPW ILT20",
+    "desc": "Professional cricket teams compete against each other in the International League T20.",
+    "category": null
+  },
+  {
+    "channelId": "ts602",
+    "channelName": "ts602",
+    "start": "19:27",
+    "stop": "19:49",
+    "startTs": 1775417220000,
+    "stopTs": 1775418540000,
+    "title": "DPW ILT20",
+    "desc": "Professional cricket teams compete against each other in the International League T20.",
+    "category": null
+  },
+  {
+    "channelId": "ts602",
+    "channelName": "ts602",
+    "start": "18:45",
+    "stop": "21:45",
+    "startTs": 1775501100000,
+    "stopTs": 1775511900000,
+    "title": "Sports Programme",
+    "desc": "The host presents the latest news updates from the world of sports.",
+    "category": null
+  },
+  {
+    "channelId": "ts602",
+    "channelName": "ts602",
+    "start": "21:45",
+    "stop": "02:00",
+    "startTs": 1775511900000,
+    "stopTs": 1775527200000,
+    "title": "Sports Programme",
+    "desc": "The host presents the latest news updates from the world of sports.",
+    "category": null
+  },
+  {
+    "channelId": "ts602",
+    "channelName": "ts602",
+    "start": "02:00",
+    "stop": "05:00",
+    "startTs": 1775527200000,
+    "stopTs": 1775538000000,
+    "title": "Sports Programme",
+    "desc": "The host presents the latest news updates from the world of sports.",
+    "category": null
+  },
+  {
+    "channelId": "ts602",
+    "channelName": "ts602",
+    "start": "05:00",
+    "stop": "08:00",
+    "startTs": 1775538000000,
+    "stopTs": 1775548800000,
+    "title": "Sports Programme",
+    "desc": "The host presents the latest news updates from the world of sports.",
+    "category": null
+  },
+  {
+    "channelId": "ts602",
+    "channelName": "ts602",
+    "start": "08:00",
+    "stop": "11:00",
+    "startTs": 1775548800000,
+    "stopTs": 1775559600000,
+    "title": "Sports Programme",
+    "desc": "The host presents the latest news updates from the world of sports.",
+    "category": null
+  },
+  {
+    "channelId": "ts602",
+    "channelName": "ts602",
+    "start": "11:00",
+    "stop": "14:00",
+    "startTs": 1775559600000,
+    "stopTs": 1775570400000,
+    "title": "Sports Programme",
+    "desc": "The host presents the latest news updates from the world of sports.",
+    "category": null
+  },
+  {
+    "channelId": "ts602",
+    "channelName": "ts602",
+    "start": "14:00",
+    "stop": "17:00",
+    "startTs": 1775570400000,
+    "stopTs": 1775581200000,
+    "title": "Sports Programme",
+    "desc": "The host presents the latest news updates from the world of sports.",
+    "category": null
+  },
+  {
+    "channelId": "ts602",
+    "channelName": "ts602",
+    "start": "17:00",
+    "stop": "20:00",
+    "startTs": 1775581200000,
+    "stopTs": 1775592000000,
+    "title": "Sports Programme",
+    "desc": "The host presents the latest news updates from the world of sports.",
+    "category": null
+  }
+]

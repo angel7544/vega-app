@@ -1,0 +1,123 @@
+[
+  {
+    "channelId": "ts231",
+    "channelName": "Udaya Movies",
+    "start": "18:30",
+    "stop": "21:30",
+    "startTs": 1775327400000,
+    "stopTs": 1775338200000,
+    "title": "Kalla Kulla",
+    "desc": "Mahesh, a thief, rescues an affluent girl from drowning, and she falls in love with him.",
+    "category": null
+  },
+  {
+    "channelId": "ts231",
+    "channelName": "Udaya Movies",
+    "start": "21:30",
+    "stop": "00:30",
+    "startTs": 1775338200000,
+    "stopTs": 1775349000000,
+    "title": "Katha Sangama",
+    "desc": "An anthology of short stories centred on a teacher, an old woman and a man about to marry.",
+    "category": null
+  },
+  {
+    "channelId": "ts231",
+    "channelName": "Udaya Movies",
+    "start": "00:30",
+    "stop": "01:00",
+    "startTs": 1775349000000,
+    "stopTs": 1775350800000,
+    "title": "JH Ministry",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts231",
+    "channelName": "Udaya Movies",
+    "start": "01:00",
+    "stop": "01:30",
+    "startTs": 1775350800000,
+    "stopTs": 1775352600000,
+    "title": "The Lord's Challenge",
+    "desc": "Joshua Daniel of Laymen's Evangelical Fellowship educates people with facts from the Bible.",
+    "category": null
+  },
+  {
+    "channelId": "ts231",
+    "channelName": "Udaya Movies",
+    "start": "01:30",
+    "stop": "04:30",
+    "startTs": 1775352600000,
+    "stopTs": 1775363400000,
+    "title": "Krishnan Love Story",
+    "desc": "Although Geeta loves Krishna, she elopes with a rich man, Narendra, due to her poverty.",
+    "category": null
+  },
+  {
+    "channelId": "ts231",
+    "channelName": "Udaya Movies",
+    "start": "04:30",
+    "stop": "07:30",
+    "startTs": 1775363400000,
+    "stopTs": 1775374200000,
+    "title": "Dashamukha",
+    "desc": "Ravindranath sets out to prove Agni, who is accused of his father's murder, innocent.",
+    "category": null
+  },
+  {
+    "channelId": "ts231",
+    "channelName": "Udaya Movies",
+    "start": "07:30",
+    "stop": "10:30",
+    "startTs": 1775374200000,
+    "stopTs": 1775385000000,
+    "title": "Vishnuvardhana",
+    "desc": "Vishnuvardhana steals a crime boss's phone and teams up with his wife to defeat him.",
+    "category": null
+  },
+  {
+    "channelId": "ts231",
+    "channelName": "Udaya Movies",
+    "start": "10:30",
+    "stop": "13:30",
+    "startTs": 1775385000000,
+    "stopTs": 1775395800000,
+    "title": "Bare Nanna Muddina Rani",
+    "desc": "A man understands the value of marriage when his wife leaves him.",
+    "category": null
+  },
+  {
+    "channelId": "ts231",
+    "channelName": "Udaya Movies",
+    "start": "13:30",
+    "stop": "16:30",
+    "startTs": 1775395800000,
+    "stopTs": 1775406600000,
+    "title": "Mojugara Sogasugara",
+    "desc": "Fed up with their routine lives, two lookalikes exchange places to break the monotony.",
+    "category": null
+  },
+  {
+    "channelId": "ts231",
+    "channelName": "Udaya Movies",
+    "start": "16:30",
+    "stop": "18:30",
+    "startTs": 1775406600000,
+    "stopTs": 1775413800000,
+    "title": "Bhairava",
+    "desc": "A cop takes up the challenge of putting an end to the nefarious activities of a gangster.",
+    "category": null
+  },
+  {
+    "channelId": "ts231",
+    "channelName": "Udaya Movies",
+    "start": "18:30",
+    "stop": "21:30",
+    "startTs": 1775413800000,
+    "stopTs": 1775424600000,
+    "title": "Hello Yama",
+    "desc": "Suri meets Yama and Chitragupta, sparking comical chaos in the celestial realm.",
+    "category": null
+  }
+]

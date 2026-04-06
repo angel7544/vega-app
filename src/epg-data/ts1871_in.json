@@ -1,0 +1,24 @@
+[
+  {
+    "channelId": "ts1871",
+    "channelName": "ts1871",
+    "start": "18:30",
+    "stop": "19:30",
+    "startTs": 1775413800000,
+    "stopTs": 1775417400000,
+    "title": "Sharjah Cup 1996 - India vs Pak-One-Day International Cricket",
+    "desc": "Sharjah Cup 1996 - India vs Pak;A comprehensive coverage of one-day cricket matches contested by international teams.",
+    "category": null
+  },
+  {
+    "channelId": "ts1871",
+    "channelName": "ts1871",
+    "start": "19:30",
+    "stop": "20:30",
+    "startTs": 1775417400000,
+    "stopTs": 1775421000000,
+    "title": "2018: 1st ODI - England vs. India-One-Day International Cricket",
+    "desc": "2018: 1st ODI - England vs. India;A comprehensive coverage of one-day cricket matches contested by international teams.",
+    "category": null
+  }
+]

@@ -1,186 +1,255 @@
-{
-  "channelId": "AndPictures.in",
-  "channelName": "IN - &pictures",
-  "programs": [
-    {
-      "start": "20260405185200 +0000",
-      "stop": "20260405201500 +0000",
-      "title": "The Last Color",
-      "desc": "Choti, a young tightrope walker, wishes to pursue her education but struggles to make a living. She soon befriends Noor, a widow who yearns to play Holi but is forced to live a life of abstinence."
-    },
-    {
-      "start": "20260405201500 +0000",
-      "stop": "20260405222600 +0000",
-      "title": "Kuch Kuch Locha Hai",
-      "desc": "Praveen Patel, a 45-year-old married businessman, is tired of his religious wife though he loves her. However, things change after a younger actress wants to move in with him to prepare for a role."
-    },
-    {
-      "start": "20260405222600 +0000",
-      "stop": "20260406003000 +0000",
-      "title": "Mr. & Mrs. Mahi",
-      "desc": "Former cricketer Mahendra marries Mahima, a doctor with a passion for cricket. However, upon discovering her exceptional skills, he encourages her to pursue a professional career in the sport."
-    },
-    {
-      "start": "20260406003000 +0000",
-      "stop": "20260406022500 +0000",
-      "title": "Badla",
-      "desc": "Naina, a successful entrepreneur, gets caught in a web of accusations when her lover is found dead. Later, she hires a reputable lawyer to work with her on the case."
-    },
-    {
-      "start": "20260406022500 +0000",
-      "stop": "20260406035300 +0000",
-      "title": "Omerta",
-      "desc": "Ahmed Omar Saeed Sheikh, a British terrorist of Pakistani descent, plots the kidnapping and murder of Wall Street Journal journalist Daniel Pearl."
-    },
-    {
-      "start": "20260406035300 +0000",
-      "stop": "20260406062300 +0000",
-      "title": "Apna Sapna Money Money",
-      "desc": "Arjun and Shivani are in love, but Shivani's father will never let them marry each other. Later chaos ensues when Arjun enlists the help of his conman cousin, Kishan, to unite him with Shivani."
-    },
-    {
-      "start": "20260406062300 +0000",
-      "stop": "20260406084700 +0000",
-      "title": "Fukrey Returns",
-      "desc": "Bholi Punjaban is back with a vengeance for round two of mischief, mayhem, and a get-rich-quick extravaganza with Hunny, Zafar, Lali, and deja choo expert Choocha."
-    },
-    {
-      "start": "20260406084700 +0000",
-      "stop": "20260406114200 +0000",
-      "title": "Koi ... Mil Gaya",
-      "desc": "A young man with special needs is influenced by his father's scientific work. He encounters an alien who grants him extraordinary abilities and transforms his life."
-    },
-    {
-      "start": "20260406114200 +0000",
-      "stop": "20260406143000 +0000",
-      "title": "Chennai vs China",
-      "desc": "Aravind is a descendant of a martial arts expert, Bodhidharma. He must revive the fighting skills to stop Dong Lee, who comes to India to wage a biological war."
-    },
-    {
-      "start": "20260406143000 +0000",
-      "stop": "20260406173300 +0000",
-      "title": "Vivah",
-      "desc": "Poonam, a traditional young woman, gets engaged to Prem, a wealthy man. Their faith and love are tested when an accident occurs and leaves Poonam with first degree burns."
-    },
-    {
-      "start": "20260406173300 +0000",
-      "stop": "20260406213000 +0000",
-      "title": "Bengal Tiger",
-      "desc": "Akash, a simple man, falls in love with politician Gajapathi's daughter, Meera. However, on learning the identity of Akash's father, Gajapathi suspects that he wants revenge for a past transgression."
-    },
-    {
-      "start": "20260406213000 +0000",
-      "stop": "20260407003000 +0000",
-      "title": "Movie",
-      "desc": "Bringing the best in television."
-    },
-    {
-      "start": "20260407003000 +0000",
-      "stop": "20260407033000 +0000",
-      "title": "Movie",
-      "desc": "Bringing the best in television."
-    },
-    {
-      "start": "20260407033000 +0000",
-      "stop": "20260407063000 +0000",
-      "title": "Movie",
-      "desc": "Bringing the best in television."
-    },
-    {
-      "start": "20260407063000 +0000",
-      "stop": "20260407093000 +0000",
-      "title": "Movie",
-      "desc": "Bringing the best in television."
-    },
-    {
-      "start": "20260407093000 +0000",
-      "stop": "20260407123000 +0000",
-      "title": "Movie",
-      "desc": "Bringing the best in television."
-    },
-    {
-      "start": "20260407123000 +0000",
-      "stop": "20260407153000 +0000",
-      "title": "Movie",
-      "desc": "Bringing the best in television."
-    },
-    {
-      "start": "20260407153000 +0000",
-      "stop": "20260407183000 +0000",
-      "title": "Movie",
-      "desc": "Bringing the best in television."
-    },
-    {
-      "start": "20260407183000 +0000",
-      "stop": "20260407213000 +0000",
-      "title": "Movie",
-      "desc": "Bringing the best in television."
-    },
-    {
-      "start": "20260407213000 +0000",
-      "stop": "20260408003000 +0000",
-      "title": "Movie",
-      "desc": "Bringing the best in television."
-    },
-    {
-      "start": "20260408003000 +0000",
-      "stop": "20260408033000 +0000",
-      "title": "Movie",
-      "desc": "Bringing the best in television."
-    },
-    {
-      "start": "20260408033000 +0000",
-      "stop": "20260408063000 +0000",
-      "title": "Movie",
-      "desc": "Bringing the best in television."
-    },
-    {
-      "start": "20260408063000 +0000",
-      "stop": "20260408093000 +0000",
-      "title": "Movie",
-      "desc": "Bringing the best in television."
-    },
-    {
-      "start": "20260408093000 +0000",
-      "stop": "20260408123000 +0000",
-      "title": "Movie",
-      "desc": "Bringing the best in television."
-    },
-    {
-      "start": "20260408123000 +0000",
-      "stop": "20260408153000 +0000",
-      "title": "Movie",
-      "desc": "Bringing the best in television."
-    },
-    {
-      "start": "20260408153000 +0000",
-      "stop": "20260408183000 +0000",
-      "title": "Movie",
-      "desc": "Bringing the best in television."
-    },
-    {
-      "start": "20260408183000 +0000",
-      "stop": "20260408213000 +0000",
-      "title": "Movie",
-      "desc": "Bringing the best in television."
-    },
-    {
-      "start": "20260408213000 +0000",
-      "stop": "20260409003000 +0000",
-      "title": "Movie",
-      "desc": "Bringing the best in television."
-    },
-    {
-      "start": "20260409003000 +0000",
-      "stop": "20260409033000 +0000",
-      "title": "Movie",
-      "desc": "Bringing the best in television."
-    },
-    {
-      "start": "20260409033000 +0000",
-      "stop": "20260409063000 +0000",
-      "title": "Movie",
-      "desc": "Bringing the best in television."
-    }
-  ]
-}
+[
+  {
+    "channelId": "ts148",
+    "channelName": "&pictures",
+    "start": "20:09",
+    "stop": "21:30",
+    "startTs": 1775333340000,
+    "stopTs": 1775338200000,
+    "title": "The Dunes",
+    "desc": "The Dunes",
+    "category": null
+  },
+  {
+    "channelId": "ts148",
+    "channelName": "&pictures",
+    "start": "21:30",
+    "stop": "23:10",
+    "startTs": 1775338200000,
+    "stopTs": 1775344200000,
+    "title": "Mercury",
+    "desc": "Five friends accidentally kill a man and are haunted by his vengeful ghost.",
+    "category": null
+  },
+  {
+    "channelId": "ts148",
+    "channelName": "&pictures",
+    "start": "23:10",
+    "stop": "01:48",
+    "startTs": 1775344200000,
+    "stopTs": 1775353680000,
+    "title": "Bas Itna Sa Khwaab Hai",
+    "desc": "Surya moves to Mumbai in a bid to become as successful as his idol, Naved Ali.",
+    "category": null
+  },
+  {
+    "channelId": "ts148",
+    "channelName": "&pictures",
+    "start": "01:48",
+    "stop": "02:10",
+    "startTs": 1775353680000,
+    "stopTs": 1775355000000,
+    "title": "Fillers",
+    "desc": "A comprehensive compilation of promotional videos and trailers of Bollywood movies.",
+    "category": null
+  },
+  {
+    "channelId": "ts148",
+    "channelName": "&pictures",
+    "start": "02:10",
+    "stop": "04:37",
+    "startTs": 1775355000000,
+    "stopTs": 1775363820000,
+    "title": "Jigarwala No. 1",
+    "desc": "A doctor living abroad returns to India to sell his property, where he falls in love.",
+    "category": null
+  },
+  {
+    "channelId": "ts148",
+    "channelName": "&pictures",
+    "start": "04:37",
+    "stop": "06:41",
+    "startTs": 1775363820000,
+    "stopTs": 1775371260000,
+    "title": "Mahaveer No.1",
+    "desc": "A young man challenges a corrupt market owner for his power, revealing a vengeful past.",
+    "category": null
+  },
+  {
+    "channelId": "ts148",
+    "channelName": "&pictures",
+    "start": "06:41",
+    "stop": "08:51",
+    "startTs": 1775371260000,
+    "stopTs": 1775379060000,
+    "title": "Shaadi Mein Zaroor Aana",
+    "desc": "Satyendra and Aarti who meet for an arranged marriage fall in love with each other.",
+    "category": null
+  },
+  {
+    "channelId": "ts148",
+    "channelName": "&pictures",
+    "start": "08:51",
+    "stop": "11:25",
+    "startTs": 1775379060000,
+    "stopTs": 1775388300000,
+    "title": "Himmatwar",
+    "desc": "After saving a police officer, the son of a rich family earns the wrath of an evil man.",
+    "category": null
+  },
+  {
+    "channelId": "ts148",
+    "channelName": "&pictures",
+    "start": "11:25",
+    "stop": "14:25",
+    "startTs": 1775388300000,
+    "stopTs": 1775399100000,
+    "title": "Ab Tumhare Hawale Watan Saathiyo",
+    "desc": "Kunal falls in love with Shweta and decides to stay in the army to get close to her.",
+    "category": null
+  },
+  {
+    "channelId": "ts148",
+    "channelName": "&pictures",
+    "start": "14:25",
+    "stop": "16:43",
+    "startTs": 1775399100000,
+    "stopTs": 1775407380000,
+    "title": "Businessman 2",
+    "desc": "A businessman falls in love with an activist woman who causes his factory to shut down.",
+    "category": null
+  },
+  {
+    "channelId": "ts148",
+    "channelName": "&pictures",
+    "start": "16:43",
+    "stop": "18:52",
+    "startTs": 1775407380000,
+    "stopTs": 1775415120000,
+    "title": "Radhe: Your Most Wanted Bhai",
+    "desc": "A daredevil encounter specialist vows to knock down a crime syndicate led by a drug lord.",
+    "category": null
+  },
+  {
+    "channelId": "ts148",
+    "channelName": "&pictures",
+    "start": "18:52",
+    "stop": "20:15",
+    "startTs": 1775415120000,
+    "stopTs": 1775420100000,
+    "title": "The Last Color",
+    "desc": "A young tightrope walker befriends a widow who wishes to play Holi but cannot do so.",
+    "category": null
+  },
+  {
+    "channelId": "ts148",
+    "channelName": "&pictures",
+    "start": "20:15",
+    "stop": "22:24",
+    "startTs": 1775420100000,
+    "stopTs": 1775427840000,
+    "title": "Kuch Kuch Locha Hai",
+    "desc": "A middle-aged, married businessman shares his home with a younger actress.",
+    "category": null
+  },
+  {
+    "channelId": "ts148",
+    "channelName": "&pictures",
+    "start": "22:24",
+    "stop": "00:31",
+    "startTs": 1775427840000,
+    "stopTs": 1775435460000,
+    "title": "English Vinglish",
+    "desc": "An efficient housewife who is unable to speak in English endures insults from her family.",
+    "category": null
+  },
+  {
+    "channelId": "ts148",
+    "channelName": "&pictures",
+    "start": "00:31",
+    "stop": "02:13",
+    "startTs": 1775435460000,
+    "stopTs": 1775441580000,
+    "title": "Mr. & Mrs. Mahi",
+    "desc": "A failed cricketer notices his wife's natural skill for the sport and starts coaching her.",
+    "category": null
+  },
+  {
+    "channelId": "ts148",
+    "channelName": "&pictures",
+    "start": "18:30",
+    "stop": "21:30",
+    "startTs": 1775500200000,
+    "stopTs": 1775511000000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts148",
+    "channelName": "&pictures",
+    "start": "21:30",
+    "stop": "00:30",
+    "startTs": 1775511000000,
+    "stopTs": 1775521800000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts148",
+    "channelName": "&pictures",
+    "start": "00:30",
+    "stop": "03:30",
+    "startTs": 1775521800000,
+    "stopTs": 1775532600000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts148",
+    "channelName": "&pictures",
+    "start": "03:30",
+    "stop": "06:30",
+    "startTs": 1775532600000,
+    "stopTs": 1775543400000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts148",
+    "channelName": "&pictures",
+    "start": "06:30",
+    "stop": "09:30",
+    "startTs": 1775543400000,
+    "stopTs": 1775554200000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts148",
+    "channelName": "&pictures",
+    "start": "09:30",
+    "stop": "12:30",
+    "startTs": 1775554200000,
+    "stopTs": 1775565000000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts148",
+    "channelName": "&pictures",
+    "start": "12:30",
+    "stop": "15:30",
+    "startTs": 1775565000000,
+    "stopTs": 1775575800000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts148",
+    "channelName": "&pictures",
+    "start": "15:30",
+    "stop": "18:30",
+    "startTs": 1775575800000,
+    "stopTs": 1775586600000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  }
+]

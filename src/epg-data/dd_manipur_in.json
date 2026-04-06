@@ -1,0 +1,46 @@
+[
+  {
+    "channelId": "ts329",
+    "channelName": "DD Manipur",
+    "start": "18:30",
+    "stop": "18:45",
+    "startTs": 1775413800000,
+    "stopTs": 1775414700000,
+    "title": "Educational Programme",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts329",
+    "channelName": "DD Manipur",
+    "start": "18:45",
+    "stop": "19:15",
+    "startTs": 1775414700000,
+    "stopTs": 1775416500000,
+    "title": "Women & Family Welfare",
+    "desc": "A subject matter expert offers insights to empower families and uplift women in society.",
+    "category": null
+  },
+  {
+    "channelId": "ts329",
+    "channelName": "DD Manipur",
+    "start": "19:15",
+    "stop": "19:45",
+    "startTs": 1775416500000,
+    "stopTs": 1775418300000,
+    "title": "Promising Start- Up",
+    "desc": "The host holds insightful conversations with various entrepreneurs.",
+    "category": null
+  },
+  {
+    "channelId": "ts329",
+    "channelName": "DD Manipur",
+    "start": "19:45",
+    "stop": "20:15",
+    "startTs": 1775418300000,
+    "stopTs": 1775420100000,
+    "title": "Agricultural Programme",
+    "desc": "The host discusses issues pertaining to the agricultural landscape of Manipur.",
+    "category": null
+  }
+]

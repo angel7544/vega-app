@@ -1,0 +1,134 @@
+[
+  {
+    "channelId": "ts53",
+    "channelName": "Colors Cineplex",
+    "start": "19:00",
+    "stop": "21:01",
+    "startTs": 1775329200000,
+    "stopTs": 1775336460000,
+    "title": "Mahadev Ka Gorakhpur",
+    "desc": "Mahadev Ka Gorakhpur",
+    "category": null
+  },
+  {
+    "channelId": "ts53",
+    "channelName": "Colors Cineplex",
+    "start": "21:01",
+    "stop": "22:42",
+    "startTs": 1775336460000,
+    "stopTs": 1775342520000,
+    "title": "The Attacks of 26/11",
+    "desc": "Ten terrorists travel to India and launch several attacks at various places in Mumbai.",
+    "category": null
+  },
+  {
+    "channelId": "ts53",
+    "channelName": "Colors Cineplex",
+    "start": "22:42",
+    "stop": "23:39",
+    "startTs": 1775342520000,
+    "stopTs": 1775345940000,
+    "title": "Filler",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts53",
+    "channelName": "Colors Cineplex",
+    "start": "23:39",
+    "stop": "01:20",
+    "startTs": 1775345940000,
+    "stopTs": 1775352000000,
+    "title": "House No. 13",
+    "desc": "When a family move into a new home, they start experiencing fatal paranormal events.",
+    "category": null
+  },
+  {
+    "channelId": "ts53",
+    "channelName": "Colors Cineplex",
+    "start": "01:20",
+    "stop": "03:24",
+    "startTs": 1775352000000,
+    "stopTs": 1775359440000,
+    "title": "VIP 2 Lalkar",
+    "desc": "A businesswoman seeks revenge after a civil engineer declines her job offer.",
+    "category": null
+  },
+  {
+    "channelId": "ts53",
+    "channelName": "Colors Cineplex",
+    "start": "03:24",
+    "stop": "05:50",
+    "startTs": 1775359440000,
+    "stopTs": 1775368200000,
+    "title": "Sindhubaadh",
+    "desc": "A man goes out of his comfort zone in order to make money and to become Sindhubaadh.",
+    "category": null
+  },
+  {
+    "channelId": "ts53",
+    "channelName": "Colors Cineplex",
+    "start": "05:50",
+    "stop": "08:12",
+    "startTs": 1775368200000,
+    "stopTs": 1775376720000,
+    "title": "Daaku Maharaaj",
+    "desc": "A daring robber, striving for survival and establishing his own territory amid conflicts.",
+    "category": null
+  },
+  {
+    "channelId": "ts53",
+    "channelName": "Colors Cineplex",
+    "start": "08:12",
+    "stop": "11:39",
+    "startTs": 1775376720000,
+    "stopTs": 1775389140000,
+    "title": "Veera Simha Reddy",
+    "desc": "In a high-octane fight against injustice, Veera Simha Reddy must forsake everything he holds dear.",
+    "category": null
+  },
+  {
+    "channelId": "ts53",
+    "channelName": "Colors Cineplex",
+    "start": "11:39",
+    "stop": "14:20",
+    "startTs": 1775389140000,
+    "stopTs": 1775398800000,
+    "title": "Secret Agent",
+    "desc": "While trying to live an anonymous life, a secret agent meets a woman in crisis and helps her.",
+    "category": null
+  },
+  {
+    "channelId": "ts53",
+    "channelName": "Colors Cineplex",
+    "start": "14:20",
+    "stop": "17:04",
+    "startTs": 1775398800000,
+    "stopTs": 1775408640000,
+    "title": "Bhadrakaali",
+    "desc": "A bold fighter for justice challenges a merciless empire, sparking a wave of resistance.",
+    "category": null
+  },
+  {
+    "channelId": "ts53",
+    "channelName": "Colors Cineplex",
+    "start": "17:04",
+    "stop": "20:10",
+    "startTs": 1775408640000,
+    "stopTs": 1775419800000,
+    "title": "King of Kotha",
+    "desc": "A man struggles between his inherited legacy of crime and a desire for a different life.",
+    "category": null
+  },
+  {
+    "channelId": "ts53",
+    "channelName": "Colors Cineplex",
+    "start": "20:10",
+    "stop": "21:47",
+    "startTs": 1775419800000,
+    "stopTs": 1775425620000,
+    "title": "Jaanbaz Ki Jung",
+    "desc": "Jaanbaz Ki Jung",
+    "category": null
+  }
+]

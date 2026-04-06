@@ -1,0 +1,35 @@
+[
+  {
+    "channelId": "ts12",
+    "channelName": "Anmol Cinema 2",
+    "start": "18:53",
+    "stop": "20:30",
+    "startTs": 1775415180000,
+    "stopTs": 1775421000000,
+    "title": "Teleshopping",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts12",
+    "channelName": "Anmol Cinema 2",
+    "start": "20:30",
+    "stop": "21:30",
+    "startTs": 1775421000000,
+    "stopTs": 1775424600000,
+    "title": "Teleshopping",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts12",
+    "channelName": "Anmol Cinema 2",
+    "start": "21:30",
+    "stop": "01:24",
+    "startTs": 1775424600000,
+    "stopTs": 1775438640000,
+    "title": "Teleshopping",
+    "desc": "Bringing the best in television.",
+    "category": null
+  }
+]

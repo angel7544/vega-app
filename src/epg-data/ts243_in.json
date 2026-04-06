@@ -1,0 +1,233 @@
+[
+  {
+    "channelId": "ts243",
+    "channelName": "CNN International",
+    "start": "19:00",
+    "stop": "20:00",
+    "startTs": 1775329200000,
+    "stopTs": 1775332800000,
+    "title": "CNN Newsroom Saturday",
+    "desc": "The presenters give an update on the latest news updates from around the world.",
+    "category": null
+  },
+  {
+    "channelId": "ts243",
+    "channelName": "CNN International",
+    "start": "20:00",
+    "stop": "21:00",
+    "startTs": 1775332800000,
+    "stopTs": 1775336400000,
+    "title": "The Amanpour Hour",
+    "desc": "Host Christiane Amanpour shares insights on key national and international news stories.",
+    "category": null
+  },
+  {
+    "channelId": "ts243",
+    "channelName": "CNN International",
+    "start": "21:00",
+    "stop": "22:00",
+    "startTs": 1775336400000,
+    "stopTs": 1775340000000,
+    "title": "World Sport",
+    "desc": "A look into global athletic achievements, updates and standout moments.",
+    "category": null
+  },
+  {
+    "channelId": "ts243",
+    "channelName": "CNN International",
+    "start": "22:00",
+    "stop": "23:00",
+    "startTs": 1775340000000,
+    "stopTs": 1775343600000,
+    "title": "CNN Newsroom Saturday",
+    "desc": "The presenters give an update on the latest news updates from around the world.",
+    "category": null
+  },
+  {
+    "channelId": "ts243",
+    "channelName": "CNN International",
+    "start": "23:00",
+    "stop": "00:00",
+    "startTs": 1775343600000,
+    "stopTs": 1775347200000,
+    "title": "CNN Newsroom Saturday",
+    "desc": "The presenters give an update on the latest news updates from around the world.",
+    "category": null
+  },
+  {
+    "channelId": "ts243",
+    "channelName": "CNN International",
+    "start": "00:00",
+    "stop": "01:00",
+    "startTs": 1775347200000,
+    "stopTs": 1775350800000,
+    "title": "Smerconish",
+    "desc": "Michael Smerconish discusses the latest news stories and interviews people about the same.",
+    "category": null
+  },
+  {
+    "channelId": "ts243",
+    "channelName": "CNN International",
+    "start": "01:00",
+    "stop": "04:00",
+    "startTs": 1775350800000,
+    "stopTs": 1775361600000,
+    "title": "World Sport",
+    "desc": "A look into global athletic achievements, updates and standout moments.",
+    "category": null
+  },
+  {
+    "channelId": "ts243",
+    "channelName": "CNN International",
+    "start": "04:00",
+    "stop": "04:30",
+    "startTs": 1775361600000,
+    "stopTs": 1775363400000,
+    "title": "CNN Newsroom",
+    "desc": "The host shares the latest news stories on key issues in the US and worldwide.",
+    "category": null
+  },
+  {
+    "channelId": "ts243",
+    "channelName": "CNN International",
+    "start": "04:30",
+    "stop": "05:00",
+    "startTs": 1775363400000,
+    "stopTs": 1775365200000,
+    "title": "World Sport",
+    "desc": "A look into global athletic achievements, updates and standout moments.",
+    "category": null
+  },
+  {
+    "channelId": "ts243",
+    "channelName": "CNN International",
+    "start": "05:00",
+    "stop": "06:00",
+    "startTs": 1775365200000,
+    "stopTs": 1775368800000,
+    "title": "CNN Newsroom",
+    "desc": "The host shares the latest news stories on key issues in the US and worldwide.",
+    "category": null
+  },
+  {
+    "channelId": "ts243",
+    "channelName": "CNN International",
+    "start": "06:00",
+    "stop": "07:00",
+    "startTs": 1775368800000,
+    "stopTs": 1775372400000,
+    "title": "CNN Newsroom",
+    "desc": "The host shares the latest news stories on key issues in the US and worldwide.",
+    "category": null
+  },
+  {
+    "channelId": "ts243",
+    "channelName": "CNN International",
+    "start": "07:00",
+    "stop": "08:00",
+    "startTs": 1775372400000,
+    "stopTs": 1775376000000,
+    "title": "CNN Newsroom",
+    "desc": "The host shares the latest news stories on key issues in the US and worldwide.",
+    "category": null
+  },
+  {
+    "channelId": "ts243",
+    "channelName": "CNN International",
+    "start": "08:00",
+    "stop": "09:00",
+    "startTs": 1775376000000,
+    "stopTs": 1775379600000,
+    "title": "CNN Newsroom",
+    "desc": "The host shares the latest news stories on key issues in the US and worldwide.",
+    "category": null
+  },
+  {
+    "channelId": "ts243",
+    "channelName": "CNN International",
+    "start": "09:00",
+    "stop": "11:00",
+    "startTs": 1775379600000,
+    "stopTs": 1775386800000,
+    "title": "CNN Newsroom",
+    "desc": "The host shares the latest news stories on key issues in the US and worldwide.",
+    "category": null
+  },
+  {
+    "channelId": "ts243",
+    "channelName": "CNN International",
+    "start": "11:00",
+    "stop": "12:00",
+    "startTs": 1775386800000,
+    "stopTs": 1775390400000,
+    "title": "CNN This Morning Weekend",
+    "desc": "The hosts share the latest national and international news updates and developments.",
+    "category": null
+  },
+  {
+    "channelId": "ts243",
+    "channelName": "CNN International",
+    "start": "12:00",
+    "stop": "13:00",
+    "startTs": 1775390400000,
+    "stopTs": 1775394000000,
+    "title": "Inside Politics With Manu Raju",
+    "desc": "Host Manu Raju talks to experts and analysts to discuss major political news stories.",
+    "category": null
+  },
+  {
+    "channelId": "ts243",
+    "channelName": "CNN International",
+    "start": "13:00",
+    "stop": "14:00",
+    "startTs": 1775394000000,
+    "stopTs": 1775397600000,
+    "title": "State of the Union With Jake Tapper and Dana Bash",
+    "desc": "The hosts discuss critical domestic issues and global affairs with newsmakers.",
+    "category": null
+  },
+  {
+    "channelId": "ts243",
+    "channelName": "CNN International",
+    "start": "14:00",
+    "stop": "15:00",
+    "startTs": 1775397600000,
+    "stopTs": 1775401200000,
+    "title": "Fareed Zakaria GPS",
+    "desc": "Host Fareed Zakaria analyses international issues and foreign affairs.",
+    "category": null
+  },
+  {
+    "channelId": "ts243",
+    "channelName": "CNN International",
+    "start": "15:00",
+    "stop": "16:00",
+    "startTs": 1775401200000,
+    "stopTs": 1775404800000,
+    "title": "Inside Politics With Manu Raju",
+    "desc": "Host Manu Raju talks to experts and analysts to discuss major political news stories.",
+    "category": null
+  },
+  {
+    "channelId": "ts243",
+    "channelName": "CNN International",
+    "start": "16:00",
+    "stop": "18:00",
+    "startTs": 1775404800000,
+    "stopTs": 1775412000000,
+    "title": "World Sport",
+    "desc": "A look into global athletic achievements, updates and standout moments.",
+    "category": null
+  },
+  {
+    "channelId": "ts243",
+    "channelName": "CNN International",
+    "start": "18:00",
+    "stop": "19:00",
+    "startTs": 1775412000000,
+    "stopTs": 1775415600000,
+    "title": "CNN Newsroom Sunday",
+    "desc": "Presenting an in-depth coverage of the week's biggest stories from all over the world.",
+    "category": null
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "channelId": "ts824",
+    "channelName": "Power TV",
+    "start": "18:30",
+    "stop": "19:00",
+    "startTs": 1775413800000,
+    "stopTs": 1775415600000,
+    "title": "Nanna Haadu",
+    "desc": "The host talks to various musical artists about their work and professional journey.",
+    "category": null
+  },
+  {
+    "channelId": "ts824",
+    "channelName": "Power TV",
+    "start": "19:00",
+    "stop": "19:30",
+    "startTs": 1775415600000,
+    "stopTs": 1775417400000,
+    "title": "Power Focus",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts824",
+    "channelName": "Power TV",
+    "start": "19:30",
+    "stop": "20:00",
+    "startTs": 1775417400000,
+    "stopTs": 1775419200000,
+    "title": "Kannada Kasturi",
+    "desc": "Bringing the best in television.",
+    "category": null
+  }
+]

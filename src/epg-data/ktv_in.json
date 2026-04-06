@@ -1,0 +1,101 @@
+[
+  {
+    "channelId": "ts380",
+    "channelName": "KTV HD",
+    "start": "20:00",
+    "stop": "22:30",
+    "startTs": 1775332800000,
+    "stopTs": 1775341800000,
+    "title": "Athai Magal Rathiname",
+    "desc": "The film revolves around Pandiamma and Munyandi's troubled love story.",
+    "category": null
+  },
+  {
+    "channelId": "ts380",
+    "channelName": "KTV HD",
+    "start": "22:30",
+    "stop": "00:30",
+    "startTs": 1775341800000,
+    "stopTs": 1775349000000,
+    "title": "Veettai Paru Nattai Paru",
+    "desc": "A retired soldier is torn between his two sons who support opposing political parties.",
+    "category": null
+  },
+  {
+    "channelId": "ts380",
+    "channelName": "KTV HD",
+    "start": "00:30",
+    "stop": "01:30",
+    "startTs": 1775349000000,
+    "stopTs": 1775352600000,
+    "title": "Teleshopping",
+    "desc": "The host highlights the features of a variety of products for purchase.",
+    "category": null
+  },
+  {
+    "channelId": "ts380",
+    "channelName": "KTV HD",
+    "start": "01:30",
+    "stop": "04:30",
+    "startTs": 1775352600000,
+    "stopTs": 1775363400000,
+    "title": "7G Rainbow Colony",
+    "desc": "Kadhir, a jobless youth, falls in love with and pursues Anita, his neighbour.",
+    "category": null
+  },
+  {
+    "channelId": "ts380",
+    "channelName": "KTV HD",
+    "start": "04:30",
+    "stop": "07:30",
+    "startTs": 1775363400000,
+    "stopTs": 1775374200000,
+    "title": "Kadhalan",
+    "desc": "A powerful governor tries to end a love affair between his daughter and a college student.",
+    "category": null
+  },
+  {
+    "channelId": "ts380",
+    "channelName": "KTV HD",
+    "start": "07:30",
+    "stop": "10:30",
+    "startTs": 1775374200000,
+    "stopTs": 1775385000000,
+    "title": "Anjaan",
+    "desc": "Krishna travels to Mumbai to look for his missing brother Raju and learns the truth.",
+    "category": null
+  },
+  {
+    "channelId": "ts380",
+    "channelName": "KTV HD",
+    "start": "10:30",
+    "stop": "13:30",
+    "startTs": 1775385000000,
+    "stopTs": 1775395800000,
+    "title": "Vaanchinathan",
+    "desc": "An honest policeman metes out vigilante justice to clever criminals unpunished by law yet.",
+    "category": null
+  },
+  {
+    "channelId": "ts380",
+    "channelName": "KTV HD",
+    "start": "13:30",
+    "stop": "17:00",
+    "startTs": 1775395800000,
+    "stopTs": 1775408400000,
+    "title": "Aadukalam",
+    "desc": "Karuppu turns against his mentor after winning a rooster fight without his support.",
+    "category": null
+  },
+  {
+    "channelId": "ts380",
+    "channelName": "KTV HD",
+    "start": "17:00",
+    "stop": "20:00",
+    "startTs": 1775408400000,
+    "stopTs": 1775419200000,
+    "title": "Hello Naan Pei Pesuran",
+    "desc": "A man steals a mobile of an accident victim without knowing that he will face a mysterious incident.",
+    "category": null
+  }
+]

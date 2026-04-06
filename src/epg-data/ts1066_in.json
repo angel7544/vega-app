@@ -1,0 +1,178 @@
+[
+  {
+    "channelId": "ts1066",
+    "channelName": "ts1066",
+    "start": "18:30",
+    "stop": "22:30",
+    "startTs": 1775327400000,
+    "stopTs": 1775341800000,
+    "title": "Doraemon",
+    "desc": "Doraemon, a robot cat, travels back in time to take care of a young boy named Nobita Nobi. S01 E348.",
+    "category": null
+  },
+  {
+    "channelId": "ts1066",
+    "channelName": "ts1066",
+    "start": "22:30",
+    "stop": "00:30",
+    "startTs": 1775341800000,
+    "stopTs": 1775349000000,
+    "title": "Doraemon",
+    "desc": "Doraemon, a robot cat, travels back in time to take care of a young boy named Nobita Nobi. S01 E348.",
+    "category": null
+  },
+  {
+    "channelId": "ts1066",
+    "channelName": "ts1066",
+    "start": "00:30",
+    "stop": "01:30",
+    "startTs": 1775349000000,
+    "stopTs": 1775352600000,
+    "title": "PJ Masks",
+    "desc": "Amaya, Connor and Greg transform into superheroes at night and fight villains.",
+    "category": null
+  },
+  {
+    "channelId": "ts1066",
+    "channelName": "ts1066",
+    "start": "01:30",
+    "stop": "03:00",
+    "startTs": 1775352600000,
+    "stopTs": 1775358000000,
+    "title": "PJ Masks",
+    "desc": "Amaya, Connor and Greg transform into superheroes at night and fight villains.",
+    "category": null
+  },
+  {
+    "channelId": "ts1066",
+    "channelName": "ts1066",
+    "start": "03:00",
+    "stop": "03:30",
+    "startTs": 1775358000000,
+    "stopTs": 1775359800000,
+    "title": "PJ Masks",
+    "desc": "Amaya, Connor and Greg transform into superheroes at night and fight villains.",
+    "category": null
+  },
+  {
+    "channelId": "ts1066",
+    "channelName": "ts1066",
+    "start": "03:30",
+    "stop": "05:30",
+    "startTs": 1775359800000,
+    "stopTs": 1775367000000,
+    "title": "Mickey Mouse Clubhouse",
+    "desc": "Mickey Mouse and his clubhouse friends go on educational adventures and learn fun lessons.",
+    "category": null
+  },
+  {
+    "channelId": "ts1066",
+    "channelName": "ts1066",
+    "start": "05:30",
+    "stop": "06:00",
+    "startTs": 1775367000000,
+    "stopTs": 1775368800000,
+    "title": "Doraemon",
+    "desc": "Doraemon, a robot cat, travels back in time to take care of a young boy named Nobita Nobi. S01 E348.",
+    "category": null
+  },
+  {
+    "channelId": "ts1066",
+    "channelName": "ts1066",
+    "start": "06:00",
+    "stop": "08:00",
+    "startTs": 1775368800000,
+    "stopTs": 1775376000000,
+    "title": "Doraemon",
+    "desc": "Doraemon, a robot cat, travels back in time to take care of a young boy named Nobita Nobi. S01 E348.",
+    "category": null
+  },
+  {
+    "channelId": "ts1066",
+    "channelName": "ts1066",
+    "start": "08:00",
+    "stop": "08:30",
+    "startTs": 1775376000000,
+    "stopTs": 1775377800000,
+    "title": "Miraculous: Tales of Ladybug & Cat Noir",
+    "desc": "Marinette's takes an impromptu trip to her homeland, unaware of the challenges ahead.",
+    "category": null
+  },
+  {
+    "channelId": "ts1066",
+    "channelName": "ts1066",
+    "start": "08:30",
+    "stop": "10:00",
+    "startTs": 1775377800000,
+    "stopTs": 1775383200000,
+    "title": "Miraculous: Tales of Ladybug & Cat Noir",
+    "desc": "Marinette's takes an impromptu trip to her homeland, unaware of the challenges ahead.",
+    "category": null
+  },
+  {
+    "channelId": "ts1066",
+    "channelName": "ts1066",
+    "start": "10:00",
+    "stop": "11:00",
+    "startTs": 1775383200000,
+    "stopTs": 1775386800000,
+    "title": "PJ Masks",
+    "desc": "Amaya, Connor and Greg transform into superheroes at night and fight villains.",
+    "category": null
+  },
+  {
+    "channelId": "ts1066",
+    "channelName": "ts1066",
+    "start": "11:00",
+    "stop": "11:30",
+    "startTs": 1775386800000,
+    "stopTs": 1775388600000,
+    "title": "Mickey Mouse Clubhouse",
+    "desc": "Mickey Mouse and his clubhouse friends go on educational adventures and learn fun lessons.",
+    "category": null
+  },
+  {
+    "channelId": "ts1066",
+    "channelName": "ts1066",
+    "start": "11:30",
+    "stop": "13:00",
+    "startTs": 1775388600000,
+    "stopTs": 1775394000000,
+    "title": "Mickey Mouse Clubhouse",
+    "desc": "Mickey Mouse and his clubhouse friends go on educational adventures and learn fun lessons.",
+    "category": null
+  },
+  {
+    "channelId": "ts1066",
+    "channelName": "ts1066",
+    "start": "13:00",
+    "stop": "16:00",
+    "startTs": 1775394000000,
+    "stopTs": 1775404800000,
+    "title": "Doraemon",
+    "desc": "Doraemon, a robot cat, travels back in time to take care of a young boy named Nobita Nobi. S01 E348.",
+    "category": null
+  },
+  {
+    "channelId": "ts1066",
+    "channelName": "ts1066",
+    "start": "16:00",
+    "stop": "17:30",
+    "startTs": 1775404800000,
+    "stopTs": 1775410200000,
+    "title": "PJ Masks",
+    "desc": "Amaya, Connor and Greg transform into superheroes at night and fight villains.",
+    "category": null
+  },
+  {
+    "channelId": "ts1066",
+    "channelName": "ts1066",
+    "start": "17:30",
+    "stop": "18:30",
+    "startTs": 1775410200000,
+    "stopTs": 1775413800000,
+    "title": "Doraemon",
+    "desc": "Doraemon, a robot cat, travels back in time to take care of a young boy named Nobita Nobi. S01 E348.",
+    "category": null
+  }
+]

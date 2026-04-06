@@ -1,0 +1,24 @@
+[
+  {
+    "channelId": "ts593",
+    "channelName": "ts593",
+    "start": "19:07",
+    "stop": "20:32",
+    "startTs": 1775416020000,
+    "stopTs": 1775421120000,
+    "title": "Ghost Shark",
+    "desc": "A great white shark returns from the dead to seek vengeance on the town of Smallport.",
+    "category": null
+  },
+  {
+    "channelId": "ts593",
+    "channelName": "ts593",
+    "start": "15:30",
+    "stop": "17:15",
+    "startTs": 1775489400000,
+    "stopTs": 1775495700000,
+    "title": "The Proposal",
+    "desc": "A high-powered editor forces her young assistant to marry her in order to avoid deportation.",
+    "category": null
+  }
+]

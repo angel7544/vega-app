@@ -1,0 +1,101 @@
+[
+  {
+    "channelId": "ts1216",
+    "channelName": "ts1216",
+    "start": "18:30",
+    "stop": "21:30",
+    "startTs": 1775327400000,
+    "stopTs": 1775338200000,
+    "title": "Entertainment",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts1216",
+    "channelName": "ts1216",
+    "start": "21:30",
+    "stop": "00:30",
+    "startTs": 1775338200000,
+    "stopTs": 1775349000000,
+    "title": "Entertainment",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts1216",
+    "channelName": "ts1216",
+    "start": "00:30",
+    "stop": "03:30",
+    "startTs": 1775349000000,
+    "stopTs": 1775359800000,
+    "title": "Entertainment",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts1216",
+    "channelName": "ts1216",
+    "start": "03:30",
+    "stop": "06:30",
+    "startTs": 1775359800000,
+    "stopTs": 1775370600000,
+    "title": "Entertainment",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts1216",
+    "channelName": "ts1216",
+    "start": "06:30",
+    "stop": "09:30",
+    "startTs": 1775370600000,
+    "stopTs": 1775381400000,
+    "title": "Entertainment",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts1216",
+    "channelName": "ts1216",
+    "start": "09:30",
+    "stop": "12:00",
+    "startTs": 1775381400000,
+    "stopTs": 1775390400000,
+    "title": "Entertainment",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts1216",
+    "channelName": "ts1216",
+    "start": "12:00",
+    "stop": "12:30",
+    "startTs": 1775390400000,
+    "stopTs": 1775392200000,
+    "title": "Entertainment",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts1216",
+    "channelName": "ts1216",
+    "start": "12:30",
+    "stop": "15:30",
+    "startTs": 1775392200000,
+    "stopTs": 1775403000000,
+    "title": "Entertainment",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts1216",
+    "channelName": "ts1216",
+    "start": "15:30",
+    "stop": "18:30",
+    "startTs": 1775403000000,
+    "stopTs": 1775413800000,
+    "title": "Entertainment",
+    "desc": "Bringing the best in television.",
+    "category": null
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "channelId": "ts1800",
+    "channelName": "ts1800",
+    "start": "18:30",
+    "stop": "04:30",
+    "startTs": 1775327400000,
+    "stopTs": 1775363400000,
+    "title": "Hindi Sports Mega Pack",
+    "desc": "Hindi Sports Mega Pack",
+    "category": null
+  },
+  {
+    "channelId": "ts1800",
+    "channelName": "ts1800",
+    "start": "04:30",
+    "stop": "08:30",
+    "startTs": 1775363400000,
+    "stopTs": 1775377800000,
+    "title": "Hindi Sports Mega Pack",
+    "desc": "Hindi Sports Mega Pack",
+    "category": null
+  },
+  {
+    "channelId": "ts1800",
+    "channelName": "ts1800",
+    "start": "08:30",
+    "stop": "09:30",
+    "startTs": 1775377800000,
+    "stopTs": 1775381400000,
+    "title": "Hindi Sports Mega Pack",
+    "desc": "Hindi Sports Mega Pack",
+    "category": null
+  },
+  {
+    "channelId": "ts1800",
+    "channelName": "ts1800",
+    "start": "09:30",
+    "stop": "10:30",
+    "startTs": 1775381400000,
+    "stopTs": 1775385000000,
+    "title": "Hindi Sports Mega Pack",
+    "desc": "Hindi Sports Mega Pack",
+    "category": null
+  },
+  {
+    "channelId": "ts1800",
+    "channelName": "ts1800",
+    "start": "10:30",
+    "stop": "11:30",
+    "startTs": 1775385000000,
+    "stopTs": 1775388600000,
+    "title": "Hindi Sports Mega Pack",
+    "desc": "Hindi Sports Mega Pack",
+    "category": null
+  },
+  {
+    "channelId": "ts1800",
+    "channelName": "ts1800",
+    "start": "11:30",
+    "stop": "12:30",
+    "startTs": 1775388600000,
+    "stopTs": 1775392200000,
+    "title": "Hindi Sports Mega Pack",
+    "desc": "Hindi Sports Mega Pack",
+    "category": null
+  },
+  {
+    "channelId": "ts1800",
+    "channelName": "ts1800",
+    "start": "12:30",
+    "stop": "15:30",
+    "startTs": 1775392200000,
+    "stopTs": 1775403000000,
+    "title": "Hindi Sports Mega Pack",
+    "desc": "Hindi Sports Mega Pack",
+    "category": null
+  },
+  {
+    "channelId": "ts1800",
+    "channelName": "ts1800",
+    "start": "15:30",
+    "stop": "18:30",
+    "startTs": 1775403000000,
+    "stopTs": 1775413800000,
+    "title": "Hindi Sports Mega Pack",
+    "desc": "Hindi Sports Mega Pack",
+    "category": null
+  },
+  {
+    "channelId": "ts1800",
+    "channelName": "ts1800",
+    "start": "18:30",
+    "stop": "04:30",
+    "startTs": 1775413800000,
+    "stopTs": 1775449800000,
+    "title": "Hindi Sports Mega Pack",
+    "desc": "Hindi Sports Mega Pack",
+    "category": null
+  }
+]

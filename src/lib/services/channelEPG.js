@@ -23,6 +23,29 @@ function cleanName(name) {
 }
 
 /**
+ * Provider-specific EPG ID formatting.
+ * JiaTV: ID as is
+ * TataPlay: ts(id)
+ * Zee5: 0-9-(id)
+ * SunNxt: sun(id)
+ * SonyLiv: sony(id)
+ */
+function getProviderFormattedIds(rawId) {
+    if (!rawId) return [];
+    
+    // Clean ID: remove any common prefixes first to avoid double prefixing
+    const cleanId = rawId.toLowerCase().replace(/^(ts|sun|sony|0-9-)/, '');
+    
+    return [
+        cleanId,               // JioTV / Raw
+        `ts${cleanId}`,        // TataPlay
+        `0-9-${cleanId}`,      // Zee5
+        `sun${cleanId}`,       // SunNxt
+        `sony${cleanId}`       // SonyLiv
+    ];
+}
+
+/**
  * Fetch channel schedule (up to 15 items) directly from GitHub JSON repository.
  * Bypasses XML EPG guides for high-performance, screen-specific schedules.
  */
@@ -37,9 +60,13 @@ export async function fetchChannelSchedule(channel, countryCode = 'in') {
     const targetTId = (channel.tvgId || '').toLowerCase().replace(/[^a-z0-9_-]/gi, '_');
     const targetNId = clean.replace(/[^a-z0-9_-]/gi, '_');
 
+    // Generate provider-specific variations for tvgId
+    const providerIds = getProviderFormattedIds(channel.tvgId);
+
     const baseCandidates = [
         targetRId, 
         targetTId, 
+        ...providerIds,
         targetNId,
         targetNId.replace(/_/g, ''), // zeecinema
         clean.replace(/\s+/g, ''), // zeecinema

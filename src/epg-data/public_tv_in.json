@@ -1,0 +1,24 @@
+[
+  {
+    "channelId": "ts33",
+    "channelName": "Public TV",
+    "start": "18:30",
+    "stop": "19:00",
+    "startTs": 1775413800000,
+    "stopTs": 1775415600000,
+    "title": "Big Bulletin",
+    "desc": "The anchor delivers the latest news stories and important updates affecting the nation.",
+    "category": null
+  },
+  {
+    "channelId": "ts33",
+    "channelName": "Public TV",
+    "start": "19:00",
+    "stop": "00:30",
+    "startTs": 1775415600000,
+    "stopTs": 1775435400000,
+    "title": "Special Time",
+    "desc": "The host presents a special report of the latest news stories from around the region.",
+    "category": null
+  }
+]

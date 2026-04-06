@@ -1,0 +1,233 @@
+[
+  {
+    "channelId": "ts330",
+    "channelName": "DD Madhya Pradesh",
+    "start": "18:30",
+    "stop": "19:00",
+    "startTs": 1775327400000,
+    "stopTs": 1775329200000,
+    "title": "Krishi Darshan",
+    "desc": "The host provides a detailed report pertaining to the field of agriculture from across the nation.",
+    "category": null
+  },
+  {
+    "channelId": "ts330",
+    "channelName": "DD Madhya Pradesh",
+    "start": "19:00",
+    "stop": "19:30",
+    "startTs": 1775329200000,
+    "stopTs": 1775331000000,
+    "title": "Tarane Purane",
+    "desc": "A compilation of some of the most famous old Bollywood songs are played.",
+    "category": null
+  },
+  {
+    "channelId": "ts330",
+    "channelName": "DD Madhya Pradesh",
+    "start": "19:30",
+    "stop": "20:00",
+    "startTs": 1775331000000,
+    "stopTs": 1775332800000,
+    "title": "Divyang",
+    "desc": "The host gives insight into initiatives to improve the lives of people with disabilities.",
+    "category": null
+  },
+  {
+    "channelId": "ts330",
+    "channelName": "DD Madhya Pradesh",
+    "start": "20:00",
+    "stop": "21:00",
+    "startTs": 1775332800000,
+    "stopTs": 1775336400000,
+    "title": "Namaskar MP",
+    "desc": "The host converses with celebrity guests on various national issues of Madhya Pradesh.",
+    "category": null
+  },
+  {
+    "channelId": "ts330",
+    "channelName": "DD Madhya Pradesh",
+    "start": "21:00",
+    "stop": "22:00",
+    "startTs": 1775336400000,
+    "stopTs": 1775340000000,
+    "title": "Fit Rahe Sada",
+    "desc": "The host presents various health tips and offers suggestions on how to lead a fit and balanced life.",
+    "category": null
+  },
+  {
+    "channelId": "ts330",
+    "channelName": "DD Madhya Pradesh",
+    "start": "22:00",
+    "stop": "22:30",
+    "startTs": 1775340000000,
+    "stopTs": 1775341800000,
+    "title": "Fit Rahe Sada",
+    "desc": "The host presents various health tips and offers suggestions on how to lead a fit and balanced life.",
+    "category": null
+  },
+  {
+    "channelId": "ts330",
+    "channelName": "DD Madhya Pradesh",
+    "start": "22:30",
+    "stop": "23:00",
+    "startTs": 1775341800000,
+    "stopTs": 1775343600000,
+    "title": "Wah Kya Taste Hai",
+    "desc": "The host interacts with chefs from famous restaurants and showcases their recipes.",
+    "category": null
+  },
+  {
+    "channelId": "ts330",
+    "channelName": "DD Madhya Pradesh",
+    "start": "23:00",
+    "stop": "23:30",
+    "startTs": 1775343600000,
+    "stopTs": 1775345400000,
+    "title": "Gora",
+    "desc": "Gora battles inner turmoil and societal divides when he falls for Sucharita.",
+    "category": null
+  },
+  {
+    "channelId": "ts330",
+    "channelName": "DD Madhya Pradesh",
+    "start": "23:30",
+    "stop": "00:00",
+    "startTs": 1775345400000,
+    "stopTs": 1775347200000,
+    "title": "Khajuraho",
+    "desc": "The Khajuraho Group of Monuments is a cluster of Hindu and Jain temples in Madhya Pradesh.",
+    "category": null
+  },
+  {
+    "channelId": "ts330",
+    "channelName": "DD Madhya Pradesh",
+    "start": "00:00",
+    "stop": "00:30",
+    "startTs": 1775347200000,
+    "stopTs": 1775349000000,
+    "title": "Krishi Darshan",
+    "desc": "The host provides a detailed report pertaining to the field of agriculture from across the nation.",
+    "category": null
+  },
+  {
+    "channelId": "ts330",
+    "channelName": "DD Madhya Pradesh",
+    "start": "00:30",
+    "stop": "12:30",
+    "startTs": 1775349000000,
+    "stopTs": 1775392200000,
+    "title": "Aaj Ka Mudda",
+    "desc": "The host conducts discussion with experts who provide their opinions on important issues.",
+    "category": null
+  },
+  {
+    "channelId": "ts330",
+    "channelName": "DD Madhya Pradesh",
+    "start": "12:30",
+    "stop": "13:00",
+    "startTs": 1775392200000,
+    "stopTs": 1775394000000,
+    "title": "Krishi Darshan",
+    "desc": "The host provides a detailed report pertaining to the field of agriculture from across the nation.",
+    "category": null
+  },
+  {
+    "channelId": "ts330",
+    "channelName": "DD Madhya Pradesh",
+    "start": "13:00",
+    "stop": "13:30",
+    "startTs": 1775394000000,
+    "stopTs": 1775395800000,
+    "title": "News",
+    "desc": "The host presents the latest updates pertaining to politics, economic and social news.",
+    "category": null
+  },
+  {
+    "channelId": "ts330",
+    "channelName": "DD Madhya Pradesh",
+    "start": "13:30",
+    "stop": "14:30",
+    "startTs": 1775395800000,
+    "stopTs": 1775399400000,
+    "title": "Aaj Ka Mudda",
+    "desc": "The host conducts discussion with experts who provide their opinions on important issues.",
+    "category": null
+  },
+  {
+    "channelId": "ts330",
+    "channelName": "DD Madhya Pradesh",
+    "start": "14:30",
+    "stop": "15:30",
+    "startTs": 1775399400000,
+    "stopTs": 1775403000000,
+    "title": "Rangoli",
+    "desc": "The host presents a compilation of popular Bollywood songs by talented artists.",
+    "category": null
+  },
+  {
+    "channelId": "ts330",
+    "channelName": "DD Madhya Pradesh",
+    "start": "15:30",
+    "stop": "16:00",
+    "startTs": 1775403000000,
+    "stopTs": 1775404800000,
+    "title": "Bhajju Shyam",
+    "desc": "The host delves into the life and works of Indian artist Bhajju Shyam.",
+    "category": null
+  },
+  {
+    "channelId": "ts330",
+    "channelName": "DD Madhya Pradesh",
+    "start": "16:00",
+    "stop": "16:30",
+    "startTs": 1775404800000,
+    "stopTs": 1775406600000,
+    "title": "Albele Haathon Ka Hunar",
+    "desc": "The host explores various local Indian arts and crafts and interacts with the artisans.",
+    "category": null
+  },
+  {
+    "channelId": "ts330",
+    "channelName": "DD Madhya Pradesh",
+    "start": "16:30",
+    "stop": "17:00",
+    "startTs": 1775406600000,
+    "stopTs": 1775408400000,
+    "title": "Sapne Suhane",
+    "desc": "Gunjan moves to a quiet town to live with her aunt after her mother's death.",
+    "category": null
+  },
+  {
+    "channelId": "ts330",
+    "channelName": "DD Madhya Pradesh",
+    "start": "17:00",
+    "stop": "17:30",
+    "startTs": 1775408400000,
+    "stopTs": 1775410200000,
+    "title": "Air Hostess",
+    "desc": "The glamorous cabin crew of an airline faces the wrath of the politics in the industry.",
+    "category": null
+  },
+  {
+    "channelId": "ts330",
+    "channelName": "DD Madhya Pradesh",
+    "start": "17:30",
+    "stop": "18:00",
+    "startTs": 1775410200000,
+    "stopTs": 1775412000000,
+    "title": "Nargis",
+    "desc": "Nargis's world turns upside down when she learns the truth about her biological mother.",
+    "category": null
+  },
+  {
+    "channelId": "ts330",
+    "channelName": "DD Madhya Pradesh",
+    "start": "18:00",
+    "stop": "18:30",
+    "startTs": 1775412000000,
+    "stopTs": 1775413800000,
+    "title": "Savitri Ek Kranti",
+    "desc": "Savitri, a trailblazing young girl, rises to become a pioneering social reformer.",
+    "category": null
+  }
+]

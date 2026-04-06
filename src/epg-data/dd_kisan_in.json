@@ -1,0 +1,35 @@
+[
+  {
+    "channelId": "ts326",
+    "channelName": "DD Kisan",
+    "start": "18:30",
+    "stop": "19:00",
+    "startTs": 1775413800000,
+    "stopTs": 1775415600000,
+    "title": "Nayi Soch",
+    "desc": "Nayi Soch",
+    "category": null
+  },
+  {
+    "channelId": "ts326",
+    "channelName": "DD Kisan",
+    "start": "19:00",
+    "stop": "19:30",
+    "startTs": 1775415600000,
+    "stopTs": 1775417400000,
+    "title": "Gaon Se",
+    "desc": "The host travels across the villages in rural India to discover many unknown stories.",
+    "category": null
+  },
+  {
+    "channelId": "ts326",
+    "channelName": "DD Kisan",
+    "start": "19:30",
+    "stop": "20:00",
+    "startTs": 1775417400000,
+    "stopTs": 1775419200000,
+    "title": "Hamari Pakshala",
+    "desc": ".",
+    "category": null
+  }
+]

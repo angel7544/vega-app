@@ -1,0 +1,35 @@
+[
+  {
+    "channelId": "ts1208",
+    "channelName": "Rajya 24",
+    "start": "18:30",
+    "stop": "19:00",
+    "startTs": 1775413800000,
+    "stopTs": 1775415600000,
+    "title": "Midnight Halchal",
+    "desc": "The host highlights updates on social, economic and political issues and current events.",
+    "category": null
+  },
+  {
+    "channelId": "ts1208",
+    "channelName": "Rajya 24",
+    "start": "19:00",
+    "stop": "19:30",
+    "startTs": 1775415600000,
+    "stopTs": 1775417400000,
+    "title": "Midnight Halchal",
+    "desc": "The host highlights updates on social, economic and political issues and current events.",
+    "category": null
+  },
+  {
+    "channelId": "ts1208",
+    "channelName": "Rajya 24",
+    "start": "19:30",
+    "stop": "20:00",
+    "startTs": 1775417400000,
+    "stopTs": 1775419200000,
+    "title": "Sara Dinara Halchal",
+    "desc": "The host provides a detailed report on matters concerning the nation and the world.",
+    "category": null
+  }
+]

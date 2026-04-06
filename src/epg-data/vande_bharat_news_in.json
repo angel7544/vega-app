@@ -1,0 +1,24 @@
+[
+  {
+    "channelId": "ts1246",
+    "channelName": "Vande Bharat News",
+    "start": "18:30",
+    "stop": "19:00",
+    "startTs": 1775413800000,
+    "stopTs": 1775415600000,
+    "title": "Commercial Advertisement",
+    "desc": "A range of products manufactured by popular brands can be bought from the comfort of home.",
+    "category": null
+  },
+  {
+    "channelId": "ts1246",
+    "channelName": "Vande Bharat News",
+    "start": "19:00",
+    "stop": "20:00",
+    "startTs": 1775415600000,
+    "stopTs": 1775419200000,
+    "title": "IST Slot News",
+    "desc": "The host presents a detailed report on the latest news and developments.",
+    "category": null
+  }
+]

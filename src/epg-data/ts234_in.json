@@ -1,0 +1,13 @@
+[
+  {
+    "channelId": "ts234",
+    "channelName": "ts234",
+    "start": "18:30",
+    "stop": "21:30",
+    "startTs": 1775413800000,
+    "stopTs": 1775424600000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  }
+]

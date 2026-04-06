@@ -1,0 +1,145 @@
+[
+  {
+    "channelId": "ts1413",
+    "channelName": "HIFF Movies",
+    "start": "18:30",
+    "stop": "21:30",
+    "startTs": 1775327400000,
+    "stopTs": 1775338200000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts1413",
+    "channelName": "HIFF Movies",
+    "start": "21:30",
+    "stop": "00:30",
+    "startTs": 1775338200000,
+    "stopTs": 1775349000000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts1413",
+    "channelName": "HIFF Movies",
+    "start": "00:30",
+    "stop": "01:30",
+    "startTs": 1775349000000,
+    "stopTs": 1775352600000,
+    "title": "Trailer Time",
+    "desc": "A comprehensive collection of trailers of recently released and upcoming movies.",
+    "category": null
+  },
+  {
+    "channelId": "ts1413",
+    "channelName": "HIFF Movies",
+    "start": "01:30",
+    "stop": "04:30",
+    "startTs": 1775352600000,
+    "stopTs": 1775363400000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts1413",
+    "channelName": "HIFF Movies",
+    "start": "04:30",
+    "stop": "07:30",
+    "startTs": 1775363400000,
+    "stopTs": 1775374200000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts1413",
+    "channelName": "HIFF Movies",
+    "start": "07:30",
+    "stop": "08:30",
+    "startTs": 1775374200000,
+    "stopTs": 1775377800000,
+    "title": "Trailer Time",
+    "desc": "A comprehensive collection of trailers of recently released and upcoming movies.",
+    "category": null
+  },
+  {
+    "channelId": "ts1413",
+    "channelName": "HIFF Movies",
+    "start": "08:30",
+    "stop": "11:30",
+    "startTs": 1775377800000,
+    "stopTs": 1775388600000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts1413",
+    "channelName": "HIFF Movies",
+    "start": "11:30",
+    "stop": "12:30",
+    "startTs": 1775388600000,
+    "stopTs": 1775392200000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts1413",
+    "channelName": "HIFF Movies",
+    "start": "12:30",
+    "stop": "13:30",
+    "startTs": 1775392200000,
+    "stopTs": 1775395800000,
+    "title": "Trailer Time",
+    "desc": "A comprehensive collection of trailers of recently released and upcoming movies.",
+    "category": null
+  },
+  {
+    "channelId": "ts1413",
+    "channelName": "HIFF Movies",
+    "start": "13:30",
+    "stop": "14:30",
+    "startTs": 1775395800000,
+    "stopTs": 1775399400000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts1413",
+    "channelName": "HIFF Movies",
+    "start": "14:30",
+    "stop": "15:30",
+    "startTs": 1775399400000,
+    "stopTs": 1775403000000,
+    "title": "The Dharmender Dangi Show",
+    "desc": "An experts revisits iconic Indian movies and delves deeper into its technicalities.",
+    "category": null
+  },
+  {
+    "channelId": "ts1413",
+    "channelName": "HIFF Movies",
+    "start": "15:30",
+    "stop": "18:30",
+    "startTs": 1775403000000,
+    "stopTs": 1775413800000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts1413",
+    "channelName": "HIFF Movies",
+    "start": "18:30",
+    "stop": "21:30",
+    "startTs": 1775413800000,
+    "stopTs": 1775424600000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  }
+]

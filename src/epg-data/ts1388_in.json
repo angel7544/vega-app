@@ -1,0 +1,24 @@
+[
+  {
+    "channelId": "ts1388",
+    "channelName": "UTV",
+    "start": "18:30",
+    "stop": "19:00",
+    "startTs": 1775413800000,
+    "stopTs": 1775415600000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  },
+  {
+    "channelId": "ts1388",
+    "channelName": "UTV",
+    "start": "19:00",
+    "stop": "21:00",
+    "startTs": 1775415600000,
+    "stopTs": 1775422800000,
+    "title": "Movie",
+    "desc": "Bringing the best in television.",
+    "category": null
+  }
+]
