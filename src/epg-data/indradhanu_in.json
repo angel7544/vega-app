@@ -1,0 +1,112 @@
+[
+  {
+    "start": "08:30",
+    "stop": "12:30",
+    "channel": "Indradhanu.in",
+    "channelId": "Indradhanu.in",
+    "channelName": "Indradhanu",
+    "startTs": 1775464200000,
+    "stopTs": 1775478600000,
+    "title": "News",
+    "desc": "The hosts shed light on the latest and most important news, developments and current affairs taking place all around the world."
+  },
+  {
+    "start": "12:30",
+    "stop": "16:30",
+    "channel": "Indradhanu.in",
+    "channelId": "Indradhanu.in",
+    "channelName": "Indradhanu",
+    "startTs": 1775478600000,
+    "stopTs": 1775493000000,
+    "title": "News",
+    "desc": "The hosts shed light on the latest and most important news, developments and current affairs taking place all around the world."
+  },
+  {
+    "start": "16:30",
+    "stop": "18:29",
+    "channel": "Indradhanu.in",
+    "channelId": "Indradhanu.in",
+    "channelName": "Indradhanu",
+    "startTs": 1775493000000,
+    "stopTs": 1775500199000,
+    "title": "News",
+    "desc": "The hosts shed light on the latest and most important news, developments and current affairs taking place all around the world."
+  },
+  {
+    "start": "18:30",
+    "stop": "20:30",
+    "channel": "Indradhanu.in",
+    "channelId": "Indradhanu.in",
+    "channelName": "Indradhanu",
+    "startTs": 1775500200000,
+    "stopTs": 1775507400000,
+    "title": "News",
+    "desc": "The hosts shed light on the latest and most important news, developments and current affairs taking place all around the world."
+  },
+  {
+    "start": "20:30",
+    "stop": "00:30",
+    "channel": "Indradhanu.in",
+    "channelId": "Indradhanu.in",
+    "channelName": "Indradhanu",
+    "startTs": 1775507400000,
+    "stopTs": 1775521800000,
+    "title": "News",
+    "desc": "The hosts shed light on the latest and most important news, developments and current affairs taking place all around the world."
+  },
+  {
+    "start": "00:30",
+    "stop": "04:30",
+    "channel": "Indradhanu.in",
+    "channelId": "Indradhanu.in",
+    "channelName": "Indradhanu",
+    "startTs": 1775521800000,
+    "stopTs": 1775536200000,
+    "title": "News",
+    "desc": "The hosts shed light on the latest and most important news, developments and current affairs taking place all around the world."
+  },
+  {
+    "start": "04:30",
+    "stop": "08:30",
+    "channel": "Indradhanu.in",
+    "channelId": "Indradhanu.in",
+    "channelName": "Indradhanu",
+    "startTs": 1775536200000,
+    "stopTs": 1775550600000,
+    "title": "News",
+    "desc": "The hosts shed light on the latest and most important news, developments and current affairs taking place all around the world."
+  },
+  {
+    "start": "08:30",
+    "stop": "12:30",
+    "channel": "Indradhanu.in",
+    "channelId": "Indradhanu.in",
+    "channelName": "Indradhanu",
+    "startTs": 1775550600000,
+    "stopTs": 1775565000000,
+    "title": "News",
+    "desc": "The hosts shed light on the latest and most important news, developments and current affairs taking place all around the world."
+  },
+  {
+    "start": "12:30",
+    "stop": "16:30",
+    "channel": "Indradhanu.in",
+    "channelId": "Indradhanu.in",
+    "channelName": "Indradhanu",
+    "startTs": 1775565000000,
+    "stopTs": 1775579400000,
+    "title": "News",
+    "desc": "The hosts shed light on the latest and most important news, developments and current affairs taking place all around the world."
+  },
+  {
+    "start": "16:30",
+    "stop": "18:29",
+    "channel": "Indradhanu.in",
+    "channelId": "Indradhanu.in",
+    "channelName": "Indradhanu",
+    "startTs": 1775579400000,
+    "stopTs": 1775586599000,
+    "title": "News",
+    "desc": "The hosts shed light on the latest and most important news, developments and current affairs taking place all around the world."
+  }
+]
