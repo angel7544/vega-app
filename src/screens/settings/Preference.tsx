@@ -124,7 +124,9 @@ const Preferences = () => {
     customEpgUrl,
     setCustomEpgUrl,
     epgRepoUrl,
-    setEpgRepoUrl
+    setEpgRepoUrl,
+    epgTimeOffset,
+    setEpgTimeOffset
   } = usePlayerStore();
 
   const [tempEpgUrl, setTempEpgUrl] = useState(customEpgUrl || '');
@@ -730,6 +732,48 @@ const Preferences = () => {
                 >
                    <MaterialCommunityIcons name="refresh" size={14} color="#ef4444" />
                    <Text className="text-red-500 text-[10px] font-black uppercase tracking-widest ml-1">Reset to Default JSON Repo</Text>
+                </TouchableOpacity>
+              )}
+            </View>
+
+            <View className="h-[1px] bg-white/5 my-2 mb-4" />
+
+            {/* EPG Time Shift Selector */}
+            <View className="mb-4">
+              <View className="flex-row items-center justify-between">
+                <View className="flex-1 mr-4">
+                  <Text className={`${mode === 'dark' ? 'text-gray-400' : 'text-gray-500'} text-[10px] mb-2 uppercase font-black tracking-widest ml-1`}>EPG Time Shift (Hours)</Text>
+                  <Text className="text-[10px] text-gray-500 font-bold uppercase tracking-widest ml-1">
+                    Adjust if show times are misaligned
+                  </Text>
+                </View>
+                <View className="flex-row items-center bg-white/5 border border-white/10 rounded-xl px-2 py-1">
+                  <TouchableOpacity 
+                    onPress={() => setEpgTimeOffset(epgTimeOffset - 0.5)}
+                    className="p-2"
+                  >
+                    <MaterialCommunityIcons name="minus" size={20} color={primary} />
+                  </TouchableOpacity>
+                  <View className="px-4 min-w-[60px] items-center">
+                    <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-black text-sm`}>
+                      {epgTimeOffset > 0 ? '+' : ''}{epgTimeOffset}h
+                    </Text>
+                  </View>
+                  <TouchableOpacity 
+                    onPress={() => setEpgTimeOffset(epgTimeOffset + 0.5)}
+                    className="p-2"
+                  >
+                    <MaterialCommunityIcons name="plus" size={20} color={primary} />
+                  </TouchableOpacity>
+                </View>
+              </View>
+              {epgTimeOffset !== 0 && (
+                <TouchableOpacity 
+                  onPress={() => setEpgTimeOffset(0)}
+                  className="mt-2 flex-row items-center ml-1"
+                >
+                  <MaterialCommunityIcons name="undo" size={12} color="gray" />
+                  <Text className="text-gray-500 text-[10px] uppercase font-bold ml-1">Reset Offset</Text>
                 </TouchableOpacity>
               )}
             </View>

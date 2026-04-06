@@ -548,7 +548,7 @@ const ChannelInfo = () => {
              </Text>
              {currentProgram ? (
                <Text className="text-white/80 text-sm font-semibold mt-1 shadow-sm" numberOfLines={1}>
-                 {currentProgram.start} - {currentProgram.stop} • {currentProgram.desc || cleanChannelName}
+                 {formatLocalTime(currentProgram.startTs)} - {formatLocalTime(currentProgram.stopTs)} • {currentProgram.desc || cleanChannelName}
                </Text>
              ) : (
                <Text className="text-white/80 text-sm font-semibold mt-1 shadow-sm" numberOfLines={1}>

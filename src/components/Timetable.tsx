@@ -3,6 +3,7 @@ import { View, Text, FlatList, Image, StyleSheet } from 'react-native';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import useThemeStore from '../lib/zustand/themeStore';
 import { Program } from '../types/navigation';
+import usePlayerStore from '../lib/zustand/playerStore';
 
 interface TimetableProps {
   programs?: Program[];
@@ -34,22 +35,32 @@ function getProgress(startTs: number, stopTs: number, now: number): number {
 
 const Timetable: React.FC<TimetableProps> = ({ programs = [], now, onSetLivePosition }) => {
   const { mode, primary } = useThemeStore();
+  const { epgTimeOffset } = usePlayerStore();
   const isDark = mode === 'dark';
   const hasReportedLivePos = React.useRef(false);
 
   const filteredPrograms = useMemo(() => {
     // Show current playing and future programs
-    return programs.filter(p => !p.stopTs || p.stopTs > now);
-  }, [programs, now]);
+    const offsetMs = (epgTimeOffset || 0) * 3600000;
+    return programs.filter(p => !p.stopTs || (p.stopTs + offsetMs) > now);
+  }, [programs, now, epgTimeOffset]);
+
+  const formatLocalTime = useCallback((ts: number) => {
+    if (!ts) return '';
+    const offsetMs = (epgTimeOffset || 0) * 3600000;
+    const date = new Date(ts + offsetMs);
+    return date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: true });
+  }, [epgTimeOffset]);
 
   const renderItem = useCallback(({ item, index }: { item: Program, index: number }) => {
     const startTs = item.startTs ?? 0;
     const stopTs = item.stopTs ?? 0;
 
+    const offsetMs = (epgTimeOffset || 0) * 3600000;
     const isLive =
-      startTs > 0 && stopTs > 0 && now >= startTs && now < stopTs;
-    const isUpcoming = startTs > 0 && now < startTs;
-    const isPast = stopTs > 0 && now >= stopTs;
+      startTs > 0 && stopTs > 0 && now >= (startTs + offsetMs) && now < (stopTs + offsetMs);
+    const isUpcoming = startTs > 0 && now < (startTs + offsetMs);
+    const isPast = stopTs > 0 && now >= (stopTs + offsetMs);
 
     const duration =
       startTs > 0 && stopTs > 0 ? formatDuration(startTs, stopTs) : '';
@@ -76,10 +87,10 @@ const Timetable: React.FC<TimetableProps> = ({ programs = [], now, onSetLivePosi
               { color: isLive ? primary as string : isDark ? '#aaa' : '#555' },
             ]}
           >
-            {item.start}
+            {formatLocalTime(startTs)}
           </Text>
           {item.stop ? (
-            <Text style={styles.stopText}>{item.stop}</Text>
+            <Text style={styles.stopText}>{formatLocalTime(stopTs)}</Text>
           ) : null}
           {isLive && (
             <View style={[styles.liveBadge, { backgroundColor: primary as string }]}>
