@@ -1,7 +1,9 @@
 import axios from 'axios';
+import * as FileSystem from 'expo-file-system';
+import { Asset } from 'expo-asset';
 import { iptvOrgApi } from './services/iptvOrgApi';
 import usePlayerStore from './zustand/playerStore';
-import { strFromU8, gunzipSync, gunzip } from 'fflate';
+import { strFromU8 } from 'fflate';
 
 const inflightRequests = {};
 
@@ -55,8 +57,9 @@ export const iptvParser = {
     return name
       .toLowerCase()
       .split('(')[0] // Remove anything after brackets
-      .replace(/\s*(hd|sd|uhd|4k|1080p|720p|576p|hindi|english|telugu|tamil|kannada|malayalam|marathi|bengali|gujarati|punjabi|odia|bhojpuri|assamese|urdu)\s*$/gi, '') // Remove trailing tech/lang info
-      .replace(/[^a-z0-9]/g, '') // Remove special characters
+      .replace(/^(in|us|uk|ca|au|fr|de|it|es|br|mx|ru|jp|cn|kr|ae|sa|za|tr|pk|bd|id|vn|th|my|ph|ng|eg|mx|ar|cl|co|pe|ve|eg|pl|nl|be|se|no|dk|fi|gr|pt|ro|ua|bg|hu|cz|sk|rs|hr|si|ee|lv|lt|is|ie|lu|mc|ad|li|mt|cy|il|jo|qa|kw|om|bh|af|lk|np|mm|kh|la|mn|kp|tw|hk|mo|sg|nz|fj|pg|vu|sb|tl|pw|fm|mh|ki|nr|ws|to|as|gu|mp|um|as|vi|pr|io|sh|fk|gs|gi|tc|ky|bm|ms|vg|ai|ax|aw|cw|sx|bq|pm|yt|wf|tf|bv|hm|tf|aq|tk|nu|nf|pn|ck|wf|tf|bv|hm|tf|aq|tk|nu|nf|pn|ck|wf|tf|bv|hm|tf|aq|tk|nu|nf|pn|ck)\s*-\s*/gi, '') // Remove country prefixes like "IN - "
+      .replace(/[^a-z0-9+]/g, ' ') // Keep '+' (common in channel names) and replace other specials with space
+      .replace(/\s+/g, ' ') // Collapse spaces
       .trim();
   },
 
@@ -131,6 +134,33 @@ export const iptvParser = {
   },
 
   /**
+   * Bundle-specific fetch for local Indian EPG XML.
+   * Parses and caches the 10MB+ file in memory.
+   */
+  async fetchLocalEPG() {
+    const localUrl = 'local://epg-in.xml';
+    let programsDict = epgCache.getParsed(localUrl);
+    if (programsDict) return programsDict;
+
+    try {
+      console.log('📡 Syncing Local Premium EPG...');
+      const asset = Asset.fromModule(require('../epg/epg-in.xml'));
+      await asset.downloadAsync();
+      const finalData = await FileSystem.readAsStringAsync(asset.localUri || asset.uri);
+      
+      if (finalData) {
+        const dict = await this.parseEPG(finalData);
+        epgCache.setParsed(localUrl, dict);
+        console.log('[EPG] Local Sync Complete');
+        return dict;
+      }
+    } catch (e) {
+      console.warn('[EPG] Local sync failed fallback to network:', e);
+    }
+    return {};
+  },
+
+  /**
    * Fetch EPG schedule for a channel using the iptv-org API for ID resolution,
    * then download the country XML for program data.
    *
@@ -139,12 +169,22 @@ export const iptvParser = {
    * @returns {Promise<Program[]>}
    */
   async fetchEPGForChannel(channel, countryCode = 'in', skipEnrichment = false) {
-    if (!channel) return [];
-
+    if (!channel || !channel.url) return [];
+    
+    // Check if EPG is globally disabled
     const { disableEpg } = usePlayerStore.getState();
-    if (disableEpg) {
-      console.log('[EPG] EPG is disabled in settings, skipping fetch.');
-      return [];
+    if (disableEpg) return [];
+
+    // Step 0: Try Local Bundled EPG if country is India
+    if (countryCode.toLowerCase() === 'in' || (channel.country && channel.country.toLowerCase() === 'in')) {
+       try {
+         const localDict = await this.fetchLocalEPG();
+         const filtered = this.getProgramsForChannel(localDict, channel);
+         if (filtered && filtered.length > 0) {
+            console.log(`[EPG] Found schedule for "${channel.name}" in local bundle`);
+            return filtered;
+         }
+       } catch (e) {}
     }
 
     // Step 1: Resolve canonical channel ID via iptv-org API
@@ -197,6 +237,10 @@ export const iptvParser = {
       `https://epghub.pages.dev/${lowerCode}.xml`,
     ];
 
+    if (lowerCode === 'in') {
+      sources.unshift('https://raw.githubusercontent.com/angel7544/vega-app/orbix-personal/src/epg/epg-in.xml');
+    }
+
     if (globeTvCountry) {
       const gFolders = [
         `https://raw.githubusercontent.com/globetvapp/epg/main/${globeTvCountry}/${globeTvCountry.toLowerCase()}1.xml`,
@@ -232,30 +276,11 @@ export const iptvParser = {
                     
                     const buffer = new Uint8Array(response.data);
                     
-                    // Detect GZIP magic bytes: 0x1f 0x8b
-                    const isGzip = buffer.length > 2 && buffer[0] === 0x1f && buffer[1] === 0x8b;
-                    
-                    if (isGzip) {
-                       console.log(`[EPG] Extracting GZIP payload from ${source}`);
-                       const decompressed = await new Promise((resolve, reject) => {
-                           gunzip(buffer, (err, data) => {
-                               if (err) reject(err);
-                               else resolve(data);
-                           });
-                       });
-                       
-                       if (typeof TextDecoder !== 'undefined') {
-                           finalData = new TextDecoder('utf-8').decode(decompressed);
-                       } else {
-                           finalData = strFromU8(decompressed);
-                       }
+                    // Direct text decoding (gzip support removed)
+                    if (typeof TextDecoder !== 'undefined') {
+                        finalData = new TextDecoder('utf-8').decode(buffer);
                     } else {
-                       // Direct text decoding if not gzipped
-                       if (typeof TextDecoder !== 'undefined') {
-                           finalData = new TextDecoder('utf-8').decode(buffer);
-                       } else {
-                           finalData = strFromU8(buffer);
-                       }
+                        finalData = strFromU8(buffer);
                     }
                     
                     if (finalData) {
@@ -328,10 +353,11 @@ export const iptvParser = {
           }
         }
         
-        // Yield every 100 channels
-         if (++yieldCounter % 100 === 0) {
+         // Yield every 50 channels for large bundled files
+         if (++yieldCounter % 50 === 0) {
             await this.yieldToUI();
          }
+
 
         cIdx = xmlText.indexOf('<channel ', endC + 10);
       }
@@ -385,10 +411,11 @@ export const iptvParser = {
         }
         programsDict[channelId].push(progObj);
 
-        // Optimization: YIELD every 200 programs to keep UI (spinner) alive
-         if (++yieldCounter % 200 === 0) {
+         // Yield every 100 programs for large bundled files
+         if (++yieldCounter % 100 === 0) {
             await this.yieldToUI();
          }
+
 
         pIdx = xmlText.indexOf('<programme ', endP + 12);
       }

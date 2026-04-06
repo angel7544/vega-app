@@ -127,15 +127,15 @@ const EPGInfo = React.memo(({ channel, isDark, primary, showNext = true }: any) 
 const TabItem = React.memo(({ name, isActive, onPress, isDark, primary }: any) => (
   <TouchableOpacity 
     onPress={() => onPress(name)}
-    className="mr-6 items-center"
+    className="mr-8 items-center"
   >
-    <Text className={`font-black text-sm uppercase tracking-[2px] ${isActive ? (isDark ? 'text-white' : 'text-black') : (isDark ? 'text-white/40' : 'text-black/40')}`}>
+    <Text className={`font-black text-[10px] uppercase tracking-[3px] ${isActive ? (isDark ? 'text-white' : 'text-black') : (isDark ? 'text-white/20' : 'text-black/20')}`}>
       {name}
     </Text>
     {isActive && (
       <Animated.View 
-        entering={FadeIn.duration(300)}
-        className="h-1 rounded-full absolute -bottom-2 w-full"
+        entering={FadeIn.duration(400)}
+        className="h-[3px] rounded-full absolute -bottom-3 w-4"
         style={{ backgroundColor: primary }} 
       />
     )}
@@ -147,48 +147,62 @@ const HeroItem = React.memo(({ item, index, scrollX, isDark, primary, onPlay }: 
     const opacity = interpolate(
       scrollX.value,
       [(index - 1) * WINDOW_WIDTH, index * WINDOW_WIDTH, (index + 1) * WINDOW_WIDTH],
-      [0.6, 0, 0.6],
+      [0.8, 0, 0.8],
       Extrapolation.CLAMP
     );
     return { opacity };
   });
 
+  const animatedImage = useAnimatedStyle(() => {
+    const scale = interpolate(
+      scrollX.value,
+      [(index - 1) * WINDOW_WIDTH, index * WINDOW_WIDTH, (index + 1) * WINDOW_WIDTH],
+      [1.2, 1, 1.2],
+      Extrapolation.CLAMP
+    );
+    return { transform: [{ scale }] };
+  });
+
   return (
-    <View style={{ width: WINDOW_WIDTH, height: 450 }} className="relative overflow-hidden">
-      <Image
+    <View style={{ width: WINDOW_WIDTH, height: 500 }} className="relative overflow-hidden">
+      <Animated.Image
         source={{ uri: item.logo || 'https://www.br31tech.live/placeholder.png' }}
         className="w-full h-full"
         resizeMode="cover"
-        style={{ opacity: 0.8 }}
+        style={[{ opacity: 0.7 }, animatedImage]}
       />
       <LinearGradient
-        colors={['rgba(0,0,0,0.8)', 'transparent', 'rgba(0,0,0,0.9)', isDark ? '#000' : '#fff']}
-        locations={[0, 0.2, 0.7, 1]}
+        colors={['rgba(0,0,0,0.6)', 'transparent', 'rgba(0,0,0,0.8)', isDark ? '#000' : '#fff']}
+        locations={[0, 0.3, 0.7, 1]}
         style={StyleSheet.absoluteFill}
       />
       <Animated.View style={[StyleSheet.absoluteFill, { backgroundColor: 'black' }, animatedOverlay]} />
       
-      <View className="absolute bottom-12 w-full px-8 items-center">
-        <Image
-          source={{ uri: item.logo }}
-          style={{ width: 150, height: 80, resizeMode: 'contain' }}
-          className="mb-4"
-        />
-        <Text className="text-white text-center text-xs font-black uppercase tracking-[4px] mb-6 opacity-60">
-          Now Streaming Live
+      <View className="absolute bottom-16 w-full px-10 items-start">
+        <View className="bg-red-600 px-3 py-1 rounded-lg mb-4 shadow-lg shadow-red-600/20">
+           <Text className="text-white text-[10px] font-black uppercase tracking-[2px]">Trending Live</Text>
+        </View>
+        
+        <Text className="text-white text-4xl font-black mb-2 tracking-tighter" numberOfLines={2}>
+           {item.name}
         </Text>
+        
+        <Text className="text-white/60 text-xs font-bold uppercase tracking-[4px] mb-8">
+           {item.category?.split(/[;/]/)[0] || 'Premium Signal'}
+        </Text>
+
         <TouchableOpacity
           activeOpacity={0.8}
           onPress={() => onPlay(item)}
-          className="bg-white flex-row items-center px-10 py-4 rounded-full shadow-2xl"
-          style={{ backgroundColor: isDark ? 'white' : 'black' }}
+          className="flex-row items-center px-8 py-4 rounded-3xl shadow-2xl"
+          style={{ backgroundColor: primary }}
         >
           <MaterialCommunityIcons 
-            name="play" 
-            size={24} 
-            color={isDark ? 'black' : 'white'} 
+            name="play-circle" 
+            size={28} 
+            color="white" 
           />
-          <Text className={`ml-2 font-black text-xs uppercase tracking-[3px] ${isDark ? 'text-black' : 'text-white'}`}>
+          <Text className="ml-3 font-black text-xs uppercase tracking-[3px] text-white">
             Watch Now
           </Text>
         </TouchableOpacity>
@@ -376,12 +390,21 @@ const LiveTV = () => {
       if (data && Array.isArray(data)) {
         setChannels(data);
         setGlobalChannels(data);
-        const mapCats = data.map((c: any) => {
-           if (!c.category) return null;
-           const cat = c.category.trim();
-           return cat.charAt(0).toUpperCase() + cat.slice(1).toLowerCase();
-        }).filter(Boolean);
-        const uniqueCategories = [...new Set(mapCats)] as string[];
+        
+        // Smart Category Extraction: Split by ; and /
+        const allCats: string[] = [];
+        data.forEach((c: any) => {
+           if (!c.category) return;
+           const split = c.category.split(/[;/]/);
+           split.forEach((part: string) => {
+             const trimmed = part.trim();
+             if (trimmed && trimmed.length > 1) {
+               allCats.push(trimmed.charAt(0).toUpperCase() + trimmed.slice(1).toLowerCase());
+             }
+           });
+        });
+        
+        const uniqueCategories = [...new Set(allCats)] as string[];
         uniqueCategories.sort();
         setCategories(['All', ...uniqueCategories]);
       }
@@ -393,22 +416,30 @@ const LiveTV = () => {
   };
 
   useEffect(() => {
-    if (activeTab === 'TV GUIDE' && channels.length > 0 && Object.keys(epgData).length === 0) {
+    if (channels.length > 0 && Object.keys(epgData).length === 0) {
       const fetchBulk = async () => {
-        setLoadingEpg(true);
+        // Only show loading indicator if user is actively looking at the TV GUIDE
+        if (activeTab === 'TV GUIDE') {
+           setLoadingEpg(true);
+        }
+        
         const countryCode = settingsStorage.getIptvCountry() || 'in';
         try {
-          const map = await iptvParser.fetchBulkEPG(channels.slice(0, 100), countryCode); // limit to top 100 for perf initially
+          // Pre-fetch EPG for active channels (Home screen & Guide)
+          const map = await iptvParser.fetchBulkEPG(channels.slice(0, 100), countryCode);
           setEpgData(map);
         } catch (e) {
-          console.error(e);
+          console.error('[EPG] Background sync failed:', e);
         } finally {
           setLoadingEpg(false);
         }
       };
-      fetchBulk();
+      
+      // Delay background sync slightly to prioritize initial UI rendering
+      const timer = setTimeout(fetchBulk, 2500);
+      return () => clearTimeout(timer);
     }
-  }, [activeTab, channels]);
+  }, [channels, activeTab === 'TV GUIDE']);
 
   const sections = useMemo(() => {
     if (channels.length === 0) return null;
@@ -452,7 +483,11 @@ const LiveTV = () => {
     }
 
     if (selectedCategory !== 'All') {
-      result = result.filter(c => c.category === selectedCategory);
+      const targetCat = selectedCategory.toLowerCase();
+      result = result.filter(c => {
+        if (!c.category) return false;
+        return c.category.toLowerCase().split(/[;/]/).some((cat: string) => cat.trim() === targetCat);
+      });
     }
     
     if (qualityFilter) {
@@ -472,30 +507,59 @@ const LiveTV = () => {
     const favorited = isFavorite(item.url);
 
     return (
-      <Animated.View entering={FadeInDown.delay(index % 10 * 50).duration(600).springify()}>
+      <Animated.View entering={FadeInDown.delay(index % 10 * 50).duration(800).springify()}>
         <TouchableOpacity
           activeOpacity={0.9}
           onPress={() => handleChannelPress(item)}
-          className={`mb-6 rounded-3xl overflow-hidden border ${isDark ? 'bg-[#0D0D0D] border-white/5' : 'bg-white border-black/10'}`}
+          className={`mb-6 rounded-[32px] overflow-hidden border ${isDark ? 'bg-[#0A0A0A] border-white/5' : 'bg-white border-black/5'} shadow-2xl`}
           style={{ width: cardWidth, marginHorizontal: 8 }}
         >
-          <View className="aspect-video bg-black/40 items-center justify-center relative overflow-hidden">
+          <View className="aspect-video bg-black/60 items-center justify-center relative overflow-hidden">
             {item.logo ? (
-              <Image source={{ uri: item.logo }} className="w-[70%] h-[70%]" resizeMode="contain" />
+              <Image source={{ uri: item.logo }} className="w-[85%] h-[85%]" resizeMode="contain" />
             ) : (
-              <Feather name="tv" size={32} color={primary} style={{ opacity: 0.5 }} />
+              <View className="items-center">
+                <Feather name="tv" size={40} color={primary} style={{ opacity: 0.3 }} />
+                <Text className="text-white/20 text-[10px] mt-2 font-black uppercase tracking-widest">No Signal</Text>
+              </View>
             )}
-            <LinearGradient colors={['transparent', 'rgba(0,0,0,0.8)']} className="absolute inset-0 justify-end" />
-          </View>
-          <View className="p-4 flex-row items-center justify-between">
-            <View className="flex-1 mr-2">
-               <Text className={`font-black text-xs ${isDark ? 'text-white' : 'text-black'}`} numberOfLines={1}>{item.name}</Text>
-               <EPGInfo channel={item} isDark={isDark} primary={primary} />
-               <Text className={`text-[7px] font-black uppercase tracking-widest mt-1.5 opacity-30 ${isDark ? 'text-white' : 'text-black'}`}>{item.category || 'Live Signal'}</Text>
+            
+            {/* Glossy Overlay */}
+            <LinearGradient 
+              colors={['rgba(255,255,255,0.05)', 'transparent', 'rgba(0,0,0,0.4)']} 
+              className="absolute inset-0" 
+            />
+
+            {/* Quality Badge Overlay */}
+            <View className="absolute top-3 right-3">
+               <QualityBadge name={item.quality || 'SD'} isDark={true} />
             </View>
-            <TouchableOpacity onPress={(e) => { e.stopPropagation(); toggleFavorite(item); }}>
-              <Ionicons name={favorited ? "heart" : "heart-outline"} size={16} color={favorited ? primary : (isDark ? 'rgba(255,255,255,0.4)' : 'rgba(0,0,0,0.4)')} />
-            </TouchableOpacity>
+          </View>
+          
+          <View className={`p-5 ${isDark ? 'bg-white/[0.02]' : 'bg-black/[0.02]'}`}>
+            <View className="flex-row items-center justify-between mb-3">
+              <View className="flex-1 mr-3">
+                 <Text className={`font-black text-xs leading-tight ${isDark ? 'text-white' : 'text-black'}`} numberOfLines={1}>
+                   {item.name}
+                 </Text>
+                 <Text className={`text-[8px] font-bold uppercase tracking-[2px] mt-1 opacity-40 ${isDark ? 'text-white' : 'text-black'}`}>
+                   {item.category?.split(/[;/]/)[0] || 'Live Signal'}
+                 </Text>
+              </View>
+              <TouchableOpacity 
+                activeOpacity={0.7}
+                onPress={(e) => { e.stopPropagation(); toggleFavorite(item); }}
+                className={`p-2 rounded-full ${isDark ? 'bg-white/5' : 'bg-black/5'}`}
+              >
+                <Ionicons 
+                  name={favorited ? "heart" : "heart-outline"} 
+                  size={14} 
+                  color={favorited ? primary : (isDark ? 'rgba(255,255,255,0.3)' : 'rgba(0,0,0,0.3)')} 
+                />
+              </TouchableOpacity>
+            </View>
+            
+            <EPGInfo channel={item} isDark={isDark} primary={primary} />
           </View>
         </TouchableOpacity>
       </Animated.View>
@@ -504,18 +568,39 @@ const LiveTV = () => {
 
   const Header = () => (
     <View className="absolute top-0 left-0 right-0 z-50 pt-12">
-      <BlurView intensity={20} tint="dark" className="px-5 py-4 flex-row items-center justify-between">
-        <View className="flex-row items-baseline">
-           <Text className={`text-2xl font-black italic tracking-tighter ${isDark ? 'text-white' : 'text-black'}`}>OrbixTv</Text>
-           <Text className="text-primary text-[8px] font-black ml-2 tracking-widest bg-white/10 px-1.5 py-0.5 rounded">LIVE ({channels.length})</Text>
+      <BlurView intensity={40} tint={isDark ? "dark" : "light"} className="px-6 py-5 flex-row items-center justify-between mx-4 mt-2 rounded-[32px] border border-white/10 overflow-hidden shadow-2xl">
+        <View className="flex-row items-center">
+            <View className="w-10 h-10 rounded-2xl bg-primary items-center justify-center mr-3 shadow-lg shadow-primary/30">
+               <MaterialCommunityIcons name="television-play" size={24} color="white" />
+            </View>
+            <View>
+               <Text className={`text-xl font-black italic tracking-tighter ${isDark ? 'text-white' : 'text-black'}`}>OrbixTv</Text>
+               <Text className="text-gray-500 text-[8px] font-black uppercase tracking-[2px]">Premium Live</Text>
+            </View>
         </View>
-        <TouchableOpacity onPress={() => setIsSearchActive(!isSearchActive)} className="p-2 bg-white/10 rounded-full">
-           <Feather name={isSearchActive ? "x" : "search"} size={20} color="white" />
-        </TouchableOpacity>
+        
+        <View className="flex-row items-center space-x-3">
+          <TouchableOpacity 
+            onPress={() => setIsSearchActive(!isSearchActive)} 
+            className={`w-10 h-10 items-center justify-center rounded-full ${isDark ? 'bg-white/5' : 'bg-black/5'} border border-white/5`}
+          >
+             <Feather name={isSearchActive ? "x" : "search"} size={18} color={isDark ? "white" : "black"} />
+          </TouchableOpacity>
+          
+          <View className="bg-red-600/10 px-3 py-1.5 rounded-xl border border-red-600/20 flex-row items-center">
+             <View className="w-1.5 h-1.5 rounded-full bg-red-600 mr-2 shadow-sm" />
+             <Text className="text-red-600 text-[9px] font-black tracking-widest">{channels.length}</Text>
+          </View>
+        </View>
       </BlurView>
       
       {!isSearchActive && (
-        <ScrollView horizontal showsHorizontalScrollIndicator={false} className="mt-4 px-5">
+        <ScrollView 
+          horizontal 
+          showsHorizontalScrollIndicator={false} 
+          className="mt-6 ml-6"
+          contentContainerStyle={{ paddingRight: 40 }}
+        >
            {['FOR YOU', 'TV GUIDE', 'NEWS', 'SPORTS', 'SHOWS'].map(tab => (
              <TabItem 
                 key={tab} 
@@ -604,7 +689,7 @@ const LiveTV = () => {
           <Text className="text-gray-500 mt-4 font-black uppercase tracking-widest text-[10px]">Syncing Signal Hub...</Text>
         </View>
       ) : (
-        <View className="flex-1 mt-44">
+        <View className="flex-1 mt-56">
           {((activeTab === 'FOR YOU' && !isSearchActive) || isSearchActive) ? (
              <CategoryGrid
                 categories={categories}
@@ -640,11 +725,11 @@ const LiveTV = () => {
             <FlashList
               data={filteredChannels}
               renderItem={renderChannelItem}
-              estimatedItemSize={200}
+              estimatedItemSize={250}
               numColumns={numColumns}
               key={numColumns}
               showsVerticalScrollIndicator={false}
-              contentContainerStyle={{ paddingHorizontal: 8, paddingBottom: 100, paddingTop: 20 }}
+              contentContainerStyle={{ paddingHorizontal: 16, paddingBottom: 150, paddingTop: 20 }}
             />
           )}
         </View>

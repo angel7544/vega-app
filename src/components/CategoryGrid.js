@@ -48,19 +48,19 @@ const CategoryGrid = ({ categories, onSelect, selectedCategory, qualityFilter, o
         activeOpacity={0.7}
         onPress={() => isQuality ? onQualitySelect(filterValue) : onSelect(label)}
         onLongPress={() => !isQuality && handleLongPress(label)}
-        className={`px-5 py-2.5 rounded-2xl mr-2.5 border flex-row items-center ${
+        className={`px-6 py-3 rounded-2xl mr-3 border flex-row items-center ${
           isActive 
-            ? 'border-transparent shadow-lg shadow-primary/40' 
-            : (isDark ? 'border-white/10 bg-white/5' : 'border-black/5 bg-black/5')
+            ? 'border-transparent shadow-2xl shadow-primary/40' 
+            : (isDark ? 'border-white/5 bg-white/5' : 'border-black/5 bg-black/5')
         }`}
         style={isActive ? { backgroundColor: primary } : {}}
       >
         {isFavorited && !isActive && (
-          <Feather name="heart" size={10} color={primary} style={{ marginRight: 6 }} />
+          <Ionicons name="heart" size={10} color={primary} style={{ marginRight: 6 }} />
         )}
         <Text 
-          className={`text-xs font-black tracking-wide ${
-            isActive ? 'text-white' : (isDark ? 'text-white/70' : 'text-black/70')
+          className={`text-[11px] font-black uppercase tracking-[2px] ${
+            isActive ? 'text-white' : (isDark ? 'text-white/40' : 'text-black/40')
           }`}
         >
           {label}
