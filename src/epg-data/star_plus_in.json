@@ -1,0 +1,26 @@
+[
+  {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "ts8",
+    "catchup-id": "93109756",
+    "channelId": "ts8",
+    "channelName": "STAR Plus HD",
+    "startTs": 1775415600000,
+    "stopTs": 1775417400000,
+    "title": "Udne Ki Aasha",
+    "desc": "An aspirational Saili tries to turn her unmotivated husband into a competent person. S01 E753."
+  },
+  {
+    "start": "19:30",
+    "stop": "22:30",
+    "channel": "ts8",
+    "catchup-id": "93109761",
+    "channelId": "ts8",
+    "channelName": "STAR Plus HD",
+    "startTs": 1775417400000,
+    "stopTs": 1775428200000,
+    "title": "Yeh Rishta Kya Kehlata Hai",
+    "desc": "While Dr Abhimanyu gets attracted to Akshara, Arohi begins to fall in love with him. S01 E119."
+  }
+]

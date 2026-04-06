@@ -1,0 +1,110 @@
+[
+  {
+    "start": "18:30",
+    "stop": "00:30",
+    "channel": "ts1171",
+    "catchup-id": "93060481",
+    "channelId": "ts1171",
+    "channelName": "Shree Ichchhapuran Balaji Mandir",
+    "startTs": 1775327400000,
+    "stopTs": 1775349000000,
+    "title": "Temple Closed",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "00:30",
+    "stop": "00:35",
+    "channel": "ts1171",
+    "catchup-id": "93060487",
+    "channelId": "ts1171",
+    "channelName": "Shree Ichchhapuran Balaji Mandir",
+    "startTs": 1775349000000,
+    "stopTs": 1775349300000,
+    "title": "Temple Open",
+    "desc": "Devotees gather to worship Lord Shiva as the Kashi Vishwanath temple at Varanasi is opened."
+  },
+  {
+    "start": "00:35",
+    "stop": "00:45",
+    "channel": "ts1171",
+    "catchup-id": "93060484",
+    "channelId": "ts1171",
+    "channelName": "Shree Ichchhapuran Balaji Mandir",
+    "startTs": 1775349300000,
+    "stopTs": 1775349900000,
+    "title": "Morning Aarti",
+    "desc": "Religious leaders and devotees gather to perform a sacred ritual to worship the deities."
+  },
+  {
+    "start": "00:45",
+    "stop": "05:30",
+    "channel": "ts1171",
+    "catchup-id": "93060485",
+    "channelId": "ts1171",
+    "channelName": "Shree Ichchhapuran Balaji Mandir",
+    "startTs": 1775349900000,
+    "stopTs": 1775367000000,
+    "title": "Darshan",
+    "desc": "."
+  },
+  {
+    "start": "05:30",
+    "stop": "06:00",
+    "channel": "ts1171",
+    "catchup-id": "93060488",
+    "channelId": "ts1171",
+    "channelName": "Shree Ichchhapuran Balaji Mandir",
+    "startTs": 1775367000000,
+    "stopTs": 1775368800000,
+    "title": "Temple Closed",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "06:00",
+    "stop": "11:30",
+    "channel": "ts1171",
+    "catchup-id": "93060486",
+    "channelId": "ts1171",
+    "channelName": "Shree Ichchhapuran Balaji Mandir",
+    "startTs": 1775368800000,
+    "stopTs": 1775388600000,
+    "title": "Darshan",
+    "desc": "."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "ts1171",
+    "catchup-id": "93060480",
+    "channelId": "ts1171",
+    "channelName": "Shree Ichchhapuran Balaji Mandir",
+    "startTs": 1775388600000,
+    "stopTs": 1775390400000,
+    "title": "Temple Closed",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "12:00",
+    "stop": "15:30",
+    "channel": "ts1171",
+    "catchup-id": "93060482",
+    "channelId": "ts1171",
+    "channelName": "Shree Ichchhapuran Balaji Mandir",
+    "startTs": 1775390400000,
+    "stopTs": 1775403000000,
+    "title": "Evening Aarti",
+    "desc": "Religious leaders and devotees gather to perform a sacred ritual to worship the deities."
+  },
+  {
+    "start": "15:30",
+    "stop": "18:30",
+    "channel": "ts1171",
+    "catchup-id": "93060483",
+    "channelId": "ts1171",
+    "channelName": "Shree Ichchhapuran Balaji Mandir",
+    "startTs": 1775403000000,
+    "stopTs": 1775413800000,
+    "title": "Temple Closed",
+    "desc": "Bringing the best in television."
+  }
+]

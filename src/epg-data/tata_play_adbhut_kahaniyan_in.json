@@ -1,5 +1,29 @@
 [
   {
+    "start": "18:30",
+    "stop": "21:30",
+    "channel": "ts811",
+    "catchup-id": "93091328",
+    "channelId": "ts811",
+    "channelName": "Tata Play Adbhut Kahaniyan",
+    "startTs": 1775413800000,
+    "stopTs": 1775424600000,
+    "title": "Raaz E Sheitaan",
+    "desc": "A couple goes through unforeseen circumstances when their daughter gets possessed."
+  },
+  {
+    "start": "21:30",
+    "stop": "00:30",
+    "channel": "ts811",
+    "catchup-id": "93091331",
+    "channelId": "ts811",
+    "channelName": "Tata Play Adbhut Kahaniyan",
+    "startTs": 1775424600000,
+    "stopTs": 1775435400000,
+    "title": "Mushkil",
+    "desc": "Four friends begin experiencing unexplained paranormal events while vacationing in Greece."
+  },
+  {
     "start": "00:30",
     "stop": "03:30",
     "channel": "TataPlayAdbhutKahaniyan.in",

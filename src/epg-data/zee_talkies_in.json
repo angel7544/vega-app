@@ -11,6 +11,18 @@
     "desc": "An ordinary man moves to the city with his mother after inheriting his uncle's wealth. However, disappointed with his new life, he gives up his fortune for love and simplicity."
   },
   {
+    "start": "20:00",
+    "stop": "21:38",
+    "channel": "ts249",
+    "catchup-id": "93114560",
+    "channelId": "ts249",
+    "channelName": "Zee Talkies",
+    "startTs": 1775419200000,
+    "stopTs": 1775425080000,
+    "title": "Palva Palvi",
+    "desc": "After a man and his lover part ways, the latter marries a rich man who ill-treats her."
+  },
+  {
     "start": "21:45",
     "stop": "23:30",
     "channel": "ZeeTalkies.in",

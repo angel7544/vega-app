@@ -1,0 +1,74 @@
+[
+  {
+    "start": "20:30",
+    "stop": "00:30",
+    "channel": "ts1818",
+    "catchup-id": "93156586",
+    "channelId": "ts1818",
+    "channelName": "Mirror Media",
+    "startTs": 1775334600000,
+    "stopTs": 1775349000000,
+    "title": "Mirror Media HD",
+    "desc": "."
+  },
+  {
+    "start": "00:30",
+    "stop": "04:30",
+    "channel": "ts1818",
+    "catchup-id": "93156583",
+    "channelId": "ts1818",
+    "channelName": "Mirror Media",
+    "startTs": 1775349000000,
+    "stopTs": 1775363400000,
+    "title": "Mirror Media HD",
+    "desc": "."
+  },
+  {
+    "start": "04:30",
+    "stop": "08:30",
+    "channel": "ts1818",
+    "catchup-id": "93156584",
+    "channelId": "ts1818",
+    "channelName": "Mirror Media",
+    "startTs": 1775363400000,
+    "stopTs": 1775377800000,
+    "title": "Mirror Media HD",
+    "desc": "."
+  },
+  {
+    "start": "08:30",
+    "stop": "12:30",
+    "channel": "ts1818",
+    "catchup-id": "93156585",
+    "channelId": "ts1818",
+    "channelName": "Mirror Media",
+    "startTs": 1775377800000,
+    "stopTs": 1775392200000,
+    "title": "Mirror Media HD",
+    "desc": "."
+  },
+  {
+    "start": "12:30",
+    "stop": "16:30",
+    "channel": "ts1818",
+    "catchup-id": "93156582",
+    "channelId": "ts1818",
+    "channelName": "Mirror Media",
+    "startTs": 1775392200000,
+    "stopTs": 1775406600000,
+    "title": "Mirror Media HD",
+    "desc": "."
+  },
+  {
+    "start": "16:30",
+    "stop": "20:30",
+    "channel": "ts1818",
+    "catchup-id": "93156581",
+    "channelId": "ts1818",
+    "channelName": "Mirror Media",
+    "startTs": 1775406600000,
+    "stopTs": 1775421000000,
+    "title": "Mirror Media HD",
+    "desc": "."
+  }
+]

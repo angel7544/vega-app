@@ -11,6 +11,30 @@
     "desc": "Sethuraman, a scientist, invents a time-travelling gadget that his evil twin Athreya wants to get hold of. Soon, a bitter battle arises between Sethuraman's son and Athreya."
   },
   {
+    "start": "19:57",
+    "stop": "21:15",
+    "channel": "ts123",
+    "catchup-id": "93274732",
+    "channelId": "ts123",
+    "channelName": "Zee Cinema",
+    "startTs": 1775419020000,
+    "stopTs": 1775423700000,
+    "title": "Kakuda",
+    "desc": "Sunny, a resident of a haunted village, approaches a ghost hunter after being cursed."
+  },
+  {
+    "start": "21:15",
+    "stop": "22:42",
+    "channel": "ts123",
+    "catchup-id": "93274731",
+    "channelId": "ts123",
+    "channelName": "Zee Cinema",
+    "startTs": 1775423700000,
+    "stopTs": 1775428920000,
+    "title": "Night Curfew",
+    "desc": "A former army doctor senses something wrong after a lady succumbs before her treatment."
+  },
+  {
     "start": "22:13",
     "stop": "00:37",
     "channel": "ZeeCinema.in",
@@ -22,6 +46,18 @@
     "desc": "An orphan with a genius mind hatches a plan to avenge the killing of his colleagues in order to live in peace with the one he loves."
   },
   {
+    "start": "22:42",
+    "stop": "01:00",
+    "channel": "ts123",
+    "catchup-id": "93274730",
+    "channelId": "ts123",
+    "channelName": "Zee Cinema",
+    "startTs": 1775428920000,
+    "stopTs": 1775437200000,
+    "title": "Daring Baaz",
+    "desc": "Goutham resolves to reunite his grandfather with Sunanda, his estranged aunt."
+  },
+  {
     "start": "00:37",
     "stop": "02:22",
     "channel": "ZeeCinema.in",
@@ -31,6 +67,18 @@
     "stopTs": 1775442120000,
     "title": "Badle Ki Raat Revenge",
     "desc": "A honeymooning couple, Karthik and Sravani, move into their new farmhouse. Before long, the couple are disturbed by strange events that make their beautiful home seem ominous."
+  },
+  {
+    "start": "01:00",
+    "stop": "01:30",
+    "channel": "ts123",
+    "catchup-id": "93243048",
+    "channelId": "ts123",
+    "channelName": "Zee Cinema",
+    "startTs": 1775437200000,
+    "stopTs": 1775439000000,
+    "title": "The Faith Show",
+    "desc": "Histories that teach us about sharing love and overcoming obstacles with the Word of Jesus Christ."
   },
   {
     "start": "02:22",
@@ -121,6 +169,18 @@
     "desc": "Bringing the best in television."
   },
   {
+    "start": "20:49",
+    "stop": "01:26",
+    "channel": "ts123",
+    "catchup-id": "93208123",
+    "channelId": "ts123",
+    "channelName": "Zee Cinema",
+    "startTs": 1775508540000,
+    "stopTs": 1775525160000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
     "start": "22:23",
     "stop": "00:35",
     "channel": "ZeeCinema.in",
@@ -143,6 +203,18 @@
     "desc": "Bringing the best in television."
   },
   {
+    "start": "01:26",
+    "stop": "04:32",
+    "channel": "ts123",
+    "catchup-id": "93208121",
+    "channelId": "ts123",
+    "channelName": "Zee Cinema",
+    "startTs": 1775525160000,
+    "stopTs": 1775536320000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
     "start": "02:28",
     "stop": "05:04",
     "channel": "ZeeCinema.in",
@@ -150,6 +222,18 @@
     "channelName": "IN - Zee Cinema",
     "startTs": 1775528880000,
     "stopTs": 1775538240000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "04:32",
+    "stop": "07:11",
+    "channel": "ts123",
+    "catchup-id": "93208119",
+    "channelId": "ts123",
+    "channelName": "Zee Cinema",
+    "startTs": 1775536320000,
+    "stopTs": 1775545860000,
     "title": "Movie",
     "desc": "Bringing the best in television."
   },
@@ -165,6 +249,18 @@
     "desc": "Bringing the best in television."
   },
   {
+    "start": "07:11",
+    "stop": "10:35",
+    "channel": "ts123",
+    "catchup-id": "93208126",
+    "channelId": "ts123",
+    "channelName": "Zee Cinema",
+    "startTs": 1775545860000,
+    "stopTs": 1775558100000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
     "start": "07:51",
     "stop": "10:43",
     "channel": "ZeeCinema.in",
@@ -176,6 +272,18 @@
     "desc": "Bringing the best in television."
   },
   {
+    "start": "10:35",
+    "stop": "12:32",
+    "channel": "ts123",
+    "catchup-id": "93208125",
+    "channelId": "ts123",
+    "channelName": "Zee Cinema",
+    "startTs": 1775558100000,
+    "stopTs": 1775565120000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
     "start": "10:43",
     "stop": "12:51",
     "channel": "ZeeCinema.in",
@@ -183,6 +291,18 @@
     "channelName": "IN - Zee Cinema",
     "startTs": 1775558580000,
     "stopTs": 1775566260000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "12:32",
+    "stop": "15:00",
+    "channel": "ts123",
+    "catchup-id": "93208124",
+    "channelId": "ts123",
+    "channelName": "Zee Cinema",
+    "startTs": 1775565120000,
+    "stopTs": 1775574000000,
     "title": "Movie",
     "desc": "Bringing the best in television."
   },
@@ -216,6 +336,18 @@
     "channelName": "IN - Zee Cinema",
     "startTs": 1775583480000,
     "stopTs": 1775589600000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "18:03",
+    "stop": "20:30",
+    "channel": "ts123",
+    "catchup-id": "93208122",
+    "channelId": "ts123",
+    "channelName": "Zee Cinema",
+    "startTs": 1775584980000,
+    "stopTs": 1775593800000,
     "title": "Movie",
     "desc": "Bringing the best in television."
   },

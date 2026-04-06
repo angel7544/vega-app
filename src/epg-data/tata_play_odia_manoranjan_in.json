@@ -1,0 +1,26 @@
+[
+  {
+    "start": "18:30",
+    "stop": "19:30",
+    "channel": "ts1835",
+    "catchup-id": "93111833",
+    "channelId": "ts1835",
+    "channelName": "Tata Play Odia Manoranjan",
+    "startTs": 1775413800000,
+    "stopTs": 1775417400000,
+    "title": "Golden Album Songs",
+    "desc": "A comprehensive compilation of popular songs is played back-to-back. S01 E01."
+  },
+  {
+    "start": "19:30",
+    "stop": "00:00",
+    "channel": "ts1835",
+    "catchup-id": "93111826",
+    "channelId": "ts1835",
+    "channelName": "Tata Play Odia Manoranjan",
+    "startTs": 1775417400000,
+    "stopTs": 1775433600000,
+    "title": "Mo Thikana Mote Ajana",
+    "desc": "Dive into an emotional tale revolving around broken relationships and forgotten roots. S01 E19."
+  }
+]

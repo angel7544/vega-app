@@ -1,5 +1,77 @@
 [
   {
+    "start": "18:30",
+    "stop": "19:30",
+    "channel": "ts959",
+    "catchup-id": "93087694",
+    "channelId": "ts959",
+    "channelName": "Tata Play Romance",
+    "startTs": 1775413800000,
+    "stopTs": 1775417400000,
+    "title": "The Mindy Project",
+    "desc": "Mindy, a gynecologist, tries to balance her professional and personal life. S02 E17."
+  },
+  {
+    "start": "19:30",
+    "stop": "20:30",
+    "channel": "ts959",
+    "catchup-id": "93087695",
+    "channelId": "ts959",
+    "channelName": "Tata Play Romance",
+    "startTs": 1775417400000,
+    "stopTs": 1775421000000,
+    "title": "The Mindy Project",
+    "desc": "Mindy, a gynecologist, tries to balance her professional and personal life. S02 E18."
+  },
+  {
+    "start": "20:30",
+    "stop": "21:30",
+    "channel": "ts959",
+    "catchup-id": "93087711",
+    "channelId": "ts959",
+    "channelName": "Tata Play Romance",
+    "startTs": 1775421000000,
+    "stopTs": 1775424600000,
+    "title": "Cedar Cove",
+    "desc": "Olivia Lockhart, a judge, tries to balance her work and relationships. S02 E11."
+  },
+  {
+    "start": "21:30",
+    "stop": "22:30",
+    "channel": "ts959",
+    "catchup-id": "93087692",
+    "channelId": "ts959",
+    "channelName": "Tata Play Romance",
+    "startTs": 1775424600000,
+    "stopTs": 1775428200000,
+    "title": "Cedar Cove",
+    "desc": "S02 EP 12 The Show follows the professional and personal life of Municipal Court Judge Olivia Lockhart (Andie MacDowell) and the surrounding townsfolk of Cedar Cove. S02 E12."
+  },
+  {
+    "start": "22:30",
+    "stop": "23:30",
+    "channel": "ts959",
+    "catchup-id": "93087704",
+    "channelId": "ts959",
+    "channelName": "Tata Play Romance",
+    "startTs": 1775428200000,
+    "stopTs": 1775431800000,
+    "title": "The Bold and The Beautiful",
+    "desc": "S32 EP 79 Set in the glamorous world of the Los Angeles fashion scene, this soap opera focuses on the wealthy and powerful Forrester family. S32 E79."
+  },
+  {
+    "start": "23:30",
+    "stop": "00:30",
+    "channel": "ts959",
+    "catchup-id": "93087688",
+    "channelId": "ts959",
+    "channelName": "Tata Play Romance",
+    "startTs": 1775431800000,
+    "stopTs": 1775435400000,
+    "title": "The Bold and The Beautiful",
+    "desc": "S32 EP 80 Set in the glamorous world of the Los Angeles fashion scene, this soap opera focuses on the wealthy and powerful Forrester family. S32 E80."
+  },
+  {
     "start": "00:30",
     "stop": "01:30",
     "channel": "TataPlayRomance.in",

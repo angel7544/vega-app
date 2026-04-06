@@ -1,0 +1,38 @@
+[
+  {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "ts1030",
+    "catchup-id": "93098958",
+    "channelId": "ts1030",
+    "channelName": "Food XP",
+    "startTs": 1775413800000,
+    "stopTs": 1775415600000,
+    "title": "Lai Bhari",
+    "desc": "Experts share recipes for a diverse range of dishes from the Indian state of Maharashtra."
+  },
+  {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "ts1030",
+    "catchup-id": "93098974",
+    "channelId": "ts1030",
+    "channelName": "Food XP",
+    "startTs": 1775415600000,
+    "stopTs": 1775417400000,
+    "title": "Simply Thai",
+    "desc": "Talented chef demonstrates the cooking techniques of different delicious recipes. S01 E07."
+  },
+  {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "ts1030",
+    "catchup-id": "93098973",
+    "channelId": "ts1030",
+    "channelName": "Food XP",
+    "startTs": 1775417400000,
+    "stopTs": 1775419200000,
+    "title": "Millet Magic",
+    "desc": "Chef Shantanu and expert Shilpa Kumar share a variety of recipes made with millet."
+  }
+]

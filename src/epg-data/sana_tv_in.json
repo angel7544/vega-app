@@ -1,0 +1,26 @@
+[
+  {
+    "start": "18:30",
+    "stop": "19:30",
+    "channel": "ts1285",
+    "catchup-id": "93090832",
+    "channelId": "ts1285",
+    "channelName": "Sana TV",
+    "startTs": 1775413800000,
+    "stopTs": 1775417400000,
+    "title": "Nilavu Thoongum Neram",
+    "desc": "A compilation of popular songs is played, sung by various renowned singers."
+  },
+  {
+    "start": "19:30",
+    "stop": "22:30",
+    "channel": "ts1285",
+    "catchup-id": "93090822",
+    "channelId": "ts1285",
+    "channelName": "Sana TV",
+    "startTs": 1775417400000,
+    "stopTs": 1775428200000,
+    "title": "Stage Show",
+    "desc": "A compilation of a concert, a stimulating debate and fascinating dance performances."
+  }
+]

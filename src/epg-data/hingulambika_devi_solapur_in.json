@@ -1,0 +1,86 @@
+[
+  {
+    "start": "18:30",
+    "stop": "22:30",
+    "channel": "ts1834",
+    "catchup-id": "93158799",
+    "channelId": "ts1834",
+    "channelName": "Hingulambika Devi, Solapur",
+    "startTs": 1775327400000,
+    "stopTs": 1775341800000,
+    "title": "Bhakti Darshan",
+    "desc": "."
+  },
+  {
+    "start": "22:30",
+    "stop": "02:30",
+    "channel": "ts1834",
+    "catchup-id": "93158797",
+    "channelId": "ts1834",
+    "channelName": "Hingulambika Devi, Solapur",
+    "startTs": 1775341800000,
+    "stopTs": 1775356200000,
+    "title": "Bhakti Darshan",
+    "desc": "."
+  },
+  {
+    "start": "02:30",
+    "stop": "06:30",
+    "channel": "ts1834",
+    "catchup-id": "93158798",
+    "channelId": "ts1834",
+    "channelName": "Hingulambika Devi, Solapur",
+    "startTs": 1775356200000,
+    "stopTs": 1775370600000,
+    "title": "Bhakti Darshan",
+    "desc": "."
+  },
+  {
+    "start": "06:30",
+    "stop": "10:30",
+    "channel": "ts1834",
+    "catchup-id": "93158801",
+    "channelId": "ts1834",
+    "channelName": "Hingulambika Devi, Solapur",
+    "startTs": 1775370600000,
+    "stopTs": 1775385000000,
+    "title": "Bhakti Darshan",
+    "desc": "."
+  },
+  {
+    "start": "10:30",
+    "stop": "14:30",
+    "channel": "ts1834",
+    "catchup-id": "93158796",
+    "channelId": "ts1834",
+    "channelName": "Hingulambika Devi, Solapur",
+    "startTs": 1775385000000,
+    "stopTs": 1775399400000,
+    "title": "Bhakti Darshan",
+    "desc": "."
+  },
+  {
+    "start": "14:30",
+    "stop": "18:30",
+    "channel": "ts1834",
+    "catchup-id": "93158800",
+    "channelId": "ts1834",
+    "channelName": "Hingulambika Devi, Solapur",
+    "startTs": 1775399400000,
+    "stopTs": 1775413800000,
+    "title": "Bhakti Darshan",
+    "desc": "."
+  },
+  {
+    "start": "18:30",
+    "stop": "22:30",
+    "channel": "ts1834",
+    "catchup-id": "93087799",
+    "channelId": "ts1834",
+    "channelName": "Hingulambika Devi, Solapur",
+    "startTs": 1775413800000,
+    "stopTs": 1775428200000,
+    "title": "Bhakti Darshan",
+    "desc": "."
+  }
+]

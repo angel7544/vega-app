@@ -1,5 +1,137 @@
 [
   {
+    "start": "18:30",
+    "stop": "20:09",
+    "channel": "182",
+    "catchup-id": "260405182000",
+    "channelId": "182",
+    "channelName": "B4U Movies",
+    "startTs": 1775327400000,
+    "stopTs": 1775333340000,
+    "title": "Dhadkan",
+    "desc": "Anjali and Dev's love story faces a harsh twist when Anjali is forced to marry Ram. Years later, Dev returns to rekindle their romance, only to find that Anjali has grown to love her husband."
+  },
+  {
+    "start": "20:09",
+    "stop": "23:02",
+    "channel": "ts7",
+    "catchup-id": "93238864",
+    "channelId": "ts7",
+    "channelName": "B4U Movies",
+    "startTs": 1775333340000,
+    "stopTs": 1775343720000,
+    "title": "Yes Boss",
+    "desc": "Based on the film 'For Love or Money' by Mark Rosenthal and Lawrence Konner."
+  },
+  {
+    "start": "23:02",
+    "stop": "00:30",
+    "channel": "ts7",
+    "catchup-id": "93238863",
+    "channelId": "ts7",
+    "channelName": "B4U Movies",
+    "startTs": 1775343720000,
+    "stopTs": 1775349000000,
+    "title": "Daraar",
+    "desc": "Raj, a wealthy man, falls for Priya but she is married to Vikram, an abusive man."
+  },
+  {
+    "start": "00:30",
+    "stop": "01:35",
+    "channel": "ts7",
+    "catchup-id": "93154666",
+    "channelId": "ts7",
+    "channelName": "B4U Movies",
+    "startTs": 1775349000000,
+    "stopTs": 1775352900000,
+    "title": "Daraar",
+    "desc": "Raj, a wealthy man, falls for Priya but she is married to Vikram, an abusive man."
+  },
+  {
+    "start": "01:35",
+    "stop": "04:30",
+    "channel": "ts7",
+    "catchup-id": "93238866",
+    "channelId": "ts7",
+    "channelName": "B4U Movies",
+    "startTs": 1775352900000,
+    "stopTs": 1775363400000,
+    "title": "Khel Khilari Ka",
+    "desc": "Ajit vows revenge after witnessing his family's murder by three thugs."
+  },
+  {
+    "start": "04:30",
+    "stop": "07:12",
+    "channel": "ts7",
+    "catchup-id": "93238865",
+    "channelId": "ts7",
+    "channelName": "B4U Movies",
+    "startTs": 1775363400000,
+    "stopTs": 1775373120000,
+    "title": "Ghatak / Lethal",
+    "desc": "When Kashi sees a local gangster terrorise a colony in Mumbai, he decides to strike back."
+  },
+  {
+    "start": "07:12",
+    "stop": "10:11",
+    "channel": "ts7",
+    "catchup-id": "93238869",
+    "channelId": "ts7",
+    "channelName": "B4U Movies",
+    "startTs": 1775373120000,
+    "stopTs": 1775383860000,
+    "title": "Teri Meherbaniyan",
+    "desc": "A young man incurs the wrath of a corrupt leader when he helps the people of his village."
+  },
+  {
+    "start": "10:11",
+    "stop": "13:30",
+    "channel": "ts7",
+    "catchup-id": "93238867",
+    "channelId": "ts7",
+    "channelName": "B4U Movies",
+    "startTs": 1775383860000,
+    "stopTs": 1775395800000,
+    "title": "Khatron Ke Khiladi",
+    "desc": "Balwant, a truck driver, seeks vengeance for the death of his brother."
+  },
+  {
+    "start": "13:30",
+    "stop": "17:44",
+    "channel": "ts7",
+    "catchup-id": "93238870",
+    "channelId": "ts7",
+    "channelName": "B4U Movies",
+    "startTs": 1775395800000,
+    "stopTs": 1775411040000,
+    "title": "Bol Radha Bol",
+    "desc": "Kishen returns love-struck from a trip and loses his everything to an evil look-alike."
+  },
+  {
+    "start": "17:44",
+    "stop": "20:19",
+    "channel": "ts7",
+    "catchup-id": "93238868",
+    "channelId": "ts7",
+    "channelName": "B4U Movies",
+    "startTs": 1775411040000,
+    "stopTs": 1775420340000,
+    "title": "Sikka",
+    "desc": "Two close friends end up being enemies when one of them refuses to mend his ways."
+  },
+  {
+    "start": "18:30",
+    "stop": "21:30",
+    "channel": "ts7",
+    "catchup-id": "93093712",
+    "channelId": "ts7",
+    "channelName": "B4U Movies",
+    "startTs": 1775413800000,
+    "stopTs": 1775424600000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
     "start": "20:19",
     "stop": "23:00",
     "channel": "B4UMovies.in",
@@ -11,6 +143,18 @@
     "desc": "Satya gets acquainted with Bhiku Mhatre, an underworld boss, while serving a term in jail and joins his gang. When he falls in love with Vidya, he is forced to choose between his job and his love."
   },
   {
+    "start": "21:30",
+    "stop": "00:30",
+    "channel": "ts7",
+    "catchup-id": "93093717",
+    "channelId": "ts7",
+    "channelName": "B4U Movies",
+    "startTs": 1775424600000,
+    "stopTs": 1775435400000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
     "start": "23:00",
     "stop": "00:33",
     "channel": "B4UMovies.in",
@@ -20,6 +164,18 @@
     "stopTs": 1775435580000,
     "title": "Kaun Kare Kurbanie",
     "desc": "Arjun Singh, a police inspector, lives peacefully with his family in Mumbai, until an alarming case of harassment and murder turns his life upside down."
+  },
+  {
+    "start": "00:30",
+    "stop": "03:30",
+    "channel": "ts7",
+    "catchup-id": "93093713",
+    "channelId": "ts7",
+    "channelName": "B4U Movies",
+    "startTs": 1775435400000,
+    "stopTs": 1775446200000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
   },
   {
     "start": "00:33",
@@ -55,6 +211,30 @@
     "desc": "Unaware of his evil intentions and his role in killing their parents, two brothers Ram and Balram fall victim to their deceitful uncle. They must unite to foil his plans of gaining wealth."
   },
   {
+    "start": "03:30",
+    "stop": "06:30",
+    "channel": "ts7",
+    "catchup-id": "93093716",
+    "channelId": "ts7",
+    "channelName": "B4U Movies",
+    "startTs": 1775446200000,
+    "stopTs": 1775457000000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "06:30",
+    "stop": "09:30",
+    "channel": "ts7",
+    "catchup-id": "93093711",
+    "channelId": "ts7",
+    "channelName": "B4U Movies",
+    "startTs": 1775457000000,
+    "stopTs": 1775467800000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
     "start": "07:19",
     "stop": "10:23",
     "channel": "B4UMovies.in",
@@ -64,6 +244,18 @@
     "stopTs": 1775470980000,
     "title": "Aakhri Ghulam",
     "desc": "Bheema and his family live under the tyranny of their master, Daulat Singh. But, when Bheema revolts, his love for his master's daughter is threatened."
+  },
+  {
+    "start": "09:30",
+    "stop": "12:30",
+    "channel": "ts7",
+    "catchup-id": "93093718",
+    "channelId": "ts7",
+    "channelName": "B4U Movies",
+    "startTs": 1775467800000,
+    "stopTs": 1775478600000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
   },
   {
     "start": "10:23",
@@ -77,6 +269,18 @@
     "desc": "Two boys are left to fend for themselves after their father falls victim to police brutality."
   },
   {
+    "start": "12:30",
+    "stop": "15:30",
+    "channel": "ts7",
+    "catchup-id": "93093714",
+    "channelId": "ts7",
+    "channelName": "B4U Movies",
+    "startTs": 1775478600000,
+    "stopTs": 1775489400000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
     "start": "13:30",
     "stop": "17:39",
     "channel": "B4UMovies.in",
@@ -86,6 +290,18 @@
     "stopTs": 1775497140000,
     "title": "Allah Rakha",
     "desc": "A gangster's driver takes the blame for an accident, leaving his family alone. He seeks revenge when he finds out what happened to them while he was gone."
+  },
+  {
+    "start": "15:30",
+    "stop": "18:30",
+    "channel": "ts7",
+    "catchup-id": "93093715",
+    "channelId": "ts7",
+    "channelName": "B4U Movies",
+    "startTs": 1775489400000,
+    "stopTs": 1775500200000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
   },
   {
     "start": "17:39",

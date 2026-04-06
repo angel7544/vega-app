@@ -1,0 +1,26 @@
+[
+  {
+    "start": "18:30",
+    "stop": "19:30",
+    "channel": "ts1209",
+    "catchup-id": "93089204",
+    "channelId": "ts1209",
+    "channelName": "Samrat News",
+    "startTs": 1775413800000,
+    "stopTs": 1775417400000,
+    "title": "Sangeet Samrat",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "ts1209",
+    "catchup-id": "93089214",
+    "channelId": "ts1209",
+    "channelName": "Samrat News",
+    "startTs": 1775417400000,
+    "stopTs": 1775419200000,
+    "title": "Ekamra Sambad",
+    "desc": "The host presents information on various social, economic and political issues."
+  }
+]

@@ -2,8 +2,9 @@ const fs = require('fs');
 const path = require('path');
 
 const inputFiles = [
-    
-    'd:/SteamLibrary/vega-app/src/epg/epg-in.xml'
+    'd:/SteamLibrary/vega-app/src/epg/epg-in.xml',
+    'd:/SteamLibrary/vega-app/src/epg/epg_1.xml',
+    'd:/SteamLibrary/vega-app/src/epg/epg.xml_2'
 ];
 const outputDir = 'd:/SteamLibrary/vega-app/src/epg-data';
 

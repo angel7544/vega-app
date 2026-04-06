@@ -1,5 +1,281 @@
 [
   {
+    "start": "18:30",
+    "stop": "19:10",
+    "channel": "291",
+    "catchup-id": "260405291000",
+    "channelId": "291",
+    "channelName": "SET HD",
+    "startTs": 1775327400000,
+    "stopTs": 1775329800000,
+    "title": "Best of Crime Patrol",
+    "desc": "Some of the best cases investigated in 'Crime Patrol' showcase people from different walks of life falling victim to the vices of others or their own."
+  },
+  {
+    "start": "19:10",
+    "stop": "20:50",
+    "channel": "291",
+    "catchup-id": "260405291001",
+    "channelId": "291",
+    "channelName": "SET HD",
+    "startTs": 1775329800000,
+    "stopTs": 1775335800000,
+    "title": "Best of Crime Patrol - Crime Patrol Satark",
+    "desc": "Crime Patrol episodes demonstrate the stringent application of the law against criminal activities, highlighting the severe penalties imposed on offenders."
+  },
+  {
+    "start": "20:50",
+    "stop": "21:30",
+    "channel": "291",
+    "catchup-id": "260405291002",
+    "channelId": "291",
+    "channelName": "SET HD",
+    "startTs": 1775335800000,
+    "stopTs": 1775338200000,
+    "title": "Best of Crime Patrol",
+    "desc": "Some of the best cases investigated in 'Crime Patrol' showcase people from different walks of life falling victim to the vices of others or their own."
+  },
+  {
+    "start": "21:30",
+    "stop": "22:10",
+    "channel": "291",
+    "catchup-id": "260405291003",
+    "channelId": "291",
+    "channelName": "SET HD",
+    "startTs": 1775338200000,
+    "stopTs": 1775340600000,
+    "title": "Best of Crime Patrol",
+    "desc": "Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society."
+  },
+  {
+    "start": "22:10",
+    "stop": "22:50",
+    "channel": "291",
+    "catchup-id": "260405291004",
+    "channelId": "291",
+    "channelName": "SET HD",
+    "startTs": 1775340600000,
+    "stopTs": 1775343000000,
+    "title": "Best of Crime Patrol",
+    "desc": "Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society."
+  },
+  {
+    "start": "22:50",
+    "stop": "23:30",
+    "channel": "291",
+    "catchup-id": "260405291005",
+    "channelId": "291",
+    "channelName": "SET HD",
+    "startTs": 1775343000000,
+    "stopTs": 1775345400000,
+    "title": "Best of Crime Patrol",
+    "desc": "A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
+  },
+  {
+    "start": "23:30",
+    "stop": "00:10",
+    "channel": "291",
+    "catchup-id": "260405291006",
+    "channelId": "291",
+    "channelName": "SET HD",
+    "startTs": 1775345400000,
+    "stopTs": 1775347800000,
+    "title": "Best of Crime Patrol",
+    "desc": "A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
+  },
+  {
+    "start": "00:10",
+    "stop": "01:30",
+    "channel": "291",
+    "catchup-id": "260405291007",
+    "channelId": "291",
+    "channelName": "SET HD",
+    "startTs": 1775347800000,
+    "stopTs": 1775352600000,
+    "title": "Best of Crime Patrol",
+    "desc": "Shekhar and Riya, a happily married couple experiences a bomb blast at their place. Shekhar dies on spot, and his mother, a school headmistress is left torn with tears."
+  },
+  {
+    "start": "01:30",
+    "stop": "02:30",
+    "channel": "291",
+    "catchup-id": "260405291008",
+    "channelId": "291",
+    "channelName": "SET HD",
+    "startTs": 1775352600000,
+    "stopTs": 1775356200000,
+    "title": "The Kapil Sharma Show",
+    "desc": "Sufi musicians Wadali Brothers - Puranchand Wadali and Piyarelal Wadali along with Punjabi musician Lakhwinder Wadali are the special guests tonight on The Kapil Sharma Show. The team of comedy king Kapil Sharma creates a laughter riot."
+  },
+  {
+    "start": "02:30",
+    "stop": "03:50",
+    "channel": "291",
+    "catchup-id": "260405291009",
+    "channelId": "291",
+    "channelName": "SET HD",
+    "startTs": 1775356200000,
+    "stopTs": 1775361000000,
+    "title": "Best of the Kapil Sharma Show",
+    "desc": "A compilation of the best moments from 'The Kapil Sharma Show' celebrates top highlights, playful roasts and the vibrant energy that defines its comedy."
+  },
+  {
+    "start": "03:50",
+    "stop": "05:10",
+    "channel": "291",
+    "catchup-id": "260405291010",
+    "channelId": "291",
+    "channelName": "SET HD",
+    "startTs": 1775361000000,
+    "stopTs": 1775365800000,
+    "title": "Best of the Kapil Sharma Show",
+    "desc": "A compilation of the best moments from 'The Kapil Sharma Show' celebrates top highlights, playful roasts and the vibrant energy that defines its comedy."
+  },
+  {
+    "start": "05:10",
+    "stop": "06:30",
+    "channel": "291",
+    "catchup-id": "260405291011",
+    "channelId": "291",
+    "channelName": "SET HD",
+    "startTs": 1775365800000,
+    "stopTs": 1775370600000,
+    "title": "Best of the Kapil Sharma Show",
+    "desc": "A compilation of the best moments from 'The Kapil Sharma Show' celebrates top highlights, playful roasts and the vibrant energy that defines its comedy."
+  },
+  {
+    "start": "06:30",
+    "stop": "07:30",
+    "channel": "291",
+    "catchup-id": "260405291012",
+    "channelId": "291",
+    "channelName": "SET HD",
+    "startTs": 1775370600000,
+    "stopTs": 1775374200000,
+    "title": "Best of Crime Patrol",
+    "desc": "A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
+  },
+  {
+    "start": "07:30",
+    "stop": "08:30",
+    "channel": "291",
+    "catchup-id": "260405291013",
+    "channelId": "291",
+    "channelName": "SET HD",
+    "startTs": 1775374200000,
+    "stopTs": 1775377800000,
+    "title": "Best of Crime Patrol - Crime Patrol Dial 100",
+    "desc": "A compilation of some of the most spine-chilling cases from 'Crime Patrol Dial 100', which investigates murders, kidnappings and thefts among other heinous crimes."
+  },
+  {
+    "start": "08:30",
+    "stop": "10:30",
+    "channel": "291",
+    "catchup-id": "260405291014",
+    "channelId": "291",
+    "channelName": "SET HD",
+    "startTs": 1775377800000,
+    "stopTs": 1775385000000,
+    "title": "Best of Crime Patrol",
+    "desc": "Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society."
+  },
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "291",
+    "catchup-id": "260405291015",
+    "channelId": "291",
+    "channelName": "SET HD",
+    "startTs": 1775385000000,
+    "stopTs": 1775388600000,
+    "title": "Best of Crime Patrol",
+    "desc": "Some of the best cases investigated in 'Crime Patrol' showcase people from different walks of life falling victim to the vices of others or their own."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "291",
+    "catchup-id": "260405291016",
+    "channelId": "291",
+    "channelName": "SET HD",
+    "startTs": 1775388600000,
+    "stopTs": 1775390400000,
+    "title": "Best of Crime Patrol",
+    "desc": "Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society."
+  },
+  {
+    "start": "12:00",
+    "stop": "13:00",
+    "channel": "291",
+    "catchup-id": "260405291017",
+    "channelId": "291",
+    "channelName": "SET HD",
+    "startTs": 1775390400000,
+    "stopTs": 1775394000000,
+    "title": "Best of Crime Patrol - Crime Patrol Dial 100",
+    "desc": "A compilation of some of the most spine-chilling cases from 'Crime Patrol Dial 100', which investigates murders, kidnappings and thefts among other heinous crimes."
+  },
+  {
+    "start": "13:00",
+    "stop": "14:30",
+    "channel": "291",
+    "catchup-id": "260405291018",
+    "channelId": "291",
+    "channelName": "SET HD",
+    "startTs": 1775394000000,
+    "stopTs": 1775399400000,
+    "title": "Indian Idol",
+    "desc": "Indian Idol celebrates 50 glorious episodes with actor Karisma Kapoor and choreographer Geeta Kapur. Which contestant will shine tonight?"
+  },
+  {
+    "start": "14:30",
+    "stop": "17:00",
+    "channel": "291",
+    "catchup-id": "260405291019",
+    "channelId": "291",
+    "channelName": "SET HD",
+    "startTs": 1775399400000,
+    "stopTs": 1775408400000,
+    "title": "Indian Idol",
+    "desc": "Indian Idol celebrates 50 glorious episodes with actor Karisma Kapoor and choreographer Geeta Kapur. Which contestant will shine tonight?"
+  },
+  {
+    "start": "17:00",
+    "stop": "18:00",
+    "channel": "291",
+    "catchup-id": "260405291020",
+    "channelId": "291",
+    "channelName": "SET HD",
+    "startTs": 1775408400000,
+    "stopTs": 1775412000000,
+    "title": "Wheel Of Fortune",
+    "desc": "Shibani Bedi, Abhineet Rajeev Sharma, and Garima Ajit Singh come from three different backgrounds but share one goal as they step up to the fortune wheel. Will they manage to shine tonight?"
+  },
+  {
+    "start": "18:00",
+    "stop": "18:29",
+    "channel": "291",
+    "catchup-id": "260405291021",
+    "channelId": "291",
+    "channelName": "SET HD",
+    "startTs": 1775412000000,
+    "stopTs": 1775413799000,
+    "title": "Best of Crime Patrol",
+    "desc": "A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
+  },
+  {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "291",
+    "catchup-id": "260406291000",
+    "channelId": "291",
+    "channelName": "SET HD",
+    "startTs": 1775413800000,
+    "stopTs": 1775415600000,
+    "title": "Best of Crime Patrol",
+    "desc": "A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
+  },
+  {
     "start": "19:00",
     "stop": "19:50",
     "channel": "SET.in",
@@ -110,6 +386,18 @@
     "desc": "S1 E49 Contestants put their minds to solving word puzzles after spinning a giant wheel that determines the monetary value they are playing for."
   },
   {
+    "start": "02:40",
+    "stop": "03:50",
+    "channel": "1396",
+    "catchup-id": "2604061396010",
+    "channelId": "1396",
+    "channelName": "Set SD",
+    "startTs": 1775443200000,
+    "stopTs": 1775447400000,
+    "title": "Wheel of Fortune",
+    "desc": "Contestants put their minds to solving word puzzles after spinning a giant wheel that determines the monetary value they are playing for."
+  },
+  {
     "start": "03:30",
     "stop": "04:50",
     "channel": "SET.in",
@@ -119,6 +407,18 @@
     "stopTs": 1775451000000,
     "title": "Best of the Kapil Sharma Show",
     "desc": "S2 E34 A compilation of the best moments from 'The Kapil Sharma Show' celebrates top highlights, playful roasts and the vibrant energy that defines its comedy."
+  },
+  {
+    "start": "03:50",
+    "stop": "05:10",
+    "channel": "1396",
+    "catchup-id": "2604061396011",
+    "channelId": "1396",
+    "channelName": "Set SD",
+    "startTs": 1775447400000,
+    "stopTs": 1775452200000,
+    "title": "Best of the Kapil Sharma Show",
+    "desc": "A compilation of the best moments from 'The Kapil Sharma Show' celebrates top highlights, playful roasts and the vibrant energy that defines its comedy."
   },
   {
     "start": "04:50",
@@ -132,6 +432,18 @@
     "desc": "S1 E229 A compilation of the best moments from 'The Kapil Sharma Show' celebrates top highlights, playful roasts and the vibrant energy that defines its comedy."
   },
   {
+    "start": "05:10",
+    "stop": "06:30",
+    "channel": "1396",
+    "catchup-id": "2604061396012",
+    "channelId": "1396",
+    "channelName": "Set SD",
+    "startTs": 1775452200000,
+    "stopTs": 1775457000000,
+    "title": "Best of the Kapil Sharma Show",
+    "desc": "A compilation of the best moments from 'The Kapil Sharma Show' celebrates top highlights, playful roasts and the vibrant energy that defines its comedy."
+  },
+  {
     "start": "06:10",
     "stop": "07:40",
     "channel": "SET.in",
@@ -141,6 +453,30 @@
     "stopTs": 1775461200000,
     "title": "Indian Idol",
     "desc": "S16 E50 Various talented participants from India compete against each other during a singing competition in order to impress the judges and win the title."
+  },
+  {
+    "start": "06:30",
+    "stop": "07:30",
+    "channel": "1396",
+    "catchup-id": "2604061396013",
+    "channelId": "1396",
+    "channelName": "Set SD",
+    "startTs": 1775457000000,
+    "stopTs": 1775460600000,
+    "title": "Best of Crime Patrol",
+    "desc": "Some of the best cases of 'Crime Patrol', which investigates how innocent people turn into criminals due to the influence of evil in society."
+  },
+  {
+    "start": "07:30",
+    "stop": "08:30",
+    "channel": "1396",
+    "catchup-id": "2604061396014",
+    "channelId": "1396",
+    "channelName": "Set SD",
+    "startTs": 1775460600000,
+    "stopTs": 1775464200000,
+    "title": "Best of Crime Patrol",
+    "desc": "A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
   },
   {
     "start": "07:40",
@@ -176,6 +512,18 @@
     "desc": "S1 E26 A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
   },
   {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "1396",
+    "catchup-id": "2604061396016",
+    "channelId": "1396",
+    "channelName": "Set SD",
+    "startTs": 1775471400000,
+    "stopTs": 1775475000000,
+    "title": "Best of Crime Patrol",
+    "desc": "Some of the best cases investigated in 'Crime Patrol' showcase people from different walks of life falling victim to the vices of others or their own."
+  },
+  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "SET.in",
@@ -196,6 +544,18 @@
     "stopTs": 1775479200000,
     "title": "Best of Crime Patrol",
     "desc": "S1 E675 Some of the best cases investigated in 'Crime Patrol' showcase people from different walks of life falling victim to the vices of others or their own."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "1396",
+    "catchup-id": "2604061396018",
+    "channelId": "1396",
+    "channelName": "Set SD",
+    "startTs": 1775478600000,
+    "stopTs": 1775482200000,
+    "title": "Best of Crime Patrol",
+    "desc": "A compilation of the best cases investigated in 'Crime Patrol' showcases people from different walks of life falling victim to the vices of others or their own."
   },
   {
     "start": "12:40",

@@ -1,0 +1,86 @@
+[
+  {
+    "start": "19:18",
+    "stop": "19:30",
+    "channel": "ts64",
+    "catchup-id": "93242495",
+    "channelId": "ts64",
+    "channelName": "Anmol Cinema",
+    "startTs": 1775416680000,
+    "stopTs": 1775417400000,
+    "title": "Fillers",
+    "desc": "A comprehensive compilation of promotional videos and trailers of Bollywood movies."
+  },
+  {
+    "start": "19:30",
+    "stop": "20:30",
+    "channel": "ts64",
+    "catchup-id": "93242496",
+    "channelId": "ts64",
+    "channelName": "Anmol Cinema",
+    "startTs": 1775417400000,
+    "stopTs": 1775421000000,
+    "title": "Teleshopping",
+    "desc": "The host highlights the features of a variety of products for purchase."
+  },
+  {
+    "start": "04:53",
+    "stop": "07:30",
+    "channel": "ts64",
+    "catchup-id": "93093191",
+    "channelId": "ts64",
+    "channelName": "Anmol Cinema",
+    "startTs": 1775451180000,
+    "stopTs": 1775460600000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "07:30",
+    "stop": "10:45",
+    "channel": "ts64",
+    "catchup-id": "93093187",
+    "channelId": "ts64",
+    "channelName": "Anmol Cinema",
+    "startTs": 1775460600000,
+    "stopTs": 1775472300000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "10:45",
+    "stop": "13:55",
+    "channel": "ts64",
+    "catchup-id": "93093186",
+    "channelId": "ts64",
+    "channelName": "Anmol Cinema",
+    "startTs": 1775472300000,
+    "stopTs": 1775483700000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "13:55",
+    "stop": "16:36",
+    "channel": "ts64",
+    "catchup-id": "93093182",
+    "channelId": "ts64",
+    "channelName": "Anmol Cinema",
+    "startTs": 1775483700000,
+    "stopTs": 1775493360000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "16:36",
+    "stop": "18:58",
+    "channel": "ts64",
+    "catchup-id": "93093192",
+    "channelId": "ts64",
+    "channelName": "Anmol Cinema",
+    "startTs": 1775493360000,
+    "stopTs": 1775501880000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  }
+]

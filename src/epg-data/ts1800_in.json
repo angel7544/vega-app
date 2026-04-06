@@ -1,0 +1,110 @@
+[
+  {
+    "start": "18:30",
+    "stop": "04:30",
+    "channel": "ts1800",
+    "catchup-id": "93079523",
+    "channelId": "ts1800",
+    "channelName": "ts1800",
+    "startTs": 1775327400000,
+    "stopTs": 1775363400000,
+    "title": "Hindi Sports Mega Pack",
+    "desc": "Hindi Sports Mega Pack"
+  },
+  {
+    "start": "04:30",
+    "stop": "08:30",
+    "channel": "ts1800",
+    "catchup-id": "93079524",
+    "channelId": "ts1800",
+    "channelName": "ts1800",
+    "startTs": 1775363400000,
+    "stopTs": 1775377800000,
+    "title": "Hindi Sports Mega Pack",
+    "desc": "Hindi Sports Mega Pack"
+  },
+  {
+    "start": "08:30",
+    "stop": "09:30",
+    "channel": "ts1800",
+    "catchup-id": "93079526",
+    "channelId": "ts1800",
+    "channelName": "ts1800",
+    "startTs": 1775377800000,
+    "stopTs": 1775381400000,
+    "title": "Hindi Sports Mega Pack",
+    "desc": "Hindi Sports Mega Pack"
+  },
+  {
+    "start": "09:30",
+    "stop": "10:30",
+    "channel": "ts1800",
+    "catchup-id": "93079527",
+    "channelId": "ts1800",
+    "channelName": "ts1800",
+    "startTs": 1775381400000,
+    "stopTs": 1775385000000,
+    "title": "Hindi Sports Mega Pack",
+    "desc": "Hindi Sports Mega Pack"
+  },
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "ts1800",
+    "catchup-id": "93079522",
+    "channelId": "ts1800",
+    "channelName": "ts1800",
+    "startTs": 1775385000000,
+    "stopTs": 1775388600000,
+    "title": "Hindi Sports Mega Pack",
+    "desc": "Hindi Sports Mega Pack"
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "ts1800",
+    "catchup-id": "93079529",
+    "channelId": "ts1800",
+    "channelName": "ts1800",
+    "startTs": 1775388600000,
+    "stopTs": 1775392200000,
+    "title": "Hindi Sports Mega Pack",
+    "desc": "Hindi Sports Mega Pack"
+  },
+  {
+    "start": "12:30",
+    "stop": "15:30",
+    "channel": "ts1800",
+    "catchup-id": "93079528",
+    "channelId": "ts1800",
+    "channelName": "ts1800",
+    "startTs": 1775392200000,
+    "stopTs": 1775403000000,
+    "title": "Hindi Sports Mega Pack",
+    "desc": "Hindi Sports Mega Pack"
+  },
+  {
+    "start": "15:30",
+    "stop": "18:30",
+    "channel": "ts1800",
+    "catchup-id": "93079525",
+    "channelId": "ts1800",
+    "channelName": "ts1800",
+    "startTs": 1775403000000,
+    "stopTs": 1775413800000,
+    "title": "Hindi Sports Mega Pack",
+    "desc": "Hindi Sports Mega Pack"
+  },
+  {
+    "start": "18:30",
+    "stop": "04:30",
+    "channel": "ts1800",
+    "catchup-id": "93079500",
+    "channelId": "ts1800",
+    "channelName": "ts1800",
+    "startTs": 1775413800000,
+    "stopTs": 1775449800000,
+    "title": "Hindi Sports Mega Pack",
+    "desc": "Hindi Sports Mega Pack"
+  }
+]

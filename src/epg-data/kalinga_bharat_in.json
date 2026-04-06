@@ -1,0 +1,14 @@
+[
+  {
+    "start": "18:30",
+    "stop": "21:30",
+    "channel": "ts1204",
+    "catchup-id": "93088711",
+    "channelId": "ts1204",
+    "channelName": "Kalinga Bharat",
+    "startTs": 1775413800000,
+    "stopTs": 1775424600000,
+    "title": "Music",
+    "desc": "A compilation of popular songs is played back-to-back to entertain the audience."
+  }
+]
