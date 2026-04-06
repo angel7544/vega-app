@@ -1,0 +1,57 @@
+[
+  {
+    "start": "08:30",
+    "stop": "13:00",
+    "channel": "StarUtsav.in",
+    "channelId": "StarUtsav.in",
+    "channelName": "STAR Utsav",
+    "startTs": 1775464200000,
+    "stopTs": 1775480400000,
+    "title": "Saath Nibhaana Saathiya",
+    "desc": "Kokila thinks Gopi is not the thief and later confronts Kinjal about stealing the jewellery. S01 E106."
+  },
+  {
+    "start": "13:00",
+    "stop": "14:30",
+    "channel": "StarUtsav.in",
+    "channelId": "StarUtsav.in",
+    "channelName": "STAR Utsav",
+    "startTs": 1775480400000,
+    "stopTs": 1775485800000,
+    "title": "Yeh Rishta Kya Kehlata Hai",
+    "desc": "Akshara expresses her gratitude for Naitik which surprises Gayathri. S01 E237."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "StarUtsav.in",
+    "channelId": "StarUtsav.in",
+    "channelName": "STAR Utsav",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Udne Ki Aasha",
+    "desc": "Sayali pleads with the college principal for Dilip&apos;s admission. S01 E14."
+  },
+  {
+    "start": "15:00",
+    "stop": "18:00",
+    "channel": "StarUtsav.in",
+    "channelId": "StarUtsav.in",
+    "channelName": "STAR Utsav",
+    "startTs": 1775487600000,
+    "stopTs": 1775498400000,
+    "title": "Ye Hai Mohabbatein",
+    "desc": "Raman refuses to allow Romi to enter the house after Mani suspects that he has been drinking. S01 E253."
+  },
+  {
+    "start": "18:00",
+    "stop": "21:40",
+    "channel": "StarUtsav.in",
+    "channelId": "StarUtsav.in",
+    "channelName": "STAR Utsav",
+    "startTs": 1775498400000,
+    "stopTs": 1775511600000,
+    "title": "Saath Nibhaana Saathiya",
+    "desc": "Kokila thinks Gopi is not the thief and later confronts Kinjal about stealing the jewellery. S01 E106."
+  }
+]

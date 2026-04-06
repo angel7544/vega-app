@@ -1,0 +1,112 @@
+[
+  {
+    "start": "10:51",
+    "stop": "11:45",
+    "channel": "AnimalPlanet.in",
+    "channelId": "AnimalPlanet.in",
+    "channelName": "Animal Planet HD",
+    "startTs": 1775472660000,
+    "stopTs": 1775475900000,
+    "title": "Great Parks of Africa",
+    "desc": "In the northeastern corner of South Africa lays a land of beauty with beaches and coral reefs."
+  },
+  {
+    "start": "11:45",
+    "stop": "12:35",
+    "channel": "AnimalPlanet.in",
+    "channelId": "AnimalPlanet.in",
+    "channelName": "Animal Planet HD",
+    "startTs": 1775475900000,
+    "stopTs": 1775478900000,
+    "title": "Gangs of Baboon Falls",
+    "desc": "The Victoria gang struggle with lots of new mouths to feed, while another troop lets outcasts in."
+  },
+  {
+    "start": "12:35",
+    "stop": "13:34",
+    "channel": "AnimalPlanet.in",
+    "channelId": "AnimalPlanet.in",
+    "channelName": "Animal Planet HD",
+    "startTs": 1775478900000,
+    "stopTs": 1775482440000,
+    "title": "Great Species of Africa",
+    "desc": "Africa&apos;s most majestic big cats face numerous challenges that threaten their future survival."
+  },
+  {
+    "start": "13:34",
+    "stop": "14:04",
+    "channel": "AnimalPlanet.in",
+    "channelId": "AnimalPlanet.in",
+    "channelName": "Animal Planet HD",
+    "startTs": 1775482440000,
+    "stopTs": 1775484240000,
+    "title": "Epic Animal Encounters",
+    "desc": "In the slippery rock-lined Sand River, John Varty struggles to save a bull giraffe."
+  },
+  {
+    "start": "14:04",
+    "stop": "14:31",
+    "channel": "AnimalPlanet.in",
+    "channelId": "AnimalPlanet.in",
+    "channelName": "Animal Planet HD",
+    "startTs": 1775484240000,
+    "stopTs": 1775485860000,
+    "title": "Epic Animal Encounters",
+    "desc": "See some of wildlife&apos;s most remarkable moments, caught on film by amateurs and professionals."
+  },
+  {
+    "start": "14:31",
+    "stop": "15:26",
+    "channel": "AnimalPlanet.in",
+    "channelId": "AnimalPlanet.in",
+    "channelName": "Animal Planet HD",
+    "startTs": 1775485860000,
+    "stopTs": 1775489160000,
+    "title": "River Monsters",
+    "desc": "Jeremy Wade searches for a Fijian killer of local folklore, but there may be more than one."
+  },
+  {
+    "start": "15:26",
+    "stop": "16:21",
+    "channel": "AnimalPlanet.in",
+    "channelId": "AnimalPlanet.in",
+    "channelName": "Animal Planet HD",
+    "startTs": 1775489160000,
+    "stopTs": 1775492460000,
+    "title": "Wild Cats",
+    "desc": "Sheds light on the numerous challenges faced by wild cats in Africa. S01 E01."
+  },
+  {
+    "start": "16:21",
+    "stop": "17:13",
+    "channel": "AnimalPlanet.in",
+    "channelId": "AnimalPlanet.in",
+    "channelName": "Animal Planet HD",
+    "startTs": 1775492460000,
+    "stopTs": 1775495580000,
+    "title": "Parenthood",
+    "desc": "For animal parents in the wild, life is a journey of great risk and even greater rewards."
+  },
+  {
+    "start": "17:13",
+    "stop": "18:08",
+    "channel": "AnimalPlanet.in",
+    "channelId": "AnimalPlanet.in",
+    "channelName": "Animal Planet HD",
+    "startTs": 1775495580000,
+    "stopTs": 1775498880000,
+    "title": "The Big Dry",
+    "desc": "The Luangwa Valley in Zambia experiences one of the toughest dry seasons imaginable."
+  },
+  {
+    "start": "18:08",
+    "stop": "19:09",
+    "channel": "AnimalPlanet.in",
+    "channelId": "AnimalPlanet.in",
+    "channelName": "Animal Planet HD",
+    "startTs": 1775498880000,
+    "stopTs": 1775502540000,
+    "title": "Africa&apos;s Hunters",
+    "desc": "Following a family of spotted hyenas in Zambia in one of the toughest seasons in living memory."
+  }
+]

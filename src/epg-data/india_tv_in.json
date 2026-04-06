@@ -8,7 +8,7 @@
     "startTs": 1775471280000,
     "stopTs": 1775474880000,
     "title": "Aaj Ki Badi Khabar",
-    "desc": "The host presents the latest news updates on some of the biggest events related to politics, sports, crime and business."
+    "desc": "The host presents the latest news updates related to sports, business, crime and politics."
   },
   {
     "start": "11:28",
@@ -19,7 +19,7 @@
     "startTs": 1775474880000,
     "stopTs": 1775478480000,
     "title": "Muqabla",
-    "desc": "The show hosts debates between top politicians, engaging a live audience on current issues of the country. Each party is given limited time to respond to allegations and criticisms."
+    "desc": "The show hosts debates between top politicians, engaging a live audience on current issues."
   },
   {
     "start": "12:28",
@@ -30,7 +30,7 @@
     "startTs": 1775478480000,
     "stopTs": 1775480280000,
     "title": "Abki Baar Kiski Sarkar",
-    "desc": "The host highlights the various political parties participating in the current election and provides the latest developments related to it."
+    "desc": "The host provides important updates on the upcoming elections."
   },
   {
     "start": "12:58",
@@ -41,7 +41,7 @@
     "startTs": 1775480280000,
     "stopTs": 1775482080000,
     "title": "Coffee Par Kurukshetra",
-    "desc": "The host provides insightful discussions on current affairs, centered around critical national and global issues, exploring key developments shaping India today."
+    "desc": "The host provides insightful discussions on critical national issues."
   },
   {
     "start": "13:28",
@@ -52,7 +52,7 @@
     "startTs": 1775482080000,
     "stopTs": 1775485680000,
     "title": "Dharmayudh",
-    "desc": "The host presents a detailed analysis of the latest developments on key issues across the political and religious landscapes of the country."
+    "desc": "The host presents a detailed analysis of the country&apos;s key political and religious issues."
   },
   {
     "start": "14:28",
@@ -63,7 +63,7 @@
     "startTs": 1775485680000,
     "stopTs": 1775489220000,
     "title": "Haqiqat Kya Hai ? + Super 100",
-    "desc": "The host presents various facts about different political, economic and social issues across the nation; the host shares the top hundred headlines pertaining to the current affairs of the country."
+    "desc": "The host presents updates about the current affairs; the host shares top 100 headlines of the day."
   },
   {
     "start": "15:27",
@@ -74,7 +74,7 @@
     "startTs": 1775489220000,
     "stopTs": 1775492880000,
     "title": "Aaj Ki Baat Rajat Sharma Ke Saath",
-    "desc": "Host Rajat Sharma provides the latest news on the latest events and current affairs along with a detailed analysis of the topics."
+    "desc": "Host Rajat Sharma provides a detailed analysis on the latest trending topics."
   },
   {
     "start": "16:28",
@@ -85,7 +85,7 @@
     "startTs": 1775492880000,
     "stopTs": 1775496480000,
     "title": "Special Report",
-    "desc": "The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports."
+    "desc": "The host presents some of the latest news stories, current affairs and developments."
   },
   {
     "start": "17:28",
@@ -96,424 +96,17 @@
     "startTs": 1775496480000,
     "stopTs": 1775498280000,
     "title": "Special Report",
-    "desc": "The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports."
+    "desc": "The host presents some of the latest news stories, current affairs and developments."
   },
   {
     "start": "17:58",
-    "stop": "18:29",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775498280000,
-    "stopTs": 1775500199000,
-    "title": "Aaj Ki Baat Rajat Sharma Ke Saath",
-    "desc": "Host Rajat Sharma provides the latest news on the latest events and current affairs along with a detailed analysis of the topics."
-  },
-  {
-    "start": "18:30",
     "stop": "18:45",
     "channel": "IndiaTV.in",
     "channelId": "IndiaTV.in",
     "channelName": "India TV",
-    "startTs": 1775500200000,
+    "startTs": 1775498280000,
     "stopTs": 1775501100000,
     "title": "Aaj Ki Baat Rajat Sharma Ke Saath",
-    "desc": "Host Rajat Sharma provides the latest news on the latest events and current affairs along with a detailed analysis of the topics."
-  },
-  {
-    "start": "18:45",
-    "stop": "19:30",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775501100000,
-    "stopTs": 1775503800000,
-    "title": "Advertisment",
-    "desc": "A wide range of products manufactured by popular brands can be bought at attractive prices from the comfort of one&apos;s home."
-  },
-  {
-    "start": "19:30",
-    "stop": "20:30",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775503800000,
-    "stopTs": 1775507400000,
-    "title": "Aaj Ki Baat Rajat Sharma Ke Saath",
-    "desc": "Host Rajat Sharma provides the latest news on the latest events and current affairs along with a detailed analysis of the topics."
-  },
-  {
-    "start": "20:30",
-    "stop": "21:00",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775507400000,
-    "stopTs": 1775509200000,
-    "title": "Special Report",
-    "desc": "The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports."
-  },
-  {
-    "start": "21:00",
-    "stop": "21:30",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775509200000,
-    "stopTs": 1775511000000,
-    "title": "Special Report",
-    "desc": "The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports."
-  },
-  {
-    "start": "21:30",
-    "stop": "22:00",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775511000000,
-    "stopTs": 1775512800000,
-    "title": "Special Report",
-    "desc": "The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports."
-  },
-  {
-    "start": "22:00",
-    "stop": "22:30",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775512800000,
-    "stopTs": 1775514600000,
-    "title": "Special Report",
-    "desc": "The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports."
-  },
-  {
-    "start": "22:30",
-    "stop": "23:00",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775514600000,
-    "stopTs": 1775516400000,
-    "title": "Special Report",
-    "desc": "The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports."
-  },
-  {
-    "start": "23:00",
-    "stop": "23:30",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775516400000,
-    "stopTs": 1775518200000,
-    "title": "Special Report",
-    "desc": "The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports."
-  },
-  {
-    "start": "23:30",
-    "stop": "00:00",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775518200000,
-    "stopTs": 1775520000000,
-    "title": "Advertisment",
-    "desc": "A wide range of products manufactured by popular brands can be bought at attractive prices from the comfort of one&apos;s home."
-  },
-  {
-    "start": "00:00",
-    "stop": "00:30",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775520000000,
-    "stopTs": 1775521800000,
-    "title": "Advertisment",
-    "desc": "A wide range of products manufactured by popular brands can be bought at attractive prices from the comfort of one&apos;s home."
-  },
-  {
-    "start": "00:30",
-    "stop": "00:58",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775521800000,
-    "stopTs": 1775523480000,
-    "title": "Jaago India",
-    "desc": "The host presents the latest updates and developments regarding various social, political and economic issues in a detailed manner."
-  },
-  {
-    "start": "00:58",
-    "stop": "01:28",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775523480000,
-    "stopTs": 1775525280000,
-    "title": "Jaago India",
-    "desc": "The host presents the latest updates and developments regarding various social, political and economic issues in a detailed manner."
-  },
-  {
-    "start": "01:28",
-    "stop": "01:55",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775525280000,
-    "stopTs": 1775526900000,
-    "title": "Jaago India",
-    "desc": "The host presents the latest updates and developments regarding various social, political and economic issues in a detailed manner."
-  },
-  {
-    "start": "01:55",
-    "stop": "02:27",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775526900000,
-    "stopTs": 1775528820000,
-    "title": "Bhavishyawani",
-    "desc": "A renowned astrologer predicts the future based on horoscopes and suggests effective astrological remedies to live a fulfilled life."
-  },
-  {
-    "start": "02:27",
-    "stop": "03:28",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775528820000,
-    "stopTs": 1775532480000,
-    "title": "Rogo Se Jung Swami Ramdev Ke Sung",
-    "desc": "Baba Ramdev discusses the negative consequences of obesity in human beings and demonstrates several exercises to combat the problem."
-  },
-  {
-    "start": "03:28",
-    "stop": "04:28",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775532480000,
-    "stopTs": 1775536080000,
-    "title": "9 Baje 9 Khabre",
-    "desc": "The host talks about the latest socio-economic and political news, updates and developments from various parts of the world."
-  },
-  {
-    "start": "04:28",
-    "stop": "04:58",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775536080000,
-    "stopTs": 1775537880000,
-    "title": "Damdar 10",
-    "desc": "The host provides a comprehensive review of the most important news stories, offering detailed analysis and objective reporting on key national developments."
-  },
-  {
-    "start": "04:58",
-    "stop": "05:28",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775537880000,
-    "stopTs": 1775539680000,
-    "title": "Special Report",
-    "desc": "The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports."
-  },
-  {
-    "start": "05:28",
-    "stop": "05:58",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775539680000,
-    "stopTs": 1775541480000,
-    "title": "Abhi Abhi",
-    "desc": "The host presents a comprehensive round-up of the latest news and updates related to global events and national developments."
-  },
-  {
-    "start": "05:58",
-    "stop": "06:28",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775541480000,
-    "stopTs": 1775543280000,
-    "title": "Abhi Abhi",
-    "desc": "The host presents a comprehensive round-up of the latest news and updates related to global events and national developments."
-  },
-  {
-    "start": "06:28",
-    "stop": "06:58",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775543280000,
-    "stopTs": 1775545080000,
-    "title": "Abki Baar Kiski Sarkar",
-    "desc": "The host highlights the various political parties participating in the current election and provides the latest developments related to it."
-  },
-  {
-    "start": "06:58",
-    "stop": "07:28",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775545080000,
-    "stopTs": 1775546880000,
-    "title": "Abki Baar Kiski Sarkar",
-    "desc": "The host highlights the various political parties participating in the current election and provides the latest developments related to it."
-  },
-  {
-    "start": "07:28",
-    "stop": "08:28",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775546880000,
-    "stopTs": 1775550480000,
-    "title": "Kahani Kursi Ki",
-    "desc": "The host sheds light on various trending social and political topics and discusses them with experts, seeking the opinion of people."
-  },
-  {
-    "start": "08:28",
-    "stop": "09:28",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775550480000,
-    "stopTs": 1775554080000,
-    "title": "Kahani Kursi Ki",
-    "desc": "The host sheds light on various trending social and political topics and discusses them with experts, seeking the opinion of people."
-  },
-  {
-    "start": "09:28",
-    "stop": "09:58",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775554080000,
-    "stopTs": 1775555880000,
-    "title": "Rajdharma",
-    "desc": "The host examines political decisions, ethics in public office as well as their impact on society, offering insightful analysis."
-  },
-  {
-    "start": "09:58",
-    "stop": "10:28",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775555880000,
-    "stopTs": 1775557680000,
-    "title": "Rajdharma",
-    "desc": "The host examines political decisions, ethics in public office as well as their impact on society, offering insightful analysis."
-  },
-  {
-    "start": "10:28",
-    "stop": "11:28",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775557680000,
-    "stopTs": 1775561280000,
-    "title": "Aaj Ki Badi Khabar",
-    "desc": "The host presents the latest news updates on some of the biggest events related to politics, sports, crime and business."
-  },
-  {
-    "start": "11:28",
-    "stop": "12:28",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775561280000,
-    "stopTs": 1775564880000,
-    "title": "Muqabla",
-    "desc": "The show hosts debates between top politicians, engaging a live audience on current issues of the country. Each party is given limited time to respond to allegations and criticisms."
-  },
-  {
-    "start": "12:28",
-    "stop": "12:58",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775564880000,
-    "stopTs": 1775566680000,
-    "title": "Abki Baar Kiski Sarkar",
-    "desc": "The host highlights the various political parties participating in the current election and provides the latest developments related to it."
-  },
-  {
-    "start": "12:58",
-    "stop": "13:28",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775566680000,
-    "stopTs": 1775568480000,
-    "title": "Coffee Par Kurukshetra",
-    "desc": "The host provides insightful discussions on current affairs, centered around critical national and global issues, exploring key developments shaping India today."
-  },
-  {
-    "start": "13:28",
-    "stop": "14:28",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775568480000,
-    "stopTs": 1775572080000,
-    "title": "Dharmayudh",
-    "desc": "The host presents a detailed analysis of the latest developments on key issues across the political and religious landscapes of the country."
-  },
-  {
-    "start": "14:28",
-    "stop": "15:27",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775572080000,
-    "stopTs": 1775575620000,
-    "title": "Haqiqat Kya Hai ? + Super 100",
-    "desc": "The host presents various facts about different political, economic and social issues across the nation; the host shares the top hundred headlines pertaining to the current affairs of the country."
-  },
-  {
-    "start": "15:27",
-    "stop": "16:28",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775575620000,
-    "stopTs": 1775579280000,
-    "title": "Aaj Ki Baat Rajat Sharma Ke Saath",
-    "desc": "Host Rajat Sharma provides the latest news on the latest events and current affairs along with a detailed analysis of the topics."
-  },
-  {
-    "start": "16:28",
-    "stop": "17:28",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775579280000,
-    "stopTs": 1775582880000,
-    "title": "Special Report",
-    "desc": "The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports."
-  },
-  {
-    "start": "17:28",
-    "stop": "17:58",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775582880000,
-    "stopTs": 1775584680000,
-    "title": "Special Report",
-    "desc": "The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports."
-  },
-  {
-    "start": "17:58",
-    "stop": "18:29",
-    "channel": "IndiaTV.in",
-    "channelId": "IndiaTV.in",
-    "channelName": "India TV",
-    "startTs": 1775584680000,
-    "stopTs": 1775586599000,
-    "title": "Aaj Ki Baat Rajat Sharma Ke Saath",
-    "desc": "Host Rajat Sharma provides the latest news on the latest events and current affairs along with a detailed analysis of the topics."
+    "desc": "Host Rajat Sharma provides a detailed analysis on the latest trending topics."
   }
 ]

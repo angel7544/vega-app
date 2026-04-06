@@ -1,0 +1,35 @@
+[
+  {
+    "start": "09:49",
+    "stop": "13:25",
+    "channel": "ZeeClassic.in",
+    "channelId": "ZeeClassic.in",
+    "channelName": "Zee Classic",
+    "startTs": 1775468940000,
+    "stopTs": 1775481900000,
+    "title": "Dost",
+    "desc": "Maanav gets his friend, a thief, a job in order to help him live an honest life."
+  },
+  {
+    "start": "13:25",
+    "stop": "17:10",
+    "channel": "ZeeClassic.in",
+    "channelId": "ZeeClassic.in",
+    "channelName": "Zee Classic",
+    "startTs": 1775481900000,
+    "stopTs": 1775495400000,
+    "title": "Mard",
+    "desc": "King Azad is locked in a dungeon by General Dyer. Later, Azad&apos;s son comes to his rescue."
+  },
+  {
+    "start": "17:10",
+    "stop": "19:51",
+    "channel": "ZeeClassic.in",
+    "channelId": "ZeeClassic.in",
+    "channelName": "Zee Classic",
+    "startTs": 1775495400000,
+    "stopTs": 1775505060000,
+    "title": "Tum Haseen Main Jawaan",
+    "desc": "Fate tests Sunil&apos;s love for Anuradha when her admirer claims that she is a single mother."
+  }
+]

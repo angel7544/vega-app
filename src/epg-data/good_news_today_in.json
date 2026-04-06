@@ -8,7 +8,7 @@
     "startTs": 1775471640000,
     "stopTs": 1775475240000,
     "title": "Ye Hui Na Baat",
-    "desc": "The host converses with individuals from the world of politics, business, entertainment and more to discuss topics and issues of significance."
+    "desc": "The host converses with individuals from all walks of life to discuss significant issues."
   },
   {
     "start": "11:34",
@@ -19,7 +19,7 @@
     "startTs": 1775475240000,
     "stopTs": 1775478840000,
     "title": "Chai Par Charcha",
-    "desc": "The host invites experts from different walks of life to discuss important news stories, major developments and critical updates from across the country."
+    "desc": "The host invites experts from different walks of life to discuss important news stories."
   },
   {
     "start": "12:34",
@@ -30,7 +30,7 @@
     "startTs": 1775478840000,
     "stopTs": 1775480220000,
     "title": "GNT Special",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+    "desc": "The host presents information about the social, economic and political issues of the day."
   },
   {
     "start": "12:57",
@@ -41,7 +41,7 @@
     "startTs": 1775480220000,
     "stopTs": 1775481600000,
     "title": "GNT Express",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+    "desc": "The host presents information about the social, economic and political issues of the day."
   },
   {
     "start": "13:20",
@@ -52,7 +52,7 @@
     "startTs": 1775481600000,
     "stopTs": 1775482440000,
     "title": "Good News",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+    "desc": "The host presents information about the social, economic and political issues of the day."
   },
   {
     "start": "13:34",
@@ -63,7 +63,7 @@
     "startTs": 1775482440000,
     "stopTs": 1775484240000,
     "title": "7 Baje 7 Good News",
-    "desc": "The host shares 7 uplifting stories at 7 o&apos;clock bringing a daily dose of good news from across the globe to inspire and brighten the day."
+    "desc": "The host shares 7 uplifting stories at 7, bringing good news to brighten a day."
   },
   {
     "start": "14:04",
@@ -74,7 +74,7 @@
     "startTs": 1775484240000,
     "stopTs": 1775486040000,
     "title": "Fact Check",
-    "desc": "The host sheds light on various news stories circulating on social media and verifies whether the information present is accurate or not."
+    "desc": "The host verifies various news stories circulating on social media for accuracy."
   },
   {
     "start": "14:34",
@@ -96,7 +96,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Good Luck Special",
-    "desc": "An astrologer makes future predictions for the zodiac signs and provides advice on how one can attract good luck in their life."
+    "desc": "An astrologer makes future predictions and provides advice on steps to attract good luck."
   },
   {
     "start": "15:30",
@@ -107,7 +107,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775493240000,
     "title": "News Path",
-    "desc": "The host presents information on the latest news stories and developments surrounding various issues and provides updates on current events."
+    "desc": "The host presents the latest news stories and provides updates on current events."
   },
   {
     "start": "16:34",
@@ -118,7 +118,7 @@
     "startTs": 1775493240000,
     "stopTs": 1775495040000,
     "title": "Shubh Mangal Sawdhan",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+    "desc": "The host presents information about the social, economic and political issues of the day."
   },
   {
     "start": "17:04",
@@ -129,468 +129,17 @@
     "startTs": 1775495040000,
     "stopTs": 1775496600000,
     "title": "GNT Express",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+    "desc": "The host presents information about the social, economic and political issues of the day."
   },
   {
     "start": "17:30",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "GoodNewsToday.in",
     "channelId": "GoodNewsToday.in",
     "channelName": "Good News Today",
     "startTs": 1775496600000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "Good Luck Today",
-    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
-  },
-  {
-    "start": "18:30",
-    "stop": "19:30",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775500200000,
-    "stopTs": 1775503800000,
-    "title": "GNT Special",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "19:30",
-    "stop": "20:30",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775503800000,
-    "stopTs": 1775507400000,
-    "title": "Good News Today",
-    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
-  },
-  {
-    "start": "20:30",
-    "stop": "21:00",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775507400000,
-    "stopTs": 1775509200000,
-    "title": "GNT Special",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "21:00",
-    "stop": "21:30",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775509200000,
-    "stopTs": 1775511000000,
-    "title": "Fact Check",
-    "desc": "The host sheds light on various news stories circulating on social media and verifies whether the information present is accurate or not."
-  },
-  {
-    "start": "21:30",
-    "stop": "22:00",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775511000000,
-    "stopTs": 1775512800000,
-    "title": "Good Night",
-    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
-  },
-  {
-    "start": "22:00",
-    "stop": "22:30",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775512800000,
-    "stopTs": 1775514600000,
-    "title": "GNT Special",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "22:30",
-    "stop": "23:00",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775514600000,
-    "stopTs": 1775516400000,
-    "title": "GNT Express",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "23:00",
-    "stop": "23:30",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775516400000,
-    "stopTs": 1775518200000,
-    "title": "Fact Check",
-    "desc": "The host sheds light on various news stories circulating on social media and verifies whether the information present is accurate or not."
-  },
-  {
-    "start": "23:30",
-    "stop": "00:30",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775518200000,
-    "stopTs": 1775521800000,
-    "title": "GNT Special",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "00:30",
-    "stop": "01:00",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775521800000,
-    "stopTs": 1775523600000,
-    "title": "GNT Special",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "01:00",
-    "stop": "01:30",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775523600000,
-    "stopTs": 1775525400000,
-    "title": "GNT Express",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "01:30",
-    "stop": "01:55",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775525400000,
-    "stopTs": 1775526900000,
-    "title": "Achchi Baat Dhirendra Shastri Ke Saath",
-    "desc": "The host and spiritual leader, Dhirendra Krishna Shastri, holds conversations on various topics and issues of significance."
-  },
-  {
-    "start": "01:55",
-    "stop": "02:20",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775526900000,
-    "stopTs": 1775528400000,
-    "title": "GNT Express",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "02:20",
-    "stop": "02:34",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775528400000,
-    "stopTs": 1775529240000,
-    "title": "Good News",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "02:34",
-    "stop": "03:15",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775529240000,
-    "stopTs": 1775531700000,
-    "title": "Good Luck Today",
-    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
-  },
-  {
-    "start": "03:15",
-    "stop": "03:34",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775531700000,
-    "stopTs": 1775532840000,
-    "title": "Good Luck Today",
-    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
-  },
-  {
-    "start": "03:34",
-    "stop": "04:34",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775532840000,
-    "stopTs": 1775536440000,
-    "title": "Shubh Samachar",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "04:34",
-    "stop": "05:04",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775536440000,
-    "stopTs": 1775538240000,
-    "title": "Kismat Connection",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "05:04",
-    "stop": "05:34",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775538240000,
-    "stopTs": 1775540040000,
-    "title": "Achchi Baat Dhirendra Shastri Ke Saath",
-    "desc": "The host and spiritual leader, Dhirendra Krishna Shastri, holds conversations on various topics and issues of significance."
-  },
-  {
-    "start": "05:34",
-    "stop": "05:45",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775540040000,
-    "stopTs": 1775540700000,
-    "title": "GNT Express",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "05:45",
-    "stop": "06:04",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775540700000,
-    "stopTs": 1775541840000,
-    "title": "Advt",
-    "desc": "The host presents an extensive variety of miscellaneous products that can be purchased from the warm comfort of one&apos;s home."
-  },
-  {
-    "start": "06:04",
-    "stop": "06:34",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775541840000,
-    "stopTs": 1775543640000,
-    "title": "GNT Special",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "06:34",
-    "stop": "07:34",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775543640000,
-    "stopTs": 1775547240000,
-    "title": "Lunch Time",
-    "desc": "The hosts present some of the latest news updates and developments pertaining to various social, political and economic issues."
-  },
-  {
-    "start": "07:34",
-    "stop": "07:58",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775547240000,
-    "stopTs": 1775548680000,
-    "title": "GNT Express",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "07:58",
-    "stop": "09:34",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775548680000,
-    "stopTs": 1775554440000,
-    "title": "Saas Bahu Aur Betiyan",
-    "desc": "The host presents the latest updates and developments related to famous TV shows and shares exclusive information about celebrities."
-  },
-  {
-    "start": "09:34",
-    "stop": "09:45",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775554440000,
-    "stopTs": 1775555100000,
-    "title": "GNT Express",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "09:45",
-    "stop": "10:04",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775555100000,
-    "stopTs": 1775556240000,
-    "title": "Advt",
-    "desc": "The host presents an extensive variety of miscellaneous products that can be purchased from the warm comfort of one&apos;s home."
-  },
-  {
-    "start": "10:04",
-    "stop": "10:34",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775556240000,
-    "stopTs": 1775558040000,
-    "title": "Prarthna Sweekar Ho",
-    "desc": "The host presents information on the latest news and updates pertaining to the temples and pilgrimage sites across India."
-  },
-  {
-    "start": "10:34",
-    "stop": "11:34",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775558040000,
-    "stopTs": 1775561640000,
-    "title": "Ye Hui Na Baat",
-    "desc": "The host converses with individuals from the world of politics, business, entertainment and more to discuss topics and issues of significance."
-  },
-  {
-    "start": "11:34",
-    "stop": "12:34",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775561640000,
-    "stopTs": 1775565240000,
-    "title": "Chai Par Charcha",
-    "desc": "The host invites experts from different walks of life to discuss important news stories, major developments and critical updates from across the country."
-  },
-  {
-    "start": "12:34",
-    "stop": "12:57",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775565240000,
-    "stopTs": 1775566620000,
-    "title": "GNT Special",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "12:57",
-    "stop": "13:20",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775566620000,
-    "stopTs": 1775568000000,
-    "title": "GNT Express",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "13:20",
-    "stop": "13:34",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775568000000,
-    "stopTs": 1775568840000,
-    "title": "Good News",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "13:34",
-    "stop": "14:04",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775568840000,
-    "stopTs": 1775570640000,
-    "title": "7 Baje 7 Good News",
-    "desc": "The host shares 7 uplifting stories at 7 o&apos;clock bringing a daily dose of good news from across the globe to inspire and brighten the day."
-  },
-  {
-    "start": "14:04",
-    "stop": "14:34",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775570640000,
-    "stopTs": 1775572440000,
-    "title": "Fact Check",
-    "desc": "The host sheds light on various news stories circulating on social media and verifies whether the information present is accurate or not."
-  },
-  {
-    "start": "14:34",
-    "stop": "15:00",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775572440000,
-    "stopTs": 1775574000000,
-    "title": "Kismat Connection",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "15:00",
-    "stop": "15:30",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775574000000,
-    "stopTs": 1775575800000,
-    "title": "Good Luck Special",
-    "desc": "An astrologer makes future predictions for the zodiac signs and provides advice on how one can attract good luck in their life."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:34",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775575800000,
-    "stopTs": 1775579640000,
-    "title": "News Path",
-    "desc": "The host presents information on the latest news stories and developments surrounding various issues and provides updates on current events."
-  },
-  {
-    "start": "16:34",
-    "stop": "17:04",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775579640000,
-    "stopTs": 1775581440000,
-    "title": "Shubh Mangal Sawdhan",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "17:04",
-    "stop": "17:30",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775581440000,
-    "stopTs": 1775583000000,
-    "title": "GNT Express",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "17:30",
-    "stop": "18:29",
-    "channel": "GoodNewsToday.in",
-    "channelId": "GoodNewsToday.in",
-    "channelName": "Good News Today",
-    "startTs": 1775583000000,
-    "stopTs": 1775586599000,
-    "title": "Good Luck Today",
-    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
+    "desc": "The host presents the latest news and provides updates on current events."
   }
 ]

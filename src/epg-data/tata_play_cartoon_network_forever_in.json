@@ -1,0 +1,79 @@
+[
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "TataPlayCartoonNetworkForever.in",
+    "channelId": "TataPlayCartoonNetworkForever.in",
+    "channelName": "Tata Play Cartoon Network Forever",
+    "startTs": 1775471400000,
+    "stopTs": 1775475000000,
+    "title": "Codename: Kids Next Door",
+    "desc": "Five heroic 10-year-olds have formed a secret team to free kids from the rule of adults."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "TataPlayCartoonNetworkForever.in",
+    "channelId": "TataPlayCartoonNetworkForever.in",
+    "channelName": "Tata Play Cartoon Network Forever",
+    "startTs": 1775475000000,
+    "stopTs": 1775478600000,
+    "title": "Batman Animated Series",
+    "desc": "Bruce Wayne masks his identity as Batman, a vigilante detective who defends Gotham City."
+  },
+  {
+    "start": "12:30",
+    "stop": "14:30",
+    "channel": "TataPlayCartoonNetworkForever.in",
+    "channelId": "TataPlayCartoonNetworkForever.in",
+    "channelName": "Tata Play Cartoon Network Forever",
+    "startTs": 1775478600000,
+    "stopTs": 1775485800000,
+    "title": "The Tom & Jerry Show",
+    "desc": "Tom the cat gets up to all sorts of misadventures as he pursues Jerry the mouse."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "TataPlayCartoonNetworkForever.in",
+    "channelId": "TataPlayCartoonNetworkForever.in",
+    "channelName": "Tata Play Cartoon Network Forever",
+    "startTs": 1775485800000,
+    "stopTs": 1775489400000,
+    "title": "Be Cool, Scooby-Doo!",
+    "desc": "After senior year, the Scooby-Doo gang spend their last summer break by solving mysteries."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "TataPlayCartoonNetworkForever.in",
+    "channelId": "TataPlayCartoonNetworkForever.in",
+    "channelName": "Tata Play Cartoon Network Forever",
+    "startTs": 1775489400000,
+    "stopTs": 1775493000000,
+    "title": "Scooby-Doo and Scrappy-Doo",
+    "desc": "A detective canine possessing a timid disposition, Scooby-Doo trembles in secluded nooks."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "TataPlayCartoonNetworkForever.in",
+    "channelId": "TataPlayCartoonNetworkForever.in",
+    "channelName": "Tata Play Cartoon Network Forever",
+    "startTs": 1775493000000,
+    "stopTs": 1775496600000,
+    "title": "Codename: Kids Next Door",
+    "desc": "Five heroic 10-year-olds have formed a secret team to free kids from the rule of adults."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:30",
+    "channel": "TataPlayCartoonNetworkForever.in",
+    "channelId": "TataPlayCartoonNetworkForever.in",
+    "channelName": "Tata Play Cartoon Network Forever",
+    "startTs": 1775496600000,
+    "stopTs": 1775500200000,
+    "title": "Batman Animated Series",
+    "desc": "Bruce Wayne masks his identity as Batman, a vigilante detective who defends Gotham City."
+  }
+]

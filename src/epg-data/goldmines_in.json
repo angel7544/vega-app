@@ -1,0 +1,46 @@
+[
+  {
+    "start": "08:30",
+    "stop": "11:33",
+    "channel": "Goldmines.in",
+    "channelId": "Goldmines.in",
+    "channelName": "Goldmines",
+    "startTs": 1775464200000,
+    "stopTs": 1775475180000,
+    "title": "Rangasthalam",
+    "desc": "A young man along with his older brother defy tyranny in a fight for justice and freedom."
+  },
+  {
+    "start": "11:33",
+    "stop": "14:25",
+    "channel": "Goldmines.in",
+    "channelId": "Goldmines.in",
+    "channelName": "Goldmines",
+    "startTs": 1775475180000,
+    "stopTs": 1775485500000,
+    "title": "Thadaka",
+    "desc": "Brothers Siva, a policeman, and Karthik are poles apart. However, together they fight a gangster."
+  },
+  {
+    "start": "14:25",
+    "stop": "17:02",
+    "channel": "Goldmines.in",
+    "channelId": "Goldmines.in",
+    "channelName": "Goldmines",
+    "startTs": 1775485500000,
+    "stopTs": 1775494920000,
+    "title": "The Real Jackpot",
+    "desc": "A security guard embarks on a journey to find a hidden treasure left by his grandfather."
+  },
+  {
+    "start": "17:02",
+    "stop": "19:51",
+    "channel": "Goldmines.in",
+    "channelId": "Goldmines.in",
+    "channelName": "Goldmines",
+    "startTs": 1775494920000,
+    "stopTs": 1775505060000,
+    "title": "Dangerous Khiladi 3",
+    "desc": "Ravi, who aspires to become a police officer, gets into a serious fight with a kingpin."
+  }
+]

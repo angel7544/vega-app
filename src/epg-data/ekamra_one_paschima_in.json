@@ -1,0 +1,68 @@
+[
+  {
+    "start": "10:30",
+    "stop": "12:00",
+    "channel": "EkamraOnepaschima.in",
+    "channelId": "EkamraOnepaschima.in",
+    "channelName": "Ekamra One paschima",
+    "startTs": 1775471400000,
+    "stopTs": 1775476800000,
+    "title": "Album Toxide",
+    "desc": "A compilation of timeless Odia album hits is played back to back enthral the audience."
+  },
+  {
+    "start": "12:00",
+    "stop": "13:30",
+    "channel": "EkamraOnepaschima.in",
+    "channelId": "EkamraOnepaschima.in",
+    "channelName": "Ekamra One paschima",
+    "startTs": 1775476800000,
+    "stopTs": 1775482200000,
+    "title": "Album Toxide",
+    "desc": "A compilation of timeless Odia album hits is played back to back enthral the audience."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "EkamraOnepaschima.in",
+    "channelId": "EkamraOnepaschima.in",
+    "channelName": "Ekamra One paschima",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Prime News",
+    "desc": "Top news stories from business, politics, and social issues of local and international significance."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "EkamraOnepaschima.in",
+    "channelId": "EkamraOnepaschima.in",
+    "channelName": "Ekamra One paschima",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "New Releases",
+    "desc": "The host presents the latest news and updates on recently released films and projects."
+  },
+  {
+    "start": "14:30",
+    "stop": "17:30",
+    "channel": "EkamraOnepaschima.in",
+    "channelId": "EkamraOnepaschima.in",
+    "channelName": "Ekamra One paschima",
+    "startTs": 1775485800000,
+    "stopTs": 1775496600000,
+    "title": "Pahela Kari Pindhichi Sadhi",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:30",
+    "channel": "EkamraOnepaschima.in",
+    "channelId": "EkamraOnepaschima.in",
+    "channelName": "Ekamra One paschima",
+    "startTs": 1775496600000,
+    "stopTs": 1775500200000,
+    "title": "Jhumka Pairi",
+    "desc": "Bringing the best in television."
+  }
+]

@@ -7,8 +7,8 @@
     "channelName": "News 21",
     "startTs": 1775471400000,
     "stopTs": 1775475000000,
-    "title": "News 21",
-    "desc": "News 21"
+    "title": "Khas Mulakat",
+    "desc": "The host conducts an insightful interaction with prominent personalities."
   },
   {
     "start": "11:30",
@@ -18,8 +18,8 @@
     "channelName": "News 21",
     "startTs": 1775475000000,
     "stopTs": 1775478600000,
-    "title": "News 21",
-    "desc": "News 21"
+    "title": "Filmi Galiyara",
+    "desc": "The host explores the latest updates about the film industry and its personalities."
   },
   {
     "start": "12:30",
@@ -29,8 +29,8 @@
     "channelName": "News 21",
     "startTs": 1775478600000,
     "stopTs": 1775482200000,
-    "title": "News 21",
-    "desc": "News 21"
+    "title": "Divya Darshan",
+    "desc": "The host provides insights into the latest news updates concerning faith and religion."
   },
   {
     "start": "13:30",
@@ -40,8 +40,8 @@
     "channelName": "News 21",
     "startTs": 1775482200000,
     "stopTs": 1775485800000,
-    "title": "News 21",
-    "desc": "News 21"
+    "title": "Mudde Ki Baat",
+    "desc": "The host conducts discussions with experts on matters of national importance."
   },
   {
     "start": "14:30",
@@ -51,8 +51,8 @@
     "channelName": "News 21",
     "startTs": 1775485800000,
     "stopTs": 1775489400000,
-    "title": "News 21",
-    "desc": "News 21"
+    "title": "News 21 Express",
+    "desc": "The host sheds light on the latest updates from across the nation and the world."
   },
   {
     "start": "15:30",
@@ -62,8 +62,8 @@
     "channelName": "News 21",
     "startTs": 1775489400000,
     "stopTs": 1775493000000,
-    "title": "News 21",
-    "desc": "News 21"
+    "title": "Prime Debets",
+    "desc": "Bringing the best in television."
   },
   {
     "start": "16:30",
@@ -73,282 +73,18 @@
     "channelName": "News 21",
     "startTs": 1775493000000,
     "stopTs": 1775496600000,
-    "title": "News 21",
-    "desc": "News 21"
+    "title": "Hello Doctor",
+    "desc": "Experts come together to talk about the benefits of Ayurveda, allopathy and homoeopathy."
   },
   {
     "start": "17:30",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "News21.in",
     "channelId": "News21.in",
     "channelName": "News 21",
     "startTs": 1775496600000,
-    "stopTs": 1775500199000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "18:30",
-    "stop": "19:30",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775500200000,
-    "stopTs": 1775503800000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "19:30",
-    "stop": "20:30",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775503800000,
-    "stopTs": 1775507400000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "20:30",
-    "stop": "21:30",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775507400000,
-    "stopTs": 1775511000000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "21:30",
-    "stop": "22:30",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775511000000,
-    "stopTs": 1775514600000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "22:30",
-    "stop": "23:30",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775514600000,
-    "stopTs": 1775518200000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "23:30",
-    "stop": "00:30",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775518200000,
-    "stopTs": 1775521800000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "00:30",
-    "stop": "01:30",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775521800000,
-    "stopTs": 1775525400000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "01:30",
-    "stop": "02:30",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775525400000,
-    "stopTs": 1775529000000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "02:30",
-    "stop": "03:30",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775529000000,
-    "stopTs": 1775532600000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "03:30",
-    "stop": "04:30",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775532600000,
-    "stopTs": 1775536200000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "04:30",
-    "stop": "05:30",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775536200000,
-    "stopTs": 1775539800000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "05:30",
-    "stop": "06:30",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775539800000,
-    "stopTs": 1775543400000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "06:30",
-    "stop": "07:30",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775543400000,
-    "stopTs": 1775547000000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "07:30",
-    "stop": "08:30",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775547000000,
-    "stopTs": 1775550600000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "08:30",
-    "stop": "09:30",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775550600000,
-    "stopTs": 1775554200000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "09:30",
-    "stop": "10:30",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775554200000,
-    "stopTs": 1775557800000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "10:30",
-    "stop": "11:30",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775557800000,
-    "stopTs": 1775561400000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "11:30",
-    "stop": "12:30",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775561400000,
-    "stopTs": 1775565000000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "12:30",
-    "stop": "13:30",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775565000000,
-    "stopTs": 1775568600000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "13:30",
-    "stop": "14:30",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775568600000,
-    "stopTs": 1775572200000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "14:30",
-    "stop": "15:30",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775572200000,
-    "stopTs": 1775575800000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "15:30",
-    "stop": "16:30",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775575800000,
-    "stopTs": 1775579400000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "16:30",
-    "stop": "17:30",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775579400000,
-    "stopTs": 1775583000000,
-    "title": "News 21",
-    "desc": "News 21"
-  },
-  {
-    "start": "17:30",
-    "stop": "18:29",
-    "channel": "News21.in",
-    "channelId": "News21.in",
-    "channelName": "News 21",
-    "startTs": 1775583000000,
-    "stopTs": 1775586599000,
-    "title": "News 21",
-    "desc": "News 21"
+    "stopTs": 1775500200000,
+    "title": "MP News",
+    "desc": "The host presents information and updates on current affairs from Madhya Pradesh."
   }
 ]

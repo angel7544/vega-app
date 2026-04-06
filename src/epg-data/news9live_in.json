@@ -1,0 +1,101 @@
+[
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "News9Live.in",
+    "channelId": "News9Live.in",
+    "channelName": "News9Live",
+    "startTs": 1775471400000,
+    "stopTs": 1775475000000,
+    "title": "Live Bulletin",
+    "desc": "."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "News9Live.in",
+    "channelId": "News9Live.in",
+    "channelName": "News9Live",
+    "startTs": 1775475000000,
+    "stopTs": 1775478600000,
+    "title": "The South Indian",
+    "desc": "The hosts offer deep insights on the latest issues from the states of South India."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "News9Live.in",
+    "channelId": "News9Live.in",
+    "channelName": "News9Live",
+    "startTs": 1775478600000,
+    "stopTs": 1775482200000,
+    "title": "Live Bulletin",
+    "desc": "."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "News9Live.in",
+    "channelId": "News9Live.in",
+    "channelName": "News9Live",
+    "startTs": 1775482200000,
+    "stopTs": 1775485800000,
+    "title": "On Point With Kartikeya",
+    "desc": "Host Kartikeya Sharma conducts interviews and offers in-depth analysis on major topics."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "News9Live.in",
+    "channelId": "News9Live.in",
+    "channelName": "News9Live",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "In Your Interest",
+    "desc": "."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "News9Live.in",
+    "channelId": "News9Live.in",
+    "channelName": "News9Live",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "News9 Live",
+    "desc": "."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "News9Live.in",
+    "channelId": "News9Live.in",
+    "channelName": "News9Live",
+    "startTs": 1775489400000,
+    "stopTs": 1775493000000,
+    "title": "Unmissable",
+    "desc": "The host presents information about the social, economic and political issues of the day."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "News9Live.in",
+    "channelId": "News9Live.in",
+    "channelName": "News9Live",
+    "startTs": 1775493000000,
+    "stopTs": 1775496600000,
+    "title": "News9 Live",
+    "desc": "."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:30",
+    "channel": "News9Live.in",
+    "channelId": "News9Live.in",
+    "channelName": "News9Live",
+    "startTs": 1775496600000,
+    "stopTs": 1775500200000,
+    "title": "On Point With Kartikeya",
+    "desc": "Host Kartikeya Sharma conducts interviews and offers in-depth analysis on major topics."
+  }
+]

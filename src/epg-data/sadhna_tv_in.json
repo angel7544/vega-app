@@ -1,0 +1,101 @@
+[
+  {
+    "start": "09:30",
+    "stop": "12:30",
+    "channel": "SadhnaTV.in",
+    "channelId": "SadhnaTV.in",
+    "channelName": "Sadhna TV",
+    "startTs": 1775467800000,
+    "stopTs": 1775478600000,
+    "title": "PP. Anirudhacharya Ji Maharaj Live",
+    "desc": "A religious leader sheds light on divine teachings and promotes spirituality, live."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "SadhnaTV.in",
+    "channelId": "SadhnaTV.in",
+    "channelName": "Sadhna TV",
+    "startTs": 1775478600000,
+    "stopTs": 1775482200000,
+    "title": "Sehat Aur Zindagi",
+    "desc": "An expert gives useful fitness tips that help one follow a healthy and active lifestyle."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "SadhnaTV.in",
+    "channelId": "SadhnaTV.in",
+    "channelName": "Sadhna TV",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Sehat Aur Zindagi",
+    "desc": "An expert gives useful fitness tips that help one follow a healthy and active lifestyle."
+  },
+  {
+    "start": "14:00",
+    "stop": "15:00",
+    "channel": "SadhnaTV.in",
+    "channelId": "SadhnaTV.in",
+    "channelName": "Sadhna TV",
+    "startTs": 1775484000000,
+    "stopTs": 1775487600000,
+    "title": "Sant Rampal Ji Maharaj",
+    "desc": "Sant Rampal Ji Maharaj delivers a discourse based on sacred religious scriptures."
+  },
+  {
+    "start": "15:00",
+    "stop": "16:00",
+    "channel": "SadhnaTV.in",
+    "channelId": "SadhnaTV.in",
+    "channelName": "Sadhna TV",
+    "startTs": 1775487600000,
+    "stopTs": 1775491200000,
+    "title": "Sehat Aur Zindagi",
+    "desc": "An expert gives useful fitness tips that help one follow a healthy and active lifestyle."
+  },
+  {
+    "start": "16:00",
+    "stop": "17:00",
+    "channel": "SadhnaTV.in",
+    "channelId": "SadhnaTV.in",
+    "channelName": "Sadhna TV",
+    "startTs": 1775491200000,
+    "stopTs": 1775494800000,
+    "title": "Sehat Aur Zindagi",
+    "desc": "An expert gives useful fitness tips that help one follow a healthy and active lifestyle."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "SadhnaTV.in",
+    "channelId": "SadhnaTV.in",
+    "channelName": "Sadhna TV",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Prabhu Darbar",
+    "desc": "A religious leader delivers a discourse about the principles in the lives of people."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "SadhnaTV.in",
+    "channelId": "SadhnaTV.in",
+    "channelName": "Sadhna TV",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Prabhu Darbar",
+    "desc": "A religious leader delivers a discourse about the principles in the lives of people."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "SadhnaTV.in",
+    "channelId": "SadhnaTV.in",
+    "channelName": "Sadhna TV",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Prabhu Darbar",
+    "desc": "A religious leader delivers a discourse about the principles in the lives of people."
+  }
+]

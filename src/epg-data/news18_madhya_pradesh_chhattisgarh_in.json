@@ -1,0 +1,167 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "News18MadhyaPradeshChhattisgarh.in",
+    "channelId": "News18MadhyaPradeshChhattisgarh.in",
+    "channelName": "News18 Madhya Pradesh Chhattisgarh",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Mp CG Superfast 100",
+    "desc": "The host sheds light on the news updates from Madhya Pradesh and Chhattisgarh."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "News18MadhyaPradeshChhattisgarh.in",
+    "channelId": "News18MadhyaPradeshChhattisgarh.in",
+    "channelName": "News18 Madhya Pradesh Chhattisgarh",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Madhya Pradesh Ki Maha Debate",
+    "desc": "The anchor moderates a panel of experts as they discuss pressing societal issues."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "News18MadhyaPradeshChhattisgarh.in",
+    "channelId": "News18MadhyaPradeshChhattisgarh.in",
+    "channelName": "News18 Madhya Pradesh Chhattisgarh",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Khabar Asardar",
+    "desc": "The host presents some of the latest and important updates and news stories."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "News18MadhyaPradeshChhattisgarh.in",
+    "channelId": "News18MadhyaPradeshChhattisgarh.in",
+    "channelName": "News18 Madhya Pradesh Chhattisgarh",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Criminals",
+    "desc": "The host provides a detailed report on crime-related news stories and updates."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "News18MadhyaPradeshChhattisgarh.in",
+    "channelId": "News18MadhyaPradeshChhattisgarh.in",
+    "channelName": "News18 Madhya Pradesh Chhattisgarh",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Mp CG Superfast 100",
+    "desc": "The host sheds light on the news updates from Madhya Pradesh and Chhattisgarh."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "News18MadhyaPradeshChhattisgarh.in",
+    "channelId": "News18MadhyaPradeshChhattisgarh.in",
+    "channelName": "News18 Madhya Pradesh Chhattisgarh",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Madhya Pradesh Ki Maha Debate",
+    "desc": "The anchor moderates a panel of experts as they discuss pressing societal issues."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "News18MadhyaPradeshChhattisgarh.in",
+    "channelId": "News18MadhyaPradeshChhattisgarh.in",
+    "channelName": "News18 Madhya Pradesh Chhattisgarh",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Mp CG Superfast 100",
+    "desc": "The host sheds light on the news updates from Madhya Pradesh and Chhattisgarh."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "News18MadhyaPradeshChhattisgarh.in",
+    "channelId": "News18MadhyaPradeshChhattisgarh.in",
+    "channelName": "News18 Madhya Pradesh Chhattisgarh",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Bageshwar Katha",
+    "desc": "A spiritual leader presents discourses on Hindu teachings and spiritual wisdom."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "News18MadhyaPradeshChhattisgarh.in",
+    "channelId": "News18MadhyaPradeshChhattisgarh.in",
+    "channelName": "News18 Madhya Pradesh Chhattisgarh",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "7 Ki Kadak Khabar",
+    "desc": "The host updates the social, economic and political issues of the day."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "News18MadhyaPradeshChhattisgarh.in",
+    "channelId": "News18MadhyaPradeshChhattisgarh.in",
+    "channelName": "News18 Madhya Pradesh Chhattisgarh",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Superfast 100",
+    "desc": "The host presents the top 100 stories, updates and huge developments from the world."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "News18MadhyaPradeshChhattisgarh.in",
+    "channelId": "News18MadhyaPradeshChhattisgarh.in",
+    "channelName": "News18 Madhya Pradesh Chhattisgarh",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "8 Ki Kadak Khabar",
+    "desc": "The host updates the social, economic and political issues of the day."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "News18MadhyaPradeshChhattisgarh.in",
+    "channelId": "News18MadhyaPradeshChhattisgarh.in",
+    "channelName": "News18 Madhya Pradesh Chhattisgarh",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Superfast 100",
+    "desc": "The host presents the top 100 stories, updates and huge developments from the world."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "News18MadhyaPradeshChhattisgarh.in",
+    "channelId": "News18MadhyaPradeshChhattisgarh.in",
+    "channelName": "News18 Madhya Pradesh Chhattisgarh",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "City at 9",
+    "desc": "The host presents a detailed report of the latest news and developments."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "News18MadhyaPradeshChhattisgarh.in",
+    "channelId": "News18MadhyaPradeshChhattisgarh.in",
+    "channelName": "News18 Madhya Pradesh Chhattisgarh",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "News Special",
+    "desc": "The host provides the latest news updates from around the nation and the world."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "News18MadhyaPradeshChhattisgarh.in",
+    "channelId": "News18MadhyaPradeshChhattisgarh.in",
+    "channelName": "News18 Madhya Pradesh Chhattisgarh",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Superfast 100",
+    "desc": "The host presents the top 100 stories, updates and huge developments from the world."
+  }
+]

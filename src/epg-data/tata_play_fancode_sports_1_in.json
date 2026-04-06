@@ -1,0 +1,79 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "TataPlayFancodeSports+1.in",
+    "channelId": "TataPlayFancodeSports+1.in",
+    "channelName": "Tata Play Fancode Sports +1",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Stay Tuned",
+    "desc": "ATP Masters Rolex Monte-Carlo 2026;Bringing the best in television."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "TataPlayFancodeSports+1.in",
+    "channelId": "TataPlayFancodeSports+1.in",
+    "channelName": "Tata Play Fancode Sports +1",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Live-Day 2-2026 Monte-Carlo Masters Tennis",
+    "desc": "Day 2;"
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "TataPlayFancodeSports+1.in",
+    "channelId": "TataPlayFancodeSports+1.in",
+    "channelName": "Tata Play Fancode Sports +1",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Ireland tour Of Afghanistan 2024",
+    "desc": "Afghanistan and Ireland compete in a series of matches to win the title in 2024."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "TataPlayFancodeSports+1.in",
+    "channelId": "TataPlayFancodeSports+1.in",
+    "channelName": "Tata Play Fancode Sports +1",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "South Africa Tour Of West Indies 2024",
+    "desc": "South Africa and West Indies compete in a series of matches to win the title in 2024."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "TataPlayFancodeSports+1.in",
+    "channelId": "TataPlayFancodeSports+1.in",
+    "channelName": "Tata Play Fancode Sports +1",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Afghanistan Tour Of Zimbabwe 2024/25",
+    "desc": "Afghanistan and Zimbabwe compete in a series of matches to win the title in 2024/25."
+  },
+  {
+    "start": "13:30",
+    "stop": "18:10",
+    "channel": "TataPlayFancodeSports+1.in",
+    "channelId": "TataPlayFancodeSports+1.in",
+    "channelName": "Tata Play Fancode Sports +1",
+    "startTs": 1775482200000,
+    "stopTs": 1775499000000,
+    "title": "3rd T20: Ireland vs. England-T20 Cricket",
+    "desc": "3rd T20: Ireland vs. England;A detailed insight into Twenty20 cricket, where professional cricketing teams participate."
+  },
+  {
+    "start": "18:10",
+    "stop": "18:30",
+    "channel": "TataPlayFancodeSports+1.in",
+    "channelId": "TataPlayFancodeSports+1.in",
+    "channelName": "Tata Play Fancode Sports +1",
+    "startTs": 1775499000000,
+    "stopTs": 1775500200000,
+    "title": "Carabao Cup Highlights",
+    "desc": "Highlights of the Carabao Cup, wherein football teams compete to win the coveted title."
+  }
+]

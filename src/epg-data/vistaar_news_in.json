@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:25",
-    "stop": "10:55",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775471100000,
-    "stopTs": 1775472900000,
-    "title": "News Agenda",
-    "desc": "The host analyses some of the most important news updates, developments and current affairs that matter to the people of the country."
-  },
-  {
     "start": "10:55",
     "stop": "11:25",
     "channel": "VistaarNews.in",
@@ -19,7 +8,7 @@
     "startTs": 1775472900000,
     "stopTs": 1775474700000,
     "title": "Aapka Shahar Aapka Reporter",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+    "desc": "The host presents information about the social, economic and political issues of the day."
   },
   {
     "start": "11:25",
@@ -30,7 +19,7 @@
     "startTs": 1775474700000,
     "stopTs": 1775476500000,
     "title": "News In Action",
-    "desc": "The host provides a detailed report on the latest socio-economic updates and most pressing political developments in the relation to current affairs."
+    "desc": "The host provides a detailed report on socio-economic updates and political developments."
   },
   {
     "start": "11:55",
@@ -41,7 +30,7 @@
     "startTs": 1775476500000,
     "stopTs": 1775478300000,
     "title": "News In Action",
-    "desc": "The host provides a detailed report on the latest socio-economic updates and most pressing political developments in the relation to current affairs."
+    "desc": "The host provides a detailed report on socio-economic updates and political developments."
   },
   {
     "start": "12:25",
@@ -52,7 +41,7 @@
     "startTs": 1775478300000,
     "stopTs": 1775480100000,
     "title": "Khabaron Ki Reel",
-    "desc": "A rapid rundown of notable headlines presents key updates in a compact format designed to keep viewers informed in minimal time."
+    "desc": "A rapid rundown of notable headlines brings short takes on top developments."
   },
   {
     "start": "12:55",
@@ -63,7 +52,7 @@
     "startTs": 1775480100000,
     "stopTs": 1775481900000,
     "title": "Khabaron Ki Reel",
-    "desc": "A rapid rundown of notable headlines presents key updates in a compact format designed to keep viewers informed in minimal time."
+    "desc": "A rapid rundown of notable headlines brings short takes on top developments."
   },
   {
     "start": "13:25",
@@ -74,7 +63,7 @@
     "startTs": 1775481900000,
     "stopTs": 1775483700000,
     "title": "Desh Ke Dil Se",
-    "desc": "The host presents the latest news stories and developments pertaining to various political and socio-economic issues around the country."
+    "desc": "The host presents the latest news stories pertaining to various issues around the country."
   },
   {
     "start": "13:55",
@@ -85,7 +74,7 @@
     "startTs": 1775483700000,
     "stopTs": 1775485500000,
     "title": "Chhattisgadhiya Sable Badhiya",
-    "desc": "The host presents a detailed report on the latest updates and top news stories pertaining to current affairs from across the state of Chhattisgarh."
+    "desc": "The host presents the latest updates and top news stories from the state of Chhattisgarh."
   },
   {
     "start": "14:25",
@@ -96,7 +85,7 @@
     "startTs": 1775485500000,
     "stopTs": 1775489100000,
     "title": "Seedhe Mudde Ki Baat Gyanendra Tiwari Ke sath",
-    "desc": "Gyanendra Tiwari sheds light on a topic or issue that is featured in the most recent news stories and current events on a national scale."
+    "desc": "Gyanendra Tiwari sheds light on a topic or issue that is in the national news."
   },
   {
     "start": "15:25",
@@ -107,7 +96,7 @@
     "startTs": 1775489100000,
     "stopTs": 1775490900000,
     "title": "The Editor&apos;s Show Brajesh Rajput Ke Sath",
-    "desc": "Brajesh Rajput presents information about the social, economic and political issues of the day and provides updates on current events."
+    "desc": "The host presents information about the social, economic and political issues of the day."
   },
   {
     "start": "15:55",
@@ -118,7 +107,7 @@
     "startTs": 1775490900000,
     "stopTs": 1775492700000,
     "title": "Prime Crime",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+    "desc": "The host presents information about the social, economic and political issues of the day."
   },
   {
     "start": "16:25",
@@ -129,7 +118,7 @@
     "startTs": 1775492700000,
     "stopTs": 1775494500000,
     "title": "10 Baje 10 Report",
-    "desc": "The host sheds light on the top 10 news stories and significant updates from various fields influencing people around the country."
+    "desc": "The host sheds light on the top 10 news stories from various fields influencing people."
   },
   {
     "start": "16:55",
@@ -140,7 +129,7 @@
     "startTs": 1775494500000,
     "stopTs": 1775496300000,
     "title": "Khabar Fatafat",
-    "desc": "The host presents a comprehensive and detailed coverage of the latest news and developments, domestically and internationally."
+    "desc": "The host presents a detailed report of the latest news and developments."
   },
   {
     "start": "17:25",
@@ -151,523 +140,17 @@
     "startTs": 1775496300000,
     "stopTs": 1775499900000,
     "title": "Seedhe Mudde Ki Baat Gyanendra Tiwari Ke sath",
-    "desc": "Gyanendra Tiwari sheds light on a topic or issue that is featured in the most recent news stories and current events on a national scale."
+    "desc": "Gyanendra Tiwari sheds light on a topic or issue that is in the national news."
   },
   {
     "start": "18:25",
-    "stop": "18:29",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775499900000,
-    "stopTs": 1775500199000,
-    "title": "The Editor&apos;s Show Brajesh Rajput Ke Sath",
-    "desc": "Brajesh Rajput presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "18:30",
     "stop": "18:55",
     "channel": "VistaarNews.in",
     "channelId": "VistaarNews.in",
     "channelName": "Vistaar News",
-    "startTs": 1775500200000,
+    "startTs": 1775499900000,
     "stopTs": 1775501700000,
     "title": "The Editor&apos;s Show Brajesh Rajput Ke Sath",
-    "desc": "Brajesh Rajput presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "18:55",
-    "stop": "19:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775501700000,
-    "stopTs": 1775503500000,
-    "title": "Crime Time",
-    "desc": "The host sheds light on various crimes from across India, which consists of re-enactments of the incidents and reasons behind the acts."
-  },
-  {
-    "start": "19:25",
-    "stop": "19:55",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775503500000,
-    "stopTs": 1775505300000,
-    "title": "Seedhe Mudde Ki Baat Gyanendra Tiwari Ke sath",
-    "desc": "Gyanendra Tiwari sheds light on a topic or issue that is featured in the most recent news stories and current events on a national scale."
-  },
-  {
-    "start": "19:55",
-    "stop": "20:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775505300000,
-    "stopTs": 1775507100000,
-    "title": "Seedhe Mudde Ki Baat Gyanendra Tiwari Ke sath",
-    "desc": "Gyanendra Tiwari sheds light on a topic or issue that is featured in the most recent news stories and current events on a national scale."
-  },
-  {
-    "start": "20:25",
-    "stop": "20:55",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775507100000,
-    "stopTs": 1775508900000,
-    "title": "The Editor&apos;s Show Brajesh Rajput Ke Sath",
-    "desc": "Brajesh Rajput presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "20:55",
-    "stop": "21:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775508900000,
-    "stopTs": 1775510700000,
-    "title": "Crime Time",
-    "desc": "The host sheds light on various crimes from across India, which consists of re-enactments of the incidents and reasons behind the acts."
-  },
-  {
-    "start": "21:25",
-    "stop": "22:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775510700000,
-    "stopTs": 1775514300000,
-    "title": "Seedhe Mudde Ki Baat Gyanendra Tiwari Ke sath",
-    "desc": "Gyanendra Tiwari sheds light on a topic or issue that is featured in the most recent news stories and current events on a national scale."
-  },
-  {
-    "start": "22:25",
-    "stop": "22:55",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775514300000,
-    "stopTs": 1775516100000,
-    "title": "The Editor&apos;s Show Brajesh Rajput Ke Sath",
-    "desc": "Brajesh Rajput presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "22:55",
-    "stop": "23:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775516100000,
-    "stopTs": 1775517900000,
-    "title": "Crime Time",
-    "desc": "The host sheds light on various crimes from across India, which consists of re-enactments of the incidents and reasons behind the acts."
-  },
-  {
-    "start": "23:25",
-    "stop": "00:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775517900000,
-    "stopTs": 1775521500000,
-    "title": "Seedhe Mudde Ki Baat Gyanendra Tiwari Ke sath",
-    "desc": "Gyanendra Tiwari sheds light on a topic or issue that is featured in the most recent news stories and current events on a national scale."
-  },
-  {
-    "start": "00:25",
-    "stop": "00:55",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775521500000,
-    "stopTs": 1775523300000,
-    "title": "Aaj Ki Taza Khabar",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "00:55",
-    "stop": "01:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775523300000,
-    "stopTs": 1775525100000,
-    "title": "Khabar Fatafat",
-    "desc": "The host presents a comprehensive and detailed coverage of the latest news and developments, domestically and internationally."
-  },
-  {
-    "start": "01:25",
-    "stop": "01:55",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775525100000,
-    "stopTs": 1775526900000,
-    "title": "Suryodaya",
-    "desc": "The host begins the day with information about the social, economic and political issues and updates on current events."
-  },
-  {
-    "start": "01:55",
-    "stop": "02:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775526900000,
-    "stopTs": 1775528700000,
-    "title": "Chhattisgadhiya Sable Badhiya",
-    "desc": "The host presents a detailed report on the latest updates and top news stories pertaining to current affairs from across the state of Chhattisgarh."
-  },
-  {
-    "start": "02:25",
-    "stop": "02:55",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775528700000,
-    "stopTs": 1775530500000,
-    "title": "Desh Ke Dil Se",
-    "desc": "The host presents the latest news stories and developments pertaining to various political and socio-economic issues around the country."
-  },
-  {
-    "start": "02:55",
-    "stop": "03:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775530500000,
-    "stopTs": 1775532300000,
-    "title": "Aap ka Bhagya",
-    "desc": "An astrological expert provides guidance to people on the basis of the movements and positions of planets, the moon, and stars."
-  },
-  {
-    "start": "03:25",
-    "stop": "03:55",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775532300000,
-    "stopTs": 1775534100000,
-    "title": "Khabar Fatafat",
-    "desc": "The host presents a comprehensive and detailed coverage of the latest news and developments, domestically and internationally."
-  },
-  {
-    "start": "03:55",
-    "stop": "04:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775534100000,
-    "stopTs": 1775535900000,
-    "title": "Seedhe Mudde Ki Baat Gyanendra Tiwari Ke sath",
-    "desc": "Gyanendra Tiwari sheds light on a topic or issue that is featured in the most recent news stories and current events on a national scale."
-  },
-  {
-    "start": "04:25",
-    "stop": "04:55",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775535900000,
-    "stopTs": 1775537700000,
-    "title": "10 Baje Ke Mudde",
-    "desc": "The host outlines some of the most major updates and developments pertaining to politics, socio-economics and current affairs."
-  },
-  {
-    "start": "04:55",
-    "stop": "05:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775537700000,
-    "stopTs": 1775539500000,
-    "title": "Khabaron Ki Reel",
-    "desc": "A rapid rundown of notable headlines presents key updates in a compact format designed to keep viewers informed in minimal time."
-  },
-  {
-    "start": "05:25",
-    "stop": "05:55",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775539500000,
-    "stopTs": 1775541300000,
-    "title": "Khabar Vistar Se madhya Pradesh",
-    "desc": "The host presents the latest news stories and developments surrounding various political and socio-economic issues around the state of Madhya Pradesh."
-  },
-  {
-    "start": "05:55",
-    "stop": "06:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775541300000,
-    "stopTs": 1775543100000,
-    "title": "Khabar Vistar Se chhattisgarh",
-    "desc": "The host presents some of the most important and latest social, economic and political news stories and developments from Chhattisgarh."
-  },
-  {
-    "start": "06:25",
-    "stop": "06:55",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775543100000,
-    "stopTs": 1775544900000,
-    "title": "Breaking News",
-    "desc": "The host presents numerous top stories, latest happenings and significant updates from the national and international front."
-  },
-  {
-    "start": "06:55",
-    "stop": "07:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775544900000,
-    "stopTs": 1775546700000,
-    "title": "Fatafat 100",
-    "desc": "The host presents the top 100 news updates concerning the political, social, economic and sports fronts from around the country and the world."
-  },
-  {
-    "start": "07:25",
-    "stop": "07:55",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775546700000,
-    "stopTs": 1775548500000,
-    "title": "Badi Khabar Madhya Pradesh",
-    "desc": "The host presents the latest news stories and developments surrounding various political and socio-economic issues in Madhya Pradesh."
-  },
-  {
-    "start": "07:55",
-    "stop": "08:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775548500000,
-    "stopTs": 1775550300000,
-    "title": "Badi Khabar Chhattisgarh",
-    "desc": "The host presents the latest news updates and developments about various social, economic and political issues pertaining to the state of Chhattisgarh."
-  },
-  {
-    "start": "08:25",
-    "stop": "08:55",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775550300000,
-    "stopTs": 1775552100000,
-    "title": "2 Baje 20 Khabar",
-    "desc": "The host presents the top 20 latest updates concerning the political, social, economic and sports fronts from across the nation and the world."
-  },
-  {
-    "start": "08:55",
-    "stop": "09:15",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775552100000,
-    "stopTs": 1775553300000,
-    "title": "Glamour Ki Duniya",
-    "desc": "The host offers interesting insights and trivia into the production of famous Indian films and reveals little-known behind-the-scenes details."
-  },
-  {
-    "start": "09:15",
-    "stop": "09:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775553300000,
-    "stopTs": 1775553900000,
-    "title": "Ye To Viral Hai",
-    "desc": "The host presents information on some of the most important updates, trends and viral news stories that are of public interest."
-  },
-  {
-    "start": "09:25",
-    "stop": "09:55",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775553900000,
-    "stopTs": 1775555700000,
-    "title": "Aapki Khabar",
-    "desc": "The host presents comprehensive, in-depth reporting on a wide range of current events and news stories that occur across the globe."
-  },
-  {
-    "start": "09:55",
-    "stop": "10:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775555700000,
-    "stopTs": 1775557500000,
-    "title": "Fatafat Express",
-    "desc": "The host presents the top news headlines and developments pertaining to various political and socio-economic issues around the globe."
-  },
-  {
-    "start": "10:25",
-    "stop": "10:55",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775557500000,
-    "stopTs": 1775559300000,
-    "title": "News Agenda",
-    "desc": "The host analyses some of the most important news updates, developments and current affairs that matter to the people of the country."
-  },
-  {
-    "start": "10:55",
-    "stop": "11:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775559300000,
-    "stopTs": 1775561100000,
-    "title": "Aapka Shahar Aapka Reporter",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "11:25",
-    "stop": "11:55",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775561100000,
-    "stopTs": 1775562900000,
-    "title": "News In Action",
-    "desc": "The host provides a detailed report on the latest socio-economic updates and most pressing political developments in the relation to current affairs."
-  },
-  {
-    "start": "11:55",
-    "stop": "12:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775562900000,
-    "stopTs": 1775564700000,
-    "title": "News In Action",
-    "desc": "The host provides a detailed report on the latest socio-economic updates and most pressing political developments in the relation to current affairs."
-  },
-  {
-    "start": "12:25",
-    "stop": "12:55",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775564700000,
-    "stopTs": 1775566500000,
-    "title": "Khabaron Ki Reel",
-    "desc": "A rapid rundown of notable headlines presents key updates in a compact format designed to keep viewers informed in minimal time."
-  },
-  {
-    "start": "12:55",
-    "stop": "13:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775566500000,
-    "stopTs": 1775568300000,
-    "title": "Khabaron Ki Reel",
-    "desc": "A rapid rundown of notable headlines presents key updates in a compact format designed to keep viewers informed in minimal time."
-  },
-  {
-    "start": "13:25",
-    "stop": "13:55",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775568300000,
-    "stopTs": 1775570100000,
-    "title": "Desh Ke Dil Se",
-    "desc": "The host presents the latest news stories and developments pertaining to various political and socio-economic issues around the country."
-  },
-  {
-    "start": "13:55",
-    "stop": "14:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775570100000,
-    "stopTs": 1775571900000,
-    "title": "Chhattisgadhiya Sable Badhiya",
-    "desc": "The host presents a detailed report on the latest updates and top news stories pertaining to current affairs from across the state of Chhattisgarh."
-  },
-  {
-    "start": "14:25",
-    "stop": "15:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775571900000,
-    "stopTs": 1775575500000,
-    "title": "Seedhe Mudde Ki Baat Gyanendra Tiwari Ke sath",
-    "desc": "Gyanendra Tiwari sheds light on a topic or issue that is featured in the most recent news stories and current events on a national scale."
-  },
-  {
-    "start": "15:25",
-    "stop": "15:55",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775575500000,
-    "stopTs": 1775577300000,
-    "title": "The Editor&apos;s Show Brajesh Rajput Ke Sath",
-    "desc": "Brajesh Rajput presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "15:55",
-    "stop": "16:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775577300000,
-    "stopTs": 1775579100000,
-    "title": "Prime Crime",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "16:25",
-    "stop": "16:55",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775579100000,
-    "stopTs": 1775580900000,
-    "title": "10 Baje 10 Report",
-    "desc": "The host sheds light on the top 10 news stories and significant updates from various fields influencing people around the country."
-  },
-  {
-    "start": "16:55",
-    "stop": "17:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775580900000,
-    "stopTs": 1775582700000,
-    "title": "Khabar Fatafat",
-    "desc": "The host presents a comprehensive and detailed coverage of the latest news and developments, domestically and internationally."
-  },
-  {
-    "start": "17:25",
-    "stop": "18:25",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775582700000,
-    "stopTs": 1775586300000,
-    "title": "Seedhe Mudde Ki Baat Gyanendra Tiwari Ke sath",
-    "desc": "Gyanendra Tiwari sheds light on a topic or issue that is featured in the most recent news stories and current events on a national scale."
-  },
-  {
-    "start": "18:25",
-    "stop": "18:29",
-    "channel": "VistaarNews.in",
-    "channelId": "VistaarNews.in",
-    "channelName": "Vistaar News",
-    "startTs": 1775586300000,
-    "stopTs": 1775586599000,
-    "title": "The Editor&apos;s Show Brajesh Rajput Ke Sath",
-    "desc": "Brajesh Rajput presents information about the social, economic and political issues of the day and provides updates on current events."
+    "desc": "The host presents information about the social, economic and political issues of the day."
   }
 ]

@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Fast N Facts",
-    "desc": "Presents comprehensive and detailed insights that highlight new developments that are making the headlines."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "ZeeNews.in",
@@ -19,7 +8,7 @@
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Fast N Facts",
-    "desc": "Presents comprehensive and detailed insights that highlight new developments that are making the headlines."
+    "desc": "Presents comprehensive and detailed insights into the developments that are making the headlines."
   },
   {
     "start": "11:30",
@@ -30,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Taal Thok Ke",
-    "desc": "Provides an in-depth analysis of the top stories, latest updates, and headlines of current events worldwide."
+    "desc": "An in-depth analysis of the latest updates and current events worldwide."
   },
   {
     "start": "12:00",
@@ -41,7 +30,7 @@
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Taal Thok Ke",
-    "desc": "Provides an in-depth analysis of the top stories, latest updates, and headlines of current events worldwide."
+    "desc": "An in-depth analysis of the latest updates and current events worldwide."
   },
   {
     "start": "12:30",
@@ -74,7 +63,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Baat Pate Ki",
-    "desc": "A presentation of news updates on various topics and the latest developing stories from around the world."
+    "desc": "Presents news updates and the latest developing stories from around the world."
   },
   {
     "start": "14:00",
@@ -85,7 +74,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Baat Pate Ki",
-    "desc": "A presentation of news updates on various topics and the latest developing stories from around the world."
+    "desc": "Presents news updates and the latest developing stories from around the world."
   },
   {
     "start": "14:30",
@@ -96,7 +85,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Deshhit",
-    "desc": "The host presents the latest information about economics and politics from India and around the world."
+    "desc": "The host presents the latest updates and key developments from around the nation."
   },
   {
     "start": "15:00",
@@ -107,7 +96,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Deshhit",
-    "desc": "The host presents the latest information about economics and politics from India and around the world."
+    "desc": "The host presents the latest updates and key developments from around the nation."
   },
   {
     "start": "15:30",
@@ -118,7 +107,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Daily News & Analysis",
-    "desc": "In-depth analysis of all the latest news in politics, economics, social issues and current affairs around the world."
+    "desc": "In-depth analysis of the latest news and current affairs around the world."
   },
   {
     "start": "16:00",
@@ -129,7 +118,7 @@
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Daily News & Analysis",
-    "desc": "In-depth analysis of all the latest news in politics, economics, social issues and current affairs around the world."
+    "desc": "In-depth analysis of the latest news and current affairs around the world."
   },
   {
     "start": "16:30",
@@ -151,7 +140,7 @@
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Zee Special",
-    "desc": "Delivering the latest worldwide updates and developments on various pressing issues and the people behind them."
+    "desc": "Presenting the latest updates on pressing issues from around the world."
   },
   {
     "start": "17:30",
@@ -162,545 +151,17 @@
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Daily News & Analysis",
-    "desc": "In-depth analysis of all the latest news in politics, economics, social issues and current affairs around the world."
+    "desc": "In-depth analysis of the latest news and current affairs around the world."
   },
   {
     "start": "18:00",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "ZeeNews.in",
     "channelId": "ZeeNews.in",
     "channelName": "Zee News",
     "startTs": 1775498400000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "Zee Special",
-    "desc": "Delivering the latest worldwide updates and developments on various pressing issues and the people behind them."
-  },
-  {
-    "start": "18:30",
-    "stop": "19:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775500200000,
-    "stopTs": 1775502000000,
-    "title": "News Bulletin",
-    "desc": "The latest national and international news, with coverage of politics, world events, entertainment, sport, finance and weather."
-  },
-  {
-    "start": "19:00",
-    "stop": "19:30",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775502000000,
-    "stopTs": 1775503800000,
-    "title": "News Bulletin",
-    "desc": "The latest national and international news, with coverage of politics, world events, entertainment, sport, finance and weather."
-  },
-  {
-    "start": "19:30",
-    "stop": "20:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775503800000,
-    "stopTs": 1775505600000,
-    "title": "News Bulletin",
-    "desc": "The latest national and international news, with coverage of politics, world events, entertainment, sport, finance and weather."
-  },
-  {
-    "start": "20:00",
-    "stop": "20:30",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775505600000,
-    "stopTs": 1775507400000,
-    "title": "News Bulletin",
-    "desc": "The latest national and international news, with coverage of politics, world events, entertainment, sport, finance and weather."
-  },
-  {
-    "start": "20:30",
-    "stop": "21:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775507400000,
-    "stopTs": 1775509200000,
-    "title": "News Bulletin",
-    "desc": "The latest national and international news, with coverage of politics, world events, entertainment, sport, finance and weather."
-  },
-  {
-    "start": "21:00",
-    "stop": "21:30",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775509200000,
-    "stopTs": 1775511000000,
-    "title": "News Bulletin",
-    "desc": "The latest national and international news, with coverage of politics, world events, entertainment, sport, finance and weather."
-  },
-  {
-    "start": "21:30",
-    "stop": "22:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775511000000,
-    "stopTs": 1775512800000,
-    "title": "News Bulletin",
-    "desc": "The latest national and international news, with coverage of politics, world events, entertainment, sport, finance and weather."
-  },
-  {
-    "start": "22:00",
-    "stop": "22:30",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775512800000,
-    "stopTs": 1775514600000,
-    "title": "News Bulletin",
-    "desc": "The latest national and international news, with coverage of politics, world events, entertainment, sport, finance and weather."
-  },
-  {
-    "start": "22:30",
-    "stop": "23:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775514600000,
-    "stopTs": 1775516400000,
-    "title": "News Bulletin",
-    "desc": "The latest national and international news, with coverage of politics, world events, entertainment, sport, finance and weather."
-  },
-  {
-    "start": "23:00",
-    "stop": "23:30",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775516400000,
-    "stopTs": 1775518200000,
-    "title": "News Bulletin",
-    "desc": "The latest national and international news, with coverage of politics, world events, entertainment, sport, finance and weather."
-  },
-  {
-    "start": "23:30",
-    "stop": "00:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775518200000,
-    "stopTs": 1775520000000,
-    "title": "News Bulletin",
-    "desc": "The latest national and international news, with coverage of politics, world events, entertainment, sport, finance and weather."
-  },
-  {
-    "start": "00:00",
-    "stop": "00:30",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775520000000,
-    "stopTs": 1775521800000,
-    "title": "News Bulletin",
-    "desc": "The latest national and international news, with coverage of politics, world events, entertainment, sport, finance and weather."
-  },
-  {
-    "start": "00:30",
-    "stop": "01:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775521800000,
-    "stopTs": 1775523600000,
-    "title": "Namaste Zee",
-    "desc": "Presents up-to-date information on political, social, economic and sporting events from across the country."
-  },
-  {
-    "start": "01:00",
-    "stop": "01:30",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775523600000,
-    "stopTs": 1775525400000,
-    "title": "Namaste Zee",
-    "desc": "Presents up-to-date information on political, social, economic and sporting events from across the country."
-  },
-  {
-    "start": "01:30",
-    "stop": "02:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775525400000,
-    "stopTs": 1775527200000,
-    "title": "Morning Zee",
-    "desc": "Presents quick updates about global sports, the weather, and international politics to start the day."
-  },
-  {
-    "start": "02:00",
-    "stop": "02:30",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775527200000,
-    "stopTs": 1775529000000,
-    "title": "Morning Zee",
-    "desc": "Presents quick updates about global sports, the weather, and international politics to start the day."
-  },
-  {
-    "start": "02:30",
-    "stop": "03:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775529000000,
-    "stopTs": 1775530800000,
-    "title": "Morning Zee",
-    "desc": "Presents quick updates about global sports, the weather, and international politics to start the day."
-  },
-  {
-    "start": "03:00",
-    "stop": "03:30",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775530800000,
-    "stopTs": 1775532600000,
-    "title": "Morning Zee",
-    "desc": "Presents quick updates about global sports, the weather, and international politics to start the day."
-  },
-  {
-    "start": "03:30",
-    "stop": "04:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775532600000,
-    "stopTs": 1775534400000,
-    "title": "9 Ki News",
-    "desc": "Provides daily news updates on politics, the economy, society, and sports."
-  },
-  {
-    "start": "04:00",
-    "stop": "04:30",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775534400000,
-    "stopTs": 1775536200000,
-    "title": "9 Ki News",
-    "desc": "Provides daily news updates on politics, the economy, society, and sports."
-  },
-  {
-    "start": "04:30",
-    "stop": "05:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775536200000,
-    "stopTs": 1775538000000,
-    "title": "To the Point",
-    "desc": "A panel of experts debate and analyse recent issues and trends that have big effects on Indian society."
-  },
-  {
-    "start": "05:00",
-    "stop": "05:30",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775538000000,
-    "stopTs": 1775539800000,
-    "title": "To the Point",
-    "desc": "A panel of experts debate and analyse recent issues and trends that have big effects on Indian society."
-  },
-  {
-    "start": "05:30",
-    "stop": "06:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775539800000,
-    "stopTs": 1775541600000,
-    "title": "Battleground",
-    "desc": "Presents an in-depth analysis of voting patterns and key influences that shape government formations in India."
-  },
-  {
-    "start": "06:00",
-    "stop": "06:30",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775541600000,
-    "stopTs": 1775543400000,
-    "title": "Battleground",
-    "desc": "Presents an in-depth analysis of voting patterns and key influences that shape government formations in India."
-  },
-  {
-    "start": "06:30",
-    "stop": "07:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775543400000,
-    "stopTs": 1775545200000,
-    "title": "12 Ka Agenda",
-    "desc": "Presents the top news stories from across the world with in-depth analysis of important events and updates."
-  },
-  {
-    "start": "07:00",
-    "stop": "07:30",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775545200000,
-    "stopTs": 1775547000000,
-    "title": "Zee Special",
-    "desc": "Delivering the latest worldwide updates and developments on various pressing issues and the people behind them."
-  },
-  {
-    "start": "07:30",
-    "stop": "08:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775547000000,
-    "stopTs": 1775548800000,
-    "title": "Ek Se Badhkar Ek",
-    "desc": "After finding out that a lawyer made a mistake in writing a will, the heir of a family must become a criminal to get his fortune."
-  },
-  {
-    "start": "08:00",
-    "stop": "08:30",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775548800000,
-    "stopTs": 1775550600000,
-    "title": "Zee Special",
-    "desc": "Delivering the latest worldwide updates and developments on various pressing issues and the people behind them."
-  },
-  {
-    "start": "08:30",
-    "stop": "09:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775550600000,
-    "stopTs": 1775552400000,
-    "title": "Rashtrahit",
-    "desc": "The host presents the latest updates pertaining to the upcoming elections and the policies adopted by the political parties to gain public approval."
-  },
-  {
-    "start": "09:00",
-    "stop": "09:30",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775552400000,
-    "stopTs": 1775554200000,
-    "title": "Zee Special",
-    "desc": "Delivering the latest worldwide updates and developments on various pressing issues and the people behind them."
-  },
-  {
-    "start": "09:30",
-    "stop": "10:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775554200000,
-    "stopTs": 1775556000000,
-    "title": "Zee Special",
-    "desc": "Delivering the latest worldwide updates and developments on various pressing issues and the people behind them."
-  },
-  {
-    "start": "10:00",
-    "stop": "10:30",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775556000000,
-    "stopTs": 1775557800000,
-    "title": "Zee Special",
-    "desc": "Delivering the latest worldwide updates and developments on various pressing issues and the people behind them."
-  },
-  {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775557800000,
-    "stopTs": 1775559600000,
-    "title": "Fast N Facts",
-    "desc": "Presents comprehensive and detailed insights that highlight new developments that are making the headlines."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:30",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775559600000,
-    "stopTs": 1775561400000,
-    "title": "Fast N Facts",
-    "desc": "Presents comprehensive and detailed insights that highlight new developments that are making the headlines."
-  },
-  {
-    "start": "11:30",
-    "stop": "12:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775561400000,
-    "stopTs": 1775563200000,
-    "title": "Taal Thok Ke",
-    "desc": "Provides an in-depth analysis of the top stories, latest updates, and headlines of current events worldwide."
-  },
-  {
-    "start": "12:00",
-    "stop": "12:30",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775563200000,
-    "stopTs": 1775565000000,
-    "title": "Taal Thok Ke",
-    "desc": "Provides an in-depth analysis of the top stories, latest updates, and headlines of current events worldwide."
-  },
-  {
-    "start": "12:30",
-    "stop": "13:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775565000000,
-    "stopTs": 1775566800000,
-    "title": "Rajneeti",
-    "desc": "A comprehensive analysis and updates of the current political scenario."
-  },
-  {
-    "start": "13:00",
-    "stop": "13:30",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775566800000,
-    "stopTs": 1775568600000,
-    "title": "Rajneeti",
-    "desc": "A comprehensive analysis and updates of the current political scenario."
-  },
-  {
-    "start": "13:30",
-    "stop": "14:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775568600000,
-    "stopTs": 1775570400000,
-    "title": "Baat Pate Ki",
-    "desc": "A presentation of news updates on various topics and the latest developing stories from around the world."
-  },
-  {
-    "start": "14:00",
-    "stop": "14:30",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775570400000,
-    "stopTs": 1775572200000,
-    "title": "Baat Pate Ki",
-    "desc": "A presentation of news updates on various topics and the latest developing stories from around the world."
-  },
-  {
-    "start": "14:30",
-    "stop": "15:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775572200000,
-    "stopTs": 1775574000000,
-    "title": "Deshhit",
-    "desc": "The host presents the latest information about economics and politics from India and around the world."
-  },
-  {
-    "start": "15:00",
-    "stop": "15:30",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775574000000,
-    "stopTs": 1775575800000,
-    "title": "Deshhit",
-    "desc": "The host presents the latest information about economics and politics from India and around the world."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775575800000,
-    "stopTs": 1775577600000,
-    "title": "Daily News & Analysis",
-    "desc": "In-depth analysis of all the latest news in politics, economics, social issues and current affairs around the world."
-  },
-  {
-    "start": "16:00",
-    "stop": "16:30",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775577600000,
-    "stopTs": 1775579400000,
-    "title": "Daily News & Analysis",
-    "desc": "In-depth analysis of all the latest news in politics, economics, social issues and current affairs around the world."
-  },
-  {
-    "start": "16:30",
-    "stop": "17:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775579400000,
-    "stopTs": 1775581200000,
-    "title": "Badi Khabar",
-    "desc": "The big stories of the day, a show packed with political, international, business and sports news."
-  },
-  {
-    "start": "17:00",
-    "stop": "17:30",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775581200000,
-    "stopTs": 1775583000000,
-    "title": "Zee Special",
-    "desc": "Delivering the latest worldwide updates and developments on various pressing issues and the people behind them."
-  },
-  {
-    "start": "17:30",
-    "stop": "18:00",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775583000000,
-    "stopTs": 1775584800000,
-    "title": "Daily News & Analysis",
-    "desc": "In-depth analysis of all the latest news in politics, economics, social issues and current affairs around the world."
-  },
-  {
-    "start": "18:00",
-    "stop": "18:29",
-    "channel": "ZeeNews.in",
-    "channelId": "ZeeNews.in",
-    "channelName": "Zee News",
-    "startTs": 1775584800000,
-    "stopTs": 1775586599000,
-    "title": "Zee Special",
-    "desc": "Delivering the latest worldwide updates and developments on various pressing issues and the people behind them."
+    "desc": "Presenting the latest updates on pressing issues from around the world."
   }
 ]

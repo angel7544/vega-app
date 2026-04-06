@@ -1,0 +1,79 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "TataPlayClassicCinema.in",
+    "channelId": "TataPlayClassicCinema.in",
+    "channelName": "Tata Play Classic Cinema",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Filmi Gaane",
+    "desc": "A compilation of superhit and classic Bollywood songs from the yesteryears."
+  },
+  {
+    "start": "11:30",
+    "stop": "13:45",
+    "channel": "TataPlayClassicCinema.in",
+    "channelId": "TataPlayClassicCinema.in",
+    "channelName": "Tata Play Classic Cinema",
+    "startTs": 1775475000000,
+    "stopTs": 1775483100000,
+    "title": "Junglee",
+    "desc": "Shekhar falls for a woman and soon, the lovers try to be together facing all odds."
+  },
+  {
+    "start": "13:45",
+    "stop": "14:00",
+    "channel": "TataPlayClassicCinema.in",
+    "channelId": "TataPlayClassicCinema.in",
+    "channelName": "Tata Play Classic Cinema",
+    "startTs": 1775483100000,
+    "stopTs": 1775484000000,
+    "title": "Evergreen Mix",
+    "desc": "A compilation of the promos of various movies that give an insight into their storylines."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "TataPlayClassicCinema.in",
+    "channelId": "TataPlayClassicCinema.in",
+    "channelName": "Tata Play Classic Cinema",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Filmi Gaane",
+    "desc": "A compilation of superhit and classic Bollywood songs from the yesteryears."
+  },
+  {
+    "start": "14:30",
+    "stop": "16:46",
+    "channel": "TataPlayClassicCinema.in",
+    "channelId": "TataPlayClassicCinema.in",
+    "channelName": "Tata Play Classic Cinema",
+    "startTs": 1775485800000,
+    "stopTs": 1775493960000,
+    "title": "Jhumroo",
+    "desc": "A young and wealthy woman upsets her father by falling in love with a local villager."
+  },
+  {
+    "start": "16:46",
+    "stop": "17:31",
+    "channel": "TataPlayClassicCinema.in",
+    "channelId": "TataPlayClassicCinema.in",
+    "channelName": "Tata Play Classic Cinema",
+    "startTs": 1775493960000,
+    "stopTs": 1775496660000,
+    "title": "Komal Nahta - Aur Ek Kahani",
+    "desc": "Komal Nahta explores personal stories from industry veterans and their journeys."
+  },
+  {
+    "start": "17:31",
+    "stop": "18:30",
+    "channel": "TataPlayClassicCinema.in",
+    "channelId": "TataPlayClassicCinema.in",
+    "channelName": "Tata Play Classic Cinema",
+    "startTs": 1775496660000,
+    "stopTs": 1775500200000,
+    "title": "Filmi Gaane",
+    "desc": "A compilation of superhit and classic Bollywood songs from the yesteryears."
+  }
+]

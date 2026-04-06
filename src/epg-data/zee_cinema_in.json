@@ -1,0 +1,90 @@
+[
+  {
+    "start": "10:09",
+    "stop": "12:18",
+    "channel": "ZeeCinema.in",
+    "channelId": "ZeeCinema.in",
+    "channelName": "Zee Cinema HD",
+    "startTs": 1775470140000,
+    "stopTs": 1775477880000,
+    "title": "Mei",
+    "desc": "An aspiring doctor becomes embroiled in a dark network of medical crimes."
+  },
+  {
+    "start": "10:10",
+    "stop": "12:03",
+    "channel": "ZeeCinema.in",
+    "channelId": "ZeeCinema.in",
+    "channelName": "Zee Cinema HD",
+    "startTs": 1775470200000,
+    "stopTs": 1775476980000,
+    "title": "Mei",
+    "desc": "An aspiring doctor becomes embroiled in a dark network of medical crimes."
+  },
+  {
+    "start": "12:03",
+    "stop": "14:30",
+    "channel": "ZeeCinema.in",
+    "channelId": "ZeeCinema.in",
+    "channelName": "Zee Cinema HD",
+    "startTs": 1775476980000,
+    "stopTs": 1775485800000,
+    "title": "Krack",
+    "desc": "A hot headed police sergeant forms a vicious rivalry with a notorious crime figure."
+  },
+  {
+    "start": "12:18",
+    "stop": "14:55",
+    "channel": "ZeeCinema.in",
+    "channelId": "ZeeCinema.in",
+    "channelName": "Zee Cinema HD",
+    "startTs": 1775477880000,
+    "stopTs": 1775487300000,
+    "title": "Krack",
+    "desc": "A hot headed police sergeant forms a vicious rivalry with a notorious crime figure."
+  },
+  {
+    "start": "14:30",
+    "stop": "17:26",
+    "channel": "ZeeCinema.in",
+    "channelId": "ZeeCinema.in",
+    "channelName": "Zee Cinema HD",
+    "startTs": 1775485800000,
+    "stopTs": 1775496360000,
+    "title": "Kaatera",
+    "desc": "Kaatera faces threats so that a reforms act gets implemented for the farmers&apos; betterment."
+  },
+  {
+    "start": "14:55",
+    "stop": "17:33",
+    "channel": "ZeeCinema.in",
+    "channelId": "ZeeCinema.in",
+    "channelName": "Zee Cinema HD",
+    "startTs": 1775487300000,
+    "stopTs": 1775496780000,
+    "title": "Saamy 2",
+    "desc": "Union Minister Viswanathan&apos;s daughter falls in love with Ramasamy after he saves her."
+  },
+  {
+    "start": "17:26",
+    "stop": "19:35",
+    "channel": "ZeeCinema.in",
+    "channelId": "ZeeCinema.in",
+    "channelName": "Zee Cinema HD",
+    "startTs": 1775496360000,
+    "stopTs": 1775504100000,
+    "title": "Maayon",
+    "desc": "An archaeological team and idol smugglers arrive at a temple with their own agenda."
+  },
+  {
+    "start": "17:33",
+    "stop": "20:49",
+    "channel": "ZeeCinema.in",
+    "channelId": "ZeeCinema.in",
+    "channelName": "Zee Cinema HD",
+    "startTs": 1775496780000,
+    "stopTs": 1775508540000,
+    "title": "Maayon",
+    "desc": "An archaeological team and idol smugglers arrive at a temple with their own agenda."
+  }
+]

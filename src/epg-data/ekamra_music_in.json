@@ -1,0 +1,57 @@
+[
+  {
+    "start": "10:30",
+    "stop": "12:30",
+    "channel": "EkamraMusic.in",
+    "channelId": "EkamraMusic.in",
+    "channelName": "Ekamra Music",
+    "startTs": 1775471400000,
+    "stopTs": 1775478600000,
+    "title": "Sambalpuri Fula",
+    "desc": "A collection of some of the most popular Sambalpuri songs are played back-to-back."
+  },
+  {
+    "start": "12:30",
+    "stop": "14:30",
+    "channel": "EkamraMusic.in",
+    "channelId": "EkamraMusic.in",
+    "channelName": "Ekamra Music",
+    "startTs": 1775478600000,
+    "stopTs": 1775485800000,
+    "title": "Priyamora",
+    "desc": "A comprehensive compilation of the most popular songs are played back-to-back."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "EkamraMusic.in",
+    "channelId": "EkamraMusic.in",
+    "channelName": "Ekamra Music",
+    "startTs": 1775485800000,
+    "stopTs": 1775489400000,
+    "title": "Top Ten",
+    "desc": "The host presents a detailed report of the top ten latest news and developments."
+  },
+  {
+    "start": "15:30",
+    "stop": "17:30",
+    "channel": "EkamraMusic.in",
+    "channelId": "EkamraMusic.in",
+    "channelName": "Ekamra Music",
+    "startTs": 1775489400000,
+    "stopTs": 1775496600000,
+    "title": "Ekamra Lahari",
+    "desc": "A compilation of the timeless old classic Odia hits is played to entertain the audience."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:30",
+    "channel": "EkamraMusic.in",
+    "channelId": "EkamraMusic.in",
+    "channelName": "Ekamra Music",
+    "startTs": 1775496600000,
+    "stopTs": 1775500200000,
+    "title": "Rajanigandha",
+    "desc": "Bringing the best in television."
+  }
+]

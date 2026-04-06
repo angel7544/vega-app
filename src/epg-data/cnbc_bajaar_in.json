@@ -1,0 +1,167 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "CNBCBajar.in",
+    "channelId": "CNBCBajar.in",
+    "channelName": "CNBC Bajaar",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Aavti Kale",
+    "desc": "The host gives an insight into the latest stock market news and trends."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "CNBCBajar.in",
+    "channelId": "CNBCBajar.in",
+    "channelName": "CNBC Bajaar",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Commodity Bajar",
+    "desc": "The host presents the latest news about commodity price changes and stock trends."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "CNBCBajar.in",
+    "channelId": "CNBCBajar.in",
+    "channelName": "CNBC Bajaar",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Money Manager",
+    "desc": "The host invites financial experts to help viewers manage their money. S01 E1115."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "CNBCBajar.in",
+    "channelId": "CNBCBajar.in",
+    "channelName": "CNBC Bajaar",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Bajar Samachar",
+    "desc": "The host presents the latest development and updates in the business and financial market."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "CNBCBajar.in",
+    "channelId": "CNBCBajar.in",
+    "channelName": "CNBC Bajaar",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Tech Guru",
+    "desc": "The hosts review latest gadgets and also provide useful technology-related advice."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "CNBCBajar.in",
+    "channelId": "CNBCBajar.in",
+    "channelName": "CNBC Bajaar",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Bajar Samachar",
+    "desc": "The host presents the latest development and updates in the business and financial market."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "CNBCBajar.in",
+    "channelId": "CNBCBajar.in",
+    "channelName": "CNBC Bajaar",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Aavti Kale",
+    "desc": "The host gives an insight into the latest stock market news and trends."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "CNBCBajar.in",
+    "channelId": "CNBCBajar.in",
+    "channelName": "CNBC Bajaar",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Awaaz Adda",
+    "desc": "Prominent national and regional personalities of the nation debate key issues."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "CNBCBajar.in",
+    "channelId": "CNBCBajar.in",
+    "channelName": "CNBC Bajaar",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Awaaz Adda",
+    "desc": "Prominent national and regional personalities of the nation debate key issues."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "CNBCBajar.in",
+    "channelId": "CNBCBajar.in",
+    "channelName": "CNBC Bajaar",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Bajar Samachar",
+    "desc": "The host presents the latest development and updates in the business and financial market."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "CNBCBajar.in",
+    "channelId": "CNBCBajar.in",
+    "channelName": "CNBC Bajaar",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Aavti Kale",
+    "desc": "The host gives an insight into the latest stock market news and trends."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "CNBCBajar.in",
+    "channelId": "CNBCBajar.in",
+    "channelName": "CNBC Bajaar",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Money Manager",
+    "desc": "The host invites financial experts to help viewers manage their money. S01 E1115."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "CNBCBajar.in",
+    "channelId": "CNBCBajar.in",
+    "channelName": "CNBC Bajaar",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Tech Guru",
+    "desc": "The hosts review latest gadgets and also provide useful technology-related advice."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "CNBCBajar.in",
+    "channelId": "CNBCBajar.in",
+    "channelName": "CNBC Bajaar",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Awaaz Adda",
+    "desc": "Prominent national and regional personalities of the nation debate key issues."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "CNBCBajar.in",
+    "channelId": "CNBCBajar.in",
+    "channelName": "CNBC Bajaar",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Awaaz Adda",
+    "desc": "Prominent national and regional personalities of the nation debate key issues."
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "start": "08:30",
+    "stop": "12:30",
+    "channel": "AagaazTimes.in",
+    "channelId": "AagaazTimes.in",
+    "channelName": "Aagaaz Times",
+    "startTs": 1775464200000,
+    "stopTs": 1775478600000,
+    "title": "Aagaaz Times HD",
+    "desc": "."
+  },
+  {
+    "start": "12:30",
+    "stop": "16:30",
+    "channel": "AagaazTimes.in",
+    "channelId": "AagaazTimes.in",
+    "channelName": "Aagaaz Times",
+    "startTs": 1775478600000,
+    "stopTs": 1775493000000,
+    "title": "Aagaaz Times HD",
+    "desc": "."
+  },
+  {
+    "start": "16:30",
+    "stop": "20:30",
+    "channel": "AagaazTimes.in",
+    "channelId": "AagaazTimes.in",
+    "channelName": "Aagaaz Times",
+    "startTs": 1775493000000,
+    "stopTs": 1775507400000,
+    "title": "Aagaaz Times HD",
+    "desc": "."
+  }
+]

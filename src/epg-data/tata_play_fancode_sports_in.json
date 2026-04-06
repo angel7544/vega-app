@@ -1,0 +1,101 @@
+[
+  {
+    "start": "11:00",
+    "stop": "14:35",
+    "channel": "TataPlayFancodeSports.in",
+    "channelId": "TataPlayFancodeSports.in",
+    "channelName": "Tata Play Fancode Sports",
+    "startTs": 1775473200000,
+    "stopTs": 1775486100000,
+    "title": "Final: FC Barcelona vs. Real Madrid-Spanish Super Cup Soccer",
+    "desc": "Final: FC Barcelona vs. Real Madrid;From Alinma Stadium in Jeddah, Saudi Arabia."
+  },
+  {
+    "start": "14:35",
+    "stop": "15:00",
+    "channel": "TataPlayFancodeSports.in",
+    "channelId": "TataPlayFancodeSports.in",
+    "channelName": "Tata Play Fancode Sports",
+    "startTs": 1775486100000,
+    "stopTs": 1775487600000,
+    "title": "Carabao Cup Highlights",
+    "desc": "Highlights of the Carabao Cup, wherein football teams compete to win the coveted title."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "TataPlayFancodeSports.in",
+    "channelId": "TataPlayFancodeSports.in",
+    "channelName": "Tata Play Fancode Sports",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Afghanistan Tour Of Zimbabwe 2024/25",
+    "desc": "Afghanistan and Zimbabwe compete in a series of matches to win the title in 2024/25."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "TataPlayFancodeSports.in",
+    "channelId": "TataPlayFancodeSports.in",
+    "channelName": "Tata Play Fancode Sports",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Carabao Cup Highlights",
+    "desc": "Highlights of the Carabao Cup, wherein football teams compete to win the coveted title."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "TataPlayFancodeSports.in",
+    "channelId": "TataPlayFancodeSports.in",
+    "channelName": "Tata Play Fancode Sports",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Carabao Cup Highlights",
+    "desc": "Highlights of the Carabao Cup, wherein football teams compete to win the coveted title."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "TataPlayFancodeSports.in",
+    "channelId": "TataPlayFancodeSports.in",
+    "channelName": "Tata Play Fancode Sports",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Afghanistan Tour Of Zimbabwe 2024/25",
+    "desc": "Afghanistan and Zimbabwe compete in a series of matches to win the title in 2024/25."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "TataPlayFancodeSports.in",
+    "channelId": "TataPlayFancodeSports.in",
+    "channelName": "Tata Play Fancode Sports",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "South Africa Tour Of West Indies 2024",
+    "desc": "South Africa and West Indies compete in a series of matches to win the title in 2024."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "TataPlayFancodeSports.in",
+    "channelId": "TataPlayFancodeSports.in",
+    "channelName": "Tata Play Fancode Sports",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "South Africa Tour Of West Indies 2024",
+    "desc": "South Africa and West Indies compete in a series of matches to win the title in 2024."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "TataPlayFancodeSports.in",
+    "channelId": "TataPlayFancodeSports.in",
+    "channelName": "Tata Play Fancode Sports",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Afghanistan Tour Of Zimbabwe 2024/25",
+    "desc": "Afghanistan and Zimbabwe compete in a series of matches to win the title in 2024/25."
+  }
+]

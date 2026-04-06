@@ -1,0 +1,101 @@
+[
+  {
+    "start": "10:57",
+    "stop": "11:57",
+    "channel": "News18AssamNorthEast.in",
+    "channelId": "News18AssamNorthEast.in",
+    "channelName": "News18 Assam North East",
+    "startTs": 1775473020000,
+    "stopTs": 1775476620000,
+    "title": "Khabar Mohanogoror",
+    "desc": "The host presents updates on the latest news stories from various sectors of the city."
+  },
+  {
+    "start": "11:57",
+    "stop": "12:27",
+    "channel": "News18AssamNorthEast.in",
+    "channelId": "News18AssamNorthEast.in",
+    "channelName": "News18 Assam North East",
+    "startTs": 1775476620000,
+    "stopTs": 1775478420000,
+    "title": "Druta Sanbad",
+    "desc": "The host presents a concise compilation of significant news updates."
+  },
+  {
+    "start": "12:27",
+    "stop": "13:27",
+    "channel": "News18AssamNorthEast.in",
+    "channelId": "News18AssamNorthEast.in",
+    "channelName": "News18 Assam North East",
+    "startTs": 1775478420000,
+    "stopTs": 1775482020000,
+    "title": "Prime Time18",
+    "desc": "The host provides the latest updates on various political, economic and social issues."
+  },
+  {
+    "start": "13:27",
+    "stop": "14:20",
+    "channel": "News18AssamNorthEast.in",
+    "channelId": "News18AssamNorthEast.in",
+    "channelName": "News18 Assam North East",
+    "startTs": 1775482020000,
+    "stopTs": 1775485200000,
+    "title": "Dintur Shironam",
+    "desc": "The presenter provides an in-depth analysis of the latest updates in various arenas."
+  },
+  {
+    "start": "14:20",
+    "stop": "15:27",
+    "channel": "News18AssamNorthEast.in",
+    "channelId": "News18AssamNorthEast.in",
+    "channelName": "News18 Assam North East",
+    "startTs": 1775485200000,
+    "stopTs": 1775489220000,
+    "title": "Prime Debate",
+    "desc": "The host invites a panel of experts to share their opinions on important topics."
+  },
+  {
+    "start": "15:27",
+    "stop": "16:27",
+    "channel": "News18AssamNorthEast.in",
+    "channelId": "News18AssamNorthEast.in",
+    "channelName": "News18 Assam North East",
+    "startTs": 1775489220000,
+    "stopTs": 1775492820000,
+    "title": "News18 Super Prime",
+    "desc": "The host presents information about the social, economic and political issues of the day."
+  },
+  {
+    "start": "16:27",
+    "stop": "16:57",
+    "channel": "News18AssamNorthEast.in",
+    "channelId": "News18AssamNorthEast.in",
+    "channelName": "News18 Assam North East",
+    "startTs": 1775492820000,
+    "stopTs": 1775494620000,
+    "title": "Druta Sanbad",
+    "desc": "The host presents a concise compilation of significant news updates."
+  },
+  {
+    "start": "16:57",
+    "stop": "17:27",
+    "channel": "News18AssamNorthEast.in",
+    "channelId": "News18AssamNorthEast.in",
+    "channelName": "News18 Assam North East",
+    "startTs": 1775494620000,
+    "stopTs": 1775496420000,
+    "title": "News18 Mon Jay",
+    "desc": "The host presents information about the social, economic and political issues of the day."
+  },
+  {
+    "start": "17:27",
+    "stop": "18:30",
+    "channel": "News18AssamNorthEast.in",
+    "channelId": "News18AssamNorthEast.in",
+    "channelName": "News18 Assam North East",
+    "startTs": 1775496420000,
+    "stopTs": 1775500200000,
+    "title": "Night Super",
+    "desc": "The host presents in-depth reports on the latest news and issues affecting the nation."
+  }
+]

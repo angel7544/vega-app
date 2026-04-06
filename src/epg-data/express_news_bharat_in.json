@@ -7,8 +7,8 @@
     "channelName": "Express News Bharat",
     "startTs": 1775471400000,
     "stopTs": 1775475000000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
+    "title": "Bhagwatha Sarodhara",
+    "desc": "A religious leader reads and explains verses from the Bhagavad Gita."
   },
   {
     "start": "11:30",
@@ -18,8 +18,8 @@
     "channelName": "Express News Bharat",
     "startTs": 1775475000000,
     "stopTs": 1775478600000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
+    "title": "5 Khabre 5 Reporter",
+    "desc": "."
   },
   {
     "start": "12:30",
@@ -29,30 +29,30 @@
     "channelName": "Express News Bharat",
     "startTs": 1775478600000,
     "stopTs": 1775482200000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
+    "title": "Exclusive",
+    "desc": "Entertainment news and gossip."
   },
   {
     "start": "13:30",
-    "stop": "14:30",
+    "stop": "14:00",
     "channel": "ExpressNewsBharat.in",
     "channelId": "ExpressNewsBharat.in",
     "channelName": "Express News Bharat",
     "startTs": 1775482200000,
-    "stopTs": 1775485800000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
+    "stopTs": 1775484000000,
+    "title": "Super Scenes",
+    "desc": "A comprehensive collection of interesting sequences from popular movies."
   },
   {
     "start": "14:30",
-    "stop": "15:30",
+    "stop": "15:00",
     "channel": "ExpressNewsBharat.in",
     "channelId": "ExpressNewsBharat.in",
     "channelName": "Express News Bharat",
     "startTs": 1775485800000,
-    "stopTs": 1775489400000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
+    "stopTs": 1775487600000,
+    "title": "Sajjananagu Manuja - Krishna Avatara",
+    "desc": "A preacher delivers a discourse to the followers on life principles values of faith."
   },
   {
     "start": "15:30",
@@ -62,8 +62,8 @@
     "channelName": "Express News Bharat",
     "startTs": 1775489400000,
     "stopTs": 1775493000000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
+    "title": "IN24 Special",
+    "desc": "The host provides a detailed report on the most significant news story of the moment."
   },
   {
     "start": "16:30",
@@ -73,282 +73,18 @@
     "channelName": "Express News Bharat",
     "startTs": 1775493000000,
     "stopTs": 1775496600000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
+    "title": "Khabar Din Bhar",
+    "desc": "Bulletin giving the most updated news stories at this hour."
   },
   {
     "start": "17:30",
-    "stop": "18:29",
+    "stop": "20:00",
     "channel": "ExpressNewsBharat.in",
     "channelId": "ExpressNewsBharat.in",
     "channelName": "Express News Bharat",
     "startTs": 1775496600000,
-    "stopTs": 1775500199000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "18:30",
-    "stop": "19:30",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775500200000,
-    "stopTs": 1775503800000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "19:30",
-    "stop": "20:30",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775503800000,
-    "stopTs": 1775507400000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "20:30",
-    "stop": "21:30",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775507400000,
-    "stopTs": 1775511000000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "21:30",
-    "stop": "22:30",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775511000000,
-    "stopTs": 1775514600000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "22:30",
-    "stop": "23:30",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775514600000,
-    "stopTs": 1775518200000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "23:30",
-    "stop": "00:30",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775518200000,
-    "stopTs": 1775521800000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "00:30",
-    "stop": "01:30",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775521800000,
-    "stopTs": 1775525400000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "01:30",
-    "stop": "02:30",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775525400000,
-    "stopTs": 1775529000000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "02:30",
-    "stop": "03:30",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775529000000,
-    "stopTs": 1775532600000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "03:30",
-    "stop": "04:30",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775532600000,
-    "stopTs": 1775536200000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "04:30",
-    "stop": "05:30",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775536200000,
-    "stopTs": 1775539800000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "05:30",
-    "stop": "06:30",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775539800000,
-    "stopTs": 1775543400000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "06:30",
-    "stop": "07:30",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775543400000,
-    "stopTs": 1775547000000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "07:30",
-    "stop": "08:30",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775547000000,
-    "stopTs": 1775550600000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "08:30",
-    "stop": "09:30",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775550600000,
-    "stopTs": 1775554200000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "09:30",
-    "stop": "10:30",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775554200000,
-    "stopTs": 1775557800000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "10:30",
-    "stop": "11:30",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775557800000,
-    "stopTs": 1775561400000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "11:30",
-    "stop": "12:30",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775561400000,
-    "stopTs": 1775565000000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "12:30",
-    "stop": "13:30",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775565000000,
-    "stopTs": 1775568600000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "13:30",
-    "stop": "14:30",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775568600000,
-    "stopTs": 1775572200000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "14:30",
-    "stop": "15:30",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775572200000,
-    "stopTs": 1775575800000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "15:30",
-    "stop": "16:30",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775575800000,
-    "stopTs": 1775579400000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "16:30",
-    "stop": "17:30",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775579400000,
-    "stopTs": 1775583000000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
-  },
-  {
-    "start": "17:30",
-    "stop": "18:29",
-    "channel": "ExpressNewsBharat.in",
-    "channelId": "ExpressNewsBharat.in",
-    "channelName": "Express News Bharat",
-    "startTs": 1775583000000,
-    "stopTs": 1775586599000,
-    "title": "Express News Bharat",
-    "desc": "Express News Bharat"
+    "stopTs": 1775505600000,
+    "title": "Masala Songs",
+    "desc": "A compilation of the greatest foot-tapping hits is played back to back."
   }
 ]

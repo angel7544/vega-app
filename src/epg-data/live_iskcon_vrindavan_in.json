@@ -1,0 +1,57 @@
+[
+  {
+    "start": "10:30",
+    "stop": "12:30",
+    "channel": "LiveIskconVrindavan.in",
+    "channelId": "LiveIskconVrindavan.in",
+    "channelName": "Live Iskcon Vrindavan",
+    "startTs": 1775471400000,
+    "stopTs": 1775478600000,
+    "title": "Uthapan Aarti",
+    "desc": "Priests perform an early morning awakening ritual as an act of worship to the Almighty."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "LiveIskconVrindavan.in",
+    "channelId": "LiveIskconVrindavan.in",
+    "channelName": "Live Iskcon Vrindavan",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Bhagavad Geeta",
+    "desc": "Watch Bhagawad Geeta Recitals From Iskcon Temple,Vrindavan."
+  },
+  {
+    "start": "13:00",
+    "stop": "14:30",
+    "channel": "LiveIskconVrindavan.in",
+    "channelId": "LiveIskconVrindavan.in",
+    "channelName": "Live Iskcon Vrindavan",
+    "startTs": 1775480400000,
+    "stopTs": 1775485800000,
+    "title": "Sandhya Aarti",
+    "desc": "A comprehensive and detailed insight into the evening rituals dedicated to God."
+  },
+  {
+    "start": "14:30",
+    "stop": "14:45",
+    "channel": "LiveIskconVrindavan.in",
+    "channelId": "LiveIskconVrindavan.in",
+    "channelName": "Live Iskcon Vrindavan",
+    "startTs": 1775485800000,
+    "stopTs": 1775486700000,
+    "title": "Shayan Aarti",
+    "desc": "Telecast Of Shayan Aarti From Iskcon Temple,Vrindavan."
+  },
+  {
+    "start": "14:45",
+    "stop": "22:40",
+    "channel": "LiveIskconVrindavan.in",
+    "channelId": "LiveIskconVrindavan.in",
+    "channelName": "Live Iskcon Vrindavan",
+    "startTs": 1775486700000,
+    "stopTs": 1775515200000,
+    "title": "Shrine Closed",
+    "desc": "Temple Closed For Darshan."
+  }
+]

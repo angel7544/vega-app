@@ -1,0 +1,68 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "SanaTV.in",
+    "channelId": "SanaTV.in",
+    "channelName": "Sana Tv",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Comedy Time",
+    "desc": "Catch some of the funniest scenes from various Tamil movies."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "SanaTV.in",
+    "channelId": "SanaTV.in",
+    "channelName": "Sana Tv",
+    "startTs": 1775475000000,
+    "stopTs": 1775478600000,
+    "title": "Fantacy Time",
+    "desc": "A compilation of programmes created to entertain and educate children."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "SanaTV.in",
+    "channelId": "SanaTV.in",
+    "channelName": "Sana Tv",
+    "startTs": 1775478600000,
+    "stopTs": 1775482200000,
+    "title": "World Cinema",
+    "desc": "The host provides detailed information on numerous Hollywood movies."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "SanaTV.in",
+    "channelId": "SanaTV.in",
+    "channelName": "Sana Tv",
+    "startTs": 1775482200000,
+    "stopTs": 1775485800000,
+    "title": "Cinema Junction",
+    "desc": "The host sheds light on the Tamil film industry, covering key aspects of the fraternity."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "SanaTV.in",
+    "channelId": "SanaTV.in",
+    "channelName": "Sana Tv",
+    "startTs": 1775485800000,
+    "stopTs": 1775489400000,
+    "title": "Aritharam Poosiyavargal",
+    "desc": "The host highlights the fascinating life stories of prominent Tamil actors."
+  },
+  {
+    "start": "15:30",
+    "stop": "18:30",
+    "channel": "SanaTV.in",
+    "channelId": "SanaTV.in",
+    "channelName": "Sana Tv",
+    "startTs": 1775489400000,
+    "stopTs": 1775500200000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  }
+]

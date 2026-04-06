@@ -1,0 +1,90 @@
+[
+  {
+    "start": "11:00",
+    "stop": "13:00",
+    "channel": "TataSkyAradhana.in",
+    "channelId": "TataSkyAradhana.in",
+    "channelName": "Tata Play Aradhana",
+    "startTs": 1775473200000,
+    "stopTs": 1775480400000,
+    "title": "Prashnottaray",
+    "desc": "Watch an interactive spiritual show offering peace, direction & solutions through the wisdom of Aniruddhacharya Ji Maharaj. S01 E330."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "TataSkyAradhana.in",
+    "channelId": "TataSkyAradhana.in",
+    "channelName": "Tata Play Aradhana",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Sadhguru Ki Baatein",
+    "desc": "Listen and get enlightened to Sadhguru&apos;s motivational and spiritual discourses by Isha Foundation. S01 E124."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "TataSkyAradhana.in",
+    "channelId": "TataSkyAradhana.in",
+    "channelName": "Tata Play Aradhana",
+    "startTs": 1775482200000,
+    "stopTs": 1775485800000,
+    "title": "Vighnaharta Ganesh",
+    "desc": "Watch the magnum opus series showcasing the journey of the Lord Ganesha. S01 E162."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "TataSkyAradhana.in",
+    "channelId": "TataSkyAradhana.in",
+    "channelName": "Tata Play Aradhana",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Jai Hanuman",
+    "desc": "An epic mythological series depicting the divine life, devotion, and heroic deeds of Lord Hanuman, the greatest devotee of Lord Rama. S01 E319."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "TataSkyAradhana.in",
+    "channelId": "TataSkyAradhana.in",
+    "channelName": "Tata Play Aradhana",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Ramayan",
+    "desc": "A timeless mythological classic portraying the life, values, and divine journey of Lord Rama, Sita, and the triumph of dharma over adharma. S01 E119."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "TataSkyAradhana.in",
+    "channelId": "TataSkyAradhana.in",
+    "channelName": "Tata Play Aradhana",
+    "startTs": 1775489400000,
+    "stopTs": 1775493000000,
+    "title": "Mahabharat",
+    "desc": ". S01 E87."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "TataSkyAradhana.in",
+    "channelId": "TataSkyAradhana.in",
+    "channelName": "Tata Play Aradhana",
+    "startTs": 1775493000000,
+    "stopTs": 1775496600000,
+    "title": "Shree Krishna",
+    "desc": "Krishna tells Rishi Sandilya to disclose his true identity to Yashoda. S01 E147."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:30",
+    "channel": "TataSkyAradhana.in",
+    "channelId": "TataSkyAradhana.in",
+    "channelName": "Tata Play Aradhana",
+    "startTs": 1775496600000,
+    "stopTs": 1775500200000,
+    "title": "Vighnaharta Ganesh",
+    "desc": "Watch the magnum opus series showcasing the journey of the Lord Ganesha. S01 E162."
+  }
+]

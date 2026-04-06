@@ -1,0 +1,46 @@
+[
+  {
+    "start": "10:30",
+    "stop": "13:30",
+    "channel": "TataPlayTamilClassics.in",
+    "channelId": "TataPlayTamilClassics.in",
+    "channelName": "Tata Play Tamil Classics",
+    "startTs": 1775471400000,
+    "stopTs": 1775482200000,
+    "title": "Punnagai",
+    "desc": "Satya&apos;s decides to change his life for the better after his friend dies in an accident."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "TataPlayTamilClassics.in",
+    "channelId": "TataPlayTamilClassics.in",
+    "channelName": "Tata Play Tamil Classics",
+    "startTs": 1775482200000,
+    "stopTs": 1775485800000,
+    "title": "Sweet Memories - Ninaithale Inikkum",
+    "desc": "A collection of classics, where viewers experience nostalgia, evoking old memories."
+  },
+  {
+    "start": "14:30",
+    "stop": "17:30",
+    "channel": "TataPlayTamilClassics.in",
+    "channelId": "TataPlayTamilClassics.in",
+    "channelName": "Tata Play Tamil Classics",
+    "startTs": 1775485800000,
+    "stopTs": 1775496600000,
+    "title": "Porutham",
+    "desc": "Bringing the best in cinema."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:30",
+    "channel": "TataPlayTamilClassics.in",
+    "channelId": "TataPlayTamilClassics.in",
+    "channelName": "Tata Play Tamil Classics",
+    "startTs": 1775496600000,
+    "stopTs": 1775500200000,
+    "title": "Sweet Memories - Ninaithale Inikkum",
+    "desc": "A collection of classics, where viewers experience nostalgia, evoking old memories."
+  }
+]

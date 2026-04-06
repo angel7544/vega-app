@@ -1,0 +1,79 @@
+[
+  {
+    "start": "09:30",
+    "stop": "11:30",
+    "channel": "Chithiram.in",
+    "channelId": "Chithiram.in",
+    "channelName": "CHITHIRAM",
+    "startTs": 1775467800000,
+    "stopTs": 1775475000000,
+    "title": "PT Period",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "Chithiram.in",
+    "channelId": "Chithiram.in",
+    "channelName": "CHITHIRAM",
+    "startTs": 1775475000000,
+    "stopTs": 1775478600000,
+    "title": "Blacksheep Mocktail",
+    "desc": "The host entertains the audience with a string of celebrity impressions and comedy skits."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "Chithiram.in",
+    "channelId": "Chithiram.in",
+    "channelName": "CHITHIRAM",
+    "startTs": 1775478600000,
+    "stopTs": 1775482200000,
+    "title": "Lovaangi",
+    "desc": "A comprehensive compilation of popular romantic songs is played back-to-back."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "Chithiram.in",
+    "channelId": "Chithiram.in",
+    "channelName": "CHITHIRAM",
+    "startTs": 1775482200000,
+    "stopTs": 1775485800000,
+    "title": "Spotla Pattu",
+    "desc": "A musician roams the streets playing popular Tamil song requests from people he meets."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "Chithiram.in",
+    "channelId": "Chithiram.in",
+    "channelName": "CHITHIRAM",
+    "startTs": 1775485800000,
+    "stopTs": 1775489400000,
+    "title": "Devil&apos;s Kitchen",
+    "desc": "The host presents a compilation of real-life horror incidents and supernatural stories."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "Chithiram.in",
+    "channelId": "Chithiram.in",
+    "channelName": "CHITHIRAM",
+    "startTs": 1775489400000,
+    "stopTs": 1775493000000,
+    "title": "Good Night",
+    "desc": "A compilation of the greatest foot-tapping hits from Tamil movies are played back to back."
+  },
+  {
+    "start": "16:30",
+    "stop": "18:30",
+    "channel": "Chithiram.in",
+    "channelId": "Chithiram.in",
+    "channelName": "CHITHIRAM",
+    "startTs": 1775493000000,
+    "stopTs": 1775500200000,
+    "title": "Raja Songs",
+    "desc": "A compilation of some of the most popular songs sung by talented artists is played."
+  }
+]

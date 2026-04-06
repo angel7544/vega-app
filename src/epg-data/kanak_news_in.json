@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Odisha @ 4 PM",
-    "desc": "The host presents daily life, news and culture in Odisha, offering a glimpse into the state&apos;s afternoon activities and current events."
-  },
-  {
     "start": "11:00",
     "stop": "11:15",
     "channel": "KanakNews.in",
@@ -41,7 +30,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Reporter Live",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region, live."
+    "desc": "The host presents a detailed report on the latest news and developments, live."
   },
   {
     "start": "12:00",
@@ -52,7 +41,7 @@
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Khabar Odisha",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
+    "desc": "The host presents a detailed report on the latest news and developments."
   },
   {
     "start": "12:30",
@@ -63,7 +52,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "30 Minute 60 Khabar",
-    "desc": "The host provides a comprehensive and detailed report on the top 60 news and developments from across the world in 30 minutes."
+    "desc": "The host presents a detailed report on the top 60 news and developments."
   },
   {
     "start": "13:00",
@@ -74,7 +63,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Ama Sahara",
-    "desc": "The host interacts with people from various town in the state of Odisha who talk about the problems that they face in their day-to-day life and provides solutions to them."
+    "desc": "The host talks about the problems of common people in their day-to-day life."
   },
   {
     "start": "13:30",
@@ -85,7 +74,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Ama Odisha",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
+    "desc": "The host presents a detailed report on the latest news and developments."
   },
   {
     "start": "14:00",
@@ -96,7 +85,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Desh Bidesh",
-    "desc": "The host presents the latest news updates and key developments on pressing matters from various fields across the globe."
+    "desc": "The host presents the latest news updates from various fields across the globe."
   },
   {
     "start": "14:30",
@@ -107,7 +96,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "News Point @ 8",
-    "desc": "The host presents the latest news updates and key developments on pressing matters from various fields across the globe."
+    "desc": "The host presents the latest news updates from various fields across the globe."
   },
   {
     "start": "15:00",
@@ -118,7 +107,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Ground Zero",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+    "desc": "The host presents information on various social, economic and political issues."
   },
   {
     "start": "15:30",
@@ -129,7 +118,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Saradin",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the world."
+    "desc": "The host presents a detailed report on the latest news and developments."
   },
   {
     "start": "16:00",
@@ -140,7 +129,7 @@
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Loka Nakali Katha Asali",
-    "desc": "Through various sketches and hilarious conversations, characters present the latest issues from all over the world in a satirical manner."
+    "desc": "Through various sketches, characters present the latest issues in a satirical manner."
   },
   {
     "start": "16:30",
@@ -151,7 +140,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "10 PM Live",
-    "desc": "The host presents the latest information, advancements and developments on various important issues and events affecting the lives of many individuals, live."
+    "desc": "The host presents the latest information on various important issues and events, live."
   },
   {
     "start": "17:00",
@@ -162,7 +151,7 @@
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Special Report",
-    "desc": "The host offers in-depth coverage and analysis of major news stories, providing exclusive insights into current events both locally and globally."
+    "desc": "The host offers in-depth coverage and analysis of major news stories."
   },
   {
     "start": "17:30",
@@ -173,545 +162,17 @@
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Ama Odisha",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
+    "desc": "The host presents a detailed report on the latest news and developments."
   },
   {
     "start": "18:00",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "KanakNews.in",
     "channelId": "KanakNews.in",
     "channelName": "Kanak News",
     "startTs": 1775498400000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "Ama Sahara",
-    "desc": "The host interacts with people from various town in the state of Odisha who talk about the problems that they face in their day-to-day life and provides solutions to them."
-  },
-  {
-    "start": "18:30",
-    "stop": "19:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775500200000,
-    "stopTs": 1775502000000,
-    "title": "Saradin",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the world."
-  },
-  {
-    "start": "19:00",
-    "stop": "19:30",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775502000000,
-    "stopTs": 1775503800000,
-    "title": "News Point @ 8 PM",
-    "desc": "The host provides the latest news and updates on current affairs, politics, socio-economic issues and developments in the country and around the world."
-  },
-  {
-    "start": "19:30",
-    "stop": "20:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775503800000,
-    "stopTs": 1775505600000,
-    "title": "Ama Sahara",
-    "desc": "The host interacts with people from various town in the state of Odisha who talk about the problems that they face in their day-to-day life and provides solutions to them."
-  },
-  {
-    "start": "20:00",
-    "stop": "20:30",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775505600000,
-    "stopTs": 1775507400000,
-    "title": "Special Report",
-    "desc": "The host offers in-depth coverage and analysis of major news stories, providing exclusive insights into current events both locally and globally."
-  },
-  {
-    "start": "20:30",
-    "stop": "21:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775507400000,
-    "stopTs": 1775509200000,
-    "title": "Lokanakali Katha Asali",
-    "desc": "A diverse ensemble of witty characters deliver sharp and satirical commentary on current events and various national issues."
-  },
-  {
-    "start": "21:00",
-    "stop": "21:30",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775509200000,
-    "stopTs": 1775511000000,
-    "title": "Desh Bidesh",
-    "desc": "The host presents the latest news updates and key developments on pressing matters from various fields across the globe."
-  },
-  {
-    "start": "21:30",
-    "stop": "22:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775511000000,
-    "stopTs": 1775512800000,
-    "title": "News Point @ 8 PM",
-    "desc": "The host provides the latest news and updates on current affairs, politics, socio-economic issues and developments in the country and around the world."
-  },
-  {
-    "start": "22:00",
-    "stop": "22:30",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775512800000,
-    "stopTs": 1775514600000,
-    "title": "Ama Sahara",
-    "desc": "The host interacts with people from various town in the state of Odisha who talk about the problems that they face in their day-to-day life and provides solutions to them."
-  },
-  {
-    "start": "22:30",
-    "stop": "23:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775514600000,
-    "stopTs": 1775516400000,
-    "title": "Special Report",
-    "desc": "The host offers in-depth coverage and analysis of major news stories, providing exclusive insights into current events both locally and globally."
-  },
-  {
-    "start": "23:00",
-    "stop": "23:30",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775516400000,
-    "stopTs": 1775518200000,
-    "title": "News Point @ 8 PM",
-    "desc": "The host provides the latest news and updates on current affairs, politics, socio-economic issues and developments in the country and around the world."
-  },
-  {
-    "start": "23:30",
-    "stop": "00:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775518200000,
-    "stopTs": 1775520000000,
-    "title": "Desh Bidesh",
-    "desc": "The host presents the latest news updates and key developments on pressing matters from various fields across the globe."
-  },
-  {
-    "start": "00:00",
-    "stop": "00:30",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775520000000,
-    "stopTs": 1775521800000,
-    "title": "Lokanakali Katha Asali",
-    "desc": "A diverse ensemble of witty characters deliver sharp and satirical commentary on current events and various national issues."
-  },
-  {
-    "start": "00:30",
-    "stop": "01:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775521800000,
-    "stopTs": 1775523600000,
-    "title": "Suprabhat Odisha",
-    "desc": "The host provides the latest news and updates on political and socio-economic issues and developments in the state of Odisha, India."
-  },
-  {
-    "start": "01:00",
-    "stop": "01:30",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775523600000,
-    "stopTs": 1775525400000,
-    "title": "Ground Zero",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "01:30",
-    "stop": "02:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775525400000,
-    "stopTs": 1775527200000,
-    "title": "Sakalara Bada Khabar",
-    "desc": "The host presents a detailed insight into latest updates pertaining to socio-political issues and current affairs from around the country."
-  },
-  {
-    "start": "02:00",
-    "stop": "02:30",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775527200000,
-    "stopTs": 1775529000000,
-    "title": "Ama Khela",
-    "desc": "The host provides a comprehensive and detailed coverage, elucidating on the latest news and developments from the field of sports."
-  },
-  {
-    "start": "02:30",
-    "stop": "03:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775529000000,
-    "stopTs": 1775530800000,
-    "title": "Khabar Ebe Ebe",
-    "desc": "The host presents a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "03:00",
-    "stop": "03:30",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775530800000,
-    "stopTs": 1775532600000,
-    "title": "Non Stop Odisha",
-    "desc": "The host presents a nonstop news program covering Odisha featuring breaking stories, politics, culture, economy, and local events from across the state in real time."
-  },
-  {
-    "start": "03:30",
-    "stop": "04:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775532600000,
-    "stopTs": 1775534400000,
-    "title": "Bada Khabar",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the globe."
-  },
-  {
-    "start": "04:00",
-    "stop": "04:30",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775534400000,
-    "stopTs": 1775536200000,
-    "title": "Pala Bhuta Jagichi",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "04:30",
-    "stop": "05:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775536200000,
-    "stopTs": 1775538000000,
-    "title": "Bada Khabar",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the globe."
-  },
-  {
-    "start": "05:00",
-    "stop": "05:30",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775538000000,
-    "stopTs": 1775539800000,
-    "title": "Bada Khabar",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the globe."
-  },
-  {
-    "start": "05:30",
-    "stop": "06:30",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775539800000,
-    "stopTs": 1775543400000,
-    "title": "Bartamanar Bada Khabar",
-    "desc": "The host presents the latest news updates and key developments on pressing matters from various fields across the globe."
-  },
-  {
-    "start": "06:30",
-    "stop": "07:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775543400000,
-    "stopTs": 1775545200000,
-    "title": "Madhyarna Khabar",
-    "desc": "The host provides real-time updates and in-depth analysis of current events affecting social, economic and political issues."
-  },
-  {
-    "start": "07:00",
-    "stop": "07:30",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775545200000,
-    "stopTs": 1775547000000,
-    "title": "News Express",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "07:30",
-    "stop": "08:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775547000000,
-    "stopTs": 1775548800000,
-    "title": "Odisha Dwiprahara",
-    "desc": "The host provides a comprehensive report, elucidating on the latest news and developments from various regions across Odisha."
-  },
-  {
-    "start": "08:00",
-    "stop": "08:30",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775548800000,
-    "stopTs": 1775550600000,
-    "title": "Loka Nakali Katha Asali",
-    "desc": "Through various sketches and hilarious conversations, characters present the latest issues from all over the world in a satirical manner."
-  },
-  {
-    "start": "08:30",
-    "stop": "09:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775550600000,
-    "stopTs": 1775552400000,
-    "title": "Khabar Dunia",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "09:00",
-    "stop": "09:30",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775552400000,
-    "stopTs": 1775554200000,
-    "title": "News Express",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "09:30",
-    "stop": "10:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775554200000,
-    "stopTs": 1775556000000,
-    "title": "Odisha Dwiprahara",
-    "desc": "The host provides a comprehensive report, elucidating on the latest news and developments from various regions across Odisha."
-  },
-  {
-    "start": "10:00",
-    "stop": "10:30",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775556000000,
-    "stopTs": 1775557800000,
-    "title": "Special Report",
-    "desc": "The host offers in-depth coverage and analysis of major news stories, providing exclusive insights into current events both locally and globally."
-  },
-  {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775557800000,
-    "stopTs": 1775559600000,
-    "title": "Odisha @ 4 PM",
-    "desc": "The host presents daily life, news and culture in Odisha, offering a glimpse into the state&apos;s afternoon activities and current events."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:15",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775559600000,
-    "stopTs": 1775560500000,
-    "title": "AFP",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "11:15",
-    "stop": "11:30",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775560500000,
-    "stopTs": 1775561400000,
-    "title": "AFP",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "11:30",
-    "stop": "12:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775561400000,
-    "stopTs": 1775563200000,
-    "title": "Reporter Live",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region, live."
-  },
-  {
-    "start": "12:00",
-    "stop": "12:30",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775563200000,
-    "stopTs": 1775565000000,
-    "title": "Khabar Odisha",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "12:30",
-    "stop": "13:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775565000000,
-    "stopTs": 1775566800000,
-    "title": "30 Minute 60 Khabar",
-    "desc": "The host provides a comprehensive and detailed report on the top 60 news and developments from across the world in 30 minutes."
-  },
-  {
-    "start": "13:00",
-    "stop": "13:30",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775566800000,
-    "stopTs": 1775568600000,
-    "title": "Ama Sahara",
-    "desc": "The host interacts with people from various town in the state of Odisha who talk about the problems that they face in their day-to-day life and provides solutions to them."
-  },
-  {
-    "start": "13:30",
-    "stop": "14:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775568600000,
-    "stopTs": 1775570400000,
-    "title": "Ama Odisha",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "14:00",
-    "stop": "14:30",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775570400000,
-    "stopTs": 1775572200000,
-    "title": "Desh Bidesh",
-    "desc": "The host presents the latest news updates and key developments on pressing matters from various fields across the globe."
-  },
-  {
-    "start": "14:30",
-    "stop": "15:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775572200000,
-    "stopTs": 1775574000000,
-    "title": "News Point @ 8",
-    "desc": "The host presents the latest news updates and key developments on pressing matters from various fields across the globe."
-  },
-  {
-    "start": "15:00",
-    "stop": "15:30",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775574000000,
-    "stopTs": 1775575800000,
-    "title": "Pala Bhuta Jagichi",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775575800000,
-    "stopTs": 1775577600000,
-    "title": "Saradin",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the world."
-  },
-  {
-    "start": "16:00",
-    "stop": "16:30",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775577600000,
-    "stopTs": 1775579400000,
-    "title": "PCR",
-    "desc": "The host presents a comprehensive and detailed report on the various crimes prevalent in society and attempts to spread awareness."
-  },
-  {
-    "start": "16:30",
-    "stop": "17:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775579400000,
-    "stopTs": 1775581200000,
-    "title": "10 PM Live",
-    "desc": "The host presents the latest information, advancements and developments on various important issues and events affecting the lives of many individuals, live."
-  },
-  {
-    "start": "17:00",
-    "stop": "17:30",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775581200000,
-    "stopTs": 1775583000000,
-    "title": "Special Report",
-    "desc": "The host offers in-depth coverage and analysis of major news stories, providing exclusive insights into current events both locally and globally."
-  },
-  {
-    "start": "17:30",
-    "stop": "18:00",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775583000000,
-    "stopTs": 1775584800000,
-    "title": "Ama Odisha",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "18:00",
-    "stop": "18:29",
-    "channel": "KanakNews.in",
-    "channelId": "KanakNews.in",
-    "channelName": "Kanak News",
-    "startTs": 1775584800000,
-    "stopTs": 1775586599000,
-    "title": "Ama Sahara",
-    "desc": "The host interacts with people from various town in the state of Odisha who talk about the problems that they face in their day-to-day life and provides solutions to them."
+    "desc": "The host talks about the problems of common people in their day-to-day life."
   }
 ]

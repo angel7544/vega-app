@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Malgudi Days",
-    "desc": "An abandoned wife welcomes her husband&apos;s return with open arms."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "DDNational.in",
@@ -19,7 +8,7 @@
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Circus",
-    "desc": "The lives of circus artists are explored, witnessing the challenges they face and how they adapt to unexpected situations."
+    "desc": ". S01 E12."
   },
   {
     "start": "11:30",
@@ -30,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Awakening India",
-    "desc": "A presenter illuminates pivotal yet often overlooked aspects of India&apos;s independence struggle, highlighting regional contributions and unsung heroes from the nation&apos;s fight for liberty."
+    "desc": ". S01 E36."
   },
   {
     "start": "12:00",
@@ -41,7 +30,7 @@
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Chitrahar",
-    "desc": "A comprehensive compilation of some of the most popular and melodious songs from a variety of movies sung by talented artists."
+    "desc": "A comprehensive compilation of the most popular songs from various movies."
   },
   {
     "start": "12:30",
@@ -52,7 +41,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Gaon Se With Neelesh Mishra",
-    "desc": "Explores rural India&apos;s stories, unique farming models, and village life through conversations revealing daily life and culture."
+    "desc": "Explores rural India&apos;s stories and farming models via revealing conversations. S01 E64."
   },
   {
     "start": "13:00",
@@ -63,7 +52,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775481900000,
     "title": "Kaamdhenu Gaumata",
-    "desc": "The divine voice of Lord Krishna tells the eternal tales of Kamdhenu Gaumata, born from the Samudra Manthan, whose blessings and compassion guided sages, gods, kings, and all of humanity."
+    "desc": "The divine voice of Lord Krishna tells the eternal tales of Kamdhenu Gaumata. S01 E50."
   },
   {
     "start": "13:25",
@@ -73,8 +62,8 @@
     "channelName": "DD National",
     "startTs": 1775481900000,
     "stopTs": 1775482200000,
-    "title": "SOS",
-    "desc": "The host facilitates a discussion that focuses on children&apos;s rights, concerns, and needs by inviting a representative from SOS Children&apos;s Village, an Indian non-profit organization."
+    "title": "Devendra Tripathi-SOS",
+    "desc": "."
   },
   {
     "start": "13:30",
@@ -85,7 +74,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Kakbhushandi Ramayan",
-    "desc": "Presents the story of Ramayana, narrating how Rama fights against the demon king Ravana and emerges victorious over evil."
+    "desc": "Presents the story of Ramayana, narrating how Rama fights against the demon king Ravana. S01 E289."
   },
   {
     "start": "14:00",
@@ -96,7 +85,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Himachal Se Olympics Tak",
-    "desc": "An aspiring young woman athlete from the Indian state of Himachal Pradesh embarks on a journey to turn her Olympic dreams into reality."
+    "desc": "A young woman athlete from Himachal Pradesh, India, tries to turn her Olympic dreams into reality. S01 E168."
   },
   {
     "start": "14:30",
@@ -107,7 +96,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Rajni 2.0",
-    "desc": "Guddu, Rajni&apos;s daughter, is a young individual with a sound sense of justice who addresses modern-day societal issues with courage, empathy, and honesty."
+    "desc": "Guddu, Rajni&apos;s daughter, addresses modern-day societal issues with courage, empathy, and honesty. S01 E01."
   },
   {
     "start": "15:00",
@@ -118,7 +107,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Sasural Jhunki Ka",
-    "desc": "A young girl faces overwhelming adult duties and obstacles as she enters into an early marriage and struggles to cope with her new life."
+    "desc": "A young girl faces overwhelming adult duties and obstacles as she enters into an early marriage. S01 E316."
   },
   {
     "start": "15:30",
@@ -129,7 +118,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Devanchal Ki Prem Katha",
-    "desc": "A unique love story of two individuals, Dev and Aanchal, set in Himachal&apos;s scenic splendour highlights social concerns while weaving romance and local tradition."
+    "desc": "A love story set in Himachal highlights social concerns while weaving romance and local tradition. S01 E172."
   },
   {
     "start": "16:00",
@@ -140,7 +129,7 @@
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Betiyon Ka Gullak Sabka Good Luck",
-    "desc": "Bringing the best in entertainment."
+    "desc": "Bringing the best in entertainment. S01 E02."
   },
   {
     "start": "16:30",
@@ -151,7 +140,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Cyber Crime",
-    "desc": "Presents the latest information about cybercrimes that take place on social media."
+    "desc": "Presents the latest information about cybercrimes that take place on social media. S01 E17."
   },
   {
     "start": "17:00",
@@ -162,7 +151,7 @@
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Jaanki",
-    "desc": "A married couple is ready to welcome their first child, but their patriarchal family want it to be a boy."
+    "desc": "A couple is ready to welcome their first child amid their family&apos;s expectation of it being a boy. S01 E94."
   },
   {
     "start": "17:30",
@@ -173,314 +162,17 @@
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Fauji",
-    "desc": "Following new recruits as they begin their training to become commandos in the Indian Army. The daily struggles of their lives are shown, from the pranks they play on each other to the punishments they receive."
+    "desc": "Following new recruits as they begin their training to become commandos in the Indian Army. S02 E93."
   },
   {
     "start": "18:00",
-    "stop": "18:29",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775498400000,
-    "stopTs": 1775500199000,
-    "title": "Forty Plus",
-    "desc": "A group of forty-year-old men face various obstacles in their personal and professional lives. However, they make it a point to spend quality time with their friends."
-  },
-  {
-    "start": "18:30",
     "stop": "00:00",
     "channel": "DDNational.in",
     "channelId": "DDNational.in",
     "channelName": "DD National",
-    "startTs": 1775500200000,
+    "startTs": 1775498400000,
     "stopTs": 1775520000000,
     "title": "Forty Plus",
-    "desc": "A group of forty-year-old men face various obstacles in their personal and professional lives. However, they make it a point to spend quality time with their friends."
-  },
-  {
-    "start": "00:00",
-    "stop": "00:01",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775520000000,
-    "stopTs": 1775520060000,
-    "title": "Vande Mataram",
-    "desc": "Experts and political personalities share their ideas and discuss recent affairs related to the development of India."
-  },
-  {
-    "start": "00:01",
-    "stop": "00:30",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775520060000,
-    "stopTs": 1775521800000,
-    "title": "Aaradhana",
-    "desc": "A comprehensive compilation of various devotional songs and hymns, praising the Almighty, chanted by renowned artists from across the region."
-  },
-  {
-    "start": "00:30",
-    "stop": "01:00",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775521800000,
-    "stopTs": 1775523600000,
-    "title": "Sringaar- Aarti from Ram Lalla",
-    "desc": "Devotees chant Shringar Aarti in front of the Ram Lalla idol at the Ayodhya Ram Temple."
-  },
-  {
-    "start": "01:00",
-    "stop": "01:30",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775523600000,
-    "stopTs": 1775525400000,
-    "title": "Tulsi Ramayan",
-    "desc": "A religious speaker delivers a discourse on the Ramayana by the poet-saint Tulsidas, a retelling of Lord Rama&apos;s life and his extraordinary courage."
-  },
-  {
-    "start": "01:30",
-    "stop": "02:00",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775525400000,
-    "stopTs": 1775527200000,
-    "title": "Aarogya Yog",
-    "desc": "Nivedita Joshi prescribes a range of yoga exercises as the key to good health and a long life."
-  },
-  {
-    "start": "02:00",
-    "stop": "02:30",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775527200000,
-    "stopTs": 1775529000000,
-    "title": "Chitrahaar",
-    "desc": "Presents some of the most popular and melodious songs from Bollywood movies."
-  },
-  {
-    "start": "02:30",
-    "stop": "03:30",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775529000000,
-    "stopTs": 1775532600000,
-    "title": "Morning Show",
-    "desc": "Presents a refreshing burst of information for the viewers to kickstart the day on a positive note."
-  },
-  {
-    "start": "03:30",
-    "stop": "04:00",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775532600000,
-    "stopTs": 1775534400000,
-    "title": "Chitrahaar",
-    "desc": "Presents some of the most popular and melodious songs from Bollywood movies."
-  },
-  {
-    "start": "04:00",
-    "stop": "04:30",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775534400000,
-    "stopTs": 1775536200000,
-    "title": "Kakbhushandi Ramayan",
-    "desc": "Presents the story of Ramayana, narrating how Rama fights against the demon king Ravana and emerges victorious over evil."
-  },
-  {
-    "start": "04:30",
-    "stop": "05:30",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775536200000,
-    "stopTs": 1775539800000,
-    "title": "Mahabharat",
-    "desc": "When differences between the Kaurava and the Pandava clans lead them to the threshold of war, Lord Krishna decides to step in and take control of the situation."
-  },
-  {
-    "start": "05:30",
-    "stop": "06:30",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775539800000,
-    "stopTs": 1775543400000,
-    "title": "Question Hour",
-    "desc": "Viewers put forth their queries while the panel tries to answer them to the best of their ability."
-  },
-  {
-    "start": "06:30",
-    "stop": "07:00",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775543400000,
-    "stopTs": 1775545200000,
-    "title": "Bhed Bharam",
-    "desc": "A puzzling accident claims Surekha&apos;s life. A man encounters her ghost and tells her family that she is trying to communicate with them."
-  },
-  {
-    "start": "07:00",
-    "stop": "07:30",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775545200000,
-    "stopTs": 1775547000000,
-    "title": "Cyber Crime",
-    "desc": "Presents the latest information about cybercrimes that take place on social media."
-  },
-  {
-    "start": "07:30",
-    "stop": "10:30",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775547000000,
-    "stopTs": 1775557800000,
-    "title": "Movie",
-    "desc": "Movie to be announced."
-  },
-  {
-    "start": "10:30",
-    "stop": "11:30",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775557800000,
-    "stopTs": 1775561400000,
-    "title": "DD National",
-    "desc": "Presents tales from the `Arabian Nights&apos;, offering strong morals and captivating narratives to entertain children."
-  },
-  {
-    "start": "11:30",
-    "stop": "12:30",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775561400000,
-    "stopTs": 1775565000000,
-    "title": "Mahabharat",
-    "desc": "When differences between the Kaurava and the Pandava clans lead them to the threshold of war, Lord Krishna decides to step in and take control of the situation."
-  },
-  {
-    "start": "12:30",
-    "stop": "13:30",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775565000000,
-    "stopTs": 1775568600000,
-    "title": "Symphony of India",
-    "desc": "Skilled musicians from all over India perform diverse music styles to showcase the country&apos;s rich musical heritage."
-  },
-  {
-    "start": "13:30",
-    "stop": "14:00",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775568600000,
-    "stopTs": 1775570400000,
-    "title": "Sankat Mochan Hanuman",
-    "desc": "Hanuman is the first superhero, an ardent devotee of Lord Ram, the vanquisher of all evil and the source of hope for all mankind."
-  },
-  {
-    "start": "14:00",
-    "stop": "14:30",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775570400000,
-    "stopTs": 1775572200000,
-    "title": "Kakbhushandi Ramayan",
-    "desc": "Presents the story of Ramayana, narrating how Rama fights against the demon king Ravana and emerges victorious over evil."
-  },
-  {
-    "start": "14:30",
-    "stop": "15:00",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775572200000,
-    "stopTs": 1775574000000,
-    "title": "Hum To Middle Class Hai",
-    "desc": "Three generations of middle-class families talk about their experiences and struggles in life."
-  },
-  {
-    "start": "15:00",
-    "stop": "15:30",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775574000000,
-    "stopTs": 1775575800000,
-    "title": "Sasural Jhunki Ka",
-    "desc": "A young girl faces overwhelming adult duties and obstacles as she enters into an early marriage and struggles to cope with her new life."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:00",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775575800000,
-    "stopTs": 1775577600000,
-    "title": "Fauji",
-    "desc": "Following new recruits as they begin their training to become commandos in the Indian Army. The daily struggles of their lives are shown, from the pranks they play on each other to the punishments they receive."
-  },
-  {
-    "start": "16:00",
-    "stop": "16:30",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775577600000,
-    "stopTs": 1775579400000,
-    "title": "Bhed Bharam",
-    "desc": "A puzzling accident claims Surekha&apos;s life. A man encounters her ghost and tells her family that she is trying to communicate with them."
-  },
-  {
-    "start": "16:30",
-    "stop": "17:00",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775579400000,
-    "stopTs": 1775581200000,
-    "title": "Kakbhushandi Ramayan",
-    "desc": "Presents the story of Ramayana, narrating how Rama fights against the demon king Ravana and emerges victorious over evil."
-  },
-  {
-    "start": "17:00",
-    "stop": "17:30",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775581200000,
-    "stopTs": 1775583000000,
-    "title": "Cyber Crime",
-    "desc": "Presents the latest information about cybercrimes that take place on social media."
-  },
-  {
-    "start": "17:30",
-    "stop": "18:29",
-    "channel": "DDNational.in",
-    "channelId": "DDNational.in",
-    "channelName": "DD National",
-    "startTs": 1775583000000,
-    "stopTs": 1775586599000,
-    "title": "Symphony of India",
-    "desc": "Skilled musicians from all over India perform diverse music styles to showcase the country&apos;s rich musical heritage."
+    "desc": ". S01 E41."
   }
 ]

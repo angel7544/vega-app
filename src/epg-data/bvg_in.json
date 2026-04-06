@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Mera Ghar",
-    "desc": "A renowned astrologer sheds light on the Vastu Shastra, a traditional Hindu system of architecture, and shares important advice that one can follow for a prosperous life."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "BVG.in",
@@ -19,7 +8,7 @@
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Sanjeevni",
-    "desc": "A health care expert offers valuable tips and guidance to maintain good health, along with providing insights on wellness."
+    "desc": "A health care expert offers guidance on health and wellness."
   },
   {
     "start": "11:30",
@@ -30,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Yoga For Life",
-    "desc": "Renowned experts focus on the physical, mental and spiritual benefits of yoga, offering lifestyle advice to promote overall well-being."
+    "desc": "Renowned experts focus on the physical, mental and spiritual benefits of yoga."
   },
   {
     "start": "12:00",
@@ -41,7 +30,7 @@
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Satvik Bhoj",
-    "desc": "The host interviews a health expert who provides insightful information on the &apos;sattvic&apos; diet and shares advice on maintaining a healthy lifestyle."
+    "desc": "The host interviews a health expert who provides information on the &apos;sattvic&apos; diet."
   },
   {
     "start": "12:30",
@@ -52,7 +41,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Garbhsanskar",
-    "desc": "The host invites medical experts to give an overview about pregnancy and parenthood while sharing insights to help expectant mothers."
+    "desc": "The host invites medical experts to cover topics related to pregnancy and parenthood."
   },
   {
     "start": "13:00",
@@ -63,7 +52,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775483100000,
     "title": "Wellness",
-    "desc": "Religious leaders introduce their followers to effective practices of meditation to help them attain a state of mental peace and holiness."
+    "desc": "Religious leaders introduce effective meditation practices to achieve mental peace."
   },
   {
     "start": "13:45",
@@ -74,7 +63,7 @@
     "startTs": 1775483100000,
     "stopTs": 1775485800000,
     "title": "Hum Tum Aur Suvaasth",
-    "desc": "A healthcare professional sheds light on various common ailments whilst providing relevant tips that can facilitate maintaining a healthy lifestyle."
+    "desc": "A healthcare expert discusses various common ailments and provides health-related tips."
   },
   {
     "start": "14:30",
@@ -85,7 +74,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Mera Ghar",
-    "desc": "A renowned astrologer sheds light on the Vastu Shastra, a traditional Hindu system of architecture, and shares important advice that one can follow for a prosperous life."
+    "desc": "An astrologer shares insights on Vastu Shastra, a traditional Hindu system of architecture."
   },
   {
     "start": "15:00",
@@ -96,7 +85,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Sanjeevni",
-    "desc": "A health care expert offers valuable tips and guidance to maintain good health, along with providing insights on wellness."
+    "desc": "A health care expert offers guidance on health and wellness."
   },
   {
     "start": "15:30",
@@ -107,7 +96,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Astro Talk",
-    "desc": "Astrologers engage in interactive sessions to offer personal advice on the basis of their studies regarding the transit of celestial bodies and their influences on earthly matters."
+    "desc": "Astrologers discuss celestial influences on earthly matters in interactive sessions."
   },
   {
     "start": "16:00",
@@ -118,7 +107,7 @@
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Arogyam",
-    "desc": "Health experts shed light on the symptoms and cure of various ailments and suggest techniques to lead a happy and healthy life."
+    "desc": "Health experts shed light on the symptoms and cure of various ailments."
   },
   {
     "start": "16:30",
@@ -129,7 +118,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Garbhsanskar",
-    "desc": "The host invites medical experts to give an overview about pregnancy and parenthood while sharing insights to help expectant mothers."
+    "desc": "The host invites medical experts to cover topics related to pregnancy and parenthood."
   },
   {
     "start": "17:00",
@@ -140,7 +129,7 @@
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Kya Kare Kya Na Kare",
-    "desc": "Religious leaders and ardent followers gather to chant holy prayers and sing devotional hymns in honour of the Almighty."
+    "desc": "Religious leaders and followers chant various devotional hymns and prayers."
   },
   {
     "start": "17:30",
@@ -151,501 +140,17 @@
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Satvik Bhoj",
-    "desc": "The host interviews a health expert who provides insightful information on the &apos;sattvic&apos; diet and shares advice on maintaining a healthy lifestyle."
+    "desc": "The host interviews a health expert who provides information on the &apos;sattvic&apos; diet."
   },
   {
     "start": "18:00",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "BVG.in",
     "channelId": "BVG.in",
     "channelName": "BVG",
     "startTs": 1775498400000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "Spirituality, Health, Environment",
-    "desc": "An adept delivers a spiritual discourse on matters such as spirituality, health and environment in order to lead a purposeful life."
-  },
-  {
-    "start": "18:30",
-    "stop": "19:15",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775500200000,
-    "stopTs": 1775502900000,
-    "title": "Wellness",
-    "desc": "Religious leaders introduce their followers to effective practices of meditation to help them attain a state of mental peace and holiness."
-  },
-  {
-    "start": "19:15",
-    "stop": "19:45",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775502900000,
-    "stopTs": 1775504700000,
-    "title": "Mera Ghar",
-    "desc": "A renowned astrologer sheds light on the Vastu Shastra, a traditional Hindu system of architecture, and shares important advice that one can follow for a prosperous life."
-  },
-  {
-    "start": "19:45",
-    "stop": "20:15",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775504700000,
-    "stopTs": 1775506500000,
-    "title": "Kya Kare Kya Na Kare",
-    "desc": "Religious leaders and ardent followers gather to chant holy prayers and sing devotional hymns in honour of the Almighty."
-  },
-  {
-    "start": "20:15",
-    "stop": "20:45",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775506500000,
-    "stopTs": 1775508300000,
-    "title": "Garbhsanskar",
-    "desc": "The host invites medical experts to give an overview about pregnancy and parenthood while sharing insights to help expectant mothers."
-  },
-  {
-    "start": "20:45",
-    "stop": "21:15",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775508300000,
-    "stopTs": 1775510100000,
-    "title": "Spirituality",
-    "desc": "A religious scholar delivers a discourse surrounding various matters of spirituality whilst encouraging the followers to lead a purposeful life."
-  },
-  {
-    "start": "21:15",
-    "stop": "21:45",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775510100000,
-    "stopTs": 1775511900000,
-    "title": "Sanjeevni",
-    "desc": "A health care expert offers valuable tips and guidance to maintain good health, along with providing insights on wellness."
-  },
-  {
-    "start": "21:45",
-    "stop": "22:15",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775511900000,
-    "stopTs": 1775513700000,
-    "title": "Arogyam",
-    "desc": "Health experts shed light on the symptoms and cure of various ailments and suggest techniques to lead a happy and healthy life."
-  },
-  {
-    "start": "22:15",
-    "stop": "23:00",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775513700000,
-    "stopTs": 1775516400000,
-    "title": "Hum Tum Aur Suvaasth",
-    "desc": "A healthcare professional sheds light on various common ailments whilst providing relevant tips that can facilitate maintaining a healthy lifestyle."
-  },
-  {
-    "start": "23:00",
-    "stop": "23:30",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775516400000,
-    "stopTs": 1775518200000,
-    "title": "Kya Kare Kya Na Kare",
-    "desc": "Religious leaders and ardent followers gather to chant holy prayers and sing devotional hymns in honour of the Almighty."
-  },
-  {
-    "start": "23:30",
-    "stop": "00:00",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775518200000,
-    "stopTs": 1775520000000,
-    "title": "Mera Ghar",
-    "desc": "A renowned astrologer sheds light on the Vastu Shastra, a traditional Hindu system of architecture, and shares important advice that one can follow for a prosperous life."
-  },
-  {
-    "start": "00:00",
-    "stop": "00:30",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775520000000,
-    "stopTs": 1775521800000,
-    "title": "Bramhakumari&apos;s",
-    "desc": "An adept delivers a discourse surrounding various matters of spirituality whilst encouraging the followers to lead a purposeful life."
-  },
-  {
-    "start": "00:30",
-    "stop": "01:00",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775521800000,
-    "stopTs": 1775523600000,
-    "title": "Yoga For Life",
-    "desc": "Renowned experts focus on the physical, mental and spiritual benefits of yoga, offering lifestyle advice to promote overall well-being."
-  },
-  {
-    "start": "01:00",
-    "stop": "01:45",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775523600000,
-    "stopTs": 1775526300000,
-    "title": "Hum Tum Aur Suvaasth",
-    "desc": "A healthcare professional sheds light on various common ailments whilst providing relevant tips that can facilitate maintaining a healthy lifestyle."
-  },
-  {
-    "start": "01:45",
-    "stop": "02:30",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775526300000,
-    "stopTs": 1775529000000,
-    "title": "Wellness",
-    "desc": "Religious leaders introduce their followers to effective practices of meditation to help them attain a state of mental peace and holiness."
-  },
-  {
-    "start": "02:30",
-    "stop": "03:00",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775529000000,
-    "stopTs": 1775530800000,
-    "title": "Astro Talk",
-    "desc": "Astrologers engage in interactive sessions to offer personal advice on the basis of their studies regarding the transit of celestial bodies and their influences on earthly matters."
-  },
-  {
-    "start": "03:00",
-    "stop": "03:30",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775530800000,
-    "stopTs": 1775532600000,
-    "title": "Garbhsanskar",
-    "desc": "The host invites medical experts to give an overview about pregnancy and parenthood while sharing insights to help expectant mothers."
-  },
-  {
-    "start": "03:30",
-    "stop": "04:00",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775532600000,
-    "stopTs": 1775534400000,
-    "title": "Mera Ghar",
-    "desc": "A renowned astrologer sheds light on the Vastu Shastra, a traditional Hindu system of architecture, and shares important advice that one can follow for a prosperous life."
-  },
-  {
-    "start": "04:00",
-    "stop": "04:30",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775534400000,
-    "stopTs": 1775536200000,
-    "title": "Satvik Bhoj",
-    "desc": "The host interviews a health expert who provides insightful information on the &apos;sattvic&apos; diet and shares advice on maintaining a healthy lifestyle."
-  },
-  {
-    "start": "04:30",
-    "stop": "05:00",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775536200000,
-    "stopTs": 1775538000000,
-    "title": "Sanjeevni",
-    "desc": "A health care expert offers valuable tips and guidance to maintain good health, along with providing insights on wellness."
-  },
-  {
-    "start": "05:00",
-    "stop": "05:30",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775538000000,
-    "stopTs": 1775539800000,
-    "title": "Spirituality",
-    "desc": "A religious scholar delivers a discourse surrounding various matters of spirituality whilst encouraging the followers to lead a purposeful life."
-  },
-  {
-    "start": "05:30",
-    "stop": "06:00",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775539800000,
-    "stopTs": 1775541600000,
-    "title": "Kya Kare Kya Na Kare",
-    "desc": "Religious leaders and ardent followers gather to chant holy prayers and sing devotional hymns in honour of the Almighty."
-  },
-  {
-    "start": "06:00",
-    "stop": "06:30",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775541600000,
-    "stopTs": 1775543400000,
-    "title": "Arogyam",
-    "desc": "Health experts shed light on the symptoms and cure of various ailments and suggest techniques to lead a happy and healthy life."
-  },
-  {
-    "start": "06:30",
-    "stop": "07:00",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775543400000,
-    "stopTs": 1775545200000,
-    "title": "Sanjeevni",
-    "desc": "A health care expert offers valuable tips and guidance to maintain good health, along with providing insights on wellness."
-  },
-  {
-    "start": "07:00",
-    "stop": "07:30",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775545200000,
-    "stopTs": 1775547000000,
-    "title": "Astro Talk",
-    "desc": "Astrologers engage in interactive sessions to offer personal advice on the basis of their studies regarding the transit of celestial bodies and their influences on earthly matters."
-  },
-  {
-    "start": "07:30",
-    "stop": "08:00",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775547000000,
-    "stopTs": 1775548800000,
-    "title": "Satvik Bhoj",
-    "desc": "The host interviews a health expert who provides insightful information on the &apos;sattvic&apos; diet and shares advice on maintaining a healthy lifestyle."
-  },
-  {
-    "start": "08:00",
-    "stop": "08:30",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775548800000,
-    "stopTs": 1775550600000,
-    "title": "Garbhsanskar",
-    "desc": "The host invites medical experts to give an overview about pregnancy and parenthood while sharing insights to help expectant mothers."
-  },
-  {
-    "start": "08:30",
-    "stop": "09:15",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775550600000,
-    "stopTs": 1775553300000,
-    "title": "Hum Tum Aur Suvaasth",
-    "desc": "A healthcare professional sheds light on various common ailments whilst providing relevant tips that can facilitate maintaining a healthy lifestyle."
-  },
-  {
-    "start": "09:15",
-    "stop": "10:00",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775553300000,
-    "stopTs": 1775556000000,
-    "title": "Wellness",
-    "desc": "Religious leaders introduce their followers to effective practices of meditation to help them attain a state of mental peace and holiness."
-  },
-  {
-    "start": "10:00",
-    "stop": "10:30",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775556000000,
-    "stopTs": 1775557800000,
-    "title": "Arogyam",
-    "desc": "Health experts shed light on the symptoms and cure of various ailments and suggest techniques to lead a happy and healthy life."
-  },
-  {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775557800000,
-    "stopTs": 1775559600000,
-    "title": "Mera Ghar",
-    "desc": "A renowned astrologer sheds light on the Vastu Shastra, a traditional Hindu system of architecture, and shares important advice that one can follow for a prosperous life."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:30",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775559600000,
-    "stopTs": 1775561400000,
-    "title": "Sanjeevni",
-    "desc": "A health care expert offers valuable tips and guidance to maintain good health, along with providing insights on wellness."
-  },
-  {
-    "start": "11:30",
-    "stop": "12:00",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775561400000,
-    "stopTs": 1775563200000,
-    "title": "Yoga For Life",
-    "desc": "Renowned experts focus on the physical, mental and spiritual benefits of yoga, offering lifestyle advice to promote overall well-being."
-  },
-  {
-    "start": "12:00",
-    "stop": "12:30",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775563200000,
-    "stopTs": 1775565000000,
-    "title": "Satvik Bhoj",
-    "desc": "The host interviews a health expert who provides insightful information on the &apos;sattvic&apos; diet and shares advice on maintaining a healthy lifestyle."
-  },
-  {
-    "start": "12:30",
-    "stop": "13:00",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775565000000,
-    "stopTs": 1775566800000,
-    "title": "Garbhsanskar",
-    "desc": "The host invites medical experts to give an overview about pregnancy and parenthood while sharing insights to help expectant mothers."
-  },
-  {
-    "start": "13:00",
-    "stop": "13:45",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775566800000,
-    "stopTs": 1775569500000,
-    "title": "Wellness",
-    "desc": "Religious leaders introduce their followers to effective practices of meditation to help them attain a state of mental peace and holiness."
-  },
-  {
-    "start": "13:45",
-    "stop": "14:30",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775569500000,
-    "stopTs": 1775572200000,
-    "title": "Hum Tum Aur Suvaasth",
-    "desc": "A healthcare professional sheds light on various common ailments whilst providing relevant tips that can facilitate maintaining a healthy lifestyle."
-  },
-  {
-    "start": "14:30",
-    "stop": "15:00",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775572200000,
-    "stopTs": 1775574000000,
-    "title": "Mera Ghar",
-    "desc": "A renowned astrologer sheds light on the Vastu Shastra, a traditional Hindu system of architecture, and shares important advice that one can follow for a prosperous life."
-  },
-  {
-    "start": "15:00",
-    "stop": "15:30",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775574000000,
-    "stopTs": 1775575800000,
-    "title": "Sanjeevni",
-    "desc": "A health care expert offers valuable tips and guidance to maintain good health, along with providing insights on wellness."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:00",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775575800000,
-    "stopTs": 1775577600000,
-    "title": "Astro Talk",
-    "desc": "Astrologers engage in interactive sessions to offer personal advice on the basis of their studies regarding the transit of celestial bodies and their influences on earthly matters."
-  },
-  {
-    "start": "16:00",
-    "stop": "16:30",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775577600000,
-    "stopTs": 1775579400000,
-    "title": "Arogyam",
-    "desc": "Health experts shed light on the symptoms and cure of various ailments and suggest techniques to lead a happy and healthy life."
-  },
-  {
-    "start": "16:30",
-    "stop": "17:00",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775579400000,
-    "stopTs": 1775581200000,
-    "title": "Garbhsanskar",
-    "desc": "The host invites medical experts to give an overview about pregnancy and parenthood while sharing insights to help expectant mothers."
-  },
-  {
-    "start": "17:00",
-    "stop": "17:30",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775581200000,
-    "stopTs": 1775583000000,
-    "title": "Kya Kare Kya Na Kare",
-    "desc": "Religious leaders and ardent followers gather to chant holy prayers and sing devotional hymns in honour of the Almighty."
-  },
-  {
-    "start": "17:30",
-    "stop": "18:00",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775583000000,
-    "stopTs": 1775584800000,
-    "title": "Satvik Bhoj",
-    "desc": "The host interviews a health expert who provides insightful information on the &apos;sattvic&apos; diet and shares advice on maintaining a healthy lifestyle."
-  },
-  {
-    "start": "18:00",
-    "stop": "18:29",
-    "channel": "BVG.in",
-    "channelId": "BVG.in",
-    "channelName": "BVG",
-    "startTs": 1775584800000,
-    "stopTs": 1775586599000,
-    "title": "Spirituality, Health, Environment",
-    "desc": "An adept delivers a spiritual discourse on matters such as spirituality, health and environment in order to lead a purposeful life."
+    "desc": "An adept delivers a discourse on matters such as spirituality, health and environment."
   }
 ]

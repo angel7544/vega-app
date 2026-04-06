@@ -1,0 +1,178 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "SankaraTV.in",
+    "channelId": "SankaraTV.in",
+    "channelName": "Sri Sankara TV",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Skandha Sashti Kavasam",
+    "desc": "A compilation of verses from a devotional song dedicated to Lord Murugan."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "SankaraTV.in",
+    "channelId": "SankaraTV.in",
+    "channelName": "Sri Sankara TV",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Sri Lalitha Sahasranamam",
+    "desc": "Religious leaders and devotees recite the Hindu religious text &apos;Lalita Sahasranama&apos;."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "SankaraTV.in",
+    "channelId": "SankaraTV.in",
+    "channelName": "Sri Sankara TV",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Sri Vishnu Shasranamam",
+    "desc": "Religious leaders and ardent devotees perform sacred rituals and chant devotional hymns."
+  },
+  {
+    "start": "12:30",
+    "stop": "12:45",
+    "channel": "SankaraTV.in",
+    "channelId": "SankaraTV.in",
+    "channelName": "Sri Sankara TV",
+    "startTs": 1775478600000,
+    "stopTs": 1775479500000,
+    "title": "Ayiram Namangal",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "12:45",
+    "stop": "13:00",
+    "channel": "SankaraTV.in",
+    "channelId": "SankaraTV.in",
+    "channelName": "Sri Sankara TV",
+    "startTs": 1775479500000,
+    "stopTs": 1775480400000,
+    "title": "Ayiram Peyargal",
+    "desc": "A religious leader recites verses from a Hindu religious text called &apos;Lalita Sahasranama&apos;."
+  },
+  {
+    "start": "13:00",
+    "stop": "14:00",
+    "channel": "SankaraTV.in",
+    "channelId": "SankaraTV.in",
+    "channelName": "Sri Sankara TV",
+    "startTs": 1775480400000,
+    "stopTs": 1775484000000,
+    "title": "Bhakthi Utsavam",
+    "desc": "Religious leaders and devotees express their devotion to the Almighty."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "SankaraTV.in",
+    "channelId": "SankaraTV.in",
+    "channelName": "Sri Sankara TV",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Mahaan",
+    "desc": "The host sheds light on some of the most renowned religious saints of India."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "SankaraTV.in",
+    "channelId": "SankaraTV.in",
+    "channelName": "Sri Sankara TV",
+    "startTs": 1775485800000,
+    "stopTs": 1775489400000,
+    "title": "Teum",
+    "desc": "Participants deliver speeches on matters concerning history, mythology and heritage."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "SankaraTV.in",
+    "channelId": "SankaraTV.in",
+    "channelName": "Sri Sankara TV",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Margaseerishotsavam",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "SankaraTV.in",
+    "channelId": "SankaraTV.in",
+    "channelName": "Sri Sankara TV",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Margaseerishotsavam",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "SankaraTV.in",
+    "channelId": "SankaraTV.in",
+    "channelName": "Sri Sankara TV",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Shayan Aarti",
+    "desc": "Priests offer worship to the Almighty, marking the end of the day&apos;s devotional activities."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "SankaraTV.in",
+    "channelId": "SankaraTV.in",
+    "channelName": "Sri Sankara TV",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Shayan Aarti",
+    "desc": "Priests offer worship to the Almighty, marking the end of the day&apos;s devotional activities."
+  },
+  {
+    "start": "17:30",
+    "stop": "17:45",
+    "channel": "SankaraTV.in",
+    "channelId": "SankaraTV.in",
+    "channelName": "Sri Sankara TV",
+    "startTs": 1775496600000,
+    "stopTs": 1775497500000,
+    "title": "Ayiram Namangal",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "17:45",
+    "stop": "18:00",
+    "channel": "SankaraTV.in",
+    "channelId": "SankaraTV.in",
+    "channelName": "Sri Sankara TV",
+    "startTs": 1775497500000,
+    "stopTs": 1775498400000,
+    "title": "Ayiram Peyargal",
+    "desc": "A religious leader recites verses from a Hindu religious text called &apos;Lalita Sahasranama&apos;."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:15",
+    "channel": "SankaraTV.in",
+    "channelId": "SankaraTV.in",
+    "channelName": "Sri Sankara TV",
+    "startTs": 1775498400000,
+    "stopTs": 1775499300000,
+    "title": "Kanchi Mahan",
+    "desc": "A religious preacher delivers a discourse on the significance of festivals and religion."
+  },
+  {
+    "start": "18:15",
+    "stop": "18:30",
+    "channel": "SankaraTV.in",
+    "channelId": "SankaraTV.in",
+    "channelName": "Sri Sankara TV",
+    "startTs": 1775499300000,
+    "stopTs": 1775500200000,
+    "title": "Pattu Vaithiyam",
+    "desc": "An expert in traditional medication demonstrates the preparations of various medicines."
+  }
+]

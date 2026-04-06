@@ -1,0 +1,46 @@
+[
+  {
+    "start": "09:03",
+    "stop": "11:22",
+    "channel": "ZeeBollywood.in",
+    "channelId": "ZeeBollywood.in",
+    "channelName": "Zee Bollywood",
+    "startTs": 1775466180000,
+    "stopTs": 1775474520000,
+    "title": "Andaaz",
+    "desc": "Raj meets Jiya in Cape Town and discovers that she is related to his childhood sweetheart."
+  },
+  {
+    "start": "11:22",
+    "stop": "14:23",
+    "channel": "ZeeBollywood.in",
+    "channelId": "ZeeBollywood.in",
+    "channelName": "Zee Bollywood",
+    "startTs": 1775474520000,
+    "stopTs": 1775485380000,
+    "title": "Main Khiladi Tu Anari",
+    "desc": "A Bombay police officer seeks revenge when a drug dealer kills his brother."
+  },
+  {
+    "start": "14:23",
+    "stop": "17:26",
+    "channel": "ZeeBollywood.in",
+    "channelId": "ZeeBollywood.in",
+    "channelName": "Zee Bollywood",
+    "startTs": 1775485380000,
+    "stopTs": 1775496360000,
+    "title": "Bol Radha Bol",
+    "desc": "Kishen returns love-struck from a trip and loses his everything to an evil look-alike."
+  },
+  {
+    "start": "17:26",
+    "stop": "19:51",
+    "channel": "ZeeBollywood.in",
+    "channelId": "ZeeBollywood.in",
+    "channelName": "Zee Bollywood",
+    "startTs": 1775496360000,
+    "stopTs": 1775505060000,
+    "title": "Hafta Vasuli",
+    "desc": "After losing the election and having his ally turn against him, MLA Lotiram seeks revenge."
+  }
+]

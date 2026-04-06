@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "News At 4",
-    "desc": "The host presents a crisp mix of regional and global headlines, offering real-time news, analysis and top stories in a clear and accessible format."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "InGoa24x7.in",
@@ -19,7 +8,7 @@
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Current Affairs",
-    "desc": "A subject matter expert provides a list of current affairs and guides the students to understand world events in a clear and concise manner."
+    "desc": "A subject matter expert explains the current affairs of the world in a clear manner."
   },
   {
     "start": "11:30",
@@ -30,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "News At 5",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
+    "desc": "The host provides a detailed report on the latest news and developments."
   },
   {
     "start": "12:00",
@@ -52,7 +41,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "News At 5",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
+    "desc": "The host provides a detailed report on the latest news and developments."
   },
   {
     "start": "13:00",
@@ -63,7 +52,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Current Affairs",
-    "desc": "A subject matter expert provides a list of current affairs and guides the students to understand world events in a clear and concise manner."
+    "desc": "A subject matter expert explains the current affairs of the world in a clear manner."
   },
   {
     "start": "13:30",
@@ -85,7 +74,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "News at 7:30",
-    "desc": "The host presents a bulletin of the latest regional and national news stories and developments and covers current affairs."
+    "desc": "The host presents a bulletin of the latest regional and national news stories."
   },
   {
     "start": "14:30",
@@ -96,7 +85,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "News At 8",
-    "desc": "The presenter reports the latest updates and developments in the areas of business, entertainment, crime, sports and national events."
+    "desc": "The presenter reports updates and developments on various issues and current affairs."
   },
   {
     "start": "15:00",
@@ -107,7 +96,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Current Affairs",
-    "desc": "A subject matter expert provides a list of current affairs and guides the students to understand world events in a clear and concise manner."
+    "desc": "A subject matter expert explains the current affairs of the world in a clear manner."
   },
   {
     "start": "15:30",
@@ -118,7 +107,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "News At 9",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
+    "desc": "The host provides a detailed report on the latest news and developments."
   },
   {
     "start": "16:00",
@@ -140,7 +129,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "News At 10",
-    "desc": "A presenter reports the latest regional, national and international news of the day and provides updates on current events."
+    "desc": "A presenter reports the latest regional, national and international news of the day."
   },
   {
     "start": "17:00",
@@ -162,544 +151,16 @@
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "News At 11",
-    "desc": "The presenter reports the most important news stories and updates from around the world and provides updates on socio-political events."
+    "desc": "The presenter reports the most important news stories and updates from around the world."
   },
   {
     "start": "18:00",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "InGoa24x7.in",
     "channelId": "InGoa24x7.in",
     "channelName": "In Goa 24x7",
     "startTs": 1775498400000,
-    "stopTs": 1775500199000,
-    "title": "In Goa",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "18:30",
-    "stop": "19:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775500200000,
-    "stopTs": 1775502000000,
-    "title": "News At 12",
-    "desc": "The host provides the latest information, advancements and developments regarding significant political, economic and social issues."
-  },
-  {
-    "start": "19:00",
-    "stop": "19:30",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775502000000,
-    "stopTs": 1775503800000,
-    "title": "In Goa",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "19:30",
-    "stop": "20:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775503800000,
-    "stopTs": 1775505600000,
-    "title": "News At 1",
-    "desc": "The host provides a summary of all the recent, relevant events including the social, political and economic news updates."
-  },
-  {
-    "start": "20:00",
-    "stop": "20:30",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775505600000,
-    "stopTs": 1775507400000,
-    "title": "In Goa",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "20:30",
-    "stop": "21:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775507400000,
-    "stopTs": 1775509200000,
-    "title": "News At 2",
-    "desc": "The host presents the latest information, advancements and developments on various state, national and international issues."
-  },
-  {
-    "start": "21:00",
-    "stop": "21:30",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775509200000,
-    "stopTs": 1775511000000,
-    "title": "In Goa",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "21:30",
-    "stop": "22:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775511000000,
-    "stopTs": 1775512800000,
-    "title": "News At 3",
-    "desc": "The presenter sheds light on the latest news stories and updates pertaining to various political and socio-economic issues around the country."
-  },
-  {
-    "start": "22:00",
-    "stop": "22:30",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775512800000,
-    "stopTs": 1775514600000,
-    "title": "In Goa",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "22:30",
-    "stop": "23:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775514600000,
-    "stopTs": 1775516400000,
-    "title": "News At 4",
-    "desc": "The host presents a crisp mix of regional and global headlines, offering real-time news, analysis and top stories in a clear and accessible format."
-  },
-  {
-    "start": "23:00",
-    "stop": "23:30",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775516400000,
-    "stopTs": 1775518200000,
-    "title": "In Goa",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "23:30",
-    "stop": "00:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775518200000,
-    "stopTs": 1775520000000,
-    "title": "News At 5",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "00:00",
-    "stop": "00:30",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775520000000,
-    "stopTs": 1775521800000,
-    "title": "In Goa",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "00:30",
-    "stop": "01:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775521800000,
-    "stopTs": 1775523600000,
-    "title": "News At 6",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "01:00",
-    "stop": "01:30",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775523600000,
-    "stopTs": 1775525400000,
-    "title": "In Goa",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "01:30",
-    "stop": "02:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775525400000,
-    "stopTs": 1775527200000,
-    "title": "News At 7",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "02:00",
-    "stop": "02:30",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775527200000,
-    "stopTs": 1775529000000,
-    "title": "In Goa",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "02:30",
-    "stop": "03:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775529000000,
-    "stopTs": 1775530800000,
-    "title": "News At 8",
-    "desc": "The presenter reports the latest updates and developments in the areas of business, entertainment, crime, sports and national events."
-  },
-  {
-    "start": "03:00",
-    "stop": "03:30",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775530800000,
-    "stopTs": 1775532600000,
-    "title": "In Goa",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "03:30",
-    "stop": "04:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775532600000,
-    "stopTs": 1775534400000,
-    "title": "News At 9",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "04:00",
-    "stop": "04:30",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775534400000,
-    "stopTs": 1775536200000,
-    "title": "Current Affairs",
-    "desc": "A subject matter expert provides a list of current affairs and guides the students to understand world events in a clear and concise manner."
-  },
-  {
-    "start": "04:30",
-    "stop": "05:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775536200000,
-    "stopTs": 1775538000000,
-    "title": "News At 10",
-    "desc": "A presenter reports the latest regional, national and international news of the day and provides updates on current events."
-  },
-  {
-    "start": "05:00",
-    "stop": "05:30",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775538000000,
-    "stopTs": 1775539800000,
-    "title": "In Goa",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "05:30",
-    "stop": "06:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775539800000,
-    "stopTs": 1775541600000,
-    "title": "News At 11",
-    "desc": "The presenter reports the most important news stories and updates from around the world and provides updates on socio-political events."
-  },
-  {
-    "start": "06:00",
-    "stop": "06:30",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775541600000,
-    "stopTs": 1775543400000,
-    "title": "Current Affairs",
-    "desc": "A subject matter expert provides a list of current affairs and guides the students to understand world events in a clear and concise manner."
-  },
-  {
-    "start": "06:30",
-    "stop": "07:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775543400000,
-    "stopTs": 1775545200000,
-    "title": "News At 12",
-    "desc": "The host provides the latest information, advancements and developments regarding significant political, economic and social issues."
-  },
-  {
-    "start": "07:00",
-    "stop": "07:30",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775545200000,
-    "stopTs": 1775547000000,
-    "title": "Current Affairs",
-    "desc": "A subject matter expert provides a list of current affairs and guides the students to understand world events in a clear and concise manner."
-  },
-  {
-    "start": "07:30",
-    "stop": "08:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775547000000,
-    "stopTs": 1775548800000,
-    "title": "News At 1",
-    "desc": "The host provides a summary of all the recent, relevant events including the social, political and economic news updates."
-  },
-  {
-    "start": "08:00",
-    "stop": "08:30",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775548800000,
-    "stopTs": 1775550600000,
-    "title": "In Goa",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "08:30",
-    "stop": "09:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775550600000,
-    "stopTs": 1775552400000,
-    "title": "News At 2",
-    "desc": "The host presents the latest information, advancements and developments on various state, national and international issues."
-  },
-  {
-    "start": "09:00",
-    "stop": "09:30",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775552400000,
-    "stopTs": 1775554200000,
-    "title": "Current Affairs",
-    "desc": "A subject matter expert provides a list of current affairs and guides the students to understand world events in a clear and concise manner."
-  },
-  {
-    "start": "09:30",
-    "stop": "10:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775554200000,
-    "stopTs": 1775556000000,
-    "title": "News At 3",
-    "desc": "The presenter sheds light on the latest news stories and updates pertaining to various political and socio-economic issues around the country."
-  },
-  {
-    "start": "10:00",
-    "stop": "10:30",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775556000000,
-    "stopTs": 1775557800000,
-    "title": "In Goa",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775557800000,
-    "stopTs": 1775559600000,
-    "title": "News At 4",
-    "desc": "The host presents a crisp mix of regional and global headlines, offering real-time news, analysis and top stories in a clear and accessible format."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:30",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775559600000,
-    "stopTs": 1775561400000,
-    "title": "Current Affairs",
-    "desc": "A subject matter expert provides a list of current affairs and guides the students to understand world events in a clear and concise manner."
-  },
-  {
-    "start": "11:30",
-    "stop": "12:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775561400000,
-    "stopTs": 1775563200000,
-    "title": "News At 5",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "12:00",
-    "stop": "12:30",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775563200000,
-    "stopTs": 1775565000000,
-    "title": "In Goa",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "12:30",
-    "stop": "13:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775565000000,
-    "stopTs": 1775566800000,
-    "title": "News At 5",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "13:00",
-    "stop": "13:30",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775566800000,
-    "stopTs": 1775568600000,
-    "title": "Current Affairs",
-    "desc": "A subject matter expert provides a list of current affairs and guides the students to understand world events in a clear and concise manner."
-  },
-  {
-    "start": "13:30",
-    "stop": "14:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775568600000,
-    "stopTs": 1775570400000,
-    "title": "In Goa",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "14:00",
-    "stop": "14:30",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775570400000,
-    "stopTs": 1775572200000,
-    "title": "News at 7:30",
-    "desc": "The host presents a bulletin of the latest regional and national news stories and developments and covers current affairs."
-  },
-  {
-    "start": "14:30",
-    "stop": "15:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775572200000,
-    "stopTs": 1775574000000,
-    "title": "News At 8",
-    "desc": "The presenter reports the latest updates and developments in the areas of business, entertainment, crime, sports and national events."
-  },
-  {
-    "start": "15:00",
-    "stop": "15:30",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775574000000,
-    "stopTs": 1775575800000,
-    "title": "Current Affairs",
-    "desc": "A subject matter expert provides a list of current affairs and guides the students to understand world events in a clear and concise manner."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775575800000,
-    "stopTs": 1775577600000,
-    "title": "News At 9",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "16:00",
-    "stop": "16:30",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775577600000,
-    "stopTs": 1775579400000,
-    "title": "In Goa",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "16:30",
-    "stop": "17:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775579400000,
-    "stopTs": 1775581200000,
-    "title": "News At 10",
-    "desc": "A presenter reports the latest regional, national and international news of the day and provides updates on current events."
-  },
-  {
-    "start": "17:00",
-    "stop": "17:30",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775581200000,
-    "stopTs": 1775583000000,
-    "title": "In Goa",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "17:30",
-    "stop": "18:00",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775583000000,
-    "stopTs": 1775584800000,
-    "title": "News At 11",
-    "desc": "The presenter reports the most important news stories and updates from around the world and provides updates on socio-political events."
-  },
-  {
-    "start": "18:00",
-    "stop": "18:29",
-    "channel": "InGoa24x7.in",
-    "channelId": "InGoa24x7.in",
-    "channelName": "In Goa 24x7",
-    "startTs": 1775584800000,
-    "stopTs": 1775586599000,
+    "stopTs": 1775500200000,
     "title": "In Goa",
     "desc": "Bringing the best in television."
   }

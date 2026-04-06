@@ -1,0 +1,112 @@
+[
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "MegaTV.in",
+    "channelId": "MegaTV.in",
+    "channelName": "Mega TV",
+    "startTs": 1775471400000,
+    "stopTs": 1775475000000,
+    "title": "Sangeetham Santhosham",
+    "desc": "Talented singers deliver scintillating performances in front of an enthralled audience."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "MegaTV.in",
+    "channelId": "MegaTV.in",
+    "channelName": "Mega TV",
+    "startTs": 1775475000000,
+    "stopTs": 1775478600000,
+    "title": "Mayakkum Maalai",
+    "desc": "Several renowned singers deliver a captivating performance to enthral the audience."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "MegaTV.in",
+    "channelId": "MegaTV.in",
+    "channelName": "Mega TV",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Deivaragam",
+    "desc": "A comprehensive compilation of melodious and devotional songs to connect with the Almighty."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "MegaTV.in",
+    "channelId": "MegaTV.in",
+    "channelName": "Mega TV",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Bhakthi Ula",
+    "desc": "Devotees embark on a spiritual journey by visiting sacred temples and pilgrimage sites."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "MegaTV.in",
+    "channelId": "MegaTV.in",
+    "channelName": "Mega TV",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Kalaththai Vendra Kavignan",
+    "desc": "The host highlights the artistic work of a renowned Indian poet."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "MegaTV.in",
+    "channelId": "MegaTV.in",
+    "channelName": "Mega TV",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "News",
+    "desc": "The host presents some of the latest updates, current affairs and developments."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "MegaTV.in",
+    "channelId": "MegaTV.in",
+    "channelName": "Mega TV",
+    "startTs": 1775485800000,
+    "stopTs": 1775489400000,
+    "title": "Endrum MSV",
+    "desc": "The host interviews iconic Tamil music director M.S. Viswanathan."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "MegaTV.in",
+    "channelId": "MegaTV.in",
+    "channelName": "Mega TV",
+    "startTs": 1775489400000,
+    "stopTs": 1775493000000,
+    "title": "Sangeetham Santhosham",
+    "desc": "Talented singers deliver scintillating performances in front of an enthralled audience."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "MegaTV.in",
+    "channelId": "MegaTV.in",
+    "channelName": "Mega TV",
+    "startTs": 1775493000000,
+    "stopTs": 1775496600000,
+    "title": "Amuthaganam",
+    "desc": "A comprehensive compilation of evergreen Tamil songs is played back-to-back."
+  },
+  {
+    "start": "17:30",
+    "stop": "20:00",
+    "channel": "MegaTV.in",
+    "channelId": "MegaTV.in",
+    "channelName": "Mega TV",
+    "startTs": 1775496600000,
+    "stopTs": 1775505600000,
+    "title": "Mayakkum Maalai",
+    "desc": "Several renowned singers deliver a captivating performance to enthral the audience."
+  }
+]

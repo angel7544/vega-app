@@ -1,0 +1,112 @@
+[
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "In24LiveNews.in",
+    "channelId": "In24LiveNews.in",
+    "channelName": "In24 Live News",
+    "startTs": 1775471400000,
+    "stopTs": 1775475000000,
+    "title": "IN24 Special",
+    "desc": "The host provides a detailed report on the most significant news story of the moment."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "In24LiveNews.in",
+    "channelId": "In24LiveNews.in",
+    "channelName": "In24 Live News",
+    "startTs": 1775475000000,
+    "stopTs": 1775478600000,
+    "title": "Mukhya Samachar",
+    "desc": "The host presents information about the social, economic and political issues of the day."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "In24LiveNews.in",
+    "channelId": "In24LiveNews.in",
+    "channelName": "In24 Live News",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "MPCG Special",
+    "desc": "The host sheds light on the latest news updates pertaining to the field of finance."
+  },
+  {
+    "start": "13:00",
+    "stop": "14:00",
+    "channel": "In24LiveNews.in",
+    "channelId": "In24LiveNews.in",
+    "channelName": "In24 Live News",
+    "startTs": 1775480400000,
+    "stopTs": 1775484000000,
+    "title": "Harikathamruth Sara",
+    "desc": "An expert recites verses from the &apos;Harikathamrutasara&apos; and explains their meanings."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "In24LiveNews.in",
+    "channelId": "In24LiveNews.in",
+    "channelName": "In24 Live News",
+    "startTs": 1775482200000,
+    "stopTs": 1775485800000,
+    "title": "Khabarain Dinbhar",
+    "desc": "The host highlights key national news stories, updates and developments across the country."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "In24LiveNews.in",
+    "channelId": "In24LiveNews.in",
+    "channelName": "In24 Live News",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Sajjananagu Manuja - Krishna Avatara",
+    "desc": "A preacher delivers a discourse to the followers on life principles values of faith."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "In24LiveNews.in",
+    "channelId": "In24LiveNews.in",
+    "channelName": "In24 Live News",
+    "startTs": 1775489400000,
+    "stopTs": 1775493000000,
+    "title": "IN24 Special",
+    "desc": "The host provides a detailed report on the most significant news story of the moment."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "In24LiveNews.in",
+    "channelId": "In24LiveNews.in",
+    "channelName": "In24 Live News",
+    "startTs": 1775493000000,
+    "stopTs": 1775496600000,
+    "title": "Khabarain Dinbhar",
+    "desc": "The host highlights key national news stories, updates and developments across the country."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "In24LiveNews.in",
+    "channelId": "In24LiveNews.in",
+    "channelName": "In24 Live News",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Late Night News",
+    "desc": "The host presents important issues and provides updates on current events."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "In24LiveNews.in",
+    "channelId": "In24LiveNews.in",
+    "channelName": "In24 Live News",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Advertisement",
+    "desc": "The host showcases a wide range of products manufactured by popular brands."
+  }
+]

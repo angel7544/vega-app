@@ -1,0 +1,35 @@
+[
+  {
+    "start": "10:26",
+    "stop": "13:29",
+    "channel": "AllTimeMovies.in",
+    "channelId": "AllTimeMovies.in",
+    "channelName": "ALL Time MOVIES",
+    "startTs": 1775471160000,
+    "stopTs": 1775482140000,
+    "title": "Dabangg 2",
+    "desc": "When Inspector Chulbul Pandey kills the brother of a local politician, things take a turn."
+  },
+  {
+    "start": "13:29",
+    "stop": "17:33",
+    "channel": "AllTimeMovies.in",
+    "channelId": "AllTimeMovies.in",
+    "channelName": "ALL Time MOVIES",
+    "startTs": 1775482140000,
+    "stopTs": 1775496780000,
+    "title": "RRR",
+    "desc": "Two friends on opposing sides of the British rule chart out a luminary path of freedom."
+  },
+  {
+    "start": "17:33",
+    "stop": "19:37",
+    "channel": "AllTimeMovies.in",
+    "channelId": "AllTimeMovies.in",
+    "channelName": "ALL Time MOVIES",
+    "startTs": 1775496780000,
+    "stopTs": 1775504220000,
+    "title": "Naagmati",
+    "desc": "As deadly snake legends haunt a palace, officer Boominathan steps in to investigate."
+  }
+]

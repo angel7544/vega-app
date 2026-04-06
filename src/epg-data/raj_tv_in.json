@@ -8,7 +8,7 @@
     "startTs": 1775464200000,
     "stopTs": 1775476800000,
     "title": "Naane Raja Naane Mandhiri",
-    "desc": "An ingenious woman is hired to train a dim-witted heir to manage their vast estate. However, a love triangle ensues after the woman falls in love with the heir, who harbours feelings for another lady."
+    "desc": "A governess&apos; life takes an unexpected turn after falling for the heir of a wealthy family."
   },
   {
     "start": "12:00",
@@ -18,8 +18,8 @@
     "channelName": "Raj TV",
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
-    "title": "Raj TV",
-    "desc": "Talented and renowned comedians take the stage to perform hilarious skits that leave the audience in splits of laughter."
+    "title": "Comedy Galatta",
+    "desc": "Renowned comedians take the stage to perform hilarious skits."
   },
   {
     "start": "12:30",
@@ -30,7 +30,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Raj News",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+    "desc": "The host presents information about the social, economic and political issues of the day."
   },
   {
     "start": "13:00",
@@ -52,7 +52,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Ramayanam",
-    "desc": "Lord Rama and various other figures in Valmiki&apos;s Ramayana and Tulsidas&apos;s &apos;Ramcharitmanas&apos; go through trials and tribulations to achieve their goals and protect their loved ones."
+    "desc": "Lord Rama and his friends and loved ones face many challenges to achieve their goals."
   },
   {
     "start": "14:00",
@@ -63,7 +63,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Little Cinema",
-    "desc": "The filmmaker explores the rise of short film showcases, highlighting diverse filmmakers, creative storytelling and the impact of these intimate screenings on the film community."
+    "desc": "The filmmaker explores the rise of short film showcases, highlighting diverse filmmakers."
   },
   {
     "start": "14:30",
@@ -74,248 +74,17 @@
     "startTs": 1775485800000,
     "stopTs": 1775489400000,
     "title": "Konjam Siringa Boss",
-    "desc": "Hilarity ensues when the host asks common people to deliver a piece of dialogue from popular movies and records their hilarious responses."
+    "desc": "Hilarity ensues when the host asks people to deliver dialogues from popular movies."
   },
   {
     "start": "15:30",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "RajTV.in",
     "channelId": "RajTV.in",
     "channelName": "Raj TV",
     "startTs": 1775489400000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "Thedi Vandha Mappillai",
-    "desc": "A man is falsely blamed for the murder of his boss. However, when the boss&apos;s son strives to find him, the former falls in love with the man&apos;s daughter."
-  },
-  {
-    "start": "18:30",
-    "stop": "21:30",
-    "channel": "RajTV.in",
-    "channelId": "RajTV.in",
-    "channelName": "Raj TV",
-    "startTs": 1775500200000,
-    "stopTs": 1775511000000,
-    "title": "Naane Raja Naane Mandhiri",
-    "desc": "An ingenious woman is hired to train a dim-witted heir to manage their vast estate. However, a love triangle ensues after the woman falls in love with the heir, who harbours feelings for another lady."
-  },
-  {
-    "start": "21:30",
-    "stop": "23:30",
-    "channel": "RajTV.in",
-    "channelId": "RajTV.in",
-    "channelName": "Raj TV",
-    "startTs": 1775511000000,
-    "stopTs": 1775518200000,
-    "title": "Raj Melodies",
-    "desc": "A comprehensive compilation of popular hits composed by renowned singers and musicians is played to entertain listeners."
-  },
-  {
-    "start": "23:30",
-    "stop": "00:00",
-    "channel": "RajTV.in",
-    "channelId": "RajTV.in",
-    "channelName": "Raj TV",
-    "startTs": 1775518200000,
-    "stopTs": 1775520000000,
-    "title": "Bakthi Padalgal",
-    "desc": "A comprehensive compilation of melodious songs sung and composed by talented artists is played in order to invoke the spirit of devotion."
-  },
-  {
-    "start": "00:00",
-    "stop": "00:30",
-    "channel": "RajTV.in",
-    "channelId": "RajTV.in",
-    "channelName": "Raj TV",
-    "startTs": 1775520000000,
-    "stopTs": 1775521800000,
-    "title": "Namasaagar",
-    "desc": "A religious scholar sheds light on the significance of spirituality and delivers a devotional discourse on Hindu mythologies."
-  },
-  {
-    "start": "00:30",
-    "stop": "01:00",
-    "channel": "RajTV.in",
-    "channelId": "RajTV.in",
-    "channelName": "Raj TV",
-    "startTs": 1775521800000,
-    "stopTs": 1775523600000,
-    "title": "Aalaya Dharisanam",
-    "desc": "The host talks about the religious significance of various Hindu temples and sheds light on the presiding deities in these shrines."
-  },
-  {
-    "start": "01:00",
-    "stop": "01:30",
-    "channel": "RajTV.in",
-    "channelId": "RajTV.in",
-    "channelName": "Raj TV",
-    "startTs": 1775523600000,
-    "stopTs": 1775525400000,
-    "title": "Classical Program",
-    "desc": "Classical Program"
-  },
-  {
-    "start": "01:30",
-    "stop": "02:00",
-    "channel": "RajTV.in",
-    "channelId": "RajTV.in",
-    "channelName": "Raj TV",
-    "startTs": 1775525400000,
-    "stopTs": 1775527200000,
-    "title": "Raj News",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "02:00",
-    "stop": "03:00",
-    "channel": "RajTV.in",
-    "channelId": "RajTV.in",
-    "channelName": "Raj TV",
-    "startTs": 1775527200000,
-    "stopTs": 1775530800000,
-    "title": "Putham Pudhu Kaalai",
-    "desc": "The host presents segments on astrology, yoga asanas, health and cookery tips by experts, interview with a guest and motivational thoughts for the day."
-  },
-  {
-    "start": "03:00",
-    "stop": "04:00",
-    "channel": "RajTV.in",
-    "channelId": "RajTV.in",
-    "channelName": "Raj TV",
-    "startTs": 1775530800000,
-    "stopTs": 1775534400000,
-    "title": "Manathai Varudiya Paadalgal",
-    "desc": "A comprehensive compilation of some of the most popular songs from different genres composed by renowned musicians from the industry."
-  },
-  {
-    "start": "04:00",
-    "stop": "07:00",
-    "channel": "RajTV.in",
-    "channelId": "RajTV.in",
-    "channelName": "Raj TV",
-    "startTs": 1775534400000,
-    "stopTs": 1775545200000,
-    "title": "Sathyam",
-    "desc": "Dharmalingam and his brother Kumaran dedicate themselves to the farmer&apos;s welfare. In his struggle with Sokkanathan, Dharmalingam finds ally in Gowri, Sokkanathan&apos;s neice and this lands him in trouble."
-  },
-  {
-    "start": "07:00",
-    "stop": "07:30",
-    "channel": "RajTV.in",
-    "channelId": "RajTV.in",
-    "channelName": "Raj TV",
-    "startTs": 1775545200000,
-    "stopTs": 1775547000000,
-    "title": "Slot",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "07:30",
-    "stop": "08:00",
-    "channel": "RajTV.in",
-    "channelId": "RajTV.in",
-    "channelName": "Raj TV",
-    "startTs": 1775547000000,
-    "stopTs": 1775548800000,
-    "title": "Raj News",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "08:00",
-    "stop": "08:30",
-    "channel": "RajTV.in",
-    "channelId": "RajTV.in",
-    "channelName": "Raj TV",
-    "startTs": 1775548800000,
-    "stopTs": 1775550600000,
-    "title": "Slot",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "08:30",
-    "stop": "12:00",
-    "channel": "RajTV.in",
-    "channelId": "RajTV.in",
-    "channelName": "Raj TV",
-    "startTs": 1775550600000,
-    "stopTs": 1775563200000,
-    "title": "Polladhavan",
-    "desc": "Seetha, a witness to a murder, unknowingly becomes a nanny at the culprit&apos;s home. While he forbids her to testify, she begins to see the vulnerable side hidden beneath his cold exterior."
-  },
-  {
-    "start": "12:00",
-    "stop": "12:30",
-    "channel": "RajTV.in",
-    "channelId": "RajTV.in",
-    "channelName": "Raj TV",
-    "startTs": 1775563200000,
-    "stopTs": 1775565000000,
-    "title": "Raj TV",
-    "desc": "Talented and renowned comedians take the stage to perform hilarious skits that leave the audience in splits of laughter."
-  },
-  {
-    "start": "12:30",
-    "stop": "13:00",
-    "channel": "RajTV.in",
-    "channelId": "RajTV.in",
-    "channelName": "Raj TV",
-    "startTs": 1775565000000,
-    "stopTs": 1775566800000,
-    "title": "Raj News",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "13:00",
-    "stop": "13:30",
-    "channel": "RajTV.in",
-    "channelId": "RajTV.in",
-    "channelName": "Raj TV",
-    "startTs": 1775566800000,
-    "stopTs": 1775568600000,
-    "title": "Sarithira Nayagan Shivaji",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "13:30",
-    "stop": "14:00",
-    "channel": "RajTV.in",
-    "channelId": "RajTV.in",
-    "channelName": "Raj TV",
-    "startTs": 1775568600000,
-    "stopTs": 1775570400000,
-    "title": "Ramayanam",
-    "desc": "Lord Rama and various other figures in Valmiki&apos;s Ramayana and Tulsidas&apos;s &apos;Ramcharitmanas&apos; go through trials and tribulations to achieve their goals and protect their loved ones."
-  },
-  {
-    "start": "14:00",
-    "stop": "14:30",
-    "channel": "RajTV.in",
-    "channelId": "RajTV.in",
-    "channelName": "Raj TV",
-    "startTs": 1775570400000,
-    "stopTs": 1775572200000,
-    "title": "Nadipin Naayagan",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "14:30",
-    "stop": "15:30",
-    "channel": "RajTV.in",
-    "channelId": "RajTV.in",
-    "channelName": "Raj TV",
-    "startTs": 1775572200000,
-    "stopTs": 1775575800000,
-    "title": "Little Cinema",
-    "desc": "The filmmaker explores the rise of short film showcases, highlighting diverse filmmakers, creative storytelling and the impact of these intimate screenings on the film community."
-  },
-  {
-    "start": "15:30",
-    "stop": "18:29",
-    "channel": "RajTV.in",
-    "channelId": "RajTV.in",
-    "channelName": "Raj TV",
-    "startTs": 1775575800000,
-    "stopTs": 1775586599000,
-    "title": "Ilamai Oonjal Aadukirathu",
-    "desc": "Murali&apos;s family takes care of Prabhu, an orphan, and gets him employed in their company. When Prabhu and his lover, Padma, drift apart, Murali gets engaged to the same woman."
+    "desc": "A man is falsely accused of murder and strives to bring the truth out."
   }
 ]

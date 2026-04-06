@@ -1,0 +1,123 @@
+[
+  {
+    "start": "09:30",
+    "stop": "12:30",
+    "channel": "StarMaa.in",
+    "channelId": "StarMaa.in",
+    "channelName": "STAR Maa HD",
+    "startTs": 1775467800000,
+    "stopTs": 1775478600000,
+    "title": "Podarillu",
+    "desc": "Bringing the best in television. S01 E12."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "StarMaa.in",
+    "channelId": "StarMaa.in",
+    "channelName": "STAR Maa HD",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Chinni",
+    "desc": "Born and raised in jail, Chinni must confront challenges after leaving her mother. S01 E553."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "StarMaa.in",
+    "channelId": "StarMaa.in",
+    "channelName": "STAR Maa HD",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Nindu Manasulu",
+    "desc": "Two individuals, affected by their past, fall in love and strive to rediscover themselves. S01 E235."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "StarMaa.in",
+    "channelId": "StarMaa.in",
+    "channelName": "STAR Maa HD",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Nuvvu Leka Nenu Lenu",
+    "desc": "A sudden catastrophe leads Radha into a functional marriage with Vikram. S01 E83."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "StarMaa.in",
+    "channelId": "StarMaa.in",
+    "channelName": "STAR Maa HD",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Illu Illalu Pillalu",
+    "desc": "Ramaraju faces unexpected challenges as his children clash with adversaries. S01 E438."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "StarMaa.in",
+    "channelId": "StarMaa.in",
+    "channelName": "STAR Maa HD",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Karthika Deepam-Nava Vasantham",
+    "desc": "Karthik and his wife Deepa face various challenges as they strive to raise their children. S01 E637."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "StarMaa.in",
+    "channelId": "StarMaa.in",
+    "channelName": "STAR Maa HD",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Intinti Ramayanam",
+    "desc": "Avani and her husband Akshay navigate the struggles of living in a tight family. S01 E570."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:15",
+    "channel": "StarMaa.in",
+    "channelId": "StarMaa.in",
+    "channelName": "STAR Maa HD",
+    "startTs": 1775489400000,
+    "stopTs": 1775492100000,
+    "title": "Gunde Ninda Gudigantalu",
+    "desc": "Meena and Balu try to keep their love intact despite working in different occupations. S01 E655."
+  },
+  {
+    "start": "16:15",
+    "stop": "17:00",
+    "channel": "StarMaa.in",
+    "channelId": "StarMaa.in",
+    "channelName": "STAR Maa HD",
+    "startTs": 1775492100000,
+    "stopTs": 1775494800000,
+    "title": "Podarillu",
+    "desc": "Bringing the best in television. S01 E86."
+  },
+  {
+    "start": "17:00",
+    "stop": "18:00",
+    "channel": "StarMaa.in",
+    "channelId": "StarMaa.in",
+    "channelName": "STAR Maa HD",
+    "startTs": 1775494800000,
+    "stopTs": 1775498400000,
+    "title": "Mad For Each Other",
+    "desc": "The host presents bizarre tasks and emotional trials to couples in a unique competition. S01 E23."
+  },
+  {
+    "start": "18:00",
+    "stop": "20:00",
+    "channel": "StarMaa.in",
+    "channelId": "StarMaa.in",
+    "channelName": "STAR Maa HD",
+    "startTs": 1775498400000,
+    "stopTs": 1775505600000,
+    "title": "Gautamiputra Satakarni",
+    "desc": "Gautamiputra Satakarni tries to overcome threats while trying to unite all the kingdoms."
+  }
+]

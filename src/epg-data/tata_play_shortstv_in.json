@@ -1,0 +1,90 @@
+[
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "TataSkyShortsTV.in",
+    "channelId": "TataSkyShortsTV.in",
+    "channelName": "Tata Play ShortsTV",
+    "startTs": 1775471400000,
+    "stopTs": 1775475000000,
+    "title": "Shortbusters",
+    "desc": "A curated selection of blockbuster short films with unique stories is played."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "TataSkyShortsTV.in",
+    "channelId": "TataSkyShortsTV.in",
+    "channelName": "Tata Play ShortsTV",
+    "startTs": 1775475000000,
+    "stopTs": 1775478600000,
+    "title": "Made In India - Baalir Niche",
+    "desc": "Desperate to take a break from work, a veteran actor delves into his inner self."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "TataSkyShortsTV.in",
+    "channelId": "TataSkyShortsTV.in",
+    "channelName": "Tata Play ShortsTV",
+    "startTs": 1775478600000,
+    "stopTs": 1775482200000,
+    "title": "Editors Pick",
+    "desc": "Take a look at the most memorable stories as they are chosen by a board of editors."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "TataSkyShortsTV.in",
+    "channelId": "TataSkyShortsTV.in",
+    "channelName": "Tata Play ShortsTV",
+    "startTs": 1775482200000,
+    "stopTs": 1775485800000,
+    "title": "Desi Tadka",
+    "desc": "Take a look at some mouth-watering recipes as celebrities showcase their culinary skills."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "TataSkyShortsTV.in",
+    "channelId": "TataSkyShortsTV.in",
+    "channelName": "Tata Play ShortsTV",
+    "startTs": 1775485800000,
+    "stopTs": 1775489400000,
+    "title": "Pure Drama - Chips",
+    "desc": "Several lives are affected when the custodians of law take advantage of their authority."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "TataSkyShortsTV.in",
+    "channelId": "TataSkyShortsTV.in",
+    "channelName": "Tata Play ShortsTV",
+    "startTs": 1775489400000,
+    "stopTs": 1775493000000,
+    "title": "Made In India - Batters And Banters",
+    "desc": "A dried fish dish, famous for its smell, brings two quarrelling neighbours together."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:28",
+    "channel": "TataSkyShortsTV.in",
+    "channelId": "TataSkyShortsTV.in",
+    "channelName": "Tata Play ShortsTV",
+    "startTs": 1775493000000,
+    "stopTs": 1775496480000,
+    "title": "True Stories",
+    "desc": "The host celebrates the works of filmmakers that are inspired by real-life events."
+  },
+  {
+    "start": "17:28",
+    "stop": "18:30",
+    "channel": "TataSkyShortsTV.in",
+    "channelId": "TataSkyShortsTV.in",
+    "channelName": "Tata Play ShortsTV",
+    "startTs": 1775496480000,
+    "stopTs": 1775500200000,
+    "title": "Horror",
+    "desc": "Take a look at some films showcasing various scenes that evoke fear, suspense and terror."
+  }
+]

@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "News Bulletin",
-    "desc": "The hosts present some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "PTCNews.in",
@@ -19,7 +8,7 @@
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Teleshopping",
-    "desc": "The host showcases the features of a variety of products manufactured by renowned brands that can be purchased from the comfort of one&apos;s home."
+    "desc": "The host highlights the features of a variety of products for purchase."
   },
   {
     "start": "11:30",
@@ -30,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Punjab At Five PM",
-    "desc": "The host presents the latest social, economic and political news from the state of Punjab and provides information on relevant current events."
+    "desc": "The host presents the latest news stories surrounding various issues in Punjab."
   },
   {
     "start": "12:00",
@@ -41,7 +30,7 @@
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Haryana News",
-    "desc": "The host provides the latest news and updates on matters related to politics, crime and socio-economic issues in the state of Haryana, India."
+    "desc": "The host provides the latest news on politics, crime and socio-economic issues in Haryana."
   },
   {
     "start": "12:30",
@@ -52,7 +41,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Khabar Punjab",
-    "desc": "The host presents the latest updates and developments on socio-political, economic and sports-related issues in the state of Punjab."
+    "desc": "The host presents the latest updates and developments in the state of Punjab."
   },
   {
     "start": "13:00",
@@ -63,7 +52,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Majha Malwa Doaba",
-    "desc": "The host provides the latest information, advancements and developments on various issues in Majha, Malwa and Doaba regions."
+    "desc": "The host provides the latest updates on various issues in Majha, Malwa and Doaba regions."
   },
   {
     "start": "13:30",
@@ -74,7 +63,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775485800000,
     "title": "PTC Prime",
-    "desc": "The host shares the latest news stories and recent happenings on crucial matters such as governance, economics, and socio-political issues from India."
+    "desc": "The host shares the latest news stories on crucial issues from India."
   },
   {
     "start": "14:30",
@@ -85,7 +74,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775489400000,
     "title": "Vichar Taqrar",
-    "desc": "The host invites several prominent personalities and experts to share their insight on the latest updates pertaining to the socio-political issues of the day."
+    "desc": "The host invites experts to share their insights on issues relating to current affairs."
   },
   {
     "start": "15:30",
@@ -96,7 +85,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Superfast Punjab",
-    "desc": "The host sheds light on the latest updates and developments in the fields of politics, economy and social affairs pertaining to the state of Punjab."
+    "desc": "The host discusses the latest social, political and economic updates from Punjab."
   },
   {
     "start": "16:00",
@@ -107,7 +96,7 @@
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Ki Samjhiye",
-    "desc": "The host delivers a detailed news report and recent updates on current crucial affairs, including socio-political matters from Punjab and other parts of the country."
+    "desc": "The host delivers a detailed news report from Punjab and other parts of the country."
   },
   {
     "start": "16:30",
@@ -118,7 +107,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Punjab Din Bhar",
-    "desc": "The host sheds light on the latest updates and developments pertaining to politics, economy and social issues in the state of Punjab and around the world."
+    "desc": "The host covers the latest news and updates in Punjab and around the world."
   },
   {
     "start": "17:00",
@@ -129,413 +118,17 @@
     "startTs": 1775494800000,
     "stopTs": 1775498400000,
     "title": "Vichar Taqrar",
-    "desc": "The host invites several prominent personalities and experts to share their insight on the latest updates pertaining to the socio-political issues of the day."
+    "desc": "The host invites experts to share their insights on issues relating to current affairs."
   },
   {
     "start": "18:00",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "PTCNews.in",
     "channelId": "PTCNews.in",
     "channelName": "PTC News",
     "startTs": 1775498400000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "Ki Samjhiye",
-    "desc": "The host delivers a detailed news report and recent updates on current crucial affairs, including socio-political matters from Punjab and other parts of the country."
-  },
-  {
-    "start": "18:30",
-    "stop": "19:00",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775500200000,
-    "stopTs": 1775502000000,
-    "title": "Punjab Din Bhar",
-    "desc": "The host sheds light on the latest updates and developments pertaining to politics, economy and social issues in the state of Punjab and around the world."
-  },
-  {
-    "start": "19:00",
-    "stop": "19:30",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775502000000,
-    "stopTs": 1775503800000,
-    "title": "Superfast Punjab",
-    "desc": "The host sheds light on the latest updates and developments in the fields of politics, economy and social affairs pertaining to the state of Punjab."
-  },
-  {
-    "start": "19:30",
-    "stop": "20:00",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775503800000,
-    "stopTs": 1775505600000,
-    "title": "Punjab Din Bhar",
-    "desc": "The host sheds light on the latest updates and developments pertaining to politics, economy and social issues in the state of Punjab and around the world."
-  },
-  {
-    "start": "20:00",
-    "stop": "20:30",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775505600000,
-    "stopTs": 1775507400000,
-    "title": "Haryana News",
-    "desc": "The host provides the latest news and updates on matters related to politics, crime and socio-economic issues in the state of Haryana, India."
-  },
-  {
-    "start": "20:30",
-    "stop": "21:00",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775507400000,
-    "stopTs": 1775509200000,
-    "title": "Punjab Din Bhar",
-    "desc": "The host sheds light on the latest updates and developments pertaining to politics, economy and social issues in the state of Punjab and around the world."
-  },
-  {
-    "start": "21:00",
-    "stop": "21:30",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775509200000,
-    "stopTs": 1775511000000,
-    "title": "Ki Samjhiye",
-    "desc": "The host delivers a detailed news report and recent updates on current crucial affairs, including socio-political matters from Punjab and other parts of the country."
-  },
-  {
-    "start": "21:30",
-    "stop": "22:15",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775511000000,
-    "stopTs": 1775513700000,
-    "title": "Superfast Punjab",
-    "desc": "The host sheds light on the latest updates and developments in the fields of politics, economy and social affairs pertaining to the state of Punjab."
-  },
-  {
-    "start": "22:15",
-    "stop": "02:20",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775513700000,
-    "stopTs": 1775528400000,
-    "title": "Gurbaani Live From Sri Darbar Sahib",
-    "desc": "Devotees gather at Sri Darabr Sahib to sing the compositions by Sikh religious teachers while delivering extracts from the Guru Granth Sahib, the religious text of Sikhism."
-  },
-  {
-    "start": "02:20",
-    "stop": "02:30",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775528400000,
-    "stopTs": 1775529000000,
-    "title": "Naam Ras",
-    "desc": "Naam Ras is a spiritual bliss from meditating on God&apos;s name and is considered to be the highest sacred state of divine joy and contentment."
-  },
-  {
-    "start": "02:30",
-    "stop": "03:30",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775529000000,
-    "stopTs": 1775532600000,
-    "title": "Good Morning Punjab",
-    "desc": "The host presents the latest news stories and recent developments on significant matters from the state of Punjab, including governance, social issues, economics, sports, and political affairs."
-  },
-  {
-    "start": "03:30",
-    "stop": "04:00",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775532600000,
-    "stopTs": 1775534400000,
-    "title": "Astro Show",
-    "desc": "An astrologer elaborates on various zodiac signs and the potential impact of their planetary constellations whilst offering suggestions and predictions."
-  },
-  {
-    "start": "04:00",
-    "stop": "04:30",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775534400000,
-    "stopTs": 1775536200000,
-    "title": "News Bulletin",
-    "desc": "The hosts present some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
-  },
-  {
-    "start": "04:30",
-    "stop": "05:00",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775536200000,
-    "stopTs": 1775538000000,
-    "title": "News Bulletin",
-    "desc": "The hosts present some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
-  },
-  {
-    "start": "05:00",
-    "stop": "05:30",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775538000000,
-    "stopTs": 1775539800000,
-    "title": "Ki Samjhiye",
-    "desc": "The host delivers a detailed news report and recent updates on current crucial affairs, including socio-political matters from Punjab and other parts of the country."
-  },
-  {
-    "start": "05:30",
-    "stop": "06:00",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775539800000,
-    "stopTs": 1775541600000,
-    "title": "News Bulletin",
-    "desc": "The hosts present some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
-  },
-  {
-    "start": "06:00",
-    "stop": "06:30",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775541600000,
-    "stopTs": 1775543400000,
-    "title": "Haryana News",
-    "desc": "The host provides the latest news and updates on matters related to politics, crime and socio-economic issues in the state of Haryana, India."
-  },
-  {
-    "start": "06:30",
-    "stop": "07:00",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775543400000,
-    "stopTs": 1775545200000,
-    "title": "Superfast Punjab",
-    "desc": "The host sheds light on the latest updates and developments in the fields of politics, economy and social affairs pertaining to the state of Punjab."
-  },
-  {
-    "start": "07:00",
-    "stop": "07:30",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775545200000,
-    "stopTs": 1775547000000,
-    "title": "News Bulletin",
-    "desc": "The hosts present some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
-  },
-  {
-    "start": "07:30",
-    "stop": "08:00",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775547000000,
-    "stopTs": 1775548800000,
-    "title": "Khabar Dopaher",
-    "desc": "The host presents in-depth coverage of social, political and economic events, while tracking global developments around the country."
-  },
-  {
-    "start": "08:00",
-    "stop": "08:30",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775548800000,
-    "stopTs": 1775550600000,
-    "title": "Majha Malwa Doaba",
-    "desc": "The host provides the latest information, advancements and developments on various issues in Majha, Malwa and Doaba regions."
-  },
-  {
-    "start": "08:30",
-    "stop": "09:30",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775550600000,
-    "stopTs": 1775554200000,
-    "title": "News Bulletin",
-    "desc": "The hosts present some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
-  },
-  {
-    "start": "09:30",
-    "stop": "10:00",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775554200000,
-    "stopTs": 1775556000000,
-    "title": "News Bulletin",
-    "desc": "The hosts present some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
-  },
-  {
-    "start": "10:00",
-    "stop": "10:30",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775556000000,
-    "stopTs": 1775557800000,
-    "title": "News Bulletin",
-    "desc": "The hosts present some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
-  },
-  {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775557800000,
-    "stopTs": 1775559600000,
-    "title": "News Bulletin",
-    "desc": "The hosts present some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:30",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775559600000,
-    "stopTs": 1775561400000,
-    "title": "Teleshopping",
-    "desc": "The host showcases the features of a variety of products manufactured by renowned brands that can be purchased from the comfort of one&apos;s home."
-  },
-  {
-    "start": "11:30",
-    "stop": "12:00",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775561400000,
-    "stopTs": 1775563200000,
-    "title": "Punjab At Five PM",
-    "desc": "The host presents the latest social, economic and political news from the state of Punjab and provides information on relevant current events."
-  },
-  {
-    "start": "12:00",
-    "stop": "12:30",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775563200000,
-    "stopTs": 1775565000000,
-    "title": "Haryana News",
-    "desc": "The host provides the latest news and updates on matters related to politics, crime and socio-economic issues in the state of Haryana, India."
-  },
-  {
-    "start": "12:30",
-    "stop": "13:00",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775565000000,
-    "stopTs": 1775566800000,
-    "title": "Khabar Punjab",
-    "desc": "The host presents the latest updates and developments on socio-political, economic and sports-related issues in the state of Punjab."
-  },
-  {
-    "start": "13:00",
-    "stop": "13:30",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775566800000,
-    "stopTs": 1775568600000,
-    "title": "Majha Malwa Doaba",
-    "desc": "The host provides the latest information, advancements and developments on various issues in Majha, Malwa and Doaba regions."
-  },
-  {
-    "start": "13:30",
-    "stop": "14:30",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775568600000,
-    "stopTs": 1775572200000,
-    "title": "PTC Prime",
-    "desc": "The host shares the latest news stories and recent happenings on crucial matters such as governance, economics, and socio-political issues from India."
-  },
-  {
-    "start": "14:30",
-    "stop": "15:30",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775572200000,
-    "stopTs": 1775575800000,
-    "title": "Vichar Taqrar",
-    "desc": "The host invites several prominent personalities and experts to share their insight on the latest updates pertaining to the socio-political issues of the day."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:00",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775575800000,
-    "stopTs": 1775577600000,
-    "title": "Superfast Punjab",
-    "desc": "The host sheds light on the latest updates and developments in the fields of politics, economy and social affairs pertaining to the state of Punjab."
-  },
-  {
-    "start": "16:00",
-    "stop": "16:30",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775577600000,
-    "stopTs": 1775579400000,
-    "title": "Ki Samjhiye",
-    "desc": "The host delivers a detailed news report and recent updates on current crucial affairs, including socio-political matters from Punjab and other parts of the country."
-  },
-  {
-    "start": "16:30",
-    "stop": "17:00",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775579400000,
-    "stopTs": 1775581200000,
-    "title": "Punjab Din Bhar",
-    "desc": "The host sheds light on the latest updates and developments pertaining to politics, economy and social issues in the state of Punjab and around the world."
-  },
-  {
-    "start": "17:00",
-    "stop": "18:00",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775581200000,
-    "stopTs": 1775584800000,
-    "title": "Vichar Taqrar",
-    "desc": "The host invites several prominent personalities and experts to share their insight on the latest updates pertaining to the socio-political issues of the day."
-  },
-  {
-    "start": "18:00",
-    "stop": "18:29",
-    "channel": "PTCNews.in",
-    "channelId": "PTCNews.in",
-    "channelName": "PTC News",
-    "startTs": 1775584800000,
-    "stopTs": 1775586599000,
-    "title": "Ki Samjhiye",
-    "desc": "The host delivers a detailed news report and recent updates on current crucial affairs, including socio-political matters from Punjab and other parts of the country."
+    "desc": "The host delivers a detailed news report from Punjab and other parts of the country."
   }
 ]

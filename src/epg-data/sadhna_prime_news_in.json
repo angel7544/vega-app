@@ -1,0 +1,145 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "SadhnaPrimeNews.in",
+    "channelId": "SadhnaPrimeNews.in",
+    "channelName": "Sadhna Prime News",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "News Special",
+    "desc": "The host presents the latest regional and national news, updates and developments."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "SadhnaPrimeNews.in",
+    "channelId": "SadhnaPrimeNews.in",
+    "channelName": "Sadhna Prime News",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Din Bhar Ki Badi Khabar",
+    "desc": "The host presents the day&apos;s news and updates on a range of issues of national importance."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "SadhnaPrimeNews.in",
+    "channelId": "SadhnaPrimeNews.in",
+    "channelName": "Sadhna Prime News",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "News Special",
+    "desc": "The host presents the latest regional and national news, updates and developments."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "SadhnaPrimeNews.in",
+    "channelId": "SadhnaPrimeNews.in",
+    "channelName": "Sadhna Prime News",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Haryana Dangal",
+    "desc": "The host presents the latest news related to elections and politics in Haryana."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "SadhnaPrimeNews.in",
+    "channelId": "SadhnaPrimeNews.in",
+    "channelName": "Sadhna Prime News",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "News Special",
+    "desc": "The host presents the latest regional and national news, updates and developments."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "SadhnaPrimeNews.in",
+    "channelId": "SadhnaPrimeNews.in",
+    "channelName": "Sadhna Prime News",
+    "startTs": 1775482200000,
+    "stopTs": 1775485800000,
+    "title": "Prime Agenda",
+    "desc": "A discussion with a panel of experts regarding the latest news from around the world."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "SadhnaPrimeNews.in",
+    "channelId": "SadhnaPrimeNews.in",
+    "channelName": "Sadhna Prime News",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Special Report",
+    "desc": "The host presents the latest news on a range of issues of national and global importance."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "SadhnaPrimeNews.in",
+    "channelId": "SadhnaPrimeNews.in",
+    "channelName": "Sadhna Prime News",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "UK Prime",
+    "desc": "The host presents the latest news and updates on various issues related to Uttarakhand."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "SadhnaPrimeNews.in",
+    "channelId": "SadhnaPrimeNews.in",
+    "channelName": "Sadhna Prime News",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "UP Prime",
+    "desc": "The host presents the latest and important news updates from Uttar Pradesh, India."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "SadhnaPrimeNews.in",
+    "channelId": "SadhnaPrimeNews.in",
+    "channelName": "Sadhna Prime News",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Apka Jila Apka Reporter",
+    "desc": "The host presents the latest news on a range of issues of local and national importance."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "SadhnaPrimeNews.in",
+    "channelId": "SadhnaPrimeNews.in",
+    "channelName": "Sadhna Prime News",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Final Bull",
+    "desc": "The host presents the latest social, political and economic news updates and developments."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "SadhnaPrimeNews.in",
+    "channelId": "SadhnaPrimeNews.in",
+    "channelName": "Sadhna Prime News",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "UK Prime",
+    "desc": "The host presents the latest news and updates on various issues related to Uttarakhand."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:30",
+    "channel": "SadhnaPrimeNews.in",
+    "channelId": "SadhnaPrimeNews.in",
+    "channelName": "Sadhna Prime News",
+    "startTs": 1775496600000,
+    "stopTs": 1775500200000,
+    "title": "Prime Agenda",
+    "desc": "A discussion with a panel of experts regarding the latest news from around the world."
+  }
+]

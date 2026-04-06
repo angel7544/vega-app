@@ -1,0 +1,46 @@
+[
+  {
+    "start": "10:10",
+    "stop": "12:15",
+    "channel": "JalshaMovies.in",
+    "channelId": "JalshaMovies.in",
+    "channelName": "Jalsha Movies HD",
+    "startTs": 1775470200000,
+    "stopTs": 1775477700000,
+    "title": "Bony",
+    "desc": "A couple living in Milan, Italy, have a child who has some special powers."
+  },
+  {
+    "start": "12:15",
+    "stop": "14:30",
+    "channel": "JalshaMovies.in",
+    "channelId": "JalshaMovies.in",
+    "channelName": "Jalsha Movies HD",
+    "startTs": 1775477700000,
+    "stopTs": 1775485800000,
+    "title": "Kuler Achaar",
+    "desc": "A newlywed decides not to change her surname after marriage, causing an uproar."
+  },
+  {
+    "start": "14:30",
+    "stop": "16:45",
+    "channel": "JalshaMovies.in",
+    "channelId": "JalshaMovies.in",
+    "channelName": "Jalsha Movies HD",
+    "startTs": 1775485800000,
+    "stopTs": 1775493900000,
+    "title": "Kakababur Protyaborton",
+    "desc": "A man and his nephew get caught up in a dangerous situation while being on holiday."
+  },
+  {
+    "start": "16:45",
+    "stop": "19:05",
+    "channel": "JalshaMovies.in",
+    "channelId": "JalshaMovies.in",
+    "channelName": "Jalsha Movies HD",
+    "startTs": 1775493900000,
+    "stopTs": 1775502300000,
+    "title": "Masoom",
+    "desc": "Teenage friends get excited about sex, and a lack of guidance leads them to mistakes."
+  }
+]

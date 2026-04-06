@@ -1,0 +1,57 @@
+[
+  {
+    "start": "09:30",
+    "stop": "12:30",
+    "channel": "FaktMarathi.in",
+    "channelId": "FaktMarathi.in",
+    "channelName": "Fakt Marathi",
+    "startTs": 1775467800000,
+    "stopTs": 1775478600000,
+    "title": "Aai Tuza Aashirwad",
+    "desc": "Suraj vows to never lie again but has to break his promise due to unforeseen events."
+  },
+  {
+    "start": "12:30",
+    "stop": "15:00",
+    "channel": "FaktMarathi.in",
+    "channelId": "FaktMarathi.in",
+    "channelName": "Fakt Marathi",
+    "startTs": 1775478600000,
+    "stopTs": 1775487600000,
+    "title": "Saubhagya Maza Daiwat",
+    "desc": "A couple&apos;s peaceful married life goes awry when one of them has an extramarital affair."
+  },
+  {
+    "start": "15:00",
+    "stop": "16:00",
+    "channel": "FaktMarathi.in",
+    "channelId": "FaktMarathi.in",
+    "channelName": "Fakt Marathi",
+    "startTs": 1775487600000,
+    "stopTs": 1775491200000,
+    "title": "Vighnaharta Ganesh",
+    "desc": "When Lord Shiva beheads Lord Ganesha, Goddess Parvati asks Shiva to resurrect him."
+  },
+  {
+    "start": "16:00",
+    "stop": "17:00",
+    "channel": "FaktMarathi.in",
+    "channelId": "FaktMarathi.in",
+    "channelName": "Fakt Marathi",
+    "startTs": 1775491200000,
+    "stopTs": 1775494800000,
+    "title": "Mahabali Hanuman",
+    "desc": "Hanuman, an ardent devotee of Lord Rama, protects people against all evils."
+  },
+  {
+    "start": "17:00",
+    "stop": "19:00",
+    "channel": "FaktMarathi.in",
+    "channelId": "FaktMarathi.in",
+    "channelName": "Fakt Marathi",
+    "startTs": 1775494800000,
+    "stopTs": 1775502000000,
+    "title": "Thakracha Tukya",
+    "desc": "Bringing the best in cinema."
+  }
+]

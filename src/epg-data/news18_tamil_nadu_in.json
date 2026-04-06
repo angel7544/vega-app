@@ -1,0 +1,90 @@
+[
+  {
+    "start": "11:00",
+    "stop": "12:00",
+    "channel": "News18TamilNadu.in",
+    "channelId": "News18TamilNadu.in",
+    "channelName": "News18 Tamil Nadu",
+    "startTs": 1775473200000,
+    "stopTs": 1775476800000,
+    "title": "Super 30",
+    "desc": "The host presents the top 30 news stories from around the nation."
+  },
+  {
+    "start": "12:00",
+    "stop": "13:00",
+    "channel": "News18TamilNadu.in",
+    "channelId": "News18TamilNadu.in",
+    "channelName": "News18 Tamil Nadu",
+    "startTs": 1775476800000,
+    "stopTs": 1775480400000,
+    "title": "Super 30",
+    "desc": "The host presents the top 30 news stories from around the nation."
+  },
+  {
+    "start": "13:00",
+    "stop": "14:00",
+    "channel": "News18TamilNadu.in",
+    "channelId": "News18TamilNadu.in",
+    "channelName": "News18 Tamil Nadu",
+    "startTs": 1775480400000,
+    "stopTs": 1775484000000,
+    "title": "Super 30",
+    "desc": "The host presents the top 30 news stories from around the nation."
+  },
+  {
+    "start": "14:00",
+    "stop": "15:00",
+    "channel": "News18TamilNadu.in",
+    "channelId": "News18TamilNadu.in",
+    "channelName": "News18 Tamil Nadu",
+    "startTs": 1775484000000,
+    "stopTs": 1775487600000,
+    "title": "Super 30",
+    "desc": "The host presents the top 30 news stories from around the nation."
+  },
+  {
+    "start": "15:00",
+    "stop": "16:00",
+    "channel": "News18TamilNadu.in",
+    "channelId": "News18TamilNadu.in",
+    "channelName": "News18 Tamil Nadu",
+    "startTs": 1775487600000,
+    "stopTs": 1775491200000,
+    "title": "Ettuthikkum 80",
+    "desc": "The host offers updates on the top 80 social and political issues across the nation."
+  },
+  {
+    "start": "16:00",
+    "stop": "17:00",
+    "channel": "News18TamilNadu.in",
+    "channelId": "News18TamilNadu.in",
+    "channelName": "News18 Tamil Nadu",
+    "startTs": 1775491200000,
+    "stopTs": 1775494800000,
+    "title": "7 Mani Seithigal",
+    "desc": "The host sheds light on the latest news stories from across the nation and globe."
+  },
+  {
+    "start": "17:00",
+    "stop": "18:00",
+    "channel": "News18TamilNadu.in",
+    "channelId": "News18TamilNadu.in",
+    "channelName": "News18 Tamil Nadu",
+    "startTs": 1775494800000,
+    "stopTs": 1775498400000,
+    "title": "Super 60 News",
+    "desc": "The host shares the latest top 60 news updates, stories and developments."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "News18TamilNadu.in",
+    "channelId": "News18TamilNadu.in",
+    "channelName": "News18 Tamil Nadu",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Vanakkam TN",
+    "desc": "The host presents the latest news and updates from the state of Tamil Nadu."
+  }
+]

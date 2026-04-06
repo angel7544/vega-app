@@ -1,0 +1,145 @@
+[
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "News18Kerala.in",
+    "channelId": "News18Kerala.in",
+    "channelName": "News18 Kerala",
+    "startTs": 1775471400000,
+    "stopTs": 1775475000000,
+    "title": "Pothu Vedi",
+    "desc": "The host presents the latest news updates and interacts with the common people."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "News18Kerala.in",
+    "channelId": "News18Kerala.in",
+    "channelName": "News18 Kerala",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "News Update",
+    "desc": "The host delivers news updates on trending issues across the state of Punjab."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "News18Kerala.in",
+    "channelId": "News18Kerala.in",
+    "channelName": "News18 Kerala",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Fast News 30 Minutes",
+    "desc": "The host provides rapid-fire roundup of the day&apos;s top headlines and key updates."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "News18Kerala.in",
+    "channelId": "News18Kerala.in",
+    "channelName": "News18 Kerala",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "6 Pm Live",
+    "desc": "The host presents the latest news on topics of national and public interest, live."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "News18Kerala.in",
+    "channelId": "News18Kerala.in",
+    "channelName": "News18 Kerala",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Sakalamana Keralam",
+    "desc": "The host provides a detailed report on matters concerning the state of Kerala."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "News18Kerala.in",
+    "channelId": "News18Kerala.in",
+    "channelName": "News18 Kerala",
+    "startTs": 1775482200000,
+    "stopTs": 1775485800000,
+    "title": "Prime Debate",
+    "desc": "The host invites a panel of experts to share their opinions on important topics."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "News18Kerala.in",
+    "channelId": "News18Kerala.in",
+    "channelName": "News18 Kerala",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "News Update",
+    "desc": "The host delivers news updates on trending issues across the state of Punjab."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "News18Kerala.in",
+    "channelId": "News18Kerala.in",
+    "channelName": "News18 Kerala",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "News Update",
+    "desc": "The host delivers news updates on trending issues across the state of Punjab."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "News18Kerala.in",
+    "channelId": "News18Kerala.in",
+    "channelName": "News18 Kerala",
+    "startTs": 1775489400000,
+    "stopTs": 1775493000000,
+    "title": "News Update",
+    "desc": "The host delivers news updates on trending issues across the state of Punjab."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "News18Kerala.in",
+    "channelId": "News18Kerala.in",
+    "channelName": "News18 Kerala",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Police Patrol",
+    "desc": "The host sheds light on various unscrupulous activities that conspire in society."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "News18Kerala.in",
+    "channelId": "News18Kerala.in",
+    "channelName": "News18 Kerala",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "News Update",
+    "desc": "The host delivers news updates on trending issues across the state of Punjab."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "News18Kerala.in",
+    "channelId": "News18Kerala.in",
+    "channelName": "News18 Kerala",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "11 PM News",
+    "desc": "The host presents some of the latest news on a range of topics of public interest."
+  },
+  {
+    "start": "18:00",
+    "stop": "00:30",
+    "channel": "News18Kerala.in",
+    "channelId": "News18Kerala.in",
+    "channelName": "News18 Kerala",
+    "startTs": 1775498400000,
+    "stopTs": 1775521800000,
+    "title": "11 PM News",
+    "desc": "The host presents some of the latest news on a range of topics of public interest."
+  }
+]

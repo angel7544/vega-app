@@ -7,8 +7,8 @@
     "channelName": "DD Sports",
     "startTs": 1775471400000,
     "stopTs": 1775480400000,
-    "title": "I-League Soccer",
-    "desc": "From Guru Gobind Singh Stadium in Jalandhar, Punjab, India."
+    "title": "Live-Namdhari vs. Diamond Harbour-I-League Soccer",
+    "desc": "Namdhari vs. Diamond Harbour;From Guru Gobind Singh Stadium in Jalandhar, Punjab, India."
   },
   {
     "start": "13:00",
@@ -18,8 +18,8 @@
     "channelName": "DD Sports",
     "startTs": 1775480400000,
     "stopTs": 1775487600000,
-    "title": "I-League Soccer",
-    "desc": "From TRC Turf Ground in Srinagar, Jammu and Kashmir, India."
+    "title": "Live-Real Kashmir vs. Chanmari FC-I-League Soccer",
+    "desc": "Real Kashmir vs. Chanmari FC;From TRC Turf Ground in Srinagar, Jammu and Kashmir, India."
   },
   {
     "start": "15:00",
@@ -29,139 +29,18 @@
     "channelName": "DD Sports",
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
-    "title": "Khelo India Tribal Games",
-    "desc": "Khelo India Tribal Games"
+    "title": "Day 3-Khelo India Tribal Games",
+    "desc": "Day 3;"
   },
   {
     "start": "15:30",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "DDSports.in",
     "channelId": "DDSports.in",
     "channelName": "DD Sports",
     "startTs": 1775489400000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "Sports Dugout",
-    "desc": "The host presents the latest news and analysis from the world of sports, giving recent updates on national and international events."
-  },
-  {
-    "start": "18:30",
-    "stop": "19:30",
-    "channel": "DDSports.in",
-    "channelId": "DDSports.in",
-    "channelName": "DD Sports",
-    "startTs": 1775500200000,
-    "stopTs": 1775503800000,
-    "title": "Commonwealth Weightlifting Championship",
-    "desc": "Professional athletes compete against each other to emerge victorious in the Commonwealth Weightlifting Championships to win the coveted title."
-  },
-  {
-    "start": "19:30",
-    "stop": "20:30",
-    "channel": "DDSports.in",
-    "channelId": "DDSports.in",
-    "channelName": "DD Sports",
-    "startTs": 1775503800000,
-    "stopTs": 1775507400000,
-    "title": "Umling La Cycling Expedition",
-    "desc": "Cyclists ride through the towering Tanglang La pass, skirt the majestic Tso Moriri lake and conquer the lofty Umling La in an epic Himalayan cycling expedition."
-  },
-  {
-    "start": "20:30",
-    "stop": "22:30",
-    "channel": "DDSports.in",
-    "channelId": "DDSports.in",
-    "channelName": "DD Sports",
-    "startTs": 1775507400000,
-    "stopTs": 1775514600000,
-    "title": "I-League Soccer",
-    "desc": "From Guru Gobind Singh Stadium in Jalandhar, Punjab, India."
-  },
-  {
-    "start": "22:30",
-    "stop": "23:30",
-    "channel": "DDSports.in",
-    "channelId": "DDSports.in",
-    "channelName": "DD Sports",
-    "startTs": 1775514600000,
-    "stopTs": 1775518200000,
-    "title": "Hockey India League",
-    "desc": "Coverage of the professional men&apos;s field hockey league in India."
-  },
-  {
-    "start": "23:30",
-    "stop": "00:30",
-    "channel": "DDSports.in",
-    "channelId": "DDSports.in",
-    "channelName": "DD Sports",
-    "startTs": 1775518200000,
-    "stopTs": 1775521800000,
-    "title": "Khelo India Youth Games",
-    "desc": "Emerging youth compete in diverse sporting disciplines, aiming to inspire a new generation of athletes and strengthen the foundation of India&apos;s sports ecosystem."
-  },
-  {
-    "start": "00:30",
-    "stop": "03:30",
-    "channel": "DDSports.in",
-    "channelId": "DDSports.in",
-    "channelName": "DD Sports",
-    "startTs": 1775521800000,
-    "stopTs": 1775532600000,
-    "title": "Sports Programme",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "03:30",
-    "stop": "06:30",
-    "channel": "DDSports.in",
-    "channelId": "DDSports.in",
-    "channelName": "DD Sports",
-    "startTs": 1775532600000,
-    "stopTs": 1775543400000,
-    "title": "Sports Programme",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "06:30",
-    "stop": "09:30",
-    "channel": "DDSports.in",
-    "channelId": "DDSports.in",
-    "channelName": "DD Sports",
-    "startTs": 1775543400000,
-    "stopTs": 1775554200000,
-    "title": "Sports Programme",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "09:30",
-    "stop": "12:30",
-    "channel": "DDSports.in",
-    "channelId": "DDSports.in",
-    "channelName": "DD Sports",
-    "startTs": 1775554200000,
-    "stopTs": 1775565000000,
-    "title": "Sports Programme",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "12:30",
-    "stop": "15:30",
-    "channel": "DDSports.in",
-    "channelId": "DDSports.in",
-    "channelName": "DD Sports",
-    "startTs": 1775565000000,
-    "stopTs": 1775575800000,
-    "title": "Sports Programme",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "15:30",
-    "stop": "18:29",
-    "channel": "DDSports.in",
-    "channelId": "DDSports.in",
-    "channelName": "DD Sports",
-    "startTs": 1775575800000,
-    "stopTs": 1775586599000,
-    "title": "Sports Programme",
-    "desc": "Bringing the best in television."
+    "desc": "The host presents the latest news and analysis from the world of sports."
   }
 ]

@@ -1,695 +1,167 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Rajasthan Live",
-    "desc": "The host presents a report about the latest news stories about political, economic, social and cultural topics, from all around the region."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "News18Rajasthan.in",
     "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
+    "channelName": "News18 Rajasthan",
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "20 Minute 20 Khabar",
-    "desc": "The host presents the latest updates and developments regarding social issues, business, politics and economics from all over Rajasthan."
+    "desc": "The host presents the latest updates and developments from all over Rajasthan."
   },
   {
     "start": "11:30",
     "stop": "12:00",
     "channel": "News18Rajasthan.in",
     "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
+    "channelName": "News18 Rajasthan",
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "5 Ka Prahar",
-    "desc": "The host invites a panel of experts for a debate on various socio-political, economic and sports-related matters of national and global significance."
+    "desc": "The host invites a panel of experts for a debate on pressing issues."
   },
   {
     "start": "12:00",
     "stop": "12:30",
     "channel": "News18Rajasthan.in",
     "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
+    "channelName": "News18 Rajasthan",
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Special Report",
-    "desc": "The host offers in-depth coverage and analysis of major news stories, providing exclusive insights into current events both locally and globally."
+    "desc": "The host offers in-depth coverage and analysis of major news stories."
   },
   {
     "start": "12:30",
     "stop": "13:00",
     "channel": "News18Rajasthan.in",
     "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
+    "channelName": "News18 Rajasthan",
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "30 Min Me 41 Zile",
-    "desc": "The host presents the latest news updates and developments about various social, economic and political issues pertaining to the state of Rajasthan."
+    "desc": "The host presents the latest news updates pertaining to the state of Rajasthan."
   },
   {
     "start": "13:00",
     "stop": "13:30",
     "channel": "News18Rajasthan.in",
     "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
+    "channelName": "News18 Rajasthan",
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Special Report",
-    "desc": "The host offers in-depth coverage and analysis of major news stories, providing exclusive insights into current events both locally and globally."
+    "desc": "The host offers in-depth coverage and analysis of major news stories."
   },
   {
     "start": "13:30",
     "stop": "14:00",
     "channel": "News18Rajasthan.in",
     "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
+    "channelName": "News18 Rajasthan",
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Mharo Rajasthan",
-    "desc": "The host presents the most recent political, social and economic news, updates and developments from the state of Rajasthan."
+    "desc": "The host presents the latest news updates and developments from Rajasthan, India."
   },
   {
     "start": "14:00",
     "stop": "14:30",
     "channel": "News18Rajasthan.in",
     "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
+    "channelName": "News18 Rajasthan",
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Gaon Ri Khabar",
-    "desc": "Gaon Ri Khabar"
+    "desc": "."
   },
   {
     "start": "14:30",
     "stop": "15:00",
     "channel": "News18Rajasthan.in",
     "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
+    "channelName": "News18 Rajasthan",
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "8 Ki Fight",
-    "desc": "The host provides the latest information, updates and developments on significant political matters affecting the state."
+    "desc": "The host provides the latest updates on significant political matters affecting the state."
   },
   {
     "start": "15:00",
     "stop": "15:30",
     "channel": "News18Rajasthan.in",
     "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
+    "channelName": "News18 Rajasthan",
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Rajasthan Express",
-    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
+    "desc": "The host presents the latest news and developments surrounding various issues."
   },
   {
     "start": "15:30",
     "stop": "16:00",
     "channel": "News18Rajasthan.in",
     "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
+    "channelName": "News18 Rajasthan",
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Desh Pradesh",
-    "desc": "The anchor presents the latest news updates and happenings from the world of entertainment, politics, economics and sports."
+    "desc": "The anchor presents the latest news updates and happenings from around the world."
   },
   {
     "start": "16:00",
     "stop": "16:30",
     "channel": "News18Rajasthan.in",
     "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
+    "channelName": "News18 Rajasthan",
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "20 Minute 20 Khabar",
-    "desc": "The host presents the latest updates and developments regarding social issues, business, politics and economics from all over Rajasthan."
+    "desc": "The host presents the latest updates and developments from all over Rajasthan."
   },
   {
     "start": "16:30",
     "stop": "17:00",
     "channel": "News18Rajasthan.in",
     "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
+    "channelName": "News18 Rajasthan",
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Crime 2025",
-    "desc": "The host narrates some of the latest and most dangerous crime stories from all over India that revolve around kidnapping, murders and harassment, and shares certain ways to forestall them."
+    "desc": "The host narrates some of the latest and most dangerous crime stories from all over India."
   },
   {
     "start": "17:00",
     "stop": "17:30",
     "channel": "News18Rajasthan.in",
     "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
+    "channelName": "News18 Rajasthan",
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Gaon Ri Khabar",
-    "desc": "Gaon Ri Khabar"
+    "desc": "."
   },
   {
     "start": "17:30",
     "stop": "18:00",
     "channel": "News18Rajasthan.in",
     "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
+    "channelName": "News18 Rajasthan",
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Good Night Rajasthan",
-    "desc": "The host presents some of the latest political, social, economic and sports updates and developments from the state of Rajasthan."
+    "desc": "The host presents the latest updates and developments from the state of Rajasthan."
   },
   {
     "start": "18:00",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "News18Rajasthan.in",
     "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
+    "channelName": "News18 Rajasthan",
     "startTs": 1775498400000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "8 Ki Fight",
-    "desc": "The host provides the latest information, updates and developments on significant political matters affecting the state."
-  },
-  {
-    "start": "18:30",
-    "stop": "19:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775500200000,
-    "stopTs": 1775502000000,
-    "title": "20 Minute 20 Khabar",
-    "desc": "The host presents the latest updates and developments regarding social issues, business, politics and economics from all over Rajasthan."
-  },
-  {
-    "start": "19:00",
-    "stop": "19:30",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775502000000,
-    "stopTs": 1775503800000,
-    "title": "30 Min Me 41 Zile",
-    "desc": "The host presents the latest news updates and developments about various social, economic and political issues pertaining to the state of Rajasthan."
-  },
-  {
-    "start": "19:30",
-    "stop": "20:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775503800000,
-    "stopTs": 1775505600000,
-    "title": "Special Report",
-    "desc": "The host offers in-depth coverage and analysis of major news stories, providing exclusive insights into current events both locally and globally."
-  },
-  {
-    "start": "20:00",
-    "stop": "20:30",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775505600000,
-    "stopTs": 1775507400000,
-    "title": "Rajasthan Express",
-    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
-  },
-  {
-    "start": "20:30",
-    "stop": "21:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775507400000,
-    "stopTs": 1775509200000,
-    "title": "20 Minute 20 Khabar",
-    "desc": "The host presents the latest updates and developments regarding social issues, business, politics and economics from all over Rajasthan."
-  },
-  {
-    "start": "21:00",
-    "stop": "21:30",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775509200000,
-    "stopTs": 1775511000000,
-    "title": "30 Min Me 41 Zile",
-    "desc": "The host presents the latest news updates and developments about various social, economic and political issues pertaining to the state of Rajasthan."
-  },
-  {
-    "start": "21:30",
-    "stop": "22:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775511000000,
-    "stopTs": 1775512800000,
-    "title": "Special Report",
-    "desc": "The host offers in-depth coverage and analysis of major news stories, providing exclusive insights into current events both locally and globally."
-  },
-  {
-    "start": "22:00",
-    "stop": "22:30",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775512800000,
-    "stopTs": 1775514600000,
-    "title": "Rajasthan Express",
-    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
-  },
-  {
-    "start": "22:30",
-    "stop": "23:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775514600000,
-    "stopTs": 1775516400000,
-    "title": "30 Min Me 41 Zile",
-    "desc": "The host presents the latest news updates and developments about various social, economic and political issues pertaining to the state of Rajasthan."
-  },
-  {
-    "start": "23:00",
-    "stop": "23:30",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775516400000,
-    "stopTs": 1775518200000,
-    "title": "20 Minute 20 Khabar",
-    "desc": "The host presents the latest updates and developments regarding social issues, business, politics and economics from all over Rajasthan."
-  },
-  {
-    "start": "23:30",
-    "stop": "00:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775518200000,
-    "stopTs": 1775520000000,
-    "title": "Rahashya",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "00:00",
-    "stop": "00:30",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775520000000,
-    "stopTs": 1775521800000,
-    "title": "Baba Bageshwar",
-    "desc": "The host delivers the latest news updates and in-depth analysis on the popular religious speaker Baba Bageshwar, who provides predictions on several topics to his followers."
-  },
-  {
-    "start": "00:30",
-    "stop": "01:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775521800000,
-    "stopTs": 1775523600000,
-    "title": "30 Min Me 41 Zile",
-    "desc": "The host presents the latest news updates and developments about various social, economic and political issues pertaining to the state of Rajasthan."
-  },
-  {
-    "start": "01:00",
-    "stop": "01:30",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775523600000,
-    "stopTs": 1775525400000,
-    "title": "20 Minute 20 Khabar",
-    "desc": "The host presents the latest updates and developments regarding social issues, business, politics and economics from all over Rajasthan."
-  },
-  {
-    "start": "01:30",
-    "stop": "02:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775525400000,
-    "stopTs": 1775527200000,
-    "title": "Suprabhat Rajasthan",
-    "desc": "The host presents the latest news updates and developments about various social, economic and political issues pertaining to the state of Rajasthan."
-  },
-  {
-    "start": "02:00",
-    "stop": "02:30",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775527200000,
-    "stopTs": 1775529000000,
-    "title": "30 Min Me 41 Zile",
-    "desc": "The host presents the latest news updates and developments about various social, economic and political issues pertaining to the state of Rajasthan."
-  },
-  {
-    "start": "02:30",
-    "stop": "03:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775529000000,
-    "stopTs": 1775530800000,
-    "title": "Khabar 1 Minute",
-    "desc": "The anchor highlights the latest news, developments and updates from the country with respect to politics, economy and sports in under a minute."
-  },
-  {
-    "start": "03:00",
-    "stop": "03:30",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775530800000,
-    "stopTs": 1775532600000,
-    "title": "Special Report",
-    "desc": "The host offers in-depth coverage and analysis of major news stories, providing exclusive insights into current events both locally and globally."
-  },
-  {
-    "start": "03:30",
-    "stop": "04:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775532600000,
-    "stopTs": 1775534400000,
-    "title": "Rajasthan Live",
-    "desc": "The host presents a report about the latest news stories about political, economic, social and cultural topics, from all around the region."
-  },
-  {
-    "start": "04:00",
-    "stop": "04:30",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775534400000,
-    "stopTs": 1775536200000,
-    "title": "Special Report",
-    "desc": "The host offers in-depth coverage and analysis of major news stories, providing exclusive insights into current events both locally and globally."
-  },
-  {
-    "start": "04:30",
-    "stop": "05:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775536200000,
-    "stopTs": 1775538000000,
-    "title": "Mharo Rajasthan",
-    "desc": "The host presents the most recent political, social and economic news, updates and developments from the state of Rajasthan."
-  },
-  {
-    "start": "05:00",
-    "stop": "05:30",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775538000000,
-    "stopTs": 1775539800000,
-    "title": "Mharo Rajasthan",
-    "desc": "The host presents the most recent political, social and economic news, updates and developments from the state of Rajasthan."
-  },
-  {
-    "start": "05:30",
-    "stop": "06:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775539800000,
-    "stopTs": 1775541600000,
-    "title": "30 Min Me 41 Zile",
-    "desc": "The host presents the latest news updates and developments about various social, economic and political issues pertaining to the state of Rajasthan."
-  },
-  {
-    "start": "06:00",
-    "stop": "06:30",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775541600000,
-    "stopTs": 1775543400000,
-    "title": "100 Gaaon 100 Khabar",
-    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the top 100 latest news and developments from 100 villages."
-  },
-  {
-    "start": "06:30",
-    "stop": "07:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775543400000,
-    "stopTs": 1775545200000,
-    "title": "Pradesh Hamara",
-    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "07:00",
-    "stop": "07:30",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775545200000,
-    "stopTs": 1775547000000,
-    "title": "Desh Duniya",
-    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
-  },
-  {
-    "start": "07:30",
-    "stop": "08:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775547000000,
-    "stopTs": 1775548800000,
-    "title": "Mharo Rajasthan",
-    "desc": "The host presents the most recent political, social and economic news, updates and developments from the state of Rajasthan."
-  },
-  {
-    "start": "08:00",
-    "stop": "08:30",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775548800000,
-    "stopTs": 1775550600000,
-    "title": "Special Report",
-    "desc": "The host offers in-depth coverage and analysis of major news stories, providing exclusive insights into current events both locally and globally."
-  },
-  {
-    "start": "08:30",
-    "stop": "09:30",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775550600000,
-    "stopTs": 1775554200000,
-    "title": "Khabar Dopahar",
-    "desc": "The host presents the latest updates and developments pertaining to politics, finance, sports and entertainment news from across the nation."
-  },
-  {
-    "start": "09:30",
-    "stop": "10:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775554200000,
-    "stopTs": 1775556000000,
-    "title": "Rajasthan Express",
-    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
-  },
-  {
-    "start": "10:00",
-    "stop": "10:30",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775556000000,
-    "stopTs": 1775557800000,
-    "title": "Special Report",
-    "desc": "The host offers in-depth coverage and analysis of major news stories, providing exclusive insights into current events both locally and globally."
-  },
-  {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775557800000,
-    "stopTs": 1775559600000,
-    "title": "Rajasthan Live",
-    "desc": "The host presents a report about the latest news stories about political, economic, social and cultural topics, from all around the region."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:30",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775559600000,
-    "stopTs": 1775561400000,
-    "title": "20 Minute 20 Khabar",
-    "desc": "The host presents the latest updates and developments regarding social issues, business, politics and economics from all over Rajasthan."
-  },
-  {
-    "start": "11:30",
-    "stop": "12:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775561400000,
-    "stopTs": 1775563200000,
-    "title": "5 Ka Prahar",
-    "desc": "The host invites a panel of experts for a debate on various socio-political, economic and sports-related matters of national and global significance."
-  },
-  {
-    "start": "12:00",
-    "stop": "12:30",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775563200000,
-    "stopTs": 1775565000000,
-    "title": "Special Report",
-    "desc": "The host offers in-depth coverage and analysis of major news stories, providing exclusive insights into current events both locally and globally."
-  },
-  {
-    "start": "12:30",
-    "stop": "13:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775565000000,
-    "stopTs": 1775566800000,
-    "title": "30 Min Me 41 Zile",
-    "desc": "The host presents the latest news updates and developments about various social, economic and political issues pertaining to the state of Rajasthan."
-  },
-  {
-    "start": "13:00",
-    "stop": "13:30",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775566800000,
-    "stopTs": 1775568600000,
-    "title": "Special Report",
-    "desc": "The host offers in-depth coverage and analysis of major news stories, providing exclusive insights into current events both locally and globally."
-  },
-  {
-    "start": "13:30",
-    "stop": "14:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775568600000,
-    "stopTs": 1775570400000,
-    "title": "Mharo Rajasthan",
-    "desc": "The host presents the most recent political, social and economic news, updates and developments from the state of Rajasthan."
-  },
-  {
-    "start": "14:00",
-    "stop": "14:30",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775570400000,
-    "stopTs": 1775572200000,
-    "title": "Gaon Ri Khabar",
-    "desc": "Gaon Ri Khabar"
-  },
-  {
-    "start": "14:30",
-    "stop": "15:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775572200000,
-    "stopTs": 1775574000000,
-    "title": "8 Ki Fight",
-    "desc": "The host provides the latest information, updates and developments on significant political matters affecting the state."
-  },
-  {
-    "start": "15:00",
-    "stop": "15:30",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775574000000,
-    "stopTs": 1775575800000,
-    "title": "Rajasthan Express",
-    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775575800000,
-    "stopTs": 1775577600000,
-    "title": "Desh Pradesh",
-    "desc": "The anchor presents the latest news updates and happenings from the world of entertainment, politics, economics and sports."
-  },
-  {
-    "start": "16:00",
-    "stop": "16:30",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775577600000,
-    "stopTs": 1775579400000,
-    "title": "20 Minute 20 Khabar",
-    "desc": "The host presents the latest updates and developments regarding social issues, business, politics and economics from all over Rajasthan."
-  },
-  {
-    "start": "16:30",
-    "stop": "17:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775579400000,
-    "stopTs": 1775581200000,
-    "title": "Crime 2025",
-    "desc": "The host narrates some of the latest and most dangerous crime stories from all over India that revolve around kidnapping, murders and harassment, and shares certain ways to forestall them."
-  },
-  {
-    "start": "17:00",
-    "stop": "17:30",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775581200000,
-    "stopTs": 1775583000000,
-    "title": "Gaon Ri Khabar",
-    "desc": "Gaon Ri Khabar"
-  },
-  {
-    "start": "17:30",
-    "stop": "18:00",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775583000000,
-    "stopTs": 1775584800000,
-    "title": "Good Night Rajasthan",
-    "desc": "The host presents some of the latest political, social, economic and sports updates and developments from the state of Rajasthan."
-  },
-  {
-    "start": "18:00",
-    "stop": "18:29",
-    "channel": "News18Rajasthan.in",
-    "channelId": "News18Rajasthan.in",
-    "channelName": "News18 RAJASTHAN",
-    "startTs": 1775584800000,
-    "stopTs": 1775586599000,
-    "title": "8 Ki Fight",
-    "desc": "The host provides the latest information, updates and developments on significant political matters affecting the state."
+    "desc": "The host provides the latest updates on significant political matters affecting the state."
   }
 ]

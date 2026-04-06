@@ -1,0 +1,145 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelId": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelName": "NAVSARJAN SANSKRUTI GUJARATI",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Vote Par Charcha",
+    "desc": "The host interacts with experts on various socio-political matters impacting people."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelId": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelName": "NAVSARJAN SANSKRUTI GUJARATI",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Apka Gaon Apki Baat",
+    "desc": "The host covers key developments from villages across the nation."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelId": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelName": "NAVSARJAN SANSKRUTI GUJARATI",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Evening News",
+    "desc": "The host sheds light on the latest news updates from across the nation and the world."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelId": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelName": "NAVSARJAN SANSKRUTI GUJARATI",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Khabardaar",
+    "desc": "The reporter sheds light on various unscrupulous activities that conspire in society."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelId": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelName": "NAVSARJAN SANSKRUTI GUJARATI",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Local Vocal News",
+    "desc": "The host features the latest updates on local events and regional developments."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelId": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelName": "NAVSARJAN SANSKRUTI GUJARATI",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Gujarat Prime Time",
+    "desc": "The host delivers the latest breaking news on various issues from the state of Gujarat."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelId": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelName": "NAVSARJAN SANSKRUTI GUJARATI",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Ghar Ghar Ki Awaz Desh Ki Awaz",
+    "desc": "The host presents the latest updates and developments on various current affairs."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelId": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelName": "NAVSARJAN SANSKRUTI GUJARATI",
+    "startTs": 1775485800000,
+    "stopTs": 1775489400000,
+    "title": "Khabar",
+    "desc": "The host sheds light on the latest news stories from various fields impacting people."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelId": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelName": "NAVSARJAN SANSKRUTI GUJARATI",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "News @ 9 PM",
+    "desc": "The host presents the latest news updates and developments pertaining to various issues."
+  },
+  {
+    "start": "16:00",
+    "stop": "17:00",
+    "channel": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelId": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelName": "NAVSARJAN SANSKRUTI GUJARATI",
+    "startTs": 1775491200000,
+    "stopTs": 1775494800000,
+    "title": "News @ 10 Pm",
+    "desc": "The host presents information on various social, economic and political issues."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelId": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelName": "NAVSARJAN SANSKRUTI GUJARATI",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Police Punchnama",
+    "desc": "The host examines the challenges, developments, and reforms impacting police forces."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelId": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelName": "NAVSARJAN SANSKRUTI GUJARATI",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "News @ 11 Pm",
+    "desc": "The host presents important issues and provides updates on current events."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelId": "NAVSARJANSANSKRUTIGUJARATI.in",
+    "channelName": "NAVSARJAN SANSKRUTI GUJARATI",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Khabardaar",
+    "desc": "The reporter sheds light on various unscrupulous activities that conspire in society."
+  }
+]

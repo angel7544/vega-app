@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Vaishali",
-    "desc": "Bringing the best in television."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "DDSaptagiri.in",
@@ -19,7 +8,7 @@
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Brundavanam",
-    "desc": "Bringing the best in television."
+    "desc": "Bringing the best in television. S01 E53."
   },
   {
     "start": "11:30",
@@ -30,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775475600000,
     "title": "District News Bulletin",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across all the districts of the state."
+    "desc": "The host presents the latest news updates from across the state&apos;s districts."
   },
   {
     "start": "11:40",
@@ -41,7 +30,7 @@
     "startTs": 1775475600000,
     "stopTs": 1775476800000,
     "title": "Bhamidipati Ramagopalam Kathalu",
-    "desc": "A compilation of short stories by Telugu writer Bhamidipati Ramagopalam that revolve around human emotions and experiences is presented."
+    "desc": "A compilation of short stories written by Bhamidipati Ramagopalam is presented."
   },
   {
     "start": "12:00",
@@ -52,7 +41,7 @@
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Tarane Purane",
-    "desc": "A comprehensive compilation of some of the most famous old Bollywood songs, composed by well-known artists and singers are played."
+    "desc": "A compilation of some of the most famous old Bollywood songs are played."
   },
   {
     "start": "12:30",
@@ -63,7 +52,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775482200000,
     "title": "Pasidipantalu",
-    "desc": "The host talks about the latest tools, methods and technology used in agriculture and shares helpful and insightful farming tips."
+    "desc": "The host talks about the latest tools, methods and technology used in agriculture."
   },
   {
     "start": "13:30",
@@ -74,7 +63,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Vartalu",
-    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
+    "desc": "The host presents a detailed report of the latest news and developments."
   },
   {
     "start": "14:00",
@@ -85,7 +74,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Vivahabandham",
-    "desc": "A girl from a middle class family and a rich boy with extremely opposite lifestyle fall for each other. However, their journey unfolds several challenges."
+    "desc": "A middle class girl and a rich boy fall for each other and face challenges. S01 E61."
   },
   {
     "start": "14:30",
@@ -96,7 +85,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Chantigadi Swyamvaram",
-    "desc": "Renowned artists from the Telugu television industry perform dances as well as satirical acts in front of a huge audience."
+    "desc": "Renowned artists from the Telugu television industry perform dances and satirical acts. S01 E59."
   },
   {
     "start": "15:00",
@@ -107,7 +96,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Spoorthy",
-    "desc": "An expert discusses how one can be in the company of the right people and stay away from negative thoughts and imbibe positive qualities."
+    "desc": "An expert discusses how one can be in the company of the right people. S01 E01."
   },
   {
     "start": "15:30",
@@ -118,7 +107,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Malladi Rama Krishna Sastry Kathalu",
-    "desc": "Several notable tales by the esteemed writer Malladi Ramakrishna Sastry are dramatised for the entertainment of the audience."
+    "desc": "Several stories by a writer are dramatised for the entertainment of the audience."
   },
   {
     "start": "16:00",
@@ -129,7 +118,7 @@
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Vartalu",
-    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
+    "desc": "The host presents a detailed report of the latest news and developments."
   },
   {
     "start": "16:30",
@@ -140,490 +129,17 @@
     "startTs": 1775493000000,
     "stopTs": 1775496600000,
     "title": "Puranas Modern Science",
-    "desc": "Puranas Modern Science"
+    "desc": "."
   },
   {
     "start": "17:30",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "DDSaptagiri.in",
     "channelId": "DDSaptagiri.in",
     "channelName": "DD Saptagiri",
     "startTs": 1775496600000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "Sahiti Karyakramam",
-    "desc": "The host invites various guests and experts to discuss interesting topics related to literature, religion, culture, art and more."
-  },
-  {
-    "start": "18:30",
-    "stop": "19:00",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775500200000,
-    "stopTs": 1775502000000,
-    "title": "Classical Music",
-    "desc": "A comprehensive compilation of melodious songs is composed and performed by renowned composers and artists in classical music."
-  },
-  {
-    "start": "19:00",
-    "stop": "19:30",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775502000000,
-    "stopTs": 1775503800000,
-    "title": "Sports Programme",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "19:30",
-    "stop": "20:00",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775503800000,
-    "stopTs": 1775505600000,
-    "title": "Vyshali",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "20:00",
-    "stop": "20:30",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775505600000,
-    "stopTs": 1775507400000,
-    "title": "Brundavanam",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "20:30",
-    "stop": "21:00",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775507400000,
-    "stopTs": 1775509200000,
-    "title": "Vivahabandham",
-    "desc": "A girl from a middle class family and a rich boy with extremely opposite lifestyle fall for each other. However, their journey unfolds several challenges."
-  },
-  {
-    "start": "21:00",
-    "stop": "21:30",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775509200000,
-    "stopTs": 1775511000000,
-    "title": "Chantigadi Swyamvaram",
-    "desc": "Renowned artists from the Telugu television industry perform dances as well as satirical acts in front of a huge audience."
-  },
-  {
-    "start": "21:30",
-    "stop": "22:30",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775511000000,
-    "stopTs": 1775514600000,
-    "title": "Dharma Sandehalu",
-    "desc": "The host invites profound religious scholars to shed light on ancient Hindu scriptures and reflect on the religious significance of rituals."
-  },
-  {
-    "start": "22:30",
-    "stop": "23:30",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775514600000,
-    "stopTs": 1775518200000,
-    "title": "Classical Music",
-    "desc": "A comprehensive compilation of melodious songs is composed and performed by renowned composers and artists in classical music."
-  },
-  {
-    "start": "23:30",
-    "stop": "23:33",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775518200000,
-    "stopTs": 1775518380000,
-    "title": "Vandemataram Song",
-    "desc": "A compilation of patriotic songs glorifying the greatness and unity of India and performed by various artists is played back to back."
-  },
-  {
-    "start": "23:33",
-    "stop": "00:00",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775518380000,
-    "stopTs": 1775520000000,
-    "title": "Nadaswaram",
-    "desc": "Professional musicians play classical compositions on the nadaswaram, a traditional South Indian wind instrument, and enthrall the viewers."
-  },
-  {
-    "start": "00:00",
-    "stop": "00:30",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775520000000,
-    "stopTs": 1775521800000,
-    "title": "Pasidipantalu",
-    "desc": "The host talks about the latest tools, methods and technology used in agriculture and shares helpful and insightful farming tips."
-  },
-  {
-    "start": "00:30",
-    "stop": "01:00",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775521800000,
-    "stopTs": 1775523600000,
-    "title": "Archana",
-    "desc": "Religious priests and devotees offer prayers and perform sacred rituals to seek the blessings of the Almighty at a place of worship."
-  },
-  {
-    "start": "01:00",
-    "stop": "01:15",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775523600000,
-    "stopTs": 1775524500000,
-    "title": "Vartalu Sanskrit News",
-    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "01:15",
-    "stop": "01:30",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775524500000,
-    "stopTs": 1775525400000,
-    "title": "Maryada Ramanna",
-    "desc": "Ramu arrives at his rural hometown in order to sell a piece of land he owns. However, he ends up falling in love with a woman whose family wants him dead."
-  },
-  {
-    "start": "01:30",
-    "stop": "02:00",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775525400000,
-    "stopTs": 1775527200000,
-    "title": "Devi Keertanalu",
-    "desc": "A comprehensive collection of soulful devotional melodies praising the Hindu deity Devi is played in order to enthrall the audience into seeking the deity&apos;s blessings."
-  },
-  {
-    "start": "02:00",
-    "stop": "02:30",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775527200000,
-    "stopTs": 1775529000000,
-    "title": "Sankata Mochana Hanuman",
-    "desc": "Lord Hanuman grows up to become a devout follower of Lord Rama and is fiercely loyal to him. He helps Lord Rama defeat Ravana, a wicked king."
-  },
-  {
-    "start": "02:30",
-    "stop": "03:00",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775529000000,
-    "stopTs": 1775530800000,
-    "title": "Vartalu",
-    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "03:00",
-    "stop": "03:30",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775530800000,
-    "stopTs": 1775532600000,
-    "title": "Om Namah Shivaya",
-    "desc": "Religious leaders and devotees chant a powerful mantra sung in respect and adoration of Lord Shiva and seek his blessings."
-  },
-  {
-    "start": "03:30",
-    "stop": "04:00",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775532600000,
-    "stopTs": 1775534400000,
-    "title": "Velugu Needalu",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "04:00",
-    "stop": "04:30",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775534400000,
-    "stopTs": 1775536200000,
-    "title": "Niveditha",
-    "desc": "Nivedita, a young married woman, discovers that she is HIV-positive due to her husband&apos;s unfaithfulness. Undeterred by criticism, she set out to educate other women about the disease."
-  },
-  {
-    "start": "04:30",
-    "stop": "05:30",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775536200000,
-    "stopTs": 1775539800000,
-    "title": "Classical Dance",
-    "desc": "Artists adept in the various forms of Indian classical dance perform an inspiring and captivating recital to enthral the audience."
-  },
-  {
-    "start": "05:30",
-    "stop": "06:30",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775539800000,
-    "stopTs": 1775543400000,
-    "title": "Classical Music",
-    "desc": "A comprehensive compilation of melodious songs is composed and performed by renowned composers and artists in classical music."
-  },
-  {
-    "start": "06:30",
-    "stop": "07:30",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775543400000,
-    "stopTs": 1775547000000,
-    "title": "Business Muchchatlu",
-    "desc": "The host invites financial experts to provide insight and analysis on the latest news, updates and trends surrounding stock market performance."
-  },
-  {
-    "start": "07:30",
-    "stop": "08:00",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775547000000,
-    "stopTs": 1775548800000,
-    "title": "Vartalu",
-    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "08:00",
-    "stop": "08:30",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775548800000,
-    "stopTs": 1775550600000,
-    "title": "Veyi Padagalu",
-    "desc": "A man living in the village of Subbannapeta witnesses the gradual disappearance of the traditions, customs and values that he and his family hold dear."
-  },
-  {
-    "start": "08:30",
-    "stop": "09:00",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775550600000,
-    "stopTs": 1775552400000,
-    "title": "Vyshali",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "09:00",
-    "stop": "09:30",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775552400000,
-    "stopTs": 1775554200000,
-    "title": "Chantigadi Swyamvaram",
-    "desc": "Renowned artists from the Telugu television industry perform dances as well as satirical acts in front of a huge audience."
-  },
-  {
-    "start": "09:30",
-    "stop": "10:30",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775554200000,
-    "stopTs": 1775557800000,
-    "title": "Andariki Aarogyam",
-    "desc": "A medical expert sheds light on various concerns raised by the viewers and talks about several illnesses that plague people."
-  },
-  {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775557800000,
-    "stopTs": 1775559600000,
-    "title": "Velugu Needalu",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:30",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775559600000,
-    "stopTs": 1775561400000,
-    "title": "Niveditha",
-    "desc": "Nivedita, a young married woman, discovers that she is HIV-positive due to her husband&apos;s unfaithfulness. Undeterred by criticism, she set out to educate other women about the disease."
-  },
-  {
-    "start": "11:30",
-    "stop": "11:40",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775561400000,
-    "stopTs": 1775562000000,
-    "title": "District News Bulletin",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across all the districts of the state."
-  },
-  {
-    "start": "11:40",
-    "stop": "12:00",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775562000000,
-    "stopTs": 1775563200000,
-    "title": "Maryada Ramanna",
-    "desc": "Ramu arrives at his rural hometown in order to sell a piece of land he owns. However, he ends up falling in love with a woman whose family wants him dead."
-  },
-  {
-    "start": "12:00",
-    "stop": "12:30",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775563200000,
-    "stopTs": 1775565000000,
-    "title": "Indradhanush",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "12:30",
-    "stop": "13:30",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775565000000,
-    "stopTs": 1775568600000,
-    "title": "Pasidipantalu",
-    "desc": "The host talks about the latest tools, methods and technology used in agriculture and shares helpful and insightful farming tips."
-  },
-  {
-    "start": "13:30",
-    "stop": "14:00",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775568600000,
-    "stopTs": 1775570400000,
-    "title": "Vartalu",
-    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "14:00",
-    "stop": "14:30",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775570400000,
-    "stopTs": 1775572200000,
-    "title": "Vyshali",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "14:30",
-    "stop": "15:00",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775572200000,
-    "stopTs": 1775574000000,
-    "title": "Sankata Mochana Hanuman",
-    "desc": "Lord Hanuman grows up to become a devout follower of Lord Rama and is fiercely loyal to him. He helps Lord Rama defeat Ravana, a wicked king."
-  },
-  {
-    "start": "15:00",
-    "stop": "15:30",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775574000000,
-    "stopTs": 1775575800000,
-    "title": "Om Namah Shivaya",
-    "desc": "Religious leaders and devotees chant a powerful mantra sung in respect and adoration of Lord Shiva and seek his blessings."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:00",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775575800000,
-    "stopTs": 1775577600000,
-    "title": "Aanimutyalu",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "16:00",
-    "stop": "16:30",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775577600000,
-    "stopTs": 1775579400000,
-    "title": "Vartalu",
-    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "16:30",
-    "stop": "17:30",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775579400000,
-    "stopTs": 1775583000000,
-    "title": "Classical Music",
-    "desc": "A comprehensive compilation of melodious songs is composed and performed by renowned composers and artists in classical music."
-  },
-  {
-    "start": "17:30",
-    "stop": "18:00",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775583000000,
-    "stopTs": 1775584800000,
-    "title": "Indradhanush",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "18:00",
-    "stop": "18:29",
-    "channel": "DDSaptagiri.in",
-    "channelId": "DDSaptagiri.in",
-    "channelName": "DD Saptagiri",
-    "startTs": 1775584800000,
-    "stopTs": 1775586599000,
-    "title": "Veyi Padagalu",
-    "desc": "A man living in the village of Subbannapeta witnesses the gradual disappearance of the traditions, customs and values that he and his family hold dear."
+    "desc": "The host talks to guests about topics related to literature, culture, art and more."
   }
 ]

@@ -1,0 +1,46 @@
+[
+  {
+    "start": "08:05",
+    "stop": "11:09",
+    "channel": "AnmolCinema2.in",
+    "channelId": "AnmolCinema2.in",
+    "channelName": "Anmol Cinema 2",
+    "startTs": 1775462700000,
+    "stopTs": 1775473740000,
+    "title": "Hero Hindustani",
+    "desc": "A young woman fakes a relationship to avoid her grandfather&apos;s marriage plans for her."
+  },
+  {
+    "start": "11:09",
+    "stop": "13:26",
+    "channel": "AnmolCinema2.in",
+    "channelId": "AnmolCinema2.in",
+    "channelName": "Anmol Cinema 2",
+    "startTs": 1775473740000,
+    "stopTs": 1775481960000,
+    "title": "Velaiilla Pattadhari",
+    "desc": "After his mother&apos;s tragic death, an unemployed youth&apos;s life changes forever."
+  },
+  {
+    "start": "13:26",
+    "stop": "17:06",
+    "channel": "AnmolCinema2.in",
+    "channelId": "AnmolCinema2.in",
+    "channelName": "Anmol Cinema 2",
+    "startTs": 1775481960000,
+    "stopTs": 1775495160000,
+    "title": "Main Prem Ki Diwani Hoon",
+    "desc": "Sanjana falls in love with Prem Kishen after mistaking him for his boss, Prem Kumar."
+  },
+  {
+    "start": "17:06",
+    "stop": "18:56",
+    "channel": "AnmolCinema2.in",
+    "channelId": "AnmolCinema2.in",
+    "channelName": "Anmol Cinema 2",
+    "startTs": 1775495160000,
+    "stopTs": 1775501760000,
+    "title": "April 28 Em Jarigindi",
+    "desc": "A famous writer&apos;s life changes when his road trip leads him to face paranormal activities."
+  }
+]

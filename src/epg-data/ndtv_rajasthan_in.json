@@ -1,0 +1,145 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "NDTVRajasthan.in",
+    "channelId": "NDTVRajasthan.in",
+    "channelName": "NDTV Rajasthan",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Ground Report Live",
+    "desc": "The host talks about the political events occurring in India and across the world, live."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "NDTVRajasthan.in",
+    "channelId": "NDTVRajasthan.in",
+    "channelName": "NDTV Rajasthan",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Newsroom Live",
+    "desc": "The host talks about the latest and most important news from the city and world, live."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "NDTVRajasthan.in",
+    "channelId": "NDTVRajasthan.in",
+    "channelName": "NDTV Rajasthan",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Ghanghor Ki Shahi Savari Live",
+    "desc": "Various Hindu devotees gather to celebrate the holy procession of Gangaur festival."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "NDTVRajasthan.in",
+    "channelId": "NDTVRajasthan.in",
+    "channelName": "NDTV Rajasthan",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Maharo Pradesh/Ghanghor Ki Shahi Savari Live",
+    "desc": "The host covers the royal procession; an anchor explores the vibrant celebrations, live."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "NDTVRajasthan.in",
+    "channelId": "NDTVRajasthan.in",
+    "channelName": "NDTV Rajasthan",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Top 10 / Pradesh / Desh / Videsh+Pkg&apos;s / Bulletin Live",
+    "desc": "The host presents top 10 news updates from the country and around the world."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "NDTVRajasthan.in",
+    "channelId": "NDTVRajasthan.in",
+    "channelName": "NDTV Rajasthan",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Mharo Pradesh Live",
+    "desc": "The host presents the latest information on various key issues affecting the state, live."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "NDTVRajasthan.in",
+    "channelId": "NDTVRajasthan.in",
+    "channelName": "NDTV Rajasthan",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "25 Khabar Fatafat+Wt&apos;S / Bulletin / Live",
+    "desc": "The host presents information about the social, economic and political issues of the day."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "NDTVRajasthan.in",
+    "channelId": "NDTVRajasthan.in",
+    "channelName": "NDTV Rajasthan",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Sabse Bada Mudda Debate/ Maharo Pradesh Live",
+    "desc": "The host discusses the top news stories with experts; the host presents the top news stories, live."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "NDTVRajasthan.in",
+    "channelId": "NDTVRajasthan.in",
+    "channelName": "NDTV Rajasthan",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Aapni Baat",
+    "desc": "The host explores pressings regional issues, discussing societal changes and education."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "NDTVRajasthan.in",
+    "channelId": "NDTVRajasthan.in",
+    "channelName": "NDTV Rajasthan",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Top Ten Desh+Videsh+ NDTV Prime News",
+    "desc": "The host shares the top 10 national and global headlines; the host shares the latest news."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "NDTVRajasthan.in",
+    "channelId": "NDTVRajasthan.in",
+    "channelName": "NDTV Rajasthan",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "NDTV Special Report",
+    "desc": "The host presents a detailed analysis of the latest information on various key issues."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "NDTVRajasthan.in",
+    "channelId": "NDTVRajasthan.in",
+    "channelName": "NDTV Rajasthan",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Maharo Pradesh Final Bulletin Live",
+    "desc": "The host delivers the latest news and updates from the region, covering current affairs."
+  },
+  {
+    "start": "17:00",
+    "stop": "18:57",
+    "channel": "NDTVRajasthan.in",
+    "channelId": "NDTVRajasthan.in",
+    "channelName": "NDTV Rajasthan",
+    "startTs": 1775494800000,
+    "stopTs": 1775501820000,
+    "title": "Ground Report",
+    "desc": "The host provides in-depth coverage of major affairs with expert insights."
+  }
+]

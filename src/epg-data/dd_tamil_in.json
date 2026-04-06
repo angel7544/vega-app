@@ -1,0 +1,156 @@
+[
+  {
+    "start": "08:35",
+    "stop": "11:30",
+    "channel": "DDTamil.in",
+    "channelId": "DDTamil.in",
+    "channelName": "DD Tamil",
+    "startTs": 1775464500000,
+    "stopTs": 1775475000000,
+    "title": "Utharavindri Ulle Vaa",
+    "desc": "The lives of four friends take a turn when a woman seeks refuge in their bungalow."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "DDTamil.in",
+    "channelId": "DDTamil.in",
+    "channelName": "DD Tamil",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Seidhigal",
+    "desc": "The host presents some of the latest news on a range of topics of public interest."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "DDTamil.in",
+    "channelId": "DDTamil.in",
+    "channelName": "DD Tamil",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Pon Vilaiyum Bhoomi",
+    "desc": "The host sheds light on success stories from the field of agriculture and fisheries."
+  },
+  {
+    "start": "12:30",
+    "stop": "12:35",
+    "channel": "DDTamil.in",
+    "channelId": "DDTamil.in",
+    "channelName": "DD Tamil",
+    "startTs": 1775478600000,
+    "stopTs": 1775478900000,
+    "title": "Express News",
+    "desc": "The anchor covers news updates from around the world on an exhaustive range of topics."
+  },
+  {
+    "start": "12:35",
+    "stop": "13:00",
+    "channel": "DDTamil.in",
+    "channelId": "DDTamil.in",
+    "channelName": "DD Tamil",
+    "startTs": 1775478900000,
+    "stopTs": 1775480400000,
+    "title": "Kutties Galatta",
+    "desc": "Young participants showcase their talents in singing, dancing and poetry. S01 E79."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "DDTamil.in",
+    "channelId": "DDTamil.in",
+    "channelName": "DD Tamil",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Bhakthi Maalai",
+    "desc": "."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "DDTamil.in",
+    "channelId": "DDTamil.in",
+    "channelName": "DD Tamil",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Seidhigal",
+    "desc": "The host presents some of the latest news on a range of topics of public interest."
+  },
+  {
+    "start": "14:00",
+    "stop": "15:00",
+    "channel": "DDTamil.in",
+    "channelId": "DDTamil.in",
+    "channelName": "DD Tamil",
+    "startTs": 1775484000000,
+    "stopTs": 1775487600000,
+    "title": "Pesum Neram",
+    "desc": "The host discusses current affairs and social issues with guests on this talk show."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "DDTamil.in",
+    "channelId": "DDTamil.in",
+    "channelName": "DD Tamil",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Bhoomiyin Kadhai",
+    "desc": "The host presents an in-depth information about various plant species. S01 E20."
+  },
+  {
+    "start": "15:30",
+    "stop": "15:35",
+    "channel": "DDTamil.in",
+    "channelId": "DDTamil.in",
+    "channelName": "DD Tamil",
+    "startTs": 1775489400000,
+    "stopTs": 1775489700000,
+    "title": "Express News",
+    "desc": "The anchor covers news updates from around the world on an exhaustive range of topics."
+  },
+  {
+    "start": "15:35",
+    "stop": "16:00",
+    "channel": "DDTamil.in",
+    "channelId": "DDTamil.in",
+    "channelName": "DD Tamil",
+    "startTs": 1775489700000,
+    "stopTs": 1775491200000,
+    "title": "Mudhal Padi",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "DDTamil.in",
+    "channelId": "DDTamil.in",
+    "channelName": "DD Tamil",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Kalloori Kaalangal",
+    "desc": "The host delivers a discourse about memories from college times."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "DDTamil.in",
+    "channelId": "DDTamil.in",
+    "channelName": "DD Tamil",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Seidhigal",
+    "desc": "The host presents some of the latest news on a range of topics of public interest."
+  },
+  {
+    "start": "17:00",
+    "stop": "20:00",
+    "channel": "DDTamil.in",
+    "channelId": "DDTamil.in",
+    "channelName": "DD Tamil",
+    "startTs": 1775494800000,
+    "stopTs": 1775505600000,
+    "title": "Utharavindri Ulle Vaa",
+    "desc": "The lives of four friends take a turn when a woman seeks refuge in their bungalow."
+  }
+]

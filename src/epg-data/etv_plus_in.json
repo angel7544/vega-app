@@ -4,274 +4,54 @@
     "stop": "12:30",
     "channel": "ETVPlus.in",
     "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
+    "channelName": "ETV Plus HD",
     "startTs": 1775467800000,
     "stopTs": 1775478600000,
     "title": "Ooriki Monagadu",
-    "desc": "Dharma Murti is forced to flee his village after the local gangster spoils his image. Later, his son strives to take revenge and get justice for his father."
+    "desc": "A man&apos;s son strives to get justice for his father, who was accused of a wrong act."
   },
   {
     "start": "12:30",
     "stop": "14:30",
     "channel": "ETVPlus.in",
     "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
+    "channelName": "ETV Plus HD",
     "startTs": 1775478600000,
     "stopTs": 1775485800000,
     "title": "Sridevi Drama Company",
-    "desc": "Skilled performers amuse viewers with witty sketches, daring stunts and lively dances to some of the most popular tunes."
+    "desc": "Skilled performers amuse viewers with witty sketches, daring stunts and lively dances. S01 E144."
   },
   {
     "start": "14:30",
     "stop": "15:30",
     "channel": "ETVPlus.in",
     "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
+    "channelName": "ETV Plus HD",
     "startTs": 1775485800000,
     "stopTs": 1775489400000,
     "title": "House Full Show",
-    "desc": "Talented comedians and popular celebrities gather to participate in hilarious sketches, engaging games and lighthearted conversations to entertain the audience."
+    "desc": "Talented comedians and popular celebrities gather to participate in hilarious sketches. S01 E75."
   },
   {
     "start": "15:30",
     "stop": "16:30",
     "channel": "ETVPlus.in",
     "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
+    "channelName": "ETV Plus HD",
     "startTs": 1775489400000,
     "stopTs": 1775493000000,
     "title": "Jabardasth",
-    "desc": "Six teams participate in a series of comedy skits and sketches competition to emerge victorious and win the coveted cash prize."
+    "desc": "Six team participate in a comdey skits competition to win the covted cash prize. S01 E56."
   },
   {
     "start": "16:30",
-    "stop": "18:29",
-    "channel": "ETVPlus.in",
-    "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
-    "startTs": 1775493000000,
-    "stopTs": 1775500199000,
-    "title": "Police Lockup",
-    "desc": "Inspector Vijaya investigates the murder of a chief minister. On the brink of solving the case, she is imprisoned and meets her lookalike, Shanti, with whose help she brings the killer to justice."
-  },
-  {
-    "start": "18:30",
     "stop": "19:00",
     "channel": "ETVPlus.in",
     "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
-    "startTs": 1775500200000,
+    "channelName": "ETV Plus HD",
+    "startTs": 1775493000000,
     "stopTs": 1775502000000,
     "title": "Police Lockup",
-    "desc": "Inspector Vijaya investigates the murder of a chief minister. On the brink of solving the case, she is imprisoned and meets her lookalike, Shanti, with whose help she brings the killer to justice."
-  },
-  {
-    "start": "19:00",
-    "stop": "20:00",
-    "channel": "ETVPlus.in",
-    "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
-    "startTs": 1775502000000,
-    "stopTs": 1775505600000,
-    "title": "Pove Pora",
-    "desc": "Contestants are selected from the audience and are divided into a team of boys and girls, wherein they are put through a variety of funny challenges."
-  },
-  {
-    "start": "20:00",
-    "stop": "20:30",
-    "channel": "ETVPlus.in",
-    "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
-    "startTs": 1775505600000,
-    "stopTs": 1775507400000,
-    "title": "Nenu Shailaja",
-    "desc": "Nenu Shailaja"
-  },
-  {
-    "start": "20:30",
-    "stop": "22:30",
-    "channel": "ETVPlus.in",
-    "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
-    "startTs": 1775507400000,
-    "stopTs": 1775514600000,
-    "title": "Sridevi Drama Company",
-    "desc": "Skilled performers amuse viewers with witty sketches, daring stunts and lively dances to some of the most popular tunes."
-  },
-  {
-    "start": "22:30",
-    "stop": "00:30",
-    "channel": "ETVPlus.in",
-    "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
-    "startTs": 1775514600000,
-    "stopTs": 1775521800000,
-    "title": "Saragala Pallaki",
-    "desc": "A comprehensive compilation of some of the most popular Tollywood movie songs, played consecutively to entertain the audience."
-  },
-  {
-    "start": "00:30",
-    "stop": "01:00",
-    "channel": "ETVPlus.in",
-    "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
-    "startTs": 1775521800000,
-    "stopTs": 1775523600000,
-    "title": "Yoga Sutra",
-    "desc": "A certified yoga expert, deconstructs the technique of practising various yoga positions and their uses for the viewers."
-  },
-  {
-    "start": "01:00",
-    "stop": "01:30",
-    "channel": "ETVPlus.in",
-    "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
-    "startTs": 1775523600000,
-    "stopTs": 1775525400000,
-    "title": "Surya Putra Karna",
-    "desc": "As the son of the sun god Surya and the noble Kunti, Karna, a peerless archer, navigates a path fraught with challenges to emerge as a revered hero of the Mahabharata."
-  },
-  {
-    "start": "01:30",
-    "stop": "02:30",
-    "channel": "ETVPlus.in",
-    "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
-    "startTs": 1775525400000,
-    "stopTs": 1775529000000,
-    "title": "Sadguru Sai",
-    "desc": "After experiencing discrimination based on religion and caste, Sai Baba endures various trials and tribulations on his journey to promote peace and love in society."
-  },
-  {
-    "start": "02:30",
-    "stop": "03:30",
-    "channel": "ETVPlus.in",
-    "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
-    "startTs": 1775529000000,
-    "stopTs": 1775532600000,
-    "title": "House Full Show",
-    "desc": "Talented comedians and popular celebrities gather to participate in hilarious sketches, engaging games and lighthearted conversations to entertain the audience."
-  },
-  {
-    "start": "03:30",
-    "stop": "06:30",
-    "channel": "ETVPlus.in",
-    "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
-    "startTs": 1775532600000,
-    "stopTs": 1775543400000,
-    "title": "Ugaadi Jatiratnaalu",
-    "desc": "Ugaadi Jatiratnaalu"
-  },
-  {
-    "start": "06:30",
-    "stop": "07:30",
-    "channel": "ETVPlus.in",
-    "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
-    "startTs": 1775543400000,
-    "stopTs": 1775547000000,
-    "title": "Pove Pora",
-    "desc": "Contestants are selected from the audience and are divided into a team of boys and girls, wherein they are put through a variety of funny challenges."
-  },
-  {
-    "start": "07:30",
-    "stop": "08:00",
-    "channel": "ETVPlus.in",
-    "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
-    "startTs": 1775547000000,
-    "stopTs": 1775548800000,
-    "title": "Mogali Rekulu",
-    "desc": "Dharma, the eldest of five orphaned siblings, cares for his younger brothers and sisters as they seek to avenge their parents, who were murdered by their own relatives."
-  },
-  {
-    "start": "08:00",
-    "stop": "08:30",
-    "channel": "ETVPlus.in",
-    "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
-    "startTs": 1775548800000,
-    "stopTs": 1775550600000,
-    "title": "Sumangali",
-    "desc": "Deepa is a girl with a broken marriage and also the sole earner of her family. Moreover, her brother-in-law is the culprit behind her troubles."
-  },
-  {
-    "start": "08:30",
-    "stop": "09:00",
-    "channel": "ETVPlus.in",
-    "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
-    "startTs": 1775550600000,
-    "stopTs": 1775552400000,
-    "title": "Shatamanam Bhavathi",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "09:00",
-    "stop": "09:30",
-    "channel": "ETVPlus.in",
-    "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
-    "startTs": 1775552400000,
-    "stopTs": 1775554200000,
-    "title": "Nenu Shailaja",
-    "desc": "Nenu Shailaja"
-  },
-  {
-    "start": "09:30",
-    "stop": "12:30",
-    "channel": "ETVPlus.in",
-    "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
-    "startTs": 1775554200000,
-    "stopTs": 1775565000000,
-    "title": "Subha Sankalpam",
-    "desc": "A man loses his family, in an attempt to protect his master&apos;s treasure. Later, the master adopts the man&apos;s son and treats him as his own."
-  },
-  {
-    "start": "12:30",
-    "stop": "14:30",
-    "channel": "ETVPlus.in",
-    "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
-    "startTs": 1775565000000,
-    "stopTs": 1775572200000,
-    "title": "Sridevi Drama Company",
-    "desc": "Skilled performers amuse viewers with witty sketches, daring stunts and lively dances to some of the most popular tunes."
-  },
-  {
-    "start": "14:30",
-    "stop": "15:30",
-    "channel": "ETVPlus.in",
-    "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
-    "startTs": 1775572200000,
-    "stopTs": 1775575800000,
-    "title": "House Full Show",
-    "desc": "Talented comedians and popular celebrities gather to participate in hilarious sketches, engaging games and lighthearted conversations to entertain the audience."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:30",
-    "channel": "ETVPlus.in",
-    "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
-    "startTs": 1775575800000,
-    "stopTs": 1775579400000,
-    "title": "Jabardasth",
-    "desc": "Six teams participate in a series of comedy skits and sketches competition to emerge victorious and win the coveted cash prize."
-  },
-  {
-    "start": "16:30",
-    "stop": "18:29",
-    "channel": "ETVPlus.in",
-    "channelId": "ETVPlus.in",
-    "channelName": "ETV Plus",
-    "startTs": 1775579400000,
-    "stopTs": 1775586599000,
-    "title": "Deergasumangali Bhava",
-    "desc": "Vani marries Ramarao, believing him to be wealthy. Despite accepting their marriage and having a child, her greed drives her to abandon them and pursue a film career."
+    "desc": "Inspector Vijaya brings a murderer to justice with the help of her lookalike, Shanti."
   }
 ]

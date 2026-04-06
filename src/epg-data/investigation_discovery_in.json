@@ -1,0 +1,101 @@
+[
+  {
+    "start": "10:59",
+    "stop": "11:55",
+    "channel": "InvestigationDiscovery.in",
+    "channelId": "InvestigationDiscovery.in",
+    "channelName": "Investigation Discovery HD",
+    "startTs": 1775473140000,
+    "stopTs": 1775476500000,
+    "title": "Blood Relatives",
+    "desc": "A secret video and a stash of guns reveals the face of a diabolical killer."
+  },
+  {
+    "start": "11:55",
+    "stop": "12:51",
+    "channel": "InvestigationDiscovery.in",
+    "channelId": "InvestigationDiscovery.in",
+    "channelName": "Investigation Discovery HD",
+    "startTs": 1775476500000,
+    "stopTs": 1775479860000,
+    "title": "True Conviction",
+    "desc": "A hooded gunman shoots and kills Donna Willard while her son watches from the top of the stairs."
+  },
+  {
+    "start": "12:51",
+    "stop": "13:47",
+    "channel": "InvestigationDiscovery.in",
+    "channelId": "InvestigationDiscovery.in",
+    "channelName": "Investigation Discovery HD",
+    "startTs": 1775479860000,
+    "stopTs": 1775483220000,
+    "title": "Haunted Towns",
+    "desc": "The team go to the Old Idaho State Penitentiary to encounter the spirits of two infamous murderers. S02 E02."
+  },
+  {
+    "start": "13:47",
+    "stop": "14:43",
+    "channel": "InvestigationDiscovery.in",
+    "channelId": "InvestigationDiscovery.in",
+    "channelName": "Investigation Discovery HD",
+    "startTs": 1775483220000,
+    "stopTs": 1775486580000,
+    "title": "Nithari: Truth, Lies & Murder",
+    "desc": ". S01 E01."
+  },
+  {
+    "start": "14:43",
+    "stop": "15:39",
+    "channel": "InvestigationDiscovery.in",
+    "channelId": "InvestigationDiscovery.in",
+    "channelName": "Investigation Discovery HD",
+    "startTs": 1775486580000,
+    "stopTs": 1775489940000,
+    "title": "Body Cam",
+    "desc": "An armed suspect fires at police; a man locks himself in a garage that catches fire."
+  },
+  {
+    "start": "15:39",
+    "stop": "16:35",
+    "channel": "InvestigationDiscovery.in",
+    "channelId": "InvestigationDiscovery.in",
+    "channelName": "Investigation Discovery HD",
+    "startTs": 1775489940000,
+    "stopTs": 1775493300000,
+    "title": "Death by Fame",
+    "desc": "The police must investigate the murder of a fashion designer."
+  },
+  {
+    "start": "16:35",
+    "stop": "17:31",
+    "channel": "InvestigationDiscovery.in",
+    "channelId": "InvestigationDiscovery.in",
+    "channelName": "Investigation Discovery HD",
+    "startTs": 1775493300000,
+    "stopTs": 1775496660000,
+    "title": "Evil Lives Here",
+    "desc": "Brooke was raised believing Kevin was her father. Kevin had far deadlier secrets of his own."
+  },
+  {
+    "start": "17:31",
+    "stop": "18:27",
+    "channel": "InvestigationDiscovery.in",
+    "channelId": "InvestigationDiscovery.in",
+    "channelName": "Investigation Discovery HD",
+    "startTs": 1775496660000,
+    "stopTs": 1775500020000,
+    "title": "The Murder Tapes",
+    "desc": "Robert Sharp is found murdered with the body burned, police wonder who could be responsible. S05 E04."
+  },
+  {
+    "start": "18:27",
+    "stop": "19:17",
+    "channel": "InvestigationDiscovery.in",
+    "channelId": "InvestigationDiscovery.in",
+    "channelName": "Investigation Discovery HD",
+    "startTs": 1775500020000,
+    "stopTs": 1775503020000,
+    "title": "Web of Lies",
+    "desc": "Alex turns to internet dating and finds Melissa, but is soon struck by unexplained illnesses. S04 E04."
+  }
+]

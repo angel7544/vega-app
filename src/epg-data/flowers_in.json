@@ -1,0 +1,90 @@
+[
+  {
+    "start": "10:00",
+    "stop": "12:30",
+    "channel": "FlowersTV.in",
+    "channelId": "FlowersTV.in",
+    "channelName": "Flowers",
+    "startTs": 1775469600000,
+    "stopTs": 1775478600000,
+    "title": "Uppum Mulakum",
+    "desc": "Balachandran and Neelima aim to successfully fulfil their wish of going abroad."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "FlowersTV.in",
+    "channelId": "FlowersTV.in",
+    "channelName": "Flowers",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Unni Ganapathi",
+    "desc": "A devotional retelling of Lord Ganesha&apos;s divine journey and celestial rise. S01 E258."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "FlowersTV.in",
+    "channelId": "FlowersTV.in",
+    "channelName": "Flowers",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Uppum Mulakum",
+    "desc": "Balachandran and Neelima aim to successfully fulfil their wish of going abroad. S01 E568."
+  },
+  {
+    "start": "13:30",
+    "stop": "15:00",
+    "channel": "FlowersTV.in",
+    "channelId": "FlowersTV.in",
+    "channelName": "Flowers",
+    "startTs": 1775482200000,
+    "stopTs": 1775487600000,
+    "title": "Flowers Top Singer 5",
+    "desc": "Talented young singers compete on stage in front of a panel of judges to win the title. S01 E142."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "FlowersTV.in",
+    "channelId": "FlowersTV.in",
+    "channelName": "Flowers",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Mahalakshmi",
+    "desc": "Mahalakshmi&apos;s sacrifice shapes her path as Kannan supports her through life. S01 E407."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "FlowersTV.in",
+    "channelId": "FlowersTV.in",
+    "channelName": "Flowers",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Sukhamo Devi",
+    "desc": "A helpless Devika marries her lover&apos;s friend after he abandons her during their wedding. S01 E926."
+  },
+  {
+    "start": "16:00",
+    "stop": "17:00",
+    "channel": "FlowersTV.in",
+    "channelId": "FlowersTV.in",
+    "channelName": "Flowers",
+    "startTs": 1775491200000,
+    "stopTs": 1775494800000,
+    "title": "Flowers Comedy Ith Item Vere",
+    "desc": "Comedians perform hilarious skits in order to win the competition. S01 E516."
+  },
+  {
+    "start": "17:00",
+    "stop": "18:30",
+    "channel": "FlowersTV.in",
+    "channelId": "FlowersTV.in",
+    "channelName": "Flowers",
+    "startTs": 1775494800000,
+    "stopTs": 1775500200000,
+    "title": "Flowers Comedy Golden Moments",
+    "desc": "Revisit the best moments of &apos;Flowers Comedy,&apos; where comedians perform various skits. S01 E163."
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "start": "10:30",
+    "stop": "12:30",
+    "channel": "TaraNews.in",
+    "channelId": "TaraNews.in",
+    "channelName": "Tara News",
+    "startTs": 1775471400000,
+    "stopTs": 1775478600000,
+    "title": "News",
+    "desc": "The host presents the latest updates pertaining to politics, economic and social news."
+  },
+  {
+    "start": "12:30",
+    "stop": "14:30",
+    "channel": "TaraNews.in",
+    "channelId": "TaraNews.in",
+    "channelName": "Tara News",
+    "startTs": 1775478600000,
+    "stopTs": 1775485800000,
+    "title": "News",
+    "desc": "The host presents the latest updates pertaining to politics, economic and social news."
+  },
+  {
+    "start": "14:30",
+    "stop": "16:30",
+    "channel": "TaraNews.in",
+    "channelId": "TaraNews.in",
+    "channelName": "Tara News",
+    "startTs": 1775485800000,
+    "stopTs": 1775493000000,
+    "title": "News",
+    "desc": "The host presents the latest updates pertaining to politics, economic and social news."
+  },
+  {
+    "start": "16:30",
+    "stop": "18:30",
+    "channel": "TaraNews.in",
+    "channelId": "TaraNews.in",
+    "channelName": "Tara News",
+    "startTs": 1775493000000,
+    "stopTs": 1775500200000,
+    "title": "News",
+    "desc": "The host presents the latest updates pertaining to politics, economic and social news."
+  }
+]

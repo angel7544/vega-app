@@ -1,0 +1,57 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "LNI.in",
+    "channelId": "LNI.in",
+    "channelName": "LNI",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Just Trailors",
+    "desc": "A comprehensive compilation of trailers showcasing forthcoming cinematic releases."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "LNI.in",
+    "channelId": "LNI.in",
+    "channelName": "LNI",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Top 10 Hits",
+    "desc": "A comprehensive compilation of the top 10 songs sung and composed by talented artists is played."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "LNI.in",
+    "channelId": "LNI.in",
+    "channelName": "LNI",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Top 10 Hits",
+    "desc": "A comprehensive compilation of the top 10 songs sung and composed by talented artists is played."
+  },
+  {
+    "start": "12:30",
+    "stop": "16:30",
+    "channel": "LNI.in",
+    "channelId": "LNI.in",
+    "channelName": "LNI",
+    "startTs": 1775478600000,
+    "stopTs": 1775493000000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "16:30",
+    "stop": "18:30",
+    "channel": "LNI.in",
+    "channelId": "LNI.in",
+    "channelName": "LNI",
+    "startTs": 1775493000000,
+    "stopTs": 1775500200000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  }
+]

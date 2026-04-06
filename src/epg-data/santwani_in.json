@@ -1,0 +1,68 @@
+[
+  {
+    "start": "10:30",
+    "stop": "13:30",
+    "channel": "Santwani.in",
+    "channelId": "Santwani.in",
+    "channelName": "Santwani",
+    "startTs": 1775471400000,
+    "stopTs": 1775482200000,
+    "title": "Pujya Manushri ji Maharaj",
+    "desc": "Manushri Ji Maharaj sings hymns and tells stories from various Indian scriptures."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "Santwani.in",
+    "channelId": "Santwani.in",
+    "channelName": "Santwani",
+    "startTs": 1775482200000,
+    "stopTs": 1775485800000,
+    "title": "Balyogi Brahmanand Ji Maharaj",
+    "desc": "A religious leader sheds light on sacred texts, inspiring devotees to seek spirituality."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "Santwani.in",
+    "channelId": "Santwani.in",
+    "channelName": "Santwani",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Swami Karundas Ji",
+    "desc": "Swami Karun Das Ji conducts a religious discourse on the teachings of Hinduism."
+  },
+  {
+    "start": "15:00",
+    "stop": "17:30",
+    "channel": "Santwani.in",
+    "channelId": "Santwani.in",
+    "channelName": "Santwani",
+    "startTs": 1775487600000,
+    "stopTs": 1775496600000,
+    "title": "Pujya Prakashanand Ji Maharaj",
+    "desc": "."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "Santwani.in",
+    "channelId": "Santwani.in",
+    "channelName": "Santwani",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Acharya Pawan Pandey Ji",
+    "desc": "."
+  },
+  {
+    "start": "18:00",
+    "stop": "19:30",
+    "channel": "Santwani.in",
+    "channelId": "Santwani.in",
+    "channelName": "Santwani",
+    "startTs": 1775498400000,
+    "stopTs": 1775503800000,
+    "title": "Huzur Kanwar Sahib Ji Maharaj",
+    "desc": "Kanwar Sahibji Maharaj chants verses and delivers a discourse on the teachings of God."
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "JantantraTV.in",
+    "channelId": "JantantraTV.in",
+    "channelName": "Jantantra TV",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Fast News",
+    "desc": "The host presents information about the social, economic and political issues of the day."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "JantantraTV.in",
+    "channelId": "JantantraTV.in",
+    "channelName": "Jantantra TV",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "5 Ka Prime Time",
+    "desc": "The host presents the latest news updates and developments of the day."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "JantantraTV.in",
+    "channelId": "JantantraTV.in",
+    "channelName": "Jantantra TV",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Fast News",
+    "desc": "The host presents information about the social, economic and political issues of the day."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "JantantraTV.in",
+    "channelId": "JantantraTV.in",
+    "channelName": "Jantantra TV",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Harihar Chhatisgarh",
+    "desc": "The host sheds light on the latest news stories, updates and developments of Chhattisgarh."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "JantantraTV.in",
+    "channelId": "JantantraTV.in",
+    "channelName": "Jantantra TV",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Apna Uttarakhand",
+    "desc": "The host presents information about the social, economic and political issues."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "JantantraTV.in",
+    "channelId": "JantantraTV.in",
+    "channelName": "Jantantra TV",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Sabse Bada Akhada",
+    "desc": "A panel of experts from different fields debate on various issues concerning the nation."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "JantantraTV.in",
+    "channelId": "JantantraTV.in",
+    "channelName": "Jantantra TV",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Sabse Bada Akhada",
+    "desc": "A panel of experts from different fields debate on various issues concerning the nation."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "JantantraTV.in",
+    "channelId": "JantantraTV.in",
+    "channelName": "Jantantra TV",
+    "startTs": 1775485800000,
+    "stopTs": 1775489400000,
+    "title": "Delhi Special",
+    "desc": "The host collates and presents the latest news and updates from Delhi."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "JantantraTV.in",
+    "channelId": "JantantraTV.in",
+    "channelName": "Jantantra TV",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Apna Uttar Pradesh",
+    "desc": "A presenter reports important news and socio-political developments in Uttar Pradesh."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "JantantraTV.in",
+    "channelId": "JantantraTV.in",
+    "channelName": "Jantantra TV",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Good News",
+    "desc": "The host presents information about the social, economic and political issues of the day."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "JantantraTV.in",
+    "channelId": "JantantraTV.in",
+    "channelName": "Jantantra TV",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "News Roundup",
+    "desc": "The host provides a detailed coverage of the latest news and developments."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "JantantraTV.in",
+    "channelId": "JantantraTV.in",
+    "channelName": "Jantantra TV",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "F.I.R Crime Show",
+    "desc": "The host presents the latest news updates and developments pertaining to crime."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "JantantraTV.in",
+    "channelId": "JantantraTV.in",
+    "channelName": "Jantantra TV",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Close",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "JantantraTV.in",
+    "channelId": "JantantraTV.in",
+    "channelName": "Jantantra TV",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Close",
+    "desc": "Bringing the best in television."
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "VoiceTVUrdu.in",
+    "channelId": "VoiceTVUrdu.in",
+    "channelName": "Voice TV Urdu",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Bazam-E-Saaz",
+    "desc": "."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "VoiceTVUrdu.in",
+    "channelId": "VoiceTVUrdu.in",
+    "channelName": "Voice TV Urdu",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Qadawar Interection With Dignitaries",
+    "desc": "."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "VoiceTVUrdu.in",
+    "channelId": "VoiceTVUrdu.in",
+    "channelName": "Voice TV Urdu",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Islamic Naat",
+    "desc": "."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "VoiceTVUrdu.in",
+    "channelId": "VoiceTVUrdu.in",
+    "channelName": "Voice TV Urdu",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Ground Report",
+    "desc": "A journalist provides on-the-ground coverage of newsworthy events in India."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "VoiceTVUrdu.in",
+    "channelId": "VoiceTVUrdu.in",
+    "channelName": "Voice TV Urdu",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Khabar Ab Tak",
+    "desc": "The host presents the latest social, political and economic news from around the world."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "VoiceTVUrdu.in",
+    "channelId": "VoiceTVUrdu.in",
+    "channelName": "Voice TV Urdu",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Kashmiri Khabarnama",
+    "desc": "."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "VoiceTVUrdu.in",
+    "channelId": "VoiceTVUrdu.in",
+    "channelName": "Voice TV Urdu",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Mudda",
+    "desc": "The host discusses social, political and economic news stories with renowned experts."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "VoiceTVUrdu.in",
+    "channelId": "VoiceTVUrdu.in",
+    "channelName": "Voice TV Urdu",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Urdu Khabarnama",
+    "desc": "The host delivers timely updates and key headlines shaping the nation&apos;s current events."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "VoiceTVUrdu.in",
+    "channelId": "VoiceTVUrdu.in",
+    "channelName": "Voice TV Urdu",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Kashmiri Khabarnama",
+    "desc": "."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "VoiceTVUrdu.in",
+    "channelId": "VoiceTVUrdu.in",
+    "channelName": "Voice TV Urdu",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Din Bhar",
+    "desc": "The host presents the latest developments on key issues affecting the lives of people."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "VoiceTVUrdu.in",
+    "channelId": "VoiceTVUrdu.in",
+    "channelName": "Voice TV Urdu",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Kashmiri Sufi Mehfil Songs",
+    "desc": "."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "VoiceTVUrdu.in",
+    "channelId": "VoiceTVUrdu.in",
+    "channelName": "Voice TV Urdu",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Kashmiri Sufi Mehfil Songs",
+    "desc": "."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "VoiceTVUrdu.in",
+    "channelId": "VoiceTVUrdu.in",
+    "channelName": "Voice TV Urdu",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Gaash",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "VoiceTVUrdu.in",
+    "channelId": "VoiceTVUrdu.in",
+    "channelName": "Voice TV Urdu",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Mushaira",
+    "desc": "Poets from across regions gather at an event to present poems on various topics."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "VoiceTVUrdu.in",
+    "channelId": "VoiceTVUrdu.in",
+    "channelName": "Voice TV Urdu",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Kashmiri Sufi Mehfil Songs",
+    "desc": "."
+  }
+]

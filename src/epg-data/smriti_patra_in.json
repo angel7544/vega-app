@@ -1,0 +1,68 @@
+[
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "SmritiPatra.in",
+    "channelId": "SmritiPatra.in",
+    "channelName": "Smriti Patra",
+    "startTs": 1775471400000,
+    "stopTs": 1775475000000,
+    "title": "Bollywood Icons",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "11:30",
+    "stop": "13:30",
+    "channel": "SmritiPatra.in",
+    "channelId": "SmritiPatra.in",
+    "channelName": "Smriti Patra",
+    "startTs": 1775475000000,
+    "stopTs": 1775482200000,
+    "title": "Music Café",
+    "desc": "A collection of some of the most melodious and popular songs are played back-to-back."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "SmritiPatra.in",
+    "channelId": "SmritiPatra.in",
+    "channelName": "Smriti Patra",
+    "startTs": 1775482200000,
+    "stopTs": 1775485800000,
+    "title": "Hits Forever",
+    "desc": "A playlist of the best songs across various decades of Bollywood movies is played."
+  },
+  {
+    "start": "14:30",
+    "stop": "16:30",
+    "channel": "SmritiPatra.in",
+    "channelId": "SmritiPatra.in",
+    "channelName": "Smriti Patra",
+    "startTs": 1775485800000,
+    "stopTs": 1775493000000,
+    "title": "Romance Night",
+    "desc": "A compilation of the greatest foot-tapping romantic hits is played back to back."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "SmritiPatra.in",
+    "channelId": "SmritiPatra.in",
+    "channelName": "Smriti Patra",
+    "startTs": 1775493000000,
+    "stopTs": 1775496600000,
+    "title": "Bollywood Show",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:30",
+    "channel": "SmritiPatra.in",
+    "channelId": "SmritiPatra.in",
+    "channelName": "Smriti Patra",
+    "startTs": 1775496600000,
+    "stopTs": 1775500200000,
+    "title": "Romance Night",
+    "desc": "A compilation of the greatest foot-tapping romantic hits is played back to back."
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "start": "06:45",
+    "stop": "13:30",
+    "channel": "SomnathTemple.in",
+    "channelId": "SomnathTemple.in",
+    "channelName": "Somnath Temple",
+    "startTs": 1775457900000,
+    "stopTs": 1775482200000,
+    "title": "Darshan",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "13:30",
+    "stop": "13:45",
+    "channel": "SomnathTemple.in",
+    "channelId": "SomnathTemple.in",
+    "channelName": "Somnath Temple",
+    "startTs": 1775482200000,
+    "stopTs": 1775483100000,
+    "title": "Evening Aarti",
+    "desc": "A religious leader performs an &apos;arti&apos; in the presence of ardent devotees."
+  },
+  {
+    "start": "13:45",
+    "stop": "16:30",
+    "channel": "SomnathTemple.in",
+    "channelId": "SomnathTemple.in",
+    "channelName": "Somnath Temple",
+    "startTs": 1775483100000,
+    "stopTs": 1775493000000,
+    "title": "Darshan",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "16:30",
+    "stop": "00:30",
+    "channel": "SomnathTemple.in",
+    "channelId": "SomnathTemple.in",
+    "channelName": "Somnath Temple",
+    "startTs": 1775493000000,
+    "stopTs": 1775521800000,
+    "title": "Temple Closed",
+    "desc": "Bringing the best in television."
+  }
+]

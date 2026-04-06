@@ -1,0 +1,35 @@
+[
+  {
+    "start": "09:30",
+    "stop": "12:30",
+    "channel": "RTIndia.in",
+    "channelId": "RTIndia.in",
+    "channelName": "Russia Today",
+    "startTs": 1775467800000,
+    "stopTs": 1775478600000,
+    "title": "RT Programming",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "12:30",
+    "stop": "15:30",
+    "channel": "RTIndia.in",
+    "channelId": "RTIndia.in",
+    "channelName": "Russia Today",
+    "startTs": 1775478600000,
+    "stopTs": 1775489400000,
+    "title": "RT Programming",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "15:30",
+    "stop": "18:30",
+    "channel": "RTIndia.in",
+    "channelId": "RTIndia.in",
+    "channelName": "Russia Today",
+    "startTs": 1775489400000,
+    "stopTs": 1775500200000,
+    "title": "RT Programming",
+    "desc": "Bringing the best in television."
+  }
+]

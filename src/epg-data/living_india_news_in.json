@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:26",
-    "stop": "10:56",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775471160000,
-    "stopTs": 1775472960000,
-    "title": "Majha Malwa Doaba",
-    "desc": "The host provides the latest information, advancements and developments on various issues in Majha, Malwa and Doaba regions."
-  },
-  {
     "start": "10:56",
     "stop": "11:26",
     "channel": "LivingIndiaNews.in",
@@ -19,7 +8,7 @@
     "startTs": 1775472960000,
     "stopTs": 1775474760000,
     "title": "Special Report",
-    "desc": "The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports."
+    "desc": "The host presents some of the latest news stories, current affairs and developments."
   },
   {
     "start": "11:26",
@@ -30,7 +19,7 @@
     "startTs": 1775474760000,
     "stopTs": 1775476560000,
     "title": "5 Vaje Punjab",
-    "desc": "The host presents the latest news updates and major developments related to governance, social, economic and political matters from the state of Punjab."
+    "desc": "The host presents the latest news updates and major developments from the state of Punjab."
   },
   {
     "start": "11:56",
@@ -41,7 +30,7 @@
     "startTs": 1775476560000,
     "stopTs": 1775478360000,
     "title": "Sade Shahar Sade Pind",
-    "desc": "The host presents the latest news stories and developments pertaining to various political and socio-economic issues around the country."
+    "desc": "The host presents the latest news stories pertaining to various issues around the country."
   },
   {
     "start": "12:26",
@@ -52,7 +41,7 @@
     "startTs": 1775478360000,
     "stopTs": 1775480160000,
     "title": "Not Out 100",
-    "desc": "The host provides the latest information on the top 100 news stories on various political, economic and social issues in quick succession."
+    "desc": "The host shares the latest updates on the top 100 news stories in quick succession."
   },
   {
     "start": "12:56",
@@ -63,7 +52,7 @@
     "startTs": 1775480160000,
     "stopTs": 1775481960000,
     "title": "Visa Live",
-    "desc": "The host provides detailed information and the latest updates on the visa process for Indian citizens, both domestically and abroad, live."
+    "desc": "The host provides detailed information on the visa process for citizens, live."
   },
   {
     "start": "13:26",
@@ -85,7 +74,7 @@
     "startTs": 1775483760000,
     "stopTs": 1775485560000,
     "title": "Ground Zero",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+    "desc": "The host presents information on various social, economic and political issues."
   },
   {
     "start": "14:26",
@@ -96,7 +85,7 @@
     "startTs": 1775485560000,
     "stopTs": 1775487360000,
     "title": "Bhakda Masla",
-    "desc": "The host facilitates discussions and debates with various experts, who share their opinions on matters of national importance."
+    "desc": "The host conducts discussions with experts who share their opinions on important matters."
   },
   {
     "start": "14:56",
@@ -107,7 +96,7 @@
     "startTs": 1775487360000,
     "stopTs": 1775489160000,
     "title": "Bhakda Masla",
-    "desc": "The host facilitates discussions and debates with various experts, who share their opinions on matters of national importance."
+    "desc": "The host conducts discussions with experts who share their opinions on important matters."
   },
   {
     "start": "15:26",
@@ -118,7 +107,7 @@
     "startTs": 1775489160000,
     "stopTs": 1775490960000,
     "title": "Final Report",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+    "desc": "The host presents information about the social, economic and political issues of the day."
   },
   {
     "start": "15:56",
@@ -140,7 +129,7 @@
     "startTs": 1775492760000,
     "stopTs": 1775494560000,
     "title": "22 Jile 22 Khabar",
-    "desc": "The host presents the latest and most important updates on governance, social, economic and political news, along with major developments from various districts."
+    "desc": "The host presents the latest and most important news updates from various districts."
   },
   {
     "start": "16:56",
@@ -151,7 +140,7 @@
     "startTs": 1775494560000,
     "stopTs": 1775496360000,
     "title": "Not Out 100",
-    "desc": "The host provides the latest information on the top 100 news stories on various political, economic and social issues in quick succession."
+    "desc": "The host shares the latest updates on the top 100 news stories in quick succession."
   },
   {
     "start": "17:26",
@@ -162,512 +151,17 @@
     "startTs": 1775496360000,
     "stopTs": 1775498160000,
     "title": "Bhakda Masla",
-    "desc": "The host facilitates discussions and debates with various experts, who share their opinions on matters of national importance."
+    "desc": "The host conducts discussions with experts who share their opinions on important matters."
   },
   {
     "start": "17:56",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "LivingIndiaNews.in",
     "channelId": "LivingIndiaNews.in",
     "channelName": "Living India News",
     "startTs": 1775498160000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "Bhakda Masla",
-    "desc": "The host facilitates discussions and debates with various experts, who share their opinions on matters of national importance."
-  },
-  {
-    "start": "18:30",
-    "stop": "19:00",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775500200000,
-    "stopTs": 1775502000000,
-    "title": "Ground Zero",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "19:00",
-    "stop": "19:30",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775502000000,
-    "stopTs": 1775503800000,
-    "title": "Not Out 100",
-    "desc": "The host provides the latest information on the top 100 news stories on various political, economic and social issues in quick succession."
-  },
-  {
-    "start": "19:30",
-    "stop": "20:00",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775503800000,
-    "stopTs": 1775505600000,
-    "title": "Mhara Haryana",
-    "desc": "The host presents the latest updates, developments and current events on several key issues across various frameworks in the state of Haryana."
-  },
-  {
-    "start": "20:00",
-    "stop": "20:30",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775505600000,
-    "stopTs": 1775507400000,
-    "title": "Special Report",
-    "desc": "The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports."
-  },
-  {
-    "start": "20:30",
-    "stop": "21:00",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775507400000,
-    "stopTs": 1775509200000,
-    "title": "Final Report",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "21:00",
-    "stop": "21:30",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775509200000,
-    "stopTs": 1775511000000,
-    "title": "Ground Zero",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "21:30",
-    "stop": "22:00",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775511000000,
-    "stopTs": 1775512800000,
-    "title": "Bhakda Masla",
-    "desc": "The host facilitates discussions and debates with various experts, who share their opinions on matters of national importance."
-  },
-  {
-    "start": "22:00",
-    "stop": "22:30",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775512800000,
-    "stopTs": 1775514600000,
-    "title": "Bhakda Masla",
-    "desc": "The host facilitates discussions and debates with various experts, who share their opinions on matters of national importance."
-  },
-  {
-    "start": "22:30",
-    "stop": "23:00",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775514600000,
-    "stopTs": 1775516400000,
-    "title": "Ground Zero",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "23:00",
-    "stop": "23:26",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775516400000,
-    "stopTs": 1775517960000,
-    "title": "Not Out 100",
-    "desc": "The host provides the latest information on the top 100 news stories on various political, economic and social issues in quick succession."
-  },
-  {
-    "start": "23:26",
-    "stop": "23:56",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775517960000,
-    "stopTs": 1775519760000,
-    "title": "Mhara Haryana",
-    "desc": "The host presents the latest updates, developments and current events on several key issues across various frameworks in the state of Haryana."
-  },
-  {
-    "start": "23:56",
-    "stop": "00:26",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775519760000,
-    "stopTs": 1775521560000,
-    "title": "Special Report",
-    "desc": "The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports."
-  },
-  {
-    "start": "00:26",
-    "stop": "00:56",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775521560000,
-    "stopTs": 1775523360000,
-    "title": "Khabar Changi Hai",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "00:56",
-    "stop": "01:26",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775523360000,
-    "stopTs": 1775525160000,
-    "title": "Ground Zero",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "01:26",
-    "stop": "01:56",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775525160000,
-    "stopTs": 1775526960000,
-    "title": "Sajri Saver",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "01:56",
-    "stop": "02:26",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775526960000,
-    "stopTs": 1775528760000,
-    "title": "Sajri Saver",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "02:26",
-    "stop": "02:56",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775528760000,
-    "stopTs": 1775530560000,
-    "title": "8 Vaje Punjab",
-    "desc": "The host presents some of the latest news stories, updates and developments pertaining to current affairs from the state of Punjab."
-  },
-  {
-    "start": "02:56",
-    "stop": "03:26",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775530560000,
-    "stopTs": 1775532360000,
-    "title": "Notout",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "03:26",
-    "stop": "03:56",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775532360000,
-    "stopTs": 1775534160000,
-    "title": "Majha Malwa Doaba",
-    "desc": "The host provides the latest information, advancements and developments on various issues in Majha, Malwa and Doaba regions."
-  },
-  {
-    "start": "03:56",
-    "stop": "04:26",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775534160000,
-    "stopTs": 1775535960000,
-    "title": "Special",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "04:26",
-    "stop": "04:56",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775535960000,
-    "stopTs": 1775537760000,
-    "title": "Sade Shahar Sade Pind",
-    "desc": "The host presents the latest news stories and developments pertaining to various political and socio-economic issues around the country."
-  },
-  {
-    "start": "04:56",
-    "stop": "05:26",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775537760000,
-    "stopTs": 1775539560000,
-    "title": "Not Out 100",
-    "desc": "The host provides the latest information on the top 100 news stories on various political, economic and social issues in quick succession."
-  },
-  {
-    "start": "05:26",
-    "stop": "05:56",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775539560000,
-    "stopTs": 1775541360000,
-    "title": "Punjab Special",
-    "desc": "The host presents the latest updates, developments and current events on several key issues across various frameworks in the state of Punjab."
-  },
-  {
-    "start": "05:56",
-    "stop": "06:26",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775541360000,
-    "stopTs": 1775543160000,
-    "title": "Bhakda Masla",
-    "desc": "The host facilitates discussions and debates with various experts, who share their opinions on matters of national importance."
-  },
-  {
-    "start": "06:26",
-    "stop": "06:56",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775543160000,
-    "stopTs": 1775544960000,
-    "title": "Not Out 100",
-    "desc": "The host provides the latest information on the top 100 news stories on various political, economic and social issues in quick succession."
-  },
-  {
-    "start": "06:56",
-    "stop": "07:26",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775544960000,
-    "stopTs": 1775546760000,
-    "title": "Mhara Haryana",
-    "desc": "The host presents the latest updates, developments and current events on several key issues across various frameworks in the state of Haryana."
-  },
-  {
-    "start": "07:26",
-    "stop": "08:26",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775546760000,
-    "stopTs": 1775550360000,
-    "title": "Punjab News",
-    "desc": "The host presents a roundup of the latest social, political and economic news updates and developments from across the state and nation."
-  },
-  {
-    "start": "08:26",
-    "stop": "09:26",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775550360000,
-    "stopTs": 1775553960000,
-    "title": "Haryana/Punjab News",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "09:26",
-    "stop": "09:56",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775553960000,
-    "stopTs": 1775555760000,
-    "title": "Not Out 100",
-    "desc": "The host provides the latest information on the top 100 news stories on various political, economic and social issues in quick succession."
-  },
-  {
-    "start": "09:56",
-    "stop": "10:26",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775555760000,
-    "stopTs": 1775557560000,
-    "title": "Mhara Haryana",
-    "desc": "The host presents the latest updates, developments and current events on several key issues across various frameworks in the state of Haryana."
-  },
-  {
-    "start": "10:26",
-    "stop": "10:56",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775557560000,
-    "stopTs": 1775559360000,
-    "title": "Majha Malwa Doaba",
-    "desc": "The host provides the latest information, advancements and developments on various issues in Majha, Malwa and Doaba regions."
-  },
-  {
-    "start": "10:56",
-    "stop": "11:26",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775559360000,
-    "stopTs": 1775561160000,
-    "title": "Special Report",
-    "desc": "The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports."
-  },
-  {
-    "start": "11:26",
-    "stop": "11:56",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775561160000,
-    "stopTs": 1775562960000,
-    "title": "5 Vaje Punjab",
-    "desc": "The host presents the latest news updates and major developments related to governance, social, economic and political matters from the state of Punjab."
-  },
-  {
-    "start": "11:56",
-    "stop": "12:26",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775562960000,
-    "stopTs": 1775564760000,
-    "title": "Sade Shahar Sade Pind",
-    "desc": "The host presents the latest news stories and developments pertaining to various political and socio-economic issues around the country."
-  },
-  {
-    "start": "12:26",
-    "stop": "12:56",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775564760000,
-    "stopTs": 1775566560000,
-    "title": "Not Out 100",
-    "desc": "The host provides the latest information on the top 100 news stories on various political, economic and social issues in quick succession."
-  },
-  {
-    "start": "12:56",
-    "stop": "13:56",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775566560000,
-    "stopTs": 1775570160000,
-    "title": "Punjab News",
-    "desc": "The host presents a roundup of the latest social, political and economic news updates and developments from across the state and nation."
-  },
-  {
-    "start": "13:56",
-    "stop": "14:26",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775570160000,
-    "stopTs": 1775571960000,
-    "title": "Ground Zero",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "14:26",
-    "stop": "14:56",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775571960000,
-    "stopTs": 1775573760000,
-    "title": "Bhakda Masla",
-    "desc": "The host facilitates discussions and debates with various experts, who share their opinions on matters of national importance."
-  },
-  {
-    "start": "14:56",
-    "stop": "15:26",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775573760000,
-    "stopTs": 1775575560000,
-    "title": "Bhakda Masla",
-    "desc": "The host facilitates discussions and debates with various experts, who share their opinions on matters of national importance."
-  },
-  {
-    "start": "15:26",
-    "stop": "15:56",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775575560000,
-    "stopTs": 1775577360000,
-    "title": "Khabar Pate Di",
-    "desc": "The host sheds light on some of the latest news stories, updates and developments pertaining to current affairs of the nation."
-  },
-  {
-    "start": "15:56",
-    "stop": "16:26",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775577360000,
-    "stopTs": 1775579160000,
-    "title": "Special",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "16:26",
-    "stop": "16:56",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775579160000,
-    "stopTs": 1775580960000,
-    "title": "23 Zile 23 Khabar",
-    "desc": "The host sheds light on the latest news and gives an update regarding the various social, political and economic issues."
-  },
-  {
-    "start": "16:56",
-    "stop": "17:26",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775580960000,
-    "stopTs": 1775582760000,
-    "title": "Not Out 100 Live",
-    "desc": "The host presents the top 100 news updates and developments pertaining to politics, social issues and economy in quick succession."
-  },
-  {
-    "start": "17:26",
-    "stop": "17:56",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775582760000,
-    "stopTs": 1775584560000,
-    "title": "Bhakda Masla",
-    "desc": "The host facilitates discussions and debates with various experts, who share their opinions on matters of national importance."
-  },
-  {
-    "start": "17:56",
-    "stop": "18:29",
-    "channel": "LivingIndiaNews.in",
-    "channelId": "LivingIndiaNews.in",
-    "channelName": "Living India News",
-    "startTs": 1775584560000,
-    "stopTs": 1775586599000,
-    "title": "Bhakda Masla",
-    "desc": "The host facilitates discussions and debates with various experts, who share their opinions on matters of national importance."
+    "desc": "The host conducts discussions with experts who share their opinions on important matters."
   }
 ]

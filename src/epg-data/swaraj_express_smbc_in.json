@@ -1,0 +1,167 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "SwarajExpressSMBC.in",
+    "channelId": "SwarajExpressSMBC.in",
+    "channelName": "Swaraj Express SMBC",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "News @ 4:30 Pm",
+    "desc": "The host provides the latest information on various political, economic and social issues."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "SwarajExpressSMBC.in",
+    "channelId": "SwarajExpressSMBC.in",
+    "channelName": "Swaraj Express SMBC",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "News @5pm",
+    "desc": "The host provides the latest updates on political, economic and social issues."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "SwarajExpressSMBC.in",
+    "channelId": "SwarajExpressSMBC.in",
+    "channelName": "Swaraj Express SMBC",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "News @ 5:30 Pm",
+    "desc": "The host sheds light on the latest news updates and developments across the nation."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "SwarajExpressSMBC.in",
+    "channelId": "SwarajExpressSMBC.in",
+    "channelName": "Swaraj Express SMBC",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Chattishgarh Express",
+    "desc": "The host presents a detailed report on the latest news and developments from Chhattisgarh."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "SwarajExpressSMBC.in",
+    "channelId": "SwarajExpressSMBC.in",
+    "channelName": "Swaraj Express SMBC",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Devbhoomi Express",
+    "desc": "The host analyses the latest social, political and economic issues."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "SwarajExpressSMBC.in",
+    "channelId": "SwarajExpressSMBC.in",
+    "channelName": "Swaraj Express SMBC",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "News @ 7 PM",
+    "desc": "The host presents updates on the latest news stories throughout the entire globe."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "SwarajExpressSMBC.in",
+    "channelId": "SwarajExpressSMBC.in",
+    "channelName": "Swaraj Express SMBC",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Big Debate",
+    "desc": "The host moderates a debate among experts on the ongoing issues of the nation."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "SwarajExpressSMBC.in",
+    "channelId": "SwarajExpressSMBC.in",
+    "channelName": "Swaraj Express SMBC",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Satta Ka Sangaram",
+    "desc": "The host presents a detailed report on important updates that matter to the citizens of the nation."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "SwarajExpressSMBC.in",
+    "channelId": "SwarajExpressSMBC.in",
+    "channelName": "Swaraj Express SMBC",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Chattishgarh Express",
+    "desc": "The host presents a detailed report on the latest news and developments from Chhattisgarh."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "SwarajExpressSMBC.in",
+    "channelId": "SwarajExpressSMBC.in",
+    "channelName": "Swaraj Express SMBC",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Devbhoomi Express",
+    "desc": "The host analyses the latest social, political and economic issues."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "SwarajExpressSMBC.in",
+    "channelId": "SwarajExpressSMBC.in",
+    "channelName": "Swaraj Express SMBC",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Uttar Pradesh Express",
+    "desc": "The host presents news updates, developments and the latest trends in Uttar Pradesh."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "SwarajExpressSMBC.in",
+    "channelId": "SwarajExpressSMBC.in",
+    "channelName": "Swaraj Express SMBC",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "News @ 10 PM",
+    "desc": "The anchor sheds light on the top stories from the country and all over the world."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "SwarajExpressSMBC.in",
+    "channelId": "SwarajExpressSMBC.in",
+    "channelName": "Swaraj Express SMBC",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Crime Factor",
+    "desc": "The host narrates the latest crime stories from all over India to forestall them."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "SwarajExpressSMBC.in",
+    "channelId": "SwarajExpressSMBC.in",
+    "channelName": "Swaraj Express SMBC",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Big Debate",
+    "desc": "The host moderates a debate among experts on the ongoing issues of the nation."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "SwarajExpressSMBC.in",
+    "channelId": "SwarajExpressSMBC.in",
+    "channelName": "Swaraj Express SMBC",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "News Bulletin",
+    "desc": "The host presents the latest news stories pertaining to various issues around the globe."
+  }
+]

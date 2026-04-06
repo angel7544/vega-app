@@ -1,0 +1,156 @@
+[
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "TV5Kannada.in",
+    "channelId": "TV5Kannada.in",
+    "channelName": "TV5 Kannada",
+    "startTs": 1775471400000,
+    "stopTs": 1775475000000,
+    "title": "Live Karnataka",
+    "desc": "The host delivers all the latest news stories on significant matters from Karnataka,live."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "TV5Kannada.in",
+    "channelId": "TV5Kannada.in",
+    "channelName": "TV5 Kannada",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "5 PM News",
+    "desc": "The host discusses the latest socio-economic and political news, updates and developments."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "TV5Kannada.in",
+    "channelId": "TV5Kannada.in",
+    "channelName": "TV5 Kannada",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Movie Mane",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "TV5Kannada.in",
+    "channelId": "TV5Kannada.in",
+    "channelName": "TV5 Kannada",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "News Express",
+    "desc": "The host presents a detailed report on the latest news and developments."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "TV5Kannada.in",
+    "channelId": "TV5Kannada.in",
+    "channelName": "TV5 Kannada",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Commercial",
+    "desc": "The host promotes a range of products that can be bought from the comfort of one&apos;s home."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "TV5Kannada.in",
+    "channelId": "TV5Kannada.in",
+    "channelName": "TV5 Kannada",
+    "startTs": 1775482200000,
+    "stopTs": 1775485800000,
+    "title": "Akada",
+    "desc": "A veteran anchor steers compelling debates with leaders on regional politics."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "TV5Kannada.in",
+    "channelId": "TV5Kannada.in",
+    "channelName": "TV5 Kannada",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "8 PM News",
+    "desc": "The host shares the top news making headlines on issues of national and public interest."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "TV5Kannada.in",
+    "channelId": "TV5Kannada.in",
+    "channelName": "TV5 Kannada",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Focus Five",
+    "desc": "The host presents the top five news, updates and developments."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "TV5Kannada.in",
+    "channelId": "TV5Kannada.in",
+    "channelName": "TV5 Kannada",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "9 PM News",
+    "desc": "The host provides the latest news on socioeconomic issues, politics, and current affairs."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "TV5Kannada.in",
+    "channelId": "TV5Kannada.in",
+    "channelName": "TV5 Kannada",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "9.30 Special Segment",
+    "desc": "The host presents detailed reports on pressing national and regional issues."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "TV5Kannada.in",
+    "channelId": "TV5Kannada.in",
+    "channelName": "TV5 Kannada",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "10 PM News",
+    "desc": "The host presents information about the social, economic and political issues of the day."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "TV5Kannada.in",
+    "channelId": "TV5Kannada.in",
+    "channelName": "TV5 Kannada",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Viral Adda",
+    "desc": "The host presents the latest viral news stories taking place all over the country."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "TV5Kannada.in",
+    "channelId": "TV5Kannada.in",
+    "channelName": "TV5 Kannada",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "News Express",
+    "desc": "The host presents a detailed report on the latest news and developments."
+  },
+  {
+    "start": "18:00",
+    "stop": "19:00",
+    "channel": "TV5Kannada.in",
+    "channelId": "TV5Kannada.in",
+    "channelName": "TV5 Kannada",
+    "startTs": 1775498400000,
+    "stopTs": 1775502000000,
+    "title": "Akada",
+    "desc": "A veteran anchor steers compelling debates with leaders on regional politics."
+  }
+]

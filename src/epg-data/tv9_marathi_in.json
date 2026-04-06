@@ -1,0 +1,167 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "TV9Marathi.in",
+    "channelId": "TV9Marathi.in",
+    "channelName": "TV9 Marathi",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Superfast 50",
+    "desc": "The host presents the top 50 news pertaining to various issues in quick succession."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "TV9Marathi.in",
+    "channelId": "TV9Marathi.in",
+    "channelName": "TV9 Marathi",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Maharashtra Prime Time",
+    "desc": "The host presents the latest updates on several significant issues of Maharashtra."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "TV9Marathi.in",
+    "channelId": "TV9Marathi.in",
+    "channelName": "TV9 Marathi",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "36 Jilhe 72 Batmya",
+    "desc": "The host presents 72 updates on social, economic and political issues from 36 districts."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "TV9Marathi.in",
+    "channelId": "TV9Marathi.in",
+    "channelName": "TV9 Marathi",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Maharashtra Prime Time",
+    "desc": "The host presents the latest updates on several significant issues of Maharashtra."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "TV9Marathi.in",
+    "channelId": "TV9Marathi.in",
+    "channelName": "TV9 Marathi",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "36 Jilhe 50 Batmya",
+    "desc": "The host sheds light on the top 50 news updates from across the state&apos;s 36 districts."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "TV9Marathi.in",
+    "channelId": "TV9Marathi.in",
+    "channelName": "TV9 Marathi",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Desh Maharashtra",
+    "desc": "The host presents the latest updates on several key issues in the state of Maharashtra."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "TV9Marathi.in",
+    "channelId": "TV9Marathi.in",
+    "channelName": "TV9 Marathi",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "News Top 9",
+    "desc": "The host highlights the nine most significant news stories of the day."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "TV9Marathi.in",
+    "channelId": "TV9Marathi.in",
+    "channelName": "TV9 Marathi",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "8 PM Special report",
+    "desc": "The host provides a detailed report on matters concerning the state and the nation."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "TV9Marathi.in",
+    "channelId": "TV9Marathi.in",
+    "channelName": "TV9 Marathi",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "TV9 Vishesh",
+    "desc": "A comprehensive insight into political developments and socio-economic trends."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "TV9Marathi.in",
+    "channelId": "TV9Marathi.in",
+    "channelName": "TV9 Marathi",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "News Top 9",
+    "desc": "The host highlights the nine most significant news stories of the day."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "TV9Marathi.in",
+    "channelId": "TV9Marathi.in",
+    "channelName": "TV9 Marathi",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Local To Global",
+    "desc": "The host presents the latest local to global news updates from around the world."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "TV9Marathi.in",
+    "channelId": "TV9Marathi.in",
+    "channelName": "TV9 Marathi",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Aajchi Baat",
+    "desc": "The host presents the latest updates pertaining to the current affairs of the country."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "TV9Marathi.in",
+    "channelId": "TV9Marathi.in",
+    "channelName": "TV9 Marathi",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Metro Night",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "TV9Marathi.in",
+    "channelId": "TV9Marathi.in",
+    "channelName": "TV9 Marathi",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "News Top 9",
+    "desc": "The host highlights the nine most significant news stories of the day."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "TV9Marathi.in",
+    "channelId": "TV9Marathi.in",
+    "channelName": "TV9 Marathi",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "TV9 Bulletin",
+    "desc": "The host presents the latest news related to economy, politics, sports and entertainment."
+  }
+]

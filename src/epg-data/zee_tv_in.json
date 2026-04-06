@@ -1,0 +1,200 @@
+[
+  {
+    "start": "11:00",
+    "stop": "12:00",
+    "channel": "ZeeTV.in",
+    "channelId": "ZeeTV.in",
+    "channelName": "Zee TV",
+    "startTs": 1775473200000,
+    "stopTs": 1775476800000,
+    "title": "Lakshmi Nivas",
+    "desc": ". S01 E82."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "ZeeTV.in",
+    "channelId": "ZeeTV.in",
+    "channelName": "Zee TV",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Vasudha",
+    "desc": "Vasudha, a maid at Chandrika&apos;s household, seeks approval from the business tycoon. S01 E521."
+  },
+  {
+    "start": "12:29",
+    "stop": "13:00",
+    "channel": "ZeeTV.in",
+    "channelId": "ZeeTV.in",
+    "channelName": "Zee TV",
+    "startTs": 1775478540000,
+    "stopTs": 1775480400000,
+    "title": "Tum Se Tum Tak",
+    "desc": "A young woman&apos;s unexpected bond with a much older businessman brings change. S01 E270."
+  },
+  {
+    "start": "12:30",
+    "stop": "12:59",
+    "channel": "ZeeTV.in",
+    "channelId": "ZeeTV.in",
+    "channelName": "Zee TV",
+    "startTs": 1775478600000,
+    "stopTs": 1775480340000,
+    "title": "Tum Se Tum Tak",
+    "desc": "A young woman&apos;s unexpected bond with a much older businessman brings change. S01 E270."
+  },
+  {
+    "start": "12:59",
+    "stop": "13:29",
+    "channel": "ZeeTV.in",
+    "channelId": "ZeeTV.in",
+    "channelName": "Zee TV",
+    "startTs": 1775480340000,
+    "stopTs": 1775482140000,
+    "title": "Ganga Mai Ki Betiyaan",
+    "desc": "Ganga Mai dedicates herself to raising her daughters after being abandoned by her husband. S01 E191."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:29",
+    "channel": "ZeeTV.in",
+    "channelId": "ZeeTV.in",
+    "channelName": "Zee TV",
+    "startTs": 1775480400000,
+    "stopTs": 1775482140000,
+    "title": "Ganga Mai Ki Betiyaan",
+    "desc": "Ganga Mai dedicates herself to raising her daughters after being abandoned by her husband. S01 E191."
+  },
+  {
+    "start": "13:29",
+    "stop": "13:59",
+    "channel": "ZeeTV.in",
+    "channelId": "ZeeTV.in",
+    "channelName": "Zee TV",
+    "startTs": 1775482140000,
+    "stopTs": 1775483940000,
+    "title": "Saru",
+    "desc": "A kabaddi player balances her ambitions while fighting for her mother&apos;s family status. S01 E326."
+  },
+  {
+    "start": "13:59",
+    "stop": "14:59",
+    "channel": "ZeeTV.in",
+    "channelId": "ZeeTV.in",
+    "channelName": "Zee TV",
+    "startTs": 1775483940000,
+    "stopTs": 1775487540000,
+    "title": "Lakshmi Nivas",
+    "desc": ". S01 E83."
+  },
+  {
+    "start": "14:59",
+    "stop": "15:29",
+    "channel": "ZeeTV.in",
+    "channelId": "ZeeTV.in",
+    "channelName": "Zee TV",
+    "startTs": 1775487540000,
+    "stopTs": 1775489340000,
+    "title": "Tum Se Tum Tak",
+    "desc": "A young woman&apos;s unexpected bond with a much older businessman brings change. S01 E271."
+  },
+  {
+    "start": "15:29",
+    "stop": "16:08",
+    "channel": "ZeeTV.in",
+    "channelId": "ZeeTV.in",
+    "channelName": "Zee TV",
+    "startTs": 1775489340000,
+    "stopTs": 1775491680000,
+    "title": "Ganga Mai Ki Betiyaan",
+    "desc": "Ganga Mai dedicates herself to raising her daughters after being abandoned by her husband. S01 E192."
+  },
+  {
+    "start": "16:08",
+    "stop": "16:47",
+    "channel": "ZeeTV.in",
+    "channelId": "ZeeTV.in",
+    "channelName": "Zee TV",
+    "startTs": 1775491680000,
+    "stopTs": 1775494020000,
+    "title": "Vasudha",
+    "desc": "Vasudha, a maid at Chandrika&apos;s household, seeks approval from the business tycoon. S01 E522."
+  },
+  {
+    "start": "16:47",
+    "stop": "17:16",
+    "channel": "ZeeTV.in",
+    "channelId": "ZeeTV.in",
+    "channelName": "Zee TV",
+    "startTs": 1775494020000,
+    "stopTs": 1775495760000,
+    "title": "Jagadhatri",
+    "desc": "A young woman, who is secretly a police officer, resolves to clear her mother&apos;s name. S01 E146."
+  },
+  {
+    "start": "17:16",
+    "stop": "17:56",
+    "channel": "ZeeTV.in",
+    "channelId": "ZeeTV.in",
+    "channelName": "Zee TV",
+    "startTs": 1775495760000,
+    "stopTs": 1775498160000,
+    "title": "Jaane Anjaane Hum Mile",
+    "desc": "Reet, a career-oriented woman, finds it difficult to deal with the pressures of marriage. S01 E475."
+  },
+  {
+    "start": "17:17",
+    "stop": "18:02",
+    "channel": "ZeeTV.in",
+    "channelId": "ZeeTV.in",
+    "channelName": "Zee TV",
+    "startTs": 1775495820000,
+    "stopTs": 1775498520000,
+    "title": "Jaane Anjaane Hum Mile",
+    "desc": "Reet, a career-oriented woman, finds it difficult to deal with the pressures of marriage. S01 E475."
+  },
+  {
+    "start": "17:56",
+    "stop": "18:21",
+    "channel": "ZeeTV.in",
+    "channelId": "ZeeTV.in",
+    "channelName": "Zee TV",
+    "startTs": 1775498160000,
+    "stopTs": 1775499660000,
+    "title": "Tum Se Tum Tak",
+    "desc": "A young woman&apos;s unexpected bond with a much older businessman brings change. S01 E271."
+  },
+  {
+    "start": "18:02",
+    "stop": "18:26",
+    "channel": "ZeeTV.in",
+    "channelId": "ZeeTV.in",
+    "channelName": "Zee TV",
+    "startTs": 1775498520000,
+    "stopTs": 1775499960000,
+    "title": "Tum Se Tum Tak",
+    "desc": "A young woman&apos;s unexpected bond with a much older businessman brings change. S01 E271."
+  },
+  {
+    "start": "18:21",
+    "stop": "18:53",
+    "channel": "ZeeTV.in",
+    "channelId": "ZeeTV.in",
+    "channelName": "Zee TV",
+    "startTs": 1775499660000,
+    "stopTs": 1775501580000,
+    "title": "Vasudha",
+    "desc": "Vasudha, a maid at Chandrika&apos;s household, seeks approval from the business tycoon. S01 E522."
+  },
+  {
+    "start": "18:26",
+    "stop": "18:58",
+    "channel": "ZeeTV.in",
+    "channelId": "ZeeTV.in",
+    "channelName": "Zee TV",
+    "startTs": 1775499960000,
+    "stopTs": 1775501880000,
+    "title": "Vasudha",
+    "desc": "Vasudha, a maid at Chandrika&apos;s household, seeks approval from the business tycoon. S01 E522."
+  }
+]

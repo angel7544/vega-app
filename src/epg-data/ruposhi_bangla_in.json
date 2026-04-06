@@ -1,0 +1,57 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "RupasiBangla.in",
+    "channelId": "RupasiBangla.in",
+    "channelName": "Ruposhi Bangla",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Teleshopping",
+    "desc": "The host highlights the features of a variety of products for purchase."
+  },
+  {
+    "start": "11:30",
+    "stop": "14:30",
+    "channel": "RupasiBangla.in",
+    "channelId": "RupasiBangla.in",
+    "channelName": "Ruposhi Bangla",
+    "startTs": 1775475000000,
+    "stopTs": 1775485800000,
+    "title": "Mafia",
+    "desc": "A narcotics officer engages in a cat-and-mouse chase to capture a powerful criminal."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "RupasiBangla.in",
+    "channelId": "RupasiBangla.in",
+    "channelName": "Ruposhi Bangla",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Teleshopping",
+    "desc": "The host highlights the features of a variety of products for purchase."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "RupasiBangla.in",
+    "channelId": "RupasiBangla.in",
+    "channelName": "Ruposhi Bangla",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Teleshopping",
+    "desc": "The host highlights the features of a variety of products for purchase."
+  },
+  {
+    "start": "15:30",
+    "stop": "18:30",
+    "channel": "RupasiBangla.in",
+    "channelId": "RupasiBangla.in",
+    "channelName": "Ruposhi Bangla",
+    "startTs": 1775489400000,
+    "stopTs": 1775500200000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  }
+]

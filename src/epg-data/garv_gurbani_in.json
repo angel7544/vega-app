@@ -1,0 +1,222 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "GarvGurbani.in",
+    "channelId": "GarvGurbani.in",
+    "channelName": "Garv Gurbani",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Shabad Kirtan",
+    "desc": "Renowned &apos;ragis&apos; render Shabad Gurbani kirtans in the praise of the Almighty."
+  },
+  {
+    "start": "11:30",
+    "stop": "11:55",
+    "channel": "GarvGurbani.in",
+    "channelId": "GarvGurbani.in",
+    "channelName": "Garv Gurbani",
+    "startTs": 1775475000000,
+    "stopTs": 1775476500000,
+    "title": "Shabad Kirtan",
+    "desc": "Renowned &apos;ragis&apos; render Shabad Gurbani kirtans in the praise of the Almighty."
+  },
+  {
+    "start": "11:55",
+    "stop": "12:00",
+    "channel": "GarvGurbani.in",
+    "channelId": "GarvGurbani.in",
+    "channelName": "Garv Gurbani",
+    "startTs": 1775476500000,
+    "stopTs": 1775476800000,
+    "title": "Promo / Advertisement",
+    "desc": "An insight into a variety of promotional content and advertisements."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "GarvGurbani.in",
+    "channelId": "GarvGurbani.in",
+    "channelName": "Garv Gurbani",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Patna Sahib",
+    "desc": "A religious leader delivers a detailed discourse on the Takht Sri Patna Sahib, a Gurdwara."
+  },
+  {
+    "start": "12:30",
+    "stop": "12:55",
+    "channel": "GarvGurbani.in",
+    "channelId": "GarvGurbani.in",
+    "channelName": "Garv Gurbani",
+    "startTs": 1775478600000,
+    "stopTs": 1775480100000,
+    "title": "Patna Sahib",
+    "desc": "A religious leader delivers a detailed discourse on the Takht Sri Patna Sahib, a Gurdwara."
+  },
+  {
+    "start": "12:55",
+    "stop": "13:27",
+    "channel": "GarvGurbani.in",
+    "channelId": "GarvGurbani.in",
+    "channelName": "Garv Gurbani",
+    "startTs": 1775480100000,
+    "stopTs": 1775482020000,
+    "title": "Patna Sahib",
+    "desc": "A religious leader delivers a detailed discourse on the Takht Sri Patna Sahib, a Gurdwara."
+  },
+  {
+    "start": "13:27",
+    "stop": "13:30",
+    "channel": "GarvGurbani.in",
+    "channelId": "GarvGurbani.in",
+    "channelName": "Garv Gurbani",
+    "startTs": 1775482020000,
+    "stopTs": 1775482200000,
+    "title": "Promo / Advertisement",
+    "desc": "An insight into a variety of promotional content and advertisements."
+  },
+  {
+    "start": "13:30",
+    "stop": "13:57",
+    "channel": "GarvGurbani.in",
+    "channelId": "GarvGurbani.in",
+    "channelName": "Garv Gurbani",
+    "startTs": 1775482200000,
+    "stopTs": 1775483820000,
+    "title": "Singh Sahibaan",
+    "desc": "An expert recites the important teachings of Sikhism and explains its underlying meanings."
+  },
+  {
+    "start": "13:57",
+    "stop": "14:00",
+    "channel": "GarvGurbani.in",
+    "channelId": "GarvGurbani.in",
+    "channelName": "Garv Gurbani",
+    "startTs": 1775483820000,
+    "stopTs": 1775484000000,
+    "title": "Promo",
+    "desc": "A compilation of promotional events and snippets of various programmes is presented."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:27",
+    "channel": "GarvGurbani.in",
+    "channelId": "GarvGurbani.in",
+    "channelName": "Garv Gurbani",
+    "startTs": 1775484000000,
+    "stopTs": 1775485620000,
+    "title": "Shabad Kirtan",
+    "desc": "Renowned &apos;ragis&apos; render Shabad Gurbani kirtans in the praise of the Almighty."
+  },
+  {
+    "start": "14:27",
+    "stop": "14:30",
+    "channel": "GarvGurbani.in",
+    "channelId": "GarvGurbani.in",
+    "channelName": "Garv Gurbani",
+    "startTs": 1775485620000,
+    "stopTs": 1775485800000,
+    "title": "Promo / Advertisement",
+    "desc": "An insight into a variety of promotional content and advertisements."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "GarvGurbani.in",
+    "channelId": "GarvGurbani.in",
+    "channelName": "Garv Gurbani",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Shabad Kirtan",
+    "desc": "Renowned &apos;ragis&apos; render Shabad Gurbani kirtans in the praise of the Almighty."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:25",
+    "channel": "GarvGurbani.in",
+    "channelId": "GarvGurbani.in",
+    "channelName": "Garv Gurbani",
+    "startTs": 1775487600000,
+    "stopTs": 1775489100000,
+    "title": "Shabad Kirtan",
+    "desc": "Renowned &apos;ragis&apos; render Shabad Gurbani kirtans in the praise of the Almighty."
+  },
+  {
+    "start": "15:25",
+    "stop": "15:55",
+    "channel": "GarvGurbani.in",
+    "channelId": "GarvGurbani.in",
+    "channelName": "Garv Gurbani",
+    "startTs": 1775489100000,
+    "stopTs": 1775490900000,
+    "title": "Shabad Kirtan",
+    "desc": "Renowned &apos;ragis&apos; render Shabad Gurbani kirtans in the praise of the Almighty."
+  },
+  {
+    "start": "15:55",
+    "stop": "16:00",
+    "channel": "GarvGurbani.in",
+    "channelId": "GarvGurbani.in",
+    "channelName": "Garv Gurbani",
+    "startTs": 1775490900000,
+    "stopTs": 1775491200000,
+    "title": "Promo / Advertisement",
+    "desc": "An insight into a variety of promotional content and advertisements."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "GarvGurbani.in",
+    "channelId": "GarvGurbani.in",
+    "channelName": "Garv Gurbani",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Sukhmani Sahib",
+    "desc": "Sikh devotees gather to chant sacred devotional verses from the Sukhmani Sahib."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "GarvGurbani.in",
+    "channelId": "GarvGurbani.in",
+    "channelName": "Garv Gurbani",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Sukhmani Sahib",
+    "desc": "Sikh devotees gather to chant sacred devotional verses from the Sukhmani Sahib."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "GarvGurbani.in",
+    "channelId": "GarvGurbani.in",
+    "channelName": "Garv Gurbani",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Sukhmani Sahib",
+    "desc": "Sikh devotees gather to chant sacred devotional verses from the Sukhmani Sahib."
+  },
+  {
+    "start": "17:30",
+    "stop": "17:35",
+    "channel": "GarvGurbani.in",
+    "channelId": "GarvGurbani.in",
+    "channelName": "Garv Gurbani",
+    "startTs": 1775496600000,
+    "stopTs": 1775496900000,
+    "title": "Sukhmani Sahib",
+    "desc": "Sikh devotees gather to chant sacred devotional verses from the Sukhmani Sahib."
+  },
+  {
+    "start": "17:35",
+    "stop": "18:30",
+    "channel": "GarvGurbani.in",
+    "channelId": "GarvGurbani.in",
+    "channelName": "Garv Gurbani",
+    "startTs": 1775496900000,
+    "stopTs": 1775500200000,
+    "title": "Shabad Kirtan",
+    "desc": "Renowned &apos;ragis&apos; render Shabad Gurbani kirtans in the praise of the Almighty."
+  }
+]

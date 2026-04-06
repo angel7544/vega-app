@@ -1,0 +1,79 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "DDHimachalPradesh.in",
+    "channelId": "DDHimachalPradesh.in",
+    "channelName": "DD Himachal",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Special Program / Gandhi Darshan",
+    "desc": "The host sheds light on Mahatma Gandhi, who is known for preaching non-violence."
+  },
+  {
+    "start": "11:30",
+    "stop": "11:45",
+    "channel": "DDHimachalPradesh.in",
+    "channelId": "DDHimachalPradesh.in",
+    "channelName": "DD Himachal",
+    "startTs": 1775475000000,
+    "stopTs": 1775475900000,
+    "title": "Sponsored / Dcd / Ek Bharat Shrest Bharat",
+    "desc": "The host delves deeper into the rich history, traditions as well as landscapes of India."
+  },
+  {
+    "start": "11:45",
+    "stop": "12:00",
+    "channel": "DDHimachalPradesh.in",
+    "channelId": "DDHimachalPradesh.in",
+    "channelName": "DD Himachal",
+    "startTs": 1775475900000,
+    "stopTs": 1775476800000,
+    "title": "Zilon Se Samachar",
+    "desc": "The host delivers comprehensive coverage of local issues from across the region."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "DDHimachalPradesh.in",
+    "channelId": "DDHimachalPradesh.in",
+    "channelName": "DD Himachal",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Krishi Darshan",
+    "desc": "The host provides a detailed report pertaining to the field of agriculture from across the nation."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "DDHimachalPradesh.in",
+    "channelId": "DDHimachalPradesh.in",
+    "channelName": "DD Himachal",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Himalayan Trail",
+    "desc": "Hikers embark on a breathtaking journey through the Himalayan Trail."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "DDHimachalPradesh.in",
+    "channelId": "DDHimachalPradesh.in",
+    "channelName": "DD Himachal",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Regional News",
+    "desc": "The host presents a detailed look at relevant local news stories and civic issues."
+  },
+  {
+    "start": "13:30",
+    "stop": "18:30",
+    "channel": "DDHimachalPradesh.in",
+    "channelId": "DDHimachalPradesh.in",
+    "channelName": "DD Himachal",
+    "startTs": 1775482200000,
+    "stopTs": 1775500200000,
+    "title": "Relay From Delhi",
+    "desc": "Bringing the best in television."
+  }
+]

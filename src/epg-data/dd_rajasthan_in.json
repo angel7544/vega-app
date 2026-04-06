@@ -1,0 +1,167 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "DDRajasthan.in",
+    "channelId": "DDRajasthan.in",
+    "channelName": "DD Rajasthan",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Swasth Desh",
+    "desc": "The host engages in enlightening dialogues with healthcare professionals."
+  },
+  {
+    "start": "11:30",
+    "stop": "11:33",
+    "channel": "DDRajasthan.in",
+    "channelId": "DDRajasthan.in",
+    "channelName": "DD Rajasthan",
+    "startTs": 1775475000000,
+    "stopTs": 1775475180000,
+    "title": "Rajasthani News",
+    "desc": "The anchor presents the latest news updates from various parts of Rajasthan."
+  },
+  {
+    "start": "11:33",
+    "stop": "12:30",
+    "channel": "DDRajasthan.in",
+    "channelId": "DDRajasthan.in",
+    "channelName": "DD Rajasthan",
+    "startTs": 1775475180000,
+    "stopTs": 1775478600000,
+    "title": "Krishi Darshan Phone - In Live",
+    "desc": "The host invites experts who answer calls from farmers to guide them with agrarian methods, live."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "DDRajasthan.in",
+    "channelId": "DDRajasthan.in",
+    "channelName": "DD Rajasthan",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Chaupal",
+    "desc": "People interact with the host and share their problems for the betterment of their village."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:25",
+    "channel": "DDRajasthan.in",
+    "channelId": "DDRajasthan.in",
+    "channelName": "DD Rajasthan",
+    "startTs": 1775480400000,
+    "stopTs": 1775481900000,
+    "title": "Sponsored Programme",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "13:25",
+    "stop": "13:30",
+    "channel": "DDRajasthan.in",
+    "channelId": "DDRajasthan.in",
+    "channelName": "DD Rajasthan",
+    "startTs": 1775481900000,
+    "stopTs": 1775482200000,
+    "title": "SOS / Highlight",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "DDRajasthan.in",
+    "channelId": "DDRajasthan.in",
+    "channelName": "DD Rajasthan",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Hindi Regional News",
+    "desc": "The host sheds light on the latest news updates from around the region."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "DDRajasthan.in",
+    "channelId": "DDRajasthan.in",
+    "channelName": "DD Rajasthan",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Charcha Mein",
+    "desc": "The host invites eminent leaders, who discuss various issues pertaining to the society."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "DDRajasthan.in",
+    "channelId": "DDRajasthan.in",
+    "channelName": "DD Rajasthan",
+    "startTs": 1775485800000,
+    "stopTs": 1775489400000,
+    "title": "Alblo Rajasthan Live",
+    "desc": "The hosts welcome guests who discuss their personal and professional lives, live."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:15",
+    "channel": "DDRajasthan.in",
+    "channelId": "DDRajasthan.in",
+    "channelName": "DD Rajasthan",
+    "startTs": 1775489400000,
+    "stopTs": 1775492100000,
+    "title": "Hindi Kavi Sammelan",
+    "desc": "Renowned poets recite their finest works, offering an enriching poetic experience."
+  },
+  {
+    "start": "16:15",
+    "stop": "16:30",
+    "channel": "DDRajasthan.in",
+    "channelId": "DDRajasthan.in",
+    "channelName": "DD Rajasthan",
+    "startTs": 1775492100000,
+    "stopTs": 1775493000000,
+    "title": "Light / Folk Music",
+    "desc": "A compilation of soothing melodies is played; a selection of folk songs is played."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "DDRajasthan.in",
+    "channelId": "DDRajasthan.in",
+    "channelName": "DD Rajasthan",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Chaupal",
+    "desc": "People interact with the host and share their problems for the betterment of their village."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "DDRajasthan.in",
+    "channelId": "DDRajasthan.in",
+    "channelName": "DD Rajasthan",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Krishi Darshan",
+    "desc": "The host provides a detailed report pertaining to the field of agriculture from across the nation."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "DDRajasthan.in",
+    "channelId": "DDRajasthan.in",
+    "channelName": "DD Rajasthan",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Chitrageet / Tarane Purane",
+    "desc": "A compilation of some of the most popular songs from Indian feature films."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "DDRajasthan.in",
+    "channelId": "DDRajasthan.in",
+    "channelName": "DD Rajasthan",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Swasth Desh",
+    "desc": "The host engages in enlightening dialogues with healthcare professionals."
+  }
+]

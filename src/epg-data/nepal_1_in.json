@@ -1,0 +1,145 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "Nepal1.in",
+    "channelId": "Nepal1.in",
+    "channelName": "Nepal 1",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Super Fast Live",
+    "desc": "The host presents the latest news on social, economic, political and other events, live."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "Nepal1.in",
+    "channelId": "Nepal1.in",
+    "channelName": "Nepal 1",
+    "startTs": 1775475000000,
+    "stopTs": 1775478600000,
+    "title": "Dehradun Special",
+    "desc": "The host presents the latest news on various issues of importance to Dehradun."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "Nepal1.in",
+    "channelId": "Nepal1.in",
+    "channelName": "Nepal 1",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Sanyasi Ayurveda",
+    "desc": "A spiritual expert talks about the herbal treatments that are available for all ailments."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "Nepal1.in",
+    "channelId": "Nepal1.in",
+    "channelName": "Nepal 1",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "UK Live",
+    "desc": "The host presents the latest updates on the social, economic and political issues, live."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "Nepal1.in",
+    "channelId": "Nepal1.in",
+    "channelName": "Nepal 1",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "UP Ki Baat",
+    "desc": "The host presents the latest updates on various social, economic and political issues."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "Nepal1.in",
+    "channelId": "Nepal1.in",
+    "channelName": "Nepal 1",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Kumauni Bulletin",
+    "desc": "The host presents the latest news on various topics of local and national importance."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "Nepal1.in",
+    "channelId": "Nepal1.in",
+    "channelName": "Nepal 1",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Mudda",
+    "desc": "The host discusses social, political and economic news stories with renowned experts."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "Nepal1.in",
+    "channelId": "Nepal1.in",
+    "channelName": "Nepal 1",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Khabar Achhi",
+    "desc": "The host presents the latest news and updates on various topics of national importance."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "Nepal1.in",
+    "channelId": "Nepal1.in",
+    "channelName": "Nepal 1",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "UP Ki Baat",
+    "desc": "The host presents the latest updates on various social, economic and political issues."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "Nepal1.in",
+    "channelId": "Nepal1.in",
+    "channelName": "Nepal 1",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "State",
+    "desc": "The host presents the latest updates on various social, economic and political issues."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "Nepal1.in",
+    "channelId": "Nepal1.in",
+    "channelName": "Nepal 1",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Uttrakhand Bulletin",
+    "desc": "The host presents the latest news on various issues of importance to Uttarakhand."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "Nepal1.in",
+    "channelId": "Nepal1.in",
+    "channelName": "Nepal 1",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Mudda",
+    "desc": "The host discusses social, political and economic news stories with renowned experts."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:30",
+    "channel": "Nepal1.in",
+    "channelId": "Nepal1.in",
+    "channelName": "Nepal 1",
+    "startTs": 1775496600000,
+    "stopTs": 1775500200000,
+    "title": "Desh Ki Baat",
+    "desc": "The host presents a detailed report of the latest news and developments."
+  }
+]

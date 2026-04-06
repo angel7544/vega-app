@@ -1,0 +1,90 @@
+[
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "NSC9.in",
+    "channelId": "NSC9.in",
+    "channelName": "NSC9",
+    "startTs": 1775471400000,
+    "stopTs": 1775475000000,
+    "title": "News",
+    "desc": "."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "NSC9.in",
+    "channelId": "NSC9.in",
+    "channelName": "NSC9",
+    "startTs": 1775475000000,
+    "stopTs": 1775478600000,
+    "title": "News",
+    "desc": "."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "NSC9.in",
+    "channelId": "NSC9.in",
+    "channelName": "NSC9",
+    "startTs": 1775478600000,
+    "stopTs": 1775482200000,
+    "title": "News",
+    "desc": "."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "NSC9.in",
+    "channelId": "NSC9.in",
+    "channelName": "NSC9",
+    "startTs": 1775482200000,
+    "stopTs": 1775485800000,
+    "title": "News",
+    "desc": "."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "NSC9.in",
+    "channelId": "NSC9.in",
+    "channelName": "NSC9",
+    "startTs": 1775485800000,
+    "stopTs": 1775489400000,
+    "title": "News",
+    "desc": "."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "NSC9.in",
+    "channelId": "NSC9.in",
+    "channelName": "NSC9",
+    "startTs": 1775489400000,
+    "stopTs": 1775493000000,
+    "title": "News",
+    "desc": "."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "NSC9.in",
+    "channelId": "NSC9.in",
+    "channelName": "NSC9",
+    "startTs": 1775493000000,
+    "stopTs": 1775496600000,
+    "title": "News",
+    "desc": "."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:30",
+    "channel": "NSC9.in",
+    "channelId": "NSC9.in",
+    "channelName": "NSC9",
+    "startTs": 1775496600000,
+    "stopTs": 1775500200000,
+    "title": "News",
+    "desc": "."
+  }
+]

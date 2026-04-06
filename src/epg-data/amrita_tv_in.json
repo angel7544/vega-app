@@ -8,7 +8,7 @@
     "startTs": 1775471400000,
     "stopTs": 1775480400000,
     "title": "Oru Nodiyil",
-    "desc": "Madan and Rupa work for a news channel and are assigned the task of uncovering the secret of Parvathipuram, a village known for killing all its visitors over the past five centuries."
+    "desc": "Two individuals are assigned the task of uncovering the secret of Parvathipuram."
   },
   {
     "start": "13:00",
@@ -19,7 +19,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Sandhya Deepam",
-    "desc": "Religious leaders and scholars deliver a discourse on various aspects of Kerala&apos;s rich cultural heritage and spiritual observances."
+    "desc": "Religious scholars deliver a discourse on various aspects of Kerala&apos;s rich cultural heritage."
   },
   {
     "start": "13:30",
@@ -30,7 +30,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Sree Padmanabham",
-    "desc": "A king, disturbed by the domestic unrest in his empire, surrenders his kingdom to Lord Padmanabha and vows to rule as his servant."
+    "desc": "A king disturbed by the domestic unrest surrenders his kingdom to Lord Padmanabha."
   },
   {
     "start": "14:00",
@@ -41,7 +41,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Dhe Pinneem",
-    "desc": "Dhe Pinneem"
+    "desc": "."
   },
   {
     "start": "14:30",
@@ -52,7 +52,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775489400000,
     "title": "Super Star Senior",
-    "desc": "Several people take the centre stage to showcase their talents of singing and other aspects to a panel of judges and audiences."
+    "desc": "Several people take the centre stage to showcase their talents to a panel of judges."
   },
   {
     "start": "15:30",
@@ -63,7 +63,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775493000000,
     "title": "Comedy Masters",
-    "desc": "Talented comedians perform humorous acts and satirical sketches to entertain a special guest and make them burst with laughter."
+    "desc": "Talented comedians perform humorous acts to entertain the audience."
   },
   {
     "start": "16:30",
@@ -74,270 +74,17 @@
     "startTs": 1775493000000,
     "stopTs": 1775496600000,
     "title": "Top 10 at Ten",
-    "desc": "The host presents a summary of ten of the most important news updates and developments from the nation and around the world."
+    "desc": "The host presents a summary of ten of the most important news updates."
   },
   {
     "start": "17:30",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "AmritaTV.in",
     "channelId": "AmritaTV.in",
     "channelName": "Amrita TV",
     "startTs": 1775496600000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "Super Star Senior",
-    "desc": "Several people take the centre stage to showcase their talents of singing and other aspects to a panel of judges and audiences."
-  },
-  {
-    "start": "18:30",
-    "stop": "19:00",
-    "channel": "AmritaTV.in",
-    "channelId": "AmritaTV.in",
-    "channelName": "Amrita TV",
-    "startTs": 1775500200000,
-    "stopTs": 1775502000000,
-    "title": "Gulf News",
-    "desc": "The host presents a round-up of the latest social, political and economic news updates and developments from the Middle East."
-  },
-  {
-    "start": "19:00",
-    "stop": "20:00",
-    "channel": "AmritaTV.in",
-    "channelId": "AmritaTV.in",
-    "channelName": "Amrita TV",
-    "startTs": 1775502000000,
-    "stopTs": 1775505600000,
-    "title": "Comedy Masters",
-    "desc": "Talented comedians perform humorous acts and satirical sketches to entertain a special guest and make them burst with laughter."
-  },
-  {
-    "start": "20:00",
-    "stop": "20:30",
-    "channel": "AmritaTV.in",
-    "channelId": "AmritaTV.in",
-    "channelName": "Amrita TV",
-    "startTs": 1775505600000,
-    "stopTs": 1775507400000,
-    "title": "Dhe Pinneem",
-    "desc": "Dhe Pinneem"
-  },
-  {
-    "start": "20:30",
-    "stop": "21:00",
-    "channel": "AmritaTV.in",
-    "channelId": "AmritaTV.in",
-    "channelName": "Amrita TV",
-    "startTs": 1775507400000,
-    "stopTs": 1775509200000,
-    "title": "Sree Padmanabham",
-    "desc": "A king, disturbed by the domestic unrest in his empire, surrenders his kingdom to Lord Padmanabha and vows to rule as his servant."
-  },
-  {
-    "start": "21:00",
-    "stop": "00:00",
-    "channel": "AmritaTV.in",
-    "channelId": "AmritaTV.in",
-    "channelName": "Amrita TV",
-    "startTs": 1775509200000,
-    "stopTs": 1775520000000,
-    "title": "Aadhi Bhagavan",
-    "desc": "Aadhi&apos;s life takes a turn after the love of his life betrays him. He plans to seek revenge from his rivals and take them down."
-  },
-  {
-    "start": "00:00",
-    "stop": "00:30",
-    "channel": "AmritaTV.in",
-    "channelId": "AmritaTV.in",
-    "channelName": "Amrita TV",
-    "startTs": 1775520000000,
-    "stopTs": 1775521800000,
-    "title": "Sandhya Deepam",
-    "desc": "Religious leaders and scholars deliver a discourse on various aspects of Kerala&apos;s rich cultural heritage and spiritual observances."
-  },
-  {
-    "start": "00:30",
-    "stop": "01:00",
-    "channel": "AmritaTV.in",
-    "channelId": "AmritaTV.in",
-    "channelName": "Amrita TV",
-    "startTs": 1775521800000,
-    "stopTs": 1775523600000,
-    "title": "Swararchana",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "01:00",
-    "stop": "01:30",
-    "channel": "AmritaTV.in",
-    "channelId": "AmritaTV.in",
-    "channelName": "Amrita TV",
-    "startTs": 1775523600000,
-    "stopTs": 1775525400000,
-    "title": "Spandanam",
-    "desc": "Annie, an orphan, gets married to Rocky. Rocky&apos;s mother hates Annie. Annie struggles to find her identity in her husband&apos;s house."
-  },
-  {
-    "start": "01:30",
-    "stop": "02:30",
-    "channel": "AmritaTV.in",
-    "channelId": "AmritaTV.in",
-    "channelName": "Amrita TV",
-    "startTs": 1775525400000,
-    "stopTs": 1775529000000,
-    "title": "Good Morning Keralam",
-    "desc": "The host interacts with various eminent personalities, who shed light on their personal life and professional achievements."
-  },
-  {
-    "start": "02:30",
-    "stop": "03:30",
-    "channel": "AmritaTV.in",
-    "channelId": "AmritaTV.in",
-    "channelName": "Amrita TV",
-    "startTs": 1775529000000,
-    "stopTs": 1775532600000,
-    "title": "Super Star Senior",
-    "desc": "Several people take the centre stage to showcase their talents of singing and other aspects to a panel of judges and audiences."
-  },
-  {
-    "start": "03:30",
-    "stop": "06:30",
-    "channel": "AmritaTV.in",
-    "channelId": "AmritaTV.in",
-    "channelName": "Amrita TV",
-    "startTs": 1775532600000,
-    "stopTs": 1775543400000,
-    "title": "Ithu Manjukaalam",
-    "desc": "Twin sisters, Revathy and Aswathy&apos;s lives with husbands Balu and Gopi shatter when a haunting figure from their past reappears."
-  },
-  {
-    "start": "06:30",
-    "stop": "07:00",
-    "channel": "AmritaTV.in",
-    "channelId": "AmritaTV.in",
-    "channelName": "Amrita TV",
-    "startTs": 1775543400000,
-    "stopTs": 1775545200000,
-    "title": "Dhe Pinneem",
-    "desc": "Dhe Pinneem"
-  },
-  {
-    "start": "07:00",
-    "stop": "07:30",
-    "channel": "AmritaTV.in",
-    "channelId": "AmritaTV.in",
-    "channelName": "Amrita TV",
-    "startTs": 1775545200000,
-    "stopTs": 1775547000000,
-    "title": "Sree Padmanabham",
-    "desc": "A king, disturbed by the domestic unrest in his empire, surrenders his kingdom to Lord Padmanabha and vows to rule as his servant."
-  },
-  {
-    "start": "07:30",
-    "stop": "08:00",
-    "channel": "AmritaTV.in",
-    "channelId": "AmritaTV.in",
-    "channelName": "Amrita TV",
-    "startTs": 1775547000000,
-    "stopTs": 1775548800000,
-    "title": "Ucha Vartha",
-    "desc": "The host talks about some of the latest news stories about political, economic, social and cultural topics from all around the region."
-  },
-  {
-    "start": "08:00",
-    "stop": "10:30",
-    "channel": "AmritaTV.in",
-    "channelId": "AmritaTV.in",
-    "channelName": "Amrita TV",
-    "startTs": 1775548800000,
-    "stopTs": 1775557800000,
-    "title": "Superman",
-    "desc": "Nithya, a deputy commissioner, is investigating an assassination attempt on the home minister by Superman. Later, she falls in love with this man without having a clue that he is the assassin."
-  },
-  {
-    "start": "10:30",
-    "stop": "13:00",
-    "channel": "AmritaTV.in",
-    "channelId": "AmritaTV.in",
-    "channelName": "Amrita TV",
-    "startTs": 1775557800000,
-    "stopTs": 1775566800000,
-    "title": "Overtake",
-    "desc": "Nandan and his family are driving to Kochi. However, they encounter a maniacal truck driver who tries to corner them in a ruthless chase."
-  },
-  {
-    "start": "13:00",
-    "stop": "13:30",
-    "channel": "AmritaTV.in",
-    "channelId": "AmritaTV.in",
-    "channelName": "Amrita TV",
-    "startTs": 1775566800000,
-    "stopTs": 1775568600000,
-    "title": "Sandhya Deepam",
-    "desc": "Religious leaders and scholars deliver a discourse on various aspects of Kerala&apos;s rich cultural heritage and spiritual observances."
-  },
-  {
-    "start": "13:30",
-    "stop": "14:00",
-    "channel": "AmritaTV.in",
-    "channelId": "AmritaTV.in",
-    "channelName": "Amrita TV",
-    "startTs": 1775568600000,
-    "stopTs": 1775570400000,
-    "title": "Sree Padmanabham",
-    "desc": "A king, disturbed by the domestic unrest in his empire, surrenders his kingdom to Lord Padmanabha and vows to rule as his servant."
-  },
-  {
-    "start": "14:00",
-    "stop": "14:30",
-    "channel": "AmritaTV.in",
-    "channelId": "AmritaTV.in",
-    "channelName": "Amrita TV",
-    "startTs": 1775570400000,
-    "stopTs": 1775572200000,
-    "title": "Dhe Pinneem",
-    "desc": "Dhe Pinneem"
-  },
-  {
-    "start": "14:30",
-    "stop": "15:30",
-    "channel": "AmritaTV.in",
-    "channelId": "AmritaTV.in",
-    "channelName": "Amrita TV",
-    "startTs": 1775572200000,
-    "stopTs": 1775575800000,
-    "title": "Super Star Senior",
-    "desc": "Several people take the centre stage to showcase their talents of singing and other aspects to a panel of judges and audiences."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:30",
-    "channel": "AmritaTV.in",
-    "channelId": "AmritaTV.in",
-    "channelName": "Amrita TV",
-    "startTs": 1775575800000,
-    "stopTs": 1775579400000,
-    "title": "Comedy Masters",
-    "desc": "Talented comedians perform humorous acts and satirical sketches to entertain a special guest and make them burst with laughter."
-  },
-  {
-    "start": "16:30",
-    "stop": "17:30",
-    "channel": "AmritaTV.in",
-    "channelId": "AmritaTV.in",
-    "channelName": "Amrita TV",
-    "startTs": 1775579400000,
-    "stopTs": 1775583000000,
-    "title": "Top 10 at Ten",
-    "desc": "The host presents a summary of ten of the most important news updates and developments from the nation and around the world."
-  },
-  {
-    "start": "17:30",
-    "stop": "18:29",
-    "channel": "AmritaTV.in",
-    "channelId": "AmritaTV.in",
-    "channelName": "Amrita TV",
-    "startTs": 1775583000000,
-    "stopTs": 1775586599000,
-    "title": "Super Star Senior",
-    "desc": "Several people take the centre stage to showcase their talents of singing and other aspects to a panel of judges and audiences."
+    "desc": "Several people take the centre stage to showcase their talents to a panel of judges."
   }
 ]

@@ -1,0 +1,156 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "ShowBox.in",
+    "channelId": "ShowBox.in",
+    "channelName": "Showbox",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Game Baja",
+    "desc": "A compilation of songs by well-known musicians is played alongside a games segment."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "ShowBox.in",
+    "channelId": "ShowBox.in",
+    "channelName": "Showbox",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Yo Wassup",
+    "desc": "A compilation of the latest and popular songs composed and sung by various artists."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "ShowBox.in",
+    "channelId": "ShowBox.in",
+    "channelName": "Showbox",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Tau Ki Playlist",
+    "desc": "A comprehensive compilation of popular Haryanvi songs is played back to back."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "ShowBox.in",
+    "channelId": "ShowBox.in",
+    "channelName": "Showbox",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Reel Top 10",
+    "desc": "A comprehensive compilation featuring popular songs by renowned artists is played."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "ShowBox.in",
+    "channelId": "ShowBox.in",
+    "channelName": "Showbox",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Yo Wassup",
+    "desc": "A compilation of the latest and popular songs composed and sung by various artists."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "ShowBox.in",
+    "channelId": "ShowBox.in",
+    "channelName": "Showbox",
+    "startTs": 1775482200000,
+    "stopTs": 1775485800000,
+    "title": "Tau Ki Playlist",
+    "desc": "A comprehensive compilation of popular Haryanvi songs is played back to back."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "ShowBox.in",
+    "channelId": "ShowBox.in",
+    "channelName": "Showbox",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Lit5",
+    "desc": "A comprehensive compilation of popular songs by famous artists is played back to back."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "ShowBox.in",
+    "channelId": "ShowBox.in",
+    "channelName": "Showbox",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Yo Wassup",
+    "desc": "A compilation of the latest and popular songs composed and sung by various artists."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "ShowBox.in",
+    "channelId": "ShowBox.in",
+    "channelName": "Showbox",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Luv You Zindagi",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "ShowBox.in",
+    "channelId": "ShowBox.in",
+    "channelName": "Showbox",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Hangout",
+    "desc": "A compilation of some of the most romantic songs by various music artists is played."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "ShowBox.in",
+    "channelId": "ShowBox.in",
+    "channelName": "Showbox",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Night Mode : Love You Zindagi",
+    "desc": "A comprehensive compilation of up-beat and well-known songs is played back to back."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "ShowBox.in",
+    "channelId": "ShowBox.in",
+    "channelName": "Showbox",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "NIGHT MODE : Game Baja",
+    "desc": "A racing game takes place across a screen as songs and music plays in the background."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "ShowBox.in",
+    "channelId": "ShowBox.in",
+    "channelName": "Showbox",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Dil Gaata Hai",
+    "desc": "A compilation of songs by well-known artists and musicians is played back to back."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "ShowBox.in",
+    "channelId": "ShowBox.in",
+    "channelName": "Showbox",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Night Mode : Yo Wassup",
+    "desc": "Viewers submit their pictures to be displayed while a compilation of songs is played."
+  }
+]

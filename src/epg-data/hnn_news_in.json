@@ -1,0 +1,167 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "HNN24x7.in",
+    "channelId": "HNN24x7.in",
+    "channelName": "HNN News",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Bulletin",
+    "desc": "The host presents the latest updates on various social, political and economic issues."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "HNN24x7.in",
+    "channelId": "HNN24x7.in",
+    "channelName": "HNN News",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "5 Ka Panch",
+    "desc": "The host presents the latest news updates from around the state and the nation."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "HNN24x7.in",
+    "channelId": "HNN24x7.in",
+    "channelName": "HNN News",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Jamura Ustaad",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "HNN24x7.in",
+    "channelId": "HNN24x7.in",
+    "channelName": "HNN News",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Janta Toh Bolegi",
+    "desc": "The host asks locals to share their views on matters related to the state and the country."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "HNN24x7.in",
+    "channelId": "HNN24x7.in",
+    "channelName": "HNN News",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Bulletin",
+    "desc": "The host presents the latest updates on various social, political and economic issues."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "HNN24x7.in",
+    "channelId": "HNN24x7.in",
+    "channelName": "HNN News",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Direct With CM",
+    "desc": "The host engages in a direct conversation with the chief minister about important issues."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "HNN24x7.in",
+    "channelId": "HNN24x7.in",
+    "channelName": "HNN News",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Hisaab Do Sarkaar",
+    "desc": "The host highlights some of the chief pressing issues affecting the populace."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "HNN24x7.in",
+    "channelId": "HNN24x7.in",
+    "channelName": "HNN News",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Rastrahit Prime Time",
+    "desc": "The host presents crucial prime news and the updates relating to the welfare of the nation."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "HNN24x7.in",
+    "channelId": "HNN24x7.in",
+    "channelName": "HNN News",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Debate",
+    "desc": "Experts discuss various significant topics and present diverse perspectives."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "HNN24x7.in",
+    "channelId": "HNN24x7.in",
+    "channelName": "HNN News",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Postmortam",
+    "desc": "The host presents the latest news stories and updates pertaining to various issues around the globe."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "HNN24x7.in",
+    "channelId": "HNN24x7.in",
+    "channelName": "HNN News",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Veerpath",
+    "desc": "The host updates the social, economic and political issues of the day."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "HNN24x7.in",
+    "channelId": "HNN24x7.in",
+    "channelName": "HNN News",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Vikash Patar",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "HNN24x7.in",
+    "channelId": "HNN24x7.in",
+    "channelName": "HNN News",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Navjosh India Special",
+    "desc": "The host presents a detailed report on the latest news and developments."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "HNN24x7.in",
+    "channelId": "HNN24x7.in",
+    "channelName": "HNN News",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Direct With CM",
+    "desc": "The host engages in a direct conversation with the chief minister about important issues."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "HNN24x7.in",
+    "channelId": "HNN24x7.in",
+    "channelName": "HNN News",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "N Bharat Special",
+    "desc": "The host presents a detailed report on the latest news and developments."
+  }
+]

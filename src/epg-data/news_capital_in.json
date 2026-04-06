@@ -1,0 +1,167 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "NewsCapital.in",
+    "channelId": "NewsCapital.in",
+    "channelName": "News Capital",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Full Stop",
+    "desc": "The host provides a detailed report on matters concerning the state and the nation."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "NewsCapital.in",
+    "channelId": "NewsCapital.in",
+    "channelName": "News Capital",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "News @ 5",
+    "desc": "The host presents information about the social, economic and political issues of the day."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "NewsCapital.in",
+    "channelId": "NewsCapital.in",
+    "channelName": "News Capital",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Prime 9 With Jigar",
+    "desc": "The host invites Jigar Mistry to discuss business, economics and market transitions."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "NewsCapital.in",
+    "channelId": "NewsCapital.in",
+    "channelName": "News Capital",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "News @ 6",
+    "desc": "The host presents the latest news updates of the day from India and around the world."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "NewsCapital.in",
+    "channelId": "NewsCapital.in",
+    "channelName": "News Capital",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Speed News",
+    "desc": "The host presents a quick update on the top stories of the day."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "NewsCapital.in",
+    "channelId": "NewsCapital.in",
+    "channelName": "News Capital",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "News Capital 360",
+    "desc": "The host presents some of the latest news stories and important developments."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "NewsCapital.in",
+    "channelId": "NewsCapital.in",
+    "channelName": "News Capital",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Speed News",
+    "desc": "The host presents a quick update on the top stories of the day."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "NewsCapital.in",
+    "channelId": "NewsCapital.in",
+    "channelName": "News Capital",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Full Stop",
+    "desc": "The host provides a detailed report on matters concerning the state and the nation."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "NewsCapital.in",
+    "channelId": "NewsCapital.in",
+    "channelName": "News Capital",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Full Stop",
+    "desc": "The host provides a detailed report on matters concerning the state and the nation."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "NewsCapital.in",
+    "channelId": "NewsCapital.in",
+    "channelName": "News Capital",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Prime 9 With Jigar",
+    "desc": "The host invites Jigar Mistry to discuss business, economics and market transitions."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "NewsCapital.in",
+    "channelId": "NewsCapital.in",
+    "channelName": "News Capital",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Cover Story",
+    "desc": "The host provides a detailed report of various matters from different fields."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "NewsCapital.in",
+    "channelId": "NewsCapital.in",
+    "channelName": "News Capital",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Trending 10",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "NewsCapital.in",
+    "channelId": "NewsCapital.in",
+    "channelName": "News Capital",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Speed News",
+    "desc": "The host presents a quick update on the top stories of the day."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "NewsCapital.in",
+    "channelId": "NewsCapital.in",
+    "channelName": "News Capital",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Full Stop",
+    "desc": "The host provides a detailed report on matters concerning the state and the nation."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "NewsCapital.in",
+    "channelId": "NewsCapital.in",
+    "channelName": "News Capital",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Prime 9 With Jigar",
+    "desc": "The host invites Jigar Mistry to discuss business, economics and market transitions."
+  }
+]

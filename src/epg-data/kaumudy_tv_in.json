@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Music On Demand",
-    "desc": "A comprehensive compilation of foot-tapping songs by popular musicians and singers that are requested by the viewers is played back to back."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "KaumudyTV.in",
@@ -19,7 +8,7 @@
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Talking Point - Jayasankar",
-    "desc": "Bringing the best in television."
+    "desc": "Bringing the best in television. S01 E03."
   },
   {
     "start": "11:30",
@@ -30,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Oh My God",
-    "desc": "The hosts play silly pranks on unsuspecting people at various places while hidden cameras capture the entire scene along with their reactions."
+    "desc": "The hosts play silly pranks on people while hidden cameras capture their reactions. S01 E502."
   },
   {
     "start": "12:00",
@@ -41,7 +30,7 @@
     "startTs": 1775476800000,
     "stopTs": 1775478300000,
     "title": "Tom & Jessy",
-    "desc": "Tom and Jessy, a married couple, navigate the challenges and joys of their relationship through their daily interactions and unexpected misadventures."
+    "desc": "Tom and Jessy navigate their relationship through daily challenges and unexpected events. S01 E155."
   },
   {
     "start": "12:25",
@@ -52,7 +41,7 @@
     "startTs": 1775478300000,
     "stopTs": 1775478600000,
     "title": "Kaumudy Prime News",
-    "desc": "The host presents the latest information, advancements and developments on various important issues that affect many lives."
+    "desc": "The host presents the latest information on various important issues."
   },
   {
     "start": "12:30",
@@ -63,7 +52,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775480220000,
     "title": "Devamrutham",
-    "desc": "An expert in Vastu Shastra offers practical advice on home improvement and spiritual guidance, explaining to viewers how to maintain positive energy in their house."
+    "desc": "An expert in Vastu Shastra offers advice on home improvement and spiritual guidance. S01 E3371."
   },
   {
     "start": "12:57",
@@ -74,7 +63,7 @@
     "startTs": 1775480220000,
     "stopTs": 1775480400000,
     "title": "Daivadasakam",
-    "desc": "Ardent devotees gather in large numbers and sing melodious hymns of praise to God and seek his holy blessings in return."
+    "desc": "Ardent devotees gather in large numbers and sing melodious hymns of praise to God."
   },
   {
     "start": "13:00",
@@ -85,7 +74,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775481900000,
     "title": "Hasyarasam",
-    "desc": "A comprehensive compilation of various hilarious snippets and clippings, played back-to- back to entertain the audience."
+    "desc": "A curated collection of hilarious clippings played consecutively. S01 E1920."
   },
   {
     "start": "13:25",
@@ -96,7 +85,7 @@
     "startTs": 1775481900000,
     "stopTs": 1775482200000,
     "title": "Kaumudy Prime News",
-    "desc": "The host presents the latest information, advancements and developments on various important issues that affect many lives."
+    "desc": "The host presents the latest information on various important issues."
   },
   {
     "start": "13:30",
@@ -107,7 +96,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Aliyans",
-    "desc": "Two brothers-in-law, Kanakan and Cleatus, share a love-hate relationship, wherein one lands in trouble and the other strives to save him."
+    "desc": "Two brothers-in-law, Kanakan and Cleatus, share a love-hate relationship. S01 E1311."
   },
   {
     "start": "14:00",
@@ -118,7 +107,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775485500000,
     "title": "Silver Screen",
-    "desc": "The host explores the dynamic world of cinema, covering film news, industry developments and exclusive stories that bring the magic of movies closer to the audience."
+    "desc": "The host explores the dynamic world of cinema, featuring exclusive insights. S01 E323."
   },
   {
     "start": "14:25",
@@ -129,7 +118,7 @@
     "startTs": 1775485500000,
     "stopTs": 1775485800000,
     "title": "Kaumudy Prime News",
-    "desc": "The host presents the latest information, advancements and developments on various important issues that affect many lives."
+    "desc": "The host presents the latest information on various important issues."
   },
   {
     "start": "14:30",
@@ -140,7 +129,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "MahaGuru",
-    "desc": "Narayana Guru, a social reformer and spiritual guru, faces various struggles and challenges as he strives to eradicate casteism in Kerala."
+    "desc": "Narayana Guru faces various challenges as he strives to eradicate casteism in Kerala. S01 E37."
   },
   {
     "start": "15:00",
@@ -151,7 +140,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775489100000,
     "title": "The Real Taste Of Kerala",
-    "desc": "A culinary expert cooks traditional dishes specially made in the villages of Kerala, demonstrating the process of cooking step-by-step."
+    "desc": "A chef cooks traditional dishes from the Indian state of Kerala. S01 E193."
   },
   {
     "start": "15:25",
@@ -162,7 +151,7 @@
     "startTs": 1775489100000,
     "stopTs": 1775489400000,
     "title": "Kaumudy Prime News",
-    "desc": "The host presents the latest information, advancements and developments on various important issues that affect many lives."
+    "desc": "The host presents the latest information on various important issues."
   },
   {
     "start": "15:30",
@@ -173,7 +162,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Tom & Jessy",
-    "desc": "Tom and Jessy, a married couple, navigate the challenges and joys of their relationship through their daily interactions and unexpected misadventures."
+    "desc": "Tom and Jessy navigate their relationship through daily challenges and unexpected events. S01 E154."
   },
   {
     "start": "16:00",
@@ -184,7 +173,7 @@
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Hasyarasam",
-    "desc": "A comprehensive compilation of various hilarious snippets and clippings, played back-to- back to entertain the audience."
+    "desc": "A curated collection of hilarious clippings played consecutively. S01 E1921."
   },
   {
     "start": "16:30",
@@ -195,7 +184,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Aliyans",
-    "desc": "Two brothers-in-law, Kanakan and Cleatus, share a love-hate relationship, wherein one lands in trouble and the other strives to save him."
+    "desc": "Two brothers-in-law, Kanakan and Cleatus, share a love-hate relationship. S01 E1311."
   },
   {
     "start": "17:00",
@@ -206,7 +195,7 @@
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Haritham Sundharam",
-    "desc": "The host engages in conversation with individuals involved in agriculture, discussing their occupation and the challenges they face, while also exploring their farmlands."
+    "desc": "The host meets agriculturists for a conversation and explores their farmlands. S01 E582."
   },
   {
     "start": "17:30",
@@ -217,7 +206,7 @@
     "startTs": 1775496600000,
     "stopTs": 1775498100000,
     "title": "MahaGuru",
-    "desc": "Narayana Guru, a social reformer and spiritual guru, faces various struggles and challenges as he strives to eradicate casteism in Kerala."
+    "desc": "Narayana Guru faces various challenges as he strives to eradicate casteism in Kerala. S01 E37."
   },
   {
     "start": "17:55",
@@ -228,666 +217,17 @@
     "startTs": 1775498100000,
     "stopTs": 1775498700000,
     "title": "Kaumudy Gulf News",
-    "desc": "The host delivers a detailed report on the latest governance, economics, and socio-political news from the Middle Eastern countries, impacting its citizens."
+    "desc": "The host delivers a detailed report on the news stories from the Middle Eastern countries."
   },
   {
     "start": "18:05",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "KaumudyTV.in",
     "channelId": "KaumudyTV.in",
     "channelName": "Kaumudy TV",
     "startTs": 1775498700000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "Straight Line",
-    "desc": "The host invites prominent business leaders and celebrities to discuss a wide range of important topics and share their opinions on the same."
-  },
-  {
-    "start": "18:30",
-    "stop": "18:55",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775500200000,
-    "stopTs": 1775501700000,
-    "title": "Straight Line",
-    "desc": "The host invites prominent business leaders and celebrities to discuss a wide range of important topics and share their opinions on the same."
-  },
-  {
-    "start": "18:55",
-    "stop": "19:05",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775501700000,
-    "stopTs": 1775502300000,
-    "title": "Kaumudy Gulf News",
-    "desc": "The host delivers a detailed report on the latest governance, economics, and socio-political news from the Middle Eastern countries, impacting its citizens."
-  },
-  {
-    "start": "19:05",
-    "stop": "19:30",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775502300000,
-    "stopTs": 1775503800000,
-    "title": "Devamrutham",
-    "desc": "An expert in Vastu Shastra offers practical advice on home improvement and spiritual guidance, explaining to viewers how to maintain positive energy in their house."
-  },
-  {
-    "start": "19:30",
-    "stop": "20:00",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775503800000,
-    "stopTs": 1775505600000,
-    "title": "Ladies Hour",
-    "desc": "Experts from various fields shed light on the many aspects concerning women and provide tips on fashion, beauty and health."
-  },
-  {
-    "start": "20:00",
-    "stop": "20:30",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775505600000,
-    "stopTs": 1775507400000,
-    "title": "Music On Demand",
-    "desc": "A comprehensive compilation of foot-tapping songs by popular musicians and singers that are requested by the viewers is played back to back."
-  },
-  {
-    "start": "20:30",
-    "stop": "21:00",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775507400000,
-    "stopTs": 1775509200000,
-    "title": "Aliyans",
-    "desc": "Two brothers-in-law, Kanakan and Cleatus, share a love-hate relationship, wherein one lands in trouble and the other strives to save him."
-  },
-  {
-    "start": "21:00",
-    "stop": "21:30",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775509200000,
-    "stopTs": 1775511000000,
-    "title": "Hasyarasam",
-    "desc": "A comprehensive compilation of various hilarious snippets and clippings, played back-to- back to entertain the audience."
-  },
-  {
-    "start": "21:30",
-    "stop": "22:00",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775511000000,
-    "stopTs": 1775512800000,
-    "title": "MahaGuru",
-    "desc": "Narayana Guru, a social reformer and spiritual guru, faces various struggles and challenges as he strives to eradicate casteism in Kerala."
-  },
-  {
-    "start": "22:00",
-    "stop": "22:30",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775512800000,
-    "stopTs": 1775514600000,
-    "title": "Tom & Jessy",
-    "desc": "Tom and Jessy, a married couple, navigate the challenges and joys of their relationship through their daily interactions and unexpected misadventures."
-  },
-  {
-    "start": "22:30",
-    "stop": "23:00",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775514600000,
-    "stopTs": 1775516400000,
-    "title": "Snake Master",
-    "desc": "Snake Master"
-  },
-  {
-    "start": "23:00",
-    "stop": "23:30",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775516400000,
-    "stopTs": 1775518200000,
-    "title": "Oh My God",
-    "desc": "The hosts play silly pranks on unsuspecting people at various places while hidden cameras capture the entire scene along with their reactions."
-  },
-  {
-    "start": "23:30",
-    "stop": "00:00",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775518200000,
-    "stopTs": 1775520000000,
-    "title": "Silver Screen",
-    "desc": "The host explores the dynamic world of cinema, covering film news, industry developments and exclusive stories that bring the magic of movies closer to the audience."
-  },
-  {
-    "start": "00:00",
-    "stop": "00:30",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775520000000,
-    "stopTs": 1775521800000,
-    "title": "Ladies Hour",
-    "desc": "Experts from various fields shed light on the many aspects concerning women and provide tips on fashion, beauty and health."
-  },
-  {
-    "start": "00:30",
-    "stop": "00:57",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775521800000,
-    "stopTs": 1775523420000,
-    "title": "Devotional Song",
-    "desc": "A comprehensive compilation of devotional songs composed and performed by renowned artists in praise of the Almighty, is played."
-  },
-  {
-    "start": "00:57",
-    "stop": "01:00",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775523420000,
-    "stopTs": 1775523600000,
-    "title": "Daivadasakam",
-    "desc": "Ardent devotees gather in large numbers and sing melodious hymns of praise to God and seek his holy blessings in return."
-  },
-  {
-    "start": "01:00",
-    "stop": "01:30",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775523600000,
-    "stopTs": 1775525400000,
-    "title": "Devamrutham",
-    "desc": "An expert in Vastu Shastra offers practical advice on home improvement and spiritual guidance, explaining to viewers how to maintain positive energy in their house."
-  },
-  {
-    "start": "01:30",
-    "stop": "02:00",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775525400000,
-    "stopTs": 1775527200000,
-    "title": "Tom & Jessy",
-    "desc": "Tom and Jessy, a married couple, navigate the challenges and joys of their relationship through their daily interactions and unexpected misadventures."
-  },
-  {
-    "start": "02:00",
-    "stop": "02:30",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775527200000,
-    "stopTs": 1775529000000,
-    "title": "Haritham Sundharam",
-    "desc": "The host engages in conversation with individuals involved in agriculture, discussing their occupation and the challenges they face, while also exploring their farmlands."
-  },
-  {
-    "start": "02:30",
-    "stop": "03:00",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775529000000,
-    "stopTs": 1775530800000,
-    "title": "Music On Demand",
-    "desc": "A comprehensive compilation of foot-tapping songs by popular musicians and singers that are requested by the viewers is played back to back."
-  },
-  {
-    "start": "03:00",
-    "stop": "03:30",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775530800000,
-    "stopTs": 1775532600000,
-    "title": "Aliyans",
-    "desc": "Two brothers-in-law, Kanakan and Cleatus, share a love-hate relationship, wherein one lands in trouble and the other strives to save him."
-  },
-  {
-    "start": "03:30",
-    "stop": "04:00",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775532600000,
-    "stopTs": 1775534400000,
-    "title": "MahaGuru",
-    "desc": "Narayana Guru, a social reformer and spiritual guru, faces various struggles and challenges as he strives to eradicate casteism in Kerala."
-  },
-  {
-    "start": "04:00",
-    "stop": "04:30",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775534400000,
-    "stopTs": 1775536200000,
-    "title": "Not Cliche But Cliche",
-    "desc": "Following a difficult argument with her husband, a woman returns to her childhood home in search of love, but is met with apathy by her sister-in-law."
-  },
-  {
-    "start": "04:30",
-    "stop": "05:00",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775536200000,
-    "stopTs": 1775538000000,
-    "title": "Reel To Real",
-    "desc": "The host invites prominent individuals to share insights into their personal lives, careers and professional experiences."
-  },
-  {
-    "start": "05:00",
-    "stop": "05:30",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775538000000,
-    "stopTs": 1775539800000,
-    "title": "The Real Taste Of Kerala",
-    "desc": "A culinary expert cooks traditional dishes specially made in the villages of Kerala, demonstrating the process of cooking step-by-step."
-  },
-  {
-    "start": "05:30",
-    "stop": "06:00",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775539800000,
-    "stopTs": 1775541600000,
-    "title": "Hasyarasam",
-    "desc": "A comprehensive compilation of various hilarious snippets and clippings, played back-to- back to entertain the audience."
-  },
-  {
-    "start": "06:00",
-    "stop": "06:30",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775541600000,
-    "stopTs": 1775543400000,
-    "title": "Silver Screen",
-    "desc": "The host explores the dynamic world of cinema, covering film news, industry developments and exclusive stories that bring the magic of movies closer to the audience."
-  },
-  {
-    "start": "06:30",
-    "stop": "07:00",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775543400000,
-    "stopTs": 1775545200000,
-    "title": "Oh My God",
-    "desc": "The hosts play silly pranks on unsuspecting people at various places while hidden cameras capture the entire scene along with their reactions."
-  },
-  {
-    "start": "07:00",
-    "stop": "07:25",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775545200000,
-    "stopTs": 1775546700000,
-    "title": "Aliyans",
-    "desc": "Two brothers-in-law, Kanakan and Cleatus, share a love-hate relationship, wherein one lands in trouble and the other strives to save him."
-  },
-  {
-    "start": "07:25",
-    "stop": "07:30",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775546700000,
-    "stopTs": 1775547000000,
-    "title": "Kaumudy Prime News",
-    "desc": "The host presents the latest information, advancements and developments on various important issues that affect many lives."
-  },
-  {
-    "start": "07:30",
-    "stop": "08:00",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775547000000,
-    "stopTs": 1775548800000,
-    "title": "MahaGuru",
-    "desc": "Narayana Guru, a social reformer and spiritual guru, faces various struggles and challenges as he strives to eradicate casteism in Kerala."
-  },
-  {
-    "start": "08:00",
-    "stop": "08:25",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775548800000,
-    "stopTs": 1775550300000,
-    "title": "Snake Master",
-    "desc": "Snake Master"
-  },
-  {
-    "start": "08:25",
-    "stop": "08:30",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775550300000,
-    "stopTs": 1775550600000,
-    "title": "Kaumudy Prime News",
-    "desc": "The host presents the latest information, advancements and developments on various important issues that affect many lives."
-  },
-  {
-    "start": "08:30",
-    "stop": "09:00",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775550600000,
-    "stopTs": 1775552400000,
-    "title": "Ladies Hour",
-    "desc": "Experts from various fields shed light on the many aspects concerning women and provide tips on fashion, beauty and health."
-  },
-  {
-    "start": "09:00",
-    "stop": "09:25",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775552400000,
-    "stopTs": 1775553900000,
-    "title": "Tom & Jessy",
-    "desc": "Tom and Jessy, a married couple, navigate the challenges and joys of their relationship through their daily interactions and unexpected misadventures."
-  },
-  {
-    "start": "09:25",
-    "stop": "09:30",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775553900000,
-    "stopTs": 1775554200000,
-    "title": "Kaumudy Prime News",
-    "desc": "The host presents the latest information, advancements and developments on various important issues that affect many lives."
-  },
-  {
-    "start": "09:30",
-    "stop": "10:00",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775554200000,
-    "stopTs": 1775556000000,
-    "title": "LIVE - Kerala Lotteries Results",
-    "desc": "The host selects random numbers during a draw and announces the names of the lucky winners, who get to win the prizes, live."
-  },
-  {
-    "start": "10:00",
-    "stop": "10:30",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775556000000,
-    "stopTs": 1775557800000,
-    "title": "LIVE - Kerala Lotteries Results",
-    "desc": "The host selects random numbers during a draw and announces the names of the lucky winners, who get to win the prizes, live."
-  },
-  {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775557800000,
-    "stopTs": 1775559600000,
-    "title": "Music On Demand",
-    "desc": "A comprehensive compilation of foot-tapping songs by popular musicians and singers that are requested by the viewers is played back to back."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:30",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775559600000,
-    "stopTs": 1775561400000,
-    "title": "Not Cliche But Cliche",
-    "desc": "Following a difficult argument with her husband, a woman returns to her childhood home in search of love, but is met with apathy by her sister-in-law."
-  },
-  {
-    "start": "11:30",
-    "stop": "12:00",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775561400000,
-    "stopTs": 1775563200000,
-    "title": "Straight Line",
-    "desc": "The host invites prominent business leaders and celebrities to discuss a wide range of important topics and share their opinions on the same."
-  },
-  {
-    "start": "12:00",
-    "stop": "12:25",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775563200000,
-    "stopTs": 1775564700000,
-    "title": "Straight Line",
-    "desc": "The host invites prominent business leaders and celebrities to discuss a wide range of important topics and share their opinions on the same."
-  },
-  {
-    "start": "12:25",
-    "stop": "12:30",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775564700000,
-    "stopTs": 1775565000000,
-    "title": "Kaumudy Prime News",
-    "desc": "The host presents the latest information, advancements and developments on various important issues that affect many lives."
-  },
-  {
-    "start": "12:30",
-    "stop": "12:57",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775565000000,
-    "stopTs": 1775566620000,
-    "title": "Devamrutham",
-    "desc": "An expert in Vastu Shastra offers practical advice on home improvement and spiritual guidance, explaining to viewers how to maintain positive energy in their house."
-  },
-  {
-    "start": "12:57",
-    "stop": "13:00",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775566620000,
-    "stopTs": 1775566800000,
-    "title": "Daivadasakam",
-    "desc": "Ardent devotees gather in large numbers and sing melodious hymns of praise to God and seek his holy blessings in return."
-  },
-  {
-    "start": "13:00",
-    "stop": "13:25",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775566800000,
-    "stopTs": 1775568300000,
-    "title": "Hasyarasam",
-    "desc": "A comprehensive compilation of various hilarious snippets and clippings, played back-to- back to entertain the audience."
-  },
-  {
-    "start": "13:25",
-    "stop": "13:30",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775568300000,
-    "stopTs": 1775568600000,
-    "title": "Kaumudy Prime News",
-    "desc": "The host presents the latest information, advancements and developments on various important issues that affect many lives."
-  },
-  {
-    "start": "13:30",
-    "stop": "14:00",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775568600000,
-    "stopTs": 1775570400000,
-    "title": "Aliyans",
-    "desc": "Two brothers-in-law, Kanakan and Cleatus, share a love-hate relationship, wherein one lands in trouble and the other strives to save him."
-  },
-  {
-    "start": "14:00",
-    "stop": "14:25",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775570400000,
-    "stopTs": 1775571900000,
-    "title": "Tom & Jessy",
-    "desc": "Tom and Jessy, a married couple, navigate the challenges and joys of their relationship through their daily interactions and unexpected misadventures."
-  },
-  {
-    "start": "14:25",
-    "stop": "14:30",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775571900000,
-    "stopTs": 1775572200000,
-    "title": "Kaumudy Prime News",
-    "desc": "The host presents the latest information, advancements and developments on various important issues that affect many lives."
-  },
-  {
-    "start": "14:30",
-    "stop": "15:00",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775572200000,
-    "stopTs": 1775574000000,
-    "title": "MahaGuru",
-    "desc": "Narayana Guru, a social reformer and spiritual guru, faces various struggles and challenges as he strives to eradicate casteism in Kerala."
-  },
-  {
-    "start": "15:00",
-    "stop": "15:25",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775574000000,
-    "stopTs": 1775575500000,
-    "title": "Oh My God",
-    "desc": "The hosts play silly pranks on unsuspecting people at various places while hidden cameras capture the entire scene along with their reactions."
-  },
-  {
-    "start": "15:25",
-    "stop": "15:30",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775575500000,
-    "stopTs": 1775575800000,
-    "title": "Kaumudy Prime News",
-    "desc": "The host presents the latest information, advancements and developments on various important issues that affect many lives."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:00",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775575800000,
-    "stopTs": 1775577600000,
-    "title": "The Real Taste Of Kerala",
-    "desc": "A culinary expert cooks traditional dishes specially made in the villages of Kerala, demonstrating the process of cooking step-by-step."
-  },
-  {
-    "start": "16:00",
-    "stop": "16:30",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775577600000,
-    "stopTs": 1775579400000,
-    "title": "Hasyarasam",
-    "desc": "A comprehensive compilation of various hilarious snippets and clippings, played back-to- back to entertain the audience."
-  },
-  {
-    "start": "16:30",
-    "stop": "17:00",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775579400000,
-    "stopTs": 1775581200000,
-    "title": "Aliyans",
-    "desc": "Two brothers-in-law, Kanakan and Cleatus, share a love-hate relationship, wherein one lands in trouble and the other strives to save him."
-  },
-  {
-    "start": "17:00",
-    "stop": "17:30",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775581200000,
-    "stopTs": 1775583000000,
-    "title": "Snake Master",
-    "desc": "Snake Master"
-  },
-  {
-    "start": "17:30",
-    "stop": "17:55",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775583000000,
-    "stopTs": 1775584500000,
-    "title": "MahaGuru",
-    "desc": "Narayana Guru, a social reformer and spiritual guru, faces various struggles and challenges as he strives to eradicate casteism in Kerala."
-  },
-  {
-    "start": "17:55",
-    "stop": "18:05",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775584500000,
-    "stopTs": 1775585100000,
-    "title": "Kaumudy Gulf News",
-    "desc": "The host delivers a detailed report on the latest governance, economics, and socio-political news from the Middle Eastern countries, impacting its citizens."
-  },
-  {
-    "start": "18:05",
-    "stop": "18:29",
-    "channel": "KaumudyTV.in",
-    "channelId": "KaumudyTV.in",
-    "channelName": "Kaumudy TV",
-    "startTs": 1775585100000,
-    "stopTs": 1775586599000,
-    "title": "Tom & Jessy",
-    "desc": "Tom and Jessy, a married couple, navigate the challenges and joys of their relationship through their daily interactions and unexpected misadventures."
+    "desc": "The host invites prominent business leaders to discuss various important topics. S01 E661."
   }
 ]

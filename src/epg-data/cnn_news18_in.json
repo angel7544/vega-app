@@ -1,0 +1,123 @@
+[
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "CNNNews18.in",
+    "channelId": "CNNNews18.in",
+    "channelName": "CNN News18",
+    "startTs": 1775471400000,
+    "stopTs": 1775475000000,
+    "title": "Breaking On News18",
+    "desc": "The host provides the latest updates and stories from around the world and country."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "CNNNews18.in",
+    "channelId": "CNNNews18.in",
+    "channelName": "CNN News18",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Nation@5",
+    "desc": "The host sheds light on the latest news stories impacting people around the country."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "CNNNews18.in",
+    "channelId": "CNNNews18.in",
+    "channelName": "CNN News18",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Unfiltered Kaapi",
+    "desc": "The host provides an insight into various key issues around the country."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "CNNNews18.in",
+    "channelId": "CNNNews18.in",
+    "channelName": "CNN News18",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Plain Speak",
+    "desc": "The host engages in a conversation with controversial personalities to confront the truth."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "CNNNews18.in",
+    "channelId": "CNNNews18.in",
+    "channelName": "CNN News18",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Take Three",
+    "desc": "Three news editors deliberate on significant topics of the week."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "CNNNews18.in",
+    "channelId": "CNNNews18.in",
+    "channelName": "CNN News18",
+    "startTs": 1775482200000,
+    "stopTs": 1775485800000,
+    "title": "Brass Tacks",
+    "desc": "The host presents information on the latest news stories and developments."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "CNNNews18.in",
+    "channelId": "CNNNews18.in",
+    "channelName": "CNN News18",
+    "startTs": 1775485800000,
+    "stopTs": 1775489400000,
+    "title": "The Right Stand",
+    "desc": "The host discusses burning issues with a panel of experts who debate on the matter."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "CNNNews18.in",
+    "channelId": "CNNNews18.in",
+    "channelName": "CNN News18",
+    "startTs": 1775489400000,
+    "stopTs": 1775493000000,
+    "title": "The Hard Facts",
+    "desc": "The host provides detailed insights into the significant updates from various fields."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "CNNNews18.in",
+    "channelId": "CNNNews18.in",
+    "channelName": "CNN News18",
+    "startTs": 1775493000000,
+    "stopTs": 1775496600000,
+    "title": "Vantage",
+    "desc": "The host discusses global events, national, international affairs and important news."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "CNNNews18.in",
+    "channelId": "CNNNews18.in",
+    "channelName": "CNN News18",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Breaking On News18",
+    "desc": "The host provides the latest updates and stories from around the world and country."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "CNNNews18.in",
+    "channelId": "CNNNews18.in",
+    "channelName": "CNN News18",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Breaking On News18",
+    "desc": "The host provides the latest updates and stories from around the world and country."
+  }
+]

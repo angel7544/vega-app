@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "National Mirror",
-    "desc": "The host presents a round-up of the latest social, political and economic news updates and developments from across the country."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "Network10.in",
@@ -19,7 +8,7 @@
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Sangam Express",
-    "desc": "The host provides a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
+    "desc": "The host presents a detailed report on the latest news and developments."
   },
   {
     "start": "11:30",
@@ -30,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "5 Ka Panch",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation."
+    "desc": "The host presents the latest news updates from around the state and the nation."
   },
   {
     "start": "12:00",
@@ -41,7 +30,7 @@
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Purvanchal",
-    "desc": "The host delivers the latest news and updates on key governance, social, economic, and political issues affecting the Purvanchal region of Uttar Pradesh."
+    "desc": "The host delivers the latest news on key issues from the Purvanchal region of Uttar Pradesh."
   },
   {
     "start": "12:30",
@@ -52,7 +41,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Khabar Uttarakhand",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events from Uttarakhand."
+    "desc": "The host presents information and updates on current affairs from Uttarakhand."
   },
   {
     "start": "13:00",
@@ -63,7 +52,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Paschimanchal",
-    "desc": "The anchor covers politics, the economy and sociocultural affairs, providing insightful updates from the Western side of India."
+    "desc": "The host covers politics, the economy and current affairs from the Western part of India."
   },
   {
     "start": "13:30",
@@ -74,7 +63,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Charcha E Khas",
-    "desc": "The host moderates debates with political leaders and experts, discussing crucial matters such as governance, social, economic, and political issues across the nation."
+    "desc": "The host discusses crucial matters of the nation with political leaders and experts."
   },
   {
     "start": "14:00",
@@ -85,7 +74,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Charcha E Khas",
-    "desc": "The host moderates debates with political leaders and experts, discussing crucial matters such as governance, social, economic, and political issues across the nation."
+    "desc": "The host discusses crucial matters of the nation with political leaders and experts."
   },
   {
     "start": "14:30",
@@ -96,7 +85,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Delhi Live",
-    "desc": "The host presents the latest news updates related to the socio-economic, political and cultural issues happening in and around Delhi."
+    "desc": "The host presents the latest news updates happening in and around Delhi."
   },
   {
     "start": "15:00",
@@ -107,7 +96,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Bihar Jharkhand",
-    "desc": "The host provides a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
+    "desc": "The host presents a detailed report on the latest news and developments."
   },
   {
     "start": "15:30",
@@ -118,7 +107,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "National Mirror",
-    "desc": "The host presents a round-up of the latest social, political and economic news updates and developments from across the country."
+    "desc": "The host presents a round-up of the latest news from across the country."
   },
   {
     "start": "16:00",
@@ -129,7 +118,7 @@
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Khabar Uttarakhand",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events from Uttarakhand."
+    "desc": "The host presents information and updates on current affairs from Uttarakhand."
   },
   {
     "start": "16:30",
@@ -140,7 +129,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "MP-CG Bulletin",
-    "desc": "The host presents the latest news stories and developments surrounding various political and socio-economic issues around the country."
+    "desc": "The host presents the latest news stories and developments around the country."
   },
   {
     "start": "17:00",
@@ -151,7 +140,7 @@
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Sangam Express",
-    "desc": "The host provides a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
+    "desc": "The host presents a detailed report on the latest news and developments."
   },
   {
     "start": "17:30",
@@ -162,545 +151,17 @@
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Khabar Uttarakhand",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events from Uttarakhand."
+    "desc": "The host presents information and updates on current affairs from Uttarakhand."
   },
   {
     "start": "18:00",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "Network10.in",
     "channelId": "Network10.in",
     "channelName": "Network 10",
     "startTs": 1775498400000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "Paschimanchal",
-    "desc": "The anchor covers politics, the economy and sociocultural affairs, providing insightful updates from the Western side of India."
-  },
-  {
-    "start": "18:30",
-    "stop": "19:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775500200000,
-    "stopTs": 1775502000000,
-    "title": "Charcha E Khas",
-    "desc": "The host moderates debates with political leaders and experts, discussing crucial matters such as governance, social, economic, and political issues across the nation."
-  },
-  {
-    "start": "19:00",
-    "stop": "19:30",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775502000000,
-    "stopTs": 1775503800000,
-    "title": "Charcha E Khas",
-    "desc": "The host moderates debates with political leaders and experts, discussing crucial matters such as governance, social, economic, and political issues across the nation."
-  },
-  {
-    "start": "19:30",
-    "stop": "20:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775503800000,
-    "stopTs": 1775505600000,
-    "title": "Sangam Express",
-    "desc": "The host provides a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "20:00",
-    "stop": "20:30",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775505600000,
-    "stopTs": 1775507400000,
-    "title": "Satta Ka Tempreature",
-    "desc": "The host presents the latest updates, developments and advancements on various issues in the political sphere of the nation."
-  },
-  {
-    "start": "20:30",
-    "stop": "21:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775507400000,
-    "stopTs": 1775509200000,
-    "title": "Purvanchal",
-    "desc": "The host delivers the latest news and updates on key governance, social, economic, and political issues affecting the Purvanchal region of Uttar Pradesh."
-  },
-  {
-    "start": "21:00",
-    "stop": "21:30",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775509200000,
-    "stopTs": 1775511000000,
-    "title": "MP-CG Bulletin",
-    "desc": "The host presents the latest news stories and developments surrounding various political and socio-economic issues around the country."
-  },
-  {
-    "start": "21:30",
-    "stop": "22:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775511000000,
-    "stopTs": 1775512800000,
-    "title": "Delhi Live",
-    "desc": "The host presents the latest news updates related to the socio-economic, political and cultural issues happening in and around Delhi."
-  },
-  {
-    "start": "22:00",
-    "stop": "22:30",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775512800000,
-    "stopTs": 1775514600000,
-    "title": "Bihar Jharkhand",
-    "desc": "The host provides a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "22:30",
-    "stop": "23:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775514600000,
-    "stopTs": 1775516400000,
-    "title": "Sangam Express",
-    "desc": "The host provides a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "23:00",
-    "stop": "23:30",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775516400000,
-    "stopTs": 1775518200000,
-    "title": "UK Bulletin",
-    "desc": "The host presents the latest news stories and developments surrounding various political and socio-economic issues around the United Kingdom."
-  },
-  {
-    "start": "23:30",
-    "stop": "00:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775518200000,
-    "stopTs": 1775520000000,
-    "title": "5 Ka Panch",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation."
-  },
-  {
-    "start": "00:00",
-    "stop": "00:30",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775520000000,
-    "stopTs": 1775521800000,
-    "title": "Paschimanchal",
-    "desc": "The anchor covers politics, the economy and sociocultural affairs, providing insightful updates from the Western side of India."
-  },
-  {
-    "start": "00:30",
-    "stop": "01:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775521800000,
-    "stopTs": 1775523600000,
-    "title": "National Mirror",
-    "desc": "The host presents a round-up of the latest social, political and economic news updates and developments from across the country."
-  },
-  {
-    "start": "01:00",
-    "stop": "01:30",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775523600000,
-    "stopTs": 1775525400000,
-    "title": "Sangam Express",
-    "desc": "The host provides a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "01:30",
-    "stop": "02:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775525400000,
-    "stopTs": 1775527200000,
-    "title": "Good News",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "02:00",
-    "stop": "02:30",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775527200000,
-    "stopTs": 1775529000000,
-    "title": "UK Bulletin",
-    "desc": "The host presents the latest news stories and developments surrounding various political and socio-economic issues around the United Kingdom."
-  },
-  {
-    "start": "02:30",
-    "stop": "03:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775529000000,
-    "stopTs": 1775530800000,
-    "title": "National Mirror",
-    "desc": "The host presents a round-up of the latest social, political and economic news updates and developments from across the country."
-  },
-  {
-    "start": "03:00",
-    "stop": "03:30",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775530800000,
-    "stopTs": 1775532600000,
-    "title": "Commercial",
-    "desc": "The host shares information about a wide selection of products that can be purchased from the comfort of the consumer&apos;s home."
-  },
-  {
-    "start": "03:30",
-    "stop": "04:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775532600000,
-    "stopTs": 1775534400000,
-    "title": "National Mirror",
-    "desc": "The host presents a round-up of the latest social, political and economic news updates and developments from across the country."
-  },
-  {
-    "start": "04:00",
-    "stop": "04:30",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775534400000,
-    "stopTs": 1775536200000,
-    "title": "Commercial",
-    "desc": "The host shares information about a wide selection of products that can be purchased from the comfort of the consumer&apos;s home."
-  },
-  {
-    "start": "04:30",
-    "stop": "05:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775536200000,
-    "stopTs": 1775538000000,
-    "title": "News @ 10",
-    "desc": "The host sheds light on the latest news stories, important updates and developments from all over the country and across the globe."
-  },
-  {
-    "start": "05:00",
-    "stop": "05:30",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775538000000,
-    "stopTs": 1775539800000,
-    "title": "News Live",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "05:30",
-    "stop": "06:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775539800000,
-    "stopTs": 1775541600000,
-    "title": "UP Live",
-    "desc": "The host gives the latest news updates on the political, socio-economical and cultural situation in the state of Uttar Pradesh, live."
-  },
-  {
-    "start": "06:00",
-    "stop": "06:30",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775541600000,
-    "stopTs": 1775543400000,
-    "title": "Reporter Live",
-    "desc": "The host sheds light on some of the most recent incidents, along with the day&apos;s top stories and events, directly from the field, live."
-  },
-  {
-    "start": "06:30",
-    "stop": "07:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775543400000,
-    "stopTs": 1775545200000,
-    "title": "National Mirror",
-    "desc": "The host presents a round-up of the latest social, political and economic news updates and developments from across the country."
-  },
-  {
-    "start": "07:00",
-    "stop": "07:30",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775545200000,
-    "stopTs": 1775547000000,
-    "title": "News Live",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "07:30",
-    "stop": "08:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775547000000,
-    "stopTs": 1775548800000,
-    "title": "National Bulletin",
-    "desc": "The host delivers the latest news, providing comprehensive coverage and analysis of events in India and around the world."
-  },
-  {
-    "start": "08:00",
-    "stop": "08:30",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775548800000,
-    "stopTs": 1775550600000,
-    "title": "Satta Ka Tempreature",
-    "desc": "The host presents the latest updates, developments and advancements on various issues in the political sphere of the nation."
-  },
-  {
-    "start": "08:30",
-    "stop": "09:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775550600000,
-    "stopTs": 1775552400000,
-    "title": "Khabar Uttarakhand",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events from Uttarakhand."
-  },
-  {
-    "start": "09:00",
-    "stop": "09:30",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775552400000,
-    "stopTs": 1775554200000,
-    "title": "Khabar Maharshtra Goa",
-    "desc": "The host presents the top news headlines and developments surrounding various issues across Goa and the state of Maharastra."
-  },
-  {
-    "start": "09:30",
-    "stop": "10:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775554200000,
-    "stopTs": 1775556000000,
-    "title": "3 Baje 3 Khabar",
-    "desc": "The host presents all the latest news stories, updates and developments pertaining to the current affairs of the nation."
-  },
-  {
-    "start": "10:00",
-    "stop": "10:30",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775556000000,
-    "stopTs": 1775557800000,
-    "title": "Commercial",
-    "desc": "The host shares information about a wide selection of products that can be purchased from the comfort of the consumer&apos;s home."
-  },
-  {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775557800000,
-    "stopTs": 1775559600000,
-    "title": "National Mirror",
-    "desc": "The host presents a round-up of the latest social, political and economic news updates and developments from across the country."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:30",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775559600000,
-    "stopTs": 1775561400000,
-    "title": "Sangam Express",
-    "desc": "The host provides a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "11:30",
-    "stop": "12:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775561400000,
-    "stopTs": 1775563200000,
-    "title": "5 Ka Panch",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation."
-  },
-  {
-    "start": "12:00",
-    "stop": "12:30",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775563200000,
-    "stopTs": 1775565000000,
-    "title": "Purvanchal",
-    "desc": "The host delivers the latest news and updates on key governance, social, economic, and political issues affecting the Purvanchal region of Uttar Pradesh."
-  },
-  {
-    "start": "12:30",
-    "stop": "13:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775565000000,
-    "stopTs": 1775566800000,
-    "title": "Khabar Uttarakhand",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events from Uttarakhand."
-  },
-  {
-    "start": "13:00",
-    "stop": "13:30",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775566800000,
-    "stopTs": 1775568600000,
-    "title": "Paschimanchal",
-    "desc": "The anchor covers politics, the economy and sociocultural affairs, providing insightful updates from the Western side of India."
-  },
-  {
-    "start": "13:30",
-    "stop": "14:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775568600000,
-    "stopTs": 1775570400000,
-    "title": "Charcha E Khas",
-    "desc": "The host moderates debates with political leaders and experts, discussing crucial matters such as governance, social, economic, and political issues across the nation."
-  },
-  {
-    "start": "14:00",
-    "stop": "14:30",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775570400000,
-    "stopTs": 1775572200000,
-    "title": "Charcha E Khas",
-    "desc": "The host moderates debates with political leaders and experts, discussing crucial matters such as governance, social, economic, and political issues across the nation."
-  },
-  {
-    "start": "14:30",
-    "stop": "15:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775572200000,
-    "stopTs": 1775574000000,
-    "title": "Delhi Live",
-    "desc": "The host presents the latest news updates related to the socio-economic, political and cultural issues happening in and around Delhi."
-  },
-  {
-    "start": "15:00",
-    "stop": "15:30",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775574000000,
-    "stopTs": 1775575800000,
-    "title": "Bihar Jharkhand",
-    "desc": "The host provides a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775575800000,
-    "stopTs": 1775577600000,
-    "title": "National Mirror",
-    "desc": "The host presents a round-up of the latest social, political and economic news updates and developments from across the country."
-  },
-  {
-    "start": "16:00",
-    "stop": "16:30",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775577600000,
-    "stopTs": 1775579400000,
-    "title": "Khabar Uttarakhand",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events from Uttarakhand."
-  },
-  {
-    "start": "16:30",
-    "stop": "17:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775579400000,
-    "stopTs": 1775581200000,
-    "title": "MP-CG Bulletin",
-    "desc": "The host presents the latest news stories and developments surrounding various political and socio-economic issues around the country."
-  },
-  {
-    "start": "17:00",
-    "stop": "17:30",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775581200000,
-    "stopTs": 1775583000000,
-    "title": "Sangam Express",
-    "desc": "The host provides a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "17:30",
-    "stop": "18:00",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775583000000,
-    "stopTs": 1775584800000,
-    "title": "Khabar Uttarakhand",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events from Uttarakhand."
-  },
-  {
-    "start": "18:00",
-    "stop": "18:29",
-    "channel": "Network10.in",
-    "channelId": "Network10.in",
-    "channelName": "Network 10",
-    "startTs": 1775584800000,
-    "stopTs": 1775586599000,
-    "title": "Purvanchal",
-    "desc": "The host delivers the latest news and updates on key governance, social, economic, and political issues affecting the Purvanchal region of Uttar Pradesh."
+    "desc": "The host covers politics, the economy and current affairs from the Western part of India."
   }
 ]

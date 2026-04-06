@@ -1,0 +1,167 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "CNBCTV18.in",
+    "channelId": "CNBCTV18.in",
+    "channelName": "CNBC TV18",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Markets Today",
+    "desc": "The host provides the latest news and updates related to the stock markets."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "CNBCTV18.in",
+    "channelId": "CNBCTV18.in",
+    "channelName": "CNBC TV18",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Reporter&apos;s Diary",
+    "desc": "The host provides in-depth coverage of news headlines and current affairs."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "CNBCTV18.in",
+    "channelId": "CNBCTV18.in",
+    "channelName": "CNBC TV18",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "CNBC-TV18 Special",
+    "desc": "The host presents information about the social, economic and political issues of the day."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "CNBCTV18.in",
+    "channelId": "CNBCTV18.in",
+    "channelName": "CNBC TV18",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Reporter&apos;s Diary",
+    "desc": "The host provides in-depth coverage of news headlines and current affairs."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "CNBCTV18.in",
+    "channelId": "CNBCTV18.in",
+    "channelName": "CNBC TV18",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Start Up Street",
+    "desc": "The host provides updates about the developments of various start-up businesses."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "CNBCTV18.in",
+    "channelId": "CNBCTV18.in",
+    "channelName": "CNBC TV18",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "U.S Markets Opening Bell",
+    "desc": "The host provides the latest news and updates related to the stock markets."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "CNBCTV18.in",
+    "channelId": "CNBCTV18.in",
+    "channelName": "CNBC TV18",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "CNBC-TV18 Special",
+    "desc": "The host presents information about the social, economic and political issues of the day."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "CNBCTV18.in",
+    "channelId": "CNBCTV18.in",
+    "channelName": "CNBC TV18",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "India Business Hour",
+    "desc": "The host presents provides a holistic perspective of the Indian business environment."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "CNBCTV18.in",
+    "channelId": "CNBCTV18.in",
+    "channelName": "CNBC TV18",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Markets Today",
+    "desc": "The host provides the latest news and updates related to the stock markets."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "CNBCTV18.in",
+    "channelId": "CNBCTV18.in",
+    "channelName": "CNBC TV18",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "India Business Hour",
+    "desc": "The host presents provides a holistic perspective of the Indian business environment."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "CNBCTV18.in",
+    "channelId": "CNBCTV18.in",
+    "channelName": "CNBC TV18",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "CNBC-TV18 Special",
+    "desc": "The host presents information about the social, economic and political issues of the day."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "CNBCTV18.in",
+    "channelId": "CNBCTV18.in",
+    "channelName": "CNBC TV18",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "CNBC-TV18 Special",
+    "desc": "The host presents information about the social, economic and political issues of the day."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "CNBCTV18.in",
+    "channelId": "CNBCTV18.in",
+    "channelName": "CNBC TV18",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "CNBC-TV18 Special",
+    "desc": "The host presents information about the social, economic and political issues of the day."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "CNBCTV18.in",
+    "channelId": "CNBCTV18.in",
+    "channelName": "CNBC TV18",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "India Business Hour",
+    "desc": "The host presents provides a holistic perspective of the Indian business environment."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "CNBCTV18.in",
+    "channelId": "CNBCTV18.in",
+    "channelName": "CNBC TV18",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "CNBC-TV18 Special",
+    "desc": "The host presents information about the social, economic and political issues of the day."
+  }
+]

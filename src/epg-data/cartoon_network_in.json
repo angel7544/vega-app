@@ -1,0 +1,167 @@
+[
+  {
+    "start": "10:00",
+    "stop": "12:00",
+    "channel": "CartoonNetwork.in",
+    "channelId": "CartoonNetwork.in",
+    "channelName": "Cartoon Network",
+    "startTs": 1775469600000,
+    "stopTs": 1775476800000,
+    "title": "Teen Titans GO!",
+    "desc": "A group of quirky young heroes balance crime-fighting with everyday antics and fun."
+  },
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "CartoonNetworkHDPlus.in",
+    "channelId": "CartoonNetworkHDPlus.in",
+    "channelName": "Cartoon Network HD+",
+    "startTs": 1775471400000,
+    "stopTs": 1775475000000,
+    "title": "Regular Show",
+    "desc": "A blue jay named Mordecai and a raccoon called Rigby get into numerous misadventures."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "CartoonNetworkHDPlus.in",
+    "channelId": "CartoonNetworkHDPlus.in",
+    "channelName": "Cartoon Network HD+",
+    "startTs": 1775475000000,
+    "stopTs": 1775478600000,
+    "title": "Teen Titans GO!",
+    "desc": "A group of quirky young heroes balance crime-fighting with everyday antics and fun."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "CartoonNetwork.in",
+    "channelId": "CartoonNetwork.in",
+    "channelName": "Cartoon Network",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Teen Titans GO!",
+    "desc": "A group of quirky young heroes balance crime-fighting with everyday antics and fun."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "CartoonNetwork.in",
+    "channelId": "CartoonNetwork.in",
+    "channelName": "Cartoon Network",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Teen Titans GO!",
+    "desc": "A group of quirky young heroes balance crime-fighting with everyday antics and fun."
+  },
+  {
+    "start": "13:00",
+    "stop": "14:00",
+    "channel": "CartoonNetwork.in",
+    "channelId": "CartoonNetwork.in",
+    "channelName": "Cartoon Network",
+    "startTs": 1775480400000,
+    "stopTs": 1775484000000,
+    "title": "Teen Titans GO!",
+    "desc": "A group of quirky young heroes balance crime-fighting with everyday antics and fun."
+  },
+  {
+    "start": "13:30",
+    "stop": "15:30",
+    "channel": "CartoonNetworkHDPlus.in",
+    "channelId": "CartoonNetworkHDPlus.in",
+    "channelName": "Cartoon Network HD+",
+    "startTs": 1775482200000,
+    "stopTs": 1775489400000,
+    "title": "We Bare Bears",
+    "desc": "Three brother bears awkwardly navigate modern life in the San Francisco Bay Area."
+  },
+  {
+    "start": "14:00",
+    "stop": "15:00",
+    "channel": "CartoonNetwork.in",
+    "channelId": "CartoonNetwork.in",
+    "channelName": "Cartoon Network",
+    "startTs": 1775484000000,
+    "stopTs": 1775487600000,
+    "title": "Teen Titans",
+    "desc": "A team of teenage superheroes embark on an exciting adventure to save the world."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "CartoonNetwork.in",
+    "channelId": "CartoonNetwork.in",
+    "channelName": "Cartoon Network",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Teen Titans",
+    "desc": "A team of teenage superheroes embark on an exciting adventure to save the world."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "CartoonNetwork.in",
+    "channelId": "CartoonNetwork.in",
+    "channelName": "Cartoon Network",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Teen Titans",
+    "desc": "A team of teenage superheroes embark on an exciting adventure to save the world."
+  },
+  {
+    "start": "16:00",
+    "stop": "17:00",
+    "channel": "CartoonNetwork.in",
+    "channelId": "CartoonNetwork.in",
+    "channelName": "Cartoon Network",
+    "startTs": 1775491200000,
+    "stopTs": 1775494800000,
+    "title": "Dragon Ball Super",
+    "desc": "Goku embarks on a new quest after learning of a powerful entity who wants to kill him."
+  },
+  {
+    "start": "16:45",
+    "stop": "18:00",
+    "channel": "CartoonNetworkHDPlus.in",
+    "channelId": "CartoonNetworkHDPlus.in",
+    "channelName": "Cartoon Network HD+",
+    "startTs": 1775493900000,
+    "stopTs": 1775498400000,
+    "title": "Dragon Ball Super",
+    "desc": "Goku embarks on a new quest after learning of a powerful entity who wants to kill him."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "CartoonNetwork.in",
+    "channelId": "CartoonNetwork.in",
+    "channelName": "Cartoon Network",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Dragon Ball Super",
+    "desc": "Goku embarks on a new quest after learning of a powerful entity who wants to kill him."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "CartoonNetwork.in",
+    "channelId": "CartoonNetwork.in",
+    "channelName": "Cartoon Network",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Dragon Ball Super",
+    "desc": "Goku embarks on a new quest after learning of a powerful entity who wants to kill him."
+  },
+  {
+    "start": "18:00",
+    "stop": "19:30",
+    "channel": "CartoonNetwork.in",
+    "channelId": "CartoonNetwork.in",
+    "channelName": "Cartoon Network",
+    "startTs": 1775498400000,
+    "stopTs": 1775503800000,
+    "title": "Courage the Cowardly Dog",
+    "desc": "Courage, a timid dog, defends his elderly owners from paranormal activity on their farm."
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "ZeePunjabi.in",
+    "channelId": "ZeePunjabi.in",
+    "channelName": "Zee Punjabi",
+    "startTs": 1775471400000,
+    "stopTs": 1775475000000,
+    "title": "Mata Naina Devi Mandir",
+    "desc": "."
+  },
+  {
+    "start": "11:30",
+    "stop": "13:30",
+    "channel": "ZeePunjabi.in",
+    "channelId": "ZeePunjabi.in",
+    "channelName": "Zee Punjabi",
+    "startTs": 1775475000000,
+    "stopTs": 1775482200000,
+    "title": "Takhat Sri harimandir Ji Patna Sahib",
+    "desc": "Takhat Sri harimandir Ji Patna Sahib"
+  },
+  {
+    "start": "13:30",
+    "stop": "16:30",
+    "channel": "ZeePunjabi.in",
+    "channelId": "ZeePunjabi.in",
+    "channelName": "Zee Punjabi",
+    "startTs": 1775482200000,
+    "stopTs": 1775493000000,
+    "title": "Yaar Belly",
+    "desc": "A young man and a woman belonging to different socio-economic backgrounds fall in love."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "ZeePunjabi.in",
+    "channelId": "ZeePunjabi.in",
+    "channelName": "Zee Punjabi",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Desi Beats",
+    "desc": "A compilation of some of the most popular Punjabi songs is played back-to-back. S002024 E272, 2024."
+  },
+  {
+    "start": "17:00",
+    "stop": "20:00",
+    "channel": "ZeePunjabi.in",
+    "channelId": "ZeePunjabi.in",
+    "channelName": "Zee Punjabi",
+    "startTs": 1775494800000,
+    "stopTs": 1775505600000,
+    "title": "Puaada",
+    "desc": "Jaggi and Raunak wish to get married but face numerous challenges."
+  }
+]

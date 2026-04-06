@@ -1,0 +1,90 @@
+[
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "NationalNewsLive.in",
+    "channelId": "NationalNewsLive.in",
+    "channelName": "National News Live",
+    "startTs": 1775471400000,
+    "stopTs": 1775475000000,
+    "title": "Jeewan Bhagti",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "NationalNewsLive.in",
+    "channelId": "NationalNewsLive.in",
+    "channelName": "National News Live",
+    "startTs": 1775475000000,
+    "stopTs": 1775478600000,
+    "title": "National News Live Super 100",
+    "desc": "The host presents information about the social, economic and political issues of the day."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "NationalNewsLive.in",
+    "channelId": "NationalNewsLive.in",
+    "channelName": "National News Live",
+    "startTs": 1775478600000,
+    "stopTs": 1775482200000,
+    "title": "National News Live Breaking",
+    "desc": "The host presents information about the social, economic and political issues of the day."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "NationalNewsLive.in",
+    "channelId": "NationalNewsLive.in",
+    "channelName": "National News Live",
+    "startTs": 1775482200000,
+    "stopTs": 1775485800000,
+    "title": "The Jitender Dangi Show",
+    "desc": "The host invites experts from various fields and conducts an insightful discussion."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "NationalNewsLive.in",
+    "channelId": "NationalNewsLive.in",
+    "channelName": "National News Live",
+    "startTs": 1775485800000,
+    "stopTs": 1775489400000,
+    "title": "Prime Time With Tarnum Parveen",
+    "desc": "Host Tarnum Parveen provides an in-depth analysis of the latest news stories."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "NationalNewsLive.in",
+    "channelId": "NationalNewsLive.in",
+    "channelName": "National News Live",
+    "startTs": 1775489400000,
+    "stopTs": 1775493000000,
+    "title": "National News Live @ 9",
+    "desc": "The host presents information about the social, economic and political issues of the day."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "NationalNewsLive.in",
+    "channelId": "NationalNewsLive.in",
+    "channelName": "National News Live",
+    "startTs": 1775493000000,
+    "stopTs": 1775496600000,
+    "title": "Khabar 10 Baje",
+    "desc": "The host presents information about the social, economic and political issues of the day."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:30",
+    "channel": "NationalNewsLive.in",
+    "channelId": "NationalNewsLive.in",
+    "channelName": "National News Live",
+    "startTs": 1775496600000,
+    "stopTs": 1775500200000,
+    "title": "National News Live Breaking",
+    "desc": "The host presents information about the social, economic and political issues of the day."
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "start": "09:50",
+    "stop": "11:15",
+    "channel": "MTV.in",
+    "channelId": "MTV.in",
+    "channelName": "MTV HD",
+    "startTs": 1775469000000,
+    "stopTs": 1775474100000,
+    "title": "Splitsvilla",
+    "desc": "Young men and women go through obstacles and intense heartbreaks to find their perfect partner. S16 E35."
+  },
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "MTV.in",
+    "channelId": "MTV.in",
+    "channelName": "MTV HD",
+    "startTs": 1775471400000,
+    "stopTs": 1775475000000,
+    "title": "Splitsvilla",
+    "desc": "Young men and women go through obstacles and intense heartbreaks to find their perfect partner. S16 E69."
+  },
+  {
+    "start": "11:15",
+    "stop": "12:30",
+    "channel": "MTV.in",
+    "channelId": "MTV.in",
+    "channelName": "MTV HD",
+    "startTs": 1775474100000,
+    "stopTs": 1775478600000,
+    "title": "Splitsvilla",
+    "desc": "Young men and women go through obstacles and intense heartbreaks to find their perfect partner. S16 E36."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:40",
+    "channel": "MTV.in",
+    "channelId": "MTV.in",
+    "channelName": "MTV HD",
+    "startTs": 1775475000000,
+    "stopTs": 1775479200000,
+    "title": "Splitsvilla",
+    "desc": "Young men and women go through obstacles and intense heartbreaks to find their perfect partner. S16 E69."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "MTV.in",
+    "channelId": "MTV.in",
+    "channelName": "MTV HD",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Splitsvilla X6 Behind the Villa",
+    "desc": "Peek behind the curtain at Splitsvilla contestants&apos; candid moments and backstage drama. S16 E12."
+  },
+  {
+    "start": "12:40",
+    "stop": "13:45",
+    "channel": "MTV.in",
+    "channelId": "MTV.in",
+    "channelName": "MTV HD",
+    "startTs": 1775479200000,
+    "stopTs": 1775483100000,
+    "title": "Roadies",
+    "desc": "Participants from different parts of the country compete with each other to win the prize."
+  },
+  {
+    "start": "13:00",
+    "stop": "14:45",
+    "channel": "MTV.in",
+    "channelId": "MTV.in",
+    "channelName": "MTV HD",
+    "startTs": 1775480400000,
+    "stopTs": 1775486700000,
+    "title": "Splitsvilla",
+    "desc": "Young men and women go through obstacles and intense heartbreaks to find their perfect partner. S16 E35."
+  },
+  {
+    "start": "13:45",
+    "stop": "15:00",
+    "channel": "MTV.in",
+    "channelId": "MTV.in",
+    "channelName": "MTV HD",
+    "startTs": 1775483100000,
+    "stopTs": 1775487600000,
+    "title": "Roadies",
+    "desc": "Participants from different parts of the country compete with each other to win the prize."
+  },
+  {
+    "start": "14:45",
+    "stop": "15:20",
+    "channel": "MTV.in",
+    "channelId": "MTV.in",
+    "channelName": "MTV HD",
+    "startTs": 1775486700000,
+    "stopTs": 1775488800000,
+    "title": "Splitsvilla X6 Behind the Villa",
+    "desc": "Peek behind the curtain at Splitsvilla contestants&apos; candid moments and backstage drama. S16 E12."
+  },
+  {
+    "start": "15:00",
+    "stop": "16:30",
+    "channel": "MTV.in",
+    "channelId": "MTV.in",
+    "channelName": "MTV HD",
+    "startTs": 1775487600000,
+    "stopTs": 1775493000000,
+    "title": "Fear Factor: Khatron Ke Khiladi",
+    "desc": "Twelve celebrity contestants face their worst fears and perform a series of stunts. S01 E19."
+  },
+  {
+    "start": "15:20",
+    "stop": "15:55",
+    "channel": "MTV.in",
+    "channelId": "MTV.in",
+    "channelName": "MTV HD",
+    "startTs": 1775488800000,
+    "stopTs": 1775490900000,
+    "title": "Troll Police",
+    "desc": "Zareen Khan, a famour Bollywood actress, has been the subject of online bullying."
+  },
+  {
+    "start": "15:55",
+    "stop": "17:30",
+    "channel": "MTV.in",
+    "channelId": "MTV.in",
+    "channelName": "MTV HD",
+    "startTs": 1775490900000,
+    "stopTs": 1775496600000,
+    "title": "Splitsvilla",
+    "desc": "Young men and women go through obstacles and intense heartbreaks to find their perfect partner. S16 E36."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:45",
+    "channel": "MTV.in",
+    "channelId": "MTV.in",
+    "channelName": "MTV HD",
+    "startTs": 1775493000000,
+    "stopTs": 1775497500000,
+    "title": "Roadies",
+    "desc": "Participants from different parts of the country compete with each other to win the prize."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:35",
+    "channel": "MTV.in",
+    "channelId": "MTV.in",
+    "channelName": "MTV HD",
+    "startTs": 1775496600000,
+    "stopTs": 1775500500000,
+    "title": "Splitsvilla",
+    "desc": "Young men and women go through obstacles and intense heartbreaks to find their perfect partner. S16 E33."
+  },
+  {
+    "start": "17:45",
+    "stop": "18:30",
+    "channel": "MTV.in",
+    "channelId": "MTV.in",
+    "channelName": "MTV HD",
+    "startTs": 1775497500000,
+    "stopTs": 1775500200000,
+    "title": "Splitsvilla",
+    "desc": "Young men and women go through obstacles and intense heartbreaks to find their perfect partner. S16 E69."
+  }
+]

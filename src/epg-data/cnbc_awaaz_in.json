@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:27",
-    "stop": "10:57",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775471220000,
-    "stopTs": 1775473020000,
-    "title": "Awaaz Samachar",
-    "desc": "The host presents top stories and headlines and all the action from the world of markets, industries, government, entertainment, sports and more."
-  },
-  {
     "start": "10:57",
     "stop": "11:27",
     "channel": "CNBCAwaaz.in",
@@ -19,7 +8,7 @@
     "startTs": 1775473020000,
     "stopTs": 1775474820000,
     "title": "Commodity 360°",
-    "desc": "The host invites eminent experts to discuss the latest trends and developments in India&apos;s commodity market and further touch upon the factors that impact the production of various commodities."
+    "desc": "The host and experts discuss the trends and developments in India&apos;s commodity market."
   },
   {
     "start": "11:27",
@@ -30,7 +19,7 @@
     "startTs": 1775474820000,
     "stopTs": 1775476620000,
     "title": "Awaaz Samachar",
-    "desc": "The host presents top stories and headlines and all the action from the world of markets, industries, government, entertainment, sports and more."
+    "desc": "The host presents top stories and news updates making headlines around the world."
   },
   {
     "start": "11:57",
@@ -41,7 +30,7 @@
     "startTs": 1775476620000,
     "stopTs": 1775478420000,
     "title": "Tax Guru",
-    "desc": "The host invites tax experts who offer detailed insights on tax topics with advice covering tax-free allowances and TDS."
+    "desc": "The host facilitates discussions on tax matters with experts, providing valuable insights."
   },
   {
     "start": "12:27",
@@ -52,7 +41,7 @@
     "startTs": 1775478420000,
     "stopTs": 1775480220000,
     "title": "Consumer Adda",
-    "desc": "The host presents various products manufactured by popular leading brands that can be purchased from the comfort of one&apos;s home."
+    "desc": "The host presents various products manufactured by popular leading brands."
   },
   {
     "start": "12:57",
@@ -63,7 +52,7 @@
     "startTs": 1775480220000,
     "stopTs": 1775482020000,
     "title": "Your Money",
-    "desc": "The host presents business updates and talks to experts in the field of finance who provide key stock market tips and insights."
+    "desc": "The host presents business updates and provides stock market tips and insights."
   },
   {
     "start": "13:27",
@@ -74,7 +63,7 @@
     "startTs": 1775482020000,
     "stopTs": 1775483820000,
     "title": "Awaaz Samachar",
-    "desc": "The host presents top stories and headlines and all the action from the world of markets, industries, government, entertainment, sports and more."
+    "desc": "The host presents top stories and news updates making headlines around the world."
   },
   {
     "start": "13:57",
@@ -85,7 +74,7 @@
     "startTs": 1775483820000,
     "stopTs": 1775485620000,
     "title": "Kal Ka Bazar",
-    "desc": "The host facilitates conversations with industry experts, analysing market trends and identifying sectors and stocks with promising profit opportunities."
+    "desc": "The host discusses market trends with experts, highlighting potential profit sectors."
   },
   {
     "start": "14:27",
@@ -96,7 +85,7 @@
     "startTs": 1775485620000,
     "stopTs": 1775487420000,
     "title": "Awaaz Adda",
-    "desc": "Prominent political, social, economic, bureaucratic and cultural personalities of the nation debate the key national and regional issues."
+    "desc": "Prominent national and regional personalities of the nation debate key issues."
   },
   {
     "start": "14:57",
@@ -107,7 +96,7 @@
     "startTs": 1775487420000,
     "stopTs": 1775489220000,
     "title": "Awaaz Adda",
-    "desc": "Prominent political, social, economic, bureaucratic and cultural personalities of the nation debate the key national and regional issues."
+    "desc": "Prominent national and regional personalities of the nation debate key issues."
   },
   {
     "start": "15:27",
@@ -118,7 +107,7 @@
     "startTs": 1775489220000,
     "stopTs": 1775491020000,
     "title": "Takkar",
-    "desc": "A panel of experts debates various crucial issues of national and international interest and presents differing opinions."
+    "desc": "A panel of experts debates various crucial issues of national and international interests."
   },
   {
     "start": "15:57",
@@ -129,7 +118,7 @@
     "startTs": 1775491020000,
     "stopTs": 1775492820000,
     "title": "Takkar",
-    "desc": "A panel of experts debates various crucial issues of national and international interest and presents differing opinions."
+    "desc": "A panel of experts debates various crucial issues of national and international interests."
   },
   {
     "start": "16:27",
@@ -140,7 +129,7 @@
     "startTs": 1775492820000,
     "stopTs": 1775494620000,
     "title": "Kal Ka Bazar",
-    "desc": "The host facilitates conversations with industry experts, analysing market trends and identifying sectors and stocks with promising profit opportunities."
+    "desc": "The host discusses market trends with experts, highlighting potential profit sectors."
   },
   {
     "start": "16:57",
@@ -151,7 +140,7 @@
     "startTs": 1775494620000,
     "stopTs": 1775496420000,
     "title": "Consumer Adda",
-    "desc": "The host presents various products manufactured by popular leading brands that can be purchased from the comfort of one&apos;s home."
+    "desc": "The host presents various products manufactured by popular leading brands."
   },
   {
     "start": "17:27",
@@ -162,622 +151,17 @@
     "startTs": 1775496420000,
     "stopTs": 1775498220000,
     "title": "Awaaz Adda",
-    "desc": "Prominent political, social, economic, bureaucratic and cultural personalities of the nation debate the key national and regional issues."
+    "desc": "Prominent national and regional personalities of the nation debate key issues."
   },
   {
     "start": "17:57",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "CNBCAwaaz.in",
     "channelId": "CNBCAwaaz.in",
     "channelName": "CNBC Awaaz",
     "startTs": 1775498220000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "Awaaz Adda",
-    "desc": "Prominent political, social, economic, bureaucratic and cultural personalities of the nation debate the key national and regional issues."
-  },
-  {
-    "start": "18:30",
-    "stop": "18:50",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775500200000,
-    "stopTs": 1775501400000,
-    "title": "Takkar",
-    "desc": "A panel of experts debates various crucial issues of national and international interest and presents differing opinions."
-  },
-  {
-    "start": "18:50",
-    "stop": "19:10",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775501400000,
-    "stopTs": 1775502600000,
-    "title": "Takkar",
-    "desc": "A panel of experts debates various crucial issues of national and international interest and presents differing opinions."
-  },
-  {
-    "start": "19:10",
-    "stop": "19:30",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775502600000,
-    "stopTs": 1775503800000,
-    "title": "Takkar",
-    "desc": "A panel of experts debates various crucial issues of national and international interest and presents differing opinions."
-  },
-  {
-    "start": "19:30",
-    "stop": "19:50",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775503800000,
-    "stopTs": 1775505000000,
-    "title": "Your Money",
-    "desc": "The host presents business updates and talks to experts in the field of finance who provide key stock market tips and insights."
-  },
-  {
-    "start": "19:50",
-    "stop": "20:10",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775505000000,
-    "stopTs": 1775506200000,
-    "title": "Consumer Adda",
-    "desc": "The host presents various products manufactured by popular leading brands that can be purchased from the comfort of one&apos;s home."
-  },
-  {
-    "start": "20:10",
-    "stop": "20:30",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775506200000,
-    "stopTs": 1775507400000,
-    "title": "Awaaz Adda",
-    "desc": "Prominent political, social, economic, bureaucratic and cultural personalities of the nation debate the key national and regional issues."
-  },
-  {
-    "start": "20:30",
-    "stop": "20:50",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775507400000,
-    "stopTs": 1775508600000,
-    "title": "Awaaz Adda",
-    "desc": "Prominent political, social, economic, bureaucratic and cultural personalities of the nation debate the key national and regional issues."
-  },
-  {
-    "start": "20:50",
-    "stop": "21:10",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775508600000,
-    "stopTs": 1775509800000,
-    "title": "Kal Ka Bazar",
-    "desc": "The host facilitates conversations with industry experts, analysing market trends and identifying sectors and stocks with promising profit opportunities."
-  },
-  {
-    "start": "21:10",
-    "stop": "21:30",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775509800000,
-    "stopTs": 1775511000000,
-    "title": "Takkar",
-    "desc": "A panel of experts debates various crucial issues of national and international interest and presents differing opinions."
-  },
-  {
-    "start": "21:30",
-    "stop": "21:50",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775511000000,
-    "stopTs": 1775512200000,
-    "title": "Takkar",
-    "desc": "A panel of experts debates various crucial issues of national and international interest and presents differing opinions."
-  },
-  {
-    "start": "21:50",
-    "stop": "22:10",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775512200000,
-    "stopTs": 1775513400000,
-    "title": "Consumer Adda",
-    "desc": "The host presents various products manufactured by popular leading brands that can be purchased from the comfort of one&apos;s home."
-  },
-  {
-    "start": "22:10",
-    "stop": "22:30",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775513400000,
-    "stopTs": 1775514600000,
-    "title": "Awaaz Adda",
-    "desc": "Prominent political, social, economic, bureaucratic and cultural personalities of the nation debate the key national and regional issues."
-  },
-  {
-    "start": "22:30",
-    "stop": "22:50",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775514600000,
-    "stopTs": 1775515800000,
-    "title": "Awaaz Adda",
-    "desc": "Prominent political, social, economic, bureaucratic and cultural personalities of the nation debate the key national and regional issues."
-  },
-  {
-    "start": "22:50",
-    "stop": "23:10",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775515800000,
-    "stopTs": 1775517000000,
-    "title": "Your Money",
-    "desc": "The host presents business updates and talks to experts in the field of finance who provide key stock market tips and insights."
-  },
-  {
-    "start": "23:10",
-    "stop": "23:30",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775517000000,
-    "stopTs": 1775518200000,
-    "title": "Tax Guru",
-    "desc": "The host invites tax experts who offer detailed insights on tax topics with advice covering tax-free allowances and TDS."
-  },
-  {
-    "start": "23:30",
-    "stop": "23:50",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775518200000,
-    "stopTs": 1775519400000,
-    "title": "Consumer Adda",
-    "desc": "The host presents various products manufactured by popular leading brands that can be purchased from the comfort of one&apos;s home."
-  },
-  {
-    "start": "23:50",
-    "stop": "00:10",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775519400000,
-    "stopTs": 1775520600000,
-    "title": "Kal Ka Bazar",
-    "desc": "The host facilitates conversations with industry experts, analysing market trends and identifying sectors and stocks with promising profit opportunities."
-  },
-  {
-    "start": "00:10",
-    "stop": "00:27",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775520600000,
-    "stopTs": 1775521620000,
-    "title": "Consumer Adda",
-    "desc": "The host presents various products manufactured by popular leading brands that can be purchased from the comfort of one&apos;s home."
-  },
-  {
-    "start": "00:27",
-    "stop": "00:57",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775521620000,
-    "stopTs": 1775523420000,
-    "title": "Your Money",
-    "desc": "The host presents business updates and talks to experts in the field of finance who provide key stock market tips and insights."
-  },
-  {
-    "start": "00:57",
-    "stop": "01:27",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775523420000,
-    "stopTs": 1775525220000,
-    "title": "Market Pulse",
-    "desc": "The experts share their insights and the presenter provides the latest updates from the world of stock and share markets."
-  },
-  {
-    "start": "01:27",
-    "stop": "01:57",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775525220000,
-    "stopTs": 1775527020000,
-    "title": "Morning Call",
-    "desc": "The host presents news and updates on stocks and shares before the opening of the market and invites experts to suggest useful strategies for the day."
-  },
-  {
-    "start": "01:57",
-    "stop": "02:27",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775527020000,
-    "stopTs": 1775528820000,
-    "title": "Seedha Sauda",
-    "desc": "The host provides an insight into the latest developments in the stock market and presents the current values of various shares using the latest pitch reports."
-  },
-  {
-    "start": "02:27",
-    "stop": "02:57",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775528820000,
-    "stopTs": 1775530620000,
-    "title": "Munafe Ki Taiyari",
-    "desc": "The host moderates a panel discussion wherein financial experts shed light on the latest news and updates about the economic field."
-  },
-  {
-    "start": "02:57",
-    "stop": "03:27",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775530620000,
-    "stopTs": 1775532420000,
-    "title": "Munafe Ki Taiyari",
-    "desc": "The host moderates a panel discussion wherein financial experts shed light on the latest news and updates about the economic field."
-  },
-  {
-    "start": "03:27",
-    "stop": "03:57",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775532420000,
-    "stopTs": 1775534220000,
-    "title": "Pehla Sauda",
-    "desc": "The host analyses the relative strengths and weaknesses of key stocks and the likely impact of the international market and government policies on the economy."
-  },
-  {
-    "start": "03:57",
-    "stop": "04:27",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775534220000,
-    "stopTs": 1775536020000,
-    "title": "Pehla Sauda",
-    "desc": "The host analyses the relative strengths and weaknesses of key stocks and the likely impact of the international market and government policies on the economy."
-  },
-  {
-    "start": "04:27",
-    "stop": "04:57",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775536020000,
-    "stopTs": 1775537820000,
-    "title": "10 Ke Damdaar Trade",
-    "desc": "The host talks to a panel of financial experts to analyse the latest stock market update and compare the shares of different companies to help investors choose their investments wisely."
-  },
-  {
-    "start": "04:57",
-    "stop": "05:27",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775537820000,
-    "stopTs": 1775539620000,
-    "title": "Traders Hotline",
-    "desc": "The hosts present the latest economic headlines and interact with experts in the financial sector who share insightful advice and suggestions."
-  },
-  {
-    "start": "05:27",
-    "stop": "05:57",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775539620000,
-    "stopTs": 1775541420000,
-    "title": "Khiladi No.1",
-    "desc": "The host invites three market experts to strategise and compete against each other in an attempt to advise viewers on potential investment opportunities in the stock market."
-  },
-  {
-    "start": "05:57",
-    "stop": "06:15",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775541420000,
-    "stopTs": 1775542500000,
-    "title": "Gold Spot",
-    "desc": "The presenter discusses gold prices in India and abroad, shedding light on key elements that impact the rates and influence market fluctuations."
-  },
-  {
-    "start": "06:15",
-    "stop": "06:27",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775542500000,
-    "stopTs": 1775543220000,
-    "title": "Commodity Round Up",
-    "desc": "The host provides an in-depth report on some of the latest updates, key developments and current trends in the commodities market."
-  },
-  {
-    "start": "06:27",
-    "stop": "06:57",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775543220000,
-    "stopTs": 1775545020000,
-    "title": "Futures Express",
-    "desc": "The host provides a detailed report featuring the latest updates and key developments concerning futures and their performances across various sectors of the market."
-  },
-  {
-    "start": "06:57",
-    "stop": "07:27",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775545020000,
-    "stopTs": 1775546820000,
-    "title": "Saas, Bahu Aur Sensex",
-    "desc": "The host invites professional analysts to discuss the latest stock market updates and trends, with a focus on investment opportunities for women traders."
-  },
-  {
-    "start": "07:27",
-    "stop": "07:57",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775546820000,
-    "stopTs": 1775548620000,
-    "title": "Midcap Mantra",
-    "desc": "The host presents the latest business trends and updates pertaining to mid-cap companies and interacts with experts for their opinions."
-  },
-  {
-    "start": "07:57",
-    "stop": "08:27",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775548620000,
-    "stopTs": 1775550420000,
-    "title": "Know Your Company",
-    "desc": "Expert advisors provide insightful information on investment tips for businesses and the financial performance of various companies."
-  },
-  {
-    "start": "08:27",
-    "stop": "08:57",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775550420000,
-    "stopTs": 1775552220000,
-    "title": "Kamai Ka Adda",
-    "desc": "The host speaks to experts about the current situation of the stock market, gains insight into which stocks can be invested in and learns about the latest news related to the market."
-  },
-  {
-    "start": "08:57",
-    "stop": "09:27",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775552220000,
-    "stopTs": 1775554020000,
-    "title": "Kamai Ka Adda",
-    "desc": "The host speaks to experts about the current situation of the stock market, gains insight into which stocks can be invested in and learns about the latest news related to the market."
-  },
-  {
-    "start": "09:27",
-    "stop": "09:57",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775554020000,
-    "stopTs": 1775555820000,
-    "title": "Kamai Ka Adda",
-    "desc": "The host speaks to experts about the current situation of the stock market, gains insight into which stocks can be invested in and learns about the latest news related to the market."
-  },
-  {
-    "start": "09:57",
-    "stop": "10:27",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775555820000,
-    "stopTs": 1775557620000,
-    "title": "Commodity Call",
-    "desc": "The host delivers a detailed report and expert analysis on the latest business news, provides live stock and share updates, and reports on developments in banking and finance markets from around the world."
-  },
-  {
-    "start": "10:27",
-    "stop": "10:57",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775557620000,
-    "stopTs": 1775559420000,
-    "title": "Awaaz Samachar",
-    "desc": "The host presents top stories and headlines and all the action from the world of markets, industries, government, entertainment, sports and more."
-  },
-  {
-    "start": "10:57",
-    "stop": "11:27",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775559420000,
-    "stopTs": 1775561220000,
-    "title": "Commodity 360°",
-    "desc": "The host invites eminent experts to discuss the latest trends and developments in India&apos;s commodity market and further touch upon the factors that impact the production of various commodities."
-  },
-  {
-    "start": "11:27",
-    "stop": "11:57",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775561220000,
-    "stopTs": 1775563020000,
-    "title": "Awaaz Samachar",
-    "desc": "The host presents top stories and headlines and all the action from the world of markets, industries, government, entertainment, sports and more."
-  },
-  {
-    "start": "11:57",
-    "stop": "12:27",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775563020000,
-    "stopTs": 1775564820000,
-    "title": "Property Guru",
-    "desc": "A team of experts discusses the latest development in the real estate sector and solves various queries asked by viewers."
-  },
-  {
-    "start": "12:27",
-    "stop": "12:57",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775564820000,
-    "stopTs": 1775566620000,
-    "title": "Consumer Adda",
-    "desc": "The host presents various products manufactured by popular leading brands that can be purchased from the comfort of one&apos;s home."
-  },
-  {
-    "start": "12:57",
-    "stop": "13:27",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775566620000,
-    "stopTs": 1775568420000,
-    "title": "Your Money",
-    "desc": "The host presents business updates and talks to experts in the field of finance who provide key stock market tips and insights."
-  },
-  {
-    "start": "13:27",
-    "stop": "13:57",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775568420000,
-    "stopTs": 1775570220000,
-    "title": "Awaaz Samachar",
-    "desc": "The host presents top stories and headlines and all the action from the world of markets, industries, government, entertainment, sports and more."
-  },
-  {
-    "start": "13:57",
-    "stop": "14:27",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775570220000,
-    "stopTs": 1775572020000,
-    "title": "Kal Ka Bazar",
-    "desc": "The host facilitates conversations with industry experts, analysing market trends and identifying sectors and stocks with promising profit opportunities."
-  },
-  {
-    "start": "14:27",
-    "stop": "14:57",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775572020000,
-    "stopTs": 1775573820000,
-    "title": "Awaaz Adda",
-    "desc": "Prominent political, social, economic, bureaucratic and cultural personalities of the nation debate the key national and regional issues."
-  },
-  {
-    "start": "14:57",
-    "stop": "15:27",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775573820000,
-    "stopTs": 1775575620000,
-    "title": "Awaaz Adda",
-    "desc": "Prominent political, social, economic, bureaucratic and cultural personalities of the nation debate the key national and regional issues."
-  },
-  {
-    "start": "15:27",
-    "stop": "15:57",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775575620000,
-    "stopTs": 1775577420000,
-    "title": "Takkar",
-    "desc": "A panel of experts debates various crucial issues of national and international interest and presents differing opinions."
-  },
-  {
-    "start": "15:57",
-    "stop": "16:27",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775577420000,
-    "stopTs": 1775579220000,
-    "title": "Takkar",
-    "desc": "A panel of experts debates various crucial issues of national and international interest and presents differing opinions."
-  },
-  {
-    "start": "16:27",
-    "stop": "16:57",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775579220000,
-    "stopTs": 1775581020000,
-    "title": "Kal Ka Bazar",
-    "desc": "The host facilitates conversations with industry experts, analysing market trends and identifying sectors and stocks with promising profit opportunities."
-  },
-  {
-    "start": "16:57",
-    "stop": "17:27",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775581020000,
-    "stopTs": 1775582820000,
-    "title": "Consumer Adda",
-    "desc": "The host presents various products manufactured by popular leading brands that can be purchased from the comfort of one&apos;s home."
-  },
-  {
-    "start": "17:27",
-    "stop": "17:57",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775582820000,
-    "stopTs": 1775584620000,
-    "title": "Awaaz Adda",
-    "desc": "Prominent political, social, economic, bureaucratic and cultural personalities of the nation debate the key national and regional issues."
-  },
-  {
-    "start": "17:57",
-    "stop": "18:29",
-    "channel": "CNBCAwaaz.in",
-    "channelId": "CNBCAwaaz.in",
-    "channelName": "CNBC Awaaz",
-    "startTs": 1775584620000,
-    "stopTs": 1775586599000,
-    "title": "Awaaz Adda",
-    "desc": "Prominent political, social, economic, bureaucratic and cultural personalities of the nation debate the key national and regional issues."
+    "desc": "Prominent national and regional personalities of the nation debate key issues."
   }
 ]

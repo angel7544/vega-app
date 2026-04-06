@@ -1,0 +1,57 @@
+[
+  {
+    "start": "04:30",
+    "stop": "11:30",
+    "channel": "NationalToday24x7.in",
+    "channelId": "NationalToday24x7.in",
+    "channelName": "National Today 24x7",
+    "startTs": 1775449800000,
+    "stopTs": 1775475000000,
+    "title": "Politics Program",
+    "desc": "."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "NationalToday24x7.in",
+    "channelId": "NationalToday24x7.in",
+    "channelName": "National Today 24x7",
+    "startTs": 1775475000000,
+    "stopTs": 1775478600000,
+    "title": "Evening Bulletin",
+    "desc": "."
+  },
+  {
+    "start": "12:30",
+    "stop": "14:30",
+    "channel": "NationalToday24x7.in",
+    "channelId": "NationalToday24x7.in",
+    "channelName": "National Today 24x7",
+    "startTs": 1775478600000,
+    "stopTs": 1775485800000,
+    "title": "Politics Program",
+    "desc": "."
+  },
+  {
+    "start": "14:30",
+    "stop": "17:30",
+    "channel": "NationalToday24x7.in",
+    "channelId": "NationalToday24x7.in",
+    "channelName": "National Today 24x7",
+    "startTs": 1775485800000,
+    "stopTs": 1775496600000,
+    "title": "Khabar Dinbhar ki",
+    "desc": "."
+  },
+  {
+    "start": "17:30",
+    "stop": "00:30",
+    "channel": "NationalToday24x7.in",
+    "channelId": "NationalToday24x7.in",
+    "channelName": "National Today 24x7",
+    "startTs": 1775496600000,
+    "stopTs": 1775521800000,
+    "title": "Politics Program, Khabar Dinbhar Ki",
+    "desc": "."
+  }
+]

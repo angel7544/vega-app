@@ -1,0 +1,79 @@
+[
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "TataPlayBanglaCinema.in",
+    "channelId": "TataPlayBanglaCinema.in",
+    "channelName": "Tata Play Bangla Cinema",
+    "startTs": 1775471400000,
+    "stopTs": 1775475000000,
+    "title": "Songs",
+    "desc": "."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "TataPlayBanglaCinema.in",
+    "channelId": "TataPlayBanglaCinema.in",
+    "channelName": "Tata Play Bangla Cinema",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Kids",
+    "desc": "."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "TataPlayBanglaCinema.in",
+    "channelId": "TataPlayBanglaCinema.in",
+    "channelName": "Tata Play Bangla Cinema",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Filmy Songs",
+    "desc": "A collection of catchy, entertaining songs performed by artists and musicians, is played."
+  },
+  {
+    "start": "12:30",
+    "stop": "15:10",
+    "channel": "TataPlayBanglaCinema.in",
+    "channelId": "TataPlayBanglaCinema.in",
+    "channelName": "Tata Play Bangla Cinema",
+    "startTs": 1775478600000,
+    "stopTs": 1775488200000,
+    "title": "Kencho Khoondte Keute",
+    "desc": "Parama wants to marry a man whom she can divorce so that she can get her inheritance."
+  },
+  {
+    "start": "15:10",
+    "stop": "15:30",
+    "channel": "TataPlayBanglaCinema.in",
+    "channelId": "TataPlayBanglaCinema.in",
+    "channelName": "Tata Play Bangla Cinema",
+    "startTs": 1775488200000,
+    "stopTs": 1775489400000,
+    "title": "Scenes",
+    "desc": "A compilation of some of the scenes from Bengali movies, is played back-to-back."
+  },
+  {
+    "start": "15:30",
+    "stop": "17:35",
+    "channel": "TataPlayBanglaCinema.in",
+    "channelId": "TataPlayBanglaCinema.in",
+    "channelName": "Tata Play Bangla Cinema",
+    "startTs": 1775489400000,
+    "stopTs": 1775496900000,
+    "title": "Saheb",
+    "desc": "A young footballer donates his kidney for his family without worrying about his career."
+  },
+  {
+    "start": "17:35",
+    "stop": "18:30",
+    "channel": "TataPlayBanglaCinema.in",
+    "channelId": "TataPlayBanglaCinema.in",
+    "channelName": "Tata Play Bangla Cinema",
+    "startTs": 1775496900000,
+    "stopTs": 1775500200000,
+    "title": "Scenes",
+    "desc": "A compilation of some of the scenes from Bengali movies, is played back-to-back."
+  }
+]

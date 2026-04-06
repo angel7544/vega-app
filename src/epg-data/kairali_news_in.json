@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "News At 4",
-    "desc": "The host presents a crisp mix of regional and global headlines, offering real-time news, analysis and top stories in a clear and accessible format."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "KairaliNews.in",
@@ -19,7 +8,7 @@
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "American Focus",
-    "desc": "A collection of fun-filled celebrations and cultural activities organised by the Malayali community across America."
+    "desc": "A collection of cultural activities organised by the Malayali community across America."
   },
   {
     "start": "11:30",
@@ -30,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "News At 5",
-    "desc": "The anchor presents a culmination of the latest headlines and news reports that cover current regional and national developments."
+    "desc": "The anchor presents a culmination of the latest headlines that cover current events."
   },
   {
     "start": "12:00",
@@ -41,7 +30,7 @@
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Pradeshika Varthakal",
-    "desc": "The host provides an insight into some of the latest news, current affairs and developments on social, economic and political issues of regional significance."
+    "desc": "The host presents the latest regional news on social, economic and political issues."
   },
   {
     "start": "12:30",
@@ -52,7 +41,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775482200000,
     "title": "Evening Round Up",
-    "desc": "The host presents updates, the latest information and development on social, political, cultural and economic issues of global significance."
+    "desc": "The host presents updates, the latest information and development on various issues."
   },
   {
     "start": "13:30",
@@ -63,7 +52,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "News At 7",
-    "desc": "The host provides insights into some of the latest news, current affairs and developments on social, economic and political issues of national importance."
+    "desc": "The host presents the latest national news on social, economic and political issues."
   },
   {
     "start": "14:00",
@@ -74,7 +63,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Todays Debate",
-    "desc": "The host discusses the latest and the most relevant social, political and economic issues of the country with various experts."
+    "desc": "The host discusses the latest social, political and economic issues with experts."
   },
   {
     "start": "14:30",
@@ -85,7 +74,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775489400000,
     "title": "News N Views",
-    "desc": "The host presents updates about various socio-political issues and invites experts from various fields to shares their views about it."
+    "desc": "The host presents updates and invites experts from various fields to shares their views about it."
   },
   {
     "start": "15:30",
@@ -96,7 +85,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "News At 9 PM",
-    "desc": "The host presents the most recent news, updates and developments that took place in the entire day and provides coverage on current affairs."
+    "desc": "he host presents the most recent news, updates and developments of the day."
   },
   {
     "start": "16:00",
@@ -107,7 +96,7 @@
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Speed News",
-    "desc": "The host presents a quick update on the top stories of the day ranging from politics and business to sports and entertainment."
+    "desc": "The host presents a quick update on the top news stories of the day."
   },
   {
     "start": "16:30",
@@ -118,7 +107,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "News at 10",
-    "desc": "The host presents a detailed analysis of various news stories and developments pertaining to political and social affairs of the world."
+    "desc": "The host presents the latest news pertaining to political and social affairs."
   },
   {
     "start": "17:00",
@@ -129,391 +118,17 @@
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Pradeshika Varthakal",
-    "desc": "The host provides an insight into some of the latest news, current affairs and developments on social, economic and political issues of regional significance."
+    "desc": "The host presents the latest regional news on social, economic and political issues."
   },
   {
     "start": "17:30",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "KairaliNews.in",
     "channelId": "KairaliNews.in",
     "channelName": "Kairali News",
     "startTs": 1775496600000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "News Night",
-    "desc": "The host presents a comprehensive and detailed report on the latest news and developments, domestically and internationally."
-  },
-  {
-    "start": "18:30",
-    "stop": "19:00",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775500200000,
-    "stopTs": 1775502000000,
-    "title": "Gulf News",
-    "desc": "The host presents a round-up of the latest social, political and economic news updates and developments from the Middle East."
-  },
-  {
-    "start": "19:00",
-    "stop": "19:30",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775502000000,
-    "stopTs": 1775503800000,
-    "title": "News N Views",
-    "desc": "The host presents updates about various socio-political issues and invites experts from various fields to shares their views about it."
-  },
-  {
-    "start": "19:30",
-    "stop": "20:00",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775503800000,
-    "stopTs": 1775505600000,
-    "title": "News",
-    "desc": "The host presents a compilation of the latest updates and developments pertaining to politics, sports, social and economic news."
-  },
-  {
-    "start": "20:00",
-    "stop": "20:30",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775505600000,
-    "stopTs": 1775507400000,
-    "title": "News",
-    "desc": "The host presents a compilation of the latest updates and developments pertaining to politics, sports, social and economic news."
-  },
-  {
-    "start": "20:30",
-    "stop": "21:30",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775507400000,
-    "stopTs": 1775511000000,
-    "title": "News Night",
-    "desc": "The host presents a comprehensive and detailed report on the latest news and developments, domestically and internationally."
-  },
-  {
-    "start": "21:30",
-    "stop": "22:30",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775511000000,
-    "stopTs": 1775514600000,
-    "title": "9PM",
-    "desc": "The host presents the latest news stories and developments surrounding various political and socio-economic issues around the country."
-  },
-  {
-    "start": "22:30",
-    "stop": "23:30",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775514600000,
-    "stopTs": 1775518200000,
-    "title": "News N Views",
-    "desc": "The host presents updates about various socio-political issues and invites experts from various fields to shares their views about it."
-  },
-  {
-    "start": "23:30",
-    "stop": "00:00",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775518200000,
-    "stopTs": 1775520000000,
-    "title": "News Round Up",
-    "desc": "The host presents a detailed analysis on the latest information and developments on various important issues that affect many lives."
-  },
-  {
-    "start": "00:00",
-    "stop": "00:30",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775520000000,
-    "stopTs": 1775521800000,
-    "title": "News",
-    "desc": "The host presents a compilation of the latest updates and developments pertaining to politics, sports, social and economic news."
-  },
-  {
-    "start": "00:30",
-    "stop": "01:00",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775521800000,
-    "stopTs": 1775523600000,
-    "title": "First News",
-    "desc": "The host presents the latest information, advancements and developments on various important issues that affect many lives."
-  },
-  {
-    "start": "01:00",
-    "stop": "01:30",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775523600000,
-    "stopTs": 1775525400000,
-    "title": "Pradeshika Varthakal",
-    "desc": "The host provides an insight into some of the latest news, current affairs and developments on social, economic and political issues of regional significance."
-  },
-  {
-    "start": "01:30",
-    "stop": "03:00",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775525400000,
-    "stopTs": 1775530800000,
-    "title": "Good Morning Keralam",
-    "desc": "The host interacts with various eminent personalities, who shed light on their personal life and professional achievements."
-  },
-  {
-    "start": "03:00",
-    "stop": "03:30",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775530800000,
-    "stopTs": 1775532600000,
-    "title": "Speed News",
-    "desc": "The host presents a quick update on the top stories of the day ranging from politics and business to sports and entertainment."
-  },
-  {
-    "start": "03:30",
-    "stop": "04:00",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775532600000,
-    "stopTs": 1775534400000,
-    "title": "Pradeshika Varthakal",
-    "desc": "The host provides an insight into some of the latest news, current affairs and developments on social, economic and political issues of regional significance."
-  },
-  {
-    "start": "04:00",
-    "stop": "04:30",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775534400000,
-    "stopTs": 1775536200000,
-    "title": "Morning Round Up",
-    "desc": "The host covers breaking news, current events and important socio-political developments from local to global perspectives."
-  },
-  {
-    "start": "04:30",
-    "stop": "06:30",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775536200000,
-    "stopTs": 1775543400000,
-    "title": "News Time",
-    "desc": "The host invites a panel of experts to share their opinions and perspectives on significant issues affecting the nation."
-  },
-  {
-    "start": "06:30",
-    "stop": "07:00",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775543400000,
-    "stopTs": 1775545200000,
-    "title": "Mid Day News",
-    "desc": "The host delves into the latest socio-political and economic events around the globe and explains them in detail."
-  },
-  {
-    "start": "07:00",
-    "stop": "07:30",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775545200000,
-    "stopTs": 1775547000000,
-    "title": "Speed News",
-    "desc": "The host presents a quick update on the top stories of the day ranging from politics and business to sports and entertainment."
-  },
-  {
-    "start": "07:30",
-    "stop": "08:30",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775547000000,
-    "stopTs": 1775550600000,
-    "title": "Noon Round Up",
-    "desc": "The host presents a comprehensive and detailed report on the latest news and developments, domestically and internationally."
-  },
-  {
-    "start": "08:30",
-    "stop": "09:00",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775550600000,
-    "stopTs": 1775552400000,
-    "title": "News At 2 PM",
-    "desc": "The host provides information on the latest updates on politics, business, entertainment, science, sports and current events."
-  },
-  {
-    "start": "09:00",
-    "stop": "09:30",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775552400000,
-    "stopTs": 1775554200000,
-    "title": "Hello Doctor",
-    "desc": "Health and medical experts come together to talk about the benefits of Ayurveda, allopathy and homoeopathy and provide suggestions on various issues."
-  },
-  {
-    "start": "09:30",
-    "stop": "10:30",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775554200000,
-    "stopTs": 1775557800000,
-    "title": "Tea Time News",
-    "desc": "The host provides a comprehensive insight into the latest news, developments and current affairs of national and global importance."
-  },
-  {
-    "start": "10:30",
-    "stop": "11:30",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775557800000,
-    "stopTs": 1775561400000,
-    "title": "News At 4",
-    "desc": "The host presents a crisp mix of regional and global headlines, offering real-time news, analysis and top stories in a clear and accessible format."
-  },
-  {
-    "start": "11:30",
-    "stop": "12:00",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775561400000,
-    "stopTs": 1775563200000,
-    "title": "News At 5",
-    "desc": "The anchor presents a culmination of the latest headlines and news reports that cover current regional and national developments."
-  },
-  {
-    "start": "12:00",
-    "stop": "12:30",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775563200000,
-    "stopTs": 1775565000000,
-    "title": "Pradeshika Varthakal",
-    "desc": "The host provides an insight into some of the latest news, current affairs and developments on social, economic and political issues of regional significance."
-  },
-  {
-    "start": "12:30",
-    "stop": "13:30",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775565000000,
-    "stopTs": 1775568600000,
-    "title": "Evening Round Up",
-    "desc": "The host presents updates, the latest information and development on social, political, cultural and economic issues of global significance."
-  },
-  {
-    "start": "13:30",
-    "stop": "14:00",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775568600000,
-    "stopTs": 1775570400000,
-    "title": "News At 7",
-    "desc": "The host provides insights into some of the latest news, current affairs and developments on social, economic and political issues of national importance."
-  },
-  {
-    "start": "14:00",
-    "stop": "14:30",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775570400000,
-    "stopTs": 1775572200000,
-    "title": "Todays Debate",
-    "desc": "The host discusses the latest and the most relevant social, political and economic issues of the country with various experts."
-  },
-  {
-    "start": "14:30",
-    "stop": "15:30",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775572200000,
-    "stopTs": 1775575800000,
-    "title": "News N Views",
-    "desc": "The host presents updates about various socio-political issues and invites experts from various fields to shares their views about it."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:00",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775575800000,
-    "stopTs": 1775577600000,
-    "title": "News At 9 PM",
-    "desc": "The host presents the most recent news, updates and developments that took place in the entire day and provides coverage on current affairs."
-  },
-  {
-    "start": "16:00",
-    "stop": "16:30",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775577600000,
-    "stopTs": 1775579400000,
-    "title": "Speed News",
-    "desc": "The host presents a quick update on the top stories of the day ranging from politics and business to sports and entertainment."
-  },
-  {
-    "start": "16:30",
-    "stop": "17:00",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775579400000,
-    "stopTs": 1775581200000,
-    "title": "News at 10",
-    "desc": "The host presents a detailed analysis of various news stories and developments pertaining to political and social affairs of the world."
-  },
-  {
-    "start": "17:00",
-    "stop": "17:30",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775581200000,
-    "stopTs": 1775583000000,
-    "title": "Pradeshika Varthakal",
-    "desc": "The host provides an insight into some of the latest news, current affairs and developments on social, economic and political issues of regional significance."
-  },
-  {
-    "start": "17:30",
-    "stop": "18:29",
-    "channel": "KairaliNews.in",
-    "channelId": "KairaliNews.in",
-    "channelName": "Kairali News",
-    "startTs": 1775583000000,
-    "stopTs": 1775586599000,
-    "title": "News Night",
-    "desc": "The host presents a comprehensive and detailed report on the latest news and developments, domestically and internationally."
+    "desc": "The host presents a detailed report on the latest news and developments."
   }
 ]

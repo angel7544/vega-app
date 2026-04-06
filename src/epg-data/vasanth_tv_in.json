@@ -1,16 +1,5 @@
 [
   {
-    "start": "08:00",
-    "stop": "11:00",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775462400000,
-    "stopTs": 1775473200000,
-    "title": "Iva Eppada Pesava",
-    "desc": "Iva Eppada Pesava"
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "VasanthTV.in",
@@ -30,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Hello Ungaludan Live",
-    "desc": "The hosts encourage the viewers to participate in a quiz show, wherein they can receive prizes on answering the questions correctly."
+    "desc": "The hosts encourage the audience to take part in a quiz show."
   },
   {
     "start": "12:00",
@@ -41,7 +30,7 @@
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Hello Ungaludan Live",
-    "desc": "The hosts encourage the viewers to participate in a quiz show, wherein they can receive prizes on answering the questions correctly."
+    "desc": "The hosts encourage the audience to take part in a quiz show."
   },
   {
     "start": "12:30",
@@ -52,7 +41,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775478900000,
     "title": "India Song",
-    "desc": "A group of experienced artists, musicians and singers perform a special patriotic song depicting the beauty, traditions and cultures of India."
+    "desc": "Artists perform a patriotic song depicting the beauty, traditions and cultures of India."
   },
   {
     "start": "12:35",
@@ -63,7 +52,7 @@
     "startTs": 1775478900000,
     "stopTs": 1775480400000,
     "title": "Kantha Sasti Kavasam",
-    "desc": "A melodious rendering of a hymn composed in praise of Lord Murugan is played in order to invoke the spirit of devotion."
+    "desc": "A melodious rendering of a hymn dedicated to Lord Murugan is played."
   },
   {
     "start": "13:00",
@@ -74,7 +63,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Aalayadarisanam",
-    "desc": "The host shares information about the history and religious significance of various temples in the country to a gathering of devotees."
+    "desc": "The host informs about the religious significance of temples to a gathering of devotees."
   },
   {
     "start": "13:30",
@@ -85,7 +74,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775482500000,
     "title": "Vettripadikattu",
-    "desc": "H Vasanthakumar, a prominent businessman and politician, delivers an insightful speech to provide motivation to the public."
+    "desc": "H Vasanthakumar, a prominent politician, delivers a speech to motivate the public."
   },
   {
     "start": "13:35",
@@ -96,7 +85,7 @@
     "startTs": 1775482500000,
     "stopTs": 1775484000000,
     "title": "News",
-    "desc": "The host presents a compilation of the latest updates and developments pertaining to politics, sports, social and economic news."
+    "desc": "The host presents the latest updates pertaining to politics, economic and social news."
   },
   {
     "start": "14:00",
@@ -107,7 +96,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775493000000,
     "title": "Chembaruthi",
-    "desc": "Raja, the son of a wealthy businessman, falls in love with Chembaruthi, a maid who works in his grandmother&apos;s house. However, his family rejects their relationship due to social differences."
+    "desc": "A wealthy man faces opposition from his family when he falls in love with a maid."
   },
   {
     "start": "16:30",
@@ -118,7 +107,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775493300000,
     "title": "India Song",
-    "desc": "A group of experienced artists, musicians and singers perform a special patriotic song depicting the beauty, traditions and cultures of India."
+    "desc": "Artists perform a patriotic song depicting the beauty, traditions and cultures of India."
   },
   {
     "start": "16:35",
@@ -129,380 +118,17 @@
     "startTs": 1775493300000,
     "stopTs": 1775498400000,
     "title": "Thenaruvi",
-    "desc": "A comprehensive collection featuring pleasant and melodious songs from popular Tamil films of the classic era is played non-stop."
+    "desc": "A comprehensive collection of pleasant and melodious songs from popular Tamil films."
   },
   {
     "start": "18:00",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "VasanthTV.in",
     "channelId": "VasanthTV.in",
     "channelName": "Vasanth TV",
     "startTs": 1775498400000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "Vellicham",
-    "desc": "Politician H Vasanthakumar delivers a motivational speech to students on how to efficiently manage time and overcome obstacles in order to achieve their life goals."
-  },
-  {
-    "start": "18:30",
-    "stop": "19:00",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775500200000,
-    "stopTs": 1775502000000,
-    "title": "Ragasiya Kelvigal",
-    "desc": "Renowned sexologist Dr Kamaraj provides expert advice on issues like impotency and erectile dysfunction, while offering treatment recommendations tailored to individual needs."
-  },
-  {
-    "start": "19:00",
-    "stop": "21:30",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775502000000,
-    "stopTs": 1775511000000,
-    "title": "Iva Eppada Pesava",
-    "desc": "Iva Eppada Pesava"
-  },
-  {
-    "start": "21:30",
-    "stop": "23:30",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775511000000,
-    "stopTs": 1775518200000,
-    "title": "Chembaruthi",
-    "desc": "Raja, the son of a wealthy businessman, falls in love with Chembaruthi, a maid who works in his grandmother&apos;s house. However, his family rejects their relationship due to social differences."
-  },
-  {
-    "start": "23:30",
-    "stop": "00:00",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775518200000,
-    "stopTs": 1775520000000,
-    "title": "Ayya Vazhi Songs",
-    "desc": "Devotional artists and singers perform soulful hymns, celebrating Ayya Vaikundar, a 19th-century visionary and social reformer, inspiring faith and social change."
-  },
-  {
-    "start": "00:00",
-    "stop": "00:30",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775520000000,
-    "stopTs": 1775521800000,
-    "title": "Suprabatham",
-    "desc": "Religious leaders along with devotees recite morning prayers, conduct rituals and sing devotional songs in praise of various Hindu deities."
-  },
-  {
-    "start": "00:30",
-    "stop": "00:35",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775521800000,
-    "stopTs": 1775522100000,
-    "title": "India Song",
-    "desc": "A group of experienced artists, musicians and singers perform a special patriotic song depicting the beauty, traditions and cultures of India."
-  },
-  {
-    "start": "00:35",
-    "stop": "01:00",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775522100000,
-    "stopTs": 1775523600000,
-    "title": "Kantha Sasti Kavasam",
-    "desc": "A melodious rendering of a hymn composed in praise of Lord Murugan is played in order to invoke the spirit of devotion."
-  },
-  {
-    "start": "01:00",
-    "stop": "01:30",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775523600000,
-    "stopTs": 1775525400000,
-    "title": "Aalayadarisanam",
-    "desc": "The host shares information about the history and religious significance of various temples in the country to a gathering of devotees."
-  },
-  {
-    "start": "01:30",
-    "stop": "01:35",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775525400000,
-    "stopTs": 1775525700000,
-    "title": "Vetripadikattu",
-    "desc": "A motivational speaker provides a comprehensive and detailed insight into various important life lessons and moral values."
-  },
-  {
-    "start": "01:35",
-    "stop": "02:00",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775525700000,
-    "stopTs": 1775527200000,
-    "title": "News",
-    "desc": "The host presents a compilation of the latest updates and developments pertaining to politics, sports, social and economic news."
-  },
-  {
-    "start": "02:00",
-    "stop": "02:30",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775527200000,
-    "stopTs": 1775529000000,
-    "title": "Thenaruvi",
-    "desc": "A comprehensive collection featuring pleasant and melodious songs from popular Tamil films of the classic era is played non-stop."
-  },
-  {
-    "start": "02:30",
-    "stop": "04:00",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775529000000,
-    "stopTs": 1775534400000,
-    "title": "Thenaruvi",
-    "desc": "A comprehensive collection featuring pleasant and melodious songs from popular Tamil films of the classic era is played non-stop."
-  },
-  {
-    "start": "04:00",
-    "stop": "04:30",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775534400000,
-    "stopTs": 1775536200000,
-    "title": "ARC Hospital",
-    "desc": "The host invites gynaecologists to talk about infertility and surrogacy treatments available in their healthcare centre for various patients."
-  },
-  {
-    "start": "04:30",
-    "stop": "05:00",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775536200000,
-    "stopTs": 1775538000000,
-    "title": "Hit List",
-    "desc": "A comprehensive compilation of some of the popular songs composed and performed by talented artists is played back-to-back."
-  },
-  {
-    "start": "05:00",
-    "stop": "06:00",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775538000000,
-    "stopTs": 1775541600000,
-    "title": "Dr Sri Varma",
-    "desc": "A medical expert talks about various kinds of diseases and disorders and discusses in detail the different ways to prevent them."
-  },
-  {
-    "start": "06:00",
-    "stop": "06:30",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775541600000,
-    "stopTs": 1775543400000,
-    "title": "Hit List",
-    "desc": "A comprehensive compilation of some of the popular songs composed and performed by talented artists is played back-to-back."
-  },
-  {
-    "start": "06:30",
-    "stop": "07:00",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775543400000,
-    "stopTs": 1775545200000,
-    "title": "Kitchen Killadigal",
-    "desc": "Participants demonstrate the preparation of various delicious dishes and compete against each other to win the first prize in a cooking competition."
-  },
-  {
-    "start": "07:00",
-    "stop": "07:30",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775545200000,
-    "stopTs": 1775547000000,
-    "title": "Hit List",
-    "desc": "A comprehensive compilation of some of the popular songs composed and performed by talented artists is played back-to-back."
-  },
-  {
-    "start": "07:30",
-    "stop": "07:35",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775547000000,
-    "stopTs": 1775547300000,
-    "title": "India Song",
-    "desc": "A group of experienced artists, musicians and singers perform a special patriotic song depicting the beauty, traditions and cultures of India."
-  },
-  {
-    "start": "07:35",
-    "stop": "08:00",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775547300000,
-    "stopTs": 1775548800000,
-    "title": "News",
-    "desc": "The host presents a compilation of the latest updates and developments pertaining to politics, sports, social and economic news."
-  },
-  {
-    "start": "08:00",
-    "stop": "11:00",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775548800000,
-    "stopTs": 1775559600000,
-    "title": "Mapillai Manasu Poopola",
-    "desc": "Best friends Manikkam and Raja study in the same college. Things take a turn when Raja starts behaving like a lunatic, prompting Manikkam to devise several tricks to help his friend."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:30",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775559600000,
-    "stopTs": 1775561400000,
-    "title": "Mapillai Manasu Poopola",
-    "desc": "Best friends Manikkam and Raja study in the same college. Things take a turn when Raja starts behaving like a lunatic, prompting Manikkam to devise several tricks to help his friend."
-  },
-  {
-    "start": "11:30",
-    "stop": "12:00",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775561400000,
-    "stopTs": 1775563200000,
-    "title": "Hello Ungaludan Live",
-    "desc": "The hosts encourage the viewers to participate in a quiz show, wherein they can receive prizes on answering the questions correctly."
-  },
-  {
-    "start": "12:00",
-    "stop": "12:30",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775563200000,
-    "stopTs": 1775565000000,
-    "title": "Hello Ungaludan Live",
-    "desc": "The hosts encourage the viewers to participate in a quiz show, wherein they can receive prizes on answering the questions correctly."
-  },
-  {
-    "start": "12:30",
-    "stop": "12:35",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775565000000,
-    "stopTs": 1775565300000,
-    "title": "India Song",
-    "desc": "A group of experienced artists, musicians and singers perform a special patriotic song depicting the beauty, traditions and cultures of India."
-  },
-  {
-    "start": "12:35",
-    "stop": "13:00",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775565300000,
-    "stopTs": 1775566800000,
-    "title": "Kantha Sasti Kavasam",
-    "desc": "A melodious rendering of a hymn composed in praise of Lord Murugan is played in order to invoke the spirit of devotion."
-  },
-  {
-    "start": "13:00",
-    "stop": "13:30",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775566800000,
-    "stopTs": 1775568600000,
-    "title": "Aalayadarisanam",
-    "desc": "The host shares information about the history and religious significance of various temples in the country to a gathering of devotees."
-  },
-  {
-    "start": "13:30",
-    "stop": "13:35",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775568600000,
-    "stopTs": 1775568900000,
-    "title": "Vettripadikattu",
-    "desc": "H Vasanthakumar, a prominent businessman and politician, delivers an insightful speech to provide motivation to the public."
-  },
-  {
-    "start": "13:35",
-    "stop": "14:00",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775568900000,
-    "stopTs": 1775570400000,
-    "title": "News",
-    "desc": "The host presents a compilation of the latest updates and developments pertaining to politics, sports, social and economic news."
-  },
-  {
-    "start": "14:00",
-    "stop": "16:30",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775570400000,
-    "stopTs": 1775579400000,
-    "title": "2 States",
-    "desc": "Three generations of men coexist happily in a quaint village in Kerala. A hailstorm of troubles hits them when the youngest decides to elope with a Tamilian girl from a wealthy family."
-  },
-  {
-    "start": "16:30",
-    "stop": "16:35",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775579400000,
-    "stopTs": 1775579700000,
-    "title": "India Song",
-    "desc": "A group of experienced artists, musicians and singers perform a special patriotic song depicting the beauty, traditions and cultures of India."
-  },
-  {
-    "start": "16:35",
-    "stop": "18:00",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775579700000,
-    "stopTs": 1775584800000,
-    "title": "Thenaruvi",
-    "desc": "A comprehensive collection featuring pleasant and melodious songs from popular Tamil films of the classic era is played non-stop."
-  },
-  {
-    "start": "18:00",
-    "stop": "18:29",
-    "channel": "VasanthTV.in",
-    "channelId": "VasanthTV.in",
-    "channelName": "Vasanth TV",
-    "startTs": 1775584800000,
-    "stopTs": 1775586599000,
-    "title": "Vellicham",
-    "desc": "Politician H Vasanthakumar delivers a motivational speech to students on how to efficiently manage time and overcome obstacles in order to achieve their life goals."
+    "desc": "H Vasanthakumar delivers a speech to students to help them achieve their goals."
   }
 ]

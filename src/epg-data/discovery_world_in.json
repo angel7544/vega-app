@@ -8,7 +8,7 @@
     "startTs": 1775470560000,
     "stopTs": 1775473620000,
     "title": "Dual Survival Brazil",
-    "desc": "Tigre and René put themselves to the test in the Tatacoa desert, with a shortage of water, a labyrinth of rock formations, and scorpion infestations."
+    "desc": "Tigre and René put themselves to the test in the dangerously scorching Tatacoa desert."
   },
   {
     "start": "11:07",
@@ -19,7 +19,7 @@
     "startTs": 1775473620000,
     "stopTs": 1775477040000,
     "title": "Beyond Borders with Bear Grylls: Bahrain",
-    "desc": "Bear Grylls and His Highness Nasser bin Hamad Al Khalifa embark on a survival mission as they journey across the kingdom of Bahrain."
+    "desc": "Bear Grylls and His Highness Nasser bin Hamad Al Khalifa embark on a survival mission."
   },
   {
     "start": "12:04",
@@ -29,8 +29,8 @@
     "channelName": "Discovery HD World",
     "startTs": 1775477040000,
     "stopTs": 1775480100000,
-    "title": "Dual Survival",
-    "desc": "EJ and Jeff brave the blazing heat of eastern Utah. Their quest for water and rescue forces them to descend a sheer canyon wall, climb the face of a steep mesa and endure an overall hellish journey."
+    "title": "Dying of Thirst-Dual Survival",
+    "desc": "EJ and Jeff brave the blazing heat of Utah for their quest for water and rescue forces. S09 E03."
   },
   {
     "start": "12:55",
@@ -40,8 +40,8 @@
     "channelName": "Discovery HD World",
     "startTs": 1775480100000,
     "stopTs": 1775483160000,
-    "title": "Man vs. Wild",
-    "desc": "Bear paraglides into the Rockies, traverses huge waterfalls and navigates deep gullies before leaping onto a moving train."
+    "title": "Big Sky Country-Man vs. Wild",
+    "desc": "Bear paraglides into the Rockies, traverses huge waterfalls and navigates deep gullies. S04 E09."
   },
   {
     "start": "13:46",
@@ -51,8 +51,8 @@
     "channelName": "Discovery HD World",
     "startTs": 1775483160000,
     "stopTs": 1775486220000,
-    "title": "Marooned With Ed Stafford",
-    "desc": "Ed Stafford is stranded in northern Thailand and attempts to survive there alone for 10 days without food, water or even a knife."
+    "title": "Thailand-Marooned With Ed Stafford",
+    "desc": "Ed Stafford is stranded in northern Thailand and tries to survive alone for 10 days. S02 E06."
   },
   {
     "start": "14:37",
@@ -62,8 +62,8 @@
     "channelName": "Discovery HD World",
     "startTs": 1775486220000,
     "stopTs": 1775489760000,
-    "title": "Man vs. Wild",
-    "desc": "Bear is in the Caucasus Mountains driving a snowmobile out the back of a hovering helicopter. Later, he ziplines across a river and trudges swampy wetlands."
+    "title": "Georgiaeastern Europe-Man vs. Wild",
+    "desc": "Bear is in the Caucasus Mountains driving a snowmobile out the back of a helicopter. S05 E03."
   },
   {
     "start": "15:36",
@@ -73,8 +73,8 @@
     "channelName": "Discovery HD World",
     "startTs": 1775489760000,
     "stopTs": 1775492880000,
-    "title": "Ed Stafford&apos;s Rite of Passage",
-    "desc": "Ed travels to Tanzania to meet the Hadzabe people, who live in harmony with their environment. He joins them as they face the challenge of collecting honey from aggressive bees."
+    "title": "Tanzania-Ed Stafford&apos;s Rite of Passage",
+    "desc": "Ed meets the Hadzabe of Tanzania, who collect honey from aggressive bees. S01 E03."
   },
   {
     "start": "16:28",
@@ -84,315 +84,18 @@
     "channelName": "Discovery HD World",
     "startTs": 1775492880000,
     "stopTs": 1775496000000,
-    "title": "Naked and Afraid",
-    "desc": "An inspiring woman who is a double amputee and her ex-military partner battle storms, lethal snakes and swarming bugs in the Belizean jungle."
+    "title": "No Legs, No Problem-Naked and Afraid",
+    "desc": "A woman who is a double amputee and her ex-military partner take on the Belizean jungle. S18 E01."
   },
   {
     "start": "17:20",
-    "stop": "18:29",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775496000000,
-    "stopTs": 1775500199000,
-    "title": "Naked and Afraid",
-    "desc": "Several pairs of total strangers have to survive the extreme environment and dangerous wildlife of the wilderness, naked and afraid."
-  },
-  {
-    "start": "18:30",
     "stop": "18:54",
     "channel": "DiscoveryHDWorld.in",
     "channelId": "DiscoveryHDWorld.in",
     "channelName": "Discovery HD World",
-    "startTs": 1775500200000,
+    "startTs": 1775496000000,
     "stopTs": 1775501640000,
-    "title": "Naked and Afraid",
-    "desc": "From Mexico&apos;s Yucatán to Botswana&apos;s Okavango Delta, beloved duo Ernie and Mandy are back for 21 days, equipped with enhanced abilities and new tools."
-  },
-  {
-    "start": "18:54",
-    "stop": "19:39",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775501640000,
-    "stopTs": 1775504340000,
-    "title": "Naked and Afraid",
-    "desc": "An Intensive Care Unit nurse and a banker try a 14-day survival challenge in the rough Mexican jungle. However, as food gets depleted, their will and skill to make it to the end are tested."
-  },
-  {
-    "start": "19:39",
-    "stop": "21:07",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775504340000,
-    "stopTs": 1775509620000,
-    "title": "Naked and Afraid Apocalypse",
-    "desc": "Stalked by black mambas, lions and crocodiles, Wes eyes the exit. Meanwhile, Teal&apos;s bow scores a big win. Later, Joe rigs an alarm from scavenged wire and shell casings."
-  },
-  {
-    "start": "21:07",
-    "stop": "22:23",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775509620000,
-    "stopTs": 1775514180000,
-    "title": "Naked and Afraid",
-    "desc": "The first couple to ever take on the challenge test their survival skills and relationship. They face jaguars, anacondas and caiman in the Guyana jungle."
-  },
-  {
-    "start": "22:23",
-    "stop": "23:07",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775514180000,
-    "stopTs": 1775516820000,
-    "title": "Facing The Unknown",
-    "desc": "An adventurer embarks on admission, traversing diverse unknown regions, exploring the place with minimal support and gears."
-  },
-  {
-    "start": "23:07",
-    "stop": "00:08",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775516820000,
-    "stopTs": 1775520480000,
-    "title": "Man vs. Wild",
-    "desc": "Bear Grylls explores New Zealand&apos;s North Island, finding water and food in abundance, yet the terrain remains treacherous and unforgiving."
-  },
-  {
-    "start": "00:08",
-    "stop": "00:30",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775520480000,
-    "stopTs": 1775521800000,
-    "title": "Man Eats Wild",
-    "desc": "Mario Kalpou&apos;s passion for harvesting wild food through hunting and fishing leads him to some of the most extreme environments on the planet."
-  },
-  {
-    "start": "00:30",
-    "stop": "01:27",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775521800000,
-    "stopTs": 1775525220000,
-    "title": "Man vs. Wild",
-    "desc": "Bear paraglides into the Rockies, traverses huge waterfalls and navigates deep gullies before leaping onto a moving train."
-  },
-  {
-    "start": "01:27",
-    "stop": "02:23",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775525220000,
-    "stopTs": 1775528580000,
-    "title": "Gold Rush",
-    "desc": "Fred kicks off his first week of sluicing and the team gathers for the critical first gold weigh. Meanwhile, Tony faces an unexpected repair."
-  },
-  {
-    "start": "02:23",
-    "stop": "03:10",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775528580000,
-    "stopTs": 1775531400000,
-    "title": "18 Wheels Across India",
-    "desc": "A popular Polish lorry driver undertakes the daunting task of navigating India&apos;s notorious and chaotic road networks, all while exploring the culture."
-  },
-  {
-    "start": "03:10",
-    "stop": "04:05",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775531400000,
-    "stopTs": 1775534700000,
-    "title": "Dual Survival Mexico",
-    "desc": "Fernanda and Palma must navigate the potentially-fatal landslides and extreme humidity in the Ñambí jungle, one of the wettest in Colombia."
-  },
-  {
-    "start": "04:05",
-    "stop": "04:58",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775534700000,
-    "stopTs": 1775537880000,
-    "title": "Man vs. Wild",
-    "desc": "Bear Grylls explores New Zealand&apos;s North Island, finding water and food in abundance, yet the terrain remains treacherous and unforgiving."
-  },
-  {
-    "start": "04:58",
-    "stop": "05:51",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775537880000,
-    "stopTs": 1775541060000,
-    "title": "Man, Woman, Wild",
-    "desc": "When their boat sinks, Mykel and Ruth are left alone on the island of Montserat. Together, they must find a way to escape the volcano and this abandoned island."
-  },
-  {
-    "start": "05:51",
-    "stop": "06:43",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775541060000,
-    "stopTs": 1775544180000,
-    "title": "Facing The Unknown",
-    "desc": "An adventurer embarks on admission, traversing diverse unknown regions, exploring the place with minimal support and gears."
-  },
-  {
-    "start": "06:43",
-    "stop": "07:42",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775544180000,
-    "stopTs": 1775547720000,
-    "title": "Man vs. Wild",
-    "desc": "Actor Jake Gyllenhaal assists Bear in showcasing survival techniques in Iceland."
-  },
-  {
-    "start": "07:42",
-    "stop": "08:35",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775547720000,
-    "stopTs": 1775550900000,
-    "title": "Dual Survival",
-    "desc": "Trapped in the canyons of Croatia&apos;s Velebit Mountain, Grady and Josh try to navigate the frigid, fast-moving rapids and treacherous waterfalls."
-  },
-  {
-    "start": "08:35",
-    "stop": "09:29",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775550900000,
-    "stopTs": 1775554140000,
-    "title": "Ed Stafford&apos;s Rite of Passage",
-    "desc": "Ed Stafford travels the globe to attempt the world&apos;s toughest coming-of-age rituals."
-  },
-  {
-    "start": "09:29",
-    "stop": "10:22",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775554140000,
-    "stopTs": 1775557320000,
-    "title": "Man vs. Wild",
-    "desc": "Bear paraglides into the Rockies, traverses huge waterfalls and navigates deep gullies before leaping onto a moving train."
-  },
-  {
-    "start": "10:22",
-    "stop": "10:49",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775557320000,
-    "stopTs": 1775558940000,
-    "title": "Man Eats Wild",
-    "desc": "Mario Kalpou&apos;s passion for harvesting wild food through hunting and fishing leads him to some of the most extreme environments on the planet."
-  },
-  {
-    "start": "10:49",
-    "stop": "11:45",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775558940000,
-    "stopTs": 1775562300000,
-    "title": "Dual Survival Brazil",
-    "desc": "Professional survivalists put their skills to the test and attempt to conquer the dangerous wilderness of South America."
-  },
-  {
-    "start": "11:45",
-    "stop": "12:45",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775562300000,
-    "stopTs": 1775565900000,
-    "title": "Dual Survival Mexico",
-    "desc": "In the jungles of Choco, the survivalists must navigate mangroves and dangerous estuaries infested with alligators to make it out alive."
-  },
-  {
-    "start": "12:45",
-    "stop": "13:39",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775565900000,
-    "stopTs": 1775569140000,
-    "title": "Man vs. Wild",
-    "desc": "Bear Grylls travels around Southern China after a typhoon and conquers swollen rivers. He also gets bitten by cruel ants."
-  },
-  {
-    "start": "13:39",
-    "stop": "14:33",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775569140000,
-    "stopTs": 1775572380000,
-    "title": "Marooned With Ed Stafford",
-    "desc": "Stranded alone in the wilds of Rwanda, Ed Stafford attempts to survive alone for 10 days without food, water or even a knife."
-  },
-  {
-    "start": "14:33",
-    "stop": "15:27",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775572380000,
-    "stopTs": 1775575620000,
-    "title": "Man vs. Wild",
-    "desc": "Bear is marooned on a desert island south of Papua New Guinea. He wades across a shark-infested tidal channel and constructs a bamboo windsurfer to make his escape."
-  },
-  {
-    "start": "15:27",
-    "stop": "16:25",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775575620000,
-    "stopTs": 1775579100000,
-    "title": "Ed Stafford&apos;s Rite of Passage",
-    "desc": "Ed participates in the annual rite of passage festival Naadam to wrestle an enormous heir of Genghis Khan in order to prove his masculinity."
-  },
-  {
-    "start": "16:25",
-    "stop": "17:19",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775579100000,
-    "stopTs": 1775582340000,
-    "title": "Naked and Afraid",
-    "desc": "Two international survivalists from Mexico and Norway fight to reach 21 days amid torrential rain and little food in the American wilderness."
-  },
-  {
-    "start": "17:19",
-    "stop": "18:29",
-    "channel": "DiscoveryHDWorld.in",
-    "channelId": "DiscoveryHDWorld.in",
-    "channelName": "Discovery HD World",
-    "startTs": 1775582340000,
-    "stopTs": 1775586599000,
-    "title": "Naked and Afraid",
-    "desc": "A hairdresser and a former correctional officer try to survive 14 days in Zambia, where a herd of aggressive elephants stalks them."
+    "title": "This Is Gonna Suck So Bad-Naked and Afraid",
+    "desc": "Strangers pair up to survive the dangers of the forest, naked and afraid. S19 E05."
   }
 ]

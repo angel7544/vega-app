@@ -1,0 +1,101 @@
+[
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "MegaMusiq.in",
+    "channelId": "MegaMusiq.in",
+    "channelName": "Mega Musiq",
+    "startTs": 1775471400000,
+    "stopTs": 1775475000000,
+    "title": "Star Hits 80&apos;s",
+    "desc": "A collection of popular songs featuring eminent stars from the Tamil movies of the &apos;80s."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "MegaMusiq.in",
+    "channelId": "MegaMusiq.in",
+    "channelName": "Mega Musiq",
+    "startTs": 1775475000000,
+    "stopTs": 1775478600000,
+    "title": "En Uyir Neethaane",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "MegaMusiq.in",
+    "channelId": "MegaMusiq.in",
+    "channelName": "Mega Musiq",
+    "startTs": 1775478600000,
+    "stopTs": 1775482200000,
+    "title": "Athiradi Hits",
+    "desc": "A collection of popular, catchy and entertaining songs from Tamil movies."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "MegaMusiq.in",
+    "channelId": "MegaMusiq.in",
+    "channelName": "Mega Musiq",
+    "startTs": 1775482200000,
+    "stopTs": 1775485800000,
+    "title": "Natchaththiram",
+    "desc": "A compilation of famous songs is played back to back to entertain the listeners."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "MegaMusiq.in",
+    "channelId": "MegaMusiq.in",
+    "channelName": "Mega Musiq",
+    "startTs": 1775485800000,
+    "stopTs": 1775489400000,
+    "title": "Traffic Songs",
+    "desc": "A lively blend of tunes, showcasing a variety of styles to entertain and energise."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "MegaMusiq.in",
+    "channelId": "MegaMusiq.in",
+    "channelName": "Mega Musiq",
+    "startTs": 1775489400000,
+    "stopTs": 1775493000000,
+    "title": "Iravin Madiyil",
+    "desc": "A comprehensive compilation of melodious Tamil songs is played back-to-back."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "MegaMusiq.in",
+    "channelId": "MegaMusiq.in",
+    "channelName": "Mega Musiq",
+    "startTs": 1775493000000,
+    "stopTs": 1775496600000,
+    "title": "Mega Melodioues",
+    "desc": "A compilation of melodious and popular songs, played back to back."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "MegaMusiq.in",
+    "channelId": "MegaMusiq.in",
+    "channelName": "Mega Musiq",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Aanandha Ragam",
+    "desc": "Talented artists perform a compilation of the most popular songs composed by famous musicians."
+  },
+  {
+    "start": "18:00",
+    "stop": "19:30",
+    "channel": "MegaMusiq.in",
+    "channelId": "MegaMusiq.in",
+    "channelName": "Mega Musiq",
+    "startTs": 1775498400000,
+    "stopTs": 1775503800000,
+    "title": "Antha Naal Gnabagam",
+    "desc": "Bringing the best in television."
+  }
+]

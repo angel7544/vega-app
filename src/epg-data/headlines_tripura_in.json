@@ -1,0 +1,90 @@
+[
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "HeadlinesTripura.in",
+    "channelId": "HeadlinesTripura.in",
+    "channelName": "Headlines Tripura",
+    "startTs": 1775471400000,
+    "stopTs": 1775475000000,
+    "title": "News",
+    "desc": "The host presents the latest news updates from around the nation and the world."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "HeadlinesTripura.in",
+    "channelId": "HeadlinesTripura.in",
+    "channelName": "Headlines Tripura",
+    "startTs": 1775475000000,
+    "stopTs": 1775478600000,
+    "title": "News",
+    "desc": "The host presents the latest news updates from around the nation and the world."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "HeadlinesTripura.in",
+    "channelId": "HeadlinesTripura.in",
+    "channelName": "Headlines Tripura",
+    "startTs": 1775478600000,
+    "stopTs": 1775482200000,
+    "title": "Repit",
+    "desc": "The host presents the latest national and global news on a range of topics."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "HeadlinesTripura.in",
+    "channelId": "HeadlinesTripura.in",
+    "channelName": "Headlines Tripura",
+    "startTs": 1775482200000,
+    "stopTs": 1775485800000,
+    "title": "Prime Time",
+    "desc": "The host sheds light on the latest news stories impacting people around the country."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "HeadlinesTripura.in",
+    "channelId": "HeadlinesTripura.in",
+    "channelName": "Headlines Tripura",
+    "startTs": 1775485800000,
+    "stopTs": 1775489400000,
+    "title": "Live News",
+    "desc": "The host collates and presents some of the most important news and latest updates, live."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "HeadlinesTripura.in",
+    "channelId": "HeadlinesTripura.in",
+    "channelName": "Headlines Tripura",
+    "startTs": 1775489400000,
+    "stopTs": 1775493000000,
+    "title": "Live Talk Show",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "HeadlinesTripura.in",
+    "channelId": "HeadlinesTripura.in",
+    "channelName": "Headlines Tripura",
+    "startTs": 1775493000000,
+    "stopTs": 1775496600000,
+    "title": "Kokborok",
+    "desc": "The host discusses social and political issues, providing in-depth updates and analysis."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:30",
+    "channel": "HeadlinesTripura.in",
+    "channelId": "HeadlinesTripura.in",
+    "channelName": "Headlines Tripura",
+    "startTs": 1775496600000,
+    "stopTs": 1775500200000,
+    "title": "Last Updead",
+    "desc": "Bringing the best in television."
+  }
+]

@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "News",
-    "desc": "The host presents a compilation of the latest updates and developments pertaining to politics, sports, social and economic news."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "DDMadhyaPradesh.in",
@@ -19,7 +8,7 @@
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Khel Samay",
-    "desc": "The host presents detailed information about the latest updates and developments in the riveting world of sports from around the country."
+    "desc": "The host presents latest updates and developments in the world of sports."
   },
   {
     "start": "11:30",
@@ -30,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775478600000,
     "title": "Shastriya Nritya",
-    "desc": "Professionally trained classical dancers showcase their talent in front of the audience to spread awareness about their culture and traditions."
+    "desc": "Various artists perform classical dance to enthral the audience."
   },
   {
     "start": "12:30",
@@ -41,7 +30,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Hamare Mehman",
-    "desc": "The host has a conversation with eminent personalities from different backgrounds to discuss various important issues."
+    "desc": "The host invites eminent personalities to discuss various important issues."
   },
   {
     "start": "13:00",
@@ -52,7 +41,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "News",
-    "desc": "The host presents a compilation of the latest updates and developments pertaining to politics, sports, social and economic news."
+    "desc": "The host presents the latest updates pertaining to politics, economic and social news."
   },
   {
     "start": "13:30",
@@ -63,7 +52,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775485800000,
     "title": "Samachar",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+    "desc": "The host presents information about the issues of the day and updates on current events."
   },
   {
     "start": "14:30",
@@ -74,7 +63,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775489400000,
     "title": "Rangoli",
-    "desc": "The host presents a compilation of popular Bollywood songs composed and performed by talented artists in a non-stop sequence."
+    "desc": "The host presents a compilation of popular Bollywood songs by talented artists."
   },
   {
     "start": "15:30",
@@ -85,7 +74,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Sangeet Sabha",
-    "desc": "The hosts invite various traditional performers to showcase the high-energy music and vibrant folk dances of their respective regions."
+    "desc": "The hosts invite performers to showcase the vibrant folk music and dance of their regions."
   },
   {
     "start": "16:00",
@@ -107,7 +96,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775496600000,
     "title": "Sangeet Sabha",
-    "desc": "The hosts invite various traditional performers to showcase the high-energy music and vibrant folk dances of their respective regions."
+    "desc": "The hosts invite performers to showcase the vibrant folk music and dance of their regions."
   },
   {
     "start": "17:30",
@@ -118,501 +107,17 @@
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Nargis",
-    "desc": "Nargis&apos;s world turns upside down when she learns the truth about her biological mother. She resolves to find her whilst navigating the challenges of her life."
+    "desc": "Nargis&apos;s world turns upside down when she learns the truth about her biological mother."
   },
   {
     "start": "18:00",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "DDMadhyaPradesh.in",
     "channelId": "DDMadhyaPradesh.in",
     "channelName": "DD Madhya Pradesh",
     "startTs": 1775498400000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "Khel Samay",
-    "desc": "The host presents detailed information about the latest updates and developments in the riveting world of sports from around the country."
-  },
-  {
-    "start": "18:30",
-    "stop": "19:00",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775500200000,
-    "stopTs": 1775502000000,
-    "title": "Krishi Darshan",
-    "desc": "The host sheds light on important updates surrounding agriculture from across the nation whilst providing key inputs that can be of help to farmers."
-  },
-  {
-    "start": "19:00",
-    "stop": "19:30",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775502000000,
-    "stopTs": 1775503800000,
-    "title": "Tarane Purane",
-    "desc": "A comprehensive compilation of some of the most famous old Bollywood songs, composed by well-known artists and singers are played."
-  },
-  {
-    "start": "19:30",
-    "stop": "20:00",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775503800000,
-    "stopTs": 1775505600000,
-    "title": "Sahitya Srajan",
-    "desc": "The host engages with prominent literary figures, delving into their works and exploring the world of literature through insightful conversations and thoughtful reflections."
-  },
-  {
-    "start": "20:00",
-    "stop": "21:00",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775505600000,
-    "stopTs": 1775509200000,
-    "title": "Namaskar MP",
-    "desc": "The host engages in a conversation with celebrity guests on various social, political and economic issues concerning the state of Madhya Pradesh."
-  },
-  {
-    "start": "21:00",
-    "stop": "22:00",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775509200000,
-    "stopTs": 1775512800000,
-    "title": "Choupal",
-    "desc": "The host brings villagers together to discuss rural development, government initiatives and their impact, creating a platform for open dialogue on key community issues."
-  },
-  {
-    "start": "22:00",
-    "stop": "22:30",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775512800000,
-    "stopTs": 1775514600000,
-    "title": "Fit Rahe Sada",
-    "desc": "The host presents shares valuable insights about health tips, fitness routines and nutritious diet for a healthy and active lifestyle."
-  },
-  {
-    "start": "22:30",
-    "stop": "23:00",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775514600000,
-    "stopTs": 1775516400000,
-    "title": "Wah Kya Taste Hai",
-    "desc": "The host interacts with chefs from some of the most famous restaurants and hotels in India and showcases their recipes for various mouth-watering dishes."
-  },
-  {
-    "start": "23:00",
-    "stop": "00:00",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775516400000,
-    "stopTs": 1775520000000,
-    "title": "Choupal",
-    "desc": "The host brings villagers together to discuss rural development, government initiatives and their impact, creating a platform for open dialogue on key community issues."
-  },
-  {
-    "start": "00:00",
-    "stop": "01:30",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775520000000,
-    "stopTs": 1775525400000,
-    "title": "Khajuraho",
-    "desc": "The Khajuraho Group of Monuments is a cluster of Hindu and Jain temples in Madhya Pradesh&apos;s Chhatarpur district. These ancient landmarks are a UNESCO World Heritage Site."
-  },
-  {
-    "start": "01:30",
-    "stop": "01:45",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775525400000,
-    "stopTs": 1775526300000,
-    "title": "Air Hostess",
-    "desc": "The glamorous cabin crew of an airline faces a lot of struggles and differences caused due to the politics within the industry."
-  },
-  {
-    "start": "01:45",
-    "stop": "02:00",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775526300000,
-    "stopTs": 1775527200000,
-    "title": "Sanskrit Samachar",
-    "desc": "The host presents some of the latest news updates, current affairs and developments on a variety of issues of national and global concern in Sanskrit language."
-  },
-  {
-    "start": "02:00",
-    "stop": "02:30",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775527200000,
-    "stopTs": 1775529000000,
-    "title": "Krishi Darshan",
-    "desc": "The host sheds light on important updates surrounding agriculture from across the nation whilst providing key inputs that can be of help to farmers."
-  },
-  {
-    "start": "02:30",
-    "stop": "03:00",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775529000000,
-    "stopTs": 1775530800000,
-    "title": "Tarane Purane",
-    "desc": "A comprehensive compilation of some of the most famous old Bollywood songs, composed by well-known artists and singers are played."
-  },
-  {
-    "start": "03:00",
-    "stop": "03:30",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775530800000,
-    "stopTs": 1775532600000,
-    "title": "Fit Rahe Sada",
-    "desc": "The host presents shares valuable insights about health tips, fitness routines and nutritious diet for a healthy and active lifestyle."
-  },
-  {
-    "start": "03:30",
-    "stop": "04:00",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775532600000,
-    "stopTs": 1775534400000,
-    "title": "News",
-    "desc": "The host presents a compilation of the latest updates and developments pertaining to politics, sports, social and economic news."
-  },
-  {
-    "start": "04:00",
-    "stop": "04:30",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775534400000,
-    "stopTs": 1775536200000,
-    "title": "Nargis",
-    "desc": "Nargis&apos;s world turns upside down when she learns the truth about her biological mother. She resolves to find her whilst navigating the challenges of her life."
-  },
-  {
-    "start": "04:30",
-    "stop": "05:00",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775536200000,
-    "stopTs": 1775538000000,
-    "title": "Air Hostess",
-    "desc": "The glamorous cabin crew of an airline faces a lot of struggles and differences caused due to the politics within the industry."
-  },
-  {
-    "start": "05:00",
-    "stop": "05:30",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775538000000,
-    "stopTs": 1775539800000,
-    "title": "Savitri Ek Kranti",
-    "desc": "Savitri, a trailblazing young girl, defies societal conventions and rises to become a pioneering social reformer and India&apos;s first female educator."
-  },
-  {
-    "start": "05:30",
-    "stop": "06:00",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775539800000,
-    "stopTs": 1775541600000,
-    "title": "News",
-    "desc": "The host presents a compilation of the latest updates and developments pertaining to politics, sports, social and economic news."
-  },
-  {
-    "start": "06:00",
-    "stop": "06:30",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775541600000,
-    "stopTs": 1775543400000,
-    "title": "DDK Gwalior",
-    "desc": "The host sheds light on the rich history, culture and popular spots of Gwalior, a city located in the state of Madhya Pradesh."
-  },
-  {
-    "start": "06:30",
-    "stop": "07:30",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775543400000,
-    "stopTs": 1775547000000,
-    "title": "Namaskar MP",
-    "desc": "The host engages in a conversation with celebrity guests on various social, political and economic issues concerning the state of Madhya Pradesh."
-  },
-  {
-    "start": "07:30",
-    "stop": "08:00",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775547000000,
-    "stopTs": 1775548800000,
-    "title": "Swaad",
-    "desc": "The host invites talented chefs who share the recipes of delicious dishes and demonstrate the steps involved in their preparation."
-  },
-  {
-    "start": "08:00",
-    "stop": "08:30",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775548800000,
-    "stopTs": 1775550600000,
-    "title": "Bharatnatyam",
-    "desc": "The host introduces a renowned Bharatanatyam dancer as she performs this ancient classical art form, while also discussing its history."
-  },
-  {
-    "start": "08:30",
-    "stop": "09:00",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775550600000,
-    "stopTs": 1775552400000,
-    "title": "News",
-    "desc": "The host presents a compilation of the latest updates and developments pertaining to politics, sports, social and economic news."
-  },
-  {
-    "start": "09:00",
-    "stop": "09:30",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775552400000,
-    "stopTs": 1775554200000,
-    "title": "Wah Kya Taste Hai",
-    "desc": "The host interacts with chefs from some of the most famous restaurants and hotels in India and showcases their recipes for various mouth-watering dishes."
-  },
-  {
-    "start": "09:30",
-    "stop": "10:00",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775554200000,
-    "stopTs": 1775556000000,
-    "title": "Albele Haathon Ka Hunar",
-    "desc": "The host travels to different regions of India, exploring local arts and crafts and interacting with different artisans."
-  },
-  {
-    "start": "10:00",
-    "stop": "10:30",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775556000000,
-    "stopTs": 1775557800000,
-    "title": "Shastriya Sangeet",
-    "desc": "A professional classical singer performs a musical piece along with a group of instrumentalists in order to entertain the viewers."
-  },
-  {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775557800000,
-    "stopTs": 1775559600000,
-    "title": "News",
-    "desc": "The host presents a compilation of the latest updates and developments pertaining to politics, sports, social and economic news."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:30",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775559600000,
-    "stopTs": 1775561400000,
-    "title": "Kanuni Salah",
-    "desc": "The host engages in a conversation with experts about various current criminal activities and discusses measures to counter them."
-  },
-  {
-    "start": "11:30",
-    "stop": "12:00",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775561400000,
-    "stopTs": 1775563200000,
-    "title": "Hello DD",
-    "desc": "The host invites experts from various fields to discuss the current issues affecting the nation and answer queries from viewers who call in with their questions."
-  },
-  {
-    "start": "12:00",
-    "stop": "12:30",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775563200000,
-    "stopTs": 1775565000000,
-    "title": "Krishi Darshan",
-    "desc": "The host sheds light on important updates surrounding agriculture from across the nation whilst providing key inputs that can be of help to farmers."
-  },
-  {
-    "start": "12:30",
-    "stop": "13:00",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775565000000,
-    "stopTs": 1775566800000,
-    "title": "Sapne Suhane",
-    "desc": "Gunjan, a lively city teenager, moves to a quiet town to live with her aunt after her mother&apos;s death. Later, she finds solace and friendship in her shy cousin, Rachna, forging an unexpected bond."
-  },
-  {
-    "start": "13:00",
-    "stop": "13:13",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775566800000,
-    "stopTs": 1775567580000,
-    "title": "News Hindi",
-    "desc": "The host delivers timely updates on global events, local incidents, politics, sports and culture, keeping viewers informed with in-depth analysis as well as on-the-ground reporting."
-  },
-  {
-    "start": "13:13",
-    "stop": "13:15",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775567580000,
-    "stopTs": 1775567700000,
-    "title": "News Headlines Hindi",
-    "desc": "The host collates and presents the latest news updates and developments from the world of politics, business, entertainment and sports in quick succession."
-  },
-  {
-    "start": "13:15",
-    "stop": "13:17",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775567700000,
-    "stopTs": 1775567820000,
-    "title": "News Headlines Urdu",
-    "desc": "The host collates and presents the latest news updates and developments from the world of politics, business, entertainment and sports in quick succession."
-  },
-  {
-    "start": "13:17",
-    "stop": "13:30",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775567820000,
-    "stopTs": 1775568600000,
-    "title": "Urdu News",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "13:30",
-    "stop": "14:30",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775568600000,
-    "stopTs": 1775572200000,
-    "title": "Aaj Ka Mudda",
-    "desc": "The host facilitates discussions with eminent experts who provide their viewpoints on various matters of national importance."
-  },
-  {
-    "start": "14:30",
-    "stop": "15:30",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775572200000,
-    "stopTs": 1775575800000,
-    "title": "Rangoli",
-    "desc": "The host presents a compilation of popular Bollywood songs composed and performed by talented artists in a non-stop sequence."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:00",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775575800000,
-    "stopTs": 1775577600000,
-    "title": "Khajuraho",
-    "desc": "The Khajuraho Group of Monuments is a cluster of Hindu and Jain temples in Madhya Pradesh&apos;s Chhatarpur district. These ancient landmarks are a UNESCO World Heritage Site."
-  },
-  {
-    "start": "16:00",
-    "stop": "16:30",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775577600000,
-    "stopTs": 1775579400000,
-    "title": "Nargis",
-    "desc": "Nargis&apos;s world turns upside down when she learns the truth about her biological mother. She resolves to find her whilst navigating the challenges of her life."
-  },
-  {
-    "start": "16:30",
-    "stop": "17:00",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775579400000,
-    "stopTs": 1775581200000,
-    "title": "Wah Kya Taste Hai",
-    "desc": "The host interacts with chefs from some of the most famous restaurants and hotels in India and showcases their recipes for various mouth-watering dishes."
-  },
-  {
-    "start": "17:00",
-    "stop": "17:30",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775581200000,
-    "stopTs": 1775583000000,
-    "title": "Air Hostess",
-    "desc": "The glamorous cabin crew of an airline faces a lot of struggles and differences caused due to the politics within the industry."
-  },
-  {
-    "start": "17:30",
-    "stop": "18:00",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775583000000,
-    "stopTs": 1775584800000,
-    "title": "Savitri Ek Kranti",
-    "desc": "Savitri, a trailblazing young girl, defies societal conventions and rises to become a pioneering social reformer and India&apos;s first female educator."
-  },
-  {
-    "start": "18:00",
-    "stop": "18:29",
-    "channel": "DDMadhyaPradesh.in",
-    "channelId": "DDMadhyaPradesh.in",
-    "channelName": "DD Madhya Pradesh",
-    "startTs": 1775584800000,
-    "stopTs": 1775586599000,
-    "title": "Albele Haathon Ka Hunar",
-    "desc": "The host travels to different regions of India, exploring local arts and crafts and interacting with different artisans."
+    "desc": "The host presents latest updates and developments in the world of sports."
   }
 ]

@@ -1,0 +1,35 @@
+[
+  {
+    "start": "10:36",
+    "stop": "13:27",
+    "channel": "GoldminesMovies.in",
+    "channelId": "GoldminesMovies.in",
+    "channelName": "Goldmines Movies",
+    "startTs": 1775471760000,
+    "stopTs": 1775482020000,
+    "title": "Golimaar",
+    "desc": "Known for encounter killings, Gangaram earns the wrath of gangsters and corrupt policemen."
+  },
+  {
+    "start": "13:27",
+    "stop": "16:20",
+    "channel": "GoldminesMovies.in",
+    "channelId": "GoldminesMovies.in",
+    "channelName": "Goldmines Movies",
+    "startTs": 1775482020000,
+    "stopTs": 1775492400000,
+    "title": "Viswasam",
+    "desc": "Thooku Durai battles his past to reunite with his estranged wife and daughter."
+  },
+  {
+    "start": "16:20",
+    "stop": "18:46",
+    "channel": "GoldminesMovies.in",
+    "channelId": "GoldminesMovies.in",
+    "channelName": "Goldmines Movies",
+    "startTs": 1775492400000,
+    "stopTs": 1775501160000,
+    "title": "The Fighterman Saleem",
+    "desc": "A fugitive goes on to fight with hoodlums in order to save the girl he loves."
+  }
+]

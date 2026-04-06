@@ -1,14 +1,25 @@
 [
   {
-    "start": "10:30",
+    "start": "11:00",
+    "stop": "11:25",
+    "channel": "GlobalIndia.in",
+    "channelId": "GlobalIndia.in",
+    "channelName": "Global India",
+    "startTs": 1775473200000,
+    "stopTs": 1775474700000,
+    "title": "Alberta Weekly",
+    "desc": "The host invites a guest who discusses key developments concerning Alberta, Canada."
+  },
+  {
+    "start": "11:25",
     "stop": "11:30",
     "channel": "GlobalIndia.in",
     "channelId": "GlobalIndia.in",
     "channelName": "Global India",
-    "startTs": 1775471400000,
+    "startTs": 1775474700000,
     "stopTs": 1775475000000,
-    "title": "Global India",
-    "desc": "Global India"
+    "title": "Advertisement and Promo",
+    "desc": "Bringing the best in television."
   },
   {
     "start": "11:30",
@@ -18,30 +29,85 @@
     "channelName": "Global India",
     "startTs": 1775475000000,
     "stopTs": 1775478600000,
-    "title": "Global India",
-    "desc": "Global India"
+    "title": "Uncut Galbaaat",
+    "desc": "The host converses with prominent personalities on a variety of other topics."
   },
   {
     "start": "12:30",
-    "stop": "13:30",
+    "stop": "12:55",
     "channel": "GlobalIndia.in",
     "channelId": "GlobalIndia.in",
     "channelName": "Global India",
     "startTs": 1775478600000,
+    "stopTs": 1775480100000,
+    "title": "News Behind News",
+    "desc": "The host presents the latest news updates from around the nation and the world."
+  },
+  {
+    "start": "12:55",
+    "stop": "13:00",
+    "channel": "GlobalIndia.in",
+    "channelId": "GlobalIndia.in",
+    "channelName": "Global India",
+    "startTs": 1775480100000,
+    "stopTs": 1775480400000,
+    "title": "Advertisement and Promo",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:25",
+    "channel": "GlobalIndia.in",
+    "channelId": "GlobalIndia.in",
+    "channelName": "Global India",
+    "startTs": 1775480400000,
+    "stopTs": 1775481900000,
+    "title": "Punjab News",
+    "desc": "The host presents a roundup of the latest news from across the state and nation."
+  },
+  {
+    "start": "13:25",
+    "stop": "13:30",
+    "channel": "GlobalIndia.in",
+    "channelId": "GlobalIndia.in",
+    "channelName": "Global India",
+    "startTs": 1775481900000,
     "stopTs": 1775482200000,
-    "title": "Global India",
-    "desc": "Global India"
+    "title": "Advertisement and Promo",
+    "desc": "Bringing the best in television."
   },
   {
     "start": "13:30",
-    "stop": "14:30",
+    "stop": "13:55",
     "channel": "GlobalIndia.in",
     "channelId": "GlobalIndia.in",
     "channelName": "Global India",
     "startTs": 1775482200000,
+    "stopTs": 1775483700000,
+    "title": "Punjab Update World Update",
+    "desc": "The host presents the latest socio-economic and political news from Punjab."
+  },
+  {
+    "start": "13:55",
+    "stop": "14:00",
+    "channel": "GlobalIndia.in",
+    "channelId": "GlobalIndia.in",
+    "channelName": "Global India",
+    "startTs": 1775483700000,
+    "stopTs": 1775484000000,
+    "title": "Advertisement and Promo",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "GlobalIndia.in",
+    "channelId": "GlobalIndia.in",
+    "channelName": "Global India",
+    "startTs": 1775484000000,
     "stopTs": 1775485800000,
-    "title": "Global India",
-    "desc": "Global India"
+    "title": "Global Discussion",
+    "desc": "The host sheds light on the latest news stories pertaining to various global issues."
   },
   {
     "start": "14:30",
@@ -51,304 +117,139 @@
     "channelName": "Global India",
     "startTs": 1775485800000,
     "stopTs": 1775489400000,
-    "title": "Global India",
-    "desc": "Global India"
+    "title": "Debate",
+    "desc": "The host invites a few experts to share their views on the latest developments in society."
   },
   {
     "start": "15:30",
-    "stop": "16:30",
+    "stop": "15:55",
     "channel": "GlobalIndia.in",
     "channelId": "GlobalIndia.in",
     "channelName": "Global India",
     "startTs": 1775489400000,
-    "stopTs": 1775493000000,
-    "title": "Global India",
-    "desc": "Global India"
+    "stopTs": 1775490900000,
+    "title": "One To One",
+    "desc": "The host interviews eminent political personalities in an one-on-one interview."
   },
   {
-    "start": "16:30",
-    "stop": "17:30",
+    "start": "15:55",
+    "stop": "16:00",
     "channel": "GlobalIndia.in",
     "channelId": "GlobalIndia.in",
     "channelName": "Global India",
-    "startTs": 1775493000000,
-    "stopTs": 1775496600000,
-    "title": "Global India",
-    "desc": "Global India"
+    "startTs": 1775490900000,
+    "stopTs": 1775491200000,
+    "title": "Advertisement and Promo",
+    "desc": "Bringing the best in television."
   },
   {
-    "start": "17:30",
-    "stop": "18:29",
+    "start": "16:00",
+    "stop": "16:25",
     "channel": "GlobalIndia.in",
     "channelId": "GlobalIndia.in",
     "channelName": "Global India",
-    "startTs": 1775496600000,
-    "stopTs": 1775500199000,
-    "title": "Global India",
-    "desc": "Global India"
+    "startTs": 1775491200000,
+    "stopTs": 1775492700000,
+    "title": "Ik Meri V Suno",
+    "desc": "The host discusses the latest political scenarios and happenings with an invited expert."
   },
   {
-    "start": "18:30",
-    "stop": "19:30",
-    "channel": "GlobalIndia.in",
-    "channelId": "GlobalIndia.in",
-    "channelName": "Global India",
-    "startTs": 1775500200000,
-    "stopTs": 1775503800000,
-    "title": "Global India",
-    "desc": "Global India"
-  },
-  {
-    "start": "19:30",
-    "stop": "20:30",
-    "channel": "GlobalIndia.in",
-    "channelId": "GlobalIndia.in",
-    "channelName": "Global India",
-    "startTs": 1775503800000,
-    "stopTs": 1775507400000,
-    "title": "Global India",
-    "desc": "Global India"
-  },
-  {
-    "start": "20:30",
-    "stop": "21:30",
-    "channel": "GlobalIndia.in",
-    "channelId": "GlobalIndia.in",
-    "channelName": "Global India",
-    "startTs": 1775507400000,
-    "stopTs": 1775511000000,
-    "title": "Global India",
-    "desc": "Global India"
-  },
-  {
-    "start": "21:30",
-    "stop": "22:30",
-    "channel": "GlobalIndia.in",
-    "channelId": "GlobalIndia.in",
-    "channelName": "Global India",
-    "startTs": 1775511000000,
-    "stopTs": 1775514600000,
-    "title": "Global India",
-    "desc": "Global India"
-  },
-  {
-    "start": "22:30",
-    "stop": "23:30",
-    "channel": "GlobalIndia.in",
-    "channelId": "GlobalIndia.in",
-    "channelName": "Global India",
-    "startTs": 1775514600000,
-    "stopTs": 1775518200000,
-    "title": "Global India",
-    "desc": "Global India"
-  },
-  {
-    "start": "23:30",
-    "stop": "00:30",
-    "channel": "GlobalIndia.in",
-    "channelId": "GlobalIndia.in",
-    "channelName": "Global India",
-    "startTs": 1775518200000,
-    "stopTs": 1775521800000,
-    "title": "Global India",
-    "desc": "Global India"
-  },
-  {
-    "start": "00:30",
-    "stop": "01:30",
-    "channel": "GlobalIndia.in",
-    "channelId": "GlobalIndia.in",
-    "channelName": "Global India",
-    "startTs": 1775521800000,
-    "stopTs": 1775525400000,
-    "title": "Global India",
-    "desc": "Global India"
-  },
-  {
-    "start": "01:30",
-    "stop": "02:30",
-    "channel": "GlobalIndia.in",
-    "channelId": "GlobalIndia.in",
-    "channelName": "Global India",
-    "startTs": 1775525400000,
-    "stopTs": 1775529000000,
-    "title": "Global India",
-    "desc": "Global India"
-  },
-  {
-    "start": "02:30",
-    "stop": "03:30",
-    "channel": "GlobalIndia.in",
-    "channelId": "GlobalIndia.in",
-    "channelName": "Global India",
-    "startTs": 1775529000000,
-    "stopTs": 1775532600000,
-    "title": "Global India",
-    "desc": "Global India"
-  },
-  {
-    "start": "03:30",
-    "stop": "04:30",
-    "channel": "GlobalIndia.in",
-    "channelId": "GlobalIndia.in",
-    "channelName": "Global India",
-    "startTs": 1775532600000,
-    "stopTs": 1775536200000,
-    "title": "Global India",
-    "desc": "Global India"
-  },
-  {
-    "start": "04:30",
-    "stop": "05:30",
-    "channel": "GlobalIndia.in",
-    "channelId": "GlobalIndia.in",
-    "channelName": "Global India",
-    "startTs": 1775536200000,
-    "stopTs": 1775539800000,
-    "title": "Global India",
-    "desc": "Global India"
-  },
-  {
-    "start": "05:30",
-    "stop": "06:30",
-    "channel": "GlobalIndia.in",
-    "channelId": "GlobalIndia.in",
-    "channelName": "Global India",
-    "startTs": 1775539800000,
-    "stopTs": 1775543400000,
-    "title": "Global India",
-    "desc": "Global India"
-  },
-  {
-    "start": "06:30",
-    "stop": "07:30",
-    "channel": "GlobalIndia.in",
-    "channelId": "GlobalIndia.in",
-    "channelName": "Global India",
-    "startTs": 1775543400000,
-    "stopTs": 1775547000000,
-    "title": "Global India",
-    "desc": "Global India"
-  },
-  {
-    "start": "07:30",
-    "stop": "08:30",
-    "channel": "GlobalIndia.in",
-    "channelId": "GlobalIndia.in",
-    "channelName": "Global India",
-    "startTs": 1775547000000,
-    "stopTs": 1775550600000,
-    "title": "Global India",
-    "desc": "Global India"
-  },
-  {
-    "start": "08:30",
-    "stop": "09:30",
-    "channel": "GlobalIndia.in",
-    "channelId": "GlobalIndia.in",
-    "channelName": "Global India",
-    "startTs": 1775550600000,
-    "stopTs": 1775554200000,
-    "title": "Global India",
-    "desc": "Global India"
-  },
-  {
-    "start": "09:30",
-    "stop": "10:30",
-    "channel": "GlobalIndia.in",
-    "channelId": "GlobalIndia.in",
-    "channelName": "Global India",
-    "startTs": 1775554200000,
-    "stopTs": 1775557800000,
-    "title": "Global India",
-    "desc": "Global India"
-  },
-  {
-    "start": "10:30",
-    "stop": "11:30",
-    "channel": "GlobalIndia.in",
-    "channelId": "GlobalIndia.in",
-    "channelName": "Global India",
-    "startTs": 1775557800000,
-    "stopTs": 1775561400000,
-    "title": "Global India",
-    "desc": "Global India"
-  },
-  {
-    "start": "11:30",
-    "stop": "12:30",
-    "channel": "GlobalIndia.in",
-    "channelId": "GlobalIndia.in",
-    "channelName": "Global India",
-    "startTs": 1775561400000,
-    "stopTs": 1775565000000,
-    "title": "Global India",
-    "desc": "Global India"
-  },
-  {
-    "start": "12:30",
-    "stop": "13:30",
-    "channel": "GlobalIndia.in",
-    "channelId": "GlobalIndia.in",
-    "channelName": "Global India",
-    "startTs": 1775565000000,
-    "stopTs": 1775568600000,
-    "title": "Global India",
-    "desc": "Global India"
-  },
-  {
-    "start": "13:30",
-    "stop": "14:30",
-    "channel": "GlobalIndia.in",
-    "channelId": "GlobalIndia.in",
-    "channelName": "Global India",
-    "startTs": 1775568600000,
-    "stopTs": 1775572200000,
-    "title": "Global India",
-    "desc": "Global India"
-  },
-  {
-    "start": "14:30",
-    "stop": "15:30",
-    "channel": "GlobalIndia.in",
-    "channelId": "GlobalIndia.in",
-    "channelName": "Global India",
-    "startTs": 1775572200000,
-    "stopTs": 1775575800000,
-    "title": "Global India",
-    "desc": "Global India"
-  },
-  {
-    "start": "15:30",
+    "start": "16:25",
     "stop": "16:30",
     "channel": "GlobalIndia.in",
     "channelId": "GlobalIndia.in",
     "channelName": "Global India",
-    "startTs": 1775575800000,
-    "stopTs": 1775579400000,
-    "title": "Global India",
-    "desc": "Global India"
+    "startTs": 1775492700000,
+    "stopTs": 1775493000000,
+    "title": "Advertisement and Promo",
+    "desc": "Bringing the best in television."
   },
   {
     "start": "16:30",
+    "stop": "16:55",
+    "channel": "GlobalIndia.in",
+    "channelId": "GlobalIndia.in",
+    "channelName": "Global India",
+    "startTs": 1775493000000,
+    "stopTs": 1775494500000,
+    "title": "Clear Cut",
+    "desc": "The host presents the latest news updates and developments from around the country."
+  },
+  {
+    "start": "16:55",
+    "stop": "17:00",
+    "channel": "GlobalIndia.in",
+    "channelId": "GlobalIndia.in",
+    "channelName": "Global India",
+    "startTs": 1775494500000,
+    "stopTs": 1775494800000,
+    "title": "Advertisement and Promo",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:25",
+    "channel": "GlobalIndia.in",
+    "channelId": "GlobalIndia.in",
+    "channelName": "Global India",
+    "startTs": 1775494800000,
+    "stopTs": 1775496300000,
+    "title": "Rubaru",
+    "desc": "The host holds conversations with individuals from all walks of life."
+  },
+  {
+    "start": "17:25",
     "stop": "17:30",
     "channel": "GlobalIndia.in",
     "channelId": "GlobalIndia.in",
     "channelName": "Global India",
-    "startTs": 1775579400000,
-    "stopTs": 1775583000000,
-    "title": "Global India",
-    "desc": "Global India"
+    "startTs": 1775496300000,
+    "stopTs": 1775496600000,
+    "title": "Advertisement and Promo",
+    "desc": "Bringing the best in television."
   },
   {
     "start": "17:30",
-    "stop": "18:29",
+    "stop": "17:55",
     "channel": "GlobalIndia.in",
     "channelId": "GlobalIndia.in",
     "channelName": "Global India",
-    "startTs": 1775583000000,
-    "stopTs": 1775586599000,
-    "title": "Global India",
-    "desc": "Global India"
+    "startTs": 1775496600000,
+    "stopTs": 1775498100000,
+    "title": "Songs",
+    "desc": "A comprehensive compilation of songs by various artists and bands, is played back-to-back."
+  },
+  {
+    "start": "17:55",
+    "stop": "18:00",
+    "channel": "GlobalIndia.in",
+    "channelId": "GlobalIndia.in",
+    "channelName": "Global India",
+    "startTs": 1775498100000,
+    "stopTs": 1775498400000,
+    "title": "Advertisement and Promo",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:25",
+    "channel": "GlobalIndia.in",
+    "channelId": "GlobalIndia.in",
+    "channelName": "Global India",
+    "startTs": 1775498400000,
+    "stopTs": 1775499900000,
+    "title": "Punjab News",
+    "desc": "The host presents a roundup of the latest news from across the state and nation."
+  },
+  {
+    "start": "18:25",
+    "stop": "18:30",
+    "channel": "GlobalIndia.in",
+    "channelId": "GlobalIndia.in",
+    "channelName": "Global India",
+    "startTs": 1775499900000,
+    "stopTs": 1775500200000,
+    "title": "Advertisement and Promo",
+    "desc": "Bringing the best in television."
   }
 ]

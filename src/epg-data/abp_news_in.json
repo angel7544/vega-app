@@ -1,0 +1,167 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "ABPNews.in",
+    "channelId": "ABPNews.in",
+    "channelName": "ABP News",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Khabar Gawah Hain",
+    "desc": "Presents a detailed report on important news updates and highlights the pressing issues of society."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "ABPNews.in",
+    "channelId": "ABPNews.in",
+    "channelName": "ABP News",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Mahadangal",
+    "desc": "Presents news updates and discussions with a panel of experts."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "ABPNews.in",
+    "channelId": "ABPNews.in",
+    "channelName": "ABP News",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Mahadangal",
+    "desc": "Presents news updates and discussions with a panel of experts."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "ABPNews.in",
+    "channelId": "ABPNews.in",
+    "channelName": "ABP News",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "ABP Report",
+    "desc": "Presents the latest news reports and recent developments across the globe."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "ABPNews.in",
+    "channelId": "ABPNews.in",
+    "channelName": "ABP News",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "ABP Report",
+    "desc": "Presents the latest news reports and recent developments across the globe."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "ABPNews.in",
+    "channelId": "ABPNews.in",
+    "channelName": "ABP News",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Seedha Sawaal",
+    "desc": "Experts from various walks of life debate and share their thoughts on several topics."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "ABPNews.in",
+    "channelId": "ABPNews.in",
+    "channelName": "ABP News",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Seedha Sawaal",
+    "desc": "Experts from various walks of life debate and share their thoughts on several topics."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "ABPNews.in",
+    "channelId": "ABPNews.in",
+    "channelName": "ABP News",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Bharat Ki Baat",
+    "desc": "Presenting the latest updates on pressing issues from around the world."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "ABPNews.in",
+    "channelId": "ABPNews.in",
+    "channelName": "ABP News",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Bharat Ki Baat",
+    "desc": "Presenting the latest updates on pressing issues from around the world."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "ABPNews.in",
+    "channelId": "ABPNews.in",
+    "channelName": "ABP News",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Janhit",
+    "desc": "Presents recent political, societal, economic and sporting developments."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "ABPNews.in",
+    "channelId": "ABPNews.in",
+    "channelName": "ABP News",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Janhit",
+    "desc": "Presents recent political, societal, economic and sporting developments."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "ABPNews.in",
+    "channelId": "ABPNews.in",
+    "channelName": "ABP News",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "News @ 10",
+    "desc": "Explores the latest socio-economic and political updates of the day."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "ABPNews.in",
+    "channelId": "ABPNews.in",
+    "channelName": "ABP News",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "News @ 10",
+    "desc": "Explores the latest socio-economic and political updates of the day."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "ABPNews.in",
+    "channelId": "ABPNews.in",
+    "channelName": "ABP News",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Sansani",
+    "desc": "Presents the latest news, focusing on crimes across the globe to encourage safety awareness."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "ABPNews.in",
+    "channelId": "ABPNews.in",
+    "channelName": "ABP News",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Special Report",
+    "desc": "The host provides a detailed report from the world of sports."
+  }
+]

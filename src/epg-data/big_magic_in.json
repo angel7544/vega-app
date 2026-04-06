@@ -1,0 +1,57 @@
+[
+  {
+    "start": "09:17",
+    "stop": "11:15",
+    "channel": "BigMagic.in",
+    "channelId": "BigMagic.in",
+    "channelName": "Big Magic",
+    "startTs": 1775467020000,
+    "stopTs": 1775474100000,
+    "title": "Kedarnath",
+    "desc": "After a Muslim porter falls for a Hindu girl, their love is tested amid a disaster."
+  },
+  {
+    "start": "11:15",
+    "stop": "13:30",
+    "channel": "BigMagic.in",
+    "channelId": "BigMagic.in",
+    "channelName": "Big Magic",
+    "startTs": 1775474100000,
+    "stopTs": 1775482200000,
+    "title": "Auron Mein Kahan Dum Tha",
+    "desc": "As Krishna, an incarcerated man, faces early release, his love story with Vasudha unfurls."
+  },
+  {
+    "start": "13:30",
+    "stop": "15:46",
+    "channel": "BigMagic.in",
+    "channelId": "BigMagic.in",
+    "channelName": "Big Magic",
+    "startTs": 1775482200000,
+    "stopTs": 1775490360000,
+    "title": "Dhadak",
+    "desc": "A young couple&apos;s love transcends class and blooms despite their families&apos; disapproval."
+  },
+  {
+    "start": "15:46",
+    "stop": "18:22",
+    "channel": "BigMagic.in",
+    "channelId": "BigMagic.in",
+    "channelName": "Big Magic",
+    "startTs": 1775490360000,
+    "stopTs": 1775499720000,
+    "title": "Gully Boy",
+    "desc": "The life of a rapper who struggles to express his views, changes after he meets Shrikant."
+  },
+  {
+    "start": "18:22",
+    "stop": "20:15",
+    "channel": "BigMagic.in",
+    "channelId": "BigMagic.in",
+    "channelName": "Big Magic",
+    "startTs": 1775499720000,
+    "stopTs": 1775506500000,
+    "title": "Hijack",
+    "desc": "A maintenance engineer risks his life to save his daughter on a plane hijacked by terrorists."
+  }
+]

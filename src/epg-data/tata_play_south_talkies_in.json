@@ -1,0 +1,35 @@
+[
+  {
+    "start": "11:00",
+    "stop": "13:30",
+    "channel": "TataPlaySouthTalkies.in",
+    "channelId": "TataPlaySouthTalkies.in",
+    "channelName": "Tata Play South Talkies",
+    "startTs": 1775473200000,
+    "stopTs": 1775482200000,
+    "title": "Love Mocktail",
+    "desc": "After rescuing a woman, a man reminisces about his quest to find his true love."
+  },
+  {
+    "start": "13:30",
+    "stop": "16:00",
+    "channel": "TataPlaySouthTalkies.in",
+    "channelId": "TataPlaySouthTalkies.in",
+    "channelName": "Tata Play South Talkies",
+    "startTs": 1775482200000,
+    "stopTs": 1775491200000,
+    "title": "7th Day",
+    "desc": "David tries to help two friends to get out of an icky situation that altered their lives."
+  },
+  {
+    "start": "16:00",
+    "stop": "18:30",
+    "channel": "TataPlaySouthTalkies.in",
+    "channelId": "TataPlaySouthTalkies.in",
+    "channelName": "Tata Play South Talkies",
+    "startTs": 1775491200000,
+    "stopTs": 1775500200000,
+    "title": "Aaj Ka Nayak",
+    "desc": "A reporter faces dire consequences after accepting a challenge to become CM for a day."
+  }
+]

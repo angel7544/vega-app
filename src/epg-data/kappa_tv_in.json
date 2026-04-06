@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:35",
-    "stop": "11:00",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775471700000,
-    "stopTs": 1775473200000,
-    "title": "The Big League",
-    "desc": "A comprehensive compilation of some of the most popular and captivating songs by various renowned music artists is played back to back to entertain the audience."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "KappaTV.in",
@@ -19,7 +8,7 @@
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "The Laughter Grid",
-    "desc": "A comprehensive compilation of some of the most hilarious video clips that have left a lasting impression is played to entertain the audience."
+    "desc": "A comprehensive compilation of some of the most hilarious video clips is played."
   },
   {
     "start": "11:30",
@@ -30,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Daily Shuffle",
-    "desc": "A comprehensive compilation of popular and melodious songs, composed and sung by talented musicians, is played back-to-back."
+    "desc": "A comprehensive compilation of popular and melodious songs is played back-to-back."
   },
   {
     "start": "12:00",
@@ -52,7 +41,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775479500000,
     "title": "Music Mojo",
-    "desc": "Talented singers and bands from across different genres come to perform a compilation of popular songs and their own compositions."
+    "desc": "Singers and bands perform a collection of popular songs and their own compositions."
   },
   {
     "start": "12:45",
@@ -63,7 +52,7 @@
     "startTs": 1775479500000,
     "stopTs": 1775480400000,
     "title": "Music Mojo",
-    "desc": "Talented singers and bands from across different genres come to perform a compilation of popular songs and their own compositions."
+    "desc": "Singers and bands perform a collection of popular songs and their own compositions."
   },
   {
     "start": "13:00",
@@ -74,7 +63,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775480700000,
     "title": "Footloose",
-    "desc": "Talented dancers from across the region perform in sync to foot-tapping music numbers and showcase their skills gracefully."
+    "desc": "Talented dancers perform to foot-tapping numbers and showcase their skill gracefully."
   },
   {
     "start": "13:05",
@@ -96,7 +85,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775482500000,
     "title": "Moodtapes",
-    "desc": "Talented young singers perform cover versions of popular songs originally created by renowned musicians, composers, and artists."
+    "desc": "Talented young singers perform cover versions of orginal popular songs by renowned artists."
   },
   {
     "start": "13:35",
@@ -107,7 +96,7 @@
     "startTs": 1775482500000,
     "stopTs": 1775484000000,
     "title": "Bindaas Bollywood",
-    "desc": "A comprehensive presentation of popular song sequences from blockbuster Bollywood movies to engage and entertain audiences."
+    "desc": "A presentation of popular song sequences from blockbuster Bollywood movies."
   },
   {
     "start": "14:00",
@@ -118,7 +107,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775484900000,
     "title": "Awesome Covers",
-    "desc": "A collection of renditions of popular songs performed by talented musicians, singers and artists to entertain the audience."
+    "desc": "A collection of popular songs by talented musicians and singers to entertain the audience."
   },
   {
     "start": "14:15",
@@ -129,7 +118,7 @@
     "startTs": 1775484900000,
     "stopTs": 1775485800000,
     "title": "Awesome Covers",
-    "desc": "A collection of renditions of popular songs performed by talented musicians, singers and artists to entertain the audience."
+    "desc": "A collection of popular songs by talented musicians and singers to entertain the audience."
   },
   {
     "start": "14:30",
@@ -140,7 +129,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Merry Go &apos;round",
-    "desc": "A comprehensive compilation of songs from various movies, featuring some of the most popular celebrities and personalities in film."
+    "desc": "A comprehensive compilation of songs from various movies featuring popular celebrities."
   },
   {
     "start": "15:00",
@@ -151,7 +140,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Merry Go &apos;round",
-    "desc": "A comprehensive compilation of songs from various movies, featuring some of the most popular celebrities and personalities in film."
+    "desc": "A comprehensive compilation of songs from various movies featuring popular celebrities."
   },
   {
     "start": "15:30",
@@ -162,7 +151,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Music Mojo",
-    "desc": "Talented singers and bands from across different genres come to perform a compilation of popular songs and their own compositions."
+    "desc": "Singers and bands perform a collection of popular songs and their own compositions."
   },
   {
     "start": "16:00",
@@ -173,7 +162,7 @@
     "startTs": 1775491200000,
     "stopTs": 1775491500000,
     "title": "Footloose",
-    "desc": "Talented dancers from across the region perform in sync to foot-tapping music numbers and showcase their skills gracefully."
+    "desc": "Talented dancers perform to foot-tapping numbers and showcase their skill gracefully."
   },
   {
     "start": "16:05",
@@ -195,7 +184,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Daily Shuffle",
-    "desc": "A comprehensive compilation of popular and melodious songs, composed and sung by talented musicians, is played back-to-back."
+    "desc": "A comprehensive compilation of popular and melodious songs is played back-to-back."
   },
   {
     "start": "17:00",
@@ -206,7 +195,7 @@
     "startTs": 1775494800000,
     "stopTs": 1775495100000,
     "title": "Smokin Hot",
-    "desc": "A comprehensive compilation of popular songs composed and performed by renowned artists and bands are played back to back."
+    "desc": "A compilation of popular songs by renowned artists and bands, played back to back."
   },
   {
     "start": "17:05",
@@ -217,7 +206,7 @@
     "startTs": 1775495100000,
     "stopTs": 1775496600000,
     "title": "Big Ticket",
-    "desc": "The host collates and showcases a selective compilation catering to the viewers&apos; interests and provides insights through the countdown."
+    "desc": "The host presents a selective compilation, sharing insights through the countdown."
   },
   {
     "start": "17:30",
@@ -228,611 +217,17 @@
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Merry Go &apos;round",
-    "desc": "A comprehensive compilation of songs from various movies, featuring some of the most popular celebrities and personalities in film."
+    "desc": "A comprehensive compilation of songs from various movies featuring popular celebrities."
   },
   {
     "start": "18:00",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "KappaTV.in",
     "channelId": "KappaTV.in",
     "channelName": "Kappa TV",
     "startTs": 1775498400000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "Merry Go &apos;round",
-    "desc": "A comprehensive compilation of songs from various movies, featuring some of the most popular celebrities and personalities in film."
-  },
-  {
-    "start": "18:30",
-    "stop": "19:00",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775500200000,
-    "stopTs": 1775502000000,
-    "title": "Music Mojo",
-    "desc": "Talented singers and bands from across different genres come to perform a compilation of popular songs and their own compositions."
-  },
-  {
-    "start": "19:00",
-    "stop": "19:30",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775502000000,
-    "stopTs": 1775503800000,
-    "title": "Funlimited",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "19:30",
-    "stop": "20:00",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775503800000,
-    "stopTs": 1775505600000,
-    "title": "The Big League",
-    "desc": "A comprehensive compilation of some of the most popular and captivating songs by various renowned music artists is played back to back to entertain the audience."
-  },
-  {
-    "start": "20:00",
-    "stop": "20:30",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775505600000,
-    "stopTs": 1775507400000,
-    "title": "The Laughter Grid",
-    "desc": "A comprehensive compilation of some of the most hilarious video clips that have left a lasting impression is played to entertain the audience."
-  },
-  {
-    "start": "20:30",
-    "stop": "21:00",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775507400000,
-    "stopTs": 1775509200000,
-    "title": "Big Ticket",
-    "desc": "The host collates and showcases a selective compilation catering to the viewers&apos; interests and provides insights through the countdown."
-  },
-  {
-    "start": "21:00",
-    "stop": "21:30",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775509200000,
-    "stopTs": 1775511000000,
-    "title": "Merry Go &apos;round",
-    "desc": "A comprehensive compilation of songs from various movies, featuring some of the most popular celebrities and personalities in film."
-  },
-  {
-    "start": "21:30",
-    "stop": "22:00",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775511000000,
-    "stopTs": 1775512800000,
-    "title": "Merry Go &apos;round",
-    "desc": "A comprehensive compilation of songs from various movies, featuring some of the most popular celebrities and personalities in film."
-  },
-  {
-    "start": "22:00",
-    "stop": "01:00",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775512800000,
-    "stopTs": 1775523600000,
-    "title": "Night Bird",
-    "desc": "Talented musicians and singers perform a collection of melodious and soulful songs to enthrall the audience with their captivating skills."
-  },
-  {
-    "start": "01:00",
-    "stop": "01:30",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775523600000,
-    "stopTs": 1775525400000,
-    "title": "Golden Oldies",
-    "desc": "A rich and tuneful compilation of catchy and melodious songs from movies of yesteryears to engage and entertain older audiences."
-  },
-  {
-    "start": "01:30",
-    "stop": "02:00",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775525400000,
-    "stopTs": 1775527200000,
-    "title": "Rise And Shine",
-    "desc": "A comprehensive compilation of popular songs from the latest blockbuster movies across various film industries is played back-to-back."
-  },
-  {
-    "start": "02:00",
-    "stop": "02:30",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775527200000,
-    "stopTs": 1775529000000,
-    "title": "Rise And Shine",
-    "desc": "A comprehensive compilation of popular songs from the latest blockbuster movies across various film industries is played back-to-back."
-  },
-  {
-    "start": "02:30",
-    "stop": "03:00",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775529000000,
-    "stopTs": 1775530800000,
-    "title": "Music Mojo",
-    "desc": "Talented singers and bands from across different genres come to perform a compilation of popular songs and their own compositions."
-  },
-  {
-    "start": "03:00",
-    "stop": "03:05",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775530800000,
-    "stopTs": 1775531100000,
-    "title": "Moodtapes",
-    "desc": "Talented young singers perform cover versions of popular songs originally created by renowned musicians, composers, and artists."
-  },
-  {
-    "start": "03:05",
-    "stop": "03:30",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775531100000,
-    "stopTs": 1775532600000,
-    "title": "The Big League",
-    "desc": "A comprehensive compilation of some of the most popular and captivating songs by various renowned music artists is played back to back to entertain the audience."
-  },
-  {
-    "start": "03:30",
-    "stop": "04:00",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775532600000,
-    "stopTs": 1775534400000,
-    "title": "The Comedy Grid",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "04:00",
-    "stop": "04:05",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775534400000,
-    "stopTs": 1775534700000,
-    "title": "Footloose",
-    "desc": "Talented dancers from across the region perform in sync to foot-tapping music numbers and showcase their skills gracefully."
-  },
-  {
-    "start": "04:05",
-    "stop": "04:30",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775534700000,
-    "stopTs": 1775536200000,
-    "title": "Madras Talkies",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "04:30",
-    "stop": "05:00",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775536200000,
-    "stopTs": 1775538000000,
-    "title": "Daily Shuffle",
-    "desc": "A comprehensive compilation of popular and melodious songs, composed and sung by talented musicians, is played back-to-back."
-  },
-  {
-    "start": "05:00",
-    "stop": "05:30",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775538000000,
-    "stopTs": 1775539800000,
-    "title": "Music Mojo",
-    "desc": "Talented singers and bands from across different genres come to perform a compilation of popular songs and their own compositions."
-  },
-  {
-    "start": "05:30",
-    "stop": "06:00",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775539800000,
-    "stopTs": 1775541600000,
-    "title": "Merry Go &apos;round",
-    "desc": "A comprehensive compilation of songs from various movies, featuring some of the most popular celebrities and personalities in film."
-  },
-  {
-    "start": "06:00",
-    "stop": "06:30",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775541600000,
-    "stopTs": 1775543400000,
-    "title": "Merry Go &apos;round",
-    "desc": "A comprehensive compilation of songs from various movies, featuring some of the most popular celebrities and personalities in film."
-  },
-  {
-    "start": "06:30",
-    "stop": "06:35",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775543400000,
-    "stopTs": 1775543700000,
-    "title": "Moodtapes",
-    "desc": "Talented young singers perform cover versions of popular songs originally created by renowned musicians, composers, and artists."
-  },
-  {
-    "start": "06:35",
-    "stop": "07:05",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775543700000,
-    "stopTs": 1775545500000,
-    "title": "The Laughter Grid",
-    "desc": "A comprehensive compilation of some of the most hilarious video clips that have left a lasting impression is played to entertain the audience."
-  },
-  {
-    "start": "07:05",
-    "stop": "07:30",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775545500000,
-    "stopTs": 1775547000000,
-    "title": "Funlimited",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "07:30",
-    "stop": "08:00",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775547000000,
-    "stopTs": 1775548800000,
-    "title": "Bindaas Bollywood",
-    "desc": "A comprehensive presentation of popular song sequences from blockbuster Bollywood movies to engage and entertain audiences."
-  },
-  {
-    "start": "08:00",
-    "stop": "08:05",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775548800000,
-    "stopTs": 1775549100000,
-    "title": "Footloose",
-    "desc": "Talented dancers from across the region perform in sync to foot-tapping music numbers and showcase their skills gracefully."
-  },
-  {
-    "start": "08:05",
-    "stop": "08:30",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775549100000,
-    "stopTs": 1775550600000,
-    "title": "Awesome Covers",
-    "desc": "A collection of renditions of popular songs performed by talented musicians, singers and artists to entertain the audience."
-  },
-  {
-    "start": "08:30",
-    "stop": "09:00",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775550600000,
-    "stopTs": 1775552400000,
-    "title": "Music Mojo",
-    "desc": "Talented singers and bands from across different genres come to perform a compilation of popular songs and their own compositions."
-  },
-  {
-    "start": "09:00",
-    "stop": "09:30",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775552400000,
-    "stopTs": 1775554200000,
-    "title": "Big Ticket",
-    "desc": "The host collates and showcases a selective compilation catering to the viewers&apos; interests and provides insights through the countdown."
-  },
-  {
-    "start": "09:30",
-    "stop": "10:00",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775554200000,
-    "stopTs": 1775556000000,
-    "title": "Merry Go &apos;round",
-    "desc": "A comprehensive compilation of songs from various movies, featuring some of the most popular celebrities and personalities in film."
-  },
-  {
-    "start": "10:00",
-    "stop": "10:30",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775556000000,
-    "stopTs": 1775557800000,
-    "title": "Merry Go &apos;round",
-    "desc": "A comprehensive compilation of songs from various movies, featuring some of the most popular celebrities and personalities in film."
-  },
-  {
-    "start": "10:30",
-    "stop": "10:35",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775557800000,
-    "stopTs": 1775558100000,
-    "title": "Moodtapes",
-    "desc": "Talented young singers perform cover versions of popular songs originally created by renowned musicians, composers, and artists."
-  },
-  {
-    "start": "10:35",
-    "stop": "11:00",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775558100000,
-    "stopTs": 1775559600000,
-    "title": "The Big League",
-    "desc": "A comprehensive compilation of some of the most popular and captivating songs by various renowned music artists is played back to back to entertain the audience."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:30",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775559600000,
-    "stopTs": 1775561400000,
-    "title": "The Laughter Grid",
-    "desc": "A comprehensive compilation of some of the most hilarious video clips that have left a lasting impression is played to entertain the audience."
-  },
-  {
-    "start": "11:30",
-    "stop": "12:00",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775561400000,
-    "stopTs": 1775563200000,
-    "title": "Daily Shuffle",
-    "desc": "A comprehensive compilation of popular and melodious songs, composed and sung by talented musicians, is played back-to-back."
-  },
-  {
-    "start": "12:00",
-    "stop": "12:30",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775563200000,
-    "stopTs": 1775565000000,
-    "title": "The Comedy Grid",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "12:30",
-    "stop": "12:45",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775565000000,
-    "stopTs": 1775565900000,
-    "title": "Music Mojo",
-    "desc": "Talented singers and bands from across different genres come to perform a compilation of popular songs and their own compositions."
-  },
-  {
-    "start": "12:45",
-    "stop": "13:00",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775565900000,
-    "stopTs": 1775566800000,
-    "title": "Music Mojo",
-    "desc": "Talented singers and bands from across different genres come to perform a compilation of popular songs and their own compositions."
-  },
-  {
-    "start": "13:00",
-    "stop": "13:05",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775566800000,
-    "stopTs": 1775567100000,
-    "title": "Footloose",
-    "desc": "Talented dancers from across the region perform in sync to foot-tapping music numbers and showcase their skills gracefully."
-  },
-  {
-    "start": "13:05",
-    "stop": "13:30",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775567100000,
-    "stopTs": 1775568600000,
-    "title": "Madras Talkies",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "13:30",
-    "stop": "13:35",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775568600000,
-    "stopTs": 1775568900000,
-    "title": "Moodtapes",
-    "desc": "Talented young singers perform cover versions of popular songs originally created by renowned musicians, composers, and artists."
-  },
-  {
-    "start": "13:35",
-    "stop": "14:00",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775568900000,
-    "stopTs": 1775570400000,
-    "title": "Bindaas Bollywood",
-    "desc": "A comprehensive presentation of popular song sequences from blockbuster Bollywood movies to engage and entertain audiences."
-  },
-  {
-    "start": "14:00",
-    "stop": "14:15",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775570400000,
-    "stopTs": 1775571300000,
-    "title": "Awesome Covers",
-    "desc": "A collection of renditions of popular songs performed by talented musicians, singers and artists to entertain the audience."
-  },
-  {
-    "start": "14:15",
-    "stop": "14:30",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775571300000,
-    "stopTs": 1775572200000,
-    "title": "Awesome Covers",
-    "desc": "A collection of renditions of popular songs performed by talented musicians, singers and artists to entertain the audience."
-  },
-  {
-    "start": "14:30",
-    "stop": "15:00",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775572200000,
-    "stopTs": 1775574000000,
-    "title": "Merry Go &apos;round",
-    "desc": "A comprehensive compilation of songs from various movies, featuring some of the most popular celebrities and personalities in film."
-  },
-  {
-    "start": "15:00",
-    "stop": "15:30",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775574000000,
-    "stopTs": 1775575800000,
-    "title": "Merry Go &apos;round",
-    "desc": "A comprehensive compilation of songs from various movies, featuring some of the most popular celebrities and personalities in film."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:00",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775575800000,
-    "stopTs": 1775577600000,
-    "title": "Music Mojo",
-    "desc": "Talented singers and bands from across different genres come to perform a compilation of popular songs and their own compositions."
-  },
-  {
-    "start": "16:00",
-    "stop": "16:05",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775577600000,
-    "stopTs": 1775577900000,
-    "title": "Footloose",
-    "desc": "Talented dancers from across the region perform in sync to foot-tapping music numbers and showcase their skills gracefully."
-  },
-  {
-    "start": "16:05",
-    "stop": "16:30",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775577900000,
-    "stopTs": 1775579400000,
-    "title": "Funlimited",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "16:30",
-    "stop": "17:00",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775579400000,
-    "stopTs": 1775581200000,
-    "title": "Daily Shuffle",
-    "desc": "A comprehensive compilation of popular and melodious songs, composed and sung by talented musicians, is played back-to-back."
-  },
-  {
-    "start": "17:00",
-    "stop": "17:05",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775581200000,
-    "stopTs": 1775581500000,
-    "title": "Smokin Hot",
-    "desc": "A comprehensive compilation of popular songs composed and performed by renowned artists and bands are played back to back."
-  },
-  {
-    "start": "17:05",
-    "stop": "17:30",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775581500000,
-    "stopTs": 1775583000000,
-    "title": "Big Ticket",
-    "desc": "The host collates and showcases a selective compilation catering to the viewers&apos; interests and provides insights through the countdown."
-  },
-  {
-    "start": "17:30",
-    "stop": "18:00",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775583000000,
-    "stopTs": 1775584800000,
-    "title": "Merry Go &apos;round",
-    "desc": "A comprehensive compilation of songs from various movies, featuring some of the most popular celebrities and personalities in film."
-  },
-  {
-    "start": "18:00",
-    "stop": "18:29",
-    "channel": "KappaTV.in",
-    "channelId": "KappaTV.in",
-    "channelName": "Kappa TV",
-    "startTs": 1775584800000,
-    "stopTs": 1775586599000,
-    "title": "Merry Go &apos;round",
-    "desc": "A comprehensive compilation of songs from various movies, featuring some of the most popular celebrities and personalities in film."
+    "desc": "A comprehensive compilation of songs from various movies featuring popular celebrities."
   }
 ]

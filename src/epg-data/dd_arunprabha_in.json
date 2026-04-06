@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Wah Kya Taste Hai",
-    "desc": "The host interacts with chefs from some of the most famous restaurants and hotels in India and showcases their recipes for various mouth-watering dishes."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "DDArunPrabha.in",
@@ -19,7 +8,7 @@
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Documentary / Commission Programme",
-    "desc": "A comprehensive compilation of documentaries and television shows that explores unique topics, across multiple genres, is showcased."
+    "desc": "A compilation of documentaries and television shows, exploring unique topics, is showcased."
   },
   {
     "start": "11:30",
@@ -30,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Modern Dance & Song Of Arunachal Pradesh",
-    "desc": "Renowned artists deliver electrifying performances, blending modern dance and music with the cultural essence of Arunachal Pradesh."
+    "desc": "Renowned artists deliver electrifying performances, blending modern dance and music."
   },
   {
     "start": "12:00",
@@ -41,7 +30,7 @@
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Krishi Vikas",
-    "desc": "The host discusses the latest developments in agriculture, providing farmers with information on new practices, technologies, and government schemes designed to support their growth."
+    "desc": "The host discusses the latest developments and new practices in agriculture for farmers."
   },
   {
     "start": "12:30",
@@ -52,7 +41,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Folk & Dance,Song /Music",
-    "desc": "Artists from communities and tribes perform traditional folk dances and songs, celebrating the rich culture, and heritage of Arunachal Pradesh."
+    "desc": "Artists from communities and tribes of Arunachal Pradesh perform traditional folk dances and songs."
   },
   {
     "start": "13:00",
@@ -63,7 +52,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775481300000,
     "title": "Arunachal Samachar",
-    "desc": "The host provides comprehensive coverage of current events, political developments, cultural affairs and social issues in Arunachal Pradesh."
+    "desc": "The host provides comprehensive coverage of current events in Arunachal Pradesh."
   },
   {
     "start": "13:15",
@@ -74,7 +63,7 @@
     "startTs": 1775481300000,
     "stopTs": 1775482200000,
     "title": "North East News",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+    "desc": "The host presents information about the social, economic and political issues of the day."
   },
   {
     "start": "13:30",
@@ -85,7 +74,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Discussion / Talk Show",
-    "desc": "The host interviews certain officials to shed light about various schemes and initiatives launched by the central government for the benefit of the public."
+    "desc": "The host interviews certain officials to shed light about various government schemes."
   },
   {
     "start": "14:00",
@@ -96,7 +85,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Interview & Scheme Based Program",
-    "desc": "The host invites a guest and engages in an insightful conversation surrounding important schemes undertaken by the administrative authorities."
+    "desc": "The host interacts with a guest on schemes undertaken by the authorities."
   },
   {
     "start": "14:30",
@@ -107,7 +96,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Sur Taal Chaal Arunachal",
-    "desc": "The host sheds light on the culture, customs and traditions of various tribes in Arunachal Pradesh and showcases their folk songs and dances."
+    "desc": "The host sheds light on the culture and traditions of various tribes in Arunachal Pradesh."
   },
   {
     "start": "15:00",
@@ -118,7 +107,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775488500000,
     "title": "Filler",
-    "desc": "A comprehensive compilation of promotional videos and trailers of Bollywood movies featuring popular actors and actresses."
+    "desc": "A comprehensive compilation of promotional videos and trailers of Bollywood movies."
   },
   {
     "start": "15:15",
@@ -129,7 +118,7 @@
     "startTs": 1775488500000,
     "stopTs": 1775489400000,
     "title": "Arunachal Samachar",
-    "desc": "The host provides comprehensive coverage of current events, political developments, cultural affairs and social issues in Arunachal Pradesh."
+    "desc": "The host provides comprehensive coverage of current events in Arunachal Pradesh."
   },
   {
     "start": "15:30",
@@ -151,7 +140,7 @@
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Shillong Holiday Home",
-    "desc": "Various individuals and families experience several adventures during their stay at a friendly holiday home in Shillong."
+    "desc": "The guests of a holiday home experience several adventures during their vacation."
   },
   {
     "start": "16:30",
@@ -162,7 +151,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Maa Ke Aanchal Ki Katran",
-    "desc": "A heartwarming portrayal of the unwavering devotion and care a mother has for her children, as well as the complexities and nuances of human relationships."
+    "desc": "A heartwarming portrayal of the unwavering love and care a mother has for her children."
   },
   {
     "start": "17:00",
@@ -173,7 +162,7 @@
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Documentary / Travelogue / Rhythm Of Soul",
-    "desc": "A filmmaker sheds light on a relevant topic; the host travels around and explores various places; the host presents a collection of soulful music."
+    "desc": "A filmmaker sheds light on a relevant topic; the host travels and explores various places."
   },
   {
     "start": "17:30",
@@ -184,544 +173,16 @@
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Aakhir Kaun",
-    "desc": "Vijay and Anand, two detectives, fight all odds to investigate a series of mysterious crimes. They solve the cases by interrogating suspects and their history."
+    "desc": "Two detectives fight all odds to investigate mysterious cases and solve them."
   },
   {
     "start": "18:00",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "DDArunPrabha.in",
     "channelId": "DDArunPrabha.in",
     "channelName": "DD Arunprabha",
     "startTs": 1775498400000,
-    "stopTs": 1775500199000,
-    "title": "Arunoday",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "18:30",
-    "stop": "19:00",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775500200000,
-    "stopTs": 1775502000000,
-    "title": "Wah Kya Taste Hai",
-    "desc": "The host interacts with chefs from some of the most famous restaurants and hotels in India and showcases their recipes for various mouth-watering dishes."
-  },
-  {
-    "start": "19:00",
-    "stop": "19:30",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775502000000,
-    "stopTs": 1775503800000,
-    "title": "Documentary / Commission Programme",
-    "desc": "A comprehensive compilation of documentaries and television shows that explores unique topics, across multiple genres, is showcased."
-  },
-  {
-    "start": "19:30",
-    "stop": "20:00",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775503800000,
-    "stopTs": 1775505600000,
-    "title": "Modern Dance & Song Of Arunachal Pradesh",
-    "desc": "Renowned artists deliver electrifying performances, blending modern dance and music with the cultural essence of Arunachal Pradesh."
-  },
-  {
-    "start": "20:00",
-    "stop": "20:30",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775505600000,
-    "stopTs": 1775507400000,
-    "title": "Krishi Vikas",
-    "desc": "The host discusses the latest developments in agriculture, providing farmers with information on new practices, technologies, and government schemes designed to support their growth."
-  },
-  {
-    "start": "20:30",
-    "stop": "21:00",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775507400000,
-    "stopTs": 1775509200000,
-    "title": "Folk & Dance,Song /Music",
-    "desc": "Artists from communities and tribes perform traditional folk dances and songs, celebrating the rich culture, and heritage of Arunachal Pradesh."
-  },
-  {
-    "start": "21:00",
-    "stop": "21:15",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775509200000,
-    "stopTs": 1775510100000,
-    "title": "Arunachal Samachar",
-    "desc": "The host provides comprehensive coverage of current events, political developments, cultural affairs and social issues in Arunachal Pradesh."
-  },
-  {
-    "start": "21:15",
-    "stop": "21:30",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775510100000,
-    "stopTs": 1775511000000,
-    "title": "North East News",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "21:30",
-    "stop": "22:00",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775511000000,
-    "stopTs": 1775512800000,
-    "title": "Discussion / Talk Show",
-    "desc": "The host interviews certain officials to shed light about various schemes and initiatives launched by the central government for the benefit of the public."
-  },
-  {
-    "start": "22:00",
-    "stop": "22:30",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775512800000,
-    "stopTs": 1775514600000,
-    "title": "Interview & Scheme Based Program",
-    "desc": "The host invites a guest and engages in an insightful conversation surrounding important schemes undertaken by the administrative authorities."
-  },
-  {
-    "start": "22:30",
-    "stop": "23:00",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775514600000,
-    "stopTs": 1775516400000,
-    "title": "Sur Taal Chaal Arunachal",
-    "desc": "The host sheds light on the culture, customs and traditions of various tribes in Arunachal Pradesh and showcases their folk songs and dances."
-  },
-  {
-    "start": "23:00",
-    "stop": "23:15",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775516400000,
-    "stopTs": 1775517300000,
-    "title": "Filler",
-    "desc": "A comprehensive compilation of promotional videos and trailers of Bollywood movies featuring popular actors and actresses."
-  },
-  {
-    "start": "23:15",
-    "stop": "23:30",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775517300000,
-    "stopTs": 1775518200000,
-    "title": "Arunachal Samachar",
-    "desc": "The host provides comprehensive coverage of current events, political developments, cultural affairs and social issues in Arunachal Pradesh."
-  },
-  {
-    "start": "23:30",
-    "stop": "00:00",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775518200000,
-    "stopTs": 1775520000000,
-    "title": "Ek Naya Kurukshetra",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "00:00",
-    "stop": "00:30",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775520000000,
-    "stopTs": 1775521800000,
-    "title": "Soul Of NE",
-    "desc": "Accomplished musicians and singers offer a spellbinding performance of several devotional songs, captivating the audience."
-  },
-  {
-    "start": "00:30",
-    "stop": "01:00",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775521800000,
-    "stopTs": 1775523600000,
-    "title": "Krishi Vikas",
-    "desc": "The host discusses the latest developments in agriculture, providing farmers with information on new practices, technologies, and government schemes designed to support their growth."
-  },
-  {
-    "start": "01:00",
-    "stop": "01:30",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775523600000,
-    "stopTs": 1775525400000,
-    "title": "Wah Kya Taste Hai",
-    "desc": "The host interacts with chefs from some of the most famous restaurants and hotels in India and showcases their recipes for various mouth-watering dishes."
-  },
-  {
-    "start": "01:30",
-    "stop": "02:00",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775525400000,
-    "stopTs": 1775527200000,
-    "title": "Modern Dance & Song Of Arunachal Pradesh",
-    "desc": "Renowned artists deliver electrifying performances, blending modern dance and music with the cultural essence of Arunachal Pradesh."
-  },
-  {
-    "start": "02:00",
-    "stop": "02:30",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775527200000,
-    "stopTs": 1775529000000,
-    "title": "Folk & Dance,Song /Music",
-    "desc": "Artists from communities and tribes perform traditional folk dances and songs, celebrating the rich culture, and heritage of Arunachal Pradesh."
-  },
-  {
-    "start": "02:30",
-    "stop": "03:30",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775529000000,
-    "stopTs": 1775532600000,
-    "title": "Morning Show",
-    "desc": "The host presents the latest updates and developments pertaining to various political, social and economic news around India."
-  },
-  {
-    "start": "03:30",
-    "stop": "04:00",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775532600000,
-    "stopTs": 1775534400000,
-    "title": "Discussion / Talk Show",
-    "desc": "The host interviews certain officials to shed light about various schemes and initiatives launched by the central government for the benefit of the public."
-  },
-  {
-    "start": "04:00",
-    "stop": "04:30",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775534400000,
-    "stopTs": 1775536200000,
-    "title": "Arunachal Ki Kahaniya",
-    "desc": "A collection of folk tales from Arunachal Pradesh, showcasing the rich culture, traditions, and folklore through stories of diverse communities and tribes."
-  },
-  {
-    "start": "04:30",
-    "stop": "05:00",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775536200000,
-    "stopTs": 1775538000000,
-    "title": "Discussion / Talk Show",
-    "desc": "The host interviews certain officials to shed light about various schemes and initiatives launched by the central government for the benefit of the public."
-  },
-  {
-    "start": "05:00",
-    "stop": "05:30",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775538000000,
-    "stopTs": 1775539800000,
-    "title": "Ek Naya Kurukshetra",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "05:30",
-    "stop": "07:30",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775539800000,
-    "stopTs": 1775547000000,
-    "title": "DDK Gangtok",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "07:30",
-    "stop": "08:00",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775547000000,
-    "stopTs": 1775548800000,
-    "title": "Shillong Holiday Home",
-    "desc": "Various individuals and families experience several adventures during their stay at a friendly holiday home in Shillong."
-  },
-  {
-    "start": "08:00",
-    "stop": "08:30",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775548800000,
-    "stopTs": 1775550600000,
-    "title": "Arunachal Ki Kahaniya",
-    "desc": "A collection of folk tales from Arunachal Pradesh, showcasing the rich culture, traditions, and folklore through stories of diverse communities and tribes."
-  },
-  {
-    "start": "08:30",
-    "stop": "09:00",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775550600000,
-    "stopTs": 1775552400000,
-    "title": "Maa Ke Aanchal Ki Katran",
-    "desc": "A heartwarming portrayal of the unwavering devotion and care a mother has for her children, as well as the complexities and nuances of human relationships."
-  },
-  {
-    "start": "09:00",
-    "stop": "09:30",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775552400000,
-    "stopTs": 1775554200000,
-    "title": "Documentary / Travelogue / Rhythm Of Soul",
-    "desc": "A filmmaker sheds light on a relevant topic; the host travels around and explores various places; the host presents a collection of soulful music."
-  },
-  {
-    "start": "09:30",
-    "stop": "10:00",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775554200000,
-    "stopTs": 1775556000000,
-    "title": "Aakhir Kaun",
-    "desc": "Vijay and Anand, two detectives, fight all odds to investigate a series of mysterious crimes. They solve the cases by interrogating suspects and their history."
-  },
-  {
-    "start": "10:00",
-    "stop": "10:30",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775556000000,
-    "stopTs": 1775557800000,
-    "title": "Arunoday",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775557800000,
-    "stopTs": 1775559600000,
-    "title": "Wah Kya Taste Hai",
-    "desc": "The host interacts with chefs from some of the most famous restaurants and hotels in India and showcases their recipes for various mouth-watering dishes."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:30",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775559600000,
-    "stopTs": 1775561400000,
-    "title": "Documentary / Commission Programme",
-    "desc": "A comprehensive compilation of documentaries and television shows that explores unique topics, across multiple genres, is showcased."
-  },
-  {
-    "start": "11:30",
-    "stop": "12:00",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775561400000,
-    "stopTs": 1775563200000,
-    "title": "Modern Dance & Song Of Arunachal Pradesh",
-    "desc": "Renowned artists deliver electrifying performances, blending modern dance and music with the cultural essence of Arunachal Pradesh."
-  },
-  {
-    "start": "12:00",
-    "stop": "12:30",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775563200000,
-    "stopTs": 1775565000000,
-    "title": "Krishi Vikas",
-    "desc": "The host discusses the latest developments in agriculture, providing farmers with information on new practices, technologies, and government schemes designed to support their growth."
-  },
-  {
-    "start": "12:30",
-    "stop": "13:00",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775565000000,
-    "stopTs": 1775566800000,
-    "title": "Folk & Dance,Song /Music",
-    "desc": "Artists from communities and tribes perform traditional folk dances and songs, celebrating the rich culture, and heritage of Arunachal Pradesh."
-  },
-  {
-    "start": "13:00",
-    "stop": "13:15",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775566800000,
-    "stopTs": 1775567700000,
-    "title": "Arunachal Samachar",
-    "desc": "The host provides comprehensive coverage of current events, political developments, cultural affairs and social issues in Arunachal Pradesh."
-  },
-  {
-    "start": "13:15",
-    "stop": "13:30",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775567700000,
-    "stopTs": 1775568600000,
-    "title": "North East News",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "13:30",
-    "stop": "14:00",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775568600000,
-    "stopTs": 1775570400000,
-    "title": "Discussion / Talk Show",
-    "desc": "The host interviews certain officials to shed light about various schemes and initiatives launched by the central government for the benefit of the public."
-  },
-  {
-    "start": "14:00",
-    "stop": "14:30",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775570400000,
-    "stopTs": 1775572200000,
-    "title": "Interview & TV Report",
-    "desc": "The host invites and engages in insightful conversations with esteemed guests and provides deeper insights into important matters."
-  },
-  {
-    "start": "14:30",
-    "stop": "15:00",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775572200000,
-    "stopTs": 1775574000000,
-    "title": "Arunachal Ki Kahaniya",
-    "desc": "A collection of folk tales from Arunachal Pradesh, showcasing the rich culture, traditions, and folklore through stories of diverse communities and tribes."
-  },
-  {
-    "start": "15:00",
-    "stop": "15:15",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775574000000,
-    "stopTs": 1775574900000,
-    "title": "Filler",
-    "desc": "A comprehensive compilation of promotional videos and trailers of Bollywood movies featuring popular actors and actresses."
-  },
-  {
-    "start": "15:15",
-    "stop": "15:30",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775574900000,
-    "stopTs": 1775575800000,
-    "title": "Arunachal Samachar",
-    "desc": "The host provides comprehensive coverage of current events, political developments, cultural affairs and social issues in Arunachal Pradesh."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:00",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775575800000,
-    "stopTs": 1775577600000,
-    "title": "Ek Naya Kurukshetra",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "16:00",
-    "stop": "16:30",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775577600000,
-    "stopTs": 1775579400000,
-    "title": "Shillong Holiday Home",
-    "desc": "Various individuals and families experience several adventures during their stay at a friendly holiday home in Shillong."
-  },
-  {
-    "start": "16:30",
-    "stop": "17:00",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775579400000,
-    "stopTs": 1775581200000,
-    "title": "Maa Ke Aanchal Ki Katran",
-    "desc": "A heartwarming portrayal of the unwavering devotion and care a mother has for her children, as well as the complexities and nuances of human relationships."
-  },
-  {
-    "start": "17:00",
-    "stop": "17:30",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775581200000,
-    "stopTs": 1775583000000,
-    "title": "Documentary / Travelogue / Rhythm Of Soul",
-    "desc": "A filmmaker sheds light on a relevant topic; the host travels around and explores various places; the host presents a collection of soulful music."
-  },
-  {
-    "start": "17:30",
-    "stop": "18:00",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775583000000,
-    "stopTs": 1775584800000,
-    "title": "Aakhir Kaun",
-    "desc": "Vijay and Anand, two detectives, fight all odds to investigate a series of mysterious crimes. They solve the cases by interrogating suspects and their history."
-  },
-  {
-    "start": "18:00",
-    "stop": "18:29",
-    "channel": "DDArunPrabha.in",
-    "channelId": "DDArunPrabha.in",
-    "channelName": "DD Arunprabha",
-    "startTs": 1775584800000,
-    "stopTs": 1775586599000,
+    "stopTs": 1775500200000,
     "title": "Arunoday",
     "desc": "Bringing the best in television."
   }

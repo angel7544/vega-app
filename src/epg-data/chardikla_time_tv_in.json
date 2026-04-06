@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:50",
-    "stop": "11:00",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775472600000,
-    "stopTs": 1775473200000,
-    "title": "Uttrakhand News",
-    "desc": "The host discusses recent developments in the field of politics, business, entertainment, education, technology and sports in Uttarakhand."
-  },
-  {
     "start": "11:00",
     "stop": "11:15",
     "channel": "ChardiklaTimeTV.in",
@@ -19,7 +8,7 @@
     "startTs": 1775473200000,
     "stopTs": 1775474100000,
     "title": "Haryana News",
-    "desc": "The host provides the latest news and updates on matters related to politics, crime and socio-economic issues in the state of Haryana, India."
+    "desc": "The host provides the latest news on politics, crime and socio-economic issues in Haryana."
   },
   {
     "start": "11:15",
@@ -30,7 +19,7 @@
     "startTs": 1775474100000,
     "stopTs": 1775475000000,
     "title": "Vishesh Report",
-    "desc": "The host presents a detailed report on breaking news stories and shares updates on social, political and economic issues and impactful current affairs."
+    "desc": "The host presents a detailed report on breaking news stories and current affairs."
   },
   {
     "start": "11:30",
@@ -41,7 +30,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Bhai Guriqbal Singh Ji",
-    "desc": "Bhai Guriqbal Singhji delivers a discourse on the principles of Sikhism and encourages devotees to follow the path of the Almighty."
+    "desc": "Bhai Guriqbal Singhji delivers a discourse on the principles of Sikhism."
   },
   {
     "start": "12:00",
@@ -52,7 +41,7 @@
     "startTs": 1775476800000,
     "stopTs": 1775477400000,
     "title": "Charcha The Discussion",
-    "desc": "A panel of experts in various fields share their insights and perspectives on a wide range of issues and topics related to important societal matters."
+    "desc": "A panel of experts shares their insights and perspectives on a wide range of issues."
   },
   {
     "start": "12:10",
@@ -63,7 +52,7 @@
     "startTs": 1775477400000,
     "stopTs": 1775481300000,
     "title": "Gurudwara Sri Bangla Sahib Live",
-    "desc": "A Sikh religious leader sheds light on the teachings of the Almighty while reciting holy hymns and performing sacred rituals, live."
+    "desc": "A Sikh religious leader sheds light on the teachings of the Almighty, live."
   },
   {
     "start": "13:15",
@@ -85,7 +74,7 @@
     "startTs": 1775483100000,
     "stopTs": 1775486700000,
     "title": "Gurudwara Sri Patna Sahib Ji Live",
-    "desc": "Religious scholars recite holy verses and sing devotional songs as devotees gather at Takht Sri Patna Sahib to offer their prayers, live."
+    "desc": "Devotees gather at Takht Sri Patna Sahib to offer their prayers, live."
   },
   {
     "start": "14:45",
@@ -96,7 +85,7 @@
     "startTs": 1775486700000,
     "stopTs": 1775487600000,
     "title": "Punjabi News",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
+    "desc": "The host provides a detailed report on the latest news and developments."
   },
   {
     "start": "15:00",
@@ -107,7 +96,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775490300000,
     "title": "Ajj De Mudde / News",
-    "desc": "The host invites experts to discuss the latest social, political and economic news updates; the host presents important developments and current affairs."
+    "desc": "The host discusses latest news with experts; the host presents important current affairs."
   },
   {
     "start": "15:45",
@@ -118,7 +107,7 @@
     "startTs": 1775490300000,
     "stopTs": 1775493900000,
     "title": "Charcha The Discussion",
-    "desc": "A panel of experts in various fields share their insights and perspectives on a wide range of issues and topics related to important societal matters."
+    "desc": "A panel of experts shares their insights and perspectives on a wide range of issues."
   },
   {
     "start": "16:45",
@@ -129,7 +118,7 @@
     "startTs": 1775493900000,
     "stopTs": 1775494800000,
     "title": "Bolda Punjab",
-    "desc": "The host presents detailed insights into ongoing sociocultural, political and economic issues transpiring across communities in Punjab, India."
+    "desc": "The host gives insights into Punjab&apos;s sociocultural, political and economic issues."
   },
   {
     "start": "17:00",
@@ -140,7 +129,7 @@
     "startTs": 1775494800000,
     "stopTs": 1775495700000,
     "title": "Punjabi News",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
+    "desc": "The host provides a detailed report on the latest news and developments."
   },
   {
     "start": "17:15",
@@ -151,7 +140,7 @@
     "startTs": 1775495700000,
     "stopTs": 1775496600000,
     "title": "Uttrakhand News",
-    "desc": "The host discusses recent developments in the field of politics, business, entertainment, education, technology and sports in Uttarakhand."
+    "desc": "The host discusses recent political and economic developments in Uttarakhand."
   },
   {
     "start": "17:30",
@@ -162,7 +151,7 @@
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Singh Sahib Gyani Jagtar Singh Ji",
-    "desc": "A religious leader delivers a discourse on the divine teachings of the Almighty and encourages devotees to follow the path of spirituality."
+    "desc": "A religious leader delivers a discourse on the divine teachings of the Almighty."
   },
   {
     "start": "18:00",
@@ -173,435 +162,17 @@
     "startTs": 1775498400000,
     "stopTs": 1775499300000,
     "title": "Khabar Insight",
-    "desc": "The host presents a detailed report analysing all the latest news and updates related to current affairs around the country and the world."
+    "desc": "The host presents a detailed report on the latest news and updates on current affairs."
   },
   {
     "start": "18:15",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "ChardiklaTimeTV.in",
     "channelId": "ChardiklaTimeTV.in",
     "channelName": "Chardikla Time TV",
     "startTs": 1775499300000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "Bhai Pinderpal Singh Ji",
-    "desc": "Bhai Pinderpal Singh Ji delivers a discourse on the principles of Sikhism and encourages devotees to live out their faith."
-  },
-  {
-    "start": "18:30",
-    "stop": "18:45",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775500200000,
-    "stopTs": 1775501100000,
-    "title": "Bhai Pinderpal Singh Ji",
-    "desc": "Bhai Pinderpal Singh Ji delivers a discourse on the principles of Sikhism and encourages devotees to live out their faith."
-  },
-  {
-    "start": "18:45",
-    "stop": "19:30",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775501100000,
-    "stopTs": 1775503800000,
-    "title": "Music Time",
-    "desc": "Talented singers and musicians enthral the audience with their captivating performances of some of the most popular songs."
-  },
-  {
-    "start": "19:30",
-    "stop": "20:00",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775503800000,
-    "stopTs": 1775505600000,
-    "title": "Sehaj Paath Guru Granth Sahib",
-    "desc": "A religious Sikh scholar reads the Guru Granth Sahib and explains its meaning in entirety to a large gathering of devotees."
-  },
-  {
-    "start": "20:00",
-    "stop": "20:30",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775505600000,
-    "stopTs": 1775507400000,
-    "title": "Religious",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "20:30",
-    "stop": "03:00",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775507400000,
-    "stopTs": 1775530800000,
-    "title": "Gurudwara Sri Bangla Sahib Live",
-    "desc": "A Sikh religious leader sheds light on the teachings of the Almighty while reciting holy hymns and performing sacred rituals, live."
-  },
-  {
-    "start": "03:00",
-    "stop": "03:15",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775530800000,
-    "stopTs": 1775531700000,
-    "title": "Religious",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "03:15",
-    "stop": "03:50",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775531700000,
-    "stopTs": 1775533800000,
-    "title": "Khabar Te Nazar",
-    "desc": "The host presents the latest news and updates on matters related to politics, crime, socio-economic development and issues and current affairs."
-  },
-  {
-    "start": "03:50",
-    "stop": "04:30",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775533800000,
-    "stopTs": 1775536200000,
-    "title": "Gurudwara Sri Patna Sahib Ji Live",
-    "desc": "Religious scholars recite holy verses and sing devotional songs as devotees gather at Takht Sri Patna Sahib to offer their prayers, live."
-  },
-  {
-    "start": "04:30",
-    "stop": "05:00",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775536200000,
-    "stopTs": 1775538000000,
-    "title": "Khabar Te Nazar",
-    "desc": "The host presents the latest news and updates on matters related to politics, crime, socio-economic development and issues and current affairs."
-  },
-  {
-    "start": "05:00",
-    "stop": "05:30",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775538000000,
-    "stopTs": 1775539800000,
-    "title": "Punjabi News",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "05:30",
-    "stop": "06:00",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775539800000,
-    "stopTs": 1775541600000,
-    "title": "Vyakhya Sri Guru Granth Sahib",
-    "desc": "A Sikh religious leader narrates the tales and scriptures from the Guru Granth Sahib and encourages followers to walk the path of faith."
-  },
-  {
-    "start": "06:00",
-    "stop": "06:30",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775541600000,
-    "stopTs": 1775543400000,
-    "title": "Sehaj Paath Guru Granth Sahib",
-    "desc": "A religious Sikh scholar reads the Guru Granth Sahib and explains its meaning in entirety to a large gathering of devotees."
-  },
-  {
-    "start": "06:30",
-    "stop": "07:00",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775543400000,
-    "stopTs": 1775545200000,
-    "title": "Hemkunt Sahib",
-    "desc": "A religious leader chants sacred verses while the devotees perform rituals and offer their prayers to the Almighty at the Gurdwara Hemkunt Sahib."
-  },
-  {
-    "start": "07:00",
-    "stop": "07:30",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775545200000,
-    "stopTs": 1775547000000,
-    "title": "Hemkunt Sahib",
-    "desc": "A religious leader chants sacred verses while the devotees perform rituals and offer their prayers to the Almighty at the Gurdwara Hemkunt Sahib."
-  },
-  {
-    "start": "07:30",
-    "stop": "08:00",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775547000000,
-    "stopTs": 1775548800000,
-    "title": "Hemkunt Sahib",
-    "desc": "A religious leader chants sacred verses while the devotees perform rituals and offer their prayers to the Almighty at the Gurdwara Hemkunt Sahib."
-  },
-  {
-    "start": "08:00",
-    "stop": "08:30",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775548800000,
-    "stopTs": 1775550600000,
-    "title": "Punjabi News",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "08:30",
-    "stop": "09:00",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775550600000,
-    "stopTs": 1775552400000,
-    "title": "Chardikla Talks",
-    "desc": "The host invites prominent personalities from different fields and engages in a conversation with them on various issues as well as their life experiences."
-  },
-  {
-    "start": "09:00",
-    "stop": "09:30",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775552400000,
-    "stopTs": 1775554200000,
-    "title": "Healthy Life",
-    "desc": "The host interacts with medical experts as they share information about treatments for various ailments and how to maintain a healthy lifestyle."
-  },
-  {
-    "start": "09:30",
-    "stop": "10:00",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775554200000,
-    "stopTs": 1775556000000,
-    "title": "Chardikla Time TV",
-    "desc": "The host sheds light on the weekly religious routine of the Sikh community including devotional readings, commentaries and insightful interviews."
-  },
-  {
-    "start": "10:00",
-    "stop": "10:30",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775556000000,
-    "stopTs": 1775557800000,
-    "title": "Khabar Insight",
-    "desc": "The host presents a detailed report analysing all the latest news and updates related to current affairs around the country and the world."
-  },
-  {
-    "start": "10:30",
-    "stop": "10:50",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775557800000,
-    "stopTs": 1775559000000,
-    "title": "World News",
-    "desc": "The host presents an analysis of the latest updates and developments pertaining to politics, society and economy from around the world."
-  },
-  {
-    "start": "10:50",
-    "stop": "11:00",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775559000000,
-    "stopTs": 1775559600000,
-    "title": "Uttrakhand News",
-    "desc": "The host discusses recent developments in the field of politics, business, entertainment, education, technology and sports in Uttarakhand."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:15",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775559600000,
-    "stopTs": 1775560500000,
-    "title": "Haryana News",
-    "desc": "The host provides the latest news and updates on matters related to politics, crime and socio-economic issues in the state of Haryana, India."
-  },
-  {
-    "start": "11:15",
-    "stop": "11:30",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775560500000,
-    "stopTs": 1775561400000,
-    "title": "Punjab Haryana Gail Gail",
-    "desc": "The host invites guests to engage in an insightful conversation on matters surrounding the Indian states of Punjab and Haryana."
-  },
-  {
-    "start": "11:30",
-    "stop": "12:00",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775561400000,
-    "stopTs": 1775563200000,
-    "title": "Bhai Guriqbal Singh Ji",
-    "desc": "Bhai Guriqbal Singhji delivers a discourse on the principles of Sikhism and encourages devotees to follow the path of the Almighty."
-  },
-  {
-    "start": "12:00",
-    "stop": "12:10",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775563200000,
-    "stopTs": 1775563800000,
-    "title": "Charcha The Discussion",
-    "desc": "A panel of experts in various fields share their insights and perspectives on a wide range of issues and topics related to important societal matters."
-  },
-  {
-    "start": "12:10",
-    "stop": "13:15",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775563800000,
-    "stopTs": 1775567700000,
-    "title": "Gurudwara Sri Bangla Sahib Live",
-    "desc": "A Sikh religious leader sheds light on the teachings of the Almighty while reciting holy hymns and performing sacred rituals, live."
-  },
-  {
-    "start": "13:15",
-    "stop": "13:45",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775567700000,
-    "stopTs": 1775569500000,
-    "title": "Religious",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "13:45",
-    "stop": "14:45",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775569500000,
-    "stopTs": 1775573100000,
-    "title": "Gurudwara Sri Patna Sahib Ji Live",
-    "desc": "Religious scholars recite holy verses and sing devotional songs as devotees gather at Takht Sri Patna Sahib to offer their prayers, live."
-  },
-  {
-    "start": "14:45",
-    "stop": "15:00",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775573100000,
-    "stopTs": 1775574000000,
-    "title": "Punjabi News",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "15:00",
-    "stop": "15:45",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775574000000,
-    "stopTs": 1775576700000,
-    "title": "Ajj De Mudde / News",
-    "desc": "The host invites experts to discuss the latest social, political and economic news updates; the host presents important developments and current affairs."
-  },
-  {
-    "start": "15:45",
-    "stop": "16:45",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775576700000,
-    "stopTs": 1775580300000,
-    "title": "Charcha The Discussion",
-    "desc": "A panel of experts in various fields share their insights and perspectives on a wide range of issues and topics related to important societal matters."
-  },
-  {
-    "start": "16:45",
-    "stop": "17:00",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775580300000,
-    "stopTs": 1775581200000,
-    "title": "Bolda Punjab",
-    "desc": "The host presents detailed insights into ongoing sociocultural, political and economic issues transpiring across communities in Punjab, India."
-  },
-  {
-    "start": "17:00",
-    "stop": "17:15",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775581200000,
-    "stopTs": 1775582100000,
-    "title": "Punjabi News",
-    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
-  },
-  {
-    "start": "17:15",
-    "stop": "17:30",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775582100000,
-    "stopTs": 1775583000000,
-    "title": "Uttrakhand News",
-    "desc": "The host discusses recent developments in the field of politics, business, entertainment, education, technology and sports in Uttarakhand."
-  },
-  {
-    "start": "17:30",
-    "stop": "18:00",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775583000000,
-    "stopTs": 1775584800000,
-    "title": "Singh Sahib Gyani Jagtar Singh Ji",
-    "desc": "A religious leader delivers a discourse on the divine teachings of the Almighty and encourages devotees to follow the path of spirituality."
-  },
-  {
-    "start": "18:00",
-    "stop": "18:15",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775584800000,
-    "stopTs": 1775585700000,
-    "title": "Khabar Insight",
-    "desc": "The host presents a detailed report analysing all the latest news and updates related to current affairs around the country and the world."
-  },
-  {
-    "start": "18:15",
-    "stop": "18:29",
-    "channel": "ChardiklaTimeTV.in",
-    "channelId": "ChardiklaTimeTV.in",
-    "channelName": "Chardikla Time TV",
-    "startTs": 1775585700000,
-    "stopTs": 1775586599000,
-    "title": "Bhai Pinderpal Singh Ji",
-    "desc": "Bhai Pinderpal Singh Ji delivers a discourse on the principles of Sikhism and encourages devotees to live out their faith."
+    "desc": "Bhai Pinderpal Singh Ji delivers a lecture on the teachings of Sikhism to guide devotees."
   }
 ]

@@ -1,0 +1,123 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "RajMusixTelugu.in",
+    "channelId": "RajMusixTelugu.in",
+    "channelName": "Raj Musix Telugu",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Commercial Slot",
+    "desc": "A range of products manufactured by popular brands can be bought from the comfort of home."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "RajMusixTelugu.in",
+    "channelId": "RajMusixTelugu.in",
+    "channelName": "Raj Musix Telugu",
+    "startTs": 1775475000000,
+    "stopTs": 1775478600000,
+    "title": "Mee Mata Ma Pata Live",
+    "desc": "A comprehensive compilation of some of the most popular hits is played, live."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "RajMusixTelugu.in",
+    "channelId": "RajMusixTelugu.in",
+    "channelName": "Raj Musix Telugu",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Kotha Kotha Ga",
+    "desc": "A compilation of popular songs from some of the recently released Tollywood movies."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "RajMusixTelugu.in",
+    "channelId": "RajMusixTelugu.in",
+    "channelName": "Raj Musix Telugu",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Kotha Kotha Ga",
+    "desc": "A compilation of popular songs from some of the recently released Tollywood movies."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "RajMusixTelugu.in",
+    "channelId": "RajMusixTelugu.in",
+    "channelName": "Raj Musix Telugu",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Prema Ragam",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "RajMusixTelugu.in",
+    "channelId": "RajMusixTelugu.in",
+    "channelName": "Raj Musix Telugu",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Robinhood Team Chit Chat",
+    "desc": "The team of the 2025 Telugu film &apos;Robinhood&apos; shed light on their on-set experiences."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "RajMusixTelugu.in",
+    "channelId": "RajMusixTelugu.in",
+    "channelName": "Raj Musix Telugu",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Panch Minar Team Interview",
+    "desc": "The host engages in an insightful conversation with the cast and crew of the &apos;Paanch Minar&apos; movie."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "RajMusixTelugu.in",
+    "channelId": "RajMusixTelugu.in",
+    "channelName": "Raj Musix Telugu",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Kotha Kotha Ga",
+    "desc": "A compilation of popular songs from some of the recently released Tollywood movies."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "RajMusixTelugu.in",
+    "channelId": "RajMusixTelugu.in",
+    "channelName": "Raj Musix Telugu",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Kotha Kotha Ga",
+    "desc": "A compilation of popular songs from some of the recently released Tollywood movies."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "RajMusixTelugu.in",
+    "channelId": "RajMusixTelugu.in",
+    "channelName": "Raj Musix Telugu",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Kotha Kotha Ga",
+    "desc": "A compilation of popular songs from some of the recently released Tollywood movies."
+  },
+  {
+    "start": "16:30",
+    "stop": "19:00",
+    "channel": "RajMusixTelugu.in",
+    "channelId": "RajMusixTelugu.in",
+    "channelName": "Raj Musix Telugu",
+    "startTs": 1775493000000,
+    "stopTs": 1775502000000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  }
+]

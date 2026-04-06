@@ -1,0 +1,178 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "EpicTV.in",
+    "channelId": "EpicTV.in",
+    "channelName": "EPIC",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Lost Recipes",
+    "desc": "Aditya Bal is interested in looking for delicious vegetarian recipes in Ahmedabad. S03 E05."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "EpicTV.in",
+    "channelId": "EpicTV.in",
+    "channelName": "EPIC",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Tyohaar Ki Thaali",
+    "desc": "The host shares recipes of festive dishes and talks about the rich Indian folklore. S02 E11."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "EpicTV.in",
+    "channelId": "EpicTV.in",
+    "channelName": "EPIC",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Tyohaar Ki Thaali",
+    "desc": "The host shares recipes of festive dishes and talks about the rich Indian folklore. S02 E16."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "EpicTV.in",
+    "channelId": "EpicTV.in",
+    "channelName": "EPIC",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Indipedia",
+    "desc": "Edward travels to some fun places that are famous for their rich spices."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:25",
+    "channel": "EpicTV.in",
+    "channelId": "EpicTV.in",
+    "channelName": "EPIC",
+    "startTs": 1775480400000,
+    "stopTs": 1775481900000,
+    "title": "Raja Rasoi Aur Andaaz Anokha",
+    "desc": "A renowned Indian chef shares the recipes of a variety of mouthwatering dishes. S01 E09."
+  },
+  {
+    "start": "13:25",
+    "stop": "13:30",
+    "channel": "EpicTV.in",
+    "channelId": "EpicTV.in",
+    "channelName": "EPIC",
+    "startTs": 1775481900000,
+    "stopTs": 1775482200000,
+    "title": "Epic Tales Of Love",
+    "desc": "The love story of Rana Veer Singh and Rani Roopba is still celebrated by the locals of Adalaj."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:25",
+    "channel": "EpicTV.in",
+    "channelId": "EpicTV.in",
+    "channelName": "EPIC",
+    "startTs": 1775482200000,
+    "stopTs": 1775485500000,
+    "title": "Turning Point at Tololing",
+    "desc": "Major General Gagandeep Bakshi shares his experiences during the Battle of Tololing."
+  },
+  {
+    "start": "14:25",
+    "stop": "14:30",
+    "channel": "EpicTV.in",
+    "channelId": "EpicTV.in",
+    "channelName": "EPIC",
+    "startTs": 1775485500000,
+    "stopTs": 1775485800000,
+    "title": "Epicpedia",
+    "desc": "The narrator states some fascinating facts about the National Anthem of India."
+  },
+  {
+    "start": "14:30",
+    "stop": "14:55",
+    "channel": "EpicTV.in",
+    "channelId": "EpicTV.in",
+    "channelName": "EPIC",
+    "startTs": 1775485800000,
+    "stopTs": 1775487300000,
+    "title": "Raja Rasoi Aur Anya Kahaniyaan",
+    "desc": "Fascinating facts behind the most common and loved Indian dessert, &apos;rasgulla&apos;."
+  },
+  {
+    "start": "14:55",
+    "stop": "15:20",
+    "channel": "EpicTV.in",
+    "channelId": "EpicTV.in",
+    "channelName": "EPIC",
+    "startTs": 1775487300000,
+    "stopTs": 1775488800000,
+    "title": "Raja Rasoi Aur Anya Kahaniyaan",
+    "desc": "The efforts taken by the rulers of Mayurbhanj city to maintain its culinary legacy are commendable."
+  },
+  {
+    "start": "15:20",
+    "stop": "15:30",
+    "channel": "EpicTV.in",
+    "channelId": "EpicTV.in",
+    "channelName": "EPIC",
+    "startTs": 1775488800000,
+    "stopTs": 1775489400000,
+    "title": "Itihaas Ki Thaali Se",
+    "desc": "With a dash of intriguing facts, the host highlights the rich history of various dishes."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:20",
+    "channel": "EpicTV.in",
+    "channelId": "EpicTV.in",
+    "channelName": "EPIC",
+    "startTs": 1775489400000,
+    "stopTs": 1775492400000,
+    "title": "Destruction Decoded",
+    "desc": "A deep dive into disasters, exploring their causes and lasting impacts through science."
+  },
+  {
+    "start": "16:20",
+    "stop": "16:30",
+    "channel": "EpicTV.in",
+    "channelId": "EpicTV.in",
+    "channelName": "EPIC",
+    "startTs": 1775492400000,
+    "stopTs": 1775493000000,
+    "title": "Bharat Ratna",
+    "desc": "Witness the history of Atal Bihari Vajpayee, former Prime Minister of India."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "EpicTV.in",
+    "channelId": "EpicTV.in",
+    "channelName": "EPIC",
+    "startTs": 1775493000000,
+    "stopTs": 1775496600000,
+    "title": "Plastic Fantastic",
+    "desc": "The filmmaker explores how people go under the knife to change their appearance."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:15",
+    "channel": "EpicTV.in",
+    "channelId": "EpicTV.in",
+    "channelName": "EPIC",
+    "startTs": 1775496600000,
+    "stopTs": 1775499300000,
+    "title": "Adrishya",
+    "desc": "Jeevsiddhi attempts to turn an enemy of the state into one of its most powerful ministers. S01 E01."
+  },
+  {
+    "start": "18:15",
+    "stop": "18:30",
+    "channel": "EpicTV.in",
+    "channelId": "EpicTV.in",
+    "channelName": "EPIC",
+    "startTs": 1775499300000,
+    "stopTs": 1775500200000,
+    "title": "Bharat Ratna The Jewels Of India",
+    "desc": "The filmmaker sheds light on the recipients of India&apos;s highest civilian honour."
+  }
+]

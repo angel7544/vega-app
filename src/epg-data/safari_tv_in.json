@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Sahasam",
-    "desc": "Bringing the best in television."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "SafariTV.in",
@@ -19,7 +8,7 @@
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Sancharam",
-    "desc": "The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine."
+    "desc": "The host sets out to different places around the world to experience their culture."
   },
   {
     "start": "11:30",
@@ -30,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Sancharam",
-    "desc": "The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine."
+    "desc": "The host sets out to different places around the world to experience their culture."
   },
   {
     "start": "12:00",
@@ -41,7 +30,7 @@
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Charithram Ennilude",
-    "desc": "Famous Malayalis from across the world share their success and failure stories and talk about their personal and professional lives."
+    "desc": "Famous Malayalis from across the world talk about their personal and professional lives."
   },
   {
     "start": "12:30",
@@ -52,7 +41,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Sanchariyude Diarikurippukal",
-    "desc": "The host travels to various secluded and renowned destinations across the world and explores strange customs and rituals."
+    "desc": "The host travels to various places across the world and explores strange customs."
   },
   {
     "start": "13:00",
@@ -63,7 +52,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Movies On The Road",
-    "desc": "The host presents a detailed analysis of movies wherein the theme revolves around the main characters taking a break from their daily routine and embarking on a road trip."
+    "desc": "The host presents an analysis of famous road movies from Hollywood and world cinema."
   },
   {
     "start": "13:30",
@@ -85,7 +74,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Movies On The Road",
-    "desc": "The host presents a detailed analysis of movies wherein the theme revolves around the main characters taking a break from their daily routine and embarking on a road trip."
+    "desc": "The host presents an analysis of famous road movies from Hollywood and world cinema."
   },
   {
     "start": "14:30",
@@ -96,7 +85,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Around The World In 30 Mins",
-    "desc": "The host takes viewers on a 30-minute journey to explore iconic and historic places and monuments worldwide, sharing their rich history and significance."
+    "desc": "The host takes viewers on a 30-minute journey to explore iconic places and monuments worldwide."
   },
   {
     "start": "15:00",
@@ -107,7 +96,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Animal Kingdom",
-    "desc": "The filmmaker documents the daily behaviour and lifestyles of a wide variety of wild animals from various locations and habitats around the world."
+    "desc": "The filmmaker documents the behaviour and lifestyles of a wide variety of wild animals."
   },
   {
     "start": "15:30",
@@ -129,7 +118,7 @@
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Sancharam",
-    "desc": "The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine."
+    "desc": "The host sets out to different places around the world to experience their culture."
   },
   {
     "start": "16:30",
@@ -140,7 +129,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Sancharam",
-    "desc": "The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine."
+    "desc": "The host sets out to different places around the world to experience their culture."
   },
   {
     "start": "17:00",
@@ -151,7 +140,7 @@
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Charithram Ennilude",
-    "desc": "Famous Malayalis from across the world share their success and failure stories and talk about their personal and professional lives."
+    "desc": "Famous Malayalis from across the world talk about their personal and professional lives."
   },
   {
     "start": "17:30",
@@ -162,545 +151,17 @@
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "HisStory",
-    "desc": "The host presents a detailed account of the lives of famous personalities who have made a significant contribution to the world."
+    "desc": "The host presents a detailed account of the lives of famous altruistic personalities."
   },
   {
     "start": "18:00",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "SafariTV.in",
     "channelId": "SafariTV.in",
     "channelName": "Safari TV",
     "startTs": 1775498400000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "Opera House",
-    "desc": "Talented artists from all around the globe come together and entertain the audience with their mesmerising performances."
-  },
-  {
-    "start": "18:30",
-    "stop": "19:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775500200000,
-    "stopTs": 1775502000000,
-    "title": "City Tour",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "19:00",
-    "stop": "19:30",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775502000000,
-    "stopTs": 1775503800000,
-    "title": "Movies On The Road",
-    "desc": "The host presents a detailed analysis of movies wherein the theme revolves around the main characters taking a break from their daily routine and embarking on a road trip."
-  },
-  {
-    "start": "19:30",
-    "stop": "20:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775503800000,
-    "stopTs": 1775505600000,
-    "title": "Around The World In 30 Mins",
-    "desc": "The host takes viewers on a 30-minute journey to explore iconic and historic places and monuments worldwide, sharing their rich history and significance."
-  },
-  {
-    "start": "20:00",
-    "stop": "20:30",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775505600000,
-    "stopTs": 1775507400000,
-    "title": "Animal Kingdom",
-    "desc": "The filmmaker documents the daily behaviour and lifestyles of a wide variety of wild animals from various locations and habitats around the world."
-  },
-  {
-    "start": "20:30",
-    "stop": "21:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775507400000,
-    "stopTs": 1775509200000,
-    "title": "Sahasam",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "21:00",
-    "stop": "21:30",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775509200000,
-    "stopTs": 1775511000000,
-    "title": "Sancharam",
-    "desc": "The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine."
-  },
-  {
-    "start": "21:30",
-    "stop": "22:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775511000000,
-    "stopTs": 1775512800000,
-    "title": "Sancharam",
-    "desc": "The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine."
-  },
-  {
-    "start": "22:00",
-    "stop": "22:30",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775512800000,
-    "stopTs": 1775514600000,
-    "title": "Charithram Ennilude",
-    "desc": "Famous Malayalis from across the world share their success and failure stories and talk about their personal and professional lives."
-  },
-  {
-    "start": "22:30",
-    "stop": "23:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775514600000,
-    "stopTs": 1775516400000,
-    "title": "HisStory",
-    "desc": "The host presents a detailed account of the lives of famous personalities who have made a significant contribution to the world."
-  },
-  {
-    "start": "23:00",
-    "stop": "23:30",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775516400000,
-    "stopTs": 1775518200000,
-    "title": "Opera House",
-    "desc": "Talented artists from all around the globe come together and entertain the audience with their mesmerising performances."
-  },
-  {
-    "start": "23:30",
-    "stop": "00:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775518200000,
-    "stopTs": 1775520000000,
-    "title": "City Tour",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "00:00",
-    "stop": "00:30",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775520000000,
-    "stopTs": 1775521800000,
-    "title": "Movies On The Road",
-    "desc": "The host presents a detailed analysis of movies wherein the theme revolves around the main characters taking a break from their daily routine and embarking on a road trip."
-  },
-  {
-    "start": "00:30",
-    "stop": "01:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775521800000,
-    "stopTs": 1775523600000,
-    "title": "Freedom at Midnight",
-    "desc": "An insight into the important events leading up to the partition of India, navigating the tapestry of religious tensions, societal upheavals and political manoeuvring that shaped this event."
-  },
-  {
-    "start": "01:00",
-    "stop": "01:30",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775523600000,
-    "stopTs": 1775525400000,
-    "title": "Animal Kingdom",
-    "desc": "The filmmaker documents the daily behaviour and lifestyles of a wide variety of wild animals from various locations and habitats around the world."
-  },
-  {
-    "start": "01:30",
-    "stop": "02:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775525400000,
-    "stopTs": 1775527200000,
-    "title": "Sahasam",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "02:00",
-    "stop": "02:30",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775527200000,
-    "stopTs": 1775529000000,
-    "title": "Sancharam",
-    "desc": "The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine."
-  },
-  {
-    "start": "02:30",
-    "stop": "03:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775529000000,
-    "stopTs": 1775530800000,
-    "title": "Sancharam",
-    "desc": "The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine."
-  },
-  {
-    "start": "03:00",
-    "stop": "03:30",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775530800000,
-    "stopTs": 1775532600000,
-    "title": "Charithram Ennilude",
-    "desc": "Famous Malayalis from across the world share their success and failure stories and talk about their personal and professional lives."
-  },
-  {
-    "start": "03:30",
-    "stop": "04:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775532600000,
-    "stopTs": 1775534400000,
-    "title": "HisStory",
-    "desc": "The host presents a detailed account of the lives of famous personalities who have made a significant contribution to the world."
-  },
-  {
-    "start": "04:00",
-    "stop": "04:30",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775534400000,
-    "stopTs": 1775536200000,
-    "title": "Opera House",
-    "desc": "Talented artists from all around the globe come together and entertain the audience with their mesmerising performances."
-  },
-  {
-    "start": "04:30",
-    "stop": "05:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775536200000,
-    "stopTs": 1775538000000,
-    "title": "City Tour",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "05:00",
-    "stop": "05:30",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775538000000,
-    "stopTs": 1775539800000,
-    "title": "Movies On The Road",
-    "desc": "The host presents a detailed analysis of movies wherein the theme revolves around the main characters taking a break from their daily routine and embarking on a road trip."
-  },
-  {
-    "start": "05:30",
-    "stop": "06:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775539800000,
-    "stopTs": 1775541600000,
-    "title": "Around The World In 30 Mins",
-    "desc": "The host takes viewers on a 30-minute journey to explore iconic and historic places and monuments worldwide, sharing their rich history and significance."
-  },
-  {
-    "start": "06:00",
-    "stop": "06:30",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775541600000,
-    "stopTs": 1775543400000,
-    "title": "Animal Kingdom",
-    "desc": "The filmmaker documents the daily behaviour and lifestyles of a wide variety of wild animals from various locations and habitats around the world."
-  },
-  {
-    "start": "06:30",
-    "stop": "07:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775543400000,
-    "stopTs": 1775545200000,
-    "title": "Sahasam",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "07:00",
-    "stop": "07:30",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775545200000,
-    "stopTs": 1775547000000,
-    "title": "Sancharam",
-    "desc": "The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine."
-  },
-  {
-    "start": "07:30",
-    "stop": "08:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775547000000,
-    "stopTs": 1775548800000,
-    "title": "Sancharam",
-    "desc": "The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine."
-  },
-  {
-    "start": "08:00",
-    "stop": "08:30",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775548800000,
-    "stopTs": 1775550600000,
-    "title": "Charithram Ennilude",
-    "desc": "Famous Malayalis from across the world share their success and failure stories and talk about their personal and professional lives."
-  },
-  {
-    "start": "08:30",
-    "stop": "09:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775550600000,
-    "stopTs": 1775552400000,
-    "title": "HisStory",
-    "desc": "The host presents a detailed account of the lives of famous personalities who have made a significant contribution to the world."
-  },
-  {
-    "start": "09:00",
-    "stop": "09:30",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775552400000,
-    "stopTs": 1775554200000,
-    "title": "Opera House",
-    "desc": "Talented artists from all around the globe come together and entertain the audience with their mesmerising performances."
-  },
-  {
-    "start": "09:30",
-    "stop": "10:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775554200000,
-    "stopTs": 1775556000000,
-    "title": "Around The World In 30 Mins",
-    "desc": "The host takes viewers on a 30-minute journey to explore iconic and historic places and monuments worldwide, sharing their rich history and significance."
-  },
-  {
-    "start": "10:00",
-    "stop": "10:30",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775556000000,
-    "stopTs": 1775557800000,
-    "title": "Animal Kingdom",
-    "desc": "The filmmaker documents the daily behaviour and lifestyles of a wide variety of wild animals from various locations and habitats around the world."
-  },
-  {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775557800000,
-    "stopTs": 1775559600000,
-    "title": "Sahasam",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:30",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775559600000,
-    "stopTs": 1775561400000,
-    "title": "Sancharam",
-    "desc": "The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine."
-  },
-  {
-    "start": "11:30",
-    "stop": "12:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775561400000,
-    "stopTs": 1775563200000,
-    "title": "Sancharam",
-    "desc": "The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine."
-  },
-  {
-    "start": "12:00",
-    "stop": "12:30",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775563200000,
-    "stopTs": 1775565000000,
-    "title": "Charithram Ennilude",
-    "desc": "Famous Malayalis from across the world share their success and failure stories and talk about their personal and professional lives."
-  },
-  {
-    "start": "12:30",
-    "stop": "13:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775565000000,
-    "stopTs": 1775566800000,
-    "title": "HisStory",
-    "desc": "The host presents a detailed account of the lives of famous personalities who have made a significant contribution to the world."
-  },
-  {
-    "start": "13:00",
-    "stop": "13:30",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775566800000,
-    "stopTs": 1775568600000,
-    "title": "Opera House",
-    "desc": "Talented artists from all around the globe come together and entertain the audience with their mesmerising performances."
-  },
-  {
-    "start": "13:30",
-    "stop": "14:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775568600000,
-    "stopTs": 1775570400000,
-    "title": "Smrithi",
-    "desc": "The host speaks about eminent personalities from different walks of life and highlights their contributions to their respective fields."
-  },
-  {
-    "start": "14:00",
-    "stop": "14:30",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775570400000,
-    "stopTs": 1775572200000,
-    "title": "Face To Face",
-    "desc": "The host chats with personalities from various fields about their work and contributions to society and holds discussions on various social and political issues."
-  },
-  {
-    "start": "14:30",
-    "stop": "15:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775572200000,
-    "stopTs": 1775574000000,
-    "title": "Around The World In 30 Mins",
-    "desc": "The host takes viewers on a 30-minute journey to explore iconic and historic places and monuments worldwide, sharing their rich history and significance."
-  },
-  {
-    "start": "15:00",
-    "stop": "15:30",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775574000000,
-    "stopTs": 1775575800000,
-    "title": "Sanchariyude Diarikurippukal",
-    "desc": "The host travels to various secluded and renowned destinations across the world and explores strange customs and rituals."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775575800000,
-    "stopTs": 1775577600000,
-    "title": "Sahasam",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "16:00",
-    "stop": "16:30",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775577600000,
-    "stopTs": 1775579400000,
-    "title": "Sancharam",
-    "desc": "The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine."
-  },
-  {
-    "start": "16:30",
-    "stop": "17:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775579400000,
-    "stopTs": 1775581200000,
-    "title": "Sancharam",
-    "desc": "The host sets out on a journey to different places around the world to experience their local customs, traditions and cuisine."
-  },
-  {
-    "start": "17:00",
-    "stop": "17:30",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775581200000,
-    "stopTs": 1775583000000,
-    "title": "Charithram Ennilude",
-    "desc": "Famous Malayalis from across the world share their success and failure stories and talk about their personal and professional lives."
-  },
-  {
-    "start": "17:30",
-    "stop": "18:00",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775583000000,
-    "stopTs": 1775584800000,
-    "title": "HisStory",
-    "desc": "The host presents a detailed account of the lives of famous personalities who have made a significant contribution to the world."
-  },
-  {
-    "start": "18:00",
-    "stop": "18:29",
-    "channel": "SafariTV.in",
-    "channelId": "SafariTV.in",
-    "channelName": "Safari TV",
-    "startTs": 1775584800000,
-    "stopTs": 1775586599000,
-    "title": "Animal Kingdom",
-    "desc": "The filmmaker documents the daily behaviour and lifestyles of a wide variety of wild animals from various locations and habitats around the world."
+    "desc": "Talented artists from all around the globe present performances to entertain the audience."
   }
 ]

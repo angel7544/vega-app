@@ -8,7 +8,7 @@
     "startTs": 1775471400000,
     "stopTs": 1775475000000,
     "title": "BOOM BOX",
-    "desc": "A comprehensive collection of the most popular Bollywood dance tracks and top club hits play back to back."
+    "desc": "Playing the very best of the club hits to be released out of Bollywood."
   },
   {
     "start": "11:30",
@@ -19,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775478600000,
     "title": "BOOM BOX",
-    "desc": "A comprehensive collection of the most popular Bollywood dance tracks and top club hits play back to back."
+    "desc": "Playing the very best of the club hits to be released out of Bollywood."
   },
   {
     "start": "12:30",
@@ -30,7 +30,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775482200000,
     "title": "BOOM BOX",
-    "desc": "A comprehensive collection of the most popular Bollywood dance tracks and top club hits play back to back."
+    "desc": "Playing the very best of the club hits to be released out of Bollywood."
   },
   {
     "start": "13:30",
@@ -41,7 +41,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775485800000,
     "title": "BOOM BOX",
-    "desc": "A comprehensive collection of the most popular Bollywood dance tracks and top club hits play back to back."
+    "desc": "Playing the very best of the club hits to be released out of Bollywood."
   },
   {
     "start": "14:30",
@@ -52,7 +52,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775489400000,
     "title": "SOLID HITS",
-    "desc": "A comprehensive compilation of the most well-known songs from renowned artists across a variety of genres."
+    "desc": "Songs which have topped the charts and ruled your hearts, the biggest hits of the recent times."
   },
   {
     "start": "15:30",
@@ -63,7 +63,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775493000000,
     "title": "Awaaz De Kahan Hai",
-    "desc": "A comprehensive collection of top songs and soundtracks from a variety of genres of Hindi films play back to back."
+    "desc": "Compilation of classic hit Hindi film songs."
   },
   {
     "start": "16:30",
@@ -74,237 +74,17 @@
     "startTs": 1775493000000,
     "stopTs": 1775496600000,
     "title": "Awaaz De Kahan Hai",
-    "desc": "A comprehensive collection of top songs and soundtracks from a variety of genres of Hindi films play back to back."
+    "desc": "Compilation of classic hit Hindi film songs."
   },
   {
     "start": "17:30",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "B4UMusic.in",
     "channelId": "B4UMusic.in",
     "channelName": "B4U Music",
     "startTs": 1775496600000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "Awaaz De Kahan Hai",
-    "desc": "A comprehensive collection of top songs and soundtracks from a variety of genres of Hindi films play back to back."
-  },
-  {
-    "start": "18:30",
-    "stop": "20:30",
-    "channel": "B4UMusic.in",
-    "channelId": "B4UMusic.in",
-    "channelName": "B4U Music",
-    "startTs": 1775500200000,
-    "stopTs": 1775507400000,
-    "title": "Bajao",
-    "desc": "Tune in to Bajao to watch what&apos;s new and what&apos;s cool. Bringing you some of the latest, hottest and exclusive tracks every day."
-  },
-  {
-    "start": "20:30",
-    "stop": "23:30",
-    "channel": "B4UMusic.in",
-    "channelId": "B4UMusic.in",
-    "channelName": "B4U Music",
-    "startTs": 1775507400000,
-    "stopTs": 1775518200000,
-    "title": "Bajao",
-    "desc": "Tune in to Bajao to watch what&apos;s new and what&apos;s cool. Bringing you some of the latest, hottest and exclusive tracks every day."
-  },
-  {
-    "start": "23:30",
-    "stop": "01:30",
-    "channel": "B4UMusic.in",
-    "channelId": "B4UMusic.in",
-    "channelName": "B4U Music",
-    "startTs": 1775518200000,
-    "stopTs": 1775525400000,
-    "title": "Awaaz De Kahan Hai",
-    "desc": "A comprehensive collection of top songs and soundtracks from a variety of genres of Hindi films play back to back."
-  },
-  {
-    "start": "01:30",
-    "stop": "02:30",
-    "channel": "B4UMusic.in",
-    "channelId": "B4UMusic.in",
-    "channelName": "B4U Music",
-    "startTs": 1775525400000,
-    "stopTs": 1775529000000,
-    "title": "Morning Masala",
-    "desc": "A comprehensive collection of popular Bollywood songs from various contemporary eras play back to back."
-  },
-  {
-    "start": "02:30",
-    "stop": "03:30",
-    "channel": "B4UMusic.in",
-    "channelId": "B4UMusic.in",
-    "channelName": "B4U Music",
-    "startTs": 1775529000000,
-    "stopTs": 1775532600000,
-    "title": "Morning Masala",
-    "desc": "A comprehensive collection of popular Bollywood songs from various contemporary eras play back to back."
-  },
-  {
-    "start": "03:30",
-    "stop": "04:30",
-    "channel": "B4UMusic.in",
-    "channelId": "B4UMusic.in",
-    "channelName": "B4U Music",
-    "startTs": 1775532600000,
-    "stopTs": 1775536200000,
-    "title": "Morning Masala",
-    "desc": "A comprehensive collection of popular Bollywood songs from various contemporary eras play back to back."
-  },
-  {
-    "start": "04:30",
-    "stop": "05:30",
-    "channel": "B4UMusic.in",
-    "channelId": "B4UMusic.in",
-    "channelName": "B4U Music",
-    "startTs": 1775536200000,
-    "stopTs": 1775539800000,
-    "title": "Morning Masala",
-    "desc": "A comprehensive collection of popular Bollywood songs from various contemporary eras play back to back."
-  },
-  {
-    "start": "05:30",
-    "stop": "06:30",
-    "channel": "B4UMusic.in",
-    "channelId": "B4UMusic.in",
-    "channelName": "B4U Music",
-    "startTs": 1775539800000,
-    "stopTs": 1775543400000,
-    "title": "Morning Masala",
-    "desc": "A comprehensive collection of popular Bollywood songs from various contemporary eras play back to back."
-  },
-  {
-    "start": "06:30",
-    "stop": "07:30",
-    "channel": "B4UMusic.in",
-    "channelId": "B4UMusic.in",
-    "channelName": "B4U Music",
-    "startTs": 1775543400000,
-    "stopTs": 1775547000000,
-    "title": "Bajao",
-    "desc": "Tune in to Bajao to watch what&apos;s new and what&apos;s cool. Bringing you some of the latest, hottest and exclusive tracks every day."
-  },
-  {
-    "start": "07:30",
-    "stop": "08:30",
-    "channel": "B4UMusic.in",
-    "channelId": "B4UMusic.in",
-    "channelName": "B4U Music",
-    "startTs": 1775547000000,
-    "stopTs": 1775550600000,
-    "title": "Bajao",
-    "desc": "Tune in to Bajao to watch what&apos;s new and what&apos;s cool. Bringing you some of the latest, hottest and exclusive tracks every day."
-  },
-  {
-    "start": "08:30",
-    "stop": "09:30",
-    "channel": "B4UMusic.in",
-    "channelId": "B4UMusic.in",
-    "channelName": "B4U Music",
-    "startTs": 1775550600000,
-    "stopTs": 1775554200000,
-    "title": "SOLID HITS",
-    "desc": "A comprehensive compilation of the most well-known songs from renowned artists across a variety of genres."
-  },
-  {
-    "start": "09:30",
-    "stop": "10:30",
-    "channel": "B4UMusic.in",
-    "channelId": "B4UMusic.in",
-    "channelName": "B4U Music",
-    "startTs": 1775554200000,
-    "stopTs": 1775557800000,
-    "title": "SOLID HITS",
-    "desc": "A comprehensive compilation of the most well-known songs from renowned artists across a variety of genres."
-  },
-  {
-    "start": "10:30",
-    "stop": "11:30",
-    "channel": "B4UMusic.in",
-    "channelId": "B4UMusic.in",
-    "channelName": "B4U Music",
-    "startTs": 1775557800000,
-    "stopTs": 1775561400000,
-    "title": "BOOM BOX",
-    "desc": "A comprehensive collection of the most popular Bollywood dance tracks and top club hits play back to back."
-  },
-  {
-    "start": "11:30",
-    "stop": "12:30",
-    "channel": "B4UMusic.in",
-    "channelId": "B4UMusic.in",
-    "channelName": "B4U Music",
-    "startTs": 1775561400000,
-    "stopTs": 1775565000000,
-    "title": "BOOM BOX",
-    "desc": "A comprehensive collection of the most popular Bollywood dance tracks and top club hits play back to back."
-  },
-  {
-    "start": "12:30",
-    "stop": "13:30",
-    "channel": "B4UMusic.in",
-    "channelId": "B4UMusic.in",
-    "channelName": "B4U Music",
-    "startTs": 1775565000000,
-    "stopTs": 1775568600000,
-    "title": "BOOM BOX",
-    "desc": "A comprehensive collection of the most popular Bollywood dance tracks and top club hits play back to back."
-  },
-  {
-    "start": "13:30",
-    "stop": "14:30",
-    "channel": "B4UMusic.in",
-    "channelId": "B4UMusic.in",
-    "channelName": "B4U Music",
-    "startTs": 1775568600000,
-    "stopTs": 1775572200000,
-    "title": "BOOM BOX",
-    "desc": "A comprehensive collection of the most popular Bollywood dance tracks and top club hits play back to back."
-  },
-  {
-    "start": "14:30",
-    "stop": "15:30",
-    "channel": "B4UMusic.in",
-    "channelId": "B4UMusic.in",
-    "channelName": "B4U Music",
-    "startTs": 1775572200000,
-    "stopTs": 1775575800000,
-    "title": "SOLID HITS",
-    "desc": "A comprehensive compilation of the most well-known songs from renowned artists across a variety of genres."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:30",
-    "channel": "B4UMusic.in",
-    "channelId": "B4UMusic.in",
-    "channelName": "B4U Music",
-    "startTs": 1775575800000,
-    "stopTs": 1775579400000,
-    "title": "Awaaz De Kahan Hai",
-    "desc": "A comprehensive collection of top songs and soundtracks from a variety of genres of Hindi films play back to back."
-  },
-  {
-    "start": "16:30",
-    "stop": "17:30",
-    "channel": "B4UMusic.in",
-    "channelId": "B4UMusic.in",
-    "channelName": "B4U Music",
-    "startTs": 1775579400000,
-    "stopTs": 1775583000000,
-    "title": "Awaaz De Kahan Hai",
-    "desc": "A comprehensive collection of top songs and soundtracks from a variety of genres of Hindi films play back to back."
-  },
-  {
-    "start": "17:30",
-    "stop": "18:29",
-    "channel": "B4UMusic.in",
-    "channelId": "B4UMusic.in",
-    "channelName": "B4U Music",
-    "startTs": 1775583000000,
-    "stopTs": 1775586599000,
-    "title": "Awaaz De Kahan Hai",
-    "desc": "A comprehensive collection of top songs and soundtracks from a variety of genres of Hindi films play back to back."
+    "desc": "Compilation of classic hit Hindi film songs."
   }
 ]

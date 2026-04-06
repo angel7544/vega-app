@@ -1,0 +1,68 @@
+[
+  {
+    "start": "10:00",
+    "stop": "13:00",
+    "channel": "INDIA24X7LIVETV.in",
+    "channelId": "INDIA24X7LIVETV.in",
+    "channelName": "INDIA 24X7 LIVE TV",
+    "startTs": 1775469600000,
+    "stopTs": 1775480400000,
+    "title": "India 24x7 Aap Tak",
+    "desc": "The host covers the day&apos;s events and tracks global developments around the country."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "INDIA24X7LIVETV.in",
+    "channelId": "INDIA24X7LIVETV.in",
+    "channelName": "INDIA 24X7 LIVE TV",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "India 24x7 Aap Tak",
+    "desc": "The host covers the day&apos;s events and tracks global developments around the country."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "INDIA24X7LIVETV.in",
+    "channelId": "INDIA24X7LIVETV.in",
+    "channelName": "INDIA 24X7 LIVE TV",
+    "startTs": 1775482200000,
+    "stopTs": 1775485800000,
+    "title": "India 24x7 Aap Tak",
+    "desc": "The host covers the day&apos;s events and tracks global developments around the country."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "INDIA24X7LIVETV.in",
+    "channelId": "INDIA24X7LIVETV.in",
+    "channelName": "INDIA 24X7 LIVE TV",
+    "startTs": 1775485800000,
+    "stopTs": 1775489400000,
+    "title": "India 24x7 Aap Tak",
+    "desc": "The host covers the day&apos;s events and tracks global developments around the country."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "INDIA24X7LIVETV.in",
+    "channelId": "INDIA24X7LIVETV.in",
+    "channelName": "INDIA 24X7 LIVE TV",
+    "startTs": 1775489400000,
+    "stopTs": 1775493000000,
+    "title": "India 24x7 Aap Tak",
+    "desc": "The host covers the day&apos;s events and tracks global developments around the country."
+  },
+  {
+    "start": "16:30",
+    "stop": "18:30",
+    "channel": "INDIA24X7LIVETV.in",
+    "channelId": "INDIA24X7LIVETV.in",
+    "channelName": "INDIA 24X7 LIVE TV",
+    "startTs": 1775493000000,
+    "stopTs": 1775500200000,
+    "title": "India 24x7 Aap Tak",
+    "desc": "The host covers the day&apos;s events and tracks global developments around the country."
+  }
+]

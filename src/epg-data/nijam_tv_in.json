@@ -1,0 +1,123 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "NIJAMTV.in",
+    "channelId": "NIJAMTV.in",
+    "channelName": "NIJAM TV",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Cartoon Time",
+    "desc": "A compilation of animated clips is played in order to entertain the viewers."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "NIJAMTV.in",
+    "channelId": "NIJAMTV.in",
+    "channelName": "NIJAM TV",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Chinna Idayam Yesuvukae Live",
+    "desc": "The host talks to viewers over the phone about their dedication to Jesus Christ, live."
+  },
+  {
+    "start": "12:00",
+    "stop": "13:00",
+    "channel": "NIJAMTV.in",
+    "channelId": "NIJAMTV.in",
+    "channelName": "NIJAM TV",
+    "startTs": 1775476800000,
+    "stopTs": 1775480400000,
+    "title": "Neengal Ketta Padal Live",
+    "desc": "The host receives calls from the audience asking to play their favourite songs, live."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "NIJAMTV.in",
+    "channelId": "NIJAMTV.in",
+    "channelName": "NIJAM TV",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "NIJAMTV.in",
+    "channelId": "NIJAMTV.in",
+    "channelName": "NIJAM TV",
+    "startTs": 1775482200000,
+    "stopTs": 1775485800000,
+    "title": "Prayer Time",
+    "desc": "A religious leader shares the teachings of the Almighty and leads the devotees in prayer."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:15",
+    "channel": "NIJAMTV.in",
+    "channelId": "NIJAMTV.in",
+    "channelName": "NIJAM TV",
+    "startTs": 1775485800000,
+    "stopTs": 1775488500000,
+    "title": "Vethagama Kelvi Neram Live",
+    "desc": "The host receives calls from viewers to take part in a quiz about the Holy Bible, live."
+  },
+  {
+    "start": "15:15",
+    "stop": "15:30",
+    "channel": "NIJAMTV.in",
+    "channelId": "NIJAMTV.in",
+    "channelName": "NIJAM TV",
+    "startTs": 1775488500000,
+    "stopTs": 1775489400000,
+    "title": "TAT Time",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "15:30",
+    "stop": "15:45",
+    "channel": "NIJAMTV.in",
+    "channelId": "NIJAMTV.in",
+    "channelName": "NIJAM TV",
+    "startTs": 1775489400000,
+    "stopTs": 1775490300000,
+    "title": "Prayer Time",
+    "desc": "A religious leader shares the teachings of the Almighty and leads the devotees in prayer."
+  },
+  {
+    "start": "15:45",
+    "stop": "16:00",
+    "channel": "NIJAMTV.in",
+    "channelId": "NIJAMTV.in",
+    "channelName": "NIJAM TV",
+    "startTs": 1775490300000,
+    "stopTs": 1775491200000,
+    "title": "New Song",
+    "desc": "A compilation of melodious songs is played to invoke the spirit of devotion."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "NIJAMTV.in",
+    "channelId": "NIJAMTV.in",
+    "channelName": "NIJAM TV",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Vedha Araichi",
+    "desc": "A religious scholar provides insights into the teachings of Christianity."
+  },
+  {
+    "start": "16:30",
+    "stop": "18:30",
+    "channel": "NIJAMTV.in",
+    "channelId": "NIJAMTV.in",
+    "channelName": "NIJAM TV",
+    "startTs": 1775493000000,
+    "stopTs": 1775500200000,
+    "title": "Traditional Songs",
+    "desc": "A comprehensive compilation of classic songs is played back-to-back."
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "start": "10:30",
+    "stop": "12:45",
+    "channel": "ISKCONTemple,Pune.in",
+    "channelId": "ISKCONTemple,Pune.in",
+    "channelName": "ISKCON Temple, Pune",
+    "startTs": 1775471400000,
+    "stopTs": 1775479500000,
+    "title": "Temple Opens",
+    "desc": "."
+  },
+  {
+    "start": "12:45",
+    "stop": "13:15",
+    "channel": "ISKCONTemple,Pune.in",
+    "channelId": "ISKCONTemple,Pune.in",
+    "channelName": "ISKCON Temple, Pune",
+    "startTs": 1775479500000,
+    "stopTs": 1775481300000,
+    "title": "Dhoop (Evening) Aarti",
+    "desc": "."
+  },
+  {
+    "start": "13:15",
+    "stop": "14:00",
+    "channel": "ISKCONTemple,Pune.in",
+    "channelId": "ISKCONTemple,Pune.in",
+    "channelName": "ISKCON Temple, Pune",
+    "startTs": 1775481300000,
+    "stopTs": 1775484000000,
+    "title": "Bhajans",
+    "desc": "."
+  },
+  {
+    "start": "14:00",
+    "stop": "15:00",
+    "channel": "ISKCONTemple,Pune.in",
+    "channelId": "ISKCONTemple,Pune.in",
+    "channelName": "ISKCON Temple, Pune",
+    "startTs": 1775484000000,
+    "stopTs": 1775487600000,
+    "title": "Thiru Vilakku Poojai",
+    "desc": "."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "ISKCONTemple,Pune.in",
+    "channelId": "ISKCONTemple,Pune.in",
+    "channelName": "ISKCON Temple, Pune",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Seja (Night) Aarti",
+    "desc": "."
+  },
+  {
+    "start": "15:30",
+    "stop": "23:30",
+    "channel": "ISKCONTemple,Pune.in",
+    "channelId": "ISKCONTemple,Pune.in",
+    "channelName": "ISKCON Temple, Pune",
+    "startTs": 1775489400000,
+    "stopTs": 1775518200000,
+    "title": "Temple Closed For Day",
+    "desc": "."
+  }
+]

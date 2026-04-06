@@ -1,0 +1,145 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "Prime9News.in",
+    "channelId": "Prime9News.in",
+    "channelName": "Prime9 Plus",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "25 Burning Issue Parliament",
+    "desc": "The host breaks down significant events, providing expert analysis on key topics."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "Prime9News.in",
+    "channelId": "Prime9News.in",
+    "channelName": "Prime9 Plus",
+    "startTs": 1775475000000,
+    "stopTs": 1775478600000,
+    "title": "News Live",
+    "desc": "The host sheds light on the top news updates from across the nation and the world, live."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "Prime9News.in",
+    "channelId": "Prime9News.in",
+    "channelName": "Prime9 Plus",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Speed News - AP & TS",
+    "desc": "The host presents a detailed report on the latest news and developments."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "Prime9News.in",
+    "channelId": "Prime9News.in",
+    "channelName": "Prime9 Plus",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Spotlight",
+    "desc": "The host provides a detailed report on matters concerning the state and the nation."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "Prime9News.in",
+    "channelId": "Prime9News.in",
+    "channelName": "Prime9 Plus",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "News Live",
+    "desc": "The host sheds light on the top news updates from across the nation and the world, live."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "Prime9News.in",
+    "channelId": "Prime9News.in",
+    "channelName": "Prime9 Plus",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Barabar Muchatlu",
+    "desc": "The host shares the latest news stories and presents his views in a satirical manner."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "Prime9News.in",
+    "channelId": "Prime9News.in",
+    "channelName": "Prime9 Plus",
+    "startTs": 1775485800000,
+    "stopTs": 1775489400000,
+    "title": "Prime Time",
+    "desc": "The host sheds light on the latest news stories impacting people around the country."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "Prime9News.in",
+    "channelId": "Prime9News.in",
+    "channelName": "Prime9 Plus",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "News Live",
+    "desc": "The host sheds light on the top news updates from across the nation and the world, live."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "Prime9News.in",
+    "channelId": "Prime9News.in",
+    "channelName": "Prime9 Plus",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "TCR",
+    "desc": "The host breaks down political events, offering expert analysis on key developments."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "Prime9News.in",
+    "channelId": "Prime9News.in",
+    "channelName": "Prime9 Plus",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "National International News",
+    "desc": "The host collates important news updates of national and international significance."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "Prime9News.in",
+    "channelId": "Prime9News.in",
+    "channelName": "Prime9 Plus",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Movie Related/ Spot Light",
+    "desc": "The host shares updates from movies; the presenter gives an in-depth analysis of the news."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "Prime9News.in",
+    "channelId": "Prime9News.in",
+    "channelName": "Prime9 Plus",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "News Live",
+    "desc": "The host sheds light on the top news updates from across the nation and the world, live."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "Prime9News.in",
+    "channelId": "Prime9News.in",
+    "channelName": "Prime9 Plus",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "25 Burning Issue Air Pollution",
+    "desc": "The host presents an in-depth report on the pressing issues of air pollution in the country."
+  }
+]

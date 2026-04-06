@@ -1,0 +1,79 @@
+[
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "NewsLive.in",
+    "channelId": "NewsLive.in",
+    "channelName": "NEWS LIVE",
+    "startTs": 1775471400000,
+    "stopTs": 1775475000000,
+    "title": "Talk Show",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "NewsLive.in",
+    "channelId": "NewsLive.in",
+    "channelName": "NEWS LIVE",
+    "startTs": 1775475000000,
+    "stopTs": 1775478600000,
+    "title": "Guwahati Live",
+    "desc": "The host presents the latest news and facets of the developing city of Guwahati, live."
+  },
+  {
+    "start": "12:30",
+    "stop": "14:30",
+    "channel": "NewsLive.in",
+    "channelId": "NewsLive.in",
+    "channelName": "NEWS LIVE",
+    "startTs": 1775478600000,
+    "stopTs": 1775485800000,
+    "title": "Prime Time News",
+    "desc": "The host sheds light on in-depth news coverage locally and internationally."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "NewsLive.in",
+    "channelId": "NewsLive.in",
+    "channelName": "NEWS LIVE",
+    "startTs": 1775485800000,
+    "stopTs": 1775489400000,
+    "title": "Bisesh Ek Ghanta",
+    "desc": "The host presents the latest news and explores expert opinion on a wide range of topics."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "NewsLive.in",
+    "channelId": "NewsLive.in",
+    "channelName": "NEWS LIVE",
+    "startTs": 1775489400000,
+    "stopTs": 1775493000000,
+    "title": "Super Prime time",
+    "desc": "The host presents a detailed report on the latest news and developments."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "NewsLive.in",
+    "channelId": "NewsLive.in",
+    "channelName": "NEWS LIVE",
+    "startTs": 1775493000000,
+    "stopTs": 1775496600000,
+    "title": "Prime @ 10",
+    "desc": "The host provides the latest news on various matters in the nation and around the world."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:30",
+    "channel": "NewsLive.in",
+    "channelId": "NewsLive.in",
+    "channelName": "NEWS LIVE",
+    "startTs": 1775496600000,
+    "stopTs": 1775500200000,
+    "title": "Musical Show",
+    "desc": "Renowned musical artists perform various famous and popular songs to enthrall the audience."
+  }
+]

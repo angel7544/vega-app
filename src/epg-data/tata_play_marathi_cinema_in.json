@@ -1,0 +1,112 @@
+[
+  {
+    "start": "09:30",
+    "stop": "11:45",
+    "channel": "TataPlayMarathiCinema.in",
+    "channelId": "TataPlayMarathiCinema.in",
+    "channelName": "Tata Play Marathi Cinema",
+    "startTs": 1775467800000,
+    "stopTs": 1775475900000,
+    "title": "Aaba Zindabad",
+    "desc": "A bitter dispute leads an uneducated father to discipline his spoiled son."
+  },
+  {
+    "start": "11:45",
+    "stop": "12:00",
+    "channel": "TataPlayMarathiCinema.in",
+    "channelId": "TataPlayMarathiCinema.in",
+    "channelName": "Tata Play Marathi Cinema",
+    "startTs": 1775475900000,
+    "stopTs": 1775476800000,
+    "title": "Filler / Promo",
+    "desc": "A compilation of some of the most entertaining promos and snippets is presented."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "TataPlayMarathiCinema.in",
+    "channelId": "TataPlayMarathiCinema.in",
+    "channelName": "Tata Play Marathi Cinema",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Sur Taal",
+    "desc": "A compilation of songs from popular movies in the Maharashtrian film industry is played."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "TataPlayMarathiCinema.in",
+    "channelId": "TataPlayMarathiCinema.in",
+    "channelName": "Tata Play Marathi Cinema",
+    "startTs": 1775478600000,
+    "stopTs": 1775482200000,
+    "title": "Gajar Maulicha",
+    "desc": "A celebration of faith and music, bringing soulful kirtan and teachings."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "TataPlayMarathiCinema.in",
+    "channelId": "TataPlayMarathiCinema.in",
+    "channelName": "Tata Play Marathi Cinema",
+    "startTs": 1775482200000,
+    "stopTs": 1775485800000,
+    "title": "Todays Special With Sayali Sanjeev And Suvrat Joshi",
+    "desc": "The host talks to Sayali Sanjeev and Suvrat Joshi about their personal lives and careers."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "TataPlayMarathiCinema.in",
+    "channelId": "TataPlayMarathiCinema.in",
+    "channelName": "Tata Play Marathi Cinema",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Dil Dosti Duniyadari",
+    "desc": "Dil Dosti Duniyadaari is a Marathi comedy-drama series about six friends living together in Mumbai. The show explores their journey of friendship, love, and life as they navigate their individual struggles and experiences."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "TataPlayMarathiCinema.in",
+    "channelId": "TataPlayMarathiCinema.in",
+    "channelName": "Tata Play Marathi Cinema",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Jogeshvaricha Pati Bhairavnath",
+    "desc": "Goddess Jogeshvari and Lord Bhairavnath&apos;s marriage becomes a symbol of love and devotion. S01 E25."
+  },
+  {
+    "start": "15:30",
+    "stop": "17:45",
+    "channel": "TataPlayMarathiCinema.in",
+    "channelId": "TataPlayMarathiCinema.in",
+    "channelName": "Tata Play Marathi Cinema",
+    "startTs": 1775489400000,
+    "stopTs": 1775497500000,
+    "title": "Sarech Sajjan",
+    "desc": "In a bid to get rich fast, three young men invest in a company, whose owner dupes them."
+  },
+  {
+    "start": "17:45",
+    "stop": "18:00",
+    "channel": "TataPlayMarathiCinema.in",
+    "channelId": "TataPlayMarathiCinema.in",
+    "channelName": "Tata Play Marathi Cinema",
+    "startTs": 1775497500000,
+    "stopTs": 1775498400000,
+    "title": "Filler / Promo",
+    "desc": "A compilation of some of the most entertaining promos and snippets is presented."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "TataPlayMarathiCinema.in",
+    "channelId": "TataPlayMarathiCinema.in",
+    "channelName": "Tata Play Marathi Cinema",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Sur Taal",
+    "desc": "A compilation of songs from popular movies in the Maharashtrian film industry is played."
+  }
+]

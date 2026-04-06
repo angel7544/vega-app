@@ -1,0 +1,167 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "Rengoni.in",
+    "channelId": "Rengoni.in",
+    "channelName": "Rengoni TV",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Parijat",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "Rengoni.in",
+    "channelId": "Rengoni.in",
+    "channelName": "Rengoni TV",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Swargam",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "Rengoni.in",
+    "channelId": "Rengoni.in",
+    "channelName": "Rengoni TV",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Xoru Bihuwoti 2026",
+    "desc": "The presenter discusses a learning programme for young girls to master Bihu dance in 2026."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "Rengoni.in",
+    "channelId": "Rengoni.in",
+    "channelName": "Rengoni TV",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Karmadhikari Shanidev",
+    "desc": "Shani, the deity of karma, shapes life&apos;s ambition, sorrow and authority."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "Rengoni.in",
+    "channelId": "Rengoni.in",
+    "channelName": "Rengoni TV",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Ahir Baibhabi",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "Rengoni.in",
+    "channelId": "Rengoni.in",
+    "channelName": "Rengoni TV",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Ramdhenu",
+    "desc": "Various renowned artists and performers perform the Radha-Krishna dance."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "Rengoni.in",
+    "channelId": "Rengoni.in",
+    "channelName": "Rengoni TV",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Hengulia",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "Rengoni.in",
+    "channelId": "Rengoni.in",
+    "channelName": "Rengoni TV",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Beharbari Outpost",
+    "desc": "At the Beharbari outpost, local police officers tackle unique and outrageous cases."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "Rengoni.in",
+    "channelId": "Rengoni.in",
+    "channelName": "Rengoni TV",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Sip Sip Barixare Boroxun",
+    "desc": "."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "Rengoni.in",
+    "channelId": "Rengoni.in",
+    "channelName": "Rengoni TV",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Xoru Bihuwoti 2026",
+    "desc": "The presenter discusses a learning programme for young girls to master Bihu dance in 2026."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "Rengoni.in",
+    "channelId": "Rengoni.in",
+    "channelName": "Rengoni TV",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Ahir Baibhabi",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "Rengoni.in",
+    "channelId": "Rengoni.in",
+    "channelName": "Rengoni TV",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Ramdhenu",
+    "desc": "Various renowned artists and performers perform the Radha-Krishna dance."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "Rengoni.in",
+    "channelId": "Rengoni.in",
+    "channelName": "Rengoni TV",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Sip Sip Barixare Boroxun",
+    "desc": "."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "Rengoni.in",
+    "channelId": "Rengoni.in",
+    "channelName": "Rengoni TV",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Beharbari Outpost",
+    "desc": "At the Beharbari outpost, local police officers tackle unique and outrageous cases."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "Rengoni.in",
+    "channelId": "Rengoni.in",
+    "channelName": "Rengoni TV",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Hengulia",
+    "desc": "Bringing the best in television."
+  }
+]

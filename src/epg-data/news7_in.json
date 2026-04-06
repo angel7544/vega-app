@@ -1,0 +1,167 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "News7Tamil.in",
+    "channelId": "News7Tamil.in",
+    "channelName": "News7",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Gaon Re Maganna",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "News7Tamil.in",
+    "channelId": "News7Tamil.in",
+    "channelName": "News7",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Mudda Live",
+    "desc": "The host conducts live discussions with experts regarding the nation&apos;s current affairs."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "News7Tamil.in",
+    "channelId": "News7Tamil.in",
+    "channelName": "News7",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Khabar Sara Odisha",
+    "desc": "The host shares the latest news stories and updates from across Odisha, India."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "News7Tamil.in",
+    "channelId": "News7Tamil.in",
+    "channelName": "News7",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Sahara Plus",
+    "desc": "The host presents the latest news and updates in the country and around the world."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "News7Tamil.in",
+    "channelId": "News7Tamil.in",
+    "channelName": "News7",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "City",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "News7Tamil.in",
+    "channelId": "News7Tamil.in",
+    "channelName": "News7",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Prime Time Odisha",
+    "desc": "The host presents the latest updates pertaining to the current affaris of Odisha, India."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "News7Tamil.in",
+    "channelId": "News7Tamil.in",
+    "channelName": "News7",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Khabar Sara Odisha",
+    "desc": "The host shares the latest news stories and updates from across Odisha, India."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "News7Tamil.in",
+    "channelId": "News7Tamil.in",
+    "channelName": "News7",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Khabar India",
+    "desc": "The host shares the latest news stories and updates from across the country."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "News7Tamil.in",
+    "channelId": "News7Tamil.in",
+    "channelName": "News7",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Spotlight",
+    "desc": "The host provides a detailed report on matters concerning the state and the nation."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "News7Tamil.in",
+    "channelId": "News7Tamil.in",
+    "channelName": "News7",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Ghamasan",
+    "desc": "The anchor delivers the latest political turmoil and heated debates surrounding the nation."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "News7Tamil.in",
+    "channelId": "News7Tamil.in",
+    "channelName": "News7",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Maganna Oligi",
+    "desc": "A spiritual leader explores socio-economic issues and their societal impact."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "News7Tamil.in",
+    "channelId": "News7Tamil.in",
+    "channelName": "News7",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Special Story",
+    "desc": "The host presents in detail the latest updates pertaining to the current affairs of the country."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "News7Tamil.in",
+    "channelId": "News7Tamil.in",
+    "channelName": "News7",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Jatra Khabar",
+    "desc": "The host presents the latest news updates on plays, skits and stage artists."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "News7Tamil.in",
+    "channelId": "News7Tamil.in",
+    "channelName": "News7",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Rati Egara Khabar",
+    "desc": "The host presents the latest news stories and updates from India and around the world."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "News7Tamil.in",
+    "channelId": "News7Tamil.in",
+    "channelName": "News7",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Ama Gaon Ama Sahara",
+    "desc": "Bringing the best in television."
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "SwaraSagar.in",
+    "channelId": "SwaraSagar.in",
+    "channelName": "Divyavani TV",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Madhuram Nee Vakyam",
+    "desc": "A religious leader delves into the Christian faith, highlighting the Holy Spirit&apos;s gifts."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "SwaraSagar.in",
+    "channelId": "SwaraSagar.in",
+    "channelName": "Divyavani TV",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Subhakankshalu & Manapuneethulu",
+    "desc": "Religious leaders and devotees come together to sing hymns in praise of the Almighty."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "SwaraSagar.in",
+    "channelId": "SwaraSagar.in",
+    "channelName": "Divyavani TV",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Joyful Mysteries",
+    "desc": "A group of devotees comes together to pray the rosary and seeks the Lord&apos;s blessings."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "SwaraSagar.in",
+    "channelId": "SwaraSagar.in",
+    "channelName": "Divyavani TV",
+    "startTs": 1775478600000,
+    "stopTs": 1775482200000,
+    "title": "Divyabali Pooja & Saint of the Day",
+    "desc": "."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "SwaraSagar.in",
+    "channelId": "SwaraSagar.in",
+    "channelName": "Divyavani TV",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Catholica Divyaarchana Pramukyatha",
+    "desc": "A religious leader delivers a discourse on the teachings of the Almighty."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "SwaraSagar.in",
+    "channelId": "SwaraSagar.in",
+    "channelName": "Divyavani TV",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Aaame Aadarsam",
+    "desc": "The host explores the personal and professional challenges women face."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "SwaraSagar.in",
+    "channelId": "SwaraSagar.in",
+    "channelName": "Divyavani TV",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Manapandugalu",
+    "desc": "Religious leaders and devout worshippers gather to offer prayers to the Almighty."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "SwaraSagar.in",
+    "channelId": "SwaraSagar.in",
+    "channelName": "Divyavani TV",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Manapandugalu",
+    "desc": "Religious leaders and devout worshippers gather to offer prayers to the Almighty."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "SwaraSagar.in",
+    "channelId": "SwaraSagar.in",
+    "channelName": "Divyavani TV",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Manapandugalu",
+    "desc": "Religious leaders and devout worshippers gather to offer prayers to the Almighty."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "SwaraSagar.in",
+    "channelId": "SwaraSagar.in",
+    "channelName": "Divyavani TV",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Manapandugalu",
+    "desc": "Religious leaders and devout worshippers gather to offer prayers to the Almighty."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "SwaraSagar.in",
+    "channelId": "SwaraSagar.in",
+    "channelName": "Divyavani TV",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Manasakshitho Kaasepu Raatri Prardhana",
+    "desc": "A religious leader delivers an enlightening discourse on the teachings of the Almighty."
+  },
+  {
+    "start": "17:00",
+    "stop": "18:00",
+    "channel": "SwaraSagar.in",
+    "channelId": "SwaraSagar.in",
+    "channelName": "Divyavani TV",
+    "startTs": 1775494800000,
+    "stopTs": 1775498400000,
+    "title": "Aaradhana",
+    "desc": "A pleasant-sounding ensemble of religious melodies dedicated to Hindu divine figures."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "SwaraSagar.in",
+    "channelId": "SwaraSagar.in",
+    "channelName": "Divyavani TV",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Divya Raghalu",
+    "desc": "Aspiring singers sing songs in praise of Lord Jesus and compete to win the title."
+  }
+]

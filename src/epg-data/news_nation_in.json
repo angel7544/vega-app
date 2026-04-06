@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Big News Breaking News",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "NewsNation.in",
@@ -19,7 +8,7 @@
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Rahasya",
-    "desc": "The host sheds light on various unexplained events and perplexing questions related to uncanny and mysterious happenings from different parts of India."
+    "desc": "The host sheds light on various unexplained events and mysteries from all over India."
   },
   {
     "start": "11:30",
@@ -30,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Sawal Hai Bawal Hai",
-    "desc": "Sawal Hai Bawal Hai"
+    "desc": "."
   },
   {
     "start": "12:00",
@@ -41,7 +30,7 @@
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Sawal Hai Bawal Hai",
-    "desc": "Sawal Hai Bawal Hai"
+    "desc": "."
   },
   {
     "start": "12:30",
@@ -52,7 +41,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "News Special",
-    "desc": "The host provides a detailed report featuring insightful updates and developments pertaining to matters concerning the nation and the world."
+    "desc": "The host provides a detailed report on matters concerning the nation and the world."
   },
   {
     "start": "13:00",
@@ -63,7 +52,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Lie Detector Test",
-    "desc": "The host presents accurate information and facts of certain events taking place across the country, in order to spread awareness and stop misinformation among the viewers."
+    "desc": "The host presents correct facts of certain events, in order to spread awareness."
   },
   {
     "start": "13:30",
@@ -74,7 +63,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Lakh Take Ki Baat",
-    "desc": "The host shares the latest news, updates and developments related to politics, economy and current affairs from across the world."
+    "desc": "The host shares the latest political and economic news from across the world."
   },
   {
     "start": "14:00",
@@ -85,7 +74,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Jungle News",
-    "desc": "A comprehensive and detailed insight into how humans and animals co-exist and how the former fight for their survival in order to satisfy their needs."
+    "desc": "An insight into how humans and animals co-exist and fight for their survival."
   },
   {
     "start": "14:30",
@@ -96,7 +85,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Jungle News",
-    "desc": "A comprehensive and detailed insight into how humans and animals co-exist and how the former fight for their survival in order to satisfy their needs."
+    "desc": "An insight into how humans and animals co-exist and fight for their survival."
   },
   {
     "start": "15:00",
@@ -107,7 +96,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "News Tonight",
-    "desc": "The host presents a compilation of the latest news, updates, developments and current events pertaining to the Gulf countries."
+    "desc": "The host presents a compilation of the latest news pertaining to the Gulf countries."
   },
   {
     "start": "15:30",
@@ -118,7 +107,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Jo Kahunga Sach Kahunga",
-    "desc": "The host presents an in-depth analysis of the current events and presents updates on the latest socio-political and economic scenario of the country."
+    "desc": "The host presents an in-depth analysis of the current events and socio-political updates."
   },
   {
     "start": "16:00",
@@ -129,7 +118,7 @@
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Jo Kahunga Sach Kahunga",
-    "desc": "The host presents an in-depth analysis of the current events and presents updates on the latest socio-political and economic scenario of the country."
+    "desc": "The host presents an in-depth analysis of the current events and socio-political updates."
   },
   {
     "start": "16:30",
@@ -140,7 +129,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "10 Baje 10 Khabar",
-    "desc": "The host presents the latest updates and news stories of the day, covering social, economic and political current affairs."
+    "desc": "The host sheds light on the latest news and developments from across the region."
   },
   {
     "start": "17:00",
@@ -151,7 +140,7 @@
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "News Special",
-    "desc": "The host provides a detailed report featuring insightful updates and developments pertaining to matters concerning the nation and the world."
+    "desc": "The host provides a detailed report on matters concerning the nation and the world."
   },
   {
     "start": "17:30",
@@ -162,545 +151,17 @@
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Top 10 News",
-    "desc": "The host presents a round-up of the top 10 social, political and economic news updates and developments from across the state."
+    "desc": "The host sheds light on the top 10 news updates from all over the country."
   },
   {
     "start": "18:00",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "NewsNation.in",
     "channelId": "NewsNation.in",
     "channelName": "News Nation",
     "startTs": 1775498400000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "News Special",
-    "desc": "The host provides a detailed report featuring insightful updates and developments pertaining to matters concerning the nation and the world."
-  },
-  {
-    "start": "18:30",
-    "stop": "19:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775500200000,
-    "stopTs": 1775502000000,
-    "title": "News Special",
-    "desc": "The host provides a detailed report featuring insightful updates and developments pertaining to matters concerning the nation and the world."
-  },
-  {
-    "start": "19:00",
-    "stop": "19:30",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775502000000,
-    "stopTs": 1775503800000,
-    "title": "News Special",
-    "desc": "The host provides a detailed report featuring insightful updates and developments pertaining to matters concerning the nation and the world."
-  },
-  {
-    "start": "19:30",
-    "stop": "20:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775503800000,
-    "stopTs": 1775505600000,
-    "title": "News",
-    "desc": "The hosts present a compilation of the latest updates and developments pertaining to politics, sports, social and economic news."
-  },
-  {
-    "start": "20:00",
-    "stop": "20:30",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775505600000,
-    "stopTs": 1775507400000,
-    "title": "News Special",
-    "desc": "The host provides a detailed report featuring insightful updates and developments pertaining to matters concerning the nation and the world."
-  },
-  {
-    "start": "20:30",
-    "stop": "21:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775507400000,
-    "stopTs": 1775509200000,
-    "title": "News",
-    "desc": "The hosts present a compilation of the latest updates and developments pertaining to politics, sports, social and economic news."
-  },
-  {
-    "start": "21:00",
-    "stop": "21:30",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775509200000,
-    "stopTs": 1775511000000,
-    "title": "News Special",
-    "desc": "The host provides a detailed report featuring insightful updates and developments pertaining to matters concerning the nation and the world."
-  },
-  {
-    "start": "21:30",
-    "stop": "22:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775511000000,
-    "stopTs": 1775512800000,
-    "title": "News",
-    "desc": "The hosts present a compilation of the latest updates and developments pertaining to politics, sports, social and economic news."
-  },
-  {
-    "start": "22:00",
-    "stop": "22:30",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775512800000,
-    "stopTs": 1775514600000,
-    "title": "News Special",
-    "desc": "The host provides a detailed report featuring insightful updates and developments pertaining to matters concerning the nation and the world."
-  },
-  {
-    "start": "22:30",
-    "stop": "23:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775514600000,
-    "stopTs": 1775516400000,
-    "title": "News",
-    "desc": "The hosts present a compilation of the latest updates and developments pertaining to politics, sports, social and economic news."
-  },
-  {
-    "start": "23:00",
-    "stop": "23:30",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775516400000,
-    "stopTs": 1775518200000,
-    "title": "News Special",
-    "desc": "The host provides a detailed report featuring insightful updates and developments pertaining to matters concerning the nation and the world."
-  },
-  {
-    "start": "23:30",
-    "stop": "00:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775518200000,
-    "stopTs": 1775520000000,
-    "title": "News",
-    "desc": "The hosts present a compilation of the latest updates and developments pertaining to politics, sports, social and economic news."
-  },
-  {
-    "start": "00:00",
-    "stop": "00:30",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775520000000,
-    "stopTs": 1775521800000,
-    "title": "News Special",
-    "desc": "The host provides a detailed report featuring insightful updates and developments pertaining to matters concerning the nation and the world."
-  },
-  {
-    "start": "00:30",
-    "stop": "01:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775521800000,
-    "stopTs": 1775523600000,
-    "title": "News Savera",
-    "desc": "The host collates and presents some of the most important news updates, developments and current affairs from across the world."
-  },
-  {
-    "start": "01:00",
-    "stop": "01:30",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775523600000,
-    "stopTs": 1775525400000,
-    "title": "News Savera",
-    "desc": "The host collates and presents some of the most important news updates, developments and current affairs from across the world."
-  },
-  {
-    "start": "01:30",
-    "stop": "02:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775525400000,
-    "stopTs": 1775527200000,
-    "title": "Morning Breaking",
-    "desc": "The host collates and presents the most recent political, sports, entertainment and socio-economic updates from across the world."
-  },
-  {
-    "start": "02:00",
-    "stop": "02:30",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775527200000,
-    "stopTs": 1775529000000,
-    "title": "Morning Breaking",
-    "desc": "The host collates and presents the most recent political, sports, entertainment and socio-economic updates from across the world."
-  },
-  {
-    "start": "02:30",
-    "stop": "03:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775529000000,
-    "stopTs": 1775530800000,
-    "title": "Jungle News",
-    "desc": "A comprehensive and detailed insight into how humans and animals co-exist and how the former fight for their survival in order to satisfy their needs."
-  },
-  {
-    "start": "03:00",
-    "stop": "03:30",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775530800000,
-    "stopTs": 1775532600000,
-    "title": "Jungle News",
-    "desc": "A comprehensive and detailed insight into how humans and animals co-exist and how the former fight for their survival in order to satisfy their needs."
-  },
-  {
-    "start": "03:30",
-    "stop": "04:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775532600000,
-    "stopTs": 1775534400000,
-    "title": "Jungle News",
-    "desc": "A comprehensive and detailed insight into how humans and animals co-exist and how the former fight for their survival in order to satisfy their needs."
-  },
-  {
-    "start": "04:00",
-    "stop": "04:30",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775534400000,
-    "stopTs": 1775536200000,
-    "title": "Battleground",
-    "desc": "The host presents a detailed and in-depth analysis of the election, providing data-driven coverage and voting patterns that influence the outcome."
-  },
-  {
-    "start": "04:30",
-    "stop": "05:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775536200000,
-    "stopTs": 1775538000000,
-    "title": "Khabar Pakki Hai",
-    "desc": "The host analyses and presents the latest news stories and developments pertaining to various pressing matters across the State of Punjab."
-  },
-  {
-    "start": "05:00",
-    "stop": "05:30",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775538000000,
-    "stopTs": 1775539800000,
-    "title": "Khabar Pakki Hai",
-    "desc": "The host analyses and presents the latest news stories and developments pertaining to various pressing matters across the State of Punjab."
-  },
-  {
-    "start": "05:30",
-    "stop": "06:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775539800000,
-    "stopTs": 1775541600000,
-    "title": "News Special",
-    "desc": "The host provides a detailed report featuring insightful updates and developments pertaining to matters concerning the nation and the world."
-  },
-  {
-    "start": "06:00",
-    "stop": "06:30",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775541600000,
-    "stopTs": 1775543400000,
-    "title": "Lie Detector Test",
-    "desc": "The host presents accurate information and facts of certain events taking place across the country, in order to spread awareness and stop misinformation among the viewers."
-  },
-  {
-    "start": "06:30",
-    "stop": "07:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775543400000,
-    "stopTs": 1775545200000,
-    "title": "News Control Room",
-    "desc": "The host presents an in-depth analysis of the latest news stories and developments pertaining to various political and socio-economic issues from around the globe."
-  },
-  {
-    "start": "07:00",
-    "stop": "07:30",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775545200000,
-    "stopTs": 1775547000000,
-    "title": "News Control Room",
-    "desc": "The host presents an in-depth analysis of the latest news stories and developments pertaining to various political and socio-economic issues from around the globe."
-  },
-  {
-    "start": "07:30",
-    "stop": "08:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775547000000,
-    "stopTs": 1775548800000,
-    "title": "Nation 50",
-    "desc": "The host collates and presents some of the most important news updates, developments and current affairs from across the world."
-  },
-  {
-    "start": "08:00",
-    "stop": "08:30",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775548800000,
-    "stopTs": 1775550600000,
-    "title": "Jungle News",
-    "desc": "A comprehensive and detailed insight into how humans and animals co-exist and how the former fight for their survival in order to satisfy their needs."
-  },
-  {
-    "start": "08:30",
-    "stop": "09:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775550600000,
-    "stopTs": 1775552400000,
-    "title": "News @ 2",
-    "desc": "The host presents a detailed analysis of some of the most important and major stories, updates and developments of the day."
-  },
-  {
-    "start": "09:00",
-    "stop": "09:30",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775552400000,
-    "stopTs": 1775554200000,
-    "title": "News Special",
-    "desc": "The host provides a detailed report featuring insightful updates and developments pertaining to matters concerning the nation and the world."
-  },
-  {
-    "start": "09:30",
-    "stop": "10:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775554200000,
-    "stopTs": 1775556000000,
-    "title": "News Special",
-    "desc": "The host provides a detailed report featuring insightful updates and developments pertaining to matters concerning the nation and the world."
-  },
-  {
-    "start": "10:00",
-    "stop": "10:30",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775556000000,
-    "stopTs": 1775557800000,
-    "title": "News Special",
-    "desc": "The host provides a detailed report featuring insightful updates and developments pertaining to matters concerning the nation and the world."
-  },
-  {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775557800000,
-    "stopTs": 1775559600000,
-    "title": "Big News Breaking News",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:30",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775559600000,
-    "stopTs": 1775561400000,
-    "title": "Rahasya",
-    "desc": "The host sheds light on various unexplained events and perplexing questions related to uncanny and mysterious happenings from different parts of India."
-  },
-  {
-    "start": "11:30",
-    "stop": "12:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775561400000,
-    "stopTs": 1775563200000,
-    "title": "Sawal Hai Bawal Hai",
-    "desc": "Sawal Hai Bawal Hai"
-  },
-  {
-    "start": "12:00",
-    "stop": "12:30",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775563200000,
-    "stopTs": 1775565000000,
-    "title": "Sawal Hai Bawal Hai",
-    "desc": "Sawal Hai Bawal Hai"
-  },
-  {
-    "start": "12:30",
-    "stop": "13:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775565000000,
-    "stopTs": 1775566800000,
-    "title": "News Special",
-    "desc": "The host provides a detailed report featuring insightful updates and developments pertaining to matters concerning the nation and the world."
-  },
-  {
-    "start": "13:00",
-    "stop": "13:30",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775566800000,
-    "stopTs": 1775568600000,
-    "title": "Lie Detector Test",
-    "desc": "The host presents accurate information and facts of certain events taking place across the country, in order to spread awareness and stop misinformation among the viewers."
-  },
-  {
-    "start": "13:30",
-    "stop": "14:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775568600000,
-    "stopTs": 1775570400000,
-    "title": "Lakh Take Ki Baat",
-    "desc": "The host shares the latest news, updates and developments related to politics, economy and current affairs from across the world."
-  },
-  {
-    "start": "14:00",
-    "stop": "14:30",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775570400000,
-    "stopTs": 1775572200000,
-    "title": "Jungle News",
-    "desc": "A comprehensive and detailed insight into how humans and animals co-exist and how the former fight for their survival in order to satisfy their needs."
-  },
-  {
-    "start": "14:30",
-    "stop": "15:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775572200000,
-    "stopTs": 1775574000000,
-    "title": "Jungle News",
-    "desc": "A comprehensive and detailed insight into how humans and animals co-exist and how the former fight for their survival in order to satisfy their needs."
-  },
-  {
-    "start": "15:00",
-    "stop": "15:30",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775574000000,
-    "stopTs": 1775575800000,
-    "title": "News Tonight",
-    "desc": "The host presents a compilation of the latest news, updates, developments and current events pertaining to the Gulf countries."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775575800000,
-    "stopTs": 1775577600000,
-    "title": "Jo Kahunga Sach Kahunga",
-    "desc": "The host presents an in-depth analysis of the current events and presents updates on the latest socio-political and economic scenario of the country."
-  },
-  {
-    "start": "16:00",
-    "stop": "16:30",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775577600000,
-    "stopTs": 1775579400000,
-    "title": "Jo Kahunga Sach Kahunga",
-    "desc": "The host presents an in-depth analysis of the current events and presents updates on the latest socio-political and economic scenario of the country."
-  },
-  {
-    "start": "16:30",
-    "stop": "17:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775579400000,
-    "stopTs": 1775581200000,
-    "title": "10 Baje 10 Khabar",
-    "desc": "The host presents the latest updates and news stories of the day, covering social, economic and political current affairs."
-  },
-  {
-    "start": "17:00",
-    "stop": "17:30",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775581200000,
-    "stopTs": 1775583000000,
-    "title": "News Special",
-    "desc": "The host provides a detailed report featuring insightful updates and developments pertaining to matters concerning the nation and the world."
-  },
-  {
-    "start": "17:30",
-    "stop": "18:00",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775583000000,
-    "stopTs": 1775584800000,
-    "title": "Top 10 News",
-    "desc": "The host presents a round-up of the top 10 social, political and economic news updates and developments from across the state."
-  },
-  {
-    "start": "18:00",
-    "stop": "18:29",
-    "channel": "NewsNation.in",
-    "channelId": "NewsNation.in",
-    "channelName": "News Nation",
-    "startTs": 1775584800000,
-    "stopTs": 1775586599000,
-    "title": "News Special",
-    "desc": "The host provides a detailed report featuring insightful updates and developments pertaining to matters concerning the nation and the world."
+    "desc": "The host provides a detailed report on matters concerning the nation and the world."
   }
 ]

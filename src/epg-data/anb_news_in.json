@@ -1,706 +1,167 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Apna Uttar Pradesh",
-    "desc": "A presenter reports important news, regional events and socio-political developments occurring in the state of Uttar Pradesh."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "ANBNews.in",
     "channelId": "ANBNews.in",
-    "channelName": "ANB News",
+    "channelName": "ANB NEWS",
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Apna Uttar Pradesh",
-    "desc": "A presenter reports important news, regional events and socio-political developments occurring in the state of Uttar Pradesh."
+    "desc": "A presenter reports important news and socio-political developments in Uttar Pradesh."
   },
   {
     "start": "11:30",
     "stop": "12:00",
     "channel": "ANBNews.in",
     "channelId": "ANBNews.in",
-    "channelName": "ANB News",
+    "channelName": "ANB NEWS",
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Mudda Live",
-    "desc": "The host facilitates discussions with experts regarding recent news updates and developments related to the nation&apos;s current affairs, live."
+    "desc": "The host conducts live discussions with experts regarding the nation&apos;s current affairs."
   },
   {
     "start": "12:00",
     "stop": "12:30",
     "channel": "ANBNews.in",
     "channelId": "ANBNews.in",
-    "channelName": "ANB News",
+    "channelName": "ANB NEWS",
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Madhya Pradesh - Chhattisgarh",
-    "desc": "The host presents a detailed report on the latest news pertaining to current affairs in the states of Madhya Pradesh and Chhattisgarh."
+    "desc": "The host presents a detailed report on current affairs in Madhya Pradesh and Chhattisgarh."
   },
   {
     "start": "12:30",
     "stop": "13:00",
     "channel": "ANBNews.in",
     "channelId": "ANBNews.in",
-    "channelName": "ANB News",
+    "channelName": "ANB NEWS",
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Top 3 Live",
-    "desc": "The host presents a comprehensive and detailed coverage of the top three latest news and developments from across the region, live."
+    "desc": "The host presents a detailed report on the top three latest news and developments, live."
   },
   {
     "start": "13:00",
     "stop": "13:30",
     "channel": "ANBNews.in",
     "channelId": "ANBNews.in",
-    "channelName": "ANB News",
+    "channelName": "ANB NEWS",
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Top 3",
-    "desc": "The host presents the top three headlines and the latest updates on governance, social, and political issues impacting the people of the state."
+    "desc": "The host presents the top three headlines and news updates on various issues from the state."
   },
   {
     "start": "13:30",
     "stop": "14:00",
     "channel": "ANBNews.in",
     "channelId": "ANBNews.in",
-    "channelName": "ANB News",
+    "channelName": "ANB NEWS",
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Bulletin Live",
-    "desc": "The host presents the latest social, economic and political top stories and happenings from different parts of the world, live."
+    "desc": "The host presents the latest social, economic and political top stories, live."
   },
   {
     "start": "14:00",
     "stop": "14:30",
     "channel": "ANBNews.in",
     "channelId": "ANBNews.in",
-    "channelName": "ANB News",
+    "channelName": "ANB NEWS",
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Desh Duniya Live",
-    "desc": "The host presents a comprehensive and detailed coverage of the latest news and developments, nationally and internationally, live."
+    "desc": "The host presents a detailed report on the latest national and international news, live."
   },
   {
     "start": "14:30",
     "stop": "15:00",
     "channel": "ANBNews.in",
     "channelId": "ANBNews.in",
-    "channelName": "ANB News",
+    "channelName": "ANB NEWS",
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Desh Ki Baat Live",
-    "desc": "The host presents all the latest news stories, updates and developments pertaining to the current affairs of the nation, live."
+    "desc": "The host presents the latest news pertaining to the current affairs of the nation, live."
   },
   {
     "start": "15:00",
     "stop": "15:30",
     "channel": "ANBNews.in",
     "channelId": "ANBNews.in",
-    "channelName": "ANB News",
+    "channelName": "ANB NEWS",
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Desh Ki Baat",
-    "desc": "The host presents a comprehensive and detailed coverage of the latest news and developments, domestically and internationally."
+    "desc": "The host presents a detailed report of the latest news and developments."
   },
   {
     "start": "15:30",
     "stop": "16:00",
     "channel": "ANBNews.in",
     "channelId": "ANBNews.in",
-    "channelName": "ANB News",
+    "channelName": "ANB NEWS",
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Kya Bolti Duniya Live",
-    "desc": "The host delivers timely updates, breaking stories and in-depth coverage of current affairs, providing comprehensive insights into the world, live."
+    "desc": "The host delivers timely updates and in-depth coverage of current affairs, live."
   },
   {
     "start": "16:00",
     "stop": "16:30",
     "channel": "ANBNews.in",
     "channelId": "ANBNews.in",
-    "channelName": "ANB News",
+    "channelName": "ANB NEWS",
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Kya Bolti Duniya",
-    "desc": "The host presents the latest updates on important political, social and economic news from the country and around the world."
+    "desc": "The host presents the latest updates on important political, social and economic news."
   },
   {
     "start": "16:30",
     "stop": "17:00",
     "channel": "ANBNews.in",
     "channelId": "ANBNews.in",
-    "channelName": "ANB News",
+    "channelName": "ANB NEWS",
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Khabar Din Bhar Live",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
+    "desc": "The host presents the latest news updates from across the nation and the world, live."
   },
   {
     "start": "17:00",
     "stop": "17:30",
     "channel": "ANBNews.in",
     "channelId": "ANBNews.in",
-    "channelName": "ANB News",
+    "channelName": "ANB NEWS",
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Khabar Din Bhar Live",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
+    "desc": "The host presents the latest news updates from across the nation and the world, live."
   },
   {
     "start": "17:30",
     "stop": "18:00",
     "channel": "ANBNews.in",
     "channelId": "ANBNews.in",
-    "channelName": "ANB News",
+    "channelName": "ANB NEWS",
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Top 3",
-    "desc": "The host presents the top three headlines and the latest updates on governance, social, and political issues impacting the people of the state."
+    "desc": "The host presents the top three headlines and news updates on various issues from the state."
   },
   {
     "start": "18:00",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "ANBNews.in",
     "channelId": "ANBNews.in",
-    "channelName": "ANB News",
+    "channelName": "ANB NEWS",
     "startTs": 1775498400000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "Kya Bolti Duniya",
-    "desc": "The host presents the latest updates on important political, social and economic news from the country and around the world."
-  },
-  {
-    "start": "18:30",
-    "stop": "19:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775500200000,
-    "stopTs": 1775502000000,
-    "title": "Khabar Din Bhar",
-    "desc": "The host provides information on the latest updates on politics, business, entertainment, science, sports and current events."
-  },
-  {
-    "start": "19:00",
-    "stop": "19:30",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775502000000,
-    "stopTs": 1775503800000,
-    "title": "Khabar Din Bhar",
-    "desc": "The host provides information on the latest updates on politics, business, entertainment, science, sports and current events."
-  },
-  {
-    "start": "19:30",
-    "stop": "20:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775503800000,
-    "stopTs": 1775505600000,
-    "title": "Desh Duniya",
-    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
-  },
-  {
-    "start": "20:00",
-    "stop": "20:30",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775505600000,
-    "stopTs": 1775507400000,
-    "title": "Desh Ki Baat",
-    "desc": "The host presents a comprehensive and detailed coverage of the latest news and developments, domestically and internationally."
-  },
-  {
-    "start": "20:30",
-    "stop": "21:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775507400000,
-    "stopTs": 1775509200000,
-    "title": "Mudda",
-    "desc": "The host interviews prominent personalities and learns about their opinions on some of the latest social, political and economic news stories."
-  },
-  {
-    "start": "21:00",
-    "stop": "21:30",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775509200000,
-    "stopTs": 1775511000000,
-    "title": "Top 3",
-    "desc": "The host presents the top three headlines and the latest updates on governance, social, and political issues impacting the people of the state."
-  },
-  {
-    "start": "21:30",
-    "stop": "22:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775511000000,
-    "stopTs": 1775512800000,
-    "title": "Kya Bolti Duniya",
-    "desc": "The host presents the latest updates on important political, social and economic news from the country and around the world."
-  },
-  {
-    "start": "22:00",
-    "stop": "22:30",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775512800000,
-    "stopTs": 1775514600000,
-    "title": "Khabar Din Bhar",
-    "desc": "The host provides information on the latest updates on politics, business, entertainment, science, sports and current events."
-  },
-  {
-    "start": "22:30",
-    "stop": "23:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775514600000,
-    "stopTs": 1775516400000,
-    "title": "Khabar Din Bhar",
-    "desc": "The host provides information on the latest updates on politics, business, entertainment, science, sports and current events."
-  },
-  {
-    "start": "23:00",
-    "stop": "23:30",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775516400000,
-    "stopTs": 1775518200000,
-    "title": "Desi Tadka",
-    "desc": "The newest compilation of preppy Punjabi music is played continuously for the viewers with a preference for Indian dance beats."
-  },
-  {
-    "start": "23:30",
-    "stop": "00:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775518200000,
-    "stopTs": 1775520000000,
-    "title": "Desh Ki Baat",
-    "desc": "The host presents a comprehensive and detailed coverage of the latest news and developments, domestically and internationally."
-  },
-  {
-    "start": "00:00",
-    "stop": "00:30",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775520000000,
-    "stopTs": 1775521800000,
-    "title": "Mudda",
-    "desc": "The host interviews prominent personalities and learns about their opinions on some of the latest social, political and economic news stories."
-  },
-  {
-    "start": "00:30",
-    "stop": "01:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775521800000,
-    "stopTs": 1775523600000,
-    "title": "Way To God",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "01:00",
-    "stop": "01:30",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775523600000,
-    "stopTs": 1775525400000,
-    "title": "Kya Bolti Duniya",
-    "desc": "The host presents the latest updates on important political, social and economic news from the country and around the world."
-  },
-  {
-    "start": "01:30",
-    "stop": "02:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775525400000,
-    "stopTs": 1775527200000,
-    "title": "First Bulletin Live",
-    "desc": "The host presents the live news, updates and developments about the social, economic and political sectors from around the world."
-  },
-  {
-    "start": "02:00",
-    "stop": "02:30",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775527200000,
-    "stopTs": 1775529000000,
-    "title": "7:00 AM",
-    "desc": "The host presents latest updates and top stories pertaining to the social, political and economic issues across the country."
-  },
-  {
-    "start": "02:30",
-    "stop": "03:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775529000000,
-    "stopTs": 1775530800000,
-    "title": "Bulletin Live",
-    "desc": "The host presents the latest social, economic and political top stories and happenings from different parts of the world, live."
-  },
-  {
-    "start": "03:00",
-    "stop": "03:30",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775530800000,
-    "stopTs": 1775532600000,
-    "title": "8:00 AM",
-    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
-  },
-  {
-    "start": "03:30",
-    "stop": "04:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775532600000,
-    "stopTs": 1775534400000,
-    "title": "Bulletin Live",
-    "desc": "The host presents the latest social, economic and political top stories and happenings from different parts of the world, live."
-  },
-  {
-    "start": "04:00",
-    "stop": "04:30",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775534400000,
-    "stopTs": 1775536200000,
-    "title": "News Dairy Live",
-    "desc": "The host presents the latest updates, news and development pertaining to politics, socio-economic issues, crime and current affairs, live."
-  },
-  {
-    "start": "04:30",
-    "stop": "05:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775536200000,
-    "stopTs": 1775538000000,
-    "title": "Bulletin Live",
-    "desc": "The host presents the latest social, economic and political top stories and happenings from different parts of the world, live."
-  },
-  {
-    "start": "05:00",
-    "stop": "05:30",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775538000000,
-    "stopTs": 1775539800000,
-    "title": "10:00 AM",
-    "desc": "The host presents a detailed report on some of the latest and important news stories and updates from different parts of the world."
-  },
-  {
-    "start": "05:30",
-    "stop": "06:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775539800000,
-    "stopTs": 1775541600000,
-    "title": "Bulletin Live",
-    "desc": "The host presents the latest social, economic and political top stories and happenings from different parts of the world, live."
-  },
-  {
-    "start": "06:00",
-    "stop": "06:30",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775541600000,
-    "stopTs": 1775543400000,
-    "title": "11:00 AM",
-    "desc": "The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs."
-  },
-  {
-    "start": "06:30",
-    "stop": "07:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775543400000,
-    "stopTs": 1775545200000,
-    "title": "Bulletin Live",
-    "desc": "The host presents the latest social, economic and political top stories and happenings from different parts of the world, live."
-  },
-  {
-    "start": "07:00",
-    "stop": "07:30",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775545200000,
-    "stopTs": 1775547000000,
-    "title": "Bulletin Live",
-    "desc": "The host presents the latest social, economic and political top stories and happenings from different parts of the world, live."
-  },
-  {
-    "start": "07:30",
-    "stop": "08:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775547000000,
-    "stopTs": 1775548800000,
-    "title": "Bulletin Live",
-    "desc": "The host presents the latest social, economic and political top stories and happenings from different parts of the world, live."
-  },
-  {
-    "start": "08:00",
-    "stop": "08:30",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775548800000,
-    "stopTs": 1775550600000,
-    "title": "1:00 PM",
-    "desc": "The host presents the latest news and updates on the political, social and economic sectors of the country and around the world."
-  },
-  {
-    "start": "08:30",
-    "stop": "09:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775550600000,
-    "stopTs": 1775552400000,
-    "title": "Bulletin Live",
-    "desc": "The host presents the latest social, economic and political top stories and happenings from different parts of the world, live."
-  },
-  {
-    "start": "09:00",
-    "stop": "09:30",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775552400000,
-    "stopTs": 1775554200000,
-    "title": "2:00 PM",
-    "desc": "The host provides an in-depth insight into the latest news, current affairs and major headlines on a range of topics of national and global interest."
-  },
-  {
-    "start": "09:30",
-    "stop": "10:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775554200000,
-    "stopTs": 1775556000000,
-    "title": "Bulletin Live",
-    "desc": "The host presents the latest social, economic and political top stories and happenings from different parts of the world, live."
-  },
-  {
-    "start": "10:00",
-    "stop": "10:30",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775556000000,
-    "stopTs": 1775557800000,
-    "title": "Bulletin",
-    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
-  },
-  {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775557800000,
-    "stopTs": 1775559600000,
-    "title": "Apna Uttar Pradesh",
-    "desc": "A presenter reports important news, regional events and socio-political developments occurring in the state of Uttar Pradesh."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:30",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775559600000,
-    "stopTs": 1775561400000,
-    "title": "Apna Uttar Pradesh",
-    "desc": "A presenter reports important news, regional events and socio-political developments occurring in the state of Uttar Pradesh."
-  },
-  {
-    "start": "11:30",
-    "stop": "12:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775561400000,
-    "stopTs": 1775563200000,
-    "title": "Mudda Live",
-    "desc": "The host facilitates discussions with experts regarding recent news updates and developments related to the nation&apos;s current affairs, live."
-  },
-  {
-    "start": "12:00",
-    "stop": "12:30",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775563200000,
-    "stopTs": 1775565000000,
-    "title": "Madhya Pradesh - Chhattisgarh",
-    "desc": "The host presents a detailed report on the latest news pertaining to current affairs in the states of Madhya Pradesh and Chhattisgarh."
-  },
-  {
-    "start": "12:30",
-    "stop": "13:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775565000000,
-    "stopTs": 1775566800000,
-    "title": "Top 3 Live",
-    "desc": "The host presents a comprehensive and detailed coverage of the top three latest news and developments from across the region, live."
-  },
-  {
-    "start": "13:00",
-    "stop": "13:30",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775566800000,
-    "stopTs": 1775568600000,
-    "title": "Top 3",
-    "desc": "The host presents the top three headlines and the latest updates on governance, social, and political issues impacting the people of the state."
-  },
-  {
-    "start": "13:30",
-    "stop": "14:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775568600000,
-    "stopTs": 1775570400000,
-    "title": "Bulletin Live",
-    "desc": "The host presents the latest social, economic and political top stories and happenings from different parts of the world, live."
-  },
-  {
-    "start": "14:00",
-    "stop": "14:30",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775570400000,
-    "stopTs": 1775572200000,
-    "title": "Desh Duniya Live",
-    "desc": "The host presents a comprehensive and detailed coverage of the latest news and developments, nationally and internationally, live."
-  },
-  {
-    "start": "14:30",
-    "stop": "15:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775572200000,
-    "stopTs": 1775574000000,
-    "title": "Desh Ki Baat Live",
-    "desc": "The host presents all the latest news stories, updates and developments pertaining to the current affairs of the nation, live."
-  },
-  {
-    "start": "15:00",
-    "stop": "15:30",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775574000000,
-    "stopTs": 1775575800000,
-    "title": "Desh Ki Baat",
-    "desc": "The host presents a comprehensive and detailed coverage of the latest news and developments, domestically and internationally."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775575800000,
-    "stopTs": 1775577600000,
-    "title": "Kya Bolti Duniya Live",
-    "desc": "The host delivers timely updates, breaking stories and in-depth coverage of current affairs, providing comprehensive insights into the world, live."
-  },
-  {
-    "start": "16:00",
-    "stop": "16:30",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775577600000,
-    "stopTs": 1775579400000,
-    "title": "Kya Bolti Duniya",
-    "desc": "The host presents the latest updates on important political, social and economic news from the country and around the world."
-  },
-  {
-    "start": "16:30",
-    "stop": "17:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775579400000,
-    "stopTs": 1775581200000,
-    "title": "Khabar Din Bhar Live",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
-  },
-  {
-    "start": "17:00",
-    "stop": "17:30",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775581200000,
-    "stopTs": 1775583000000,
-    "title": "Khabar Din Bhar Live",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
-  },
-  {
-    "start": "17:30",
-    "stop": "18:00",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775583000000,
-    "stopTs": 1775584800000,
-    "title": "Top 3",
-    "desc": "The host presents the top three headlines and the latest updates on governance, social, and political issues impacting the people of the state."
-  },
-  {
-    "start": "18:00",
-    "stop": "18:29",
-    "channel": "ANBNews.in",
-    "channelId": "ANBNews.in",
-    "channelName": "ANB News",
-    "startTs": 1775584800000,
-    "stopTs": 1775586599000,
-    "title": "Kya Bolti Duniya",
-    "desc": "The host presents the latest updates on important political, social and economic news from the country and around the world."
+    "desc": "The host presents the latest updates on important political, social and economic news."
   }
 ]

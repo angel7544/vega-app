@@ -1,0 +1,79 @@
+[
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "SubinTV.in",
+    "channelId": "SubinTV.in",
+    "channelName": "SUBIN TV",
+    "startTs": 1775471400000,
+    "stopTs": 1775475000000,
+    "title": "Thullal Paadalkal",
+    "desc": "A compilation of the popular songs with high beats of various singers is played."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "SubinTV.in",
+    "channelId": "SubinTV.in",
+    "channelName": "SUBIN TV",
+    "startTs": 1775475000000,
+    "stopTs": 1775478600000,
+    "title": "80&apos;s 90&apos;s Hits",
+    "desc": "A compilation of the greatest foot-tapping hits of the 80s and the 90s is played."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "SubinTV.in",
+    "channelId": "SubinTV.in",
+    "channelName": "SUBIN TV",
+    "startTs": 1775478600000,
+    "stopTs": 1775482200000,
+    "title": "Love Beats 2k",
+    "desc": "A series of romantic melodies from the 2000s is played in succession."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "SubinTV.in",
+    "channelId": "SubinTV.in",
+    "channelName": "SUBIN TV",
+    "startTs": 1775482200000,
+    "stopTs": 1775485800000,
+    "title": "Comedy Junction",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "SubinTV.in",
+    "channelId": "SubinTV.in",
+    "channelName": "SUBIN TV",
+    "startTs": 1775485800000,
+    "stopTs": 1775489400000,
+    "title": "Actor Hits",
+    "desc": "A series of musical hits featuring popular actors are played in succession."
+  },
+  {
+    "start": "15:30",
+    "stop": "18:00",
+    "channel": "SubinTV.in",
+    "channelId": "SubinTV.in",
+    "channelName": "SUBIN TV",
+    "startTs": 1775489400000,
+    "stopTs": 1775498400000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "SubinTV.in",
+    "channelId": "SubinTV.in",
+    "channelName": "SUBIN TV",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Cinema Junction",
+    "desc": "The host sheds light on the Tamil film industry, covering key aspects of the fraternity."
+  }
+]

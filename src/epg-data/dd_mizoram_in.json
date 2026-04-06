@@ -1,0 +1,156 @@
+[
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "DDMizoram.in",
+    "channelId": "DDMizoram.in",
+    "channelName": "DD Mizoram",
+    "startTs": 1775471400000,
+    "stopTs": 1775475000000,
+    "title": "Request Programme",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "11:30",
+    "stop": "11:58",
+    "channel": "DDMizoram.in",
+    "channelId": "DDMizoram.in",
+    "channelName": "DD Mizoram",
+    "startTs": 1775475000000,
+    "stopTs": 1775476680000,
+    "title": "Zoram Thlirna - District Chanchin Live",
+    "desc": "The host delivers the latest news on various issues from Mizoram&apos;s Chanchin district, live."
+  },
+  {
+    "start": "11:58",
+    "stop": "12:00",
+    "channel": "DDMizoram.in",
+    "channelId": "DDMizoram.in",
+    "channelName": "DD Mizoram",
+    "startTs": 1775476680000,
+    "stopTs": 1775476800000,
+    "title": "Promotional Spot",
+    "desc": "Bringing the best of television."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:27",
+    "channel": "DDMizoram.in",
+    "channelId": "DDMizoram.in",
+    "channelName": "DD Mizoram",
+    "startTs": 1775476800000,
+    "stopTs": 1775478420000,
+    "title": "Scripture Discourse",
+    "desc": "Religious leaders deliver discourses based on verses from various scriptures."
+  },
+  {
+    "start": "12:27",
+    "stop": "12:30",
+    "channel": "DDMizoram.in",
+    "channelId": "DDMizoram.in",
+    "channelName": "DD Mizoram",
+    "startTs": 1775478420000,
+    "stopTs": 1775478600000,
+    "title": "Promotional Spot",
+    "desc": "Bringing the best of television."
+  },
+  {
+    "start": "12:30",
+    "stop": "12:53",
+    "channel": "DDMizoram.in",
+    "channelId": "DDMizoram.in",
+    "channelName": "DD Mizoram",
+    "startTs": 1775478600000,
+    "stopTs": 1775479980000,
+    "title": "In Nghahna Dik",
+    "desc": "A sermon that resonates deeply has passion and clarity that creates a sense of unity."
+  },
+  {
+    "start": "12:53",
+    "stop": "13:00",
+    "channel": "DDMizoram.in",
+    "channelId": "DDMizoram.in",
+    "channelName": "DD Mizoram",
+    "startTs": 1775479980000,
+    "stopTs": 1775480400000,
+    "title": "Commercial Spot / Devotional Songs",
+    "desc": "The host showcases various products; a collection of devotional songs is presented."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:15",
+    "channel": "DDMizoram.in",
+    "channelId": "DDMizoram.in",
+    "channelName": "DD Mizoram",
+    "startTs": 1775480400000,
+    "stopTs": 1775481300000,
+    "title": "Chanchinthar Live",
+    "desc": "The host presents the latest updates on various pressing issues of the nation, live."
+  },
+  {
+    "start": "13:15",
+    "stop": "13:30",
+    "channel": "DDMizoram.in",
+    "channelId": "DDMizoram.in",
+    "channelName": "DD Mizoram",
+    "startTs": 1775481300000,
+    "stopTs": 1775482200000,
+    "title": "Over To DDK Guwahati For North East News",
+    "desc": "The host presents the latest updates on various issues from the Northeast region of India."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:18",
+    "channel": "DDMizoram.in",
+    "channelId": "DDMizoram.in",
+    "channelName": "DD Mizoram",
+    "startTs": 1775482200000,
+    "stopTs": 1775485080000,
+    "title": "Youth Programme",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "14:18",
+    "stop": "15:01",
+    "channel": "DDMizoram.in",
+    "channelId": "DDMizoram.in",
+    "channelName": "DD Mizoram",
+    "startTs": 1775485080000,
+    "stopTs": 1775487660000,
+    "title": "Lalrinmawii",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "15:01",
+    "stop": "15:15",
+    "channel": "DDMizoram.in",
+    "channelId": "DDMizoram.in",
+    "channelName": "DD Mizoram",
+    "startTs": 1775487660000,
+    "stopTs": 1775488500000,
+    "title": "Devotional Songs",
+    "desc": "A religious leader and devotees sing songs to praise the teachings of the Almighty."
+  },
+  {
+    "start": "15:15",
+    "stop": "15:30",
+    "channel": "DDMizoram.in",
+    "channelId": "DDMizoram.in",
+    "channelName": "DD Mizoram",
+    "startTs": 1775488500000,
+    "stopTs": 1775489400000,
+    "title": "Chanchinthar",
+    "desc": "The host presents information about the social, economic and political issues of the day."
+  },
+  {
+    "start": "15:30",
+    "stop": "18:30",
+    "channel": "DDMizoram.in",
+    "channelId": "DDMizoram.in",
+    "channelName": "DD Mizoram",
+    "startTs": 1775489400000,
+    "stopTs": 1775500200000,
+    "title": "Special Programme",
+    "desc": "Bringing the best in television."
+  }
+]

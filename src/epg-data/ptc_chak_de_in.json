@@ -8,7 +8,7 @@
     "startTs": 1775471400000,
     "stopTs": 1775475000000,
     "title": "Beat Drop",
-    "desc": "A comprehensive compilation of rhythmic songs composed by talented singers and musicians is played to entertain the listeners."
+    "desc": "A comprehensive compilation of rhythmic songs is played to entertain the listeners."
   },
   {
     "start": "11:30",
@@ -19,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775477400000,
     "title": "Chak De Hits",
-    "desc": "A comprehensive compilation of the latest Bhangra songs, featuring timeless artists and musicians, is played in rapid succession."
+    "desc": "A comprehensive compilation of the latest Bhangra songs, is played in rapid succession."
   },
   {
     "start": "12:10",
@@ -41,7 +41,7 @@
     "startTs": 1775477700000,
     "stopTs": 1775484900000,
     "title": "Gurbani From Huzoor Saheb Nanded Live",
-    "desc": "Religious scholars deliver discourses on Gurbani from the holy scriptures of Sikhism, reciting hymns and compositions at Hazur Sahib in Nanded, live."
+    "desc": "Religious scholars deliver discourses on Gurbani at Huzoor Sahib Gurdwara, live."
   },
   {
     "start": "14:15",
@@ -63,7 +63,7 @@
     "startTs": 1775485200000,
     "stopTs": 1775486700000,
     "title": "Teleshop",
-    "desc": "A wide selection of products that buyers can shop from the comforts of their home and take advantage of a convenient method of shopping."
+    "desc": "A wide selection of products that buyers can shop from the comforts of their home."
   },
   {
     "start": "14:45",
@@ -85,7 +85,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775493000000,
     "title": "Chak De Hits",
-    "desc": "A comprehensive compilation of the latest Bhangra songs, featuring timeless artists and musicians, is played in rapid succession."
+    "desc": "A comprehensive compilation of the latest Bhangra songs, is played in rapid succession."
   },
   {
     "start": "16:30",
@@ -100,244 +100,13 @@
   },
   {
     "start": "17:30",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "PTCChakde.in",
     "channelId": "PTCChakde.in",
     "channelName": "PTC Chak De",
     "startTs": 1775496600000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "Beat Drop",
-    "desc": "A comprehensive compilation of rhythmic songs composed by talented singers and musicians is played to entertain the listeners."
-  },
-  {
-    "start": "18:30",
-    "stop": "19:30",
-    "channel": "PTCChakde.in",
-    "channelId": "PTCChakde.in",
-    "channelName": "PTC Chak De",
-    "startTs": 1775500200000,
-    "stopTs": 1775503800000,
-    "title": "Beat Drop",
-    "desc": "A comprehensive compilation of rhythmic songs composed by talented singers and musicians is played to entertain the listeners."
-  },
-  {
-    "start": "19:30",
-    "stop": "01:30",
-    "channel": "PTCChakde.in",
-    "channelId": "PTCChakde.in",
-    "channelName": "PTC Chak De",
-    "startTs": 1775503800000,
-    "stopTs": 1775525400000,
-    "title": "Chak De Hits",
-    "desc": "A comprehensive compilation of the latest Bhangra songs, featuring timeless artists and musicians, is played in rapid succession."
-  },
-  {
-    "start": "01:30",
-    "stop": "02:30",
-    "channel": "PTCChakde.in",
-    "channelId": "PTCChakde.in",
-    "channelName": "PTC Chak De",
-    "startTs": 1775525400000,
-    "stopTs": 1775529000000,
-    "title": "Vibe Tey Dhol",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "02:30",
-    "stop": "03:30",
-    "channel": "PTCChakde.in",
-    "channelId": "PTCChakde.in",
-    "channelName": "PTC Chak De",
-    "startTs": 1775529000000,
-    "stopTs": 1775532600000,
-    "title": "Power Pack",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "03:30",
-    "stop": "04:30",
-    "channel": "PTCChakde.in",
-    "channelId": "PTCChakde.in",
-    "channelName": "PTC Chak De",
-    "startTs": 1775532600000,
-    "stopTs": 1775536200000,
-    "title": "Reela Wale Geet",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "04:30",
-    "stop": "05:30",
-    "channel": "PTCChakde.in",
-    "channelId": "PTCChakde.in",
-    "channelName": "PTC Chak De",
-    "startTs": 1775536200000,
-    "stopTs": 1775539800000,
-    "title": "Beat Drop",
-    "desc": "A comprehensive compilation of rhythmic songs composed by talented singers and musicians is played to entertain the listeners."
-  },
-  {
-    "start": "05:30",
-    "stop": "06:30",
-    "channel": "PTCChakde.in",
-    "channelId": "PTCChakde.in",
-    "channelName": "PTC Chak De",
-    "startTs": 1775539800000,
-    "stopTs": 1775543400000,
-    "title": "10 Da Dum",
-    "desc": "A comprehensive compilation of the top ten most popular and beloved music numbers, by eminent artists, played consecutively."
-  },
-  {
-    "start": "06:30",
-    "stop": "07:30",
-    "channel": "PTCChakde.in",
-    "channelId": "PTCChakde.in",
-    "channelName": "PTC Chak De",
-    "startTs": 1775543400000,
-    "stopTs": 1775547000000,
-    "title": "Vibe Tey Dhol",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "07:30",
-    "stop": "08:30",
-    "channel": "PTCChakde.in",
-    "channelId": "PTCChakde.in",
-    "channelName": "PTC Chak De",
-    "startTs": 1775547000000,
-    "stopTs": 1775550600000,
-    "title": "Chak De Hits",
-    "desc": "A comprehensive compilation of the latest Bhangra songs, featuring timeless artists and musicians, is played in rapid succession."
-  },
-  {
-    "start": "08:30",
-    "stop": "09:30",
-    "channel": "PTCChakde.in",
-    "channelId": "PTCChakde.in",
-    "channelName": "PTC Chak De",
-    "startTs": 1775550600000,
-    "stopTs": 1775554200000,
-    "title": "Power Pack",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "09:30",
-    "stop": "10:30",
-    "channel": "PTCChakde.in",
-    "channelId": "PTCChakde.in",
-    "channelName": "PTC Chak De",
-    "startTs": 1775554200000,
-    "stopTs": 1775557800000,
-    "title": "Reela Wale Geet",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "10:30",
-    "stop": "11:30",
-    "channel": "PTCChakde.in",
-    "channelId": "PTCChakde.in",
-    "channelName": "PTC Chak De",
-    "startTs": 1775557800000,
-    "stopTs": 1775561400000,
-    "title": "Beat Drop",
-    "desc": "A comprehensive compilation of rhythmic songs composed by talented singers and musicians is played to entertain the listeners."
-  },
-  {
-    "start": "11:30",
-    "stop": "12:10",
-    "channel": "PTCChakde.in",
-    "channelId": "PTCChakde.in",
-    "channelName": "PTC Chak De",
-    "startTs": 1775561400000,
-    "stopTs": 1775563800000,
-    "title": "Chak De Hits",
-    "desc": "A comprehensive compilation of the latest Bhangra songs, featuring timeless artists and musicians, is played in rapid succession."
-  },
-  {
-    "start": "12:10",
-    "stop": "12:15",
-    "channel": "PTCChakde.in",
-    "channelId": "PTCChakde.in",
-    "channelName": "PTC Chak De",
-    "startTs": 1775563800000,
-    "stopTs": 1775564100000,
-    "title": "Religious Content",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "12:15",
-    "stop": "14:15",
-    "channel": "PTCChakde.in",
-    "channelId": "PTCChakde.in",
-    "channelName": "PTC Chak De",
-    "startTs": 1775564100000,
-    "stopTs": 1775571300000,
-    "title": "Gurbani From Huzoor Saheb Nanded Live",
-    "desc": "Religious scholars deliver discourses on Gurbani from the holy scriptures of Sikhism, reciting hymns and compositions at Hazur Sahib in Nanded, live."
-  },
-  {
-    "start": "14:15",
-    "stop": "14:20",
-    "channel": "PTCChakde.in",
-    "channelId": "PTCChakde.in",
-    "channelName": "PTC Chak De",
-    "startTs": 1775571300000,
-    "stopTs": 1775571600000,
-    "title": "Religious Content",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "14:20",
-    "stop": "14:45",
-    "channel": "PTCChakde.in",
-    "channelId": "PTCChakde.in",
-    "channelName": "PTC Chak De",
-    "startTs": 1775571600000,
-    "stopTs": 1775573100000,
-    "title": "Teleshop",
-    "desc": "A wide selection of products that buyers can shop from the comforts of their home and take advantage of a convenient method of shopping."
-  },
-  {
-    "start": "14:45",
-    "stop": "15:30",
-    "channel": "PTCChakde.in",
-    "channelId": "PTCChakde.in",
-    "channelName": "PTC Chak De",
-    "startTs": 1775573100000,
-    "stopTs": 1775575800000,
-    "title": "Reela Wale Geet",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:30",
-    "channel": "PTCChakde.in",
-    "channelId": "PTCChakde.in",
-    "channelName": "PTC Chak De",
-    "startTs": 1775575800000,
-    "stopTs": 1775579400000,
-    "title": "Chak De Hits",
-    "desc": "A comprehensive compilation of the latest Bhangra songs, featuring timeless artists and musicians, is played in rapid succession."
-  },
-  {
-    "start": "16:30",
-    "stop": "17:30",
-    "channel": "PTCChakde.in",
-    "channelId": "PTCChakde.in",
-    "channelName": "PTC Chak De",
-    "startTs": 1775579400000,
-    "stopTs": 1775583000000,
-    "title": "Vibe Tey Dhol",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "17:30",
-    "stop": "18:29",
-    "channel": "PTCChakde.in",
-    "channelId": "PTCChakde.in",
-    "channelName": "PTC Chak De",
-    "startTs": 1775583000000,
-    "stopTs": 1775586599000,
-    "title": "Beat Drop",
-    "desc": "A comprehensive compilation of rhythmic songs composed by talented singers and musicians is played to entertain the listeners."
+    "desc": "A comprehensive compilation of rhythmic songs is played to entertain the listeners."
   }
 ]

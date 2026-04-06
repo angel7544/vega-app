@@ -1,0 +1,167 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "TataPlayFitness.in",
+    "channelId": "TataPlayFitness.in",
+    "channelName": "Tata Play Fitness",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Ayurveda",
+    "desc": "Ayurveda emphasizes food that supports physical health, mental clarity, and spiritual growth. It is sattvic in nature. S01 E844."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "TataPlayFitness.in",
+    "channelId": "TataPlayFitness.in",
+    "channelName": "Tata Play Fitness",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Marika With Ranveer Singh - Nutrition",
+    "desc": "Cook and eat healthy, understand the nutritional values of food, know what meals your favourite celebs love eating. S01 E848."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "TataPlayFitness.in",
+    "channelId": "TataPlayFitness.in",
+    "channelName": "Tata Play Fitness",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Traditional Yoga",
+    "desc": "Tone your body and increase your flexibility with our 30 minute yoga session. S01 E98."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "TataPlayFitness.in",
+    "channelId": "TataPlayFitness.in",
+    "channelName": "Tata Play Fitness",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Yoga From Frisco for Seniors Citizens",
+    "desc": ". S01 E626."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "TataPlayFitness.in",
+    "channelId": "TataPlayFitness.in",
+    "channelName": "Tata Play Fitness",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Yoga From Frisco for Seniors Citizens",
+    "desc": ". S01 E626."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "TataPlayFitness.in",
+    "channelId": "TataPlayFitness.in",
+    "channelName": "Tata Play Fitness",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Live Class",
+    "desc": "Live sessions with the best trainers only on Tata Play Fitness. S01 E685."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "TataPlayFitness.in",
+    "channelId": "TataPlayFitness.in",
+    "channelName": "Tata Play Fitness",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Live Class - Workout With Rebekah Strachan",
+    "desc": "Live sessions with the best trainers only on Tata Play Fitness. S01 E768."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "TataPlayFitness.in",
+    "channelId": "TataPlayFitness.in",
+    "channelName": "Tata Play Fitness",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Fit & Famous",
+    "desc": "Indulge in one to one coversation with famous celebrities to know their fitness regime. S01 E427."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "TataPlayFitness.in",
+    "channelId": "TataPlayFitness.in",
+    "channelName": "Tata Play Fitness",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Xtreme Fit - Workout",
+    "desc": "A 30-minute workout session is all that is needed to stay fit & in shape. S01 E755."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "TataPlayFitness.in",
+    "channelId": "TataPlayFitness.in",
+    "channelName": "Tata Play Fitness",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Traditional Yoga",
+    "desc": "Tone your body and increase your flexibility with our 30 minute yoga session. S01 E98."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "TataPlayFitness.in",
+    "channelId": "TataPlayFitness.in",
+    "channelName": "Tata Play Fitness",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Xtreme Fit - Workout",
+    "desc": "A 30-minute workout session is all that is needed to stay fit & in shape. S01 E755."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "TataPlayFitness.in",
+    "channelId": "TataPlayFitness.in",
+    "channelName": "Tata Play Fitness",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Meditation Challenge Anvita Dixit",
+    "desc": "30 minute of guided meditation which will help you stay calm, improve focus and sleep well. S01 E10."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "TataPlayFitness.in",
+    "channelId": "TataPlayFitness.in",
+    "channelName": "Tata Play Fitness",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Guided Meditation",
+    "desc": "30 minute of guided meditation which will help you stay calm, improve focus and sleep well. S01 E195."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "TataPlayFitness.in",
+    "channelId": "TataPlayFitness.in",
+    "channelName": "Tata Play Fitness",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Meditation Challenge Anvita Dixit",
+    "desc": "30 minute of guided meditation which will help you stay calm, improve focus and sleep well. S01 E10."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "TataPlayFitness.in",
+    "channelId": "TataPlayFitness.in",
+    "channelName": "Tata Play Fitness",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Guided Meditation",
+    "desc": "30 minute of guided meditation which will help you stay calm, improve focus and sleep well. S01 E195."
+  }
+]

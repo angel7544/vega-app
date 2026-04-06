@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Hum Dono",
-    "desc": "Bringing the best in television and entertainment programming."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "RajPariwar.in",
@@ -41,7 +30,7 @@
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Fresh Hits",
-    "desc": "A comprehensive compilation of some of the latest and most popular songs featuring various singers and musicians played back to back."
+    "desc": "A compilation of the latest songs featuring various popular singers."
   },
   {
     "start": "12:30",
@@ -63,7 +52,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Hit Chart",
-    "desc": "A compilation of the greatest foot-tapping hits from Bollywood is played back to back in order to entertain the audience."
+    "desc": "A compilation of the greatest foot-tapping hits from Bollywood is played back to back."
   },
   {
     "start": "13:30",
@@ -85,7 +74,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Fresh Hits",
-    "desc": "A comprehensive compilation of some of the latest and most popular songs featuring various singers and musicians played back to back."
+    "desc": "A compilation of the latest songs featuring various popular singers."
   },
   {
     "start": "14:30",
@@ -96,7 +85,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "60 Ke Dashak Ka Sabse Acha",
-    "desc": "A comprehensive compilation of timeless oldies performed by renowned artists and musicians, is played in rapid succession."
+    "desc": "A comprehensive compilation of timeless oldies is played in rapid succession."
   },
   {
     "start": "15:00",
@@ -118,7 +107,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Taal",
-    "desc": "A comprehensive compilation of melodious songs composed by various musicians and performed by popular singers played back-to-back."
+    "desc": "A comprehensive compilation of melodious songs played back-to-back."
   },
   {
     "start": "16:00",
@@ -140,7 +129,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Show Reel",
-    "desc": "The host presents reviews of the latest movies along with interviews with the cast and crew of the films."
+    "desc": "The host provides reviews of recently released movies and provides ratings."
   },
   {
     "start": "17:00",
@@ -151,7 +140,7 @@
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Prem Geeth",
-    "desc": "Devotees gather to recite a collection of religious songs and verses while seeking blessings and offering their prayers to the Almighty."
+    "desc": "Devotees gather to recite religious songs and verses while seeking Almighty&apos;s blessings."
   },
   {
     "start": "17:30",
@@ -162,545 +151,17 @@
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Purana Sabse Behatar",
-    "desc": "A compilation of some of the most melodious classic Bollywood hits are played back to back in order to entertain the audience."
+    "desc": "A compilation of the most melodious classic Bollywood hits are played back to back."
   },
   {
     "start": "18:00",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "RajPariwar.in",
     "channelId": "RajPariwar.in",
     "channelName": "Raj Pariwar",
     "startTs": 1775498400000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "Songs",
-    "desc": "A comprehensive compilation of popular songs curated by renowned artists is played back to back to entertain the audience."
-  },
-  {
-    "start": "18:30",
-    "stop": "19:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775500200000,
-    "stopTs": 1775502000000,
-    "title": "Songs",
-    "desc": "A comprehensive compilation of popular songs curated by renowned artists is played back to back to entertain the audience."
-  },
-  {
-    "start": "19:00",
-    "stop": "19:30",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775502000000,
-    "stopTs": 1775503800000,
-    "title": "Songs",
-    "desc": "A comprehensive compilation of popular songs curated by renowned artists is played back to back to entertain the audience."
-  },
-  {
-    "start": "19:30",
-    "stop": "20:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775503800000,
-    "stopTs": 1775505600000,
-    "title": "Songs",
-    "desc": "A comprehensive compilation of popular songs curated by renowned artists is played back to back to entertain the audience."
-  },
-  {
-    "start": "20:00",
-    "stop": "20:30",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775505600000,
-    "stopTs": 1775507400000,
-    "title": "Songs",
-    "desc": "A comprehensive compilation of popular songs curated by renowned artists is played back to back to entertain the audience."
-  },
-  {
-    "start": "20:30",
-    "stop": "21:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775507400000,
-    "stopTs": 1775509200000,
-    "title": "Songs",
-    "desc": "A comprehensive compilation of popular songs curated by renowned artists is played back to back to entertain the audience."
-  },
-  {
-    "start": "21:00",
-    "stop": "21:30",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775509200000,
-    "stopTs": 1775511000000,
-    "title": "Songs",
-    "desc": "A comprehensive compilation of popular songs curated by renowned artists is played back to back to entertain the audience."
-  },
-  {
-    "start": "21:30",
-    "stop": "22:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775511000000,
-    "stopTs": 1775512800000,
-    "title": "Songs",
-    "desc": "A comprehensive compilation of popular songs curated by renowned artists is played back to back to entertain the audience."
-  },
-  {
-    "start": "22:00",
-    "stop": "22:30",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775512800000,
-    "stopTs": 1775514600000,
-    "title": "Songs",
-    "desc": "A comprehensive compilation of popular songs curated by renowned artists is played back to back to entertain the audience."
-  },
-  {
-    "start": "22:30",
-    "stop": "23:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775514600000,
-    "stopTs": 1775516400000,
-    "title": "Songs",
-    "desc": "A comprehensive compilation of popular songs curated by renowned artists is played back to back to entertain the audience."
-  },
-  {
-    "start": "23:00",
-    "stop": "23:30",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775516400000,
-    "stopTs": 1775518200000,
-    "title": "Songs",
-    "desc": "A comprehensive compilation of popular songs curated by renowned artists is played back to back to entertain the audience."
-  },
-  {
-    "start": "23:30",
-    "stop": "00:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775518200000,
-    "stopTs": 1775520000000,
-    "title": "Songs",
-    "desc": "A comprehensive compilation of popular songs curated by renowned artists is played back to back to entertain the audience."
-  },
-  {
-    "start": "00:00",
-    "stop": "00:30",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775520000000,
-    "stopTs": 1775521800000,
-    "title": "Prarthana Geeth",
-    "desc": "A religious leader elaborates on the teachings of the Almighty and encourages followers to follow the path of spirituality."
-  },
-  {
-    "start": "00:30",
-    "stop": "01:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775521800000,
-    "stopTs": 1775523600000,
-    "title": "Sunhera Gaanem",
-    "desc": "A comprehensive compilation of songs and tunes composed and sung by renowned music artists is played back to back to enthral the audience."
-  },
-  {
-    "start": "01:00",
-    "stop": "01:30",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775523600000,
-    "stopTs": 1775525400000,
-    "title": "Prem Geeth",
-    "desc": "Devotees gather to recite a collection of religious songs and verses while seeking blessings and offering their prayers to the Almighty."
-  },
-  {
-    "start": "01:30",
-    "stop": "02:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775525400000,
-    "stopTs": 1775527200000,
-    "title": "Bollywood Songs",
-    "desc": "A comprehensive compilation of some of the most popular and foot-tapping Bollywood songs by various music artists is played back to back to entertain the audience."
-  },
-  {
-    "start": "02:00",
-    "stop": "02:30",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775527200000,
-    "stopTs": 1775529000000,
-    "title": "Hits Of 1960&apos;s",
-    "desc": "A comprehensive compilation of some of the most popular and celebrated music numbers of the 1960&apos;s, played consecutively."
-  },
-  {
-    "start": "02:30",
-    "stop": "03:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775529000000,
-    "stopTs": 1775530800000,
-    "title": "Subah Ki Shaan",
-    "desc": "A religious expert offers daily reflections, scriptural insights and prayers to help devotees find their renewed purpose in God."
-  },
-  {
-    "start": "03:00",
-    "stop": "03:30",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775530800000,
-    "stopTs": 1775532600000,
-    "title": "Jheel",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "03:30",
-    "stop": "04:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775532600000,
-    "stopTs": 1775534400000,
-    "title": "Thaza Kaatne",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "04:00",
-    "stop": "04:30",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775534400000,
-    "stopTs": 1775536200000,
-    "title": "Love Bites",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "04:30",
-    "stop": "05:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775536200000,
-    "stopTs": 1775538000000,
-    "title": "Sunhera Gaanem",
-    "desc": "A comprehensive compilation of songs and tunes composed and sung by renowned music artists is played back to back to enthral the audience."
-  },
-  {
-    "start": "05:00",
-    "stop": "05:30",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775538000000,
-    "stopTs": 1775539800000,
-    "title": "Pyaar Ke Katne",
-    "desc": "A comprehensive compilation of romantic love songs composed and sung by various well-known music artists is played back to back."
-  },
-  {
-    "start": "05:30",
-    "stop": "06:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775539800000,
-    "stopTs": 1775541600000,
-    "title": "Box Office",
-    "desc": "A comprehensive compilation of popular songs from the latest films that have fared well at the box office is played back to back."
-  },
-  {
-    "start": "06:00",
-    "stop": "06:30",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775541600000,
-    "stopTs": 1775543400000,
-    "title": "Hits Of 1950",
-    "desc": "A comprehensive compilation of melodious songs from the 1950s composed by various musicians and performed by popular singers is played back-to-back."
-  },
-  {
-    "start": "06:30",
-    "stop": "07:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775543400000,
-    "stopTs": 1775545200000,
-    "title": "Album",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "07:00",
-    "stop": "07:30",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775545200000,
-    "stopTs": 1775547000000,
-    "title": "Shahrukh Hits",
-    "desc": "A comprehensive compilation of some of the popular and romantic songs of Shahrukh Khan, a Bollywood actor, are played back to back."
-  },
-  {
-    "start": "07:30",
-    "stop": "08:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775547000000,
-    "stopTs": 1775548800000,
-    "title": "Mega Hits",
-    "desc": "A comprehensive compilation of some of the most popular songs performed by renowned artists and bands played back to back."
-  },
-  {
-    "start": "08:00",
-    "stop": "08:30",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775548800000,
-    "stopTs": 1775550600000,
-    "title": "Fresh Songs",
-    "desc": "A comprehensive compilation of newly released songs composed and performed by talented artists and musicians is played back to back."
-  },
-  {
-    "start": "08:30",
-    "stop": "09:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775550600000,
-    "stopTs": 1775552400000,
-    "title": "Love Bites",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "09:00",
-    "stop": "09:30",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775552400000,
-    "stopTs": 1775554200000,
-    "title": "Songs",
-    "desc": "A comprehensive compilation of popular songs curated by renowned artists is played back to back to entertain the audience."
-  },
-  {
-    "start": "09:30",
-    "stop": "10:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775554200000,
-    "stopTs": 1775556000000,
-    "title": "Songs",
-    "desc": "A comprehensive compilation of popular songs curated by renowned artists is played back to back to entertain the audience."
-  },
-  {
-    "start": "10:00",
-    "stop": "10:30",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775556000000,
-    "stopTs": 1775557800000,
-    "title": "Old Is Gold",
-    "desc": "A rich and soulful collection of soothing, melodious songs from vintage movies is played in succession to take listeners back in time."
-  },
-  {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775557800000,
-    "stopTs": 1775559600000,
-    "title": "Hum Dono",
-    "desc": "Bringing the best in television and entertainment programming."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:30",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775559600000,
-    "stopTs": 1775561400000,
-    "title": "Nishta",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "11:30",
-    "stop": "12:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775561400000,
-    "stopTs": 1775563200000,
-    "title": "Prem Geeth",
-    "desc": "Devotees gather to recite a collection of religious songs and verses while seeking blessings and offering their prayers to the Almighty."
-  },
-  {
-    "start": "12:00",
-    "stop": "12:30",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775563200000,
-    "stopTs": 1775565000000,
-    "title": "Fresh Hits",
-    "desc": "A comprehensive compilation of some of the latest and most popular songs featuring various singers and musicians played back to back."
-  },
-  {
-    "start": "12:30",
-    "stop": "13:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775565000000,
-    "stopTs": 1775566800000,
-    "title": "Maya Nadee",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "13:00",
-    "stop": "13:30",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775566800000,
-    "stopTs": 1775568600000,
-    "title": "Hit Chart",
-    "desc": "A compilation of the greatest foot-tapping hits from Bollywood is played back to back in order to entertain the audience."
-  },
-  {
-    "start": "13:30",
-    "stop": "14:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775568600000,
-    "stopTs": 1775570400000,
-    "title": "Prem Geeth",
-    "desc": "Devotees gather to recite a collection of religious songs and verses while seeking blessings and offering their prayers to the Almighty."
-  },
-  {
-    "start": "14:00",
-    "stop": "14:30",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775570400000,
-    "stopTs": 1775572200000,
-    "title": "Fresh Hits",
-    "desc": "A comprehensive compilation of some of the latest and most popular songs featuring various singers and musicians played back to back."
-  },
-  {
-    "start": "14:30",
-    "stop": "15:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775572200000,
-    "stopTs": 1775574000000,
-    "title": "60 Ke Dashak Ka Sabse Acha",
-    "desc": "A comprehensive compilation of timeless oldies performed by renowned artists and musicians, is played in rapid succession."
-  },
-  {
-    "start": "15:00",
-    "stop": "15:30",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775574000000,
-    "stopTs": 1775575800000,
-    "title": "Love Bites",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775575800000,
-    "stopTs": 1775577600000,
-    "title": "Taal",
-    "desc": "A comprehensive compilation of melodious songs composed by various musicians and performed by popular singers played back-to-back."
-  },
-  {
-    "start": "16:00",
-    "stop": "16:30",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775577600000,
-    "stopTs": 1775579400000,
-    "title": "Maya Nadee",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "16:30",
-    "stop": "17:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775579400000,
-    "stopTs": 1775581200000,
-    "title": "Show Reel",
-    "desc": "The host presents reviews of the latest movies along with interviews with the cast and crew of the films."
-  },
-  {
-    "start": "17:00",
-    "stop": "17:30",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775581200000,
-    "stopTs": 1775583000000,
-    "title": "Prem Geeth",
-    "desc": "Devotees gather to recite a collection of religious songs and verses while seeking blessings and offering their prayers to the Almighty."
-  },
-  {
-    "start": "17:30",
-    "stop": "18:00",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775583000000,
-    "stopTs": 1775584800000,
-    "title": "Purana Sabse Behatar",
-    "desc": "A compilation of some of the most melodious classic Bollywood hits are played back to back in order to entertain the audience."
-  },
-  {
-    "start": "18:00",
-    "stop": "18:29",
-    "channel": "RajPariwar.in",
-    "channelId": "RajPariwar.in",
-    "channelName": "Raj Pariwar",
-    "startTs": 1775584800000,
-    "stopTs": 1775586599000,
-    "title": "Songs",
-    "desc": "A comprehensive compilation of popular songs curated by renowned artists is played back to back to entertain the audience."
+    "desc": "A compilation of popular songs curated by artists is played back to back to entertain the audience."
   }
 ]

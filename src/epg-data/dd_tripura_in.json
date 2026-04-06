@@ -1,0 +1,167 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "DDTripura.in",
+    "channelId": "DDTripura.in",
+    "channelName": "DD Tripura",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Sports Programme",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "DDTripura.in",
+    "channelId": "DDTripura.in",
+    "channelName": "DD Tripura",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Agricultural Programme",
+    "desc": "The host discusses issues pertaining to the agricultural landscape of Manipur."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "DDTripura.in",
+    "channelId": "DDTripura.in",
+    "channelName": "DD Tripura",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Charcha",
+    "desc": "The host invites experts from different walks of life to discuss various topics."
+  },
+  {
+    "start": "12:30",
+    "stop": "12:45",
+    "channel": "DDTripura.in",
+    "channelId": "DDTripura.in",
+    "channelName": "DD Tripura",
+    "startTs": 1775478600000,
+    "stopTs": 1775479500000,
+    "title": "Social Awareness",
+    "desc": "The host presents several important social issues across the country."
+  },
+  {
+    "start": "12:45",
+    "stop": "13:00",
+    "channel": "DDTripura.in",
+    "channelId": "DDTripura.in",
+    "channelName": "DD Tripura",
+    "startTs": 1775479500000,
+    "stopTs": 1775480400000,
+    "title": "Bengali News",
+    "desc": "The host delivers the latest news headlines on various issues across the country."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:15",
+    "channel": "DDTripura.in",
+    "channelId": "DDTripura.in",
+    "channelName": "DD Tripura",
+    "startTs": 1775480400000,
+    "stopTs": 1775481300000,
+    "title": "Kokborok News",
+    "desc": "The host presents the latest updates pertaining to the current affairs of the day."
+  },
+  {
+    "start": "13:15",
+    "stop": "13:30",
+    "channel": "DDTripura.in",
+    "channelId": "DDTripura.in",
+    "channelName": "DD Tripura",
+    "startTs": 1775481300000,
+    "stopTs": 1775482200000,
+    "title": "Relay Of North-East News",
+    "desc": "The host collates and presents some of the latest news from across Northeast India."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "DDTripura.in",
+    "channelId": "DDTripura.in",
+    "channelName": "DD Tripura",
+    "startTs": 1775482200000,
+    "stopTs": 1775485800000,
+    "title": "Kokborok Varieties",
+    "desc": "An educator delivers a lecture on Kokborok, the main language of the Tripuri people."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "DDTripura.in",
+    "channelId": "DDTripura.in",
+    "channelName": "DD Tripura",
+    "startTs": 1775485800000,
+    "stopTs": 1775489400000,
+    "title": "Hello Suswastha",
+    "desc": "A renowned doctor provides an explanation of answering the queries raised by viewers."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "DDTripura.in",
+    "channelId": "DDTripura.in",
+    "channelName": "DD Tripura",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Classical Dance",
+    "desc": "Trained dancers perform classical dances representing various communities of Tripura."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "DDTripura.in",
+    "channelId": "DDTripura.in",
+    "channelName": "DD Tripura",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Classical / Semi- Classical Music",
+    "desc": "A curated collection of popular classical and semi-classical songs, played consecutively."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "DDTripura.in",
+    "channelId": "DDTripura.in",
+    "channelName": "DD Tripura",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Music - Modern / Devotional / Other Songs",
+    "desc": "A collection of melodious modern, devotional, and other genres of songs is performed."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "DDTripura.in",
+    "channelId": "DDTripura.in",
+    "channelName": "DD Tripura",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Chwrai Rog Ni Panda",
+    "desc": "Children showcase their talents by performing varied art forms that exhibit their rich culture."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "DDTripura.in",
+    "channelId": "DDTripura.in",
+    "channelName": "DD Tripura",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Mangpili Ni Ganthi",
+    "desc": "A compilation of renowned songs is played back-to-back to enthral the audience."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "DDTripura.in",
+    "channelId": "DDTripura.in",
+    "channelName": "DD Tripura",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Music - Rabindra/ Modern & Other songs",
+    "desc": "A compilation of music by Rabindranath Tagore is played; a collection of modern songs is showcased."
+  }
+]

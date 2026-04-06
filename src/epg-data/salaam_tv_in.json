@@ -1,0 +1,189 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:40",
+    "channel": "SalaamTV.in",
+    "channelId": "SalaamTV.in",
+    "channelName": "Salaam TV",
+    "startTs": 1775473200000,
+    "stopTs": 1775475600000,
+    "title": "Dars-E-Quran",
+    "desc": "Translation of the Holy Quran from the Arabic language to Hindustani language."
+  },
+  {
+    "start": "11:40",
+    "stop": "11:45",
+    "channel": "SalaamTV.in",
+    "channelId": "SalaamTV.in",
+    "channelName": "Salaam TV",
+    "startTs": 1775475600000,
+    "stopTs": 1775475900000,
+    "title": "Waris Baig",
+    "desc": "A religious couplet performed by Pakistani singer Waris Baig for the devotees of God."
+  },
+  {
+    "start": "11:45",
+    "stop": "12:30",
+    "channel": "SalaamTV.in",
+    "channelId": "SalaamTV.in",
+    "channelName": "Salaam TV",
+    "startTs": 1775475900000,
+    "stopTs": 1775478600000,
+    "title": "Dars-E-Hadith",
+    "desc": "The program features depiction of the life of Prophet Mohammed to inspire the Muslim community."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "SalaamTV.in",
+    "channelId": "SalaamTV.in",
+    "channelName": "Salaam TV",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Taleemat E Islam",
+    "desc": "The program features teachings and ideologies of Prophet Mohammad (P.B.U.H)."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "SalaamTV.in",
+    "channelId": "SalaamTV.in",
+    "channelName": "Salaam TV",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Salaam Aaj",
+    "desc": "The program features day-to-day holy Islamic activities that occur across the nation."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "SalaamTV.in",
+    "channelId": "SalaamTV.in",
+    "channelName": "Salaam TV",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Akbar Kausar",
+    "desc": "Featuring a devotional programme."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "SalaamTV.in",
+    "channelId": "SalaamTV.in",
+    "channelName": "Salaam TV",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Salaam-E-Mehfil",
+    "desc": "Mushaira is a form of poetic symposium where aspiring poets participate and express their talent."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "SalaamTV.in",
+    "channelId": "SalaamTV.in",
+    "channelName": "Salaam TV",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Hamd-o-Naat",
+    "desc": "A beautiful collection of Hamd and Naat recited by acclaimed Naat Khwans."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "SalaamTV.in",
+    "channelId": "SalaamTV.in",
+    "channelName": "Salaam TV",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Khana Khazana",
+    "desc": "Sanjaeev Kapoor teaches you to cook your favourite delicacies. Cooking will never be boring again."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "SalaamTV.in",
+    "channelId": "SalaamTV.in",
+    "channelName": "Salaam TV",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Teleshopping",
+    "desc": "Presenting the latest products live on television that can be ordered directly from home."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:40",
+    "channel": "SalaamTV.in",
+    "channelId": "SalaamTV.in",
+    "channelName": "Salaam TV",
+    "startTs": 1775491200000,
+    "stopTs": 1775493600000,
+    "title": "Tilawat E Quran",
+    "desc": "Devotional program."
+  },
+  {
+    "start": "16:40",
+    "stop": "16:50",
+    "channel": "SalaamTV.in",
+    "channelId": "SalaamTV.in",
+    "channelName": "Salaam TV",
+    "startTs": 1775493600000,
+    "stopTs": 1775494200000,
+    "title": "Quirat-Ul-Quran",
+    "desc": "Religious experts chant scriptures from the Holy Quran, offering insightful explanations."
+  },
+  {
+    "start": "16:50",
+    "stop": "16:55",
+    "channel": "SalaamTV.in",
+    "channelId": "SalaamTV.in",
+    "channelName": "Salaam TV",
+    "startTs": 1775494200000,
+    "stopTs": 1775494500000,
+    "title": "Quirat-Ul-Quran",
+    "desc": "Religious experts chant scriptures from the Holy Quran, offering insightful explanations."
+  },
+  {
+    "start": "16:55",
+    "stop": "17:00",
+    "channel": "SalaamTV.in",
+    "channelId": "SalaamTV.in",
+    "channelName": "Salaam TV",
+    "startTs": 1775494500000,
+    "stopTs": 1775494800000,
+    "title": "Faruq Baig",
+    "desc": "Listen to &apos;hamd&apos;, a religious verse, sung in praise of Allah by Faruq Baig."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "SalaamTV.in",
+    "channelId": "SalaamTV.in",
+    "channelName": "Salaam TV",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Salaam-E-Mehfil",
+    "desc": "Mushaira is a form of poetic symposium where aspiring poets participate and express their talent."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "SalaamTV.in",
+    "channelId": "SalaamTV.in",
+    "channelName": "Salaam TV",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Khana Khazana",
+    "desc": "Sanjaeev Kapoor teaches you to cook your favourite delicacies. Cooking will never be boring again."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "SalaamTV.in",
+    "channelId": "SalaamTV.in",
+    "channelName": "Salaam TV",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Qawalli",
+    "desc": "Qawwali is performed by the Nizami brothers and other renowned Qawwali performers."
+  }
+]

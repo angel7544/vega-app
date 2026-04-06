@@ -1,0 +1,167 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "Rajya24.in",
+    "channelId": "Rajya24.in",
+    "channelName": "Rajya 24",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Halchal @ 4 Pm",
+    "desc": "The host sheds light on the latest news updates and developments happening in India."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "Rajya24.in",
+    "channelId": "Rajya24.in",
+    "channelName": "Rajya 24",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Halchal @ 5 Pm",
+    "desc": "The presenter highlights the latest socio-political and economic occurrences across the nation."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "Rajya24.in",
+    "channelId": "Rajya24.in",
+    "channelName": "Rajya 24",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Halchal @ 5 Pm",
+    "desc": "The presenter highlights the latest socio-political and economic occurrences across the nation."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "Rajya24.in",
+    "channelId": "Rajya24.in",
+    "channelName": "Rajya 24",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Evening Halchal",
+    "desc": "The host sheds light on the latest news updates and developments of the day."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "Rajya24.in",
+    "channelId": "Rajya24.in",
+    "channelName": "Rajya 24",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Evening Halchal",
+    "desc": "The host sheds light on the latest news updates and developments of the day."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "Rajya24.in",
+    "channelId": "Rajya24.in",
+    "channelName": "Rajya 24",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Prime Time Halchal",
+    "desc": "The host presents the latest developments and events on crucial issues of the country."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "Rajya24.in",
+    "channelId": "Rajya24.in",
+    "channelName": "Rajya 24",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Prime Time Halchal",
+    "desc": "The host presents the latest developments and events on crucial issues of the country."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "Rajya24.in",
+    "channelId": "Rajya24.in",
+    "channelName": "Rajya 24",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Prime Time Halchal",
+    "desc": "The host presents the latest developments and events on crucial issues of the country."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "Rajya24.in",
+    "channelId": "Rajya24.in",
+    "channelName": "Rajya 24",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Prime Time Halchal",
+    "desc": "The host presents the latest developments and events on crucial issues of the country."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "Rajya24.in",
+    "channelId": "Rajya24.in",
+    "channelName": "Rajya 24",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Halchal @ 9 Pm",
+    "desc": "The host presents the latest news and updates from the state of Odisha and the country."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "Rajya24.in",
+    "channelId": "Rajya24.in",
+    "channelName": "Rajya 24",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Halchal @ 9 Pm",
+    "desc": "The host presents the latest news and updates from the state of Odisha and the country."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "Rajya24.in",
+    "channelId": "Rajya24.in",
+    "channelName": "Rajya 24",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Late Night Halchal",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "Rajya24.in",
+    "channelId": "Rajya24.in",
+    "channelName": "Rajya 24",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Late Night Halchal",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "Rajya24.in",
+    "channelId": "Rajya24.in",
+    "channelName": "Rajya 24",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Late Night Halchal",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "Rajya24.in",
+    "channelId": "Rajya24.in",
+    "channelName": "Rajya 24",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Late Night Halchal",
+    "desc": "Bringing the best in television."
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "KalaignarSeithigal.in",
+    "channelId": "KalaignarSeithigal.in",
+    "channelName": "Seithigal TV",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Oru Vari Seithigal",
+    "desc": "The host sheds light on the week&apos;s top news updates from across the state and the nation."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "KalaignarSeithigal.in",
+    "channelId": "KalaignarSeithigal.in",
+    "channelName": "Seithigal TV",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "News",
+    "desc": "The hosts present the latest updates pertaining to politics, economic and social news."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "KalaignarSeithigal.in",
+    "channelId": "KalaignarSeithigal.in",
+    "channelName": "Seithigal TV",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Cinema",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "KalaignarSeithigal.in",
+    "channelId": "KalaignarSeithigal.in",
+    "channelName": "Seithigal TV",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Oru Vari Seithigal",
+    "desc": "The host sheds light on the week&apos;s top news updates from across the state and the nation."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "KalaignarSeithigal.in",
+    "channelId": "KalaignarSeithigal.in",
+    "channelName": "Seithigal TV",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Thozhilnutpa Seithigal",
+    "desc": "The host sheds light on numerous technology-related top stories and important updates."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "KalaignarSeithigal.in",
+    "channelId": "KalaignarSeithigal.in",
+    "channelName": "Seithigal TV",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "News",
+    "desc": "The hosts present the latest updates pertaining to politics, economic and social news."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "KalaignarSeithigal.in",
+    "channelId": "KalaignarSeithigal.in",
+    "channelName": "Seithigal TV",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "A District News",
+    "desc": "The host presents the latest news stories and updates surrounding various issues around the country."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "KalaignarSeithigal.in",
+    "channelId": "KalaignarSeithigal.in",
+    "channelName": "Seithigal TV",
+    "startTs": 1775485800000,
+    "stopTs": 1775489400000,
+    "title": "Sindhanai Kalam",
+    "desc": "The host invites a panel of guests and they have a discussion about various topics."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "KalaignarSeithigal.in",
+    "channelId": "KalaignarSeithigal.in",
+    "channelName": "Seithigal TV",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Top 10 News",
+    "desc": "The host presents updates on various social, political and economic issues."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "KalaignarSeithigal.in",
+    "channelId": "KalaignarSeithigal.in",
+    "channelName": "Seithigal TV",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Arasiyal Pettai",
+    "desc": "The host presents an in-depth analysis of the political updates in Tamil Nadu."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "KalaignarSeithigal.in",
+    "channelId": "KalaignarSeithigal.in",
+    "channelName": "Seithigal TV",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "News",
+    "desc": "The hosts present the latest updates pertaining to politics, economic and social news."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "KalaignarSeithigal.in",
+    "channelId": "KalaignarSeithigal.in",
+    "channelName": "Seithigal TV",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Kutram Thedi",
+    "desc": "The host presents a detailed update of different crimes happening in society."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "KalaignarSeithigal.in",
+    "channelId": "KalaignarSeithigal.in",
+    "channelName": "Seithigal TV",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "News",
+    "desc": "The hosts present the latest updates pertaining to politics, economic and social news."
+  },
+  {
+    "start": "18:00",
+    "stop": "00:30",
+    "channel": "KalaignarSeithigal.in",
+    "channelId": "KalaignarSeithigal.in",
+    "channelName": "Seithigal TV",
+    "startTs": 1775498400000,
+    "stopTs": 1775521800000,
+    "title": "Cinema",
+    "desc": "Bringing the best in television."
+  }
+]

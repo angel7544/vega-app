@@ -1,0 +1,167 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "GreenChilliesTV.in",
+    "channelId": "GreenChilliesTV.in",
+    "channelName": "Green Chillies TV",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Broken Wall",
+    "desc": "Long-buried secrets surface, unraveling the fabric of reality."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "GreenChilliesTV.in",
+    "channelId": "GreenChilliesTV.in",
+    "channelName": "Green Chillies TV",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Sehmat",
+    "desc": "An army man and his wife strive to navigate their long distance relationship."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "GreenChilliesTV.in",
+    "channelId": "GreenChilliesTV.in",
+    "channelName": "Green Chillies TV",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Toh Chalein Travels With Ashish Vidyarthi",
+    "desc": "Bringing the best in television. S01 E06."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "GreenChilliesTV.in",
+    "channelId": "GreenChilliesTV.in",
+    "channelName": "Green Chillies TV",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Behind The Scenes",
+    "desc": "The crew reveals the making of famous films with renowned actors and actresses."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "GreenChilliesTV.in",
+    "channelId": "GreenChilliesTV.in",
+    "channelName": "Green Chillies TV",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Behind The Scenes",
+    "desc": "The crew reveals the making of famous films with renowned actors and actresses."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "GreenChilliesTV.in",
+    "channelId": "GreenChilliesTV.in",
+    "channelName": "Green Chillies TV",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "In This Life",
+    "desc": "Rishabh and Priya&apos;s relationship begins to crumble when financial difficulties arise."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "GreenChilliesTV.in",
+    "channelId": "GreenChilliesTV.in",
+    "channelName": "Green Chillies TV",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Mannequin",
+    "desc": "A shopaholic woman&apos;s actions force her husband to seek justice for his wallet."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "GreenChilliesTV.in",
+    "channelId": "GreenChilliesTV.in",
+    "channelName": "Green Chillies TV",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Adhoore Poore Se Hum",
+    "desc": "Two friends on a long drive confront their flawed lives when their nostalgia is shattered."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "GreenChilliesTV.in",
+    "channelId": "GreenChilliesTV.in",
+    "channelName": "Green Chillies TV",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "Tarpan",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "GreenChilliesTV.in",
+    "channelId": "GreenChilliesTV.in",
+    "channelName": "Green Chillies TV",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Touttaylet The Bird Fly Parrots",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "GreenChilliesTV.in",
+    "channelId": "GreenChilliesTV.in",
+    "channelName": "Green Chillies TV",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Touttaylet The Bird Fly Parrots",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "GreenChilliesTV.in",
+    "channelId": "GreenChilliesTV.in",
+    "channelName": "Green Chillies TV",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Touttaylet The Bird Fly Parrots",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "GreenChilliesTV.in",
+    "channelId": "GreenChilliesTV.in",
+    "channelName": "Green Chillies TV",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Horror Tales",
+    "desc": "Delve into the world of horror to experience a frightening journey with eerie creatures. S01 E08."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "GreenChilliesTV.in",
+    "channelId": "GreenChilliesTV.in",
+    "channelName": "Green Chillies TV",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Gungunaye Jaa",
+    "desc": "A compilation of hit songs written by famous artists from all over the world."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "GreenChilliesTV.in",
+    "channelId": "GreenChilliesTV.in",
+    "channelName": "Green Chillies TV",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Prime Frequency - Sur Ke Sartaj",
+    "desc": "A compilation of some of the most popular songs sung by talented artists is played. S01 E08."
+  }
+]

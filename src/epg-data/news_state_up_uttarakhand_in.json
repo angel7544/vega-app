@@ -1,0 +1,167 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "NewsStateUPUK.in",
+    "channelId": "NewsStateUPUK.in",
+    "channelName": "News State UP Uttarakhand",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Special News",
+    "desc": "The host presents some of the latest news stories, current affairs and developments."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "NewsStateUPUK.in",
+    "channelId": "NewsStateUPUK.in",
+    "channelName": "News State UP Uttarakhand",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "News Live",
+    "desc": "The host sheds light on the top news updates from across the nation and the world, live."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "NewsStateUPUK.in",
+    "channelId": "NewsStateUPUK.in",
+    "channelName": "News State UP Uttarakhand",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "Crime Special",
+    "desc": "The host provides an in-depth look into top crime stories from around the country."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "NewsStateUPUK.in",
+    "channelId": "NewsStateUPUK.in",
+    "channelName": "News State UP Uttarakhand",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "News State Investigation",
+    "desc": "The host sheds light on the latest news and developments from across the region."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "NewsStateUPUK.in",
+    "channelId": "NewsStateUPUK.in",
+    "channelName": "News State UP Uttarakhand",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Siyasi Chauk",
+    "desc": "The anchor offers viewers in-depth insights into the ever-evolving political landscape."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "NewsStateUPUK.in",
+    "channelId": "NewsStateUPUK.in",
+    "channelName": "News State UP Uttarakhand",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Thokbaja Kar",
+    "desc": "The host presents the latest updates surrounding various pressing issues of the nation."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "NewsStateUPUK.in",
+    "channelId": "NewsStateUPUK.in",
+    "channelName": "News State UP Uttarakhand",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Pahad Samachar",
+    "desc": "The host shares the latest news stories concerning the mountainous regions in India."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "NewsStateUPUK.in",
+    "channelId": "NewsStateUPUK.in",
+    "channelName": "News State UP Uttarakhand",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "News Special",
+    "desc": "The host provides a detailed report on matters concerning the nation and the world."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "NewsStateUPUK.in",
+    "channelId": "NewsStateUPUK.in",
+    "channelName": "News State UP Uttarakhand",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "News Special",
+    "desc": "The host provides a detailed report on matters concerning the nation and the world."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "NewsStateUPUK.in",
+    "channelId": "NewsStateUPUK.in",
+    "channelName": "News State UP Uttarakhand",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Reporter Express",
+    "desc": "The host presents a detailed report on the latest news and developments."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "NewsStateUPUK.in",
+    "channelId": "NewsStateUPUK.in",
+    "channelName": "News State UP Uttarakhand",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "News Special",
+    "desc": "The host provides a detailed report on matters concerning the nation and the world."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "NewsStateUPUK.in",
+    "channelId": "NewsStateUPUK.in",
+    "channelName": "News State UP Uttarakhand",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Crime News",
+    "desc": "The host sheds light on the latest crime-related news stories, updates and happenings."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "NewsStateUPUK.in",
+    "channelId": "NewsStateUPUK.in",
+    "channelName": "News State UP Uttarakhand",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "Khabar Uttrakhand",
+    "desc": "The host presents some of the latest news on a variety of topics relevant to Uttarakhand."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "NewsStateUPUK.in",
+    "channelId": "NewsStateUPUK.in",
+    "channelName": "News State UP Uttarakhand",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Har Shahar Ki Khabar",
+    "desc": "The host sheds light on the latest news stories, updates and developments."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "NewsStateUPUK.in",
+    "channelId": "NewsStateUPUK.in",
+    "channelName": "News State UP Uttarakhand",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "State Supersonic / Run",
+    "desc": "The host offers a comprehensive update on political, social and economic matters."
+  }
+]

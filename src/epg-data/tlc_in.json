@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:32",
-    "stop": "11:01",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775471520000,
-    "stopTs": 1775473260000,
-    "title": "Beat Bobby Flay",
-    "desc": "Andrew Zimmern and ballerina Misty Copeland dance circles around Bobby Flay as chefs Tristen Epps and Vinnie Cimino make sure their plates are on point."
-  },
-  {
     "start": "11:01",
     "stop": "11:31",
     "channel": "TLCHD.in",
@@ -19,7 +8,7 @@
     "startTs": 1775473260000,
     "stopTs": 1775475060000,
     "title": "Beat Bobby Flay",
-    "desc": "Maneet Chauhan and Jaymee Sire are celebrating Bobby Flay&apos;s demise and have invited chefs Victoria Elizondo and Tajahi Cooke to join their spicy party!"
+    "desc": "Maneet Chauhan and Jaymee Sire celebrate Bobby Flay&apos;s demise. S37 E04."
   },
   {
     "start": "11:31",
@@ -30,7 +19,7 @@
     "startTs": 1775475060000,
     "stopTs": 1775478600000,
     "title": "Food Paradise",
-    "desc": "Diners featuring massive meat loaves, garlic fries, candied bacon, and chocolate waffle lava cake; former MLB baseball players Eric Byrnes and Jeremy Affeldt highlight food from San Francisco&apos;s AT&T Park, including the Crazy Crab Sandwich."
+    "desc": "Diners featuring meat loaves, garlic fries, candied bacon, and chocolate waffle lava cake. S14 E15."
   },
   {
     "start": "12:30",
@@ -41,7 +30,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775482200000,
     "title": "Say Yes to the Dress",
-    "desc": "Kayla&apos;s overbearing family threatens to take over her appointment unless she stands her ground. Milan has many requests and may end up getting a customised dress instead, and Prashanthi&apos;s last fitting goes a little bumpier than expected."
+    "desc": "Kayla&apos;s overbearing family threatens to take over her appointment unless she stands her ground. S21 E02."
   },
   {
     "start": "13:30",
@@ -52,7 +41,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775485800000,
     "title": "Sweet Empire: Winter Wars",
-    "desc": "In a final showdown, host Wells Adams gives the bakers complete creative freedom to build an entire edible world that celebrates the holiday season; only one empire rises above the rest to claim the $50,000 prize and the crown of Sweet Empire."
+    "desc": "The bakers have creative freedom to build an entire edible world that celebrates the holiday season. S01 E06."
   },
   {
     "start": "14:30",
@@ -63,7 +52,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Makeover by Monday",
-    "desc": "In three days, Jenni Yolo helps a family turn their Victorian border house into a chic home where their kids can read, play and practise music, and she also gives them a bold entrance and library filled with rich colours and personalized art."
+    "desc": "In three days, Jenni Yolo helps a family turn their Victorian border house into a chic home. S01 E09."
   },
   {
     "start": "15:00",
@@ -74,7 +63,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Makeover by Monday",
-    "desc": "Jenni Yolo sets out to transform her younger sister&apos;s dark, duplex kitchen into a design masterpiece in only three days. Stepping outside her comfort zone in some areas, Jenni makes some bold design choices in hopes her sister will be blown away."
+    "desc": "Jenni Yolo sets out to transform her younger sister&apos;s dark, duplex kitchen into a design masterpiece in only three days. Stepping outside her comfort zone in some areas, Jenni makes some bold. S01 E02."
   },
   {
     "start": "15:30",
@@ -85,7 +74,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Say Yes to the Dress: Dubai",
-    "desc": "Eve wants a dress that makes her feel like a Disney princess. Naomi has a tough time finding a dress that impresses her picky mother and mother-in-law."
+    "desc": "Eve wants a dress that makes her feel like a Disney princess. S01 E01."
   },
   {
     "start": "16:00",
@@ -96,7 +85,7 @@
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Say Yes to the Dress: Dubai",
-    "desc": "Bride-to-be, Eugenia brings her three sons along with her to the shop so they can help her choose the right dress. Plus, Claire hopes to find a bohemian style dress for her beach wedding."
+    "desc": "Eugenia brings her three sons with her to the shop so they can help her choose the right dress. S01 E02."
   },
   {
     "start": "16:30",
@@ -107,380 +96,17 @@
     "startTs": 1775493000000,
     "stopTs": 1775496600000,
     "title": "90 Day: The Single Life",
-    "desc": "Danielle goes on a cringe-worthy date in Ocean City, Maryland."
+    "desc": "Danielle goes on a cringe-worthy date in Ocean City, Maryland. S01 E03."
   },
   {
     "start": "17:30",
-    "stop": "18:29",
+    "stop": "18:30",
     "channel": "TLCHD.in",
     "channelId": "TLCHD.in",
     "channelName": "TLC HD",
     "startTs": 1775496600000,
-    "stopTs": 1775500199000,
+    "stopTs": 1775500200000,
     "title": "Virgins",
-    "desc": "Follow a group of inexperienced virgins on their quest to finally seal the deal. Experience their socially awkward moments and hilarious dating disasters as they attempt to find a relationship that will finally take them all the way."
-  },
-  {
-    "start": "18:30",
-    "stop": "19:30",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775500200000,
-    "stopTs": 1775503800000,
-    "title": "Say Yes to the Dress",
-    "desc": "Kayla&apos;s overbearing family threatens to take over her appointment unless she stands her ground. Milan has many requests and may end up getting a customised dress instead, and Prashanthi&apos;s last fitting goes a little bumpier than expected."
-  },
-  {
-    "start": "19:30",
-    "stop": "20:30",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775503800000,
-    "stopTs": 1775507400000,
-    "title": "Sweet Empire: Winter Wars",
-    "desc": "In a final showdown, host Wells Adams gives the bakers complete creative freedom to build an entire edible world that celebrates the holiday season; only one empire rises above the rest to claim the $50,000 prize and the crown of Sweet Empire."
-  },
-  {
-    "start": "20:30",
-    "stop": "21:00",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775507400000,
-    "stopTs": 1775509200000,
-    "title": "Makeover by Monday",
-    "desc": "In three days, Jenni Yolo helps a family turn their Victorian border house into a chic home where their kids can read, play and practise music, and she also gives them a bold entrance and library filled with rich colours and personalized art."
-  },
-  {
-    "start": "21:00",
-    "stop": "21:30",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775509200000,
-    "stopTs": 1775511000000,
-    "title": "Makeover by Monday",
-    "desc": "Jenni Yolo sets out to transform her younger sister&apos;s dark, duplex kitchen into a design masterpiece in only three days. Stepping outside her comfort zone in some areas, Jenni makes some bold design choices in hopes her sister will be blown away."
-  },
-  {
-    "start": "21:30",
-    "stop": "22:00",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775511000000,
-    "stopTs": 1775512800000,
-    "title": "Say Yes to the Dress: Dubai",
-    "desc": "Eve wants a dress that makes her feel like a Disney princess. Naomi has a tough time finding a dress that impresses her picky mother and mother-in-law."
-  },
-  {
-    "start": "22:00",
-    "stop": "22:30",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775512800000,
-    "stopTs": 1775514600000,
-    "title": "Say Yes to the Dress: Dubai",
-    "desc": "Bride-to-be, Eugenia brings her three sons along with her to the shop so they can help her choose the right dress. Plus, Claire hopes to find a bohemian style dress for her beach wedding."
-  },
-  {
-    "start": "22:30",
-    "stop": "23:30",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775514600000,
-    "stopTs": 1775518200000,
-    "title": "90 Day: The Single Life",
-    "desc": "Danielle goes on a cringe-worthy date in Ocean City, Maryland."
-  },
-  {
-    "start": "23:30",
-    "stop": "00:30",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775518200000,
-    "stopTs": 1775521800000,
-    "title": "Virgins",
-    "desc": "Follow a group of inexperienced virgins on their quest to finally seal the deal. Experience their socially awkward moments and hilarious dating disasters as they attempt to find a relationship that will finally take them all the way."
-  },
-  {
-    "start": "00:30",
-    "stop": "02:20",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775521800000,
-    "stopTs": 1775528400000,
-    "title": "24 in 24: Last Chef Standing",
-    "desc": "Michael Symon and Esther Choi welcome 24 elite chefs into the arena where they will spend the next 24 hours cooking; the first three-hour shift tests their speed; Jet Tila separates the leaders of the pack from the chefs on the brink of elimination."
-  },
-  {
-    "start": "02:20",
-    "stop": "03:15",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775528400000,
-    "stopTs": 1775531700000,
-    "title": "Chopped",
-    "desc": "The chefs must bid on their fourth ingredients in an auction; in the entrée round, a bidding war breaks out over a premium item."
-  },
-  {
-    "start": "03:15",
-    "stop": "04:10",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775531700000,
-    "stopTs": 1775535000000,
-    "title": "Say Yes to the Dress",
-    "desc": "It&apos;s been 20 seasons of making brides&apos; wedding dress dreams come true. Randy and the Kleinfeld team encounter more mean mums, fashion-forward fathers and scene-stealing sisters, as well as some surprising Say Yes to the Dress firsts!"
-  },
-  {
-    "start": "04:10",
-    "stop": "04:37",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775535000000,
-    "stopTs": 1775536620000,
-    "title": "Artfully Designed",
-    "desc": "Natalie, Racheal and Frankie help two growing boys move from a cluttered, shared bedroom into their own custom spaces; drawing inspiration from nature and the boys&apos; artistic pursuits, they create serene bedrooms that reflect their personalities."
-  },
-  {
-    "start": "04:37",
-    "stop": "05:05",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775536620000,
-    "stopTs": 1775538300000,
-    "title": "Artfully Designed",
-    "desc": "Natalie, Racheal and Frankie reimagine a white-on-white kitchen and family room for a family of four; preserving the bones of each space, they bring in bold colour, original art and touches of glam to create a vibrant transformation."
-  },
-  {
-    "start": "05:05",
-    "stop": "06:05",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775538300000,
-    "stopTs": 1775541900000,
-    "title": "Chopped",
-    "desc": "Four competitors are given baskets with just three items, and a live auction determines what each chef scores as their fourth ingredient. One chef raises expectations by spending a ton of money to secure a favourite ingredient for his appetiser dish."
-  },
-  {
-    "start": "06:05",
-    "stop": "06:32",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775541900000,
-    "stopTs": 1775543520000,
-    "title": "Say Yes to the Dress: Dubai",
-    "desc": "Eve wants a dress that makes her feel like a Disney princess. Naomi has a tough time finding a dress that impresses her picky mother and mother-in-law."
-  },
-  {
-    "start": "06:32",
-    "stop": "07:00",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775543520000,
-    "stopTs": 1775545200000,
-    "title": "Say Yes to the Dress: Dubai",
-    "desc": "Bride-to-be, Eugenia brings her three sons along with her to the shop so they can help her choose the right dress. Plus, Claire hopes to find a bohemian style dress for her beach wedding."
-  },
-  {
-    "start": "07:00",
-    "stop": "07:30",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775545200000,
-    "stopTs": 1775547000000,
-    "title": "Say Yes to the Dress: Dubai",
-    "desc": "Amy is afraid she will look too muscular in her dress. Sarah is looking for the perfect lehenga dress, but her relatives persuade her to try on a white one too."
-  },
-  {
-    "start": "07:30",
-    "stop": "07:57",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775547000000,
-    "stopTs": 1775548620000,
-    "title": "World On My Plate",
-    "desc": "World On My Plate"
-  },
-  {
-    "start": "07:57",
-    "stop": "08:49",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775548620000,
-    "stopTs": 1775551740000,
-    "title": "Food Paradise",
-    "desc": "Chefs are finding cool ways to innovate on the grate; smoked Thanksgiving sandwich; barbecued brisket with Mexican flair; whole hog take on porchetta."
-  },
-  {
-    "start": "08:49",
-    "stop": "09:41",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775551740000,
-    "stopTs": 1775554860000,
-    "title": "Sweet Empire: Winter Wars",
-    "desc": "In a final showdown, host Wells Adams gives the bakers complete creative freedom to build an entire edible world that celebrates the holiday season; only one empire rises above the rest to claim the $50,000 prize and the crown of Sweet Empire."
-  },
-  {
-    "start": "09:41",
-    "stop": "10:07",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775554860000,
-    "stopTs": 1775556420000,
-    "title": "Makeover by Monday",
-    "desc": "In three days, Jenni Yolo helps a family turn their Victorian border house into a chic home where their kids can read, play and practise music, and she also gives them a bold entrance and library filled with rich colours and personalized art."
-  },
-  {
-    "start": "10:07",
-    "stop": "10:34",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775556420000,
-    "stopTs": 1775558040000,
-    "title": "Makeover by Monday",
-    "desc": "Jenni Yolo sets out to transform her younger sister&apos;s dark, duplex kitchen into a design masterpiece in only three days. Stepping outside her comfort zone in some areas, Jenni makes some bold design choices in hopes her sister will be blown away."
-  },
-  {
-    "start": "10:34",
-    "stop": "11:01",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775558040000,
-    "stopTs": 1775559660000,
-    "title": "Say Yes to the Dress: Dubai",
-    "desc": "Eve wants a dress that makes her feel like a Disney princess. Naomi has a tough time finding a dress that impresses her picky mother and mother-in-law."
-  },
-  {
-    "start": "11:01",
-    "stop": "11:30",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775559660000,
-    "stopTs": 1775561400000,
-    "title": "Say Yes to the Dress: Dubai",
-    "desc": "Bride-to-be, Eugenia brings her three sons along with her to the shop so they can help her choose the right dress. Plus, Claire hopes to find a bohemian style dress for her beach wedding."
-  },
-  {
-    "start": "11:30",
-    "stop": "12:30",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775561400000,
-    "stopTs": 1775565000000,
-    "title": "Food Paradise",
-    "desc": "Chefs are finding cool ways to innovate on the grate; smoked Thanksgiving sandwich; barbecued brisket with Mexican flair; whole hog take on porchetta."
-  },
-  {
-    "start": "12:30",
-    "stop": "13:00",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775565000000,
-    "stopTs": 1775566800000,
-    "title": "Cake Boss",
-    "desc": "Buddy makes the mermaid cake he&apos;s dreamed about; for an aquarium hosting `mermaids&apos; who swim in the tanks for visitors. Plus, Mauro makes a law-abiding cake for a police pal."
-  },
-  {
-    "start": "13:00",
-    "stop": "14:30",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775566800000,
-    "stopTs": 1775572200000,
-    "title": "Sweet Empire: Winter Wars",
-    "desc": "In their first challenge, each baker must create a holiday showpiece that represents how they celebrate at home. Judges Yolanda Gampp and Jacques Torres choose the top six bakers to become empire leaders."
-  },
-  {
-    "start": "14:30",
-    "stop": "15:00",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775572200000,
-    "stopTs": 1775574000000,
-    "title": "Makeover by Monday",
-    "desc": "Jenni Yolo remodels her friends&apos; bedroom into an oasis that will provide a nice escape for the parents of four children. Jenni uses DIY-friendly techniques to transform the space including a custom wallpaper and a faux-denza."
-  },
-  {
-    "start": "15:00",
-    "stop": "15:30",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775574000000,
-    "stopTs": 1775575800000,
-    "title": "Makeover by Monday",
-    "desc": "Jenni Yolo sets out to transform her younger sister&apos;s dark, duplex kitchen into a design masterpiece in only three days. Stepping outside her comfort zone in some areas, Jenni makes some bold design choices in hopes her sister will be blown away."
-  },
-  {
-    "start": "15:30",
-    "stop": "16:00",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775575800000,
-    "stopTs": 1775577600000,
-    "title": "Say Yes to the Dress: Dubai",
-    "desc": "Makenzie needs to pick out two perfect dresses for her Indian and American weddings. The team get creative to help Deepika find a dress on a tiny budget."
-  },
-  {
-    "start": "16:00",
-    "stop": "16:30",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775577600000,
-    "stopTs": 1775579400000,
-    "title": "Say Yes to the Dress: Dubai",
-    "desc": "Amy is afraid she will look too muscular in her dress. Sarah is looking for the perfect lehenga dress, but her relatives persuade her to try on a white one too."
-  },
-  {
-    "start": "16:30",
-    "stop": "17:30",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775579400000,
-    "stopTs": 1775583000000,
-    "title": "90 Day: The Single Life",
-    "desc": "Danielle has an awkward first date; Ed worries he&apos;s being friend-zoned."
-  },
-  {
-    "start": "17:30",
-    "stop": "18:29",
-    "channel": "TLCHD.in",
-    "channelId": "TLCHD.in",
-    "channelName": "TLC HD",
-    "startTs": 1775583000000,
-    "stopTs": 1775586599000,
-    "title": "Love & Translation",
-    "desc": "Three American men who only speak English look for love in a seaside villa with twelve international women who do not speak English, testing a social experiment on whether love can break through the language barrier."
+    "desc": "Rhasha gives herself permission to experience new things at an adult resort. S01 E06."
   }
 ]

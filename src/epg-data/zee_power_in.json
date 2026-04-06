@@ -1,0 +1,35 @@
+[
+  {
+    "start": "09:30",
+    "stop": "12:30",
+    "channel": "ZeePower.in",
+    "channelId": "ZeePower.in",
+    "channelName": "Zee Power HD",
+    "startTs": 1775467800000,
+    "stopTs": 1775478600000,
+    "title": "Aranmanai 3",
+    "desc": "Jyothi decides to uncover the identity of the spirit that haunted her in her childhood."
+  },
+  {
+    "start": "12:30",
+    "stop": "15:30",
+    "channel": "ZeePower.in",
+    "channelId": "ZeePower.in",
+    "channelName": "Zee Power HD",
+    "startTs": 1775478600000,
+    "stopTs": 1775489400000,
+    "title": "Ek Love Ya",
+    "desc": "Amar, a lawyer, gets arrested for a crime that leads him to a girl he loved."
+  },
+  {
+    "start": "15:30",
+    "stop": "18:30",
+    "channel": "ZeePower.in",
+    "channelId": "ZeePower.in",
+    "channelName": "Zee Power HD",
+    "startTs": 1775489400000,
+    "stopTs": 1775500200000,
+    "title": "Mugilpete",
+    "desc": "Raja and Apoorva must confront their families&apos; opposing views on love in order to marry."
+  }
+]

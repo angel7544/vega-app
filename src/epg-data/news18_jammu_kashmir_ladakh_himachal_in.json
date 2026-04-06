@@ -1,0 +1,167 @@
+[
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "News18JKLH.in",
+    "channelId": "News18JKLH.in",
+    "channelName": "News18 Jammu Kashmir Ladakh Himachal",
+    "startTs": 1775473200000,
+    "stopTs": 1775475000000,
+    "title": "Ground Report Kashmir",
+    "desc": "Journalists provide direct reports on Kashmir&apos;s evolving circumstances."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "News18JKLH.in",
+    "channelId": "News18JKLH.in",
+    "channelName": "News18 Jammu Kashmir Ladakh Himachal",
+    "startTs": 1775475000000,
+    "stopTs": 1775476800000,
+    "title": "Khaas Report",
+    "desc": "A reporter sheds light on a topic or issue that is in the national news."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "News18JKLH.in",
+    "channelId": "News18JKLH.in",
+    "channelName": "News18 Jammu Kashmir Ladakh Himachal",
+    "startTs": 1775476800000,
+    "stopTs": 1775478600000,
+    "title": "100 Gaon 100 Khabar",
+    "desc": "The host presents the top 100 news stories from rural places across the country."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "News18JKLH.in",
+    "channelId": "News18JKLH.in",
+    "channelName": "News18 Jammu Kashmir Ladakh Himachal",
+    "startTs": 1775478600000,
+    "stopTs": 1775480400000,
+    "title": "Prime Debate India",
+    "desc": "The host and a panel of experts discuss socio-political and economic matters of the country."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "News18JKLH.in",
+    "channelId": "News18JKLH.in",
+    "channelName": "News18 Jammu Kashmir Ladakh Himachal",
+    "startTs": 1775480400000,
+    "stopTs": 1775482200000,
+    "title": "Ground Report Dogri",
+    "desc": "The host presents latest updates on socio-political issues and current events in Jammu and Kashmir."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "News18JKLH.in",
+    "channelId": "News18JKLH.in",
+    "channelName": "News18 Jammu Kashmir Ladakh Himachal",
+    "startTs": 1775482200000,
+    "stopTs": 1775484000000,
+    "title": "Jammu Kashmir News",
+    "desc": "The host presents the latest social, political and economic news from Jammu and Kashmir, India."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "News18JKLH.in",
+    "channelId": "News18JKLH.in",
+    "channelName": "News18 Jammu Kashmir Ladakh Himachal",
+    "startTs": 1775484000000,
+    "stopTs": 1775485800000,
+    "title": "Khabar 1 Minutes",
+    "desc": "The host provides the latest updates on various political, economic and social issues."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "News18JKLH.in",
+    "channelId": "News18JKLH.in",
+    "channelName": "News18 Jammu Kashmir Ladakh Himachal",
+    "startTs": 1775485800000,
+    "stopTs": 1775487600000,
+    "title": "Khaas Report",
+    "desc": "A reporter sheds light on a topic or issue that is in the national news."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "News18JKLH.in",
+    "channelId": "News18JKLH.in",
+    "channelName": "News18 Jammu Kashmir Ladakh Himachal",
+    "startTs": 1775487600000,
+    "stopTs": 1775489400000,
+    "title": "100 Gaon 100 Khabar",
+    "desc": "The host presents the top 100 news stories from rural places across the country."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "News18JKLH.in",
+    "channelId": "News18JKLH.in",
+    "channelName": "News18 Jammu Kashmir Ladakh Himachal",
+    "startTs": 1775489400000,
+    "stopTs": 1775491200000,
+    "title": "Khabar 1 Minutes",
+    "desc": "The host provides the latest updates on various political, economic and social issues."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "News18JKLH.in",
+    "channelId": "News18JKLH.in",
+    "channelName": "News18 Jammu Kashmir Ladakh Himachal",
+    "startTs": 1775491200000,
+    "stopTs": 1775493000000,
+    "title": "Prime Debate India",
+    "desc": "The host and a panel of experts discuss socio-political and economic matters of the country."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "News18JKLH.in",
+    "channelId": "News18JKLH.in",
+    "channelName": "News18 Jammu Kashmir Ladakh Himachal",
+    "startTs": 1775493000000,
+    "stopTs": 1775494800000,
+    "title": "Desh Pradesh",
+    "desc": "The anchor presents the latest news updates and happenings from around the world."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "News18JKLH.in",
+    "channelId": "News18JKLH.in",
+    "channelName": "News18 Jammu Kashmir Ladakh Himachal",
+    "startTs": 1775494800000,
+    "stopTs": 1775496600000,
+    "title": "100 Gaon 100 Khabar",
+    "desc": "The host presents the top 100 news stories from rural places across the country."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "News18JKLH.in",
+    "channelId": "News18JKLH.in",
+    "channelName": "News18 Jammu Kashmir Ladakh Himachal",
+    "startTs": 1775496600000,
+    "stopTs": 1775498400000,
+    "title": "Khabar 1 Minutes",
+    "desc": "The host provides the latest updates on various political, economic and social issues."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:30",
+    "channel": "News18JKLH.in",
+    "channelId": "News18JKLH.in",
+    "channelName": "News18 Jammu Kashmir Ladakh Himachal",
+    "startTs": 1775498400000,
+    "stopTs": 1775500200000,
+    "title": "Desh Pradesh",
+    "desc": "The anchor presents the latest news updates and happenings from around the world."
+  }
+]
