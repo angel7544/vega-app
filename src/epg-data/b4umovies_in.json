@@ -1,1 +1,180 @@
-[{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"08:48","stop":"12:49","startTs":1775445480000,"stopTs":1775459940000,"title":"Ram Balram","desc":"Unaware of his evil intentions and his role in killing their parents, two brothers Ram and Balram fall victim to their deceitful uncle. They must unite to foil his plans of gaining wealth.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"12:49","stop":"15:53","startTs":1775459940000,"stopTs":1775470980000,"title":"Aakhri Ghulam","desc":"Bheema and his family live under the tyranny of their master, Daulat Singh. But, when Bheema revolts, his love for his master's daughter is threatened.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"15:53","stop":"19:00","startTs":1775470980000,"stopTs":1775482200000,"title":"Saathi","desc":"Two boys are left to fend for themselves after their father falls victim to police brutality.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"19:00","stop":"23:09","startTs":1775482200000,"stopTs":1775497140000,"title":"Allah Rakha","desc":"A gangster's driver takes the blame for an accident, leaving his family alone. He seeks revenge when he finds out what happened to them while he was gone.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"23:09","stop":"00:00","startTs":1775497140000,"stopTs":1775500200000,"title":"Juaari","desc":"The struggle against a dangerous gambling lord tests Dharam Singh and Vijay as they navigate crime, deception and violence to protect the innocent and reclaim what was lost.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"00:00","stop":"03:00","startTs":1775500200000,"stopTs":1775511000000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"03:00","stop":"06:00","startTs":1775511000000,"stopTs":1775521800000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"06:00","stop":"09:00","startTs":1775521800000,"stopTs":1775532600000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"09:00","stop":"12:00","startTs":1775532600000,"stopTs":1775543400000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"12:00","stop":"15:00","startTs":1775543400000,"stopTs":1775554200000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"15:00","stop":"18:00","startTs":1775554200000,"stopTs":1775565000000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"18:00","stop":"21:00","startTs":1775565000000,"stopTs":1775575800000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"21:00","stop":"00:00","startTs":1775575800000,"stopTs":1775586600000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"00:00","stop":"03:00","startTs":1775586600000,"stopTs":1775597400000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"03:00","stop":"06:00","startTs":1775597400000,"stopTs":1775608200000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"06:00","stop":"09:00","startTs":1775608200000,"stopTs":1775619000000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"09:00","stop":"12:00","startTs":1775619000000,"stopTs":1775629800000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"12:00","stop":"15:00","startTs":1775629800000,"stopTs":1775640600000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"15:00","stop":"18:00","startTs":1775640600000,"stopTs":1775651400000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"18:00","stop":"21:00","startTs":1775651400000,"stopTs":1775662200000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"21:00","stop":"00:00","startTs":1775662200000,"stopTs":1775673000000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"00:00","stop":"03:00","startTs":1775673000000,"stopTs":1775683800000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"03:00","stop":"06:00","startTs":1775683800000,"stopTs":1775694600000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"06:00","stop":"09:00","startTs":1775694600000,"stopTs":1775705400000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"b4umovies.in","channelName":"in - B4U Movies","start":"09:00","stop":"12:00","startTs":1775705400000,"stopTs":1775716200000,"title":"Movie","desc":"Bringing the best in television.","category":null}]
+{
+  "channelId": "B4UMovies.in",
+  "channelName": "IN - B4U Movies",
+  "programs": [
+    {
+      "start": "20260405201900 +0000",
+      "stop": "20260405230000 +0000",
+      "title": "Satya",
+      "desc": "Satya gets acquainted with Bhiku Mhatre, an underworld boss, while serving a term in jail and joins his gang. When he falls in love with Vidya, he is forced to choose between his job and his love."
+    },
+    {
+      "start": "20260405230000 +0000",
+      "stop": "20260406003300 +0000",
+      "title": "Kaun Kare Kurbanie",
+      "desc": "Arjun Singh, a police inspector, lives peacefully with his family in Mumbai, until an alarming case of harassment and murder turns his life upside down."
+    },
+    {
+      "start": "20260406003300 +0000",
+      "stop": "20260406005300 +0000",
+      "title": "Kaun Kare Kurbanie",
+      "desc": "Arjun Singh, a police inspector, lives peacefully with his family in Mumbai, until an alarming case of harassment and murder turns his life upside down."
+    },
+    {
+      "start": "20260406005300 +0000",
+      "stop": "20260406031800 +0000",
+      "title": "Hatya: The Murder",
+      "desc": "Ravi's father, Ratan, gets killed when he refuses to sell his land to Murugan, a wealthy businessman. Later, Ravi sets out to avenge the death of his father."
+    },
+    {
+      "start": "20260406031800 +0000",
+      "stop": "20260406071900 +0000",
+      "title": "Ram Balram",
+      "desc": "Unaware of his evil intentions and his role in killing their parents, two brothers Ram and Balram fall victim to their deceitful uncle. They must unite to foil his plans of gaining wealth."
+    },
+    {
+      "start": "20260406071900 +0000",
+      "stop": "20260406102300 +0000",
+      "title": "Aakhri Ghulam",
+      "desc": "Bheema and his family live under the tyranny of their master, Daulat Singh. But, when Bheema revolts, his love for his master's daughter is threatened."
+    },
+    {
+      "start": "20260406102300 +0000",
+      "stop": "20260406133000 +0000",
+      "title": "Saathi",
+      "desc": "Two boys are left to fend for themselves after their father falls victim to police brutality."
+    },
+    {
+      "start": "20260406133000 +0000",
+      "stop": "20260406173900 +0000",
+      "title": "Allah Rakha",
+      "desc": "A gangster's driver takes the blame for an accident, leaving his family alone. He seeks revenge when he finds out what happened to them while he was gone."
+    },
+    {
+      "start": "20260406173900 +0000",
+      "stop": "20260406183000 +0000",
+      "title": "Juaari",
+      "desc": "The struggle against a dangerous gambling lord tests Dharam Singh and Vijay as they navigate crime, deception and violence to protect the innocent and reclaim what was lost."
+    },
+    {
+      "start": "20260406183000 +0000",
+      "stop": "20260406213000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260406213000 +0000",
+      "stop": "20260407003000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260407003000 +0000",
+      "stop": "20260407033000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260407033000 +0000",
+      "stop": "20260407063000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260407063000 +0000",
+      "stop": "20260407093000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260407093000 +0000",
+      "stop": "20260407123000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260407123000 +0000",
+      "stop": "20260407153000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260407153000 +0000",
+      "stop": "20260407183000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260407183000 +0000",
+      "stop": "20260407213000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260407213000 +0000",
+      "stop": "20260408003000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260408003000 +0000",
+      "stop": "20260408033000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260408033000 +0000",
+      "stop": "20260408063000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260408063000 +0000",
+      "stop": "20260408093000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260408093000 +0000",
+      "stop": "20260408123000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260408123000 +0000",
+      "stop": "20260408153000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260408153000 +0000",
+      "stop": "20260408183000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260408183000 +0000",
+      "stop": "20260408213000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260408213000 +0000",
+      "stop": "20260409003000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260409003000 +0000",
+      "stop": "20260409033000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260409033000 +0000",
+      "stop": "20260409063000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    }
+  ]
+}

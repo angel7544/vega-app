@@ -1,1 +1,180 @@
-[{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"11:02","stop":"14:00","startTs":1775453520000,"stopTs":1775464200000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"14:00","stop":"17:27","startTs":1775464200000,"stopTs":1775476620000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"17:27","stop":"19:57","startTs":1775476620000,"stopTs":1775485620000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"19:57","stop":"23:00","startTs":1775485620000,"stopTs":1775496600000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"23:00","stop":"01:21","startTs":1775496600000,"stopTs":1775505060000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"01:21","stop":"03:04","startTs":1775505060000,"stopTs":1775511240000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"03:04","stop":"05:50","startTs":1775511240000,"stopTs":1775521200000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"05:50","stop":"08:03","startTs":1775521200000,"stopTs":1775529180000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"08:03","stop":"11:02","startTs":1775529180000,"stopTs":1775539920000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"11:02","stop":"14:00","startTs":1775539920000,"stopTs":1775550600000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"14:00","stop":"17:07","startTs":1775550600000,"stopTs":1775561820000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"17:07","stop":"20:00","startTs":1775561820000,"stopTs":1775572200000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"20:00","stop":"23:54","startTs":1775572200000,"stopTs":1775586240000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"23:54","stop":"01:57","startTs":1775586240000,"stopTs":1775593620000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"01:57","stop":"05:17","startTs":1775593620000,"stopTs":1775605620000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"05:17","stop":"08:05","startTs":1775605620000,"stopTs":1775615700000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"08:05","stop":"11:15","startTs":1775615700000,"stopTs":1775627100000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"11:15","stop":"14:14","startTs":1775627100000,"stopTs":1775637840000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"14:14","stop":"16:53","startTs":1775637840000,"stopTs":1775647380000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"16:53","stop":"20:00","startTs":1775647380000,"stopTs":1775658600000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"20:00","stop":"23:20","startTs":1775658600000,"stopTs":1775670600000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"23:20","stop":"01:55","startTs":1775670600000,"stopTs":1775679900000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"01:55","stop":"05:24","startTs":1775679900000,"stopTs":1775692440000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"05:24","stop":"08:50","startTs":1775692440000,"stopTs":1775704800000,"title":"Movie","desc":"Bringing the best in television.","category":null},{"channelId":"zeebollywood.in","channelName":"in - Zeebollywood","start":"08:50","stop":"11:35","startTs":1775704800000,"stopTs":1775714700000,"title":"Movie","desc":"Bringing the best in television.","category":null}]
+{
+  "channelId": "ZeeBollywood.in",
+  "channelName": "IN - Zee Bollywood",
+  "programs": [
+    {
+      "start": "20260405202200 +0000",
+      "stop": "20260405224400 +0000",
+      "title": "Issaq",
+      "desc": "In the kaleidoscopic cityscapes of Banaras, a soul-stirring Romeo-and-Juliet-esque romance kindles between two young individuals from rival mafia families."
+    },
+    {
+      "start": "20260405224400 +0000",
+      "stop": "20260406002700 +0000",
+      "title": "Kurukshetra",
+      "desc": "ACP Prithviraj, an honest man, arrests Chief Minister Baburao's son for raping a woman. Consequently, Baburao leaves no stone unturned to get revenge against Prithviraj."
+    },
+    {
+      "start": "20260406002700 +0000",
+      "stop": "20260406024500 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260406024500 +0000",
+      "stop": "20260406053200 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260406053200 +0000",
+      "stop": "20260406083000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260406083000 +0000",
+      "stop": "20260406115700 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260406115700 +0000",
+      "stop": "20260406142700 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260406142700 +0000",
+      "stop": "20260406173000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260406173000 +0000",
+      "stop": "20260406195100 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260406195100 +0000",
+      "stop": "20260406213400 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260406213400 +0000",
+      "stop": "20260407002000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260407002000 +0000",
+      "stop": "20260407023300 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260407023300 +0000",
+      "stop": "20260407053200 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260407053200 +0000",
+      "stop": "20260407083000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260407083000 +0000",
+      "stop": "20260407113700 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260407113700 +0000",
+      "stop": "20260407143000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260407143000 +0000",
+      "stop": "20260407182400 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260407182400 +0000",
+      "stop": "20260407202700 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260407202700 +0000",
+      "stop": "20260407234700 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260407234700 +0000",
+      "stop": "20260408023500 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260408023500 +0000",
+      "stop": "20260408054500 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260408054500 +0000",
+      "stop": "20260408084400 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260408084400 +0000",
+      "stop": "20260408112300 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260408112300 +0000",
+      "stop": "20260408143000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260408143000 +0000",
+      "stop": "20260408175000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260408175000 +0000",
+      "stop": "20260408202500 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260408202500 +0000",
+      "stop": "20260408235400 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260408235400 +0000",
+      "stop": "20260409032000 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    },
+    {
+      "start": "20260409032000 +0000",
+      "stop": "20260409060500 +0000",
+      "title": "Movie",
+      "desc": "Bringing the best in television."
+    }
+  ]
+}
