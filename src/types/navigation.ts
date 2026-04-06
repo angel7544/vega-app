@@ -119,6 +119,7 @@ export type SettingsStackParamList = {
   WatchHistoryStack: undefined;
   SubTitlesPreferences: undefined;
   Extensions: undefined;
+  Help: undefined;
 };
 
 export type TabStackParamList = {

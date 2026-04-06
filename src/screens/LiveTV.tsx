@@ -393,7 +393,7 @@ const LiveTV = () => {
 
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
   const { mode, primary } = useThemeStore();
-  const { toggleFavorite, isFavorite, favorites, epgData, setEpgData } = usePlayerStore();
+  const { toggleFavorite, isFavorite, favorites, setEpgData } = usePlayerStore();
   const { setChannels: setGlobalChannels } = useIPTVStore();
   const [refreshKey, setRefreshKey] = useState(0);
   const isDark = mode === 'dark';
@@ -446,7 +446,8 @@ const LiveTV = () => {
   };
 
   useEffect(() => {
-    if (channels.length > 0 && Object.keys(epgData).length === 0) {
+    const currentEpg = usePlayerStore.getState().epgData;
+    if (channels.length > 0 && Object.keys(currentEpg).length === 0) {
       const fetchBulk = async () => {
         // Only show loading indicator if user is actively looking at the TV GUIDE
         if (activeTab === 'TV GUIDE') {
@@ -786,7 +787,6 @@ const LiveTV = () => {
                  <TVGuideGrid 
                    key={`guide-${refreshKey}`}
                    channels={filteredChannels} 
-                   epgData={epgData} 
                    isDark={isDark} 
                    primary={primary} 
                    onPlay={handleChannelPress} 

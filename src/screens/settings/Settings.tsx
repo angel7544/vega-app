@@ -20,7 +20,7 @@ import {
   NativeStackScreenProps,
   NativeStackNavigationProp,
 } from '@react-navigation/native-stack';
-import {SettingsStackParamList, TabStackParamList} from '../../App';
+import {SettingsStackParamList, TabStackParamList} from '../../types/navigation';
 import {
   MaterialCommunityIcons,
   AntDesign,
@@ -531,6 +531,27 @@ const Settings = ({navigation}: Props) => {
                         mode === 'dark' ? 'text-white' : 'text-black'
                       } ml-3 text-base`}>
                       About
+                    </Text>
+                  </View>
+                  <Feather name="chevron-right" size={20} color="gray" />
+                </View>
+              </TouchableNativeFeedback>
+
+              {/* Help & Documentation */}
+              <TouchableNativeFeedback
+                onPress={() => navigation.navigate('Help')}
+                background={TouchableNativeFeedback.Ripple(
+                  mode === 'dark' ? '#333333' : '#e5e7eb',
+                  false,
+                )}>
+                <View className="flex-row items-center justify-between p-4 border-t border-white/5">
+                  <View className="flex-row items-center">
+                    <Feather name="help-circle" size={22} color={primary} />
+                    <Text
+                      className={`${
+                        mode === 'dark' ? 'text-white' : 'text-black'
+                      } ml-3 text-base`}>
+                      Help & Documentation
                     </Text>
                   </View>
                   <Feather name="chevron-right" size={20} color="gray" />

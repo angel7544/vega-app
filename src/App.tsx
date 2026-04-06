@@ -42,6 +42,7 @@ import SeriesEpisodes from './screens/settings/SeriesEpisodes';
 import WatchHistory from './screens/WatchHistory';
 import SubtitlePreference from './screens/settings/SubtitleSettings';
 import Extensions from './screens/settings/Extensions';
+import Help from './screens/settings/Help';
 import Constants from 'expo-constants';
 import {settingsStorage} from './lib/storage';
 import {updateProvidersService} from './lib/services/UpdateProviders';
@@ -204,6 +205,7 @@ function SettingsStackScreen() {
         name="SubTitlesPreferences"
         component={SubtitlePreference}
       />
+      <SettingsStack.Screen name="Help" component={Help as any} />
     </SettingsStack.Navigator>
   );
 }
