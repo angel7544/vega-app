@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "SamacharPlus.in",
-    "channelId": "SamacharPlus.in",
-    "channelName": "Samachar Plus",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "5/25 / Hamara Uttarakhand",
-    "desc": "The presenter shares the latest information on the socio-economic and political updates from around the state of Uttarakhand."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "SamacharPlus.in",

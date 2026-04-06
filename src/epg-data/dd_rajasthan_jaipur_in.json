@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "DDRajasthan(Jaipur).in",
-    "channelId": "DDRajasthan(Jaipur).in",
-    "channelName": "DD Rajasthan (Jaipur)",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Folk Music",
-    "desc": "A compilation of popular folk songs from different parts of India, performed by various artists and musicians, is played back-to-back."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "DDRajasthan(Jaipur).in",

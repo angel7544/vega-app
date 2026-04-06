@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "VertentSamacharPlus24x7.in",
-    "channelId": "VertentSamacharPlus24x7.in",
-    "channelName": "Vertent Samachar Plus 24x7",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Mahro Marudhar",
-    "desc": "Mahro Marudhar"
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "VertentSamacharPlus24x7.in",

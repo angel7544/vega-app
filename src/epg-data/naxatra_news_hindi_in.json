@@ -1,27 +1,5 @@
 [
   {
-    "start": "10:26",
-    "stop": "10:56",
-    "channel": "NaxatraNewsHindi.in",
-    "channelId": "NaxatraNewsHindi.in",
-    "channelName": "Naxatra News Hindi",
-    "startTs": 1775471160000,
-    "stopTs": 1775472960000,
-    "title": "Naxatra National Live",
-    "desc": "The host sheds light on the top news stories and developments pertaining to various political and socio-economic issues around the country, live."
-  },
-  {
-    "start": "10:56",
-    "stop": "11:26",
-    "channel": "NaxatraNewsHindi.in",
-    "channelId": "NaxatraNewsHindi.in",
-    "channelName": "Naxatra News Hindi",
-    "startTs": 1775472960000,
-    "stopTs": 1775474760000,
-    "title": "Naxatra Special",
-    "desc": "The host provides a detailed report on the latest news stories and significant developments in governance, social, economic, sports, and political issues of both national and international importance."
-  },
-  {
     "start": "11:26",
     "stop": "11:56",
     "channel": "NaxatraNewsHindi.in",

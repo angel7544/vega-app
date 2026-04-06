@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "24GhantaTV.in",
-    "channelId": "24GhantaTV.in",
-    "channelName": "24 Ghanta TV",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Chatpat 24",
-    "desc": "The host provides information on the social, political, economic and sports updates from all over the country and the world."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "24GhantaTV.in",

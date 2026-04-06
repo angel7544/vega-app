@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "NakshatraDigitalTV.in",
-    "channelId": "NakshatraDigitalTV.in",
-    "channelName": "Nakshatra Digital TV",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Grade 5",
-    "desc": "A subject matter expert delivers a detailed lecture on various important concepts with suitable examples in a simple and easy-to-understand manner."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "NakshatraDigitalTV.in",

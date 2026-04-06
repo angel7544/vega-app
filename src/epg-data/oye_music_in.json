@@ -8,7 +8,7 @@
     "startTs": 1775471400000,
     "stopTs": 1775475000000,
     "title": "Hit Pe Hit",
-    "desc": "A compilation of hit songs by famous artists and musicians from all over the world."
+    "desc": "A comprehensive compilation of hit songs written and composed by famous artists and musicians from all over the world played back-to-back."
   },
   {
     "start": "11:30",
@@ -18,8 +18,8 @@
     "channelName": "Oye Music",
     "startTs": 1775475000000,
     "stopTs": 1775478600000,
-    "title": "Non Stop Music",
-    "desc": "A compilation of some of the most popular songs sung by talented artists is played."
+    "title": "Oye Music",
+    "desc": "A compilation of some of the most popular and melodious songs sung and composed by talented artists is played back-to-back."
   },
   {
     "start": "12:30",
@@ -30,7 +30,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775482200000,
     "title": "Naya Gaana",
-    "desc": "A compilation of the latest melodious songs performed by talented artists is played."
+    "desc": "A comprehensive compilation of the latest melodious songs performed by talented artists and musicians is played in quick succession."
   },
   {
     "start": "13:30",
@@ -41,7 +41,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775485800000,
     "title": "Latest Songs",
-    "desc": "A compilation of the latest and most popular songs sung by talented artists is played."
+    "desc": "A compilation of the latest and come of the most popular songs sung and composed by talented artists is played back-to-back."
   },
   {
     "start": "14:30",
@@ -52,7 +52,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775489400000,
     "title": "Chitarhar",
-    "desc": "A comprehensive collection of some of the most popular songs is played back-to-back."
+    "desc": "A comprehensive compilation of some of the most popular songs performed by various musicians and singers is played back-to-back."
   },
   {
     "start": "15:30",
@@ -63,7 +63,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775493000000,
     "title": "Web Series Time",
-    "desc": "A comprehensive compilation of music videos of songs by artists is played back-to-back."
+    "desc": "A comprehensive compilation of entertaining music videos of songs by various artists is played back-to-back to captivate the audience."
   },
   {
     "start": "16:30",
@@ -74,17 +74,281 @@
     "startTs": 1775493000000,
     "stopTs": 1775496600000,
     "title": "Mere Wala Gaana",
-    "desc": "The host presents a compilation of popular songs that are requested by viewers."
+    "desc": "The host plays a compilation of some of the most popular songs sung and composed by renowned artists back-to-back at the viewers&apos; request."
   },
   {
     "start": "17:30",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "OyeMusic.in",
     "channelId": "OyeMusic.in",
     "channelName": "Oye Music",
     "startTs": 1775496600000,
-    "stopTs": 1775500200000,
+    "stopTs": 1775500199000,
     "title": "Greatest Hits",
-    "desc": "A comprehensive compilation of some of the most popular songs is played back-to-back."
+    "desc": "A comprehensive compilation of some of the most popular songs sung and composed by renowned artists is played back-to-back."
+  },
+  {
+    "start": "18:30",
+    "stop": "19:30",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775500200000,
+    "stopTs": 1775503800000,
+    "title": "Latest Songs",
+    "desc": "A compilation of the latest and come of the most popular songs sung and composed by talented artists is played back-to-back."
+  },
+  {
+    "start": "19:30",
+    "stop": "20:30",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775503800000,
+    "stopTs": 1775507400000,
+    "title": "Chitarhar",
+    "desc": "A comprehensive compilation of some of the most popular songs performed by various musicians and singers is played back-to-back."
+  },
+  {
+    "start": "20:30",
+    "stop": "21:30",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775507400000,
+    "stopTs": 1775511000000,
+    "title": "Web Series Time",
+    "desc": "A comprehensive compilation of entertaining music videos of songs by various artists is played back-to-back to captivate the audience."
+  },
+  {
+    "start": "21:30",
+    "stop": "22:30",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775511000000,
+    "stopTs": 1775514600000,
+    "title": "Mere Wala Gaana",
+    "desc": "The host plays a compilation of some of the most popular songs sung and composed by renowned artists back-to-back at the viewers&apos; request."
+  },
+  {
+    "start": "22:30",
+    "stop": "23:30",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775514600000,
+    "stopTs": 1775518200000,
+    "title": "Greatest Hits",
+    "desc": "A comprehensive compilation of some of the most popular songs sung and composed by renowned artists is played back-to-back."
+  },
+  {
+    "start": "23:30",
+    "stop": "00:30",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775518200000,
+    "stopTs": 1775521800000,
+    "title": "Gurbani Time",
+    "desc": "Religious leaders recite holy verses and sing devotional songs as devotees gather to offer their prayers at a gurdwara."
+  },
+  {
+    "start": "00:30",
+    "stop": "01:30",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775521800000,
+    "stopTs": 1775525400000,
+    "title": "Bhagti Songs",
+    "desc": "A curated compilation of religious and sacred songs performed by various artists in devotion to Hindu deities is played back to back."
+  },
+  {
+    "start": "01:30",
+    "stop": "02:30",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775525400000,
+    "stopTs": 1775529000000,
+    "title": "Hit Pe Hit",
+    "desc": "A comprehensive compilation of hit songs written and composed by famous artists and musicians from all over the world played back-to-back."
+  },
+  {
+    "start": "02:30",
+    "stop": "03:30",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775529000000,
+    "stopTs": 1775532600000,
+    "title": "Oye Music",
+    "desc": "A compilation of some of the most popular and melodious songs sung and composed by talented artists is played back-to-back."
+  },
+  {
+    "start": "03:30",
+    "stop": "04:30",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775532600000,
+    "stopTs": 1775536200000,
+    "title": "Naya Gaana",
+    "desc": "A comprehensive compilation of the latest melodious songs performed by talented artists and musicians is played in quick succession."
+  },
+  {
+    "start": "04:30",
+    "stop": "05:30",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775536200000,
+    "stopTs": 1775539800000,
+    "title": "Latest Songs",
+    "desc": "A compilation of the latest and come of the most popular songs sung and composed by talented artists is played back-to-back."
+  },
+  {
+    "start": "05:30",
+    "stop": "06:30",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775539800000,
+    "stopTs": 1775543400000,
+    "title": "Naya Gaana",
+    "desc": "A comprehensive compilation of the latest melodious songs performed by talented artists and musicians is played in quick succession."
+  },
+  {
+    "start": "06:30",
+    "stop": "07:30",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775543400000,
+    "stopTs": 1775547000000,
+    "title": "Chitarhar",
+    "desc": "A comprehensive compilation of some of the most popular songs performed by various musicians and singers is played back-to-back."
+  },
+  {
+    "start": "07:30",
+    "stop": "08:30",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775547000000,
+    "stopTs": 1775550600000,
+    "title": "Web Series Time",
+    "desc": "A comprehensive compilation of entertaining music videos of songs by various artists is played back-to-back to captivate the audience."
+  },
+  {
+    "start": "08:30",
+    "stop": "09:30",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775550600000,
+    "stopTs": 1775554200000,
+    "title": "Mere Wala Gaana",
+    "desc": "The host plays a compilation of some of the most popular songs sung and composed by renowned artists back-to-back at the viewers&apos; request."
+  },
+  {
+    "start": "09:30",
+    "stop": "10:30",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775554200000,
+    "stopTs": 1775557800000,
+    "title": "Greatest Hits",
+    "desc": "A comprehensive compilation of some of the most popular songs sung and composed by renowned artists is played back-to-back."
+  },
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775557800000,
+    "stopTs": 1775561400000,
+    "title": "Hit Pe Hit",
+    "desc": "A comprehensive compilation of hit songs written and composed by famous artists and musicians from all over the world played back-to-back."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775561400000,
+    "stopTs": 1775565000000,
+    "title": "Oye Music",
+    "desc": "A compilation of some of the most popular and melodious songs sung and composed by talented artists is played back-to-back."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775565000000,
+    "stopTs": 1775568600000,
+    "title": "Naya Gaana",
+    "desc": "A comprehensive compilation of the latest melodious songs performed by talented artists and musicians is played in quick succession."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775568600000,
+    "stopTs": 1775572200000,
+    "title": "Latest Songs",
+    "desc": "A compilation of the latest and come of the most popular songs sung and composed by talented artists is played back-to-back."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775572200000,
+    "stopTs": 1775575800000,
+    "title": "Chitarhar",
+    "desc": "A comprehensive compilation of some of the most popular songs performed by various musicians and singers is played back-to-back."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775575800000,
+    "stopTs": 1775579400000,
+    "title": "Web Series Time",
+    "desc": "A comprehensive compilation of entertaining music videos of songs by various artists is played back-to-back to captivate the audience."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775579400000,
+    "stopTs": 1775583000000,
+    "title": "Mere Wala Gaana",
+    "desc": "The host plays a compilation of some of the most popular songs sung and composed by renowned artists back-to-back at the viewers&apos; request."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:29",
+    "channel": "OyeMusic.in",
+    "channelId": "OyeMusic.in",
+    "channelName": "Oye Music",
+    "startTs": 1775583000000,
+    "stopTs": 1775586599000,
+    "title": "Greatest Hits",
+    "desc": "A comprehensive compilation of some of the most popular songs sung and composed by renowned artists is played back-to-back."
   }
 ]

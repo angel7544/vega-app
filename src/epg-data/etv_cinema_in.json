@@ -1,42 +1,53 @@
 [
   {
     "start": "10:30",
-    "stop": "13:06",
+    "stop": "13:17",
     "channel": "ETVCinema.in",
     "channelId": "ETVCinema.in",
-    "channelName": "ETV Cinema HD",
+    "channelName": "ETV Cinema",
     "startTs": 1775471400000,
-    "stopTs": 1775480760000,
+    "stopTs": 1775481420000,
     "title": "M Dharmaraju M.A",
-    "desc": "A son, after coming to know that his father is evil personified, eliminates him."
+    "desc": "A son, after coming to know that his father is a man who is evil personified, decides to eliminate him with his own hands."
   },
   {
     "start": "13:06",
     "stop": "13:30",
-    "channel": "ETVCinema.in",
-    "channelId": "ETVCinema.in",
+    "channel": "ETVCinemaHD.in",
+    "channelId": "ETVCinemaHD.in",
     "channelName": "ETV Cinema HD",
     "startTs": 1775480760000,
     "stopTs": 1775482200000,
     "title": "Telugu Hits",
-    "desc": "A compilation of Telugu songs is played back-to-back to enthrall the audience."
+    "desc": "A compilation of some of the most trending Telugu hits composed by famous artists is played back-to-back to enthrall the audience."
+  },
+  {
+    "start": "13:17",
+    "stop": "13:30",
+    "channel": "ETVCinema.in",
+    "channelId": "ETVCinema.in",
+    "channelName": "ETV Cinema",
+    "startTs": 1775481420000,
+    "stopTs": 1775482200000,
+    "title": "Telugu Hits",
+    "desc": "A compilation of some of the most trending Telugu hits composed by famous artists is played back-to-back to enthrall the audience."
   },
   {
     "start": "13:30",
-    "stop": "15:45",
+    "stop": "16:07",
     "channel": "ETVCinema.in",
     "channelId": "ETVCinema.in",
-    "channelName": "ETV Cinema HD",
+    "channelName": "ETV Cinema",
     "startTs": 1775482200000,
-    "stopTs": 1775490300000,
+    "stopTs": 1775491620000,
     "title": "Bhale Unnade",
-    "desc": "Radha a saree draper falls for Krishna but family opposition tests their bond."
+    "desc": "Radha a saree draper falls for Krishna and learns love&apos;s depth beyond physical intimacy while their relationship faces challenges from parental opposition."
   },
   {
     "start": "15:45",
     "stop": "16:30",
-    "channel": "ETVCinema.in",
-    "channelId": "ETVCinema.in",
+    "channel": "ETVCinemaHD.in",
+    "channelId": "ETVCinemaHD.in",
     "channelName": "ETV Cinema HD",
     "startTs": 1775490300000,
     "stopTs": 1775493000000,
@@ -44,14 +55,157 @@
     "desc": "Bringing the best in television."
   },
   {
+    "start": "16:07",
+    "stop": "16:30",
+    "channel": "ETVCinema.in",
+    "channelId": "ETVCinema.in",
+    "channelName": "ETV Cinema",
+    "startTs": 1775491620000,
+    "stopTs": 1775493000000,
+    "title": "Telugu Hits",
+    "desc": "A compilation of some of the most trending Telugu hits composed by famous artists is played back-to-back to enthrall the audience."
+  },
+  {
     "start": "16:30",
+    "stop": "18:29",
+    "channel": "ETVCinema.in",
+    "channelId": "ETVCinema.in",
+    "channelName": "ETV Cinema",
+    "startTs": 1775493000000,
+    "stopTs": 1775500199000,
+    "title": "Aarani Mantalu",
+    "desc": "Ravi seeks to avenge his sister after she was raped and murdered by a group of men. However, things take a turn when he finds that they are already dead."
+  },
+  {
+    "start": "18:30",
     "stop": "19:30",
     "channel": "ETVCinema.in",
     "channelId": "ETVCinema.in",
-    "channelName": "ETV Cinema HD",
-    "startTs": 1775493000000,
+    "channelName": "ETV Cinema",
+    "startTs": 1775500200000,
     "stopTs": 1775503800000,
     "title": "Aarani Mantalu",
-    "desc": "Ravi seeks to avenge his sister after she was raped and murdered by a group of men."
+    "desc": "Ravi seeks to avenge his sister after she was raped and murdered by a group of men. However, things take a turn when he finds that they are already dead."
+  },
+  {
+    "start": "19:30",
+    "stop": "22:30",
+    "channel": "ETVCinema.in",
+    "channelId": "ETVCinema.in",
+    "channelName": "ETV Cinema",
+    "startTs": 1775503800000,
+    "stopTs": 1775514600000,
+    "title": "Hello Premistara",
+    "desc": "Twin stepbrothers, Arvind and Arjun, despise each other bitterly. Subsequently, they both fall deeply in love with the same captivating girl, fueling a fierce battle for her heart."
+  },
+  {
+    "start": "22:30",
+    "stop": "00:30",
+    "channel": "ETVCinema.in",
+    "channelId": "ETVCinema.in",
+    "channelName": "ETV Cinema",
+    "startTs": 1775514600000,
+    "stopTs": 1775521800000,
+    "title": "Songs",
+    "desc": "A comprehensive compilation of popular songs, performed by gifted artists and musicians, is played in rapid succession."
+  },
+  {
+    "start": "00:30",
+    "stop": "01:00",
+    "channel": "ETVCinema.in",
+    "channelId": "ETVCinema.in",
+    "channelName": "ETV Cinema",
+    "startTs": 1775521800000,
+    "stopTs": 1775523600000,
+    "title": "Yoga Based Programme",
+    "desc": "Yoga experts showcase various postures and meditation methods, offering practical tools for managing everyday stress and improving wellbeing."
+  },
+  {
+    "start": "01:00",
+    "stop": "01:30",
+    "channel": "ETVCinema.in",
+    "channelId": "ETVCinema.in",
+    "channelName": "ETV Cinema",
+    "startTs": 1775523600000,
+    "stopTs": 1775525400000,
+    "title": "Madhurimalu",
+    "desc": "A chef shares some kitchen secrets, simple dessert recipes and demonstrates how to whip up mouthwatering treats in an easy-to-understand manner."
+  },
+  {
+    "start": "01:30",
+    "stop": "04:30",
+    "channel": "ETVCinema.in",
+    "channelId": "ETVCinema.in",
+    "channelName": "ETV Cinema",
+    "startTs": 1775525400000,
+    "stopTs": 1775536200000,
+    "title": "Ammayi kapuram",
+    "desc": "Bringing the best in cinema."
+  },
+  {
+    "start": "04:30",
+    "stop": "07:30",
+    "channel": "ETVCinema.in",
+    "channelId": "ETVCinema.in",
+    "channelName": "ETV Cinema",
+    "startTs": 1775536200000,
+    "stopTs": 1775547000000,
+    "title": "Paramanandayya Sishyula Katha",
+    "desc": "A celestial being curses the disciples of a revered saint after the men object to her presence in their company. However, chaos ensues after the sage curses the angel to lose her celestial powers."
+  },
+  {
+    "start": "07:30",
+    "stop": "10:30",
+    "channel": "ETVCinema.in",
+    "channelId": "ETVCinema.in",
+    "channelName": "ETV Cinema",
+    "startTs": 1775547000000,
+    "stopTs": 1775557800000,
+    "title": "Chaala Bagundi",
+    "desc": "Sivaji and Vamsi share an unbreakable bond while taking care of their father&apos;s business. However, things change when Vamsi marries Seetha who tries to separate them in whichever way possible."
+  },
+  {
+    "start": "10:30",
+    "stop": "13:30",
+    "channel": "ETVCinema.in",
+    "channelId": "ETVCinema.in",
+    "channelName": "ETV Cinema",
+    "startTs": 1775557800000,
+    "stopTs": 1775568600000,
+    "title": "Varasudochhadu",
+    "desc": "Bose meets Raghu, who is going to die soon, at a hospital and agrees to take up his disguise and go to his village. Upon reaching there, he realises that Raghu&apos;s family is after his property."
+  },
+  {
+    "start": "13:30",
+    "stop": "16:30",
+    "channel": "ETVCinema.in",
+    "channelId": "ETVCinema.in",
+    "channelName": "ETV Cinema",
+    "startTs": 1775568600000,
+    "stopTs": 1775579400000,
+    "title": "Sakutumba Saparivaara Sametham",
+    "desc": "Disgusted by the habits and actions of his family members, a young man decides to remain a bachelor. However, when he meets a girl with irresistible traits, he is forced to rethink his decision."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "ETVCinema.in",
+    "channelId": "ETVCinema.in",
+    "channelName": "ETV Cinema",
+    "startTs": 1775579400000,
+    "stopTs": 1775583000000,
+    "title": "My Choice",
+    "desc": "The host talks to various celebrities from the Telugu movie industry who share their experiences of working in the movies."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:29",
+    "channel": "ETVCinema.in",
+    "channelId": "ETVCinema.in",
+    "channelName": "ETV Cinema",
+    "startTs": 1775583000000,
+    "stopTs": 1775586599000,
+    "title": "Songs",
+    "desc": "A comprehensive compilation of popular songs, performed by gifted artists and musicians, is played in rapid succession."
   }
 ]

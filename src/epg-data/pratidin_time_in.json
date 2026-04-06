@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "PratidinTime.in",
-    "channelId": "PratidinTime.in",
-    "channelName": "Pratidin Time",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Hindi Prime Time",
-    "desc": "The host provides a concise overview of current events and important news updates on political, social and cultural themes."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "PratidinTime.in",

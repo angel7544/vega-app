@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "SohamTV.in",
-    "channelId": "SohamTV.in",
-    "channelName": "Soham TV",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Life Changing Talks",
-    "desc": "Life Changing Talks"
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "SohamTV.in",

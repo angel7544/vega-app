@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "IndiaNewsMP.in",
-    "channelId": "IndiaNewsMP.in",
-    "channelName": "India News MP",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Badi Khabar News Bulletin",
-    "desc": "The host presents the top news stories, important updates and developments pertaining to various sectors including politics, business and sports."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "IndiaNewsMP.in",

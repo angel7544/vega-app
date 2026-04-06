@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "RupashiBangla.in",
-    "channelId": "RupashiBangla.in",
-    "channelName": "Rupashi Bangla",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Dhoom LIVE",
-    "desc": "A comprehensive compilation of the latest hits and popular soundtracks produced by various acclaimed musicians is played, live."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "RupashiBangla.in",

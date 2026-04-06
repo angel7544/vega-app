@@ -8,7 +8,7 @@
     "startTs": 1775469600000,
     "stopTs": 1775475000000,
     "title": "PTC Comedy Hours",
-    "desc": "."
+    "desc": "PTC Comedy Hours"
   },
   {
     "start": "11:30",
@@ -19,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775478600000,
     "title": "Chak De Hits",
-    "desc": "."
+    "desc": "Latest Bhangra music."
   },
   {
     "start": "12:30",
@@ -30,7 +30,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775482200000,
     "title": "Reela Wale Geet",
-    "desc": "."
+    "desc": "Bringing the best in television."
   },
   {
     "start": "13:30",
@@ -41,7 +41,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Wangaan",
-    "desc": "A woman has big dreams and wishes to get married to a well-behaved man."
+    "desc": "Ravi, a young woman, has big dreams and wishes to get married to a well-behaved man. However, she still needs to face a lot of difficulties and challenges in her path."
   },
   {
     "start": "14:00",
@@ -52,17 +52,215 @@
     "startTs": 1775484000000,
     "stopTs": 1775489400000,
     "title": "PTC Comedy Hours",
-    "desc": "."
+    "desc": "PTC Comedy Hours"
   },
   {
     "start": "15:30",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "PTCPunjabi.in",
     "channelId": "PTCPunjabi.in",
     "channelName": "PTC Punjabi",
     "startTs": 1775489400000,
-    "stopTs": 1775500200000,
+    "stopTs": 1775500199000,
     "title": "Fer Mamla Gadbad Gadbad",
     "desc": "Jassi, an aspiring actor, resorts to all kinds of ways to impress the love of his life."
+  },
+  {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "PTCPunjabi.in",
+    "channelId": "PTCPunjabi.in",
+    "channelName": "PTC Punjabi",
+    "startTs": 1775500200000,
+    "stopTs": 1775502000000,
+    "title": "BOOM BOX",
+    "desc": "A comprehensive collection of the most popular Bollywood dance tracks and top club hits play back to back."
+  },
+  {
+    "start": "19:00",
+    "stop": "21:15",
+    "channel": "PTCPunjabi.in",
+    "channelId": "PTCPunjabi.in",
+    "channelName": "PTC Punjabi",
+    "startTs": 1775502000000,
+    "stopTs": 1775510100000,
+    "title": "Punjabi Beats",
+    "desc": "A comprehensive compilation of some of the most popular Punjabi songs composed by notable composers in the country."
+  },
+  {
+    "start": "21:15",
+    "stop": "21:45",
+    "channel": "PTCPunjabi.in",
+    "channelId": "PTCPunjabi.in",
+    "channelName": "PTC Punjabi",
+    "startTs": 1775510100000,
+    "stopTs": 1775511900000,
+    "title": "Gurmat Gyan",
+    "desc": "Famous gurus provide insight and knowledge from their daily teachings to help improve people&apos;s lives in many different ways."
+  },
+  {
+    "start": "21:45",
+    "stop": "22:00",
+    "channel": "PTCPunjabi.in",
+    "channelId": "PTCPunjabi.in",
+    "channelName": "PTC Punjabi",
+    "startTs": 1775511900000,
+    "stopTs": 1775512800000,
+    "title": "Simran/Song",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "22:00",
+    "stop": "03:00",
+    "channel": "PTCPunjabi.in",
+    "channelId": "PTCPunjabi.in",
+    "channelName": "PTC Punjabi",
+    "startTs": 1775512800000,
+    "stopTs": 1775530800000,
+    "title": "Gurbaani Live From Sri Darbar Sahib",
+    "desc": "Devotees gather at Sri Darabr Sahib to sing the compositions by Sikh religious teachers while delivering extracts from the Guru Granth Sahib, the religious text of Sikhism."
+  },
+  {
+    "start": "03:00",
+    "stop": "03:30",
+    "channel": "PTCPunjabi.in",
+    "channelId": "PTCPunjabi.in",
+    "channelName": "PTC Punjabi",
+    "startTs": 1775530800000,
+    "stopTs": 1775532600000,
+    "title": "Gurmat Gyan",
+    "desc": "Famous gurus provide insight and knowledge from their daily teachings to help improve people&apos;s lives in many different ways."
+  },
+  {
+    "start": "03:30",
+    "stop": "04:00",
+    "channel": "PTCPunjabi.in",
+    "channelId": "PTCPunjabi.in",
+    "channelName": "PTC Punjabi",
+    "startTs": 1775532600000,
+    "stopTs": 1775534400000,
+    "title": "Simran/Song",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "04:00",
+    "stop": "05:30",
+    "channel": "PTCPunjabi.in",
+    "channelId": "PTCPunjabi.in",
+    "channelName": "PTC Punjabi",
+    "startTs": 1775534400000,
+    "stopTs": 1775539800000,
+    "title": "PTC Comedy Hours",
+    "desc": "PTC Comedy Hours"
+  },
+  {
+    "start": "05:30",
+    "stop": "06:30",
+    "channel": "PTCPunjabi.in",
+    "channelId": "PTCPunjabi.in",
+    "channelName": "PTC Punjabi",
+    "startTs": 1775539800000,
+    "stopTs": 1775543400000,
+    "title": "Reela Wale Geet",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "06:30",
+    "stop": "08:00",
+    "channel": "PTCPunjabi.in",
+    "channelId": "PTCPunjabi.in",
+    "channelName": "PTC Punjabi",
+    "startTs": 1775543400000,
+    "stopTs": 1775548800000,
+    "title": "Pakki Punjaban",
+    "desc": "Punjabi women showcase their strength and cultural heritage through engaging challenges and tasks, presenting the authentic spirit of the nation."
+  },
+  {
+    "start": "08:00",
+    "stop": "08:30",
+    "channel": "PTCPunjabi.in",
+    "channelId": "PTCPunjabi.in",
+    "channelName": "PTC Punjabi",
+    "startTs": 1775548800000,
+    "stopTs": 1775550600000,
+    "title": "Wangaan",
+    "desc": "Ravi, a young woman, has big dreams and wishes to get married to a well-behaved man. However, she still needs to face a lot of difficulties and challenges in her path."
+  },
+  {
+    "start": "08:30",
+    "stop": "10:00",
+    "channel": "PTCPunjabi.in",
+    "channelId": "PTCPunjabi.in",
+    "channelName": "PTC Punjabi",
+    "startTs": 1775550600000,
+    "stopTs": 1775556000000,
+    "title": "Voice of Punjab",
+    "desc": "Amateur singers from Punjab compete in a series of singing rounds to find the best vocalist in the state."
+  },
+  {
+    "start": "10:00",
+    "stop": "11:30",
+    "channel": "PTCPunjabi.in",
+    "channelId": "PTCPunjabi.in",
+    "channelName": "PTC Punjabi",
+    "startTs": 1775556000000,
+    "stopTs": 1775561400000,
+    "title": "PTC Comedy Hours",
+    "desc": "PTC Comedy Hours"
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "PTCPunjabi.in",
+    "channelId": "PTCPunjabi.in",
+    "channelName": "PTC Punjabi",
+    "startTs": 1775561400000,
+    "stopTs": 1775565000000,
+    "title": "Chak De Hits",
+    "desc": "Latest Bhangra music."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "PTCPunjabi.in",
+    "channelId": "PTCPunjabi.in",
+    "channelName": "PTC Punjabi",
+    "startTs": 1775565000000,
+    "stopTs": 1775568600000,
+    "title": "Reela Wale Geet",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "PTCPunjabi.in",
+    "channelId": "PTCPunjabi.in",
+    "channelName": "PTC Punjabi",
+    "startTs": 1775568600000,
+    "stopTs": 1775570400000,
+    "title": "Wangaan",
+    "desc": "Ravi, a young woman, has big dreams and wishes to get married to a well-behaved man. However, she still needs to face a lot of difficulties and challenges in her path."
+  },
+  {
+    "start": "14:00",
+    "stop": "15:30",
+    "channel": "PTCPunjabi.in",
+    "channelId": "PTCPunjabi.in",
+    "channelName": "PTC Punjabi",
+    "startTs": 1775570400000,
+    "stopTs": 1775575800000,
+    "title": "PTC Comedy Hours",
+    "desc": "PTC Comedy Hours"
+  },
+  {
+    "start": "15:30",
+    "stop": "18:29",
+    "channel": "PTCPunjabi.in",
+    "channelId": "PTCPunjabi.in",
+    "channelName": "PTC Punjabi",
+    "startTs": 1775575800000,
+    "stopTs": 1775586599000,
+    "title": "PTC Punjabi",
+    "desc": "Jhalle&apos;s family want her to find a husband, but they worry that her mental illness holds her back."
   }
 ]

@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "KalyanTV.in",
-    "channelId": "KalyanTV.in",
-    "channelName": "Kalyan TV",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "P.Shree Jigneshdada",
-    "desc": "A religious leader gives a religious discourse based on the teachings of the sacred scriptures and encourages the devotees to lead a spiritual life."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "KalyanTV.in",

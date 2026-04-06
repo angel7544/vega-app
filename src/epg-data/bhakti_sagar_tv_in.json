@@ -1,27 +1,5 @@
 [
   {
-    "start": "10:50",
-    "stop": "11:00",
-    "channel": "BhaktiSagarTV.in",
-    "channelId": "BhaktiSagarTV.in",
-    "channelName": "Bhakti Sagar TV",
-    "startTs": 1775472600000,
-    "stopTs": 1775473200000,
-    "title": "Sankirtan",
-    "desc": "Devotees come together to sing various religious songs and hymns, praising the Almighty and praying for blessings to be showered upon everyone."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:25",
-    "channel": "BhaktiSagarTV.in",
-    "channelId": "BhaktiSagarTV.in",
-    "channelName": "Bhakti Sagar TV",
-    "startTs": 1775473200000,
-    "stopTs": 1775474700000,
-    "title": "Bhajan Ganga",
-    "desc": "A religious leader guides a congregation of devout Hindus into prayerful meditation and sings soulful hymns in praise of the Almighty."
-  },
-  {
     "start": "11:25",
     "stop": "11:30",
     "channel": "BhaktiSagarTV.in",

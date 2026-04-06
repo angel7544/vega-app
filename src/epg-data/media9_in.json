@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "Media9.in",
-    "channelId": "Media9.in",
-    "channelName": "Media9",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Superfast News",
-    "desc": "The host presents the latest updates on the social, political and economic issues and provides information on current events."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "Media9.in",

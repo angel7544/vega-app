@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "FirstIndiaNews.in",
-    "channelId": "FirstIndiaNews.in",
-    "channelName": "First India News",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Hamara Rajasthan",
-    "desc": "The host sheds light on the latest political, economic, social and sports updates and top stories from the state of Rajasthan."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "FirstIndiaNews.in",

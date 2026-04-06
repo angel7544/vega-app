@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "CNBCBazaar(MNO).in",
-    "channelId": "CNBCBazaar(MNO).in",
-    "channelName": "CNBC Bazaar (MNO)",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Bajar Samachar",
-    "desc": "The host presents the latest development and updates in the business sector while providing a detailed report on the financial market."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "CNBCBazaar(MNO).in",

@@ -8,7 +8,7 @@
     "startTs": 1775471400000,
     "stopTs": 1775475000000,
     "title": "Nonstop Hits",
-    "desc": "A compilation of some of the most popular songs sung by talented artists is played. S01 E2453."
+    "desc": "A compilation of some of the most popular and melodious songs sung and composed by talented artists is played back-to-back."
   },
   {
     "start": "11:30",
@@ -19,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775478600000,
     "title": "Tumi Hansbe Bole",
-    "desc": "Enjoy a curated selection of comedic highlights from Bengali cinema full of fun. S01 E3014."
+    "desc": "Enjoy a curated selection of comedic highlights from Bengali cinema that entertain, amuse and brighten the day with wit and charm."
   },
   {
     "start": "12:30",
@@ -30,7 +30,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775482200000,
     "title": "Howrah Bridge",
-    "desc": "The host plays viewer-requested songs sung by famous artists and musicians. S01 E2130."
+    "desc": "The host plays viewer-requested songs sung by famous artists and musicians and also replies to their messages sent via emails, letters or social media platforms."
   },
   {
     "start": "13:30",
@@ -41,7 +41,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775485800000,
     "title": "Tumi Je Amar",
-    "desc": "A comprehensive compilation of passionate and timeless love songs featuring renowned artists is played one after the other. S01 E2264."
+    "desc": "A comprehensive compilation of passionate and timeless love songs featuring renowned artists is played one after the other."
   },
   {
     "start": "14:30",
@@ -52,7 +52,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775489400000,
     "title": "SB Lyrical",
-    "desc": "A melodious one-hour compilation of SB&apos;s blockbuster lyrical hits is played back-to-back."
+    "desc": "A melodious one-hour compilation of SB&apos;s blockbuster lyrical hits is played back-to-back for the entertainment of the viewers."
   },
   {
     "start": "15:30",
@@ -63,7 +63,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775493000000,
     "title": "SB All Time Hits",
-    "desc": "A curated selection of timeless Bengali songs plays, offering a nostalgic journey. S01 E2051."
+    "desc": "A curated selection of timeless Bengali songs plays, offering a nostalgic journey through classic melodies cherished across generations."
   },
   {
     "start": "16:30",
@@ -74,17 +74,281 @@
     "startTs": 1775493000000,
     "stopTs": 1775496600000,
     "title": "SB Viral Hits",
-    "desc": "A comprehensive compilation of popular songs composed is played back to back. S01 E1579."
+    "desc": "A comprehensive compilation of some of the best and most popular songs composed by renowned artists is played back to back."
   },
   {
     "start": "17:30",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "SangeetBangla.in",
     "channelId": "SangeetBangla.in",
     "channelName": "Sangeet Bangla",
     "startTs": 1775496600000,
-    "stopTs": 1775500200000,
+    "stopTs": 1775500199000,
     "title": "Tumi Hansbe Bole",
-    "desc": "Enjoy a curated selection of comedic highlights from Bengali cinema full of fun. S01 E3014."
+    "desc": "Enjoy a curated selection of comedic highlights from Bengali cinema that entertain, amuse and brighten the day with wit and charm."
+  },
+  {
+    "start": "18:30",
+    "stop": "19:30",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775500200000,
+    "stopTs": 1775503800000,
+    "title": "Popular Choice",
+    "desc": "A comprehensive collection of popular Bengali songs by renowned artists plays continuously, featuring some of the best music in the genre."
+  },
+  {
+    "start": "19:30",
+    "stop": "20:30",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775503800000,
+    "stopTs": 1775507400000,
+    "title": "Amar Superstar",
+    "desc": "A compilation of some of the most popular songs featuring prominent artists is played back to back in quick succession to entertain the viewers."
+  },
+  {
+    "start": "20:30",
+    "stop": "21:30",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775507400000,
+    "stopTs": 1775511000000,
+    "title": "SB Public Demand",
+    "desc": "The host presents beloved classic Bengali film songs chosen by audience request and played for nostalgic listeners and music lovers alike."
+  },
+  {
+    "start": "21:30",
+    "stop": "22:30",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775511000000,
+    "stopTs": 1775514600000,
+    "title": "Howrah Bridge",
+    "desc": "The host plays viewer-requested songs sung by famous artists and musicians and also replies to their messages sent via emails, letters or social media platforms."
+  },
+  {
+    "start": "22:30",
+    "stop": "23:30",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775514600000,
+    "stopTs": 1775518200000,
+    "title": "SB Supaarhitz",
+    "desc": "A comprehensive compilation of super hit Bengali movie songs with interesting trivia&apos;s and anecdotes with regards to the particular songs."
+  },
+  {
+    "start": "23:30",
+    "stop": "00:30",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775518200000,
+    "stopTs": 1775521800000,
+    "title": "SB Lyrical",
+    "desc": "A melodious one-hour compilation of SB&apos;s blockbuster lyrical hits is played back-to-back for the entertainment of the viewers."
+  },
+  {
+    "start": "00:30",
+    "stop": "01:30",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775521800000,
+    "stopTs": 1775525400000,
+    "title": "SB Bondona",
+    "desc": "A comprehensive compilation of some of the most catchy and popular devotional songs by top artists and poets is played one after the other."
+  },
+  {
+    "start": "01:30",
+    "stop": "02:30",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775525400000,
+    "stopTs": 1775529000000,
+    "title": "SB Supaarhitz",
+    "desc": "A comprehensive compilation of super hit Bengali movie songs with interesting trivia&apos;s and anecdotes with regards to the particular songs."
+  },
+  {
+    "start": "02:30",
+    "stop": "03:30",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775529000000,
+    "stopTs": 1775532600000,
+    "title": "Howrah Bridge",
+    "desc": "The host plays viewer-requested songs sung by famous artists and musicians and also replies to their messages sent via emails, letters or social media platforms."
+  },
+  {
+    "start": "03:30",
+    "stop": "04:30",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775532600000,
+    "stopTs": 1775536200000,
+    "title": "Nonstop Hits",
+    "desc": "A compilation of some of the most popular and melodious songs sung and composed by talented artists is played back-to-back."
+  },
+  {
+    "start": "04:30",
+    "stop": "05:30",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775536200000,
+    "stopTs": 1775539800000,
+    "title": "Tumi Hansbe Bole",
+    "desc": "Enjoy a curated selection of comedic highlights from Bengali cinema that entertain, amuse and brighten the day with wit and charm."
+  },
+  {
+    "start": "05:30",
+    "stop": "06:30",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775539800000,
+    "stopTs": 1775543400000,
+    "title": "SB Public Demand",
+    "desc": "The host presents beloved classic Bengali film songs chosen by audience request and played for nostalgic listeners and music lovers alike."
+  },
+  {
+    "start": "06:30",
+    "stop": "07:30",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775543400000,
+    "stopTs": 1775547000000,
+    "title": "SB Lyrical",
+    "desc": "A melodious one-hour compilation of SB&apos;s blockbuster lyrical hits is played back-to-back for the entertainment of the viewers."
+  },
+  {
+    "start": "07:30",
+    "stop": "08:30",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775547000000,
+    "stopTs": 1775550600000,
+    "title": "Popular Choice",
+    "desc": "A comprehensive collection of popular Bengali songs by renowned artists plays continuously, featuring some of the best music in the genre."
+  },
+  {
+    "start": "08:30",
+    "stop": "09:30",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775550600000,
+    "stopTs": 1775554200000,
+    "title": "Amar Superstar",
+    "desc": "A compilation of some of the most popular songs featuring prominent artists is played back to back in quick succession to entertain the viewers."
+  },
+  {
+    "start": "09:30",
+    "stop": "10:30",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775554200000,
+    "stopTs": 1775557800000,
+    "title": "SB All Time Hits",
+    "desc": "A curated selection of timeless Bengali songs plays, offering a nostalgic journey through classic melodies cherished across generations."
+  },
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775557800000,
+    "stopTs": 1775561400000,
+    "title": "Nonstop Hits",
+    "desc": "A compilation of some of the most popular and melodious songs sung and composed by talented artists is played back-to-back."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775561400000,
+    "stopTs": 1775565000000,
+    "title": "Tumi Hansbe Bole",
+    "desc": "Enjoy a curated selection of comedic highlights from Bengali cinema that entertain, amuse and brighten the day with wit and charm."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775565000000,
+    "stopTs": 1775568600000,
+    "title": "Howrah Bridge",
+    "desc": "The host plays viewer-requested songs sung by famous artists and musicians and also replies to their messages sent via emails, letters or social media platforms."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775568600000,
+    "stopTs": 1775572200000,
+    "title": "Tumi Je Amar",
+    "desc": "A comprehensive compilation of passionate and timeless love songs featuring renowned artists is played one after the other."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775572200000,
+    "stopTs": 1775575800000,
+    "title": "SB Lyrical",
+    "desc": "A melodious one-hour compilation of SB&apos;s blockbuster lyrical hits is played back-to-back for the entertainment of the viewers."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775575800000,
+    "stopTs": 1775579400000,
+    "title": "SB All Time Hits",
+    "desc": "A curated selection of timeless Bengali songs plays, offering a nostalgic journey through classic melodies cherished across generations."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775579400000,
+    "stopTs": 1775583000000,
+    "title": "SB Viral Hits",
+    "desc": "A comprehensive compilation of some of the best and most popular songs composed by renowned artists is played back to back."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:29",
+    "channel": "SangeetBangla.in",
+    "channelId": "SangeetBangla.in",
+    "channelName": "Sangeet Bangla",
+    "startTs": 1775583000000,
+    "stopTs": 1775586599000,
+    "title": "Tumi Hansbe Bole",
+    "desc": "Enjoy a curated selection of comedic highlights from Bengali cinema that entertain, amuse and brighten the day with wit and charm."
   }
 ]

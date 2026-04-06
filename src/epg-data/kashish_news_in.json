@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:56",
-    "stop": "11:27",
-    "channel": "KashishNews.in",
-    "channelId": "KashishNews.in",
-    "channelName": "Kashish News",
-    "startTs": 1775472960000,
-    "stopTs": 1775474820000,
-    "title": "Apan Jharkhand",
-    "desc": "The presenter shares the latest social, political and economic news from Jharkhand."
-  },
-  {
     "start": "11:27",
     "stop": "11:56",
     "channel": "KashishNews.in",
@@ -19,7 +8,7 @@
     "startTs": 1775474820000,
     "stopTs": 1775476560000,
     "title": "News Bulletin",
-    "desc": "The hosts present some of the latest updates, current affairs and developments."
+    "desc": "The hosts present some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
   },
   {
     "start": "11:56",
@@ -30,7 +19,7 @@
     "startTs": 1775476560000,
     "stopTs": 1775478420000,
     "title": "Jago Sarkar Jago",
-    "desc": "The reporter interacts with various citizens across India about the issues they face."
+    "desc": "The reporter interacts with various citizens across India about the issues they face in their day to day lives and presents key updates and news."
   },
   {
     "start": "12:27",
@@ -41,7 +30,7 @@
     "startTs": 1775478420000,
     "stopTs": 1775480160000,
     "title": "Mudda",
-    "desc": "The host discusses social, political and economic news stories with renowned experts."
+    "desc": "The host interviews prominent personalities and learns about their opinions on some of the latest social, political and economic news stories."
   },
   {
     "start": "12:56",
@@ -52,7 +41,7 @@
     "startTs": 1775480160000,
     "stopTs": 1775482020000,
     "title": "News",
-    "desc": "The host presents information about the social, economic and political issues of the day."
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
   },
   {
     "start": "13:27",
@@ -63,7 +52,7 @@
     "startTs": 1775482020000,
     "stopTs": 1775483760000,
     "title": "Hamar Bihar",
-    "desc": "The host presents the latest news updates from various parts of Bihar."
+    "desc": "The host presents the latest political, social, economic and other significant news updates from various parts of Bihar."
   },
   {
     "start": "13:56",
@@ -74,7 +63,7 @@
     "startTs": 1775483760000,
     "stopTs": 1775485620000,
     "title": "Apan Jharkhand",
-    "desc": "The presenter shares the latest social, political and economic news from Jharkhand."
+    "desc": "The presenter shares some of the latest news, current events and developments pertaining to social, political and economic affairs from the state of Jharkhand."
   },
   {
     "start": "14:27",
@@ -85,7 +74,7 @@
     "startTs": 1775485620000,
     "stopTs": 1775487360000,
     "title": "Mudda",
-    "desc": "The host discusses social, political and economic news stories with renowned experts."
+    "desc": "The host interviews prominent personalities and learns about their opinions on some of the latest social, political and economic news stories."
   },
   {
     "start": "14:56",
@@ -107,7 +96,7 @@
     "startTs": 1775489220000,
     "stopTs": 1775490960000,
     "title": "Sube Ki Baat Suno Sarkar",
-    "desc": "The host presents some of the latest updates, current affairs and developments."
+    "desc": "The host presents some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
   },
   {
     "start": "15:56",
@@ -118,7 +107,7 @@
     "startTs": 1775490960000,
     "stopTs": 1775492820000,
     "title": "Apna Shahar",
-    "desc": "The host sheds light on the latest news and updates from across various cities in India."
+    "desc": "The host sheds light on the latest news and updates regarding social, political and economic issues from across various cities in India."
   },
   {
     "start": "16:27",
@@ -129,7 +118,7 @@
     "startTs": 1775492820000,
     "stopTs": 1775494560000,
     "title": "Hamar Bihar",
-    "desc": "The host presents the latest news updates from various parts of Bihar."
+    "desc": "The host presents the latest political, social, economic and other significant news updates from various parts of Bihar."
   },
   {
     "start": "16:56",
@@ -140,7 +129,7 @@
     "startTs": 1775494560000,
     "stopTs": 1775496420000,
     "title": "Apan Jharkhand",
-    "desc": "The presenter shares the latest social, political and economic news from Jharkhand."
+    "desc": "The presenter shares some of the latest news, current events and developments pertaining to social, political and economic affairs from the state of Jharkhand."
   },
   {
     "start": "17:27",
@@ -151,16 +140,544 @@
     "startTs": 1775496420000,
     "stopTs": 1775498160000,
     "title": "Sube Ki Baat Suno Sarkar",
-    "desc": "The host presents some of the latest updates, current affairs and developments."
+    "desc": "The host presents some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
   },
   {
     "start": "17:56",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "KashishNews.in",
     "channelId": "KashishNews.in",
     "channelName": "Kashish News",
     "startTs": 1775498160000,
-    "stopTs": 1775500200000,
+    "stopTs": 1775500199000,
+    "title": "Gaon Jawaar",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "18:30",
+    "stop": "18:56",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775500200000,
+    "stopTs": 1775501760000,
+    "title": "Hamar Bihar",
+    "desc": "The host presents the latest political, social, economic and other significant news updates from various parts of Bihar."
+  },
+  {
+    "start": "18:56",
+    "stop": "19:27",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775501760000,
+    "stopTs": 1775503620000,
+    "title": "Apan Jharkhand",
+    "desc": "The presenter shares some of the latest news, current events and developments pertaining to social, political and economic affairs from the state of Jharkhand."
+  },
+  {
+    "start": "19:27",
+    "stop": "19:56",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775503620000,
+    "stopTs": 1775505360000,
+    "title": "Mudda",
+    "desc": "The host interviews prominent personalities and learns about their opinions on some of the latest social, political and economic news stories."
+  },
+  {
+    "start": "19:56",
+    "stop": "20:27",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775505360000,
+    "stopTs": 1775507220000,
+    "title": "Chowk Chouraha",
+    "desc": "The host interacts with various personalities about the latest political, social and economic news updates and developments from different parts of the country."
+  },
+  {
+    "start": "20:27",
+    "stop": "20:56",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775507220000,
+    "stopTs": 1775508960000,
+    "title": "Sube Ki Baat Suno Sarkar",
+    "desc": "The host presents some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
+  },
+  {
+    "start": "20:56",
+    "stop": "21:27",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775508960000,
+    "stopTs": 1775510820000,
+    "title": "Mudda",
+    "desc": "The host interviews prominent personalities and learns about their opinions on some of the latest social, political and economic news stories."
+  },
+  {
+    "start": "21:27",
+    "stop": "21:56",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775510820000,
+    "stopTs": 1775512560000,
+    "title": "Jungle-Jungle / Ye Sansar Hain",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "21:56",
+    "stop": "22:27",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775512560000,
+    "stopTs": 1775514420000,
+    "title": "Sube Ki Baat Suno Sarkar",
+    "desc": "The host presents some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
+  },
+  {
+    "start": "22:27",
+    "stop": "22:56",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775514420000,
+    "stopTs": 1775516160000,
+    "title": "Mudda",
+    "desc": "The host interviews prominent personalities and learns about their opinions on some of the latest social, political and economic news stories."
+  },
+  {
+    "start": "22:56",
+    "stop": "23:27",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775516160000,
+    "stopTs": 1775518020000,
+    "title": "Hamar Bihar",
+    "desc": "The host presents the latest political, social, economic and other significant news updates from various parts of Bihar."
+  },
+  {
+    "start": "23:27",
+    "stop": "23:56",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775518020000,
+    "stopTs": 1775519760000,
+    "title": "Apan Jharkhand",
+    "desc": "The presenter shares some of the latest news, current events and developments pertaining to social, political and economic affairs from the state of Jharkhand."
+  },
+  {
+    "start": "23:56",
+    "stop": "00:27",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775519760000,
+    "stopTs": 1775521620000,
+    "title": "News",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "00:27",
+    "stop": "00:56",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775521620000,
+    "stopTs": 1775523360000,
+    "title": "News",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "00:56",
+    "stop": "01:27",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775523360000,
+    "stopTs": 1775525220000,
+    "title": "Sube Ki Baat Suno Sarkar",
+    "desc": "The host presents some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
+  },
+  {
+    "start": "01:27",
+    "stop": "01:56",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775525220000,
+    "stopTs": 1775526960000,
+    "title": "Hamar Bihar",
+    "desc": "The host presents the latest political, social, economic and other significant news updates from various parts of Bihar."
+  },
+  {
+    "start": "01:56",
+    "stop": "02:27",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775526960000,
+    "stopTs": 1775528820000,
+    "title": "Apan Jharkhand",
+    "desc": "The presenter shares some of the latest news, current events and developments pertaining to social, political and economic affairs from the state of Jharkhand."
+  },
+  {
+    "start": "02:27",
+    "stop": "02:56",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775528820000,
+    "stopTs": 1775530560000,
+    "title": "Mudda",
+    "desc": "The host interviews prominent personalities and learns about their opinions on some of the latest social, political and economic news stories."
+  },
+  {
+    "start": "02:56",
+    "stop": "03:27",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775530560000,
+    "stopTs": 1775532420000,
+    "title": "Gaon Jawaar",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "03:27",
+    "stop": "03:56",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775532420000,
+    "stopTs": 1775534160000,
+    "title": "News Bulletin",
+    "desc": "The hosts present some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
+  },
+  {
+    "start": "03:56",
+    "stop": "04:27",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775534160000,
+    "stopTs": 1775536020000,
+    "title": "Mudda",
+    "desc": "The host interviews prominent personalities and learns about their opinions on some of the latest social, political and economic news stories."
+  },
+  {
+    "start": "04:27",
+    "stop": "04:56",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775536020000,
+    "stopTs": 1775537760000,
+    "title": "Hamar Bihar",
+    "desc": "The host presents the latest political, social, economic and other significant news updates from various parts of Bihar."
+  },
+  {
+    "start": "04:56",
+    "stop": "05:27",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775537760000,
+    "stopTs": 1775539620000,
+    "title": "Apan Jharkhand",
+    "desc": "The presenter shares some of the latest news, current events and developments pertaining to social, political and economic affairs from the state of Jharkhand."
+  },
+  {
+    "start": "05:27",
+    "stop": "05:57",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775539620000,
+    "stopTs": 1775541420000,
+    "title": "Bulletin Non Stop",
+    "desc": "The host sheds light on the latest news and updates regarding social, political and economic issues from across various cities in India."
+  },
+  {
+    "start": "05:57",
+    "stop": "06:27",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775541420000,
+    "stopTs": 1775543220000,
+    "title": "Jago Sarkar Jago",
+    "desc": "The reporter interacts with various citizens across India about the issues they face in their day to day lives and presents key updates and news."
+  },
+  {
+    "start": "06:27",
+    "stop": "06:56",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775543220000,
+    "stopTs": 1775544960000,
+    "title": "News Bulletin",
+    "desc": "The hosts present some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
+  },
+  {
+    "start": "06:56",
+    "stop": "07:27",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775544960000,
+    "stopTs": 1775546820000,
+    "title": "Chowk Chouraha",
+    "desc": "The host interacts with various personalities about the latest political, social and economic news updates and developments from different parts of the country."
+  },
+  {
+    "start": "07:27",
+    "stop": "07:56",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775546820000,
+    "stopTs": 1775548560000,
+    "title": "Hamar Bihar",
+    "desc": "The host presents the latest political, social, economic and other significant news updates from various parts of Bihar."
+  },
+  {
+    "start": "07:56",
+    "stop": "08:27",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775548560000,
+    "stopTs": 1775550420000,
+    "title": "Apan Jharkhand",
+    "desc": "The presenter shares some of the latest news, current events and developments pertaining to social, political and economic affairs from the state of Jharkhand."
+  },
+  {
+    "start": "08:27",
+    "stop": "08:56",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775550420000,
+    "stopTs": 1775552160000,
+    "title": "News Bulletin",
+    "desc": "The hosts present some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
+  },
+  {
+    "start": "08:56",
+    "stop": "09:27",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775552160000,
+    "stopTs": 1775554020000,
+    "title": "Jungle-Jungle / Ye Sansar Hain",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "09:27",
+    "stop": "09:56",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775554020000,
+    "stopTs": 1775555760000,
+    "title": "News Mail",
+    "desc": "The host sheds light on the latest news updates and developments pertaining to society, business, economics, sports and culture."
+  },
+  {
+    "start": "09:56",
+    "stop": "10:27",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775555760000,
+    "stopTs": 1775557620000,
+    "title": "Chowk Chouraha",
+    "desc": "The host interacts with various personalities about the latest political, social and economic news updates and developments from different parts of the country."
+  },
+  {
+    "start": "10:27",
+    "stop": "10:56",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775557620000,
+    "stopTs": 1775559360000,
+    "title": "Hamar Bihar",
+    "desc": "The host presents the latest political, social, economic and other significant news updates from various parts of Bihar."
+  },
+  {
+    "start": "10:56",
+    "stop": "11:27",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775559360000,
+    "stopTs": 1775561220000,
+    "title": "Apan Jharkhand",
+    "desc": "The presenter shares some of the latest news, current events and developments pertaining to social, political and economic affairs from the state of Jharkhand."
+  },
+  {
+    "start": "11:27",
+    "stop": "11:56",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775561220000,
+    "stopTs": 1775562960000,
+    "title": "News Bulletin",
+    "desc": "The hosts present some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
+  },
+  {
+    "start": "11:56",
+    "stop": "12:27",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775562960000,
+    "stopTs": 1775564820000,
+    "title": "Jago Sarkar Jago",
+    "desc": "The reporter interacts with various citizens across India about the issues they face in their day to day lives and presents key updates and news."
+  },
+  {
+    "start": "12:27",
+    "stop": "12:56",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775564820000,
+    "stopTs": 1775566560000,
+    "title": "Mudda",
+    "desc": "The host interviews prominent personalities and learns about their opinions on some of the latest social, political and economic news stories."
+  },
+  {
+    "start": "12:56",
+    "stop": "13:27",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775566560000,
+    "stopTs": 1775568420000,
+    "title": "News",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "13:27",
+    "stop": "13:56",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775568420000,
+    "stopTs": 1775570160000,
+    "title": "Hamar Bihar",
+    "desc": "The host presents the latest political, social, economic and other significant news updates from various parts of Bihar."
+  },
+  {
+    "start": "13:56",
+    "stop": "14:27",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775570160000,
+    "stopTs": 1775572020000,
+    "title": "Apan Jharkhand",
+    "desc": "The presenter shares some of the latest news, current events and developments pertaining to social, political and economic affairs from the state of Jharkhand."
+  },
+  {
+    "start": "14:27",
+    "stop": "14:56",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775572020000,
+    "stopTs": 1775573760000,
+    "title": "Mudda",
+    "desc": "The host interviews prominent personalities and learns about their opinions on some of the latest social, political and economic news stories."
+  },
+  {
+    "start": "14:56",
+    "stop": "15:27",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775573760000,
+    "stopTs": 1775575620000,
+    "title": "Gaon Jawaar",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "15:27",
+    "stop": "15:56",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775575620000,
+    "stopTs": 1775577360000,
+    "title": "Sube Ki Baat Suno Sarkar",
+    "desc": "The host presents some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
+  },
+  {
+    "start": "15:56",
+    "stop": "16:27",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775577360000,
+    "stopTs": 1775579220000,
+    "title": "Apna Shahar",
+    "desc": "The host sheds light on the latest news and updates regarding social, political and economic issues from across various cities in India."
+  },
+  {
+    "start": "16:27",
+    "stop": "16:56",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775579220000,
+    "stopTs": 1775580960000,
+    "title": "Hamar Bihar",
+    "desc": "The host presents the latest political, social, economic and other significant news updates from various parts of Bihar."
+  },
+  {
+    "start": "16:56",
+    "stop": "17:27",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775580960000,
+    "stopTs": 1775582820000,
+    "title": "Apan Jharkhand",
+    "desc": "The presenter shares some of the latest news, current events and developments pertaining to social, political and economic affairs from the state of Jharkhand."
+  },
+  {
+    "start": "17:27",
+    "stop": "17:56",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775582820000,
+    "stopTs": 1775584560000,
+    "title": "Sube Ki Baat Suno Sarkar",
+    "desc": "The host presents some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
+  },
+  {
+    "start": "17:56",
+    "stop": "18:29",
+    "channel": "KashishNews.in",
+    "channelId": "KashishNews.in",
+    "channelName": "Kashish News",
+    "startTs": 1775584560000,
+    "stopTs": 1775586599000,
     "title": "Gaon Jawaar",
     "desc": "Bringing the best in television."
   }

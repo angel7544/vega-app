@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "DivyaTV.in",
-    "channelId": "DivyaTV.in",
-    "channelName": "Divya TV",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Prem Dhavni",
-    "desc": "A comprehensive compilation of melodious songs sung and composed by talented artists is played in order to invoke the spirit of devotion."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "DivyaTV.in",

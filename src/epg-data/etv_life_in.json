@@ -8,7 +8,7 @@
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Sadguru Sai",
-    "desc": "Sai Baba ventures on a spiritual journey to promote peace and love in society."
+    "desc": "After experiencing discrimination based on religion and caste, Sai Baba endures various trials and tribulations on his journey to promote peace and love in society."
   },
   {
     "start": "11:30",
@@ -19,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Sri Siva Sahasra Nama Sthotram",
-    "desc": "A compilation of devotional songs dedicated to Lord Shiva is played back to back."
+    "desc": "A compilation of devotional songs dedicated to Lord Shiva is played back to back to guide the audience towards spiritual living."
   },
   {
     "start": "12:00",
@@ -30,7 +30,7 @@
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Namakam Chamakam",
-    "desc": "A priest recites an ancient Vedic chant, Namakam Chamakam, in praise of Lord Shiva."
+    "desc": "A priest, along with the devotees, recites an ancient Vedic chant, Namakam Chamakam, from Yajurveda which is dedicated to Lord Shiva."
   },
   {
     "start": "12:30",
@@ -52,7 +52,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Sri Lalitha Sahasra Nama Sthotram",
-    "desc": "Religious leaders lead various devotees as they offer prayers to the Almighty."
+    "desc": "Religious leaders lead various devotees as they offer prayers and chants to the Almighty and take the path of spirituality."
   },
   {
     "start": "13:30",
@@ -63,7 +63,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Dharma Margam",
-    "desc": "A spiritual leader delivers a discourse on the art of living and the path of spirituality."
+    "desc": "A spiritual leader delivers an enlightening discourse on the art of living and urges followers on the path of spirituality."
   },
   {
     "start": "14:00",
@@ -74,7 +74,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Veera Parasuram",
-    "desc": "Rama Bhargava becomes Parashurama through his severe penance and fights against injustice."
+    "desc": "Born to sage Jamadagni and Princess Renuka, Rama Bhargava becomes Parashurama through his severe penance and challenges the injustice in society."
   },
   {
     "start": "14:30",
@@ -85,7 +85,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Srikaram",
-    "desc": "A religious scholar sheds light on various mythological subjects."
+    "desc": "A religious scholar offers detailed insights into several mythological subjects that involve various deities and saints."
   },
   {
     "start": "15:00",
@@ -96,7 +96,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Surya Putra Karna",
-    "desc": "Karna endures a challenging journey in order to become an accomplished warrior and archer."
+    "desc": "As the son of the sun god Surya and the noble Kunti, Karna, a peerless archer, navigates a path fraught with challenges to emerge as a revered hero of the Mahabharata."
   },
   {
     "start": "15:30",
@@ -107,7 +107,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Jai Ganesha",
-    "desc": "When Lord Shiva beheads Lord Ganesha, Goddess Parvati asks Shiva to resurrect him."
+    "desc": "When Lord Shiva beheads Lord Ganesha, unaware of the fact that he is his son, Goddess Parvati asks Shiva to resurrect him. Later, Lord Ganesha is then renamed Vighnaharta, the remover of obstacles."
   },
   {
     "start": "16:00",
@@ -129,7 +129,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Manasa",
-    "desc": "An expert provides guidance on personality development, meditation and positivity."
+    "desc": "An expert focuses on mental well-being, offering in-depth guidance on personality development, meditation and maintaining a positive mindset amidst challenges."
   },
   {
     "start": "17:00",
@@ -140,7 +140,7 @@
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Datta Vaibhavam",
-    "desc": "A spiritual leader offers a religious discourse to apprise devotees of divine teachings."
+    "desc": "A spiritual leader offers a religious discourse to apprise devotees of divine teachings and guide them in leading exemplary lives."
   },
   {
     "start": "17:30",
@@ -151,16 +151,544 @@
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Shambho Shankara",
-    "desc": "."
+    "desc": "Shambho Shankara"
   },
   {
     "start": "18:00",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "ETVLife.in",
     "channelId": "ETVLife.in",
     "channelName": "ETV Life",
     "startTs": 1775498400000,
-    "stopTs": 1775500200000,
+    "stopTs": 1775500199000,
+    "title": "Jnanavani",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775500200000,
+    "stopTs": 1775502000000,
+    "title": "Teerdhayatra",
+    "desc": "The host sheds light on various pilgrimage sites and holy places in Hinduism, Buddhism and Jainism spread across different parts of India."
+  },
+  {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775502000000,
+    "stopTs": 1775503800000,
+    "title": "Datta Vaibhavam",
+    "desc": "A spiritual leader offers a religious discourse to apprise devotees of divine teachings and guide them in leading exemplary lives."
+  },
+  {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775503800000,
+    "stopTs": 1775505600000,
+    "title": "Mana Dharmam",
+    "desc": "The host interacts with a spiritual leader to seek insight into the sacred scriptures and Hindu mythology while imparting wisdom to the devotees."
+  },
+  {
+    "start": "20:00",
+    "stop": "20:30",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775505600000,
+    "stopTs": 1775507400000,
+    "title": "Shambho Shankara",
+    "desc": "Shambho Shankara"
+  },
+  {
+    "start": "20:30",
+    "stop": "21:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775507400000,
+    "stopTs": 1775509200000,
+    "title": "Amrutham",
+    "desc": "Amrutham and Anji run a small restaurant and find themselves in hilarious situations while trying to flourish their restaurant business."
+  },
+  {
+    "start": "21:00",
+    "stop": "21:30",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775509200000,
+    "stopTs": 1775511000000,
+    "title": "Manasa",
+    "desc": "An expert focuses on mental well-being, offering in-depth guidance on personality development, meditation and maintaining a positive mindset amidst challenges."
+  },
+  {
+    "start": "21:30",
+    "stop": "22:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775511000000,
+    "stopTs": 1775512800000,
+    "title": "Jeevana vedam",
+    "desc": "A spiritual leader sheds light on the teachings of the Almighty and encourages followers to take the path of spirituality."
+  },
+  {
+    "start": "22:00",
+    "stop": "22:30",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775512800000,
+    "stopTs": 1775514600000,
+    "title": "Dharma Margam",
+    "desc": "A spiritual leader delivers an enlightening discourse on the art of living and urges followers on the path of spirituality."
+  },
+  {
+    "start": "22:30",
+    "stop": "23:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775514600000,
+    "stopTs": 1775516400000,
+    "title": "Rasi Chakram",
+    "desc": "An experienced astrologer guides the viewers on their fortune by consulting the 12 zodiac signs and their chart positions."
+  },
+  {
+    "start": "23:00",
+    "stop": "23:30",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775516400000,
+    "stopTs": 1775518200000,
+    "title": "Srikaram",
+    "desc": "A religious scholar offers detailed insights into several mythological subjects that involve various deities and saints."
+  },
+  {
+    "start": "23:30",
+    "stop": "00:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775518200000,
+    "stopTs": 1775520000000,
+    "title": "Sri Subramanya Sahasra Nama Storam",
+    "desc": "Hindu priests chant a devotional composition that includes the recitation of the thousand names of Lord Subramanya to seek his blessings for a fulfilled life."
+  },
+  {
+    "start": "00:00",
+    "stop": "00:30",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775520000000,
+    "stopTs": 1775521800000,
+    "title": "Vishnu Sahasram",
+    "desc": "Tune in to the melodious recitation of a sacred hymn dedicated to Lord Vishnu, which involves the chanting of the thousand names of the deity."
+  },
+  {
+    "start": "00:30",
+    "stop": "01:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775521800000,
+    "stopTs": 1775523600000,
+    "title": "Hanuman Chalisa",
+    "desc": "Various talented singers perform a melodious rendition of the Hanuman Chalisa, a devotional hymn sung in honour of Lord Hanuman to seek his blessings for a fulfilled life."
+  },
+  {
+    "start": "01:00",
+    "stop": "01:30",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775523600000,
+    "stopTs": 1775525400000,
+    "title": "Sri Lalitha Sahasra Nama Sthotram",
+    "desc": "Religious leaders lead various devotees as they offer prayers and chants to the Almighty and take the path of spirituality."
+  },
+  {
+    "start": "01:30",
+    "stop": "02:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775525400000,
+    "stopTs": 1775527200000,
+    "title": "Sri Anjaneya Swamy Abishekam",
+    "desc": "A religious leader provides a detailed discourse on various spiritual teachings to devoted followers and encourages them to lead a faithful life."
+  },
+  {
+    "start": "02:00",
+    "stop": "02:30",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775527200000,
+    "stopTs": 1775529000000,
+    "title": "Ra Raa Krishnaiah",
+    "desc": "Lord Krishna, who shares a special bond with his foster mother Yashoda, embarks on various adventures in Vrindavan to fight evil forces and establish peace."
+  },
+  {
+    "start": "02:30",
+    "stop": "03:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775529000000,
+    "stopTs": 1775530800000,
+    "title": "Srirasthu",
+    "desc": "An expert in the field of astrology elaborates on the five components of a Hindu calendar that provides astrological information and discusses horoscopes."
+  },
+  {
+    "start": "03:00",
+    "stop": "03:30",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775530800000,
+    "stopTs": 1775532600000,
+    "title": "Teerdhayatra",
+    "desc": "The host sheds light on various pilgrimage sites and holy places in Hinduism, Buddhism and Jainism spread across different parts of India."
+  },
+  {
+    "start": "03:30",
+    "stop": "04:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775532600000,
+    "stopTs": 1775534400000,
+    "title": "Jnanavani",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "04:00",
+    "stop": "04:30",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775534400000,
+    "stopTs": 1775536200000,
+    "title": "Mana Dharmam",
+    "desc": "The host interacts with a spiritual leader to seek insight into the sacred scriptures and Hindu mythology while imparting wisdom to the devotees."
+  },
+  {
+    "start": "04:30",
+    "stop": "05:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775536200000,
+    "stopTs": 1775538000000,
+    "title": "Dharma Margam",
+    "desc": "A spiritual leader delivers an enlightening discourse on the art of living and urges followers on the path of spirituality."
+  },
+  {
+    "start": "05:00",
+    "stop": "05:30",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775538000000,
+    "stopTs": 1775539800000,
+    "title": "Jeevana Yoga",
+    "desc": "A wellness expert demonstrates various postures and exercises, explaining their positive impact on overall health and wellbeing to the audience."
+  },
+  {
+    "start": "05:30",
+    "stop": "06:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775539800000,
+    "stopTs": 1775541600000,
+    "title": "Datta Vaibhavam",
+    "desc": "A spiritual leader offers a religious discourse to apprise devotees of divine teachings and guide them in leading exemplary lives."
+  },
+  {
+    "start": "06:00",
+    "stop": "06:30",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775541600000,
+    "stopTs": 1775543400000,
+    "title": "Vedha Vignanam",
+    "desc": "Vedha Vignanam"
+  },
+  {
+    "start": "06:30",
+    "stop": "07:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775543400000,
+    "stopTs": 1775545200000,
+    "title": "Divyakshetram",
+    "desc": "The host examines the rich historical and cultural legacies of various iconic temples throughout different regions of India."
+  },
+  {
+    "start": "07:00",
+    "stop": "07:30",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775545200000,
+    "stopTs": 1775547000000,
+    "title": "Amrutham",
+    "desc": "Amrutham and Anji run a small restaurant and find themselves in hilarious situations while trying to flourish their restaurant business."
+  },
+  {
+    "start": "07:30",
+    "stop": "08:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775547000000,
+    "stopTs": 1775548800000,
+    "title": "Sadguru Sai Serial",
+    "desc": "The show portrays the inspiring journey of Sai Baba, his miracles and profound wisdom, touching lives across generations."
+  },
+  {
+    "start": "08:00",
+    "stop": "08:30",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775548800000,
+    "stopTs": 1775550600000,
+    "title": "Surya Putra Karna",
+    "desc": "As the son of the sun god Surya and the noble Kunti, Karna, a peerless archer, navigates a path fraught with challenges to emerge as a revered hero of the Mahabharata."
+  },
+  {
+    "start": "08:30",
+    "stop": "09:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775550600000,
+    "stopTs": 1775552400000,
+    "title": "Jai Ganesha",
+    "desc": "When Lord Shiva beheads Lord Ganesha, unaware of the fact that he is his son, Goddess Parvati asks Shiva to resurrect him. Later, Lord Ganesha is then renamed Vighnaharta, the remover of obstacles."
+  },
+  {
+    "start": "09:00",
+    "stop": "09:30",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775552400000,
+    "stopTs": 1775554200000,
+    "title": "Veera Parasuram",
+    "desc": "Born to sage Jamadagni and Princess Renuka, Rama Bhargava becomes Parashurama through his severe penance and challenges the injustice in society."
+  },
+  {
+    "start": "09:30",
+    "stop": "10:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775554200000,
+    "stopTs": 1775556000000,
+    "title": "Manasa",
+    "desc": "An expert focuses on mental well-being, offering in-depth guidance on personality development, meditation and maintaining a positive mindset amidst challenges."
+  },
+  {
+    "start": "10:00",
+    "stop": "10:30",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775556000000,
+    "stopTs": 1775557800000,
+    "title": "Srikaram",
+    "desc": "A religious scholar offers detailed insights into several mythological subjects that involve various deities and saints."
+  },
+  {
+    "start": "10:30",
+    "stop": "11:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775557800000,
+    "stopTs": 1775559600000,
+    "title": "Teerdhayatra",
+    "desc": "The host sheds light on various pilgrimage sites and holy places in Hinduism, Buddhism and Jainism spread across different parts of India."
+  },
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775559600000,
+    "stopTs": 1775561400000,
+    "title": "Sadguru Sai",
+    "desc": "After experiencing discrimination based on religion and caste, Sai Baba endures various trials and tribulations on his journey to promote peace and love in society."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775561400000,
+    "stopTs": 1775563200000,
+    "title": "Sri Subramanya Sahasra Nama Storam",
+    "desc": "Hindu priests chant a devotional composition that includes the recitation of the thousand names of Lord Subramanya to seek his blessings for a fulfilled life."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775563200000,
+    "stopTs": 1775565000000,
+    "title": "Vishnu Sahasram",
+    "desc": "Tune in to the melodious recitation of a sacred hymn dedicated to Lord Vishnu, which involves the chanting of the thousand names of the deity."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775565000000,
+    "stopTs": 1775566800000,
+    "title": "Hanuman Chalisa",
+    "desc": "Various talented singers perform a melodious rendition of the Hanuman Chalisa, a devotional hymn sung in honour of Lord Hanuman to seek his blessings for a fulfilled life."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775566800000,
+    "stopTs": 1775568600000,
+    "title": "Sri Lalitha Sahasra Nama Sthotram",
+    "desc": "Religious leaders lead various devotees as they offer prayers and chants to the Almighty and take the path of spirituality."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775568600000,
+    "stopTs": 1775570400000,
+    "title": "Dharma Margam",
+    "desc": "A spiritual leader delivers an enlightening discourse on the art of living and urges followers on the path of spirituality."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775570400000,
+    "stopTs": 1775572200000,
+    "title": "Veera Parasuram",
+    "desc": "Born to sage Jamadagni and Princess Renuka, Rama Bhargava becomes Parashurama through his severe penance and challenges the injustice in society."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775572200000,
+    "stopTs": 1775574000000,
+    "title": "Srikaram",
+    "desc": "A religious scholar offers detailed insights into several mythological subjects that involve various deities and saints."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775574000000,
+    "stopTs": 1775575800000,
+    "title": "Surya Putra Karna",
+    "desc": "As the son of the sun god Surya and the noble Kunti, Karna, a peerless archer, navigates a path fraught with challenges to emerge as a revered hero of the Mahabharata."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775575800000,
+    "stopTs": 1775577600000,
+    "title": "Jai Ganesha",
+    "desc": "When Lord Shiva beheads Lord Ganesha, unaware of the fact that he is his son, Goddess Parvati asks Shiva to resurrect him. Later, Lord Ganesha is then renamed Vighnaharta, the remover of obstacles."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775577600000,
+    "stopTs": 1775579400000,
+    "title": "Jnanavani",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775579400000,
+    "stopTs": 1775581200000,
+    "title": "Manasa",
+    "desc": "An expert focuses on mental well-being, offering in-depth guidance on personality development, meditation and maintaining a positive mindset amidst challenges."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775581200000,
+    "stopTs": 1775583000000,
+    "title": "Datta Vaibhavam",
+    "desc": "A spiritual leader offers a religious discourse to apprise devotees of divine teachings and guide them in leading exemplary lives."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775583000000,
+    "stopTs": 1775584800000,
+    "title": "Bhaje Vayuputhram",
+    "desc": "A devotional song praising Hanuman, the son of the wind god. It describes his strength, devotion and heroic deeds in worship of Lord Rama."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:29",
+    "channel": "ETVLife.in",
+    "channelId": "ETVLife.in",
+    "channelName": "ETV Life",
+    "startTs": 1775584800000,
+    "stopTs": 1775586599000,
     "title": "Jnanavani",
     "desc": "Bringing the best in television."
   }

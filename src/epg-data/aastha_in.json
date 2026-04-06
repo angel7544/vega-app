@@ -52,7 +52,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Yogrishi Swami Ramdev ji",
-    "desc": "Ancient techniques of meditation and adoption of specific bodily postures for health and relaxation."
+    "desc": "Ancient techniques of meditation and adoption of specific bodily postures widely practised for health and relaxation."
   },
   {
     "start": "15:00",
@@ -63,7 +63,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Yogrishi Swami Ramdev ji",
-    "desc": "Ancient techniques of meditation and adoption of specific bodily postures for health and relaxation."
+    "desc": "Ancient techniques of meditation and adoption of specific bodily postures widely practised for health and relaxation."
   },
   {
     "start": "15:30",
@@ -74,7 +74,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Yogrishi Swami Ramdev ji",
-    "desc": "Ancient techniques of meditation and adoption of specific bodily postures for health and relaxation."
+    "desc": "Ancient techniques of meditation and adoption of specific bodily postures widely practised for health and relaxation."
   },
   {
     "start": "16:00",
@@ -111,12 +111,331 @@
   },
   {
     "start": "16:50",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "Aastha.in",
     "channelId": "Aastha.in",
     "channelName": "Aastha",
     "startTs": 1775494200000,
-    "stopTs": 1775500200000,
+    "stopTs": 1775500199000,
+    "title": "Pujya Bhaishri Rameshbhai Oza",
+    "desc": "Pujya Bhaishri Rameshbhai Oza has dedicated his life to disseminating the divine teachings of the scriptures to thousands of listeners around the world."
+  },
+  {
+    "start": "18:30",
+    "stop": "20:00",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775500200000,
+    "stopTs": 1775505600000,
+    "title": "Pujya Bhaishri Rameshbhai Oza",
+    "desc": "Pujya Bhaishri Rameshbhai Oza has dedicated his life to disseminating the divine teachings of the scriptures to thousands of listeners around the world."
+  },
+  {
+    "start": "20:00",
+    "stop": "20:30",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775505600000,
+    "stopTs": 1775507400000,
+    "title": "Aastha Special",
+    "desc": "Featuring a telecast of Katha by revered saints and gurus from India."
+  },
+  {
+    "start": "20:30",
+    "stop": "21:00",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775507400000,
+    "stopTs": 1775509200000,
+    "title": "Aastha Special",
+    "desc": "Featuring a telecast of Katha by revered saints and gurus from India."
+  },
+  {
+    "start": "21:00",
+    "stop": "21:30",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775509200000,
+    "stopTs": 1775511000000,
+    "title": "Aastha Special",
+    "desc": "Featuring a telecast of Katha by revered saints and gurus from India."
+  },
+  {
+    "start": "21:30",
+    "stop": "22:00",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775511000000,
+    "stopTs": 1775512800000,
+    "title": "Aastha Special",
+    "desc": "Featuring a telecast of Katha by revered saints and gurus from India."
+  },
+  {
+    "start": "22:00",
+    "stop": "22:30",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775512800000,
+    "stopTs": 1775514600000,
+    "title": "Aastha Special",
+    "desc": "Featuring a telecast of Katha by revered saints and gurus from India."
+  },
+  {
+    "start": "22:30",
+    "stop": "23:30",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775514600000,
+    "stopTs": 1775518200000,
+    "title": "Yogrishi Swami Ramdev ji",
+    "desc": "Ancient techniques of meditation and adoption of specific bodily postures widely practised for health and relaxation."
+  },
+  {
+    "start": "23:30",
+    "stop": "02:00",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775518200000,
+    "stopTs": 1775527200000,
+    "title": "Yogrishi Swami Ramdev ji",
+    "desc": "Ancient techniques of meditation and adoption of specific bodily postures widely practised for health and relaxation."
+  },
+  {
+    "start": "02:00",
+    "stop": "02:30",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775527200000,
+    "stopTs": 1775529000000,
+    "title": "Roganusar Ayurved Evam Jivan Darshan",
+    "desc": "Acharya Balkrishna Ji, a prominent yoga and ayurveda scholar, talks about the importance of medicinal plants and their uses."
+  },
+  {
+    "start": "02:30",
+    "stop": "02:50",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775529000000,
+    "stopTs": 1775530200000,
+    "title": "Pujya Didi Maa Ritambharaji",
+    "desc": "Pujya Didi Maa Ritambharaji."
+  },
+  {
+    "start": "02:50",
+    "stop": "03:10",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775530200000,
+    "stopTs": 1775531400000,
+    "title": "Sant Rajinder Singhji",
+    "desc": "Sant Rajinder Singh Ji Maharaj, current head of Science of Spirituality or Sawan Kirpal Ruhani Mission, is internationally recognised for his work towards inner and outer peace through spirituality."
+  },
+  {
+    "start": "03:10",
+    "stop": "03:30",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775531400000,
+    "stopTs": 1775532600000,
+    "title": "Pujya Satpalji Maharaj",
+    "desc": "Shri Satpal Ji Maharaj&apos;s mission is primarily to ignite the spiritual flame in man. The knowledge he teaches, frees one from all restrictions and liberates the mind from all layers of ignorance."
+  },
+  {
+    "start": "03:30",
+    "stop": "04:00",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775532600000,
+    "stopTs": 1775534400000,
+    "title": "Sadhu Kailash Manav",
+    "desc": "Narayan Seva Sansthan is committed to providing free food and medical services to poor people."
+  },
+  {
+    "start": "04:00",
+    "stop": "04:10",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775534400000,
+    "stopTs": 1775535000000,
+    "title": "Dekho Apna Desh",
+    "desc": "The great land called Bharat, with a millennia old heritage, adorned with a rich sociocultural fabric and radiant with nature&apos;s bounty in all four directions."
+  },
+  {
+    "start": "04:10",
+    "stop": "04:20",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775535000000,
+    "stopTs": 1775535600000,
+    "title": "Rajat Nayar",
+    "desc": "Rajat Nayar"
+  },
+  {
+    "start": "04:20",
+    "stop": "04:30",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775535600000,
+    "stopTs": 1775536200000,
+    "title": "Aasstha Special",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "04:30",
+    "stop": "08:30",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775536200000,
+    "stopTs": 1775550600000,
+    "title": "Morari Bapu",
+    "desc": "Pujya Morari Bapu is a popular Hindu *kathakaar* (preacher), who has been giving 9 day-long sermons (*kathaas*) in both Gujarati and Hindi all over the world."
+  },
+  {
+    "start": "08:30",
+    "stop": "10:30",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775550600000,
+    "stopTs": 1775557800000,
+    "title": "Pujya Mahesh Guru ji",
+    "desc": "Pujya Mahesh Guru ji recites the Ram Katha / Bhagwat Katha."
+  },
+  {
+    "start": "10:30",
+    "stop": "13:30",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775557800000,
+    "stopTs": 1775568600000,
+    "title": "Pujya Chinmayanand Bapuji",
+    "desc": "Pujya Chinmayanand Bapu is a philanthropist national saint with a mission to propagate the ideals of humanity and work for the welfare of people."
+  },
+  {
+    "start": "13:30",
+    "stop": "13:50",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775568600000,
+    "stopTs": 1775569800000,
+    "title": "Sri Rajeev Lochan Dasa",
+    "desc": "Sri Rajeev Lochan Dasa gives lectures based on teachings from the Shrimad Bhagavatam."
+  },
+  {
+    "start": "13:50",
+    "stop": "14:15",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775569800000,
+    "stopTs": 1775571300000,
+    "title": "Gaurishi Dattasarananandji Maharaj",
+    "desc": "Gaurishi Dattasarananandji Maharaj recites the Gau Geeta Mahima Satsang."
+  },
+  {
+    "start": "14:15",
+    "stop": "14:30",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775571300000,
+    "stopTs": 1775572200000,
+    "title": "Sadhu Kailash Manav",
+    "desc": "Narayan Seva Sansthan is committed to providing free food and medical services to poor people."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775572200000,
+    "stopTs": 1775574000000,
+    "title": "Yogrishi Swami Ramdev ji",
+    "desc": "Ancient techniques of meditation and adoption of specific bodily postures widely practised for health and relaxation."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775574000000,
+    "stopTs": 1775575800000,
+    "title": "Yogrishi Swami Ramdev ji",
+    "desc": "Ancient techniques of meditation and adoption of specific bodily postures widely practised for health and relaxation."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775575800000,
+    "stopTs": 1775577600000,
+    "title": "Yogrishi Swami Ramdev ji",
+    "desc": "Ancient techniques of meditation and adoption of specific bodily postures widely practised for health and relaxation."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:10",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775577600000,
+    "stopTs": 1775578200000,
+    "title": "Aasstha Special",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "16:10",
+    "stop": "16:30",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775578200000,
+    "stopTs": 1775579400000,
+    "title": "Aasstha Special",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "16:30",
+    "stop": "16:50",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775579400000,
+    "stopTs": 1775580600000,
+    "title": "Aasstha Special",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "16:50",
+    "stop": "18:29",
+    "channel": "Aastha.in",
+    "channelId": "Aastha.in",
+    "channelName": "Aastha",
+    "startTs": 1775580600000,
+    "stopTs": 1775586599000,
     "title": "Pujya Bhaishri Rameshbhai Oza",
     "desc": "Pujya Bhaishri Rameshbhai Oza has dedicated his life to disseminating the divine teachings of the scriptures to thousands of listeners around the world."
   }

@@ -8,7 +8,7 @@
     "startTs": 1775471220000,
     "stopTs": 1775476620000,
     "title": "Raj News",
-    "desc": "The host presents information about the social, economic and political issues of the day."
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
   },
   {
     "start": "11:57",
@@ -19,7 +19,7 @@
     "startTs": 1775476620000,
     "stopTs": 1775478420000,
     "title": "Special",
-    "desc": "The host provides a detailed report on matters concerning the state and the nation."
+    "desc": "The host provides a detailed report featuring insightful updates and developments pertaining to matters concerning the state and the nation."
   },
   {
     "start": "12:27",
@@ -30,7 +30,7 @@
     "startTs": 1775478420000,
     "stopTs": 1775480220000,
     "title": "Commercial Slot",
-    "desc": "A range of products manufactured by popular brands can be bought from the comfort of home."
+    "desc": "A wide range of products manufactured by popular brands can be bought at attractive prices from the comfort of one&apos;s home."
   },
   {
     "start": "12:57",
@@ -41,7 +41,7 @@
     "startTs": 1775480220000,
     "stopTs": 1775482020000,
     "title": "Silver Screen",
-    "desc": "Dive into the film world with updates, artist talks and behind-the-scenes moments."
+    "desc": "Dive into the film world with updates on movie releases, conversations with artists and behind-the-scenes moments that bring the industry to life."
   },
   {
     "start": "13:27",
@@ -52,7 +52,7 @@
     "startTs": 1775482020000,
     "stopTs": 1775485620000,
     "title": "Chaduranga",
-    "desc": "The host presents information on the political affairs of the state."
+    "desc": "The host presents information on the political affairs of the state and provides the latest developments on current happenings."
   },
   {
     "start": "14:27",
@@ -63,7 +63,7 @@
     "startTs": 1775485620000,
     "stopTs": 1775487420000,
     "title": "Raj Mega Bulletin",
-    "desc": "The host presents an analysis of the recent political, business and socio-economic news."
+    "desc": "The host sheds light on the latest updates and developments regarding various topics ranging from social issues and politics to health and business."
   },
   {
     "start": "14:57",
@@ -74,7 +74,7 @@
     "startTs": 1775487420000,
     "stopTs": 1775489220000,
     "title": "Raj Mega Bulletin",
-    "desc": "The host presents an analysis of the recent political, business and socio-economic news."
+    "desc": "The host sheds light on the latest updates and developments regarding various topics ranging from social issues and politics to health and business."
   },
   {
     "start": "15:27",
@@ -85,7 +85,7 @@
     "startTs": 1775489220000,
     "stopTs": 1775491020000,
     "title": "Raj Focus",
-    "desc": "The host presents an in-depth analysis of important news updates and current affairs."
+    "desc": "The host presents an in-depth analysis of some of the latest and most important news updates and current affairs that matter to the people."
   },
   {
     "start": "15:57",
@@ -96,7 +96,7 @@
     "startTs": 1775491020000,
     "stopTs": 1775492820000,
     "title": "Raj Rajadhani",
-    "desc": "The host presents the latest news updates and developments pertaining to various issues."
+    "desc": "The host presents some of the latest news updates and developments pertaining to various social, economic and political issues."
   },
   {
     "start": "16:27",
@@ -118,7 +118,7 @@
     "startTs": 1775494620000,
     "stopTs": 1775496420000,
     "title": "News Bulletin Live",
-    "desc": "The host sheds light on the latest news updates from across the nation and the world, live."
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
   },
   {
     "start": "17:27",
@@ -129,7 +129,7 @@
     "startTs": 1775496420000,
     "stopTs": 1775498220000,
     "title": "Raj Mega Bulletin",
-    "desc": "The host presents an analysis of the recent political, business and socio-economic news."
+    "desc": "The host sheds light on the latest updates and developments regarding various topics ranging from social issues and politics to health and business."
   },
   {
     "start": "17:57",
@@ -140,17 +140,413 @@
     "startTs": 1775498220000,
     "stopTs": 1775500020000,
     "title": "Raj Mega Bulletin",
-    "desc": "The host presents an analysis of the recent political, business and socio-economic news."
+    "desc": "The host sheds light on the latest updates and developments regarding various topics ranging from social issues and politics to health and business."
   },
   {
     "start": "18:27",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "RajNewsKannada.in",
     "channelId": "RajNewsKannada.in",
     "channelName": "Raj News Kannada",
     "startTs": 1775500020000,
-    "stopTs": 1775500200000,
+    "stopTs": 1775500199000,
     "title": "Raj Mega Bulletin",
-    "desc": "The host presents an analysis of the recent political, business and socio-economic news."
+    "desc": "The host sheds light on the latest updates and developments regarding various topics ranging from social issues and politics to health and business."
+  },
+  {
+    "start": "18:30",
+    "stop": "00:27",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775500200000,
+    "stopTs": 1775521620000,
+    "title": "Raj Mega Bulletin",
+    "desc": "The host sheds light on the latest updates and developments regarding various topics ranging from social issues and politics to health and business."
+  },
+  {
+    "start": "00:27",
+    "stop": "00:57",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775521620000,
+    "stopTs": 1775523420000,
+    "title": "Bhakthi Bandhara",
+    "desc": "A religious leader provides a detailed discourse on various spiritual teachings to devotees and encourages them to lead a faithful lifestyle."
+  },
+  {
+    "start": "00:57",
+    "stop": "01:27",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775523420000,
+    "stopTs": 1775525220000,
+    "title": "Fitness - Yoga",
+    "desc": "A fitness expert showcases various yoga practices that help in enhancing physical and mental health and maintain overall wellbeing."
+  },
+  {
+    "start": "01:27",
+    "stop": "01:57",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775525220000,
+    "stopTs": 1775527020000,
+    "title": "News Bulletin",
+    "desc": "The hosts present some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
+  },
+  {
+    "start": "01:57",
+    "stop": "02:27",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775527020000,
+    "stopTs": 1775528820000,
+    "title": "Raj Raith",
+    "desc": "Bringing the best on television."
+  },
+  {
+    "start": "02:27",
+    "stop": "02:57",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775528820000,
+    "stopTs": 1775530620000,
+    "title": "Big Breaking",
+    "desc": "The host presents the latest national and international news headlines and the most recent social, political and economic updates."
+  },
+  {
+    "start": "02:57",
+    "stop": "03:27",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775530620000,
+    "stopTs": 1775532420000,
+    "title": "Silver Screen",
+    "desc": "Dive into the film world with updates on movie releases, conversations with artists and behind-the-scenes moments that bring the industry to life."
+  },
+  {
+    "start": "03:27",
+    "stop": "03:57",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775532420000,
+    "stopTs": 1775534220000,
+    "title": "Update News",
+    "desc": "The host sheds light on latest updates and top stories pertaining to the political, social and economical matters of the day."
+  },
+  {
+    "start": "03:57",
+    "stop": "04:27",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775534220000,
+    "stopTs": 1775536020000,
+    "title": "Flash Back Yuva Dasara",
+    "desc": "The host reflects on a celebration wherein talented local artists and established musicians singers and dance troupes come together to render top-notch performances on the occasion of Dasara."
+  },
+  {
+    "start": "04:27",
+    "stop": "04:57",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775536020000,
+    "stopTs": 1775537820000,
+    "title": "News Bulletin",
+    "desc": "The hosts present some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
+  },
+  {
+    "start": "04:57",
+    "stop": "05:27",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775537820000,
+    "stopTs": 1775539620000,
+    "title": "Namma Homeopathy",
+    "desc": "A medical expert helps callers by providing them with homeopathic solutions to their queries regarding common diseases and ailments."
+  },
+  {
+    "start": "05:27",
+    "stop": "05:57",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775539620000,
+    "stopTs": 1775541420000,
+    "title": "News Bulletin",
+    "desc": "The hosts present some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
+  },
+  {
+    "start": "05:57",
+    "stop": "06:27",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775541420000,
+    "stopTs": 1775543220000,
+    "title": "Putin Master Plan",
+    "desc": "The host presents some of the latest news and developments pertaining to the military conflict between Russia and Ukraine."
+  },
+  {
+    "start": "06:27",
+    "stop": "06:57",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775543220000,
+    "stopTs": 1775545020000,
+    "title": "News Bulletin",
+    "desc": "The hosts present some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
+  },
+  {
+    "start": "06:57",
+    "stop": "07:27",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775545020000,
+    "stopTs": 1775546820000,
+    "title": "Commercial",
+    "desc": "The host shares information about a wide selection of products that can be purchased from the comfort of the consumer&apos;s home."
+  },
+  {
+    "start": "07:27",
+    "stop": "08:27",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775546820000,
+    "stopTs": 1775550420000,
+    "title": "News Bulletin Live",
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
+  },
+  {
+    "start": "08:27",
+    "stop": "08:57",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775550420000,
+    "stopTs": 1775552220000,
+    "title": "News Bulletin",
+    "desc": "The hosts present some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
+  },
+  {
+    "start": "08:57",
+    "stop": "09:27",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775552220000,
+    "stopTs": 1775554020000,
+    "title": "Namma Homeopathy",
+    "desc": "A medical expert helps callers by providing them with homeopathic solutions to their queries regarding common diseases and ailments."
+  },
+  {
+    "start": "09:27",
+    "stop": "09:57",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775554020000,
+    "stopTs": 1775555820000,
+    "title": "Raj News",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "09:57",
+    "stop": "10:27",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775555820000,
+    "stopTs": 1775557620000,
+    "title": "Show Time",
+    "desc": "The host presents the latest stories and developments from the world of Indian cinema and provides updates related to various upcoming films."
+  },
+  {
+    "start": "10:27",
+    "stop": "11:27",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775557620000,
+    "stopTs": 1775561220000,
+    "title": "News Bulletin",
+    "desc": "The hosts present some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
+  },
+  {
+    "start": "11:27",
+    "stop": "11:57",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775561220000,
+    "stopTs": 1775563020000,
+    "title": "Raj News",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "11:57",
+    "stop": "12:27",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775563020000,
+    "stopTs": 1775564820000,
+    "title": "Special",
+    "desc": "The host provides a detailed report featuring insightful updates and developments pertaining to matters concerning the state and the nation."
+  },
+  {
+    "start": "12:27",
+    "stop": "12:57",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775564820000,
+    "stopTs": 1775566620000,
+    "title": "News Bulletin",
+    "desc": "The hosts present some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
+  },
+  {
+    "start": "12:57",
+    "stop": "13:27",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775566620000,
+    "stopTs": 1775568420000,
+    "title": "Silver Screen",
+    "desc": "Dive into the film world with updates on movie releases, conversations with artists and behind-the-scenes moments that bring the industry to life."
+  },
+  {
+    "start": "13:27",
+    "stop": "13:57",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775568420000,
+    "stopTs": 1775570220000,
+    "title": "Chaduranga",
+    "desc": "The host presents information on the political affairs of the state and provides the latest developments on current happenings."
+  },
+  {
+    "start": "13:57",
+    "stop": "14:27",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775570220000,
+    "stopTs": 1775572020000,
+    "title": "Ambar Tare",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "14:27",
+    "stop": "14:57",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775572020000,
+    "stopTs": 1775573820000,
+    "title": "Raj Mega Bulletin",
+    "desc": "The host sheds light on the latest updates and developments regarding various topics ranging from social issues and politics to health and business."
+  },
+  {
+    "start": "14:57",
+    "stop": "15:27",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775573820000,
+    "stopTs": 1775575620000,
+    "title": "Raj Mega Bulletin",
+    "desc": "The host sheds light on the latest updates and developments regarding various topics ranging from social issues and politics to health and business."
+  },
+  {
+    "start": "15:27",
+    "stop": "15:57",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775575620000,
+    "stopTs": 1775577420000,
+    "title": "Raj Focus",
+    "desc": "The host presents an in-depth analysis of some of the latest and most important news updates and current affairs that matter to the people."
+  },
+  {
+    "start": "15:57",
+    "stop": "16:27",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775577420000,
+    "stopTs": 1775579220000,
+    "title": "Raj Rajadhani",
+    "desc": "The host presents some of the latest news updates and developments pertaining to various social, economic and political issues."
+  },
+  {
+    "start": "16:27",
+    "stop": "16:57",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775579220000,
+    "stopTs": 1775581020000,
+    "title": "Raj Discovery",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "16:57",
+    "stop": "17:27",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775581020000,
+    "stopTs": 1775582820000,
+    "title": "News Bulletin Live",
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
+  },
+  {
+    "start": "17:27",
+    "stop": "17:57",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775582820000,
+    "stopTs": 1775584620000,
+    "title": "Raj Mega Bulletin",
+    "desc": "The host sheds light on the latest updates and developments regarding various topics ranging from social issues and politics to health and business."
+  },
+  {
+    "start": "17:57",
+    "stop": "18:27",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775584620000,
+    "stopTs": 1775586420000,
+    "title": "Raj Mega Bulletin",
+    "desc": "The host sheds light on the latest updates and developments regarding various topics ranging from social issues and politics to health and business."
+  },
+  {
+    "start": "18:27",
+    "stop": "18:29",
+    "channel": "RajNewsKannada.in",
+    "channelId": "RajNewsKannada.in",
+    "channelName": "Raj News Kannada",
+    "startTs": 1775586420000,
+    "stopTs": 1775586599000,
+    "title": "Raj Mega Bulletin",
+    "desc": "The host sheds light on the latest updates and developments regarding various topics ranging from social issues and politics to health and business."
   }
 ]

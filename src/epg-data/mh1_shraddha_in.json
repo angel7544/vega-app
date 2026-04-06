@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "mh1Shraddha.in",
-    "channelId": "mh1Shraddha.in",
-    "channelName": "mh1 Shraddha",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Shrimad Bhagwat Katha PP Aniruddhacharya Ji",
-    "desc": "Aniruddhacharya delivers a discourse on the verses and topics mentioned in the Bhagavata Purana and sheds light on the lessons that one can learn from it."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "mh1Shraddha.in",

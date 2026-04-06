@@ -8,7 +8,7 @@
     "startTs": 1775471400000,
     "stopTs": 1775482200000,
     "title": "Gau Vats Radha Krishna Ji Maharaj",
-    "desc": "."
+    "desc": "Gau Vats Radha Krishna Ji Maharaj"
   },
   {
     "start": "13:30",
@@ -19,7 +19,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Bhajan",
-    "desc": "An engaging compilation of spiritual hymns and divine melodies."
+    "desc": "An engaging compilation of spiritual hymns and divine melodies presented by renowned devotional singers from across the globe."
   },
   {
     "start": "14:00",
@@ -30,7 +30,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Sankirtan",
-    "desc": "A religious leader sings hymns in praise of Krishna in front of devotees."
+    "desc": "A famous religious leader sings hymns in praise of Lord Krishna in front of devotees in a bid to imbibe a sense of peace in them."
   },
   {
     "start": "14:30",
@@ -41,7 +41,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487000000,
     "title": "Bhajan",
-    "desc": "An engaging compilation of spiritual hymns and divine melodies."
+    "desc": "An engaging compilation of spiritual hymns and divine melodies presented by renowned devotional singers from across the globe."
   },
   {
     "start": "14:50",
@@ -52,7 +52,7 @@
     "startTs": 1775487000000,
     "stopTs": 1775488200000,
     "title": "Sankirtan",
-    "desc": "A religious leader sings hymns in praise of Krishna in front of devotees."
+    "desc": "A famous religious leader sings hymns in praise of Lord Krishna in front of devotees in a bid to imbibe a sense of peace in them."
   },
   {
     "start": "15:10",
@@ -63,7 +63,7 @@
     "startTs": 1775488200000,
     "stopTs": 1775490000000,
     "title": "Aacharya Balkrishna Ji",
-    "desc": "Acharya Balkrishna Ji delivers a discourse on spiritual and health-related matters."
+    "desc": "Acharya Balkrishna Ji delivers a discourse on various spiritual matters and urges the followers to embrace the traditional Indian system of wellness."
   },
   {
     "start": "15:40",
@@ -74,7 +74,7 @@
     "startTs": 1775490000000,
     "stopTs": 1775491200000,
     "title": "Sanskar Bhajan",
-    "desc": "Religious leaders recite verses while devotees seek blessings from the Almighty."
+    "desc": "Religious leaders recite verses and chant hymns from sacred scriptures while devotees pray to seek blessings from the Almighty."
   },
   {
     "start": "16:00",
@@ -85,7 +85,7 @@
     "startTs": 1775491200000,
     "stopTs": 1775492400000,
     "title": "Morari Bapu",
-    "desc": "Morari Bapu reads out excerpts from the Rama Katha and explains its importance."
+    "desc": "Morari Bapu reads out and explains significant excerpts from the Rama Katha while giving his interpretation of the same and highlighting its importance."
   },
   {
     "start": "16:20",
@@ -96,7 +96,7 @@
     "startTs": 1775492400000,
     "stopTs": 1775493600000,
     "title": "Pujya Didi Maa",
-    "desc": "Sadhvi Ritambhara, a religious scholar, delivers a discourse on the various virtues of Hinduism."
+    "desc": "Sadhvi Ritambhara, a religious scholar and spiritualist, delivers a discourse on the various virtues of Hinduism and explains its meaning in detail."
   },
   {
     "start": "16:40",
@@ -107,7 +107,7 @@
     "startTs": 1775493600000,
     "stopTs": 1775494800000,
     "title": "Bhajan Sandhya",
-    "desc": "Devotees gather to sing religious songs in praise and worship of the Almighty."
+    "desc": "Several devotees gather to seek blessings of the Almighty by chanting hymns and singing religious songs to praise and worship God."
   },
   {
     "start": "17:00",
@@ -118,7 +118,7 @@
     "startTs": 1775494800000,
     "stopTs": 1775496000000,
     "title": "Bhajan Sandhya",
-    "desc": "Devotees gather to sing religious songs in praise and worship of the Almighty."
+    "desc": "Several devotees gather to seek blessings of the Almighty by chanting hymns and singing religious songs to praise and worship God."
   },
   {
     "start": "17:20",
@@ -129,7 +129,7 @@
     "startTs": 1775496000000,
     "stopTs": 1775497200000,
     "title": "Bhajan Sandhya",
-    "desc": "Devotees gather to sing religious songs in praise and worship of the Almighty."
+    "desc": "Several devotees gather to seek blessings of the Almighty by chanting hymns and singing religious songs to praise and worship God."
   },
   {
     "start": "17:40",
@@ -140,17 +140,391 @@
     "startTs": 1775497200000,
     "stopTs": 1775498400000,
     "title": "Bhajan Sandhya",
-    "desc": "Devotees gather to sing religious songs in praise and worship of the Almighty."
+    "desc": "Several devotees gather to seek blessings of the Almighty by chanting hymns and singing religious songs to praise and worship God."
   },
   {
     "start": "18:00",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "ShubhTV.in",
     "channelId": "ShubhTV.in",
     "channelName": "Shubh TV",
     "startTs": 1775498400000,
-    "stopTs": 1775500200000,
+    "stopTs": 1775500199000,
     "title": "Bhajan",
-    "desc": "An engaging compilation of spiritual hymns and divine melodies."
+    "desc": "An engaging compilation of spiritual hymns and divine melodies presented by renowned devotional singers from across the globe."
+  },
+  {
+    "start": "18:30",
+    "stop": "21:30",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775500200000,
+    "stopTs": 1775511000000,
+    "title": "Bhajan",
+    "desc": "A comprehensive collection of songs that extend praise and prayers to the Almighty is played in order to invoke the spirit of devotion."
+  },
+  {
+    "start": "21:30",
+    "stop": "22:30",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775511000000,
+    "stopTs": 1775514600000,
+    "title": "Sankirtan",
+    "desc": "Devotees come together to sing various religious songs and hymns, praising the Almighty and praying for blessings to be showered upon everyone."
+  },
+  {
+    "start": "22:30",
+    "stop": "23:30",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775514600000,
+    "stopTs": 1775518200000,
+    "title": "Bhajan",
+    "desc": "An engaging compilation of spiritual hymns and divine melodies presented by renowned devotional singers from across the globe."
+  },
+  {
+    "start": "23:30",
+    "stop": "23:40",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775518200000,
+    "stopTs": 1775518800000,
+    "title": "Shubh Dhyan",
+    "desc": "A religious leader delivers a discourse and encourages believers to introspect and follow the path of spirituality and worship."
+  },
+  {
+    "start": "23:40",
+    "stop": "00:20",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775518800000,
+    "stopTs": 1775521200000,
+    "title": "Amrit Vani",
+    "desc": "A spiritual leader delivers a discourse on the various aspects of the Amrit Vani and sings prayers in praise of the Almighty."
+  },
+  {
+    "start": "00:20",
+    "stop": "00:30",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775521200000,
+    "stopTs": 1775521800000,
+    "title": "Swami Ramsukhdas Ji",
+    "desc": "Swami Ramsukhdasji preaches about the Bhagavad Gita and discusses how following the teachings will improve one&apos;s quality of life."
+  },
+  {
+    "start": "00:30",
+    "stop": "00:40",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775521800000,
+    "stopTs": 1775522400000,
+    "title": "Anuja Sinha",
+    "desc": "Anuja Sinha, a prominent singer, performs a comprehensive compilation of melodious devotional songs in praise of various Hindu deities."
+  },
+  {
+    "start": "00:40",
+    "stop": "00:50",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775522400000,
+    "stopTs": 1775523000000,
+    "title": "Anuradha Joshi",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "00:50",
+    "stop": "01:00",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775523000000,
+    "stopTs": 1775523600000,
+    "title": "Avdhesh Goswami",
+    "desc": "Religious singer Avdhesh Goswami performs popular bhajans and devotional songs and leads devotees in spiritual meditation."
+  },
+  {
+    "start": "01:00",
+    "stop": "01:10",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775523600000,
+    "stopTs": 1775524200000,
+    "title": "Kshama Bhardwaj",
+    "desc": "A religious leader recites verses from sacred scriptures and chants hymns in order to seek the blessings of the Almighty."
+  },
+  {
+    "start": "01:10",
+    "stop": "01:20",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775524200000,
+    "stopTs": 1775524800000,
+    "title": "Samudaik Prarthna",
+    "desc": "A comprehensive compilation of devotional hymns and soothing prayers to encourage devotees to seek blessings of the Almighty."
+  },
+  {
+    "start": "01:20",
+    "stop": "01:30",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775524800000,
+    "stopTs": 1775525400000,
+    "title": "Hanuman Chalisa",
+    "desc": "Devotees come together to recite the Hanuman Chalisa, a Hindu hymn in praise of Lord Hanuman, as they seek his blessings."
+  },
+  {
+    "start": "01:30",
+    "stop": "01:50",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775525400000,
+    "stopTs": 1775526600000,
+    "title": "Aradhana",
+    "desc": "Eminent religious priests and devotees come together to perform heartfelt devotional songs and hymns, dedicated to the Almighty."
+  },
+  {
+    "start": "01:50",
+    "stop": "02:10",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775526600000,
+    "stopTs": 1775527800000,
+    "title": "Sahib Bandagi Ji",
+    "desc": "A religious leader gives a spiritual discourse on the importance of Satya Bhakti to devotees and urges them to follow the path."
+  },
+  {
+    "start": "02:10",
+    "stop": "02:30",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775527800000,
+    "stopTs": 1775529000000,
+    "title": "Ek Naya Yug",
+    "desc": "A religious leader offers profound insights into Hindu principles, guiding how to live a harmonious and spiritually fulfilling life rooted in piety and tradition."
+  },
+  {
+    "start": "02:30",
+    "stop": "02:50",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775529000000,
+    "stopTs": 1775530200000,
+    "title": "Bhajan",
+    "desc": "An engaging compilation of spiritual hymns and divine melodies presented by renowned devotional singers from across the globe."
+  },
+  {
+    "start": "02:50",
+    "stop": "02:55",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775530200000,
+    "stopTs": 1775530500000,
+    "title": "Ramashish Ji Prem Se Bolo Jai Siyaram",
+    "desc": "A popular devotional singer delivers a soul-stirring musical performance dedicated to the glory of Lord Ram and Sita, inspiring viewers to deepen their faith."
+  },
+  {
+    "start": "02:55",
+    "stop": "04:30",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775530500000,
+    "stopTs": 1775536200000,
+    "title": "Bhajan",
+    "desc": "An engaging compilation of spiritual hymns and divine melodies presented by renowned devotional singers from across the globe."
+  },
+  {
+    "start": "04:30",
+    "stop": "07:30",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775536200000,
+    "stopTs": 1775547000000,
+    "title": "Shri Bageshwar Dham Sarkar",
+    "desc": "A revered spiritual leader shares divine wisdom, offering spiritual guidance and teachings to help devotees find strength on their path to righteousness."
+  },
+  {
+    "start": "07:30",
+    "stop": "10:30",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775547000000,
+    "stopTs": 1775557800000,
+    "title": "Sunder Kand Path",
+    "desc": "A devotional singer presents a melodious recollection of the valour and magnanimous feats achieved by Lord Hanuman during his noble quest to support Lord Ram in Lanka."
+  },
+  {
+    "start": "10:30",
+    "stop": "13:30",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775557800000,
+    "stopTs": 1775568600000,
+    "title": "Gau Vats Radha Krishna Ji Maharaj",
+    "desc": "Gau Vats Radha Krishna Ji Maharaj"
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775568600000,
+    "stopTs": 1775570400000,
+    "title": "Bhajan",
+    "desc": "An engaging compilation of spiritual hymns and divine melodies presented by renowned devotional singers from across the globe."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775570400000,
+    "stopTs": 1775572200000,
+    "title": "Sankirtan",
+    "desc": "A famous religious leader sings hymns in praise of Lord Krishna in front of devotees in a bid to imbibe a sense of peace in them."
+  },
+  {
+    "start": "14:30",
+    "stop": "14:50",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775572200000,
+    "stopTs": 1775573400000,
+    "title": "Bhajan",
+    "desc": "An engaging compilation of spiritual hymns and divine melodies presented by renowned devotional singers from across the globe."
+  },
+  {
+    "start": "14:50",
+    "stop": "15:10",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775573400000,
+    "stopTs": 1775574600000,
+    "title": "Sankirtan",
+    "desc": "A famous religious leader sings hymns in praise of Lord Krishna in front of devotees in a bid to imbibe a sense of peace in them."
+  },
+  {
+    "start": "15:10",
+    "stop": "15:40",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775574600000,
+    "stopTs": 1775576400000,
+    "title": "Aacharya Balkrishna Ji",
+    "desc": "Acharya Balkrishna Ji delivers a discourse on various spiritual matters and urges the followers to embrace the traditional Indian system of wellness."
+  },
+  {
+    "start": "15:40",
+    "stop": "16:00",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775576400000,
+    "stopTs": 1775577600000,
+    "title": "Sanskar Bhajan",
+    "desc": "Religious leaders recite verses and chant hymns from sacred scriptures while devotees pray to seek blessings from the Almighty."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:20",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775577600000,
+    "stopTs": 1775578800000,
+    "title": "Morari Bapu",
+    "desc": "Morari Bapu reads out and explains significant excerpts from the Rama Katha while giving his interpretation of the same and highlighting its importance."
+  },
+  {
+    "start": "16:20",
+    "stop": "16:40",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775578800000,
+    "stopTs": 1775580000000,
+    "title": "Pujya Didi Maa",
+    "desc": "Sadhvi Ritambhara, a religious scholar and spiritualist, delivers a discourse on the various virtues of Hinduism and explains its meaning in detail."
+  },
+  {
+    "start": "16:40",
+    "stop": "17:00",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775580000000,
+    "stopTs": 1775581200000,
+    "title": "Bhajan Sandhya",
+    "desc": "Several devotees gather to seek blessings of the Almighty by chanting hymns and singing religious songs to praise and worship God."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:20",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775581200000,
+    "stopTs": 1775582400000,
+    "title": "Bhajan Sandhya",
+    "desc": "Several devotees gather to seek blessings of the Almighty by chanting hymns and singing religious songs to praise and worship God."
+  },
+  {
+    "start": "17:20",
+    "stop": "17:40",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775582400000,
+    "stopTs": 1775583600000,
+    "title": "Bhajan Sandhya",
+    "desc": "Several devotees gather to seek blessings of the Almighty by chanting hymns and singing religious songs to praise and worship God."
+  },
+  {
+    "start": "17:40",
+    "stop": "18:00",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775583600000,
+    "stopTs": 1775584800000,
+    "title": "Bhajan Sandhya",
+    "desc": "Several devotees gather to seek blessings of the Almighty by chanting hymns and singing religious songs to praise and worship God."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:29",
+    "channel": "ShubhTV.in",
+    "channelId": "ShubhTV.in",
+    "channelName": "Shubh TV",
+    "startTs": 1775584800000,
+    "stopTs": 1775586599000,
+    "title": "Bhajan",
+    "desc": "An engaging compilation of spiritual hymns and divine melodies presented by renowned devotional singers from across the globe."
   }
 ]

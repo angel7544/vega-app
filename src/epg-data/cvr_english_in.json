@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "CVREnglish.in",
-    "channelId": "CVREnglish.in",
-    "channelName": "CVR English",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Chips And Dips Entertainement",
-    "desc": "The host provides an in-depth insight into the latest entertainment news stories and trends, including celebrity gossip and new releases."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "CVREnglish.in",

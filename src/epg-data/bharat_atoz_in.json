@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "BharatAtoZ.in",
-    "channelId": "BharatAtoZ.in",
-    "channelName": "Bharat AtoZ",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "News Bulletin",
-    "desc": "The host presents the latest news stories and developments pertaining to various political and socio-economic issues around the globe."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "BharatAtoZ.in",

@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:02",
-    "stop": "11:00",
-    "channel": "ChannelNewsAsiaInternational.in",
-    "channelId": "ChannelNewsAsiaInternational.in",
-    "channelName": "Channel News Asia International",
-    "startTs": 1775469720000,
-    "stopTs": 1775473200000,
-    "title": "When Titans Clash",
-    "desc": "Investigating the historical and contemporary forces driving the conflict between the US and China, and assessing how it could develop in the future."
-  },
-  {
     "start": "11:00",
     "stop": "12:00",
     "channel": "ChannelNewsAsiaInternational.in",

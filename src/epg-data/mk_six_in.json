@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "MKSix.in",
-    "channelId": "MKSix.in",
-    "channelName": "MK Six",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Then Amuthu",
-    "desc": "A comprehensive compilation of some of the popular Tamil songs composed and performed by renowned artists is played back-to-back."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "MKSix.in",

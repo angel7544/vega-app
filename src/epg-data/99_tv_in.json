@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "99TV.in",
-    "channelId": "99TV.in",
-    "channelName": "99 TV",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Live News",
-    "desc": "The host collates and presents some of the most important news and latest updates that cater to the interests of the people, live."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "99TV.in",

@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "OmShanti.in",
-    "channelId": "OmShanti.in",
-    "channelName": "Om Shanti",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Gyan Nidhi",
-    "desc": "A religious leader explains the importance of spiritual enlightenment while guiding viewers along the path to attain it."
-  },
-  {
     "start": "11:00",
     "stop": "13:00",
     "channel": "OmShanti.in",

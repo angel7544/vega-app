@@ -1,12 +1,100 @@
 [
   {
+    "start": "10:23",
+    "stop": "13:30",
+    "channel": "B4UMovies.in",
+    "channelId": "B4UMovies.in",
+    "channelName": "B4U Movies",
+    "startTs": 1775470980000,
+    "stopTs": 1775482200000,
+    "title": "Saathi",
+    "desc": "Two boys are left to fend for themselves after their father falls victim to police brutality. They make a living through petty crimes, but things get out of hand when they cross paths with an underworld kingpin."
+  },
+  {
+    "start": "13:30",
+    "stop": "17:39",
+    "channel": "B4UMovies.in",
+    "channelId": "B4UMovies.in",
+    "channelName": "B4U Movies",
+    "startTs": 1775482200000,
+    "stopTs": 1775497140000,
+    "title": "B4U Movies",
+    "desc": "A gangster&apos;s driver takes the blame for an accident, leaving his family alone. He seeks revenge when he finds out what happened to them while he was gone."
+  },
+  {
+    "start": "17:39",
+    "stop": "18:29",
+    "channel": "B4UMovies.in",
+    "channelId": "B4UMovies.in",
+    "channelName": "B4U Movies",
+    "startTs": 1775497140000,
+    "stopTs": 1775500199000,
+    "title": "Juaari",
+    "desc": "The struggle against a dangerous gambling lord tests Dharam Singh and Vijay as they navigate crime, deception and violence to protect the innocent and reclaim what was lost."
+  },
+  {
+    "start": "18:30",
+    "stop": "21:30",
+    "channel": "B4UMovies.in",
+    "channelId": "B4UMovies.in",
+    "channelName": "B4U Movies",
+    "startTs": 1775500200000,
+    "stopTs": 1775511000000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "21:30",
+    "stop": "00:30",
+    "channel": "B4UMovies.in",
+    "channelId": "B4UMovies.in",
+    "channelName": "B4U Movies",
+    "startTs": 1775511000000,
+    "stopTs": 1775521800000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "00:30",
+    "stop": "03:30",
+    "channel": "B4UMovies.in",
+    "channelId": "B4UMovies.in",
+    "channelName": "B4U Movies",
+    "startTs": 1775521800000,
+    "stopTs": 1775532600000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "03:30",
+    "stop": "06:30",
+    "channel": "B4UMovies.in",
+    "channelId": "B4UMovies.in",
+    "channelName": "B4U Movies",
+    "startTs": 1775532600000,
+    "stopTs": 1775543400000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "06:30",
+    "stop": "09:30",
+    "channel": "B4UMovies.in",
+    "channelId": "B4UMovies.in",
+    "channelName": "B4U Movies",
+    "startTs": 1775543400000,
+    "stopTs": 1775554200000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
     "start": "09:30",
     "stop": "12:30",
     "channel": "B4UMovies.in",
     "channelId": "B4UMovies.in",
     "channelName": "B4U Movies",
-    "startTs": 1775467800000,
-    "stopTs": 1775478600000,
+    "startTs": 1775554200000,
+    "stopTs": 1775565000000,
     "title": "Movie",
     "desc": "Bringing the best in television."
   },
@@ -16,19 +104,19 @@
     "channel": "B4UMovies.in",
     "channelId": "B4UMovies.in",
     "channelName": "B4U Movies",
-    "startTs": 1775478600000,
-    "stopTs": 1775489400000,
+    "startTs": 1775565000000,
+    "stopTs": 1775575800000,
     "title": "Movie",
     "desc": "Bringing the best in television."
   },
   {
     "start": "15:30",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "B4UMovies.in",
     "channelId": "B4UMovies.in",
     "channelName": "B4U Movies",
-    "startTs": 1775489400000,
-    "stopTs": 1775500200000,
+    "startTs": 1775575800000,
+    "stopTs": 1775586599000,
     "title": "Movie",
     "desc": "Bringing the best in television."
   }

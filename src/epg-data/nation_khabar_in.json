@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "NationKhabar.in",
-    "channelId": "NationKhabar.in",
-    "channelName": "Nation Khabar",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Nayak",
-    "desc": "The host sheds light on the life stories of great leaders, offering insight into the experiences that shaped them, the challenges they overcame and their achievements."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "NationKhabar.in",

@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:51",
-    "stop": "11:21",
-    "channel": "News18Lokmat.in",
-    "channelId": "News18Lokmat.in",
-    "channelName": "News18 Lokmat",
-    "startTs": 1775472660000,
-    "stopTs": 1775474460000,
-    "title": "Superfast 100",
-    "desc": "The host presents the top 100 stories, significant updates and huge developments from the national and international front."
-  },
-  {
     "start": "11:21",
     "stop": "11:51",
     "channel": "News18Lokmat.in",

@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "ZeeRajasthan.in",
-    "channelId": "ZeeRajasthan.in",
-    "channelName": "Zee Rajasthan",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Aapno Rajasthan",
-    "desc": "The host comprehensively delves into all the latest social, economic, sports and political updates from all over Rajasthan."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "ZeeRajasthan.in",

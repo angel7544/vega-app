@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "AMV.in",
-    "channelId": "AMV.in",
-    "channelName": "AMV",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Teleshopping",
-    "desc": "The host showcases the features of a variety of products manufactured by renowned brands that can be purchased from the comfort of one&apos;s home."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "AMV.in",

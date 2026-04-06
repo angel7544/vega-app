@@ -1,27 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:20",
-    "channel": "ExpressNews.in",
-    "channelId": "ExpressNews.in",
-    "channelName": "Express News",
-    "startTs": 1775471400000,
-    "stopTs": 1775474400000,
-    "title": "Feature Live",
-    "desc": "The host delivers real-time news updates with detailed analysis across a variety of topics, keeping viewers informed, live."
-  },
-  {
-    "start": "11:20",
-    "stop": "11:25",
-    "channel": "ExpressNews.in",
-    "channelId": "ExpressNews.in",
-    "channelName": "Express News",
-    "startTs": 1775474400000,
-    "stopTs": 1775474700000,
-    "title": "Break",
-    "desc": "The host provides the latest news updates regarding the economical, social and political situations from around the world."
-  },
-  {
     "start": "11:25",
     "stop": "11:30",
     "channel": "ExpressNews.in",

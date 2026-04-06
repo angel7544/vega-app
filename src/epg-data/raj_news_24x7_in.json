@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "RajNews24x7.in",
-    "channelId": "RajNews24x7.in",
-    "channelName": "Raj News 24x7",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Mukkiya Seithigal",
-    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "RajNews24x7.in",

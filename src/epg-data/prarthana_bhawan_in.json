@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "PrarthanaBhawan.in",
-    "channelId": "PrarthanaBhawan.in",
-    "channelName": "Prarthana Bhawan",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Eucharistic Adoration",
-    "desc": "Eucharistic Adoration"
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "PrarthanaBhawan.in",

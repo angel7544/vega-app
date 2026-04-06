@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "PropexTV.in",
-    "channelId": "PropexTV.in",
-    "channelName": "Propex TV",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Properties In Pathanamthitta",
-    "desc": "The host showcases some of the best and lucrative property deals available for purchase in Pathanamthitta, Kerala, India."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "PropexTV.in",

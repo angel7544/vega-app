@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "LotusNews.in",
-    "channelId": "LotusNews.in",
-    "channelName": "Lotus News",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "News",
-    "desc": "The host presents the latest news updates pertaining to the political, social, economic and sports fronts from around the nation and the world."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "LotusNews.in",

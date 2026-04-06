@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "LakshyaTV.in",
-    "channelId": "LakshyaTV.in",
-    "channelName": "Lakshya TV",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Pujya Saritadevi Maa Live",
-    "desc": "A religious leader delivers a discourse on the teachings of the Almighty and inspired the devotees to follow the path of righteousness, live."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "LakshyaTV.in",

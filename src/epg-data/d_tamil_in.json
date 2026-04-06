@@ -8,7 +8,7 @@
     "startTs": 1775466180000,
     "stopTs": 1775475240000,
     "title": "Charlie&apos;s Angels",
-    "desc": "Charlie, a wealthy enigma, assigns three women to find Eric Knox, a software genius."
+    "desc": "Charlie, a wealthy mystery figure, tasks three capable and captivating women with the job of finding Eric Knox, a genius in software development and the leader of Knox Enterprises."
   },
   {
     "start": "11:34",
@@ -19,7 +19,7 @@
     "startTs": 1775475240000,
     "stopTs": 1775482200000,
     "title": "Anacondas: The Hunt for the Blood Orchid",
-    "desc": "A team of biologists travels deep into the Amazon rainforest to retrieve a rare flower."
+    "desc": "A team of researchers is in Borneo to find the blood orchid, a flower that could hold the secret to eternal life. However, the scientists run afoul of the jungle&apos;s deadly snakes."
   },
   {
     "start": "13:30",
@@ -30,7 +30,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775489400000,
     "title": "Men in Black II",
-    "desc": "Agents J and K reunite to stop a shapeshifting alien from obtaining a powerful object."
+    "desc": "Agent J is after a shapeshifting alien seeking a powerful but little-known object. To save the world, he must reunite with his former partner, Agent K."
   },
   {
     "start": "15:30",
@@ -41,17 +41,204 @@
     "startTs": 1775489400000,
     "stopTs": 1775498400000,
     "title": "XXX: State of the Union",
-    "desc": "A former US Navy SEAL tries to stop a rogue military faction from toppling the government."
+    "desc": "Darius Stone, a former US Navy SEAL, is recruited as a new agent in the XXX program to stop a rogue military faction from overthrowing the US government."
   },
   {
     "start": "18:00",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "DTamil.in",
     "channelId": "DTamil.in",
     "channelName": "D Tamil",
     "startTs": 1775498400000,
-    "stopTs": 1775500200000,
+    "stopTs": 1775500199000,
     "title": "Food Factory",
-    "desc": "Cherry chews and silos of elbow macaroni are manufactured in the millions. S05 E02."
+    "desc": "Cherry chews, silos of elbow macaroni, an all-season cranberry Christmas cheesecake and a crispy exotic snack called chakri are manufactured in the millions."
+  },
+  {
+    "start": "18:30",
+    "stop": "19:26",
+    "channel": "DTamil.in",
+    "channelId": "DTamil.in",
+    "channelName": "D Tamil",
+    "startTs": 1775500200000,
+    "stopTs": 1775503560000,
+    "title": "Man vs. Wild",
+    "desc": "Bear Grylls demonstrates all the techniques and skills that are required in order to stay alive in the dangerous waters of the Everglades."
+  },
+  {
+    "start": "19:26",
+    "stop": "20:26",
+    "channel": "DTamil.in",
+    "channelId": "DTamil.in",
+    "channelName": "D Tamil",
+    "startTs": 1775503560000,
+    "stopTs": 1775507160000,
+    "title": "Man vs. Wild",
+    "desc": "Bear Grylls has served with the British Special forces, climbed to the peak of Everest and explored the frozen ocean of the Arctic. Now he faces the punishing heat of the Moab desert in Utah."
+  },
+  {
+    "start": "20:26",
+    "stop": "21:26",
+    "channel": "DTamil.in",
+    "channelId": "DTamil.in",
+    "channelName": "D Tamil",
+    "startTs": 1775507160000,
+    "stopTs": 1775510760000,
+    "title": "Man vs. Wild",
+    "desc": "Bear Grylls draws upon all his experience as a survivor to tackle the dangers of the Costa Rican rainforest, climbing 100 ft trees and down 120 ft waterfalls, facing snakes and sweltering humidity."
+  },
+  {
+    "start": "21:26",
+    "stop": "22:26",
+    "channel": "DTamil.in",
+    "channelId": "DTamil.in",
+    "channelName": "D Tamil",
+    "startTs": 1775510760000,
+    "stopTs": 1775514360000,
+    "title": "Man vs. Wild",
+    "desc": "Mountaineers survive in the Alps in potentially fatal conditions."
+  },
+  {
+    "start": "22:26",
+    "stop": "23:26",
+    "channel": "DTamil.in",
+    "channelId": "DTamil.in",
+    "channelName": "D Tamil",
+    "startTs": 1775514360000,
+    "stopTs": 1775517960000,
+    "title": "Man vs. Wild",
+    "desc": "In the lethal jungle of Panama, Bear Grylls tackles some extreme survival challenges and some grisly eats to show you how to get out alive."
+  },
+  {
+    "start": "23:26",
+    "stop": "00:30",
+    "channel": "DTamil.in",
+    "channelId": "DTamil.in",
+    "channelName": "D Tamil",
+    "startTs": 1775517960000,
+    "stopTs": 1775521800000,
+    "title": "Man vs. Wild",
+    "desc": "In the lethal mangroves and infamous viper pits of Panama, Bear Grylls tackles some extreme survival challenges and some grisly eats to show how to get out alive."
+  },
+  {
+    "start": "00:30",
+    "stop": "01:30",
+    "channel": "DTamil.in",
+    "channelId": "DTamil.in",
+    "channelName": "D Tamil",
+    "startTs": 1775521800000,
+    "stopTs": 1775525400000,
+    "title": "Toddlers & Tiaras",
+    "desc": "At the Glitzy Divas pageant, blonde-haired, blue-eyed Madi is one of the biggest winners and she aims to take home another crown to add to her collection."
+  },
+  {
+    "start": "01:30",
+    "stop": "02:00",
+    "channel": "DTamil.in",
+    "channelId": "DTamil.in",
+    "channelName": "D Tamil",
+    "startTs": 1775525400000,
+    "stopTs": 1775527200000,
+    "title": "Who the (Bleep) Did I Marry?",
+    "desc": "Days after small town girl Robin threatens to leave her unfaithful husband Jerry, a young woman is murdered in nearby woods. Does Jerry know the victim?"
+  },
+  {
+    "start": "02:00",
+    "stop": "03:00",
+    "channel": "DTamil.in",
+    "channelId": "DTamil.in",
+    "channelName": "D Tamil",
+    "startTs": 1775527200000,
+    "stopTs": 1775530800000,
+    "title": "American Detective With Lt. Joe Kenda",
+    "desc": "After a hard-working young mother goes missing on the mean streets of Washington, detective Jackie Middleton must unravel a cold-blooded conspiracy."
+  },
+  {
+    "start": "03:00",
+    "stop": "04:00",
+    "channel": "DTamil.in",
+    "channelId": "DTamil.in",
+    "channelName": "D Tamil",
+    "startTs": 1775530800000,
+    "stopTs": 1775534400000,
+    "title": "American Detective With Lt. Joe Kenda",
+    "desc": "When Susan Powell vanishes without a trace, her husband claims to have no idea what happened. But many feel he may have had a hand in her disappearance."
+  },
+  {
+    "start": "04:00",
+    "stop": "06:31",
+    "channel": "DTamil.in",
+    "channelId": "DTamil.in",
+    "channelName": "D Tamil",
+    "startTs": 1775534400000,
+    "stopTs": 1775543460000,
+    "title": "Charlie&apos;s Angels",
+    "desc": "Charlie, a wealthy mystery figure, tasks three capable and captivating women with the job of finding Eric Knox, a genius in software development and the leader of Knox Enterprises."
+  },
+  {
+    "start": "06:31",
+    "stop": "09:01",
+    "channel": "DTamil.in",
+    "channelId": "DTamil.in",
+    "channelName": "D Tamil",
+    "startTs": 1775543460000,
+    "stopTs": 1775552460000,
+    "title": "Drunken Master II",
+    "desc": "Wong Fei-hung finds himself in the middle of a smuggling conspiracy, using his mastery of Drunken Boxing to take on dangerous foes and protect his homeland."
+  },
+  {
+    "start": "09:01",
+    "stop": "11:31",
+    "channel": "DTamil.in",
+    "channelId": "DTamil.in",
+    "channelName": "D Tamil",
+    "startTs": 1775552460000,
+    "stopTs": 1775561460000,
+    "title": "Who Am I",
+    "desc": "Following the demise of his beloved professor, Bhavataviya, a philosophy student, sets out on a quest to find the answer to the existential question of life."
+  },
+  {
+    "start": "11:31",
+    "stop": "13:31",
+    "channel": "DTamil.in",
+    "channelId": "DTamil.in",
+    "channelName": "D Tamil",
+    "startTs": 1775561460000,
+    "stopTs": 1775568660000,
+    "title": "Rumble in the Bronx",
+    "desc": "A man goes to New York to visit his uncle, however, he encounters a street gang and fights them with his martial arts skills."
+  },
+  {
+    "start": "13:31",
+    "stop": "15:31",
+    "channel": "DTamil.in",
+    "channelId": "DTamil.in",
+    "channelName": "D Tamil",
+    "startTs": 1775568660000,
+    "stopTs": 1775575860000,
+    "title": "Jackie Chan&apos;s First Strike",
+    "desc": "Tasked with a covert mission, Chan Ka-Kui hunts down an arms dealer, facing deadly traps, high-speed chases and gravity-defying stunts in his pursuit of justice."
+  },
+  {
+    "start": "15:31",
+    "stop": "17:30",
+    "channel": "DTamil.in",
+    "channelId": "DTamil.in",
+    "channelName": "D Tamil",
+    "startTs": 1775575860000,
+    "stopTs": 1775583000000,
+    "title": "Mr. Nice Guy",
+    "desc": "After collecting evidence against drug lord Giancarlo and trying to escape, TV reporter Diana bumps into Jackie. Soon, Jackie is pursued by Giancarlo&apos;s men, who believe him to possess the evidence."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:29",
+    "channel": "DTamil.in",
+    "channelId": "DTamil.in",
+    "channelName": "D Tamil",
+    "startTs": 1775583000000,
+    "stopTs": 1775586599000,
+    "title": "Mr. Nice Guy",
+    "desc": "After collecting evidence against drug lord Giancarlo and trying to escape, TV reporter Diana bumps into Jackie. Soon, Jackie is pursued by Giancarlo&apos;s men, who believe him to possess the evidence."
   }
 ]

@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "IndiaDailyLive.in",
-    "channelId": "IndiaDailyLive.in",
-    "channelName": "India Daily Live",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "100 Shahar 100 Khabar",
-    "desc": "The host presents the latest political, social, economic and sports news updates and speaks about the recent developments in the country."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "IndiaDailyLive.in",

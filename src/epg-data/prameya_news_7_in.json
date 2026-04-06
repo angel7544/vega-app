@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "PrameyaNews7.in",
-    "channelId": "PrameyaNews7.in",
-    "channelName": "Prameya News 7",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "News 7 Live",
-    "desc": "The host presents all the latest updates and developments on political, social and economic matters in a detailed manner, live."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "PrameyaNews7.in",

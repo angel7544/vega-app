@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "SuvarnaNews.in",
-    "channelId": "SuvarnaNews.in",
-    "channelName": "Suvarna News",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Suvarna News Live",
-    "desc": "The host presents some of the most important social, political and economic news updates and developments of the day, live."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "SuvarnaNews.in",

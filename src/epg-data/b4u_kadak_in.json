@@ -8,7 +8,7 @@
     "startTs": 1775467500000,
     "stopTs": 1775479200000,
     "title": "Mera Badla: Revenge",
-    "desc": "After his family experience strange events in their house, a man seeks help from a psychiatrist."
+    "desc": "Shankar Rao, a businessman, and his family start witnessing strange events in their house. Thereafter, he calls Dr Vijay, a psychiatrist, to help him."
   },
   {
     "start": "12:40",
@@ -19,17 +19,116 @@
     "startTs": 1775479200000,
     "stopTs": 1775491440000,
     "title": "Andhaa Kaanoon",
-    "desc": "Two siblings, Vijay and Durga, choose contrasting paths to avenge their parents&apos; death."
+    "desc": "Two siblings, Vijay and Durga, vow to avenge the death of their parents. So, Durga becomes an inspector to punish the criminals, whereas Vijay breaks the law to achieve his goal."
   },
   {
     "start": "16:04",
-    "stop": "18:56",
+    "stop": "18:29",
     "channel": "B4UKadak.in",
     "channelId": "B4UKadak.in",
     "channelName": "B4U Kadak",
     "startTs": 1775491440000,
+    "stopTs": 1775500199000,
+    "title": "Devta",
+    "desc": "An ordinary taxi driver becomes part of a notorious gang through a twist of fate and takes on the role of a terrifying assassin."
+  },
+  {
+    "start": "18:30",
+    "stop": "18:56",
+    "channel": "B4UKadak.in",
+    "channelId": "B4UKadak.in",
+    "channelName": "B4U Kadak",
+    "startTs": 1775500200000,
     "stopTs": 1775501760000,
     "title": "Devta",
-    "desc": "An ordinary taxi driver becomes part of a notorious gang through a twist of fate."
+    "desc": "An ordinary taxi driver becomes part of a notorious gang through a twist of fate and takes on the role of a terrifying assassin."
+  },
+  {
+    "start": "18:56",
+    "stop": "21:30",
+    "channel": "B4UKadak.in",
+    "channelId": "B4UKadak.in",
+    "channelName": "B4U Kadak",
+    "startTs": 1775501760000,
+    "stopTs": 1775511000000,
+    "title": "Ek Aur Bhool Bhulaiyaa",
+    "desc": "Nakulan and his family move into his supposedly haunted ancestral property. However, when his cousin starts behaving uncharacteristically, Nakulan enlists the help of his psychiatrist friend."
+  },
+  {
+    "start": "21:30",
+    "stop": "00:30",
+    "channel": "B4UKadak.in",
+    "channelId": "B4UKadak.in",
+    "channelName": "B4U Kadak",
+    "startTs": 1775511000000,
+    "stopTs": 1775521800000,
+    "title": "Naya Din Nai Raat",
+    "desc": "Sushma escapes from her arranged marriage and embarks on an adventure that changes her life forever. Along the way, she encounters several men, each embodying different aspects of human life."
+  },
+  {
+    "start": "00:30",
+    "stop": "03:30",
+    "channel": "B4UKadak.in",
+    "channelId": "B4UKadak.in",
+    "channelName": "B4U Kadak",
+    "startTs": 1775521800000,
+    "stopTs": 1775532600000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "03:30",
+    "stop": "06:30",
+    "channel": "B4UKadak.in",
+    "channelId": "B4UKadak.in",
+    "channelName": "B4U Kadak",
+    "startTs": 1775532600000,
+    "stopTs": 1775543400000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "06:30",
+    "stop": "09:30",
+    "channel": "B4UKadak.in",
+    "channelId": "B4UKadak.in",
+    "channelName": "B4U Kadak",
+    "startTs": 1775543400000,
+    "stopTs": 1775554200000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "09:30",
+    "stop": "12:30",
+    "channel": "B4UKadak.in",
+    "channelId": "B4UKadak.in",
+    "channelName": "B4U Kadak",
+    "startTs": 1775554200000,
+    "stopTs": 1775565000000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "12:30",
+    "stop": "15:30",
+    "channel": "B4UKadak.in",
+    "channelId": "B4UKadak.in",
+    "channelName": "B4U Kadak",
+    "startTs": 1775565000000,
+    "stopTs": 1775575800000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "15:30",
+    "stop": "18:29",
+    "channel": "B4UKadak.in",
+    "channelId": "B4UKadak.in",
+    "channelName": "B4U Kadak",
+    "startTs": 1775575800000,
+    "stopTs": 1775586599000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
   }
 ]

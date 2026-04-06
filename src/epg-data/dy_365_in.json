@@ -1,16 +1,5 @@
 [
   {
-    "start": "11:00",
-    "stop": "11:20",
-    "channel": "DY365.in",
-    "channelId": "DY365.in",
-    "channelName": "DY 365",
-    "startTs": 1775473200000,
-    "stopTs": 1775474400000,
-    "title": "Rongalir Rong",
-    "desc": "Bringing the best in television."
-  },
-  {
     "start": "11:20",
     "stop": "11:30",
     "channel": "DY365.in",
@@ -19,7 +8,7 @@
     "startTs": 1775474400000,
     "stopTs": 1775475000000,
     "title": "Assam @ 5",
-    "desc": "The host sheds light on the latest news updates and developments from Assam."
+    "desc": "The host sheds light on the latest socio-political updates, recent events, developments and happenings from the state of Assam."
   },
   {
     "start": "11:30",
@@ -30,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Kagojor phol",
-    "desc": "."
+    "desc": "Kagojor phol"
   },
   {
     "start": "12:00",
@@ -41,7 +30,7 @@
     "startTs": 1775476800000,
     "stopTs": 1775478000000,
     "title": "Assam @ 5",
-    "desc": "The host sheds light on the latest news updates and developments from Assam."
+    "desc": "The host sheds light on the latest socio-political updates, recent events, developments and happenings from the state of Assam."
   },
   {
     "start": "12:20",
@@ -52,7 +41,7 @@
     "startTs": 1775478000000,
     "stopTs": 1775478600000,
     "title": "6 pm Prime Time",
-    "desc": "The host provides an in-depth analysis of the latest various issues that impacts the citizens."
+    "desc": "The host provides an in-depth analysis of the latest updates on governance, social, economic and political issues that impact the citizens of the country."
   },
   {
     "start": "12:30",
@@ -63,7 +52,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Kagojor phol",
-    "desc": "."
+    "desc": "Kagojor phol"
   },
   {
     "start": "13:00",
@@ -74,7 +63,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "6 pm Prime Time",
-    "desc": "The host provides an in-depth analysis of the latest various issues that impacts the citizens."
+    "desc": "The host provides an in-depth analysis of the latest updates on governance, social, economic and political issues that impact the citizens of the country."
   },
   {
     "start": "13:30",
@@ -118,7 +107,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Maharani",
-    "desc": "An illiterate homemaker becomes the chief minister of Bihar and raises many eyebrows."
+    "desc": "Rani Bharti, an illiterate homemaker, leads a content life looking after her house and chief minister husband, Bheema. However, her life takes a turn when he names her his successor."
   },
   {
     "start": "15:00",
@@ -140,7 +129,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "24 Ghanta",
-    "desc": "The host provides the latest updates on significant political, economic and social issues."
+    "desc": "The host provides the latest information, advancements and developments regarding significant political, economic and social issues."
   },
   {
     "start": "16:00",
@@ -151,7 +140,7 @@
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "24 Ghanta",
-    "desc": "The host provides the latest updates on significant political, economic and social issues."
+    "desc": "The host provides the latest information, advancements and developments regarding significant political, economic and social issues."
   },
   {
     "start": "16:30",
@@ -162,7 +151,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Nixar Khobor",
-    "desc": "The host provides the latest information on various political, economic and social issues."
+    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
   },
   {
     "start": "17:00",
@@ -173,7 +162,7 @@
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Nixar Khobor",
-    "desc": "The host provides the latest information on various political, economic and social issues."
+    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
   },
   {
     "start": "17:30",
@@ -184,17 +173,600 @@
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Nixar Khobor",
-    "desc": "The host provides the latest information on various political, economic and social issues."
+    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
   },
   {
     "start": "18:00",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "DY365.in",
     "channelId": "DY365.in",
     "channelName": "DY 365",
     "startTs": 1775498400000,
-    "stopTs": 1775500200000,
+    "stopTs": 1775500199000,
     "title": "24 Ghanta",
-    "desc": "The host provides the latest updates on significant political, economic and social issues."
+    "desc": "The host provides the latest information, advancements and developments regarding significant political, economic and social issues."
+  },
+  {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775500200000,
+    "stopTs": 1775502000000,
+    "title": "24 Ghanta",
+    "desc": "The host provides the latest information, advancements and developments regarding significant political, economic and social issues."
+  },
+  {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775502000000,
+    "stopTs": 1775503800000,
+    "title": "Talk Show",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775503800000,
+    "stopTs": 1775505600000,
+    "title": "Talk Show",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "20:00",
+    "stop": "20:30",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775505600000,
+    "stopTs": 1775507400000,
+    "title": "6 pm Prime Time",
+    "desc": "The host provides an in-depth analysis of the latest updates on governance, social, economic and political issues that impact the citizens of the country."
+  },
+  {
+    "start": "20:30",
+    "stop": "21:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775507400000,
+    "stopTs": 1775509200000,
+    "title": "6 pm Prime Time",
+    "desc": "The host provides an in-depth analysis of the latest updates on governance, social, economic and political issues that impact the citizens of the country."
+  },
+  {
+    "start": "21:00",
+    "stop": "21:30",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775509200000,
+    "stopTs": 1775511000000,
+    "title": "Xandhiya 7",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "21:30",
+    "stop": "22:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775511000000,
+    "stopTs": 1775512800000,
+    "title": "Xandhiya 7",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "22:00",
+    "stop": "22:30",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775512800000,
+    "stopTs": 1775514600000,
+    "title": "Pravati Aroti",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "22:30",
+    "stop": "23:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775514600000,
+    "stopTs": 1775516400000,
+    "title": "Pravati Aroti",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "23:00",
+    "stop": "23:30",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775516400000,
+    "stopTs": 1775518200000,
+    "title": "Pravati Aroti",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "23:30",
+    "stop": "00:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775518200000,
+    "stopTs": 1775520000000,
+    "title": "Pravati Aroti",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "00:00",
+    "stop": "00:30",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775520000000,
+    "stopTs": 1775521800000,
+    "title": "Pravati Aroti",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "00:30",
+    "stop": "01:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775521800000,
+    "stopTs": 1775523600000,
+    "title": "Pravati Aroti",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "01:00",
+    "stop": "01:30",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775523600000,
+    "stopTs": 1775525400000,
+    "title": "Pravati Aroti",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "01:30",
+    "stop": "02:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775525400000,
+    "stopTs": 1775527200000,
+    "title": "Pravati Aroti",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "02:00",
+    "stop": "02:15",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775527200000,
+    "stopTs": 1775528100000,
+    "title": "Pravati Aroti",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "02:15",
+    "stop": "02:30",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775528100000,
+    "stopTs": 1775529000000,
+    "title": "News@8",
+    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
+  },
+  {
+    "start": "02:30",
+    "stop": "03:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775529000000,
+    "stopTs": 1775530800000,
+    "title": "Dy Medley",
+    "desc": "Dy Medley"
+  },
+  {
+    "start": "03:00",
+    "stop": "03:30",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775530800000,
+    "stopTs": 1775532600000,
+    "title": "News@8",
+    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest news and developments from across the region."
+  },
+  {
+    "start": "03:30",
+    "stop": "04:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775532600000,
+    "stopTs": 1775534400000,
+    "title": "Morning Prime Time",
+    "desc": "The host presents a summary of the latest social, economic and political news updates and developments from the nation and around the world."
+  },
+  {
+    "start": "04:00",
+    "stop": "04:30",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775534400000,
+    "stopTs": 1775536200000,
+    "title": "Morning Prime Time",
+    "desc": "The host presents a summary of the latest social, economic and political news updates and developments from the nation and around the world."
+  },
+  {
+    "start": "04:30",
+    "stop": "05:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775536200000,
+    "stopTs": 1775538000000,
+    "title": "Hindi Top News",
+    "desc": "The host presents recent updates and an in-depth analysis of current affairs to deliver timely information and coverage on pressing issues."
+  },
+  {
+    "start": "05:00",
+    "stop": "05:30",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775538000000,
+    "stopTs": 1775539800000,
+    "title": "Special Program.",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "05:30",
+    "stop": "06:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775539800000,
+    "stopTs": 1775541600000,
+    "title": "Breaking News",
+    "desc": "The host presents numerous top stories, latest happenings and significant updates from the national and international front."
+  },
+  {
+    "start": "06:00",
+    "stop": "06:30",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775541600000,
+    "stopTs": 1775543400000,
+    "title": "Breaking News",
+    "desc": "The host presents numerous top stories, latest happenings and significant updates from the national and international front."
+  },
+  {
+    "start": "06:30",
+    "stop": "07:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775543400000,
+    "stopTs": 1775545200000,
+    "title": "Breaking News",
+    "desc": "The host presents numerous top stories, latest happenings and significant updates from the national and international front."
+  },
+  {
+    "start": "07:00",
+    "stop": "07:30",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775545200000,
+    "stopTs": 1775547000000,
+    "title": "Breaking News",
+    "desc": "The host presents numerous top stories, latest happenings and significant updates from the national and international front."
+  },
+  {
+    "start": "07:30",
+    "stop": "08:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775547000000,
+    "stopTs": 1775548800000,
+    "title": "Special Program.",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "08:00",
+    "stop": "08:30",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775548800000,
+    "stopTs": 1775550600000,
+    "title": "Hindi Superfast",
+    "desc": "The host presents latest updates on governance, social, economic and political issues in quick succession, that impact the citizens of the country in Hindi language."
+  },
+  {
+    "start": "08:30",
+    "stop": "09:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775550600000,
+    "stopTs": 1775552400000,
+    "title": "Mid Day Express",
+    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
+  },
+  {
+    "start": "09:00",
+    "stop": "09:30",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775552400000,
+    "stopTs": 1775554200000,
+    "title": "Mid Day Express",
+    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
+  },
+  {
+    "start": "09:30",
+    "stop": "10:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775554200000,
+    "stopTs": 1775556000000,
+    "title": "Talk Show",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "10:00",
+    "stop": "10:30",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775556000000,
+    "stopTs": 1775557800000,
+    "title": "Talk Show",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "10:30",
+    "stop": "10:40",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775557800000,
+    "stopTs": 1775558400000,
+    "title": "Raagini",
+    "desc": "Ragini, a college fresher, finds herself in trouble when someone leaks a scandalous video CD, forcing her to confront unexpected dangers within her campus."
+  },
+  {
+    "start": "10:40",
+    "stop": "11:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775558400000,
+    "stopTs": 1775559600000,
+    "title": "Afternoon Prime",
+    "desc": "The host presents latest updates, top stories and other developments pertaining to the social, political and economic issues of the day."
+  },
+  {
+    "start": "11:00",
+    "stop": "11:20",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775559600000,
+    "stopTs": 1775560800000,
+    "title": "Afternoon Prime",
+    "desc": "The host presents latest updates, top stories and other developments pertaining to the social, political and economic issues of the day."
+  },
+  {
+    "start": "11:20",
+    "stop": "11:30",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775560800000,
+    "stopTs": 1775561400000,
+    "title": "Assam @ 5",
+    "desc": "The host sheds light on the latest socio-political updates, recent events, developments and happenings from the state of Assam."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775561400000,
+    "stopTs": 1775563200000,
+    "title": "Kagojor phol",
+    "desc": "Kagojor phol"
+  },
+  {
+    "start": "12:00",
+    "stop": "12:20",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775563200000,
+    "stopTs": 1775564400000,
+    "title": "Assam @ 5",
+    "desc": "The host sheds light on the latest socio-political updates, recent events, developments and happenings from the state of Assam."
+  },
+  {
+    "start": "12:20",
+    "stop": "12:30",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775564400000,
+    "stopTs": 1775565000000,
+    "title": "6 pm Prime Time",
+    "desc": "The host provides an in-depth analysis of the latest updates on governance, social, economic and political issues that impact the citizens of the country."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775565000000,
+    "stopTs": 1775566800000,
+    "title": "Satsang",
+    "desc": "A spiritual leader delivers a discourse on the importance of spirituality and how it could help an individual to lead a peaceful and fulfilled life."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775566800000,
+    "stopTs": 1775568600000,
+    "title": "6 pm Prime Time",
+    "desc": "The host provides an in-depth analysis of the latest updates on governance, social, economic and political issues that impact the citizens of the country."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775568600000,
+    "stopTs": 1775570400000,
+    "title": "Xandhiya 7",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:15",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775570400000,
+    "stopTs": 1775571300000,
+    "title": "Xandhiya 7",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "14:15",
+    "stop": "14:30",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775571300000,
+    "stopTs": 1775572200000,
+    "title": "Talk Show",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775572200000,
+    "stopTs": 1775574000000,
+    "title": "Kagojor phol",
+    "desc": "Kagojor phol"
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775574000000,
+    "stopTs": 1775575800000,
+    "title": "Talk Show",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775575800000,
+    "stopTs": 1775577600000,
+    "title": "24 Ghanta",
+    "desc": "The host provides the latest information, advancements and developments regarding significant political, economic and social issues."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775577600000,
+    "stopTs": 1775579400000,
+    "title": "24 Ghanta",
+    "desc": "The host provides the latest information, advancements and developments regarding significant political, economic and social issues."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775579400000,
+    "stopTs": 1775581200000,
+    "title": "Nixar Khobor",
+    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775581200000,
+    "stopTs": 1775583000000,
+    "title": "Nixar Khobor",
+    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775583000000,
+    "stopTs": 1775584800000,
+    "title": "Nixar Khobor",
+    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:29",
+    "channel": "DY365.in",
+    "channelId": "DY365.in",
+    "channelName": "DY 365",
+    "startTs": 1775584800000,
+    "stopTs": 1775586599000,
+    "title": "24 Ghanta",
+    "desc": "The host provides the latest information, advancements and developments regarding significant political, economic and social issues."
   }
 ]

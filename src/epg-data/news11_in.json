@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "News11.in",
-    "channelId": "News11.in",
-    "channelName": "News11",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Bulletin",
-    "desc": "The host presents latest news highlights and updates from India and around the world in the political, economic and social sectors."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "News11.in",

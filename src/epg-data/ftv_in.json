@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "FTVHD.in",
-    "channelId": "FTVHD.in",
-    "channelName": "FTV HD",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Fashion Teens",
-    "desc": "FashionTV brings you the hottest teen fashion trends that will have you looking flawless. Get an exclusive look at top photo shoots and designers in the teen fashion world."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "FTVHD.in",

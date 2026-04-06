@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "News18JKLH.in",
-    "channelId": "News18JKLH.in",
-    "channelName": "News18 JKLH",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Khabar 1 Minutes",
-    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "News18JKLH.in",

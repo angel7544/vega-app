@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "SarvDharamSangam.in",
-    "channelId": "SarvDharamSangam.in",
-    "channelName": "Sarv Dharam Sangam",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Astrology",
-    "desc": "An expert astrologer uses celestial alignments to interpret how planetary movements influence life events and decisions."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "SarvDharamSangam.in",

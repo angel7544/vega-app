@@ -8,7 +8,7 @@
     "startTs": 1775472600000,
     "stopTs": 1775475000000,
     "title": "Pirpagal Seithikal",
-    "desc": "The host presents the latest news updates from around the state and the nation."
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation."
   },
   {
     "start": "11:30",
@@ -19,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775476200000,
     "title": "Superfast Thaliappu Seithikal",
-    "desc": "The host provides the latest updates and stories from around the country."
+    "desc": "The host presents the latest news and developments from the political, social, economic and sports fronts from around the country."
   },
   {
     "start": "11:50",
@@ -30,7 +30,7 @@
     "startTs": 1775476200000,
     "stopTs": 1775478600000,
     "title": "Superfast News",
-    "desc": "The host presents the latest updates on various social, political and economic issues."
+    "desc": "The host presents the latest updates on the social, political and economic issues and provides information on current events."
   },
   {
     "start": "12:30",
@@ -41,7 +41,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775479800000,
     "title": "Maalai Thalaippu Seithikal",
-    "desc": "The host provides the latest updates on various political, economic and social issues."
+    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
   },
   {
     "start": "12:50",
@@ -52,7 +52,7 @@
     "startTs": 1775479800000,
     "stopTs": 1775482200000,
     "title": "Maalai Seithikal",
-    "desc": "The host presents the news updates related to social, cultural, economic and political topics."
+    "desc": "The host presents the news updates, stories and latest developments related to social, cultural, economic and political topics."
   },
   {
     "start": "13:30",
@@ -63,7 +63,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775483400000,
     "title": "Maalai Thalaippu Seithikal",
-    "desc": "The host provides the latest updates on various political, economic and social issues."
+    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
   },
   {
     "start": "13:50",
@@ -74,7 +74,7 @@
     "startTs": 1775483400000,
     "stopTs": 1775485800000,
     "title": "Maalai Seithikal",
-    "desc": "The host presents the news updates related to social, cultural, economic and political topics."
+    "desc": "The host presents the news updates, stories and latest developments related to social, cultural, economic and political topics."
   },
   {
     "start": "14:30",
@@ -85,7 +85,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487000000,
     "title": "Prime Time - Super Fast HL",
-    "desc": "The host provides the latest updates and stories from around the world and country."
+    "desc": "The host presents the latest news and developments from the political, social, economic and sports fronts from around the country."
   },
   {
     "start": "14:50",
@@ -96,7 +96,7 @@
     "startTs": 1775487000000,
     "stopTs": 1775489400000,
     "title": "Prime Time Superfast News",
-    "desc": "The host presents the latest news and developments from all over the country."
+    "desc": "The host presents the latest news and developments from the political, social, economic and sports fronts from around the country and the world."
   },
   {
     "start": "15:30",
@@ -107,7 +107,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775490600000,
     "title": "Naalil Nadanthavai Thalaippu Seithikal",
-    "desc": "The host presents the latest news updates and developments of the day."
+    "desc": "The host presents the latest news updates and developments of the day pertaining to politics, economics, sports and current affairs."
   },
   {
     "start": "15:50",
@@ -118,7 +118,7 @@
     "startTs": 1775490600000,
     "stopTs": 1775493000000,
     "title": "Naalil Nadanthavai",
-    "desc": "The host delivers the latest national news updates and developments."
+    "desc": "The host delivers the latest national news updates and developments pertaining to politics, economy and sociocultural affairs."
   },
   {
     "start": "16:30",
@@ -129,7 +129,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775494200000,
     "title": "Iravu Thalaippu Seithigal",
-    "desc": "The host collates and presents the latest news updates and developments."
+    "desc": "The host collates and presents the latest news updates and developments pertaining to politics, economics, sports and current affairs."
   },
   {
     "start": "16:50",
@@ -140,7 +140,7 @@
     "startTs": 1775494200000,
     "stopTs": 1775496600000,
     "title": "Iravu Seithigal",
-    "desc": "The hosts present some of the latest updates, current affairs and developments."
+    "desc": "The hosts present some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
   },
   {
     "start": "17:30",
@@ -151,17 +151,424 @@
     "startTs": 1775496600000,
     "stopTs": 1775497800000,
     "title": "Naalil Nadanthavai Thalaippu Seithikal",
-    "desc": "The host presents the latest news updates and developments of the day."
+    "desc": "The host presents the latest news updates and developments of the day pertaining to politics, economics, sports and current affairs."
   },
   {
     "start": "17:50",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "NewsTamil24x7.in",
     "channelId": "NewsTamil24x7.in",
     "channelName": "News Tamil 24x7",
     "startTs": 1775497800000,
-    "stopTs": 1775500200000,
+    "stopTs": 1775500199000,
     "title": "Naalil Nadanthavai",
-    "desc": "The host delivers the latest national news updates and developments."
+    "desc": "The host delivers the latest national news updates and developments pertaining to politics, economy and sociocultural affairs."
+  },
+  {
+    "start": "18:30",
+    "stop": "00:30",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775500200000,
+    "stopTs": 1775521800000,
+    "title": "Naalil Nadanthavai",
+    "desc": "The host delivers the latest national news updates and developments pertaining to politics, economy and sociocultural affairs."
+  },
+  {
+    "start": "00:30",
+    "stop": "00:50",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775521800000,
+    "stopTs": 1775523000000,
+    "title": "Seithikathir Thaliappu Seithikal",
+    "desc": "The host presents some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
+  },
+  {
+    "start": "00:50",
+    "stop": "01:30",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775523000000,
+    "stopTs": 1775525400000,
+    "title": "Seithikathir",
+    "desc": "The host presents all the latest political, social, economic and sports news from across the country while providing viewers with an overview of recent trends."
+  },
+  {
+    "start": "01:30",
+    "stop": "01:50",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775525400000,
+    "stopTs": 1775526600000,
+    "title": "Superfast Thaliappu Seithikal",
+    "desc": "The host presents the latest news and developments from the political, social, economic and sports fronts from around the country."
+  },
+  {
+    "start": "01:50",
+    "stop": "02:30",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775526600000,
+    "stopTs": 1775529000000,
+    "title": "Superfast News",
+    "desc": "The host presents the latest updates on the social, political and economic issues and provides information on current events."
+  },
+  {
+    "start": "02:30",
+    "stop": "02:50",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775529000000,
+    "stopTs": 1775530200000,
+    "title": "Muthal Pathippu Thaliappu Seithikal",
+    "desc": "The host offers fresh insights into recent developments and provides viewers with a comprehensive overview of emerging trends."
+  },
+  {
+    "start": "02:50",
+    "stop": "03:30",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775530200000,
+    "stopTs": 1775532600000,
+    "title": "Muthal Pathippu",
+    "desc": "The host presents all the latest news stories, updates and developments pertaining to the current affairs of the nation."
+  },
+  {
+    "start": "03:30",
+    "stop": "03:50",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775532600000,
+    "stopTs": 1775533800000,
+    "title": "Superfast Thaliappu Seithikal",
+    "desc": "The host presents the latest news and developments from the political, social, economic and sports fronts from around the country."
+  },
+  {
+    "start": "03:50",
+    "stop": "04:30",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775533800000,
+    "stopTs": 1775536200000,
+    "title": "Superfast News",
+    "desc": "The host presents the latest updates on the social, political and economic issues and provides information on current events."
+  },
+  {
+    "start": "04:30",
+    "stop": "04:50",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775536200000,
+    "stopTs": 1775537400000,
+    "title": "Kaalai Thalaippu Seithikal",
+    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
+  },
+  {
+    "start": "04:50",
+    "stop": "05:30",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775537400000,
+    "stopTs": 1775539800000,
+    "title": "Kaalai Seithikal",
+    "desc": "The host sheds light on the latest updates and developments from various spheres including business, politics and social issues."
+  },
+  {
+    "start": "05:30",
+    "stop": "05:50",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775539800000,
+    "stopTs": 1775541000000,
+    "title": "Superfast Thaliappu Seithikal",
+    "desc": "The host presents the latest news and developments from the political, social, economic and sports fronts from around the country."
+  },
+  {
+    "start": "05:50",
+    "stop": "06:30",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775541000000,
+    "stopTs": 1775543400000,
+    "title": "Superfast News",
+    "desc": "The host presents the latest updates on the social, political and economic issues and provides information on current events."
+  },
+  {
+    "start": "06:30",
+    "stop": "06:50",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775543400000,
+    "stopTs": 1775544600000,
+    "title": "Nanpagal Thalaippu Seithikal",
+    "desc": "The host provides an insight into some of the latest headlines and important news of the day on a range of issues of public interest."
+  },
+  {
+    "start": "06:50",
+    "stop": "07:30",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775544600000,
+    "stopTs": 1775547000000,
+    "title": "Kaalai Seithikal",
+    "desc": "The host sheds light on the latest updates and developments from various spheres including business, politics and social issues."
+  },
+  {
+    "start": "07:30",
+    "stop": "07:50",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775547000000,
+    "stopTs": 1775548200000,
+    "title": "Superfast Thaliappu Seithikal",
+    "desc": "The host presents the latest news and developments from the political, social, economic and sports fronts from around the country."
+  },
+  {
+    "start": "07:50",
+    "stop": "08:30",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775548200000,
+    "stopTs": 1775550600000,
+    "title": "Superfast News",
+    "desc": "The host presents the latest updates on the social, political and economic issues and provides information on current events."
+  },
+  {
+    "start": "08:30",
+    "stop": "08:50",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775550600000,
+    "stopTs": 1775551800000,
+    "title": "Mathiyam Puthithu",
+    "desc": "The host delivers fresh perspectives on recent happenings while offering viewers a comprehensive look at emerging trends and latest developments."
+  },
+  {
+    "start": "08:50",
+    "stop": "09:30",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775551800000,
+    "stopTs": 1775554200000,
+    "title": "Kaalai Seithikal",
+    "desc": "The host sheds light on the latest updates and developments from various spheres including business, politics and social issues."
+  },
+  {
+    "start": "09:30",
+    "stop": "09:50",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775554200000,
+    "stopTs": 1775555400000,
+    "title": "Superfast Thaliappu Seithikal",
+    "desc": "The host presents the latest news and developments from the political, social, economic and sports fronts from around the country."
+  },
+  {
+    "start": "09:50",
+    "stop": "10:30",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775555400000,
+    "stopTs": 1775557800000,
+    "title": "Superfast News",
+    "desc": "The host presents the latest updates on the social, political and economic issues and provides information on current events."
+  },
+  {
+    "start": "10:30",
+    "stop": "10:50",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775557800000,
+    "stopTs": 1775559000000,
+    "title": "Pirpagal Thalaippu Seithikal",
+    "desc": "The host presents the top headlines of the day pertaining to social issues, politics, the economy, sports, entertainment and more."
+  },
+  {
+    "start": "10:50",
+    "stop": "11:30",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775559000000,
+    "stopTs": 1775561400000,
+    "title": "Pirpagal Seithikal",
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation."
+  },
+  {
+    "start": "11:30",
+    "stop": "11:50",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775561400000,
+    "stopTs": 1775562600000,
+    "title": "Superfast Thaliappu Seithikal",
+    "desc": "The host presents the latest news and developments from the political, social, economic and sports fronts from around the country."
+  },
+  {
+    "start": "11:50",
+    "stop": "12:30",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775562600000,
+    "stopTs": 1775565000000,
+    "title": "Superfast News",
+    "desc": "The host presents the latest updates on the social, political and economic issues and provides information on current events."
+  },
+  {
+    "start": "12:30",
+    "stop": "12:50",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775565000000,
+    "stopTs": 1775566200000,
+    "title": "Maalai Thalaippu Seithikal",
+    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
+  },
+  {
+    "start": "12:50",
+    "stop": "13:30",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775566200000,
+    "stopTs": 1775568600000,
+    "title": "Maalai Seithikal",
+    "desc": "The host presents the news updates, stories and latest developments related to social, cultural, economic and political topics."
+  },
+  {
+    "start": "13:30",
+    "stop": "13:50",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775568600000,
+    "stopTs": 1775569800000,
+    "title": "Maalai Thalaippu Seithikal",
+    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
+  },
+  {
+    "start": "13:50",
+    "stop": "14:30",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775569800000,
+    "stopTs": 1775572200000,
+    "title": "Maalai Seithikal",
+    "desc": "The host presents the news updates, stories and latest developments related to social, cultural, economic and political topics."
+  },
+  {
+    "start": "14:30",
+    "stop": "14:50",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775572200000,
+    "stopTs": 1775573400000,
+    "title": "Prime Time - Super Fast HL",
+    "desc": "The host presents the latest news and developments from the political, social, economic and sports fronts from around the country."
+  },
+  {
+    "start": "14:50",
+    "stop": "15:30",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775573400000,
+    "stopTs": 1775575800000,
+    "title": "Prime Time Superfast News",
+    "desc": "The host presents the latest news and developments from the political, social, economic and sports fronts from around the country and the world."
+  },
+  {
+    "start": "15:30",
+    "stop": "15:50",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775575800000,
+    "stopTs": 1775577000000,
+    "title": "Naalil Nadanthavai Thalaippu Seithikal",
+    "desc": "The host presents the latest news updates and developments of the day pertaining to politics, economics, sports and current affairs."
+  },
+  {
+    "start": "15:50",
+    "stop": "16:30",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775577000000,
+    "stopTs": 1775579400000,
+    "title": "Naalil Nadanthavai",
+    "desc": "The host delivers the latest national news updates and developments pertaining to politics, economy and sociocultural affairs."
+  },
+  {
+    "start": "16:30",
+    "stop": "16:50",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775579400000,
+    "stopTs": 1775580600000,
+    "title": "Iravu Thalaippu Seithigal",
+    "desc": "The host collates and presents the latest news updates and developments pertaining to politics, economics, sports and current affairs."
+  },
+  {
+    "start": "16:50",
+    "stop": "17:30",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775580600000,
+    "stopTs": 1775583000000,
+    "title": "Iravu Seithigal",
+    "desc": "The hosts present some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
+  },
+  {
+    "start": "17:30",
+    "stop": "17:50",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775583000000,
+    "stopTs": 1775584200000,
+    "title": "Naalil Nadanthavai Thalaippu Seithikal",
+    "desc": "The host presents the latest news updates and developments of the day pertaining to politics, economics, sports and current affairs."
+  },
+  {
+    "start": "17:50",
+    "stop": "18:29",
+    "channel": "NewsTamil24x7.in",
+    "channelId": "NewsTamil24x7.in",
+    "channelName": "News Tamil 24x7",
+    "startTs": 1775584200000,
+    "stopTs": 1775586599000,
+    "title": "Naalil Nadanthavai",
+    "desc": "The host delivers the latest national news updates and developments pertaining to politics, economy and sociocultural affairs."
   }
 ]

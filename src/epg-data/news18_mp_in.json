@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "News18MP.in",
-    "channelId": "News18MP.in",
-    "channelName": "News18 MP",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Criminals",
-    "desc": "The host provides a detailed report on some of the latest and most important crime-related news stories, updates and happenings."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "News18MP.in",

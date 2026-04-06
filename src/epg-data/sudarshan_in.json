@@ -1,38 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "Sudarshan.in",
-    "channelId": "Sudarshan.in",
-    "channelName": "Sudarshan",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Apna Uttrakhand",
-    "desc": "The host presents the latest updates, developments and current events on various important issues in the state of Uttarakhand."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:21",
-    "channel": "Sudarshan.in",
-    "channelId": "Sudarshan.in",
-    "channelName": "Sudarshan",
-    "startTs": 1775473200000,
-    "stopTs": 1775474460000,
-    "title": "World Watch World War",
-    "desc": "The host presents a comprehensive and detailed coverage, elucidating on the latest defence and geopolitical news from across the globe."
-  },
-  {
-    "start": "11:21",
-    "stop": "11:28",
-    "channel": "Sudarshan.in",
-    "channelId": "Sudarshan.in",
-    "channelName": "Sudarshan",
-    "startTs": 1775474460000,
-    "stopTs": 1775474880000,
-    "title": "5 Min 25 Khabar",
-    "desc": "The host presents a comprehensive and detailed coverage of the top twenty five latest news and developments in five minutes."
-  },
-  {
     "start": "11:28",
     "stop": "12:10",
     "channel": "Sudarshan.in",

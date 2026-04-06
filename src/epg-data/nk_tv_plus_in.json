@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "NKTVPlus.in",
-    "channelId": "NKTVPlus.in",
-    "channelName": "NK TV Plus",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "News Focus",
-    "desc": "The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "NKTVPlus.in",

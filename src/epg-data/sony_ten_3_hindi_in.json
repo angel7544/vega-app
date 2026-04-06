@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:00",
-    "stop": "11:00",
-    "channel": "SonyTen3HDHindi.in",
-    "channelId": "SonyTen3HDHindi.in",
-    "channelName": "Sony Ten 3 HD Hindi",
-    "startTs": 1775469600000,
-    "stopTs": 1775473200000,
-    "title": "UEFA International Friendlies",
-    "desc": "Sri Lanka competes against India in their first One Day International match in 2017, where the two professional cricket teams vie for victory."
-  },
-  {
     "start": "11:00",
     "stop": "12:00",
     "channel": "SonyTen3HDHindi.in",

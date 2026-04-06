@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "GarviGujarat.in",
-    "channelId": "GarviGujarat.in",
-    "channelName": "Garvi Gujarat",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Garvi Gujarat",
-    "desc": "The host presents the most recent political, social and economic news, updates and developments from around the country."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "GarviGujarat.in",

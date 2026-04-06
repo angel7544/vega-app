@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "BharatUpdate.in",
-    "channelId": "BharatUpdate.in",
-    "channelName": "Bharat Update",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Mudda Update Hai",
-    "desc": "The presenter shares a sequence of updates to offer insights on ongoing issues of communal, political and economic natures transpiring across the nation."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "BharatUpdate.in",

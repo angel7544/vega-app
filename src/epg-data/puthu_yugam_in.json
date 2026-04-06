@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "PuthuYugam.in",
-    "channelId": "PuthuYugam.in",
-    "channelName": "Puthu Yugam",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Sponsored Program",
-    "desc": "Bringing the best in television."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "PuthuYugam.in",

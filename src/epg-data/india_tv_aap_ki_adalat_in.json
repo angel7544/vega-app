@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:45",
-    "stop": "11:00",
-    "channel": "IndiaTVAapKiAdalat.in",
-    "channelId": "IndiaTVAapKiAdalat.in",
-    "channelName": "India TV Aap Ki Adalat",
-    "startTs": 1775472300000,
-    "stopTs": 1775473200000,
-    "title": "Filler",
-    "desc": "Bringing the best in television."
-  },
-  {
     "start": "11:00",
     "stop": "12:15",
     "channel": "IndiaTVAapKiAdalat.in",

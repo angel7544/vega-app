@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "Goa365.in",
-    "channelId": "Goa365.in",
-    "channelName": "GOA 365",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Konkani News",
-    "desc": "The host sheds light on the latest news, updates, situations and developments from the Konkan region of India."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "Goa365.in",

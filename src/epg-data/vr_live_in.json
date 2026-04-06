@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "VRLive.in",
-    "channelId": "VRLive.in",
-    "channelName": "VR Live",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Kayda Na Fayda",
-    "desc": "The host has a conversation with qualified experts regarding various topics of interest to understand their opinions on the matter."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "VRLive.in",

@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "LiveToday.in",
-    "channelId": "LiveToday.in",
-    "channelName": "Live Today",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Samachar Shatak",
-    "desc": "The host presents the top 100 news stories from across the world, offering updates and insights into the latest developments."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "LiveToday.in",

@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:00",
-    "stop": "11:00",
-    "channel": "BritAsia.in",
-    "channelId": "BritAsia.in",
-    "channelName": "Brit Asia",
-    "startTs": 1775469600000,
-    "stopTs": 1775473200000,
-    "title": "The Official Punjabi Chart Show",
-    "desc": "The host interacts with eminent singers from the Punjabi music industry, who shed light on the personal experiences and professional achievements."
-  },
-  {
     "start": "11:00",
     "stop": "12:00",
     "channel": "BritAsia.in",

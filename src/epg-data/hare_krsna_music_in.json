@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "HareKrsnaMusic.in",
-    "channelId": "HareKrsnaMusic.in",
-    "channelName": "Hare Krsna Music",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Kirtan Ke Rang Bhakto Ke Sang",
-    "desc": "Devotees sing various devotional songs and hymns to offer their sincere prayers to the Almighty and seek divine blessings."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "HareKrsnaMusic.in",

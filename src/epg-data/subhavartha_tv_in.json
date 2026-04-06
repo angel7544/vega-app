@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "SubhavarthaTV.in",
-    "channelId": "SubhavarthaTV.in",
-    "channelName": "Subhavartha TV",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Anantha Jeevanam",
-    "desc": "Bringing the best in television."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "SubhavarthaTV.in",

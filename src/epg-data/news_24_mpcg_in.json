@@ -1,27 +1,5 @@
 [
   {
-    "start": "10:26",
-    "stop": "10:56",
-    "channel": "NEWS24MPCG.in",
-    "channelId": "NEWS24MPCG.in",
-    "channelName": "NEWS 24 MPCG",
-    "startTs": 1775471160000,
-    "stopTs": 1775472960000,
-    "title": "Aapka Shahar Aapki Khabar",
-    "desc": "The host discusses the latest social, economic and political news, top stories and updates from various cities across the country."
-  },
-  {
-    "start": "10:56",
-    "stop": "11:26",
-    "channel": "NEWS24MPCG.in",
-    "channelId": "NEWS24MPCG.in",
-    "channelName": "NEWS 24 MPCG",
-    "startTs": 1775472960000,
-    "stopTs": 1775474760000,
-    "title": "News 24 Special",
-    "desc": "The host presents an in-depth investigative report on various issues that are politically, socially or economically significant."
-  },
-  {
     "start": "11:26",
     "stop": "11:56",
     "channel": "NEWS24MPCG.in",

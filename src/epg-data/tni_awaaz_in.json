@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "TNIAwaaz.in",
-    "channelId": "TNIAwaaz.in",
-    "channelName": "TNI Awaaz",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Special Report",
-    "desc": "The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "TNIAwaaz.in",

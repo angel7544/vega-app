@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:45",
-    "stop": "11:00",
-    "channel": "Sports181.in",
-    "channelId": "Sports181.in",
-    "channelName": "Sports18 1",
-    "startTs": 1775472300000,
-    "stopTs": 1775473200000,
-    "title": "TATA IPL 2025 Highlights",
-    "desc": "Highlights of a cricket match between Indian Premier League teams Punjab Kings and Kolkata Knight Riders where the winner advances to the next stage."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "Sports181.in",

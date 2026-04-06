@@ -1,47 +1,25 @@
 [
   {
-    "start": "11:00",
-    "stop": "11:10",
-    "channel": "AadinathTV.in",
-    "channelId": "AadinathTV.in",
-    "channelName": "Aadinath TV",
-    "startTs": 1775473200000,
-    "stopTs": 1775473800000,
-    "title": "Pawapuri Rath Yatra",
-    "desc": "Priests and devotees assemble to sing devotional songs and perform sacred rituals."
-  },
-  {
-    "start": "11:10",
+    "start": "10:30",
     "stop": "11:30",
     "channel": "AadinathTV.in",
     "channelId": "AadinathTV.in",
     "channelName": "Aadinath TV",
-    "startTs": 1775473800000,
+    "startTs": 1775471400000,
     "stopTs": 1775475000000,
-    "title": "Pravachan",
-    "desc": "A religious leader gives a detailed insight into spiritual discourses."
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
   },
   {
     "start": "11:30",
-    "stop": "12:00",
-    "channel": "AadinathTV.in",
-    "channelId": "AadinathTV.in",
-    "channelName": "Aadinath TV",
-    "startTs": 1775475000000,
-    "stopTs": 1775476800000,
-    "title": "Pathshala - P.P Pragya Sagar Ji Mh",
-    "desc": "A religious leader elaborates on the teachings of Jainism to enlighten the devotees."
-  },
-  {
-    "start": "12:00",
     "stop": "12:30",
     "channel": "AadinathTV.in",
     "channelId": "AadinathTV.in",
     "channelName": "Aadinath TV",
-    "startTs": 1775476800000,
+    "startTs": 1775475000000,
     "stopTs": 1775478600000,
-    "title": "Pravachan",
-    "desc": "A religious leader gives a detailed insight into spiritual discourses."
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
   },
   {
     "start": "12:30",
@@ -51,96 +29,41 @@
     "channelName": "Aadinath TV",
     "startTs": 1775478600000,
     "stopTs": 1775482200000,
-    "title": "Pravachan",
-    "desc": "A religious leader gives a detailed insight into spiritual discourses."
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
   },
   {
     "start": "13:30",
-    "stop": "13:50",
-    "channel": "AadinathTV.in",
-    "channelId": "AadinathTV.in",
-    "channelName": "Aadinath TV",
-    "startTs": 1775482200000,
-    "stopTs": 1775483400000,
-    "title": "Pravachan",
-    "desc": "A religious leader gives a detailed insight into spiritual discourses."
-  },
-  {
-    "start": "13:50",
-    "stop": "14:10",
-    "channel": "AadinathTV.in",
-    "channelId": "AadinathTV.in",
-    "channelName": "Aadinath TV",
-    "startTs": 1775483400000,
-    "stopTs": 1775484600000,
-    "title": "Pravachan",
-    "desc": "A religious leader gives a detailed insight into spiritual discourses."
-  },
-  {
-    "start": "14:10",
     "stop": "14:30",
     "channel": "AadinathTV.in",
     "channelId": "AadinathTV.in",
     "channelName": "Aadinath TV",
-    "startTs": 1775484600000,
+    "startTs": 1775482200000,
     "stopTs": 1775485800000,
-    "title": "Pravachan",
-    "desc": "A religious leader gives a detailed insight into spiritual discourses."
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
   },
   {
     "start": "14:30",
-    "stop": "14:50",
+    "stop": "15:30",
     "channel": "AadinathTV.in",
     "channelId": "AadinathTV.in",
     "channelName": "Aadinath TV",
     "startTs": 1775485800000,
-    "stopTs": 1775487000000,
-    "title": "Pravachan",
-    "desc": "A religious leader gives a detailed insight into spiritual discourses."
+    "stopTs": 1775489400000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
   },
   {
-    "start": "14:50",
-    "stop": "15:10",
-    "channel": "AadinathTV.in",
-    "channelId": "AadinathTV.in",
-    "channelName": "Aadinath TV",
-    "startTs": 1775487000000,
-    "stopTs": 1775488200000,
-    "title": "Pravachan",
-    "desc": "A religious leader gives a detailed insight into spiritual discourses."
-  },
-  {
-    "start": "15:10",
-    "stop": "15:50",
-    "channel": "AadinathTV.in",
-    "channelId": "AadinathTV.in",
-    "channelName": "Aadinath TV",
-    "startTs": 1775488200000,
-    "stopTs": 1775490600000,
-    "title": "Pravachan",
-    "desc": "A religious leader gives a detailed insight into spiritual discourses."
-  },
-  {
-    "start": "15:50",
-    "stop": "16:10",
-    "channel": "AadinathTV.in",
-    "channelId": "AadinathTV.in",
-    "channelName": "Aadinath TV",
-    "startTs": 1775490600000,
-    "stopTs": 1775491800000,
-    "title": "Special Programme",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "16:10",
+    "start": "15:30",
     "stop": "16:30",
     "channel": "AadinathTV.in",
     "channelId": "AadinathTV.in",
     "channelName": "Aadinath TV",
-    "startTs": 1775491800000,
+    "startTs": 1775489400000,
     "stopTs": 1775493000000,
-    "title": "Pravachan",
-    "desc": "A religious leader gives a detailed insight into spiritual discourses."
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
   },
   {
     "start": "16:30",
@@ -150,29 +73,282 @@
     "channelName": "Aadinath TV",
     "startTs": 1775493000000,
     "stopTs": 1775496600000,
-    "title": "Pravachan",
-    "desc": "A religious leader gives a detailed insight into spiritual discourses."
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
   },
   {
     "start": "17:30",
-    "stop": "17:50",
+    "stop": "18:29",
     "channel": "AadinathTV.in",
     "channelId": "AadinathTV.in",
     "channelName": "Aadinath TV",
     "startTs": 1775496600000,
-    "stopTs": 1775497800000,
-    "title": "Vishesh",
-    "desc": "A religious leader sings a compilation of devotional songs and hymns in praise of God."
+    "stopTs": 1775500199000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
   },
   {
-    "start": "17:50",
-    "stop": "18:30",
+    "start": "18:30",
+    "stop": "19:30",
     "channel": "AadinathTV.in",
     "channelId": "AadinathTV.in",
     "channelName": "Aadinath TV",
-    "startTs": 1775497800000,
-    "stopTs": 1775500200000,
-    "title": "Vishesh",
-    "desc": "A religious leader sings a compilation of devotional songs and hymns in praise of God."
+    "startTs": 1775500200000,
+    "stopTs": 1775503800000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
+  },
+  {
+    "start": "19:30",
+    "stop": "20:30",
+    "channel": "AadinathTV.in",
+    "channelId": "AadinathTV.in",
+    "channelName": "Aadinath TV",
+    "startTs": 1775503800000,
+    "stopTs": 1775507400000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
+  },
+  {
+    "start": "20:30",
+    "stop": "21:30",
+    "channel": "AadinathTV.in",
+    "channelId": "AadinathTV.in",
+    "channelName": "Aadinath TV",
+    "startTs": 1775507400000,
+    "stopTs": 1775511000000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
+  },
+  {
+    "start": "21:30",
+    "stop": "22:30",
+    "channel": "AadinathTV.in",
+    "channelId": "AadinathTV.in",
+    "channelName": "Aadinath TV",
+    "startTs": 1775511000000,
+    "stopTs": 1775514600000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
+  },
+  {
+    "start": "22:30",
+    "stop": "23:30",
+    "channel": "AadinathTV.in",
+    "channelId": "AadinathTV.in",
+    "channelName": "Aadinath TV",
+    "startTs": 1775514600000,
+    "stopTs": 1775518200000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
+  },
+  {
+    "start": "23:30",
+    "stop": "00:30",
+    "channel": "AadinathTV.in",
+    "channelId": "AadinathTV.in",
+    "channelName": "Aadinath TV",
+    "startTs": 1775518200000,
+    "stopTs": 1775521800000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
+  },
+  {
+    "start": "00:30",
+    "stop": "01:30",
+    "channel": "AadinathTV.in",
+    "channelId": "AadinathTV.in",
+    "channelName": "Aadinath TV",
+    "startTs": 1775521800000,
+    "stopTs": 1775525400000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
+  },
+  {
+    "start": "01:30",
+    "stop": "02:30",
+    "channel": "AadinathTV.in",
+    "channelId": "AadinathTV.in",
+    "channelName": "Aadinath TV",
+    "startTs": 1775525400000,
+    "stopTs": 1775529000000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
+  },
+  {
+    "start": "02:30",
+    "stop": "03:30",
+    "channel": "AadinathTV.in",
+    "channelId": "AadinathTV.in",
+    "channelName": "Aadinath TV",
+    "startTs": 1775529000000,
+    "stopTs": 1775532600000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
+  },
+  {
+    "start": "03:30",
+    "stop": "04:30",
+    "channel": "AadinathTV.in",
+    "channelId": "AadinathTV.in",
+    "channelName": "Aadinath TV",
+    "startTs": 1775532600000,
+    "stopTs": 1775536200000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
+  },
+  {
+    "start": "04:30",
+    "stop": "05:30",
+    "channel": "AadinathTV.in",
+    "channelId": "AadinathTV.in",
+    "channelName": "Aadinath TV",
+    "startTs": 1775536200000,
+    "stopTs": 1775539800000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
+  },
+  {
+    "start": "05:30",
+    "stop": "06:30",
+    "channel": "AadinathTV.in",
+    "channelId": "AadinathTV.in",
+    "channelName": "Aadinath TV",
+    "startTs": 1775539800000,
+    "stopTs": 1775543400000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
+  },
+  {
+    "start": "06:30",
+    "stop": "07:30",
+    "channel": "AadinathTV.in",
+    "channelId": "AadinathTV.in",
+    "channelName": "Aadinath TV",
+    "startTs": 1775543400000,
+    "stopTs": 1775547000000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
+  },
+  {
+    "start": "07:30",
+    "stop": "08:30",
+    "channel": "AadinathTV.in",
+    "channelId": "AadinathTV.in",
+    "channelName": "Aadinath TV",
+    "startTs": 1775547000000,
+    "stopTs": 1775550600000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
+  },
+  {
+    "start": "08:30",
+    "stop": "09:30",
+    "channel": "AadinathTV.in",
+    "channelId": "AadinathTV.in",
+    "channelName": "Aadinath TV",
+    "startTs": 1775550600000,
+    "stopTs": 1775554200000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
+  },
+  {
+    "start": "09:30",
+    "stop": "10:30",
+    "channel": "AadinathTV.in",
+    "channelId": "AadinathTV.in",
+    "channelName": "Aadinath TV",
+    "startTs": 1775554200000,
+    "stopTs": 1775557800000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
+  },
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "AadinathTV.in",
+    "channelId": "AadinathTV.in",
+    "channelName": "Aadinath TV",
+    "startTs": 1775557800000,
+    "stopTs": 1775561400000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "AadinathTV.in",
+    "channelId": "AadinathTV.in",
+    "channelName": "Aadinath TV",
+    "startTs": 1775561400000,
+    "stopTs": 1775565000000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "AadinathTV.in",
+    "channelId": "AadinathTV.in",
+    "channelName": "Aadinath TV",
+    "startTs": 1775565000000,
+    "stopTs": 1775568600000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "AadinathTV.in",
+    "channelId": "AadinathTV.in",
+    "channelName": "Aadinath TV",
+    "startTs": 1775568600000,
+    "stopTs": 1775572200000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "AadinathTV.in",
+    "channelId": "AadinathTV.in",
+    "channelName": "Aadinath TV",
+    "startTs": 1775572200000,
+    "stopTs": 1775575800000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "AadinathTV.in",
+    "channelId": "AadinathTV.in",
+    "channelName": "Aadinath TV",
+    "startTs": 1775575800000,
+    "stopTs": 1775579400000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "AadinathTV.in",
+    "channelId": "AadinathTV.in",
+    "channelName": "Aadinath TV",
+    "startTs": 1775579400000,
+    "stopTs": 1775583000000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
+  },
+  {
+    "start": "17:30",
+    "stop": "18:29",
+    "channel": "AadinathTV.in",
+    "channelId": "AadinathTV.in",
+    "channelName": "Aadinath TV",
+    "startTs": 1775583000000,
+    "stopTs": 1775586599000,
+    "title": "Aadinath TV",
+    "desc": "Aadinath TV"
   }
 ]

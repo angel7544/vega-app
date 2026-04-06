@@ -7,8 +7,8 @@
     "channelName": "ANN News",
     "startTs": 1775471400000,
     "stopTs": 1775475000000,
-    "title": "Kashmiri News",
-    "desc": "The host sheds light on insightful updates pertaining to matters from across Kashmir."
+    "title": "ANN News",
+    "desc": "ANN News"
   },
   {
     "start": "11:30",
@@ -18,30 +18,19 @@
     "channelName": "ANN News",
     "startTs": 1775475000000,
     "stopTs": 1775478600000,
-    "title": "Urdu Khabarnama",
-    "desc": "The host delivers timely updates and key headlines shaping the nation&apos;s current events."
+    "title": "ANN News",
+    "desc": "ANN News"
   },
   {
     "start": "12:30",
-    "stop": "13:00",
-    "channel": "ANNNews.in",
-    "channelId": "ANNNews.in",
-    "channelName": "ANN News",
-    "startTs": 1775478600000,
-    "stopTs": 1775480400000,
-    "title": "Kashmiri News",
-    "desc": "The host sheds light on insightful updates pertaining to matters from across Kashmir."
-  },
-  {
-    "start": "13:00",
     "stop": "13:30",
     "channel": "ANNNews.in",
     "channelId": "ANNNews.in",
     "channelName": "ANN News",
-    "startTs": 1775480400000,
+    "startTs": 1775478600000,
     "stopTs": 1775482200000,
-    "title": "Kashmiri Songs",
-    "desc": "A compilation of popular Kashmiri songs by various musicians."
+    "title": "ANN News",
+    "desc": "ANN News"
   },
   {
     "start": "13:30",
@@ -51,30 +40,19 @@
     "channelName": "ANN News",
     "startTs": 1775482200000,
     "stopTs": 1775485800000,
-    "title": "Saath Se Aath",
-    "desc": "The host conducts interviews and debates on current affairs and key issues from Kashmir."
+    "title": "ANN News",
+    "desc": "ANN News"
   },
   {
     "start": "14:30",
-    "stop": "15:00",
-    "channel": "ANNNews.in",
-    "channelId": "ANNNews.in",
-    "channelName": "ANN News",
-    "startTs": 1775485800000,
-    "stopTs": 1775487600000,
-    "title": "Urdu News",
-    "desc": "Bringing the best in television."
-  },
-  {
-    "start": "15:00",
     "stop": "15:30",
     "channel": "ANNNews.in",
     "channelId": "ANNNews.in",
     "channelName": "ANN News",
-    "startTs": 1775487600000,
+    "startTs": 1775485800000,
     "stopTs": 1775489400000,
-    "title": "Documentary",
-    "desc": "Bringing the best in television."
+    "title": "ANN News",
+    "desc": "ANN News"
   },
   {
     "start": "15:30",
@@ -84,40 +62,293 @@
     "channelName": "ANN News",
     "startTs": 1775489400000,
     "stopTs": 1775493000000,
-    "title": "Prime Time",
-    "desc": "The host presents latest updates on sports, politics and entertainment."
+    "title": "ANN News",
+    "desc": "ANN News"
   },
   {
     "start": "16:30",
-    "stop": "17:00",
-    "channel": "ANNNews.in",
-    "channelId": "ANNNews.in",
-    "channelName": "ANN News",
-    "startTs": 1775493000000,
-    "stopTs": 1775494800000,
-    "title": "Budgam Khabarnama",
-    "desc": "The host presents a detailed report of the latest news and developments."
-  },
-  {
-    "start": "17:00",
     "stop": "17:30",
     "channel": "ANNNews.in",
     "channelId": "ANNNews.in",
     "channelName": "ANN News",
-    "startTs": 1775494800000,
+    "startTs": 1775493000000,
     "stopTs": 1775496600000,
-    "title": "Urdu News",
-    "desc": "Bringing the best in television."
+    "title": "ANN News",
+    "desc": "ANN News"
   },
   {
     "start": "17:30",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "ANNNews.in",
     "channelId": "ANNNews.in",
     "channelName": "ANN News",
     "startTs": 1775496600000,
-    "stopTs": 1775500200000,
-    "title": "Kashmiri News",
-    "desc": "The host sheds light on insightful updates pertaining to matters from across Kashmir."
+    "stopTs": 1775500199000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "18:30",
+    "stop": "19:30",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775500200000,
+    "stopTs": 1775503800000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "19:30",
+    "stop": "20:30",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775503800000,
+    "stopTs": 1775507400000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "20:30",
+    "stop": "21:30",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775507400000,
+    "stopTs": 1775511000000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "21:30",
+    "stop": "22:30",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775511000000,
+    "stopTs": 1775514600000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "22:30",
+    "stop": "23:30",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775514600000,
+    "stopTs": 1775518200000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "23:30",
+    "stop": "00:30",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775518200000,
+    "stopTs": 1775521800000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "00:30",
+    "stop": "01:30",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775521800000,
+    "stopTs": 1775525400000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "01:30",
+    "stop": "02:30",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775525400000,
+    "stopTs": 1775529000000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "02:30",
+    "stop": "03:30",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775529000000,
+    "stopTs": 1775532600000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "03:30",
+    "stop": "04:30",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775532600000,
+    "stopTs": 1775536200000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "04:30",
+    "stop": "05:30",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775536200000,
+    "stopTs": 1775539800000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "05:30",
+    "stop": "06:30",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775539800000,
+    "stopTs": 1775543400000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "06:30",
+    "stop": "07:30",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775543400000,
+    "stopTs": 1775547000000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "07:30",
+    "stop": "08:30",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775547000000,
+    "stopTs": 1775550600000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "08:30",
+    "stop": "09:30",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775550600000,
+    "stopTs": 1775554200000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "09:30",
+    "stop": "10:30",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775554200000,
+    "stopTs": 1775557800000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775557800000,
+    "stopTs": 1775561400000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775561400000,
+    "stopTs": 1775565000000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775565000000,
+    "stopTs": 1775568600000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775568600000,
+    "stopTs": 1775572200000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775572200000,
+    "stopTs": 1775575800000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775575800000,
+    "stopTs": 1775579400000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775579400000,
+    "stopTs": 1775583000000,
+    "title": "ANN News",
+    "desc": "ANN News"
+  },
+  {
+    "start": "17:30",
+    "stop": "18:29",
+    "channel": "ANNNews.in",
+    "channelId": "ANNNews.in",
+    "channelName": "ANN News",
+    "startTs": 1775583000000,
+    "stopTs": 1775586599000,
+    "title": "ANN News",
+    "desc": "ANN News"
   }
 ]

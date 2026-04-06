@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "SVBC.in",
-    "channelId": "SVBC.in",
-    "channelName": "SVBC",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Sarswathi Sanatana Pravahini",
-    "desc": "The narrator sheds light on various shrines associated with the Hindu goddess of knowledge, Saraswathi, and narrates stories from Hindu mythology."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "SVBC.in",

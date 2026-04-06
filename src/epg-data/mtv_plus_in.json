@@ -1,16 +1,5 @@
 [
   {
-    "start": "09:50",
-    "stop": "11:15",
-    "channel": "MTVHDPlus.in",
-    "channelId": "MTVHDPlus.in",
-    "channelName": "MTV HD Plus",
-    "startTs": 1775469000000,
-    "stopTs": 1775474100000,
-    "title": "Splitsvilla",
-    "desc": "Young men and women go through various obstacles, challenges, and intense heartbreaks to find their perfect partner."
-  },
-  {
     "start": "11:15",
     "stop": "12:30",
     "channel": "MTVHDPlus.in",

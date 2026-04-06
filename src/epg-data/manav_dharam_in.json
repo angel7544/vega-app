@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "ManavDharam.in",
-    "channelId": "ManavDharam.in",
-    "channelName": "Manav Dharam",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Aarti",
-    "desc": "Aarti- Guru Maharaj Ji and Mata Ji"
-  },
-  {
     "start": "11:00",
     "stop": "11:55",
     "channel": "ManavDharam.in",

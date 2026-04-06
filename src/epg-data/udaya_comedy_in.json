@@ -1,27 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "UdayaComedy.in",
-    "channelId": "UdayaComedy.in",
-    "channelName": "Udaya Comedy",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Super Star Super Comedy",
-    "desc": "A comprehensive compilation featuring entertaining and hilarious scenes from various popular Kannada movies is presented."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:05",
-    "channel": "UdayaComedy.in",
-    "channelId": "UdayaComedy.in",
-    "channelName": "Udaya Comedy",
-    "startTs": 1775473200000,
-    "stopTs": 1775473500000,
-    "title": "Khiladi Jodi",
-    "desc": "A comedic duo of a man and a woman take on various avatars to share hilarious banter about a variety of relatable situations."
-  },
-  {
     "start": "11:05",
     "stop": "11:30",
     "channel": "UdayaComedy.in",

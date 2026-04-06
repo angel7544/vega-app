@@ -1,27 +1,5 @@
 [
   {
-    "start": "10:35",
-    "stop": "11:00",
-    "channel": "BoogleBollywood.in",
-    "channelId": "BoogleBollywood.in",
-    "channelName": "Boogle Bollywood",
-    "startTs": 1775471700000,
-    "stopTs": 1775473200000,
-    "title": "Tadka Beats",
-    "desc": "A comprehensive compilation of some of the latest and popular Punjabi songs by various artists and musicians are played in a quick succession."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:05",
-    "channel": "BoogleBollywood.in",
-    "channelId": "BoogleBollywood.in",
-    "channelName": "Boogle Bollywood",
-    "startTs": 1775473200000,
-    "stopTs": 1775473500000,
-    "title": "Bollywood Express",
-    "desc": "Bringing the best in television."
-  },
-  {
     "start": "11:05",
     "stop": "12:00",
     "channel": "BoogleBollywood.in",

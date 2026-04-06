@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:50",
-    "stop": "11:20",
-    "channel": "ZeeBharat.in",
-    "channelId": "ZeeBharat.in",
-    "channelName": "Zee Bharat",
-    "startTs": 1775472600000,
-    "stopTs": 1775474400000,
-    "title": "News Special",
-    "desc": "The host presents the latest regional and national news, updates and developments."
-  },
-  {
     "start": "11:20",
     "stop": "11:50",
     "channel": "ZeeBharat.in",
@@ -30,7 +19,7 @@
     "startTs": 1775476200000,
     "stopTs": 1775478000000,
     "title": "War News With Zeenia",
-    "desc": "The journalist provides a detailed report regarding the developments of the war."
+    "desc": "The journalist provides a detailed report regarding the developments of the war and sheds light on the adversities caused by it."
   },
   {
     "start": "12:20",
@@ -52,7 +41,7 @@
     "startTs": 1775479800000,
     "stopTs": 1775481600000,
     "title": "National Security",
-    "desc": "The host provides in-depth coverage of India&apos;s various national defense strategies."
+    "desc": "The host provides in-depth coverage of India&apos;s national defense strategies, the role of paramilitary forces, and specialised military units, offering insights into their operations and security initiatives."
   },
   {
     "start": "13:20",
@@ -63,7 +52,7 @@
     "startTs": 1775481600000,
     "stopTs": 1775483400000,
     "title": "Newsroom Live",
-    "desc": "A reporter presents the most recent global news, updates and developments, live."
+    "desc": "A reporter presents the most recent news, updates, developments and current affairs from the country and around the world, live."
   },
   {
     "start": "13:50",
@@ -85,7 +74,7 @@
     "startTs": 1775485200000,
     "stopTs": 1775487000000,
     "title": "Desh Kal",
-    "desc": "The host presents information about the social, economic and political issues of the day."
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
   },
   {
     "start": "14:50",
@@ -96,7 +85,7 @@
     "startTs": 1775487000000,
     "stopTs": 1775488800000,
     "title": "News Bulletin",
-    "desc": "The host presents the latest regional, national and international news of the day."
+    "desc": "The host presents the latest regional, national and international news of the day and provides up-to-date information on current events."
   },
   {
     "start": "15:20",
@@ -107,7 +96,7 @@
     "startTs": 1775488800000,
     "stopTs": 1775490600000,
     "title": "Khabar Samajhiye",
-    "desc": "The host sheds light on the latest news and developments from across the region."
+    "desc": "The host presents a comprehensive and detailed converge, elucidating on the latest news and developments from across the region."
   },
   {
     "start": "15:50",
@@ -118,7 +107,7 @@
     "startTs": 1775490600000,
     "stopTs": 1775492400000,
     "title": "Chote Mai Badi Baat",
-    "desc": "The host shares updates on current social, economic and political matters."
+    "desc": "The host presents information about the social, economic and political issues and offers the latest news on recent developments."
   },
   {
     "start": "16:20",
@@ -129,7 +118,7 @@
     "startTs": 1775492400000,
     "stopTs": 1775494200000,
     "title": "Dunia News",
-    "desc": "The host presents the latest news updates from around the world."
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the world."
   },
   {
     "start": "16:50",
@@ -140,7 +129,7 @@
     "startTs": 1775494200000,
     "stopTs": 1775496000000,
     "title": "Fateh",
-    "desc": "The host delivers the latest updates on significant matters across the country."
+    "desc": "The host delivers the latest updates and recent developments on significant matters related to governance, economics and socio-political issues across the country."
   },
   {
     "start": "17:20",
@@ -166,13 +155,552 @@
   },
   {
     "start": "18:20",
-    "stop": "18:50",
+    "stop": "18:29",
     "channel": "ZeeBharat.in",
     "channelId": "ZeeBharat.in",
     "channelName": "Zee Bharat",
     "startTs": 1775499600000,
+    "stopTs": 1775500199000,
+    "title": "News At Night",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "18:30",
+    "stop": "18:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775500200000,
     "stopTs": 1775501400000,
     "title": "News At Night",
-    "desc": "The host presents information about the social, economic and political issues of the day."
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "18:50",
+    "stop": "19:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775501400000,
+    "stopTs": 1775503200000,
+    "title": "Bharat Special",
+    "desc": "The host offers in-depth coverage of national affairs, providing detailed insights into the latest events and socio-political developments across the country."
+  },
+  {
+    "start": "19:20",
+    "stop": "19:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775503200000,
+    "stopTs": 1775505000000,
+    "title": "News At Night",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "19:50",
+    "stop": "20:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775505000000,
+    "stopTs": 1775506800000,
+    "title": "Bharat Special",
+    "desc": "The host offers in-depth coverage of national affairs, providing detailed insights into the latest events and socio-political developments across the country."
+  },
+  {
+    "start": "20:20",
+    "stop": "20:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775506800000,
+    "stopTs": 1775508600000,
+    "title": "News At Night",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "20:50",
+    "stop": "21:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775508600000,
+    "stopTs": 1775510400000,
+    "title": "Bharat Special",
+    "desc": "The host offers in-depth coverage of national affairs, providing detailed insights into the latest events and socio-political developments across the country."
+  },
+  {
+    "start": "21:20",
+    "stop": "21:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775510400000,
+    "stopTs": 1775512200000,
+    "title": "News At Night",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "21:50",
+    "stop": "22:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775512200000,
+    "stopTs": 1775514000000,
+    "title": "Bharat Special",
+    "desc": "The host offers in-depth coverage of national affairs, providing detailed insights into the latest events and socio-political developments across the country."
+  },
+  {
+    "start": "22:20",
+    "stop": "22:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775514000000,
+    "stopTs": 1775515800000,
+    "title": "News At Night",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "22:50",
+    "stop": "23:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775515800000,
+    "stopTs": 1775517600000,
+    "title": "Bharat Special",
+    "desc": "The host offers in-depth coverage of national affairs, providing detailed insights into the latest events and socio-political developments across the country."
+  },
+  {
+    "start": "23:20",
+    "stop": "23:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775517600000,
+    "stopTs": 1775519400000,
+    "title": "News At Night",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "23:50",
+    "stop": "00:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775519400000,
+    "stopTs": 1775521200000,
+    "title": "Sadhan Path",
+    "desc": "This religious offering guides devotees through the sacred journey of spirituality, exploring various teachings and practices that lead to enlightenment and inner harmony."
+  },
+  {
+    "start": "00:20",
+    "stop": "00:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775521200000,
+    "stopTs": 1775523000000,
+    "title": "Namaste India",
+    "desc": "The host presents the latest updates pertaining to the political and socio-economic matters and developments from all over India."
+  },
+  {
+    "start": "00:50",
+    "stop": "01:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775523000000,
+    "stopTs": 1775524800000,
+    "title": "Seema Par",
+    "desc": "The host presents a detailed report on the latest happenings and updates from the India-Pakistan Border to spread awareness to the citizens."
+  },
+  {
+    "start": "01:20",
+    "stop": "01:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775524800000,
+    "stopTs": 1775526600000,
+    "title": "News Special",
+    "desc": "The host presents the latest regional and national news, updates and developments across the nation and provides information on current events."
+  },
+  {
+    "start": "01:50",
+    "stop": "02:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775526600000,
+    "stopTs": 1775528400000,
+    "title": "Zee Bharat Special",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "02:20",
+    "stop": "02:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775528400000,
+    "stopTs": 1775530200000,
+    "title": "Chote Mai Badi Baat",
+    "desc": "The host presents information about the social, economic and political issues and offers the latest news on recent developments."
+  },
+  {
+    "start": "02:50",
+    "stop": "03:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775530200000,
+    "stopTs": 1775532000000,
+    "title": "Chote Mai Badi Baat",
+    "desc": "The host presents information about the social, economic and political issues and offers the latest news on recent developments."
+  },
+  {
+    "start": "03:20",
+    "stop": "03:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775532000000,
+    "stopTs": 1775533800000,
+    "title": "Mera Rajya Mera Desh",
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation."
+  },
+  {
+    "start": "03:50",
+    "stop": "04:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775533800000,
+    "stopTs": 1775535600000,
+    "title": "Dunia News",
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the world."
+  },
+  {
+    "start": "04:20",
+    "stop": "04:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775535600000,
+    "stopTs": 1775537400000,
+    "title": "Zee Bharat",
+    "desc": "The host presents all the major news updates and developments pertaining to politics, society and economy from around the country."
+  },
+  {
+    "start": "04:50",
+    "stop": "05:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775537400000,
+    "stopTs": 1775539200000,
+    "title": "Sangram",
+    "desc": "The host provides a detailed analysis of the latest political updates and developments affecting the country and the world."
+  },
+  {
+    "start": "05:20",
+    "stop": "05:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775539200000,
+    "stopTs": 1775541000000,
+    "title": "5 Minute 50 Khabrein",
+    "desc": "The host presents the top 50 news updates concerning the political, social, economic and sports fronts from across the nation and the world."
+  },
+  {
+    "start": "05:50",
+    "stop": "06:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775541000000,
+    "stopTs": 1775542800000,
+    "title": "Bharat Special",
+    "desc": "The host offers in-depth coverage of national affairs, providing detailed insights into the latest events and socio-political developments across the country."
+  },
+  {
+    "start": "06:20",
+    "stop": "06:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775542800000,
+    "stopTs": 1775544600000,
+    "title": "Shatak Bharat",
+    "desc": "The host presents a quick summary of the top 100 national stories influencing India&apos;s political, social and cultural landscape."
+  },
+  {
+    "start": "06:50",
+    "stop": "07:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775544600000,
+    "stopTs": 1775546400000,
+    "title": "Shakti",
+    "desc": "While delving into the divine concept of &quot;Shakti&quot;, a subject matter expert enumerates its nine forms as depicted in various ancient Indian scriptures."
+  },
+  {
+    "start": "07:20",
+    "stop": "07:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775546400000,
+    "stopTs": 1775548200000,
+    "title": "100 Sateek",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "07:50",
+    "stop": "08:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775548200000,
+    "stopTs": 1775550000000,
+    "title": "News Special",
+    "desc": "The host presents the latest regional and national news, updates and developments across the nation and provides information on current events."
+  },
+  {
+    "start": "08:20",
+    "stop": "08:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775550000000,
+    "stopTs": 1775551800000,
+    "title": "Dophar Ki Khabar",
+    "desc": "The host delivers the latest updates on national and international events during the afternoon, keeping audiences informed throughout the day."
+  },
+  {
+    "start": "08:50",
+    "stop": "09:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775551800000,
+    "stopTs": 1775553600000,
+    "title": "Bharat Special",
+    "desc": "The host offers in-depth coverage of national affairs, providing detailed insights into the latest events and socio-political developments across the country."
+  },
+  {
+    "start": "09:20",
+    "stop": "09:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775553600000,
+    "stopTs": 1775555400000,
+    "title": "Top 100 News",
+    "desc": "The host compiles and delivers the top 100 key updates and current issues that are significant to the people&apos;s interests."
+  },
+  {
+    "start": "09:50",
+    "stop": "10:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775555400000,
+    "stopTs": 1775557200000,
+    "title": "AI Anchor Zeenia",
+    "desc": "The first-ever AI anchor, Zeenia, presents some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
+  },
+  {
+    "start": "10:20",
+    "stop": "10:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775557200000,
+    "stopTs": 1775559000000,
+    "title": "Sangram",
+    "desc": "The host provides a detailed analysis of the latest political updates and developments affecting the country and the world."
+  },
+  {
+    "start": "10:50",
+    "stop": "11:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775559000000,
+    "stopTs": 1775560800000,
+    "title": "News Special",
+    "desc": "The host presents the latest regional and national news, updates and developments across the nation and provides information on current events."
+  },
+  {
+    "start": "11:20",
+    "stop": "11:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775560800000,
+    "stopTs": 1775562600000,
+    "title": "Zee Bharat Special",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "11:50",
+    "stop": "12:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775562600000,
+    "stopTs": 1775564400000,
+    "title": "War News With Zeenia",
+    "desc": "The journalist provides a detailed report regarding the developments of the war and sheds light on the adversities caused by it."
+  },
+  {
+    "start": "12:20",
+    "stop": "12:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775564400000,
+    "stopTs": 1775566200000,
+    "title": "Akraman",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "12:50",
+    "stop": "13:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775566200000,
+    "stopTs": 1775568000000,
+    "title": "Evening Prime",
+    "desc": "The host presents prime news stories, updates and developments on current affairs and socio-political issues in the region."
+  },
+  {
+    "start": "13:20",
+    "stop": "13:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775568000000,
+    "stopTs": 1775569800000,
+    "title": "Newsroom Live",
+    "desc": "A reporter presents the most recent news, updates, developments and current affairs from the country and around the world, live."
+  },
+  {
+    "start": "13:50",
+    "stop": "14:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775569800000,
+    "stopTs": 1775571600000,
+    "title": "Zee Bharat Special",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "14:20",
+    "stop": "14:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775571600000,
+    "stopTs": 1775573400000,
+    "title": "Desh Kal",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "14:50",
+    "stop": "15:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775573400000,
+    "stopTs": 1775575200000,
+    "title": "News Bulletin",
+    "desc": "The host presents the latest regional, national and international news of the day and provides up-to-date information on current events."
+  },
+  {
+    "start": "15:20",
+    "stop": "15:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775575200000,
+    "stopTs": 1775577000000,
+    "title": "Khabar Samajhiye",
+    "desc": "The host presents a comprehensive and detailed converge, elucidating on the latest news and developments from across the region."
+  },
+  {
+    "start": "15:50",
+    "stop": "16:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775577000000,
+    "stopTs": 1775578800000,
+    "title": "Chote Mai Badi Baat",
+    "desc": "The host presents information about the social, economic and political issues and offers the latest news on recent developments."
+  },
+  {
+    "start": "16:20",
+    "stop": "16:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775578800000,
+    "stopTs": 1775580600000,
+    "title": "Dunia News",
+    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the world."
+  },
+  {
+    "start": "16:50",
+    "stop": "17:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775580600000,
+    "stopTs": 1775582400000,
+    "title": "Fateh",
+    "desc": "The host delivers the latest updates and recent developments on significant matters related to governance, economics and socio-political issues across the country."
+  },
+  {
+    "start": "17:20",
+    "stop": "17:50",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775582400000,
+    "stopTs": 1775584200000,
+    "title": "Fateh Special",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "17:50",
+    "stop": "18:20",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775584200000,
+    "stopTs": 1775586000000,
+    "title": "Vande Matram",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "18:20",
+    "stop": "18:29",
+    "channel": "ZeeBharat.in",
+    "channelId": "ZeeBharat.in",
+    "channelName": "Zee Bharat",
+    "startTs": 1775586000000,
+    "stopTs": 1775586599000,
+    "title": "News At Night",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
   }
 ]

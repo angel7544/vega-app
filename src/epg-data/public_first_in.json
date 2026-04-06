@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "PublicFirst.in",
-    "channelId": "PublicFirst.in",
-    "channelName": "Public First",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Sanskriti First",
-    "desc": "The host discusses various Hindu temples and sites, sharing valuable perspectives on rituals, practices and community initiatives."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "PublicFirst.in",

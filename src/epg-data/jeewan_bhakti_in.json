@@ -30,7 +30,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775489400000,
     "title": "Hey Ram",
-    "desc": "."
+    "desc": "Hey Ram"
   },
   {
     "start": "15:30",
@@ -41,7 +41,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775493000000,
     "title": "Panchang",
-    "desc": "An astrologer studies the movements of celestial objects and predicts the future."
+    "desc": "A renowned astrologer studies the movement and relative position of celestial objects and predicts the future for the 12 zodiac signs."
   },
   {
     "start": "16:30",
@@ -52,17 +52,259 @@
     "startTs": 1775493000000,
     "stopTs": 1775496600000,
     "title": "Satsang",
-    "desc": "."
+    "desc": "Satsang"
   },
   {
     "start": "17:30",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "JeewanBhakti.in",
     "channelId": "JeewanBhakti.in",
     "channelName": "Jeewan Bhakti",
     "startTs": 1775496600000,
-    "stopTs": 1775500200000,
+    "stopTs": 1775500199000,
     "title": "Aaj Ka Rashifal",
-    "desc": "An astrologer studies horoscopes and predicts the future of the people."
+    "desc": "An astrologer studies horoscopes and predicts the future of the people while offering spiritual solutions to tackle the effects of planetary transitions."
+  },
+  {
+    "start": "18:30",
+    "stop": "19:30",
+    "channel": "JeewanBhakti.in",
+    "channelId": "JeewanBhakti.in",
+    "channelName": "Jeewan Bhakti",
+    "startTs": 1775500200000,
+    "stopTs": 1775503800000,
+    "title": "Guru Vani",
+    "desc": "Renowned scholars make predictions based on zodiac signs and also provide appropriate solutions to one&apos;s day-to-day problems."
+  },
+  {
+    "start": "19:30",
+    "stop": "20:30",
+    "channel": "JeewanBhakti.in",
+    "channelId": "JeewanBhakti.in",
+    "channelName": "Jeewan Bhakti",
+    "startTs": 1775503800000,
+    "stopTs": 1775507400000,
+    "title": "Towards Spirituality",
+    "desc": "Towards Spirituality"
+  },
+  {
+    "start": "20:30",
+    "stop": "21:30",
+    "channel": "JeewanBhakti.in",
+    "channelId": "JeewanBhakti.in",
+    "channelName": "Jeewan Bhakti",
+    "startTs": 1775507400000,
+    "stopTs": 1775511000000,
+    "title": "Jeewan Ki Rah",
+    "desc": "Jeewan Ki Rah"
+  },
+  {
+    "start": "21:30",
+    "stop": "22:30",
+    "channel": "JeewanBhakti.in",
+    "channelId": "JeewanBhakti.in",
+    "channelName": "Jeewan Bhakti",
+    "startTs": 1775511000000,
+    "stopTs": 1775514600000,
+    "title": "Gyanshala",
+    "desc": "Gyanshala"
+  },
+  {
+    "start": "22:30",
+    "stop": "23:30",
+    "channel": "JeewanBhakti.in",
+    "channelId": "JeewanBhakti.in",
+    "channelName": "Jeewan Bhakti",
+    "startTs": 1775514600000,
+    "stopTs": 1775518200000,
+    "title": "Dharma Chakra",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "23:30",
+    "stop": "00:30",
+    "channel": "JeewanBhakti.in",
+    "channelId": "JeewanBhakti.in",
+    "channelName": "Jeewan Bhakti",
+    "startTs": 1775518200000,
+    "stopTs": 1775521800000,
+    "title": "Parvachan",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "00:30",
+    "stop": "01:30",
+    "channel": "JeewanBhakti.in",
+    "channelId": "JeewanBhakti.in",
+    "channelName": "Jeewan Bhakti",
+    "startTs": 1775521800000,
+    "stopTs": 1775525400000,
+    "title": "Bhagti Songs",
+    "desc": "A curated compilation of religious and sacred songs performed by various artists in devotion to Hindu deities is played back to back."
+  },
+  {
+    "start": "01:30",
+    "stop": "02:30",
+    "channel": "JeewanBhakti.in",
+    "channelId": "JeewanBhakti.in",
+    "channelName": "Jeewan Bhakti",
+    "startTs": 1775525400000,
+    "stopTs": 1775529000000,
+    "title": "Devotional Serial",
+    "desc": "Devotional Serial"
+  },
+  {
+    "start": "02:30",
+    "stop": "03:30",
+    "channel": "JeewanBhakti.in",
+    "channelId": "JeewanBhakti.in",
+    "channelName": "Jeewan Bhakti",
+    "startTs": 1775529000000,
+    "stopTs": 1775532600000,
+    "title": "Hey Ram",
+    "desc": "Hey Ram"
+  },
+  {
+    "start": "03:30",
+    "stop": "04:30",
+    "channel": "JeewanBhakti.in",
+    "channelId": "JeewanBhakti.in",
+    "channelName": "Jeewan Bhakti",
+    "startTs": 1775532600000,
+    "stopTs": 1775536200000,
+    "title": "Panchang",
+    "desc": "A renowned astrologer studies the movement and relative position of celestial objects and predicts the future for the 12 zodiac signs."
+  },
+  {
+    "start": "04:30",
+    "stop": "05:30",
+    "channel": "JeewanBhakti.in",
+    "channelId": "JeewanBhakti.in",
+    "channelName": "Jeewan Bhakti",
+    "startTs": 1775536200000,
+    "stopTs": 1775539800000,
+    "title": "Satsang",
+    "desc": "Satsang"
+  },
+  {
+    "start": "05:30",
+    "stop": "06:30",
+    "channel": "JeewanBhakti.in",
+    "channelId": "JeewanBhakti.in",
+    "channelName": "Jeewan Bhakti",
+    "startTs": 1775539800000,
+    "stopTs": 1775543400000,
+    "title": "Aaj Ka Rashifal",
+    "desc": "An astrologer studies horoscopes and predicts the future of the people while offering spiritual solutions to tackle the effects of planetary transitions."
+  },
+  {
+    "start": "06:30",
+    "stop": "07:30",
+    "channel": "JeewanBhakti.in",
+    "channelId": "JeewanBhakti.in",
+    "channelName": "Jeewan Bhakti",
+    "startTs": 1775543400000,
+    "stopTs": 1775547000000,
+    "title": "Guru Vani",
+    "desc": "Renowned scholars make predictions based on zodiac signs and also provide appropriate solutions to one&apos;s day-to-day problems."
+  },
+  {
+    "start": "07:30",
+    "stop": "08:30",
+    "channel": "JeewanBhakti.in",
+    "channelId": "JeewanBhakti.in",
+    "channelName": "Jeewan Bhakti",
+    "startTs": 1775547000000,
+    "stopTs": 1775550600000,
+    "title": "Towards Spirituality",
+    "desc": "Towards Spirituality"
+  },
+  {
+    "start": "08:30",
+    "stop": "09:30",
+    "channel": "JeewanBhakti.in",
+    "channelId": "JeewanBhakti.in",
+    "channelName": "Jeewan Bhakti",
+    "startTs": 1775550600000,
+    "stopTs": 1775554200000,
+    "title": "Jeewan Ki Rah",
+    "desc": "Jeewan Ki Rah"
+  },
+  {
+    "start": "09:30",
+    "stop": "10:30",
+    "channel": "JeewanBhakti.in",
+    "channelId": "JeewanBhakti.in",
+    "channelName": "Jeewan Bhakti",
+    "startTs": 1775554200000,
+    "stopTs": 1775557800000,
+    "title": "Gyanshala",
+    "desc": "Gyanshala"
+  },
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "JeewanBhakti.in",
+    "channelId": "JeewanBhakti.in",
+    "channelName": "Jeewan Bhakti",
+    "startTs": 1775557800000,
+    "stopTs": 1775561400000,
+    "title": "Dharma Chakra",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "11:30",
+    "stop": "14:30",
+    "channel": "JeewanBhakti.in",
+    "channelId": "JeewanBhakti.in",
+    "channelName": "Jeewan Bhakti",
+    "startTs": 1775561400000,
+    "stopTs": 1775572200000,
+    "title": "Live Event",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "JeewanBhakti.in",
+    "channelId": "JeewanBhakti.in",
+    "channelName": "Jeewan Bhakti",
+    "startTs": 1775572200000,
+    "stopTs": 1775575800000,
+    "title": "Hey Ram",
+    "desc": "Hey Ram"
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "JeewanBhakti.in",
+    "channelId": "JeewanBhakti.in",
+    "channelName": "Jeewan Bhakti",
+    "startTs": 1775575800000,
+    "stopTs": 1775579400000,
+    "title": "Panchang",
+    "desc": "A renowned astrologer studies the movement and relative position of celestial objects and predicts the future for the 12 zodiac signs."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "JeewanBhakti.in",
+    "channelId": "JeewanBhakti.in",
+    "channelName": "Jeewan Bhakti",
+    "startTs": 1775579400000,
+    "stopTs": 1775583000000,
+    "title": "Satsang",
+    "desc": "Satsang"
+  },
+  {
+    "start": "17:30",
+    "stop": "18:29",
+    "channel": "JeewanBhakti.in",
+    "channelId": "JeewanBhakti.in",
+    "channelName": "Jeewan Bhakti",
+    "startTs": 1775583000000,
+    "stopTs": 1775586599000,
+    "title": "Aaj Ka Rashifal",
+    "desc": "An astrologer studies horoscopes and predicts the future of the people while offering spiritual solutions to tackle the effects of planetary transitions."
   }
 ]

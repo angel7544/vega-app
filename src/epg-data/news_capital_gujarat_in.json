@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "NewsCapitalGujarat.in",
-    "channelId": "NewsCapitalGujarat.in",
-    "channelName": "News Capital Gujarat",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "News @ 4",
-    "desc": "The host presents a comprehensive and detailed report regarding the latest news and developments, domestically and internationally."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "NewsCapitalGujarat.in",

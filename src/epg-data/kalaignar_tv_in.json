@@ -8,7 +8,7 @@
     "startTs": 1775462400000,
     "stopTs": 1775475000000,
     "title": "Paruthiveeran",
-    "desc": "After Paruthiveeran saves Muththazhagu&apos;s life, she madly falls in love with him."
+    "desc": "A young, carefree man, Paruthiveeran, saves Muththazhagu&apos;s life and they eventually fall in love. However, their families object to their union, forcing the couple to elope together."
   },
   {
     "start": "11:30",
@@ -19,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Thillu Mullu",
-    "desc": "Talented comedians perform hilarious, theme-based skits that leave the audience in splits. S01 E81."
+    "desc": "Talented comedians perform hilarious, theme-based skits centred around relatable daily struggles that leave the audience in splits."
   },
   {
     "start": "12:00",
@@ -30,7 +30,7 @@
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "News",
-    "desc": "The host presents the latest news stories pertaining to various issues around the country."
+    "desc": "The host presents the latest news stories and developments pertaining to various political and socio-economic issues around the country."
   },
   {
     "start": "12:30",
@@ -41,7 +41,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775482200000,
     "title": "Katrathu Samayal",
-    "desc": "The host demonstrates the preparation of delicious dishes and shares useful culinary tips. S08 E06."
+    "desc": "The host presents a wide range of delicious recipes, demonstrates their preparation and shares useful culinary tips with the viewers."
   },
   {
     "start": "13:30",
@@ -52,7 +52,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775485800000,
     "title": "Priyamanavale",
-    "desc": "A devoted wife, misunderstood by her family, rises with strength to reclaim her dignity and rebuild her life. S01 E13."
+    "desc": "A devoted wife, misunderstood by her family, rises with strength to reclaim her dignity and rebuild her life."
   },
   {
     "start": "14:30",
@@ -63,7 +63,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Gauri",
-    "desc": "A blessed girl lives in a village where two landlords plan to kill her for their benefit. S01 E681."
+    "desc": "A girl blessed by the goddess Masani lives in the village where two landlords belonging there plan to kill her for their benefit."
   },
   {
     "start": "15:00",
@@ -74,17 +74,303 @@
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Kalyana Parisu",
-    "desc": "Kalyana Parisu Season 2 is a village family romance and revenge story centered on Vidhya and Ashok, who, after marrying due to unexpected circumstances, navigate life together amidst family. S02 E79."
+    "desc": "Kalyana Parisu Season 2 is a village family romance and revenge story centered on Vidhya and Ashok, who, after marrying due to unexpected circumstances, navigate life together amidst family conflicts."
   },
   {
     "start": "15:30",
-    "stop": "19:00",
+    "stop": "18:29",
     "channel": "KalaignarTV.in",
     "channelId": "KalaignarTV.in",
     "channelName": "Kalaignar TV",
     "startTs": 1775489400000,
+    "stopTs": 1775500199000,
+    "title": "Vazhkai",
+    "desc": "Betrayed by his household, an unemployed mechanic starts over with his geriatric wife. However, fate finally rewards him by turning his struggles into success and making him a millionaire."
+  },
+  {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775500200000,
     "stopTs": 1775502000000,
     "title": "Vazhkai",
-    "desc": "Betrayed by his household, an unemployed mechanic starts over with his geriatric wife."
+    "desc": "Betrayed by his household, an unemployed mechanic starts over with his geriatric wife. However, fate finally rewards him by turning his struggles into success and making him a millionaire."
+  },
+  {
+    "start": "19:00",
+    "stop": "20:30",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775502000000,
+    "stopTs": 1775507400000,
+    "title": "Inthavaara Kalakalappu",
+    "desc": "A comprehensive compilation of hilarious comedy scenes, featuring popular artists, is played back-to-back for the entertainment of the viewers."
+  },
+  {
+    "start": "20:30",
+    "stop": "22:30",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775507400000,
+    "stopTs": 1775514600000,
+    "title": "Sei",
+    "desc": "A young aspiring actor is forced to work as an ambulance driver to support his father. However, things get complicated when he stumbles upon an organ trafficking network."
+  },
+  {
+    "start": "22:30",
+    "stop": "00:00",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775514600000,
+    "stopTs": 1775520000000,
+    "title": "Songs",
+    "desc": "A comprehensive compilation of popular and famous songs produced and composed by talented musical artists is played back-to-back."
+  },
+  {
+    "start": "00:00",
+    "stop": "00:30",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775520000000,
+    "stopTs": 1775521800000,
+    "title": "Thenum Paalum",
+    "desc": "A comprehensive compilation of melodious songs composed by renowned musicians and performed by various artists in Tamil movies played back to back."
+  },
+  {
+    "start": "00:30",
+    "stop": "01:00",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775521800000,
+    "stopTs": 1775523600000,
+    "title": "Inthavaara Kalakalappu",
+    "desc": "A comprehensive compilation of hilarious comedy scenes, featuring popular artists, is played back-to-back for the entertainment of the viewers."
+  },
+  {
+    "start": "01:00",
+    "stop": "01:30",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775523600000,
+    "stopTs": 1775525400000,
+    "title": "Slot",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "01:30",
+    "stop": "02:00",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775525400000,
+    "stopTs": 1775527200000,
+    "title": "ARC International",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "02:00",
+    "stop": "02:30",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775527200000,
+    "stopTs": 1775529000000,
+    "title": "News",
+    "desc": "The host presents the latest news stories and developments pertaining to various political and socio-economic issues around the country."
+  },
+  {
+    "start": "02:30",
+    "stop": "03:00",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775529000000,
+    "stopTs": 1775530800000,
+    "title": "Vidiyale Vaa",
+    "desc": "The host provides information on various trending topics related to fitness, technology, finance, society, economy and culture and interviews experts on them."
+  },
+  {
+    "start": "03:00",
+    "stop": "03:30",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775530800000,
+    "stopTs": 1775532600000,
+    "title": "Snehithiye",
+    "desc": "The host engages in discussions on topics related to women&apos;s issues, along with home and lifestyle tips."
+  },
+  {
+    "start": "03:30",
+    "stop": "04:00",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775532600000,
+    "stopTs": 1775534400000,
+    "title": "Azhagi",
+    "desc": "Sundari, a widow, raises her three children, Natraj, Mathi and Surya with love and support amidst several hardships. But, things turn bad in the family when Natraj gets married to a rich girl."
+  },
+  {
+    "start": "04:00",
+    "stop": "04:30",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775534400000,
+    "stopTs": 1775536200000,
+    "title": "Nadhaswaram",
+    "desc": "Gopi, the owner of a tailor shop and son of Chokkalingam, a Nadaswaram player, goes about his daily life, with several ups and downs, along with his family."
+  },
+  {
+    "start": "04:30",
+    "stop": "05:00",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775536200000,
+    "stopTs": 1775538000000,
+    "title": "Kolangal",
+    "desc": "Mega Series of Abinaya, an ambitious woman, strives to succeed in life. However, things take a turn when her half brother, Aadhi, thwarts her efforts and tries to ruin her."
+  },
+  {
+    "start": "05:00",
+    "stop": "05:30",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775538000000,
+    "stopTs": 1775539800000,
+    "title": "Thendral",
+    "desc": "Story of Thulasi&apos;s tragic life turns around when Tamizh falls for her and supports her ambitions. However, their relationship must stand the test of time as their families disapprove of their marriage."
+  },
+  {
+    "start": "05:30",
+    "stop": "06:30",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775539800000,
+    "stopTs": 1775543400000,
+    "title": "Vazhkai",
+    "desc": "Betrayed by his household, an unemployed mechanic starts over with his geriatric wife. However, fate finally rewards him by turning his struggles into success and making him a millionaire."
+  },
+  {
+    "start": "06:30",
+    "stop": "07:30",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775543400000,
+    "stopTs": 1775547000000,
+    "title": "Unmai Vellum",
+    "desc": "The host welcomes diverse guests, facilitating in-depth conversations on a wide spectrum of social topics, exploring various perspectives."
+  },
+  {
+    "start": "07:30",
+    "stop": "08:00",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775547000000,
+    "stopTs": 1775548800000,
+    "title": "News",
+    "desc": "The host presents the latest news stories and developments pertaining to various political and socio-economic issues around the country."
+  },
+  {
+    "start": "08:00",
+    "stop": "11:30",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775548800000,
+    "stopTs": 1775561400000,
+    "title": "Ko",
+    "desc": "Ashwin, a photojournalist, supports his friend, Vasanthan, who is contesting in the upcoming elections. However, he is shocked when he realises that Vasanthan has connections with the Naxalites."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775561400000,
+    "stopTs": 1775563200000,
+    "title": "Thillu Mullu",
+    "desc": "Talented comedians perform hilarious, theme-based skits centred around relatable daily struggles that leave the audience in splits."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775563200000,
+    "stopTs": 1775565000000,
+    "title": "News",
+    "desc": "The host presents the latest news stories and developments pertaining to various political and socio-economic issues around the country."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775565000000,
+    "stopTs": 1775568600000,
+    "title": "Katrathu Samayal",
+    "desc": "The host presents a wide range of delicious recipes, demonstrates their preparation and shares useful culinary tips with the viewers."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775568600000,
+    "stopTs": 1775572200000,
+    "title": "Priyamanavale",
+    "desc": "A devoted wife, misunderstood by her family, rises with strength to reclaim her dignity and rebuild her life."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775572200000,
+    "stopTs": 1775574000000,
+    "title": "Gauri",
+    "desc": "A girl blessed by the goddess Masani lives in the village where two landlords belonging there plan to kill her for their benefit."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775574000000,
+    "stopTs": 1775575800000,
+    "title": "Kalyana Parisu",
+    "desc": "Kalyana Parisu Season 2 is a village family romance and revenge story centered on Vidhya and Ashok, who, after marrying due to unexpected circumstances, navigate life together amidst family conflicts."
+  },
+  {
+    "start": "15:30",
+    "stop": "18:29",
+    "channel": "KalaignarTV.in",
+    "channelId": "KalaignarTV.in",
+    "channelName": "Kalaignar TV",
+    "startTs": 1775575800000,
+    "stopTs": 1775586599000,
+    "title": "Anjathe",
+    "desc": "Satya, a reckless young man, gets into violent fights when he drinks, whereas Kiruba studies hard to become a sub-inspector. However, tables are turned when Satya becomes a sub-inspector."
   }
 ]

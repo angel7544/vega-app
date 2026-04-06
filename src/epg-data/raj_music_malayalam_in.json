@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "RajMusicMalayalam.in",
-    "channelId": "RajMusicMalayalam.in",
-    "channelName": "Raj Music Malayalam",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Public Choice",
-    "desc": "A comprehensive compilation of songs from famous singers requested by the audience is played back-to-back to entertain them."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "RajMusicMalayalam.in",

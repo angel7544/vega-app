@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "LivePunjabiTV.in",
-    "channelId": "LivePunjabiTV.in",
-    "channelName": "Live Punjabi TV",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Aj Da Punjab",
-    "desc": "The host presents a round-up of some of the latest and the most important news, updates and developments from the Indian state of Punjab."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "LivePunjabiTV.in",

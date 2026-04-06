@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "VedicTV.in",
-    "channelId": "VedicTV.in",
-    "channelName": "Vedic TV",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Param Pujya Acharya Balkrishna Ji",
-    "desc": "A renowned spiritual expert provides a comprehensive and detailed insight into health and lifestyle related matters, guiding people on the right path."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "VedicTV.in",

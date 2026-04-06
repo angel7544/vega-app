@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "SMBCTV.in",
-    "channelId": "SMBCTV.in",
-    "channelName": "SMBC TV",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Devbhoomi Express",
-    "desc": "The host discusses and analyses the latest and the most relevant social, political and economic issues and provides information on current events."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "SMBCTV.in",

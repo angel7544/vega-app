@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:10",
-    "channel": "ParasTV.in",
-    "channelId": "ParasTV.in",
-    "channelName": "Paras tv",
-    "startTs": 1775471400000,
-    "stopTs": 1775473800000,
-    "title": "Pravachan",
-    "desc": "An eminent religious leader provides a comprehensive and detailed insight into spiritual discourses and guides people on the right path."
-  },
-  {
     "start": "11:10",
     "stop": "11:30",
     "channel": "ParasTV.in",

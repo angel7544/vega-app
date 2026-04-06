@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "Shalom.in",
-    "channelId": "Shalom.in",
-    "channelName": "Shalom",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Daily Mass",
-    "desc": "Priests and a congregation come together in a church to celebrate the Holy Eucharist through worship, prayers and hymns."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "Shalom.in",

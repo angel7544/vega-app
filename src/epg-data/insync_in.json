@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "Insync.in",
-    "channelId": "Insync.in",
-    "channelName": "Insync",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Fusion Cafe",
-    "desc": "A curated compilation of some of the most popular fusion songs performed by famous music artists and composers is played back to back."
-  },
-  {
     "start": "11:00",
     "stop": "12:30",
     "channel": "Insync.in",

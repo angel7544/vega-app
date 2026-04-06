@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "TV9TeluguNews.in",
-    "channelId": "TV9TeluguNews.in",
-    "channelName": "TV9 Telugu News",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Nalu Dikkulu 40 Vaarthalu",
-    "desc": "The host sheds light on the top forty news updates pertaining to the political, social, economic and sports fronts from around the state and the nation."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "TV9TeluguNews.in",

@@ -19,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775478600000,
     "title": "Commercial",
-    "desc": "The host promotes a range of products that can be bought from the comfort of one&apos;s home."
+    "desc": "The host shares information about a wide selection of products that can be purchased from the comfort of the consumer&apos;s home."
   },
   {
     "start": "12:30",
@@ -30,7 +30,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Shiva Sahasranama Stotralu",
-    "desc": "A Sanskrit hymn listing the 1,000 names of Lord Shiva is recited to appease the deity."
+    "desc": "A Sanskrit hymn listing the 1,000 names of Lord Shiva is recited to appease the Hindu deity and seek his divine blessings."
   },
   {
     "start": "13:00",
@@ -41,7 +41,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Om Namah Shivay",
-    "desc": "Shiva creates the universe which then leads to the formation of the twelve Jyotirlingas."
+    "desc": "Shiva, the creator god in Hindu mythology, sets off the creation of the universe which then leads to the formation of the twelve Jyotirlingas."
   },
   {
     "start": "13:30",
@@ -74,7 +74,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Live From Srisailam",
-    "desc": "Priests and devotees gather to pray and perform rituals at a temple in Srisailam, live."
+    "desc": "Religious leaders recite hymns and perform rituals in praise of the Almighty as devotees offer their prayers at a temple in Srisailam, Andhra Pradesh, live."
   },
   {
     "start": "15:00",
@@ -85,7 +85,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Chaganti gari pravachanam",
-    "desc": "A religious speaker delivers a discourse based on the sacred texts from the holy scriptures."
+    "desc": "A religious speaker delivers a discourse based on the sacred texts from the holy scriptures and imparts significant teachings to his followers."
   },
   {
     "start": "15:30",
@@ -96,7 +96,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Samavedam Gari Pravachanam",
-    "desc": "A religious leader shares profound insights to deepen spiritual practice."
+    "desc": "A respected religious leader shares timeless insights from Hindu philosophy, helping individuals strengthen their spiritual practice and embrace righteousness."
   },
   {
     "start": "16:00",
@@ -107,7 +107,7 @@
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Guruvandanam",
-    "desc": "An expert talks about the importance of a teacher and devotional songs are played."
+    "desc": "An expert talks about the importance of a teacher or a guru in one&apos;s life and devotional songs are played to honour them."
   },
   {
     "start": "16:30",
@@ -118,7 +118,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Ganapathi Swami Pravachanam",
-    "desc": "A religious leader gives a sermon and encourages followers to be spiritual."
+    "desc": "A religious leader delivers a discourse on the teachings of holy scriptures and encourages followers to take the path of spirituality."
   },
   {
     "start": "17:00",
@@ -129,17 +129,435 @@
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Vaddiparthi Gari Pravachanam",
-    "desc": "A religious leader sheds light on the teachings of the holy Hindu scriptures."
+    "desc": "A religious leader delivers a discourse on the teachings of the holy Hindu scriptures and encourages followers to embrace the path of spirituality."
   },
   {
     "start": "17:30",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "HinduDharmam.in",
     "channelId": "HinduDharmam.in",
     "channelName": "Hindu Dharmam",
     "startTs": 1775496600000,
-    "stopTs": 1775500200000,
+    "stopTs": 1775500199000,
     "title": "Commercial",
-    "desc": "The host promotes a range of products that can be bought from the comfort of one&apos;s home."
+    "desc": "The host shares information about a wide selection of products that can be purchased from the comfort of the consumer&apos;s home."
+  },
+  {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775500200000,
+    "stopTs": 1775502000000,
+    "title": "Dharmam Sandeham",
+    "desc": "The host holds enlightening conversations with religious leaders who shed light on various spiritual concepts and teachings."
+  },
+  {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775502000000,
+    "stopTs": 1775503800000,
+    "title": "Prathi Roju Geetha Slokam",
+    "desc": "A religious leader delivers a discourse on the important sacred verses from the Shrimad Bhagavad Gita and explains their meaning to the devotees."
+  },
+  {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775503800000,
+    "stopTs": 1775505600000,
+    "title": "Special Program",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "20:00",
+    "stop": "20:30",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775505600000,
+    "stopTs": 1775507400000,
+    "title": "Special Program",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "20:30",
+    "stop": "21:00",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775507400000,
+    "stopTs": 1775509200000,
+    "title": "Special Program",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "21:00",
+    "stop": "21:30",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775509200000,
+    "stopTs": 1775511000000,
+    "title": "Special Program",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "21:30",
+    "stop": "22:30",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775511000000,
+    "stopTs": 1775514600000,
+    "title": "Sri Lalitha Sahasranama Stotram",
+    "desc": "Professional singers perform a rendition of a devotional song, reciting the thousand names of Goddess Lalita, seeking her blessings."
+  },
+  {
+    "start": "22:30",
+    "stop": "22:35",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775514600000,
+    "stopTs": 1775514900000,
+    "title": "Ganapathi Stotram",
+    "desc": "Several devotees gather to chant the Ganpati Stotram, a devotional chant, in praise of Lord Ganesha and seek his blessings."
+  },
+  {
+    "start": "22:35",
+    "stop": "23:00",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775514900000,
+    "stopTs": 1775516400000,
+    "title": "Yadadri Suprabhatham",
+    "desc": "Hindu priests and devotees chant a comprehensive compilation of hymns in praise of Yadagiri Laxmi Narasimha Swamy to seek the blessings of the Almighty."
+  },
+  {
+    "start": "23:00",
+    "stop": "23:30",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775516400000,
+    "stopTs": 1775518200000,
+    "title": "KakadaHarathi",
+    "desc": "Religious leaders and devotees gather together to sing devotional hymns and perform sacred rituals in honour of Shirdi Sai Baba."
+  },
+  {
+    "start": "23:30",
+    "stop": "00:00",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775518200000,
+    "stopTs": 1775520000000,
+    "title": "Shri Venkateswara Suprabhatam",
+    "desc": "In veneration of Lord Venkateswara, devotees and priests listen to devotional songs and perform religious customs in order to seek his blessings."
+  },
+  {
+    "start": "00:00",
+    "stop": "00:30",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775520000000,
+    "stopTs": 1775521800000,
+    "title": "Sri Vishnu Sahasranama Stotram",
+    "desc": "Devotees recite the Sri Vishnu Sahasranama Stotram, in the name of Lord Vishnu to seek blessings and lead a better prosperous life.."
+  },
+  {
+    "start": "00:30",
+    "stop": "01:00",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775521800000,
+    "stopTs": 1775523600000,
+    "title": "Sri Rama Suprabhatham",
+    "desc": "An all-encompassing collection of sacred and soulful hymns that are composed and performed at dawn to celebrate and praise Lord Rama."
+  },
+  {
+    "start": "01:00",
+    "stop": "01:30",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775523600000,
+    "stopTs": 1775525400000,
+    "title": "Anjaneya Sahasranamam",
+    "desc": "A Sanskrit hymn listing the 1,000 names of Lord Hanuman is recited to appease the Hindu deity and seek his divine blessings."
+  },
+  {
+    "start": "01:30",
+    "stop": "02:30",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775525400000,
+    "stopTs": 1775529000000,
+    "title": "Hanuman Abhisekam",
+    "desc": "Hindu religious leaders and devotees participate in sacred rituals while chanting holy hymns to seek blessings from Lord Hanuman."
+  },
+  {
+    "start": "02:30",
+    "stop": "03:00",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775529000000,
+    "stopTs": 1775530800000,
+    "title": "Yadadri Abhishekam",
+    "desc": "Religious leaders and devotees chant sacred prayers and hymns while performing a ritual to seek blessings from the Almighty."
+  },
+  {
+    "start": "03:00",
+    "stop": "03:30",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775530800000,
+    "stopTs": 1775532600000,
+    "title": "Special Program",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "03:30",
+    "stop": "04:00",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775532600000,
+    "stopTs": 1775534400000,
+    "title": "Commercial",
+    "desc": "The host shares information about a wide selection of products that can be purchased from the comfort of the consumer&apos;s home."
+  },
+  {
+    "start": "04:00",
+    "stop": "04:30",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775534400000,
+    "stopTs": 1775536200000,
+    "title": "Chaganti gari pravachanam",
+    "desc": "A religious speaker delivers a discourse based on the sacred texts from the holy scriptures and imparts significant teachings to his followers."
+  },
+  {
+    "start": "04:30",
+    "stop": "05:30",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775536200000,
+    "stopTs": 1775539800000,
+    "title": "Commercial",
+    "desc": "The host shares information about a wide selection of products that can be purchased from the comfort of the consumer&apos;s home."
+  },
+  {
+    "start": "05:30",
+    "stop": "06:00",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775539800000,
+    "stopTs": 1775541600000,
+    "title": "Sampradayam",
+    "desc": "Srikar hails from a cultured family. When circumstances force him to move to the US, he continues to uphold his values and stays rooted to his traditions at all costs."
+  },
+  {
+    "start": "06:00",
+    "stop": "06:30",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775541600000,
+    "stopTs": 1775543400000,
+    "title": "Special Program",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "06:30",
+    "stop": "07:00",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775543400000,
+    "stopTs": 1775545200000,
+    "title": "Ganapathi Swami Pravachanam",
+    "desc": "A religious leader delivers a discourse on the teachings of holy scriptures and encourages followers to take the path of spirituality."
+  },
+  {
+    "start": "07:00",
+    "stop": "07:30",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775545200000,
+    "stopTs": 1775547000000,
+    "title": "Live From Thirumala",
+    "desc": "Religious leaders recite hymns and perform rituals in the praise of the Almighty as devotees offer their prayers at a temple in Tirumala, live."
+  },
+  {
+    "start": "07:30",
+    "stop": "08:00",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775547000000,
+    "stopTs": 1775548800000,
+    "title": "Samavedam Gari Pravachanam",
+    "desc": "A respected religious leader shares timeless insights from Hindu philosophy, helping individuals strengthen their spiritual practice and embrace righteousness."
+  },
+  {
+    "start": "08:00",
+    "stop": "08:30",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775548800000,
+    "stopTs": 1775550600000,
+    "title": "Vaddiparthi Gari Pravachanam",
+    "desc": "A religious leader delivers a discourse on the teachings of the holy Hindu scriptures and encourages followers to embrace the path of spirituality."
+  },
+  {
+    "start": "08:30",
+    "stop": "09:30",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775550600000,
+    "stopTs": 1775554200000,
+    "title": "Kalyana Prathirasthu",
+    "desc": "A numerologist offers several helpful measures and suggestions to couples facing marital problems and compatibility issues."
+  },
+  {
+    "start": "09:30",
+    "stop": "10:30",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775554200000,
+    "stopTs": 1775557800000,
+    "title": "Commercial",
+    "desc": "The host shares information about a wide selection of products that can be purchased from the comfort of the consumer&apos;s home."
+  },
+  {
+    "start": "10:30",
+    "stop": "11:00",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775557800000,
+    "stopTs": 1775559600000,
+    "title": "Hanuman Chalisa",
+    "desc": "Devotees come together to recite the Hanuman Chalisa, a Hindu hymn in praise of Lord Hanuman, as they seek his blessings."
+  },
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775559600000,
+    "stopTs": 1775561400000,
+    "title": "Commercial",
+    "desc": "The host shares information about a wide selection of products that can be purchased from the comfort of the consumer&apos;s home."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775561400000,
+    "stopTs": 1775565000000,
+    "title": "Commercial",
+    "desc": "The host shares information about a wide selection of products that can be purchased from the comfort of the consumer&apos;s home."
+  },
+  {
+    "start": "12:30",
+    "stop": "14:30",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775565000000,
+    "stopTs": 1775572200000,
+    "title": "Hanuman Abhisekam",
+    "desc": "Hindu religious leaders and devotees participate in sacred rituals while chanting holy hymns to seek blessings from Lord Hanuman."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775572200000,
+    "stopTs": 1775575800000,
+    "title": "Anjaneya Sahasranama Stotram",
+    "desc": "A devotional rendering of a hymn constituting one thousand exalted names of Lord Hanuman is played in order to invoke the spirit of strength."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775575800000,
+    "stopTs": 1775577600000,
+    "title": "Samavedam Gari Pravachanam",
+    "desc": "A respected religious leader shares timeless insights from Hindu philosophy, helping individuals strengthen their spiritual practice and embrace righteousness."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775577600000,
+    "stopTs": 1775579400000,
+    "title": "Guruvandanam",
+    "desc": "An expert talks about the importance of a teacher or a guru in one&apos;s life and devotional songs are played to honour them."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775579400000,
+    "stopTs": 1775581200000,
+    "title": "Ganapathi Swami Pravachanam",
+    "desc": "A religious leader delivers a discourse on the teachings of holy scriptures and encourages followers to take the path of spirituality."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775581200000,
+    "stopTs": 1775583000000,
+    "title": "Vaddiparthi Gari Pravachanam",
+    "desc": "A religious leader delivers a discourse on the teachings of the holy Hindu scriptures and encourages followers to embrace the path of spirituality."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:29",
+    "channel": "HinduDharmam.in",
+    "channelId": "HinduDharmam.in",
+    "channelName": "Hindu Dharmam",
+    "startTs": 1775583000000,
+    "stopTs": 1775586599000,
+    "title": "Commercial",
+    "desc": "The host shares information about a wide selection of products that can be purchased from the comfort of the consumer&apos;s home."
   }
 ]

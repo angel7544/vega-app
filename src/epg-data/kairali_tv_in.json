@@ -8,7 +8,7 @@
     "startTs": 1775471400000,
     "stopTs": 1775482200000,
     "title": "Surya&apos;s Saturday",
-    "desc": "A young man with anger issues who channels his anger on Saturdays, confronts a cop."
+    "desc": "Surya, a young man with anger issues, channels his emotions on Saturdays, because of a promise to his deceased mother. However, things get complicated when he decides to confront a corrupt cop."
   },
   {
     "start": "13:30",
@@ -19,17 +19,138 @@
     "startTs": 1775482200000,
     "stopTs": 1775493000000,
     "title": "Chess",
-    "desc": "A man murders his rich brother-in-law with the help of three men to amass his wealth."
+    "desc": "A man murders his rich brother-in-law with the help of three co-conspirators to amass his wealth. He also manages to discredit the deceased man&apos;s illegitimate son."
   },
   {
     "start": "16:30",
-    "stop": "19:00",
+    "stop": "18:29",
     "channel": "KairaliTV.in",
     "channelId": "KairaliTV.in",
     "channelName": "Kairali TV",
     "startTs": 1775493000000,
+    "stopTs": 1775500199000,
+    "title": "Kochi Rajavu",
+    "desc": "Unni and Ashwathy&apos;s life takes a turn after he accidentally kills her cousin in a tussle. After spending time in prison, he moves to Chennai with his family, hoping to start a fresh chapter, but his past catches up with him."
+  },
+  {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "KairaliTV.in",
+    "channelId": "KairaliTV.in",
+    "channelName": "Kairali TV",
+    "startTs": 1775500200000,
     "stopTs": 1775502000000,
     "title": "Kochi Rajavu",
-    "desc": "Tragedy strikes when Unni accidentally kills his lover&apos;s cousin, resulting in his imprisonment."
+    "desc": "Unni and Ashwathy&apos;s life takes a turn after he accidentally kills her cousin in a tussle. After spending time in prison, he moves to Chennai with his family, hoping to start a fresh chapter, but his past catches up with him."
+  },
+  {
+    "start": "19:00",
+    "stop": "21:00",
+    "channel": "KairaliTV.in",
+    "channelId": "KairaliTV.in",
+    "channelName": "Kairali TV",
+    "startTs": 1775502000000,
+    "stopTs": 1775509200000,
+    "title": "Ko",
+    "desc": "Ashwin, a photojournalist, supports his friend, Vasanthan, who is contesting in the upcoming elections. However, he is shocked when he realises that Vasanthan has connections with the Naxalites."
+  },
+  {
+    "start": "21:00",
+    "stop": "23:00",
+    "channel": "KairaliTV.in",
+    "channelId": "KairaliTV.in",
+    "channelName": "Kairali TV",
+    "startTs": 1775509200000,
+    "stopTs": 1775516400000,
+    "title": "Arrambam",
+    "desc": "Ashok, a former member of the ATS, along with Arjun, a computer hacker, and his girlfriend Anitha, tries to unveil a scam involving the bulletproof jackets provided to police officers."
+  },
+  {
+    "start": "23:00",
+    "stop": "23:30",
+    "channel": "KairaliTV.in",
+    "channelId": "KairaliTV.in",
+    "channelName": "Kairali TV",
+    "startTs": 1775516400000,
+    "stopTs": 1775518200000,
+    "title": "Doctor&apos;s Talk",
+    "desc": "Dr.Eeppan, the host, interacts and discusses about various health problems with guest doctors and gives remedial tips for the viewers."
+  },
+  {
+    "start": "23:30",
+    "stop": "02:00",
+    "channel": "KairaliTV.in",
+    "channelId": "KairaliTV.in",
+    "channelName": "Kairali TV",
+    "startTs": 1775518200000,
+    "stopTs": 1775527200000,
+    "title": "Arjun S/O Vyjayanthi",
+    "desc": "Arjun, a gangster, learns that a terrorist wants to take revenge from his mother, who is an IPS officer. In order to protect her, he strives to overcome all the odds."
+  },
+  {
+    "start": "02:00",
+    "stop": "04:30",
+    "channel": "KairaliTV.in",
+    "channelId": "KairaliTV.in",
+    "channelName": "Kairali TV",
+    "startTs": 1775527200000,
+    "stopTs": 1775536200000,
+    "title": "Maari 2",
+    "desc": "Maariyappan, a gangster, is confronted by Gangadhar Beeja, a rival. While he strives to defeat him, he attempts to cope with his son&apos;s questionable behaviour."
+  },
+  {
+    "start": "04:30",
+    "stop": "07:30",
+    "channel": "KairaliTV.in",
+    "channelId": "KairaliTV.in",
+    "channelName": "Kairali TV",
+    "startTs": 1775536200000,
+    "stopTs": 1775547000000,
+    "title": "Kuruvi",
+    "desc": "Vitrivel becomes caught in a web of crime and violence when he tracks down a man who holds his father as bonded labour along with many innocent people."
+  },
+  {
+    "start": "07:30",
+    "stop": "10:30",
+    "channel": "KairaliTV.in",
+    "channelId": "KairaliTV.in",
+    "channelName": "Kairali TV",
+    "startTs": 1775547000000,
+    "stopTs": 1775557800000,
+    "title": "Pon Manickavel",
+    "desc": "Pon Manickavel, IPS officer, is given the task to solve the case of a judge&apos;s murder. While his team attempts to crack the crime, the lives of high-profile persons are threatened."
+  },
+  {
+    "start": "10:30",
+    "stop": "13:30",
+    "channel": "KairaliTV.in",
+    "channelId": "KairaliTV.in",
+    "channelName": "Kairali TV",
+    "startTs": 1775557800000,
+    "stopTs": 1775568600000,
+    "title": "Kalinga",
+    "desc": "A nonchalant man defies all rules and crosses his village&apos;s boundary. As he tries to obtain the treasure hidden in the Kingdom of Kalinga, he encounters eerie occurrences."
+  },
+  {
+    "start": "13:30",
+    "stop": "16:30",
+    "channel": "KairaliTV.in",
+    "channelId": "KairaliTV.in",
+    "channelName": "Kairali TV",
+    "startTs": 1775568600000,
+    "stopTs": 1775579400000,
+    "title": "Chakra",
+    "desc": "A carefully planned mass robbery causes a police officer and a soldier to team up with each other and carry out an investigation, which reveals a vast syndicate of cybercriminals."
+  },
+  {
+    "start": "16:30",
+    "stop": "18:29",
+    "channel": "KairaliTV.in",
+    "channelId": "KairaliTV.in",
+    "channelName": "Kairali TV",
+    "startTs": 1775579400000,
+    "stopTs": 1775586599000,
+    "title": "HIT: The Third Case",
+    "desc": "The Homicide Intervention Team dispatches relentless officer Arjun Sarkar to track down a band of murderers and put an end to their gruesome killing spree."
   }
 ]

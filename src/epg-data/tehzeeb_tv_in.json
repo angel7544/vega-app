@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "TehzeebTV.in",
-    "channelId": "TehzeebTV.in",
-    "channelName": "Tehzeeb TV",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Deen aur Khwateen",
-    "desc": "A religious expert discusses the role, rights and challenges of Muslim women in Islam, delving into the teachings of the Quran."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "TehzeebTV.in",

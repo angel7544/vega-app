@@ -8,7 +8,7 @@
     "startTs": 1775473200000,
     "stopTs": 1775482200000,
     "title": "Manaivi Vantha Neram",
-    "desc": "Fate puts a woman&apos;s resilience to the test when she unwittingly marries a gambler."
+    "desc": "A woman spends her childhood in misery because of her father&apos;s gambling habit. Fate puts her resilience to the test again when she unwittingly marries a gambler."
   },
   {
     "start": "13:30",
@@ -30,17 +30,160 @@
     "startTs": 1775484000000,
     "stopTs": 1775494800000,
     "title": "En Kadhali Scene Podura",
-    "desc": "A man is forced to sacrifice his love and take the law in his own hands."
+    "desc": "A happy-go-lucky man falls in love with a woman and manages to win her heart. However, circumstances force him to take the law in his own hands and sacrifice his relationship."
   },
   {
     "start": "17:00",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "RajDigitalPlus.in",
     "channelId": "RajDigitalPlus.in",
     "channelName": "Raj Digital Plus",
     "startTs": 1775494800000,
-    "stopTs": 1775500200000,
+    "stopTs": 1775500199000,
     "title": "Ezhai Jaadhi",
-    "desc": "A young man plans to expose a wicked politician who deceives his voters."
+    "desc": "A young man from an influential family learns about an MLA&apos;s cunning plan to deceive the electorate and secure their votes. Eventually, he decides to enlighten the voters and expose the politician."
+  },
+  {
+    "start": "18:30",
+    "stop": "00:00",
+    "channel": "RajDigitalPlus.in",
+    "channelId": "RajDigitalPlus.in",
+    "channelName": "Raj Digital Plus",
+    "startTs": 1775500200000,
+    "stopTs": 1775520000000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "00:00",
+    "stop": "00:30",
+    "channel": "RajDigitalPlus.in",
+    "channelId": "RajDigitalPlus.in",
+    "channelName": "Raj Digital Plus",
+    "startTs": 1775520000000,
+    "stopTs": 1775521800000,
+    "title": "Alaya Dharsinam",
+    "desc": "The host visits different temples across the country and sheds light on the cultural and historical significance of the monument."
+  },
+  {
+    "start": "00:30",
+    "stop": "01:00",
+    "channel": "RajDigitalPlus.in",
+    "channelId": "RajDigitalPlus.in",
+    "channelName": "Raj Digital Plus",
+    "startTs": 1775521800000,
+    "stopTs": 1775523600000,
+    "title": "Raj News",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "01:00",
+    "stop": "01:30",
+    "channel": "RajDigitalPlus.in",
+    "channelId": "RajDigitalPlus.in",
+    "channelName": "Raj Digital Plus",
+    "startTs": 1775523600000,
+    "stopTs": 1775525400000,
+    "title": "Manathai Varudiya Paadalgal",
+    "desc": "A comprehensive compilation of some of the most popular songs from different genres composed by renowned musicians from the industry."
+  },
+  {
+    "start": "01:30",
+    "stop": "04:00",
+    "channel": "RajDigitalPlus.in",
+    "channelId": "RajDigitalPlus.in",
+    "channelName": "Raj Digital Plus",
+    "startTs": 1775525400000,
+    "stopTs": 1775534400000,
+    "title": "Baghdad Perazhagi",
+    "desc": "A royal prince returns home and learns that his mother and sister have gone missing while his father is in a relationship with a dancer. Eventually, he takes it upon himself to reunite his family."
+  },
+  {
+    "start": "04:00",
+    "stop": "04:30",
+    "channel": "RajDigitalPlus.in",
+    "channelId": "RajDigitalPlus.in",
+    "channelName": "Raj Digital Plus",
+    "startTs": 1775534400000,
+    "stopTs": 1775536200000,
+    "title": "Slot",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "04:30",
+    "stop": "07:30",
+    "channel": "RajDigitalPlus.in",
+    "channelId": "RajDigitalPlus.in",
+    "channelName": "Raj Digital Plus",
+    "startTs": 1775536200000,
+    "stopTs": 1775547000000,
+    "title": "Dummy Tappasu",
+    "desc": "An overweight man who lives in the slums of Chennai, goes through a series of drastic changes that completely alter his perception of life."
+  },
+  {
+    "start": "07:30",
+    "stop": "08:00",
+    "channel": "RajDigitalPlus.in",
+    "channelId": "RajDigitalPlus.in",
+    "channelName": "Raj Digital Plus",
+    "startTs": 1775547000000,
+    "stopTs": 1775548800000,
+    "title": "Slot",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "08:00",
+    "stop": "11:00",
+    "channel": "RajDigitalPlus.in",
+    "channelId": "RajDigitalPlus.in",
+    "channelName": "Raj Digital Plus",
+    "startTs": 1775548800000,
+    "stopTs": 1775559600000,
+    "title": "Avan Ivan",
+    "desc": "A benevolent landlord embraces two half-brothers as his chosen family, nurturing their dreams, but their lives take a perilous turn when they cross paths with a notorious cattle smuggler."
+  },
+  {
+    "start": "11:00",
+    "stop": "13:30",
+    "channel": "RajDigitalPlus.in",
+    "channelId": "RajDigitalPlus.in",
+    "channelName": "Raj Digital Plus",
+    "startTs": 1775559600000,
+    "stopTs": 1775568600000,
+    "title": "Kadhal Vannile",
+    "desc": "Ravi and Rakhi are friends with conflicting views on love. However, their worst nightmare comes to life when their siblings fall in love with each other."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "RajDigitalPlus.in",
+    "channelId": "RajDigitalPlus.in",
+    "channelName": "Raj Digital Plus",
+    "startTs": 1775568600000,
+    "stopTs": 1775570400000,
+    "title": "Slot",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "14:00",
+    "stop": "17:00",
+    "channel": "RajDigitalPlus.in",
+    "channelId": "RajDigitalPlus.in",
+    "channelName": "Raj Digital Plus",
+    "startTs": 1775570400000,
+    "stopTs": 1775581200000,
+    "title": "Ponmanai Thedi",
+    "desc": "A layabout man falls for his educated cousin, unaware that she is about to marry someone else. His misunderstanding leads to total chaos."
+  },
+  {
+    "start": "17:00",
+    "stop": "18:29",
+    "channel": "RajDigitalPlus.in",
+    "channelId": "RajDigitalPlus.in",
+    "channelName": "Raj Digital Plus",
+    "startTs": 1775581200000,
+    "stopTs": 1775586599000,
+    "title": "Kizhakku Africavil Sheela",
+    "desc": "An affluent couple ventures into a forest to serve the tribal groups. However, when they unfortunately die, their infant daughter Sheela is left behind and gets nurtured among the wilderness."
   }
 ]

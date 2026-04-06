@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:00",
-    "stop": "11:00",
-    "channel": "SriSankara.in",
-    "channelId": "SriSankara.in",
-    "channelName": "Sri Sankara",
-    "startTs": 1775469600000,
-    "stopTs": 1775473200000,
-    "title": "Teum",
-    "desc": "Talented participants deliver enthralling speeches on various relevant matters concerning ancient history, mythology and traditional heritage."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "SriSankara.in",

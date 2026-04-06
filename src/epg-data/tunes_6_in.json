@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "Tunes6.in",
-    "channelId": "Tunes6.in",
-    "channelName": "Tunes 6",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Super 6 Songs",
-    "desc": "A comprehensive compilation of the six most popular songs sung and composed by well-known musicians is played back-to-back."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "Tunes6.in",

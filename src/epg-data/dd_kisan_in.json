@@ -8,7 +8,7 @@
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Apna Pashuchikistak",
-    "desc": "A subject matter experts delivers an explanation on animal health and care."
+    "desc": "A subject matter experts delivers a detailed explanation on various concepts in animal health and care in an easy-to-understand manner."
   },
   {
     "start": "11:30",
@@ -19,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Mandi Khabar",
-    "desc": "The host discusses the rates of various commodities in different markets."
+    "desc": "The host provides an update on the latest agriculture-related news and discusses the rates of various commodities in different markets."
   },
   {
     "start": "12:00",
@@ -30,7 +30,7 @@
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Kisan Samachar",
-    "desc": "The host talks about the latest agricultural technology, innovations and facilities."
+    "desc": "The host gives insights into the latest agricultural technology, innovations and facilities, and the methods to cultivate a good produce."
   },
   {
     "start": "12:30",
@@ -41,7 +41,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775482200000,
     "title": "Hello Kisan",
-    "desc": "The host entertains phone calls from viewers who seek solutions from agricultural experts."
+    "desc": "The host entertains phone calls from viewers who ask questions and seek solutions from agricultural experts on various issues related to farming and animal husbandry."
   },
   {
     "start": "13:30",
@@ -52,7 +52,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Krishi Darshan",
-    "desc": "The host provides a detailed report pertaining to the field of agriculture from across the nation."
+    "desc": "The host sheds light on important updates surrounding agriculture from across the nation whilst providing key inputs that can be of help to farmers."
   },
   {
     "start": "14:00",
@@ -63,7 +63,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Mausam Khabar Live",
-    "desc": "The host sheds light on the weather forecast for various regions across the country, live."
+    "desc": "The host presents a comprehensive weather report and provides the latest forecast for various regions across the country, live."
   },
   {
     "start": "14:30",
@@ -74,7 +74,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775486100000,
     "title": "DD Kisan Ai Break",
-    "desc": "Artificial Intelligence anchors provide updates pertaining to the agricultural sector."
+    "desc": "Artificial Intelligence anchors provide updates on the weather and government schemes and other such matters relating to the agricultural sector of the country."
   },
   {
     "start": "14:35",
@@ -85,7 +85,7 @@
     "startTs": 1775486100000,
     "stopTs": 1775487600000,
     "title": "Safal Kisan",
-    "desc": "Farmers share their success stories and mention how they tackle agricultural problems."
+    "desc": "Farmers share their success stories and shed light on how they manage to tackle various agricultural problems to ensure bumper crops."
   },
   {
     "start": "15:00",
@@ -96,7 +96,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Hamari Pakshala",
-    "desc": "."
+    "desc": "Hamari Pakshala"
   },
   {
     "start": "15:30",
@@ -107,7 +107,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Gaon Se",
-    "desc": "The host travels across the villages in rural India to discover many unknown stories."
+    "desc": "The host travels across the villages in rural India to discover many unknown stories and learn about various cultures and traditions."
   },
   {
     "start": "16:00",
@@ -129,7 +129,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Mausam Khabar Live",
-    "desc": "The host sheds light on the weather forecast for various regions across the country, live."
+    "desc": "The host presents a comprehensive weather report and provides the latest forecast for various regions across the country, live."
   },
   {
     "start": "17:00",
@@ -140,17 +140,512 @@
     "startTs": 1775494800000,
     "stopTs": 1775498400000,
     "title": "Hello Kisan",
-    "desc": "The host entertains phone calls from viewers who seek solutions from agricultural experts."
+    "desc": "The host entertains phone calls from viewers who ask questions and seek solutions from agricultural experts on various issues related to farming and animal husbandry."
   },
   {
     "start": "18:00",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "DDKisan.in",
     "channelId": "DDKisan.in",
     "channelName": "DD Kisan",
     "startTs": 1775498400000,
-    "stopTs": 1775500200000,
+    "stopTs": 1775500199000,
     "title": "Kisan Krishi Aushdhiyein Paudhe",
-    "desc": "The hosts explore ancient Indian medicines and traditional cultivation methods."
+    "desc": "The hosts explore ancient Indian medicines, their sacred origins and traditional cultivation methods, highlighting their spiritual significance and role in holistic healing practices."
+  },
+  {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775500200000,
+    "stopTs": 1775502000000,
+    "title": "Nayi Soch",
+    "desc": "Nayi Soch"
+  },
+  {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775502000000,
+    "stopTs": 1775503800000,
+    "title": "Gaon Se",
+    "desc": "The host travels across the villages in rural India to discover many unknown stories and learn about various cultures and traditions."
+  },
+  {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775503800000,
+    "stopTs": 1775505600000,
+    "title": "Hamari Pakshala",
+    "desc": "Hamari Pakshala"
+  },
+  {
+    "start": "20:00",
+    "stop": "20:30",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775505600000,
+    "stopTs": 1775507400000,
+    "title": "Batwara",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "20:30",
+    "stop": "21:00",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775507400000,
+    "stopTs": 1775509200000,
+    "title": "Krishi Startup",
+    "desc": "The host presents an overview of startups that focus on the latest techniques and innovation in farming, and focuses on the government policies and success stories of farmers in India."
+  },
+  {
+    "start": "21:00",
+    "stop": "21:30",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775509200000,
+    "stopTs": 1775511000000,
+    "title": "Safal Kisan",
+    "desc": "Farmers share their success stories and shed light on how they manage to tackle various agricultural problems to ensure bumper crops."
+  },
+  {
+    "start": "21:30",
+    "stop": "22:00",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775511000000,
+    "stopTs": 1775512800000,
+    "title": "Bemisal Betiya",
+    "desc": "The host sheds light on the work of various women who excelled in their fields against all odds and proved that hard work can accomplish any goal."
+  },
+  {
+    "start": "22:00",
+    "stop": "22:30",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775512800000,
+    "stopTs": 1775514600000,
+    "title": "Daman Mittika",
+    "desc": "Daman Mittika"
+  },
+  {
+    "start": "22:30",
+    "stop": "23:00",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775514600000,
+    "stopTs": 1775516400000,
+    "title": "The Agro Factory",
+    "desc": "Subject-matter experts in the field of farming and agriculture shed light on the various ways they optimise their agricultural produce."
+  },
+  {
+    "start": "23:00",
+    "stop": "23:30",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775516400000,
+    "stopTs": 1775518200000,
+    "title": "Nayi Soch",
+    "desc": "Nayi Soch"
+  },
+  {
+    "start": "23:30",
+    "stop": "00:00",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775518200000,
+    "stopTs": 1775520000000,
+    "title": "Gaon Se",
+    "desc": "The host travels across the villages in rural India to discover many unknown stories and learn about various cultures and traditions."
+  },
+  {
+    "start": "00:00",
+    "stop": "00:30",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775520000000,
+    "stopTs": 1775521800000,
+    "title": "Hamari Pakshala",
+    "desc": "Hamari Pakshala"
+  },
+  {
+    "start": "00:30",
+    "stop": "01:00",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775521800000,
+    "stopTs": 1775523600000,
+    "title": "Pehli Kiran",
+    "desc": "Individuals from different walks of life come across several challenging situations in life, but they manage to find a way out."
+  },
+  {
+    "start": "01:00",
+    "stop": "01:30",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775523600000,
+    "stopTs": 1775525400000,
+    "title": "Safal Kisan",
+    "desc": "Farmers share their success stories and shed light on how they manage to tackle various agricultural problems to ensure bumper crops."
+  },
+  {
+    "start": "01:30",
+    "stop": "02:00",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775525400000,
+    "stopTs": 1775527200000,
+    "title": "Krishi Vishesh",
+    "desc": "The host discusses the latest and the most relevant updates from the field of agriculture and analyses them to shed more light on them."
+  },
+  {
+    "start": "02:00",
+    "stop": "02:30",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775527200000,
+    "stopTs": 1775529000000,
+    "title": "Mausam Khabar",
+    "desc": "The host presents the latest news and updates regarding the weather in India and around the world and makes predictions about the possible changes in the climate."
+  },
+  {
+    "start": "02:30",
+    "stop": "03:00",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775529000000,
+    "stopTs": 1775530800000,
+    "title": "Mandi Khabar",
+    "desc": "The host provides an update on the latest agriculture-related news and discusses the rates of various commodities in different markets."
+  },
+  {
+    "start": "03:00",
+    "stop": "03:30",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775530800000,
+    "stopTs": 1775532600000,
+    "title": "Krishi Darshan",
+    "desc": "The host sheds light on important updates surrounding agriculture from across the nation whilst providing key inputs that can be of help to farmers."
+  },
+  {
+    "start": "03:30",
+    "stop": "04:00",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775532600000,
+    "stopTs": 1775534400000,
+    "title": "Chaupal Charcha",
+    "desc": "The host sheds light on the various schemes pertaining to sanitation, loan sanction policies and electrification that are available for farmers in the rural areas."
+  },
+  {
+    "start": "04:00",
+    "stop": "04:30",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775534400000,
+    "stopTs": 1775536200000,
+    "title": "Yeh Hai Mera India",
+    "desc": "The host travels to different locations in India and explores its rich heritage, cultural diversity, various art forms and agricultural practices."
+  },
+  {
+    "start": "04:30",
+    "stop": "05:00",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775536200000,
+    "stopTs": 1775538000000,
+    "title": "Mausam Khabar",
+    "desc": "The host presents the latest news and updates regarding the weather in India and around the world and makes predictions about the possible changes in the climate."
+  },
+  {
+    "start": "05:00",
+    "stop": "05:30",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775538000000,
+    "stopTs": 1775539800000,
+    "title": "Bhadhte Kadam",
+    "desc": "The filmmaker captures north-east India&apos;s crucial role in agriculture, showcasing a perfect harmony of nature and cultivation."
+  },
+  {
+    "start": "05:30",
+    "stop": "06:30",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775539800000,
+    "stopTs": 1775543400000,
+    "title": "Hello Kisan",
+    "desc": "The host entertains phone calls from viewers who ask questions and seek solutions from agricultural experts on various issues related to farming and animal husbandry."
+  },
+  {
+    "start": "06:30",
+    "stop": "07:00",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775543400000,
+    "stopTs": 1775545200000,
+    "title": "Jai Kisan Jai Vigyan",
+    "desc": "The host presents a comprehensive report on the latest techniques and innovation in farming, and focuses on the government policies and success stories of farmers in India."
+  },
+  {
+    "start": "07:00",
+    "stop": "07:30",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775545200000,
+    "stopTs": 1775547000000,
+    "title": "Pehli Kiran",
+    "desc": "Individuals from different walks of life come across several challenging situations in life, but they manage to find a way out."
+  },
+  {
+    "start": "07:30",
+    "stop": "08:00",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775547000000,
+    "stopTs": 1775548800000,
+    "title": "Swad Sehat Aur India",
+    "desc": "The host expounds upon the various agricultural crops grown in India as well as the health benefits, traditions and festivals associated with them."
+  },
+  {
+    "start": "08:00",
+    "stop": "08:30",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775548800000,
+    "stopTs": 1775550600000,
+    "title": "Kisan Samachar",
+    "desc": "The host gives insights into the latest agricultural technology, innovations and facilities, and the methods to cultivate a good produce."
+  },
+  {
+    "start": "08:30",
+    "stop": "09:00",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775550600000,
+    "stopTs": 1775552400000,
+    "title": "Gramin Shodhshalayein",
+    "desc": "The host uncovers how rural farmers pioneer advanced research methods, transforming traditional agriculture into a high-tech, sustainable industry."
+  },
+  {
+    "start": "09:00",
+    "stop": "09:30",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775552400000,
+    "stopTs": 1775554200000,
+    "title": "Mahila Swawlamban",
+    "desc": "The host sheds light on the various schemes pertaining to sanitation, loan sanction policies and electrification that are available to make women self-reliant."
+  },
+  {
+    "start": "09:30",
+    "stop": "10:00",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775554200000,
+    "stopTs": 1775556000000,
+    "title": "Kisan Yatra",
+    "desc": "The host sheds light on the latest updates and significant developments concerning the agriculture sector of the country."
+  },
+  {
+    "start": "10:00",
+    "stop": "10:30",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775556000000,
+    "stopTs": 1775557800000,
+    "title": "The Agro Factory",
+    "desc": "Subject-matter experts in the field of farming and agriculture shed light on the various ways they optimise their agricultural produce."
+  },
+  {
+    "start": "10:30",
+    "stop": "11:00",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775557800000,
+    "stopTs": 1775559600000,
+    "title": "Krishi Vishesh",
+    "desc": "The host discusses the latest and the most relevant updates from the field of agriculture and analyses them to shed more light on them."
+  },
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775559600000,
+    "stopTs": 1775561400000,
+    "title": "Krishi Shiksha Aur Anusandhan",
+    "desc": "The host presents the latest updates from the agriculture sector and provides details of the farming technologies being developed and implemented in the country."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775561400000,
+    "stopTs": 1775563200000,
+    "title": "Mandi Khabar",
+    "desc": "The host provides an update on the latest agriculture-related news and discusses the rates of various commodities in different markets."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775563200000,
+    "stopTs": 1775565000000,
+    "title": "Kisan Samachar",
+    "desc": "The host gives insights into the latest agricultural technology, innovations and facilities, and the methods to cultivate a good produce."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775565000000,
+    "stopTs": 1775568600000,
+    "title": "Sach Ka Sath",
+    "desc": "The host sheds light on the latest and recent developments of the country and discusses and analyses the topics with experts."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775568600000,
+    "stopTs": 1775570400000,
+    "title": "Krishi Darshan",
+    "desc": "The host sheds light on important updates surrounding agriculture from across the nation whilst providing key inputs that can be of help to farmers."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:35",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775570400000,
+    "stopTs": 1775572500000,
+    "title": "Mausam Khabar",
+    "desc": "The host presents the latest news and updates regarding the weather in India and around the world and makes predictions about the possible changes in the climate."
+  },
+  {
+    "start": "14:35",
+    "stop": "15:00",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775572500000,
+    "stopTs": 1775574000000,
+    "title": "Safal Kisan",
+    "desc": "Farmers share their success stories and shed light on how they manage to tackle various agricultural problems to ensure bumper crops."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775574000000,
+    "stopTs": 1775575800000,
+    "title": "Mandi Khabar",
+    "desc": "The host provides an update on the latest agriculture-related news and discusses the rates of various commodities in different markets."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775575800000,
+    "stopTs": 1775577600000,
+    "title": "Mausam Khabar",
+    "desc": "The host presents the latest news and updates regarding the weather in India and around the world and makes predictions about the possible changes in the climate."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775577600000,
+    "stopTs": 1775579400000,
+    "title": "Kisan Yatra",
+    "desc": "The host sheds light on the latest updates and significant developments concerning the agriculture sector of the country."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775579400000,
+    "stopTs": 1775581200000,
+    "title": "Mausam Khabar",
+    "desc": "The host presents the latest news and updates regarding the weather in India and around the world and makes predictions about the possible changes in the climate."
+  },
+  {
+    "start": "17:00",
+    "stop": "18:00",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775581200000,
+    "stopTs": 1775584800000,
+    "title": "Hello Kisan",
+    "desc": "The host entertains phone calls from viewers who ask questions and seek solutions from agricultural experts on various issues related to farming and animal husbandry."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:29",
+    "channel": "DDKisan.in",
+    "channelId": "DDKisan.in",
+    "channelName": "DD Kisan",
+    "startTs": 1775584800000,
+    "stopTs": 1775586599000,
+    "title": "Gramin Shodhshalayein",
+    "desc": "The host uncovers how rural farmers pioneer advanced research methods, transforming traditional agriculture into a high-tech, sustainable industry."
   }
 ]

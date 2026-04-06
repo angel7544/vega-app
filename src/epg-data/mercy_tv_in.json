@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "MercyTV.in",
-    "channelId": "MercyTV.in",
-    "channelName": "Mercy TV",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Tarjama E Quran",
-    "desc": "A religious scholar reads the Holy Quran, the central religious text of Islam, and explains its verses and lessons in detail."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "MercyTV.in",

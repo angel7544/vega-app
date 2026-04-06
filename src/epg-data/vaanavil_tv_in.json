@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "VaanavilTV.in",
-    "channelId": "VaanavilTV.in",
-    "channelName": "Vaanavil TV",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Fresh Hits",
-    "desc": "A comprehensive compilation of the latest songs which are performed by various musicians and singers is played back-to-back."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "VaanavilTV.in",

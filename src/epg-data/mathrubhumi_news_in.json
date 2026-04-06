@@ -8,7 +8,7 @@
     "startTs": 1775473200000,
     "stopTs": 1775475000000,
     "title": "Good Evening Keralam",
-    "desc": "The host sheds light on the latest news updates from across Kerala."
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across Kerala."
   },
   {
     "start": "11:30",
@@ -19,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775476800000,
     "title": "Good Evening Keralam",
-    "desc": "The host sheds light on the latest news updates from across Kerala."
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across Kerala."
   },
   {
     "start": "12:00",
@@ -30,7 +30,7 @@
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Good Evening Keralam",
-    "desc": "The host sheds light on the latest news updates from across Kerala."
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across Kerala."
   },
   {
     "start": "12:30",
@@ -41,7 +41,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Varthakal Ithu Vare",
-    "desc": "The host presents the latest national and global news on a variety of topics."
+    "desc": "The host provides an insight into the latest news, current affairs and developments on a variety of topics from around the country and the world."
   },
   {
     "start": "13:00",
@@ -52,7 +52,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Pradheshika Varthakal",
-    "desc": "The host presents the latest news updates from the Indian state of Kerala."
+    "desc": "The host collates and presents the latest news and updates pertaining to the social, economic and political issues from the Indian state of Kerala."
   },
   {
     "start": "13:30",
@@ -63,7 +63,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "News Angle",
-    "desc": "The host presents a detailed report of various news and developments."
+    "desc": "The host presents an in-depth analysis of news and developments from various sectors, along with highlighting matters of national importance."
   },
   {
     "start": "14:00",
@@ -74,7 +74,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775487600000,
     "title": "Super Prime Time",
-    "desc": "The host sheds light on the latest updates and developments from across the world."
+    "desc": "The host sheds light on the latest socio-economic, political as well as sports updates and developments from across the world."
   },
   {
     "start": "15:00",
@@ -85,7 +85,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Mathrubhumi News",
-    "desc": "The host presents a detailed report of various news and developments."
+    "desc": "The host presents an in-depth analysis of news and developments from various sectors, along with highlighting matters of national importance."
   },
   {
     "start": "15:30",
@@ -96,7 +96,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Mathrubhumi News",
-    "desc": "The host presents a detailed report of various news and developments."
+    "desc": "The host presents an in-depth analysis of news and developments from various sectors, along with highlighting matters of national importance."
   },
   {
     "start": "16:00",
@@ -107,7 +107,7 @@
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Thalsamayam Reporter",
-    "desc": "The host presents a detailed report of various developments from across the state."
+    "desc": "The host presents an in-depth analysis of various social and economic issues that affect the society, shedding light on important developments from across the state."
   },
   {
     "start": "16:30",
@@ -118,7 +118,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Varthakal Ithu Vare",
-    "desc": "The host presents the latest national and global news on a variety of topics."
+    "desc": "The host provides an insight into the latest news, current affairs and developments on a variety of topics from around the country and the world."
   },
   {
     "start": "17:00",
@@ -129,7 +129,7 @@
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Crime File",
-    "desc": "The host presents a report on various instances of crime happening across the region."
+    "desc": "The host presents a comprehensive and detailed report, elucidating on various instances of crime happening across the region."
   },
   {
     "start": "17:30",
@@ -140,17 +140,446 @@
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Mathrubhumi News",
-    "desc": "The host presents a detailed report of various news and developments."
+    "desc": "The host presents an in-depth analysis of news and developments from various sectors, along with highlighting matters of national importance."
   },
   {
     "start": "18:00",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "MathrubhumiNews.in",
     "channelId": "MathrubhumiNews.in",
     "channelName": "Mathrubhumi News",
     "startTs": 1775498400000,
-    "stopTs": 1775500200000,
+    "stopTs": 1775500199000,
     "title": "Gulf Time",
-    "desc": "The host presents the latest news and updates from countries in the Middle East."
+    "desc": "The host presents the latest news and updates regarding politics, current affairs and socioeconomic developments from countries in the Middle East."
+  },
+  {
+    "start": "18:30",
+    "stop": "19:30",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775500200000,
+    "stopTs": 1775503800000,
+    "title": "Super Prime Time",
+    "desc": "The host sheds light on the latest socio-economic, political as well as sports updates and developments from across the world."
+  },
+  {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775503800000,
+    "stopTs": 1775505600000,
+    "title": "Mathrubhumi News",
+    "desc": "The host presents an in-depth analysis of news and developments from various sectors, along with highlighting matters of national importance."
+  },
+  {
+    "start": "20:00",
+    "stop": "20:30",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775505600000,
+    "stopTs": 1775507400000,
+    "title": "Vakradristi",
+    "desc": "The host presents an in-depth analysis of news and developments from various sectors, along with highlighting matters of national importance."
+  },
+  {
+    "start": "20:30",
+    "stop": "21:00",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775507400000,
+    "stopTs": 1775509200000,
+    "title": "Mathrubhumi News",
+    "desc": "The host presents an in-depth analysis of news and developments from various sectors, along with highlighting matters of national importance."
+  },
+  {
+    "start": "21:00",
+    "stop": "21:30",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775509200000,
+    "stopTs": 1775511000000,
+    "title": "Varthakal Ithu Vare",
+    "desc": "The host provides an insight into the latest news, current affairs and developments on a variety of topics from around the country and the world."
+  },
+  {
+    "start": "21:30",
+    "stop": "22:00",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775511000000,
+    "stopTs": 1775512800000,
+    "title": "Crime File",
+    "desc": "The host presents a comprehensive and detailed report, elucidating on various instances of crime happening across the region."
+  },
+  {
+    "start": "22:00",
+    "stop": "22:30",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775512800000,
+    "stopTs": 1775514600000,
+    "title": "Gulf Time",
+    "desc": "The host presents the latest news and updates regarding politics, current affairs and socioeconomic developments from countries in the Middle East."
+  },
+  {
+    "start": "22:30",
+    "stop": "23:00",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775514600000,
+    "stopTs": 1775516400000,
+    "title": "Mathrubhumi News",
+    "desc": "The host presents an in-depth analysis of news and developments from various sectors, along with highlighting matters of national importance."
+  },
+  {
+    "start": "23:00",
+    "stop": "23:30",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775516400000,
+    "stopTs": 1775518200000,
+    "title": "Mathrubhumi News",
+    "desc": "The host presents an in-depth analysis of news and developments from various sectors, along with highlighting matters of national importance."
+  },
+  {
+    "start": "23:30",
+    "stop": "00:00",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775518200000,
+    "stopTs": 1775520000000,
+    "title": "Mathrubhumi News",
+    "desc": "The host presents an in-depth analysis of news and developments from various sectors, along with highlighting matters of national importance."
+  },
+  {
+    "start": "00:00",
+    "stop": "00:30",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775520000000,
+    "stopTs": 1775521800000,
+    "title": "Chakkara Pandal",
+    "desc": "The host engages in conversation with eminent personalities, along with featuring snippets from famous movies and songs."
+  },
+  {
+    "start": "00:30",
+    "stop": "01:00",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775521800000,
+    "stopTs": 1775523600000,
+    "title": "Mathrubhumi News",
+    "desc": "The host presents an in-depth analysis of news and developments from various sectors, along with highlighting matters of national importance."
+  },
+  {
+    "start": "01:00",
+    "stop": "01:30",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775523600000,
+    "stopTs": 1775525400000,
+    "title": "Thalsamayam Reporter",
+    "desc": "The host presents an in-depth analysis of various social and economic issues that affect the society, shedding light on important developments from across the state."
+  },
+  {
+    "start": "01:30",
+    "stop": "04:00",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775525400000,
+    "stopTs": 1775534400000,
+    "title": "Wake Up Kerala",
+    "desc": "The host invites several people to discuss the latest updates from the world of entertainment as well as the lives and achievements of famous personalities."
+  },
+  {
+    "start": "04:00",
+    "stop": "04:30",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775534400000,
+    "stopTs": 1775536200000,
+    "title": "Wake Up Kerala",
+    "desc": "The host invites several people to discuss the latest updates from the world of entertainment as well as the lives and achievements of famous personalities."
+  },
+  {
+    "start": "04:30",
+    "stop": "06:00",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775536200000,
+    "stopTs": 1775541600000,
+    "title": "Mathrubhumi Breaking Hours",
+    "desc": "The anchor presents the most important social, political and economic news and developments from the nation around the world."
+  },
+  {
+    "start": "06:00",
+    "stop": "06:30",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775541600000,
+    "stopTs": 1775543400000,
+    "title": "Mathrubhumi Breaking Hours",
+    "desc": "The anchor presents the most important social, political and economic news and developments from the nation around the world."
+  },
+  {
+    "start": "06:30",
+    "stop": "07:00",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775543400000,
+    "stopTs": 1775545200000,
+    "title": "Mathrubhumi Breaking Hours",
+    "desc": "The anchor presents the most important social, political and economic news and developments from the nation around the world."
+  },
+  {
+    "start": "07:00",
+    "stop": "07:30",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775545200000,
+    "stopTs": 1775547000000,
+    "title": "Mathrubhumi Breaking Hours",
+    "desc": "The anchor presents the most important social, political and economic news and developments from the nation around the world."
+  },
+  {
+    "start": "07:30",
+    "stop": "08:00",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775547000000,
+    "stopTs": 1775548800000,
+    "title": "Varthakal Ithu Vare",
+    "desc": "The host provides an insight into the latest news, current affairs and developments on a variety of topics from around the country and the world."
+  },
+  {
+    "start": "08:00",
+    "stop": "08:30",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775548800000,
+    "stopTs": 1775550600000,
+    "title": "Pradheshika Varthakal",
+    "desc": "The host collates and presents the latest news and updates pertaining to the social, economic and political issues from the Indian state of Kerala."
+  },
+  {
+    "start": "08:30",
+    "stop": "09:00",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775550600000,
+    "stopTs": 1775552400000,
+    "title": "News 2 To 4",
+    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
+  },
+  {
+    "start": "09:00",
+    "stop": "09:30",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775552400000,
+    "stopTs": 1775554200000,
+    "title": "News 2 To 4",
+    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
+  },
+  {
+    "start": "09:30",
+    "stop": "10:30",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775554200000,
+    "stopTs": 1775557800000,
+    "title": "News 2 To 4",
+    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
+  },
+  {
+    "start": "10:30",
+    "stop": "11:00",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775557800000,
+    "stopTs": 1775559600000,
+    "title": "Good Evening Keralam",
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across Kerala."
+  },
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775559600000,
+    "stopTs": 1775561400000,
+    "title": "Good Evening Keralam",
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across Kerala."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775561400000,
+    "stopTs": 1775563200000,
+    "title": "Good Evening Keralam",
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across Kerala."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775563200000,
+    "stopTs": 1775565000000,
+    "title": "Good Evening Keralam",
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across Kerala."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775565000000,
+    "stopTs": 1775566800000,
+    "title": "Varthakal Ithu Vare",
+    "desc": "The host provides an insight into the latest news, current affairs and developments on a variety of topics from around the country and the world."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775566800000,
+    "stopTs": 1775568600000,
+    "title": "Pradheshika Varthakal",
+    "desc": "The host collates and presents the latest news and updates pertaining to the social, economic and political issues from the Indian state of Kerala."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775568600000,
+    "stopTs": 1775570400000,
+    "title": "News Angle",
+    "desc": "The host presents an in-depth analysis of news and developments from various sectors, along with highlighting matters of national importance."
+  },
+  {
+    "start": "14:00",
+    "stop": "15:00",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775570400000,
+    "stopTs": 1775574000000,
+    "title": "Super Prime Time",
+    "desc": "The host sheds light on the latest socio-economic, political as well as sports updates and developments from across the world."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775574000000,
+    "stopTs": 1775575800000,
+    "title": "Mathrubhumi News",
+    "desc": "The host presents an in-depth analysis of news and developments from various sectors, along with highlighting matters of national importance."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775575800000,
+    "stopTs": 1775577600000,
+    "title": "Mathrubhumi News",
+    "desc": "The host presents an in-depth analysis of news and developments from various sectors, along with highlighting matters of national importance."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775577600000,
+    "stopTs": 1775579400000,
+    "title": "Thalsamayam Reporter",
+    "desc": "The host presents an in-depth analysis of various social and economic issues that affect the society, shedding light on important developments from across the state."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775579400000,
+    "stopTs": 1775581200000,
+    "title": "Varthakal Ithu Vare",
+    "desc": "The host provides an insight into the latest news, current affairs and developments on a variety of topics from around the country and the world."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775581200000,
+    "stopTs": 1775583000000,
+    "title": "Crime File",
+    "desc": "The host presents a comprehensive and detailed report, elucidating on various instances of crime happening across the region."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775583000000,
+    "stopTs": 1775584800000,
+    "title": "Mathrubhumi News",
+    "desc": "The host presents an in-depth analysis of news and developments from various sectors, along with highlighting matters of national importance."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:29",
+    "channel": "MathrubhumiNews.in",
+    "channelId": "MathrubhumiNews.in",
+    "channelName": "Mathrubhumi News",
+    "startTs": 1775584800000,
+    "stopTs": 1775586599000,
+    "title": "Gulf Time",
+    "desc": "The host presents the latest news and updates regarding politics, current affairs and socioeconomic developments from countries in the Middle East."
   }
 ]

@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "IBC24.in",
-    "channelId": "IBC24.in",
-    "channelName": "IBC24",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Mera Madhyapradesh",
-    "desc": "The host presents the latest updates and developments pertaining to various political and socio-economic issues across the state of Madhya Pradesh."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "IBC24.in",

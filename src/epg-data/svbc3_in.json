@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "SVBC3.in",
-    "channelId": "SVBC3.in",
-    "channelName": "SVBC3",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Vishnu Sahasra Nama Stotra Parayana",
-    "desc": "Devotees perform a sacred Hindu hymn that lists the 1,000 names of Lord Vishnu, in order to seek blessings from the Almighty."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "SVBC3.in",

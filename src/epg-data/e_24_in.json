@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "E24.in",
-    "channelId": "E24.in",
-    "channelName": "E 24",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "U, Me aur Tv",
-    "desc": "The host provides a comprehensive and detailed report on the latest news and developments from the entertainment industry."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "E24.in",

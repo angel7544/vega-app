@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "DDGyandarshan.in",
-    "channelId": "DDGyandarshan.in",
-    "channelName": "DD Gyandarshan",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Various Key Contraints In Rdbm",
-    "desc": "A subject-matter expert provides a detailed explanation on the various key constraints in RDBMS, using relevant examples in a simple and easy-to-understand manner."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "DDGyandarshan.in",

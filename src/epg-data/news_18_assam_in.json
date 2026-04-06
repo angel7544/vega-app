@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:27",
-    "stop": "10:57",
-    "channel": "News18Assam.in",
-    "channelId": "News18Assam.in",
-    "channelName": "News 18 Assam",
-    "startTs": 1775471220000,
-    "stopTs": 1775473020000,
-    "title": "Biyolir Khabar",
-    "desc": "The host offers comprehensive and factual reporting on significant events and issues, providing unbiased as well as in-depth coverage."
-  },
-  {
     "start": "10:57",
     "stop": "11:57",
     "channel": "News18Assam.in",

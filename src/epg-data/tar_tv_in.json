@@ -8,7 +8,7 @@
     "startTs": 1775471400000,
     "stopTs": 1775475000000,
     "title": "TARTV Special",
-    "desc": "The host presents information about the social, economic and political issues of the day."
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
   },
   {
     "start": "11:30",
@@ -19,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775478600000,
     "title": "Mukhya Samachar",
-    "desc": "The host presents information about the social, economic and political issues of the day."
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
   },
   {
     "start": "12:30",
@@ -30,7 +30,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "MPCG Special",
-    "desc": "The host sheds light on the latest news updates pertaining to the field of finance."
+    "desc": "The host sheds light on the latest news updates, top stories and key developments pertaining to the fields of business and finance."
   },
   {
     "start": "13:00",
@@ -41,7 +41,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Bihar Jharkhand Khabre",
-    "desc": "The host presents an update on the recent happenings from Bihar and Jharkhand."
+    "desc": "The host presents an update on the recent happenings in the political and socio-economic domain from the states of Bihar and Jharkhand."
   },
   {
     "start": "13:30",
@@ -52,7 +52,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775485800000,
     "title": "Khabarain Dinbhar",
-    "desc": "The host highlights key national news stories, updates and developments across the country."
+    "desc": "The host presents the latest news stories, important developments and major updates that impact the people living across the country."
   },
   {
     "start": "14:30",
@@ -63,7 +63,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775489400000,
     "title": "Mukhya Samachar",
-    "desc": "The host presents information about the social, economic and political issues of the day."
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
   },
   {
     "start": "15:30",
@@ -74,7 +74,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775493000000,
     "title": "TARTV Special",
-    "desc": "The host presents information about the social, economic and political issues of the day."
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
   },
   {
     "start": "16:30",
@@ -85,7 +85,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775496600000,
     "title": "Khabarain Dinbhar",
-    "desc": "The host highlights key national news stories, updates and developments across the country."
+    "desc": "The host presents the latest news stories, important developments and major updates that impact the people living across the country."
   },
   {
     "start": "17:30",
@@ -96,17 +96,336 @@
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Late Night News",
-    "desc": "The host presents important issues and provides updates on current events."
+    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
   },
   {
     "start": "18:00",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "TarTV.in",
     "channelId": "TarTV.in",
     "channelName": "Tar TV",
     "startTs": 1775498400000,
-    "stopTs": 1775500200000,
+    "stopTs": 1775500199000,
     "title": "Advertisement",
-    "desc": "The host showcases a wide range of products manufactured by popular brands."
+    "desc": "The host showcases a wide range of products manufactured by popular brands can be purchased from the comfort of one&apos;s home."
+  },
+  {
+    "start": "18:30",
+    "stop": "19:30",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775500200000,
+    "stopTs": 1775503800000,
+    "title": "Devotional Program",
+    "desc": "A religious leader elaborates on the teachings of the Almighty and encourages followers to follow the path of spirituality."
+  },
+  {
+    "start": "19:30",
+    "stop": "20:30",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775503800000,
+    "stopTs": 1775507400000,
+    "title": "Devotional Program",
+    "desc": "A religious leader elaborates on the teachings of the Almighty and encourages followers to follow the path of spirituality."
+  },
+  {
+    "start": "20:30",
+    "stop": "21:00",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775507400000,
+    "stopTs": 1775509200000,
+    "title": "Advertisement",
+    "desc": "The host showcases a wide range of products manufactured by popular brands can be purchased from the comfort of one&apos;s home."
+  },
+  {
+    "start": "21:00",
+    "stop": "21:30",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775509200000,
+    "stopTs": 1775511000000,
+    "title": "Vartalap",
+    "desc": "The host invites distinguished guests who share their perspectives on various topics that are of national and international significance."
+  },
+  {
+    "start": "21:30",
+    "stop": "22:30",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775511000000,
+    "stopTs": 1775514600000,
+    "title": "Khabarain Dinbhar",
+    "desc": "The host presents the latest news stories, important developments and major updates that impact the people living across the country."
+  },
+  {
+    "start": "22:30",
+    "stop": "23:30",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775514600000,
+    "stopTs": 1775518200000,
+    "title": "Show Limitless",
+    "desc": "The host shares the latest news updates and developments from various fields, along with fascinating facts dealing with different subjects."
+  },
+  {
+    "start": "23:30",
+    "stop": "00:30",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775518200000,
+    "stopTs": 1775521800000,
+    "title": "Educational Show",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "00:30",
+    "stop": "01:30",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775521800000,
+    "stopTs": 1775525400000,
+    "title": "Devotional Program",
+    "desc": "A religious leader elaborates on the teachings of the Almighty and encourages followers to follow the path of spirituality."
+  },
+  {
+    "start": "01:30",
+    "stop": "02:30",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775525400000,
+    "stopTs": 1775529000000,
+    "title": "Live Darsan",
+    "desc": "The host presents glimpses of various temples and shrines located in various regions and dedicated to Hindu gods and goddesses, live."
+  },
+  {
+    "start": "02:30",
+    "stop": "03:00",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775529000000,
+    "stopTs": 1775530800000,
+    "title": "Advertisement",
+    "desc": "The host showcases a wide range of products manufactured by popular brands can be purchased from the comfort of one&apos;s home."
+  },
+  {
+    "start": "03:00",
+    "stop": "03:30",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775530800000,
+    "stopTs": 1775532600000,
+    "title": "National Breaking",
+    "desc": "The host sheds light on some of the most important news stories and major updates and developments from across the country."
+  },
+  {
+    "start": "03:30",
+    "stop": "04:30",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775532600000,
+    "stopTs": 1775536200000,
+    "title": "Mukhya Samachar",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "04:30",
+    "stop": "05:30",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775536200000,
+    "stopTs": 1775539800000,
+    "title": "Rajasthan Khabren",
+    "desc": "The host collates and presents the latest and important news updates, developments and current affairs from across Rajasthan."
+  },
+  {
+    "start": "05:30",
+    "stop": "06:30",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775539800000,
+    "stopTs": 1775543400000,
+    "title": "Educational Show",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "06:30",
+    "stop": "07:30",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775543400000,
+    "stopTs": 1775547000000,
+    "title": "Desh Duniya Khabre",
+    "desc": "The host presents the latest news, updates and developments pertaining to the political, social, economic and sports fronts from around the country and the world."
+  },
+  {
+    "start": "07:30",
+    "stop": "08:00",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775547000000,
+    "stopTs": 1775548800000,
+    "title": "Advertisement",
+    "desc": "The host showcases a wide range of products manufactured by popular brands can be purchased from the comfort of one&apos;s home."
+  },
+  {
+    "start": "08:00",
+    "stop": "08:30",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775548800000,
+    "stopTs": 1775550600000,
+    "title": "Apna Uttar Pradesh",
+    "desc": "A presenter reports important news, regional events and socio-political developments occurring in the state of Uttar Pradesh."
+  },
+  {
+    "start": "08:30",
+    "stop": "09:30",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775550600000,
+    "stopTs": 1775554200000,
+    "title": "TARTV Special",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "09:30",
+    "stop": "10:30",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775554200000,
+    "stopTs": 1775557800000,
+    "title": "Desh Duniya Special",
+    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
+  },
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775557800000,
+    "stopTs": 1775561400000,
+    "title": "TARTV Special",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775561400000,
+    "stopTs": 1775565000000,
+    "title": "Mukhya Samachar",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775565000000,
+    "stopTs": 1775566800000,
+    "title": "MPCG Special",
+    "desc": "The host sheds light on the latest news updates, top stories and key developments pertaining to the fields of business and finance."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775566800000,
+    "stopTs": 1775568600000,
+    "title": "Bihar Jharkhand Khabre",
+    "desc": "The host presents an update on the recent happenings in the political and socio-economic domain from the states of Bihar and Jharkhand."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775568600000,
+    "stopTs": 1775572200000,
+    "title": "Khabarain Dinbhar",
+    "desc": "The host presents the latest news stories, important developments and major updates that impact the people living across the country."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775572200000,
+    "stopTs": 1775575800000,
+    "title": "Mukhya Samachar",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775575800000,
+    "stopTs": 1775579400000,
+    "title": "TARTV Special",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775579400000,
+    "stopTs": 1775583000000,
+    "title": "Khabarain Dinbhar",
+    "desc": "The host presents the latest news stories, important developments and major updates that impact the people living across the country."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775583000000,
+    "stopTs": 1775584800000,
+    "title": "Late Night News",
+    "desc": "The host presents the latest news and developments surrounding various socio-economic and political issues and provides updates on current events."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:29",
+    "channel": "TarTV.in",
+    "channelId": "TarTV.in",
+    "channelName": "Tar TV",
+    "startTs": 1775584800000,
+    "stopTs": 1775586599000,
+    "title": "Advertisement",
+    "desc": "The host showcases a wide range of products manufactured by popular brands can be purchased from the comfort of one&apos;s home."
   }
 ]

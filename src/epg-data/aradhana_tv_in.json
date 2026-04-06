@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "AradhanaTV.in",
-    "channelId": "AradhanaTV.in",
-    "channelName": "Aradhana TV",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Rev. Charles P. Jacob",
-    "desc": "A renowned religious leader presents sermons for the followers of God, urging them to live a righteous and peaceful life."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "AradhanaTV.in",

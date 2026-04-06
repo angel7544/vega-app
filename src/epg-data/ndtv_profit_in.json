@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "NDTVProfit.in",
-    "channelId": "NDTVProfit.in",
-    "channelName": "NDTV Profit",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Profit 360",
-    "desc": "The host delves deep into the latest business news, primarily looking at the various recent happenings around the stock market."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "NDTVProfit.in",

@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "Nandighosha.in",
-    "channelId": "Nandighosha.in",
-    "channelName": "Nandighosha",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "News Time",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "Nandighosha.in",

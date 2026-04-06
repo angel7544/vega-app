@@ -19,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775475300000,
     "title": "Zaika",
-    "desc": "A culinary expert provides cooking tips and shares various delectable recipes."
+    "desc": "A culinary expert provides numerous cooking tips and tricks and shares various delectable recipes with step-by-step guides to prepare them."
   },
   {
     "start": "11:35",
@@ -30,7 +30,7 @@
     "startTs": 1775475300000,
     "stopTs": 1775476800000,
     "title": "Shabad Kirtan",
-    "desc": "Numerous renowned musicians sing a collection of prayers in praise of the Almighty."
+    "desc": "Numerous renowned singers and musicians sing a collection of prayers in praise of the Almighty while seeking His divine blessings."
   },
   {
     "start": "12:00",
@@ -41,7 +41,7 @@
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Mera Pind Mere Khet",
-    "desc": "The host sheds light on some of the most advanced and innovative methods of farming."
+    "desc": "The host sheds light on some of the most advanced and innovative methods of farming and discusses the latest news and developments in the field of agriculture."
   },
   {
     "start": "12:30",
@@ -52,7 +52,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Public Time",
-    "desc": "The host travels to places and interacts with people from diverse backgrounds."
+    "desc": "The host visits multiple locations, interacting with people from diverse backgrounds and highlighting their experiences."
   },
   {
     "start": "13:00",
@@ -63,7 +63,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775481300000,
     "title": "Zaika",
-    "desc": "A culinary expert provides cooking tips and shares various delectable recipes."
+    "desc": "A culinary expert provides numerous cooking tips and tricks and shares various delectable recipes with step-by-step guides to prepare them."
   },
   {
     "start": "13:15",
@@ -74,7 +74,7 @@
     "startTs": 1775481300000,
     "stopTs": 1775482200000,
     "title": "Songs",
-    "desc": "A comprehensive compilation of songs by various artists and bands, is played back-to-back."
+    "desc": "A comprehensive compilation of catchy, popular and entertaining songs by various artists and bands from around the world, is played back-to-back."
   },
   {
     "start": "13:30",
@@ -85,7 +85,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Geet Dhamal",
-    "desc": "Talented singers enthrall the audience by singing various melodious Punjabi songs."
+    "desc": "Talented singers take to the stage in order to enthrall the audience by singing various melodious and energetic Punjabi songs."
   },
   {
     "start": "14:00",
@@ -96,7 +96,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Jodian Jag Thodian",
-    "desc": "The host invites various couples to discuss their lives and long-standing marriage."
+    "desc": "The host invites various couples as guests in order to explore and discuss their lives, challenges and long-standing marriage."
   },
   {
     "start": "14:30",
@@ -107,7 +107,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Vehre Sajna De",
-    "desc": "Talented artists enthrall the audience by performing a compilation of Punjabi songs."
+    "desc": "Talented artists take to the stage and enthrall the audience by performing a compilation of melodious and energetic Punjabi songs."
   },
   {
     "start": "15:00",
@@ -118,7 +118,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Hulle Hulare",
-    "desc": "Talented Punjabi musical artists sing various energetic songs."
+    "desc": "Talented Punjabi musical artists sing various energetic songs and enthral the audience with their mesmerising performances."
   },
   {
     "start": "15:30",
@@ -140,7 +140,7 @@
     "startTs": 1775491200000,
     "stopTs": 1775492100000,
     "title": "Gallan Te Geet",
-    "desc": "The hosts chat with experts from various fields and cover several crucial issues."
+    "desc": "The hosts chat with experts from various fields and cover several crucial issues that are impacting the lives of the people in India."
   },
   {
     "start": "16:15",
@@ -151,7 +151,7 @@
     "startTs": 1775492100000,
     "stopTs": 1775493000000,
     "title": "Zaika",
-    "desc": "A culinary expert provides cooking tips and shares various delectable recipes."
+    "desc": "A culinary expert provides numerous cooking tips and tricks and shares various delectable recipes with step-by-step guides to prepare them."
   },
   {
     "start": "16:30",
@@ -162,7 +162,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Startup Champions 2.0",
-    "desc": "Aspiring entrepreneurs take the stage to share inspiring stories behind their startups."
+    "desc": "Aspiring entrepreneurs take the stage to share inspiring stories behind their startups, showcasing innovative business ideas and visions."
   },
   {
     "start": "17:00",
@@ -173,7 +173,7 @@
     "startTs": 1775494800000,
     "stopTs": 1775497200000,
     "title": "Gallan Te Geet",
-    "desc": "The hosts chat with experts from various fields and cover several crucial issues."
+    "desc": "The hosts chat with experts from various fields and cover several crucial issues that are impacting the lives of the people in India."
   },
   {
     "start": "17:40",
@@ -184,17 +184,567 @@
     "startTs": 1775497200000,
     "stopTs": 1775498400000,
     "title": "Teri Meri Tu Tu Main Main",
-    "desc": "Talented comics entertain the audience with their wit, funny sketches and acts."
+    "desc": "Talented stand-up comics entertain the audience with their wit, funny sketches, and impersonations of famous personalities."
   },
   {
     "start": "18:00",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "DDPunjabi.in",
     "channelId": "DDPunjabi.in",
     "channelName": "DD Punjabi",
     "startTs": 1775498400000,
-    "stopTs": 1775500200000,
+    "stopTs": 1775500199000,
     "title": "Aur Ek Kahani",
-    "desc": "A collection of short stories that have been adapted into films is played back-to-back."
+    "desc": "A collection of short literary stories that have been adapted into the format of stand-alone films is played back-to-back to portray the rich and varied culture of India."
+  },
+  {
+    "start": "18:30",
+    "stop": "19:20",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775500200000,
+    "stopTs": 1775503200000,
+    "title": "Sanjh Suran Di",
+    "desc": "A group of talented folk music artists sings traditional Punjabi songs and performs a number of dances to enthral the audience."
+  },
+  {
+    "start": "19:20",
+    "stop": "20:07",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775503200000,
+    "stopTs": 1775506020000,
+    "title": "Dastak",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "20:07",
+    "stop": "21:10",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775506020000,
+    "stopTs": 1775509800000,
+    "title": "Mauj Baharan 2017",
+    "desc": "Various Bollywood and Punjabi film industry celebrities perform on stage, before an audience, in order to celebrate the occasion of New Year."
+  },
+  {
+    "start": "21:10",
+    "stop": "21:30",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775509800000,
+    "stopTs": 1775511000000,
+    "title": "Teri Meri Tu Tu Main Main",
+    "desc": "Talented stand-up comics entertain the audience with their wit, funny sketches, and impersonations of famous personalities."
+  },
+  {
+    "start": "21:30",
+    "stop": "22:30",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775511000000,
+    "stopTs": 1775514600000,
+    "title": "Dhadi Varan / Kavshri",
+    "desc": "Using local musical instruments, professional singers form Punjab sing ballads in praise of the Almighty as they seek his blessings."
+  },
+  {
+    "start": "22:30",
+    "stop": "23:53",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775514600000,
+    "stopTs": 1775519580000,
+    "title": "Aasa Di Vaar",
+    "desc": "A comprehensive collection of stanzas composed by the founder of Sikhism, Guru Nanak Ji, played during the early morning service."
+  },
+  {
+    "start": "23:53",
+    "stop": "00:15",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775519580000,
+    "stopTs": 1775520900000,
+    "title": "Shabad Kirtan",
+    "desc": "Numerous renowned singers and musicians sing a collection of prayers in praise of the Almighty while seeking His divine blessings."
+  },
+  {
+    "start": "00:15",
+    "stop": "00:43",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775520900000,
+    "stopTs": 1775522580000,
+    "title": "Sach Diyan Gallan",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "00:43",
+    "stop": "01:06",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775522580000,
+    "stopTs": 1775523960000,
+    "title": "Darbar Vichar",
+    "desc": "The high priest guides the viewers in prayer by praising the Almighty with the help of chants and talks about the importance of a strong faith."
+  },
+  {
+    "start": "01:06",
+    "stop": "01:30",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775523960000,
+    "stopTs": 1775525400000,
+    "title": "Begampura",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "01:30",
+    "stop": "02:02",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775525400000,
+    "stopTs": 1775527320000,
+    "title": "Sachi Bani",
+    "desc": "A comprehensive compilation of some of the famous devotional songs dedicated to Sikh gurus written and composed by renowned artists from around the world."
+  },
+  {
+    "start": "02:02",
+    "stop": "02:13",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775527320000,
+    "stopTs": 1775527980000,
+    "title": "Sehat Zaroori Hai",
+    "desc": "A wellness specialist showcases an array of poses and mindfulness techniques, highlighting their positive impact on overall wellbeing."
+  },
+  {
+    "start": "02:13",
+    "stop": "02:25",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775527980000,
+    "stopTs": 1775528700000,
+    "title": "Bhakti Sangeet",
+    "desc": "A curated collection of devotional songs and hymns, connecting the soul to spirituality through the power of music and faith."
+  },
+  {
+    "start": "02:25",
+    "stop": "02:30",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775528700000,
+    "stopTs": 1775529000000,
+    "title": "Online Study Classes 3rd To 5th",
+    "desc": "Several subject-matter experts help students from standard third to fifth learn various subjects through online courses."
+  },
+  {
+    "start": "02:30",
+    "stop": "02:46",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775529000000,
+    "stopTs": 1775529960000,
+    "title": "Sehat Zaroori Hai",
+    "desc": "A wellness specialist showcases an array of poses and mindfulness techniques, highlighting their positive impact on overall wellbeing."
+  },
+  {
+    "start": "02:46",
+    "stop": "03:07",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775529960000,
+    "stopTs": 1775531220000,
+    "title": "Online Study Classes 3rd To 5th",
+    "desc": "Several subject-matter experts help students from standard third to fifth learn various subjects through online courses."
+  },
+  {
+    "start": "03:07",
+    "stop": "03:30",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775531220000,
+    "stopTs": 1775532600000,
+    "title": "DD Archive Songs",
+    "desc": "A comprehensive compilation of classic vintage songs and memorable collections by renowned Indian artists and musicians is played back to back."
+  },
+  {
+    "start": "03:30",
+    "stop": "04:30",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775532600000,
+    "stopTs": 1775536200000,
+    "title": "Online Study Classes 3rd To 5th",
+    "desc": "Several subject-matter experts help students from standard third to fifth learn various subjects through online courses."
+  },
+  {
+    "start": "04:30",
+    "stop": "04:41",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775536200000,
+    "stopTs": 1775536860000,
+    "title": "Sanjh Suran Di",
+    "desc": "A group of talented folk music artists sings traditional Punjabi songs and performs a number of dances to enthral the audience."
+  },
+  {
+    "start": "04:41",
+    "stop": "05:13",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775536860000,
+    "stopTs": 1775538780000,
+    "title": "Mathematics",
+    "desc": "A subject-matter expert sheds light on the various concepts related to mathematics with the help of appropriate examples."
+  },
+  {
+    "start": "05:13",
+    "stop": "05:39",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775538780000,
+    "stopTs": 1775540340000,
+    "title": "Science",
+    "desc": "A subject-matter expert breaks down various concepts of Science in order to explain them in a simple yet detailed lecture."
+  },
+  {
+    "start": "05:39",
+    "stop": "06:30",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775540340000,
+    "stopTs": 1775543400000,
+    "title": "Sanjh Suran Di",
+    "desc": "A group of talented folk music artists sings traditional Punjabi songs and performs a number of dances to enthral the audience."
+  },
+  {
+    "start": "06:30",
+    "stop": "06:38",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775543400000,
+    "stopTs": 1775543880000,
+    "title": "Punjabi",
+    "desc": "An expert sheds light on the various aspects of the Punjabi language and explains them in detail with appropriate examples."
+  },
+  {
+    "start": "06:38",
+    "stop": "07:07",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775543880000,
+    "stopTs": 1775545620000,
+    "title": "Mathematics",
+    "desc": "A subject-matter expert sheds light on the various concepts related to mathematics with the help of appropriate examples."
+  },
+  {
+    "start": "07:07",
+    "stop": "07:30",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775545620000,
+    "stopTs": 1775547000000,
+    "title": "Mera Pind Mere Khet",
+    "desc": "The host sheds light on some of the most advanced and innovative methods of farming and discusses the latest news and developments in the field of agriculture."
+  },
+  {
+    "start": "07:30",
+    "stop": "07:41",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775547000000,
+    "stopTs": 1775547660000,
+    "title": "Hulle Hulare",
+    "desc": "Talented Punjabi musical artists sing various energetic songs and enthral the audience with their mesmerising performances."
+  },
+  {
+    "start": "07:41",
+    "stop": "08:30",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775547660000,
+    "stopTs": 1775550600000,
+    "title": "Gallan Te Geet",
+    "desc": "The hosts chat with experts from various fields and cover several crucial issues that are impacting the lives of the people in India."
+  },
+  {
+    "start": "08:30",
+    "stop": "09:00",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775550600000,
+    "stopTs": 1775552400000,
+    "title": "Hulle Hulare",
+    "desc": "Talented Punjabi musical artists sing various energetic songs and enthral the audience with their mesmerising performances."
+  },
+  {
+    "start": "09:00",
+    "stop": "09:15",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775552400000,
+    "stopTs": 1775553300000,
+    "title": "Sci-Physics",
+    "desc": "An expert in the subject of science sheds light on various topics pertaining to physics in a simple and easy-to-understand manner."
+  },
+  {
+    "start": "09:15",
+    "stop": "09:30",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775553300000,
+    "stopTs": 1775554200000,
+    "title": "Science-Chemistry",
+    "desc": "Subject-matter experts deliver detailed lectures on various lessons in chemistry along with providing several suitable examples."
+  },
+  {
+    "start": "09:30",
+    "stop": "09:35",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775554200000,
+    "stopTs": 1775554500000,
+    "title": "News Headlines",
+    "desc": "The host presents the latest updates and headlines about social, economic and political issues around the world, offering an overview of global affairs."
+  },
+  {
+    "start": "09:35",
+    "stop": "10:00",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775554500000,
+    "stopTs": 1775556000000,
+    "title": "Rachna",
+    "desc": "The host engages in conversation with renowned artists and discusses their professional achievements and personal lives in detail."
+  },
+  {
+    "start": "10:00",
+    "stop": "10:30",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775556000000,
+    "stopTs": 1775557800000,
+    "title": "Navi Udari",
+    "desc": "The hosts invite eminent personalities, who have achieved laurels in their respective fields, to learn about their life and accomplishments."
+  },
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775557800000,
+    "stopTs": 1775561400000,
+    "title": "DDK Chandigarh",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "11:30",
+    "stop": "11:37",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775561400000,
+    "stopTs": 1775561820000,
+    "title": "Mera Pind Mere Khet",
+    "desc": "The host sheds light on some of the most advanced and innovative methods of farming and discusses the latest news and developments in the field of agriculture."
+  },
+  {
+    "start": "11:37",
+    "stop": "12:00",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775561820000,
+    "stopTs": 1775563200000,
+    "title": "Savi Dharti",
+    "desc": "The host interacts with various farmers from across the region, highlighting their farming practices and shedding light on their success stories."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:32",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775563200000,
+    "stopTs": 1775565120000,
+    "title": "Mera Pind Mere Khet",
+    "desc": "The host sheds light on some of the most advanced and innovative methods of farming and discusses the latest news and developments in the field of agriculture."
+  },
+  {
+    "start": "12:32",
+    "stop": "13:00",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775565120000,
+    "stopTs": 1775566800000,
+    "title": "Yaadan Di Khushboo",
+    "desc": "The host presents a comprehensive compilation of melodious songs composed by renowned artists and musicians in a non-stop sequence."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:15",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775566800000,
+    "stopTs": 1775567700000,
+    "title": "Mera Pind Mere Khet",
+    "desc": "The host sheds light on some of the most advanced and innovative methods of farming and discusses the latest news and developments in the field of agriculture."
+  },
+  {
+    "start": "13:15",
+    "stop": "13:30",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775567700000,
+    "stopTs": 1775568600000,
+    "title": "Gali Gali Wanjara",
+    "desc": "The host embarks on a journey across the nation, exploring diverse cuisines, music and cultural traditions through engaging activities."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:02",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775568600000,
+    "stopTs": 1775570520000,
+    "title": "Jarah Wale",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "14:02",
+    "stop": "14:30",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775570520000,
+    "stopTs": 1775572200000,
+    "title": "DD Archive Songs",
+    "desc": "A comprehensive compilation of classic vintage songs and memorable collections by renowned Indian artists and musicians is played back to back."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:26",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775572200000,
+    "stopTs": 1775575560000,
+    "title": "Ek Ardass",
+    "desc": "Renowned Punjabi artists, along with musicians, perform a collection of soulful songs to entertain and uplift the audience."
+  },
+  {
+    "start": "15:26",
+    "stop": "15:30",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775575560000,
+    "stopTs": 1775575800000,
+    "title": "DD Archive Songs",
+    "desc": "A comprehensive compilation of classic vintage songs and memorable collections by renowned Indian artists and musicians is played back to back."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775575800000,
+    "stopTs": 1775577600000,
+    "title": "Hulle Hulare",
+    "desc": "Talented Punjabi musical artists sing various energetic songs and enthral the audience with their mesmerising performances."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:15",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775577600000,
+    "stopTs": 1775578500000,
+    "title": "Mera Pind Mere Khet",
+    "desc": "The host sheds light on some of the most advanced and innovative methods of farming and discusses the latest news and developments in the field of agriculture."
+  },
+  {
+    "start": "16:15",
+    "stop": "16:30",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775578500000,
+    "stopTs": 1775579400000,
+    "title": "Gali Gali Wanjara",
+    "desc": "The host embarks on a journey across the nation, exploring diverse cuisines, music and cultural traditions through engaging activities."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775579400000,
+    "stopTs": 1775581200000,
+    "title": "Gallan Jeevan Diyan",
+    "desc": "A religious scholar delivers a spiritual discourse in praise of the Almighty and encourages the followers to lead a righteous life."
+  },
+  {
+    "start": "17:00",
+    "stop": "18:13",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775581200000,
+    "stopTs": 1775585580000,
+    "title": "Mera Pind Mere Khet",
+    "desc": "The host sheds light on some of the most advanced and innovative methods of farming and discusses the latest news and developments in the field of agriculture."
+  },
+  {
+    "start": "18:13",
+    "stop": "18:29",
+    "channel": "DDPunjabi.in",
+    "channelId": "DDPunjabi.in",
+    "channelName": "DD Punjabi",
+    "startTs": 1775585580000,
+    "stopTs": 1775586599000,
+    "title": "Mera Pind Mere Khet",
+    "desc": "The host sheds light on some of the most advanced and innovative methods of farming and discusses the latest news and developments in the field of agriculture."
   }
 ]

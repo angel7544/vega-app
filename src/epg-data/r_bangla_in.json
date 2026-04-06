@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "RBangla.in",
-    "channelId": "RBangla.in",
-    "channelName": "R Bangla",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "R Bangla Live 100% News",
-    "desc": "The host presents the latest news updates concerning the political, social, economic and sports fronts from around the state and the nation, live."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "RBangla.in",

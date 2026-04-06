@@ -1,38 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "10:57",
-    "channel": "RPlus.in",
-    "channelId": "RPlus.in",
-    "channelName": "R Plus",
-    "startTs": 1775471400000,
-    "stopTs": 1775473020000,
-    "title": "Top News / Khobor Plus",
-    "desc": "The host presents the current events and developments from around the country and the world; the host updates the public with the latest political and socio-economic stories."
-  },
-  {
-    "start": "10:57",
-    "stop": "11:00",
-    "channel": "RPlus.in",
-    "channelId": "RPlus.in",
-    "channelName": "R Plus",
-    "startTs": 1775473020000,
-    "stopTs": 1775473200000,
-    "title": "Shironaam Ek Najare",
-    "desc": "The host presents the latest updates, advancements and developments on various issues affecting numerous lives in quick succession."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:27",
-    "channel": "RPlus.in",
-    "channelId": "RPlus.in",
-    "channelName": "R Plus",
-    "startTs": 1775473200000,
-    "stopTs": 1775474820000,
-    "title": "Khabor Plus",
-    "desc": "The host presents the latest political and socio-economic stories and numerous updates from different parts of the country."
-  },
-  {
     "start": "11:27",
     "stop": "11:30",
     "channel": "RPlus.in",

@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "Gurkibani.in",
-    "channelId": "Gurkibani.in",
-    "channelName": "Gurkibani",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Amrit Vela",
-    "desc": "Bringing the best in television."
-  },
-  {
     "start": "11:00",
     "stop": "15:00",
     "channel": "Gurkibani.in",

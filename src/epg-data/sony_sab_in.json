@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "SonySAB.in",
-    "channelId": "SonySAB.in",
-    "channelName": "Sony SAB",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Taarak Mehta Ka Ooltah Chashmah",
-    "desc": "The bridal ghost appears to Popatlal. She reveals that she wants to marry him and forcefully makes him perform the wedding rituals."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "SonySAB.in",

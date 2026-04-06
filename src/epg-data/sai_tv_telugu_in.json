@@ -1,16 +1,5 @@
 [
   {
-    "start": "08:00",
-    "stop": "11:00",
-    "channel": "SaiTVTelugu.in",
-    "channelId": "SaiTVTelugu.in",
-    "channelName": "Sai TV Telugu",
-    "startTs": 1775462400000,
-    "stopTs": 1775473200000,
-    "title": "Sai Satcharitha Parayana",
-    "desc": "A religious scholar delivers a discourse to devotees on the life and teachings of Sai Baba of Shirdi, drawing insights from sacred texts."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "SaiTVTelugu.in",

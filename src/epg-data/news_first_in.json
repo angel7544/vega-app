@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "NewsFirst.in",
-    "channelId": "NewsFirst.in",
-    "channelName": "News First",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "News First Live",
-    "desc": "The anchor presents a detailed report on some of the latest and most important news stories and updates of the day, live."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "NewsFirst.in",

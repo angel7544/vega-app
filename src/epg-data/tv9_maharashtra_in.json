@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "TV9Maharashtra.in",
-    "channelId": "TV9Maharashtra.in",
-    "channelName": "TV9 Maharashtra",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "TV9 Bulletin",
-    "desc": "The host presents some of the latest news stories, current affairs and developments pertaining to economy, politics, sports and entertainment."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "TV9Maharashtra.in",

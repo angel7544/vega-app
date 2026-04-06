@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "NewsStateUKUP.in",
-    "channelId": "NewsStateUKUP.in",
-    "channelName": "News State UK UP",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "75 Dist, 75 News / News",
-    "desc": "The host sheds light on the top 75 news updates and developments from 75 districts; the host presents the latest news updates and developments surrounding various socio-economic and political issues."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "NewsStateUKUP.in",

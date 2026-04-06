@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:45",
-    "stop": "11:00",
-    "channel": "TaiwanPlus.in",
-    "channelId": "TaiwanPlus.in",
-    "channelName": "Taiwan Plus",
-    "startTs": 1775472300000,
-    "stopTs": 1775473200000,
-    "title": "Namaste Taiwan",
-    "desc": "The host travels across Taiwan and offers detailed insights into the diverse lifestyles led by communities of Indian origins."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "TaiwanPlus.in",

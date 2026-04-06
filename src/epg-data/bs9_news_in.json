@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "BS9News.in",
-    "channelId": "BS9News.in",
-    "channelName": "BS9 News",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Viral World",
-    "desc": "The host provides a detailed analysis and the context of several viral videos making rounds on the internet from all over the country."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "BS9News.in",

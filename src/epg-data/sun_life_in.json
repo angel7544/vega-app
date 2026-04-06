@@ -8,7 +8,7 @@
     "startTs": 1775467800000,
     "stopTs": 1775478600000,
     "title": "Major Chandrakanth",
-    "desc": "After Mohan kills his sister&apos;s lover, he runs away and hides in Major Chandrakanth&apos; house."
+    "desc": "After Mohan kills his sister&apos;s lover, he runs away and hides in Major Chandrakanth&apos;s house. Later, Srikanth, the older son of Chandrakanth, is assigned the case."
   },
   {
     "start": "12:30",
@@ -19,7 +19,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Aalayam Potruvom",
-    "desc": "Religious leaders and devotees perform elaborate rituals and chant sacred verses."
+    "desc": "Religious leaders and devotees come together to perform elaborate rituals and chant sacred verses to seek the blessings of the Almighty."
   },
   {
     "start": "13:00",
@@ -30,7 +30,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Oru Pada Paadal",
-    "desc": "Listen to a compilation featuring popular songs from various renowned Tamil movies."
+    "desc": "Listen to a compilation featuring popular songs from various renowned Tamil movies, composed by talented artists and musicians."
   },
   {
     "start": "13:30",
@@ -52,7 +52,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775489400000,
     "title": "Thulluvatho Isai",
-    "desc": "A comprehensive compilation of cheerful melodious songs from evergreen movies is played."
+    "desc": "A comprehensive compilation of cheerful melodious songs from evergreen movies featuring talented stars from the Tamil film industry is played."
   },
   {
     "start": "15:30",
@@ -63,7 +63,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775493000000,
     "title": "Manasellam",
-    "desc": "A compilation featuring popular songs performed by various talented artists is played."
+    "desc": "A comprehensive compilation featuring popular, melodious renditions performed by various talented artists is played back-to-back."
   },
   {
     "start": "16:30",
@@ -74,17 +74,226 @@
     "startTs": 1775493000000,
     "stopTs": 1775496600000,
     "title": "Iravum Isaiyum",
-    "desc": "A compilation of peaceful melodious songs to make the viewers fall into a blissful sleep."
+    "desc": "A comprehensive compilation of peaceful melodious songs from evergreen movies is played to make the viewers fall into a blissful sleep."
   },
   {
     "start": "17:30",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "SunLife.in",
     "channelId": "SunLife.in",
     "channelName": "Sun Life",
     "startTs": 1775496600000,
-    "stopTs": 1775500200000,
+    "stopTs": 1775500199000,
     "title": "Sangamam",
-    "desc": "A compilation of some of the biggest singing sensations of the Tamil film industry."
+    "desc": "A comprehensive compilation of the biggest singing sensations from the Tamil film industry is played back to back to entertain the audience."
+  },
+  {
+    "start": "18:30",
+    "stop": "21:00",
+    "channel": "SunLife.in",
+    "channelId": "SunLife.in",
+    "channelName": "Sun Life",
+    "startTs": 1775500200000,
+    "stopTs": 1775509200000,
+    "title": "Thunai Iruppal Meenakshi",
+    "desc": "Ramu goes against the wishes of his stepmother and marries Sita. However, trouble ensues when his stepmother and her daughter move into their house."
+  },
+  {
+    "start": "21:00",
+    "stop": "00:30",
+    "channel": "SunLife.in",
+    "channelId": "SunLife.in",
+    "channelName": "Sun Life",
+    "startTs": 1775509200000,
+    "stopTs": 1775521800000,
+    "title": "Songs",
+    "desc": "A comprehensive compilation of catchy, popular and entertaining songs by various artists and bands from around the world, is played back-to-back."
+  },
+  {
+    "start": "00:30",
+    "stop": "01:00",
+    "channel": "SunLife.in",
+    "channelId": "SunLife.in",
+    "channelName": "Sun Life",
+    "startTs": 1775521800000,
+    "stopTs": 1775523600000,
+    "title": "Deiveega Raagam",
+    "desc": "The host plays a comprehensive compilation of various devotional songs performed and composed by different artists in praise of the Almighty."
+  },
+  {
+    "start": "01:00",
+    "stop": "01:30",
+    "channel": "SunLife.in",
+    "channelId": "SunLife.in",
+    "channelName": "Sun Life",
+    "startTs": 1775523600000,
+    "stopTs": 1775525400000,
+    "title": "Aalayam Potruvom",
+    "desc": "Religious leaders and devotees come together to perform elaborate rituals and chant sacred verses to seek the blessings of the Almighty."
+  },
+  {
+    "start": "01:30",
+    "stop": "01:45",
+    "channel": "SunLife.in",
+    "channelId": "SunLife.in",
+    "channelName": "Sun Life",
+    "startTs": 1775525400000,
+    "stopTs": 1775526300000,
+    "title": "Sinthanai Sei Maname",
+    "desc": "The host offers insightful guidance on achieving self-awareness, emotional balance and overcoming life&apos;s challenges, encouraging viewers to reflect on their personal journeys."
+  },
+  {
+    "start": "01:45",
+    "stop": "02:00",
+    "channel": "SunLife.in",
+    "channelId": "SunLife.in",
+    "channelName": "Sun Life",
+    "startTs": 1775526300000,
+    "stopTs": 1775527200000,
+    "title": "Nattu Maruthuvam",
+    "desc": "A specialist in Siddha medicine demonstrates the preparation of herbal medicines and describes their properties to treat various ailments."
+  },
+  {
+    "start": "02:00",
+    "stop": "02:30",
+    "channel": "SunLife.in",
+    "channelId": "SunLife.in",
+    "channelName": "Sun Life",
+    "startTs": 1775527200000,
+    "stopTs": 1775529000000,
+    "title": "Rasi Palan",
+    "desc": "A professional astrologer reads out predictions for the twelve zodiac signs based on the celestial positions of the stars and planets."
+  },
+  {
+    "start": "02:30",
+    "stop": "04:30",
+    "channel": "SunLife.in",
+    "channelId": "SunLife.in",
+    "channelName": "Sun Life",
+    "startTs": 1775529000000,
+    "stopTs": 1775536200000,
+    "title": "Thulluvatho Isai",
+    "desc": "A comprehensive compilation of cheerful melodious songs from evergreen movies featuring talented stars from the Tamil film industry is played."
+  },
+  {
+    "start": "04:30",
+    "stop": "05:30",
+    "channel": "SunLife.in",
+    "channelId": "SunLife.in",
+    "channelName": "Sun Life",
+    "startTs": 1775536200000,
+    "stopTs": 1775539800000,
+    "title": "Innisaiye",
+    "desc": "The host presents a compilation of melodious and upbeat songs from popular Tamil films, performed by talented artists from the music industry."
+  },
+  {
+    "start": "05:30",
+    "stop": "08:30",
+    "channel": "SunLife.in",
+    "channelId": "SunLife.in",
+    "channelName": "Sun Life",
+    "startTs": 1775539800000,
+    "stopTs": 1775550600000,
+    "title": "Deiva Thai",
+    "desc": "Bringing the best in cinema."
+  },
+  {
+    "start": "08:30",
+    "stop": "09:30",
+    "channel": "SunLife.in",
+    "channelId": "SunLife.in",
+    "channelName": "Sun Life",
+    "startTs": 1775550600000,
+    "stopTs": 1775554200000,
+    "title": "Colourfull Comedy",
+    "desc": "A comprehensive compilation of hilarious movie scenes and clippings from evergreen Tamil films is played to tickle the funny bones of the viewers."
+  },
+  {
+    "start": "09:30",
+    "stop": "12:30",
+    "channel": "SunLife.in",
+    "channelId": "SunLife.in",
+    "channelName": "Sun Life",
+    "startTs": 1775554200000,
+    "stopTs": 1775565000000,
+    "title": "Iru Dhuruvam",
+    "desc": "Brothers Rangan and Durai are tested when a cruel landlord wrecks havoc in their lives, turning one of them into a cop and the other, a dacoit."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "SunLife.in",
+    "channelId": "SunLife.in",
+    "channelName": "Sun Life",
+    "startTs": 1775565000000,
+    "stopTs": 1775566800000,
+    "title": "Aalayam Potruvom",
+    "desc": "Religious leaders and devotees come together to perform elaborate rituals and chant sacred verses to seek the blessings of the Almighty."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "SunLife.in",
+    "channelId": "SunLife.in",
+    "channelName": "Sun Life",
+    "startTs": 1775566800000,
+    "stopTs": 1775568600000,
+    "title": "Oru Pada Paadal",
+    "desc": "Listen to a compilation featuring popular songs from various renowned Tamil movies, composed by talented artists and musicians."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "SunLife.in",
+    "channelId": "SunLife.in",
+    "channelName": "Sun Life",
+    "startTs": 1775568600000,
+    "stopTs": 1775572200000,
+    "title": "Classic Corner",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "SunLife.in",
+    "channelId": "SunLife.in",
+    "channelName": "Sun Life",
+    "startTs": 1775572200000,
+    "stopTs": 1775575800000,
+    "title": "Thulluvatho Isai",
+    "desc": "A comprehensive compilation of cheerful melodious songs from evergreen movies featuring talented stars from the Tamil film industry is played."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "SunLife.in",
+    "channelId": "SunLife.in",
+    "channelName": "Sun Life",
+    "startTs": 1775575800000,
+    "stopTs": 1775579400000,
+    "title": "Manasellam",
+    "desc": "A comprehensive compilation featuring popular, melodious renditions performed by various talented artists is played back-to-back."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "SunLife.in",
+    "channelId": "SunLife.in",
+    "channelName": "Sun Life",
+    "startTs": 1775579400000,
+    "stopTs": 1775583000000,
+    "title": "Iravum Isaiyum",
+    "desc": "A comprehensive compilation of peaceful melodious songs from evergreen movies is played to make the viewers fall into a blissful sleep."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:29",
+    "channel": "SunLife.in",
+    "channelId": "SunLife.in",
+    "channelName": "Sun Life",
+    "startTs": 1775583000000,
+    "stopTs": 1775586599000,
+    "title": "Sangamam",
+    "desc": "A comprehensive compilation of the biggest singing sensations from the Tamil film industry is played back to back to entertain the audience."
   }
 ]

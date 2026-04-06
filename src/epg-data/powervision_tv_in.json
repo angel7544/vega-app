@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "PowervisionTV.in",
-    "channelId": "PowervisionTV.in",
-    "channelName": "Powervision TV",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Sabayogam Message",
-    "desc": "A religious leader spreads the word of God&apos;s love and forgiveness, guiding his congregation through scripture and prayer to live lives of faith and service."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "PowervisionTV.in",

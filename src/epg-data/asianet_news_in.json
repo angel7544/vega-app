@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "AsianetNews.in",
-    "channelId": "AsianetNews.in",
-    "channelName": "Asianet News",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Evening News",
-    "desc": "The host presents latest updates on top national and international news stories, developments and current affairs throughout various sectors of society."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "AsianetNews.in",

@@ -1,27 +1,5 @@
 [
   {
-    "start": "10:31",
-    "stop": "10:59",
-    "channel": "IndiaTVYogaChannel.in",
-    "channelId": "IndiaTVYogaChannel.in",
-    "channelName": "India TV Yoga Channel",
-    "startTs": 1775471460000,
-    "stopTs": 1775473140000,
-    "title": "Yog Mantra",
-    "desc": "An expert explains the importance of yoga and teaches various asanas to help people lead a healthy and stress-free lifestyle."
-  },
-  {
-    "start": "10:59",
-    "stop": "11:02",
-    "channel": "IndiaTVYogaChannel.in",
-    "channelId": "IndiaTVYogaChannel.in",
-    "channelName": "India TV Yoga Channel",
-    "startTs": 1775473140000,
-    "stopTs": 1775473320000,
-    "title": "Break",
-    "desc": "Bringing the best in television."
-  },
-  {
     "start": "11:02",
     "stop": "11:34",
     "channel": "IndiaTVYogaChannel.in",

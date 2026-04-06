@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "News18BanglaNews.in",
-    "channelId": "News18BanglaNews.in",
-    "channelName": "News18 Bangla News",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "News18 Prime",
-    "desc": "The host sheds light on the latest and most important socio-economic and political news, updates and developments."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "News18BanglaNews.in",

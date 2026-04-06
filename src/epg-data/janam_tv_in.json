@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:15",
-    "channel": "JanamTV.in",
-    "channelId": "JanamTV.in",
-    "channelName": "Janam TV",
-    "startTs": 1775471400000,
-    "stopTs": 1775474100000,
-    "title": "News @ 4 PM",
-    "desc": "The host presents information about the social, economic and political issues of the day."
-  },
-  {
     "start": "11:15",
     "stop": "11:30",
     "channel": "JanamTV.in",
@@ -19,7 +8,7 @@
     "startTs": 1775474100000,
     "stopTs": 1775475000000,
     "title": "Sanskrit News",
-    "desc": "The host sheds light on the issues of national and global significance in Sanskrit."
+    "desc": "The host presents the latest developments on socio-political, economic and sports-related issues of national and global significance in Sanskrit."
   },
   {
     "start": "11:30",
@@ -30,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775478600000,
     "title": "Live News",
-    "desc": "The host collates and presents some of the most important news and latest updates, live."
+    "desc": "The host collates and presents some of the most important news and latest updates that cater to the interests of the people, live."
   },
   {
     "start": "12:30",
@@ -41,7 +30,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Vartha Neram",
-    "desc": "The host presents information about the social, economic and political issues of the day."
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
   },
   {
     "start": "13:00",
@@ -52,7 +41,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775484000000,
     "title": "Live News",
-    "desc": "The host collates and presents some of the most important news and latest updates, live."
+    "desc": "The host collates and presents some of the most important news and latest updates that cater to the interests of the people, live."
   },
   {
     "start": "14:00",
@@ -63,7 +52,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775489400000,
     "title": "Janam Debate",
-    "desc": "Eminent personalities from various walks of life discuss and debate current issues."
+    "desc": "The host invites a panel of experts from different fields to share their views and opinions on important topics related to the latest developments and issues that concern the society."
   },
   {
     "start": "15:30",
@@ -74,7 +63,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Janam Tonight",
-    "desc": "The host collates and presents the latest updates pertaining tot the current affairs of the day."
+    "desc": "The host collates and presents the latest updates and key developments pertaining to the socio-political and economic matters of the day."
   },
   {
     "start": "16:00",
@@ -85,7 +74,7 @@
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Polichezhuthu",
-    "desc": "The host analyses the latest state political updates, offering insights and observations."
+    "desc": "The host analyses the latest state political updates, offering insights and observations of the impact on everyday citizens."
   },
   {
     "start": "16:30",
@@ -96,7 +85,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775496600000,
     "title": "Live News",
-    "desc": "The host collates and presents some of the most important news and latest updates, live."
+    "desc": "The host collates and presents some of the most important news and latest updates that cater to the interests of the people, live."
   },
   {
     "start": "17:30",
@@ -107,17 +96,259 @@
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Pravasineram",
-    "desc": "The host gives a concise roundup of recent global events, highlighting key developments."
+    "desc": "The host delivers a concise roundup of recent global events, encompassing societal shifts, political movements, economic trends and sporting highlights."
   },
   {
     "start": "18:00",
-    "stop": "00:30",
+    "stop": "18:29",
     "channel": "JanamTV.in",
     "channelId": "JanamTV.in",
     "channelName": "Janam TV",
     "startTs": 1775498400000,
+    "stopTs": 1775500199000,
+    "title": "Kadhakali",
+    "desc": "The host presents Kerala&apos;s latest political updates with a satirical twist, offering a unique take on current affairs through sharp commentary and humour."
+  },
+  {
+    "start": "18:30",
+    "stop": "00:30",
+    "channel": "JanamTV.in",
+    "channelId": "JanamTV.in",
+    "channelName": "Janam TV",
+    "startTs": 1775500200000,
     "stopTs": 1775521800000,
     "title": "Kadhakali",
-    "desc": "The host presents Kerala&apos;s latest political updates with a satirical twist."
+    "desc": "The host presents Kerala&apos;s latest political updates with a satirical twist, offering a unique take on current affairs through sharp commentary and humour."
+  },
+  {
+    "start": "00:30",
+    "stop": "01:00",
+    "channel": "JanamTV.in",
+    "channelId": "JanamTV.in",
+    "channelName": "Janam TV",
+    "startTs": 1775521800000,
+    "stopTs": 1775523600000,
+    "title": "Live News",
+    "desc": "The host collates and presents some of the most important news and latest updates that cater to the interests of the people, live."
+  },
+  {
+    "start": "01:00",
+    "stop": "01:30",
+    "channel": "JanamTV.in",
+    "channelId": "JanamTV.in",
+    "channelName": "Janam TV",
+    "startTs": 1775523600000,
+    "stopTs": 1775525400000,
+    "title": "Natuvishesham",
+    "desc": "The host collates and presents the latest and the most important news updates and developments from across the state and the nation."
+  },
+  {
+    "start": "01:30",
+    "stop": "02:30",
+    "channel": "JanamTV.in",
+    "channelId": "JanamTV.in",
+    "channelName": "Janam TV",
+    "startTs": 1775525400000,
+    "stopTs": 1775529000000,
+    "title": "Live News",
+    "desc": "The host collates and presents some of the most important news and latest updates that cater to the interests of the people, live."
+  },
+  {
+    "start": "02:30",
+    "stop": "03:00",
+    "channel": "JanamTV.in",
+    "channelId": "JanamTV.in",
+    "channelName": "Janam TV",
+    "startTs": 1775529000000,
+    "stopTs": 1775530800000,
+    "title": "Natuvishesham",
+    "desc": "The host collates and presents the latest and the most important news updates and developments from across the state and the nation."
+  },
+  {
+    "start": "03:00",
+    "stop": "03:30",
+    "channel": "JanamTV.in",
+    "channelId": "JanamTV.in",
+    "channelName": "Janam TV",
+    "startTs": 1775530800000,
+    "stopTs": 1775532600000,
+    "title": "Kadhakali",
+    "desc": "The host presents Kerala&apos;s latest political updates with a satirical twist, offering a unique take on current affairs through sharp commentary and humour."
+  },
+  {
+    "start": "03:30",
+    "stop": "08:30",
+    "channel": "JanamTV.in",
+    "channelId": "JanamTV.in",
+    "channelName": "Janam TV",
+    "startTs": 1775532600000,
+    "stopTs": 1775550600000,
+    "title": "Live News",
+    "desc": "The host collates and presents some of the most important news and latest updates that cater to the interests of the people, live."
+  },
+  {
+    "start": "08:30",
+    "stop": "09:30",
+    "channel": "JanamTV.in",
+    "channelId": "JanamTV.in",
+    "channelName": "Janam TV",
+    "startTs": 1775550600000,
+    "stopTs": 1775554200000,
+    "title": "News At 2 PM",
+    "desc": "The host presents the latest news and updates pertaining to socioeconomic issues, politics and current affairs of the country."
+  },
+  {
+    "start": "09:30",
+    "stop": "10:00",
+    "channel": "JanamTV.in",
+    "channelId": "JanamTV.in",
+    "channelName": "Janam TV",
+    "startTs": 1775554200000,
+    "stopTs": 1775556000000,
+    "title": "Live News",
+    "desc": "The host collates and presents some of the most important news and latest updates that cater to the interests of the people, live."
+  },
+  {
+    "start": "10:00",
+    "stop": "10:30",
+    "channel": "JanamTV.in",
+    "channelId": "JanamTV.in",
+    "channelName": "Janam TV",
+    "startTs": 1775556000000,
+    "stopTs": 1775557800000,
+    "title": "Polichezhuthu",
+    "desc": "The host analyses the latest state political updates, offering insights and observations of the impact on everyday citizens."
+  },
+  {
+    "start": "10:30",
+    "stop": "11:15",
+    "channel": "JanamTV.in",
+    "channelId": "JanamTV.in",
+    "channelName": "Janam TV",
+    "startTs": 1775557800000,
+    "stopTs": 1775560500000,
+    "title": "News @ 4 PM",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "11:15",
+    "stop": "11:30",
+    "channel": "JanamTV.in",
+    "channelId": "JanamTV.in",
+    "channelName": "Janam TV",
+    "startTs": 1775560500000,
+    "stopTs": 1775561400000,
+    "title": "Sanskrit News",
+    "desc": "The host presents the latest developments on socio-political, economic and sports-related issues of national and global significance in Sanskrit."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "JanamTV.in",
+    "channelId": "JanamTV.in",
+    "channelName": "Janam TV",
+    "startTs": 1775561400000,
+    "stopTs": 1775565000000,
+    "title": "Live News",
+    "desc": "The host collates and presents some of the most important news and latest updates that cater to the interests of the people, live."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "JanamTV.in",
+    "channelId": "JanamTV.in",
+    "channelName": "Janam TV",
+    "startTs": 1775565000000,
+    "stopTs": 1775566800000,
+    "title": "Vartha Neram",
+    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
+  },
+  {
+    "start": "13:00",
+    "stop": "14:00",
+    "channel": "JanamTV.in",
+    "channelId": "JanamTV.in",
+    "channelName": "Janam TV",
+    "startTs": 1775566800000,
+    "stopTs": 1775570400000,
+    "title": "Live News",
+    "desc": "The host collates and presents some of the most important news and latest updates that cater to the interests of the people, live."
+  },
+  {
+    "start": "14:00",
+    "stop": "15:30",
+    "channel": "JanamTV.in",
+    "channelId": "JanamTV.in",
+    "channelName": "Janam TV",
+    "startTs": 1775570400000,
+    "stopTs": 1775575800000,
+    "title": "Janam Debate",
+    "desc": "The host invites a panel of experts from different fields to share their views and opinions on important topics related to the latest developments and issues that concern the society."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "JanamTV.in",
+    "channelId": "JanamTV.in",
+    "channelName": "Janam TV",
+    "startTs": 1775575800000,
+    "stopTs": 1775577600000,
+    "title": "Janam Tonight",
+    "desc": "The host collates and presents the latest updates and key developments pertaining to the socio-political and economic matters of the day."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "JanamTV.in",
+    "channelId": "JanamTV.in",
+    "channelName": "Janam TV",
+    "startTs": 1775577600000,
+    "stopTs": 1775579400000,
+    "title": "Nattu Varambu",
+    "desc": "The host sheds light on a number of small-scale, home-grown businesses run by people from rural regions and studies the way they operate their enterprises."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "JanamTV.in",
+    "channelId": "JanamTV.in",
+    "channelName": "Janam TV",
+    "startTs": 1775579400000,
+    "stopTs": 1775581200000,
+    "title": "Live News",
+    "desc": "The host collates and presents some of the most important news and latest updates that cater to the interests of the people, live."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "JanamTV.in",
+    "channelId": "JanamTV.in",
+    "channelName": "Janam TV",
+    "startTs": 1775581200000,
+    "stopTs": 1775583000000,
+    "title": "Ratnasastra",
+    "desc": "A subject-matter expert on astrology makes predictions about the future based on the horoscope and placement of celestial bodies."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "JanamTV.in",
+    "channelId": "JanamTV.in",
+    "channelName": "Janam TV",
+    "startTs": 1775583000000,
+    "stopTs": 1775584800000,
+    "title": "Pravasineram",
+    "desc": "The host delivers a concise roundup of recent global events, encompassing societal shifts, political movements, economic trends and sporting highlights."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:29",
+    "channel": "JanamTV.in",
+    "channelId": "JanamTV.in",
+    "channelName": "Janam TV",
+    "startTs": 1775584800000,
+    "stopTs": 1775586599000,
+    "title": "Namasthe Arabia",
+    "desc": "The host travels to the land of Arabia and highlights some of the most fascinating facts and stunning scenery and sheds light on the nation&apos;s art and culture."
   }
 ]

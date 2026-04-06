@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:00",
-    "stop": "11:00",
-    "channel": "SonyMarathiSD.in",
-    "channelId": "SonyMarathiSD.in",
-    "channelName": "Sony Marathi SD",
-    "startTs": 1775469600000,
-    "stopTs": 1775473200000,
-    "title": "Maharashtrachi Hasya Jatra Hasyacha Chukar",
-    "desc": "Comedians showcase entertaining performances with sketches, stand-up acts and witty humour, brininging laughter through engaging storytelling and relatable themes."
-  },
-  {
     "start": "11:00",
     "stop": "11:58",
     "channel": "SonyMarathiSD.in",

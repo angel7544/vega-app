@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "SansadTV.in",
-    "channelId": "SansadTV.in",
-    "channelName": "Sansad TV",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Smart Kheti",
-    "desc": "The host sheds light on innovative methods practised by farmers to maintain crops in the face of socio-economic and natural complications."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "SansadTV.in",

@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "MalaiMurasu.in",
-    "channelId": "MalaiMurasu.in",
-    "channelName": "Malai Murasu",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Tamilnadu Political League",
-    "desc": "Tamilnadu Political League"
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "MalaiMurasu.in",

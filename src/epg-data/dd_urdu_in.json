@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "DDUrdu.in",
-    "channelId": "DDUrdu.in",
-    "channelName": "DD urdu",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Hamare Dastkar",
-    "desc": "Skilled artisans showcase intricate craftsmanship, preserving traditional art forms while sharing the cultural and historical significance of their work."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "DDUrdu.in",

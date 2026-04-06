@@ -8,7 +8,7 @@
     "startTs": 1775469600000,
     "stopTs": 1775475000000,
     "title": "News Live",
-    "desc": "The host sheds light on the top news updates from across the nation and the world, live."
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
   },
   {
     "start": "11:30",
@@ -19,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775478600000,
     "title": "Pradesh Live",
-    "desc": "The latest updates are shared in rapid succession on global and national affairs, live."
+    "desc": "The latest updates are shared in rapid succession on current global and national affairs of communal, political and economic concerns, live."
   },
   {
     "start": "12:30",
@@ -30,7 +30,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775484000000,
     "title": "News Live",
-    "desc": "The host sheds light on the top news updates from across the nation and the world, live."
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
   },
   {
     "start": "14:00",
@@ -41,7 +41,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Express Live",
-    "desc": "The host presents the latest news updates and developments in quick succession, live."
+    "desc": "The host presents the latest news updates and developments from across the nation and provides information on current events in quick succession, live."
   },
   {
     "start": "14:30",
@@ -52,7 +52,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "News Live",
-    "desc": "The host sheds light on the top news updates from across the nation and the world, live."
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
   },
   {
     "start": "15:00",
@@ -63,7 +63,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Special Report",
-    "desc": "The host presents some of the latest news stories, current affairs and developments."
+    "desc": "The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports."
   },
   {
     "start": "15:30",
@@ -74,7 +74,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Top 25 / News Live",
-    "desc": "The host presents the top 25 news; the presenter shares important current affairs, live."
+    "desc": "The host collates and presents the top 25 news updates of the day; the news anchor shares important current affairs and developments, live."
   },
   {
     "start": "16:00",
@@ -85,7 +85,7 @@
     "startTs": 1775491200000,
     "stopTs": 1775494800000,
     "title": "News Live",
-    "desc": "The host sheds light on the top news updates from across the nation and the world, live."
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
   },
   {
     "start": "17:00",
@@ -96,7 +96,7 @@
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Express Live",
-    "desc": "The host presents the latest news updates and developments in quick succession, live."
+    "desc": "The host presents the latest news updates and developments from across the nation and provides information on current events in quick succession, live."
   },
   {
     "start": "17:30",
@@ -107,17 +107,369 @@
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "News Live",
-    "desc": "The host sheds light on the top news updates from across the nation and the world, live."
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
   },
   {
     "start": "18:00",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "LiveTimes.in",
     "channelId": "LiveTimes.in",
     "channelName": "Live Times",
     "startTs": 1775498400000,
-    "stopTs": 1775500200000,
+    "stopTs": 1775500199000,
     "title": "Express Live",
-    "desc": "The host presents the latest news updates and developments in quick succession, live."
+    "desc": "The host presents the latest news updates and developments from across the nation and provides information on current events in quick succession, live."
+  },
+  {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775500200000,
+    "stopTs": 1775502000000,
+    "title": "News Live",
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
+  },
+  {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775502000000,
+    "stopTs": 1775503800000,
+    "title": "Express Live",
+    "desc": "The host presents the latest news updates and developments from across the nation and provides information on current events in quick succession, live."
+  },
+  {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775503800000,
+    "stopTs": 1775505600000,
+    "title": "News Live",
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
+  },
+  {
+    "start": "20:00",
+    "stop": "20:30",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775505600000,
+    "stopTs": 1775507400000,
+    "title": "Express Live",
+    "desc": "The host presents the latest news updates and developments from across the nation and provides information on current events in quick succession, live."
+  },
+  {
+    "start": "20:30",
+    "stop": "21:00",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775507400000,
+    "stopTs": 1775509200000,
+    "title": "News Live",
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
+  },
+  {
+    "start": "21:00",
+    "stop": "21:30",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775509200000,
+    "stopTs": 1775511000000,
+    "title": "Express Live",
+    "desc": "The host presents the latest news updates and developments from across the nation and provides information on current events in quick succession, live."
+  },
+  {
+    "start": "21:30",
+    "stop": "22:00",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775511000000,
+    "stopTs": 1775512800000,
+    "title": "News Live",
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
+  },
+  {
+    "start": "22:00",
+    "stop": "22:30",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775512800000,
+    "stopTs": 1775514600000,
+    "title": "Express Live",
+    "desc": "The host presents the latest news updates and developments from across the nation and provides information on current events in quick succession, live."
+  },
+  {
+    "start": "22:30",
+    "stop": "23:00",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775514600000,
+    "stopTs": 1775516400000,
+    "title": "News Live",
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
+  },
+  {
+    "start": "23:00",
+    "stop": "23:30",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775516400000,
+    "stopTs": 1775518200000,
+    "title": "Express Live",
+    "desc": "The host presents the latest news updates and developments from across the nation and provides information on current events in quick succession, live."
+  },
+  {
+    "start": "23:30",
+    "stop": "00:30",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775518200000,
+    "stopTs": 1775521800000,
+    "title": "News Live",
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
+  },
+  {
+    "start": "00:30",
+    "stop": "01:00",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775521800000,
+    "stopTs": 1775523600000,
+    "title": "Express Live",
+    "desc": "The host presents the latest news updates and developments from across the nation and provides information on current events in quick succession, live."
+  },
+  {
+    "start": "01:00",
+    "stop": "02:00",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775523600000,
+    "stopTs": 1775527200000,
+    "title": "News Live",
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
+  },
+  {
+    "start": "02:00",
+    "stop": "02:30",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775527200000,
+    "stopTs": 1775529000000,
+    "title": "Express Live",
+    "desc": "The host presents the latest news updates and developments from across the nation and provides information on current events in quick succession, live."
+  },
+  {
+    "start": "02:30",
+    "stop": "03:30",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775529000000,
+    "stopTs": 1775532600000,
+    "title": "News Live",
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
+  },
+  {
+    "start": "03:30",
+    "stop": "04:00",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775532600000,
+    "stopTs": 1775534400000,
+    "title": "Alert Live",
+    "desc": "The host presents the latest news and developments pertaining to the political, social, economic and sports fronts from around the country, live."
+  },
+  {
+    "start": "04:00",
+    "stop": "04:30",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775534400000,
+    "stopTs": 1775536200000,
+    "title": "Express Live",
+    "desc": "The host presents the latest news updates and developments from across the nation and provides information on current events in quick succession, live."
+  },
+  {
+    "start": "04:30",
+    "stop": "07:30",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775536200000,
+    "stopTs": 1775547000000,
+    "title": "News Live",
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
+  },
+  {
+    "start": "07:30",
+    "stop": "08:00",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775547000000,
+    "stopTs": 1775548800000,
+    "title": "Express Live",
+    "desc": "The host presents the latest news updates and developments from across the nation and provides information on current events in quick succession, live."
+  },
+  {
+    "start": "08:00",
+    "stop": "09:30",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775548800000,
+    "stopTs": 1775554200000,
+    "title": "News Live",
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
+  },
+  {
+    "start": "09:30",
+    "stop": "10:00",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775554200000,
+    "stopTs": 1775556000000,
+    "title": "Express Live",
+    "desc": "The host presents the latest news updates and developments from across the nation and provides information on current events in quick succession, live."
+  },
+  {
+    "start": "10:00",
+    "stop": "11:30",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775556000000,
+    "stopTs": 1775561400000,
+    "title": "News Live",
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775561400000,
+    "stopTs": 1775565000000,
+    "title": "Pradesh Live",
+    "desc": "The latest updates are shared in rapid succession on current global and national affairs of communal, political and economic concerns, live."
+  },
+  {
+    "start": "12:30",
+    "stop": "14:00",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775565000000,
+    "stopTs": 1775570400000,
+    "title": "News Live",
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775570400000,
+    "stopTs": 1775572200000,
+    "title": "Express Live",
+    "desc": "The host presents the latest news updates and developments from across the nation and provides information on current events in quick succession, live."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775572200000,
+    "stopTs": 1775574000000,
+    "title": "News Live",
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775574000000,
+    "stopTs": 1775575800000,
+    "title": "Special Report",
+    "desc": "The host presents some of the latest news stories, current affairs and developments pertaining to economics, politics and sports."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775575800000,
+    "stopTs": 1775577600000,
+    "title": "Top 25 / News Live",
+    "desc": "The host collates and presents the top 25 news updates of the day; the news anchor shares important current affairs and developments, live."
+  },
+  {
+    "start": "16:00",
+    "stop": "17:00",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775577600000,
+    "stopTs": 1775581200000,
+    "title": "News Live",
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775581200000,
+    "stopTs": 1775583000000,
+    "title": "Express Live",
+    "desc": "The host presents the latest news updates and developments from across the nation and provides information on current events in quick succession, live."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775583000000,
+    "stopTs": 1775584800000,
+    "title": "News Live",
+    "desc": "The host sheds light on the latest news updates concerning the political, social, economic and sports fronts from across the nation and the world, live."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:29",
+    "channel": "LiveTimes.in",
+    "channelId": "LiveTimes.in",
+    "channelName": "Live Times",
+    "startTs": 1775584800000,
+    "stopTs": 1775586599000,
+    "title": "Express Live",
+    "desc": "The host presents the latest news updates and developments from across the nation and provides information on current events in quick succession, live."
   }
 ]

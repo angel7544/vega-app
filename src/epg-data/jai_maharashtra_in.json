@@ -1,38 +1,5 @@
 [
   {
-    "start": "10:58",
-    "stop": "11:19",
-    "channel": "JaiMaharashtra.in",
-    "channelId": "JaiMaharashtra.in",
-    "channelName": "Jai Maharashtra",
-    "startTs": 1775473080000,
-    "stopTs": 1775474340000,
-    "title": "Bulletin 4 Pm",
-    "desc": "The host presents the latest news stories surrounding various issues around the country."
-  },
-  {
-    "start": "11:19",
-    "stop": "11:21",
-    "channel": "JaiMaharashtra.in",
-    "channelId": "JaiMaharashtra.in",
-    "channelName": "Jai Maharashtra",
-    "startTs": 1775474340000,
-    "stopTs": 1775474460000,
-    "title": "Break - THL / AVHL",
-    "desc": "The host presents an in-depth analysis of the matters impacting the state and the nation."
-  },
-  {
-    "start": "11:21",
-    "stop": "11:28",
-    "channel": "JaiMaharashtra.in",
-    "channelId": "JaiMaharashtra.in",
-    "channelName": "Jai Maharashtra",
-    "startTs": 1775474460000,
-    "stopTs": 1775474880000,
-    "title": "Mahafast 60",
-    "desc": "The host provides the latest updates and stories from around the country."
-  },
-  {
     "start": "11:28",
     "stop": "12:28",
     "channel": "JaiMaharashtra.in",
@@ -41,7 +8,7 @@
     "startTs": 1775474880000,
     "stopTs": 1775478480000,
     "title": "Lakshvedi Live",
-    "desc": "The host interacts with experts to share their views on important topics, live."
+    "desc": "The host interacts with experts from different fields to share their views and opinions on important topics and issues that concern society, live."
   },
   {
     "start": "12:28",
@@ -52,7 +19,7 @@
     "startTs": 1775478480000,
     "stopTs": 1775479740000,
     "title": "Bulletin 6 Pm Live",
-    "desc": "The host provides the latest updates on significant issues, live."
+    "desc": "The host provides the latest information, advancements and developments on significant political, economic and social issues, live."
   },
   {
     "start": "12:49",
@@ -63,7 +30,7 @@
     "startTs": 1775479740000,
     "stopTs": 1775479860000,
     "title": "Break - THL / AVHL",
-    "desc": "The host presents an in-depth analysis of the matters impacting the state and the nation."
+    "desc": "The host presents a detailed report pertaining to some of the most significant matters surrounding the state and the nation."
   },
   {
     "start": "12:51",
@@ -74,7 +41,7 @@
     "startTs": 1775479860000,
     "stopTs": 1775480280000,
     "title": "Mahafast Live",
-    "desc": "The host presents the latest news updates in the state of Maharashtra, live."
+    "desc": "The host presents the latest news updates and developments pertaining to socio-economic and political topics in the state of Maharashtra, live."
   },
   {
     "start": "12:58",
@@ -85,7 +52,7 @@
     "startTs": 1775480280000,
     "stopTs": 1775481540000,
     "title": "Bulletin 6 Pm",
-    "desc": "The presenter sheds light on the latest news stories surrounding various issues around the country."
+    "desc": "The presenter sheds light on the latest news stories and developments surrounding various political and socio-economic issues around the country."
   },
   {
     "start": "13:19",
@@ -96,7 +63,7 @@
     "startTs": 1775481540000,
     "stopTs": 1775481660000,
     "title": "Break - THL / AVHL",
-    "desc": "The host presents an in-depth analysis of the matters impacting the state and the nation."
+    "desc": "The host presents a detailed report pertaining to some of the most significant matters surrounding the state and the nation."
   },
   {
     "start": "13:21",
@@ -107,7 +74,7 @@
     "startTs": 1775481660000,
     "stopTs": 1775482080000,
     "title": "Mahafast",
-    "desc": "The host shares the latest developments on various issues in quick succession."
+    "desc": "The host provides the latest information, advancements and developments on various political, economic and social issues in quick succession."
   },
   {
     "start": "13:28",
@@ -118,7 +85,7 @@
     "startTs": 1775482080000,
     "stopTs": 1775483340000,
     "title": "Bulletin 7 Pm Live",
-    "desc": "The host presents a series of news updates on various issues happening across the nation,live."
+    "desc": "The host presents a series of ongoing news updates on governance, social, economic, sports, and political matters happening across the nation, live."
   },
   {
     "start": "13:49",
@@ -129,7 +96,7 @@
     "startTs": 1775483340000,
     "stopTs": 1775483460000,
     "title": "Break - THL / AVHL",
-    "desc": "The host presents an in-depth analysis of the matters impacting the state and the nation."
+    "desc": "The host presents a detailed report pertaining to some of the most significant matters surrounding the state and the nation."
   },
   {
     "start": "13:51",
@@ -140,7 +107,7 @@
     "startTs": 1775483460000,
     "stopTs": 1775483880000,
     "title": "Bulletin Live",
-    "desc": "The host sheds light on the latest news stories from around the country, live."
+    "desc": "The host gives the latest news updates on the political, socio-economical and cultural situation in the country, live."
   },
   {
     "start": "13:58",
@@ -151,7 +118,7 @@
     "startTs": 1775483880000,
     "stopTs": 1775485140000,
     "title": "Mahafast Live",
-    "desc": "The host presents the latest news updates in the state of Maharashtra, live."
+    "desc": "The host presents the latest news updates and developments pertaining to socio-economic and political topics in the state of Maharashtra, live."
   },
   {
     "start": "14:19",
@@ -162,7 +129,7 @@
     "startTs": 1775485140000,
     "stopTs": 1775485260000,
     "title": "Break - THL / AVHL",
-    "desc": "The host presents an in-depth analysis of the matters impacting the state and the nation."
+    "desc": "The host presents a detailed report pertaining to some of the most significant matters surrounding the state and the nation."
   },
   {
     "start": "14:21",
@@ -173,7 +140,7 @@
     "startTs": 1775485260000,
     "stopTs": 1775485680000,
     "title": "Mahafast",
-    "desc": "The host shares the latest developments on various issues in quick succession."
+    "desc": "The host provides the latest information, advancements and developments on various political, economic and social issues in quick succession."
   },
   {
     "start": "14:28",
@@ -184,7 +151,7 @@
     "startTs": 1775485680000,
     "stopTs": 1775486940000,
     "title": "Bulletin Live",
-    "desc": "The host sheds light on the latest news stories from around the country, live."
+    "desc": "The host gives the latest news updates on the political, socio-economical and cultural situation in the country, live."
   },
   {
     "start": "14:49",
@@ -195,7 +162,7 @@
     "startTs": 1775486940000,
     "stopTs": 1775487060000,
     "title": "Break - THL / AVHL",
-    "desc": "The host presents an in-depth analysis of the matters impacting the state and the nation."
+    "desc": "The host presents a detailed report pertaining to some of the most significant matters surrounding the state and the nation."
   },
   {
     "start": "14:51",
@@ -206,7 +173,7 @@
     "startTs": 1775487060000,
     "stopTs": 1775487480000,
     "title": "Mahafast",
-    "desc": "The host shares the latest developments on various issues in quick succession."
+    "desc": "The host provides the latest information, advancements and developments on various political, economic and social issues in quick succession."
   },
   {
     "start": "14:58",
@@ -217,7 +184,7 @@
     "startTs": 1775487480000,
     "stopTs": 1775489280000,
     "title": "JM Vishesh",
-    "desc": "The host provides the latest information on various political, economic and social issues."
+    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
   },
   {
     "start": "15:28",
@@ -228,7 +195,7 @@
     "startTs": 1775489280000,
     "stopTs": 1775491080000,
     "title": "Bulletin",
-    "desc": "The host presents the latest updates on various social, political and economic issues."
+    "desc": "The host presents the latest updates on various social, political and economic issues and shares information on current events."
   },
   {
     "start": "15:58",
@@ -239,7 +206,7 @@
     "startTs": 1775491080000,
     "stopTs": 1775492880000,
     "title": "JM Vishesh Live",
-    "desc": "The newsreader presents latest news stories and updates from around the world, live."
+    "desc": "The newsreader presents a detailed report on some of the latest and most important news stories and updates from around the world, live."
   },
   {
     "start": "16:28",
@@ -250,7 +217,7 @@
     "startTs": 1775492880000,
     "stopTs": 1775494680000,
     "title": "Maharashtra Unlimited Live",
-    "desc": "The latest news updates, developments and issues from around Maharashtra."
+    "desc": "The latest news updates and developments based on the social, political, sports and economic issues from around Maharashtra."
   },
   {
     "start": "16:58",
@@ -261,7 +228,7 @@
     "startTs": 1775494680000,
     "stopTs": 1775495640000,
     "title": "JM Vishesh",
-    "desc": "The host provides the latest information on various political, economic and social issues."
+    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
   },
   {
     "start": "17:14",
@@ -272,7 +239,7 @@
     "startTs": 1775495640000,
     "stopTs": 1775496480000,
     "title": "JM Vishesh",
-    "desc": "The host provides the latest information on various political, economic and social issues."
+    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
   },
   {
     "start": "17:28",
@@ -283,7 +250,7 @@
     "startTs": 1775496480000,
     "stopTs": 1775498280000,
     "title": "Lakshavedi",
-    "desc": "The host discusses various social issues with a panel of renowned experts."
+    "desc": "The host discusses social issues with experts and sheds light on the initiatives taken by the government to tackle them."
   },
   {
     "start": "17:58",
@@ -294,17 +261,798 @@
     "startTs": 1775498280000,
     "stopTs": 1775500080000,
     "title": "Lakshavedi",
-    "desc": "The host discusses various social issues with a panel of renowned experts."
+    "desc": "The host discusses social issues with experts and sheds light on the initiatives taken by the government to tackle them."
   },
   {
     "start": "18:28",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "JaiMaharashtra.in",
     "channelId": "JaiMaharashtra.in",
     "channelName": "Jai Maharashtra",
     "startTs": 1775500080000,
-    "stopTs": 1775500200000,
+    "stopTs": 1775500199000,
     "title": "Maharashtra Unlimited",
-    "desc": "The host presents the latest news updates from around Maharashtra, India."
+    "desc": "The host presents the latest news updates and developments pertaining to social, political, sports and economic issues from around the Indian state of Maharashtra."
+  },
+  {
+    "start": "18:30",
+    "stop": "18:58",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775500200000,
+    "stopTs": 1775501880000,
+    "title": "Maharashtra Unlimited",
+    "desc": "The host presents the latest news updates and developments pertaining to social, political, sports and economic issues from around the Indian state of Maharashtra."
+  },
+  {
+    "start": "18:58",
+    "stop": "19:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775501880000,
+    "stopTs": 1775503680000,
+    "title": "Mahafast 60",
+    "desc": "The host presents the latest news and developments from the political, social, economic and sports fronts from around the country."
+  },
+  {
+    "start": "19:28",
+    "stop": "19:58",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775503680000,
+    "stopTs": 1775505480000,
+    "title": "Lakshavedi",
+    "desc": "The host discusses social issues with experts and sheds light on the initiatives taken by the government to tackle them."
+  },
+  {
+    "start": "19:58",
+    "stop": "20:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775505480000,
+    "stopTs": 1775507280000,
+    "title": "Lakshavedi",
+    "desc": "The host discusses social issues with experts and sheds light on the initiatives taken by the government to tackle them."
+  },
+  {
+    "start": "20:28",
+    "stop": "20:58",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775507280000,
+    "stopTs": 1775509080000,
+    "title": "Aapali Shahare",
+    "desc": "The host provides a comprehensive and detailed report, elucidating on the latest news and developments from across the region."
+  },
+  {
+    "start": "20:58",
+    "stop": "21:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775509080000,
+    "stopTs": 1775510880000,
+    "title": "Mahafast 60",
+    "desc": "The host presents the latest news and developments from the political, social, economic and sports fronts from around the country."
+  },
+  {
+    "start": "21:28",
+    "stop": "21:58",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775510880000,
+    "stopTs": 1775512680000,
+    "title": "Maharashtra Unlimited",
+    "desc": "The host presents the latest news updates and developments pertaining to social, political, sports and economic issues from around the Indian state of Maharashtra."
+  },
+  {
+    "start": "21:58",
+    "stop": "22:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775512680000,
+    "stopTs": 1775514480000,
+    "title": "Mahafast 60",
+    "desc": "The host presents the latest news and developments from the political, social, economic and sports fronts from around the country."
+  },
+  {
+    "start": "22:28",
+    "stop": "22:58",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775514480000,
+    "stopTs": 1775516280000,
+    "title": "Maharashtra Unlimited",
+    "desc": "The host presents the latest news updates and developments pertaining to social, political, sports and economic issues from around the Indian state of Maharashtra."
+  },
+  {
+    "start": "22:58",
+    "stop": "23:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775516280000,
+    "stopTs": 1775518080000,
+    "title": "Mahafast 60",
+    "desc": "The host presents the latest news and developments from the political, social, economic and sports fronts from around the country."
+  },
+  {
+    "start": "23:28",
+    "stop": "23:58",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775518080000,
+    "stopTs": 1775519880000,
+    "title": "Maharashtra Unlimited",
+    "desc": "The host presents the latest news updates and developments pertaining to social, political, sports and economic issues from around the Indian state of Maharashtra."
+  },
+  {
+    "start": "23:58",
+    "stop": "00:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775519880000,
+    "stopTs": 1775521680000,
+    "title": "Mahafast 60",
+    "desc": "The host presents the latest news and developments from the political, social, economic and sports fronts from around the country."
+  },
+  {
+    "start": "00:28",
+    "stop": "00:58",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775521680000,
+    "stopTs": 1775523480000,
+    "title": "Maharashtra Unlimited",
+    "desc": "The host presents the latest news updates and developments pertaining to social, political, sports and economic issues from around the Indian state of Maharashtra."
+  },
+  {
+    "start": "00:58",
+    "stop": "01:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775523480000,
+    "stopTs": 1775525280000,
+    "title": "Rajkaran Superfast Live",
+    "desc": "The host presents crucial information and the latest news updates on various governance, social, economic and political matters across the country in quick succession, live."
+  },
+  {
+    "start": "01:28",
+    "stop": "01:46",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775525280000,
+    "stopTs": 1775526360000,
+    "title": "Morning Maharashtra Live",
+    "desc": "The host presents the latest news updates pertaining to the political, social, economic and sports fronts from around the state of Maharashtra, live."
+  },
+  {
+    "start": "01:46",
+    "stop": "01:56",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775526360000,
+    "stopTs": 1775526960000,
+    "title": "Mahafast",
+    "desc": "The host provides the latest information, advancements and developments on various political, economic and social issues in quick succession."
+  },
+  {
+    "start": "01:56",
+    "stop": "02:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775526960000,
+    "stopTs": 1775528880000,
+    "title": "JM Vishesh",
+    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
+  },
+  {
+    "start": "02:28",
+    "stop": "02:46",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775528880000,
+    "stopTs": 1775529960000,
+    "title": "Bulletin Live",
+    "desc": "The host gives the latest news updates on the political, socio-economical and cultural situation in the country, live."
+  },
+  {
+    "start": "02:46",
+    "stop": "02:58",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775529960000,
+    "stopTs": 1775530680000,
+    "title": "Mahafast Live",
+    "desc": "The host presents the latest news updates and developments pertaining to socio-economic and political topics in the state of Maharashtra, live."
+  },
+  {
+    "start": "02:58",
+    "stop": "03:14",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775530680000,
+    "stopTs": 1775531640000,
+    "title": "Bulletin",
+    "desc": "The host presents the latest updates on various social, political and economic issues and shares information on current events."
+  },
+  {
+    "start": "03:14",
+    "stop": "03:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775531640000,
+    "stopTs": 1775532480000,
+    "title": "Mahafast",
+    "desc": "The host provides the latest information, advancements and developments on various political, economic and social issues in quick succession."
+  },
+  {
+    "start": "03:28",
+    "stop": "03:46",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775532480000,
+    "stopTs": 1775533560000,
+    "title": "Bulletin Live",
+    "desc": "The host gives the latest news updates on the political, socio-economical and cultural situation in the country, live."
+  },
+  {
+    "start": "03:46",
+    "stop": "03:58",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775533560000,
+    "stopTs": 1775534280000,
+    "title": "Mahafast",
+    "desc": "The host provides the latest information, advancements and developments on various political, economic and social issues in quick succession."
+  },
+  {
+    "start": "03:58",
+    "stop": "04:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775534280000,
+    "stopTs": 1775536080000,
+    "title": "Namma Vaidya Shala",
+    "desc": "Experts in medicine and healthcare discuss various commonly occurring ailments and offer advice for their prevention and care."
+  },
+  {
+    "start": "04:28",
+    "stop": "04:46",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775536080000,
+    "stopTs": 1775537160000,
+    "title": "Bulletin Live",
+    "desc": "The host gives the latest news updates on the political, socio-economical and cultural situation in the country, live."
+  },
+  {
+    "start": "04:46",
+    "stop": "04:58",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775537160000,
+    "stopTs": 1775537880000,
+    "title": "Mahafast Live",
+    "desc": "The host presents the latest news updates and developments pertaining to socio-economic and political topics in the state of Maharashtra, live."
+  },
+  {
+    "start": "04:58",
+    "stop": "05:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775537880000,
+    "stopTs": 1775539680000,
+    "title": "Namma Vaidya Shala",
+    "desc": "Experts in medicine and healthcare discuss various commonly occurring ailments and offer advice for their prevention and care."
+  },
+  {
+    "start": "05:28",
+    "stop": "05:46",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775539680000,
+    "stopTs": 1775540760000,
+    "title": "Bulletin 11 Am Live",
+    "desc": "The host provides a comprehensive and detailed coverage of the latest news and developments from across the region, live."
+  },
+  {
+    "start": "05:46",
+    "stop": "05:58",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775540760000,
+    "stopTs": 1775541480000,
+    "title": "Mahafast 60",
+    "desc": "The host presents the latest news and developments from the political, social, economic and sports fronts from around the country."
+  },
+  {
+    "start": "05:58",
+    "stop": "06:14",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775541480000,
+    "stopTs": 1775542440000,
+    "title": "Bulletin Live",
+    "desc": "The host gives the latest news updates on the political, socio-economical and cultural situation in the country, live."
+  },
+  {
+    "start": "06:14",
+    "stop": "06:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775542440000,
+    "stopTs": 1775543280000,
+    "title": "Mahafast 60 Live",
+    "desc": "The host provides the latest information on the top 60 news stories covering various political, economic and social issues in quick succession, live."
+  },
+  {
+    "start": "06:28",
+    "stop": "07:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775543280000,
+    "stopTs": 1775546880000,
+    "title": "Bulletin 12 PM / Mahafast Live",
+    "desc": "The host provides a comprehensive and detailed coverage of the latest news and developments from across the region, live."
+  },
+  {
+    "start": "07:28",
+    "stop": "07:58",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775546880000,
+    "stopTs": 1775548680000,
+    "title": "Bulletin 1 Pm Live",
+    "desc": "The host provides a comprehensive and detailed coverage of the latest news and developments from across the region, live."
+  },
+  {
+    "start": "07:58",
+    "stop": "08:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775548680000,
+    "stopTs": 1775550480000,
+    "title": "Bulletin 1 Pm",
+    "desc": "The host provides a comprehensive and detailed coverage of the latest news and developments from across the region, live."
+  },
+  {
+    "start": "08:28",
+    "stop": "08:46",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775550480000,
+    "stopTs": 1775551560000,
+    "title": "Bulletin 2 Pm Live",
+    "desc": "The presenter shares a sequence of ongoing events concerning sociocultural, economic and political issues transpiring across the nation, live."
+  },
+  {
+    "start": "08:46",
+    "stop": "08:58",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775551560000,
+    "stopTs": 1775552280000,
+    "title": "Mahafast 60",
+    "desc": "The host presents the latest news and developments from the political, social, economic and sports fronts from around the country."
+  },
+  {
+    "start": "08:58",
+    "stop": "09:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775552280000,
+    "stopTs": 1775554080000,
+    "title": "RJR Hospital Comm",
+    "desc": "A medical expert sheds light on a range of treatments provided by a reputed hospital whilst sharing tips to maintain a healthy lifestyle."
+  },
+  {
+    "start": "09:28",
+    "stop": "09:46",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775554080000,
+    "stopTs": 1775555160000,
+    "title": "Bulletin 3 PM Live",
+    "desc": "The host presents a series of ongoing news updates on governance, social, economic, sports, and political matters happening across the nation, live."
+  },
+  {
+    "start": "09:46",
+    "stop": "09:58",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775555160000,
+    "stopTs": 1775555880000,
+    "title": "Mahafast Live",
+    "desc": "The host presents the latest news updates and developments pertaining to socio-economic and political topics in the state of Maharashtra, live."
+  },
+  {
+    "start": "09:58",
+    "stop": "10:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775555880000,
+    "stopTs": 1775557680000,
+    "title": "JM Vishesh",
+    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
+  },
+  {
+    "start": "10:28",
+    "stop": "10:49",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775557680000,
+    "stopTs": 1775558940000,
+    "title": "Bulletin 4 Pm Live",
+    "desc": "The host provides a comprehensive and detailed coverage of the latest news and developments from across the region, live."
+  },
+  {
+    "start": "10:49",
+    "stop": "10:51",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775558940000,
+    "stopTs": 1775559060000,
+    "title": "Break - THL / AVHL",
+    "desc": "The host presents a detailed report pertaining to some of the most significant matters surrounding the state and the nation."
+  },
+  {
+    "start": "10:51",
+    "stop": "10:58",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775559060000,
+    "stopTs": 1775559480000,
+    "title": "Mahafast 60 Live",
+    "desc": "The host provides the latest information on the top 60 news stories covering various political, economic and social issues in quick succession, live."
+  },
+  {
+    "start": "10:58",
+    "stop": "11:19",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775559480000,
+    "stopTs": 1775560740000,
+    "title": "Bulletin 4 Pm",
+    "desc": "The host presents the latest news stories and developments surrounding various political and socio-economic issues around the country."
+  },
+  {
+    "start": "11:19",
+    "stop": "11:21",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775560740000,
+    "stopTs": 1775560860000,
+    "title": "Break - THL / AVHL",
+    "desc": "The host presents a detailed report pertaining to some of the most significant matters surrounding the state and the nation."
+  },
+  {
+    "start": "11:21",
+    "stop": "11:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775560860000,
+    "stopTs": 1775561280000,
+    "title": "Mahafast 60",
+    "desc": "The host presents the latest news and developments from the political, social, economic and sports fronts from around the country."
+  },
+  {
+    "start": "11:28",
+    "stop": "12:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775561280000,
+    "stopTs": 1775564880000,
+    "title": "Lakshvedi Live",
+    "desc": "The host interacts with experts from different fields to share their views and opinions on important topics and issues that concern society, live."
+  },
+  {
+    "start": "12:28",
+    "stop": "12:49",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775564880000,
+    "stopTs": 1775566140000,
+    "title": "Bulletin 6 Pm Live",
+    "desc": "The host provides the latest information, advancements and developments on significant political, economic and social issues, live."
+  },
+  {
+    "start": "12:49",
+    "stop": "12:51",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775566140000,
+    "stopTs": 1775566260000,
+    "title": "Break - THL / AVHL",
+    "desc": "The host presents a detailed report pertaining to some of the most significant matters surrounding the state and the nation."
+  },
+  {
+    "start": "12:51",
+    "stop": "12:58",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775566260000,
+    "stopTs": 1775566680000,
+    "title": "Mahafast Live",
+    "desc": "The host presents the latest news updates and developments pertaining to socio-economic and political topics in the state of Maharashtra, live."
+  },
+  {
+    "start": "12:58",
+    "stop": "13:19",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775566680000,
+    "stopTs": 1775567940000,
+    "title": "Bulletin 6 Pm",
+    "desc": "The presenter sheds light on the latest news stories and developments surrounding various political and socio-economic issues around the country."
+  },
+  {
+    "start": "13:19",
+    "stop": "13:21",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775567940000,
+    "stopTs": 1775568060000,
+    "title": "Break - THL / AVHL",
+    "desc": "The host presents a detailed report pertaining to some of the most significant matters surrounding the state and the nation."
+  },
+  {
+    "start": "13:21",
+    "stop": "13:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775568060000,
+    "stopTs": 1775568480000,
+    "title": "Mahafast",
+    "desc": "The host provides the latest information, advancements and developments on various political, economic and social issues in quick succession."
+  },
+  {
+    "start": "13:28",
+    "stop": "13:49",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775568480000,
+    "stopTs": 1775569740000,
+    "title": "Bulletin 7 Pm Live",
+    "desc": "The host presents a series of ongoing news updates on governance, social, economic, sports, and political matters happening across the nation, live."
+  },
+  {
+    "start": "13:49",
+    "stop": "13:51",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775569740000,
+    "stopTs": 1775569860000,
+    "title": "Break - THL / AVHL",
+    "desc": "The host presents a detailed report pertaining to some of the most significant matters surrounding the state and the nation."
+  },
+  {
+    "start": "13:51",
+    "stop": "13:58",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775569860000,
+    "stopTs": 1775570280000,
+    "title": "Bulletin Live",
+    "desc": "The host gives the latest news updates on the political, socio-economical and cultural situation in the country, live."
+  },
+  {
+    "start": "13:58",
+    "stop": "14:19",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775570280000,
+    "stopTs": 1775571540000,
+    "title": "Mahafast Live",
+    "desc": "The host presents the latest news updates and developments pertaining to socio-economic and political topics in the state of Maharashtra, live."
+  },
+  {
+    "start": "14:19",
+    "stop": "14:21",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775571540000,
+    "stopTs": 1775571660000,
+    "title": "Break - THL / AVHL",
+    "desc": "The host presents a detailed report pertaining to some of the most significant matters surrounding the state and the nation."
+  },
+  {
+    "start": "14:21",
+    "stop": "14:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775571660000,
+    "stopTs": 1775572080000,
+    "title": "Mahafast",
+    "desc": "The host provides the latest information, advancements and developments on various political, economic and social issues in quick succession."
+  },
+  {
+    "start": "14:28",
+    "stop": "14:49",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775572080000,
+    "stopTs": 1775573340000,
+    "title": "Bulletin Live",
+    "desc": "The host gives the latest news updates on the political, socio-economical and cultural situation in the country, live."
+  },
+  {
+    "start": "14:49",
+    "stop": "14:51",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775573340000,
+    "stopTs": 1775573460000,
+    "title": "Break - THL / AVHL",
+    "desc": "The host presents a detailed report pertaining to some of the most significant matters surrounding the state and the nation."
+  },
+  {
+    "start": "14:51",
+    "stop": "14:58",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775573460000,
+    "stopTs": 1775573880000,
+    "title": "Mahafast",
+    "desc": "The host provides the latest information, advancements and developments on various political, economic and social issues in quick succession."
+  },
+  {
+    "start": "14:58",
+    "stop": "15:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775573880000,
+    "stopTs": 1775575680000,
+    "title": "JM Vishesh",
+    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
+  },
+  {
+    "start": "15:28",
+    "stop": "15:58",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775575680000,
+    "stopTs": 1775577480000,
+    "title": "Bulletin Live",
+    "desc": "The host gives the latest news updates on the political, socio-economical and cultural situation in the country, live."
+  },
+  {
+    "start": "15:58",
+    "stop": "16:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775577480000,
+    "stopTs": 1775579280000,
+    "title": "JM Vishesh Live",
+    "desc": "The newsreader presents a detailed report on some of the latest and most important news stories and updates from around the world, live."
+  },
+  {
+    "start": "16:28",
+    "stop": "16:58",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775579280000,
+    "stopTs": 1775581080000,
+    "title": "Maharashtra Unlimited Live",
+    "desc": "The latest news updates and developments based on the social, political, sports and economic issues from around Maharashtra."
+  },
+  {
+    "start": "16:58",
+    "stop": "17:14",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775581080000,
+    "stopTs": 1775582040000,
+    "title": "JM Vishesh",
+    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
+  },
+  {
+    "start": "17:14",
+    "stop": "17:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775582040000,
+    "stopTs": 1775582880000,
+    "title": "JM Vishesh",
+    "desc": "The host provides the latest information, advancements and developments regarding various political, economic and social issues."
+  },
+  {
+    "start": "17:28",
+    "stop": "17:58",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775582880000,
+    "stopTs": 1775584680000,
+    "title": "Lakshavedi",
+    "desc": "The host discusses social issues with experts and sheds light on the initiatives taken by the government to tackle them."
+  },
+  {
+    "start": "17:58",
+    "stop": "18:28",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775584680000,
+    "stopTs": 1775586480000,
+    "title": "Lakshavedi",
+    "desc": "The host discusses social issues with experts and sheds light on the initiatives taken by the government to tackle them."
+  },
+  {
+    "start": "18:28",
+    "stop": "18:29",
+    "channel": "JaiMaharashtra.in",
+    "channelId": "JaiMaharashtra.in",
+    "channelName": "Jai Maharashtra",
+    "startTs": 1775586480000,
+    "stopTs": 1775586599000,
+    "title": "Maharashtra Unlimited",
+    "desc": "The host presents the latest news updates and developments pertaining to social, political, sports and economic issues from around the Indian state of Maharashtra."
   }
 ]

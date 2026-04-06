@@ -107,7 +107,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Filmy Speed News",
-    "desc": "The host shares the top news from the film and entertainment industry in quick succession."
+    "desc": "The host presents some of the latest news and developments in the film and entertainment industry, including film releases and celebrity gossip in quick succession."
   },
   {
     "start": "16:00",
@@ -118,7 +118,7 @@
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Pourusham Pre-Release Event",
-    "desc": "The cast and crew of the film, Pourusham, answer questions regarding their movie."
+    "desc": "The cast and crew of the film, Pourusham, answer questions and share their experiences working in the movie, during the pre-release event."
   },
   {
     "start": "16:30",
@@ -129,7 +129,7 @@
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Oscar Winner Special",
-    "desc": "The presenter provides a detailed report on the movies that have won the Academy Awards."
+    "desc": "The presenter provides a detailed report on the movies that have won the Academy Awards and further highlights their details."
   },
   {
     "start": "17:00",
@@ -140,7 +140,7 @@
     "startTs": 1775494800000,
     "stopTs": 1775496600000,
     "title": "Artiste Trailer Launch",
-    "desc": "The cast and crew of the film &apos;Artiste&apos; officially launch the trailer of the movie."
+    "desc": "The cast and crew of the film &apos;Artiste&apos; gather to officially launch the trailer of the movie and share their experiences of working on the project."
   },
   {
     "start": "17:30",
@@ -151,17 +151,545 @@
     "startTs": 1775496600000,
     "stopTs": 1775498400000,
     "title": "Mahaa Music",
-    "desc": "A compilation of some of the most melodious songs by talented artists is played."
+    "desc": "A comprehensive compilation of some of the most melodious and energetic songs composed and sung by talented artists is played back to back in order to entertain the audience."
   },
   {
     "start": "18:00",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "MahaaMax.in",
     "channelId": "MahaaMax.in",
     "channelName": "Mahaa Max",
     "startTs": 1775498400000,
-    "stopTs": 1775500200000,
+    "stopTs": 1775500199000,
     "title": "Hit Songs",
-    "desc": "A compilation of popular songs performed by various eminent musicians."
+    "desc": "A comprehensive compilation of some of the most popular songs performed by various eminent musicians played back to back."
+  },
+  {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775500200000,
+    "stopTs": 1775502000000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "19:00",
+    "stop": "19:30",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775502000000,
+    "stopTs": 1775503800000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "19:30",
+    "stop": "20:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775503800000,
+    "stopTs": 1775505600000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "20:00",
+    "stop": "20:30",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775505600000,
+    "stopTs": 1775507400000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "20:30",
+    "stop": "21:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775507400000,
+    "stopTs": 1775509200000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "21:00",
+    "stop": "21:30",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775509200000,
+    "stopTs": 1775511000000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "21:30",
+    "stop": "22:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775511000000,
+    "stopTs": 1775512800000,
+    "title": "Raa Raja Movie Q&A",
+    "desc": "The host engages in a conversation with the cast and crew of the 2025 film &apos;Raa Raja&apos; to learn about their on-set experiences."
+  },
+  {
+    "start": "22:00",
+    "stop": "22:30",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775512800000,
+    "stopTs": 1775514600000,
+    "title": "Artiste Trailer Launch",
+    "desc": "The cast and crew of the film &apos;Artiste&apos; gather to officially launch the trailer of the movie and share their experiences of working on the project."
+  },
+  {
+    "start": "22:30",
+    "stop": "23:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775514600000,
+    "stopTs": 1775516400000,
+    "title": "Top 10 Love Stories",
+    "desc": "The host collates and presents a comprehensive compilation of the top ten love stories to cater to the interests of the viewers."
+  },
+  {
+    "start": "23:00",
+    "stop": "23:30",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775516400000,
+    "stopTs": 1775518200000,
+    "title": "Top 10 Love Stories",
+    "desc": "The host collates and presents a comprehensive compilation of the top ten love stories to cater to the interests of the viewers."
+  },
+  {
+    "start": "23:30",
+    "stop": "00:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775518200000,
+    "stopTs": 1775520000000,
+    "title": "Top 10 Love Stories",
+    "desc": "The host collates and presents a comprehensive compilation of the top ten love stories to cater to the interests of the viewers."
+  },
+  {
+    "start": "00:00",
+    "stop": "00:30",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775520000000,
+    "stopTs": 1775521800000,
+    "title": "Filmy Speed News",
+    "desc": "The host presents some of the latest news and developments in the film and entertainment industry, including film releases and celebrity gossip in quick succession."
+  },
+  {
+    "start": "00:30",
+    "stop": "01:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775521800000,
+    "stopTs": 1775523600000,
+    "title": "Yoga",
+    "desc": "An expert demonstrates various yogic poses to the audience, highlighting their benefits to maintain a healthy lifestyle."
+  },
+  {
+    "start": "01:00",
+    "stop": "01:30",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775523600000,
+    "stopTs": 1775525400000,
+    "title": "Chaganti",
+    "desc": "A religious scholar offers a detailed discourse and talks about the Hindu way of life for all devotees and followers to learn."
+  },
+  {
+    "start": "01:30",
+    "stop": "02:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775525400000,
+    "stopTs": 1775527200000,
+    "title": "Motivation",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "02:00",
+    "stop": "02:30",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775527200000,
+    "stopTs": 1775529000000,
+    "title": "Hit Songs",
+    "desc": "A comprehensive compilation of some of the most popular songs performed by various eminent musicians played back to back."
+  },
+  {
+    "start": "02:30",
+    "stop": "03:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775529000000,
+    "stopTs": 1775530800000,
+    "title": "Chaavaa Q&A",
+    "desc": "The host engages in a conversation with the cast and crew of the 2025 film &apos;Chhaava&apos; to learn about their on-set experiences."
+  },
+  {
+    "start": "03:00",
+    "stop": "03:30",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775530800000,
+    "stopTs": 1775532600000,
+    "title": "Kingston Team Interview",
+    "desc": "The host has a fascinating conversation with the cast and crew of the film &apos;Kingston&apos; to hear about their filming experiences."
+  },
+  {
+    "start": "03:30",
+    "stop": "04:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775532600000,
+    "stopTs": 1775534400000,
+    "title": "Raa Raja Movie Q&A",
+    "desc": "The host engages in a conversation with the cast and crew of the 2025 film &apos;Raa Raja&apos; to learn about their on-set experiences."
+  },
+  {
+    "start": "04:00",
+    "stop": "04:30",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775534400000,
+    "stopTs": 1775536200000,
+    "title": "Tuk Tuk Movie Interview",
+    "desc": "The cast and crew of the film, &apos;Tuk Tuk&apos; answer questions, along with sharing their personal experiences related to working in the film."
+  },
+  {
+    "start": "04:30",
+    "stop": "05:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775536200000,
+    "stopTs": 1775538000000,
+    "title": "Filmy Speed News",
+    "desc": "The host presents some of the latest news and developments in the film and entertainment industry, including film releases and celebrity gossip in quick succession."
+  },
+  {
+    "start": "05:00",
+    "stop": "05:30",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775538000000,
+    "stopTs": 1775539800000,
+    "title": "Artiste Trailer Launch",
+    "desc": "The cast and crew of the film &apos;Artiste&apos; gather to officially launch the trailer of the movie and share their experiences of working on the project."
+  },
+  {
+    "start": "05:30",
+    "stop": "06:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775539800000,
+    "stopTs": 1775541600000,
+    "title": "Super Hits - Manam",
+    "desc": "A comprehensive compilation of melodious hit songs composed by renowned musicians and performed by popular singers played back to back."
+  },
+  {
+    "start": "06:00",
+    "stop": "06:30",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775541600000,
+    "stopTs": 1775543400000,
+    "title": "Hit Songs",
+    "desc": "A comprehensive compilation of some of the most popular songs performed by various eminent musicians played back to back."
+  },
+  {
+    "start": "06:30",
+    "stop": "07:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775543400000,
+    "stopTs": 1775545200000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "07:00",
+    "stop": "07:30",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775545200000,
+    "stopTs": 1775547000000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "07:30",
+    "stop": "08:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775547000000,
+    "stopTs": 1775548800000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "08:00",
+    "stop": "08:30",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775548800000,
+    "stopTs": 1775550600000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "08:30",
+    "stop": "09:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775550600000,
+    "stopTs": 1775552400000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "09:00",
+    "stop": "09:30",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775552400000,
+    "stopTs": 1775554200000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "09:30",
+    "stop": "10:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775554200000,
+    "stopTs": 1775556000000,
+    "title": "Dil Raju Pressmeet",
+    "desc": "The host engages in a conversation with Dil Raju, a prominent Indian film producer and distributor as he answers the questions at a press meet."
+  },
+  {
+    "start": "10:00",
+    "stop": "10:30",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775556000000,
+    "stopTs": 1775557800000,
+    "title": "Drago",
+    "desc": "The host engages in an intriguing conversation with the cast and crew of the film &apos;Drago&apos; to learn about their filmmaking experiences."
+  },
+  {
+    "start": "10:30",
+    "stop": "11:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775557800000,
+    "stopTs": 1775559600000,
+    "title": "Top 10 Takedown",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775559600000,
+    "stopTs": 1775561400000,
+    "title": "Top 10 Takedown",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775561400000,
+    "stopTs": 1775563200000,
+    "title": "Top 10 Takedown",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775563200000,
+    "stopTs": 1775565000000,
+    "title": "Top 10 Takedown",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775565000000,
+    "stopTs": 1775566800000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775566800000,
+    "stopTs": 1775568600000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775568600000,
+    "stopTs": 1775570400000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775570400000,
+    "stopTs": 1775572200000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775572200000,
+    "stopTs": 1775574000000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775574000000,
+    "stopTs": 1775575800000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775575800000,
+    "stopTs": 1775577600000,
+    "title": "Filmy Speed News",
+    "desc": "The host presents some of the latest news and developments in the film and entertainment industry, including film releases and celebrity gossip in quick succession."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775577600000,
+    "stopTs": 1775579400000,
+    "title": "Pourusham Pre-Release Event",
+    "desc": "The cast and crew of the film, Pourusham, answer questions and share their experiences working in the movie, during the pre-release event."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775579400000,
+    "stopTs": 1775581200000,
+    "title": "Oscar Winner Special",
+    "desc": "The presenter provides a detailed report on the movies that have won the Academy Awards and further highlights their details."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775581200000,
+    "stopTs": 1775583000000,
+    "title": "Artiste Trailer Launch",
+    "desc": "The cast and crew of the film &apos;Artiste&apos; gather to officially launch the trailer of the movie and share their experiences of working on the project."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:00",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775583000000,
+    "stopTs": 1775584800000,
+    "title": "Mahaa Music",
+    "desc": "A comprehensive compilation of some of the most melodious and energetic songs composed and sung by talented artists is played back to back in order to entertain the audience."
+  },
+  {
+    "start": "18:00",
+    "stop": "18:29",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "Mahaa Max",
+    "startTs": 1775584800000,
+    "stopTs": 1775586599000,
+    "title": "Hit Songs",
+    "desc": "A comprehensive compilation of some of the most popular songs performed by various eminent musicians played back to back."
   }
 ]

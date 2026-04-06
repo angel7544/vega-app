@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "ABPNewsIndia.in",
-    "channelId": "ABPNewsIndia.in",
-    "channelName": "ABP News India",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Khabar Gawah Hain",
-    "desc": "Presents a detailed report on important news updates and current affairs, highlighting the pressing issues of society."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "ABPNewsIndia.in",

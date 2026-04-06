@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:15",
-    "channel": "PublicMusic.in",
-    "channelId": "PublicMusic.in",
-    "channelName": "Public Music",
-    "startTs": 1775471400000,
-    "stopTs": 1775474100000,
-    "title": "Heart Favourite",
-    "desc": "A compilation of some of the most popular songs is played back to back."
-  },
-  {
     "start": "11:15",
     "stop": "11:30",
     "channel": "PublicMusic.in",
@@ -19,7 +8,7 @@
     "startTs": 1775474100000,
     "stopTs": 1775475000000,
     "title": "Commercial Slot",
-    "desc": "The host showcases the features of a wide range of products by reputed brands."
+    "desc": "The host showcases the features of a wide range of products manufactured by reputed brands that can be purchased from the comfort of one&apos;s home."
   },
   {
     "start": "11:30",
@@ -30,7 +19,7 @@
     "startTs": 1775475000000,
     "stopTs": 1775478600000,
     "title": "Whatsapp Geetsapp",
-    "desc": "A comprehensive compilation of most popular and hit songs is played back-to-back."
+    "desc": "A comprehensive compilation of most popular and hit songs composed and performed by talented singers is played back-to-back."
   },
   {
     "start": "12:30",
@@ -41,7 +30,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775482200000,
     "title": "Insta hits/Public choice",
-    "desc": "A compilation of popular songs; viewers call in to request a song of their choice."
+    "desc": "An entertaining compilation of the top favourite songs is played back to back; viewers call in to request a song of their choice."
   },
   {
     "start": "13:30",
@@ -52,7 +41,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775485800000,
     "title": "Music Express",
-    "desc": "A compilation of melodious songs composed by famous artists from popular Kannada movies."
+    "desc": "A comprehensive compilation of melodious songs written and composed by famous artists and musicians from popular Kannada movies."
   },
   {
     "start": "14:30",
@@ -63,7 +52,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775489400000,
     "title": "Music Express",
-    "desc": "A compilation of melodious songs composed by famous artists from popular Kannada movies."
+    "desc": "A comprehensive compilation of melodious songs written and composed by famous artists and musicians from popular Kannada movies."
   },
   {
     "start": "15:30",
@@ -74,7 +63,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775493000000,
     "title": "Heart Favourite",
-    "desc": "A compilation of some of the most popular songs is played back to back."
+    "desc": "A comprehensive compilation of some of the most popular songs performed and composed by various artists is played back to back."
   },
   {
     "start": "16:30",
@@ -85,17 +74,270 @@
     "startTs": 1775493000000,
     "stopTs": 1775496600000,
     "title": "Music Box-90&apos;s",
-    "desc": "A compilation of some of the best songs from classic Kannada movies of the 1990s is played."
+    "desc": "A comprehensive compilation of some of the most popular songs from Kannada movies of the 1990s performed by various artists and musicians is played back to back."
   },
   {
     "start": "17:30",
-    "stop": "18:30",
+    "stop": "18:29",
     "channel": "PublicMusic.in",
     "channelId": "PublicMusic.in",
     "channelName": "Public Music",
     "startTs": 1775496600000,
-    "stopTs": 1775500200000,
+    "stopTs": 1775500199000,
     "title": "B2B HIT Songs",
-    "desc": "A compilation of some of the most popular Kannada songs is played back to back."
+    "desc": "A compilation of some of the most popular Kannada chartbusters and hit songs composed by illustrious musicians is played back to back."
+  },
+  {
+    "start": "18:30",
+    "stop": "01:30",
+    "channel": "PublicMusic.in",
+    "channelId": "PublicMusic.in",
+    "channelName": "Public Music",
+    "startTs": 1775500200000,
+    "stopTs": 1775525400000,
+    "title": "B2B HIT Songs",
+    "desc": "A compilation of some of the most popular Kannada chartbusters and hit songs composed by illustrious musicians is played back to back."
+  },
+  {
+    "start": "01:30",
+    "stop": "02:30",
+    "channel": "PublicMusic.in",
+    "channelId": "PublicMusic.in",
+    "channelName": "Public Music",
+    "startTs": 1775525400000,
+    "stopTs": 1775529000000,
+    "title": "Cinema Namosthute",
+    "desc": "The latest updates from the field of entertainment and information about the recent movies of the week at the box office."
+  },
+  {
+    "start": "02:30",
+    "stop": "03:30",
+    "channel": "PublicMusic.in",
+    "channelId": "PublicMusic.in",
+    "channelName": "Public Music",
+    "startTs": 1775529000000,
+    "stopTs": 1775532600000,
+    "title": "Crazy Morningz",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "03:30",
+    "stop": "04:30",
+    "channel": "PublicMusic.in",
+    "channelId": "PublicMusic.in",
+    "channelName": "Public Music",
+    "startTs": 1775532600000,
+    "stopTs": 1775536200000,
+    "title": "Whatsapp Geetsapp",
+    "desc": "A comprehensive compilation of most popular and hit songs composed and performed by talented singers is played back-to-back."
+  },
+  {
+    "start": "04:30",
+    "stop": "05:15",
+    "channel": "PublicMusic.in",
+    "channelId": "PublicMusic.in",
+    "channelName": "Public Music",
+    "startTs": 1775536200000,
+    "stopTs": 1775538900000,
+    "title": "Love Birds",
+    "desc": "Bringing the best in cinema."
+  },
+  {
+    "start": "05:15",
+    "stop": "05:30",
+    "channel": "PublicMusic.in",
+    "channelId": "PublicMusic.in",
+    "channelName": "Public Music",
+    "startTs": 1775538900000,
+    "stopTs": 1775539800000,
+    "title": "Commercial Slot",
+    "desc": "The host showcases the features of a wide range of products manufactured by reputed brands that can be purchased from the comfort of one&apos;s home."
+  },
+  {
+    "start": "05:30",
+    "stop": "06:15",
+    "channel": "PublicMusic.in",
+    "channelId": "PublicMusic.in",
+    "channelName": "Public Music",
+    "startTs": 1775539800000,
+    "stopTs": 1775542500000,
+    "title": "Love Birds",
+    "desc": "Bringing the best in cinema."
+  },
+  {
+    "start": "06:15",
+    "stop": "06:30",
+    "channel": "PublicMusic.in",
+    "channelId": "PublicMusic.in",
+    "channelName": "Public Music",
+    "startTs": 1775542500000,
+    "stopTs": 1775543400000,
+    "title": "Commercial Slot",
+    "desc": "The host showcases the features of a wide range of products manufactured by reputed brands that can be purchased from the comfort of one&apos;s home."
+  },
+  {
+    "start": "06:30",
+    "stop": "07:30",
+    "channel": "PublicMusic.in",
+    "channelId": "PublicMusic.in",
+    "channelName": "Public Music",
+    "startTs": 1775543400000,
+    "stopTs": 1775547000000,
+    "title": "Kathe Music Jothe",
+    "desc": "A comprehensive compilation of popular songs composed by well-known artists is played back to back for the music aficionados."
+  },
+  {
+    "start": "07:30",
+    "stop": "08:30",
+    "channel": "PublicMusic.in",
+    "channelId": "PublicMusic.in",
+    "channelName": "Public Music",
+    "startTs": 1775547000000,
+    "stopTs": 1775550600000,
+    "title": "Prema Raga",
+    "desc": "An entertaining compilation of popular romantic and melodious numbers from the Kannada film industry is played back to back."
+  },
+  {
+    "start": "08:30",
+    "stop": "09:15",
+    "channel": "PublicMusic.in",
+    "channelId": "PublicMusic.in",
+    "channelName": "Public Music",
+    "startTs": 1775550600000,
+    "stopTs": 1775553300000,
+    "title": "Music Safari",
+    "desc": "A comprehensive compilation of some of the biggest hits and most memorable songs from popular films, performed by a range of talented artists is played back to back."
+  },
+  {
+    "start": "09:15",
+    "stop": "09:30",
+    "channel": "PublicMusic.in",
+    "channelId": "PublicMusic.in",
+    "channelName": "Public Music",
+    "startTs": 1775553300000,
+    "stopTs": 1775554200000,
+    "title": "Commercial Slot",
+    "desc": "The host showcases the features of a wide range of products manufactured by reputed brands that can be purchased from the comfort of one&apos;s home."
+  },
+  {
+    "start": "09:30",
+    "stop": "10:15",
+    "channel": "PublicMusic.in",
+    "channelId": "PublicMusic.in",
+    "channelName": "Public Music",
+    "startTs": 1775554200000,
+    "stopTs": 1775556900000,
+    "title": "Heart Favourite",
+    "desc": "A comprehensive compilation of some of the most popular songs performed and composed by various artists is played back to back."
+  },
+  {
+    "start": "10:15",
+    "stop": "10:30",
+    "channel": "PublicMusic.in",
+    "channelId": "PublicMusic.in",
+    "channelName": "Public Music",
+    "startTs": 1775556900000,
+    "stopTs": 1775557800000,
+    "title": "Commercial Slot",
+    "desc": "The host showcases the features of a wide range of products manufactured by reputed brands that can be purchased from the comfort of one&apos;s home."
+  },
+  {
+    "start": "10:30",
+    "stop": "11:15",
+    "channel": "PublicMusic.in",
+    "channelId": "PublicMusic.in",
+    "channelName": "Public Music",
+    "startTs": 1775557800000,
+    "stopTs": 1775560500000,
+    "title": "Heart Favourite",
+    "desc": "A comprehensive compilation of some of the most popular songs performed and composed by various artists is played back to back."
+  },
+  {
+    "start": "11:15",
+    "stop": "11:30",
+    "channel": "PublicMusic.in",
+    "channelId": "PublicMusic.in",
+    "channelName": "Public Music",
+    "startTs": 1775560500000,
+    "stopTs": 1775561400000,
+    "title": "Commercial Slot",
+    "desc": "The host showcases the features of a wide range of products manufactured by reputed brands that can be purchased from the comfort of one&apos;s home."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "PublicMusic.in",
+    "channelId": "PublicMusic.in",
+    "channelName": "Public Music",
+    "startTs": 1775561400000,
+    "stopTs": 1775565000000,
+    "title": "Whatsapp Geetsapp",
+    "desc": "A comprehensive compilation of most popular and hit songs composed and performed by talented singers is played back-to-back."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "PublicMusic.in",
+    "channelId": "PublicMusic.in",
+    "channelName": "Public Music",
+    "startTs": 1775565000000,
+    "stopTs": 1775568600000,
+    "title": "Insta hits/Public choice",
+    "desc": "An entertaining compilation of the top favourite songs is played back to back; viewers call in to request a song of their choice."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "PublicMusic.in",
+    "channelId": "PublicMusic.in",
+    "channelName": "Public Music",
+    "startTs": 1775568600000,
+    "stopTs": 1775572200000,
+    "title": "Music Express",
+    "desc": "A comprehensive compilation of melodious songs written and composed by famous artists and musicians from popular Kannada movies."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "PublicMusic.in",
+    "channelId": "PublicMusic.in",
+    "channelName": "Public Music",
+    "startTs": 1775572200000,
+    "stopTs": 1775575800000,
+    "title": "Music Express",
+    "desc": "A comprehensive compilation of melodious songs written and composed by famous artists and musicians from popular Kannada movies."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "PublicMusic.in",
+    "channelId": "PublicMusic.in",
+    "channelName": "Public Music",
+    "startTs": 1775575800000,
+    "stopTs": 1775579400000,
+    "title": "Heart Favourite",
+    "desc": "A comprehensive compilation of some of the most popular songs performed and composed by various artists is played back to back."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "PublicMusic.in",
+    "channelId": "PublicMusic.in",
+    "channelName": "Public Music",
+    "startTs": 1775579400000,
+    "stopTs": 1775583000000,
+    "title": "Music Box-90&apos;s",
+    "desc": "A comprehensive compilation of some of the most popular songs from Kannada movies of the 1990s performed by various artists and musicians is played back to back."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:29",
+    "channel": "PublicMusic.in",
+    "channelId": "PublicMusic.in",
+    "channelName": "Public Music",
+    "startTs": 1775583000000,
+    "stopTs": 1775586599000,
+    "title": "B2B HIT Songs",
+    "desc": "A compilation of some of the most popular Kannada chartbusters and hit songs composed by illustrious musicians is played back to back."
   }
 ]

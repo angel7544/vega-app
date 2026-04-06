@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "DesiChannel.in",
-    "channelId": "DesiChannel.in",
-    "channelName": "Desi Channel",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Songs",
-    "desc": "A comprehensive compilation of catchy, popular and entertaining songs by various artists and bands from around the world."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "DesiChannel.in",

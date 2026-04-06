@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "STVHaryanaNews.in",
-    "channelId": "STVHaryanaNews.in",
-    "channelName": "STV Haryana News",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Badi Khabar",
-    "desc": "The host presents a detailed analysis of some of the most important and major news, updates and developments of the day."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "STVHaryanaNews.in",

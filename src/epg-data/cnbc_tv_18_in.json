@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "CNBCTV18.in",
-    "channelId": "CNBCTV18.in",
-    "channelName": "CNBC Tv 18",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "After The Bell",
-    "desc": "Experts from various fields share their views and opinions on the updates and the status of the share market post the closing bell."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "CNBCTV18.in",

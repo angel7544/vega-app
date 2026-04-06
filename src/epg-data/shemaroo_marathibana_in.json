@@ -8,7 +8,7 @@
     "startTs": 1775471400000,
     "stopTs": 1775478600000,
     "title": "Sai majhe Taranhaar",
-    "desc": "Sai Baba, a revered saint, performs miracles to help people in distress."
+    "desc": "Sai Baba, a reverend saint, blesses his devotees with wisdom, performs miracles to aid those in distress, and inspires people to lead a virtuous and meaningful life."
   },
   {
     "start": "12:30",
@@ -19,7 +19,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775482200000,
     "title": "Shree Krishna",
-    "desc": "Lord Vishnu enters the world as Lord Krishna to fight the evil forces destroying humanity."
+    "desc": "Lord Vishnu decides to enter the world as Lord Krishna in order to fight the evil forces taking over humanity and protect the righteous people."
   },
   {
     "start": "13:30",
@@ -30,7 +30,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775485800000,
     "title": "Gatha Navnathanchi",
-    "desc": "Nine saints embark upon a glorious mission to save humanity and bring order to Earth."
+    "desc": "As vice and evil engulf the world, nine saints embark upon a glorious mission to save humanity and bring order to Earth."
   },
   {
     "start": "14:30",
@@ -41,7 +41,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Dnyaneshwar Mauli",
-    "desc": "Dnyaneshwar performs miracles to help those in need and garners their love and devotion."
+    "desc": "Dnyaneshwar, a young Marathi poet and philosopher, performs miracles to help those in need and garners their admiration and devotion."
   },
   {
     "start": "15:00",
@@ -52,7 +52,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Jogeshvaricha Pati Bhairavnath",
-    "desc": "Goddess Jogeshvari and Lord Bhairavnath&apos;s marriage becomes a symbol of love and devotion."
+    "desc": "After praying to Goddess Parvati to find a husband like Lord Shiva, Goddess Jogeshvari gets married to Lord Bhairavnath. Their bond soon becomes a symbol of love and devotion."
   },
   {
     "start": "15:30",
@@ -63,7 +63,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Om Namah Shivay",
-    "desc": "Shiva creates the universe which then leads to the formation of the twelve Jyotirlingas."
+    "desc": "Shiva, the creator god in Hindu mythology, sets off the creation of the universe which then leads to the formation of the twelve Jyotirlingas."
   },
   {
     "start": "16:00",
@@ -74,7 +74,7 @@
     "startTs": 1775491200000,
     "stopTs": 1775493000000,
     "title": "Veer Shivaji",
-    "desc": "Shivaji undertakes a journey from that of a warrior to the founder of the Maratha empire."
+    "desc": "Shivaji, a child prodigy, is raised to be a fierce warrior. As he grows up, he turns into the revered founder of the Maratha Empire and establishes Swaraj in his kingdom."
   },
   {
     "start": "16:30",
@@ -85,17 +85,281 @@
     "startTs": 1775493000000,
     "stopTs": 1775496600000,
     "title": "Maharashtrachi Hasya Jatra",
-    "desc": "Talented comedians bring laughter with witty humour and entertaining skits."
+    "desc": "Talented comedians bring laughter to the stage with entertaining performances, witty humour and engaging skits, offering a delightful mix of fun and satire."
   },
   {
     "start": "17:30",
-    "stop": "20:30",
+    "stop": "18:29",
     "channel": "ShemarooMarathiBana.in",
     "channelId": "ShemarooMarathiBana.in",
     "channelName": "Shemaroo MarathiBana",
     "startTs": 1775496600000,
+    "stopTs": 1775500199000,
+    "title": "Maharashtrachi Hasya Jatra",
+    "desc": "Talented comedians bring laughter to the stage with entertaining performances, witty humour and engaging skits, offering a delightful mix of fun and satire."
+  },
+  {
+    "start": "18:30",
+    "stop": "20:30",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775500200000,
     "stopTs": 1775507400000,
     "title": "Maharashtrachi Hasya Jatra",
-    "desc": "Talented comedians bring laughter with witty humour and entertaining skits."
+    "desc": "Talented comedians bring laughter to the stage with entertaining performances, witty humour and engaging skits, offering a delightful mix of fun and satire."
+  },
+  {
+    "start": "20:30",
+    "stop": "23:30",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775507400000,
+    "stopTs": 1775518200000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "23:30",
+    "stop": "00:00",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775518200000,
+    "stopTs": 1775520000000,
+    "title": "Indurikar Maharajansange",
+    "desc": "Indurikar Maharaj delivers a discourse on how to lead a conscious and peaceful life and chants devotional songs in praise of God."
+  },
+  {
+    "start": "00:00",
+    "stop": "01:00",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775520000000,
+    "stopTs": 1775523600000,
+    "title": "Gajar Maulicha",
+    "desc": "Devotional melodies and spiritual wisdom come together as traditional kirtankars share inspiring stories through soulful music in a sacred setting."
+  },
+  {
+    "start": "01:00",
+    "stop": "02:00",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775523600000,
+    "stopTs": 1775527200000,
+    "title": "Gajar Maulicha",
+    "desc": "Devotional melodies and spiritual wisdom come together as traditional kirtankars share inspiring stories through soulful music in a sacred setting."
+  },
+  {
+    "start": "02:00",
+    "stop": "02:30",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775527200000,
+    "stopTs": 1775529000000,
+    "title": "Gajar Maulicha Kirtanacha Powerdose",
+    "desc": "Social educators deliver a discourse to apprise devotees of appropriate measures to several social issues, through humour."
+  },
+  {
+    "start": "02:30",
+    "stop": "03:00",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775529000000,
+    "stopTs": 1775530800000,
+    "title": "Gajar Maulicha Kirtanacha Powerdose",
+    "desc": "Social educators deliver a discourse to apprise devotees of appropriate measures to several social issues, through humour."
+  },
+  {
+    "start": "03:00",
+    "stop": "04:00",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775530800000,
+    "stopTs": 1775534400000,
+    "title": "Shree Krishna",
+    "desc": "Lord Vishnu decides to enter the world as Lord Krishna in order to fight the evil forces taking over humanity and protect the righteous people."
+  },
+  {
+    "start": "04:00",
+    "stop": "04:30",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775534400000,
+    "stopTs": 1775536200000,
+    "title": "Jogeshvaricha Pati Bhairavnath",
+    "desc": "After praying to Goddess Parvati to find a husband like Lord Shiva, Goddess Jogeshvari gets married to Lord Bhairavnath. Their bond soon becomes a symbol of love and devotion."
+  },
+  {
+    "start": "04:30",
+    "stop": "05:00",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775536200000,
+    "stopTs": 1775538000000,
+    "title": "Dnyaneshwar Mauli",
+    "desc": "Dnyaneshwar, a young Marathi poet and philosopher, performs miracles to help those in need and garners their admiration and devotion."
+  },
+  {
+    "start": "05:00",
+    "stop": "05:30",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775538000000,
+    "stopTs": 1775539800000,
+    "title": "Dnyaneshwar Mauli",
+    "desc": "Dnyaneshwar, a young Marathi poet and philosopher, performs miracles to help those in need and garners their admiration and devotion."
+  },
+  {
+    "start": "05:30",
+    "stop": "06:30",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775539800000,
+    "stopTs": 1775543400000,
+    "title": "Gatha Navnathanchi",
+    "desc": "As vice and evil engulf the world, nine saints embark upon a glorious mission to save humanity and bring order to Earth."
+  },
+  {
+    "start": "06:30",
+    "stop": "07:30",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775543400000,
+    "stopTs": 1775547000000,
+    "title": "Gatha Navnathanchi",
+    "desc": "As vice and evil engulf the world, nine saints embark upon a glorious mission to save humanity and bring order to Earth."
+  },
+  {
+    "start": "07:30",
+    "stop": "10:30",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775547000000,
+    "stopTs": 1775557800000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "10:30",
+    "stop": "12:30",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775557800000,
+    "stopTs": 1775565000000,
+    "title": "Sai majhe Taranhaar",
+    "desc": "Sai Baba, a reverend saint, blesses his devotees with wisdom, performs miracles to aid those in distress, and inspires people to lead a virtuous and meaningful life."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775565000000,
+    "stopTs": 1775568600000,
+    "title": "Shree Krishna",
+    "desc": "Lord Vishnu decides to enter the world as Lord Krishna in order to fight the evil forces taking over humanity and protect the righteous people."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775568600000,
+    "stopTs": 1775572200000,
+    "title": "Gatha Navnathanchi",
+    "desc": "As vice and evil engulf the world, nine saints embark upon a glorious mission to save humanity and bring order to Earth."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775572200000,
+    "stopTs": 1775574000000,
+    "title": "Dnyaneshwar Mauli",
+    "desc": "Dnyaneshwar, a young Marathi poet and philosopher, performs miracles to help those in need and garners their admiration and devotion."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:15",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775574000000,
+    "stopTs": 1775574900000,
+    "title": "Jogeshvaricha Pati Bhairavnath",
+    "desc": "After praying to Goddess Parvati to find a husband like Lord Shiva, Goddess Jogeshvari gets married to Lord Bhairavnath. Their bond soon becomes a symbol of love and devotion."
+  },
+  {
+    "start": "15:15",
+    "stop": "15:30",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775574900000,
+    "stopTs": 1775575800000,
+    "title": "Jogeshvaricha Pati Bhairavnath",
+    "desc": "After praying to Goddess Parvati to find a husband like Lord Shiva, Goddess Jogeshvari gets married to Lord Bhairavnath. Their bond soon becomes a symbol of love and devotion."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775575800000,
+    "stopTs": 1775577600000,
+    "title": "Om Namah Shivay",
+    "desc": "Shiva, the creator god in Hindu mythology, sets off the creation of the universe which then leads to the formation of the twelve Jyotirlingas."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775577600000,
+    "stopTs": 1775579400000,
+    "title": "Veer Shivaji",
+    "desc": "Shivaji, a child prodigy, is raised to be a fierce warrior. As he grows up, he turns into the revered founder of the Maratha Empire and establishes Swaraj in his kingdom."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775579400000,
+    "stopTs": 1775583000000,
+    "title": "Maharashtrachi Hasya Jatra",
+    "desc": "Talented comedians bring laughter to the stage with entertaining performances, witty humour and engaging skits, offering a delightful mix of fun and satire."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:29",
+    "channel": "ShemarooMarathiBana.in",
+    "channelId": "ShemarooMarathiBana.in",
+    "channelName": "Shemaroo MarathiBana",
+    "startTs": 1775583000000,
+    "stopTs": 1775586599000,
+    "title": "Maharashtrachi Hasya Jatra",
+    "desc": "Talented comedians bring laughter to the stage with entertaining performances, witty humour and engaging skits, offering a delightful mix of fun and satire."
   }
 ]

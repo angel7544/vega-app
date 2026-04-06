@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "DANewsPlus.in",
-    "channelId": "DANewsPlus.in",
-    "channelName": "DA News Plus",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Surkhiyan",
-    "desc": "The host presents the latest updates and headlines on the social, economic and political issues and shares information on current affairs."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "DANewsPlus.in",

@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "TV9Karnataka.in",
-    "channelId": "TV9Karnataka.in",
-    "channelName": "TV9 Karnataka",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "News Bulletin",
-    "desc": "The host presents the latest regional, national and international news of the day and provides up-to-date information on current events."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "TV9Karnataka.in",

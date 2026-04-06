@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "SVBC4.in",
-    "channelId": "SVBC4.in",
-    "channelName": "SVBC4",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Tirumala - Nadaneerajanam Live",
-    "desc": "Various singers and musicians present live performances of different art forms on the stage in praise of Lord Venkateswara."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "SVBC4.in",

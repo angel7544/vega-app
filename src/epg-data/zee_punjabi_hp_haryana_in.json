@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "ZeePunjabiHPHaryana.in",
-    "channelId": "ZeePunjabiHPHaryana.in",
-    "channelName": "Zee Punjabi HP Haryana",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Punjab Big Breaking",
-    "desc": "The host provides the latest and breaking socio-economic and political news, updates and developments from India and around the world."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "ZeePunjabiHPHaryana.in",

@@ -19,7 +19,7 @@
     "startTs": 1775476800000,
     "stopTs": 1775478600000,
     "title": "Daku Maharaj Balakrishna Interview",
-    "desc": "The host speaks to actor Nandamuri Balakrishna to learn about his film &apos;Daaku Maharaaj&apos;."
+    "desc": "The host engages in a conversation with actor Nandamuri Balakrishna to learn about his film &apos;Daaku Maharaja&apos; and his on-set experiences."
   },
   {
     "start": "12:30",
@@ -30,7 +30,7 @@
     "startTs": 1775478600000,
     "stopTs": 1775480400000,
     "title": "Drinker Sai Press Meet",
-    "desc": "The cast and crew of the Indian movie &apos;Drinker Sai&apos; come together to promote their film."
+    "desc": "The cast and crew of the Indian movie &apos;Drinker Sai&apos; come together to promote their film and share their experiences on the set."
   },
   {
     "start": "13:00",
@@ -41,7 +41,7 @@
     "startTs": 1775480400000,
     "stopTs": 1775482200000,
     "title": "Sankranthiki Vastunnaam Trailer Launch",
-    "desc": "The actors and makers of &apos;Sankranthiki Vasthunam&apos; film gather for trailer launch event."
+    "desc": "The actors and makers of &apos;Sankranthiki Vasthunam&apos; film gather to officially launch the trailer of the film and share their experiences of working on the project."
   },
   {
     "start": "13:30",
@@ -52,7 +52,7 @@
     "startTs": 1775482200000,
     "stopTs": 1775484000000,
     "title": "Daku Maharaj USA Event",
-    "desc": "The cast of &apos;Daaku Maharaaj&apos; shares their experiences at the pre-release event in the USA."
+    "desc": "The cast and crew of &apos;Daaku Maharaja&apos; share their on-set experiences at the grand pre-release event of the film held in the USA."
   },
   {
     "start": "14:00",
@@ -63,7 +63,7 @@
     "startTs": 1775484000000,
     "stopTs": 1775485800000,
     "title": "Game Changer Bombay Press Meet",
-    "desc": "The cast and crew of the movie &apos;Game Changer&apos; promote their project."
+    "desc": "The cast and crew of the Indian Telugu-language movie &apos;Game Changer&apos; get together to promote the project and share their experiences of working on the movie."
   },
   {
     "start": "14:30",
@@ -74,7 +74,7 @@
     "startTs": 1775485800000,
     "stopTs": 1775487600000,
     "title": "Goutham 3.0 Interview",
-    "desc": "The host engages in a conversation with &apos;Bigg Boss Telugu 8&apos; runner-up, Gautham Krishna."
+    "desc": "The host engages in a conversation with Gautham Krishna, an actor and runner-up of &apos;Bigg Boss Telugu 8&apos;, to learn about his experiences."
   },
   {
     "start": "15:00",
@@ -85,7 +85,7 @@
     "startTs": 1775487600000,
     "stopTs": 1775489400000,
     "title": "Sequel Trends",
-    "desc": "The host presents a detailed report on the latest trends of making movie sequels."
+    "desc": "The host presents a detailed report on the latest trends of making movie sequels and shares information related to upcoming films."
   },
   {
     "start": "15:30",
@@ -96,7 +96,7 @@
     "startTs": 1775489400000,
     "stopTs": 1775491200000,
     "title": "Kotha Ragam",
-    "desc": "A comprehensive compilation of melodious songs by talented artists is played back-to-back."
+    "desc": "A comprehensive compilation of melodious songs composed and sung by talented artists is played back-to-back to enthral the audience."
   },
   {
     "start": "16:00",
@@ -118,16 +118,390 @@
     "startTs": 1775493000000,
     "stopTs": 1775494800000,
     "title": "Vissa News Bulletin",
-    "desc": "The host presents some of the latest updates, current affairs and developments."
+    "desc": "The host presents some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
   },
   {
     "start": "17:00",
-    "stop": "19:30",
+    "stop": "18:29",
     "channel": "VissaTV.in",
     "channelId": "VissaTV.in",
     "channelName": "Vissa TV",
     "startTs": 1775494800000,
+    "stopTs": 1775500199000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "18:30",
+    "stop": "19:30",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775500200000,
     "stopTs": 1775503800000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "19:30",
+    "stop": "20:30",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775503800000,
+    "stopTs": 1775507400000,
+    "title": "Mirchi Hot Songs",
+    "desc": "A robust and engaging compilation of some of the most popular songs composed by different musicians and performed by renowned artists, played back-to-back."
+  },
+  {
+    "start": "20:30",
+    "stop": "21:30",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775507400000,
+    "stopTs": 1775511000000,
+    "title": "Kotha Ragam",
+    "desc": "A comprehensive compilation of melodious songs composed and sung by talented artists is played back-to-back to enthral the audience."
+  },
+  {
+    "start": "21:30",
+    "stop": "22:00",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775511000000,
+    "stopTs": 1775512800000,
+    "title": "Game Changer Bombay Press Meet",
+    "desc": "The cast and crew of the Indian Telugu-language movie &apos;Game Changer&apos; get together to promote the project and share their experiences of working on the movie."
+  },
+  {
+    "start": "22:00",
+    "stop": "22:30",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775512800000,
+    "stopTs": 1775514600000,
+    "title": "Sankraathiki Vastunnam Interview",
+    "desc": "The hosts hold an insightful conversation with renowned personalities regarding their upcoming film project, discussing their experiences and hilarious anecdotes."
+  },
+  {
+    "start": "22:30",
+    "stop": "23:00",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775514600000,
+    "stopTs": 1775516400000,
+    "title": "Daku Maharaj Balakrishna Interview",
+    "desc": "The host engages in a conversation with actor Nandamuri Balakrishna to learn about his film &apos;Daaku Maharaja&apos; and his on-set experiences."
+  },
+  {
+    "start": "23:00",
+    "stop": "23:30",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775516400000,
+    "stopTs": 1775518200000,
+    "title": "Dilruba Movie Launch",
+    "desc": "The cast and crew of &apos;Dilruba&apos;, a Telugu film, come together to officially launch the movie, sharing behind-the-scenes stories as well as their experiences of working on the project."
+  },
+  {
+    "start": "23:30",
+    "stop": "00:00",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775518200000,
+    "stopTs": 1775520000000,
+    "title": "Sankranthiki Vastunaam Trailer",
+    "desc": "The trailer of &apos;Sankranthiki Vasthunnam&apos;, a 2025 Telugu movie starring Venkatesh, Aishwarya Rajesh and Meenakshi Chaudhary, is presented."
+  },
+  {
+    "start": "00:00",
+    "stop": "00:30",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775520000000,
+    "stopTs": 1775521800000,
+    "title": "Daku Maharaj Event",
+    "desc": "The cast and crew of &apos;Daaku Maharaaj&apos; interact with the media and share their on-set experiences at the grand pre-release event of the film."
+  },
+  {
+    "start": "00:30",
+    "stop": "01:00",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775521800000,
+    "stopTs": 1775523600000,
+    "title": "Astaadhasha Pooran",
+    "desc": "Devotees gather from near and far as a religious leader discourses on holy texts and interprets their messages, encouraging a life of spirituality and righteousness."
+  },
+  {
+    "start": "01:00",
+    "stop": "01:30",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775523600000,
+    "stopTs": 1775525400000,
+    "title": "Sri Ganapathi Mahatyam",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "01:30",
+    "stop": "02:00",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775525400000,
+    "stopTs": 1775527200000,
+    "title": "Bhakthi Geetalu",
+    "desc": "A comprehensive compilation of melodious songs sung and composed by talented artists is played in order to invoke the spirit of devotion."
+  },
+  {
+    "start": "02:00",
+    "stop": "02:30",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775527200000,
+    "stopTs": 1775529000000,
+    "title": "Aaharam Arogyam",
+    "desc": "A food specialist provides expert insights into dietary guidelines, offering practical advice to promote healthy eating habits as well as overall well-being."
+  },
+  {
+    "start": "02:30",
+    "stop": "03:00",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775529000000,
+    "stopTs": 1775530800000,
+    "title": "Sadguru",
+    "desc": "Sadhguru, a well-known ascetic, delivers an important discourse on spirituality and provides essential tips on leading a happy life."
+  },
+  {
+    "start": "03:00",
+    "stop": "03:30",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775530800000,
+    "stopTs": 1775532600000,
+    "title": "Sankranthiki Say",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "03:30",
+    "stop": "04:00",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775532600000,
+    "stopTs": 1775534400000,
+    "title": "Kotha Ragam",
+    "desc": "A comprehensive compilation of melodious songs composed and sung by talented artists is played back-to-back to enthral the audience."
+  },
+  {
+    "start": "04:00",
+    "stop": "04:30",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775534400000,
+    "stopTs": 1775536200000,
+    "title": "Multiplex",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "04:30",
+    "stop": "05:00",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775536200000,
+    "stopTs": 1775538000000,
+    "title": "Vissa News Bulletin",
+    "desc": "The host presents some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
+  },
+  {
+    "start": "05:00",
+    "stop": "05:30",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775538000000,
+    "stopTs": 1775539800000,
+    "title": "Vikatakavi Interviews",
+    "desc": "The host engages in a conversation with the cast and crew of Vikkatakavi, an Indian Telugu-language television series, to learn about their experiences."
+  },
+  {
+    "start": "05:30",
+    "stop": "08:00",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775539800000,
+    "stopTs": 1775548800000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "08:00",
+    "stop": "08:30",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775548800000,
+    "stopTs": 1775550600000,
+    "title": "Multiplex",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "08:30",
+    "stop": "09:30",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775550600000,
+    "stopTs": 1775554200000,
+    "title": "Neetho Chepaalani Live",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "09:30",
+    "stop": "12:00",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775554200000,
+    "stopTs": 1775563200000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775563200000,
+    "stopTs": 1775565000000,
+    "title": "Daku Maharaj Balakrishna Interview",
+    "desc": "The host engages in a conversation with actor Nandamuri Balakrishna to learn about his film &apos;Daaku Maharaja&apos; and his on-set experiences."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775565000000,
+    "stopTs": 1775566800000,
+    "title": "Drinker Sai Press Meet",
+    "desc": "The cast and crew of the Indian movie &apos;Drinker Sai&apos; come together to promote their film and share their experiences on the set."
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775566800000,
+    "stopTs": 1775568600000,
+    "title": "Sankranthiki Vastunnaam Trailer Launch",
+    "desc": "The actors and makers of &apos;Sankranthiki Vasthunam&apos; film gather to officially launch the trailer of the film and share their experiences of working on the project."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:00",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775568600000,
+    "stopTs": 1775570400000,
+    "title": "Daku Maharaj USA Event",
+    "desc": "The cast and crew of &apos;Daaku Maharaja&apos; share their on-set experiences at the grand pre-release event of the film held in the USA."
+  },
+  {
+    "start": "14:00",
+    "stop": "14:30",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775570400000,
+    "stopTs": 1775572200000,
+    "title": "Game Changer Bombay Press Meet",
+    "desc": "The cast and crew of the Indian Telugu-language movie &apos;Game Changer&apos; get together to promote the project and share their experiences of working on the movie."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775572200000,
+    "stopTs": 1775574000000,
+    "title": "Goutham 3.0 Interview",
+    "desc": "The host engages in a conversation with Gautham Krishna, an actor and runner-up of &apos;Bigg Boss Telugu 8&apos;, to learn about his experiences."
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775574000000,
+    "stopTs": 1775575800000,
+    "title": "Sequel Trends",
+    "desc": "The host presents a detailed report on the latest trends of making movie sequels and shares information related to upcoming films."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775575800000,
+    "stopTs": 1775577600000,
+    "title": "Kotha Ragam",
+    "desc": "A comprehensive compilation of melodious songs composed and sung by talented artists is played back-to-back to enthral the audience."
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775577600000,
+    "stopTs": 1775579400000,
+    "title": "Multiplex",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775579400000,
+    "stopTs": 1775581200000,
+    "title": "Vissa News Bulletin",
+    "desc": "The host presents some of the latest updates, current affairs and developments pertaining to economic, political and social issues."
+  },
+  {
+    "start": "17:00",
+    "stop": "18:29",
+    "channel": "VissaTV.in",
+    "channelId": "VissaTV.in",
+    "channelName": "Vissa TV",
+    "startTs": 1775581200000,
+    "stopTs": 1775586599000,
     "title": "Movie",
     "desc": "Bringing the best in television."
   }

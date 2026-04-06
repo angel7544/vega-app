@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:50",
-    "stop": "11:00",
-    "channel": "ZeeSalaam.in",
-    "channelId": "ZeeSalaam.in",
-    "channelName": "Zee Salaam",
-    "startTs": 1775472600000,
-    "stopTs": 1775473200000,
-    "title": "Waris Baig",
-    "desc": "A religious couplet performed by Pakistani singer Waris Baig for the devotees of God."
-  },
-  {
     "start": "11:00",
     "stop": "11:40",
     "channel": "ZeeSalaam.in",

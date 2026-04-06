@@ -1,80 +1,47 @@
 [
   {
-    "start": "11:00",
+    "start": "10:30",
     "stop": "11:30",
     "channel": "BuletinIndia.in",
     "channelId": "BuletinIndia.in",
     "channelName": "Buletin India",
-    "startTs": 1775473200000,
+    "startTs": 1775471400000,
     "stopTs": 1775475000000,
-    "title": "Top 20",
-    "desc": "The host sheds light on the top 20 stories and news in quick succession."
+    "title": "Buletin India",
+    "desc": "Buletin India"
   },
   {
     "start": "11:30",
-    "stop": "12:00",
-    "channel": "BuletinIndia.in",
-    "channelId": "BuletinIndia.in",
-    "channelName": "Buletin India",
-    "startTs": 1775475000000,
-    "stopTs": 1775476800000,
-    "title": "Metro Update",
-    "desc": "The host presents the top updates from the metropolitan cities across India."
-  },
-  {
-    "start": "12:00",
     "stop": "12:30",
     "channel": "BuletinIndia.in",
     "channelId": "BuletinIndia.in",
     "channelName": "Buletin India",
-    "startTs": 1775476800000,
+    "startTs": 1775475000000,
     "stopTs": 1775478600000,
-    "title": "Vijaynad",
-    "desc": "The host invites politicians to share their views on the elections and electoral parties."
+    "title": "Buletin India",
+    "desc": "Buletin India"
   },
   {
     "start": "12:30",
-    "stop": "13:00",
-    "channel": "BuletinIndia.in",
-    "channelId": "BuletinIndia.in",
-    "channelName": "Buletin India",
-    "startTs": 1775478600000,
-    "stopTs": 1775480400000,
-    "title": "Aap No Jillo Aap Ni Vaat",
-    "desc": "The host provides insights into the latest news stories and significant updates."
-  },
-  {
-    "start": "13:00",
     "stop": "13:30",
     "channel": "BuletinIndia.in",
     "channelId": "BuletinIndia.in",
     "channelName": "Buletin India",
-    "startTs": 1775480400000,
+    "startTs": 1775478600000,
     "stopTs": 1775482200000,
-    "title": "Metro Update",
-    "desc": "The host presents the top updates from the metropolitan cities across India."
+    "title": "Buletin India",
+    "desc": "Buletin India"
   },
   {
     "start": "13:30",
-    "stop": "14:00",
-    "channel": "BuletinIndia.in",
-    "channelId": "BuletinIndia.in",
-    "channelName": "Buletin India",
-    "startTs": 1775482200000,
-    "stopTs": 1775484000000,
-    "title": "Moti Khabar",
-    "desc": "The host presents the latest news updates pertaining to various important topics."
-  },
-  {
-    "start": "14:00",
     "stop": "14:30",
     "channel": "BuletinIndia.in",
     "channelId": "BuletinIndia.in",
     "channelName": "Buletin India",
-    "startTs": 1775484000000,
+    "startTs": 1775482200000,
     "stopTs": 1775485800000,
-    "title": "Top 20",
-    "desc": "The host sheds light on the top 20 stories and news in quick succession."
+    "title": "Buletin India",
+    "desc": "Buletin India"
   },
   {
     "start": "14:30",
@@ -84,73 +51,304 @@
     "channelName": "Buletin India",
     "startTs": 1775485800000,
     "stopTs": 1775489400000,
-    "title": "To The Topic",
-    "desc": "The host invites prominent personalities to discuss topics and gain their views."
+    "title": "Buletin India",
+    "desc": "Buletin India"
   },
   {
     "start": "15:30",
-    "stop": "16:00",
-    "channel": "BuletinIndia.in",
-    "channelId": "BuletinIndia.in",
-    "channelName": "Buletin India",
-    "startTs": 1775489400000,
-    "stopTs": 1775491200000,
-    "title": "Reporters Point",
-    "desc": "The host presents the latest news updates about events taking place in the state."
-  },
-  {
-    "start": "16:00",
     "stop": "16:30",
     "channel": "BuletinIndia.in",
     "channelId": "BuletinIndia.in",
     "channelName": "Buletin India",
-    "startTs": 1775491200000,
+    "startTs": 1775489400000,
     "stopTs": 1775493000000,
-    "title": "Bullet Khabar",
-    "desc": "The host sheds light on the latest socio-economic, political as well as sports news."
+    "title": "Buletin India",
+    "desc": "Buletin India"
   },
   {
     "start": "16:30",
-    "stop": "17:00",
-    "channel": "BuletinIndia.in",
-    "channelId": "BuletinIndia.in",
-    "channelName": "Buletin India",
-    "startTs": 1775493000000,
-    "stopTs": 1775494800000,
-    "title": "Desh- Videsh",
-    "desc": "The host presents the latest news updates from India and around the world."
-  },
-  {
-    "start": "17:00",
     "stop": "17:30",
     "channel": "BuletinIndia.in",
     "channelId": "BuletinIndia.in",
     "channelName": "Buletin India",
-    "startTs": 1775494800000,
+    "startTs": 1775493000000,
     "stopTs": 1775496600000,
-    "title": "Bulletin Vishesh",
-    "desc": "The host shares the latest news updates and developments from across the nation."
+    "title": "Buletin India",
+    "desc": "Buletin India"
   },
   {
     "start": "17:30",
-    "stop": "18:00",
+    "stop": "18:29",
     "channel": "BuletinIndia.in",
     "channelId": "BuletinIndia.in",
     "channelName": "Buletin India",
     "startTs": 1775496600000,
-    "stopTs": 1775498400000,
-    "title": "Update Gujrat",
-    "desc": "The host shares the latest news stories, updates and developments from Gujarat, India."
+    "stopTs": 1775500199000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
   },
   {
-    "start": "18:00",
-    "stop": "19:00",
+    "start": "18:30",
+    "stop": "19:30",
     "channel": "BuletinIndia.in",
     "channelId": "BuletinIndia.in",
     "channelName": "Buletin India",
-    "startTs": 1775498400000,
-    "stopTs": 1775502000000,
-    "title": "To The Topic",
-    "desc": "The host invites prominent personalities to discuss topics and gain their views."
+    "startTs": 1775500200000,
+    "stopTs": 1775503800000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
+  },
+  {
+    "start": "19:30",
+    "stop": "20:30",
+    "channel": "BuletinIndia.in",
+    "channelId": "BuletinIndia.in",
+    "channelName": "Buletin India",
+    "startTs": 1775503800000,
+    "stopTs": 1775507400000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
+  },
+  {
+    "start": "20:30",
+    "stop": "21:30",
+    "channel": "BuletinIndia.in",
+    "channelId": "BuletinIndia.in",
+    "channelName": "Buletin India",
+    "startTs": 1775507400000,
+    "stopTs": 1775511000000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
+  },
+  {
+    "start": "21:30",
+    "stop": "22:30",
+    "channel": "BuletinIndia.in",
+    "channelId": "BuletinIndia.in",
+    "channelName": "Buletin India",
+    "startTs": 1775511000000,
+    "stopTs": 1775514600000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
+  },
+  {
+    "start": "22:30",
+    "stop": "23:30",
+    "channel": "BuletinIndia.in",
+    "channelId": "BuletinIndia.in",
+    "channelName": "Buletin India",
+    "startTs": 1775514600000,
+    "stopTs": 1775518200000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
+  },
+  {
+    "start": "23:30",
+    "stop": "00:30",
+    "channel": "BuletinIndia.in",
+    "channelId": "BuletinIndia.in",
+    "channelName": "Buletin India",
+    "startTs": 1775518200000,
+    "stopTs": 1775521800000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
+  },
+  {
+    "start": "00:30",
+    "stop": "01:30",
+    "channel": "BuletinIndia.in",
+    "channelId": "BuletinIndia.in",
+    "channelName": "Buletin India",
+    "startTs": 1775521800000,
+    "stopTs": 1775525400000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
+  },
+  {
+    "start": "01:30",
+    "stop": "02:30",
+    "channel": "BuletinIndia.in",
+    "channelId": "BuletinIndia.in",
+    "channelName": "Buletin India",
+    "startTs": 1775525400000,
+    "stopTs": 1775529000000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
+  },
+  {
+    "start": "02:30",
+    "stop": "03:30",
+    "channel": "BuletinIndia.in",
+    "channelId": "BuletinIndia.in",
+    "channelName": "Buletin India",
+    "startTs": 1775529000000,
+    "stopTs": 1775532600000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
+  },
+  {
+    "start": "03:30",
+    "stop": "04:30",
+    "channel": "BuletinIndia.in",
+    "channelId": "BuletinIndia.in",
+    "channelName": "Buletin India",
+    "startTs": 1775532600000,
+    "stopTs": 1775536200000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
+  },
+  {
+    "start": "04:30",
+    "stop": "05:30",
+    "channel": "BuletinIndia.in",
+    "channelId": "BuletinIndia.in",
+    "channelName": "Buletin India",
+    "startTs": 1775536200000,
+    "stopTs": 1775539800000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
+  },
+  {
+    "start": "05:30",
+    "stop": "06:30",
+    "channel": "BuletinIndia.in",
+    "channelId": "BuletinIndia.in",
+    "channelName": "Buletin India",
+    "startTs": 1775539800000,
+    "stopTs": 1775543400000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
+  },
+  {
+    "start": "06:30",
+    "stop": "07:30",
+    "channel": "BuletinIndia.in",
+    "channelId": "BuletinIndia.in",
+    "channelName": "Buletin India",
+    "startTs": 1775543400000,
+    "stopTs": 1775547000000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
+  },
+  {
+    "start": "07:30",
+    "stop": "08:30",
+    "channel": "BuletinIndia.in",
+    "channelId": "BuletinIndia.in",
+    "channelName": "Buletin India",
+    "startTs": 1775547000000,
+    "stopTs": 1775550600000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
+  },
+  {
+    "start": "08:30",
+    "stop": "09:30",
+    "channel": "BuletinIndia.in",
+    "channelId": "BuletinIndia.in",
+    "channelName": "Buletin India",
+    "startTs": 1775550600000,
+    "stopTs": 1775554200000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
+  },
+  {
+    "start": "09:30",
+    "stop": "10:30",
+    "channel": "BuletinIndia.in",
+    "channelId": "BuletinIndia.in",
+    "channelName": "Buletin India",
+    "startTs": 1775554200000,
+    "stopTs": 1775557800000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
+  },
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "BuletinIndia.in",
+    "channelId": "BuletinIndia.in",
+    "channelName": "Buletin India",
+    "startTs": 1775557800000,
+    "stopTs": 1775561400000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "BuletinIndia.in",
+    "channelId": "BuletinIndia.in",
+    "channelName": "Buletin India",
+    "startTs": 1775561400000,
+    "stopTs": 1775565000000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "BuletinIndia.in",
+    "channelId": "BuletinIndia.in",
+    "channelName": "Buletin India",
+    "startTs": 1775565000000,
+    "stopTs": 1775568600000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "BuletinIndia.in",
+    "channelId": "BuletinIndia.in",
+    "channelName": "Buletin India",
+    "startTs": 1775568600000,
+    "stopTs": 1775572200000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "BuletinIndia.in",
+    "channelId": "BuletinIndia.in",
+    "channelName": "Buletin India",
+    "startTs": 1775572200000,
+    "stopTs": 1775575800000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
+  },
+  {
+    "start": "15:30",
+    "stop": "16:30",
+    "channel": "BuletinIndia.in",
+    "channelId": "BuletinIndia.in",
+    "channelName": "Buletin India",
+    "startTs": 1775575800000,
+    "stopTs": 1775579400000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
+  },
+  {
+    "start": "16:30",
+    "stop": "17:30",
+    "channel": "BuletinIndia.in",
+    "channelId": "BuletinIndia.in",
+    "channelName": "Buletin India",
+    "startTs": 1775579400000,
+    "stopTs": 1775583000000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
+  },
+  {
+    "start": "17:30",
+    "stop": "18:29",
+    "channel": "BuletinIndia.in",
+    "channelId": "BuletinIndia.in",
+    "channelName": "Buletin India",
+    "startTs": 1775583000000,
+    "stopTs": 1775586599000,
+    "title": "Buletin India",
+    "desc": "Buletin India"
   }
 ]

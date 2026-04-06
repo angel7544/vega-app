@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "IndiaTVSpeedNews.in",
-    "channelId": "IndiaTVSpeedNews.in",
-    "channelName": "India TV Speed News",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Mausam 20",
-    "desc": "The presenter gives the latest weather developments and updates in different parts of the country and its impact on people."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "IndiaTVSpeedNews.in",

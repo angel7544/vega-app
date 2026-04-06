@@ -1,27 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "News18Oriya.in",
-    "channelId": "News18Oriya.in",
-    "channelName": "News18 Oriya",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "News 18 Live",
-    "desc": "The host presents information about the social, economic and political issues of the day and provides updates on current events."
-  },
-  {
-    "start": "11:00",
-    "stop": "11:15",
-    "channel": "News18Oriya.in",
-    "channelId": "News18Oriya.in",
-    "channelName": "News18 Oriya",
-    "startTs": 1775473200000,
-    "stopTs": 1775474100000,
-    "title": "Slot",
-    "desc": "Bringing the best in television."
-  },
-  {
     "start": "11:15",
     "stop": "11:30",
     "channel": "News18Oriya.in",

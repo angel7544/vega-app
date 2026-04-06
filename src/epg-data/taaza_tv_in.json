@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "TaazaTV.in",
-    "channelId": "TaazaTV.in",
-    "channelName": "Taaza TV",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Taaza Khabar",
-    "desc": "A poor sanitary worker toils away to support his family. However, he soon comes to be in possession of a magical boon that has the ability to turn his fate around."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "TaazaTV.in",

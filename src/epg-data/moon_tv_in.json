@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "MoonTV.in",
-    "channelId": "MoonTV.in",
-    "channelName": "Moon TV",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Sirithu Vazha Vendum",
-    "desc": "A young boy is the only survivor after his family faces a brutal attack. However, as he grows, the unfortunate night continues to haunt him, so he decides to look for his parents&apos; killer."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "MoonTV.in",

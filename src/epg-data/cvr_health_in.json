@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "CVRHealth.in",
-    "channelId": "CVRHealth.in",
-    "channelName": "CVR Health",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "News Drive",
-    "desc": "The host discusses the most significant news stories and developments related to the outbreak of the coronavirus disease while shedding light on its precautionary methods."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "CVRHealth.in",

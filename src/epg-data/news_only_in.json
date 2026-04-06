@@ -1,16 +1,5 @@
 [
   {
-    "start": "10:30",
-    "stop": "11:00",
-    "channel": "NewsOnly.in",
-    "channelId": "NewsOnly.in",
-    "channelName": "News Only",
-    "startTs": 1775471400000,
-    "stopTs": 1775473200000,
-    "title": "Special",
-    "desc": "Bringing the best in television."
-  },
-  {
     "start": "11:00",
     "stop": "11:30",
     "channel": "NewsOnly.in",
