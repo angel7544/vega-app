@@ -12,6 +12,7 @@ import {useShowNavBarOnScroll} from '../lib/hooks/useShowNavBarOnScroll';
 import useContentStore, {Content} from '../lib/zustand/contentStore';
 import WatchListCard from '../components/WatchListCard';
 import usePlayerStore from '../lib/zustand/playerStore';
+import LinearGradient from 'react-native-linear-gradient';
 
 const WatchList = () => {
   const {primary, mode} = useThemeStore(state => state);
@@ -24,35 +25,14 @@ const WatchList = () => {
   const {installedProviders, setProvider} = useContentStore((state: Content) => state);
 
   const [searchText, setSearchText] = useState('');
-  const [activeGenre, setActiveGenre] = useState<string | null>(null);
-  const [activeYear, setActiveYear] = useState<string | null>(null);
-
-  // Extract all available genres and years for filters
-  const availableGenres = useMemo(() => {
-    const genres = new Set<string>();
-    watchList.forEach(item => {
-      item.genres?.forEach(g => genres.add(g));
-    });
-    return Array.from(genres).sort();
-  }, [watchList]);
-
-  const availableYears = useMemo(() => {
-    const years = new Set<string>();
-    watchList.forEach(item => {
-      if (item.year) years.add(item.year);
-    });
-    return Array.from(years).sort().reverse();
-  }, [watchList]);
 
   // Filter the watchlist based on search text
   const filteredList = useMemo(() => {
     return watchList.filter(item => {
       const matchesSearch = item.title.toLowerCase().includes(searchText.toLowerCase());
-      const matchesGenre = !activeGenre || item.genres?.includes(activeGenre);
-      const matchesYear = !activeYear || item.year === activeYear;
-      return matchesSearch && matchesGenre && matchesYear;
+      return matchesSearch;
     }).reverse();
-  }, [watchList, searchText, activeGenre, activeYear]);
+  }, [watchList, searchText]);
 
   const renderItem = ({item}: {item: any}) => (
     <WatchListCard
@@ -76,27 +56,93 @@ const WatchList = () => {
     />
   );
 
-  const FilterPill = ({label, isActive, onPress, onClear}: {label: string, isActive: boolean, onPress: () => void, onClear?: () => void}) => (
-    <View className="flex-row items-center mr-2">
-      <TouchableOpacity
-        onPress={onPress}
-        className={`flex-row items-center px-4 py-2 rounded-full border ${
-          isActive 
-            ? `bg-primary/20 border-primary` 
-            : isDark ? 'bg-[#1a1a1a] border-white/10' : 'bg-gray-100 border-gray-200'
-        }`}>
-        <Text className={`text-sm ${isActive ? 'text-primary font-bold' : isDark ? 'text-gray-300' : 'text-gray-700'}`}>
-          {label}
+  const listHeader = (
+    <View className="px-4">
+      {/* Title and Count */}
+      <View className="flex-row items-baseline mb-6 mt-4">
+        <Text
+          className={`text-4xl font-black italic tracking-tighter ${isDark ? 'text-white' : 'text-black'}`}>
+          Watchlist
         </Text>
-        {!isActive && <Feather name="chevron-down" size={14} color={isDark ? '#666' : '#999'} style={{marginLeft: 4}} />}
-      </TouchableOpacity>
-      {isActive && (
-        <TouchableOpacity 
-          onPress={onClear}
-          className="ml-1 w-6 h-6 items-center justify-center bg-primary/10 rounded-full"
-        >
-          <Feather name="x" size={12} color={primary} />
-        </TouchableOpacity>
+        <View className={`ml-4 px-3 py-1 rounded-full ${isDark ? 'bg-white/5 border border-white/5' : 'bg-black/5 border border-black/5'}`}>
+           <Text className={`text-[10px] font-black uppercase tracking-widest ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>
+              {watchList.length} Tracks
+           </Text>
+        </View>
+      </View>
+
+      {/* Search Bar */}
+      <View
+        className={`flex-row items-center px-6 py-4 rounded-3xl mb-8 ${
+          isDark ? 'bg-[#121212] border border-white/5' : 'bg-gray-50 border border-black/5'
+        } shadow-2xl`}>
+        <Feather name="search" size={18} color={isDark ? "rgba(255,255,255,0.3)" : "rgba(0,0,0,0.3)"} />
+        <TextInput
+          className={`flex-1 ml-4 text-base font-bold ${isDark ? 'text-white' : 'text-black'}`}
+          placeholder="Search your collection..."
+          placeholderTextColor={isDark ? "rgba(255,255,255,0.3)" : "rgba(0,0,0,0.3)"}
+          value={searchText}
+          onChangeText={setSearchText}
+        />
+      </View>
+
+      {/* Featured Channels (Live TV) */}
+      {favorites.length > 0 && !searchText && (
+        <View className="mb-10">
+          <View className="flex-row items-center justify-between mb-5 px-1">
+             <View className="flex-row items-center">
+                <View className="w-1.5 h-6 bg-primary rounded-full mr-3 shadow-lg" />
+                <Text className={`text-xl font-black ${isDark ? 'text-white' : 'text-black'}`}>
+                  Featured Channels
+                </Text>
+             </View>
+             <TouchableOpacity 
+               activeOpacity={0.7}
+               onPress={() => navigation.navigate('FavoriteTV' as any)}
+               className={`px-4 py-2 rounded-full ${isDark ? 'bg-white/5' : 'bg-black/5'}`}
+             >
+               <Text className="text-primary text-[10px] font-black uppercase tracking-widest">View All</Text>
+             </TouchableOpacity>
+          </View>
+          <ScrollView horizontal showsHorizontalScrollIndicator={false} className="-mx-4 px-4">
+            {favorites.map((channel, index) => (
+              <TouchableOpacity
+                key={channel.url + index}
+                activeOpacity={0.85}
+                onPress={() => (navigation.navigate as any)('ChannelInfo', { channel, channels: favorites, initialIndex: index })}
+                className={`mr-4 p-4 rounded-3xl border ${
+                  isDark ? 'bg-[#121212] border-white/5' : 'bg-gray-100 border-gray-200'
+                } shadow-sm`}
+                style={{ width: 160 }}
+              >
+                <View className="aspect-square bg-black/40 rounded-2xl overflow-hidden items-center justify-center mb-4 shadow-inner">
+                  {channel.logo ? (
+                    <Image source={{ uri: channel.logo }} className="w-full h-full" resizeMode="contain" />
+                  ) : (
+                    <Feather name="tv" size={28} color={primary} />
+                  )}
+                  <LinearGradient 
+                    colors={['transparent', 'rgba(0,0,0,0.6)']} 
+                    style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}
+                  />
+                  <View className="absolute bottom-2 left-2 flex-row items-center bg-red-600 px-1.5 py-0.5 rounded-md">
+                     <View className="w-1 h-1 rounded-full bg-white mr-1" />
+                     <Text className="text-[7px] font-black text-white uppercase tracking-widest">Live</Text>
+                  </View>
+                </View>
+                <Text 
+                  className={`text-sm font-black ${isDark ? 'text-white' : 'text-black'}`} 
+                  numberOfLines={1}
+                >
+                  {channel.name}
+                </Text>
+                <Text className="text-[10px] text-gray-500 font-bold uppercase tracking-widest mt-1 opacity-60">
+                  {channel.category?.split(/[;/]/)[0] || 'Premium channel'}
+                </Text>
+              </TouchableOpacity>
+            ))}
+          </ScrollView>
+        </View>
       )}
     </View>
   );
@@ -115,151 +161,42 @@ const WatchList = () => {
         }}
       />
 
-      <View className="flex-1 px-4">
-        {/* Title and Count */}
-        <View className="flex-row items-baseline mb-6">
-          <Text
-            className={`text-4xl font-bold ${isDark ? 'text-white' : 'text-black'}`}>
-            Watchlist
-          </Text>
-          <Text className={`text-lg ml-3 ${isDark ? 'text-gray-500' : 'text-gray-400'}`}>
-            {watchList.length} items
-          </Text>
-        </View>
-
-        {/* Search Bar */}
-        <View
-          className={`flex-row items-center px-4 py-3 rounded-2xl mb-6 ${
-            isDark ? 'bg-[#121212]' : 'bg-gray-100'
-          }`}>
-          <Feather name="search" size={20} color="#666" />
-          <TextInput
-            className={`flex-1 ml-3 text-base ${isDark ? 'text-white' : 'text-black'}`}
-            placeholder="Search for movies"
-            placeholderTextColor="#666"
-            value={searchText}
-            onChangeText={setSearchText}
-          />
-        </View>
-
-        {/* Wishlisted Channels (Live TV) */}
-        {favorites.length > 0 && !searchText && !activeGenre && !activeYear && (
-          <View className="mb-8">
-            <View className="flex-row items-center justify-between mb-4">
-              <Text className={`text-xl font-bold ${isDark ? 'text-white' : 'text-black'}`}>
-                Wishlisted Channels
-              </Text>
-              <TouchableOpacity onPress={() => navigation.navigate('FavoriteTV' as any)}>
-                <Text className="text-primary text-sm font-bold">See All</Text>
-              </TouchableOpacity>
-            </View>
-            <ScrollView horizontal showsHorizontalScrollIndicator={false} className="-mx-4 px-4">
-              {favorites.map((channel, index) => (
-                <TouchableOpacity
-                  key={channel.url + index}
-                  onPress={() => (navigation.navigate as any)('ChannelInfo', { channel, channels: favorites, initialIndex: index })}
-                  className={`mr-4 p-3 rounded-2xl border ${
-                    isDark ? 'bg-[#121212] border-white/5' : 'bg-gray-100 border-gray-200'
-                  }`}
-                  style={{ width: 140 }}
-                >
-                  <View className="aspect-video bg-black/40 rounded-xl overflow-hidden items-center justify-center mb-2">
-                    {channel.logo ? (
-                      <Image source={{ uri: channel.logo }} className="w-full h-full" resizeMode="contain" />
-                    ) : (
-                      <Feather name="tv" size={24} color={primary} />
-                    )}
-                  </View>
-                  <Text 
-                    className={`text-xs font-bold ${isDark ? 'text-white' : 'text-black'}`} 
-                    numberOfLines={1}
-                  >
-                    {channel.name}
-                  </Text>
-                  <Text className="text-[10px] text-gray-500 uppercase tracking-widest mt-0.5">
-                    {channel.category || 'Live TV'}
-                  </Text>
-                </TouchableOpacity>
-              ))}
-            </ScrollView>
-          </View>
-        )}
-
-        {/* Filters */}
-        <View className="mb-8">
-          <ScrollView horizontal showsHorizontalScrollIndicator={false}>
-            <FilterPill 
-              label={activeGenre || "Genre"} 
-              isActive={!!activeGenre}
-              onPress={() => {
-                // Simple cycle through genres for now (could be a modal in future)
-                const nextIdx = (availableGenres.indexOf(activeGenre || '') + 1) % availableGenres.length;
-                setActiveGenre(availableGenres[nextIdx]);
-              }}
-              onClear={() => setActiveGenre(null)}
-            />
-            <FilterPill 
-              label={activeYear || "Year"} 
-              isActive={!!activeYear}
-              onPress={() => {
-                const nextIdx = (availableYears.indexOf(activeYear || '') + 1) % availableYears.length;
-                setActiveYear(availableYears[nextIdx]);
-              }}
-              onClear={() => setActiveYear(null)}
-            />
-            {(activeGenre || activeYear || searchText) && (
-              <TouchableOpacity 
-                onPress={() => {
-                   setActiveGenre(null);
-                   setActiveYear(null);
-                   setSearchText('');
-                }}
-                className="px-4 py-2"
-              >
-                <Text className="text-primary text-sm font-bold">Clear All</Text>
-              </TouchableOpacity>
-            )}
-          </ScrollView>
-        </View>
-
-        {filteredList.length > 0 ? (
-          <FlatList
-            data={filteredList}
-            renderItem={renderItem}
-            keyExtractor={(item, index) => item.link + index}
-            contentContainerStyle={{
-              paddingBottom: 100,
-            }}
-            onScroll={handleScroll}
-            scrollEventThrottle={16}
-            showsVerticalScrollIndicator={false}
-          />
-        ) : (
-          <View className="flex-1 items-center justify-center -mt-20">
+      <FlatList
+        data={filteredList}
+        renderItem={renderItem}
+        ListHeaderComponent={listHeader}
+        keyExtractor={(item, index) => item.link + index}
+        contentContainerStyle={{
+          paddingBottom: 150,
+        }}
+        onScroll={handleScroll}
+        scrollEventThrottle={16}
+        showsVerticalScrollIndicator={false}
+        ListEmptyComponent={
+          <View className="items-center justify-center py-20 px-4">
             <View
               className={`${
                 isDark ? 'bg-white/5' : 'bg-gray-100'
-              } rounded-full p-8 mb-6`}>
-              <Feather name="film" size={60} color={primary} />
+              } rounded-full p-10 mb-8 border border-white/5 shadow-2xl`}>
+              <Feather name="layers" size={50} color={primary} />
             </View>
             <Text
               className={`${
                 isDark ? 'text-white' : 'text-black'
-              } font-bold text-lg text-center`}>
-              {searchText ? 'No results found' : 'Your WatchList is empty'}
+              } font-black text-2xl text-center italic tracking-tight`}>
+              {searchText ? 'Nothing found' : 'Empty Vault'}
             </Text>
             <Text
               className={`${
-                isDark ? 'text-gray-400' : 'text-gray-500'
-              } text-sm text-center mt-2`}>
-              {searchText ? 'Try reaching for something else' : 'Items you save for later will appear here'}
+                isDark ? 'text-gray-500' : 'text-gray-400'
+              } text-xs font-bold text-center mt-3 uppercase tracking-widest px-10`}>
+              {searchText ? 'Try a different search query' : 'Your saved movies and shows will appear here'}
             </Text>
           </View>
-        )}
-      </View>
+        }
+      />
     </View>
   );
 };
 
 export default WatchList;
-
