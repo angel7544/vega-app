@@ -27,7 +27,9 @@ function getProgress(startTs: number, stopTs: number, now: number): number {
   if (!startTs || !stopTs || stopTs <= startTs) return 0;
   const total = stopTs - startTs;
   const elapsed = now - startTs;
-  return Math.min(Math.max(elapsed / total, 0), 1);
+  const ratio = elapsed / total;
+  if (isNaN(ratio)) return 0;
+  return Math.min(Math.max(ratio, 0), 1);
 }
 
 const Timetable: React.FC<TimetableProps> = ({ programs = [], now, onSetLivePosition }) => {
@@ -123,7 +125,7 @@ const Timetable: React.FC<TimetableProps> = ({ programs = [], now, onSetLivePosi
           ) : null}
 
           {/* Progress bar for live program */}
-          {isLive && progress > 0 && (
+          {isLive && progress > 0 && isFinite(progress) && (
             <View style={styles.progressTrack}>
               <View
                 style={[

@@ -23,6 +23,9 @@ interface PlayerState {
   setCustomEpgUrl: (url: string | null) => void;
   disableEpg: boolean;
   toggleDisableEpg: () => void;
+  epgData: Record<string, any[]>;
+  setEpgData: (data: Record<string, any[]>) => void;
+  updateChannelEpg: (url: string, programs: any[]) => void;
 }
 
 const usePlayerStore = create<PlayerState>()(
@@ -33,9 +36,14 @@ const usePlayerStore = create<PlayerState>()(
       favoriteGenres: [],
       autoPlayChannel: true,
       customEpgUrl: null,
-      disableEpg: true,
+      disableEpg: false,
+      epgData: {},
 
       toggleDisableEpg: () => set({ disableEpg: !get().disableEpg }),
+      setEpgData: (data) => set({ epgData: data }),
+      updateChannelEpg: (url, programs) => set({ 
+        epgData: { ...get().epgData, [url]: programs } 
+      }),
 
       setCustomEpgUrl: (url) => set({ customEpgUrl: url }),
 

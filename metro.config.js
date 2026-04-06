@@ -8,6 +8,5 @@ config.resolver.extraNodeModules = {
   crypto: require.resolve('expo-crypto'),
 };
 
-config.resolver.assetExts.push('xml');
 
 module.exports = withNativeWind(config, {input: './src/global.css'});

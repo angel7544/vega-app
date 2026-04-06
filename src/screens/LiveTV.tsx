@@ -78,17 +78,22 @@ const QualityBadge = ({ name, isDark }: { name: string, isDark: boolean }) => {
 };
 
 const EPGInfo = React.memo(({ channel, isDark, primary, showNext = true }: any) => {
-  const [info, setInfo] = useState<any>(null);
+  const { epgData } = usePlayerStore();
+  const [now, setNow] = useState(Date.now());
 
   useEffect(() => {
-    let isMounted = true;
-    const fetchInfo = async () => {
-      const data = await iptvParser.getNowAndNext(channel);
-      if (isMounted) setInfo(data);
-    };
-    fetchInfo();
-    return () => { isMounted = false; };
-  }, [channel.url]);
+    const timer = setInterval(() => setNow(Date.now()), 60000);
+    return () => clearInterval(timer);
+  }, []);
+
+  const info = useMemo(() => {
+    const programs = epgData[channel.url];
+    if (!programs || programs.length === 0) return null;
+    const nowTime = Date.now();
+    const idx = programs.findIndex(p => p.startTs <= nowTime && p.stopTs > nowTime);
+    if (idx === -1) return { now: null, next: programs.find(p => p.startTs > nowTime) || null };
+    return { now: programs[idx], next: programs[idx+1] || null };
+  }, [epgData, channel.url, now]);
 
   if (!info || (!info.now && !info.next)) return null;
 
@@ -357,11 +362,10 @@ const LiveTV = () => {
   const [loading, setLoading] = useState(true);
   const [loadingEpg, setLoadingEpg] = useState(false);
   const [activeTab, setActiveTab] = useState('FOR YOU');
-  const [epgData, setEpgData] = useState<Record<string, any>>({});
 
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
   const { mode, primary } = useThemeStore();
-  const { toggleFavorite, isFavorite, favorites } = usePlayerStore();
+  const { toggleFavorite, isFavorite, favorites, epgData, setEpgData } = usePlayerStore();
   const { setChannels: setGlobalChannels } = useIPTVStore();
   const isDark = mode === 'dark';
 
@@ -425,8 +429,9 @@ const LiveTV = () => {
         
         const countryCode = settingsStorage.getIptvCountry() || 'in';
         try {
-          // Pre-fetch EPG for active channels (Home screen & Guide)
-          const map = await iptvParser.fetchBulkEPG(channels.slice(0, 100), countryCode);
+          // Pre-fetch EPG for top 40 channels (Home screen & Guide)
+          // Reduced from 100 to 40 to stabilize memory on Android
+          const map = await iptvParser.fetchBulkEPG(channels.slice(0, 40), countryCode);
           setEpgData(map);
         } catch (e) {
           console.error('[EPG] Background sync failed:', e);
@@ -689,7 +694,7 @@ const LiveTV = () => {
           <Text className="text-gray-500 mt-4 font-black uppercase tracking-widest text-[10px]">Syncing Signal Hub...</Text>
         </View>
       ) : (
-        <View className="flex-1 mt-56">
+        <View className="flex-1 mt-48">
           {((activeTab === 'FOR YOU' && !isSearchActive) || isSearchActive) ? (
              <CategoryGrid
                 categories={categories}
@@ -709,11 +714,27 @@ const LiveTV = () => {
                  </View>
               ) : (
                  <TVGuideGrid 
-                   channels={filteredChannels.slice(0, 100)} 
+                   channels={filteredChannels} 
                    epgData={epgData} 
                    isDark={isDark} 
                    primary={primary} 
                    onPlay={handleChannelPress} 
+                   onVisibleChannelsChanged={(visibleChannels: any[]) => {
+                     if (!visibleChannels || visibleChannels.length === 0) return;
+                     
+                     // Filter out channels already being fetched or already in cache
+                     const countryCode = settingsStorage.getIptvCountry() || 'in';
+                     const needed = visibleChannels.filter(c => !epgData[c.url]);
+                     
+                     if (needed.length > 0) {
+                       iptvParser.fetchBulkEPG(needed, countryCode).then(map => {
+                         if (Object.keys(map).length > 0) {
+                           // Merge into global store
+                           setEpgData({ ...epgData, ...map });
+                         }
+                       });
+                     }
+                   }}
                  />
               )}
             </View>

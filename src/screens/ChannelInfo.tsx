@@ -24,6 +24,7 @@ import useThemeStore from '../lib/zustand/themeStore';
 import usePlayerStore from '../lib/zustand/playerStore';
 import { settingsStorage } from '../lib/storage';
 import { iptvParser } from '../lib/iptvParser';
+import { fetchChannelSchedule } from '../lib/services/channelEPG';
 import useToastStore from '../lib/zustand/toastStore';
 import { EPG_SOURCES, FLAGS } from '../lib/constants';
 import Timetable from '../components/Timetable';
@@ -53,7 +54,11 @@ const ChannelInfo = () => {
   const { channel, channels: routeChannels = [], initialIndex: routeInitialIndex = 0 } = route.params;
   
   const { mode, primary } = useThemeStore();
-  const { toggleFavorite, isFavorite, autoPlayChannel, toggleAutoPlayChannel, customEpgUrl, setCustomEpgUrl, disableEpg, toggleDisableEpg } = usePlayerStore();
+  const { 
+    toggleFavorite, isFavorite, autoPlayChannel, toggleAutoPlayChannel, 
+    customEpgUrl, setCustomEpgUrl, disableEpg, toggleDisableEpg,
+    epgData, updateChannelEpg 
+  } = usePlayerStore();
   const { show: showToast } = useToastStore();
   const insets = useSafeAreaInsets();
   const { width: screenWidth, height: screenHeight } = useWindowDimensions();
@@ -63,7 +68,6 @@ const ChannelInfo = () => {
   const isLandscape = screenWidth > screenHeight;
   const isTabletLandscape = isWide && isLandscape;
   
-  const [epgData, setEpgData] = useState<Program[]>([]);
   const [now, setNow] = useState(Date.now());
   const [loading, setLoading] = useState(true);
   const [showInfo, setShowInfo] = useState(true);
@@ -138,10 +142,16 @@ const ChannelInfo = () => {
         exitFullScreen();
       }
     };
+    
+    // Safety: ensure locker is cleaned up
     Orientation.addDeviceOrientationListener(handleOrientation);
     return () => {
       Orientation.removeDeviceOrientationListener(handleOrientation);
       Orientation.unlockAllOrientations();
+      // Ensure navigation bar is restored
+      if (Platform.OS === 'android') {
+        NavigationBar.setVisibilityAsync('visible');
+      }
     };
   }, [goFullScreen, exitFullScreen]);
 
@@ -216,25 +226,23 @@ const ChannelInfo = () => {
     return () => clearInterval(interval);
   }, []);
 
-  // Real-time EPG heartbeat
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setNow(Date.now());
-    }, CH_INFO_UPDATE_INTERVAL);
-    return () => clearInterval(interval);
-  }, []);
-
   const fetchChannelDetails = async () => {
     const currentUrl = channel.url;
+    
+    // Safety check: if EPG is disabled, don't even try
+    if (disableEpg) {
+      setLoading(false);
+      return;
+    }
+
     setLoading(true);
-    setEpgData([]); // Reset schedule on EPG provider change
     try {
       const country = settingsStorage.getIptvCountry() || 'in';
-      const programs = await iptvParser.fetchEPGForChannel(channel, country);
+      // Use the dedicated GitHub JSON service for best performance and accuracy
+      const programs = await fetchChannelSchedule(channel, country);
       
-      // Fix Race Condition: Only update state if we are still on the same channel
       if (channel.url === currentUrl) {
-         setEpgData(programs);
+         updateChannelEpg(currentUrl, Array.isArray(programs) ? programs : []);
       }
     } catch (e) {
       console.error('Failed to load channel details:', e);
@@ -246,9 +254,10 @@ const ChannelInfo = () => {
   };
 
   const currentProgram = useMemo(() => {
-    if (!epgData || epgData.length === 0) return null;
-    return epgData.find(p => p.startTs <= now && p.stopTs > now) || epgData[0];
-  }, [epgData, now, reloadKey]);
+    const programs = epgData[channel.url];
+    if (!programs || programs.length === 0) return null;
+    return programs.find(p => p.startTs <= now && p.stopTs > now) || programs[0];
+  }, [epgData, channel.url, now, reloadKey]);
 
   const handleWatchNow = async () => {
     if (isFullScreen) {
@@ -769,9 +778,19 @@ const ChannelInfo = () => {
         <View className="flex-row items-center justify-between mb-8">
           <View>
             <Text className="text-gray-900 dark:text-white text-3xl font-black">Broadcast</Text>
+            <Text className="text-gray-400 dark:text-gray-500 text-[10px] font-bold uppercase tracking-widest mt-1">Live Schedule</Text>
           </View>
-          <View className="p-4 bg-gray-100 dark:bg-white/5 rounded-2xl">
-            <Feather name="calendar" size={24} color={isDark ? "white" : "black"} />
+          <View className="flex-row gap-x-2">
+            <TouchableOpacity 
+              onPress={() => fetchChannelDetails()}
+              disabled={loading}
+              className="p-4 bg-gray-100 dark:bg-white/5 rounded-2xl border border-gray-200 dark:border-white/10"
+            >
+              <MaterialIcons name="refresh" size={24} color={loading ? (isDark ? "rgba(255,255,255,0.2)" : "rgba(0,0,0,0.2)") : (isDark ? "white" : "black")} />
+            </TouchableOpacity>
+            <View className="p-4 bg-gray-100 dark:bg-white/5 rounded-2xl border border-gray-200 dark:border-white/10">
+              <Feather name="calendar" size={24} color={isDark ? "white" : "black"} />
+            </View>
           </View>
         </View>
 
@@ -792,8 +811,8 @@ const ChannelInfo = () => {
             <ActivityIndicator color={primary} size="large" />
             <Text className="text-gray-500 dark:text-gray-400 text-sm font-bold mt-6">Syncing schedule...</Text>
           </View>
-        ) : epgData.length > 0 ? (
-          <Timetable programs={epgData as Program[]} now={now} onSetLivePosition={handleSetLivePosition} />
+        ) : epgData[channel.url]?.length > 0 ? (
+          <Timetable programs={epgData[channel.url] as Program[]} now={now} onSetLivePosition={handleSetLivePosition} />
         ) : (
           <View className="py-20 items-center justify-center bg-gray-50 dark:bg-white/5 rounded-[32px] border border-dashed border-gray-200 dark:border-white/10">
             <Feather name="clock" size={48} color={isDark ? "rgba(255,255,255,0.1)" : "rgba(0,0,0,0.1)"} />
