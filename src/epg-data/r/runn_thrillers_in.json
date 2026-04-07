@@ -1,0 +1,24 @@
+[
+  {
+    "start": "09:10",
+    "stop": "09:10",
+    "channel": "RunnThrillers.in",
+    "channelId": "RunnThrillers.in",
+    "channelName": "Runn Thrillers",
+    "startTs": 1775553000000,
+    "stopTs": 1775639400000,
+    "title": "Runn Thrillers",
+    "desc": ""
+  },
+  {
+    "start": "09:10",
+    "stop": "09:10",
+    "channel": "RunnThrillers.in",
+    "channelId": "RunnThrillers.in",
+    "channelName": "Runn Thrillers",
+    "startTs": 1775639400000,
+    "stopTs": 1775725800000,
+    "title": "Runn Thrillers",
+    "desc": ""
+  }
+]

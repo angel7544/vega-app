@@ -1,0 +1,134 @@
+[
+  {
+    "start": "06:30",
+    "stop": "09:30",
+    "channel": "OscarMovies.in",
+    "channelId": "OscarMovies.in",
+    "channelName": "Oscar Movies",
+    "startTs": 1775543400000,
+    "stopTs": 1775554200000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "09:30",
+    "stop": "12:30",
+    "channel": "OscarMovies.in",
+    "channelId": "OscarMovies.in",
+    "channelName": "Oscar Movies",
+    "startTs": 1775554200000,
+    "stopTs": 1775565000000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "12:30",
+    "stop": "15:30",
+    "channel": "OscarMovies.in",
+    "channelId": "OscarMovies.in",
+    "channelName": "Oscar Movies",
+    "startTs": 1775565000000,
+    "stopTs": 1775575800000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "15:30",
+    "stop": "18:29",
+    "channel": "OscarMovies.in",
+    "channelId": "OscarMovies.in",
+    "channelName": "Oscar Movies",
+    "startTs": 1775575800000,
+    "stopTs": 1775586599000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "18:30",
+    "stop": "21:30",
+    "channel": "OscarMovies.in",
+    "channelId": "OscarMovies.in",
+    "channelName": "Oscar Movies",
+    "startTs": 1775586600000,
+    "stopTs": 1775597400000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "21:30",
+    "stop": "00:30",
+    "channel": "OscarMovies.in",
+    "channelId": "OscarMovies.in",
+    "channelName": "Oscar Movies",
+    "startTs": 1775597400000,
+    "stopTs": 1775608200000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "00:30",
+    "stop": "03:30",
+    "channel": "OscarMovies.in",
+    "channelId": "OscarMovies.in",
+    "channelName": "Oscar Movies",
+    "startTs": 1775608200000,
+    "stopTs": 1775619000000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "03:30",
+    "stop": "06:30",
+    "channel": "OscarMovies.in",
+    "channelId": "OscarMovies.in",
+    "channelName": "Oscar Movies",
+    "startTs": 1775619000000,
+    "stopTs": 1775629800000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "06:30",
+    "stop": "09:30",
+    "channel": "OscarMovies.in",
+    "channelId": "OscarMovies.in",
+    "channelName": "Oscar Movies",
+    "startTs": 1775629800000,
+    "stopTs": 1775640600000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "09:30",
+    "stop": "12:30",
+    "channel": "OscarMovies.in",
+    "channelId": "OscarMovies.in",
+    "channelName": "Oscar Movies",
+    "startTs": 1775640600000,
+    "stopTs": 1775651400000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "12:30",
+    "stop": "15:30",
+    "channel": "OscarMovies.in",
+    "channelId": "OscarMovies.in",
+    "channelName": "Oscar Movies",
+    "startTs": 1775651400000,
+    "stopTs": 1775662200000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "15:30",
+    "stop": "18:29",
+    "channel": "OscarMovies.in",
+    "channelId": "OscarMovies.in",
+    "channelName": "Oscar Movies",
+    "startTs": 1775662200000,
+    "stopTs": 1775672999000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  }
+]

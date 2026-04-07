@@ -1,0 +1,233 @@
+[
+  {
+    "start": "07:30",
+    "stop": "10:30",
+    "channel": "ColorsKannadaCinema.in",
+    "channelId": "ColorsKannadaCinema.in",
+    "channelName": "Colors Kannada Cinema",
+    "startTs": 1775547000000,
+    "stopTs": 1775557800000,
+    "title": "Nagadevathe",
+    "desc": "Naga Devathe: A Kannada devotional film filled with music and heartfelt performances."
+  },
+  {
+    "start": "10:30",
+    "stop": "13:30",
+    "channel": "ColorsKannadaCinema.in",
+    "channelId": "ColorsKannadaCinema.in",
+    "channelName": "Colors Kannada Cinema",
+    "startTs": 1775557800000,
+    "stopTs": 1775568600000,
+    "title": "Bandhu Balaga",
+    "desc": "Subramanya, the illegitimate son of a village headman, lands in trouble when his father divides the property equally between him and his three stepbrothers."
+  },
+  {
+    "start": "13:30",
+    "stop": "17:00",
+    "channel": "ColorsKannadaCinema.in",
+    "channelId": "ColorsKannadaCinema.in",
+    "channelName": "Colors Kannada Cinema",
+    "startTs": 1775568600000,
+    "stopTs": 1775581200000,
+    "title": "Sirivantha",
+    "desc": "Narayana Murthy wages a courageous battle to withstand all pressures and fight against corruption to retain the values he has cherished."
+  },
+  {
+    "start": "17:00",
+    "stop": "20:00",
+    "channel": "ColorsKannadaCinema.in",
+    "channelId": "ColorsKannadaCinema.in",
+    "channelName": "Colors Kannada Cinema",
+    "startTs": 1775581200000,
+    "stopTs": 1775592000000,
+    "title": "Pakkadmane Hudugi",
+    "desc": "Balu, a 26-year-old bachelor, falls in love with his neighbour&apos;s daughter, Indu. He decides to woo her with the help of his music composer friend, Chakravarthy."
+  },
+  {
+    "start": "20:00",
+    "stop": "20:30",
+    "channel": "ColorsKannadaCinema.in",
+    "channelId": "ColorsKannadaCinema.in",
+    "channelName": "Colors Kannada Cinema",
+    "startTs": 1775592000000,
+    "stopTs": 1775593800000,
+    "title": "Shiva Shakthi",
+    "desc": "At the universe&apos;s dawn, Lord Shiva and Goddess Parvati encounter divine love, creating a timeless tale of eternal devotion that inspires generations to come."
+  },
+  {
+    "start": "20:30",
+    "stop": "23:30",
+    "channel": "ColorsKannadaCinema.in",
+    "channelId": "ColorsKannadaCinema.in",
+    "channelName": "Colors Kannada Cinema",
+    "startTs": 1775593800000,
+    "stopTs": 1775604600000,
+    "title": "Prayanikara Gamanakke",
+    "desc": "A bus ferrying passengers is hijacked en route to Hyderabad. Later, the police and the passengers face multiple challenges to overcome the situation."
+  },
+  {
+    "start": "23:30",
+    "stop": "00:00",
+    "channel": "ColorsKannadaCinema.in",
+    "channelId": "ColorsKannadaCinema.in",
+    "channelName": "Colors Kannada Cinema",
+    "startTs": 1775604600000,
+    "stopTs": 1775606400000,
+    "title": "Shiva Shakthi",
+    "desc": "At the universe&apos;s dawn, Lord Shiva and Goddess Parvati encounter divine love, creating a timeless tale of eternal devotion that inspires generations to come."
+  },
+  {
+    "start": "00:00",
+    "stop": "00:30",
+    "channel": "ColorsKannadaCinema.in",
+    "channelId": "ColorsKannadaCinema.in",
+    "channelName": "Colors Kannada Cinema",
+    "startTs": 1775606400000,
+    "stopTs": 1775608200000,
+    "title": "Shiva Shakthi",
+    "desc": "At the universe&apos;s dawn, Lord Shiva and Goddess Parvati encounter divine love, creating a timeless tale of eternal devotion that inspires generations to come."
+  },
+  {
+    "start": "00:30",
+    "stop": "04:00",
+    "channel": "ColorsKannadaCinema.in",
+    "channelId": "ColorsKannadaCinema.in",
+    "channelName": "Colors Kannada Cinema",
+    "startTs": 1775608200000,
+    "stopTs": 1775620800000,
+    "title": "Sirivantha",
+    "desc": "Narayana Murthy wages a courageous battle to withstand all pressures and fight against corruption to retain the values he has cherished."
+  },
+  {
+    "start": "04:00",
+    "stop": "07:30",
+    "channel": "ColorsKannadaCinema.in",
+    "channelId": "ColorsKannadaCinema.in",
+    "channelName": "Colors Kannada Cinema",
+    "startTs": 1775620800000,
+    "stopTs": 1775633400000,
+    "title": "Chitta Chora",
+    "desc": "A modern-day Robin Hood steals money from the rich to help the poor."
+  },
+  {
+    "start": "07:30",
+    "stop": "10:30",
+    "channel": "ColorsKannadaCinema.in",
+    "channelId": "ColorsKannadaCinema.in",
+    "channelName": "Colors Kannada Cinema",
+    "startTs": 1775633400000,
+    "stopTs": 1775644200000,
+    "title": "Hettavara Kanasu",
+    "desc": "Movie directed by Om Saiprakash starring Mayur Patel, Ramesh Bhat and Padma Vasanthi."
+  },
+  {
+    "start": "10:30",
+    "stop": "13:30",
+    "channel": "ColorsKannadaCinema.in",
+    "channelId": "ColorsKannadaCinema.in",
+    "channelName": "Colors Kannada Cinema",
+    "startTs": 1775644200000,
+    "stopTs": 1775655000000,
+    "title": "Kshetrapati",
+    "desc": "A gripping social drama about a farmer&apos;s son turned journalist who challenges corrupt systems to protect farmers&apos; rights, igniting a revolution through truth, courage, and justice."
+  },
+  {
+    "start": "13:30",
+    "stop": "17:00",
+    "channel": "ColorsKannadaCinema.in",
+    "channelId": "ColorsKannadaCinema.in",
+    "channelName": "Colors Kannada Cinema",
+    "startTs": 1775655000000,
+    "stopTs": 1775667600000,
+    "title": "Thavarige Baa Thangi",
+    "desc": "To get their son married to a rich girl, Aakash&apos;s parents try to send their daughter-in-law Lakshmi out of the house. Lakshmi&apos;s brother stands by her."
+  },
+  {
+    "start": "17:00",
+    "stop": "20:00",
+    "channel": "ColorsKannadaCinema.in",
+    "channelId": "ColorsKannadaCinema.in",
+    "channelName": "Colors Kannada Cinema",
+    "startTs": 1775667600000,
+    "stopTs": 1775678400000,
+    "title": "Rowdy",
+    "desc": "Old Movie, Synopsis not avaliable."
+  },
+  {
+    "start": "20:00",
+    "stop": "20:30",
+    "channel": "ColorsKannadaCinema.in",
+    "channelId": "ColorsKannadaCinema.in",
+    "channelName": "Colors Kannada Cinema",
+    "startTs": 1775678400000,
+    "stopTs": 1775680200000,
+    "title": "Shiva Shakthi",
+    "desc": "At the universe&apos;s dawn, Lord Shiva and Goddess Parvati encounter divine love, creating a timeless tale of eternal devotion that inspires generations to come."
+  },
+  {
+    "start": "20:30",
+    "stop": "23:30",
+    "channel": "ColorsKannadaCinema.in",
+    "channelId": "ColorsKannadaCinema.in",
+    "channelName": "Colors Kannada Cinema",
+    "startTs": 1775680200000,
+    "stopTs": 1775691000000,
+    "title": "Rush",
+    "desc": "James Hunt and Niki Lauda, 2 Formula One racers, have an intense rivalry with each other. However, it is their enmity that pushes them to their limits."
+  },
+  {
+    "start": "23:30",
+    "stop": "00:00",
+    "channel": "ColorsKannadaCinema.in",
+    "channelId": "ColorsKannadaCinema.in",
+    "channelName": "Colors Kannada Cinema",
+    "startTs": 1775691000000,
+    "stopTs": 1775692800000,
+    "title": "Shiva Shakthi",
+    "desc": "At the universe&apos;s dawn, Lord Shiva and Goddess Parvati encounter divine love, creating a timeless tale of eternal devotion that inspires generations to come."
+  },
+  {
+    "start": "00:00",
+    "stop": "00:30",
+    "channel": "ColorsKannadaCinema.in",
+    "channelId": "ColorsKannadaCinema.in",
+    "channelName": "Colors Kannada Cinema",
+    "startTs": 1775692800000,
+    "stopTs": 1775694600000,
+    "title": "Shiva Shakthi",
+    "desc": "At the universe&apos;s dawn, Lord Shiva and Goddess Parvati encounter divine love, creating a timeless tale of eternal devotion that inspires generations to come."
+  },
+  {
+    "start": "00:30",
+    "stop": "04:00",
+    "channel": "ColorsKannadaCinema.in",
+    "channelId": "ColorsKannadaCinema.in",
+    "channelName": "Colors Kannada Cinema",
+    "startTs": 1775694600000,
+    "stopTs": 1775707200000,
+    "title": "Thavarige Baa Thangi",
+    "desc": "To get their son married to a rich girl, Aakash&apos;s parents try to send their daughter-in-law Lakshmi out of the house. Lakshmi&apos;s brother stands by her."
+  },
+  {
+    "start": "04:00",
+    "stop": "07:30",
+    "channel": "ColorsKannadaCinema.in",
+    "channelId": "ColorsKannadaCinema.in",
+    "channelName": "Colors Kannada Cinema",
+    "startTs": 1775707200000,
+    "stopTs": 1775719800000,
+    "title": "Rowdy Aliya",
+    "desc": "Raja, a smart young man, meets Rani, an arrogant and selfish young woman. Raja decides to teach Rani a lesson; however, he gradually falls in love with her."
+  },
+  {
+    "start": "07:30",
+    "stop": "10:30",
+    "channel": "ColorsKannadaCinema.in",
+    "channelId": "ColorsKannadaCinema.in",
+    "channelName": "Colors Kannada Cinema",
+    "startTs": 1775719800000,
+    "stopTs": 1775730600000,
+    "title": "Yuddha Kaanda",
+    "desc": "A man leads a peaceful life with his family until he is falsely accused in a murder case. However, a renowned lawyer is determined to prove his innocence."
+  }
+]

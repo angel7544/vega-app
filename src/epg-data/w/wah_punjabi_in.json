@@ -1,0 +1,112 @@
+[
+  {
+    "start": "07:00",
+    "stop": "12:30",
+    "channel": "WahPunjabi.in",
+    "channelId": "WahPunjabi.in",
+    "channelName": "Wah Punjabi",
+    "startTs": 1775545200000,
+    "stopTs": 1775565000000,
+    "title": "Non-Stop Hits",
+    "desc": "A comprehensive compilation of well-known Bollywood songs to showcase a variety of melodies and styles from the Indian film industry."
+  },
+  {
+    "start": "12:30",
+    "stop": "14:30",
+    "channel": "WahPunjabi.in",
+    "channelId": "WahPunjabi.in",
+    "channelName": "Wah Punjabi",
+    "startTs": 1775565000000,
+    "stopTs": 1775572200000,
+    "title": "Gurbani",
+    "desc": "A spiritual leader guides the congregation in prayer through a comprehensive compilation of hymns from the Guru Granth Sahib."
+  },
+  {
+    "start": "14:30",
+    "stop": "18:29",
+    "channel": "WahPunjabi.in",
+    "channelId": "WahPunjabi.in",
+    "channelName": "Wah Punjabi",
+    "startTs": 1775572200000,
+    "stopTs": 1775586599000,
+    "title": "Nava Nakor",
+    "desc": "A thoughtfully curated selection of the latest and most popular Punjabi songs, sung by renowned artists, played back to back to entertain the audience."
+  },
+  {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "WahPunjabi.in",
+    "channelId": "WahPunjabi.in",
+    "channelName": "Wah Punjabi",
+    "startTs": 1775586600000,
+    "stopTs": 1775588400000,
+    "title": "Nava Nakor",
+    "desc": "A thoughtfully curated selection of the latest and most popular Punjabi songs, sung by renowned artists, played back to back to entertain the audience."
+  },
+  {
+    "start": "19:00",
+    "stop": "00:30",
+    "channel": "WahPunjabi.in",
+    "channelId": "WahPunjabi.in",
+    "channelName": "Wah Punjabi",
+    "startTs": 1775588400000,
+    "stopTs": 1775608200000,
+    "title": "Non-Stop Hits",
+    "desc": "A comprehensive compilation of well-known Bollywood songs to showcase a variety of melodies and styles from the Indian film industry."
+  },
+  {
+    "start": "00:30",
+    "stop": "02:30",
+    "channel": "WahPunjabi.in",
+    "channelId": "WahPunjabi.in",
+    "channelName": "Wah Punjabi",
+    "startTs": 1775608200000,
+    "stopTs": 1775615400000,
+    "title": "Gurbani",
+    "desc": "A spiritual leader guides the congregation in prayer through a comprehensive compilation of hymns from the Guru Granth Sahib."
+  },
+  {
+    "start": "02:30",
+    "stop": "07:00",
+    "channel": "WahPunjabi.in",
+    "channelId": "WahPunjabi.in",
+    "channelName": "Wah Punjabi",
+    "startTs": 1775615400000,
+    "stopTs": 1775631600000,
+    "title": "Nava Nakor",
+    "desc": "A thoughtfully curated selection of the latest and most popular Punjabi songs, sung by renowned artists, played back to back to entertain the audience."
+  },
+  {
+    "start": "07:00",
+    "stop": "12:30",
+    "channel": "WahPunjabi.in",
+    "channelId": "WahPunjabi.in",
+    "channelName": "Wah Punjabi",
+    "startTs": 1775631600000,
+    "stopTs": 1775651400000,
+    "title": "Non-Stop Hits",
+    "desc": "A comprehensive compilation of well-known Bollywood songs to showcase a variety of melodies and styles from the Indian film industry."
+  },
+  {
+    "start": "12:30",
+    "stop": "14:30",
+    "channel": "WahPunjabi.in",
+    "channelId": "WahPunjabi.in",
+    "channelName": "Wah Punjabi",
+    "startTs": 1775651400000,
+    "stopTs": 1775658600000,
+    "title": "Gurbani",
+    "desc": "A spiritual leader guides the congregation in prayer through a comprehensive compilation of hymns from the Guru Granth Sahib."
+  },
+  {
+    "start": "14:30",
+    "stop": "18:29",
+    "channel": "WahPunjabi.in",
+    "channelId": "WahPunjabi.in",
+    "channelName": "Wah Punjabi",
+    "startTs": 1775658600000,
+    "stopTs": 1775672999000,
+    "title": "Nava Nakor",
+    "desc": "A thoughtfully curated selection of the latest and most popular Punjabi songs, sung by renowned artists, played back to back to entertain the audience."
+  }
+]

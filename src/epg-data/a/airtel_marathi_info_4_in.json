@@ -1,0 +1,24 @@
+[
+  {
+    "start": "09:10",
+    "stop": "09:10",
+    "channel": "AirtelMarathiInfo4.in",
+    "channelId": "AirtelMarathiInfo4.in",
+    "channelName": "Airtel Marathi Info 4",
+    "startTs": 1775553000000,
+    "stopTs": 1775639400000,
+    "title": "Airtel Marathi Info 4",
+    "desc": ""
+  },
+  {
+    "start": "09:10",
+    "stop": "09:10",
+    "channel": "AirtelMarathiInfo4.in",
+    "channelId": "AirtelMarathiInfo4.in",
+    "channelName": "Airtel Marathi Info 4",
+    "startTs": 1775639400000,
+    "stopTs": 1775725800000,
+    "title": "Airtel Marathi Info 4",
+    "desc": ""
+  }
+]

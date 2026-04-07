@@ -1,0 +1,178 @@
+[
+  {
+    "start": "07:30",
+    "stop": "11:45",
+    "channel": "KrishnaVani.in",
+    "channelId": "KrishnaVani.in",
+    "channelName": "Krishna Vani",
+    "startTs": 1775547000000,
+    "stopTs": 1775562300000,
+    "title": "Bhajan Sangrah",
+    "desc": "A melodious compilation of devotional songs and hymns composed and sung by various renowned artists is played back to back."
+  },
+  {
+    "start": "11:45",
+    "stop": "12:35",
+    "channel": "KrishnaVani.in",
+    "channelId": "KrishnaVani.in",
+    "channelName": "Krishna Vani",
+    "startTs": 1775562300000,
+    "stopTs": 1775565300000,
+    "title": "Artiyan",
+    "desc": "Devotees of the Hindu faith come together to perform rituals in honour of a beloved deity and seek the blessings of the Almighty."
+  },
+  {
+    "start": "12:35",
+    "stop": "13:15",
+    "channel": "KrishnaVani.in",
+    "channelId": "KrishnaVani.in",
+    "channelName": "Krishna Vani",
+    "startTs": 1775565300000,
+    "stopTs": 1775567700000,
+    "title": "Amrit Wani",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "13:15",
+    "stop": "16:00",
+    "channel": "KrishnaVani.in",
+    "channelId": "KrishnaVani.in",
+    "channelName": "Krishna Vani",
+    "startTs": 1775567700000,
+    "stopTs": 1775577600000,
+    "title": "Bhajan Sangrah",
+    "desc": "A melodious compilation of devotional songs and hymns composed and sung by various renowned artists is played back to back."
+  },
+  {
+    "start": "16:00",
+    "stop": "18:29",
+    "channel": "KrishnaVani.in",
+    "channelId": "KrishnaVani.in",
+    "channelName": "Krishna Vani",
+    "startTs": 1775577600000,
+    "stopTs": 1775586599000,
+    "title": "Bhagwati Jagran",
+    "desc": "Devotees gather to sing hymns and participate in various religious rituals through the night in honour of Goddess Bhagavati."
+  },
+  {
+    "start": "18:30",
+    "stop": "19:00",
+    "channel": "KrishnaVani.in",
+    "channelId": "KrishnaVani.in",
+    "channelName": "Krishna Vani",
+    "startTs": 1775586600000,
+    "stopTs": 1775588400000,
+    "title": "Bhagwati Jagran",
+    "desc": "Devotees gather to sing hymns and participate in various religious rituals through the night in honour of Goddess Bhagavati."
+  },
+  {
+    "start": "19:00",
+    "stop": "00:30",
+    "channel": "KrishnaVani.in",
+    "channelId": "KrishnaVani.in",
+    "channelName": "Krishna Vani",
+    "startTs": 1775588400000,
+    "stopTs": 1775608200000,
+    "title": "Bhajan Sangrah",
+    "desc": "A melodious compilation of devotional songs and hymns composed and sung by various renowned artists is played back to back."
+  },
+  {
+    "start": "00:30",
+    "stop": "01:15",
+    "channel": "KrishnaVani.in",
+    "channelId": "KrishnaVani.in",
+    "channelName": "Krishna Vani",
+    "startTs": 1775608200000,
+    "stopTs": 1775610900000,
+    "title": "Artiyan",
+    "desc": "Devotees of the Hindu faith come together to perform rituals in honour of a beloved deity and seek the blessings of the Almighty."
+  },
+  {
+    "start": "01:15",
+    "stop": "02:00",
+    "channel": "KrishnaVani.in",
+    "channelId": "KrishnaVani.in",
+    "channelName": "Krishna Vani",
+    "startTs": 1775610900000,
+    "stopTs": 1775613600000,
+    "title": "Amrit Wani",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "02:00",
+    "stop": "05:30",
+    "channel": "KrishnaVani.in",
+    "channelId": "KrishnaVani.in",
+    "channelName": "Krishna Vani",
+    "startTs": 1775613600000,
+    "stopTs": 1775626200000,
+    "title": "Bhajan Sangrah",
+    "desc": "A melodious compilation of devotional songs and hymns composed and sung by various renowned artists is played back to back."
+  },
+  {
+    "start": "05:30",
+    "stop": "07:30",
+    "channel": "KrishnaVani.in",
+    "channelId": "KrishnaVani.in",
+    "channelName": "Krishna Vani",
+    "startTs": 1775626200000,
+    "stopTs": 1775633400000,
+    "title": "Kirtan Sangrah",
+    "desc": "Devotees and religious leaders gather to sing melodious devotional songs in praise of the Almighty and receive his blessings."
+  },
+  {
+    "start": "07:30",
+    "stop": "11:45",
+    "channel": "KrishnaVani.in",
+    "channelId": "KrishnaVani.in",
+    "channelName": "Krishna Vani",
+    "startTs": 1775633400000,
+    "stopTs": 1775648700000,
+    "title": "Bhajan Sangrah",
+    "desc": "A melodious compilation of devotional songs and hymns composed and sung by various renowned artists is played back to back."
+  },
+  {
+    "start": "11:45",
+    "stop": "12:35",
+    "channel": "KrishnaVani.in",
+    "channelId": "KrishnaVani.in",
+    "channelName": "Krishna Vani",
+    "startTs": 1775648700000,
+    "stopTs": 1775651700000,
+    "title": "Artiyan",
+    "desc": "Devotees of the Hindu faith come together to perform rituals in honour of a beloved deity and seek the blessings of the Almighty."
+  },
+  {
+    "start": "12:35",
+    "stop": "13:15",
+    "channel": "KrishnaVani.in",
+    "channelId": "KrishnaVani.in",
+    "channelName": "Krishna Vani",
+    "startTs": 1775651700000,
+    "stopTs": 1775654100000,
+    "title": "Amrit Wani",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "13:15",
+    "stop": "16:00",
+    "channel": "KrishnaVani.in",
+    "channelId": "KrishnaVani.in",
+    "channelName": "Krishna Vani",
+    "startTs": 1775654100000,
+    "stopTs": 1775664000000,
+    "title": "Bhajan Sangrah",
+    "desc": "A melodious compilation of devotional songs and hymns composed and sung by various renowned artists is played back to back."
+  },
+  {
+    "start": "16:00",
+    "stop": "18:29",
+    "channel": "KrishnaVani.in",
+    "channelId": "KrishnaVani.in",
+    "channelName": "Krishna Vani",
+    "startTs": 1775664000000,
+    "stopTs": 1775672999000,
+    "title": "Bhagwati Jagran",
+    "desc": "Devotees gather to sing hymns and participate in various religious rituals through the night in honour of Goddess Bhagavati."
+  }
+]

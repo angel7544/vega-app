@@ -1,0 +1,189 @@
+[
+  {
+    "start": "07:30",
+    "stop": "10:30",
+    "channel": "SriNagaSaiMandir.in",
+    "channelId": "SriNagaSaiMandir.in",
+    "channelName": "Sri Naga Sai Mandir",
+    "startTs": 1775547000000,
+    "stopTs": 1775557800000,
+    "title": "Sri Naga Sai Mandir",
+    "desc": "Sri Naga Sai Mandir"
+  },
+  {
+    "start": "10:30",
+    "stop": "12:45",
+    "channel": "SriNagaSaiMandir.in",
+    "channelId": "SriNagaSaiMandir.in",
+    "channelName": "Sri Naga Sai Mandir",
+    "startTs": 1775557800000,
+    "stopTs": 1775565900000,
+    "title": "Sri Naga Sai Live Darshan",
+    "desc": "Sri Naga Sai Live Darshan"
+  },
+  {
+    "start": "12:45",
+    "stop": "13:15",
+    "channel": "SriNagaSaiMandir.in",
+    "channelId": "SriNagaSaiMandir.in",
+    "channelName": "Sri Naga Sai Mandir",
+    "startTs": 1775565900000,
+    "stopTs": 1775567700000,
+    "title": "Evening Aarti",
+    "desc": "Evening Aarti"
+  },
+  {
+    "start": "13:15",
+    "stop": "15:00",
+    "channel": "SriNagaSaiMandir.in",
+    "channelId": "SriNagaSaiMandir.in",
+    "channelName": "Sri Naga Sai Mandir",
+    "startTs": 1775567700000,
+    "stopTs": 1775574000000,
+    "title": "Sri Naga Sai Live Darshan",
+    "desc": "Sri Naga Sai Live Darshan"
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "SriNagaSaiMandir.in",
+    "channelId": "SriNagaSaiMandir.in",
+    "channelName": "Sri Naga Sai Mandir",
+    "startTs": 1775574000000,
+    "stopTs": 1775575800000,
+    "title": "Night Aarti",
+    "desc": "Night Aarti"
+  },
+  {
+    "start": "15:30",
+    "stop": "18:29",
+    "channel": "SriNagaSaiMandir.in",
+    "channelId": "SriNagaSaiMandir.in",
+    "channelName": "Sri Naga Sai Mandir",
+    "startTs": 1775575800000,
+    "stopTs": 1775586599000,
+    "title": "Sri Naga Sai Mandir",
+    "desc": "Sri Naga Sai Mandir"
+  },
+  {
+    "start": "18:30",
+    "stop": "23:30",
+    "channel": "SriNagaSaiMandir.in",
+    "channelId": "SriNagaSaiMandir.in",
+    "channelName": "Sri Naga Sai Mandir",
+    "startTs": 1775586600000,
+    "stopTs": 1775604600000,
+    "title": "Sri Naga Sai Mandir",
+    "desc": "Sri Naga Sai Mandir"
+  },
+  {
+    "start": "23:30",
+    "stop": "02:15",
+    "channel": "SriNagaSaiMandir.in",
+    "channelId": "SriNagaSaiMandir.in",
+    "channelName": "Sri Naga Sai Mandir",
+    "startTs": 1775604600000,
+    "stopTs": 1775614500000,
+    "title": "Sri Naga Sai Live Darshan",
+    "desc": "Sri Naga Sai Live Darshan"
+  },
+  {
+    "start": "02:15",
+    "stop": "03:00",
+    "channel": "SriNagaSaiMandir.in",
+    "channelId": "SriNagaSaiMandir.in",
+    "channelName": "Sri Naga Sai Mandir",
+    "startTs": 1775614500000,
+    "stopTs": 1775617200000,
+    "title": "Morning Abhishekam And Alangaram Poojai",
+    "desc": "Morning Abhishekam And Alangaram Poojai"
+  },
+  {
+    "start": "03:00",
+    "stop": "06:15",
+    "channel": "SriNagaSaiMandir.in",
+    "channelId": "SriNagaSaiMandir.in",
+    "channelName": "Sri Naga Sai Mandir",
+    "startTs": 1775617200000,
+    "stopTs": 1775628900000,
+    "title": "Sri Naga Sai Live Darshan",
+    "desc": "Sri Naga Sai Live Darshan"
+  },
+  {
+    "start": "06:15",
+    "stop": "07:30",
+    "channel": "SriNagaSaiMandir.in",
+    "channelId": "SriNagaSaiMandir.in",
+    "channelName": "Sri Naga Sai Mandir",
+    "startTs": 1775628900000,
+    "stopTs": 1775633400000,
+    "title": "Afternoon Abhishekam And Aarti",
+    "desc": "Afternoon Abhishekam And Aarti"
+  },
+  {
+    "start": "07:30",
+    "stop": "10:30",
+    "channel": "SriNagaSaiMandir.in",
+    "channelId": "SriNagaSaiMandir.in",
+    "channelName": "Sri Naga Sai Mandir",
+    "startTs": 1775633400000,
+    "stopTs": 1775644200000,
+    "title": "Sri Naga Sai Mandir",
+    "desc": "Sri Naga Sai Mandir"
+  },
+  {
+    "start": "10:30",
+    "stop": "12:45",
+    "channel": "SriNagaSaiMandir.in",
+    "channelId": "SriNagaSaiMandir.in",
+    "channelName": "Sri Naga Sai Mandir",
+    "startTs": 1775644200000,
+    "stopTs": 1775652300000,
+    "title": "Sri Naga Sai Live Darshan",
+    "desc": "Sri Naga Sai Live Darshan"
+  },
+  {
+    "start": "12:45",
+    "stop": "13:15",
+    "channel": "SriNagaSaiMandir.in",
+    "channelId": "SriNagaSaiMandir.in",
+    "channelName": "Sri Naga Sai Mandir",
+    "startTs": 1775652300000,
+    "stopTs": 1775654100000,
+    "title": "Evening Aarti",
+    "desc": "Evening Aarti"
+  },
+  {
+    "start": "13:15",
+    "stop": "15:00",
+    "channel": "SriNagaSaiMandir.in",
+    "channelId": "SriNagaSaiMandir.in",
+    "channelName": "Sri Naga Sai Mandir",
+    "startTs": 1775654100000,
+    "stopTs": 1775660400000,
+    "title": "Sri Naga Sai Live Darshan",
+    "desc": "Sri Naga Sai Live Darshan"
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "SriNagaSaiMandir.in",
+    "channelId": "SriNagaSaiMandir.in",
+    "channelName": "Sri Naga Sai Mandir",
+    "startTs": 1775660400000,
+    "stopTs": 1775662200000,
+    "title": "Night Aarti",
+    "desc": "Night Aarti"
+  },
+  {
+    "start": "15:30",
+    "stop": "18:29",
+    "channel": "SriNagaSaiMandir.in",
+    "channelId": "SriNagaSaiMandir.in",
+    "channelName": "Sri Naga Sai Mandir",
+    "startTs": 1775662200000,
+    "stopTs": 1775672999000,
+    "title": "Sri Naga Sai Mandir",
+    "desc": "Sri Naga Sai Mandir"
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "start": "07:30",
+    "stop": "09:30",
+    "channel": "NKTVLive.in",
+    "channelId": "NKTVLive.in",
+    "channelName": "NKTV Live",
+    "startTs": 1775547000000,
+    "stopTs": 1775554200000,
+    "title": "Arogya Manthana",
+    "desc": "A medical professional sheds light on various common ailments whilst providing relevant tips that can facilitate maintaining a healthy lifestyle."
+  },
+  {
+    "start": "09:30",
+    "stop": "10:30",
+    "channel": "NKTVLive.in",
+    "channelId": "NKTVLive.in",
+    "channelName": "NKTV Live",
+    "startTs": 1775554200000,
+    "stopTs": 1775557800000,
+    "title": "Yakshagana",
+    "desc": "The host presents a report on Yakshagana, an ancient theatre form which is a colourful mélange of music, dance, drama and costume belonging to the coastal region of Karnataka."
+  },
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "NKTVLive.in",
+    "channelId": "NKTVLive.in",
+    "channelName": "NKTV Live",
+    "startTs": 1775557800000,
+    "stopTs": 1775561400000,
+    "title": "Womenia",
+    "desc": "The host holds insightful conversations with influential women who are entrepreneurs and experts in their fields to discuss their achievements and impact on society."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "NKTVLive.in",
+    "channelId": "NKTVLive.in",
+    "channelName": "NKTV Live",
+    "startTs": 1775561400000,
+    "stopTs": 1775565000000,
+    "title": "Walk In The Special Path",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "NKTVLive.in",
+    "channelId": "NKTVLive.in",
+    "channelName": "NKTV Live",
+    "startTs": 1775565000000,
+    "stopTs": 1775568600000,
+    "title": "Wow Moms",
+    "desc": "The host invites remarkable women and engages in a conversation with them on various topics as well as their life experiences."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "NKTVLive.in",
+    "channelId": "NKTVLive.in",
+    "channelName": "NKTV Live",
+    "startTs": 1775568600000,
+    "stopTs": 1775572200000,
+    "title": "Special Story",
+    "desc": "The host presents latest updates and developments pertaining to the social, political and economic issues of the country and the state of Punjab."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "NKTVLive.in",
+    "channelId": "NKTVLive.in",
+    "channelName": "NKTV Live",
+    "startTs": 1775572200000,
+    "stopTs": 1775575800000,
+    "title": "News",
+    "desc": "The host presents the latest news stories and developments surrounding various socio-economic and political issues around the globe."
+  },
+  {
+    "start": "15:30",
+    "stop": "18:29",
+    "channel": "NKTVLive.in",
+    "channelId": "NKTVLive.in",
+    "channelName": "NKTV Live",
+    "startTs": 1775575800000,
+    "stopTs": 1775586599000,
+    "title": "Recorded Programs",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "18:30",
+    "stop": "01:30",
+    "channel": "NKTVLive.in",
+    "channelId": "NKTVLive.in",
+    "channelName": "NKTV Live",
+    "startTs": 1775586600000,
+    "stopTs": 1775611800000,
+    "title": "Recorded Programs",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "01:30",
+    "stop": "05:30",
+    "channel": "NKTVLive.in",
+    "channelId": "NKTVLive.in",
+    "channelName": "NKTV Live",
+    "startTs": 1775611800000,
+    "stopTs": 1775626200000,
+    "title": "Bhakthi",
+    "desc": "A religious scholar delivers a discourse on matters concerning the path of devotion and urges the followers to lead a peaceful and righteous life."
+  },
+  {
+    "start": "05:30",
+    "stop": "06:30",
+    "channel": "NKTVLive.in",
+    "channelId": "NKTVLive.in",
+    "channelName": "NKTV Live",
+    "startTs": 1775626200000,
+    "stopTs": 1775629800000,
+    "title": "Sadhakara Chavadi",
+    "desc": "The host converses with eminent personalities of various backgrounds and discusses in detail about their respective professions, life and achievements."
+  },
+  {
+    "start": "06:30",
+    "stop": "07:30",
+    "channel": "NKTVLive.in",
+    "channelId": "NKTVLive.in",
+    "channelName": "NKTV Live",
+    "startTs": 1775629800000,
+    "stopTs": 1775633400000,
+    "title": "Roy Cruisers",
+    "desc": "Travel enthusiasts explore various locations around the country to experience the raw beauty and adventures of the landscapes."
+  },
+  {
+    "start": "07:30",
+    "stop": "09:30",
+    "channel": "NKTVLive.in",
+    "channelId": "NKTVLive.in",
+    "channelName": "NKTV Live",
+    "startTs": 1775633400000,
+    "stopTs": 1775640600000,
+    "title": "Arogya Manthana",
+    "desc": "A medical professional sheds light on various common ailments whilst providing relevant tips that can facilitate maintaining a healthy lifestyle."
+  },
+  {
+    "start": "09:30",
+    "stop": "10:30",
+    "channel": "NKTVLive.in",
+    "channelId": "NKTVLive.in",
+    "channelName": "NKTV Live",
+    "startTs": 1775640600000,
+    "stopTs": 1775644200000,
+    "title": "Healthy Karnataka",
+    "desc": "An expert delves into various health-centric topics that can boost and maintain one&apos;s life and expounds on healthy diet, lifestyle choices and changes to make to improve overall well-being."
+  },
+  {
+    "start": "10:30",
+    "stop": "11:30",
+    "channel": "NKTVLive.in",
+    "channelId": "NKTVLive.in",
+    "channelName": "NKTV Live",
+    "startTs": 1775644200000,
+    "stopTs": 1775647800000,
+    "title": "Womenia",
+    "desc": "The host holds insightful conversations with influential women who are entrepreneurs and experts in their fields to discuss their achievements and impact on society."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:30",
+    "channel": "NKTVLive.in",
+    "channelId": "NKTVLive.in",
+    "channelName": "NKTV Live",
+    "startTs": 1775647800000,
+    "stopTs": 1775651400000,
+    "title": "Walk In The Special Path",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:30",
+    "channel": "NKTVLive.in",
+    "channelId": "NKTVLive.in",
+    "channelName": "NKTV Live",
+    "startTs": 1775651400000,
+    "stopTs": 1775655000000,
+    "title": "Wow Moms",
+    "desc": "The host invites remarkable women and engages in a conversation with them on various topics as well as their life experiences."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:30",
+    "channel": "NKTVLive.in",
+    "channelId": "NKTVLive.in",
+    "channelName": "NKTV Live",
+    "startTs": 1775655000000,
+    "stopTs": 1775658600000,
+    "title": "Yakshagana",
+    "desc": "The host presents a report on Yakshagana, an ancient theatre form which is a colourful mélange of music, dance, drama and costume belonging to the coastal region of Karnataka."
+  },
+  {
+    "start": "14:30",
+    "stop": "15:30",
+    "channel": "NKTVLive.in",
+    "channelId": "NKTVLive.in",
+    "channelName": "NKTV Live",
+    "startTs": 1775658600000,
+    "stopTs": 1775662200000,
+    "title": "News",
+    "desc": "The host presents the latest news stories and developments surrounding various socio-economic and political issues around the globe."
+  },
+  {
+    "start": "15:30",
+    "stop": "18:29",
+    "channel": "NKTVLive.in",
+    "channelId": "NKTVLive.in",
+    "channelName": "NKTV Live",
+    "startTs": 1775662200000,
+    "stopTs": 1775672999000,
+    "title": "Recorded Programs",
+    "desc": "Bringing the best in television."
+  }
+]

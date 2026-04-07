@@ -1,0 +1,57 @@
+[
+  {
+    "start": "02:30",
+    "stop": "17:30",
+    "channel": "MahaMovies.in",
+    "channelId": "MahaMovies.in",
+    "channelName": "Maha Movies",
+    "startTs": 1775529000000,
+    "stopTs": 1775583000000,
+    "title": "Takat Vati",
+    "desc": "The host introduces the benefits of an ancient ayurvedic remedy that helps ease digestive issues and enhances overall gut health."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:29",
+    "channel": "MahaMovies.in",
+    "channelId": "MahaMovies.in",
+    "channelName": "Maha Movies",
+    "startTs": 1775583000000,
+    "stopTs": 1775586599000,
+    "title": "Takat Vati",
+    "desc": "The host introduces the benefits of an ancient ayurvedic remedy that helps ease digestive issues and enhances overall gut health."
+  },
+  {
+    "start": "18:30",
+    "stop": "02:30",
+    "channel": "MahaMovies.in",
+    "channelId": "MahaMovies.in",
+    "channelName": "Maha Movies",
+    "startTs": 1775586600000,
+    "stopTs": 1775615400000,
+    "title": "Takat Vati",
+    "desc": "The host introduces the benefits of an ancient ayurvedic remedy that helps ease digestive issues and enhances overall gut health."
+  },
+  {
+    "start": "02:30",
+    "stop": "17:30",
+    "channel": "MahaMovies.in",
+    "channelId": "MahaMovies.in",
+    "channelName": "Maha Movies",
+    "startTs": 1775615400000,
+    "stopTs": 1775669400000,
+    "title": "Takat Vati",
+    "desc": "The host introduces the benefits of an ancient ayurvedic remedy that helps ease digestive issues and enhances overall gut health."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:29",
+    "channel": "MahaMovies.in",
+    "channelId": "MahaMovies.in",
+    "channelName": "Maha Movies",
+    "startTs": 1775669400000,
+    "stopTs": 1775672999000,
+    "title": "Takat Vati",
+    "desc": "The host introduces the benefits of an ancient ayurvedic remedy that helps ease digestive issues and enhances overall gut health."
+  }
+]

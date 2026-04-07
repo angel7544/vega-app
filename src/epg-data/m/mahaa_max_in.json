@@ -1,0 +1,24 @@
+[
+  {
+    "start": "09:10",
+    "stop": "09:10",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "MAHAA MAX",
+    "startTs": 1775553000000,
+    "stopTs": 1775639400000,
+    "title": "MAHAA MAX",
+    "desc": ""
+  },
+  {
+    "start": "09:10",
+    "stop": "09:10",
+    "channel": "MahaaMax.in",
+    "channelId": "MahaaMax.in",
+    "channelName": "MAHAA MAX",
+    "startTs": 1775639400000,
+    "stopTs": 1775725800000,
+    "title": "MAHAA MAX",
+    "desc": ""
+  }
+]

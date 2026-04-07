@@ -1,0 +1,24 @@
+[
+  {
+    "start": "09:10",
+    "stop": "09:10",
+    "channel": "SuperfineFilms.in",
+    "channelId": "SuperfineFilms.in",
+    "channelName": "Superfine Films",
+    "startTs": 1775553000000,
+    "stopTs": 1775639400000,
+    "title": "Superfine Films",
+    "desc": ""
+  },
+  {
+    "start": "09:10",
+    "stop": "09:10",
+    "channel": "SuperfineFilms.in",
+    "channelId": "SuperfineFilms.in",
+    "channelName": "Superfine Films",
+    "startTs": 1775639400000,
+    "stopTs": 1775725800000,
+    "title": "Superfine Films",
+    "desc": ""
+  }
+]

@@ -165,7 +165,7 @@ const WatchList = () => {
         <BlurView intensity={30} tint={isDark ? 'dark' : 'light'} style={StyleSheet.absoluteFill} />
         <View className="flex-row items-baseline">
           <Text className={`text-2xl font-black italic tracking-tighter ${isDark ? 'text-white' : 'text-black'}`}>
-            Watchlist
+            Watchlist     
           </Text>
           <View className="w-1.5 h-1.5 rounded-full ml-2" style={{ backgroundColor: primary }} />
         </View>
@@ -176,12 +176,12 @@ const WatchList = () => {
           >
             <Feather name={layoutMode === 'grid' ? "list" : "grid"} size={20} color={isDark ? 'white' : 'black'} />
           </TouchableOpacity>
-          <TouchableOpacity
+          {/* <TouchableOpacity
             onPress={() => setSearchText(searchText ? '' : ' ')}
             className={`w-10 h-10 items-center justify-center rounded-full ${isDark ? 'bg-white/10' : 'bg-black/5'}`}
           >
             <Feather name="search" size={20} color={isDark ? 'white' : 'black'} />
-          </TouchableOpacity>
+          </TouchableOpacity> */}
         </View>
       </View>
 

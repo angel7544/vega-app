@@ -1,0 +1,178 @@
+[
+  {
+    "start": "06:30",
+    "stop": "08:30",
+    "channel": "SundraniTV.in",
+    "channelId": "SundraniTV.in",
+    "channelName": "Sundrani TV",
+    "startTs": 1775543400000,
+    "stopTs": 1775550600000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "08:30",
+    "stop": "09:30",
+    "channel": "SundraniTV.in",
+    "channelId": "SundraniTV.in",
+    "channelName": "Sundrani TV",
+    "startTs": 1775550600000,
+    "stopTs": 1775554200000,
+    "title": "Lokgeet",
+    "desc": "A comprehensive compilation comprising some of the most popular Indian folk songs composed by various artists, played in succession."
+  },
+  {
+    "start": "09:30",
+    "stop": "11:30",
+    "channel": "SundraniTV.in",
+    "channelId": "SundraniTV.in",
+    "channelName": "Sundrani TV",
+    "startTs": 1775554200000,
+    "stopTs": 1775561400000,
+    "title": "Lokgeet",
+    "desc": "A comprehensive compilation comprising some of the most popular Indian folk songs composed by various artists, played in succession."
+  },
+  {
+    "start": "11:30",
+    "stop": "13:30",
+    "channel": "SundraniTV.in",
+    "channelId": "SundraniTV.in",
+    "channelName": "Sundrani TV",
+    "startTs": 1775561400000,
+    "stopTs": 1775568600000,
+    "title": "Filmy Song",
+    "desc": "A comprehensive compilation of popular melodious songs from movies featuring prominent stars is played in quick succession."
+  },
+  {
+    "start": "13:30",
+    "stop": "15:30",
+    "channel": "SundraniTV.in",
+    "channelId": "SundraniTV.in",
+    "channelName": "Sundrani TV",
+    "startTs": 1775568600000,
+    "stopTs": 1775575800000,
+    "title": "Comedy Night",
+    "desc": "Talented comedians come together and perform hilarious sketches jesting the invited celebrities as well as entertaining the audiences."
+  },
+  {
+    "start": "15:30",
+    "stop": "18:29",
+    "channel": "SundraniTV.in",
+    "channelId": "SundraniTV.in",
+    "channelName": "Sundrani TV",
+    "startTs": 1775575800000,
+    "stopTs": 1775586599000,
+    "title": "Lokgeet Night",
+    "desc": "A comprehensive compilation comprising some of the most popular Indian folk songs composed by various artists, played in succession."
+  },
+  {
+    "start": "18:30",
+    "stop": "00:30",
+    "channel": "SundraniTV.in",
+    "channelId": "SundraniTV.in",
+    "channelName": "Sundrani TV",
+    "startTs": 1775586600000,
+    "stopTs": 1775608200000,
+    "title": "Lokgeet",
+    "desc": "A comprehensive compilation comprising some of the most popular Indian folk songs composed by various artists, played in succession."
+  },
+  {
+    "start": "00:30",
+    "stop": "01:30",
+    "channel": "SundraniTV.in",
+    "channelId": "SundraniTV.in",
+    "channelName": "Sundrani TV",
+    "startTs": 1775608200000,
+    "stopTs": 1775611800000,
+    "title": "Lord Ganesha Bhajan",
+    "desc": "A compilation of devotional songs are performed by skilled musicians in praise of the divine might of the Hindu deity Ganesha."
+  },
+  {
+    "start": "01:30",
+    "stop": "04:30",
+    "channel": "SundraniTV.in",
+    "channelId": "SundraniTV.in",
+    "channelName": "Sundrani TV",
+    "startTs": 1775611800000,
+    "stopTs": 1775622600000,
+    "title": "Morning Lokgeet",
+    "desc": "A comprehensive compilation of some of the most popular devotional songs, specially curated for the morning, played in succession by various artists."
+  },
+  {
+    "start": "04:30",
+    "stop": "06:30",
+    "channel": "SundraniTV.in",
+    "channelId": "SundraniTV.in",
+    "channelName": "Sundrani TV",
+    "startTs": 1775622600000,
+    "stopTs": 1775629800000,
+    "title": "Filmy Comedy & Comedy Drama",
+    "desc": "A comprehensive compilation of comedy scenes from popular movies featuring talented artists is played in quick succession."
+  },
+  {
+    "start": "06:30",
+    "stop": "08:30",
+    "channel": "SundraniTV.in",
+    "channelId": "SundraniTV.in",
+    "channelName": "Sundrani TV",
+    "startTs": 1775629800000,
+    "stopTs": 1775637000000,
+    "title": "Movie",
+    "desc": "Bringing the best in television."
+  },
+  {
+    "start": "08:30",
+    "stop": "09:30",
+    "channel": "SundraniTV.in",
+    "channelId": "SundraniTV.in",
+    "channelName": "Sundrani TV",
+    "startTs": 1775637000000,
+    "stopTs": 1775640600000,
+    "title": "Lokgeet",
+    "desc": "A comprehensive compilation comprising some of the most popular Indian folk songs composed by various artists, played in succession."
+  },
+  {
+    "start": "09:30",
+    "stop": "11:30",
+    "channel": "SundraniTV.in",
+    "channelId": "SundraniTV.in",
+    "channelName": "Sundrani TV",
+    "startTs": 1775640600000,
+    "stopTs": 1775647800000,
+    "title": "Lokgeet",
+    "desc": "A comprehensive compilation comprising some of the most popular Indian folk songs composed by various artists, played in succession."
+  },
+  {
+    "start": "11:30",
+    "stop": "13:30",
+    "channel": "SundraniTV.in",
+    "channelId": "SundraniTV.in",
+    "channelName": "Sundrani TV",
+    "startTs": 1775647800000,
+    "stopTs": 1775655000000,
+    "title": "Filmy Song",
+    "desc": "A comprehensive compilation of popular melodious songs from movies featuring prominent stars is played in quick succession."
+  },
+  {
+    "start": "13:30",
+    "stop": "15:30",
+    "channel": "SundraniTV.in",
+    "channelId": "SundraniTV.in",
+    "channelName": "Sundrani TV",
+    "startTs": 1775655000000,
+    "stopTs": 1775662200000,
+    "title": "Comedy Night",
+    "desc": "Talented comedians come together and perform hilarious sketches jesting the invited celebrities as well as entertaining the audiences."
+  },
+  {
+    "start": "15:30",
+    "stop": "18:29",
+    "channel": "SundraniTV.in",
+    "channelId": "SundraniTV.in",
+    "channelName": "Sundrani TV",
+    "startTs": 1775662200000,
+    "stopTs": 1775672999000,
+    "title": "Lokgeet Night",
+    "desc": "A comprehensive compilation comprising some of the most popular Indian folk songs composed by various artists, played in succession."
+  }
+]

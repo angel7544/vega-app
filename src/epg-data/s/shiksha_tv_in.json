@@ -1,0 +1,24 @@
+[
+  {
+    "start": "09:10",
+    "stop": "09:10",
+    "channel": "ShikshaTV.in",
+    "channelId": "ShikshaTV.in",
+    "channelName": "Shiksha TV",
+    "startTs": 1775553000000,
+    "stopTs": 1775639400000,
+    "title": "Shiksha TV",
+    "desc": ""
+  },
+  {
+    "start": "09:10",
+    "stop": "09:10",
+    "channel": "ShikshaTV.in",
+    "channelId": "ShikshaTV.in",
+    "channelName": "Shiksha TV",
+    "startTs": 1775639400000,
+    "stopTs": 1775725800000,
+    "title": "Shiksha TV",
+    "desc": ""
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "start": "09:10",
+    "stop": "09:10",
+    "channel": "CineshortsPremiere.in",
+    "channelId": "CineshortsPremiere.in",
+    "channelName": "Cineshorts Premiere",
+    "startTs": 1775553000000,
+    "stopTs": 1775639400000,
+    "title": "Cineshorts Premiere",
+    "desc": ""
+  },
+  {
+    "start": "09:10",
+    "stop": "09:10",
+    "channel": "CineshortsPremiere.in",
+    "channelId": "CineshortsPremiere.in",
+    "channelName": "Cineshorts Premiere",
+    "startTs": 1775639400000,
+    "stopTs": 1775725800000,
+    "title": "Cineshorts Premiere",
+    "desc": ""
+  }
+]

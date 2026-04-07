@@ -1,0 +1,134 @@
+[
+  {
+    "start": "07:30",
+    "stop": "11:00",
+    "channel": "ColorsBanglaCinema.in",
+    "channelId": "ColorsBanglaCinema.in",
+    "channelName": "Colors Bangla Cinema",
+    "startTs": 1775547000000,
+    "stopTs": 1775559600000,
+    "title": "Sneher Protidan",
+    "desc": "Mohan&apos;s love for his brothers is tested when a misunderstanding threatens to fracture their bond."
+  },
+  {
+    "start": "11:00",
+    "stop": "13:55",
+    "channel": "ColorsBanglaCinema.in",
+    "channelId": "ColorsBanglaCinema.in",
+    "channelName": "Colors Bangla Cinema",
+    "startTs": 1775559600000,
+    "stopTs": 1775570100000,
+    "title": "Hirak Jayanti",
+    "desc": "Jaya, Hiru in love. Jaya&apos;s father objects to Hiru."
+  },
+  {
+    "start": "13:55",
+    "stop": "17:05",
+    "channel": "ColorsBanglaCinema.in",
+    "channelId": "ColorsBanglaCinema.in",
+    "channelName": "Colors Bangla Cinema",
+    "startTs": 1775570100000,
+    "stopTs": 1775581500000,
+    "title": "Baro Bou",
+    "desc": "Tapan supports brothers and rift arises due to arrogance."
+  },
+  {
+    "start": "17:05",
+    "stop": "19:50",
+    "channel": "ColorsBanglaCinema.in",
+    "channelId": "ColorsBanglaCinema.in",
+    "channelName": "Colors Bangla Cinema",
+    "startTs": 1775581500000,
+    "stopTs": 1775591400000,
+    "title": "Shibaji",
+    "desc": "Shibaji, tasked with killing a judge by a gangster, opts to turn his back on crime instead, defying expectations."
+  },
+  {
+    "start": "19:50",
+    "stop": "21:30",
+    "channel": "ColorsBanglaCinema.in",
+    "channelId": "ColorsBanglaCinema.in",
+    "channelName": "Colors Bangla Cinema",
+    "startTs": 1775591400000,
+    "stopTs": 1775597400000,
+    "title": "Durga Sohay",
+    "desc": "In northern Kolkata, the aristocratic Basak family lives in their grand mansion. This is their story, a glimpse into their lives and the secrets held within the walls of their ancestral home."
+  },
+  {
+    "start": "21:30",
+    "stop": "00:30",
+    "channel": "ColorsBanglaCinema.in",
+    "channelId": "ColorsBanglaCinema.in",
+    "channelName": "Colors Bangla Cinema",
+    "startTs": 1775597400000,
+    "stopTs": 1775608200000,
+    "title": "Shiv Shakti",
+    "desc": "Lord Shiva and Goddess Parvati fulfil their duties together while sacrificing and caring for humanity."
+  },
+  {
+    "start": "00:30",
+    "stop": "03:30",
+    "channel": "ColorsBanglaCinema.in",
+    "channelId": "ColorsBanglaCinema.in",
+    "channelName": "Colors Bangla Cinema",
+    "startTs": 1775608200000,
+    "stopTs": 1775619000000,
+    "title": "Movie",
+    "desc": "The movie name is yet to be announced by the channel."
+  },
+  {
+    "start": "03:30",
+    "stop": "06:30",
+    "channel": "ColorsBanglaCinema.in",
+    "channelId": "ColorsBanglaCinema.in",
+    "channelName": "Colors Bangla Cinema",
+    "startTs": 1775619000000,
+    "stopTs": 1775629800000,
+    "title": "Movie",
+    "desc": "The movie name is yet to be announced by the channel."
+  },
+  {
+    "start": "06:30",
+    "stop": "09:30",
+    "channel": "ColorsBanglaCinema.in",
+    "channelId": "ColorsBanglaCinema.in",
+    "channelName": "Colors Bangla Cinema",
+    "startTs": 1775629800000,
+    "stopTs": 1775640600000,
+    "title": "Movie",
+    "desc": "The movie name is yet to be announced by the channel."
+  },
+  {
+    "start": "09:30",
+    "stop": "12:30",
+    "channel": "ColorsBanglaCinema.in",
+    "channelId": "ColorsBanglaCinema.in",
+    "channelName": "Colors Bangla Cinema",
+    "startTs": 1775640600000,
+    "stopTs": 1775651400000,
+    "title": "Movie",
+    "desc": "The movie name is yet to be announced by the channel."
+  },
+  {
+    "start": "12:30",
+    "stop": "15:30",
+    "channel": "ColorsBanglaCinema.in",
+    "channelId": "ColorsBanglaCinema.in",
+    "channelName": "Colors Bangla Cinema",
+    "startTs": 1775651400000,
+    "stopTs": 1775662200000,
+    "title": "Movie",
+    "desc": "The movie name is yet to be announced by the channel."
+  },
+  {
+    "start": "15:30",
+    "stop": "18:30",
+    "channel": "ColorsBanglaCinema.in",
+    "channelId": "ColorsBanglaCinema.in",
+    "channelName": "Colors Bangla Cinema",
+    "startTs": 1775662200000,
+    "stopTs": 1775673000000,
+    "title": "Movie",
+    "desc": "The movie name is yet to be announced by the channel."
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "start": "06:30",
+    "stop": "09:30",
+    "channel": "AndpriveHD.in",
+    "channelId": "AndpriveHD.in",
+    "channelName": "&Prive HD",
+    "startTs": 1775543400000,
+    "stopTs": 1775554200000,
+    "title": "Movie",
+    "desc": "The movie name is yet to be announced by the channel."
+  },
+  {
+    "start": "09:30",
+    "stop": "12:30",
+    "channel": "AndpriveHD.in",
+    "channelId": "AndpriveHD.in",
+    "channelName": "&Prive HD",
+    "startTs": 1775554200000,
+    "stopTs": 1775565000000,
+    "title": "Movie",
+    "desc": "The movie name is yet to be announced by the channel."
+  },
+  {
+    "start": "12:30",
+    "stop": "15:30",
+    "channel": "AndpriveHD.in",
+    "channelId": "AndpriveHD.in",
+    "channelName": "&Prive HD",
+    "startTs": 1775565000000,
+    "stopTs": 1775575800000,
+    "title": "Movie",
+    "desc": "The movie name is yet to be announced by the channel."
+  },
+  {
+    "start": "15:30",
+    "stop": "18:30",
+    "channel": "AndpriveHD.in",
+    "channelId": "AndpriveHD.in",
+    "channelName": "&Prive HD",
+    "startTs": 1775575800000,
+    "stopTs": 1775586600000,
+    "title": "Movie",
+    "desc": "The movie name is yet to be announced by the channel."
+  },
+  {
+    "start": "09:10",
+    "stop": "09:10",
+    "channel": "AndpriveHD.in",
+    "channelId": "AndpriveHD.in",
+    "channelName": "&Prive HD",
+    "startTs": 1775639400000,
+    "stopTs": 1775725800000,
+    "title": "&Prive HD",
+    "desc": ""
+  }
+]

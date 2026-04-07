@@ -1,0 +1,222 @@
+[
+  {
+    "start": "09:00",
+    "stop": "09:30",
+    "channel": "HindiKhabar.in",
+    "channelId": "HindiKhabar.in",
+    "channelName": "Hindi Khabar",
+    "startTs": 1775552400000,
+    "stopTs": 1775554200000,
+    "title": "Desh Pradesh",
+    "desc": "Catch up on the latest buzz in politics, sports, and social-economic news with us!"
+  },
+  {
+    "start": "09:30",
+    "stop": "10:00",
+    "channel": "HindiKhabar.in",
+    "channelId": "HindiKhabar.in",
+    "channelName": "Hindi Khabar",
+    "startTs": 1775554200000,
+    "stopTs": 1775556000000,
+    "title": "Takkar Debate",
+    "desc": "The host chats with experts about important upcoming political and social issues."
+  },
+  {
+    "start": "10:00",
+    "stop": "10:30",
+    "channel": "HindiKhabar.in",
+    "channelId": "HindiKhabar.in",
+    "channelName": "Hindi Khabar",
+    "startTs": 1775556000000,
+    "stopTs": 1775557800000,
+    "title": "Janta Ki Awaz",
+    "desc": "Catch up on the latest buzz in politics, sports, and social-economic news with us!"
+  },
+  {
+    "start": "10:30",
+    "stop": "11:00",
+    "channel": "HindiKhabar.in",
+    "channelId": "HindiKhabar.in",
+    "channelName": "Hindi Khabar",
+    "startTs": 1775557800000,
+    "stopTs": 1775559600000,
+    "title": "Ghanta Bulletin / Speed News",
+    "desc": "Catch up on the latest buzz in politics, sports, and social-economic news with us!"
+  },
+  {
+    "start": "11:00",
+    "stop": "11:30",
+    "channel": "HindiKhabar.in",
+    "channelId": "HindiKhabar.in",
+    "channelName": "Hindi Khabar",
+    "startTs": 1775559600000,
+    "stopTs": 1775561400000,
+    "title": "Big Bulletin Del Debate",
+    "desc": "The host chats with experts about important upcoming political and social issues."
+  },
+  {
+    "start": "11:30",
+    "stop": "12:00",
+    "channel": "HindiKhabar.in",
+    "channelId": "HindiKhabar.in",
+    "channelName": "Hindi Khabar",
+    "startTs": 1775561400000,
+    "stopTs": 1775563200000,
+    "title": "5 Badi Khabar",
+    "desc": "Catch up on the latest buzz in politics, sports, and social-economic news with us!"
+  },
+  {
+    "start": "12:00",
+    "stop": "12:30",
+    "channel": "HindiKhabar.in",
+    "channelId": "HindiKhabar.in",
+    "channelName": "Hindi Khabar",
+    "startTs": 1775563200000,
+    "stopTs": 1775565000000,
+    "title": "Apna Uttar Pradesh",
+    "desc": "The host presents a detailed report of the latest news updates pertaining to social, political and economic issues from across Uttar Pradesh."
+  },
+  {
+    "start": "12:30",
+    "stop": "13:00",
+    "channel": "HindiKhabar.in",
+    "channelId": "HindiKhabar.in",
+    "channelName": "Hindi Khabar",
+    "startTs": 1775565000000,
+    "stopTs": 1775566800000,
+    "title": "Big Bullatin Uttarakhand Debate Live",
+    "desc": "Catch up on the latest buzz in politics, sports, and social-economic news with us!"
+  },
+  {
+    "start": "13:00",
+    "stop": "13:30",
+    "channel": "HindiKhabar.in",
+    "channelId": "HindiKhabar.in",
+    "channelName": "Hindi Khabar",
+    "startTs": 1775566800000,
+    "stopTs": 1775568600000,
+    "title": "Apna Uttrakhand",
+    "desc": "The host presents a detailed report of the latest news updates pertaining to social, political and economic issues from across Uttarakhand."
+  },
+  {
+    "start": "13:30",
+    "stop": "14:10",
+    "channel": "HindiKhabar.in",
+    "channelId": "HindiKhabar.in",
+    "channelName": "Hindi Khabar",
+    "startTs": 1775568600000,
+    "stopTs": 1775571000000,
+    "title": "Jksk Up Debate Live",
+    "desc": "Catch up on the latest buzz in politics, sports, and social-economic news with us!"
+  },
+  {
+    "start": "14:10",
+    "stop": "14:30",
+    "channel": "HindiKhabar.in",
+    "channelId": "HindiKhabar.in",
+    "channelName": "Hindi Khabar",
+    "startTs": 1775571000000,
+    "stopTs": 1775572200000,
+    "title": "Punjab Ki Khabar",
+    "desc": "Catch up on the latest buzz in politics, sports, and social-economic news with us!"
+  },
+  {
+    "start": "14:30",
+    "stop": "15:00",
+    "channel": "HindiKhabar.in",
+    "channelId": "HindiKhabar.in",
+    "channelName": "Hindi Khabar",
+    "startTs": 1775572200000,
+    "stopTs": 1775574000000,
+    "title": "Apki Khabar Apka Repoter",
+    "desc": "Catch up on the latest buzz in politics, sports, and social-economic news with us!"
+  },
+  {
+    "start": "15:00",
+    "stop": "15:30",
+    "channel": "HindiKhabar.in",
+    "channelId": "HindiKhabar.in",
+    "channelName": "Hindi Khabar",
+    "startTs": 1775574000000,
+    "stopTs": 1775575800000,
+    "title": "Apna Uttrakhand",
+    "desc": "The host presents a detailed report of the latest news updates pertaining to social, political and economic issues from across Uttarakhand."
+  },
+  {
+    "start": "15:30",
+    "stop": "16:00",
+    "channel": "HindiKhabar.in",
+    "channelId": "HindiKhabar.in",
+    "channelName": "Hindi Khabar",
+    "startTs": 1775575800000,
+    "stopTs": 1775577600000,
+    "title": "News Special Live",
+    "desc": "Catch up on the latest buzz in politics, sports, and social-economic news with us!"
+  },
+  {
+    "start": "16:00",
+    "stop": "16:30",
+    "channel": "HindiKhabar.in",
+    "channelId": "HindiKhabar.in",
+    "channelName": "Hindi Khabar",
+    "startTs": 1775577600000,
+    "stopTs": 1775579400000,
+    "title": "Desh Pradesh",
+    "desc": "Catch up on the latest buzz in politics, sports, and social-economic news with us!"
+  },
+  {
+    "start": "16:30",
+    "stop": "17:00",
+    "channel": "HindiKhabar.in",
+    "channelId": "HindiKhabar.in",
+    "channelName": "Hindi Khabar",
+    "startTs": 1775579400000,
+    "stopTs": 1775581200000,
+    "title": "Apna Uttar Pradesh",
+    "desc": "The host presents a detailed report of the latest news updates pertaining to social, political and economic issues from across Uttar Pradesh."
+  },
+  {
+    "start": "17:00",
+    "stop": "17:30",
+    "channel": "HindiKhabar.in",
+    "channelId": "HindiKhabar.in",
+    "channelName": "Hindi Khabar",
+    "startTs": 1775581200000,
+    "stopTs": 1775583000000,
+    "title": "Desh Ki Khabar",
+    "desc": "The host presents a detailed report of the top five news updates and developments pertaining to society, politics, economy and sports from across the nation."
+  },
+  {
+    "start": "17:30",
+    "stop": "18:10",
+    "channel": "HindiKhabar.in",
+    "channelId": "HindiKhabar.in",
+    "channelName": "Hindi Khabar",
+    "startTs": 1775583000000,
+    "stopTs": 1775585400000,
+    "title": "Jksk Up Debate",
+    "desc": "Catch up on the latest buzz in politics, sports, and social-economic news with us!"
+  },
+  {
+    "start": "18:10",
+    "stop": "18:30",
+    "channel": "HindiKhabar.in",
+    "channelId": "HindiKhabar.in",
+    "channelName": "Hindi Khabar",
+    "startTs": 1775585400000,
+    "stopTs": 1775586600000,
+    "title": "5 Badi Khabar",
+    "desc": "Catch up on the latest buzz in politics, sports, and social-economic news with us!"
+  },
+  {
+    "start": "09:10",
+    "stop": "09:10",
+    "channel": "HindiKhabar.in",
+    "channelId": "HindiKhabar.in",
+    "channelName": "Hindi Khabar",
+    "startTs": 1775639400000,
+    "stopTs": 1775725800000,
+    "title": "Hindi Khabar",
+    "desc": ""
+  }
+]
