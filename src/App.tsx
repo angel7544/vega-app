@@ -30,6 +30,7 @@ import BootSplash from 'react-native-bootsplash';
 import {enableFreeze, enableScreens} from 'react-native-screens';
 import Preferences from './screens/settings/Preference';
 import useThemeStore from './lib/zustand/themeStore';
+import usePlayerStore from './lib/zustand/playerStore';
 import {Dimensions, LogBox, ViewStyle} from 'react-native';
 import {EpisodeLink} from './lib/providers/types';
 import RNReactNativeHapticFeedback from 'react-native-haptic-feedback';
@@ -379,6 +380,10 @@ const App = () => {
       'You have passed a style to FlashList',
       'new NativeEventEmitter()',
     ]);
+    
+    // Ensure EPG repo is correctly initialized (migrates 'main' -> 'master')
+    usePlayerStore.getState().initRepo();
+    console.log(`[EPG] Active Repo: ${usePlayerStore.getState().epgRepoUrl}`);
   }, []);
 
   SystemUI.setBackgroundColorAsync(mode === 'dark' ? 'black' : 'white');

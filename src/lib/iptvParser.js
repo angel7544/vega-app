@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { iptvOrgApi } from './services/iptvOrgApi';
-import usePlayerStore from './zustand/playerStore';
+import usePlayerStore, { DEFAULT_EPG_REPO } from './zustand/playerStore';
 import { strFromU8 } from 'fflate';
 
 const inflightRequests = {};
@@ -58,11 +58,13 @@ export const iptvParser = {
     if (!name) return '';
     return name
       .toLowerCase()
-      .split('(')[0] // Remove anything after brackets
-      .replace(/^(in|us|uk|ca|au|fr|de|it|es|br|mx|ru|jp|cn|kr|ae|sa|za|tr|pk|bd|id|vn|th|my|ph|ng|eg|mx|ar|cl|co|pe|ve|eg|pl|nl|be|se|no|dk|fi|gr|pt|ro|ua|bg|hu|cz|sk|rs|hr|si|ee|lv|lt|is|ie|lu|mc|ad|li|mt|cy|il|jo|qa|kw|om|bh|af|lk|np|mm|kh|la|mn|kp|tw|hk|mo|sg|nz|fj|pg|vu|sb|tl|pw|fm|mh|ki|nr|ws|to|as|gu|mp|um|as|vi|pr|io|sh|fk|gs|gi|tc|ky|bm|ms|vg|ai|ax|aw|cw|sx|bq|pm|yt|wf|tf|bv|hm|tf|aq|tk|nu|nf|pn|ck|wf|tf|bv|hm|tf|aq|tk|nu|nf|pn|ck|wf|tf|bv|hm|tf|aq|tk|nu|nf|pn|ck)\s*-\s*/gi, '') // Remove country prefixes like "IN - "
-      .replace(/\s*(hd|sd|uhd|4k|1080p|720p|576p|hindi|english|telugu|tamil|kannada|malayalam|marathi|bengali|gujarati|punjabi|odia|bhojpuri|assamese|urdu)\s*$/gi, '') // Remove trailing tech/lang info
-      .replace(/[^a-z0-9+]/g, ' ') // Keep '+' (common in channel names) and replace other specials with space
-      .replace(/\s+/g, ' ') // Collapse spaces
+      .replace(/&/g, 'and')
+      .replace(/\s+(hd|sd|uhd|4k|1080p|720p|576p|fhd)\b/gi, '')
+      .replace(/\((hd|sd|uhd|4k|1080p|720p|576p|fhd)\)/gi, '')
+      .split('(')[0]
+      .replace(/\b(hindi|english|telugu|tamil|kannada|malayalam|marathi|bengali|gujarati|punjabi|odia|bhojpuri|assamese|urdu)\b/gi, '')
+      .replace(/[^a-z0-9+]/g, ' ')
+      .replace(/\s+/g, ' ')
       .trim();
   },
 
@@ -148,43 +150,64 @@ export const iptvParser = {
     const countrySuffix = countryCode.toLowerCase();
     
     // Determine possible JSON file names based on IDs or name
+    const { epgRepoUrl } = usePlayerStore.getState();
+    const jsonBase = (epgRepoUrl || DEFAULT_EPG_REPO).replace(/\/$/, '');
+    
+    // Use the same robust candidate generation as channelEPG.js
     const targetRId = (resolvedId || '').toLowerCase().replace(/[^a-z0-9_-]/gi, '_');
     const targetTId = (resolvedTvgId || '').toLowerCase().replace(/[^a-z0-9_-]/gi, '_');
     const targetNId = clean.replace(/[^a-z0-9_-]/gi, '_');
-    
-    // Also try with country suffix if not present
-    const suffixedNId = targetNId.endsWith(`_${countrySuffix}`) ? targetNId : `${targetNId}_${countrySuffix}`;
-    const suffixedRId = targetRId && !targetRId.endsWith(`_${countrySuffix}`) ? `${targetRId}_${countrySuffix}` : targetRId;
 
-    // Step 1: Try JSON individual fetches from GitHub Repo (High Performance)
-    const { epgRepoUrl } = usePlayerStore.getState();
-    const jsonBase = epgRepoUrl || 'https://raw.githubusercontent.com/angel7544/vega-app/orbix-personal/src/epg-data';
-    
-    // Possible file names: tvg-id, iptv-org id, or cleaned name
-    const candidates = Array.from(new Set([
-      targetRId, targetTId, targetNId,
-      suffixedRId, suffixedNId
-    ])).filter(id => id && id.length > 1).map(id => `${jsonBase}/${id}.json`);
+    // Provider-specific ID variations
+    const cleanTvgId = (resolvedTvgId || '').toLowerCase().replace(/^(ts|sun|sony|0-9-)/, '');
+    const providerIds = [
+        cleanTvgId,
+        `ts${cleanTvgId}`,
+        `0-9-${cleanTvgId}`,
+        `sun${cleanTvgId}`,
+        `sony${cleanTvgId}`
+    ].filter(Boolean);
 
-    if (candidates.length > 0) {
+    const baseCandidates = Array.from(new Set([
+        targetRId, 
+        targetTId, 
+        ...providerIds,
+        targetNId,
+        targetNId.replace(/_/g, ''),
+        clean.replace(/\s+/g, ''),
+        clean.replace(/\s+/g, '_')
+    ])).filter(id => id && id.length > 1);
+
+    const candidatesWithSuffix = [];
+    baseCandidates.forEach(b => {
+        candidatesWithSuffix.push(b);
+        if (!b.endsWith(`_${countrySuffix}`)) candidatesWithSuffix.push(`${b}_${countrySuffix}`);
+        if (!b.endsWith(`${countrySuffix}`)) candidatesWithSuffix.push(`${b}${countrySuffix}`);
+    });
+
+    const uniqueCandidates = Array.from(new Set(candidatesWithSuffix));
+
+    if (uniqueCandidates.length > 0) {
       try {
-        const results = await Promise.all(candidates.map(async (url) => {
+        const results = await Promise.all(uniqueCandidates.map(async (id) => {
           try {
+            const shard = id.charAt(0).toLowerCase();
+            const url = `${jsonBase}/${shard}/${id}.json`;
+            console.log(`[EPG] 🔍 Checking candidate: ${url}`);
+
             const cached = epgCache.getParsed(url);
             if (cached) return cached;
             
-            const response = await fetch(url);
-            if (response.ok) {
-              const data = await response.json();
-              if (Array.isArray(data) && data.length > 0) {
-                 const parsed = data.map(p => ({
-                    ...p,
-                    startTs: p.startTs || new Date(p.start).getTime(),
-                    stopTs: p.stopTs || new Date(p.stop).getTime(),
-                 }));
-                 epgCache.setParsed(url, parsed);
-                 return parsed;
-              }
+            const response = await axios.get(url, { timeout: 5000 });
+            console.log(`[EPG] ✅ Found data for: ${id} (Status: ${response.status})`);
+            if (response.status === 200 && Array.isArray(response.data)) {
+               const parsed = response.data.map(p => ({
+                  ...p,
+                  startTs: p.startTs || new Date(p.start).getTime(),
+                  stopTs: p.stopTs || new Date(p.stop).getTime(),
+               }));
+               epgCache.setParsed(url, parsed);
+               return parsed;
             }
           } catch (e) {}
           return null;

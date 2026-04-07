@@ -91,7 +91,8 @@ export async function fetchChannelSchedule(channel, countryCode = 'in', forceRef
     const repoUrl = (usePlayerStore.getState().epgRepoUrl || DEFAULT_EPG_REPO).replace(/\/$/, '');
 
     for (const pName of uniqueNames) {
-        const jsonUrl = `${repoUrl}/${pName}.json`;
+        const shard = pName.charAt(0).toLowerCase();
+        const jsonUrl = `${repoUrl}/${shard}/${pName}.json`;
         
         try {
             // Check cache

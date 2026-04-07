@@ -30,9 +30,10 @@ interface PlayerState {
   updateChannelEpg: (url: string, programs: any[]) => void;
   epgTimeOffset: number;
   setEpgTimeOffset: (offset: number) => void;
+  initRepo: () => void;
 }
 
-export const DEFAULT_EPG_REPO = 'https://raw.githubusercontent.com/angel7544/vega-app/orbix-personal/src/epg-data';
+export const DEFAULT_EPG_REPO = 'https://raw.githubusercontent.com/angel7544/epg-personal/master/src/epg-data';
 
 const usePlayerStore = create<PlayerState>()(
   persist(
@@ -49,8 +50,8 @@ const usePlayerStore = create<PlayerState>()(
 
       toggleDisableEpg: () => set({ disableEpg: !get().disableEpg }),
       setEpgData: (data) => set({ epgData: data }),
-      updateChannelEpg: (url, programs) => set({ 
-        epgData: { ...get().epgData, [url]: programs } 
+      updateChannelEpg: (url, programs) => set({
+        epgData: { ...get().epgData, [url]: programs }
       }),
 
       setCustomEpgUrl: (url: string | null) => set({ customEpgUrl: url }),
@@ -58,6 +59,14 @@ const usePlayerStore = create<PlayerState>()(
       setEpgTimeOffset: (offset: number) => set({ epgTimeOffset: offset }),
 
       setActiveChannel: (channel) => set({ activeChannel: channel }),
+
+      // Migration: Ensure old 'main' branch URLs are updated to 'master'
+      initRepo: () => {
+        const { epgRepoUrl } = get();
+        if (epgRepoUrl.includes('/main/')) {
+           set({ epgRepoUrl: DEFAULT_EPG_REPO });
+        }
+      },
 
       toggleFavorite: (channel) => {
         const { favorites } = get();
@@ -85,7 +94,7 @@ const usePlayerStore = create<PlayerState>()(
       isFavoriteGenre: (genre) => {
         return get().favoriteGenres.includes(genre);
       },
-      
+
       toggleAutoPlayChannel: () => {
         set({ autoPlayChannel: !get().autoPlayChannel });
       },
