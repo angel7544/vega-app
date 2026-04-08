@@ -615,7 +615,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
         <View className={`flex-1 ${isTablet ? 'px-5 py-4' : 'px-3 py-2'} justify-between`}>
           <View>
             <View className="flex-row items-center justify-between">
-              <Text className={`${mode === 'dark' ? 'text-white/80' : 'text-black/80'} ${isTablet ? 'text-[13px]' : 'text-[11px]'} font-black uppercase tracking-widest`}>
+              <Text className={`${mode === 'dark' ? 'text-white/80' : 'text-black/80'} ${isTablet ? 'text-[12px]' : 'text-[11px]'} font-black uppercase tracking-widest`}>
                 Episode {String(getAbsoluteEpisodeNumber(item.title, item.originalIndex)).padStart(2, '0')}
               </Text>
 // Rating removed
@@ -625,7 +625,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
               {tmdbEp?.name || sanitizeName(item.title)}
             </Text>
 
-            <Text className={`${mode === 'dark' ? 'text-white/60' : 'text-black/60'} text-[9px] mt-1 font-medium leading-[14px]`} numberOfLines={3}>
+            <Text className={`${mode === 'dark' ? 'text-white/60' : 'text-black/60'} text-[8px] mt-1 font-medium leading-[14px]`} numberOfLines={3}>
               {tmdbOverview || metaEp?.synopsis || 'No description available for this episode.'}
             </Text>
           </View>
@@ -723,7 +723,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
           </TouchableOpacity>
 
           <View className="flex-1 ml-4 justify-center">
-            <Text className={`${mode === 'dark' ? 'text-white/70' : 'text-black/70'} text-[12px] font-medium leading-[18px]`} numberOfLines={4}>
+            <Text className={`${mode === 'dark' ? 'text-white/70' : 'text-black/70'} text-[10px] font-medium leading-[18px]`} numberOfLines={4}>
               {tmdbOverview || metaEp?.synopsis || 'No description available for this episode.'}
             </Text>
           </View>
@@ -1008,25 +1008,25 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
               <>
                 {filteredAndSortedEpisodes.length > 0 && (
                   <FlatList
-                    key={isTablet ? 'tablet-ep-grid' : 'mobile-ep-list'}
-                    numColumns={1}
+                    key={isTablet ? 'ep-columns-2' : 'ep-columns-1'}
+                    numColumns={isTablet ? 2 : 1}
                     data={filteredAndSortedEpisodes}
                     keyExtractor={(item, index) => `ep-${item.link}-${index}`}
                     renderItem={renderEpisodeItem}
                     scrollEnabled={false}
                     initialNumToRender={10}
-                    columnWrapperStyle={undefined}
+                    columnWrapperStyle={isTablet ? { gap: 16, paddingHorizontal: 16 } : undefined}
                   />
                 )}
                 {filteredAndSortedDirectLinks.length > 0 && (
                   <FlatList
-                    key={isTablet ? 'tablet-dl-grid' : 'mobile-dl-list'}
-                    numColumns={1}
+                    key={isTablet ? 'dl-columns-2' : 'dl-columns-1'}
+                    numColumns={isTablet ? 2 : 1}
                     data={filteredAndSortedDirectLinks}
                     keyExtractor={(item, index) => `dl-${item.link}-${index}`}
                     renderItem={renderDirectLinkItem}
                     scrollEnabled={false}
-                    columnWrapperStyle={undefined}
+                    columnWrapperStyle={isTablet ? { gap: 16, paddingHorizontal: 16 } : undefined}
                   />
                 )}
               </>

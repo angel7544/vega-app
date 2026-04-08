@@ -186,7 +186,7 @@ const WatchList = () => {
       </View>
 
       <FlatList
-        key={layoutMode} // Force full re-render when changing layout mode to avoid numColumns error
+        key={`${layoutMode}-${isTablet}`} // Force full re-render when changing layout mode or orientation to avoid numColumns error
         data={filteredList}
         renderItem={renderItem}
         ListHeaderComponent={
