@@ -40,6 +40,10 @@ export interface TMDBMovieDetail extends TMDBMovie {
   genres: { id: number; name: string }[];
   status: string;
   tagline: string;
+  credits?: {
+    cast: any[];
+    crew: any[];
+  };
 }
 
 export interface TMDBTVDetail extends TMDBTVShow {
@@ -48,4 +52,9 @@ export interface TMDBTVDetail extends TMDBTVShow {
   genres: { id: number; name: string }[];
   status: string;
   tagline: string;
+  created_by?: { id: number; name: string }[];
+  credits?: {
+    cast: any[];
+    crew: any[];
+  };
 }

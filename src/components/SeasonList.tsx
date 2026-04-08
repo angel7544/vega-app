@@ -593,7 +593,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
             className={`${isTablet ? 'w-full aspect-[2/3]' : 'w-[130px] aspect-video'} relative bg-black`}
         >
             {thumbnail || poster?.poster ? (
-                <Image source={{uri: (isTablet && poster?.poster) ? poster.poster : thumbnail}} className="w-full h-full" resizeMode="stretch" />
+                <Image source={{uri: thumbnail || poster?.poster}} className="w-full h-full" resizeMode="cover" />
             ) : (
                 <View className="w-full h-full items-center justify-center opacity-40">
                     <MaterialCommunityIcons name={isTablet ? "movie-outline" : "play-circle"} size={isTablet ? 48 : 32} color="white" />
@@ -704,7 +704,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
               className="w-[120px] aspect-video relative bg-black rounded-[20px] overflow-hidden"
           >
               {thumbnail ? (
-                  <Image source={{uri: thumbnail}} style={{width: '100%', height: '100%'}} resizeMode="stretch" />
+                  <Image source={{uri: thumbnail}} style={{width: '100%', height: '100%'}} resizeMode="cover" />
               ) : (
                   <View className="w-full h-full items-center justify-center opacity-40">
                       <MaterialCommunityIcons name="play-circle" size={32} color="white" />
@@ -775,7 +775,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
             className={`${isTablet ? 'w-[180px]' : 'w-[140px]'} aspect-video relative bg-black`}
         >
             {poster?.poster ? (
-                <Image source={{uri: poster.poster}} style={{width: '100%', height: '100%'}} resizeMode="stretch" />
+                <Image source={{uri: poster.poster}} style={{width: '100%', height: '100%'}} resizeMode="cover" />
             ) : (
                 <View className="w-full h-full items-center justify-center opacity-40">
                     <MaterialCommunityIcons name="movie-play-outline" size={36} color="white" />
@@ -1014,6 +1014,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
                     keyExtractor={(item, index) => `ep-${item.link}-${index}`}
                     renderItem={renderEpisodeItem}
                     scrollEnabled={false}
+                    showsVerticalScrollIndicator={false}
                     initialNumToRender={10}
                     columnWrapperStyle={isTablet ? { gap: 16, paddingHorizontal: 16 } : undefined}
                   />
@@ -1026,6 +1027,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
                     keyExtractor={(item, index) => `dl-${item.link}-${index}`}
                     renderItem={renderDirectLinkItem}
                     scrollEnabled={false}
+                    showsVerticalScrollIndicator={false}
                     columnWrapperStyle={isTablet ? { gap: 16, paddingHorizontal: 16 } : undefined}
                   />
                 )}

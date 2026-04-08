@@ -328,6 +328,28 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
             <Ionicons name="chevron-back" size={24} color={mode === 'dark' ? 'white' : 'black'} />
           </TouchableOpacity>
 
+          {isTablet && (
+            <View className="flex-1 ml-6 mr-4">
+              <Text className={`${textMain} text-[16px] font-black uppercase tracking-tight`} numberOfLines={1}>
+                {displayTitle}
+              </Text>
+              <View className="flex-row items-center mt-0.5">
+                <Text className={`${textSub} text-[9px] font-black uppercase tracking-widest`}>
+                  {(tmdb as any)?.release_date?.split('-')[0] || (tmdb as any)?.first_air_date?.split('-')[0] || meta?.year || info?.year}
+                </Text>
+                {(tmdb as any)?.vote_average > 0 && (
+                  <>
+                    <View className="w-1 h-1 rounded-full bg-white/20 mx-2" />
+                    <Ionicons name="star" size={10} color="#FFD700" />
+                    <Text className={`${textMain} text-[10px] font-black ml-1`}>
+                      {(tmdb as any).vote_average.toFixed(1)}
+                    </Text>
+                  </>
+                )}
+              </View>
+            </View>
+          )}
+
           <View className="flex-row items-center space-x-4">
             {filteredLinkList.length > 1 && isMobileLandscape && (
               <ScrollView 
@@ -403,39 +425,81 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
               </View>
 
             {/* Main Action Buttons under Poster */}
-            <View className="flex-row items-center space-x-3 mt-6 px-1">
-              <TouchableOpacity 
-                onPress={handleWatchNow} 
-                style={{ backgroundColor: '#FF4D3D' }}
-                className="flex-1 py-4 px-6 rounded-full flex-row items-center justify-center shadow-xl shadow-red-600/30"
-              >
-                <Ionicons name={nextUpEpisode?.progress > 0 ? "play-forward" : "play"} size={22} color="white" />
-                <View className="ml-3 items-start">
-                    <Text className="text-white font-black text-[12px] uppercase tracking-[1.5px]">
-                        {nextUpEpisode ? (nextUpEpisode.progress > 0 ? 'Continue' : 'Watch Now') : (info ? 'Watch Again' : 'Watch Now')}
-                    </Text>
-                    {nextUpEpisode && (
-                        <Text className="text-white/70 text-[9px] font-bold uppercase tracking-[0.5px] mt-0.5" numberOfLines={1}>
-                            {sanitizeName(nextUpEpisode.title)}
+              {(!isTablet || !nextUpEpisode) && (
+                <View className="flex-row items-center space-x-3 mt-6 px-1">
+                  <TouchableOpacity 
+                    onPress={handleWatchNow} 
+                    style={{ backgroundColor: '#FF4D3D' }}
+                    className="flex-1 py-4 px-6 rounded-full flex-row items-center justify-center shadow-xl shadow-red-600/30"
+                  >
+                    <Ionicons name={nextUpEpisode?.progress > 0 ? "play-forward" : "play"} size={22} color="white" />
+                    <View className="ml-3 items-start">
+                        <Text className="text-white font-black text-[12px] uppercase tracking-[1.5px]">
+                            {nextUpEpisode ? (nextUpEpisode.progress > 0 ? 'Continue' : 'Watch Now') : (info ? 'Watch Again' : 'Watch Now')}
                         </Text>
-                    )}
-                </View>
-              </TouchableOpacity>
-              
-              <TouchableOpacity 
-                onPress={inLibrary ? removeLibrary : addLibrary} 
-                className={`w-16 h-16 items-center justify-center rounded-full border border-white/10 ${mode === 'dark' ? 'bg-white/10 shadow-xl shadow-black/40' : 'bg-black/5 shadow-sm'}`}
-              >
-                <Ionicons name={inLibrary ? "heart" : "heart-outline"} size={26} color={inLibrary ? "#FF4D3D" : mode === 'dark' ? "white" : "black"} />
-              </TouchableOpacity>
+                        {nextUpEpisode && !isTablet && (
+                            <Text className="text-white/70 text-[9px] font-bold uppercase tracking-[0.5px] mt-0.5" numberOfLines={1}>
+                                {sanitizeName(nextUpEpisode.title)}
+                            </Text>
+                        )}
+                    </View>
+                  </TouchableOpacity>
+                  
+                  <TouchableOpacity 
+                    onPress={inLibrary ? removeLibrary : addLibrary} 
+                    className={`w-16 h-16 items-center justify-center rounded-full border border-white/10 ${mode === 'dark' ? 'bg-white/10 shadow-xl shadow-black/40' : 'bg-black/5 shadow-sm'}`}
+                  >
+                    <Ionicons name={inLibrary ? "heart" : "heart-outline"} size={26} color={inLibrary ? "#FF4D3D" : mode === 'dark' ? "white" : "black"} />
+                  </TouchableOpacity>
 
-              <TouchableOpacity 
-                 onPress={() => Linking.openURL(route.params.link)}
-                 className={`w-16 h-16 items-center justify-center rounded-full border border-white/10 ${mode === 'dark' ? 'bg-white/5 shadow-xl shadow-black/40' : 'bg-black/5 shadow-sm'}`}
-              >
-                <Ionicons name="link" size={24} color={mode === 'dark' ? "white" : "black"} />
-              </TouchableOpacity>
-            </View>
+                  <TouchableOpacity 
+                     onPress={() => Linking.openURL(route.params.link)}
+                     className={`w-16 h-16 items-center justify-center rounded-full border border-white/10 ${mode === 'dark' ? 'bg-white/5 shadow-xl shadow-black/40' : 'bg-black/5 shadow-sm'}`}
+                  >
+                    <Ionicons name="link" size={24} color={mode === 'dark' ? "white" : "black"} />
+                  </TouchableOpacity>
+                </View>
+              )}
+
+            {/* Cast & Crew Section for Tablet Landscape */}
+            {isTablet && tmdb?.credits && (
+              <View className="mt-8 px-1">
+                <Text className={`${textMain} font-black text-[10px] uppercase tracking-widest opacity-40 mb-3`}>Cast & Crew</Text>
+                <View className="flex-row flex-wrap">
+                  {(tmdb.credits.cast as any[])?.slice(0, 4).map((person: any, idx: number) => (
+                    <View key={idx} className="flex-row items-center mr-4 mb-3">
+                       <View className="w-8 h-8 rounded-full bg-white/10 items-center justify-center border border-white/5 overflow-hidden">
+                          {person.profile_path ? (
+                            <Image source={{uri: `https://image.tmdb.org/t/p/w200${person.profile_path}`}} className="w-full h-full" resizeMode="cover" />
+                          ) : (
+                            <Ionicons name="person" size={14} color="gray" />
+                          )}
+                       </View>
+                       <View className="ml-2">
+                          <Text className={`${textMain} text-[9px] font-black`} numberOfLines={1}>{person.name}</Text>
+                          <Text className={`${textSub} text-[7px] font-bold`} numberOfLines={1}>{person.character}</Text>
+                       </View>
+                    </View>
+                  ))}
+                  
+                  {(tmdb.credits.crew as any[])?.filter((p: any) => p.job === 'Director' || p.job === 'Producer' || p.job === 'Executive Producer').slice(0, 2).map((person: any, idx: number) => (
+                    <View key={`crew-${idx}`} className="flex-row items-center mr-4 mb-3">
+                       <View className="w-8 h-8 rounded-full bg-white/10 items-center justify-center border border-white/5 overflow-hidden">
+                          {person.profile_path ? (
+                            <Image source={{uri: `https://image.tmdb.org/t/p/w200${person.profile_path}`}} className="w-full h-full" resizeMode="cover" />
+                          ) : (
+                            <Ionicons name="person" size={14} color="gray" />
+                          )}
+                       </View>
+                       <View className="ml-2">
+                          <Text className={`${textMain} text-[9px] font-black`} numberOfLines={1}>{person.name}</Text>
+                          <Text className={`${textSub} text-[7px] font-bold`} numberOfLines={1}>{person.job}</Text>
+                       </View>
+                    </View>
+                  ))}
+                </View>
+              </View>
+            )}
           </View>
 
 
@@ -486,6 +550,14 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                 <View className="mt-4">
                   <MetadataRow items={[...metadata.quality, ...metadata.technical]} type="technical" />
                 </View>
+
+                {/* Director/Director Info specifically for series if cast is not enough */}
+                {isTablet && ((tmdb as any)?.created_by?.length > 0) && (
+                  <View className="mt-4 flex-row items-center">
+                    <Text className={`${textSub} text-[10px] font-black uppercase tracking-widest`}>Created By: </Text>
+                    <Text className={`${textMain} text-[10px] font-black uppercase tracking-widest`}>{(tmdb as any).created_by.map((c: any) => c.name).join(', ')}</Text>
+                  </View>
+                )}
               </View>
 
               <Text className={`${textSub} ${isMobileLandscape ? 'text-[12px] leading-[18px]' : 'text-[15px] leading-[22px]'} font-bold mt-4`}>
@@ -581,7 +653,29 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
             <Ionicons name="chevron-back" size={24} color={mode === 'dark' ? 'white' : 'black'} />
           </TouchableOpacity>
 
-          <View className={`flex-row items-center ${mode === 'dark' ? 'bg-white/10' : 'bg-white'} rounded-full px-4 h-10 border ${mode === 'dark' ? 'border-white/10' : 'border-black/10 shadow-sm shadow-black/20'} flex-1 ml-4`}>
+          {(isTablet || backgroundColor !== 'transparent') && (
+            <View className="flex-1 ml-4 mr-2">
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[14px] font-black uppercase tracking-tight`} numberOfLines={1}>
+                {displayTitle}
+              </Text>
+              <View className="flex-row items-center">
+                <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-[8px] font-black uppercase tracking-widest`}>
+                  {(tmdb as any)?.release_date?.split('-')[0] || (tmdb as any)?.first_air_date?.split('-')[0] || meta?.year || info?.year}
+                </Text>
+                {(tmdb as any)?.vote_average > 0 && (
+                  <>
+                    <View className="w-1 h-1 rounded-full bg-white/20 mx-2" />
+                    <Ionicons name="star" size={8} color="#FFD700" />
+                    <Text className={`${mode === 'dark' ? 'text-white/60' : 'text-black/60'} text-[9px] font-black ml-1`}>
+                      {(tmdb as any).vote_average.toFixed(1)}
+                    </Text>
+                  </>
+                )}
+              </View>
+            </View>
+          )}
+
+          <View className={`flex-row items-center ${mode === 'dark' ? 'bg-white/10' : 'bg-white'} rounded-full px-4 h-10 border ${mode === 'dark' ? 'border-white/10' : 'border-black/10 shadow-sm shadow-black/20'} ${isTablet ? 'w-48' : 'flex-1'} ml-2`}>
             <Ionicons name="search" size={16} color={mode === 'dark' ? '#ffffff50' : '#00000040'} />
             <TextInput
                 placeholder="Search..."
@@ -607,6 +701,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
       </View>
 
         <FlatList
+          showsVerticalScrollIndicator={false}
           data={[]}
           keyExtractor={(_, i) => i.toString()}
           renderItem={() => <View />}
@@ -686,43 +781,45 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                     </View>
                   </View>
 
-                  {/* Action Buttons Row */}
-                  <View className="flex-row items-center space-x-3">
-                    <TouchableOpacity 
-                       onPress={handleWatchNow} 
-                       style={{ backgroundColor: '#FF4D3D' }}
-                       className="flex-1 py-3.5 rounded-full flex-row items-center justify-center shadow-lg"
-                    >
-                      <Ionicons name={nextUpEpisode?.progress > 0 ? "play-forward" : "play"} size={18} color="white" />
-                      <View className="ml-3 items-start">
-                        <Text className="text-white font-black text-[11px] uppercase tracking-[1px]">
-                            {nextUpEpisode ? (nextUpEpisode.progress > 0 ? 'Continue' : 'Watch Now') : (info ? 'Watch Again' : 'Watch Now')}
-                        </Text>
-                        {nextUpEpisode && (
-                            <Text className="text-white/60 text-[7px] font-bold uppercase tracking-[0.5px]">
-                                {sanitizeName(nextUpEpisode.title)}
-                            </Text>
-                        )}
-                      </View>
-                    </TouchableOpacity>
+                  {/* Action Buttons Row - Only show if not redundant on tablet */}
+                  {(!isTablet || !nextUpEpisode) && (
+                    <View className="flex-row items-center space-x-3">
+                      <TouchableOpacity 
+                         onPress={handleWatchNow} 
+                         style={{ backgroundColor: '#FF4D3D' }}
+                         className="flex-1 py-3.5 rounded-full flex-row items-center justify-center shadow-lg"
+                      >
+                        <Ionicons name={nextUpEpisode?.progress > 0 ? "play-forward" : "play"} size={18} color="white" />
+                        <View className="ml-3 items-start">
+                          <Text className="text-white font-black text-[11px] uppercase tracking-[1px]">
+                              {nextUpEpisode ? (nextUpEpisode.progress > 0 ? 'Continue' : 'Watch Now') : (info ? 'Watch Again' : 'Watch Now')}
+                          </Text>
+                          {nextUpEpisode && !isTablet && (
+                              <Text className="text-white/60 text-[7px] font-bold uppercase tracking-[0.5px]">
+                                  {sanitizeName(nextUpEpisode.title)}
+                              </Text>
+                          )}
+                        </View>
+                      </TouchableOpacity>
 
-                    <TouchableOpacity 
-                       onPress={inLibrary ? removeLibrary : addLibrary} 
-                       className={`flex-1 py-3.5 rounded-full flex-row items-center justify-center border border-white/10 ${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'}`}
-                    >
-                      <Ionicons name={inLibrary ? "heart" : "heart-outline"} size={18} color={inLibrary ? "#FF4D3D" : (mode === 'dark' ? "white" : "black")} />
-                        <Text className={`ml-3 font-black text-[11px] uppercase tracking-[1px] ${mode === 'dark' ? 'text-white' : 'text-black'}`}>
-                          {inLibrary ? 'In List' : 'List'}
-                        </Text>
-                    </TouchableOpacity>
+                      <TouchableOpacity 
+                         onPress={inLibrary ? removeLibrary : addLibrary} 
+                         className={`flex-1 py-3.5 rounded-full flex-row items-center justify-center border border-white/10 ${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'}`}
+                      >
+                        <Ionicons name={inLibrary ? "heart" : "heart-outline"} size={18} color={inLibrary ? "#FF4D3D" : (mode === 'dark' ? "white" : "black")} />
+                          <Text className={`ml-3 font-black text-[11px] uppercase tracking-[1px] ${mode === 'dark' ? 'text-white' : 'text-black'}`}>
+                            {inLibrary ? 'In List' : 'List'}
+                          </Text>
+                      </TouchableOpacity>
 
-                    <TouchableOpacity 
-                       onPress={() => Linking.openURL(route.params.link)}
-                       className={`px-4 py-3.5 rounded-full flex-row items-center justify-center border border-white/10 ${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'}`}
-                    >
-                      <Ionicons name="link" size={18} color={mode === 'dark' ? "white" : "black"} />
-                    </TouchableOpacity>
-                  </View>
+                      <TouchableOpacity 
+                         onPress={() => Linking.openURL(route.params.link)}
+                         className={`px-4 py-3.5 rounded-full flex-row items-center justify-center border border-white/10 ${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'}`}
+                      >
+                        <Ionicons name="link" size={18} color={mode === 'dark' ? "white" : "black"} />
+                      </TouchableOpacity>
+                    </View>
+                  )}
 
                   {/* Synopsis Section */}
                   <View className="mt-8">
