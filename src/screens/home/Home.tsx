@@ -247,7 +247,7 @@ const Home = ({}: Props) => {
                 onOpenDrawer={() => setIsDrawerOpen(true)}
               />
 
-              <View className="mt-[-30px]">
+              <View className="mt-[-20px]">
                 <ContinueWatching />
 
                 {showFavChannels && favorites.length > 0 && (
@@ -265,7 +265,7 @@ const Home = ({}: Props) => {
                   />
                 )}
 
-                <View className="relative z-20 px-2 mt-2">
+                <View className="relative z-15 px-2 mt-2">
                   {isLoading ? loadingSliders : contentSliders}
                   {errorComponent}
                 </View>

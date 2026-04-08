@@ -81,8 +81,9 @@ export const clearHeroCache = (providerValue?: string) => {
 };
 
 /**
- * Gets a stable list of posts for the hero carousel.
- * Prefers the last category (often "Featured" or "Popular") but falls back to the first available content.
+ * Gets a randomized list of posts for the hero carousel.
+ * Collects posts from categories with significant content, filters for valid images,
+ * and shuffles them to ensure a fresh experience on every refresh.
  */
 export const getHeroPosts = (
   homeData: HomePageData[],
@@ -92,15 +93,50 @@ export const getHeroPosts = (
     return [];
   }
 
-  // Try to find a robust category. Existing logic uses the last one.
-  for (let i = homeData.length - 1; i >= 0; i--) {
-    if (homeData[i].Posts && homeData[i].Posts.length >= 10) {
-      return homeData[i].Posts.slice(0, limit);
+  // Collect all posts from categories that have significant content
+  let pool: any[] = [];
+  
+  // We prefer categories with at least 10 items (usually Featured/Trending)
+  homeData.forEach(category => {
+    if (category.Posts && category.Posts.length >= 10) {
+      pool = [...pool, ...category.Posts];
     }
+  });
+
+  // Fallback: if no category is large enough, pool everything
+  if (pool.length === 0) {
+    homeData.forEach(category => {
+      if (category.Posts) {
+        pool = [...pool, ...category.Posts];
+      }
+    });
   }
 
-  // Absolute fallback
-  return (homeData[0]?.Posts || []).slice(0, limit);
+  // Deduplicate by link and filter for items that actually have content (title + image)
+  const uniqueMap = new Map();
+  pool.forEach(post => {
+    if (post.link && post.title && post.image) {
+      if (!uniqueMap.has(post.link)) {
+        uniqueMap.set(post.link, post);
+      }
+    }
+  });
+
+  const validPosts = Array.from(uniqueMap.values());
+
+  if (validPosts.length === 0) {
+    // If we filtered out everything, fall back to whatever is available
+    return (homeData[0]?.Posts || []).slice(0, limit);
+  }
+
+  // Fisher-Yates Shuffle
+  const shuffled = [...validPosts];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+
+  return shuffled.slice(0, limit);
 };
 
 // New hook for hero metadata with React Query
