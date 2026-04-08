@@ -384,6 +384,14 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
               />
             </View>
 
+            {/* Heart Button in Landscape Header */}
+            <TouchableOpacity 
+              onPress={inLibrary ? removeLibrary : addLibrary} 
+              className={`w-11 h-11 ${cardBg} rounded-xl items-center justify-center border ${borderCol} ml-4`}
+            >
+              <Ionicons name={inLibrary ? "heart" : "heart-outline"} size={22} color={inLibrary ? "#FF4D3D" : mode === 'dark' ? "white" : "black"} />
+            </TouchableOpacity>
+
             <TouchableOpacity 
               onPress={() => {
                 seasonListRef.current?.toggleSort();
@@ -597,7 +605,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
             )}
 
             {/* Episode List - Vertical Scroll on Tablet Landscape */}
-            <View className={`${isMobileLandscape ? 'h-[240px]' : ''} -ml-10 -mr-8 mt-2`}>
+             <View className={`${isMobileLandscape ? 'h-[240px]' : ''} mt-4`}>
               <SeasonList
                 ref={seasonListRef}
                 onNextUpFound={setNextUpEpisode}
@@ -672,6 +680,14 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                 onChangeText={(text: string) => seasonListRef.current?.setSearch(text)}
             />
           </View>
+
+          {/* Heart Button in Portrait Header */}
+          <TouchableOpacity 
+             onPress={inLibrary ? removeLibrary : addLibrary} 
+             className={`w-[32px] h-[32px] ${mode === 'dark' ? 'bg-white/10' : 'bg-white'} rounded-full ml-3 items-center justify-center border ${mode === 'dark' ? 'border-white/10' : 'border-black/10 shadow-sm shadow-black/20'}`}
+          >
+             <Ionicons name={inLibrary ? "heart" : "heart-outline"} size={16} color={inLibrary ? "#FF4D3D" : mode === 'dark' ? "white" : "black"} />
+          </TouchableOpacity>
           <TouchableOpacity 
             onPress={() => {
                 seasonListRef.current?.toggleSort();

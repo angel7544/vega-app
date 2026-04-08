@@ -729,40 +729,45 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
               )}
           </TouchableOpacity>
 
-          <View className={`flex-1 ${isTablet ? 'ml-6' : 'mt-4'} justify-start`}>
-            <Text className={`${mode === 'dark' ? 'text-white/60' : 'text-black/60'} ${isTablet ? 'text-[13px] leading-[22px]' : 'text-[12px] leading-[18px]'} font-medium`} numberOfLines={isTablet ? 5 : 3}>
+          <View className={`flex-1 ${isTablet ? 'ml-8' : 'mt-4'} justify-start`}>
+            <Text className={`${mode === 'dark' ? 'text-white/60' : 'text-black/60'} ${isTablet ? 'text-[13px] leading-[22px]' : 'text-[12px] leading-[18px]'} font-medium`} numberOfLines={isTablet ? 4 : 3}>
               {tmdbOverview || metaEp?.synopsis || 'No description available for this episode.'}
             </Text>
+
+            {/* Actions moved inside text container for tablet landscape */}
+            <View className={`flex-row items-center gap-x-8 mt-4 ${isTablet ? 'justify-start' : 'justify-center'} border-t border-white/5 pt-4`}>
+              <TouchableOpacity 
+                onPress={() => playHandler({ linkIndex: index, type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: combinedData })}
+                className="flex-row items-center"
+              >
+                <Ionicons name="play" size={14} color="#FF4D3D" />
+                <Text className="text-[#FF4D3D] text-[10px] font-black uppercase tracking-[2px] ml-2">Play</Text>
+              </TouchableOpacity>
+
+              <TouchableOpacity onPress={() => toggleWatched(item.link, !completed)}>
+                <Ionicons 
+                  name={completed ? "checkmark-circle" : "checkmark-circle-outline"} 
+                  size={20} 
+                  color={completed ? "#FF4D3D" : (mode === 'dark' ? "white" : "black")} 
+                  style={{ opacity: completed ? 1 : 0.4 }}
+                />
+              </TouchableOpacity>
+
+              {showDownloadButtonOnCards && (
+                <TouchableOpacity onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, 'series', fileName)}>
+                   <Text className="text-[#FF4D3D] text-[10px] font-black uppercase tracking-[2px]">Save</Text>
+                </TouchableOpacity>
+              )}
+
+              {metaEp?.size && (
+                <Text className={`${mode === 'dark' ? 'text-white/30' : 'text-black/30'} text-[8px] font-bold uppercase`}>
+                    {metaEp.size}
+                </Text>
+              )}
+            </View>
           </View>
         </View>
 
-        {/* Footer: Actions Cluster */}
-        <View className="flex-row items-center justify-center gap-x-12 border-t border-black/5 pt-4">
-          <TouchableOpacity onPress={() => playHandler({ linkIndex: index, type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: combinedData })}>
-            <Text className="text-[#FF4D3D] text-[11px] font-black uppercase tracking-[2px]">Play</Text>
-          </TouchableOpacity>
-
-          <TouchableOpacity onPress={() => toggleWatched(item.link, !completed)}>
-            <Ionicons 
-              name={completed ? "checkmark-circle" : "checkmark-circle-outline"} 
-              size={24} 
-              color={completed ? "#FF4D3D" : (mode === 'dark' ? "white" : "black")} 
-              style={{ opacity: completed ? 1 : 0.4 }}
-            />
-          </TouchableOpacity>
-
-          {showDownloadButtonOnCards && (
-            <TouchableOpacity onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, 'series', fileName)}>
-              <Text className="text-[#FF4D3D] text-[11px] font-black uppercase tracking-[2px]">Save</Text>
-            </TouchableOpacity>
-          )}
-
-          {metaEp?.size && (
-            <Text className={`${mode === 'dark' ? 'text-white/30' : 'text-black/30'} text-[9px] font-bold uppercase`}>
-                {metaEp.size}
-            </Text>
-          )}
-        </View>
       </View>
     );
   }, [mode, primary, playHandler, type, metaTitle, activeSeason?.title, combinedData, getEpisodeMetadata, getWatchProgress, nextUpIndex, toggleWatched, handleDownload, tmdbSeason, getTMDBEpisodeOverview, showDownloadButtonOnCards, isTablet, getAbsoluteEpisodeNumber]);
