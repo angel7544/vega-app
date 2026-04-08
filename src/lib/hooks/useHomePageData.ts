@@ -80,6 +80,29 @@ export const clearHeroCache = (providerValue?: string) => {
   }
 };
 
+/**
+ * Gets a stable list of posts for the hero carousel.
+ * Prefers the last category (often "Featured" or "Popular") but falls back to the first available content.
+ */
+export const getHeroPosts = (
+  homeData: HomePageData[],
+  limit: number = 8
+) => {
+  if (!homeData || homeData.length === 0) {
+    return [];
+  }
+
+  // Try to find a robust category. Existing logic uses the last one.
+  for (let i = homeData.length - 1; i >= 0; i--) {
+    if (homeData[i].Posts && homeData[i].Posts.length >= 3) {
+      return homeData[i].Posts.slice(0, limit);
+    }
+  }
+
+  // Absolute fallback
+  return (homeData[0]?.Posts || []).slice(0, limit);
+};
+
 // New hook for hero metadata with React Query
 export const useHeroMetadata = (heroLink: string, providerValue: string) => {
   return useQuery({

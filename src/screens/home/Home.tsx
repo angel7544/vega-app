@@ -7,13 +7,13 @@ import {
 } from 'react-native';
 import Slider from '../../components/Slider';
 import React, {useCallback, useMemo, useState} from 'react';
-import Hero from '../../components/Hero';
 import {mainStorage, settingsStorage} from '../../lib/storage';
 import useContentStore from '../../lib/zustand/contentStore';
 import useHeroStore from '../../lib/zustand/herostore';
 import {
   useHomePageData,
   getRandomHeroPost,
+  getHeroPosts,
   clearHeroCache,
 } from '../../lib/hooks/useHomePageData';
 import {useShowNavBarOnScroll} from '../../lib/hooks/useShowNavBarOnScroll';
@@ -31,6 +31,7 @@ import {StatusBar} from 'expo-status-bar';
 import LiveTVHomeSlider from '../../components/LiveTVHomeSlider';
 import {iptvParser} from '../../lib/iptvParser';
 import usePlayerStore from '../../lib/zustand/playerStore';
+import HeroCarousel from '../../components/HeroCarousel';
 
 type Props = NativeStackScreenProps<HomeStackParamList, 'Home'>;
 
@@ -95,6 +96,10 @@ const Home = ({}: Props) => {
   }, [mode, handleNavBarScroll]);
 
   // Stable hero selection
+  const heroPosts = useMemo(() => {
+    return getHeroPosts(homeData);
+  }, [homeData]);
+
   const heroPost = useMemo(() => {
     return getRandomHeroPost(homeData, provider?.value);
   }, [homeData, provider?.value]);
@@ -236,7 +241,8 @@ const Home = ({}: Props) => {
                   onRefresh={handleRefresh}
                 />
               }>
-              <Hero
+              <HeroCarousel
+                posts={heroPosts}
                 isDrawerOpen={isDrawerOpen}
                 onOpenDrawer={() => setIsDrawerOpen(true)}
               />

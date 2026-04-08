@@ -15,12 +15,12 @@ import {
   TouchableOpacity,
   View,
   Image,
-  Dimensions,
   FlatList,
   useWindowDimensions,
+  StyleSheet,
 } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
-import {Feather, MaterialCommunityIcons} from '@expo/vector-icons';
+import {Feather, MaterialCommunityIcons, Ionicons} from '@expo/vector-icons';
 import {useNavigation} from '@react-navigation/native';
 import {NativeStackNavigationProp} from '@react-navigation/native-stack';
 import {HomeStackParamList, SearchStackParamList} from '../types/navigation';
@@ -29,19 +29,32 @@ import {settingsStorage} from '../lib/storage';
 import {useHeroMetadata} from '../lib/hooks/useHomePageData';
 import useThemeStore from '../lib/zustand/themeStore';
 import type {Post} from '../lib/providers/types';
+import {BlurView} from 'expo-blur';
+import useWatchListStore from '../lib/zustand/watchListStore';
+import ReactNativeHapticFeedback from 'react-native-haptic-feedback';
+
+// Use Animated version of FlatList for useAnimatedScrollHandler
+const AnimatedFlatList = Animated.createAnimatedComponent(FlatList);
 
 const HeroItem = memo(({item, index, scrollX, width, height}: {item: Post, index: number, scrollX: any, width: number, height: any}) => {
   const {provider} = useContentStore(state => state);
   const {mode, primary} = useThemeStore(state => state);
   const navigation = useNavigation<NativeStackNavigationProp<HomeStackParamList>>();
+  const {watchList, addItem, removeItem} = useWatchListStore();
 
   const {data: heroData, isLoading} = useHeroMetadata(item.link, provider.value);
 
+  const isInWatchlist = React.useMemo(() => 
+    watchList.some(w => w.link === item.link), 
+  [watchList, item.link]);
+
   const animatedStyle = useAnimatedStyle(() => {
+    // Safety check for width to prevent division by zero or NaN ranges
+    const safeWidth = width || 1;
     const scale = interpolate(
       scrollX.value,
-      [(index - 1) * width, index * width, (index + 1) * width],
-      [0.92, 1, 0.92],
+      [(index - 1) * safeWidth, index * safeWidth, (index + 1) * safeWidth],
+      [0.94, 1, 0.94],
       Extrapolate.CLAMP
     );
     return {
@@ -57,71 +70,109 @@ const HeroItem = memo(({item, index, scrollX, width, height}: {item: Post, index
     });
   }, [navigation, item, provider.value, heroData]);
 
+  const handleWishlistToggle = useCallback(() => {
+    ReactNativeHapticFeedback.trigger('impactLight');
+    if (isInWatchlist) {
+      removeItem(item.link);
+    } else {
+      addItem({
+        link: item.link,
+        title: item.title,
+        poster: item.image,
+        provider: provider.value,
+        type: heroData?.type || 'movie'
+      });
+    }
+  }, [isInWatchlist, item, provider.value, heroData, addItem, removeItem]);
+
   const imageSource = React.useMemo(() => {
     return {
       uri: heroData?.background || heroData?.image || heroData?.poster || item.image || 'https://www.br31tech.live/logo.png',
     };
   }, [heroData, item.image]);
 
-  const displayGenres = React.useMemo(() => {
-    if (!heroData) return [];
-    return (heroData.genre || heroData.tags || []).slice(0, 3);
-  }, [heroData]);
+  const ratingValue = heroData?.imdbRating || heroData?.vote_average || heroData?.rating;
+  const voteCount = heroData?.imdbVotes || heroData?.vote_count || heroData?.votes;
 
   return (
-    <Animated.View style={[{width: width, height: '100%'}, animatedStyle]}>
-      <Image
-        source={imageSource}
-        className="h-full w-full"
-        style={{resizeMode: 'cover'}}
-      />
-      <LinearGradient
-        colors={['rgba(0,0,0,0.5)', 'transparent', 'rgba(0,0,0,0.7)', 'black']}
-        locations={[0, 0.4, 0.7, 1]}
-        className="absolute inset-0"
-      />
-      
-      <View className="absolute bottom-16 w-full px-6 items-center">
-        {heroData?.logo ? (
-          <Image
-            source={{uri: heroData.logo}}
-            style={{width: 240, height: 120, resizeMode: 'contain'}}
-          />
-        ) : (
-          <Text className="text-white text-center text-4xl font-black mb-4 shadow-2xl tracking-tighter" style={{ textShadowColor: 'rgba(0,0,0,0.8)', textShadowOffset: {width: 0, height: 2}, textShadowRadius: 15 }} numberOfLines={2}>
-            {heroData?.name || heroData?.title || item.title}
-          </Text>
-        )}
+    <Animated.View style={[{width: width, height: '90%', padding: -10}, animatedStyle]}>
+      <TouchableOpacity 
+        activeOpacity={0.9} 
+        onPress={handlePlayPress}
+        className="flex-1 overflow-hidden rounded-[32px] shadow-2xl bg-gray-900"
+      >
+        <Image
+          source={imageSource}
+          className="h-full w-full"
+          style={{resizeMode: 'cover'}}
+        />
+        
+        <LinearGradient
+          colors={['transparent', 'rgba(0,0,0,0.3)', 'rgba(0,0,0,0.8)', 'black']}
+          locations={[0, 0.4, 0.75, 1]}
+          className="absolute inset-0"
+        />
 
-        {displayGenres.length > 0 && (
-          <View className="flex-row items-center justify-center space-x-2 mb-6">
-            {displayGenres.map((genre: string, i: number) => (
-              <React.Fragment key={i}>
-                {i > 0 && <View className="w-1 h-1 rounded-full bg-gray-500 mx-1" />}
-                <Text className="text-gray-200 text-xs font-bold uppercase tracking-widest">{genre}</Text>
-              </React.Fragment>
-            ))}
+        <View className="absolute bottom-10 left-0 right-0 px-8">
+          {/* Metadata & Rating Row */}
+          <View className="flex-row items-center space-x-3 mb-4">
+            <View className="overflow-hidden rounded-full border border-white/10">
+              <BlurView intensity={30} tint="dark" style={styles.blurPill}>
+                <Ionicons name="play-circle" size={20} color="#FF8C00" />
+                <Text className="text-white font-bold text-xs uppercase tracking-wider">Trailer</Text>
+              </BlurView>
+            </View>
+
+            {ratingValue && (
+               <View className="overflow-hidden rounded-full border border-white/10">
+                <BlurView intensity={30} tint="dark" style={styles.blurPill}>
+                    <Ionicons name="star" size={14} color="#FFD700" />
+                    <Text className="text-white font-black text-xs">{ratingValue}</Text>
+                    {voteCount && (
+                      <Text className="text-white/60 text-[10px] font-medium ml-1">
+                        ({typeof voteCount === 'string' ? voteCount : voteCount > 1000 ? `${(voteCount/1000).toFixed(1)}k` : voteCount})
+                      </Text>
+                    )}
+                </BlurView>
+             </View>
+            )}
           </View>
-        )}
+          
+          {/* Title and Heart Row */}
+          <View className="flex-row items-end justify-between">
+            <View className="flex-1 mr-4">
+               {heroData?.logo ? (
+                <Image
+                  source={{uri: heroData.logo}}
+                  style={{width: 180, height: 80, resizeMode: 'contain'}}
+                />
+              ) : (
+                <Text className="text-white text-2xl font-black shadow-2xl tracking-tighter leading-tight" style={{ textShadowColor: 'rgba(0,0,0,0.8)', textShadowOffset: {width: 0, height: 2}, textShadowRadius: 15 }} numberOfLines={2}>
+                  {heroData?.name || heroData?.title || item.title}
+                </Text>
+              )}
+            </View>
 
-        <TouchableOpacity
-          onPress={handlePlayPress}
-          className="bg-primary px-10 py-4 rounded-full flex-row items-center space-x-3 shadow-2xl shadow-primary/40 active:scale-95"
-        >
-          <MaterialCommunityIcons 
-            name="play" 
-            size={28} 
-            color="white" 
-          />
-          <Text className="text-white font-black text-xl uppercase tracking-widest">
-            Watch Now
-          </Text>
-        </TouchableOpacity>
-      </View>
+            <TouchableOpacity 
+              onPress={handleWishlistToggle}
+              className="mb-1"
+            >
+               <View className="rounded-full border border-white/10 overflow-hidden">
+                <BlurView intensity={30} tint="dark" style={styles.blurHeart}>
+                    <Ionicons 
+                      name={isInWatchlist ? "heart" : "heart-outline"} 
+                      size={26} 
+                      color={isInWatchlist ? primary : "white"} 
+                    />
+                </BlurView>
+              </View>
+            </TouchableOpacity>
+          </View>
+        </View>
+      </TouchableOpacity>
     </Animated.View>
   );
 });
-;
 
 interface HeroCarouselProps {
   posts: Post[];
@@ -134,7 +185,6 @@ const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer}: HeroCarouselProps) =>
   const {mode, primary} = useThemeStore(state => state);
   const isLandscape = windowWidth > windowHeight;
   
-  // Dynamic height based on device type and orientation
   const isLarge = windowWidth > 1024;
   const isTablet = windowWidth > 768;
   
@@ -148,7 +198,7 @@ const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer}: HeroCarouselProps) =>
   const [searchActive, setSearchActive] = useState(false);
   const {provider} = useContentStore(state => state);
   const scrollX = useSharedValue(0);
-  const flatListRef = useRef<FlatList>(null);
+  const flatListRef = useRef<any>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const navigation = useNavigation<NativeStackNavigationProp<HomeStackParamList>>();
@@ -157,10 +207,9 @@ const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer}: HeroCarouselProps) =>
   const [showHamburgerMenu] = useState(() => settingsStorage.showHamburgerMenu());
   const [isDrawerDisabled] = useState(() => settingsStorage.getBool('disableDrawer') || false);
 
-  const onScroll = useAnimatedScrollHandler({
-    onScroll: (event) => {
-      scrollX.value = event.contentOffset.x;
-    },
+  // Use the simplified direct function syntax for best compatibility
+  const onScroll = useAnimatedScrollHandler((event) => {
+    scrollX.value = event.contentOffset.x;
   });
 
   const handleSearchSubmit = useCallback((text: string) => {
@@ -177,37 +226,42 @@ const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer}: HeroCarouselProps) =>
     setSearchActive(false);
   }, [navigation, searchNavigation, provider]);
 
-  // Auto-slide logic
+  // Auto-slide logic with check for valid index
   useEffect(() => {
     if (posts.length <= 1 || searchActive) return;
 
     const timer = setInterval(() => {
       try {
         const nextIndex = (currentIndex + 1) % posts.length;
-        flatListRef.current?.scrollToIndex({
-          index: nextIndex,
-          animated: true,
-        });
-        setCurrentIndex(nextIndex);
+        if (flatListRef.current && !isNaN(nextIndex)) {
+          flatListRef.current.scrollToIndex({
+            index: nextIndex,
+            animated: true,
+          });
+          setCurrentIndex(nextIndex);
+        }
       } catch (err) {
-        console.warn('ScrollToIndex error caught in HeroCarousel:', err);
+        // Silently handle scroll errors (often caused by unmounted state or layout shifts)
       }
-    }, 6000);
+    }, 8000);
 
     return () => clearInterval(timer);
   }, [currentIndex, posts.length, searchActive]);
 
   const onMomentumScrollEnd = (event: any) => {
+    if (windowWidth <= 0) return;
     const index = Math.round(event.nativeEvent.contentOffset.x / windowWidth);
-    setCurrentIndex(index);
+    if (!isNaN(index)) {
+      setCurrentIndex(index);
+    }
   };
 
   return (
     <View style={{ height: heroHeight as any }} className="relative w-full overflow-hidden">
-      <FlatList
+      <AnimatedFlatList
         ref={flatListRef}
         data={posts}
-        renderItem={({item, index}) => (
+        renderItem={({item, index}: any) => (
           <HeroItem 
             item={item} 
             index={index} 
@@ -222,16 +276,16 @@ const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer}: HeroCarouselProps) =>
         onScroll={onScroll}
         scrollEventThrottle={16}
         onMomentumScrollEnd={onMomentumScrollEnd}
-        getItemLayout={(_, index) => ({
+        getItemLayout={(_: any, index: number) => ({
           length: windowWidth,
           offset: windowWidth * index,
           index,
         })}
-        keyExtractor={(item) => item.link}
+        keyExtractor={(item: any) => item.link}
       />
 
       {/* Header Controls */}
-      <View className="absolute top-12 left-0 right-0 px-6 z-50 flex-col space-y-4">
+      <View className="absolute top-12 left-0 right-0 px-8 z-50 flex-col space-y-4">
         {!searchActive ? (
           <View className="flex-row justify-between items-center w-full">
             <View className={showHamburgerMenu && !isDrawerDisabled ? 'opacity-100' : 'opacity-0'}>
@@ -239,44 +293,73 @@ const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer}: HeroCarouselProps) =>
                 className={isDrawerOpen ? 'opacity-0' : 'opacity-100'}
                 onPress={onOpenDrawer}
               >
-                <View className={`${mode === 'dark' ? 'bg-black/20' : 'bg-gray-100/50'} p-2 rounded-full backdrop-blur-md`}>
-                  <Feather name="menu" size={24} color={mode === 'dark' ? 'white' : 'black'} />
+                <View className="rounded-full border border-white/10 overflow-hidden">
+                  <BlurView intensity={20} tint="dark" style={styles.blurHeaderIcon}>
+                    <Feather name="menu" size={24} color="white" />
+                  </BlurView>
                 </View>
               </Pressable>
             </View>
  
             <Pressable onPress={() => setSearchActive(true)}>
-              <View className={`${mode === 'dark' ? 'bg-black/20' : 'bg-gray-100/50'} p-2 rounded-full backdrop-blur-md`}>
-                <Feather name="search" size={24} color={mode === 'dark' ? 'white' : 'black'} />
+               <View className="rounded-full border border-white/10 overflow-hidden">
+                <BlurView intensity={20} tint="dark" style={styles.blurHeaderIcon}>
+                  <Feather name="search" size={24} color="white" />
+                </BlurView>
               </View>
             </Pressable>
           </View>
         ) : (
           <Animated.View entering={FadeIn} className="w-full">
-            <TextInput
-              autoFocus
-              onBlur={() => setSearchActive(false)}
-              onSubmitEditing={(e) => handleSearchSubmit(e.nativeEvent.text)}
-              placeholder={`Search ${provider.display_name}...`}
-              className={`w-full ${mode === 'dark' ? 'bg-white/20 border-white/30 text-white' : 'bg-black/10 border-black/20 text-black'} backdrop-blur-xl px-6 h-12 rounded-full border`}
-              placeholderTextColor={mode === 'dark' ? 'rgba(255,255,255,0.6)' : 'rgba(0,0,0,0.5)'}
-            />
+            <View className="w-full overflow-hidden rounded-full border border-white/10">
+              <BlurView intensity={20} tint="dark" style={styles.blurSearch}>
+                <TextInput
+                  autoFocus
+                  onBlur={() => setSearchActive(false)}
+                  onSubmitEditing={(e) => handleSearchSubmit(e.nativeEvent.text)}
+                  placeholder={`Search ${provider.display_name}...`}
+                  className="w-full px-6 h-12 text-white"
+                  placeholderTextColor="rgba(255,255,255,0.6)"
+                />
+              </BlurView>
+            </View>
           </Animated.View>
         )}
       </View>
 
-      {/* Pagination Indicators */}
-      <View className="absolute bottom-8 left-0 right-0 flex-row justify-center space-x-2">
+      <View className="absolute bottom-6 left-0 right-0 flex-row justify-center space-x-2">
         {posts.map((_, i) => (
           <View
             key={i}
-            className={`h-1.5 rounded-full ${i === currentIndex ? 'w-6' : 'w-1.5'}`}
-            style={{backgroundColor: i === currentIndex ? primary : 'rgba(255,255,255,0.4)'}}
+            className={`h-1.5 rounded-full ${i === currentIndex ? 'w-8' : 'w-2'}`}
+            style={{
+              backgroundColor: i === currentIndex ? primary : 'rgba(255,255,255,0.3)',
+              opacity: i === currentIndex ? 1 : 0.6
+            }}
           />
         ))}
       </View>
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  blurPill: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    gap: 8,
+  },
+  blurHeart: {
+    padding: 12,
+  },
+  blurHeaderIcon: {
+    padding: 10,
+  },
+  blurSearch: {
+    width: '100%',
+  }
+});
 
 export default memo(HeroCarousel);
