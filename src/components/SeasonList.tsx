@@ -683,47 +683,54 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
     const fileName = (metaTitle + (activeSeason?.title || '') + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_');
 
     return (
-      <View key={item.link + index} className={`${isTablet ? 'flex-1' : 'w-full'} mb-8 rounded-[36px] overflow-hidden ${mode === 'dark' ? 'bg-white/10 border-white/20' : 'bg-white border-black/5 shadow-xl'} border flex-col shadow-2xl p-5 shadow-black/40`}>
+      <View key={item.link + index} className={`${isTablet ? 'w-full' : 'w-full'} mb-6 rounded-[32px] overflow-hidden ${mode === 'dark' ? 'bg-white/8 border-white/10' : 'bg-white border-black/5 shadow-xl'} border flex-col shadow-2xl p-6 shadow-black/40`}>
         {/* Header: Title and Next Badge */}
-        <View className="flex-row items-center justify-between mb-4">
-          <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[18px] font-black flex-1 mr-4`} numberOfLines={1}>
-            {tmdbEp?.name || sanitizeName(item.title)}
-          </Text>
+        <View className="flex-row items-center justify-between mb-5">
+          <View className="flex-1 mr-4">
+            <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-[10px] font-black uppercase tracking-widest mb-1`}>
+              Episode {String(getAbsoluteEpisodeNumber(item.title, item.originalIndex)).padStart(2, '0')}
+            </Text>
+            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[20px] font-black`} numberOfLines={2}>
+              {tmdbEp?.name || sanitizeName(item.title)}
+            </Text>
+          </View>
           {isNext && (
             <View className="bg-red-600/10 px-3 py-1 rounded-full border border-red-600/20">
-              <Text className="text-[9px] text-red-600 font-black uppercase tracking-wider">Next</Text>
+              <Text className="text-[9px] text-red-600 font-black uppercase tracking-wider">Next Up</Text>
             </View>
           )}
         </View>
 
-        {/* Content Body: Thumbnail and Text Row */}
-        <View className="flex-row mb-6">
+        {/* Content Body: Large Thumbnail and Text Row */}
+        <View className={`${isTablet ? 'flex-row' : 'flex-col'} mb-6`}>
           <TouchableOpacity 
               activeOpacity={0.8}
               onPress={() => playHandler({ linkIndex: index, type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: combinedData })}
-              className="w-[120px] aspect-video relative bg-black rounded-[20px] overflow-hidden"
+              className={`${isTablet ? 'w-[280px]' : 'w-full'} aspect-video relative bg-black rounded-[24px] overflow-hidden shadow-lg`}
           >
               {thumbnail ? (
                   <Image source={{uri: thumbnail}} style={{width: '100%', height: '100%'}} resizeMode="cover" />
               ) : (
                   <View className="w-full h-full items-center justify-center opacity-40">
-                      <MaterialCommunityIcons name="play-circle" size={32} color="white" />
+                      <MaterialCommunityIcons name="play-circle" size={48} color="white" />
                   </View>
               )}
               
               <View className="absolute inset-0 items-center justify-center bg-black/10">
-                  <Ionicons name="play" size={20} color="white" />
+                <View className="w-12 h-12 rounded-full bg-white/20 items-center justify-center border border-white/40">
+                  <Ionicons name="play" size={24} color="white" />
+                </View>
               </View>
 
               {progress > 0 && (
-                <View className="absolute bottom-0 left-0 right-0 h-1 bg-black/40">
+                <View className="absolute bottom-0 left-0 right-0 h-1.5 bg-black/40">
                   <View className="h-full bg-red-600" style={{ width: `${progress}%` }} />
                 </View>
               )}
           </TouchableOpacity>
 
-          <View className="flex-1 ml-4 justify-center">
-            <Text className={`${mode === 'dark' ? 'text-white/70' : 'text-black/70'} text-[10px] font-medium leading-[18px]`} numberOfLines={4}>
+          <View className={`flex-1 ${isTablet ? 'ml-6' : 'mt-4'} justify-start`}>
+            <Text className={`${mode === 'dark' ? 'text-white/60' : 'text-black/60'} ${isTablet ? 'text-[13px] leading-[22px]' : 'text-[12px] leading-[18px]'} font-medium`} numberOfLines={isTablet ? 5 : 3}>
               {tmdbOverview || metaEp?.synopsis || 'No description available for this episode.'}
             </Text>
           </View>
@@ -1008,27 +1015,25 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
               <>
                 {filteredAndSortedEpisodes.length > 0 && (
                   <FlatList
-                    key={isTablet ? 'ep-columns-2' : 'ep-columns-1'}
-                    numColumns={isTablet ? 2 : 1}
+                    key={'ep-columns-1'}
+                    numColumns={1}
                     data={filteredAndSortedEpisodes}
                     keyExtractor={(item, index) => `ep-${item.link}-${index}`}
                     renderItem={renderEpisodeItem}
                     scrollEnabled={false}
                     showsVerticalScrollIndicator={false}
                     initialNumToRender={10}
-                    columnWrapperStyle={isTablet ? { gap: 16, paddingHorizontal: 16 } : undefined}
                   />
                 )}
                 {filteredAndSortedDirectLinks.length > 0 && (
                   <FlatList
-                    key={isTablet ? 'dl-columns-2' : 'dl-columns-1'}
-                    numColumns={isTablet ? 2 : 1}
+                    key={'dl-columns-1'}
+                    numColumns={1}
                     data={filteredAndSortedDirectLinks}
                     keyExtractor={(item, index) => `dl-${item.link}-${index}`}
                     renderItem={renderDirectLinkItem}
                     scrollEnabled={false}
                     showsVerticalScrollIndicator={false}
-                    columnWrapperStyle={isTablet ? { gap: 16, paddingHorizontal: 16 } : undefined}
                   />
                 )}
               </>
