@@ -33,7 +33,7 @@ import Animated, {
 } from 'react-native-reanimated';
 import * as IntentLauncher from 'expo-intent-launcher';
 import {EpisodeLink, Link, Stream} from '../lib/providers/types';
-import {RootStackParamList} from '../App';
+import {RootStackParamList} from '../types/navigation';
 import DownloadBottomSheet from './DownloadBottomSheet';
 import {cacheStorage, mainStorage, settingsStorage} from '../lib/storage';
 import {ifExists} from '../lib/file/ifExists';
@@ -44,6 +44,7 @@ import useThemeStore from '../lib/zustand/themeStore';
 import SkeletonLoader from './Skeleton';
 import useToastStore from '../lib/zustand/toastStore';
 import {sanitizeName, extractMetadata} from '../lib/utils';
+import {useTMDBSeasonDetails} from '../lib/hooks/useContentInfo';
 
 interface SeasonListProps {
   LinkList: Link[];
@@ -58,6 +59,7 @@ interface SeasonListProps {
   onNextUpFound?: (item: any) => void;
   type: string;
   metaTitle: string;
+  tmdbData?: any;
   providerValue: string;
   refreshing?: boolean;
   activeSeasonProp?: any;
@@ -67,6 +69,16 @@ interface SeasonListProps {
     provider?: string;
     poster?: string;
   }>;
+  onPlayOverride?: (data: {
+    linkIndex: number;
+    episodeList: EpisodeLink[];
+    type: string;
+    primaryTitle: string;
+    secondaryTitle: string;
+    poster: any;
+    providerValue: string;
+    infoUrl: string;
+  }) => void;
 }
 
 interface PlayHandlerProps {
@@ -99,6 +111,8 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
   routeParams,
   activeSeasonProp,
   onSeasonChangeProp,
+  onPlayOverride,
+  tmdbData,
 }, ref) => {
   const {width: windowWidth} = useWindowDimensions();
   const isTablet = windowWidth > 768;
@@ -235,7 +249,25 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
   // Card Animation logic
   const cardScale = useSharedValue(0.9);
   const cardOpacity = useSharedValue(0);
-  
+
+  // Episode range offset logic (e.g. S01 E21-E40)
+  const { episodeOffset, startRange } = useMemo(() => {
+    if (!activeSeason?.title) return { episodeOffset: 0, startRange: 1 };
+        // Look for patterns like (21-40), (E21-E40), [21-40], or "Part 2" using various dash types
+    const rangeMatch = activeSeason.title.match(/(?:(?:Episode|EP|E|S)?\s*(\d+)\s*(?:-|–|—|_)\s*(?:Episode|EP|E|S)?\s*(\d+))/i) ||
+                       activeSeason.title.match(/(?:\(\s*(\d+)\s*(?:-|–|—|_)\s*(\d+)\s*\))/i) ||
+                       activeSeason.title.match(/(?:\[\s*(\d+)\s*(?:-|–|—|_)\s*(\d+)\s*\])/i);
+    
+    if (rangeMatch) {
+      const start = parseInt(rangeMatch[1]);
+      return { 
+        episodeOffset: start > 1 ? start - 1 : 0, 
+        startRange: start 
+      };
+    }
+    return { episodeOffset: 0, startRange: 1 };
+  }, [activeSeason?.title]);
+
   useEffect(() => {
     if (showServerCard) {
       cardOpacity.value = withTiming(1, { duration: 400 });
@@ -252,16 +284,44 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
     display: cardOpacity.value === 0 && !showServerCard ? 'none' : 'flex' as any,
   }));
 
+  // Centralized robust episode number parsing
+  const getAbsoluteEpisodeNumber = useCallback((episodeTitle: string, index?: number) => {
+    // 1. Pre-clean title of file sizes to avoid confusion (e.g., "EP 01 1.5GB" -> "EP 01")
+    const cleanTitle = episodeTitle.replace(/\d+(?:\.\d+)?\s*(?:GB|MB)/gi, '').trim();
+    
+    // 2. Matches patterns like Episode 01, EP-01, E_01, EP 01, Episode-01, EPISODE 01
+    const epMatch = cleanTitle.match(/(?:Episode|EPISODE|EP|E)[\s-_]*(\d+)/i);
+    let epNum = epMatch ? parseInt(epMatch[1]) : null;
+
+    // 3. Robust fallback: If no keyword found, look for any standalone number in the title
+    if (epNum === null) {
+      const loneNumMatch = cleanTitle.match(/(?:\D|^)(\d+)(?:\D|$)/);
+      if (loneNumMatch) epNum = parseInt(loneNumMatch[1]);
+    }
+
+    // 4. Final fallback to index if still null
+    if (epNum === null && index !== undefined) {
+      epNum = index + 1;
+    }
+
+    // Apply offset only if the number found (or fallback index) is relative to the current part
+    // e.g., if title is "Episode 1" but startRange is 21, actual epNum is 21.
+    // If title is "Episode 21", it's already absolute, so we don't apply offset.
+    if (epNum !== null && epNum < startRange && episodeOffset > 0) {
+      epNum += episodeOffset;
+    }
+    return epNum;
+  }, [episodeOffset, startRange]);
+
   // Enhanced Episode Mapping
   const getEpisodeMetadata = useCallback((episodeTitle: string, seasonNum?: number) => {
     if (!meta?.videos || !Array.isArray(meta.videos)) return null;
     
     // Try matching by season and episode number if we can extract them from the title
-    const epMatch = episodeTitle.match(/(?:Episode|EP|E)\s*(\d+)/i);
-    const epNum = epMatch ? parseInt(epMatch[1]) : null;
+    const epNum = getAbsoluteEpisodeNumber(episodeTitle);
     
     // If we have a season number from the active season title
-    const currentSeasonMatch = (activeSeason?.title || "").match(/(?:Season|S)\s*(\d+)/i);
+    const currentSeasonMatch = (activeSeason?.title || "").match(/(?:Season|S)[\s-_]*(\d+)/i);
     const currentSeasonNum = currentSeasonMatch ? parseInt(currentSeasonMatch[1]) : (seasonNum || 1);
 
     if (epNum !== null) {
@@ -275,6 +335,26 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
       episodeTitle.toLowerCase().includes(v.name?.toLowerCase())
     );
   }, [meta?.videos, activeSeason?.title]);
+
+  // Fetch TMDB Season Metadata
+  const currentSeasonMatch = (activeSeason?.title || "").match(/(?:Season|S)[\s-_]*(\d+)/i);
+  const currentSeasonNum = currentSeasonMatch ? parseInt(currentSeasonMatch[1]) : 1;
+  
+  const { data: tmdbSeason } = useTMDBSeasonDetails(
+    tmdbData?.id || meta?.tmdbId, 
+    currentSeasonNum
+  );
+
+  const getTMDBEpisodeOverview = useCallback((episodeTitle: string, index?: number) => {
+    if (!tmdbSeason?.episodes) return null;
+    const epNum = getAbsoluteEpisodeNumber(episodeTitle, index);
+
+    if (epNum !== null) {
+      const match = tmdbSeason.episodes.find((e: any) => Number(e.episode_number) == Number(epNum));
+      return match?.overview;
+    }
+    return null;
+  }, [tmdbSeason, getAbsoluteEpisodeNumber]);
 
 
   // Memoized lists (Smart Sorting: [Next Up, Unwatched, Watched])
@@ -302,9 +382,10 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
     const watched = episodesWithMeta.filter(ep => ep.isCompleted && ep.link !== nextToWatchLink);
     const unwatched = episodesWithMeta.filter(ep => !ep.isCompleted && ep.link !== nextToWatchLink);
 
-    let final = [...nextToWatch, ...unwatched, ...watched];
-    if (sortOrder === 'desc') final.reverse();
-    return final;
+    let activeList = [...nextToWatch, ...unwatched];
+    if (sortOrder === 'desc') activeList.reverse();
+    
+    return [...activeList, ...watched];
   }, [episodeList, searchText, sortOrder, isCompleted, watchRefresh]);
 
   const filteredAndSortedDirectLinks = useMemo(() => {
@@ -330,9 +411,10 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
     const watched = linksWithMeta.filter(l => l.isCompleted && l.link !== nextToWatchLink);
     const unwatched = linksWithMeta.filter(l => !l.isCompleted && l.link !== nextToWatchLink);
 
-    let final = [...nextToWatch, ...unwatched, ...watched];
-    if (sortOrder === 'desc') final.reverse();
-    return final;
+    let activeList = [...nextToWatch, ...unwatched];
+    if (sortOrder === 'desc') activeList.reverse();
+
+    return [...activeList, ...watched];
   }, [activeSeason?.directLinks, searchText, sortOrder, isCompleted, watchRefresh]);
 
   const combinedData = useMemo(() => {
@@ -464,6 +546,20 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
       return;
     }
 
+    if (onPlayOverride) {
+      onPlayOverride({
+        linkIndex,
+        episodeList: episodeData as EpisodeLink[],
+        type,
+        primaryTitle,
+        secondaryTitle: seasonTitle,
+        poster,
+        providerValue,
+        infoUrl: routeParams.link,
+      });
+      return;
+    }
+
     navigation.navigate('Player', {
       linkIndex,
       episodeList: episodeData as EpisodeLink[],
@@ -481,215 +577,97 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
     const completed = progress > 85;
     const isNext = index === nextUpIndex && !completed;
     const metaEp = getEpisodeMetadata(item.title);
-    const thumbnail = item.image || metaEp?.thumbnail;
-    const duration = metaEp?.runtime || '45m';
-
+    const tmdbOverview = getTMDBEpisodeOverview(item.title, item.originalIndex);
+    const epNum = getAbsoluteEpisodeNumber(item.title, item.originalIndex);
+    const tmdbEp = tmdbSeason?.episodes?.find((e: any) => Number(e.episode_number) == Number(epNum));
+    const thumbnail = item.image || metaEp?.thumbnail || (tmdbEp?.still_path ? `https://image.tmdb.org/t/p/w500${tmdbEp.still_path}` : null);
+    
     const fileName = (metaTitle + (activeSeason?.title || '') + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_');
 
     return (
-      <View key={item.link + index} className="mr-8 mb-4" style={{ width: 320 }}>
-        {/* Metadata and Title - Top Row as per image */}
-        <View className="mb-2 px-1">
-            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[11px] font-black uppercase tracking-[1px]`}>
-              Episode-{String(item.originalIndex + 1).padStart(2, '0')}
-            </Text>
-            <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/60'} text-[10px] font-black uppercase tracking-[1px] ml-2`}>
-                {sanitizeName(item.title)}
-            </Text>
+      <View key={item.link + index} className={`${isTablet ? 'w-[200px] flex-col' : 'w-[300px] flex-row'} mr-6 rounded-[24px] overflow-hidden ${mode === 'dark' ? 'bg-white/12 border-white/20' : 'bg-white border-black/5 shadow-lg'} border shadow-2xl shadow-black/50`}>
+        {/* Left: 16:9 Thumbnail Cluster - Flush */}
+        <TouchableOpacity 
+            activeOpacity={0.8}
+            onPress={() => playHandler({ linkIndex: index, type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: combinedData })}
+            className={`${isTablet ? 'w-full aspect-[2/3]' : 'w-[130px] aspect-video'} relative bg-black`}
+        >
+            {thumbnail || poster?.poster ? (
+                <Image source={{uri: (isTablet && poster?.poster) ? poster.poster : thumbnail}} className="w-full h-full" resizeMode="stretch" />
+            ) : (
+                <View className="w-full h-full items-center justify-center opacity-40">
+                    <MaterialCommunityIcons name={isTablet ? "movie-outline" : "play-circle"} size={isTablet ? 48 : 32} color="white" />
+                </View>
+            )}
             
-            {/* Metadata Badges */}
-            <View className="flex-row flex-wrap mt-1">
-              {(() => {
-                const meta = extractMetadata(item.title);
-                return [...meta.quality, ...meta.technical].slice(0, 4).map((ext, i) => {
-                  let badgeBg = 'bg-white/10 border-white/5';
-                  let textColor = 'text-white/60';
-                  if (ext === 'DOLBY VISION') { badgeBg = 'bg-yellow-500/20 border-yellow-500/30'; textColor = 'text-yellow-500'; }
-                  if (ext === 'HDR') { badgeBg = 'bg-orange-500/20 border-orange-500/30'; textColor = 'text-orange-500'; }
-
-                  return (
-                    <View key={i} className={`${badgeBg} px-1.5 py-0.5 rounded mr-1 mb-1 border`}>
-                      <Text className={`${textColor} text-[7px] font-black uppercase`}>{ext}</Text>
-                    </View>
-                  );
-                });
-              })()}
+            <View className="absolute inset-0 items-center justify-center bg-black/5">
+                <Ionicons name="play" size={24} color="white" />
             </View>
 
-          {/* Action Row - Pills above thumbnail as per image */}
-          <View className="flex-row items-center space-x-2 mb-4">
-            <TouchableOpacity 
-              onPress={() => toggleWatched(item.link, !completed)}
-              className="flex-row items-center px-4 py-1.5 rounded-full"
-              style={{ backgroundColor: completed ? '#FF4D3D' : (mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)') }}
-            >
-              <Ionicons 
-                name="checkmark-circle" 
-                size={14} 
-                color={completed ? 'white' : (mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)")} 
-              />
-              <Text className={`ml-2 text-[9px] font-black uppercase tracking-[1px] ${completed ? 'text-white' : (mode === 'dark' ? "text-white/40" : "text-black/40")}`}>
-                Watched
-              </Text>
-            </TouchableOpacity>
+            {progress > 0 && (
+              <View className="absolute bottom-0 left-0 right-0 h-1 bg-black/40">
+                <View className="h-full bg-red-600" style={{ width: `${progress}%` }} />
+              </View>
+            )}
+        </TouchableOpacity>
 
-            {showDownloadButtonOnCards && (
-              <TouchableOpacity 
-                onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, 'series', fileName)}
-                className="flex-row items-center px-4 py-1.5 rounded-full"
-                style={{ backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)' }}
-              >
-                <Feather name="download" size={14} color={mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)"} />
-                <Text className={`ml-2 text-[9px] font-black uppercase tracking-[1px] ${mode === 'dark' ? "text-white/40" : "text-black/40"}`}>
-                  Download
-                </Text>
+        {/* Content Cluster */}
+        <View className={`flex-1 ${isTablet ? 'px-5 py-4' : 'px-3 py-2'} justify-between`}>
+          <View>
+            <View className="flex-row items-center justify-between">
+              <Text className={`${mode === 'dark' ? 'text-white/80' : 'text-black/80'} ${isTablet ? 'text-[13px]' : 'text-[11px]'} font-black uppercase tracking-widest`}>
+                Episode {String(getAbsoluteEpisodeNumber(item.title, item.originalIndex)).padStart(2, '0')}
+              </Text>
+// Rating removed
+            </View>
+            
+            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} ${isTablet ? 'text-lg' : 'text-[13px]'} font-black mt-1`} numberOfLines={1}>
+              {tmdbEp?.name || sanitizeName(item.title)}
+            </Text>
+
+            <Text className={`${mode === 'dark' ? 'text-white/60' : 'text-black/60'} text-[9px] mt-1 font-medium leading-[14px]`} numberOfLines={3}>
+              {tmdbOverview || metaEp?.synopsis || 'No description available for this episode.'}
+            </Text>
+          </View>
+
+          <View className="flex-row items-center justify-between mt-1">
+            <View className="flex-row items-center gap-x-4">
+              <TouchableOpacity onPress={() => playHandler({ linkIndex: index, type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: combinedData })}>
+                <Text className="text-[#FF4D3D] text-[9px] font-black uppercase tracking-[1px]">Play</Text>
               </TouchableOpacity>
+
+              <TouchableOpacity onPress={() => toggleWatched(item.link, !completed)}>
+                <Ionicons 
+                  name={completed ? "checkmark-circle" : "checkmark-circle-outline"} 
+                  size={20} 
+                  color={completed ? "#FF4D3D" : (mode === 'dark' ? "white" : "black")} 
+                  style={{ opacity: completed ? 1 : 0.4 }}
+                />
+              </TouchableOpacity>
+
+              {showDownloadButtonOnCards && (
+                <TouchableOpacity onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, 'series', fileName)}>
+                  <Text className="text-[#FF4D3D] text-[9px] font-black uppercase tracking-[1px]">Save</Text>
+                </TouchableOpacity>
+              )}
+            </View>
+
+            {metaEp?.size && (
+              <Text className={`${mode === 'dark' ? 'text-white/30' : 'text-black/30'} text-[8px] font-bold uppercase`}>
+                 {metaEp.size}
+              </Text>
             )}
           </View>
         </View>
 
-        {/* Thumbnail Card - Bottom Section as per image */}
-        <TouchableOpacity 
-          activeOpacity={0.9}
-          onPress={() => playHandler({ linkIndex: index, type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: combinedData })}
-          className={`aspect-video rounded-[38px] overflow-hidden ${mode === 'dark' ? 'bg-secondary' : 'bg-white'} border ${mode === 'dark' ? 'border-white/5' : 'border-black/5'} relative shadow-2xl shadow-black/20`}
-        >
-          {thumbnail ? (
-            <Image source={{uri: thumbnail}} style={{width: '100%', height: '100%'}} resizeMode="cover" />
-          ) : (
-            <View className="items-center justify-center h-full opacity-30">
-              <Ionicons name="play" size={40} color={primary} />
-            </View>
-          )}
-
-          {/* Red Progress Bar (Bottom) - Matching image style */}
-          {progress > 0 && (
-            <View className="absolute bottom-0 left-0 right-0 h-[4px] bg-black/40">
-              <View className="h-full bg-red-600 shadow-sm shadow-red-600/50" style={{ width: `${progress}%` }} />
-            </View>
-          )}
-
-          {/* Next Up Overlay - Thinner banner as per image */}
-          {isNext && (
-            <View className="absolute top-0 left-0 right-0 bg-red-600 py-1 items-center">
-              <Text className="text-[7px] text-white font-black uppercase tracking-[2px]">Next Up</Text>
-            </View>
-          )}
-          
-          {/* Completed Checkmark - Circle with checkmark as per image */}
-          {completed && (
-            <View className="absolute inset-0 items-center justify-center bg-black/20">
-              <View className="bg-red-600 w-14 h-14 rounded-full items-center justify-center shadow-lg border-2 border-white/20">
-                <Ionicons name="checkmark" size={36} color="white" />
-              </View>
-            </View>
-          )}
-        </TouchableOpacity>
-
-        <View className="h-4" />
+        {isNext && (
+          <View className="absolute top-2 right-2 bg-red-600/10 px-1.5 py-0.5 rounded-full border border-red-600/20">
+            <Text className="text-[6px] text-red-600 font-black uppercase">Next</Text>
+          </View>
+        )}
       </View>
     );
-  }, [mode, primary, playHandler, type, metaTitle, activeSeason?.title, combinedData, getEpisodeMetadata, getWatchProgress, handleShowServers, fetchStreams, providerValue, toggleWatched, nextUpIndex, handleDownload]);
-
-  const renderHorizontalDirectLinkItem = useCallback(({item, index}: {item: any, index: number}) => {
-    const progress = getWatchProgress(item.link);
-    const completed = progress > 85;
-    const isNext = index === nextUpIndex && !completed;
-    
-    return (
-      <View key={item.link + index} className="mr-8 mb-4" style={{ width: 320 }}>
-        {/* Metadata and Title */}
-        <View className="mb-3 px-1">
-          <Text className={`${mode === 'dark' ? 'text-white/80' : 'text-black/80'} text-[11px] uppercase font-bold mb-3`} numberOfLines={1}>
-            {sanitizeName(item.title)}
-          </Text>
-
-          {/* Metadata Badges */}
-          <View className="flex-row flex-wrap mb-2">
-            {(() => {
-              const meta = extractMetadata(item.title);
-              return [...meta.quality, ...meta.technical].slice(0, 4).map((ext, i) => {
-                let badgeBg = 'bg-white/10 border-white/5';
-                let textColor = 'text-white/60';
-                if (ext === 'DOLBY VISION') { badgeBg = 'bg-yellow-500/20 border-yellow-500/30'; textColor = 'text-yellow-500'; }
-                if (ext === 'HDR') { badgeBg = 'bg-orange-500/20 border-orange-500/30'; textColor = 'text-orange-500'; }
-
-                return (
-                  <View key={i} className={`${badgeBg} px-1.5 py-0.5 rounded mr-1 mb-1 border`}>
-                    <Text className={`${textColor} text-[7px] font-black uppercase`}>{ext}</Text>
-                  </View>
-                );
-              });
-            })()}
-          </View>
-
-          {/* Action Row - Mobile Inspired Pills */}
-          <View className="flex-row items-center space-x-3 mb-1">
-            <TouchableOpacity 
-              onPress={() => toggleWatched(item.link, !completed)}
-              className={`flex-row items-center px-3 py-1.5 rounded-full border ${completed ? (mode==='dark'?'bg-primary/20 border-primary/50':'bg-primary/10 border-primary/30') : (mode==='dark'?'bg-white/5 border-white/10':'bg-black/5 border-black/10')}`}
-            >
-              <Ionicons 
-                name={completed ? "checkmark-circle" : "checkmark-circle-outline"} 
-                size={16} 
-                color={completed ? primary : (mode === 'dark' ? "rgba(255,255,255,0.5)" : "rgba(0,0,0,0.5)")} 
-              />
-              <Text className={`ml-1.5 text-[9px] font-black uppercase tracking-[1px] ${completed ? (mode==='dark'?'text-white':'text-black') : (mode === 'dark' ? "text-white/40" : "text-black/40")}`}>
-                {completed ? 'Watched' : 'Mark Watched'}
-              </Text>
-            </TouchableOpacity>
-
-            {showDownloadButtonOnCards && (
-              <TouchableOpacity 
-                onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, 'movie', (metaTitle + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_'))}
-                className={`flex-row items-center px-3 py-1.5 rounded-full border ${mode==='dark'?'bg-white/5 border-white/10':'bg-black/5 border-black/10'}`}
-              >
-                <Feather name="download" size={14} color={mode === 'dark' ? "rgba(255,255,255,0.5)" : "rgba(0,0,0,0.5)"} />
-                <Text className={`ml-1.5 text-[9px] font-black uppercase tracking-[1px] ${mode === 'dark' ? "text-white/40" : "text-black/40"}`}>
-                  Download
-                </Text>
-              </TouchableOpacity>
-            )}
-          </View>
-        </View>
-
-        <TouchableOpacity 
-          activeOpacity={0.9}
-          onPress={() => playHandler({ linkIndex: index, type: item?.type || type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: combinedData })}
-          className={`aspect-video rounded-[38px] overflow-hidden ${mode === 'dark' ? 'bg-secondary' : 'bg-white'} border ${mode === 'dark' ? 'border-white/5' : 'border-black/5'} relative shadow-2xl shadow-black/20`}
-        >
-          {poster?.poster ? (
-            <Image source={{uri: poster.poster}} style={{width: '100%', height: '100%'}} resizeMode="cover" />
-          ) : (
-            <View className="items-center justify-center h-full opacity-30">
-              <MaterialCommunityIcons name="movie-play-outline" size={40} color={primary} />
-            </View>
-          )}
-
-          {progress > 0 && (
-            <View className="absolute bottom-0 left-0 right-0 h-[4px] bg-black/40">
-              <View className="h-full bg-red-600 shadow-sm shadow-red-600/50" style={{ width: `${progress}%` }} />
-            </View>
-          )}
-
-          {isNext && (
-            <View className="absolute top-0 left-0 right-0 bg-red-600 py-1 items-center">
-              <Text className="text-[7px] text-white font-black uppercase tracking-[2px]">Next Up</Text>
-            </View>
-          )}
-          
-          {completed && (
-            <View className="absolute inset-0 items-center justify-center bg-black/20">
-              <View className="bg-red-600 w-12 h-12 rounded-full items-center justify-center shadow-lg shadow-black/40">
-                <Ionicons name="checkmark" size={32} color="white" />
-              </View>
-            </View>
-          )}
-        </TouchableOpacity>
-        <View className="h-4" />
-      </View>
-    );
-  }, [mode, primary, playHandler, type, metaTitle, activeSeason?.title, combinedData, getWatchProgress, nextUpIndex, poster?.poster, toggleWatched]);
+  }, [mode, primary, playHandler, type, metaTitle, activeSeason?.title, combinedData, getEpisodeMetadata, getWatchProgress, nextUpIndex, toggleWatched, handleDownload, tmdbSeason, getTMDBEpisodeOverview, showDownloadButtonOnCards, isTablet, getAbsoluteEpisodeNumber]);
 
   // Renderers
   const renderEpisodeItem = useCallback(({item, index}: {item: any, index: number}) => {
@@ -697,119 +675,90 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
     const completed = progress > 85;
     const isNext = index === nextUpIndex && !completed;
     const metaEp = getEpisodeMetadata(item.title);
-    const thumbnail = item.image || metaEp?.thumbnail;
+    const tmdbOverview = getTMDBEpisodeOverview(item.title, item.originalIndex);
+    const epNum = getAbsoluteEpisodeNumber(item.title, item.originalIndex);
+    const tmdbEp = tmdbSeason?.episodes?.find((e: any) => Number(e.episode_number) == Number(epNum));
+    const thumbnail = item.image || metaEp?.thumbnail || (tmdbEp?.still_path ? `https://image.tmdb.org/t/p/w500${tmdbEp.still_path}` : null);
+    
     const fileName = (metaTitle + (activeSeason?.title || '') + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_');
 
     return (
-      <View key={item.link + index} className={`w-full mb-8 rounded-[38px] overflow-hidden ${mode === 'dark' ? 'bg-white/5 border-white/5' : 'bg-white border-black/5'} border shadow-xl shadow-black/10`}>
-        {/* Card Header - Metadata */}
-        <View className="px-4 pt-4 pb-2 flex-row justify-between items-center">
-            <View className="flex-row items-center space-x-2">
-                <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[11px] font-black uppercase tracking-[1px]`}>
-                    Episode-{String(item.originalIndex + 1).padStart(2, '0')} • {sanitizeName(item.title)}
-                </Text>
-                {/* Metadata Badges */}
-                <View className="flex-row items-center ml-2">
-                  {(() => {
-                    const meta = extractMetadata(item.title);
-                    return [...meta.quality, ...meta.technical].slice(0, 4).map((ext, i) => {
-                      let badgeBg = 'bg-white/10 border-white/5';
-                      let textColor = 'text-white/60';
-                      if (ext === 'DOLBY VISION') { badgeBg = 'bg-yellow-500/20 border-yellow-500/30'; textColor = 'text-yellow-500'; }
-                      if (ext === 'HDR') { badgeBg = 'bg-orange-500/20 border-orange-500/30'; textColor = 'text-orange-500'; }
-
-                      return (
-                        <View key={i} className={`${badgeBg} px-1.5 py-0.5 rounded mr-1 border`}>
-                          <Text className={`${textColor} text-[7px] font-black uppercase`}>{ext}</Text>
-                        </View>
-                      );
-                    });
-                  })()}
-                </View>
-                {metaEp?.size && (
-                    <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} text-[10px] font-black uppercase tracking-[1px] ml-2`}>
-                        {metaEp.size}
-                    </Text>
-                )}
+      <View key={item.link + index} className={`${isTablet ? 'flex-1' : 'w-full'} mb-8 rounded-[36px] overflow-hidden ${mode === 'dark' ? 'bg-white/10 border-white/20' : 'bg-white border-black/5 shadow-xl'} border flex-col shadow-2xl p-5 shadow-black/40`}>
+        {/* Header: Title and Next Badge */}
+        <View className="flex-row items-center justify-between mb-4">
+          <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[18px] font-black flex-1 mr-4`} numberOfLines={1}>
+            {tmdbEp?.name || sanitizeName(item.title)}
+          </Text>
+          {isNext && (
+            <View className="bg-red-600/10 px-3 py-1 rounded-full border border-red-600/20">
+              <Text className="text-[9px] text-red-600 font-black uppercase tracking-wider">Next</Text>
             </View>
-            {isNext && (
-                <View className="bg-primary px-3 py-1 rounded-full shadow-sm shadow-primary/40">
-                    <Text className="text-white text-[8px] font-black uppercase tracking-[1px]">Next Up</Text>
-                </View>
-            )}
+          )}
         </View>
 
-        {/* Thumbnail Section */}
-        <TouchableOpacity 
-            activeOpacity={0.9}
-            onPress={() => playHandler({ linkIndex: index, type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: combinedData })}
-            className="aspect-video w-full relative"
-        >
-            {thumbnail ? (
-                <Image source={{uri: thumbnail}} style={{width: '100%', height: '100%'}} resizeMode="cover" />
-            ) : (
-                <View className="w-full h-full items-center justify-center bg-black/20">
-                    <MaterialCommunityIcons name="play-circle-outline" size={48} color="white" style={{opacity: 0.3}} />
-                </View>
-            )}
-            
-            {/* Play Button Overlay */}
-            <View className="absolute inset-0 items-center justify-center">
-                <View className="bg-white/10 w-12 h-12 rounded-full items-center justify-center border border-white/20">
-                    <Ionicons name="play" size={24} color="white" />
-                </View>
-            </View>
+        {/* Content Body: Thumbnail and Text Row */}
+        <View className="flex-row mb-6">
+          <TouchableOpacity 
+              activeOpacity={0.8}
+              onPress={() => playHandler({ linkIndex: index, type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: combinedData })}
+              className="w-[120px] aspect-video relative bg-black rounded-[20px] overflow-hidden"
+          >
+              {thumbnail ? (
+                  <Image source={{uri: thumbnail}} style={{width: '100%', height: '100%'}} resizeMode="stretch" />
+              ) : (
+                  <View className="w-full h-full items-center justify-center opacity-40">
+                      <MaterialCommunityIcons name="play-circle" size={32} color="white" />
+                  </View>
+              )}
+              
+              <View className="absolute inset-0 items-center justify-center bg-black/10">
+                  <Ionicons name="play" size={20} color="white" />
+              </View>
 
-            {/* Completed Badge */}
-            {completed && (
-                <View className="absolute inset-0 bg-black/30 items-center justify-center">
-                   <View className="bg-red-600 w-12 h-12 rounded-full items-center justify-center shadow-lg border-2 border-white/20">
-                        <Ionicons name="checkmark" size={32} color="white" />
-                    </View>
+              {progress > 0 && (
+                <View className="absolute bottom-0 left-0 right-0 h-1 bg-black/40">
+                  <View className="h-full bg-red-600" style={{ width: `${progress}%` }} />
                 </View>
-            )}
-        </TouchableOpacity>
+              )}
+          </TouchableOpacity>
 
-        <View className="flex-row items-center p-4 space-x-3">
-            <TouchableOpacity 
-              onPress={() => toggleWatched(item.link, !completed)}
-              className="flex-1 flex-row items-center justify-center py-3 rounded-full"
-              style={{ 
-                backgroundColor: completed ? '#FF4D3D' : (mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)'),
-                borderWidth: completed ? 0 : 1.5,
-                borderColor: mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'
-              }}
-            >
-              <Ionicons 
-                name="checkmark-circle" 
-                size={16} 
-                color={completed ? 'white' : (mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.6)")} 
-              />
-              <Text className={`ml-2 text-[10px] font-black uppercase tracking-[1px] ${completed ? 'text-white' : (mode === 'dark' ? "text-white/40" : "text-black/60")}`}>
-                Watched
-              </Text>
+          <View className="flex-1 ml-4 justify-center">
+            <Text className={`${mode === 'dark' ? 'text-white/70' : 'text-black/70'} text-[12px] font-medium leading-[18px]`} numberOfLines={4}>
+              {tmdbOverview || metaEp?.synopsis || 'No description available for this episode.'}
+            </Text>
+          </View>
+        </View>
+
+        {/* Footer: Actions Cluster */}
+        <View className="flex-row items-center justify-center gap-x-12 border-t border-black/5 pt-4">
+          <TouchableOpacity onPress={() => playHandler({ linkIndex: index, type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: combinedData })}>
+            <Text className="text-[#FF4D3D] text-[11px] font-black uppercase tracking-[2px]">Play</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity onPress={() => toggleWatched(item.link, !completed)}>
+            <Ionicons 
+              name={completed ? "checkmark-circle" : "checkmark-circle-outline"} 
+              size={24} 
+              color={completed ? "#FF4D3D" : (mode === 'dark' ? "white" : "black")} 
+              style={{ opacity: completed ? 1 : 0.4 }}
+            />
+          </TouchableOpacity>
+
+          {showDownloadButtonOnCards && (
+            <TouchableOpacity onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, 'series', fileName)}>
+              <Text className="text-[#FF4D3D] text-[11px] font-black uppercase tracking-[2px]">Save</Text>
             </TouchableOpacity>
+          )}
 
-            {showDownloadButtonOnCards && (
-              <TouchableOpacity 
-                onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, 'series', fileName)}
-                className="flex-1 flex-row items-center justify-center py-3 rounded-full"
-                style={{ 
-                    backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)',
-                    borderWidth: 1.5,
-                    borderColor: mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'
-                }}
-              >
-                <Feather name="download" size={16} color={mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.6)"} />
-                <Text className={`ml-2 text-[10px] font-black uppercase tracking-[1px] ${mode === 'dark' ? "text-white/40" : "text-black/60"}`}>
-                  Download
-                </Text>
-              </TouchableOpacity>
-            )}
+          {metaEp?.size && (
+            <Text className={`${mode === 'dark' ? 'text-white/30' : 'text-black/30'} text-[9px] font-bold uppercase`}>
+                {metaEp.size}
+            </Text>
+          )}
         </View>
       </View>
     );
-  }, [mode, primary, playHandler, type, metaTitle, activeSeason?.title, combinedData, getEpisodeMetadata, getWatchProgress, nextUpIndex, toggleWatched, handleDownload]);
+  }, [mode, primary, playHandler, type, metaTitle, activeSeason?.title, combinedData, getEpisodeMetadata, getWatchProgress, nextUpIndex, toggleWatched, handleDownload, tmdbSeason, getTMDBEpisodeOverview, showDownloadButtonOnCards, isTablet, getAbsoluteEpisodeNumber]);
 
   const renderDirectLinkItem = useCallback(({item, index}: {item: any, index: number}) => {
     const progress = getWatchProgress(item.link);
@@ -818,108 +767,89 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
     const fileName = (metaTitle + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_');
 
     return (
-      <View key={item.link + index} className={`w-full mb-8 rounded-[38px] overflow-hidden ${mode === 'dark' ? 'bg-white/5 border-white/5' : 'bg-white border-black/5'} border shadow-xl shadow-black/10`}>
-        {/* Card Header - Metadata */}
-        <View className="px-4 pt-4 pb-2 flex-row justify-between items-center">
-            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[11px] font-black uppercase tracking-[1px]`}>
-                {sanitizeName(item.title)}
-            </Text>
-            {/* Metadata Badges */}
-            <View className="flex-row items-center">
-              {(() => {
-                const meta = extractMetadata(item.title);
-                return [...meta.quality, ...meta.technical].slice(0, 4).map((ext, i) => {
-                  let badgeBg = 'bg-white/10 border-white/5';
-                  let textColor = 'text-white/60';
-                  if (ext === 'DOLBY VISION') { badgeBg = 'bg-yellow-500/20 border-yellow-500/30'; textColor = 'text-yellow-500'; }
-                  if (ext === 'HDR') { badgeBg = 'bg-orange-500/20 border-orange-500/30'; textColor = 'text-orange-500'; }
-
-                  return (
-                    <View key={i} className={`${badgeBg} px-1.5 py-0.5 rounded ml-1 border`}>
-                      <Text className={`${textColor} text-[7px] font-black uppercase`}>{ext}</Text>
-                    </View>
-                  );
-                });
-              })()}
-            </View>
-            {isNext && (
-                <View className="bg-primary/20 px-2 py-0.5 rounded-md">
-                    <Text className="text-primary text-[8px] font-black uppercase">Next</Text>
-                </View>
-            )}
-        </View>
-
-        {/* Thumbnail Section */}
+      <View key={item.link + index} className={`${isTablet ? 'flex-1' : 'w-full'} mb-6 rounded-[28px] overflow-hidden ${mode === 'dark' ? 'bg-white/10 border-white/20' : 'bg-white border-black/5 shadow-lg'} border flex-row shadow-2xl shadow-black/40`}>
+        {/* Left: 16:9 Thumbnail Cluster - Flush */}
         <TouchableOpacity 
-            activeOpacity={0.9}
+            activeOpacity={0.8}
             onPress={() => playHandler({ linkIndex: index, type: item?.type || type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: combinedData })}
-            className="aspect-video w-full relative"
+            className={`${isTablet ? 'w-[180px]' : 'w-[140px]'} aspect-video relative bg-black`}
         >
             {poster?.poster ? (
-                <Image source={{uri: poster.poster}} style={{width: '100%', height: '100%'}} resizeMode="cover" />
+                <Image source={{uri: poster.poster}} style={{width: '100%', height: '100%'}} resizeMode="stretch" />
             ) : (
-                <View className="w-full h-full items-center justify-center bg-black/20">
-                    <MaterialCommunityIcons name="movie-play-outline" size={48} color="white" style={{opacity: 0.3}} />
+                <View className="w-full h-full items-center justify-center opacity-40">
+                    <MaterialCommunityIcons name="movie-play-outline" size={36} color="white" />
                 </View>
             )}
             
-            {/* Play Button Overlay */}
-            <View className="absolute inset-0 items-center justify-center">
-                <View className="bg-white/10 w-12 h-12 rounded-full items-center justify-center border border-white/20">
-                    <Ionicons name="play" size={24} color="white" />
-                </View>
+            <View className="absolute inset-0 items-center justify-center bg-black/5">
+                <Ionicons name="play" size={24} color="white" />
             </View>
 
-            {/* Completed Badge */}
-            {completed && (
-                <View className="absolute inset-0 bg-black/30 items-center justify-center">
-                   <View className="bg-red-600 w-12 h-12 rounded-full items-center justify-center shadow-lg border-2 border-white/20">
-                        <Ionicons name="checkmark" size={32} color="white" />
-                    </View>
-                </View>
+            {progress > 0 && (
+              <View className="absolute bottom-0 left-0 right-0 h-1 bg-black/40">
+                <View className="h-full bg-red-600" style={{ width: `${progress}%` }} />
+              </View>
             )}
         </TouchableOpacity>
 
-        <View className="flex-row items-center p-4 space-x-3">
-            <TouchableOpacity 
-              onPress={() => toggleWatched(item.link, !completed)}
-              className="flex-1 flex-row items-center justify-center py-3 rounded-full"
-              style={{ 
-                backgroundColor: completed ? '#FF4D3D' : (mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)'),
-                borderWidth: completed ? 0 : 1.5,
-                borderColor: mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'
-              }}
-            >
-              <Ionicons 
-                name="checkmark-circle" 
-                size={16} 
-                color={completed ? 'white' : (mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.6)")} 
-              />
-              <Text className={`ml-2 text-[10px] font-black uppercase tracking-[1px] ${completed ? 'text-white' : (mode === 'dark' ? "text-white/40" : "text-black/60")}`}>
-                Watched
+        {/* Right Content Cluster */}
+        <View className="flex-1 px-4 py-3 justify-between">
+          <View>
+            <View className="flex-row items-center justify-between">
+              {!sanitizeName(item.title).toLowerCase().includes('episode') && (
+                <Text className={`${mode === 'dark' ? 'text-white/60' : 'text-black/60'} text-[11px] font-black uppercase tracking-tight mr-2`}>
+                  Ep {String(getAbsoluteEpisodeNumber(item.title, item.originalIndex)).padStart(2, '0')}
+                </Text>
+              )}
+              <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[14px] font-black uppercase tracking-tight flex-1`} numberOfLines={1}>
+                {sanitizeName(item.title)}
               </Text>
+            </View>
+
+            {/* Metadata Badges for direct links */}
+            <View className="flex-row flex-wrap mt-2">
+              {(() => {
+                const epMeta = extractMetadata(item.title);
+                return [...epMeta.quality, ...epMeta.technical].slice(0, 3).map((ext, i) => (
+                  <View key={i} className={`${mode === 'dark' ? 'bg-white/10' : 'bg-black/5'} px-1.5 py-0.5 rounded mr-1.5 mb-1.5`}>
+                    <Text className={`${mode === 'dark' ? 'text-white/50' : 'text-black/50'} text-[8px] font-black uppercase`}>{ext}</Text>
+                  </View>
+                ));
+              })()}
+            </View>
+          </View>
+
+          <View className="flex-row items-center mt-2 gap-x-6">
+            <TouchableOpacity onPress={() => playHandler({ linkIndex: index, type: item?.type || type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: combinedData })}>
+              <Text className="text-[#FF4D3D] text-[10px] font-black uppercase tracking-[1.5px]">Play</Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity onPress={() => toggleWatched(item.link, !completed)}>
+              <Ionicons 
+                name={completed ? "checkmark-circle" : "checkmark-circle-outline"} 
+                size={24} 
+                color={completed ? "#FF4D3D" : (mode === 'dark' ? "white" : "black")} 
+                style={{ opacity: completed ? 1 : 0.4 }}
+              />
             </TouchableOpacity>
 
             {showDownloadButtonOnCards && (
-              <TouchableOpacity 
-                onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, item?.type || type, fileName)}
-                className="flex-1 flex-row items-center justify-center py-3 rounded-full"
-                style={{ 
-                    backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)',
-                    borderWidth: 1.5,
-                    borderColor: mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'
-                }}
-              >
-                <Feather name="download" size={16} color={mode === 'dark' ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.6)"} />
-                <Text className={`ml-2 text-[10px] font-black uppercase tracking-[1px] ${mode === 'dark' ? "text-white/40" : "text-black/60"}`}>
-                  Download
-                </Text>
+              <TouchableOpacity onPress={() => handleDownload(item.link, metaTitle + ' ' + item.title, item?.type || type, fileName)}>
+                <Text className="text-[#FF4D3D] text-[10px] font-black uppercase tracking-[1.5px]">Save</Text>
               </TouchableOpacity>
             )}
+          </View>
         </View>
+
+        {isNext && (
+          <View className="absolute top-3 right-3 bg-red-600/10 px-2 py-0.5 rounded-full border border-red-600/20">
+            <Text className="text-[7px] text-red-600 font-black uppercase">Next</Text>
+          </View>
+        )}
       </View>
     );
-  }, [mode, primary, playHandler, type, metaTitle, activeSeason?.title, combinedData, getWatchProgress, nextUpIndex, poster?.poster, toggleWatched, handleDownload]);
+  }, [mode, primary, playHandler, type, metaTitle, activeSeason?.title, combinedData, getWatchProgress, nextUpIndex, toggleWatched, handleDownload, poster?.poster, showDownloadButtonOnCards, isTablet, getAbsoluteEpisodeNumber]);
 
   const renderServerItem = useCallback((item: Stream, index: number) => {
     const serverName = sanitizeName(item.server || `Server ${index + 1}`, true);
@@ -1057,7 +987,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
                   );
                   return isEpisode
                     ? renderHorizontalEpisodeItem(props)
-                    : renderHorizontalDirectLinkItem(props);
+                    : renderDirectLinkItem(props);
                 }}
                 showsHorizontalScrollIndicator={false}
                 contentContainerStyle={{
@@ -1065,12 +995,12 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
                   paddingBottom: 40,
                 }}
                 snapToAlignment="start"
-                snapToInterval={320 + 32}
+                snapToInterval={(isTablet ? 450 : 340) + 24}
                 decelerationRate="fast"
                 initialScrollIndex={nextUpIndex}
                 getItemLayout={(_data, index) => ({
-                  length: 320 + 32,
-                  offset: (320 + 32) * index,
+                  length: (isTablet ? 450 : 340) + 24,
+                  offset: ((isTablet ? 450 : 340) + 24) * index,
                   index,
                 })}
               />
@@ -1078,19 +1008,25 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
               <>
                 {filteredAndSortedEpisodes.length > 0 && (
                   <FlatList
+                    key={isTablet ? 'tablet-ep-grid' : 'mobile-ep-list'}
+                    numColumns={1}
                     data={filteredAndSortedEpisodes}
                     keyExtractor={(item, index) => `ep-${item.link}-${index}`}
                     renderItem={renderEpisodeItem}
                     scrollEnabled={false}
                     initialNumToRender={10}
+                    columnWrapperStyle={undefined}
                   />
                 )}
                 {filteredAndSortedDirectLinks.length > 0 && (
                   <FlatList
+                    key={isTablet ? 'tablet-dl-grid' : 'mobile-dl-list'}
+                    numColumns={1}
                     data={filteredAndSortedDirectLinks}
                     keyExtractor={(item, index) => `dl-${item.link}-${index}`}
                     renderItem={renderDirectLinkItem}
                     scrollEnabled={false}
+                    columnWrapperStyle={undefined}
                   />
                 )}
               </>

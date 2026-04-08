@@ -2,7 +2,7 @@ import {useQuery} from '@tanstack/react-query';
 import {providerManager} from '../services/ProviderManager';
 import {cacheStorage} from '../storage';
 import axios from 'axios';
-import { searchTMDB, getTMDBDetails } from '../services/tmdb';
+import { searchTMDB, getTMDBDetails, getTMDBSeasonDetails } from '../services/tmdb';
 
 // Hook for fetching content info/metadata
 export const useContentInfo = (link: string, providerValue: string) => {
@@ -94,6 +94,27 @@ export const useEnhancedMetadata = (imdbId: string, type: string) => {
         }
       },
     },
+  });
+};
+
+// Hook for fetching TMDb Season details
+export const useTMDBSeasonDetails = (seriesId: number, seasonNumber: number) => {
+  return useQuery({
+    queryKey: ['tmdbSeason', seriesId, seasonNumber],
+    queryFn: async () => {
+      if (!seriesId) return null;
+      console.log('Fetching TMDB season metadata for series:', seriesId, 'season:', seasonNumber);
+      try {
+        const details = await getTMDBSeasonDetails(seriesId, seasonNumber);
+        return details;
+      } catch (error) {
+        console.error('Error fetching TMDB season metadata:', error);
+      }
+      return null;
+    },
+    enabled: !!seriesId,
+    staleTime: 60 * 60 * 1000, // 1 hour
+    gcTime: 24 * 60 * 60 * 1000, // 24 hours
   });
 };
 

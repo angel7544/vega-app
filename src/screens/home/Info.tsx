@@ -11,16 +11,19 @@ import {
   Pressable,
   useWindowDimensions,
   TextInput,
+  Platform,
+  StyleSheet,
+  ScrollView,
 } from 'react-native';
 import React, {useCallback, useEffect, useMemo, useRef, useState} from 'react';
 import {
   NativeStackNavigationProp,
   NativeStackScreenProps,
 } from '@react-navigation/native-stack';
-import {HomeStackParamList, TabStackParamList} from '../../App';
+import {HomeStackParamList, TabStackParamList, RootStackParamList} from '../../types/navigation';
 import LinearGradient from 'react-native-linear-gradient';
 import SeasonList, { SeasonListHandle } from '../../components/SeasonList';
-import {Feather, MaterialCommunityIcons, Ionicons} from '@expo/vector-icons';
+import {Feather, MaterialCommunityIcons, Ionicons, MaterialIcons} from '@expo/vector-icons';
 import {Dropdown} from 'react-native-element-dropdown';
 import {cacheStorage, mainStorage,  settingsStorage, watchListStorage} from '../../lib/storage';
 import ReactNativeHapticFeedback from 'react-native-haptic-feedback';
@@ -35,6 +38,10 @@ import useToastStore from '../../lib/zustand/toastStore';
 import useNavBarStore from '../../lib/zustand/navBarStore';
 import {sanitizeName, extractMetadata} from '../../lib/utils';
 // import {BlurView} from 'expo-blur';
+// import Video, { VideoRef, ResizeMode, SelectedTrack, SelectedTrackType } from 'react-native-video';
+import { useStream } from '../../lib/hooks/useStream';
+import Animated, { FadeIn, FadeOut, FadeInDown, useSharedValue, useAnimatedStyle, withTiming } from 'react-native-reanimated';
+import { BlurView } from 'expo-blur';
 
 type Props = NativeStackScreenProps<HomeStackParamList, 'Info'>;
 export default function Info({route, navigation}: Props): React.JSX.Element {
@@ -42,6 +49,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
     useNavigation<NativeStackNavigationProp<TabStackParamList>>();
   const {primary, mode} = useThemeStore(state => state);
   const {width: windowWidth, height: windowHeight} = useWindowDimensions();
+  const rootNavigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
   const isTablet = windowWidth > 768;
   const headerHeight = isTablet ? 640 : 450;
   const {addItem, removeItem} = useWatchListStore(state => state);
@@ -67,13 +75,14 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
   const [readMore, setReadMore] = useState(false);
   const [menuPosition, setMenuPosition] = useState({top: -1000, right: 0});
   const [backgroundColor, setBackgroundColor] = useState('transparent');
+  // Logo Error Handling
   const [logoError, setLogoError] = useState(false);
   const seasonListRef = useRef<SeasonListHandle>(null);
   const [nextUpEpisode, setNextUpEpisode] = useState<any>(null);
 
   const threeDotsRef = useRef<any | null>(null);
 
-  // Memoized computed values first
+  // Memoized computed values
   const displayTitle = useMemo(() => {
     return meta?.name || info?.title || '';
   }, [meta?.name, info?.title]);
@@ -87,7 +96,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
       meta?.poster ||
       route.params.poster ||
       info?.image ||
-      'https://www.br31tech.live/logo.pngtext=OrbixPlay'
+      'https://www.br31tech.live/logo.png?text=OrbixPlay'
     );
   }, [meta?.poster, route.params.poster, info?.image]);
 
@@ -95,10 +104,25 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
     return (
       meta?.background ||
       info?.image ||
-      'https://www.br31tech.live/logo.pngtext=OrbixPlay'
+      'https://www.br31tech.live/logo.png?text=OrbixPlay'
     );
   }, [meta?.background, info?.image]);
 
+  const [showEnlargeModal, setShowEnlargeModal] = useState(false);
+
+  const handlePlayOverride = useCallback((data: any) => {
+    rootNavigation.navigate('Player', {
+      linkIndex: data.linkIndex,
+      episodeList: data.episodeList,
+      type: info?.type || 'series',
+      primaryTitle: displayTitle,
+      poster: { poster: posterImage },
+      providerValue: route.params.provider || provider.value,
+      infoUrl: route.params.link,
+    } as any);
+  }, [displayTitle, info?.type, posterImage, route.params.link, route.params.provider, provider.value]);
+
+  // Memoized computed values first
   const filteredLinkList = useMemo(() => {
     if (!info?.linkList) return [];
     const excludedQualities = settingsStorage.getExcludedQualities();
@@ -305,54 +329,28 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
           </TouchableOpacity>
 
           <View className="flex-row items-center space-x-4">
-            {filteredLinkList.length > 1 && (
-              <View className={isMobileLandscape ? 'w-40' : 'w-56'}>
-                <Dropdown
-                  selectedTextStyle={{ color: mode === 'dark' ? 'white' : 'black', fontWeight: 'bold', fontSize: isMobileLandscape ? 11 : 13 }}
-                  labelField={'title'}
-                  valueField={filteredLinkList[0]?.episodesLink ? 'episodesLink' : 'directLinks'}
-                  onChange={handleSeasonChange}
-                  value={activeSeason}
-                  data={filteredLinkList}
-                  style={{ 
-                    borderWidth: 1, 
-                    borderColor: borderCol, 
-                    paddingHorizontal: 12, 
-                    borderRadius: 12, 
-                    backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'white', 
-                    height: isMobileLandscape ? 38 : 44,
-                  }}
-                  containerStyle={{ 
-                    backgroundColor: mode === 'dark' ? '#121212' : 'white', 
-                    borderRadius: 12, 
-                    borderWidth: 1, 
-                    borderColor: borderCol,
-                    overflow: 'hidden',
-                  }}
-                  itemContainerStyle={{
-                    borderBottomWidth: 1,
-                    borderBottomColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)',
-                  }}
-                  activeColor={mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.05)'}
-                  renderItem={item => {
-                    const itemMetadata = extractMetadata(item?.title || '');
-                    return (
-                      <View className="px-4 py-3 flex-row items-center justify-between">
-                        <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-medium flex-1`} numberOfLines={1}>
-                          {sanitizeName(item?.title)}
-                        </Text>
-                        <View className="flex-row items-center ml-2">
-                          {[...itemMetadata.quality, ...itemMetadata.technical].slice(0, 2).map((ext, idx) => (
-                             <View key={idx} className="bg-primary/20 px-1.5 py-0.5 rounded ml-1 border border-primary/30">
-                                <Text className="text-primary text-[8px] font-black uppercase">{ext}</Text>
-                             </View>
-                          ))}
-                        </View>
-                      </View>
-                    );
-                  }}
-                />
-              </View>
+            {filteredLinkList.length > 1 && isMobileLandscape && (
+              <ScrollView 
+                horizontal 
+                showsHorizontalScrollIndicator={false}
+                className="max-w-[180px]"
+                contentContainerStyle={{ alignItems: 'center', paddingRight: 20 }}
+              >
+                {filteredLinkList.map((item: any, idx: number) => {
+                  const isActive = activeSeason?.title === item.title;
+                  return (
+                    <TouchableOpacity
+                      key={idx}
+                      onPress={() => handleSeasonChange(item)}
+                      className={`mr-3 px-4 py-2 rounded-full border ${isActive ? 'bg-primary border-primary' : (mode === 'dark' ? 'bg-white/5 border-white/10' : 'bg-black/5 border-black/10')}`}
+                    >
+                      <Text className={`text-[10px] font-black uppercase tracking-[1px] ${isActive ? 'text-white' : (mode === 'dark' ? 'text-white/40' : 'text-black/40')}`}>
+                        {sanitizeName(item.title)}
+                      </Text>
+                    </TouchableOpacity>
+                  );
+                })}
+              </ScrollView>
             )}
             <View className={`flex-row items-center ${mode === 'dark' ? 'bg-secondary/40' : 'bg-white'} rounded-xl px-4 ${isMobileLandscape ? 'h-9 w-40' : 'h-11 w-64'} border ${borderCol}`}>
               <Ionicons name="search" size={isMobileLandscape ? 14 : 18} color={mode === 'dark' ? '#ffffff40' : '#00000040'} />
@@ -385,32 +383,39 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
           
           {/* Left Column - Large Poster and Actions */}
           <View className={`${isMobileLandscape ? 'w-[28%]' : 'w-[30%]'} h-full rounded-[40px] overflow-hidden`}>
-            <View className="h-[80%] rounded-[40px] overflow-hidden border-2 border-white/10 shadow-2xl relative">
-              <Image source={{uri: posterImage}} className="w-full h-full" resizeMode="stretch" />
-              {/* Poster Badge Overlay */}
-              <View className="absolute top-4 right-4 flex-col items-end">
-                {metadata.quality.map((q, i) => (
-                  <View key={i} className="bg-primary px-2 py-1 rounded-lg mb-1 shadow-lg">
-                    <Text className="text-white text-[10px] font-black uppercase">{q}</Text>
-                  </View>
-                ))}
+              <View className="aspect-video w-full rounded-[40px] overflow-hidden border-2 border-white/10 shadow-2xl relative bg-black">
+                <Image source={{uri: backgroundImage}} className="w-full h-full" resizeMode="cover" />
+                <View className="absolute top-4 right-4 flex-col items-end">
+                  {metadata.quality.map((q, i) => (
+                    <View key={i} className="bg-primary px-2 py-1 rounded-lg mb-1 shadow-lg">
+                      <Text className="text-white text-[10px] font-black uppercase">{q}</Text>
+                    </View>
+                  ))}
+                </View>
+
+                {/* Enlarge Button */}
+                <TouchableOpacity 
+                   onPress={() => setShowEnlargeModal(true)}
+                   className="absolute bottom-4 right-4 w-10 h-10 rounded-full bg-black/60 items-center justify-center border border-white/20"
+                >
+                  <Ionicons name="expand" size={18} color="white" />
+                </TouchableOpacity>
               </View>
-            </View>
 
             {/* Main Action Buttons under Poster */}
-            <View className="flex-row items-center space-x-2 mt-4 px-1">
+            <View className="flex-row items-center space-x-3 mt-6 px-1">
               <TouchableOpacity 
                 onPress={handleWatchNow} 
                 style={{ backgroundColor: '#FF4D3D' }}
-                className="flex-1 py-3 px-4 rounded-full flex-row items-center shadow-lg"
+                className="flex-1 py-4 px-6 rounded-full flex-row items-center justify-center shadow-xl shadow-red-600/30"
               >
-                <Ionicons name={nextUpEpisode?.progress > 0 ? "play-forward" : "play"} size={20} color="white" />
-                <View className="ml-2 items-start">
-                    <Text className="text-white font-black text-[11px] uppercase tracking-[1px]">
+                <Ionicons name={nextUpEpisode?.progress > 0 ? "play-forward" : "play"} size={22} color="white" />
+                <View className="ml-3 items-start">
+                    <Text className="text-white font-black text-[12px] uppercase tracking-[1.5px]">
                         {nextUpEpisode ? (nextUpEpisode.progress > 0 ? 'Continue' : 'Watch Now') : (info ? 'Watch Again' : 'Watch Now')}
                     </Text>
                     {nextUpEpisode && (
-                        <Text className="text-white/60 text-[8px] font-bold uppercase tracking-[0.5px] mt-0.5" numberOfLines={1}>
+                        <Text className="text-white/70 text-[9px] font-bold uppercase tracking-[0.5px] mt-0.5" numberOfLines={1}>
                             {sanitizeName(nextUpEpisode.title)}
                         </Text>
                     )}
@@ -419,17 +424,29 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
               
               <TouchableOpacity 
                 onPress={inLibrary ? removeLibrary : addLibrary} 
-                className={`flex-1 flex-row items-center justify-center py-4 rounded-full border border-white/10 ${mode === 'dark' ? 'bg-secondary/80' : 'bg-black/10'}`}
+                className={`w-16 h-16 items-center justify-center rounded-full border border-white/10 ${mode === 'dark' ? 'bg-white/10 shadow-xl shadow-black/40' : 'bg-black/5 shadow-sm'}`}
               >
-                <Ionicons name={inLibrary ? "heart" : "heart-outline"} size={22} color={inLibrary ? "#FF4D3D" : mode === 'dark' ? "white" : "black"} />
-                <Text className={`ml-2 font-black text-[11px] uppercase tracking-[1px] ${textMain}`}>{inLibrary ? 'In List' : 'List'}</Text>
+                <Ionicons name={inLibrary ? "heart" : "heart-outline"} size={26} color={inLibrary ? "#FF4D3D" : mode === 'dark' ? "white" : "black"} />
+              </TouchableOpacity>
+
+              <TouchableOpacity 
+                 onPress={() => Linking.openURL(route.params.link)}
+                 className={`w-16 h-16 items-center justify-center rounded-full border border-white/10 ${mode === 'dark' ? 'bg-white/5 shadow-xl shadow-black/40' : 'bg-black/5 shadow-sm'}`}
+              >
+                <Ionicons name="link" size={24} color={mode === 'dark' ? "white" : "black"} />
               </TouchableOpacity>
             </View>
           </View>
 
-          {/* Right Column - Info Cluster */}
-          <View className="flex-1 ml-10">
-            <View className="flex-1 justify-center space-y-4 pr-6 pb-2">
+
+
+          {/* Right Column - Info Cluster & Episodes */}
+          <ScrollView 
+            className="flex-1 ml-10" 
+            showsVerticalScrollIndicator={false}
+            contentContainerStyle={{ paddingBottom: 60 }}
+          >
+            <View className="pr-6 pb-2">
               <View>
                 {meta?.logo ? (
                   <Image source={{uri: meta.logo}} style={{width: isMobileLandscape ? 260 : 360, height: isMobileLandscape ? 70 : 100, resizeMode: 'contain'}} />
@@ -438,19 +455,31 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                 )}
                 
                 <View className="flex-row items-center mt-4 space-x-3">
-                  {(meta?.imdbRating || info?.rating || tmdb?.vote_average) && (
-                    <View className="flex-row items-center bg-yellow-400/10 px-2.5 py-1 rounded-lg border border-yellow-400/20">
-                      <Ionicons name="star" size={14} color="#FFD700" />
-                      <Text className="text-yellow-400 ml-1.5 font-black text-sm">{tmdb?.vote_average ? tmdb.vote_average.toFixed(1) : (meta?.imdbRating || info?.rating)}</Text>
-                      {tmdb?.vote_count && (
-                        <Text className="text-yellow-400/50 ml-1 text-[10px] font-bold">({tmdb.vote_count})</Text>
-                      )}
-                    </View>
-                  )}
                   {(meta?.year || info?.year || (tmdb as any)?.release_date?.split('-')[0] || (tmdb as any)?.first_air_date?.split('-')[0]) && (
                     <Text className={`${textSub} font-black text-sm`}>{(meta?.year || info?.year || (tmdb as any)?.release_date?.split('-')[0] || (tmdb as any)?.first_air_date?.split('-')[0])}</Text>
                   )}
+                  <View className="w-1 h-1 rounded-full bg-white/20" />
                   <Text className={`${textSub} font-black text-[10px] uppercase tracking-widest`}>{route.params.provider || provider.value}</Text>
+                  
+                  {((tmdb as any)?.vote_average > 0) && (
+                    <>
+                      <View className="w-1 h-1 rounded-full bg-white/20" />
+                      <View className="flex-row items-center">
+                        <Ionicons name="star" size={14} color="#FFD700" />
+                        <Text className={`${textMain} font-black text-sm ml-1`}>{(tmdb as any).vote_average.toFixed(1)}</Text>
+                        <Text className={`${textSub} font-bold text-[10px] ml-1`}>({(tmdb as any).vote_count})</Text>
+                      </View>
+                    </>
+                  )}
+
+                  {((tmdb as any)?.runtime > 0 || (tmdb as any)?.episode_run_time?.length > 0) && (
+                    <>
+                      <View className="w-1 h-1 rounded-full bg-white/20" />
+                      <Text className={`${textSub} font-black text-[10px] uppercase`}>
+                        {(tmdb as any).runtime ? `${(tmdb as any).runtime}m` : `${(tmdb as any).episode_run_time[0]}m`}
+                      </Text>
+                    </>
+                  )}
                 </View>
                 
                 {/* Metadata Badges below title info */}
@@ -459,17 +488,60 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                 </View>
               </View>
 
-              <Text className={`${textSub} ${isMobileLandscape ? 'text-[12px] leading-[18px]' : 'text-[15px] leading-[22px]'} font-bold`}>
+              <Text className={`${textSub} ${isMobileLandscape ? 'text-[12px] leading-[18px]' : 'text-[15px] leading-[22px]'} font-bold mt-4`}>
                 {synopsis}
               </Text>
             </View>
 
-            {/* Episode Carousel - Anchored Bottom Right */}
-            <View className={`${isMobileLandscape ? 'h-[240px]' : 'h-[320px]'} -ml-10 -mr-8`}>
+            {/* Tablet-Specific Continue & Season Controls (Landscape) */}
+            {isTablet && (
+              <View className="mt-8 mb-4">
+                 {nextUpEpisode && (
+                   <TouchableOpacity 
+                     onPress={handleWatchNow}
+                     className="mb-8 flex-row items-center bg-primary/20 border border-primary/30 p-4 rounded-3xl"
+                   >
+                     <View className="w-12 h-12 rounded-full bg-primary items-center justify-center shadow-lg">
+                       <Ionicons name="play-forward" size={24} color="white" />
+                     </View>
+                     <View className="ml-4 flex-1">
+                        <Text className={`${textMain} font-black text-xs uppercase tracking-widest`}>Resume Last Episode</Text>
+                        <Text className={`${textSub} font-bold text-sm`} numberOfLines={1}>{sanitizeName(nextUpEpisode.title)}</Text>
+                     </View>
+                     <Ionicons name="chevron-forward" size={20} color={primary} />
+                   </TouchableOpacity>
+                 )}
+
+                 {filteredLinkList.length > 1 && (
+                   <View className="mb-6">
+                     <Text className={`${textMain} font-black text-[10px] uppercase tracking-widest mb-3 opacity-40 ml-1`}>Select Season</Text>
+                     <ScrollView horizontal showsHorizontalScrollIndicator={false} className="flex-row">
+                       {filteredLinkList.map((item: any, idx: number) => {
+                         const isActive = activeSeason?.title === item.title;
+                         return (
+                           <TouchableOpacity
+                             key={idx}
+                             onPress={() => handleSeasonChange(item)}
+                             className={`mr-3 px-6 py-3 rounded-2xl border ${isActive ? 'bg-primary border-primary shadow-lg shadow-primary/30' : (mode === 'dark' ? 'bg-white/5 border-white/10' : 'bg-white border-black/5')}`}
+                           >
+                             <Text className={`font-black text-[11px] uppercase tracking-[1px] ${isActive ? 'text-white' : (mode === 'dark' ? 'text-white/40' : 'text-black/40')}`}>
+                               {sanitizeName(item.title)}
+                             </Text>
+                           </TouchableOpacity>
+                         );
+                       })}
+                     </ScrollView>
+                   </View>
+                 )}
+              </View>
+            )}
+
+            {/* Episode List - Vertical Scroll on Tablet Landscape */}
+            <View className={`${isMobileLandscape ? 'h-[240px]' : ''} -ml-10 -mr-8 mt-2`}>
               <SeasonList
                 ref={seasonListRef}
                 onNextUpFound={setNextUpEpisode}
-                horizontal
+                horizontal={isMobileLandscape} // Only horizontal on phone landscape
                 refreshing={false}
                 providerValue={route.params.provider || provider.value}
                 LinkList={filteredLinkList}
@@ -484,10 +556,12 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                 screenshots={info?.screenshots}
                 type={info?.type || 'series'}
                 metaTitle={displayTitle}
+                tmdbData={tmdb}
                 routeParams={route.params}
+                onPlayOverride={handlePlayOverride}
               />
             </View>
-          </View>
+          </ScrollView>
         </View>
       </View>
     );
@@ -538,151 +612,186 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
           renderItem={() => <View />}
           contentContainerStyle={{ paddingBottom: 40 }}
           ListHeaderComponent={
-            <View className="px-6 pt-24">
+            <View className={isTablet ? "px-10 pt-32" : "px-6 pt-24"}>
               
-              {/* Grand Poster Card - Portrait Centerpiece */}
-              <View className="w-full aspect-[2/2.8] rounded-[40px] overflow-hidden border-2 border-white/10 shadow-2xl relative">
-                <Image source={{uri: posterImage}} className="w-full h-full" resizeMode="cover" />
-                
-                {/* Title & Synopsis Overlay at bottom of poster */}
-                <View className="absolute bottom-0 left-0 right-0">
-                  <LinearGradient 
-                    colors={['transparent', 'rgba(0,0,0,0.95)']} 
-                    className="pt-20 pb-6 px-6"
+              <View className={isTablet ? "flex-row items-start" : "flex-col"}>
+                {/* Grand Banner - Portrait Centerpiece */}
+                <View className={isTablet ? "w-[58%] aspect-[16/9]" : "w-full aspect-video rounded-[30px] overflow-hidden border-2 border-white/10 shadow-2xl relative bg-black"}>
+                  <View className="w-full h-full rounded-[30px] overflow-hidden">
+                    <Image source={{uri: backgroundImage}} className="w-full h-full" resizeMode="cover" />
+                  </View>
+                  
+                  {/* Enlarge Button */}
+                  <TouchableOpacity 
+                    onPress={() => setShowEnlargeModal(true)}
+                    className="absolute bottom-6 right-6 w-12 h-12 rounded-full bg-black/60 items-center justify-center border border-white/20"
                   >
-                    <Text className="text-white text-2xl font-black uppercase tracking-tight leading-tight">
-                        {displayTitle}
-                    </Text>
-                    <Text className="text-white/40 text-[9px] font-black uppercase tracking-widest mt-1 mb-3">
-                        {route.params.provider || provider.value}
-                    </Text>
+                    <MaterialIcons name="expand" size={24} color="white" />
+                  </TouchableOpacity>
 
-                    <View className="flex-row items-center mb-4 space-x-3">
-                      {(meta?.imdbRating || info?.rating || tmdb?.vote_average) && (
-                        <View className="flex-row items-center bg-yellow-400/20 px-2 py-0.5 rounded-md border border-yellow-400/30">
-                          <Ionicons name="star" size={10} color="#FFD700" />
-                          <Text className="text-yellow-400 ml-1 font-black text-[11px]">{tmdb?.vote_average ? tmdb.vote_average.toFixed(1) : (meta?.imdbRating || info?.rating)}</Text>
-                          {tmdb?.vote_count && (
-                             <Text className="text-yellow-400/50 ml-1 text-[8px] font-bold">({tmdb.vote_count})</Text>
-                          )}
-                        </View>
-                      )}
-                       {(meta?.year || info?.year || (tmdb as any)?.release_date?.split('-')[0] || (tmdb as any)?.first_air_date?.split('-')[0]) && (
-                        <Text className="text-white/60 font-black text-[11px] uppercase tracking-widest">{(meta?.year || info?.year || (tmdb as any)?.release_date?.split('-')[0] || (tmdb as any)?.first_air_date?.split('-')[0])}</Text>
-                      )}
-                    </View>
-
-                    {/* Metadata Badges in Portrait Overlay */}
-                    <MetadataRow items={[...metadata.quality, ...metadata.technical]} type="technical" className="mb-3" />
-
-                    <Text className="text-white/70 text-[11px] font-medium leading-4" numberOfLines={2}>
-                        {synopsis}
-                    </Text>
-                  </LinearGradient>
+                  {/* Discrete Quality Overlay (Top Right) */}
+                  <View className="absolute top-6 right-6">
+                    {metadata.quality.map((q, i) => (
+                      <View key={i} className="bg-primary px-2 py-1 rounded-lg mb-1 shadow-md">
+                        <Text className="text-white text-[9px] font-black uppercase">{q}</Text>
+                      </View>
+                    ))}
+                  </View>
                 </View>
-                
-                {/* Discrete Quality Overlay (Top Right) */}
-                <View className="absolute top-6 right-6">
-                   {metadata.quality.map((q, i) => (
-                    <View key={i} className="bg-primary px-2 py-1 rounded-lg mb-1 shadow-md">
-                      <Text className="text-white text-[9px] font-black uppercase">{q}</Text>
-                    </View>
-                  ))}
-                </View>
-              </View>
 
-              {/* Action Buttons Row */}
-              <View className="flex-row items-center space-x-3 mt-6">
-                <TouchableOpacity 
-                   onPress={handleWatchNow} 
-                   style={{ backgroundColor: '#FF4D3D' }}
-                   className="flex-1 py-4 rounded-full flex-row items-center justify-center shadow-lg"
-                >
-                  <Ionicons name={nextUpEpisode?.progress > 0 ? "play-forward" : "play"} size={20} color="white" />
-                  <View className="ml-3 items-start">
-                    <Text className="text-white font-black text-[12px] uppercase tracking-[1px]">
-                        {nextUpEpisode ? (nextUpEpisode.progress > 0 ? 'Continue' : 'Watch Now') : (info ? 'Watch Again' : 'Watch Now')}
-                    </Text>
-                    {nextUpEpisode && (
-                        <Text className="text-white/60 text-[8px] font-bold uppercase tracking-[0.5px]">
-                            {sanitizeName(nextUpEpisode.title)}
-                        </Text>
+                {/* Info Cluster for Tablet Split or mobile stack */}
+                <View className={isTablet ? "flex-1 pl-12 pt-4" : "w-full mt-6"}>
+                  {/* Metadata Cluster - Unified for Mobile/Tablet */}
+                  <View className={`${isTablet ? 'mb-8' : 'mb-6 mt-4'}`}>
+                    {meta?.logo ? (
+                      <Image source={{uri: meta.logo}} style={{width: isTablet ? 320 : 220, height: isTablet ? 100 : 70, resizeMode: 'contain'}} />
+                    ) : (
+                      <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} ${isTablet ? 'text-5xl' : 'text-3xl'} font-black uppercase tracking-tight`}>{displayTitle}</Text>
                     )}
-                  </View>
-                </TouchableOpacity>
 
-                <TouchableOpacity 
-                   onPress={inLibrary ? removeLibrary : addLibrary} 
-                   className={`flex-1 py-4 rounded-full flex-row items-center justify-center border border-white/10 ${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'}`}
-                >
-                  <Ionicons name={inLibrary ? "heart" : "heart-outline"} size={20} color={inLibrary ? "#FF4D3D" : (mode === 'dark' ? "white" : "black")} />
-                  <Text className={`ml-3 font-black text-[12px] uppercase tracking-[1px] ${mode === 'dark' ? 'text-white' : 'text-black'}`}>
-                    {inLibrary ? 'In List' : 'List'}
-                  </Text>
-                </TouchableOpacity>
+                    <View className="flex-row items-center mt-3 flex-wrap">
+                      {(meta?.year || info?.year || (tmdb as any)?.release_date?.split('-')[0] || (tmdb as any)?.first_air_date?.split('-')[0]) && (
+                        <Text className={`${mode === 'dark' ? 'text-white/60' : 'text-black/60'} font-black ${isTablet ? 'text-sm' : 'text-xs'}`}>
+                          {(meta?.year || info?.year || (tmdb as any)?.release_date?.split('-')[0] || (tmdb as any)?.first_air_date?.split('-')[0])}
+                        </Text>
+                      )}
+                      <View className={`w-1 h-1 rounded-full bg-white/20 ${isTablet ? 'mx-3' : 'mx-2'}`} />
+                      <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} font-black ${isTablet ? 'text-[10px]' : 'text-[9px]'} uppercase tracking-widest`}>
+                        {route.params.provider || provider.value}
+                      </Text>
+                      
+                      {(tmdb as any)?.vote_average > 0 && (
+                        <>
+                          <View className={`w-1 h-1 rounded-full bg-white/20 ${isTablet ? 'mx-3' : 'mx-2'}`} />
+                          <View className="flex-row items-center">
+                            <Ionicons name="star" size={isTablet ? 12 : 10} color="#FFD700" />
+                            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-black ${isTablet ? 'text-sm' : 'text-xs'} ml-1`}>
+                              {(tmdb as any).vote_average.toFixed(1)}
+                            </Text>
+                            <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} font-bold ${isTablet ? 'text-[9px]' : 'text-[8px]'} ml-1`}>
+                              ({(tmdb as any).vote_count})
+                            </Text>
+                          </View>
+                        </>
+                      )}
+
+                      {((tmdb as any)?.runtime > 0 || (tmdb as any)?.episode_run_time?.length > 0) && (
+                        <>
+                          <View className={`w-1 h-1 rounded-full bg-white/20 ${isTablet ? 'mx-3' : 'mx-2'}`} />
+                          <Text className={`${mode === 'dark' ? 'text-white/60' : 'text-black/60'} font-black ${isTablet ? 'text-[10px]' : 'text-[9px]'} uppercase`}>
+                            {(tmdb as any).runtime ? `${(tmdb as any).runtime}m` : `${(tmdb as any).episode_run_time[0]}m`}
+                          </Text>
+                        </>
+                      )}
+                    </View>
+                  </View>
+
+                  {/* Action Buttons Row */}
+                  <View className="flex-row items-center space-x-3">
+                    <TouchableOpacity 
+                       onPress={handleWatchNow} 
+                       style={{ backgroundColor: '#FF4D3D' }}
+                       className="flex-1 py-3.5 rounded-full flex-row items-center justify-center shadow-lg"
+                    >
+                      <Ionicons name={nextUpEpisode?.progress > 0 ? "play-forward" : "play"} size={18} color="white" />
+                      <View className="ml-3 items-start">
+                        <Text className="text-white font-black text-[11px] uppercase tracking-[1px]">
+                            {nextUpEpisode ? (nextUpEpisode.progress > 0 ? 'Continue' : 'Watch Now') : (info ? 'Watch Again' : 'Watch Now')}
+                        </Text>
+                        {nextUpEpisode && (
+                            <Text className="text-white/60 text-[7px] font-bold uppercase tracking-[0.5px]">
+                                {sanitizeName(nextUpEpisode.title)}
+                            </Text>
+                        )}
+                      </View>
+                    </TouchableOpacity>
+
+                    <TouchableOpacity 
+                       onPress={inLibrary ? removeLibrary : addLibrary} 
+                       className={`flex-1 py-3.5 rounded-full flex-row items-center justify-center border border-white/10 ${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'}`}
+                    >
+                      <Ionicons name={inLibrary ? "heart" : "heart-outline"} size={18} color={inLibrary ? "#FF4D3D" : (mode === 'dark' ? "white" : "black")} />
+                        <Text className={`ml-3 font-black text-[11px] uppercase tracking-[1px] ${mode === 'dark' ? 'text-white' : 'text-black'}`}>
+                          {inLibrary ? 'In List' : 'List'}
+                        </Text>
+                    </TouchableOpacity>
+
+                    <TouchableOpacity 
+                       onPress={() => Linking.openURL(route.params.link)}
+                       className={`px-4 py-3.5 rounded-full flex-row items-center justify-center border border-white/10 ${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'}`}
+                    >
+                      <Ionicons name="link" size={18} color={mode === 'dark' ? "white" : "black"} />
+                    </TouchableOpacity>
+                  </View>
+
+                  {/* Synopsis Section */}
+                  <View className="mt-8">
+                    <View className="relative">
+                      <Text 
+                        className={`${mode === 'dark' ? 'text-white/70' : 'text-black/70'} ${isTablet ? 'text-[15px] leading-[26px]' : 'text-[13px] leading-[22px]'} font-medium`}
+                        numberOfLines={readMore ? undefined : (isTablet ? 6 : 3)}
+                      >
+                        {synopsis}
+                      </Text>
+                      {synopsis.length > 150 && (
+                        <TouchableOpacity onPress={() => setReadMore(!readMore)} className="mt-2 self-start">
+                          <Text className="text-primary font-black text-[10px] uppercase tracking-[2px]">
+                            {readMore ? 'Show Less' : 'Read More'}
+                          </Text>
+                        </TouchableOpacity>
+                      )}
+                    </View>
+                  </View>
+                </View>
               </View>
 
-              {/* Season Selection Row */}
-              {filteredLinkList.length > 1 && (
-                <View className="mt-8 mb-4 flex-row items-center">
-                  <View className="flex-1">
-                    <Dropdown
-                      selectedTextStyle={{ color: mode === 'dark' ? 'white' : 'black', fontWeight: 'bold', fontSize: 13 }}
-                      labelField={'title'}
-                      valueField={filteredLinkList[0]?.episodesLink ? 'episodesLink' : 'directLinks'}
-                      onChange={handleSeasonChange}
-                      value={activeSeason}
-                      data={filteredLinkList}
-                      style={{ 
-                        borderWidth: 1, 
-                        borderColor: mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)', 
-                        paddingHorizontal: 16, 
-                        borderRadius: 20, 
-                        backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.08)' : 'white', 
-                        height: 54,
-                        elevation: mode === 'dark' ? 0 : 3,
-                        shadowColor: 'black',
-                        shadowOffset: {width: 0, height: 2},
-                        shadowOpacity: 0.1,
-                        shadowRadius: 10,
-                      }}
-                      containerStyle={{ 
-                        backgroundColor: mode === 'dark' ? '#0a0a0a' : 'white', 
-                        borderRadius: 20, 
-                        borderWidth: 1, 
-                        borderColor: mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)',
-                        overflow: 'hidden',
-                        marginTop: 10,
-                        elevation: 5,
-                      }}
-                      activeColor={mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.05)'}
-                      renderItem={item => {
-                        const itemMetadata = extractMetadata(item?.title || '');
-                        return (
-                          <View className={`px-4 py-4 border-b border-white/5 flex-row items-center justify-between ${activeSeason === item ? (mode === 'dark' ? 'bg-primary/20' : 'bg-gray-100') : ''}`}>
-                            <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-medium flex-1`} numberOfLines={1}>
-                              {sanitizeName(item?.title)}
-                            </Text>
-                            <View className="flex-row items-center ml-2">
-                              {[...itemMetadata.quality, ...itemMetadata.technical].slice(0, 4).map((ext, idx) => {
-                                let badgeBg = 'bg-primary/20 border-primary/30';
-                                if (ext === 'DOLBY VISION') badgeBg = 'bg-yellow-500/20 border-yellow-500/50';
-                                if (ext === 'HDR') badgeBg = 'bg-orange-500/20 border-orange-500/50';
-                                
-                                return (
-                                  <View key={idx} className={`${badgeBg} px-1.5 py-0.5 rounded ml-1 border`}>
-                                      <Text className={`${ext === 'DOLBY VISION' ? 'text-yellow-500' : ext === 'HDR' ? 'text-orange-500' : 'text-primary'} text-[8px] font-black uppercase`}>{ext}</Text>
-                                  </View>
-                                );
-                              })}
-                            </View>
-                          </View>
-                        );
-                      }}
-                    />
-                  </View>
+              {/* Tablet-Specific Continue CTA (Portrait) */}
+              {isTablet && nextUpEpisode && (
+                 <TouchableOpacity 
+                   onPress={handleWatchNow}
+                   className="mt-10 mx-6 bg-primary/20 border border-primary/30 p-5 rounded-[32px] flex-row items-center"
+                 >
+                   <View className="w-14 h-14 rounded-full bg-primary items-center justify-center shadow-2xl">
+                     <Ionicons name="play-forward" size={28} color="white" />
+                   </View>
+                   <View className="ml-5 flex-1">
+                      <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-black text-xs uppercase tracking-[2px]`}>Continue Watching</Text>
+                      <Text className={`${mode === 'dark' ? 'text-white/60' : 'text-black/60'} font-bold text-base mt-1`} numberOfLines={1}>{sanitizeName(nextUpEpisode.title)}</Text>
+                   </View>
+                   <Ionicons name="chevron-forward" size={24} color={primary} className="mr-2" />
+                 </TouchableOpacity>
+              )}
 
-               
+              {/* Season Selection Tabs */}
+              {filteredLinkList.length > 1 && (
+                <View className="mt-8 mb-4">
+                  <ScrollView 
+                    horizontal 
+                    showsHorizontalScrollIndicator={false}
+                    contentContainerStyle={{ flexGrow: 1, justifyContent: 'center', paddingHorizontal: 20 }}
+                    className="flex-row"
+                  >
+                    {filteredLinkList.map((item: any, idx: number) => {
+                      const isActive = activeSeason?.title === item.title;
+                      const itemMetadata = extractMetadata(item?.title || '');
+                      return (
+                        <TouchableOpacity
+                          key={idx}
+                          onPress={() => handleSeasonChange(item)}
+                          className={`mr-3 px-6 py-3 rounded-2xl flex-row items-center border ${isActive ? 'bg-primary border-primary shadow-lg shadow-primary/30' : (mode === 'dark' ? 'bg-white/5 border-white/10' : 'bg-white border-black/5')}`}
+                        >
+                          <Text className={`font-black text-[11px] uppercase tracking-[1px] ${isActive ? 'text-white' : (mode === 'dark' ? 'text-white/40' : 'text-black/40')}`}>
+                            {sanitizeName(item.title)}
+                          </Text>
+                          {isActive && itemMetadata.quality.length > 0 && (
+                             <View className="ml-2 bg-white/20 px-1.5 py-0.5 rounded">
+                                <Text className="text-white text-[7px] font-black uppercase">{itemMetadata.quality[0]}</Text>
+                             </View>
+                          )}
+                        </TouchableOpacity>
+                      );
+                    })}
+                  </ScrollView>
                 </View>
               )}
 
@@ -704,19 +813,39 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                     screenshots={info?.screenshots}
                     type={info?.type || 'series'}
                     metaTitle={displayTitle}
+                    tmdbData={tmdb}
                     routeParams={route.params}
                     onNextUpFound={setNextUpEpisode}
+                    onPlayOverride={handlePlayOverride}
                 />
               </View>
               {/* TMDb Attribution */}
               <View className="mt-12 mb-6 items-center opacity-40">
                 <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[10px] text-center font-medium`}>
-                  This product uses the TMDb API but is not endorsed or certified by TMDb.
+                  OrbixPlay uses the TMDb API but is not endorsed or certified by TMDb.
                 </Text>
               </View>
             </View>
           }
         />
+
+        {/* Enlarge Poster Modal */}
+        <Modal transparent visible={showEnlargeModal} animationType="fade" statusBarTranslucent>
+          <View className="flex-1 bg-black justify-center items-center">
+            <TouchableOpacity 
+              onPress={() => setShowEnlargeModal(false)}
+              className="absolute top-12 right-6 z-50 w-12 h-12 rounded-full bg-white/10 items-center justify-center"
+            >
+              <Ionicons name="close" size={30} color="white" />
+            </TouchableOpacity>
+            
+            <Image source={{uri: posterImage}} className="w-full h-full" resizeMode="contain" />
+            
+            <View className="absolute bottom-12 left-0 right-0 items-center">
+              <Text className="text-white text-2xl font-black uppercase tracking-tighter shadow-lg shadow-black">{displayTitle}</Text>
+            </View>
+          </View>
+        </Modal>
       </View>
     </QueryErrorBoundary>
   );

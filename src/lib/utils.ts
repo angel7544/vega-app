@@ -2,12 +2,15 @@ export const technicalTerms = [
   /\bWEB-DL\b/gi, /\bH264\b/gi, /\bx264\b/gi, /\bH265\b/gi, /\bx265\b/gi,
   /\b10bit\b/gi, /\bHEVC\b/gi, /\bBluray\b/gi, /\bAMZN\b/gi, /\bDSNP\b/gi, 
   /\bNF\b/gi, /\bATVP\b/gi, /\bSTUTTER\b/gi, /\bPROPER\b/gi, /\bREPACK\b/gi, 
-  /\bREMUX\b/gi, /\bAVC\b/gi, /\[.*?\]/g, /\(.*?\)/g, /[-._]/g,
+  /\bREMUX\b/gi, /\bAVC\b/gi, /\bEnglish\b/gi, /\bHindi\b/gi, /\bJapanese\b/gi, 
+  /\bTamil\b/gi, /\bTelugu\b/gi, /\bMalayalam\b/gi, /\bKannada\b/gi, 
+  /\bMSub\b/gi, /\bMulti\b/gi, /\bDual\b/gi, /\bAudio\b/gi,
+  /\[.*?\]/g, /[{}]/g,  /\bMSUBS\b/gi,
 ];
 
 export const qualityLabels = [
   /\b1080p\b/gi, /\b720p\b/gi, /\b2160p\b/gi, /\b4k\b/gi, /\bUHD\b/gi, 
-  /\bHDR\b/gi, /\bSDR\b/gi, /\bDV\b/gi,
+  /\bHDR\b/gi, /\bSDR\b/gi, /\bDV\b/gi,  /\b1440p\b/gi,
 ];
 
 export const sanitizeName = (name: string, keepQuality: boolean = false) => {

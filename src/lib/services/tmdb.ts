@@ -69,6 +69,22 @@ export const getTMDBTrending = async (type: 'movie' | 'tv' = 'movie', timeWindow
   }
 };
 
+export const getTMDBSeasonDetails = async (seriesId: number, seasonNumber: number): Promise<any> => {
+  const apiKey = getApiKey();
+  const headers = getHeaders();
+
+  try {
+    const response = await fetch(
+      `${BASE_URL}/tv/${seriesId}/season/${seasonNumber}?api_key=${apiKey}`,
+      { headers }
+    );
+    return await response.json();
+  } catch (error) {
+    console.error(`TMDB get season details error:`, error);
+    return null;
+  }
+};
+
 export const getTMDBImage = (path: string, size: 'w500' | 'original' = 'w500') => {
   if (!path) return '';
   return `https://image.tmdb.org/t/p/${size}${path}`;
