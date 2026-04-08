@@ -136,25 +136,21 @@ const ChannelInfo = () => {
   }, [screenWidth, screenHeight]);
 
   useEffect(() => {
-    const handleOrientation = (orientation: string) => {
-      if (orientation === 'LANDSCAPE-LEFT' || orientation === 'LANDSCAPE-RIGHT') {
-        goFullScreen();
-      } else if (orientation === 'PORTRAIT' || orientation === 'PORTRAIT-UPSIDEDOWN') {
-        exitFullScreen();
-      }
-    };
-    
-    // Safety: ensure locker is cleaned up
-    Orientation.addDeviceOrientationListener(handleOrientation);
+    // Lock to Portrait by default on mount to avoid accidental rotations
+    // The player will only enter Landscape when the user explicitly clicks full screen
+    const isMobile = Math.min(screenWidth, screenHeight) < 768;
+    if (isMobile && !isFullScreen) {
+      Orientation.lockToPortrait();
+    }
+
     return () => {
-      Orientation.removeDeviceOrientationListener(handleOrientation);
       Orientation.unlockAllOrientations();
       // Ensure navigation bar is restored
       if (Platform.OS === 'android') {
         NavigationBar.setVisibilityAsync('visible');
       }
     };
-  }, [goFullScreen, exitFullScreen]);
+  }, [isFullScreen, screenWidth, screenHeight]);
 
   const cleanChannelName = useMemo(() => {
     if (!channel.name) return '';

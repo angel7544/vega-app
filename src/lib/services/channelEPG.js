@@ -5,6 +5,16 @@ const inflightRequests = {};
 const epgCache = new Map();
 const CACHE_EXPIRY = 5 * 60 * 1000; // 5 minutes cache for direct channel lookups
 
+const CHANNEL_ALIASES = {
+  'adhyatm tv': 'adhyatam', 'adhytam': 'adhytam tv', 'adhytam ': 'adhytama',
+  'apn news': 'apn',
+  'b4 u musics': 'b4u music',
+  'b4u musics': 'b4u music',
+  'dd himachal pro': 'dd himachal',
+  'sony marathi': 'sonymarathi',
+  'sony sab': 'sonysab'
+};
+
 /**
  * Clean channel name for robust EPG matching.
  * Replicated from iptvParser for maximum independence.
@@ -18,7 +28,7 @@ function cleanName(name) {
     .replace(/\((hd|sd|uhd|4k|1080p|720p|576p|fhd)\)/gi, '')
     .split('(')[0]
     .replace(/\b(hindi|english|telugu|tamil|kannada|malayalam|marathi|bengali|gujarati|punjabi|odia|bhojpuri|assamese|urdu)\b/gi, '')
-    .replace(/[^a-z0-9+]/g, ' ')
+    .replace(/[^a-z0-9+ ]/g, ' ') // Keep space for split later
     .replace(/\s+/g, ' ')
     .trim();
 }
@@ -73,10 +83,25 @@ export async function fetchChannelSchedule(channel, countryCode = 'in', forceRef
         clean.replace(/\s+/g, ''), // zeecinema
         clean.replace(/\s+/g, '_'), // zee_cinema
         targetNId.replace(/[0-9]/g, '').replace(/__+/g, '_') // Strip numbers: zee_cinema
-    ].filter(Boolean);
+    ];
+
+    // Priority 1: Check manual aliases
+    if (CHANNEL_ALIASES[clean]) {
+        baseCandidates.unshift(CHANNEL_ALIASES[clean]);
+    }
+
+    // Priority 3: Strip last word fallback (e.g. DD Himachal Pro -> dd_himachal)
+    const words = clean.split(' ');
+    if (words.length > 2) {
+        const stripped = words.slice(0, -1).join('_');
+        baseCandidates.push(stripped);
+        baseCandidates.push(stripped.replace(/_/g, ''));
+    }
+
+    const filteredBase = [...new Set(baseCandidates)].filter(Boolean);
 
     const candidatesWithSuffix = [];
-    baseCandidates.forEach(b => {
+    filteredBase.forEach(b => {
         candidatesWithSuffix.push(b);
         if (!b.endsWith(`_${countrySuffix}`)) {
             candidatesWithSuffix.push(`${b}_${countrySuffix}`);

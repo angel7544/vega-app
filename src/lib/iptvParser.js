@@ -4,6 +4,15 @@ import usePlayerStore, { DEFAULT_EPG_REPO } from './zustand/playerStore';
 import { strFromU8 } from 'fflate';
 
 const inflightRequests = {};
+const CHANNEL_ALIASES = {
+  'adhyatm tv': 'adhyatam',
+  'apn news': 'apn',
+  'b4 u musics': 'b4u music',
+  'b4u musics': 'b4u music',
+  'dd himachal pro': 'dd himachal',
+  'sony marathi': 'sonymarathi',
+  'sony sab': 'sonysab'
+};
 
 // In-memory cache for EPG sources and parsed programs to eliminate lag
 const epgCache = {
@@ -63,7 +72,7 @@ export const iptvParser = {
       .replace(/\((hd|sd|uhd|4k|1080p|720p|576p|fhd)\)/gi, '')
       .split('(')[0]
       .replace(/\b(hindi|english|telugu|tamil|kannada|malayalam|marathi|bengali|gujarati|punjabi|odia|bhojpuri|assamese|urdu)\b/gi, '')
-      .replace(/[^a-z0-9+]/g, ' ')
+      .replace(/[^a-z0-9+ ]/g, ' ') // Keep space for split later
       .replace(/\s+/g, ' ')
       .trim();
   },
@@ -168,7 +177,7 @@ export const iptvParser = {
         `sony${cleanTvgId}`
     ].filter(Boolean);
 
-    const baseCandidates = Array.from(new Set([
+    const baseCandidates = [
         targetRId, 
         targetTId, 
         ...providerIds,
@@ -176,10 +185,25 @@ export const iptvParser = {
         targetNId.replace(/_/g, ''),
         clean.replace(/\s+/g, ''),
         clean.replace(/\s+/g, '_')
-    ])).filter(id => id && id.length > 1);
+    ];
+
+    // Priority 1: Check manual aliases
+    if (CHANNEL_ALIASES[clean]) {
+        baseCandidates.unshift(CHANNEL_ALIASES[clean]);
+    }
+
+    // Priority 3: Strip last word if multiple words exist (e.g. DD Himachal Pro -> DD Himachal)
+    const words = clean.split(' ');
+    if (words.length > 2) {
+        const stripped = words.slice(0, -1).join('_');
+        baseCandidates.push(stripped);
+        baseCandidates.push(stripped.replace(/_/g, ''));
+    }
+
+    const filteredBase = Array.from(new Set(baseCandidates)).filter(id => id && id.length > 1);
 
     const candidatesWithSuffix = [];
-    baseCandidates.forEach(b => {
+    filteredBase.forEach(b => {
         candidatesWithSuffix.push(b);
         if (!b.endsWith(`_${countrySuffix}`)) candidatesWithSuffix.push(`${b}_${countrySuffix}`);
         if (!b.endsWith(`${countrySuffix}`)) candidatesWithSuffix.push(`${b}${countrySuffix}`);
