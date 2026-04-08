@@ -37,13 +37,13 @@ const ContinueWatching = () => {
   const isTablet = windowWidth > 768;
   
   const itemWidth = React.useMemo(() => {
-    if (isLandscape) return isLarge ? 200 : isTablet ? 160 : 120;
+    if (isLandscape) return isLarge ? 340 : isTablet ? 260 : 220;
     return isLarge ? 220 : isTablet ? 180 : 130;
   }, [isLandscape, isLarge, isTablet]);
 
   const itemHeight = React.useMemo(() => {
-    if (isLandscape) return isLarge ? 110 : isTablet ? 90 : 70;
-    return isLarge ? 130 : isTablet ? 110 : 80;
+    if (isLandscape) return isLarge ? 120 : isTablet ? 190 : 130;
+    return isLarge ? 130 : isTablet ? 120 : 80;
   }, [isLandscape, isLarge, isTablet]);
   
   const [progressData, setProgressData] = useState<Record<string, number>>({});

@@ -247,7 +247,7 @@ const Home = ({}: Props) => {
                 onOpenDrawer={() => setIsDrawerOpen(true)}
               />
 
-              <View className="mt-[-40px]">
+              <View className="mt-[-30px]">
                 <ContinueWatching />
 
                 {showFavChannels && favorites.length > 0 && (

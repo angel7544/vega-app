@@ -86,7 +86,7 @@ export const clearHeroCache = (providerValue?: string) => {
  */
 export const getHeroPosts = (
   homeData: HomePageData[],
-  limit: number = 8
+  limit: number = 4
 ) => {
   if (!homeData || homeData.length === 0) {
     return [];
@@ -94,7 +94,7 @@ export const getHeroPosts = (
 
   // Try to find a robust category. Existing logic uses the last one.
   for (let i = homeData.length - 1; i >= 0; i--) {
-    if (homeData[i].Posts && homeData[i].Posts.length >= 3) {
+    if (homeData[i].Posts && homeData[i].Posts.length >= 10) {
       return homeData[i].Posts.slice(0, limit);
     }
   }

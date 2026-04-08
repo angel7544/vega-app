@@ -18,6 +18,7 @@ import {
   FlatList,
   useWindowDimensions,
   StyleSheet,
+  Linking,
 } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import {Feather, MaterialCommunityIcons, Ionicons} from '@expo/vector-icons';
@@ -85,6 +86,13 @@ const HeroItem = memo(({item, index, scrollX, width, height}: {item: Post, index
     }
   }, [isInWatchlist, item, provider.value, heroData, addItem, removeItem]);
 
+  const handleTrailerPress = useCallback(() => {
+    const title = heroData?.name || heroData?.title || item.title;
+    const query = encodeURIComponent(`${title} trailer`);
+    const url = `https://www.youtube.com/results?search_query=${query}`;
+    Linking.openURL(url).catch((err: any) => console.error('Error opening trailer:', err));
+  }, [heroData, item.title]);
+
   const imageSource = React.useMemo(() => {
     return {
       uri: heroData?.background || heroData?.image || heroData?.poster || item.image || 'https://www.br31tech.live/logo.png',
@@ -95,16 +103,16 @@ const HeroItem = memo(({item, index, scrollX, width, height}: {item: Post, index
   const voteCount = heroData?.imdbVotes || heroData?.vote_count || heroData?.votes;
 
   return (
-    <Animated.View style={[{width: width, height: '90%', padding: -10}, animatedStyle]}>
+    <Animated.View style={[{width: width, height: '95%',paddingLeft: 15, paddingRight: 15, paddingTop: 35, paddingBottom: -5}, animatedStyle]}>
       <TouchableOpacity 
         activeOpacity={0.9} 
         onPress={handlePlayPress}
-        className="flex-1 overflow-hidden rounded-[32px] shadow-2xl bg-gray-900"
+        className="flex-1 overflow-hidden rounded-[50px] shadow-2xl bg-gray-900"
       >
         <Image
           source={imageSource}
           className="h-full w-full"
-          style={{resizeMode: 'cover'}}
+          style={{resizeMode: 'stretch'}}
         />
         
         <LinearGradient
@@ -116,12 +124,15 @@ const HeroItem = memo(({item, index, scrollX, width, height}: {item: Post, index
         <View className="absolute bottom-10 left-0 right-0 px-8">
           {/* Metadata & Rating Row */}
           <View className="flex-row items-center space-x-3 mb-4">
-            <View className="overflow-hidden rounded-full border border-white/10">
+            <TouchableOpacity 
+              onPress={handleTrailerPress}
+              className="overflow-hidden rounded-full border border-white/10"
+            >
               <BlurView intensity={30} tint="dark" style={styles.blurPill}>
-                <Ionicons name="play-circle" size={20} color="#FF8C00" />
+                <Ionicons name="play-circle" size={20} color="#ff0000ff" />
                 <Text className="text-white font-bold text-xs uppercase tracking-wider">Trailer</Text>
               </BlurView>
-            </View>
+            </TouchableOpacity>
 
             {ratingValue && (
                <View className="overflow-hidden rounded-full border border-white/10">
