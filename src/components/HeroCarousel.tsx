@@ -112,7 +112,7 @@ const HeroItem = memo(({item, index, scrollX, width, height}: {item: Post, index
         <Image
           source={imageSource}
           className="h-full w-full"
-          style={{resizeMode: 'stretch'}}
+          style={{resizeMode: 'cover'}}
         />
         
         <LinearGradient
