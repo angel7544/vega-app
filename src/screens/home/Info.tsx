@@ -484,6 +484,11 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                      <Text className="text-white/80 font-bold text-xs" numberOfLines={1}>{sanitizeName(nextUpEpisode.title)}</Text>
                   </View>
                   <Ionicons name="chevron-forward" size={20} color="white" />
+                  {nextUpEpisode.progress > 0 && (
+                    <View className="absolute bottom-0 left-0 right-0 h-1 bg-black/20 overflow-hidden rounded-b-[24px]">
+                      <View className="h-full bg-white/60" style={{ width: `${nextUpEpisode.progress}%` }} />
+                    </View>
+                  )}
                 </TouchableOpacity>
               ) : (
                 /* Regular Watch Now Button */
@@ -498,6 +503,14 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                   </Text>
                 </TouchableOpacity>
               )}
+              
+              <TouchableOpacity 
+                onPress={() => Linking.openURL(`https://www.youtube.com/results?search_query=${encodeURIComponent(displayTitle + ' trailer')}`)}
+                className={`w-full h-14 items-center justify-center flex-row rounded-3xl border border-white/10 ${mode === 'dark' ? 'bg-white/5 shadow-xl shadow-black/40' : 'bg-black/5 shadow-sm'}`}
+              >
+                <Ionicons name="logo-youtube" size={18} color="#FF0000" />
+                <Text className={`${textMain} text-[10px] font-black uppercase tracking-widest ml-3`}>YouTube Trailer</Text>
+              </TouchableOpacity>
               
               <View className="flex-row items-center gap-x-3">
                 <TouchableOpacity 
