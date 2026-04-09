@@ -23,7 +23,7 @@ const TabletSidebar = ({state, descriptors, navigation, onOpenDrawer}: TabletSid
   const routes = state.routes;
 
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, {borderRightColor: mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'}]}>
       <BlurView intensity={30} tint={mode === 'dark' ? 'dark' : 'light'} style={styles.blur}>
         <View className="flex-1 py-8 items-center justify-between">
           {/* Top: Menu & Logo */}
@@ -68,14 +68,14 @@ const TabletSidebar = ({state, descriptors, navigation, onOpenDrawer}: TabletSid
                   {Icon ? (
                     Icon({
                       focused: isFocused,
-                      color: isFocused ? 'white' : (mode === 'dark' ? 'rgba(0, 0, 0, 0)' : 'rgba(0,0,0,0.5)'),
+                      color: isFocused ? 'white' : (mode === 'dark' ? 'rgba(255,255,255,0.5)' : 'rgba(0,0,0,0.5)'),
                       size: 24,
                     })
                   ) : (
                     <Feather 
                       name="circle" 
                       size={24} 
-                      color={isFocused ? 'white' : (mode === 'dark' ? 'rgba(255, 255, 255, 0)' : 'rgba(0,0,0,0.5)')} 
+                      color={isFocused ? 'white' : (mode === 'dark' ? 'rgba(255,255,255,0.5)' : 'rgba(0,0,0,0.5)')} 
                     />
                   )}
                 </TouchableOpacity>
