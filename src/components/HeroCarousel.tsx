@@ -102,12 +102,181 @@ const HeroItem = memo(({item, index, scrollX, width, height}: {item: Post, index
   const ratingValue = heroData?.imdbRating || heroData?.vote_average || heroData?.rating;
   const voteCount = heroData?.imdbVotes || heroData?.vote_count || heroData?.votes;
 
+  if (width > 700) {
+    return (
+      <Animated.View style={[{ width: width, height: '100%', paddingHorizontal: 32, paddingVertical: 12 }, animatedStyle]}>
+        <View 
+          style={{ 
+            flex: 1, 
+            flexDirection: 'row', 
+            borderRadius: 24, 
+            overflow: 'hidden',
+            backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.03)' : 'rgba(0,0,0,0.02)',
+            borderWidth: 1,
+            borderColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)',
+          }}
+        >
+          {/* Left: Info Section */}
+          <View style={{ flex: 1, padding: 30, justifyContent: 'center' }}>
+            {/* Title / Logo */}
+            <View style={{ marginBottom: 16 }}>
+              {heroData?.logo ? (
+                <Image
+                  source={{ uri: heroData.logo }}
+                  style={{ width: 240, height: 80 }}
+                  resizeMode="contain"
+                />
+              ) : (
+                <Text
+                  numberOfLines={2}
+                  style={{
+                    fontSize: 42,
+                    fontWeight: '900',
+                    color: mode === 'dark' ? 'white' : 'black',
+                    letterSpacing: -1.5,
+                  }}
+                >
+                  {heroData?.name || heroData?.title || item.title}
+                </Text>
+              )}
+            </View>
+
+            {/* Real Description / Synopsis */}
+            <Text 
+              numberOfLines={2}
+              style={{ 
+                fontSize: 12,
+                color: mode === 'dark' ? 'rgba(255,255,255,0.6)' : 'rgba(0,0,0,0.6)', 
+                marginBottom: 30,
+                fontWeight: '400',
+                lineHeight: 24,
+              }}
+            >
+              {heroData?.description || heroData?.synopsis || heroData?.overview || "No description available for this title."}
+            </Text>
+
+            {/* Vertical Metadata Stack */}
+            <View style={{ gap: 20 }}>
+          
+              {/* Rating */}
+              {ratingValue && (
+                <View style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+                  <Ionicons name="star" size={24} color="#FFD700" />
+                  <Text style={{ fontSize: 20, fontWeight: '800', color: mode === 'dark' ? 'white' : 'black' }}>
+                    {ratingValue} <Text style={{ fontSize: 14, fontWeight: '500', color: 'rgba(128,128,128,0.6)' }}>RATING</Text>
+                  </Text>
+                </View>
+              )}
+
+              {/* Vote */}
+              {voteCount && (
+                <View style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+                  <Ionicons name="people" size={24} color={primary} />
+                  <Text style={{ fontSize: 18, fontWeight: '700', color: mode === 'dark' ? 'white' : 'black' }}>
+                    {typeof voteCount === 'string' ? voteCount : voteCount > 1000 ? `${(voteCount/1000).toFixed(1)}k` : voteCount} <Text style={{ fontSize: 14, fontWeight: '500', color: 'rgba(128,128,128,0.6)' }}>VOTES</Text>
+                  </Text>
+                </View>
+              )}
+    {/* Trailer Button */}
+              <TouchableOpacity 
+                onPress={handleTrailerPress}
+                style={{ 
+                  flexDirection: 'row', 
+                  alignItems: 'center', 
+                  gap: 10,
+                  backgroundColor: '#FF0000',
+                  paddingHorizontal: 16,
+                  paddingVertical: 10,
+                  borderRadius: 12,
+                  alignSelf: 'flex-start',
+                  shadowColor: '#FF0000',
+                  shadowOffset: { width: 0, height: 4 },
+                  shadowOpacity: 0.3,
+                  shadowRadius: 8,
+                  elevation: 5
+                }}
+              >
+                <Ionicons name="logo-youtube" size={20} color="white" />
+                <Text style={{ color: 'white', fontWeight: 'bold', fontSize: 14 }}>WATCH TRAILER</Text>
+              </TouchableOpacity>
+
+              {/* Wishlist Status */}
+              <TouchableOpacity 
+                onPress={handleWishlistToggle}
+                style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}
+              >
+                <Ionicons 
+                  name={isInWatchlist ? "heart" : "heart-outline"} 
+                  size={24} 
+                  color={isInWatchlist ? primary : (mode === 'dark' ? 'white' : 'black')} 
+                />
+                <Text style={{ fontSize: 18, fontWeight: '700', color: mode === 'dark' ? 'white' : 'black' }}>
+                  {isInWatchlist ? "WISHLISTED" : "ADD TO WISHLIST"}
+                </Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+
+          {/* Right: Poster Section */}
+          <View style={{ width: '55%', position: 'relative' }}>
+            <TouchableOpacity 
+              activeOpacity={0.9} 
+              onPress={handlePlayPress}
+              style={{ flex: 1 }}
+            >
+              <Image
+                source={imageSource}
+                style={{ width: '100%', height: '100%', borderTopRightRadius: 24, borderBottomRightRadius: 24 }}
+                resizeMode="stretch"
+              />
+              
+              {/* Floating Play Button - Enhanced Roundness */}
+              <View style={{ 
+                position: 'absolute', 
+                bottom: 24, 
+                right: 24,
+                shadowColor: '#000',
+                shadowOffset: { width: 0, height: 10 },
+                shadowOpacity: 0.5,
+                shadowRadius: 15,
+                elevation: 12,
+              }}>
+                <View style={{ 
+                  width: 64, 
+                  height: 64, 
+                  borderRadius: 32, 
+                  overflow: 'hidden',
+                  backgroundColor: 'rgba(0,0,0,0.5)',
+                  borderWidth: 1.5,
+                  borderColor: 'rgba(255,255,255,0.3)',
+                }}>
+                  <BlurView 
+                    intensity={80} 
+                    tint="dark" 
+                    style={{ 
+                      flex: 1,
+                      justifyContent: 'center', 
+                      alignItems: 'center',
+                    }}
+                  >
+                    <Ionicons name="play" size={32} color="white" style={{ marginLeft:1}}/>
+                  </BlurView>
+                </View>
+              </View>
+            </TouchableOpacity>
+          </View>
+        </View>
+      </Animated.View>
+    );
+  }
+
+  // Mobile cinematic layout
   return (
-    <Animated.View style={[{width: width, height: width > 700 ? '100%' : '95%', paddingLeft: 0, paddingRight: 0, paddingBottom: width > 700 ? 0 : 3}, animatedStyle]}>
+    <Animated.View style={[{width: width, height: '95%', paddingLeft: 0, paddingRight: 0, paddingBottom: 3}, animatedStyle]}>
       <TouchableOpacity 
         activeOpacity={0.9} 
         onPress={handlePlayPress}
-        className={`flex-1 overflow-hidden ${width > 700 ? 'rounded-none' : 'rounded-[20px]'} shadow-2xl bg-gray-900`}
+        className="flex-1 overflow-hidden rounded-[20px] shadow-2xl bg-gray-900"
       >
         <Image
           source={imageSource}
@@ -121,7 +290,7 @@ const HeroItem = memo(({item, index, scrollX, width, height}: {item: Post, index
           className="absolute inset-0"
         />
 
-        <View className={`absolute ${width > 700 ? 'bottom-14 px-12' : 'bottom-10 px-8'} left-0 right-0`}>
+        <View className="absolute bottom-10 px-8 left-0 right-0">
           {/* Metadata & Rating Row */}
           <View className="flex-row items-center space-x-3 mb-4">
             <TouchableOpacity 
@@ -149,69 +318,55 @@ const HeroItem = memo(({item, index, scrollX, width, height}: {item: Post, index
             )}
           </View>
           
-  <View style={{
-  flexDirection: 'row',
-  alignItems: 'flex-end',
-  justifyContent: 'space-between',
-}}>
+          <View style={{ flexDirection: 'row', alignItems: 'flex-end', justifyContent: 'space-between' }}>
+            <View style={{ flex: 1, marginRight: 5, justifyContent: 'flex-end' }}>
+              {heroData?.logo ? (
+                <Image
+                  source={{ uri: heroData.logo }}
+                  style={{ width: 160, height: 60 }}
+                  resizeMode="contain"
+                />
+              ) : (
+                <Text
+                  numberOfLines={2}
+                  style={{
+                    fontSize: 22,
+                    fontWeight: '900',
+                    color: 'white',
+                    letterSpacing: -0.5,
+                    textShadowColor: 'rgba(0,0,0,0.8)',
+                    textShadowOffset: { width: 0, height: 2 },
+                    textShadowRadius: 12,
+                  }}
+                >
+                  {heroData?.name || heroData?.title || item.title}
+                </Text>
+              )}
+            </View>
 
-  {/* Left: Logo / Title */}
-  <View style={{
-    flex: 1,
-    marginRight: 12,
-    justifyContent: 'flex-end'
-  }}>
-    {heroData?.logo ? (
-      <Image
-        source={{ uri: heroData.logo }}
-        style={{
-          width: width > 700 ? 240 : 180,
-          height: width > 700 ? 100 : 80,
-        }}
-        resizeMode="contain"
-      />
-    ) : (
-      <Text
-        numberOfLines={2}
-        style={{
-          fontSize: width > 700 ? 32 : 22,
-          fontWeight: '900',
-          color: 'white',
-          letterSpacing: -0.5,
-          textShadowColor: 'rgba(0,0,0,0.8)',
-          textShadowOffset: { width: 0, height: 2 },
-          textShadowRadius: 12,
-        }}
-      >
-        {heroData?.name || heroData?.title || item.title}
-      </Text>
-    )}
-  </View>
-
-  {/* Right: Heart Button */}
-  <TouchableOpacity
-    onPress={handleWishlistToggle}
-    activeOpacity={0.8}
-  >
-    <BlurView
-      intensity={mode === 'dark' ? 30 : 50}
-      tint={mode === 'dark' ? 'dark' : 'light'}
-      style={{
-        padding: width > 700 ? 14 : 10,
-        borderRadius: 999,
-        borderWidth: 1,
-        borderColor: 'rgba(255,255,255,0.1)',
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}
-    >
-      <Ionicons
-        name={isInWatchlist ? "heart" : "heart-outline"}
-        size={width > 700 ? 30 : 24}
-        color={isInWatchlist ? primary : (mode === 'dark' ? "white" : "black")}
-      />
-    </BlurView>
- 
+            <TouchableOpacity 
+              onPress={handleWishlistToggle}
+              activeOpacity={0.8}
+            >
+              <BlurView
+                intensity={mode === 'dark' ? 50 : 70}
+                tint={mode === 'dark' ? 'dark' : 'light'}
+                style={{
+                  padding: 10,
+                  borderRadius: 999,
+                  borderWidth: 1,
+                  borderColor: mode === 'dark' ? 'rgba(255,255,255,0.2)' : 'rgba(0,0,0,0.1)',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(255, 255, 255, 0)',
+                }}
+              >
+                <Ionicons
+                  name={isInWatchlist ? "heart" : "heart-outline"}
+                  size={24}
+                  color={isInWatchlist ? primary : (mode === 'dark' ? "white" : "black")}
+                />
+              </BlurView>
             </TouchableOpacity>
           </View>
         </View>
@@ -314,7 +469,7 @@ const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer, containerWidth}: HeroC
         }
       }}
       style={{ height: heroHeight as any, width: effectiveWidth }} 
-      className="relative overflow-hidden"
+      className="relative"
     >
       <AnimatedFlatList
         ref={flatListRef}
@@ -343,7 +498,7 @@ const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer, containerWidth}: HeroC
       />
 
       {/* Header Controls */}
-      <View className="absolute top-12 left-0 right-0 px-8 z-50 flex-col space-y-4">
+      <View className="absolute top-12 left-00 right-0 px-12 z-50 flex-col space-y-4">
         {!searchActive ? (
           <View className="flex-row justify-between items-center w-full">
             <View className={showHamburgerMenu && !isDrawerDisabled ? 'opacity-100' : 'opacity-0'}>
@@ -377,7 +532,7 @@ const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer, containerWidth}: HeroC
                   onSubmitEditing={(e) => handleSearchSubmit(e.nativeEvent.text)}
                   placeholder={`Search ${provider.display_name}...`}
                   className="w-full px-6 h-12 text-white"
-                  placeholderTextColor="rgba(255,255,255,0.6)"
+                  placeholderTextColor="rgba(255, 255, 255, 0)"
                 />
               </BlurView>
             </View>
@@ -391,7 +546,7 @@ const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer, containerWidth}: HeroC
             key={i}
             className={`h-1.5 rounded-full ${i === currentIndex ? 'w-8' : 'w-2'}`}
             style={{
-              backgroundColor: i === currentIndex ? primary : 'rgba(255,255,255,0.3)',
+              backgroundColor: i === currentIndex ? primary : 'rgba(255, 255, 255, 0)',
               opacity: i === currentIndex ? 1 : 0.6
             }}
           />

@@ -261,9 +261,9 @@ const Home = ({}: Props) => {
   <View style={{ flexDirection: 'row', flex: 1 }}>
     
     {/* Sidebar */}
-    <View style={{ width: 240 }}>
+    <View style={{ width: 180}}>
       <CategorySidebar 
-        width={240} 
+        width={185} 
         categories={catalogs} 
         onCategoryPress={scrollToCategory} 
       />

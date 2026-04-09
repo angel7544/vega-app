@@ -22,7 +22,7 @@ const CategorySidebar = ({categories, onCategoryPress, activeFilter, width}: Cat
   const {mode, primary} = useThemeStore();
 
   return (
-    <View style={{width}} className="h-full px-10 pt-10">
+    <View style={{width}} className="h-full px-6 pt-6">
       <View className="mb-6 flex-row items-center space-x-2">
         <View className="w-1.5 h-6 rounded-full" style={{backgroundColor: primary}} />
         <Text className={`text-xl font-bold tracking-tight ${mode === 'dark' ? 'text-white' : 'text-black'}`}>Explore</Text>
