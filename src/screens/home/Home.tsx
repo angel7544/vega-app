@@ -277,6 +277,7 @@ const Home = ({}: Props) => {
         isDrawerOpen={isDrawerOpen}
         onOpenDrawer={() => setDrawerOpen(true)}
         containerWidth={windowWidth - 240}
+        providerValue={provider?.value}
       />
     </View>
 
@@ -287,6 +288,7 @@ const Home = ({}: Props) => {
                   isDrawerOpen={isDrawerOpen}
                   onOpenDrawer={() => setDrawerOpen(true)}
                   containerWidth={windowWidth}
+                  providerValue={provider?.value}
                 />
               )}
 
