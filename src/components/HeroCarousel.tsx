@@ -103,11 +103,11 @@ const HeroItem = memo(({item, index, scrollX, width, height}: {item: Post, index
   const voteCount = heroData?.imdbVotes || heroData?.vote_count || heroData?.votes;
 
   return (
-    <Animated.View style={[{width: width, height: '100%',paddingLeft: 0, paddingRight: 0, paddingBottom: 2}, animatedStyle]}>
+    <Animated.View style={[{width: width, height: '100%',paddingLeft: 0, paddingRight: 0, paddingBottom: 3}, animatedStyle]}>
       <TouchableOpacity 
         activeOpacity={0.9} 
         onPress={handlePlayPress}
-        className="flex-1 overflow-hidden rounded-[45px] shadow-2xl bg-gray-900"
+        className="flex-1 overflow-hidden rounded-[10px] shadow-2xl bg-gray-900"
       >
         <Image
           source={imageSource}
