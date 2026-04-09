@@ -348,25 +348,31 @@ const HeroItem = memo(({item, index, scrollX, width, height}: {item: Post, index
               onPress={handleWishlistToggle}
               activeOpacity={0.8}
             >
-              <BlurView
-                intensity={mode === 'dark' ? 50 : 70}
-                tint={mode === 'dark' ? 'dark' : 'light'}
-                style={{
-                  padding: 10,
-                  borderRadius: 999,
+              <View 
+                style={{ 
+                  borderRadius: 999, 
+                  overflow: 'hidden',
                   borderWidth: 1,
                   borderColor: mode === 'dark' ? 'rgba(255,255,255,0.2)' : 'rgba(0,0,0,0.1)',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(255, 255, 255, 0.8)',
                 }}
               >
-                <Ionicons
-                  name={isInWatchlist ? "heart" : "heart-outline"}
-                  size={24}
-                  color={isInWatchlist ? primary : (mode === 'dark' ? "white" : "black")}
-                />
-              </BlurView>
+                <BlurView
+                  intensity={mode === 'dark' ? 50 : 80}
+                  tint={mode === 'dark' ? 'dark' : 'light'}
+                  style={{
+                    padding: 12,
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(255, 255, 255, 0.4)',
+                  }}
+                >
+                  <Ionicons
+                    name={isInWatchlist ? "heart" : "heart-outline"}
+                    size={24}
+                    color={isInWatchlist ? primary : (mode === 'dark' ? "white" : "black")}
+                  />
+                </BlurView>
+              </View>
             </TouchableOpacity>
           </View>
         </View>
