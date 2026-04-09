@@ -230,13 +230,14 @@ const Home = ({}: Props) => {
     <QueryErrorBoundary>
       <GestureHandlerRootView style={{flex: 1}}>
         <SafeAreaView
-          style={{backgroundColor: mode === 'dark' ? 'black' : '#f8f9fa'}}
+          style={{backgroundColor: mode === 'dark' ? 'black' : 'white'}}
           className="flex-1">
             <StatusBar
               style="auto"
               animated={true}
               translucent={true}
               backgroundColor={backgroundColor}
+              hidden={true}
             />
 
             <ScrollView

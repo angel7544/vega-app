@@ -498,7 +498,7 @@ const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer, containerWidth}: HeroC
       />
 
       {/* Header Controls */}
-      <View className="absolute top-12 left-00 right-0 px-12 z-50 flex-col space-y-4">
+      <View className="absolute top-10 left-0 right-0 px-8 z-50 flex-col space-y-4">
         {!searchActive ? (
           <View className="flex-row justify-between items-center w-full">
             <View className={showHamburgerMenu && !isDrawerDisabled ? 'opacity-100' : 'opacity-0'}>
