@@ -103,11 +103,11 @@ const HeroItem = memo(({item, index, scrollX, width, height}: {item: Post, index
   const voteCount = heroData?.imdbVotes || heroData?.vote_count || heroData?.votes;
 
   return (
-    <Animated.View style={[{width: width, height: '100%',paddingLeft: 0, paddingRight: 0, paddingBottom: 3}, animatedStyle]}>
+    <Animated.View style={[{width: width, height: '95%',paddingLeft: 0, paddingRight: 0, paddingBottom: 3}, animatedStyle]}>
       <TouchableOpacity 
         activeOpacity={0.9} 
         onPress={handlePlayPress}
-        className="flex-1 overflow-hidden rounded-[10px] shadow-2xl bg-gray-900"
+        className="flex-1 overflow-hidden rounded-[20px] shadow-2xl bg-gray-900"
       >
         <Image
           source={imageSource}
@@ -121,7 +121,7 @@ const HeroItem = memo(({item, index, scrollX, width, height}: {item: Post, index
           className="absolute inset-0"
         />
 
-        <View className="absolute bottom-10 left-0 right-0 px-8">
+        <View className={`absolute ${width > 700 ? 'bottom-14 px-12' : 'bottom-10 px-8'} left-0 right-0`}>
           {/* Metadata & Rating Row */}
           <View className="flex-row items-center space-x-3 mb-4">
             <TouchableOpacity 
@@ -149,34 +149,69 @@ const HeroItem = memo(({item, index, scrollX, width, height}: {item: Post, index
             )}
           </View>
           
-          {/* Title and Heart Row */}
-          <View className="flex-row items-end justify-between">
-            <View className="flex-1 mr-4">
-               {heroData?.logo ? (
-                <Image
-                  source={{uri: heroData.logo}}
-                  style={{width: 180, height: 80, resizeMode: 'contain'}}
-                />
-              ) : (
-                <Text className="text-white text-2xl font-black shadow-2xl tracking-tighter leading-tight" style={{ textShadowColor: 'rgba(0,0,0,0.8)', textShadowOffset: {width: 0, height: 2}, textShadowRadius: 15 }} numberOfLines={2}>
-                  {heroData?.name || heroData?.title || item.title}
-                </Text>
-              )}
-            </View>
+  <View style={{
+  flexDirection: 'row',
+  alignItems: 'flex-end',
+  justifyContent: 'space-between',
+}}>
 
-            <TouchableOpacity 
-              onPress={handleWishlistToggle}
-              className="mb-1"
-            >
-               <View className="rounded-full border border-white/10 overflow-hidden">
-                <BlurView intensity={30} tint="dark" style={styles.blurHeart}>
-                    <Ionicons 
-                      name={isInWatchlist ? "heart" : "heart-outline"} 
-                      size={26} 
-                      color={isInWatchlist ? primary : "white"} 
-                    />
-                </BlurView>
-              </View>
+  {/* Left: Logo / Title */}
+  <View style={{
+    flex: 1,
+    marginRight: 12,
+    justifyContent: 'flex-end'
+  }}>
+    {heroData?.logo ? (
+      <Image
+        source={{ uri: heroData.logo }}
+        style={{
+          width: width > 700 ? 240 : 180,
+          height: width > 700 ? 100 : 80,
+        }}
+        resizeMode="contain"
+      />
+    ) : (
+      <Text
+        numberOfLines={2}
+        style={{
+          fontSize: width > 700 ? 32 : 22,
+          fontWeight: '900',
+          color: 'white',
+          letterSpacing: -0.5,
+          textShadowColor: 'rgba(0,0,0,0.8)',
+          textShadowOffset: { width: 0, height: 2 },
+          textShadowRadius: 12,
+        }}
+      >
+        {heroData?.name || heroData?.title || item.title}
+      </Text>
+    )}
+  </View>
+
+  {/* Right: Heart Button */}
+  <TouchableOpacity
+    onPress={handleWishlistToggle}
+    activeOpacity={0.8}
+  >
+    <BlurView
+      intensity={mode === 'dark' ? 30 : 50}
+      tint={mode === 'dark' ? 'dark' : 'light'}
+      style={{
+        padding: width > 700 ? 14 : 10,
+        borderRadius: 999,
+        borderWidth: 1,
+        borderColor: 'rgba(255,255,255,0.1)',
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}
+    >
+      <Ionicons
+        name={isInWatchlist ? "heart" : "heart-outline"}
+        size={width > 700 ? 30 : 24}
+        color={isInWatchlist ? primary : (mode === 'dark' ? "white" : "black")}
+      />
+    </BlurView>
+ 
             </TouchableOpacity>
           </View>
         </View>
@@ -189,19 +224,23 @@ interface HeroCarouselProps {
   posts: Post[];
   isDrawerOpen: boolean;
   onOpenDrawer: () => void;
+  containerWidth?: number;
 }
 
-const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer}: HeroCarouselProps) => {
+const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer, containerWidth}: HeroCarouselProps) => {
   const {width: windowWidth, height: windowHeight} = useWindowDimensions();
+  const [layoutWidth, setLayoutWidth] = useState(containerWidth || 0);
+  const effectiveWidth = containerWidth || layoutWidth || windowWidth;
   const {mode, primary} = useThemeStore(state => state);
   const isLandscape = windowWidth > windowHeight;
   
-  const isLarge = windowWidth > 1024;
-  const isTablet = windowWidth > 768;
+  const isLarge = windowWidth > 960
+  const isTablet = windowWidth > 720
   
   const heroHeight = React.useMemo(() => {
     if (isLandscape) {
-      return isLarge ? windowHeight * 0.4 : isTablet ? windowHeight * 0.45 : windowHeight * 0.55;
+      // Balanced height for tablets to show content below
+      return isLarge ? windowHeight * 0.55 : isTablet ? windowHeight * 0.6 : windowHeight * 0.55;
     }
     return isLarge ? windowHeight * 0.45 : isTablet ? windowHeight * 0.55 : windowHeight * 0.65;
   }, [windowHeight, isLandscape, isLarge, isTablet]);
@@ -260,15 +299,23 @@ const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer}: HeroCarouselProps) =>
   }, [currentIndex, posts.length, searchActive]);
 
   const onMomentumScrollEnd = (event: any) => {
-    if (windowWidth <= 0) return;
-    const index = Math.round(event.nativeEvent.contentOffset.x / windowWidth);
+    if (effectiveWidth <= 0) return;
+    const index = Math.round(event.nativeEvent.contentOffset.x / effectiveWidth);
     if (!isNaN(index)) {
       setCurrentIndex(index);
     }
   };
 
   return (
-    <View style={{ height: heroHeight as any }} className="relative w-full overflow-hidden">
+    <View 
+      onLayout={(e) => {
+        if (!containerWidth) {
+          setLayoutWidth(e.nativeEvent.layout.width);
+        }
+      }}
+      style={{ height: heroHeight as any, width: effectiveWidth }} 
+      className="relative overflow-hidden"
+    >
       <AnimatedFlatList
         ref={flatListRef}
         data={posts}
@@ -277,7 +324,7 @@ const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer}: HeroCarouselProps) =>
             item={item} 
             index={index} 
             scrollX={scrollX} 
-            width={windowWidth} 
+            width={effectiveWidth} 
             height={heroHeight} 
           />
         )}
@@ -288,8 +335,8 @@ const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer}: HeroCarouselProps) =>
         scrollEventThrottle={16}
         onMomentumScrollEnd={onMomentumScrollEnd}
         getItemLayout={(_: any, index: number) => ({
-          length: windowWidth,
-          offset: windowWidth * index,
+          length: effectiveWidth,
+          offset: effectiveWidth * index,
           index,
         })}
         keyExtractor={(item: any) => item.link}

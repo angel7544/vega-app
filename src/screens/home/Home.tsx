@@ -20,9 +20,10 @@ import {useShowNavBarOnScroll} from '../../lib/hooks/useShowNavBarOnScroll';
 import useThemeStore from '../../lib/zustand/themeStore';
 import ProviderDrawer from '../../components/ProviderDrawer';
 import {NativeStackScreenProps} from '@react-navigation/native-stack';
-import {HomeStackParamList} from '../../App';
+import {HomeStackParamList} from '../../types/navigation';
 import {Drawer} from 'react-native-drawer-layout';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
+import {useWindowDimensions} from 'react-native';
 import ContinueWatching from '../../components/ContinueWatching';
 import {providerManager} from '../../lib/services/ProviderManager';
 import Tutorial from '../../components/Touturial';
@@ -32,6 +33,8 @@ import LiveTVHomeSlider from '../../components/LiveTVHomeSlider';
 import {iptvParser} from '../../lib/iptvParser';
 import usePlayerStore from '../../lib/zustand/playerStore';
 import HeroCarousel from '../../components/HeroCarousel';
+import CategorySidebar from '../../components/CategorySidebar';
+import useNavBarStore from '../../lib/zustand/navBarStore';
 
 type Props = NativeStackScreenProps<HomeStackParamList, 'Home'>;
 
@@ -44,7 +47,7 @@ const Home = ({}: Props) => {
   const handleNavBarScroll = navBarHook?.handleScroll;
   
   const [backgroundColor, setBackgroundColor] = useState('transparent');
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const {isNavBarVisible, isDrawerOpen, setDrawerOpen} = useNavBarStore();
 
   // Memoize static values
   const disableDrawer = useMemo(
@@ -87,7 +90,7 @@ const Home = ({}: Props) => {
       event.nativeEvent.contentOffset.y > 0
         ? mode === 'dark'
           ? 'black'
-          : 'white'
+          : '#f8f9fa'
         : 'transparent';
     setBackgroundColor(newBackgroundColor);
 
@@ -129,6 +132,24 @@ const Home = ({}: Props) => {
     }
   }, [showSportsChannels]);
 
+  const {width: windowWidth, height: windowHeight} = useWindowDimensions();
+  const isLandscape = windowWidth > windowHeight;
+  const isTablet = windowWidth > 768;
+
+  const scrollRef = React.useRef<ScrollView>(null);
+  const sectionOffsets = React.useRef<{[key: string]: number}>({});
+
+  const catalogs = useMemo(() => {
+    return provider?.value ? providerManager.getCatalog({providerValue: provider.value}) : [];
+  }, [provider?.value]);
+
+  const scrollToCategory = useCallback((filter: string) => {
+    const offset = sectionOffsets.current[filter];
+    if (offset !== undefined && scrollRef.current) {
+      scrollRef.current.scrollTo({y: offset - 20, animated: true});
+    }
+  }, []);
+
   // Optimized refresh handler
   const handleRefresh = useCallback(async () => {
     try {
@@ -161,14 +182,20 @@ const Home = ({}: Props) => {
 
   // Memoized content sliders
   const contentSliders = useMemo(() => {
-    return homeData.map((item, index) => (
-      <Slider
-        isLoading={false}
+    return homeData.map((item: any, index: number) => (
+      <View 
         key={`content-${item.filter}-${index}`}
-        title={item.title}
-        posts={item.Posts}
-        filter={item.filter}
-      />
+        onLayout={(e) => {
+          sectionOffsets.current[item.filter] = e.nativeEvent.layout.y;
+        }}
+      >
+        <Slider
+          isLoading={false}
+          title={item.title}
+          posts={item.Posts}
+          filter={item.filter}
+        />
+      </View>
     ));
   }, [homeData]);
 
@@ -203,21 +230,8 @@ const Home = ({}: Props) => {
     <QueryErrorBoundary>
       <GestureHandlerRootView style={{flex: 1}}>
         <SafeAreaView
-          className={`${mode === 'dark' ? 'bg-black' : 'bg-white'} flex-1`}>
-          <Drawer
-            open={isDrawerOpen}
-            onOpen={() => setIsDrawerOpen(true)}
-            onClose={() => setIsDrawerOpen(false)}
-            drawerPosition="left"
-            drawerType="front"
-            drawerStyle={{width: 200, backgroundColor: 'transparent'}}
-            swipeEdgeWidth={disableDrawer ? 0 : 70}
-            swipeEnabled={!disableDrawer}
-            renderDrawerContent={() =>
-              !disableDrawer ? (
-                <ProviderDrawer onClose={() => setIsDrawerOpen(false)} />
-              ) : null
-            }>
+          style={{backgroundColor: mode === 'dark' ? 'black' : '#f8f9fa'}}
+          className="flex-1">
             <StatusBar
               style="auto"
               animated={true}
@@ -226,33 +240,61 @@ const Home = ({}: Props) => {
             />
 
             <ScrollView
+              ref={scrollRef}
               onScroll={handleScroll}
               scrollEventThrottle={16} // Optimize scroll performance
               showsVerticalScrollIndicator={false}
-              className={`${mode === 'dark' ? 'bg-black' : 'bg-white'}`}
+              style={{backgroundColor: mode === 'dark' ? 'black' : '#f8f9fa'}}
               refreshControl={
                 <RefreshControl
                   colors={[primary]}
                   tintColor={primary}
                   progressBackgroundColor={
-                    mode === 'dark' ? 'black' : 'white'
+                    mode === 'dark' ? 'black' : '#f8f9fa'
                   }
                   refreshing={isRefetching}
                   onRefresh={handleRefresh}
                 />
               }>
-              <HeroCarousel
-                posts={heroPosts}
-                isDrawerOpen={isDrawerOpen}
-                onOpenDrawer={() => setIsDrawerOpen(true)}
-              />
+              
+              {isTablet && isLandscape ? (
+  <View style={{ flexDirection: 'row', flex: 1 }}>
+    
+    {/* Sidebar */}
+    <View style={{ width: 240 }}>
+      <CategorySidebar 
+        width={240} 
+        categories={catalogs} 
+        onCategoryPress={scrollToCategory} 
+      />
+    </View>
 
-              <View className="mt-[-20px]">
+    {/* Hero Section */}
+    <View style={{ flex: 1 }}>
+      <HeroCarousel
+        posts={heroPosts}
+        isDrawerOpen={isDrawerOpen}
+        onOpenDrawer={() => setDrawerOpen(true)}
+        containerWidth={windowWidth - 240}
+      />
+    </View>
+
+  </View>
+              ) : (
+                <HeroCarousel
+                  posts={heroPosts}
+                  isDrawerOpen={isDrawerOpen}
+                  onOpenDrawer={() => setDrawerOpen(true)}
+                  containerWidth={windowWidth}
+                />
+              )}
+
+              <View onLayout={(e) => sectionOffsets.current['main-feed'] = e.nativeEvent.layout.y} className="mt-[-20px]">
                 <ContinueWatching />
 
                 {showFavChannels && favorites.length > 0 && (
                   <LiveTVHomeSlider 
-                    title="Your Top Signals" 
+                    title="Your Favourites" 
                     channels={favorites} 
                   />
                 )}
@@ -273,7 +315,6 @@ const Home = ({}: Props) => {
 
               <View className="h-16" />
             </ScrollView>
-          </Drawer>
         </SafeAreaView>
       </GestureHandlerRootView>
     </QueryErrorBoundary>

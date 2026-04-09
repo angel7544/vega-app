@@ -65,6 +65,9 @@ import {
   TabStackParamList
 } from './types/navigation';
 import FloatingSearchButton from './components/FloatingSearchButton';
+import TabletSidebar from './components/TabletSidebar';
+import {Drawer} from 'react-native-drawer-layout';
+import ProviderDrawer from './components/ProviderDrawer';
 
 // Lazy-load Firebase modules so app runs without google-services files
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -213,9 +216,11 @@ function SettingsStackScreen() {
 
 function TabStack() {
   const {primary, mode} = useThemeStore(state => state);
-  const {isNavBarVisible} = useNavBarStore();
+  const {isNavBarVisible, isDrawerOpen, setDrawerOpen} = useNavBarStore();
   const showTabBarLables = settingsStorage.showTabBarLabels();
   const initialHomeScreen = settingsStorage.getInitialHomeScreen();
+  const {width} = Dimensions.get('window');
+  const isTablet = width > 768;
 
   const animatedStyle = useAnimatedStyle(() => {
     return {
@@ -225,69 +230,95 @@ function TabStack() {
 
   return (
     <>
-    <Tab.Navigator
-      initialRouteName={initialHomeScreen as any}
-      detachInactiveScreens={true}
-      screenOptions={{
-        animation: 'shift',
-        tabBarLabelPosition: 'below-icon',
-        tabBarVariant: 'uikit',
-        popToTopOnBlur: false,
-        tabBarPosition: 'bottom',
-        headerShown: false,
-        freezeOnBlur: true,
-        tabBarActiveTintColor: primary,
-        tabBarInactiveTintColor: mode === 'dark' ? '#dadde3' : '#666',
-        tabBarShowLabel: showTabBarLables,
-        tabBarStyle: {
-          position: 'absolute',
-          bottom: 0,
-          height: 55,
-          borderRadius: 0,
-          overflow: 'hidden',
-          elevation: 0,
-          borderTopWidth: 0,
-          paddingHorizontal: 0,
-          paddingTop: 5,
-        },
-        tabBarBackground: () => <TabBarBackgound />,
-        tabBarHideOnKeyboard: true,
-        tabBarButton: props => (
-          <TouchableOpacity
-            accessibilityRole="button"
-            accessibilityState={props.accessibilityState}
-            style={props.style as StyleProp<ViewStyle>}
-            onPress={e => {
-              props.onPress && props.onPress(e);
-              if (
-                !props?.accessibilityState?.selected &&
-                settingsStorage.isHapticFeedbackEnabled()
-              ) {
-                RNReactNativeHapticFeedback.trigger('effectTick', {
-                  enableVibrateFallback: true,
-                  ignoreAndroidSystemSettings: false,
-                });
-              }
-            }}>
-            {props.children}
-          </TouchableOpacity>
-        ),
-      }}
-      tabBar={props => (
-        <Animated.View
-          style={[
-            {
-              position: 'absolute',
-              bottom: 0,
-              left: 0,
-              right: 0,
-              zIndex: 1000,
-            },
-            animatedStyle,
-          ]}>
-          <BottomTabBar {...props} />
-        </Animated.View>
+    <Drawer
+      open={isDrawerOpen}
+      onOpen={() => setDrawerOpen(true)}
+      onClose={() => setDrawerOpen(false)}
+      drawerPosition="left"
+      drawerType="front"
+      drawerStyle={{width: 280, backgroundColor: 'transparent'}}
+      renderDrawerContent={() => (
+        <ProviderDrawer onClose={() => setDrawerOpen(false)} />
       )}>
+      <Tab.Navigator
+        initialRouteName={initialHomeScreen as any}
+        detachInactiveScreens={true}
+        screenOptions={{
+          animation: 'shift',
+          tabBarLabelPosition: 'below-icon',
+          tabBarVariant: 'uikit',
+          popToTopOnBlur: false,
+          tabBarPosition: isTablet ? 'left' : 'bottom',
+          headerShown: false,
+          freezeOnBlur: true,
+          tabBarActiveTintColor: primary,
+          tabBarInactiveTintColor: mode === 'dark' ? '#dadde3' : '#666',
+          tabBarShowLabel: showTabBarLables,
+          tabBarStyle: isTablet ? {
+            width: 80,
+            height: '100%',
+            backgroundColor: 'transparent',
+            borderRightWidth: 1,
+            borderRightColor: 'rgba(255,255,255,0.1)',
+          } : {
+            position: 'absolute',
+            bottom: 0,
+            height: 55,
+            borderRadius: 0,
+            overflow: 'hidden',
+            elevation: 0,
+            borderTopWidth: 0,
+            paddingHorizontal: 0,
+            paddingTop: 5,
+          },
+          tabBarBackground: () => <TabBarBackgound />,
+          tabBarHideOnKeyboard: true,
+          tabBarButton: props => !isTablet ? (
+            <TouchableOpacity
+              accessibilityRole="button"
+              accessibilityState={props.accessibilityState}
+              style={props.style as StyleProp<ViewStyle>}
+              onPress={e => {
+                props.onPress && props.onPress(e);
+                if (
+                  !props?.accessibilityState?.selected &&
+                  settingsStorage.isHapticFeedbackEnabled()
+                ) {
+                  RNReactNativeHapticFeedback.trigger('effectTick', {
+                    enableVibrateFallback: true,
+                    ignoreAndroidSystemSettings: false,
+                  });
+                }
+              }}>
+              {props.children}
+            </TouchableOpacity>
+          ) : null,
+        }}
+        tabBar={props => {
+          if (isTablet) {
+            return (
+              <TabletSidebar 
+                {...props} 
+                onOpenDrawer={() => setDrawerOpen(true)} 
+              />
+            );
+          }
+          return (
+            <Animated.View
+              style={[
+                {
+                  position: 'absolute',
+                  bottom: 0,
+                  left: 0,
+                  right: 0,
+                  zIndex: 1000,
+                },
+                animatedStyle,
+              ]}>
+              <BottomTabBar {...props} />
+            </Animated.View>
+          );
+        }}>
       <Tab.Screen
         name="HomeStack"
         component={HomeStackScreen}
@@ -365,6 +396,7 @@ function TabStack() {
         }}
       />
     </Tab.Navigator>
+    </Drawer>
     <FloatingSearchButton />
     </>
   );

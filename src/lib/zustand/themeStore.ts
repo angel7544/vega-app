@@ -12,6 +12,7 @@ export interface Theme {
   setPrimary: (type: Theme['primary']) => void;
   setCustom: (isCustom: boolean) => void;
   setMode: (mode: Theme['mode']) => void;
+  toggleMode: () => void;
 }
 
 const useThemeStore = create<Theme>()(
@@ -32,6 +33,13 @@ const useThemeStore = create<Theme>()(
       setMode: (mode: Theme['mode']) => {
         set({mode});
         settingsStorage.setThemeMode(mode);
+      },
+      toggleMode: () => {
+        set((state) => {
+          const newMode = state.mode === 'dark' ? 'light' : 'dark';
+          settingsStorage.setThemeMode(newMode);
+          return {mode: newMode};
+        });
       },
     }),
     {
