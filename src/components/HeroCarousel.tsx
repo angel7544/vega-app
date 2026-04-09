@@ -498,7 +498,9 @@ const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer, containerWidth}: HeroC
       />
 
       {/* Header Controls */}
-      <View className="absolute top-10 left-0 right-0 px-8 z-50 flex-col space-y-4">
+      <View
+        className={`absolute top-10 left-0 right-0 ${isTablet ? 'px-16' : 'px-8'} z-50 flex-col space-y-4`}
+      >
         {!searchActive ? (
           <View className="flex-row justify-between items-center w-full">
             <View className={showHamburgerMenu && !isDrawerDisabled ? 'opacity-100' : 'opacity-0'}>
@@ -531,7 +533,7 @@ const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer, containerWidth}: HeroC
                   onBlur={() => setSearchActive(false)}
                   onSubmitEditing={(e) => handleSearchSubmit(e.nativeEvent.text)}
                   placeholder={`Search ${provider.display_name}...`}
-                  className="w-full px-6 h-12 text-white"
+                  className={`w-full ${isTablet ? 'px-10' : 'px-6'} h-12 text-white`}
                   style={{ color: mode === 'dark' ? 'white' : 'black' }}
                   placeholderTextColor={mode === 'dark' ? 'rgba(255, 255, 255, 0.5)' : 'rgba(0, 0, 0, 0.4)'}
                 />
@@ -569,7 +571,7 @@ const styles = StyleSheet.create({
     padding: 12,
   },
   blurHeaderIcon: {
-    padding: 10,
+    padding: 12,
   },
   blurSearch: {
     width: '100%',
