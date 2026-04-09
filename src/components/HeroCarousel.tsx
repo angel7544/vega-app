@@ -117,7 +117,7 @@ const HeroItem = memo(({item, index, scrollX, width, height}: {item: Post, index
           }}
         >
           {/* Left: Info Section */}
-          <View style={{ flex: 1, padding: 30, justifyContent: 'center' }}>
+          <View style={{ flex: 1, padding: 30, justifyContent: 'center', backgroundColor: 'rgba(128, 128, 128, 0.5)' }}>
             {/* Title / Logo */}
             <View style={{ marginBottom: 16 }}>
               {heroData?.logo ? (
@@ -132,7 +132,7 @@ const HeroItem = memo(({item, index, scrollX, width, height}: {item: Post, index
                   style={{
                     fontSize: 42,
                     fontWeight: '900',
-                    color: mode === 'dark' ? 'white' : 'black',
+                    color: mode === 'dark' ? 'gray' : 'gray',
                     letterSpacing: -1.5,
                   }}
                 >
@@ -358,7 +358,7 @@ const HeroItem = memo(({item, index, scrollX, width, height}: {item: Post, index
                   borderColor: mode === 'dark' ? 'rgba(255,255,255,0.2)' : 'rgba(0,0,0,0.1)',
                   justifyContent: 'center',
                   alignItems: 'center',
-                  backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(255, 255, 255, 0)',
+                  backgroundColor: mode === 'dark' ? 'rgba(255,255,255,0.05)' : 'rgba(255, 255, 255, 0.8)',
                 }}
               >
                 <Ionicons
@@ -525,14 +525,15 @@ const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer, containerWidth}: HeroC
         ) : (
           <Animated.View entering={FadeIn} className="w-full">
             <View className="w-full overflow-hidden rounded-full border border-white/10">
-              <BlurView intensity={20} tint="dark" style={styles.blurSearch}>
+              <BlurView intensity={30} tint={mode === 'dark' ? 'dark' : 'light'} style={styles.blurSearch}>
                 <TextInput
                   autoFocus
                   onBlur={() => setSearchActive(false)}
                   onSubmitEditing={(e) => handleSearchSubmit(e.nativeEvent.text)}
                   placeholder={`Search ${provider.display_name}...`}
                   className="w-full px-6 h-12 text-white"
-                  placeholderTextColor="rgba(255, 255, 255, 0)"
+                  style={{ color: mode === 'dark' ? 'white' : 'black' }}
+                  placeholderTextColor={mode === 'dark' ? 'rgba(255, 255, 255, 0.5)' : 'rgba(0, 0, 0, 0.4)'}
                 />
               </BlurView>
             </View>
