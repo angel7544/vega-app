@@ -35,7 +35,8 @@ export const useEpisodes = (
 
       // Cache successful responses
       if (episodes && episodes.length > 0) {
-        cacheStorage.setString(episodesLink, JSON.stringify(episodes));
+        const cacheKey = `${episodesLink}_${providerValue}`;
+        cacheStorage.setString(cacheKey, JSON.stringify(episodes));
       }
 
       return episodes || [];
@@ -57,7 +58,8 @@ export const useEpisodes = (
         return undefined;
       }
 
-      const cached = cacheStorage.getString(episodesLink);
+      const cacheKey = `${episodesLink}_${providerValue}`;
+      const cached = cacheStorage.getString(cacheKey);
       if (cached) {
         try {
           return JSON.parse(cached);
@@ -68,7 +70,7 @@ export const useEpisodes = (
       return undefined;
     },
     // Prevent background refetches unless data is stale
-    refetchOnMount: false,
+    refetchOnMount: true,
     refetchOnWindowFocus: false,
     refetchOnReconnect: 'always',
   });

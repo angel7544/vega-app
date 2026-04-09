@@ -37,13 +37,14 @@ import ReactNativeHapticFeedback from 'react-native-haptic-feedback';
 // Use Animated version of FlatList for useAnimatedScrollHandler
 const AnimatedFlatList = Animated.createAnimatedComponent(FlatList);
 
-const HeroItem = memo(({item, index, scrollX, width, height}: {item: Post, index: number, scrollX: any, width: number, height: any}) => {
+const HeroItem = memo(({item, index, scrollX, width, height, providerValue}: {item: Post, index: number, scrollX: any, width: number, height: any, providerValue?: string}) => {
   const {provider} = useContentStore(state => state);
   const {mode, primary} = useThemeStore(state => state);
   const navigation = useNavigation<NativeStackNavigationProp<HomeStackParamList>>();
   const {watchList, addItem, removeItem} = useWatchListStore();
 
-  const {data: heroData, isLoading} = useHeroMetadata(item.link, provider.value);
+  const currentProvider = providerValue || item.provider || provider.value;
+  const {data: heroData, isLoading} = useHeroMetadata(item.link, currentProvider);
 
   const isInWatchlist = React.useMemo(() => 
     watchList.some(w => w.link === item.link), 
@@ -66,10 +67,10 @@ const HeroItem = memo(({item, index, scrollX, width, height}: {item: Post, index
   const handlePlayPress = useCallback(() => {
     navigation.navigate('Info', {
       link: item.link,
-      provider: provider.value,
+      provider: currentProvider,
       poster: heroData?.image || heroData?.poster || item.image,
     });
-  }, [navigation, item, provider.value, heroData]);
+  }, [navigation, item, currentProvider, heroData]);
 
   const handleWishlistToggle = useCallback(() => {
     ReactNativeHapticFeedback.trigger('impactLight');
@@ -117,7 +118,10 @@ const HeroItem = memo(({item, index, scrollX, width, height}: {item: Post, index
           }}
         >
           {/* Left: Info Section */}
-          <View style={{ flex: 1, padding: 30, justifyContent: 'center', backgroundColor: 'rgba(128, 128, 128, 0.5)' }}>
+          <Pressable 
+            onPress={handlePlayPress}
+            style={{ flex: 1, padding: 30, justifyContent: 'center', backgroundColor: 'rgba(128, 128, 128, 0.5)' }}
+          >
             {/* Title / Logo */}
             <View style={{ marginBottom: 16 }}>
               {heroData?.logo ? (
@@ -215,7 +219,7 @@ const HeroItem = memo(({item, index, scrollX, width, height}: {item: Post, index
                 </Text>
               </TouchableOpacity>
             </View>
-          </View>
+          </Pressable>
 
           {/* Right: Poster Section */}
           <View style={{ width: '55%', position: 'relative' }}>
@@ -386,9 +390,10 @@ interface HeroCarouselProps {
   isDrawerOpen: boolean;
   onOpenDrawer: () => void;
   containerWidth?: number;
+  providerValue?: string;
 }
 
-const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer, containerWidth}: HeroCarouselProps) => {
+const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer, containerWidth, providerValue}: HeroCarouselProps) => {
   const {width: windowWidth, height: windowHeight} = useWindowDimensions();
   const [layoutWidth, setLayoutWidth] = useState(containerWidth || 0);
   const effectiveWidth = containerWidth || layoutWidth || windowWidth;
@@ -428,14 +433,14 @@ const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer, containerWidth}: HeroC
       navigation.navigate('Info', {link: text});
     } else {
       searchNavigation.navigate('ScrollList', {
-        providerValue: provider.value,
+        providerValue: providerValue || provider.value,
         filter: text,
         title: provider.display_name,
         isSearch: true,
       });
     }
     setSearchActive(false);
-  }, [navigation, searchNavigation, provider]);
+  }, [navigation, searchNavigation, provider, providerValue]);
 
   // Auto-slide logic with check for valid index
   useEffect(() => {
@@ -487,6 +492,7 @@ const HeroCarousel = ({posts, isDrawerOpen, onOpenDrawer, containerWidth}: HeroC
             scrollX={scrollX} 
             width={effectiveWidth} 
             height={heroHeight} 
+            providerValue={providerValue}
           />
         )}
         horizontal

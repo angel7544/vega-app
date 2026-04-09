@@ -27,7 +27,8 @@ export const useContentInfo = (link: string, providerValue: string) => {
     retry: 2,
     // Use cached data as initial data
     initialData: () => {
-      const cached = cacheStorage.getString(link);
+      const cacheKey = `${link}_${providerValue}`;
+      const cached = cacheStorage.getString(cacheKey);
       if (cached) {
         try {
           return JSON.parse(cached);
@@ -41,7 +42,8 @@ export const useContentInfo = (link: string, providerValue: string) => {
     meta: {
       onSuccess: (data: any) => {
         if (data) {
-          cacheStorage.setString(link, JSON.stringify(data));
+          const cacheKey = `${link}_${providerValue}`;
+          cacheStorage.setString(cacheKey, JSON.stringify(data));
         }
       },
     },

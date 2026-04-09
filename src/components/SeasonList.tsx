@@ -13,6 +13,7 @@ import {
   useWindowDimensions,
   Image,
   Linking,
+  RefreshControl,
 } from 'react-native';
 import {BlurView} from 'expo-blur';
 
@@ -79,6 +80,7 @@ interface SeasonListProps {
     providerValue: string;
     infoUrl: string;
   }) => void;
+  onRefresh?: () => void;
 }
 
 interface PlayHandlerProps {
@@ -113,6 +115,8 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
   onSeasonChangeProp,
   onPlayOverride,
   tmdbData,
+  refreshing = false,
+  onRefresh,
 }, ref) => {
   const {width: windowWidth} = useWindowDimensions();
   const isTablet = windowWidth > 768;
@@ -1015,6 +1019,16 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
                   offset: ((isTablet ? 450 : 340) + 24) * index,
                   index,
                 })}
+                refreshControl={
+                  onRefresh ? (
+                    <RefreshControl
+                      refreshing={refreshing}
+                      onRefresh={onRefresh}
+                      tintColor={primary}
+                      colors={[primary]}
+                    />
+                  ) : undefined
+                }
               />
             ) : (
               <>
