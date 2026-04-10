@@ -581,7 +581,7 @@ const App = () => {
                     animationDuration: 200,
                     freezeOnBlur: true,
                     contentStyle: {backgroundColor: 'transparent'},
-                    orientation: isLargeScreen ? 'all' : 'portrait',
+                    orientation: isLargeScreen ? 'landscape' : 'portrait',
                   }}>
                   <Stack.Screen name="TabStack" component={TabStack} />
                   <Stack.Screen

@@ -1,4 +1,8 @@
 {
-  "cSpell.words": ["notifee", "RNFS"],
-  "npm.packageManager": "npm"
+  "cSpell.words": [
+    "notifee",
+    "RNFS"
+  ],
+  "npm.packageManager": "npm",
+  "java.compile.nullAnalysis.mode": "automatic"
 }

@@ -115,6 +115,8 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
   }, [meta?.background, info?.image]);
 
   const [showEnlargeModal, setShowEnlargeModal] = useState(false);
+  const [enlargedScreenshot, setEnlargedScreenshot] = useState<string | null>(null);
+  const [activeScreenshotIndex, setActiveScreenshotIndex] = useState(0);
 
   const handlePlayOverride = useCallback((data: any) => {
     rootNavigation.navigate('Player', {
@@ -177,6 +179,15 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
   // Orientation and Layout
   const isLandscape = windowWidth > windowHeight;
   const isMobileLandscape = isLandscape && !isTablet;
+
+  // Auto-slide screenshots every 4 seconds on tablet landscape
+  useEffect(() => {
+    if (!isLandscape || !info?.screenshots || info.screenshots.length <= 1 || showEnlargeModal) return;
+    const timer = setInterval(() => {
+      setActiveScreenshotIndex(i => (i + 1) % (info.screenshots?.length || 1));
+    }, 4000);
+    return () => clearInterval(timer);
+  }, [isLandscape, info?.screenshots, showEnlargeModal]);
 
   React.useEffect(() => {
     if (isLandscape) {
@@ -468,25 +479,110 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
               )}
             </View>
 
-            {/* Poster / Trailer Area */}
-            <View className="aspect-video w-full rounded-[40px] overflow-hidden border-2 border-white/10 shadow-2xl relative bg-black">
-              <Image source={{uri: backgroundImage}} className="w-full h-full" resizeMode="cover" />
-              <View className="absolute top-4 right-4 flex-col items-end">
-                {metadata.quality.map((q, i) => (
-                  <View key={i} className="bg-primary px-2 py-1 rounded-lg mb-1 shadow-lg">
-                    <Text className="text-white text-[10px] font-black uppercase">{q}</Text>
-                  </View>
-                ))}
-              </View>
+            {/* Poster / Trailer Area — Screenshot Slideshow */}
+            {(() => {
+              const shots = info?.screenshots && info.screenshots.length > 0 ? info.screenshots : null;
+              const currentImg = shots ? shots[activeScreenshotIndex] : backgroundImage;
+              return (
+                <View className="aspect-video w-full rounded-[40px] overflow-hidden border-2 border-white/10 shadow-2xl relative bg-black">
+                  <Image source={{uri: currentImg}} className="w-full h-full" resizeMode="cover" />
 
-              {/* Enlarge Button */}
-              <TouchableOpacity 
-                 onPress={() => setShowEnlargeModal(true)}
-                 className="absolute bottom-4 right-4 w-10 h-10 rounded-full bg-black/60 items-center justify-center border border-white/20"
-              >
-                <Ionicons name="expand" size={18} color="white" />
-              </TouchableOpacity>
-            </View>
+                  {/* Quality badges */}
+                  <View className="absolute top-4 right-4 flex-col items-end">
+                    {metadata.quality.map((q, i) => (
+                      <View key={i} className="bg-primary px-2 py-1 rounded-lg mb-1 shadow-lg">
+                        <Text className="text-white text-[10px] font-black uppercase">{q}</Text>
+                      </View>
+                    ))}
+                  </View>
+
+                  {/* Screenshot thumbnail strip at bottom (only when screenshots available) */}
+                  {shots && shots.length > 1 && (
+                    <View style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: 72 }}>
+                      {/* Gradient fade */}
+                      <LinearGradient 
+                        colors={['transparent', 'rgba(0,0,0,0.88)']} 
+                        style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }} 
+                      />
+                      <ScrollView
+                        horizontal
+                        showsHorizontalScrollIndicator={false}
+                        contentContainerStyle={{ paddingHorizontal: 12, paddingBottom: 6, paddingTop: 10, alignItems: 'center' }}
+                        style={{ flex: 1 }}
+                      >
+                        {shots.map((ss: string, i: number) => (
+                          <TouchableOpacity
+                            key={i}
+                            onPress={() => {
+                              setActiveScreenshotIndex(i);
+                              setEnlargedScreenshot(ss);
+                              setShowEnlargeModal(true);
+                            }}
+                            style={{
+                              width: 60,
+                              height: 38,
+                              borderRadius: 8,
+                              overflow: 'hidden',
+                              marginRight: 6,
+                              borderWidth: i === activeScreenshotIndex ? 2 : 1,
+                              borderColor: i === activeScreenshotIndex ? '#FF4D3D' : 'rgba(255,255,255,0.3)',
+                            }}
+                          >
+                            <Image source={{uri: ss}} style={{width: '100%', height: '100%'}} resizeMode="cover" />
+                          </TouchableOpacity>
+                        ))}
+                      </ScrollView>
+                    </View>
+                  )}
+
+                  {/* Slide indicator dots (when screenshots) */}
+                  {shots && shots.length > 1 && (
+                    <View className="absolute top-4 left-4 flex-row">
+                      {shots.map((_: any, i: number) => (
+                        <TouchableOpacity key={i} onPress={() => setActiveScreenshotIndex(i)}>
+                          <View style={{
+                            width: i === activeScreenshotIndex ? 16 : 6,
+                            height: 6,
+                            borderRadius: 3,
+                            backgroundColor: i === activeScreenshotIndex ? '#FF4D3D' : 'rgba(255,255,255,0.4)',
+                            marginRight: 4,
+                          }} />
+                        </TouchableOpacity>
+                      ))}
+                    </View>
+                  )}
+
+                  {/* Left/Right navigation arrows (when screenshots) */}
+                  {shots && shots.length > 1 && (
+                    <>
+                      <TouchableOpacity
+                        onPress={() => setActiveScreenshotIndex(i => (i - 1 + shots.length) % shots.length)}
+                        style={{ position: 'absolute', left: 8, top: '50%', marginTop: -18, width: 36, height: 36, borderRadius: 18, backgroundColor: 'rgba(0,0,0,0.5)', alignItems: 'center', justifyContent: 'center', borderWidth: 1, borderColor: 'rgba(255,255,255,0.2)' }}
+                      >
+                        <Ionicons name="chevron-back" size={18} color="white" />
+                      </TouchableOpacity>
+                      <TouchableOpacity
+                        onPress={() => setActiveScreenshotIndex(i => (i + 1) % shots.length)}
+                        style={{ position: 'absolute', right: 8, top: '50%', marginTop: -18, width: 36, height: 36, borderRadius: 18, backgroundColor: 'rgba(0,0,0,0.5)', alignItems: 'center', justifyContent: 'center', borderWidth: 1, borderColor: 'rgba(255,255,255,0.2)' }}
+                      >
+                        <Ionicons name="chevron-forward" size={18} color="white" />
+                      </TouchableOpacity>
+                    </>
+                  )}
+
+                  {/* Enlarge Button */}
+                  <TouchableOpacity
+                    onPress={() => {
+                      setEnlargedScreenshot(currentImg);
+                      setShowEnlargeModal(true);
+                    }}
+                    className="absolute bottom-4 right-4 w-10 h-10 rounded-full bg-black/60 items-center justify-center border border-white/20"
+                  >
+                    <Ionicons name="expand" size={18} color="white" />
+                  </TouchableOpacity>
+                </View>
+              );
+            })()}
 
             {/* Main Action Buttons: Resume & Watch Now moved here */}
             <View className="mt-6 flex-col gap-y-3">
@@ -623,7 +719,8 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                            <TouchableOpacity
                              key={idx}
                              onPress={() => handleSeasonChange(item)}
-                              onLayout={(e) => { seasonItemLayouts.current[item.title] = e.nativeEvent.layout.x; }}
+                              onLayout={(e) => { seasonItemLayouts.current[item.title] = e.nativeEvent.layout.x; }}
+
                              className={`mr-3 px-6 py-3 rounded-2xl border ${isActive ? 'bg-primary border-primary shadow-lg shadow-primary/30' : (mode === 'dark' ? 'bg-white/5 border-white/10' : 'bg-white border-black/5')}`}
                            >
                              <Text className={`font-black text-[11px] uppercase tracking-[1px] ${isActive ? 'text-white' : (mode === 'dark' ? 'text-white/40' : 'text-black/40')}`}>
@@ -966,20 +1063,54 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
           }
         />
 
-        {/* Enlarge Poster Modal */}
+        {/* Enlarge Poster / Screenshot Modal */}
         <Modal transparent visible={showEnlargeModal} animationType="fade" statusBarTranslucent>
           <View className="flex-1 bg-black justify-center items-center">
-            <TouchableOpacity 
+            <TouchableOpacity
               onPress={() => setShowEnlargeModal(false)}
               className="absolute top-12 right-6 z-50 w-12 h-12 rounded-full bg-white/10 items-center justify-center"
             >
               <Ionicons name="close" size={30} color="white" />
             </TouchableOpacity>
-            
-            <Image source={{uri: posterImage}} className="w-full h-full" resizeMode="contain" />
-            
-            <View className="absolute bottom-12 left-0 right-0 items-center">
-              <Text className="text-white text-2xl font-black uppercase tracking-tighter shadow-lg shadow-black">{displayTitle}</Text>
+
+            <Image source={{uri: enlargedScreenshot || posterImage}} className="w-full h-full" resizeMode="contain" />
+
+            {/* Screenshot strip at bottom of enlarge modal (if screenshots available) */}
+            {info?.screenshots && info.screenshots.length > 1 && (
+              <View className="absolute bottom-0 left-0 right-0">
+                <LinearGradient colors={['transparent', 'rgba(0,0,0,0.9)']} style={{paddingTop: 40}}>
+                  <ScrollView
+                    horizontal
+                    showsHorizontalScrollIndicator={false}
+                    contentContainerStyle={{ paddingHorizontal: 16, paddingBottom: 20 }}
+                  >
+                    {info.screenshots.map((ss: string, i: number) => (
+                      <TouchableOpacity
+                        key={i}
+                        onPress={() => {
+                          setEnlargedScreenshot(ss);
+                          setActiveScreenshotIndex(i);
+                        }}
+                        style={{
+                          width: 90,
+                          height: 56,
+                          borderRadius: 10,
+                          overflow: 'hidden',
+                          marginRight: 8,
+                          borderWidth: enlargedScreenshot === ss ? 2 : 1,
+                          borderColor: enlargedScreenshot === ss ? '#FF4D3D' : 'rgba(255,255,255,0.3)',
+                        }}
+                      >
+                        <Image source={{uri: ss}} style={{width: '100%', height: '100%'}} resizeMode="cover" />
+                      </TouchableOpacity>
+                    ))}
+                  </ScrollView>
+                </LinearGradient>
+              </View>
+            )}
+
+            <View className="absolute bottom-28 left-0 right-0 items-center">
+              <Text className="text-white text-xl font-black uppercase tracking-tighter shadow-lg shadow-black">{displayTitle}</Text>
             </View>
           </View>
         </Modal>
