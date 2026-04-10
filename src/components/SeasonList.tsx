@@ -432,16 +432,17 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
   }, [combinedData, isCompleted]);
 
   useEffect(() => {
-    const list = filteredAndSortedEpisodes.length > 0 ? filteredAndSortedEpisodes : filteredAndSortedDirectLinks;
-    if (onNextUpFound && list[nextUpIndex]) {
-      const epMeta = getEpisodeMetadata(list[nextUpIndex].title);
+    // nextUpIndex is an index into combinedData, use it directly
+    const nextItem = combinedData[nextUpIndex];
+    if (onNextUpFound && nextItem) {
+      const epMeta = getEpisodeMetadata(nextItem.title);
       onNextUpFound({
-        ...list[nextUpIndex],
+        ...nextItem,
         size: epMeta?.size,
-        progress: getWatchProgress(list[nextUpIndex].link)
+        progress: getWatchProgress(nextItem.link)
       });
     }
-  }, [nextUpIndex, filteredAndSortedEpisodes, filteredAndSortedDirectLinks, onNextUpFound, getEpisodeMetadata]);
+  }, [nextUpIndex, combinedData, onNextUpFound, getEpisodeMetadata, getWatchProgress]);
 
   // Imperative handle for remote playback and search
   React.useImperativeHandle(ref, () => ({
@@ -779,7 +780,10 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
   const renderDirectLinkItem = useCallback(({item, index}: {item: any, index: number}) => {
     const progress = getWatchProgress(item.link);
     const completed = progress > 85;
-    const isNext = index === nextUpIndex && !completed;
+    // Offset: direct links come after all episodes in combinedData
+    const combinedIndex = filteredAndSortedEpisodes.length + index;
+    const isNext = combinedIndex === nextUpIndex && !completed;
+    const isMovie = item?.type === 'movie' || type === 'movie';
     const fileName = (metaTitle + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_');
 
     return (
@@ -787,7 +791,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
         {/* Left: 16:9 Thumbnail Cluster - Flush */}
         <TouchableOpacity 
             activeOpacity={0.8}
-            onPress={() => playHandler({ linkIndex: index, type: item?.type || type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: combinedData })}
+            onPress={() => playHandler({ linkIndex: combinedIndex, type: item?.type || type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: combinedData })}
             className={`${isTablet ? 'w-[180px]' : 'w-[140px]'} aspect-video relative bg-black`}
         >
             {poster?.poster ? (
@@ -813,7 +817,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
         <View className="flex-1 px-4 py-3 justify-between">
           <View>
             <View className="flex-row items-center justify-between">
-              {!sanitizeName(item.title).toLowerCase().includes('episode') && (
+              {!isMovie && !sanitizeName(item.title).toLowerCase().includes('episode') && (
                 <Text className={`${mode === 'dark' ? 'text-white/60' : 'text-black/60'} text-[11px] font-black uppercase tracking-tight mr-2`}>
                   Ep {String(getAbsoluteEpisodeNumber(item.title, item.originalIndex)).padStart(2, '0')}
                 </Text>
@@ -837,7 +841,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
           </View>
 
           <View className="flex-row items-center mt-2 gap-x-6">
-            <TouchableOpacity onPress={() => playHandler({ linkIndex: index, type: item?.type || type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: combinedData })}>
+            <TouchableOpacity onPress={() => playHandler({ linkIndex: combinedIndex, type: item?.type || type, primaryTitle: metaTitle, secondaryTitle: item.title, seasonTitle: activeSeason?.title || '', episodeData: combinedData })}>
               <Text className="text-[#FF4D3D] text-[10px] font-black uppercase tracking-[1.5px]">Play</Text>
             </TouchableOpacity>
 
@@ -865,7 +869,7 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
         )}
       </View>
     );
-  }, [mode, primary, playHandler, type, metaTitle, activeSeason?.title, combinedData, getWatchProgress, nextUpIndex, toggleWatched, handleDownload, poster?.poster, showDownloadButtonOnCards, isTablet, getAbsoluteEpisodeNumber]);
+  }, [mode, primary, playHandler, type, metaTitle, activeSeason?.title, combinedData, filteredAndSortedEpisodes.length, getWatchProgress, nextUpIndex, toggleWatched, handleDownload, poster?.poster, showDownloadButtonOnCards, isTablet, getAbsoluteEpisodeNumber]);
 
   const renderServerItem = useCallback((item: Stream, index: number) => {
     const serverName = sanitizeName(item.server || `Server ${index + 1}`, true);

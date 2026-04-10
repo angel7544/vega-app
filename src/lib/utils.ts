@@ -3,9 +3,9 @@ export const technicalTerms = [
   /\b10bit\b/gi, /\bHEVC\b/gi, /\bBluray\b/gi, /\bAMZN\b/gi, /\bDSNP\b/gi, 
   /\bNF\b/gi, /\bATVP\b/gi, /\bSTUTTER\b/gi, /\bPROPER\b/gi, /\bREPACK\b/gi, 
   /\bREMUX\b/gi, /\bAVC\b/gi, /\bEnglish\b/gi, /\bHindi\b/gi, /\bJapanese\b/gi, 
-  /\bTamil\b/gi, /\bTelugu\b/gi, /\bMalayalam\b/gi, /\bKannada\b/gi, 
-  /\bMSub\b/gi, /\bMulti\b/gi, /\bDual\b/gi, /\bAudio\b/gi,
-  /\[.*?\]/g, /[{}]/g,  /\bMSUBS\b/gi,
+  /\bTamil\b/gi, /\bTelugu\b/gi, /\bMalayalam\b/gi, /\bKannada\b/gi, /\bSpanish\b/gi,  
+  /\bMSub\b/gi, /\bMulti\b/gi, /\bDual\b/gi, /\bAudio\b/gi, /\bChinese\b/gi, 
+  /\[.*?\]/g, /[{}]/g,  /\bMSUBS\b/gi, /\bESUSB\b/gi,
 ];
 
 export const qualityLabels = [

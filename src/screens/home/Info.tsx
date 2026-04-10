@@ -80,6 +80,12 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
   const seasonListRef = useRef<SeasonListHandle>(null);
   const [nextUpEpisode, setNextUpEpisode] = useState<any>(null);
 
+  // Season scroll refs — one per scroll strip location
+  const seasonScrollRef = useRef<ScrollView>(null);           // portrait tabs
+  const seasonScrollRefLandscape = useRef<ScrollView>(null);  // tablet landscape tabs
+  const seasonScrollRefMobile = useRef<ScrollView>(null);     // mobile landscape header
+  const seasonItemLayouts = useRef<Record<string, number>>({});
+
   const threeDotsRef = useRef<any | null>(null);
 
   // Memoized computed values
@@ -114,8 +120,9 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
     rootNavigation.navigate('Player', {
       linkIndex: data.linkIndex,
       episodeList: data.episodeList,
-      type: info?.type || 'series',
+      type: data.type || info?.type || 'series',
       primaryTitle: displayTitle,
+      secondaryTitle: data.secondaryTitle,
       poster: { poster: posterImage },
       providerValue: route.params.provider || provider.value,
       infoUrl: route.params.link,
@@ -155,6 +162,17 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
     setActiveSeason(item);
     cacheStorage.setString(`ActiveSeason${displayTitle + (route.params.provider || provider.value)}`, JSON.stringify(item));
   }, [displayTitle, route.params.provider, provider.value]);
+
+  // Auto-scroll all season strips to show the active tab
+  useEffect(() => {
+    if (!activeSeason?.title) return;
+    const x = seasonItemLayouts.current[activeSeason.title];
+    if (x == null) return;
+    const offset = Math.max(0, x - 16);
+    seasonScrollRef.current?.scrollTo({ x: offset, animated: true });
+    seasonScrollRefLandscape.current?.scrollTo({ x: offset, animated: true });
+    seasonScrollRefMobile.current?.scrollTo({ x: offset, animated: true });
+  }, [activeSeason?.title]);
 
   // Orientation and Layout
   const isLandscape = windowWidth > windowHeight;
@@ -353,6 +371,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
           <View className="flex-row items-center space-x-4">
             {filteredLinkList.length > 1 && isMobileLandscape && (
               <ScrollView 
+                ref={seasonScrollRefMobile}
                 horizontal 
                 showsHorizontalScrollIndicator={false}
                 className="max-w-[180px]"
@@ -364,6 +383,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                     <TouchableOpacity
                       key={idx}
                       onPress={() => handleSeasonChange(item)}
+                      onLayout={(e) => { seasonItemLayouts.current[item.title] = e.nativeEvent.layout.x; }}
                       className={`mr-3 px-4 py-2 rounded-full border ${isActive ? 'bg-primary border-primary' : (mode === 'dark' ? 'bg-white/5 border-white/10' : 'bg-black/5 border-black/10')}`}
                     >
                       <Text className={`text-[10px] font-black uppercase tracking-[1px] ${isActive ? 'text-white' : (mode === 'dark' ? 'text-white/40' : 'text-black/40')}`}>
@@ -596,13 +616,14 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                  {filteredLinkList.length > 1 && (
                    <View className="mb-6">
                      <Text className={`${textMain} font-black text-[10px] uppercase tracking-widest mb-3 opacity-40 ml-1`}>Select Season</Text>
-                     <ScrollView horizontal showsHorizontalScrollIndicator={false} className="flex-row">
+                     <ScrollView ref={seasonScrollRefLandscape} horizontal showsHorizontalScrollIndicator={false} className="flex-row">
                        {filteredLinkList.map((item: any, idx: number) => {
                          const isActive = activeSeason?.title === item.title;
                          return (
                            <TouchableOpacity
                              key={idx}
                              onPress={() => handleSeasonChange(item)}
+                              onLayout={(e) => { seasonItemLayouts.current[item.title] = e.nativeEvent.layout.x; }}
                              className={`mr-3 px-6 py-3 rounded-2xl border ${isActive ? 'bg-primary border-primary shadow-lg shadow-primary/30' : (mode === 'dark' ? 'bg-white/5 border-white/10' : 'bg-white border-black/5')}`}
                            >
                              <Text className={`font-black text-[11px] uppercase tracking-[1px] ${isActive ? 'text-white' : (mode === 'dark' ? 'text-white/40' : 'text-black/40')}`}>
@@ -635,7 +656,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                 }}
                 meta={meta}
                 screenshots={info?.screenshots}
-                type={info?.type || 'series'}
+                type={info?.type || 'movie'}
                 metaTitle={displayTitle}
                 tmdbData={tmdb}
                 routeParams={route.params}
@@ -880,6 +901,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
               {filteredLinkList.length > 1 && (
                 <View className="mt-8 mb-4">
                   <ScrollView 
+                    ref={seasonScrollRef}
                     horizontal 
                     showsHorizontalScrollIndicator={false}
                     contentContainerStyle={{ flexGrow: 1, justifyContent: 'center', paddingHorizontal: 20 }}
@@ -892,6 +914,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                         <TouchableOpacity
                           key={idx}
                           onPress={() => handleSeasonChange(item)}
+                          onLayout={(e) => { seasonItemLayouts.current[item.title] = e.nativeEvent.layout.x; }}
                           className={`mr-3 px-6 py-3 rounded-2xl flex-row items-center border ${isActive ? 'bg-primary border-primary shadow-lg shadow-primary/30' : (mode === 'dark' ? 'bg-white/5 border-white/10' : 'bg-white border-black/5')}`}
                         >
                           <Text className={`font-black text-[11px] uppercase tracking-[1px] ${isActive ? 'text-white' : (mode === 'dark' ? 'text-white/40' : 'text-black/40')}`}>
@@ -925,7 +948,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                     }}
                     meta={meta}
                     screenshots={info?.screenshots}
-                    type={info?.type || 'series'}
+                    type={info?.type || 'movie'}
                     metaTitle={displayTitle}
                     tmdbData={tmdb}
                     routeParams={route.params}
