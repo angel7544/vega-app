@@ -42,7 +42,7 @@ export const getTMDBDetails = async (id: number, type: 'movie' | 'tv' = 'movie')
 
   try {
     const response = await fetch(
-      `${BASE_URL}/${type}/${id}?api_key=${apiKey}&append_to_response=credits`,
+      `${BASE_URL}/${type}/${id}?api_key=${apiKey}&append_to_response=credits,images&include_image_language=en,null`,
       { headers }
     );
     return await response.json();

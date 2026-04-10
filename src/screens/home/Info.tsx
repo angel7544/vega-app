@@ -15,47 +15,49 @@ import {
   StyleSheet,
   ScrollView,
 } from 'react-native';
-import React, {useCallback, useEffect, useMemo, useRef, useState} from 'react';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
   NativeStackNavigationProp,
   NativeStackScreenProps,
 } from '@react-navigation/native-stack';
-import {HomeStackParamList, TabStackParamList, RootStackParamList} from '../../types/navigation';
+import { HomeStackParamList, TabStackParamList, RootStackParamList } from '../../types/navigation';
 import LinearGradient from 'react-native-linear-gradient';
 import SeasonList, { SeasonListHandle } from '../../components/SeasonList';
-import {Feather, MaterialCommunityIcons, Ionicons, MaterialIcons} from '@expo/vector-icons';
-import {Dropdown} from 'react-native-element-dropdown';
-import {cacheStorage, mainStorage,  settingsStorage, watchListStorage} from '../../lib/storage';
+import { Feather, MaterialCommunityIcons, Ionicons, MaterialIcons } from '@expo/vector-icons';
+import { Dropdown } from 'react-native-element-dropdown';
+import { cacheStorage, mainStorage, settingsStorage, watchListStorage } from '../../lib/storage';
 import ReactNativeHapticFeedback from 'react-native-haptic-feedback';
 import useContentStore from '../../lib/zustand/contentStore';
 import useThemeStore from '../../lib/zustand/themeStore';
-import {useNavigation} from '@react-navigation/native';
+import { useNavigation } from '@react-navigation/native';
 import useWatchListStore from '../../lib/zustand/watchListStore';
-import {useContentDetails} from '../../lib/hooks/useContentInfo';
-import {QueryErrorBoundary} from '../../components/ErrorBoundary';
+import { useContentDetails } from '../../lib/hooks/useContentInfo';
+import { QueryErrorBoundary } from '../../components/ErrorBoundary';
 import SkeletonLoader from '../../components/Skeleton';
 import useToastStore from '../../lib/zustand/toastStore';
 import useNavBarStore from '../../lib/zustand/navBarStore';
-import {sanitizeName, extractMetadata} from '../../lib/utils';
+import { sanitizeName, extractMetadata } from '../../lib/utils';
 // import {BlurView} from 'expo-blur';
 // import Video, { VideoRef, ResizeMode, SelectedTrack, SelectedTrackType } from 'react-native-video';
 import { useStream } from '../../lib/hooks/useStream';
 import Animated, { FadeIn, FadeOut, FadeInDown, useSharedValue, useAnimatedStyle, withTiming } from 'react-native-reanimated';
 import { BlurView } from 'expo-blur';
+import axios from 'axios';
+import * as cheerio from 'cheerio';
 
 type Props = NativeStackScreenProps<HomeStackParamList, 'Info'>;
-export default function Info({route, navigation}: Props): React.JSX.Element {
+export default function Info({ route, navigation }: Props): React.JSX.Element {
   const searchNavigation =
     useNavigation<NativeStackNavigationProp<TabStackParamList>>();
-  const {primary, mode} = useThemeStore(state => state);
-  const {width: windowWidth, height: windowHeight} = useWindowDimensions();
+  const { primary, mode } = useThemeStore(state => state);
+  const { width: windowWidth, height: windowHeight } = useWindowDimensions();
   const rootNavigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
   const isTablet = windowWidth > 768;
   const headerHeight = isTablet ? 640 : 450;
-  const {addItem, removeItem} = useWatchListStore(state => state);
-  const {provider} = useContentStore(state => state);
-  const {show} = useToastStore();
-  const {setVisible: setNavBarVisible} = useNavBarStore();
+  const { addItem, removeItem } = useWatchListStore(state => state);
+  const { provider } = useContentStore(state => state);
+  const { show } = useToastStore();
+  const { setVisible: setNavBarVisible } = useNavBarStore();
 
   // React Query for optimized data fetching
   const {
@@ -73,7 +75,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
   // UI state
   const [threeDotsMenuOpen, setThreeDotsMenuOpen] = useState(false);
   const [readMore, setReadMore] = useState(false);
-  const [menuPosition, setMenuPosition] = useState({top: -1000, right: 0});
+  const [menuPosition, setMenuPosition] = useState({ top: -1000, right: 0 });
   const [backgroundColor, setBackgroundColor] = useState('transparent');
   // Logo Error Handling
   const [logoError, setLogoError] = useState(false);
@@ -88,6 +90,18 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
 
   const threeDotsRef = useRef<any | null>(null);
 
+  // 1. Season Management & Filtered Lists (Dependencies for Memos)
+  const filteredLinkList = useMemo(() => {
+    if (!info?.linkList) return [];
+    const excludedQualities = settingsStorage.getExcludedQualities();
+    const filtered = info.linkList.filter(
+      (item: any) => !item.quality || !excludedQualities.includes(item.quality as string)
+    );
+    return filtered.length > 0 ? filtered : info.linkList;
+  }, [info?.linkList]);
+
+  const [activeSeason, setActiveSeason] = useState<any>(null);
+
   // Memoized computed values
   const displayTitle = useMemo(() => {
     return meta?.name || info?.title || '';
@@ -99,12 +113,13 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
 
   const posterImage = useMemo(() => {
     return (
+      activeSeason?.image ||
       meta?.poster ||
       route.params.poster ||
       info?.image ||
       'https://www.br31tech.live/logo.png?text=OrbixPlay'
     );
-  }, [meta?.poster, route.params.poster, info?.image]);
+  }, [activeSeason?.image, meta?.poster, route.params.poster, info?.image]);
 
   const backgroundImage = useMemo(() => {
     return (
@@ -114,9 +129,40 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
     );
   }, [meta?.background, info?.image]);
 
+  const [scrapedScreenshots, setScrapedScreenshots] = useState<string[]>([]);
+
+  const allScreenshots = useMemo(() => {
+    // Strictly ONLY use images from the official 'ScreenShot' section found by the scraper
+    // plus any formal 'screenshots' field the provider module already parsed.
+    const list: string[] = [];
+
+    if (info?.screenshots) {
+      if (Array.isArray(info.screenshots)) list.push(...info.screenshots);
+      else if (typeof info.screenshots === 'string') list.push(info.screenshots);
+    }
+
+    if ((info as any)?.extra?.screenshots && Array.isArray((info as any).extra.screenshots)) {
+      list.push(...(info as any).extra.screenshots);
+    }
+
+    return Array.from(new Set(
+      [...list, ...scrapedScreenshots].filter(s => {
+        if (typeof s !== 'string' || !s.startsWith('http')) return false;
+        
+        const lowS = s.toLowerCase();
+        const allowedDomains = ['blogger.googleusercontent.com', 'imgur.com', 'catimages.org'];
+        const isAllowedDomain = allowedDomains.some(domain => lowS.includes(domain));
+        const isVLC = lowS.includes('vlc');
+
+        return isAllowedDomain && isVLC && s !== posterImage && s !== backgroundImage;
+      })
+    ));
+  }, [info, meta, posterImage, backgroundImage, scrapedScreenshots]);
+
   const [showEnlargeModal, setShowEnlargeModal] = useState(false);
   const [enlargedScreenshot, setEnlargedScreenshot] = useState<string | null>(null);
   const [activeScreenshotIndex, setActiveScreenshotIndex] = useState(0);
+  const [activeContentTab, setActiveContentTab] = useState<'episodes' | 'gallery'>('episodes');
 
   const handlePlayOverride = useCallback((data: any) => {
     rootNavigation.navigate('Player', {
@@ -132,18 +178,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
   }, [displayTitle, info?.type, posterImage, route.params.link, route.params.provider, provider.value]);
 
   // Memoized computed values first
-  const filteredLinkList = useMemo(() => {
-    if (!info?.linkList) return [];
-    const excludedQualities = settingsStorage.getExcludedQualities();
-    const filtered = info.linkList.filter(
-      (item: any) => !item.quality || !excludedQualities.includes(item.quality as string)
-    );
-    return filtered.length > 0 ? filtered : info.linkList;
-  }, [info?.linkList]);
 
-  // Season Management (Depends on filteredLinkList and displayTitle)
-  const [activeSeason, setActiveSeason] = useState<any>(null);
-  
   useEffect(() => {
     if (filteredLinkList.length > 0) {
       const cached = cacheStorage.getString(`ActiveSeason${displayTitle + (route.params.provider || provider.value)}`);
@@ -152,7 +187,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
           const parsed = JSON.parse(cached);
           const match = filteredLinkList.find((l: any) => l.title === parsed.title);
           if (match) { setActiveSeason(match); return; }
-        } catch (e) {}
+        } catch (e) { }
       }
       setActiveSeason(filteredLinkList[0]);
     }
@@ -180,14 +215,79 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
   const isLandscape = windowWidth > windowHeight;
   const isMobileLandscape = isLandscape && !isTablet;
 
+  // Responsive Gallery Grid Calculations
+  const screenshotCols = isTablet ? (windowWidth > 1100 ? 4 : 3) : 2;
+  const shotWidthLandscape = (windowWidth * 0.65 - (screenshotCols - 1) * 16) / screenshotCols;
+  const shotWidthPortrait = (windowWidth - (isTablet ? 96 : 48) - (screenshotCols - 1) * 16) / screenshotCols;
+
+  // Real-time Scraper for 'ScreenShot' sections as requested
+  useEffect(() => {
+    const scrapeSite = async () => {
+      if (!route.params.link) return;
+      try {
+        console.log('Targeted Scraping for screenshot section:', route.params.link);
+        const { data: html } = await axios.get(route.params.link, { timeout: 10000 });
+        const $ = cheerio.load(html);
+        const images: string[] = [];
+
+        // Pinpoint the "ScreenShot" section by searching for header text
+        $('p, h1, h2, h3, h4, span, div, center').each((_, el) => {
+          const text = $(el).text().toLowerCase();
+          // Match variations of "Screen Shot"
+          if (text.includes('screenshot') || (text.includes('screen') && text.includes('shot'))) {
+            // Priority 1: Images inside this element or its parent (container mode)
+            $(el).parent().find('img').each((__, img) => {
+              const src = $(img).attr('src') || $(img).attr('data-src') || $(img).attr('data-lazy-src') || $(img).attr('data-original');
+              if (src && src.startsWith('http')) images.push(src);
+            });
+            
+            // Priority 2: Images immediately following this marker (neighbor mode)
+            $(el).nextAll().slice(0, 4).each((__, sibling) => {
+              const siblingImgs = $(sibling).find('img');
+              if (siblingImgs.length > 0) {
+                siblingImgs.each((___, img) => {
+                   const src = $(img).attr('src') || $(img).attr('data-src') || $(img).attr('data-lazy-src');
+                   if (src && src.startsWith('http')) images.push(src);
+                });
+              } else if ($(sibling).is('img')) {
+                const src = $(sibling).attr('src') || $(sibling).attr('data-src');
+                if (src && src.startsWith('http')) images.push(src);
+              }
+            });
+          }
+        });
+
+        // Strict filtering for actual screenshots (strictly blogger, imgur, catimages with VLC)
+        const uniqueImages = Array.from(new Set(images)).filter(img => {
+          const lowImg = img.toLowerCase();
+          const allowedDomains = ['blogger.googleusercontent.com', 'imgur.com', 'catimages.org'];
+          const isAllowedDomain = allowedDomains.some(domain => lowImg.includes(domain));
+          const isVLC = lowImg.includes('vlc');
+          const isPoster = img === posterImage || img === backgroundImage;
+
+          return isAllowedDomain && isVLC && !isPoster && img.length > 15;
+        });
+
+        if (uniqueImages.length > 0) {
+          setScrapedScreenshots(uniqueImages);
+          console.log(`Successfully scraped ${uniqueImages.length} images from screenshot section.`);
+        }
+      } catch (err) {
+        console.log('Scraper error:', err);
+      }
+    };
+
+    scrapeSite();
+  }, [route.params.link, posterImage, backgroundImage]);
+
   // Auto-slide screenshots every 4 seconds on tablet landscape
   useEffect(() => {
-    if (!isLandscape || !info?.screenshots || info.screenshots.length <= 1 || showEnlargeModal) return;
+    if (!isLandscape || allScreenshots.length <= 1 || showEnlargeModal) return;
     const timer = setInterval(() => {
-      setActiveScreenshotIndex(i => (i + 1) % (info.screenshots?.length || 1));
+      setActiveScreenshotIndex(i => (i + 1) % (allScreenshots.length || 1));
     }, 4000);
     return () => clearInterval(timer);
-  }, [isLandscape, info?.screenshots, showEnlargeModal]);
+  }, [isLandscape, allScreenshots, showEnlargeModal]);
 
   React.useEffect(() => {
     if (isLandscape) {
@@ -240,7 +340,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
     return extractMetadata(info?.title || meta?.name || route.params.link || '');
   }, [info?.title, meta?.name, route.params.link]);
 
-  const Badge = ({text, type}: {text: string, type: 'quality' | 'technical'}) => {
+  const Badge = ({ text, type }: { text: string, type: 'quality' | 'technical' }) => {
     let bgColor = type === 'quality' ? 'bg-primary' : 'bg-white/10 border border-white/10';
     let textColor = 'text-white';
 
@@ -260,7 +360,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
     );
   };
 
-  const MetadataRow = ({items, type, className}: {items: string[], type: 'quality' | 'technical', className?: string}) => (
+  const MetadataRow = ({ items, type, className }: { items: string[], type: 'quality' | 'technical', className?: string }) => (
     <View className={`flex-row flex-wrap ${className}`}>
       {items.map((item, idx) => (
         <Badge key={idx} text={item} type={type} />
@@ -273,7 +373,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
     if (threeDotsRef.current) {
       threeDotsRef.current.measure(
         (x: number, y: number, width: number, height: number, pageX: number, pageY: number) => {
-          setMenuPosition({top: pageY - 35, right: 35});
+          setMenuPosition({ top: pageY - 35, right: 35 });
           setThreeDotsMenuOpen(true);
         }
       );
@@ -341,13 +441,13 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
     return (
       <View className={`flex-1 ${bgPrimary}`}>
         <StatusBar hidden />
-        
+
         {/* Background Backdrop - Global */}
         <View className="absolute inset-0">
-          <Image source={{uri: backgroundImage}} className="w-full h-full" resizeMode="cover" />
-          <LinearGradient 
-            colors={mode === 'dark' ? ['rgba(0,0,0,0.4)', 'rgba(0,0,0,0.96)'] : ['rgba(255,255,255,0.2)', 'rgba(255,255,255,0.98)']} 
-            className="absolute inset-0" 
+          <Image source={{ uri: backgroundImage }} className="w-full h-full" resizeMode="cover" />
+          <LinearGradient
+            colors={mode === 'dark' ? ['rgba(0,0,0,0.4)', 'rgba(0,0,0,0.96)'] : ['rgba(255,255,255,0.2)', 'rgba(255,255,255,0.98)']}
+            className="absolute inset-0"
           />
         </View>
 
@@ -381,9 +481,9 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
 
           <View className="flex-row items-center space-x-4">
             {filteredLinkList.length > 1 && isMobileLandscape && (
-              <ScrollView 
+              <ScrollView
                 ref={seasonScrollRefMobile}
-                horizontal 
+                horizontal
                 showsHorizontalScrollIndicator={false}
                 className="max-w-[180px]"
                 contentContainerStyle={{ alignItems: 'center', paddingRight: 20 }}
@@ -416,24 +516,24 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
             </View>
 
             {/* Heart Button in Landscape Header */}
-            <TouchableOpacity 
-              onPress={inLibrary ? removeLibrary : addLibrary} 
+            <TouchableOpacity
+              onPress={inLibrary ? removeLibrary : addLibrary}
               className={`w-11 h-11 ${cardBg} rounded-xl items-center justify-center border ${borderCol} ml-4`}
             >
               <Ionicons name={inLibrary ? "heart" : "heart-outline"} size={22} color={inLibrary ? "#FF4D3D" : mode === 'dark' ? "white" : "black"} />
             </TouchableOpacity>
 
-            <TouchableOpacity 
+            <TouchableOpacity
               onPress={() => {
                 seasonListRef.current?.toggleSort();
                 setIsDescending(seasonListRef.current?.getSortOrder() === 'desc');
               }}
               className={`w-11 h-11 ${cardBg} rounded-xl items-center justify-center border ${borderCol}`}
             >
-              <MaterialCommunityIcons 
-                name={isDescending ? "sort-descending" : "sort-ascending"} 
-                size={22} 
-                color={mode === 'dark' ? 'white' : 'black'} 
+              <MaterialCommunityIcons
+                name={isDescending ? "sort-descending" : "sort-ascending"}
+                size={22}
+                color={mode === 'dark' ? 'white' : 'black'}
               />
             </TouchableOpacity>
           </View>
@@ -441,24 +541,24 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
 
         {/* Main Side-by-Side Content */}
         <View className="flex-1 flex-row pt-20 px-8">
-          
+
           {/* Left Column - Info & Actions */}
           <View className={`${isMobileLandscape ? 'w-[28%]' : 'w-[32%]'} h-full px-1`}>
             {/* Logo/Title moved to Left Column top */}
             <View className="mb-6">
               {meta?.logo ? (
-                <Image source={{uri: meta.logo}} style={{width: isMobileLandscape ? 220 : 320, height: isMobileLandscape ? 60 : 90, resizeMode: 'contain'}} />
+                <Image source={{ uri: meta.logo }} style={{ width: isMobileLandscape ? 220 : 320, height: isMobileLandscape ? 60 : 90, resizeMode: 'contain' }} />
               ) : (
                 <Text className={`${textMain} ${isMobileLandscape ? 'text-2xl' : 'text-4xl'} font-black uppercase tracking-tighter`}>{displayTitle}</Text>
               )}
-              
+
               <View className="flex-row items-center mt-3 space-x-3">
                 {(meta?.year || info?.year || (tmdb as any)?.release_date?.split('-')[0] || (tmdb as any)?.first_air_date?.split('-')[0]) && (
                   <Text className={`${textSub} font-black text-xs`}>{(meta?.year || info?.year || (tmdb as any)?.release_date?.split('-')[0] || (tmdb as any)?.first_air_date?.split('-')[0])}</Text>
                 )}
                 <View className="w-1 h-1 rounded-full bg-white/20" />
                 <Text className={`${textSub} font-black text-[9px] uppercase tracking-widest`}>{route.params.provider || provider.value}</Text>
-                
+
                 {((tmdb as any)?.vote_average > 0) && (
                   <>
                     <View className="w-1 h-1 rounded-full bg-white/20" />
@@ -481,11 +581,19 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
 
             {/* Poster / Trailer Area — Screenshot Slideshow */}
             {(() => {
-              const shots = info?.screenshots && info.screenshots.length > 0 ? info.screenshots : null;
-              const currentImg = shots ? shots[activeScreenshotIndex] : backgroundImage;
+              const shots = allScreenshots.length > 0 ? allScreenshots : null;
+              const currentImg = shots ? shots[activeScreenshotIndex % shots.length] : backgroundImage;
               return (
-                <View className="aspect-video w-full rounded-[40px] overflow-hidden border-2 border-white/10 shadow-2xl relative bg-black">
-                  <Image source={{uri: currentImg}} className="w-full h-full" resizeMode="cover" />
+                <TouchableOpacity
+                  activeOpacity={0.9}
+                  onPress={() => {
+                    setEnlargedScreenshot(currentImg);
+                    setShowEnlargeModal(true);
+                  }}
+                  style={{ zIndex: 100 }}
+                  className="aspect-video w-full rounded-[40px] overflow-hidden border-2 border-white/10 shadow-2xl relative bg-black"
+                >
+                  <Image source={{ uri: currentImg }} className="w-full h-full" resizeMode="contain" />
 
                   {/* Quality badges */}
                   <View className="absolute top-4 right-4 flex-col items-end">
@@ -496,91 +604,11 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                     ))}
                   </View>
 
-                  {/* Screenshot thumbnail strip at bottom (only when screenshots available) */}
-                  {shots && shots.length > 1 && (
-                    <View style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: 72 }}>
-                      {/* Gradient fade */}
-                      <LinearGradient 
-                        colors={['transparent', 'rgba(0,0,0,0.88)']} 
-                        style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }} 
-                      />
-                      <ScrollView
-                        horizontal
-                        showsHorizontalScrollIndicator={false}
-                        contentContainerStyle={{ paddingHorizontal: 12, paddingBottom: 6, paddingTop: 10, alignItems: 'center' }}
-                        style={{ flex: 1 }}
-                      >
-                        {shots.map((ss: string, i: number) => (
-                          <TouchableOpacity
-                            key={i}
-                            onPress={() => {
-                              setActiveScreenshotIndex(i);
-                              setEnlargedScreenshot(ss);
-                              setShowEnlargeModal(true);
-                            }}
-                            style={{
-                              width: 60,
-                              height: 38,
-                              borderRadius: 8,
-                              overflow: 'hidden',
-                              marginRight: 6,
-                              borderWidth: i === activeScreenshotIndex ? 2 : 1,
-                              borderColor: i === activeScreenshotIndex ? '#FF4D3D' : 'rgba(255,255,255,0.3)',
-                            }}
-                          >
-                            <Image source={{uri: ss}} style={{width: '100%', height: '100%'}} resizeMode="cover" />
-                          </TouchableOpacity>
-                        ))}
-                      </ScrollView>
-                    </View>
-                  )}
-
-                  {/* Slide indicator dots (when screenshots) */}
-                  {shots && shots.length > 1 && (
-                    <View className="absolute top-4 left-4 flex-row">
-                      {shots.map((_: any, i: number) => (
-                        <TouchableOpacity key={i} onPress={() => setActiveScreenshotIndex(i)}>
-                          <View style={{
-                            width: i === activeScreenshotIndex ? 16 : 6,
-                            height: 6,
-                            borderRadius: 3,
-                            backgroundColor: i === activeScreenshotIndex ? '#FF4D3D' : 'rgba(255,255,255,0.4)',
-                            marginRight: 4,
-                          }} />
-                        </TouchableOpacity>
-                      ))}
-                    </View>
-                  )}
-
-                  {/* Left/Right navigation arrows (when screenshots) */}
-                  {shots && shots.length > 1 && (
-                    <>
-                      <TouchableOpacity
-                        onPress={() => setActiveScreenshotIndex(i => (i - 1 + shots.length) % shots.length)}
-                        style={{ position: 'absolute', left: 8, top: '50%', marginTop: -18, width: 36, height: 36, borderRadius: 18, backgroundColor: 'rgba(0,0,0,0.5)', alignItems: 'center', justifyContent: 'center', borderWidth: 1, borderColor: 'rgba(255,255,255,0.2)' }}
-                      >
-                        <Ionicons name="chevron-back" size={18} color="white" />
-                      </TouchableOpacity>
-                      <TouchableOpacity
-                        onPress={() => setActiveScreenshotIndex(i => (i + 1) % shots.length)}
-                        style={{ position: 'absolute', right: 8, top: '50%', marginTop: -18, width: 36, height: 36, borderRadius: 18, backgroundColor: 'rgba(0,0,0,0.5)', alignItems: 'center', justifyContent: 'center', borderWidth: 1, borderColor: 'rgba(255,255,255,0.2)' }}
-                      >
-                        <Ionicons name="chevron-forward" size={18} color="white" />
-                      </TouchableOpacity>
-                    </>
-                  )}
-
-                  {/* Enlarge Button */}
-                  <TouchableOpacity
-                    onPress={() => {
-                      setEnlargedScreenshot(currentImg);
-                      setShowEnlargeModal(true);
-                    }}
-                    className="absolute bottom-4 right-4 w-10 h-10 rounded-full bg-black/60 items-center justify-center border border-white/20"
-                  >
-                    <Ionicons name="expand" size={18} color="white" />
-                  </TouchableOpacity>
-                </View>
+                  {/* Touch hint */}
+                  <View className="absolute bottom-4 right-6 bg-black/40 px-3 py-1.5 rounded-full border border-white/10">
+                    <Text className="text-white/60 text-[8px] font-black uppercase tracking-widest">Tap to Enlarge</Text>
+                  </View>
+                </TouchableOpacity>
               );
             })()}
 
@@ -588,7 +616,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
             <View className="mt-6 flex-col gap-y-3">
               {nextUpEpisode ? (
                 /* Resume Episode Button */
-                <TouchableOpacity 
+                <TouchableOpacity
                   onPress={handleWatchNow}
                   className="flex-row items-center bg-primary border border-primary/30 p-4 rounded-3xl shadow-xl shadow-primary/30"
                 >
@@ -596,8 +624,8 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                     <Ionicons name="play-forward" size={20} color={primary} />
                   </View>
                   <View className="ml-4 flex-1">
-                     <Text className="text-white font-black text-[10px] uppercase tracking-widest">Resume Episode</Text>
-                     <Text className="text-white/80 font-bold text-xs" numberOfLines={1}>{sanitizeName(nextUpEpisode.title)}</Text>
+                    <Text className="text-white font-black text-[10px] uppercase tracking-widest">Resume Episode</Text>
+                    <Text className="text-white/80 font-bold text-xs" numberOfLines={1}>{sanitizeName(nextUpEpisode.title)}</Text>
                   </View>
                   <Ionicons name="chevron-forward" size={20} color="white" />
                   {nextUpEpisode.progress > 0 && (
@@ -608,8 +636,8 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                 </TouchableOpacity>
               ) : (
                 /* Regular Watch Now Button */
-                <TouchableOpacity 
-                  onPress={handleWatchNow} 
+                <TouchableOpacity
+                  onPress={handleWatchNow}
                   style={{ backgroundColor: '#FF4D3D' }}
                   className="w-full py-4 px-6 rounded-3xl flex-row items-center justify-center shadow-xl shadow-red-600/30"
                 >
@@ -619,19 +647,19 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                   </Text>
                 </TouchableOpacity>
               )}
-              
-              <TouchableOpacity 
+
+              <TouchableOpacity
                 onPress={() => Linking.openURL(`https://www.youtube.com/results?search_query=${encodeURIComponent(displayTitle + ' trailer')}`)}
                 className={`w-full h-14 items-center justify-center flex-row rounded-3xl border border-white/10 ${mode === 'dark' ? 'bg-white/5 shadow-xl shadow-black/40' : 'bg-black/5 shadow-sm'}`}
               >
                 <Ionicons name="logo-youtube" size={18} color="#FF0000" />
                 <Text className={`${textMain} text-[10px] font-black uppercase tracking-widest ml-3`}>YouTube Trailer</Text>
               </TouchableOpacity>
-              
+
               <View className="flex-row items-center gap-x-3">
-                <TouchableOpacity 
-                   onPress={() => Linking.openURL(route.params.link)}
-                   className={`flex-1 h-14 items-center justify-center flex-row rounded-3xl border border-white/10 ${mode === 'dark' ? 'bg-white/5 shadow-xl shadow-black/40' : 'bg-black/5 shadow-sm'}`}
+                <TouchableOpacity
+                  onPress={() => Linking.openURL(route.params.link)}
+                  className={`flex-1 h-14 items-center justify-center flex-row rounded-3xl border border-white/10 ${mode === 'dark' ? 'bg-white/5 shadow-xl shadow-black/40' : 'bg-black/5 shadow-sm'}`}
                 >
                   <Ionicons name="link" size={20} color={mode === 'dark' ? "white" : "black"} />
                   <Text className={`${textMain} text-[10px] font-black uppercase tracking-widest ml-2`}>Visit Site</Text>
@@ -647,33 +675,33 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                 <View className="flex-row flex-wrap">
                   {(tmdb.credits.cast as any[])?.slice(0, 4).map((person: any, idx: number) => (
                     <View key={idx} className="flex-row items-center mr-4 mb-3">
-                       <View className="w-8 h-8 rounded-full bg-white/10 items-center justify-center border border-white/5 overflow-hidden">
-                          {person.profile_path ? (
-                            <Image source={{uri: `https://image.tmdb.org/t/p/w200${person.profile_path}`}} className="w-full h-full" resizeMode="cover" />
-                          ) : (
-                            <Ionicons name="person" size={14} color="gray" />
-                          )}
-                       </View>
-                       <View className="ml-2">
-                          <Text className={`${textMain} text-[9px] font-black`} numberOfLines={1}>{person.name}</Text>
-                          <Text className={`${textSub} text-[7px] font-bold`} numberOfLines={1}>{person.character}</Text>
-                       </View>
+                      <View className="w-8 h-8 rounded-full bg-white/10 items-center justify-center border border-white/5 overflow-hidden">
+                        {person.profile_path ? (
+                          <Image source={{ uri: `https://image.tmdb.org/t/p/w200${person.profile_path}` }} className="w-full h-full" resizeMode="cover" />
+                        ) : (
+                          <Ionicons name="person" size={14} color="gray" />
+                        )}
+                      </View>
+                      <View className="ml-2">
+                        <Text className={`${textMain} text-[9px] font-black`} numberOfLines={1}>{person.name}</Text>
+                        <Text className={`${textSub} text-[7px] font-bold`} numberOfLines={1}>{person.character}</Text>
+                      </View>
                     </View>
                   ))}
-                  
+
                   {(tmdb.credits.crew as any[])?.filter((p: any) => p.job === 'Director' || p.job === 'Producer' || p.job === 'Executive Producer').slice(0, 2).map((person: any, idx: number) => (
                     <View key={`crew-${idx}`} className="flex-row items-center mr-4 mb-3">
-                       <View className="w-8 h-8 rounded-full bg-white/10 items-center justify-center border border-white/5 overflow-hidden">
-                          {person.profile_path ? (
-                            <Image source={{uri: `https://image.tmdb.org/t/p/w200${person.profile_path}`}} className="w-full h-full" resizeMode="cover" />
-                          ) : (
-                            <Ionicons name="person" size={14} color="gray" />
-                          )}
-                       </View>
-                       <View className="ml-2">
-                          <Text className={`${textMain} text-[9px] font-black`} numberOfLines={1}>{person.name}</Text>
-                          <Text className={`${textSub} text-[7px] font-bold`} numberOfLines={1}>{person.job}</Text>
-                       </View>
+                      <View className="w-8 h-8 rounded-full bg-white/10 items-center justify-center border border-white/5 overflow-hidden">
+                        {person.profile_path ? (
+                          <Image source={{ uri: `https://image.tmdb.org/t/p/w200${person.profile_path}` }} className="w-full h-full" resizeMode="cover" />
+                        ) : (
+                          <Ionicons name="person" size={14} color="gray" />
+                        )}
+                      </View>
+                      <View className="ml-2">
+                        <Text className={`${textMain} text-[9px] font-black`} numberOfLines={1}>{person.name}</Text>
+                        <Text className={`${textSub} text-[7px] font-bold`} numberOfLines={1}>{person.job}</Text>
+                      </View>
                     </View>
                   ))}
                 </View>
@@ -684,15 +712,15 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
 
 
           {/* Right Column - Info Cluster & Episodes */}
-          <ScrollView 
-            className="flex-1 ml-10" 
+          <ScrollView
+            className="flex-1 ml-10"
             showsVerticalScrollIndicator={false}
             contentContainerStyle={{ paddingBottom: 60 }}
           >
             <View className="pr-6 pb-2">
               <View>
                 {/* Logo/Title and basic metadata removed from here (now in Left Column) */}
-                
+
                 {/* Metadata Badges below title info */}
                 <View className="mt-2">
                   <MetadataRow items={[...metadata.quality, ...metadata.technical]} type="technical" />
@@ -707,59 +735,97 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
             {/* Tablet-Specific Season Controls (Landscape) */}
             {isTablet && (
               <View className="mt-6 mb-4">
-                 {/* Resume button removed from here (now in Left Column) */}
+                {filteredLinkList.length > 0 && (
+                  <View className="mb-6 px-1">
+                    <View className="flex-row items-center mb-6 gap-x-8">
+                      <TouchableOpacity onPress={() => setActiveContentTab('episodes')}>
+                        <Text className={`${textMain} font-black text-[12px] uppercase tracking-widest ${activeContentTab === 'episodes' ? 'opacity-100' : 'opacity-30'}`}>Episodes</Text>
+                        {activeContentTab === 'episodes' && <View className="h-0.5 bg-primary mt-1 w-full" />}
+                      </TouchableOpacity>
+                      <TouchableOpacity onPress={() => setActiveContentTab('gallery')}>
+                        <Text className={`${textMain} font-black text-[12px] uppercase tracking-widest ${activeContentTab === 'gallery' ? 'opacity-100' : 'opacity-30'}`}>Gallery</Text>
+                        {activeContentTab === 'gallery' && <View className="h-0.5 bg-primary mt-1 w-full" />}
+                      </TouchableOpacity>
+                    </View>
 
-                 {filteredLinkList.length > 1 && (
-                   <View className="mb-6">
-                     <Text className={`${textMain} font-black text-[10px] uppercase tracking-widest mb-3 opacity-40 ml-1`}>Select Season</Text>
-                     <ScrollView ref={seasonScrollRefLandscape} horizontal showsHorizontalScrollIndicator={false} className="flex-row">
-                       {filteredLinkList.map((item: any, idx: number) => {
-                         const isActive = activeSeason?.title === item.title;
-                         return (
-                           <TouchableOpacity
-                             key={idx}
-                             onPress={() => handleSeasonChange(item)}
-                              onLayout={(e) => { seasonItemLayouts.current[item.title] = e.nativeEvent.layout.x; }}
-
-                             className={`mr-3 px-6 py-3 rounded-2xl border ${isActive ? 'bg-primary border-primary shadow-lg shadow-primary/30' : (mode === 'dark' ? 'bg-white/5 border-white/10' : 'bg-white border-black/5')}`}
-                           >
-                             <Text className={`font-black text-[11px] uppercase tracking-[1px] ${isActive ? 'text-white' : (mode === 'dark' ? 'text-white/40' : 'text-black/40')}`}>
-                               {sanitizeName(item.title)}
-                             </Text>
-                           </TouchableOpacity>
-                         );
-                       })}
-                     </ScrollView>
-                   </View>
-                 )}
+                    {activeContentTab === 'episodes' ? (
+                      filteredLinkList.length > 1 && (
+                        <ScrollView ref={seasonScrollRefLandscape} horizontal showsHorizontalScrollIndicator={false} className="flex-row">
+                          {filteredLinkList.map((item: any, idx: number) => {
+                            const isActive = activeSeason?.title === item.title;
+                            return (
+                              <TouchableOpacity
+                                key={idx}
+                                onPress={() => handleSeasonChange(item)}
+                                onLayout={(e) => { seasonItemLayouts.current[item.title] = e.nativeEvent.layout.x; }}
+                                className={`mr-3 px-6 py-3 rounded-2xl border ${isActive ? 'bg-primary border-primary shadow-lg shadow-primary/30' : (mode === 'dark' ? 'bg-white/5 border-white/10' : 'bg-white border-black/5')}`}
+                              >
+                                <Text className={`font-black text-[11px] uppercase tracking-[1px] ${isActive ? 'text-white' : (mode === 'dark' ? 'text-white/40' : 'text-black/40')}`}>
+                                  {sanitizeName(item.title)}
+                                </Text>
+                              </TouchableOpacity>
+                            );
+                          })}
+                        </ScrollView>
+                      )
+                    ) : (
+                      <View className="flex-row flex-wrap gap-4">
+                        {allScreenshots.length > 0 ? (
+                          allScreenshots.map((ss: string, idx: number) => (
+                            <TouchableOpacity
+                              key={idx}
+                              style={{ width: shotWidthLandscape, aspectRatio: 16 / 9, zIndex: 50 }}
+                              className="rounded-3xl overflow-hidden border border-white/10 shadow-xl bg-black"
+                              onPress={() => {
+                                setEnlargedScreenshot(ss);
+                                setActiveScreenshotIndex(idx);
+                                setShowEnlargeModal(true);
+                              }}
+                            >
+                              <Image source={{ uri: ss }} className="w-full h-full" resizeMode="contain" />
+                            </TouchableOpacity>
+                          ))
+                        ) : (
+                          <View className="w-full py-16 items-center justify-center opacity-30">
+                            <Ionicons name="images-outline" size={64} color={mode === 'dark' ? 'white' : 'black'} />
+                            <Text className={`${textMain} text-base font-bold mt-6`}>No screenshots available</Text>
+                          </View>
+                        )}
+                      </View>
+                    )}
+                  </View>
+                )}
               </View>
             )}
 
             {/* Episode List - Vertical Scroll on Tablet Landscape */}
-             <View className={`${isMobileLandscape ? 'h-[240px]' : ''} mt-4`}>
-              <SeasonList
-                ref={seasonListRef}
-                onNextUpFound={setNextUpEpisode}
-                horizontal={isMobileLandscape} // Only horizontal on phone landscape
-                refreshing={false}
-                providerValue={route.params.provider || provider.value}
-                LinkList={filteredLinkList}
-                activeSeasonProp={activeSeason}
-                onSeasonChangeProp={handleSeasonChange}
-                poster={{
-                  logo: meta?.logo,
-                  poster: posterImage,
-                  background: backgroundImage,
-                }}
-                meta={meta}
-                screenshots={info?.screenshots}
-                type={info?.type || 'movie'}
-                metaTitle={displayTitle}
-                tmdbData={tmdb}
-                routeParams={route.params}
-                onPlayOverride={handlePlayOverride}
-              />
+            <View className={`${isMobileLandscape ? 'h-[240px]' : ''} mt-4`}>
+              {activeContentTab === 'episodes' && (
+                <SeasonList
+                  ref={seasonListRef}
+                  onNextUpFound={setNextUpEpisode}
+                  horizontal={isMobileLandscape} // Only horizontal on phone landscape
+                  refreshing={false}
+                  providerValue={route.params.provider || provider.value}
+                  LinkList={filteredLinkList}
+                  activeSeasonProp={activeSeason}
+                  onSeasonChangeProp={handleSeasonChange}
+                  poster={{
+                    logo: meta?.logo,
+                    poster: posterImage,
+                    background: backgroundImage,
+                  }}
+                  meta={meta}
+                  screenshots={info?.screenshots}
+                  type={info?.type || 'movie'}
+                  metaTitle={displayTitle}
+                  tmdbData={tmdb}
+                  routeParams={route.params}
+                  onPlayOverride={handlePlayOverride}
+                />
+              )}
             </View>
+
           </ScrollView>
         </View>
       </View>
@@ -770,11 +836,11 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
     <QueryErrorBoundary>
       <View className={`flex-1 ${mode === 'dark' ? 'bg-black' : 'bg-gray-50'}`}>
         <StatusBar barStyle={mode === 'dark' ? 'light-content' : 'dark-content'} translucent backgroundColor="transparent" />
-        
+
         {/* Floating Top Header */}
         <View className="absolute top-0 left-0 right-0 h-24 flex-row items-center justify-between px-6 z-50 pt-8">
-          <TouchableOpacity 
-            onPress={() => navigation.goBack()} 
+          <TouchableOpacity
+            onPress={() => navigation.goBack()}
             className={`w-10 h-10 ${mode === 'dark' ? 'bg-white/10' : 'bg-white'} rounded-full items-center justify-center border ${mode === 'dark' ? 'border-white/10' : 'border-black/10 shadow-sm shadow-black/20'}`}
           >
             <Ionicons name="chevron-back" size={24} color={mode === 'dark' ? 'white' : 'black'} />
@@ -805,35 +871,35 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
           <View className={`flex-row items-center ${mode === 'dark' ? 'bg-white/10' : 'bg-white'} rounded-full px-4 h-10 border ${mode === 'dark' ? 'border-white/10' : 'border-black/10 shadow-sm shadow-black/20'} ${isTablet ? 'w-48' : 'flex-1'} ml-2`}>
             <Ionicons name="search" size={16} color={mode === 'dark' ? '#ffffff50' : '#00000040'} />
             <TextInput
-                placeholder="Search..."
-                placeholderTextColor={mode === 'dark' ? '#ffffff40' : '#00000040'}
-                className={`flex-1 ml-2 ${mode === 'dark' ? 'text-white' : 'text-black'} text-[11px] font-bold`}
-                onChangeText={(text: string) => seasonListRef.current?.setSearch(text)}
+              placeholder="Search..."
+              placeholderTextColor={mode === 'dark' ? '#ffffff40' : '#00000040'}
+              className={`flex-1 ml-2 ${mode === 'dark' ? 'text-white' : 'text-black'} text-[11px] font-bold`}
+              onChangeText={(text: string) => seasonListRef.current?.setSearch(text)}
             />
           </View>
 
           {/* Heart Button in Portrait Header */}
-          <TouchableOpacity 
-             onPress={inLibrary ? removeLibrary : addLibrary} 
-             className={`w-[32px] h-[32px] ${mode === 'dark' ? 'bg-white/10' : 'bg-white'} rounded-full ml-3 items-center justify-center border ${mode === 'dark' ? 'border-white/10' : 'border-black/10 shadow-sm shadow-black/20'}`}
+          <TouchableOpacity
+            onPress={inLibrary ? removeLibrary : addLibrary}
+            className={`w-[32px] h-[32px] ${mode === 'dark' ? 'bg-white/10' : 'bg-white'} rounded-full ml-3 items-center justify-center border ${mode === 'dark' ? 'border-white/10' : 'border-black/10 shadow-sm shadow-black/20'}`}
           >
-             <Ionicons name={inLibrary ? "heart" : "heart-outline"} size={16} color={inLibrary ? "#FF4D3D" : mode === 'dark' ? "white" : "black"} />
+            <Ionicons name={inLibrary ? "heart" : "heart-outline"} size={16} color={inLibrary ? "#FF4D3D" : mode === 'dark' ? "white" : "black"} />
           </TouchableOpacity>
-          <TouchableOpacity 
+          <TouchableOpacity
             onPress={() => {
-                seasonListRef.current?.toggleSort();
-                setIsDescending(seasonListRef.current?.getSortOrder() === 'desc');
+              seasonListRef.current?.toggleSort();
+              setIsDescending(seasonListRef.current?.getSortOrder() === 'desc');
             }}
             className={`w-[32px] h-[32px] ${mode === 'dark' ? 'bg-white/10' : 'bg-white'} rounded-full ml-3 items-center justify-center border ${mode === 'dark' ? 'border-white/10' : 'border-black/10 shadow-sm shadow-black/20'}`}
           >
-            <MaterialCommunityIcons 
-              name={isDescending ? "sort-descending" : "sort-ascending"} 
-              size={18} 
-              color={mode === 'dark' ? 'white' : 'black'} 
+            <MaterialCommunityIcons
+              name={isDescending ? "sort-descending" : "sort-ascending"}
+              size={18}
+              color={mode === 'dark' ? 'white' : 'black'}
             />
           </TouchableOpacity>
 
-      </View>
+        </View>
 
         <FlatList
           showsVerticalScrollIndicator={false}
@@ -843,16 +909,16 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
           contentContainerStyle={{ paddingBottom: 40 }}
           ListHeaderComponent={
             <View className={isTablet ? "px-10 pt-32" : "px-6 pt-24"}>
-              
+
               <View className={isTablet ? "flex-row items-start" : "flex-col"}>
                 {/* Grand Banner - Portrait Centerpiece */}
                 <View className={isTablet ? "w-[58%] aspect-[16/9]" : "w-full aspect-video rounded-[30px] overflow-hidden border-2 border-white/10 shadow-2xl relative bg-black"}>
                   <View className="w-full h-full rounded-[30px] overflow-hidden">
-                    <Image source={{uri: backgroundImage}} className="w-full h-full" resizeMode="cover" />
+                    <Image source={{ uri: backgroundImage }} className="w-full h-full" resizeMode="cover" />
                   </View>
-                  
+
                   {/* Enlarge Button */}
-                  <TouchableOpacity 
+                  <TouchableOpacity
                     onPress={() => setShowEnlargeModal(true)}
                     className="absolute bottom-6 right-6 w-12 h-12 rounded-full bg-black/60 items-center justify-center border border-white/20"
                   >
@@ -874,7 +940,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                   {/* Metadata Cluster - Unified for Mobile/Tablet */}
                   <View className={`${isTablet ? 'mb-8' : 'mb-6 mt-4'}`}>
                     {meta?.logo ? (
-                      <Image source={{uri: meta.logo}} style={{width: isTablet ? 320 : 220, height: isTablet ? 100 : 70, resizeMode: 'contain'}} />
+                      <Image source={{ uri: meta.logo }} style={{ width: isTablet ? 320 : 220, height: isTablet ? 100 : 70, resizeMode: 'contain' }} />
                     ) : (
                       <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} ${isTablet ? 'text-5xl' : 'text-3xl'} font-black uppercase tracking-tight`}>{displayTitle}</Text>
                     )}
@@ -889,7 +955,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                       <Text className={`${mode === 'dark' ? 'text-white/40' : 'text-black/40'} font-black ${isTablet ? 'text-[10px]' : 'text-[9px]'} uppercase tracking-widest`}>
                         {route.params.provider || provider.value}
                       </Text>
-                      
+
                       {(tmdb as any)?.vote_average > 0 && (
                         <>
                           <View className={`w-1 h-1 rounded-full bg-white/20 ${isTablet ? 'mx-3' : 'mx-2'}`} />
@@ -919,37 +985,37 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                   {/* Action Buttons Row - Only show if not redundant on tablet */}
                   {(!isTablet || !nextUpEpisode) && (
                     <View className="flex-row items-center space-x-3">
-                      <TouchableOpacity 
-                         onPress={handleWatchNow} 
-                         style={{ backgroundColor: '#FF4D3D' }}
-                         className="flex-1 py-3.5 rounded-full flex-row items-center justify-center shadow-lg"
+                      <TouchableOpacity
+                        onPress={handleWatchNow}
+                        style={{ backgroundColor: '#FF4D3D' }}
+                        className="flex-1 py-3.5 rounded-full flex-row items-center justify-center shadow-lg"
                       >
                         <Ionicons name={nextUpEpisode?.progress > 0 ? "play-forward" : "play"} size={18} color="white" />
                         <View className="ml-3 items-start">
                           <Text className="text-white font-black text-[11px] uppercase tracking-[1px]">
-                              {nextUpEpisode ? (nextUpEpisode.progress > 0 ? 'Continue' : 'Watch Now') : (info ? 'Watch Again' : 'Watch Now')}
+                            {nextUpEpisode ? (nextUpEpisode.progress > 0 ? 'Continue' : 'Watch Now') : (info ? 'Watch Again' : 'Watch Now')}
                           </Text>
                           {nextUpEpisode && !isTablet && (
-                              <Text className="text-white/60 text-[7px] font-bold uppercase tracking-[0.5px]">
-                                  {sanitizeName(nextUpEpisode.title)}
-                              </Text>
+                            <Text className="text-white/60 text-[7px] font-bold uppercase tracking-[0.5px]">
+                              {sanitizeName(nextUpEpisode.title)}
+                            </Text>
                           )}
                         </View>
                       </TouchableOpacity>
 
-                      <TouchableOpacity 
-                         onPress={inLibrary ? removeLibrary : addLibrary} 
-                         className={`flex-1 py-3.5 rounded-full flex-row items-center justify-center border border-white/10 ${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'}`}
+                      <TouchableOpacity
+                        onPress={inLibrary ? removeLibrary : addLibrary}
+                        className={`flex-1 py-3.5 rounded-full flex-row items-center justify-center border border-white/10 ${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'}`}
                       >
                         <Ionicons name={inLibrary ? "heart" : "heart-outline"} size={18} color={inLibrary ? "#FF4D3D" : (mode === 'dark' ? "white" : "black")} />
-                          <Text className={`ml-3 font-black text-[11px] uppercase tracking-[1px] ${mode === 'dark' ? 'text-white' : 'text-black'}`}>
-                            {inLibrary ? 'In List' : 'List'}
-                          </Text>
+                        <Text className={`ml-3 font-black text-[11px] uppercase tracking-[1px] ${mode === 'dark' ? 'text-white' : 'text-black'}`}>
+                          {inLibrary ? 'In List' : 'List'}
+                        </Text>
                       </TouchableOpacity>
 
-                      <TouchableOpacity 
-                         onPress={() => Linking.openURL(route.params.link)}
-                         className={`px-4 py-3.5 rounded-full flex-row items-center justify-center border border-white/10 ${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'}`}
+                      <TouchableOpacity
+                        onPress={() => Linking.openURL(route.params.link)}
+                        className={`px-4 py-3.5 rounded-full flex-row items-center justify-center border border-white/10 ${mode === 'dark' ? 'bg-white/5' : 'bg-black/5'}`}
                       >
                         <Ionicons name="link" size={18} color={mode === 'dark' ? "white" : "black"} />
                       </TouchableOpacity>
@@ -959,7 +1025,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                   {/* Synopsis Section */}
                   <View className="mt-8">
                     <View className="relative">
-                      <Text 
+                      <Text
                         className={`${mode === 'dark' ? 'text-white/70' : 'text-black/70'} ${isTablet ? 'text-[15px] leading-[26px]' : 'text-[13px] leading-[22px]'} font-medium`}
                         numberOfLines={readMore ? undefined : (isTablet ? 6 : 3)}
                       >
@@ -979,59 +1045,98 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
 
               {/* Tablet-Specific Continue CTA (Portrait) */}
               {isTablet && nextUpEpisode && (
-                 <TouchableOpacity 
-                   onPress={handleWatchNow}
-                   className="mt-10 mx-6 bg-primary/20 border border-primary/30 p-5 rounded-[32px] flex-row items-center"
-                 >
-                   <View className="w-14 h-14 rounded-full bg-primary items-center justify-center shadow-2xl">
-                     <Ionicons name="play-forward" size={28} color="white" />
-                   </View>
-                   <View className="ml-5 flex-1">
-                      <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-black text-xs uppercase tracking-[2px]`}>Continue Watching</Text>
-                      <Text className={`${mode === 'dark' ? 'text-white/60' : 'text-black/60'} font-bold text-base mt-1`} numberOfLines={1}>{sanitizeName(nextUpEpisode.title)}</Text>
-                   </View>
-                   <Ionicons name="chevron-forward" size={24} color={primary} className="mr-2" />
-                 </TouchableOpacity>
+                <TouchableOpacity
+                  onPress={handleWatchNow}
+                  className="mt-10 mx-6 bg-primary/20 border border-primary/30 p-5 rounded-[32px] flex-row items-center"
+                >
+                  <View className="w-14 h-14 rounded-full bg-primary items-center justify-center shadow-2xl">
+                    <Ionicons name="play-forward" size={28} color="white" />
+                  </View>
+                  <View className="ml-5 flex-1">
+                    <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-black text-xs uppercase tracking-[2px]`}>Continue Watching</Text>
+                    <Text className={`${mode === 'dark' ? 'text-white/60' : 'text-black/60'} font-bold text-base mt-1`} numberOfLines={1}>{sanitizeName(nextUpEpisode.title)}</Text>
+                  </View>
+                  <Ionicons name="chevron-forward" size={24} color={primary} className="mr-2" />
+                </TouchableOpacity>
               )}
 
               {/* Season Selection Tabs */}
-              {filteredLinkList.length > 1 && (
-                <View className="mt-8 mb-4">
-                  <ScrollView 
-                    ref={seasonScrollRef}
-                    horizontal 
-                    showsHorizontalScrollIndicator={false}
-                    contentContainerStyle={{ flexGrow: 1, justifyContent: 'center', paddingHorizontal: 20 }}
-                    className="flex-row"
-                  >
-                    {filteredLinkList.map((item: any, idx: number) => {
-                      const isActive = activeSeason?.title === item.title;
-                      const itemMetadata = extractMetadata(item?.title || '');
-                      return (
+              <View className="mt-8 mb-4">
+                <View className="flex-row items-center mb-6 px-6 gap-x-8">
+                  <TouchableOpacity onPress={() => setActiveContentTab('episodes')}>
+                    <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-black text-xs uppercase tracking-widest ${activeContentTab === 'episodes' ? 'opacity-100' : 'opacity-30'}`}>Episodes</Text>
+                    {activeContentTab === 'episodes' && <View className="h-0.5 bg-primary mt-1 w-full" />}
+                  </TouchableOpacity>
+                  <TouchableOpacity onPress={() => setActiveContentTab('gallery')}>
+                    <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} font-black text-xs uppercase tracking-widest ${activeContentTab === 'gallery' ? 'opacity-100' : 'opacity-30'}`}>Gallery</Text>
+                    {activeContentTab === 'gallery' && <View className="h-0.5 bg-primary mt-1 w-full" />}
+                  </TouchableOpacity>
+                </View>
+
+                {activeContentTab === 'episodes' ? (
+                  filteredLinkList.length > 1 && (
+                    <ScrollView
+                      ref={seasonScrollRef}
+                      horizontal
+                      showsHorizontalScrollIndicator={false}
+                      contentContainerStyle={{ flexGrow: 1, justifyContent: 'center', paddingHorizontal: 20 }}
+                      className="flex-row"
+                    >
+                      {filteredLinkList.map((item: any, idx: number) => {
+                        const isActive = activeSeason?.title === item.title;
+                        const itemMetadata = extractMetadata(item?.title || '');
+                        return (
+                          <TouchableOpacity
+                            key={idx}
+                            onPress={() => handleSeasonChange(item)}
+                            onLayout={(e) => { seasonItemLayouts.current[item.title] = e.nativeEvent.layout.x; }}
+                            className={`mr-3 px-6 py-3 rounded-2xl flex-row items-center border ${isActive ? 'bg-primary border-primary shadow-lg shadow-primary/30' : (mode === 'dark' ? 'bg-white/5 border-white/10' : 'bg-white border-black/5')}`}
+                          >
+                            <Text className={`font-black text-[11px] uppercase tracking-[1px] ${isActive ? 'text-white' : (mode === 'dark' ? 'text-white/40' : 'text-black/40')}`}>
+                              {sanitizeName(item.title)}
+                            </Text>
+                            {isActive && itemMetadata.quality.length > 0 && (
+                              <View className="ml-2 bg-white/20 px-1.5 py-0.5 rounded">
+                                <Text className="text-white text-[7px] font-black uppercase">{itemMetadata.quality[0]}</Text>
+                              </View>
+                            )}
+                          </TouchableOpacity>
+                        );
+                      })}
+                    </ScrollView>
+                  )
+                ) : (
+                  <View className="px-6 flex-row flex-wrap gap-4">
+                    {allScreenshots.length > 0 ? (
+                      allScreenshots.map((ss: string, idx: number) => (
                         <TouchableOpacity
                           key={idx}
-                          onPress={() => handleSeasonChange(item)}
-                          onLayout={(e) => { seasonItemLayouts.current[item.title] = e.nativeEvent.layout.x; }}
-                          className={`mr-3 px-6 py-3 rounded-2xl flex-row items-center border ${isActive ? 'bg-primary border-primary shadow-lg shadow-primary/30' : (mode === 'dark' ? 'bg-white/5 border-white/10' : 'bg-white border-black/5')}`}
+                          style={{ width: shotWidthPortrait, aspectRatio: 16 / 9 }}
+                          className="rounded-3xl overflow-hidden border border-white/10 shadow-lg bg-black"
+                          onPress={() => {
+                            setEnlargedScreenshot(ss);
+                            setActiveScreenshotIndex(idx);
+                            setShowEnlargeModal(true);
+                          }}
                         >
-                          <Text className={`font-black text-[11px] uppercase tracking-[1px] ${isActive ? 'text-white' : (mode === 'dark' ? 'text-white/40' : 'text-black/40')}`}>
-                            {sanitizeName(item.title)}
-                          </Text>
-                          {isActive && itemMetadata.quality.length > 0 && (
-                             <View className="ml-2 bg-white/20 px-1.5 py-0.5 rounded">
-                                <Text className="text-white text-[7px] font-black uppercase">{itemMetadata.quality[0]}</Text>
-                             </View>
-                          )}
+                          <Image source={{ uri: ss }} className="w-full h-full" resizeMode="contain" />
                         </TouchableOpacity>
-                      );
-                    })}
-                  </ScrollView>
-                </View>
-              )}
+                      ))
+                    ) : (
+                      <View className="w-full py-16 items-center justify-center opacity-30">
+                        <Ionicons name="images-outline" size={64} color={mode === 'dark' ? 'white' : 'black'} />
+                        <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-base font-bold mt-6`}>No screenshots available</Text>
+                      </View>
+                    )}
+                  </View>
+                )}
+              </View>
+
 
               {/* Episode List (Premium Vertical Mode) */}
               <View className="mt-4">
-                <SeasonList
+                {activeContentTab === 'episodes' && (
+                  <SeasonList
                     ref={seasonListRef}
                     refreshing={false}
                     providerValue={route.params.provider || provider.value}
@@ -1039,9 +1144,9 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                     activeSeasonProp={activeSeason}
                     onSeasonChangeProp={handleSeasonChange}
                     poster={{
-                        logo: meta?.logo,
-                        poster: posterImage,
-                        background: backgroundImage,
+                      logo: meta?.logo,
+                      poster: posterImage,
+                      background: backgroundImage,
                     }}
                     meta={meta}
                     screenshots={info?.screenshots}
@@ -1051,8 +1156,10 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                     routeParams={route.params}
                     onNextUpFound={setNextUpEpisode}
                     onPlayOverride={handlePlayOverride}
-                />
+                  />
+                )}
               </View>
+
               {/* TMDb Attribution */}
               <View className="mt-12 mb-6 items-center opacity-40">
                 <Text className={`${mode === 'dark' ? 'text-white' : 'text-black'} text-[10px] text-center font-medium`}>
@@ -1073,18 +1180,18 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
               <Ionicons name="close" size={30} color="white" />
             </TouchableOpacity>
 
-            <Image source={{uri: enlargedScreenshot || posterImage}} className="w-full h-full" resizeMode="contain" />
+            <Image source={{ uri: enlargedScreenshot || posterImage }} className="w-full h-full" resizeMode="contain" />
 
             {/* Screenshot strip at bottom of enlarge modal (if screenshots available) */}
-            {info?.screenshots && info.screenshots.length > 1 && (
+            {allScreenshots.length > 1 && (
               <View className="absolute bottom-0 left-0 right-0">
-                <LinearGradient colors={['transparent', 'rgba(0,0,0,0.9)']} style={{paddingTop: 40}}>
+                <LinearGradient colors={['transparent', 'rgba(0,0,0,0.9)']} style={{ paddingTop: 40 }}>
                   <ScrollView
                     horizontal
                     showsHorizontalScrollIndicator={false}
                     contentContainerStyle={{ paddingHorizontal: 16, paddingBottom: 20 }}
                   >
-                    {info.screenshots.map((ss: string, i: number) => (
+                    {allScreenshots.map((ss: string, i: number) => (
                       <TouchableOpacity
                         key={i}
                         onPress={() => {
@@ -1101,7 +1208,7 @@ export default function Info({route, navigation}: Props): React.JSX.Element {
                           borderColor: enlargedScreenshot === ss ? '#FF4D3D' : 'rgba(255,255,255,0.3)',
                         }}
                       >
-                        <Image source={{uri: ss}} style={{width: '100%', height: '100%'}} resizeMode="cover" />
+                        <Image source={{ uri: ss }} style={{ width: '100%', height: '100%' }} resizeMode="contain" />
                       </TouchableOpacity>
                     ))}
                   </ScrollView>

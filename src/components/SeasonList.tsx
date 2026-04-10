@@ -590,7 +590,10 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
     const fileName = (metaTitle + (activeSeason?.title || '') + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_');
 
     return (
-      <View key={item.link + index} className={`${isTablet ? 'w-[200px] flex-col' : 'w-[300px] flex-row'} mr-6 rounded-[24px] overflow-hidden ${mode === 'dark' ? 'bg-white/12 border-white/20' : 'bg-white border-black/5 shadow-lg'} border shadow-2xl shadow-black/50`}>
+      <View key={item.link + index} className={`${isTablet ? 'w-[200px] flex-col' : 'w-[300px] flex-row'} mr-6 rounded-[24px] overflow-hidden ${mode === 'dark' ? 'bg-white/12 border-white/20' : 'bg-white/70 border-white/40 shadow-xl'} border shadow-2xl shadow-black/50`}>
+        {mode !== 'dark' && (
+          <BlurView intensity={30} tint="light" style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }} />
+        )}
         {/* Left: 16:9 Thumbnail Cluster - Flush */}
         <TouchableOpacity 
             activeOpacity={0.8}
@@ -688,7 +691,10 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
     const fileName = (metaTitle + (activeSeason?.title || '') + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_');
 
     return (
-      <View key={item.link + index} className={`${isTablet ? 'w-full' : 'w-full'} mb-6 rounded-[32px] overflow-hidden ${mode === 'dark' ? 'bg-white/8 border-white/10' : 'bg-white border-black/5 shadow-xl'} border flex-col shadow-2xl p-6 shadow-black/40`}>
+      <View key={item.link + index} className={`${isTablet ? 'w-full' : 'w-full'} mb-6 rounded-[32px] overflow-hidden ${mode === 'dark' ? 'bg-white/8 border-white/10' : 'bg-white/70 border-white/30 shadow-xl'} border flex-col shadow-2xl p-6 shadow-black/40`}>
+        {mode !== 'dark' && (
+          <BlurView intensity={30} tint="light" style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }} />
+        )}
         {/* Header: Title and Next Badge */}
         <View className="flex-row items-center justify-between mb-5">
           <View className="flex-1 mr-4">
@@ -787,7 +793,10 @@ const SeasonList = React.forwardRef<SeasonListHandle, SeasonListProps>(({
     const fileName = (metaTitle + item.title).replaceAll(/[^a-zA-Z0-9]/g, '_');
 
     return (
-      <View key={item.link + index} className={`${isTablet ? 'flex-1' : 'w-full'} mb-6 rounded-[28px] overflow-hidden ${mode === 'dark' ? 'bg-white/10 border-white/20' : 'bg-white border-black/5 shadow-lg'} border flex-row shadow-2xl shadow-black/40`}>
+      <View key={item.link + index} className={`${isTablet ? 'flex-1' : 'w-full'} mb-6 rounded-[28px] overflow-hidden ${mode === 'dark' ? 'bg-white/10 border-white/20' : 'bg-white/70 border-white/30 shadow-xl'} border flex-row shadow-2xl shadow-black/40`}>
+        {mode !== 'dark' && (
+          <BlurView intensity={30} tint="light" style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }} />
+        )}
         {/* Left: 16:9 Thumbnail Cluster - Flush */}
         <TouchableOpacity 
             activeOpacity={0.8}

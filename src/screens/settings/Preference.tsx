@@ -121,6 +121,7 @@ const Preferences = () => {
     settingsStorage.getInitialHomeScreen(),
   );
 
+
   const { 
     disableEpg, 
     toggleDisableEpg, 
@@ -454,6 +455,7 @@ const Preferences = () => {
                 />
               </View>
             </View>
+
 
             {/* Always Use External Downloader */}
             <View className="flex-row items-center justify-between p-4">
